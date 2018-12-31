@@ -68,11 +68,11 @@ Detonation is also audible while parked, revving with brakes applied in "D" gear
 #### Detonation signals
 [youtube: Four signals we see on the oscilloscope](https://youtu.be/7aafaZgr2AE)
 
-[youtube: No detonation driving baseline](https://youtu.be/2fNrJ7NDFm8)
+[youtube: No detonation while driving - baseline](https://youtu.be/2fNrJ7NDFm8)
 
-[youtube: Knocking driving](https://youtu.be/eehx5zH8igI)
+[youtube: Knocking while driving](https://youtu.be/eehx5zH8igI)
 
-[youtune: Knocking driving zoom in](https://youtu.be/QXTaa1mGbwE)
+[youtune: Knocking while driving zoomed in](https://youtu.be/QXTaa1mGbwE)
 
 [youtune: Knocking while standing on brakes 40 degrees timing](https://youtu.be/ylvMqOD50bY)
 
