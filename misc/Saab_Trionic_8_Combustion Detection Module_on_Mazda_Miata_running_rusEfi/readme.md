@@ -1,9 +1,9 @@
-### Reverse Engineering Saab Trionic 8 Combustion Detection Module (CDM) output signals on rusEfi ECU
+## Reverse Engineering Saab Trionic 8 Combustion Detection Module (CDM) output signals on rusEfi ECU
 
 ###### by Andrey Belomutskiy, 2018
 
-* [Table of contents](#table-of-contents)
-  * [Installation](#installation)
+* [Table of contents](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#table-of-contents)
+  * [Hardware](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#hardware)
   * [Usage](#usage)
 * [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#next-steps)  
 * [External links]()
@@ -23,12 +23,16 @@ make repurposing it for DIY applications harder.
 
 More recently, Mazda and BMW seem to be using ion sensing approach again.
 
+### Hardware
+
 Here are all the Saab components we will be using (only two coils pictured while four coils would be used)
 
 ![parts](saab_2005_parts.jpg)
 
+[youtube Hardware Overview](https://www.youtube.com/watch?v=1y1dXTg9iMg)
 
-#### Next Steps
+
+### Next Steps
 
 1) Produce same outputs without CDM module
 
