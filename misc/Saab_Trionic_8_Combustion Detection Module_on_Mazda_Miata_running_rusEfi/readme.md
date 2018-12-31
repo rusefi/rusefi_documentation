@@ -20,11 +20,19 @@ knock and combustion detection outputs of 55352173 are digital. Knock is reporte
 meaning more detonation. Combustion signal seems to be just a comparator giving logical true if ion sensing wire voltage is below certain level. First wide pulse on the combustion output seems to be flame front phase while second wide output
 seems to be showing post-flame pressure, with the middle of this pulse correlating with moment of peak cylinder pressure.
 
-[All the videos mentioned here](https://www.youtube.com/watch?v=1y1dXTg9iMg&list=PLwj_BUeepTNB6eddVd7_KtyqiFYOJ75jy)
+Knocking - note a lot of blue line pulses (1ms timebase)
+![knock](tldr_knocking.png)
 
+Knocking (50us timebase)
 ![knock](knock_signal.png)
 
+Not knocking or knocking way less - note lack of blue line low level pulses (5ms timebase)
+![no knock](tldr_not_knocking.png)
+
+Combustion signal seem to be just a comparator
 ![combustion](combustion_signal.png)
+
+[All the videos mentioned here](https://www.youtube.com/watch?v=1y1dXTg9iMg&list=PLwj_BUeepTNB6eddVd7_KtyqiFYOJ75jy)
 
 # Overview
 
@@ -51,6 +59,8 @@ Ferrari 124792 spark plug extension is used to connect original Mazda Miata spar
 
 ![hardware overview](engine_bay.jpg)
 [youtube: Hardware Overview](https://www.youtube.com/watch?v=1y1dXTg9iMg)
+
+Knock detection wire has 0.8KOhm pull-up to 5v, combustion detection signal has 5KOhm pull-up to 5v.
 
 ### Detonation test scenario
 
