@@ -3,9 +3,9 @@
 ###### by Andrey Belomutskiy, 2018
 
 * [Table of contents](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#table-of-contents)
-  * [Usage](#usage)
+  * [Overview](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#overview)
   * [Hardware](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#hardware)
-  * [Usage](#usage)
+  * [Detonation test scenario](#usage)
 * [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#next-steps)  
 * [External links](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#external-links)
 
@@ -23,9 +23,13 @@ seems to be showing post-flame pressure, with the middle of this pulse correlati
 
 ![combustion](combustion_signal.png)
 
-While Saab Trionic systems were using ion sense more or less forever, only the latest generation eighth generation
+# Overview
+
+While Saab Trionic systems were using ion sense forever, only the latest eighth generation
 uses individual ignition coils and external CDM. Prior to T8, a highly integrated ignition cassette was used which would
-make repurposing it for DIY applications harder.    
+make repurposing it for DIY applications harder.
+Trionic 8 system does not have camshaft position sensor or knock sensor with combustion detection module running on ion sensing
+signal from ignition coil producing both phase and detonation detection.  
 
 More recently, Mazda and BMW seem to be using ion sensing approach again.
 
@@ -36,12 +40,25 @@ Ferrari 124792 spark plug extension is used to connect original Mazda Miata spar
 
 ![parts](saab_2005_parts.jpg)
 
-![hardware overview](engine_bay.jpg)
-[youtube Hardware Overview](https://www.youtube.com/watch?v=1y1dXTg9iMg)
-
 ![hardware details](hardware_details.jpg)
 [youtube Hardware Details](https://youtu.be/rUZ_-_hRnDU)
 
+![frankenso](frankenso_assembled.jpg)
+
+![hardware overview](engine_bay.jpg)
+[youtube Hardware Overview](https://www.youtube.com/watch?v=1y1dXTg9iMg)
+
+### Detonation test scenario
+
+2003 Mazda Miata 1.8 VVT Automatic running on rusEfi open source ECU.
+
+Engine coolant temperature 100C, ambient temperature 4C, violent 40 degrees advance from 1500 RPM to 3500 RPM timing table.
+
+Detonation is audible in 2000-4000 range with 50% throttle pulls from parked.
+
+Detonation is also audible while parked, revving with brakes applied in "D" gear selector.
+
+![timing](knock_ignition_table.png)
 
 ### Next Steps
 
@@ -50,9 +67,6 @@ Ferrari 124792 spark plug extension is used to connect original Mazda Miata spar
 2) Try Mazda H6T61171 ignition coils - these are a bit longer and narrower, seem to fit my Miata engine.
 
 ![Coils](H6T60271_and_H6T61171.jpg)
-
-Engine coolant temperature 100C, Ambient temperature 4C
-
 
 Inside of 55352173 Saab Ionization Detection Module
 
@@ -65,6 +79,8 @@ Inside of 55352173 Saab Ionization Detection Module
 [rusEfi ECU](https://www.rusefi.com/)
 
 [rusEfi forum](https://www.rusefi.com/forum/)
+
+[rusEfi store](https://www.tindie.com/stores/russian/)
 
 [Trionic 8](https://en.wikipedia.org/wiki/Trionic_8)
 
