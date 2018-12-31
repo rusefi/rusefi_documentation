@@ -5,7 +5,7 @@
 * [Table of contents](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#table-of-contents)
   * [Overview](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#overview)
   * [Hardware](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#hardware)
-  * [Detonation test scenario](#usage)
+  * [Detonation test scenario](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#detonation-test-scenario)
 * [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#next-steps)  
 * [External links](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#external-links)
 
@@ -18,6 +18,8 @@ This data would not be gathered without help from kb1gtt, stefanst, andreika, ni
 knock and combustion detection outputs of 55352173 are digital. Knock is reported with a series of 50us pulses, more pulses
 meaning more detonation. Combustion signal seems to be just a comparator giving logical true if ion sensing wire voltage is below certain level. First wide pulse on the combustion output seems to be flame front phase while second wide output
 seems to be showing post-flame pressure, with the middle of this pulse correlating with moment of peak cylinder pressure.
+
+[All the videos mentioned here](https://www.youtube.com/watch?v=1y1dXTg9iMg&list=PLwj_BUeepTNB6eddVd7_KtyqiFYOJ75jy)
 
 ![knock](knock_signal.png)
 
@@ -41,12 +43,12 @@ Ferrari 124792 spark plug extension is used to connect original Mazda Miata spar
 ![parts](saab_2005_parts.jpg)
 
 ![hardware details](hardware_details.jpg)
-[youtube Hardware Details](https://youtu.be/rUZ_-_hRnDU)
+[youtube: Hardware Details](https://youtu.be/rUZ_-_hRnDU)
 
 ![frankenso](frankenso_assembled.jpg)
 
 ![hardware overview](engine_bay.jpg)
-[youtube Hardware Overview](https://www.youtube.com/watch?v=1y1dXTg9iMg)
+[youtube: Hardware Overview](https://www.youtube.com/watch?v=1y1dXTg9iMg)
 
 ### Detonation test scenario
 
@@ -59,6 +61,23 @@ Detonation is audible in 2000-4000 range with 50% throttle pulls from parked.
 Detonation is also audible while parked, revving with brakes applied in "D" gear selector.
 
 ![timing](knock_ignition_table.png)
+
+[youtube: It's knocking!](https://youtu.be/FQ9ii0eXjmA)
+
+#### Detonation signals
+[youtube: Four signals we see on the oscilloscope](https://youtu.be/7aafaZgr2AE)
+
+[youtube: No detonation driving baseline](https://youtu.be/2fNrJ7NDFm8)
+
+[youtube: Knocking driving](https://youtu.be/eehx5zH8igI)
+
+[youtune: Knocking driving zoom in](https://youtu.be/QXTaa1mGbwE)
+
+[youtune: Knocking while standing on brakes 40 degrees timing](https://youtu.be/ylvMqOD50bY)
+
+[youtube: No knocking while standing on brakes 25 degrees timing](https://youtu.be/jS3LXw_v9ls)
+
+And that's it! We have seen enough to get some code for the rusEfi firmware to start consuming this knock singal data!
 
 ### Next Steps
 
@@ -85,3 +104,5 @@ Inside of 55352173 Saab Ionization Detection Module
 [Trionic 8](https://en.wikipedia.org/wiki/Trionic_8)
 
 [Saab 9-3 wikipedia](https://en.wikipedia.org/wiki/Saab_9-3#Second_generation_(2003%E2%80%932014)) 
+
+[Spark Advance Modeling and Control](http://www.fs.isy.liu.se/Publications/PhD/99_PhD_580_LE.pdf)
