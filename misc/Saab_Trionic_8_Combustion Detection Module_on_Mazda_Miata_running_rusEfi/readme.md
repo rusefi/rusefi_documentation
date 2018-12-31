@@ -1,6 +1,13 @@
 ### Reverse Engineering Saab Trionic 8 Combustion Detection Module (CDM) output signals on rusEfi ECU
 
-###### by Andrey Belomutskiy
+###### by Andrey Belomutskiy, 2018
+
+* [Table of contents](#table-of-contents)
+  * [Installation](#installation)
+  * [Usage](#usage)
+* [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#next-steps)  
+* [External links]()
+
 
 This data would not be gathered without help from kb1gtt, stefanst, andreika, nighthunter, hankthefourth and many others.
 
@@ -10,13 +17,15 @@ TL;DR knock and combustion detection outputs of 55352173 are digital. Knock is r
 meanign more detonation. 
 
 
-While Saab Trionic systems were using ion sence more or less forever, only the latest generation eighth generation
+While Saab Trionic systems were using ion sense more or less forever, only the latest generation eighth generation
 uses individual ignition coils and external CDM. Prior to T8, a highly integrated ignition cassette was used which would
-make repurposing it for DIY applications harded.    
+make repurposing it for DIY applications harder.    
 
 More recently, Mazda and BMW seem to be using ion sensing approach again.
 
-Here are all the Saab components we will be using
+Here are all the Saab components we will be using (only two coils pictured while four coils would be used)
+
+![parts](saab_2005_parts.jpg)
 
 
 #### Next Steps
@@ -29,6 +38,8 @@ Here are all the Saab components we will be using
 
 Engine coolant temperature 100C, Ambient temperature 4C
 
+
+Inside of 55352173 Saab Ionization Detection Module
 
 ![Inside](Ionization_Detection_Module_55352173.png)
 
