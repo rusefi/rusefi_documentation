@@ -39,9 +39,10 @@ More recently, Mazda and BMW seem to be using ion sensing approach again.
 ### Hardware
 
 Here are all the Saab components we will be using (only two coils pictured while four coils would be used)
-Ferrari 124792 spark plug extension is used to connect original Mazda Miata spark plugs with bullet terminals removed with Saab COPs
 
 ![parts](saab_2005_parts.jpg)
+
+Ferrari 124792 spark plug extension is used to connect original Mazda Miata spark plugs with bullet terminals removed with Saab COPs
 
 ![hardware details](hardware_details.jpg)
 [youtube: Hardware Details](https://youtu.be/rUZ_-_hRnDU)
