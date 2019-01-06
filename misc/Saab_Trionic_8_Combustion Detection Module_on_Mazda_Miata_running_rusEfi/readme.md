@@ -97,6 +97,8 @@ And that's it! We have seen enough to get some code for the rusEfi firmware to s
 
 2) Try Mazda H6T61171 ignition coils - these are a bit longer and narrower, seem to fit my Miata engine.
 
+3) analyze [raw waveforms](2018_01_05_miata_rigol.zip) and detect knock based on just ion sense signal without CDM
+
 ![Coils](H6T60271_and_H6T61171.jpg)
 
 Inside of 55352173 Saab Ionization Detection Module
