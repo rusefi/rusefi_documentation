@@ -14,3 +14,7 @@
 |       |      |            |   |   |
 |       |      |            |   |   |
 |       |      |            |   |   |
+
+
+![tree](low_side_selection_tree.png)
+from https://www.infineon.com/dgdl/Infineon-Automotive_Power_SelectionGuide_2019-SG-v01_00-EN.pdf?fileId=5546d4625ee5d4cd015f10996d2d6d44
