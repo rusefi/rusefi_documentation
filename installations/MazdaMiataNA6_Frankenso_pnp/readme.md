@@ -16,6 +16,37 @@ Insert supplied extra pin wire (pin on this picture) and close the latches. Done
  
 On Frankenso board just have a jumper between W48 top and W48 bottom.
 
+-----------------------------------
+Frankesno Board Setup
+
+| # & Color | From | To | Function |   |
+|------|------|----|-------|---|
+| #1 White   | 3E plug / top of W43  |    |    crank angle sensor   |   |
+| #2 Yellow  | 3G plug / top of W45  |    |    crank angle sensor   |   |
+| #3 White   | 1E plug / top of W4   | bottom W62  |  Check Engine     |   | 
+|      |      |    |       |   |
+|      |      |    |       |   |
+|      |      |    |       |   |
+
+-----------------------------------
+
+-----------------------------------
+
+| Analog        | ECU pin |MCU pin |  pull-up | pull-down |   |  
+|------|------|----|-------|---|---|
+| Coolant (stock)       | 3Q | PC2 |  2.7K | n/a      |   |
+| Intake Air (stock)    | 3P | PC1 |  2.7K | n/a      |   |
+| Vane Air Flow (stock) | 3O | PA0 |  n/a  | 500K     |   |
+| Narrow Band O2 (stock)| 3N | PC3 |  n/a  | 500K  |
+|      |      |    |       |   |
+|      |      |    |       |   |
+|      |      |    |       |   |
+|      |      |    |       |   |
+|      |      |    |       |   |
+|      |      |    |       |   |
+
+-----------------------------------
+
 
 
 ![Engine Wiring](../../oem_docs/Mazda/1990_Miata/1990_miata_us.png)
