@@ -26,6 +26,13 @@ Frankesno Board Setup
 | #3 White   | 1E plug / top of W4   | bottom W62  |  Check Engine     |   | 
 |      |      |    |       |   |
 |      |      |    |       |   |
+| #4 Red   |  2F plug / top of W28 | top of W49  | external MAP +5v power     |   |
+| #5 ?     |  2J plug / top of W32 | ?| external MAP signal      |   |
+| #6 Black    |  2M plug / top of W36 | top of W40 | external MAP ground      |   |
+|      |      |    |       |   |
+|      |      |    |       |   |
+|      |      |    |       |   |
+| 30V 0.5A Schottky Diode (for example RSX051VYM30FHTR)     | top of ?    | bottom of ?   | Idle Air Valve fly-back diode      |   |
 |      |      |    |       |   |
 
 -----------------------------------
@@ -53,8 +60,8 @@ original manual wiring:
 | TPS ??? A/T harness only!    | 3M     |    |       |   |
 |      |      |    |       |   |
 |      |      |    |       |   |
-| Wide band oxygen   |      |    |   n/a    | 500K  |
-|      |      |    |       |   |
+| Wide band oxygen   | W47 rerouted 3I     | PA4   |   n/a    | 500K  |
+| Stop Light Switch     | 1O rerouted     |    |       |   |
 |      |      |    |       |   |
 
 -----------------------------------
