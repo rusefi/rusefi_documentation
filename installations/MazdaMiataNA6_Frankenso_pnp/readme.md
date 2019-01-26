@@ -34,11 +34,11 @@ Frankesno Board Setup
 | #1 White   | 3E plug / top of W43  |    |    Crank angle sensor   |   |
 | #2 Yellow  | 3G plug / top of W45  |    |    Crank angle sensor   |   |
 | #3 White   | 1E plug / top of W4   | bottom W62  |  Check Engine     |   | 
+|      |     |    |       |   |
 |      |      |    |       |   |
-|      |      |    |       |   |
-| #4 Red   |  2F plug / top of W28 | top of W49  | external MAP +5v power     |   |
-| #5 ?     |  2J plug / top of W32 | ?| external MAP signal      |   |
-| #6 Black    |  2M plug / top of W36 | top of W40 | external MAP ground      |   |
+| #4 Red     |  2F plug / top of W28 | top of W49 | external MAP +5v power     |   |
+| #5 Green   |  2J plug / top of W32 | bottom W47 | external MAP signal      |   |
+| #6 Black   |  2M plug / top of W36 | top of W40 | external MAP ground      |   |
 |      |      |    |       |   |
 |      |      |    |       |   |
 |      |      |    |       |   |
@@ -58,9 +58,9 @@ original manual wiring:
 1N - Red - ?? switch. ground if IDLE, floating if pressed/depressed
 3L - Light Green / white ?? switch - ground if WOT, floating if not WOT
 
-stop liggt switch:
+stop light switch:
 ground if not depressed
-floating if pressedd / depressed
+floating if pressed / depressed
 
 -----------------------------------
 
@@ -70,10 +70,11 @@ floating if pressedd / depressed
 | Intake Air (stock)    | 3P | PC1 |  2.7K | n/a      |   |
 | Vane Air Flow (stock) | 3O | PA0 |  n/a  | 500K     |   |
 | Narrow Band O2 (stock)| 3N | PC3 |  n/a  | 500K  |
+| Wide band oxygen (from middle plug) | W52   | PC3   |   n/a    | 500K  |
 | TPS ??? A/T harness only!    | 3M     |    |       |   |
 |      |      |    |       |   |
 |      |      |    |       |   |
-| Wide band oxygen   | W47 rerouted 3I     | PA4   |   n/a    | 500K  |
+| MAP (from middle plug)  | 2J      | PA4   |   n/a    | 500K  |
 | Stop Light Switch  green wire   | 1O rerouted     |    |       |   |
 |      |      |    |       |   |
 
