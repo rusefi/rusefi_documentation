@@ -34,11 +34,12 @@ Frankesno Board Setup
 | #1 White   | 3E plug / top of W43  |    |    Crank angle sensor   |   |
 | #2 Yellow  | 3G plug / top of W45  |    |    Crank angle sensor   |   |
 | #3 White   | 1E plug / top of W4   | bottom W62  |  Check Engine     |   | 
+| #4 Red     | 2F plug / top of W28  | top of W49 | external MAP +5v power     |   |
+| #5 Green   | 2J plug / top of W32  | bottom W47 | external MAP signal      |   |
+| #6 Black   | 2N plug / top of W36  | top of W40 | external MAP ground      |   |
+| #7 Red     | 2E plug / top of W27  |    |       | external wide band oxygen sensor +12v power  |
 |      |     |    |       |   |
-|      |      |    |       |   |
-| #4 Red     |  2F plug / top of W28 | top of W49 | external MAP +5v power     |   |
-| #5 Green   |  2J plug / top of W32 | bottom W47 | external MAP signal      |   |
-| #6 Black   |  2M plug / top of W36 | top of W40 | external MAP ground      |   |
+| #9 Black   | 2M plug / top of W35  | top of W39 | | external wide band oxygen sensor ground      |   
 |      |      |    |       |   |
 |      |      |    |       |   |
 |      |      |    |       |   |
