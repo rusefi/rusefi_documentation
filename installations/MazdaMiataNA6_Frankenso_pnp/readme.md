@@ -1,6 +1,16 @@
 
 ### Frankenso board was designed to be used on Mazda Miata NA6 as a plug-and-play solution
 
+#### Bench testing options
+On NA6 Spark #1 and Spark #3 would audibly click if you use bench Spark Test button.
+Because of wasted spark wiring Spark #2 and Spark #4 are not expected to click.
+
+On NA6 Injector #1 and Injector #2 would audibly click if you use bench Injector Test button.
+Because of batch injection wirint Injectors #3 and #4 are not expected to click.
+
+All you need is a relatively quiet surroundings and you would hear both spark and injectors. Injectors
+are louder, spark is less loud but also totally audible. Both Test buttons are expected to
+produce three clicks a second after you press the button in the software.
 
 #### Wideband O2 sensor wire WBO
 
@@ -45,9 +55,12 @@ On vehicles with manual OEM engine harness this TPS mod is recommended.
 original manual wiring:
 
 3C/3D GND
-1N - Red - ?? switch
-3L - Light Green / white ?? switch
+1N - Red - ?? switch. ground if IDLE, floating if pressed/depressed
+3L - Light Green / white ?? switch - ground if WOT, floating if not WOT
 
+stop liggt switch:
+ground if not depressed
+floating if pressedd / depressed
 
 -----------------------------------
 
@@ -61,7 +74,7 @@ original manual wiring:
 |      |      |    |       |   |
 |      |      |    |       |   |
 | Wide band oxygen   | W47 rerouted 3I     | PA4   |   n/a    | 500K  |
-| Stop Light Switch     | 1O rerouted     |    |       |   |
+| Stop Light Switch  green wire   | 1O rerouted     |    |       |   |
 |      |      |    |       |   |
 
 -----------------------------------
