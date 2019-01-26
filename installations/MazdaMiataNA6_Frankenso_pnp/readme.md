@@ -21,14 +21,26 @@ Frankesno Board Setup
 
 | # & Color | From | To | Function |   |
 |------|------|----|-------|---|
-| #1 White   | 3E plug / top of W43  |    |    crank angle sensor   |   |
-| #2 Yellow  | 3G plug / top of W45  |    |    crank angle sensor   |   |
+| #1 White   | 3E plug / top of W43  |    |    Crank angle sensor   |   |
+| #2 Yellow  | 3G plug / top of W45  |    |    Crank angle sensor   |   |
 | #3 White   | 1E plug / top of W4   | bottom W62  |  Check Engine     |   | 
 |      |      |    |       |   |
 |      |      |    |       |   |
 |      |      |    |       |   |
 
 -----------------------------------
+
+
+### TPS mod
+Cars with automatic OEM engine harness use a better OEM TPS sensor.
+On vehicles with manual OEM engine harness this TPS mod is recommended.
+
+original manual wiring:
+
+3C/3D GND
+1N - Red - ?? switch
+3L - Light Green / white ?? switch
+
 
 -----------------------------------
 
@@ -38,10 +50,10 @@ Frankesno Board Setup
 | Intake Air (stock)    | 3P | PC1 |  2.7K | n/a      |   |
 | Vane Air Flow (stock) | 3O | PA0 |  n/a  | 500K     |   |
 | Narrow Band O2 (stock)| 3N | PC3 |  n/a  | 500K  |
+| TPS ??? A/T harness only!    | 3M     |    |       |   |
 |      |      |    |       |   |
 |      |      |    |       |   |
-|      |      |    |       |   |
-|      |      |    |       |   |
+| Wide band oxygen   |      |    |   n/a    | 500K  |
 |      |      |    |       |   |
 |      |      |    |       |   |
 
