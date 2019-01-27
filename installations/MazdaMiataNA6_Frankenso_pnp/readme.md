@@ -1,5 +1,15 @@
 
-### Frankenso board was designed to be used on Mazda Miata NA6 as a plug-and-play solution
+###### Frankenso board was designed to be used on Mazda Miata NA6 as a plug-and-play solution
+
+## Stage 0
+###Everything stock running rusEfi ECU
+All stock sensors, no extra wires, no extra hoses - just lift the carpet and plug rusEfi box instead of OEM ECU.  
+
+## Stage 1
+Stage 0 + External wide band controller, wide band oxygen sensor, external MAP sensor
+
+## Stage 2
+Stage 1 + TPS 
 
 #### Bench testing options
 On NA6 Spark #1 and Spark #3 would audibly click if you use bench Spark Test button.
@@ -27,7 +37,7 @@ Insert supplied extra pin wire (pin on this picture) and close the latches. Done
 On Frankenso board just have a jumper between W48 top and W48 bottom.
 
 -----------------------------------
-Frankesno Board Setup
+Frankenso Board Setup
 
 | # & Color | From | To | Function |   |
 |------|------|----|-------|---|
@@ -75,6 +85,8 @@ floating if pressed / depressed
 | Narrow Band O2 (stock)| 3N | PC3 |  n/a  | 500K  |
 | Wide band oxygen (from middle plug) | W52   | PC3   |   n/a    | 500K  |
 | TPS ??? A/T harness only!    | 3M     |    |       |   |
+| Neutral switch     | 1V     | PA3   | 10K     | n/a  |
+| A/C switch     | 1Q     | PA6   | 10K     | n/a  |
 |      |      |    |       |   |
 |      |      |    |       |   |
 | MAP (from middle plug)  | 2J      | PA4   |   n/a    | 500K  |
