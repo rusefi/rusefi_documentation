@@ -14,8 +14,9 @@ Trying to get rusEfi running on:
  
 | chip | Frequency | Ram | Flash | Notes | Package notes  |   |
 |------|-----------|-----|-------|-------|---|---|
-| F746 | 216 MHz   | 320 Kb    | 1M      | .      |   |   |
-| F769 | 216 MHz   | 512 KB    | 2M    |  ..      |   |   |
+| F746 | 216 MHz   | 320 Kb    | 1M      | .      |   | [pinout](https://os.mbed.com/platforms/ST-Nucleo-F746ZG/#board-pinout)  |
+| F767 | 216 MHz   | 512 KB    | 2M    |  ..      |   | [pinout](https://os.mbed.com/platforms/ST-Nucleo-F767ZI/#board-pinout)  |
+| F767 | 400 MHz   | 1024 KB   | 2M    |  ..      |   | [pinout](https://os.mbed.com/platforms/ST-Nucleo-H743ZI/#board-pinout)  |
 
 
 
