@@ -27,3 +27,9 @@ SRS module controls fuel pump
 https://lacarpro.com/blogs/dal-works/2002-1-2-bmw-745i-no-start
 
 RHD instrument cluster removal https://www.youtube.com/watch?v=GyVhkNa3010
+
+Emergency Brake Release Procedure https://www.youtube.com/watch?v=xDP5w6bBccM
+
+https://www.youtube.com/watch?v=vIzs32PNZTY&t=140s
+
+Battery replacement https://www.youtube.com/watch?v=V-FhPSF_880
