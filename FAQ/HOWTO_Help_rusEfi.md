@@ -24,7 +24,11 @@ https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/rusefi.input
 Same as above, fork https://github.com/rusefi/rusefi and edit your local copy of
 https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/rusefi.input file
 
-TODO add example of panelHelp change 
+https://github.com/rusefi/rusefi/commit/9d9ae5a05499027b32ed76df3e7ee2e2e8240c31 is an example of how more help could be added
+right into TunerStudio project file. Lines with green background are the lines being added.
+
+Unfortunately while you would be modifying your mainController.ini file while trying your changes, you need to edit rusefi.input file which
+is a template from which rusefi.ini is generated programmatically on rusefi side.
 
 
 
