@@ -37,7 +37,7 @@ Insert supplied extra pin wire (pin on this picture) and close the latches. Done
 On Frankenso board just have a jumper between W48 top and W48 bottom.
 
 -----------------------------------
-Frankenso Board Setup
+[Frankenso Board Setup](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board#Default_Pinout)
 
 | # & Color | From | To | Function |   |
 |------|------|----|-------|---|
@@ -76,6 +76,7 @@ ground if not depressed
 floating if pressed / depressed
 
 -----------------------------------
+[Frankenso analog](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board#Analog_Inputs)
 
 | Analog        | ECU pin |MCU pin |  pull-up | pull-down |   |  
 |------|------|----|-------|---|---|
