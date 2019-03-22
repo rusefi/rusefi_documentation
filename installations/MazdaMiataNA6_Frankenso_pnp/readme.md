@@ -45,14 +45,13 @@ Frankenso Board Setup
 | #2 Yellow  | 3G plug / top of W45  |    |    Crank angle sensor   |   |
 | #3 White   | 1E plug / top of W4   | bottom W62  |  Check Engine     |   | 
 | #4 Red L=90mm      | 2F plug / top of W28  | top of W49 | external MAP +5v power     |   |
-| #5 Green           | 2J plug / top of W32  | bottom W47 | external MAP signal      |   |
+| #5 Green           | 2E plug / top of W27  | bottom W47 | external MAP signal      |   |
 | #6 Black           | 2N plug / top of W36  | top of W40 | external MAP ground      |   |
-| #7 Red L=120mm     | 2E plug / top of W27  |            | external wide band oxygen sensor +12v power  |
-| #8 Blue            | 2I plug / top of W31  | W52        | external wide band oxygen sensor signal |
-| #9 Black           | 2M plug / top of W35  | top of W39 | external wide band oxygen sensor ground      |   
-| #10 Green L=120mm  | 1Q plug / top of W17  | bottom of W46   |       |  A/C switch input |
-| #11     | 1J plug /    |    |       | A/C relay output  |
-| #12 Yellow L=120mm | 1V plug / top of W22  | bottom of W48   |       | clutch pedal switch  |
+| #7 Blue            | 2I plug / top of W31  | W52        | external wide band oxygen sensor signal |
+| #8 Black           | 2M plug / top of W35  | top of W39 | external wide band oxygen sensor ground      |
+| #9 Green L=120mm  | 1Q plug / top of W17  | bottom of W46   |       |  A/C switch input |
+| #10     | 1J plug /    |    |       | A/C relay output  |
+| #11 Yellow L=120mm | 1V plug / top of W22  | bottom of W48   |       | clutch pedal switch  |
 |      |      |    |       |   |
 |      |      |    |       |   |
 | 30V 0.5A Schottky Diode (for example RSX051VYM30FHTR)     | top of ?    | bottom of ?   | Idle Air Valve fly-back diode      |   |
