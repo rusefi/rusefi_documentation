@@ -18,3 +18,6 @@ Typical 4 cylinder engine with 200 cc/min injectors, sequential injection, base 
 For 1.6 Honda cranking settings see https://rusefi.com/forum/download/file.php?id=4536 (note that "base fuel)
 " = 1 is recomended these days, with correspodning change to cranking temperature multiplier) 
 
+
+
+See also https://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control#Fuel_control_during_cranking
