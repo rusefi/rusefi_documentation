@@ -18,3 +18,7 @@ https://forum.freecadweb.org/viewtopic.php?f=3&t=5236
 An example of a question asked with helpful background information:
  
 https://rusefi.com/forum/viewtopic.php?f=3&t=1282&start=101
+
+Also
+
+![video](images/fantastic-story-video-or-it-never-happened.jpg)
