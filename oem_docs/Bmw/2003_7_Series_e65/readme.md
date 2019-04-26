@@ -5,6 +5,10 @@ x2 DME - engine control unit
 
 x2 HDEV fuel injection module 7506280 121 pin connector
 
+[page3](https://github.com/rusefi/rusefi_documentation/blob/master/oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_3.png)
+[page4](https://github.com/rusefi/rusefi_documentation/blob/master/oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_4.png)
+![connector](https://github.com/rusefi/rusefi_documentation/raw/master/oem_docs/TE/Connector_121_pinout.jpg)
+
 [wikipedia](https://en.wikipedia.org/wiki/BMW_7_Series_(E65))
 
 Injector 13647512081 looks to be solenoid type. Fuel pressure maxes out at 120bar.
