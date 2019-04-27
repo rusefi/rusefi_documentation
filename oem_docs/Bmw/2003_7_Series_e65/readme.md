@@ -23,6 +23,7 @@ Power +12 #4
 [wikipedia](https://en.wikipedia.org/wiki/BMW_7_Series_(E65))
 
 Injector 13647512081 looks to be solenoid type. Fuel pressure maxes out at 120bar.
+R=2.1OHm
 
 Ignition COP 12138657273 is shared with a lot of other BMW and Mini models.
 
