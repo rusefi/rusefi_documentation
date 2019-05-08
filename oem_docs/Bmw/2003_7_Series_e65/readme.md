@@ -20,6 +20,9 @@ GND #1 #2
 
 Power +12v: #4 #51 
 
+The larger chip inside 7506280 says 30429, obviously google knows nothing about this 30429.
+
+SAK-C505 
 
 [wikipedia](https://en.wikipedia.org/wiki/BMW_7_Series_(E65))
 
