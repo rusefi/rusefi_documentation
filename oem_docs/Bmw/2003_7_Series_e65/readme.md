@@ -20,7 +20,7 @@ GND #1 #2
 
 Power +12v: #4 #51 
 
-The larger chip inside 7506280 says 30429, obviously google knows nothing about this 30429.
+The larger chip inside 7506280 says 30429, obviously google knows nothing about this 30429. But it's probably CJ830.
 
 SAK-C505 
 
