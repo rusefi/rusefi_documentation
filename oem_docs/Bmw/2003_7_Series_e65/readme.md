@@ -14,10 +14,11 @@ Injector #1 + #118
 Injector #1 GND #114
 
 Injector control #44-#49
+These pins are pulled-up to +12v - low-side driven control.
 
 GND #1 #2
 
-Power +12 #4
+Power +12v: #4 #51 
 
 
 [wikipedia](https://en.wikipedia.org/wiki/BMW_7_Series_(E65))
