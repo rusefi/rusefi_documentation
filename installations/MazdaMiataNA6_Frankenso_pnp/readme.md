@@ -70,6 +70,9 @@ original manual wiring:
 1N - Red - ?? switch. ground if IDLE, floating if pressed/depressed
 3L - Light Green / white ?? switch - ground if WOT, floating if not WOT
 
+GND is middle pin on OEM manual plug unfortunately
+
+
 stop light switch:
 ground if not depressed
 floating if pressed / depressed
