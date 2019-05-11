@@ -99,6 +99,9 @@ floating if pressed / depressed
 -----------------------------------
 
 
+Fly back diode:
+NSR0530HT SOD-323 SMD Schottky Barrier Diodes 30V 500mA 0.5A
+
 
 ![Engine Wiring](../../oem_docs/Mazda/1990_Miata/1990_miata_us.png)
 
