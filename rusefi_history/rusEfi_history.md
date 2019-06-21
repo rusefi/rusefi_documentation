@@ -4,4 +4,4 @@ https://github.com/rusefi/rusefi_documentation/wiki/List_of_engines_running_rusE
 
 #2013
 
-![img](hardware_low_side_circa_2013.jpg)
+[[/rusefi_history/hardware_low_side_circa_2013.jpg]]
