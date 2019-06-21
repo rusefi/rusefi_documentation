@@ -6,6 +6,7 @@ As of June 2019 only Frankenso board is sold completely assembled with case.
 | ------------- | ------------- |
 | Prometheus  | The only rusEfi board with on-board wide band controller  |
 | Frankenstein  | Simplest rusEfi board |
+| microRusEfi | coming soon! |
 
 
 For more information see https://rusefi.com/wiki/index.php?title=Hardware:For_Sale
