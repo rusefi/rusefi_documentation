@@ -16,4 +16,4 @@ Board overview:
 - CAN
 
 
-For wiring see
+For wiring see [rusEfi wiring](/Hardware_microRusEfi_wiring)
