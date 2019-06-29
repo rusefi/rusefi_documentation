@@ -17,3 +17,5 @@ Board overview:
 
 
 For wiring see [rusEfi wiring](Hardware_microRusEfi_wiring)
+
+![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_1_pcb.jpg)
