@@ -7,3 +7,7 @@ Frankenso pitfalls and Q&A
 TBD
 
 ![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_0_2_assembled.jpg)
+
+![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_0_2_native_box.jpg)
+
+![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_0_5_full_bundle.jpg)
