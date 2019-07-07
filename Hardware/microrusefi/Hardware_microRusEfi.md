@@ -4,6 +4,8 @@ gasoline engines with one, two, three or four cylinders. microRusEfi has means t
 
 microRusEfi latest schematics is available at https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf
 
+[Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
+
 Complete set of board source files is available at https://github.com/rusefi/hw_microRusEfi
 
 Board overview:
