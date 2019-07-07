@@ -2,7 +2,7 @@ microRusEfi is a highly integrated board for rusEfi ECU. microRusEfi is targeted
 gasoline engines with one, two, three or four cylinders. microRusEfi has means to control electronic throttle body.
 
 
-microRusEfi latest schematics is available at https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi.pdf
+microRusEfi latest schematics is available at https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf
 
 Complete set of board source files is available at https://github.com/rusefi/hw_microRusEfi
 
