@@ -37,7 +37,7 @@ Insert supplied extra pin wire (pin on this picture) and close the latches. Done
 On Frankenso board just have a jumper between W48 top and W48 bottom.
 
 -----------------------------------
-[Frankenso Miata NA6 PNP Technical Details](Frankenso_MazdaMiataNA6_pnp_board_wiring.md)
+[Frankenso Miata NA6 PNP Technical Details](Frankenso_MazdaMiataNA6_pnp_board_wiring)
 
 
 ### TPS mod
