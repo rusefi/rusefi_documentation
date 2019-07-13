@@ -2,6 +2,8 @@
 
 User documentation for rusEfi engine control unit
 
+## [Quick Start](/HOWTO_quick_start)
+
 ## [rusEfi overview](overview)
 
 http://rusefi.com
