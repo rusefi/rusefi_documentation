@@ -4,4 +4,4 @@
 
 1. Launch rusEfi console and hit "Install Drivers" button to install Virtual Com Port and ST-Link drivers.  
 
-![console](FAQ\images\rusEfi_console\rusEfi_console_start_screen.png)
+![console](FAQ/images/rusEfi_console/rusEfi_console_start_screen.png)
