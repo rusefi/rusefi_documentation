@@ -12,6 +12,6 @@
 
 5. [Install TunerStudio (version 3.0.24 or newer is needed)](http://www.tunerstudio.com/index.php/downloads)
 
-6. Start a new project, save to a folder you specify, and choose the rusEFI.ini file.
+6. Start a new project, save to a folder you specify, and choose the rusefi.ini file from the bundle.
 
 ![project](FAQ/images/TunerStudio_new_project.png)
