@@ -2,7 +2,8 @@
 ###### Frankenso board was designed to be used on Mazda Miata NA6 as a plug-and-play solution
 
 ## Stage 0
-###Everything stock running rusEfi ECU
+
+### Everything stock running rusEfi ECU
 All stock sensors, no extra wires, no extra hoses - just lift the carpet and plug rusEfi box instead of OEM ECU.  
 
 ## Stage 1
