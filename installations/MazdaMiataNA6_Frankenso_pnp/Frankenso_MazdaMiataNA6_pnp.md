@@ -57,25 +57,6 @@ ground if not depressed
 floating if pressed / depressed
 
 -----------------------------------
-[Frankenso analog](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board#Analog_Inputs)
-
-| Analog        | ECU pin |MCU pin |  pull-up | pull-down |   |  
-|------|------|----|-------|---|---|
-| Coolant (stock)       | 3Q | PC2 |  2.7K | n/a      |   |
-| Intake Air (stock)    | 3P | PC1 |  2.7K | n/a      |   |
-| Vane Air Flow (stock) | 3O | PA0 |  n/a  | 500K     |   |
-| Narrow Band O2 (stock)| 3N | PC3 |  n/a  | 500K  |
-| Wide band oxygen (from middle plug) | W52   | PC3   |   n/a    | 500K  |
-| TPS ??? A/T harness only!    | 3M     |    |       |   |
-| Neutral switch     | 1V     | PA3   | 10K     | n/a  |
-| A/C switch     | 1Q     | PA6   | 10K     | n/a  |
-|      |      |    |       |   |
-|      |      |    |       |   |
-| MAP (from middle plug)  | 2J      | PA4   |   n/a    | 500K  |
-| Stop Light Switch  green wire   | 1O rerouted     |    |       |   |
-|      |      |    |       |   |
-
------------------------------------
 
 
 Fly back diode:
