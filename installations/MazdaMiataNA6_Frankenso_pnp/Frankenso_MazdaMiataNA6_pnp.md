@@ -1,5 +1,5 @@
 
-###### Frankenso board was designed to be used on Mazda Miata NA6 as a plug-and-play solution
+[Frankenso](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board) board was designed to be used on Mazda Miata NA6 as a plug-and-play solution
 
 ## Stage 0
 
@@ -25,17 +25,15 @@ produce three clicks a second after you press the button in the software.
 
 #### Wideband O2 sensor wire WBO
 
-You would really need a wideband sensor. I suggest adding a pin into OEM connector at 3J. This pin is not used in OEM wiring,
-this is between Red/White California-only wire and Lt Green/White Manual-only TPS wire.
+You would really need a wideband sensor. Here is middle plug pinout to wire external wideband controller - +12v would feed external controller and analog output signal would provide rusEfi ECU with air/fuel ratio information.
 
-![3J](j_pin_for_wbo.jpg)
+![middle plug](installations/MazdaMiataNA6_Frankenso_pnp/Frankenso_MazdaMiataNA6_pnp_middle_plug_0_2.png)
 
 A small flat screw driver and small pliers would allow you to move side latches and open the cap.
 Insert supplied extra pin wire (pin on this picture) and close the latches. Done!
 
 ![extra wire](latches_open_J_wbo_added.jpg)
  
-On Frankenso board just have a jumper between W48 top and W48 bottom.
 
 -----------------------------------
 [Frankenso Miata NA6 PNP Technical Details](Frankenso_MazdaMiataNA6_pnp_board_wiring)
