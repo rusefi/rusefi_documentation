@@ -111,3 +111,7 @@ R17=2.7K pull-up to 5v
 
 R12=10K
 R13=0R
+
+
+![front hall](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_hall_setup.jpg)
+![front lower](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_lower.jpg)
