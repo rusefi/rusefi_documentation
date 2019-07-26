@@ -15,3 +15,13 @@
 6. Start a new project, save to a folder you specify, and choose the rusefi.ini file from the bundle.
 
 ![project](FAQ/images/TunerStudio_new_project.png)
+
+# FAQ
+Q: How do I change settings? Would I need to compile source code?
+
+A: No, majority of users use rusEfi bundle to get firmware and TunerStudio to change any settings they would need to change.  
+
+
+Q: Low side, high side... Too complicated! Where do I hook my coils?!
+
+A: There is some variation between vehicles and components. Please use [rusEFI forums](https://rusefi.com/forum) for custom installation help!  
