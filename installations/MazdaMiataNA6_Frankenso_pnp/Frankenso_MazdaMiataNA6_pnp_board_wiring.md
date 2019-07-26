@@ -38,7 +38,7 @@
 | TPS ??? A/T harness only!    | 3M     |    |       |   |
 | Neutral switch     | 1V     | PA3   | 10K     | n/a  |
 | A/C switch     | 1Q     | PA6   | 10K     | n/a  |
-|      |      |    |       |   |
+| Throttle up     | 1N     |    | 10K      | n/a  |
 |      |      |    |       |   |
 | MAP (from middle plug)  | 2J      | PA4   |   n/a    | 500K  |
 | Stop Light Switch  green wire   | 1O rerouted     |    |       |   |
