@@ -97,3 +97,17 @@ These tables provide technical information about the different types of pin foun
 |----|-------------| ---- |
 | usb | USB     | USB tuning interface
 | can | CAN bus | CAN communication
+
+USB cable green wire: USB D+ DATA+
+USB cable white wire: USB D- DATA-
+USB cable black wire: ground
+USB cable red wire: +5v (optional)
+
+## Hall type Crank sensor
+
+R9=DNP
+R15=DNP
+R17=2.7K pull-up to 5v
+
+R12=10K
+R13=0R
