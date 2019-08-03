@@ -2,6 +2,10 @@
 
 <mark>insert connector image/pins here</mark>
 
+Rear side of PCB
+
+![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_3_PCB_pinout.png)
+
 # Pin Descriptions
 
 Each pin has a *Type ID*, which can be used to look up in the following tables what the pin is for, and what functions it can perform.
