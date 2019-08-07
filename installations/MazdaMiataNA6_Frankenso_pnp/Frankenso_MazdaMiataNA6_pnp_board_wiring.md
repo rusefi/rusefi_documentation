@@ -32,7 +32,7 @@
 |------|------|----|-------|---|---|
 | Coolant (stock)       | 3Q | PC2 |  2.7K | n/a      |   |
 | Intake Air (stock)    | 3P | PC1 |  2.7K | n/a      |   |
-| Vane Air Flow (stock) | 3O | PA0 |  n/a  | 500K     |   |
+| Vane Air Flow (stock) VAF MAF | 3O | PA0 |  n/a  | 500K     |   |
 | Narrow Band O2 (stock)| 3N | PC3 |  n/a  | 500K  |
 | Wide band oxygen (from middle plug) | W52   | PC3   |   n/a    | 500K  |
 | TPS ??? A/T harness only!    | 3M     |    |       |   |
