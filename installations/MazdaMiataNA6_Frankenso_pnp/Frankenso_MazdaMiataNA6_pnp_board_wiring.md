@@ -10,7 +10,7 @@
 |------|------|----|-------|---|
 | #1 White L=75mm    | 3E plug / top of W43  |               | crank angle sensor   |   |
 | #2 Yellow L=75mm   | 3G plug / top of W45  |               | crank angle sensor   |   |
-| #3 White L=160mm   | 1E plug / top of W4   | bottom W62    | check Engine     |   | 
+| #3 White L=160mm   | 1E plug / top of W4   | bottom W62    | check engine MIL     |   |
 | #4 Red L=90mm      | 2F plug / top of W28  | top of W49    | external MAP +5v power     |   |
 | #5 Green L=90mm    | 2E plug / top of W27  | bottom W47    | external MAP signal      |   |
 | #6 Black L=60mm    | 2N plug / top of W36  | top of W40    | external MAP ground      |   |
