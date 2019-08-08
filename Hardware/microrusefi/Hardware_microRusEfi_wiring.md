@@ -107,7 +107,7 @@ USB cable white wire: USB D- DATA-
 USB cable black wire: ground
 USB cable red wire: +5v (optional)
 
-![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.jpg)
+![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
 
 ## Hall type Crank sensor
 
