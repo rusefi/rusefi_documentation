@@ -107,6 +107,8 @@ USB cable white wire: USB D- DATA-
 USB cable black wire: ground
 USB cable red wire: +5v (optional)
 
+![connector](Hardware/microrusefi/Hardware_microRusEfi_wiring.jpg)
+
 ## Hall type Crank sensor
 
 R9=DNP
