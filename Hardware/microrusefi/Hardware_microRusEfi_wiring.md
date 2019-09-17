@@ -35,7 +35,7 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 21 | **GND**          | sgnd    | Signal GND                                     |
 | 22 | **AN Temp 4**    | at      |                                                |
 | 23 | **AN Temp 2**    | at      | IAT sensor                                     |
-| 24 | **AN Temp 3**    | at      | External wideband O2 sensor                    |
+| 24 | **AN Temp 3**    | at      |                                                |
 | 25 | **Cam (hall)**   | hall    |                                                |
 | 26 | **AN Volt 2**    | av      | TPS sensor                                     |
 | 27 | **AN Volt 1**    | av      | MAP sensor                                     |
@@ -43,7 +43,7 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 29 | **Main relay**   | mr      | Main relay                                     |
 | 30 | **AN Volt 7**    | av      |                                                |
 | 31 | **AN Volt 3**    | av      |                                                |
-| 32 | **AN Volt 6**    | av      |                                                |
+| 32 | **AN Volt 6**    | av      | External wideband O2 sensor                    |
 | 33 | **GP out 3**     | gp2     |                                                |
 | 34 | **GP out 2**     | gp2     | Fan relay                                      |
 | 35 | **GP out 1**     | gp2     | Fuel pump relay                                |
