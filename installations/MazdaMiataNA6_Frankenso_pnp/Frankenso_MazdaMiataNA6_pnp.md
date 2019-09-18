@@ -6,6 +6,10 @@
 ### Everything stock running rusEfi ECU
 All stock sensors, no extra wires, no extra hoses - just lift the carpet and plug rusEfi box instead of OEM ECU.  
 
+Timing, fuel control based on VAF/MAF, programmable check engine light, A/C compressor control. Online tuning using TunerStudio.
+
+SD card logging, LCD screen and joystick because why not.
+
 ## Stage 1
 Stage 0 + External wide band controller, wide band oxygen sensor, external MAP sensor
 
