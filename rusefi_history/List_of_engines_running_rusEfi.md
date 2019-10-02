@@ -49,3 +49,4 @@
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1543 Volvo 240 race car
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1536 2004 Miata 1.8
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1572 Daewoo Cielo/Nexia 1.5 DOHC ITB May 29, 2019
+1. https://www.youtube.com/watch?v=yCdrc69pnw8 Holden v8 Sep 30, 2019
