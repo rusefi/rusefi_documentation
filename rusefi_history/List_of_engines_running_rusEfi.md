@@ -50,3 +50,5 @@
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1536 2004 Miata 1.8
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1572 Daewoo Cielo/Nexia 1.5 DOHC ITB May 29, 2019
 1. https://www.youtube.com/watch?v=yCdrc69pnw8 Holden v8 Sep 30, 2019
+1. https://rusefi.com/forum/viewtopic.php?f=3&t=1623&start=30#p34679 Miata 99 Oct 5, 2019
+1. https://rusefi.com/forum/viewtopic.php?f=3&t=1630&p=34670#p34681 harbor freight predator 212 cc Oct 5, 2019
