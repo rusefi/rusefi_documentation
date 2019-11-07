@@ -2,7 +2,10 @@ rusEfi offers complete software download bundles for multiple supported micro co
 
 [Frankenso PnP Miata NA6 bundle](https://rusefi.com/build_server/rusefi_bundle_frankenso_na6.zip)
 
-[microRusEfi bundle](https://rusefi.com/build_server/rusefi_bundle_mre.zip)
+[microRusEfi F4 bundle](https://rusefi.com/build_server/rusefi_bundle_mre-f4.zip)
+
+[microRusEfi F7 bundle](https://rusefi.com/build_server/rusefi_bundle_mre-f7.zip)
+
 
 [Default stm32f407 bundle](https://rusefi.com/build_server/rusefi_bundle.zip)
 
