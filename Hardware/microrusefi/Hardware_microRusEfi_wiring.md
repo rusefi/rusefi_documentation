@@ -111,6 +111,7 @@ USB cable red wire: +5v (optional)
 
 ## Hall type Crank sensor
 
+See TLE8888 datasheet figure 71
 R9=DNP
 R15=DNP
 R17=2.7K pull-up to 5v
