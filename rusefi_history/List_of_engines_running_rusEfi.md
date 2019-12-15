@@ -52,3 +52,5 @@
 1. https://www.youtube.com/watch?v=yCdrc69pnw8 Holden v8 Sep 30, 2019
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1623&start=30#p34679 Miata 99 Oct 5, 2019
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1630&p=34670#p34681 harbor freight predator 212 cc Oct 5, 2019
+1. https://rusefi.com/forum/viewtopic.php?f=3&t=1632 BMW 750 v12 M73 Dec 1, 2019
+1. https://rusefi.com/forum/viewtopic.php?f=3&t=1648 Volvo 240 LS Swap on Proteus board Dec 10, 2019
