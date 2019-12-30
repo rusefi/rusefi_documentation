@@ -12,3 +12,23 @@ tl;dr:
 
 
 See also https://rusefi.com/s/debugmode/
+
+
+# H-bridge settings
+
+Different H-bridge chips are controlled differently. So far we have experiences three different ways:
+
+### VNH2SP30
+
+PWM on Control pin, two on/off direction pins are specifying direction. 
+
+### TLE9201
+PWM on Control pin, open/close using one on/off direction pin, second direction pin unused.
+
+### TLE7209 mode
+
+PWM on both direction pins, one for forward another one for reverse.
+
+Enable on/off pin should be controlled via FSIO.
+
+TLE7209 is an example of two wire mode.
