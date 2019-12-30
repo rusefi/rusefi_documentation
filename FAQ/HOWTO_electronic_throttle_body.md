@@ -32,3 +32,8 @@ PWM on both direction pins, one for forward another one for reverse.
 Enable on/off pin should be controlled via FSIO.
 
 TLE7209 is an example of two wire mode.
+
+# Pinouts
+
+See https://raw.githubusercontent.com/wiki/rusefi/rusefi_documentation/oem_docs/VAG/Bosch_0280750009_pinout.jpg for
+personal choice of colors for VAG ETB.
