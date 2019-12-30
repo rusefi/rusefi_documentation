@@ -46,3 +46,12 @@ merged into https://github.com/rusefi/rusefi_documentation, complete https://git
 into https://github.com/rusefi/rusefi_documentation.wiki.git which makes actual content nicely visible at https://github.com/rusefi/rusefi_documentation/wiki 
 
 
+# Technical FAQ
+
+Q: Is it ok that https://github.com/rusefi/rusefi_documentation.wiki.git cannot be opened from browser?
+
+A: There is no reason to open https://github.com/rusefi/rusefi_documentation.wiki.git from browser. Also while you technically
+CAN "git clone https://github.com/rusefi/rusefi_documentation.wiki.git" and it would work -
+ you should NOT. Anyone looking to make changes should be making changes to non-wiki git via normal fork & pull request process.
+ 
+Additional automation is in charge of merging from https://github.com/rusefi/rusefi_documentation.git into https://github.com/rusefi/rusefi_documentation.wiki.git 
