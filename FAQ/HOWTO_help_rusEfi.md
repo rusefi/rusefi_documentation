@@ -3,6 +3,8 @@
 
 The weakest point of rusEfi is documentation. If you've played with rusEfi for any time chances are you have help improve the documentation.
 
+[Click here for more details](HOWTO_contribute_to_documentation.md)
+
 #### How to contribute to https://github.com/rusefi/rusefi_documentation
 
 Step 1: Sign up or sign in to https://github.com
