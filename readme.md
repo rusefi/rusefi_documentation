@@ -1,6 +1,6 @@
 
 
-If you are rusEfi end user, you are looking at the wrong file - you are probably interested in
+If you are rusEfi end user, you are looking at the wrong page - you are probably interested in
 https://github.com/rusefi/rusefi_documentation/wiki 
 
 
