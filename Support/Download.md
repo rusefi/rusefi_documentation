@@ -6,6 +6,7 @@ rusEfi offers complete software download bundles for multiple supported micro co
 
 [microRusEfi F7 bundle](https://rusefi.com/build_server/rusefi_bundle_mre-f7.zip)
 
+[Proteus bundle](https://rusefi.com/build_server/rusefi_bundle_proteus.zip)
 
 [Default Frankenso stm32f407 bundle](https://rusefi.com/build_server/rusefi_bundle.zip)
 
