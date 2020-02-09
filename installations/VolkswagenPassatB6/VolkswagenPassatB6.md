@@ -37,8 +37,12 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 | 19  | low side   | Fuel pressure regulator value         |
 | 25  | analog in  | Fuel High Pressure Sensor             |
 | 26  | 5v         | Sensor 5v power                       |
+| 36  | Crank in   | VR Crank Negative                     |
 | 37  | 5v         | Sensor 5v power                       |
-
+| 44  | digital in | Can sensor                            |
+| 51  | Crank in   | VR Crank Positive                     |
+| 52  | **GND**    | Sensor GND                            |
+|     |            | |
 
 "Early"
 
