@@ -25,6 +25,12 @@ All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](
 [0.4.7 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic_0_4_7.pdf)
 
 
+[rusEfi Slack channel](https://rusefi.com/forum/viewtopic.php?f=13&t=1198) is the primary support channel.
+
 Kit front:
 
-![Front](Hardware_microRusEfi_0.4.7_pre_assembled_front.jpg)
+![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_pre_assembled_front.jpg)
+
+Kit parts:
+
+![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_kit_front.jpg)
