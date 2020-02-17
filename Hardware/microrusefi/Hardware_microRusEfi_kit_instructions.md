@@ -12,7 +12,7 @@ For component placement [please use interactive BOM](https://rusefi.com/docs/ibo
 
 Depending on your crankshaft position sensor type you would need to populate either Hall or VR option.
 
-For Hall, you would need to REMOVE 
+For Hall, you would need to REMOVE (TDB)
 
 
 All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre-f4.zip)
@@ -31,6 +31,12 @@ Kit front:
 
 ![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_pre_assembled_front.jpg)
 
-Kit parts:
+Kit back:
+TDB
+
+Kit parts on the front:
 
 ![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_kit_front.jpg)
+
+Kit parts on the back:
+TDB
