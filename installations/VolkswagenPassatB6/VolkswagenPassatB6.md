@@ -16,6 +16,34 @@ Injector connector 4D0971992
 
 Maybe pin 1 is also positive and pin 2 is also GND for us?
 
+# 94 pin connector
+
+|Pin Number|Name   | Default function                   |
+| ---:|:---------- |:------------------------------------ |
+| 1   | **GND**    |  Power GND                            |
+| 2   | **GND**    |  Power GND                            |
+| 3   | **12v**    |  Hot when ignition ON                 |
+| 4   | **GND**    |  Power GND                            |
+| 5   | **12v**    |  Hot when ignition ON                 |
+| 6   | **12v**    |  Hot when ignition ON                 |
+| 53  | **GND**    |  Sensor GND ?                         |
+
+
+# 60 pin connector
+|Pin Number|Name   | Default function                      |
+| ---:|:---------- |:------------------------------------  |
+| 7   | analog in  | Fuel Low Pressure Sensor              |
+| 14  | **GND**    | Sensor GND                            |
+| 19  | low side   | Fuel pressure regulator value         |
+| 25  | analog in  | Fuel High Pressure Sensor             |
+| 26  | 5v         | Sensor 5v power                       |
+| 36  | Crank in   | VR Crank Negative                     |
+| 37  | 5v         | Sensor 5v power                       |
+| 44  | digital in | Can sensor                            |
+| 51  | Crank in   | VR Crank Positive                     |
+| 52  | **GND**    | Sensor GND                            |
+|     |            | |
+
 "Early"
 
 ![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_1_5.png)
