@@ -12,11 +12,11 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 
 | Pin Number | Name     | Type ID | Default function                               |
 | ----------:|:-------- | ------- |:---------------------------------------------- |
-| 1  | **12V**          | 12V     | 12V supply                                     |
+| 1  | **12V**          | 12V     | 12V supply from main relay output              |
 | 2  | **GND**          | pgnd    | Power GND                                      |
 | 3  | **Lowside 2**    | ls      | Idle solenoid                                  |
 | 4  | **ETB+**         | etb     | ETB+                                           |
-| 5  | **12V**          | 12V     | 12V supply                                     |
+| 5  | **12V**          | 12V     | 12V supply from Key (turn on/off power)        |
 | 6  | **GND**          | pgnd    | Power GND                                      |
 | 7  | **Lowside 1**    | ls      | VVT                                            |
 | 8  | **ETB-**         | etb     | ETB-                                           |
@@ -40,7 +40,7 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 26 | **AN Volt 2**    | av      | TPS sensor                                     |
 | 27 | **AN Volt 1**    | av      | MAP sensor                                     |
 | 28 | **AN Volt 10**   | av      |                                                |
-| 29 | **Main relay**   | mr      | Main relay                                     |
+| 29 | **Main relay**   | mr      | Main relay control signal (low side)           |
 | 30 | **AN Volt 7**    | av      |                                                |
 | 31 | **AN Volt 3**    | av      |                                                |
 | 32 | **AN Volt 6**    | av      | External wideband O2 sensor                    |
