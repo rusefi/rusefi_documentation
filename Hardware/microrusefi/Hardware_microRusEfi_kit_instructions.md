@@ -9,12 +9,6 @@ If in double of your SMD skills please consider fully assembled version.
 
 For component placement [please use interactive BOM](https://rusefi.com/docs/ibom/microRusEfi_R0.4.7.html).
 
-
-Depending on your crankshaft position sensor type you would need to populate either Hall or VR option.
-
-For Hall, you would need to REMOVE (TDB)
-
-
 All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre-f4.zip)
 
 
@@ -27,25 +21,43 @@ All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](
 
 [rusEfi Slack channel](https://rusefi.com/forum/viewtopic.php?f=13&t=1198) is the primary support channel.
 
+[HOWTO program rusEfi using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
+
+# Crankshaft position sensor options: Hall or VR
+
+Depending on your crankshaft position sensor type you would need to populate either Hall or VR option.
+
+For VR crankshaft position sensor you would need to add R9 & C12 on the back.
+VR mode front - comes pre-assembled
+![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_vr_front.png)
+
+VR mode back
+![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_vr_back.jpg)
+
+
+For Hall, you would need to REMOVE R15 & C35 on the front, and install R17 R18 R19 on the back.
+
+Hall mode front
+![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_front.jpg)
+
+Hall mode back
+![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_back.png)
+
+
+
+# Board Photos
+
 Kit front:
 
 ![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_pre_assembled_front.jpg)
-
-Kit back:
-TDB
 
 Kit parts on the front:
 
 ![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_kit_front.jpg)
 
 Kit parts on the back:
-TDB
+![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_kit_assembled_back.jpg)
 
-Hall mode front
-![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_front.jpg)
-
-Hall mode back
-![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_back.png)
-
-[HOWTO program rusEfi using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
+Flyback diodes orientation
+![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_kit_diodes_orientation.jpg)
 
