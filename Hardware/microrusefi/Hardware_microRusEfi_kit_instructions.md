@@ -40,3 +40,12 @@ Kit parts on the front:
 
 Kit parts on the back:
 TDB
+
+Hall mode front
+![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_front.jpg)
+
+Hall mode back
+![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_back.png)
+
+[HOWTO program rusEfi using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
+
