@@ -16,4 +16,4 @@ There are two ways to help financially:
 
 One-time or monthly https://tinyurl.com/paypal-rusefi  
 
-One-time or monthly [rusEfi Patreon](https://www.patreon.com/rusefi)   
+One-time or monthly [rusEfi Patreon](https://www.patreon.com/rusefi)  
