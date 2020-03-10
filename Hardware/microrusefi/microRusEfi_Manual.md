@@ -114,3 +114,7 @@ Please power cycle device to exit DFU mode
 ```
 
 At this point you need to power rusEfi device off/on and new firmware version would be running!
+
+New firmware version could be confirmed in rusEfi window title - both console and firmware versions are displayed there.
+
+![img](Support/console_showing_firmware_version.png)
