@@ -17,7 +17,11 @@ Left large terminal. Right small pin terminal.
 
 [Molex 48 pin PCB plug](https://www.mouser.com/datasheet/2/276/5007620481_PCB_HEADERS-179151.pdf) 5007620481
 
+Wire cap 643201301
+
 Harness side connector 64320-1311 or 64320-3311. Blind plugs 64325-1010 and 64325-1023.
+
+TODO investigate Flat case option 36638-0002 
 
 
 From Mouser, Molex.
