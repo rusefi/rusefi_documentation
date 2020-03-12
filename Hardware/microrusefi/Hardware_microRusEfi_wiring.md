@@ -10,9 +10,9 @@ Rear side of PCB
 
 Each pin has a *Type ID*, which can be used to look up in the following tables what the pin is for, and what functions it can perform.
 
-| Pin Number | Name     | Type ID | Default function                               |
-| ----------:|:-------- | ------- |:---------------------------------------------- |
-| 1  | **12V**          | 12V     | 12V supply from main relay output              |
+| Pin Number | Name     | Type ID | Default function                                     |
+| ----------:|:-------- | ------- |:---------------------------------------------------- |
+| 1  | **12V**          | 12V     | 12V supply from main relay output, see also pin #29  |
 | 2  | **GND**          | pgnd    | Power GND                                      |
 | 3  | **Lowside 2**    | ls      | Idle solenoid                                  |
 | 4  | **ETB+**         | etb     | ETB+                                           |
@@ -60,6 +60,8 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 46 | **VR-**          | vr      | Crank VR- (do not connect if hall)             |
 | 47 | **CAN low**      | can     | CAN bus                                        |
 | 48 | **CAN high**     | can     | CAN bus                                        |
+
+In some cases without "main relay output +12v" both pins #1 and #5 should be connected to the single source of +12v.
 
 # Pin Types
 
