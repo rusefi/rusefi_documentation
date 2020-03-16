@@ -27,7 +27,10 @@ All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](
 
 Depending on your crankshaft position sensor type you would need to populate either Hall or VR option.
 
-For VR crankshaft position sensor you would need to add R9 & C12 on the back.
+0.4.5, 0.4.7: For VR crankshaft position sensor you would need to add R9 & C12 on the back.
+
+0.4.8: Comes set for VR (R9 & C12 are now on the front since)
+
 VR mode front - comes pre-assembled
 ![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_vr_front.png)
 
@@ -35,7 +38,9 @@ VR mode back
 ![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_vr_back.jpg)
 
 
-For Hall, you would need to REMOVE R15 & C35 on the front, and install R17 R18 R19 on the back.
+0.4.5, 0.4.7: For Hall, you would need to REMOVE R15 & C35 on the front, and install R17 R18 R19 on the back.
+
+0.4.8: For Hall, you would need to REMOVE R15&R9, C12 & C35 on the front, and install R17 R18 R19 on the back.
 
 Hall mode front
 ![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_front.jpg)
