@@ -66,3 +66,9 @@ Kit parts on the back:
 Flyback diodes orientation
 ![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_kit_diodes_orientation.jpg)
 
+
+# Important details
+0.4.5, 0.4.7: 
+JP1 needs to be TBDsee
+
+see https://github.com/rusefi/hw_microRusEfi/issues/127

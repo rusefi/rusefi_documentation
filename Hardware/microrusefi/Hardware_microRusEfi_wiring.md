@@ -42,7 +42,7 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 28 | **AN Volt 10**   | av      |                                                |
 | 29 | **Main relay**   | mr      | Main relay control signal (low side)           |
 | 30 | **AN Volt 7**    | av      |                                                |
-| 31 | **AN Volt 3**    | av      |                                                |
+| 31 | **AN Volt 3**    | av      | Throttle Pedal Position Sensor (PPS)           |
 | 32 | **AN Volt 6**    | av      | External wideband O2 sensor                    |
 | 33 | **GP out 3**     | gp2     |                                                |
 | 34 | **GP out 2**     | gp2     | Fan relay                                      |
