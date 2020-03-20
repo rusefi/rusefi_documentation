@@ -28,8 +28,8 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 12 | **Ignition 4**   | ign     | Ignition 4                                     |
 | 13 | **GP out 6**     | gp1     | Alternator                                     |
 | 14 | **GP out 5**     | gp1     |                                                |
-| 15 | **USB D-**       | usb     | USB                                            |
-| 16 | **USB D+**       | usb     | USB                                            |
+| 15 | **USB D-**       | usb     | USB white wire                                 |
+| 16 | **USB D+**       | usb     | USB green wire                                 |
 | 17 | **GND**          | sgnd    | Signal GND                                     |
 | 18 | **AN Temp 1**    | at      | CLT sensor                                     |
 | 19 | **AN Volt 4**    | av      |                                                |
