@@ -72,3 +72,8 @@ Flyback diodes orientation
 JP1 needs to be TBDsee
 
 see https://github.com/rusefi/hw_microRusEfi/issues/127
+
+Unpopulated parts which you probably do NOT need:
+
+LIN termination D43 R10,
+RTC diode D42
