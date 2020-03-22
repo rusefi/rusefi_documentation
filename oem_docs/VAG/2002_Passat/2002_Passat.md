@@ -2,12 +2,16 @@
 | ----------:|:-------- | ------- |:---------------------------------------------------- |
 | 1 | ? | ?| GND |
 | 2 | ? | ?| GND |
-| 62 | ? | ?| +12v from main relay |
+| 3 | ? | ?| +12v 10A fuse in start/run |
+| 21 | ? | low side | Main Relay Control |
+| 62 | ? | ?| NO NEED FOR rusEfi permanent +12v |
 | 93 | ? | ?| ? |
 | 93 | ? | ?| ? |
 | 94 | ? | ?| Coil control #4 |
 | 102  | BLU/RED          | high-side     | Coil control #1  |
-| 121 | ? | ?| +12v in start/run |
+| 121 | ? | ?| +12v  from main relay |
+
+
 
 
 ![page1](oem_docs/VAG/2002_Passat/2002_passat_part1.png)
