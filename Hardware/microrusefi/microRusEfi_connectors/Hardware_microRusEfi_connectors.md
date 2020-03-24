@@ -15,7 +15,11 @@ Left large terminal. Right small pin terminal.
 ![i](Hardware/microrusefi/microRusEfi_connectors/microRusEfi_Nissan_crimped_terminals.jpg)
 
 
-[Molex 48 pin PCB plug](https://www.mouser.com/datasheet/2/276/5007620481_PCB_HEADERS-179151.pdf) 5007620481
+PCB side: [Molex 48 pin PCB plug](https://www.mouser.com/datasheet/2/276/5007620481_PCB_HEADERS-179151.pdf) 5007620481 500762-0481
+
+PCB side "grey": 5007620482 500762-0482 (we have not use this one so far)
+
+PCB side "brown": 5007620483 500762-0483 (Compatible with Lada & Nissan ECU plug)
 
 Wire cap 643201301
 
@@ -39,3 +43,18 @@ todo
 Terminals
 
 J-48817-232
+
+# Lada as harness donor
+
+Complete harness for Lada couple acquired pretty cheap in some parts of the world. On same Lada vehicles ECU
+is in the cabin (unline Nissan ECU in dirty engine bay) so we get pretty clean crimped connector with about 30 wires already in
+it. The missing wires could be taken from the smaller ECU connector.  
+
+With a utility knife you need to cut 4 keys from inside the male part to mate default microRusEfi connector with a brown plug. Two center keys could be left
+as is.
+
+
+![i](Hardware/microrusefi/microRusEfi_connectors/microRusEfi_helping_black_plug_with_brown.jpg)
+
+
+![i](Hardware/microrusefi/microRusEfi_connectors/microRusEfi_lada_donor_harness.jpg)
