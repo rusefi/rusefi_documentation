@@ -46,7 +46,7 @@ J-48817-232
 
 # Lada as harness donor
 
-Complete harness for Lada couple acquired pretty cheap in some parts of the world. On same Lada vehicles ECU
+Complete used harness for Lada could be acquired pretty cheap in some parts of the world. On same Lada vehicles ECU
 is in the cabin (unline Nissan ECU in dirty engine bay) so we get pretty clean crimped connector with about 30 wires already in
 it. The missing wires could be taken from the smaller ECU connector.  
 
