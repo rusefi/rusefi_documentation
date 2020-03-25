@@ -1,4 +1,6 @@
+# rusEfi Documentation & Knowledge
 
+Documentation and knowledge repo for about https://github.com/rusefi/rusefi
 
 If you are rusEfi end user, you are looking at the wrong page - you are probably interested in
 https://github.com/rusefi/rusefi_documentation/wiki 
