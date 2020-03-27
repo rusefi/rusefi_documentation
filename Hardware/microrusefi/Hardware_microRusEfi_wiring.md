@@ -1,12 +1,10 @@
 # Connector Pinout
 
-<mark>insert connector image/pins here</mark>
-
-Rear side of PCB
-
 ![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
 
 ![microRusEfi photo](Hardware/microrusefi/Hardware_microRusEfi_connector.jpg)
+
+Rear side of PCB
 
 ![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_3_PCB_pinout.png)
 
