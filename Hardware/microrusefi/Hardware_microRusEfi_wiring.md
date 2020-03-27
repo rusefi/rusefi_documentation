@@ -109,7 +109,7 @@ These tables provide technical information about the different types of pin foun
 USB cable green wire: USB D+ DATA+
 USB cable white wire: USB D- DATA-
 USB cable black wire: ground
-USB cable red wire: +5v (optional)
+USB cable red wire: +5v (would not work via microRusEfi connector)
 
 ![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
 
