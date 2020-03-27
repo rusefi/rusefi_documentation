@@ -4,11 +4,11 @@
 
 Rear side of PCB
 
-![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_3_PCB_pinout.png)
+![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
 
 ![microRusEfi photo](Hardware/microrusefi/Hardware_microRusEfi_connector.jpg)
 
-![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
+![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_3_PCB_pinout.png)
 
 # Pin Descriptions
 
