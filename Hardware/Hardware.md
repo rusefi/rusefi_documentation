@@ -12,4 +12,4 @@ As of March 2020 only Frankenso board is sold as a DIY kit.
 | [microRusEfi](https://rusefi.com/microrusefi) | Available fully assembled! | 2019 |
 
 
-For more information see https://rusefi.com/wiki/index.php?title=Hardware:For_Sale
+For more information see https://rusefi.com/wiki/index.php?title=Manual:Comparison
