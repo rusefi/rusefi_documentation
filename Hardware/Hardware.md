@@ -13,4 +13,4 @@ As of March 2020 Frankenso board is sold as mostly as a DIY kit.
 | [Helen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682) | Coming soon! | 2020 |
 
 
-For more information see https://rusefi.com/wiki/index.php?title=Manual:Comparison
+For more information see https://rusefi.com/wiki/index.php?title=Hardware:Boards_Comparison
