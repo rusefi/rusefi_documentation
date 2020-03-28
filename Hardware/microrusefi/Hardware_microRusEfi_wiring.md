@@ -1,12 +1,12 @@
 # Connector Pinout
 
-<mark>insert connector image/pins here</mark>
+![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
+
+![microRusEfi photo](Hardware/microrusefi/Hardware_microRusEfi_connector.jpg)
 
 Rear side of PCB
 
 ![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_3_PCB_pinout.png)
-
-![microRusEfi photo](Hardware/microrusefi/Hardware_microRusEfi_connector.jpg)
 
 # Pin Descriptions
 
@@ -107,11 +107,12 @@ These tables provide technical information about the different types of pin foun
 | can | CAN bus | CAN communication
 
 USB cable green wire: USB D+ DATA+
-USB cable white wire: USB D- DATA-
-USB cable black wire: ground
-USB cable red wire: +5v (would not work via microRusEfi connector)
 
-![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
+USB cable white wire: USB D- DATA-
+
+USB cable black wire: ground
+
+USB cable red wire: +5v (would not work via microRusEfi connector)
 
 ## Hall type Crank sensor
 
