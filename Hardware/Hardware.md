@@ -2,7 +2,7 @@ rusEfi runs on wide array of boards with stm32f4 and stm32f7 microcontrollers.
 
 As of March 2020 microRusEfi is is sold as completely ready to run ECU or as a pre-assmbled 80% complete kit.
 
-As of March 2020 only Frankenso board is sold as a DIY kit.
+As of March 2020 Frankenso board is sold as mostly as a DIY kit.
 
 | Board | Features | Released in |
 | ------------- | ------------- | ---- |
