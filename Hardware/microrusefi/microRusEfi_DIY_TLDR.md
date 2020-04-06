@@ -13,10 +13,13 @@ https://github.com/rusefi/hw_microRusEfi/tree/master/gerbers/0.4.8
 # Step 2 Finish assembly
 Order the following 8 parts:
 
-x1 TLE88882QKXUMA1
-x1 614105150721
-x2 PTS636 SM43 SMTR LFS
-x4 CA064X103K2RACAUTO 
+| Qty | PartNumber | Comment   |
+| ----------:|:--------  |:---------------------------------------------------- |
+| 1  | TLE88882QKXUMA1     | Power Management Chip  |
+| 1  | 614105150721     | Vertical microUSB  |
+| 2  |   PTS636 SM43 SMTR LFS   | push button  |
+| 4  | CA064X103K2RACAUTO     | capacitor array  |
+
 
 https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=dacd727e05
 
