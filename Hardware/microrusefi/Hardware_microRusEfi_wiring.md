@@ -26,8 +26,8 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 10 | **Ignition 2**   | ign     | Ignition 2                                     |
 | 11 | **Ignition 3**   | ign     | Ignition 3                                     |
 | 12 | **Ignition 4**   | ign     | Ignition 4                                     |
-| 13 | **GP out 6**     | gp1     | Alternator                                     |
-| 14 | **GP out 5**     | gp1     |                                                |
+| 13 | **GP out 6**     | gp1     | Alternator (see JP2 jumper note)               |
+| 14 | **GP out 5**     | gp1     |            (see JP2 jumper note)               |
 | 15 | **USB D-**       | usb     | USB white wire                                 |
 | 16 | **USB D+**       | usb     | USB green wire                                 |
 | 17 | **GND**          | sgnd    | Signal GND                                     |
@@ -94,7 +94,7 @@ These tables provide technical information about the different types of pin foun
 | inj  | Injector output     | Low side, 2.2A maximum<br/>**Only saturated (high impedance) injectors are supported.** | Injector, general purpose low side |
 | ign  | Ignition output     | 5V push-pull, 250mA maximum   | Ignition coil, general purpose 5V push-pull
 | ls   | High power low side | General purpose low side output, 4.5A maximum | General purpose low side, injector
-| gp1 | General purpose push-pull | General purpose push-pull output, 5V/12V (internally selectable) 250mA maximum | General purpose 5V/12V push-pull, ignition coil
+| gp1 | General purpose push-pull | General purpose push-pull output, 5V/12V (internally selectable based on JP2 jumper) 250mA maximum | General purpose 5V/12V push-pull, ignition coil
 | gp2 | General purpose push-pull | General purpose push-pull output, 12V 500mA maximum                            | General purpose 12V push-pull
 | mr   | Main relay          | Dedicated main relay output.  Low side turned on with power, 800mA maximum. | Main relay
 | etb  | Electronic throttle | Dedicated electronic throttle outputs.  Connect a brushed motor<br/>throttle body directly to these two pins.
