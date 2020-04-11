@@ -6,6 +6,8 @@ User documentation for rusEfi engine control unit
 
 ## [rusEfi overview](overview)
 
+Full list of (Legacy) mediawiki pages is available at https://rusefi.com/wiki/index.php?title=Special:AllPages
+
 http://rusefi.com
 
 https://github.com/rusefi/rusefi
