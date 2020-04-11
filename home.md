@@ -6,6 +6,19 @@ User documentation for rusEfi engine control unit
 
 ## [rusEfi overview](overview)
 
+
+
+## EFI General Theory
+
+## rusEfi Features
+[FSIO - Flexible Sweet Input Output](FSIO)
+
+## Hardware
+### Frankenso
+#### [Frankenso_MazdaMiataNA6_pnp](Frankenso_MazdaMiataNA6_pnp)
+
+
+
 Full list of (Legacy) mediawiki pages is available at https://rusefi.com/wiki/index.php?title=Special:AllPages
 
 http://rusefi.com
