@@ -12,3 +12,11 @@ For example, in order for user abelom to edit this page:
 1) once changed are made, abelom would create a Pull Request
 3) once that PR is merged into primary rusEfi modified content would appear as https://github.com/rusefi/rusefi_documentation/blob/master/Special/Documentation_Workflow.md
 4) within the next 5 minutes automation would sync this page into wiki git and it would be available with nicer layout as https://github.com/rusefi/rusefi/wiki/Documentation_Workflow
+
+Same but in different terms:
+
+1) fork https://github.com/rusefi/rusefi_documentation
+2) make you changes
+3) PR my changes
+4) once PR is merged by one of moderators, your changes would appear at https://github.com/rusefi/rusefi_documentation instantaneously
+5) within the next 5 minutes magic happens and changes appear at https://github.com/rusefi/rusefi/wiki
