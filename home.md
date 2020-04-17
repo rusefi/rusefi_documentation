@@ -25,6 +25,7 @@
 
 [Wide Band Sensing](cj125_heating_4_9)
 
+[GDI](GDI_status)
 
 ## Hardware
 
