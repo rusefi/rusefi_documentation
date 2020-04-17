@@ -27,7 +27,7 @@ rusEfi hardware and software have components to deal with all three of these par
 
 ## Configuration & Tuning
 
-[See configuration guide here.](HOWTO_electronic_throttle_body_configuration)
+[See configuration guide here.](HOWTO_electronic_throttle_body_configuration.md)
 
 ## Hardware Configuration
 
