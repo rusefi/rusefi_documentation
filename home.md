@@ -23,8 +23,13 @@
 
 [Knock Sensing](knock_sensing.md)
 
+[Wide Band Sensing](cj125_heating_4_9)
+
 
 ## Hardware
+
+[FAQ rusEfi Boards](Hardware_Boards)
+
 ### Frankenso
 #### [Frankenso_MazdaMiataNA6_pnp](Frankenso_MazdaMiataNA6_pnp)
 
