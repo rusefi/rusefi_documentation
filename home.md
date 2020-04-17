@@ -21,6 +21,8 @@
 ## rusEfi Features
 [FSIO - Flexible Sweet Input Output](FSIO)
 
+[cranking](cranking)
+
 [Drive-by-wire/Electronic throttle body](HOWTO_electronic_throttle_body)
 
 [Shaun TODO Multispark](Shaun TODO)
@@ -33,7 +35,7 @@
 
 ## Hardware
 
-[FAQ rusEfi Boards](Hardware_Boards)
+[FAQ rusEfi Boards](Hardware)
 
 ### Frankenso
 #### [Frankenso_MazdaMiataNA6_pnp](Frankenso_MazdaMiataNA6_pnp)
@@ -58,4 +60,10 @@ https://github.com/rusefi/hw_modular
 
 [firmware code automated test coverage](https://rusefi.com/docs/unit_tests_coverage)
 
+[HOWTO_contribute_to_firmware](HOWTO_contribute_to_firmware)
+
 Some GIT help is available inside [misc/git_scripts](https://github.com/rusefi/hw_microRusEfi/tree/master/git_scripts) folder
+
+Q: Where are contributors hanging out?
+
+A: [rusefi_chat](rusefi_chat)
