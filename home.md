@@ -14,6 +14,10 @@
 
 ## EFI General Theory
 
+[how_to_convert_from_carburetor_to_EFI](how_to_convert_from_carburetor_to_EFI)
+
+[do_i_need_wideband_oxygen_sensor](do_i_need_wideband_oxygen_sensor)
+
 ## rusEfi Features
 [FSIO - Flexible Sweet Input Output](FSIO)
 
