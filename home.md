@@ -33,7 +33,7 @@
 
 ## Hardware
 
-[FAQ rusEfi Boards](Hardware_Boards)
+[FAQ rusEfi Boards](Hardware)
 
 ### Frankenso
 #### [Frankenso_MazdaMiataNA6_pnp](Frankenso_MazdaMiataNA6_pnp)
@@ -57,5 +57,7 @@ https://github.com/rusefi/hw_modular
 [firmware code Doxygen](https://rusefi.com/docs/html)
 
 [firmware code automated test coverage](https://rusefi.com/docs/unit_tests_coverage)
+
+[HOWTO_contribute_to_firmware](HOWTO_contribute_to_firmware)
 
 Some GIT help is available inside [misc/git_scripts](https://github.com/rusefi/hw_microRusEfi/tree/master/git_scripts) folder

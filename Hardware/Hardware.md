@@ -28,6 +28,9 @@ important question. microRusEfi unfortunately only supports one VR shaft input m
 
 Frankenso supports up to 2 VR or 2 Hall shaft position sensors. Prometheus supports TBD. Proteus supports TBD.
 
+Q: why stm32?
+
+A: [selecting_open_source_ecu_microcontroller](selecting_open_source_ecu_microcontroller)
 
 
 See also https://rusefi.com/wiki/index.php?title=Hardware:Boards_Comparison
