@@ -64,3 +64,6 @@ https://github.com/rusefi/hw_modular
 
 Some GIT help is available inside [misc/git_scripts](https://github.com/rusefi/hw_microRusEfi/tree/master/git_scripts) folder
 
+Q: Where are contributors hanging out?
+
+A: [rusefi_chat](rusefi_chat)
