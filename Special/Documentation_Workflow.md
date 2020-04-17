@@ -16,7 +16,7 @@ For example, in order for user abelom to edit this page:
 Same but in different terms:
 
 1) fork https://github.com/rusefi/rusefi_documentation
-2) make you changes
+2) make your changes
 3) PR my changes
 4) once PR is merged by one of moderators, your changes would appear at https://github.com/rusefi/rusefi_documentation instantaneously
 5) within the next 5 minutes magic happens and changes appear at https://github.com/rusefi/rusefi/wiki
