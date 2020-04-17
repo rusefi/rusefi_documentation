@@ -52,12 +52,12 @@ Here are all the Saab components we will be using (only two coils pictured while
 
 Ferrari 124792 spark plug extension is used to connect original Mazda Miata spark plugs with bullet terminals removed with Saab COPs
 
-![hardware details](hardware_details.jpg)
+![hardware details](saab_cdm_hardware_details.jpg)
 [youtube: Hardware Details](https://youtu.be/rUZ_-_hRnDU)
 
-![frankenso](frankenso_assembled.jpg)
+![frankenso](saab_cdm_frankenso_assembled.jpg)
 
-![hardware overview](engine_bay.jpg)
+![hardware overview](saab_cdm_engine_bay.jpg)
 [youtube: Hardware Overview](https://www.youtube.com/watch?v=1y1dXTg9iMg)
 
 Knock detection wire has 0.8KOhm pull-up to 5v, combustion detection signal has 5KOhm pull-up to 5v.
@@ -72,7 +72,7 @@ Detonation is audible in 2000-4000 range with 50% throttle pulls from parked.
 
 Detonation is also audible while parked, revving with brakes applied in "D" gear selector.
 
-![timing](knock_ignition_table.png)
+![timing](saab_cdm_knock_ignition_table.png)
 
 [youtube: It's knocking!](https://youtu.be/FQ9ii0eXjmA)
 
