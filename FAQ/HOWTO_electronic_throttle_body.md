@@ -2,7 +2,7 @@
 # Electronic Throttle Body (ETB)
 
 
-## _WARNING: An electronic throttle, if misconfigured, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!_
+## _WARNING: An electronic throttle, if misconfigured or damaged, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!_
 
 rusEfi supports controlling an electronic throttle body.  Also called "drive by wire", this means there's no physical cable between your foot and the throttle.  Your foot presses on a pedal without a cable, just a sensor.  The ECU interprets this information, and converts it to a desired position for the throttle, and then works to drive the throttle plate to the desired position.
 
