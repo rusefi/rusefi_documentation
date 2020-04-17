@@ -33,8 +33,6 @@
 
 ## Hardware
 
-[rusEFI Assembly Completeness Chart](Completeness_Chart)
-
 [FAQ rusEfi Boards](Hardware_Boards)
 
 ### Frankenso
