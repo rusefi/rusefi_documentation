@@ -21,6 +21,8 @@
 ## rusEfi Features
 [FSIO - Flexible Sweet Input Output](FSIO)
 
+[cranking](cranking)
+
 [Drive-by-wire/Electronic throttle body](HOWTO_electronic_throttle_body)
 
 [Shaun TODO Multispark](Shaun TODO)
@@ -61,3 +63,4 @@ https://github.com/rusefi/hw_modular
 [HOWTO_contribute_to_firmware](HOWTO_contribute_to_firmware)
 
 Some GIT help is available inside [misc/git_scripts](https://github.com/rusefi/hw_microRusEfi/tree/master/git_scripts) folder
+

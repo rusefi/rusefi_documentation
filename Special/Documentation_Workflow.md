@@ -20,3 +20,10 @@ Same but in different terms:
 3) PR you changes
 4) once PR is merged by one of moderators, your changes would appear at https://github.com/rusefi/rusefi_documentation instantaneously
 5) within the next 5 minutes magic happens and changes appear at https://github.com/rusefi/rusefi/wiki
+
+
+Q: Is there a place where we are holding all images for these documents?
+
+A: We have images in the same repository! Just add your images while editing pages. Please consider using some (any really) folder structure.
+
+For example https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png is visible on /wiki/ as https://raw.githubusercontent.com/wiki/rusefi/rusefi/FAQ/images/TunerStudio_new_project.png 
