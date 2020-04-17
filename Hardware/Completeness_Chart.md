@@ -2,7 +2,7 @@
 When ordering rusEFI the ECU boards may be bought in several different stages of assembly completeness. These stages may range from the bare board with no components attached all the way to fully assembled PCBs already in enclosures. What should be ordered by the end user is up to them, their solering skills and capabilities, and how much they value their time. 
 
 1. **Bare PCB**: No components soldered. For the end user, soldering would be required for **ALL** components. 
-![BareMRE](Images/BareMRE.png "Bare MRE")
+![BareMRE](Hardware/Images/BareMRE.png "Bare MRE")
 
 2. **Partially Populated Board**: More than a half of components soldered to it. This board would require the end user to do some SMT and/or through-hole soldering to get a functional board.  
 ![PartialMRE](Images/PartialMRE.png "Partial MRE")
