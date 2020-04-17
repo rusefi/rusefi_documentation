@@ -13,6 +13,6 @@ git push wiki-git HEAD:master                           >> log.txt 2>>err.txt
 git checkout master                                     >> log.txt 2>>err.txt
 git pull                                                >> log.txt 2>>err.txt
 git branch -d wiki-git-local                            >> log.txt 2>>err.txt
-
+git branch -d best-wiki-git-local                       >> log.txt 2>>err.txt
 
 
