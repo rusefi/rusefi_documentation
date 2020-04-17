@@ -2,6 +2,8 @@
 
 TODO :)
 
+[HOWTO_tune_electronic_throttle_body](HOWTO_tune_electronic_throttle_body)
+
 See https://rusefi.com/forum/viewtopic.php?f=5&t=592&start=150#p32044
 
 tl;dr:

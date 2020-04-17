@@ -1,7 +1,10 @@
-# rusEfi Documentation
-;)
 
-User documentation for rusEfi engine control unit
+# User documentation
+
+[List_of_engines_running_rusEfi](List_of_engines_running_rusEfi)
+
+[rusEfi_history](rusEfi_history)
+
 
 ## [Quick Start](HOWTO_quick_start)
 
@@ -13,6 +16,13 @@ User documentation for rusEfi engine control unit
 
 ## rusEfi Features
 [FSIO - Flexible Sweet Input Output](FSIO)
+
+[Drive-by-wire/Electronic throttle body](HOWTO_electronic_throttle_body)
+
+[Shaun TODO Multispark](Shaun TODO)
+
+[Knock Sensing](knock_sensing.md)
+
 
 ## Hardware
 ### Frankenso
@@ -28,5 +38,10 @@ https://github.com/rusefi/rusefi
 
 https://github.com/rusefi/hw_modular
 
+# Contributor Documentation
 
-Contributors - some GIT help is available inside [misc/git_scripts](https://github.com/rusefi/hw_microRusEfi/tree/master/git_scripts) folder
+[Documentation Strategy](Documentation_Strategy)
+
+[Documentation Workflow](Documentation_Workflow)
+
+Some GIT help is available inside [misc/git_scripts](https://github.com/rusefi/hw_microRusEfi/tree/master/git_scripts) folder
