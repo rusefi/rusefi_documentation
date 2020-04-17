@@ -21,16 +21,16 @@ meaning more detonation. Combustion signal seems to be just a comparator giving 
 seems to be showing post-flame pressure, with the middle of this pulse correlating with moment of peak cylinder pressure.
 
 Knocking - note a lot of blue line pulses (1ms timebase)
-![knock](tldr_knocking.png)
+![knock](saab_cdm_tldr_knocking.png)
 
 Knocking (50us timebase)
-![knock](knock_signal.png)
+![knock](saab_cdm_knock_signal.png)
 
 Not knocking or knocking way less - note lack of blue line low level pulses (5ms timebase)
-![no knock](tldr_not_knocking.png)
+![no knock](saab_cdm_tldr_not_knocking.png)
 
 Combustion signal seem to be just a comparator
-![combustion](combustion_signal.png)
+![combustion](saab_cdm_combustion_signal.png)
 
 [All the videos mentioned here](https://www.youtube.com/watch?v=1y1dXTg9iMg&list=PLwj_BUeepTNB6eddVd7_KtyqiFYOJ75jy)
 
