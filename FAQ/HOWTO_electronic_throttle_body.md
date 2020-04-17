@@ -1,22 +1,37 @@
 
-
-TODO :)
-
-[HOWTO_tune_electronic_throttle_body](HOWTO_tune_electronic_throttle_body)
-
-See https://rusefi.com/forum/viewtopic.php?f=5&t=592&start=150#p32044
-
-tl;dr:
-
-1) Zero out PID gains, adjust bias table to cancel out the spring
-
-2) Tune PID
+# Electronic Throttle Body (ETB)
 
 
-See also https://rusefi.com/s/debugmode/
+## _WARNING: An electronic throttle, if misconfigured, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!_
 
+rusEfi supports controlling an electronic throttle body.  Also called "drive by wire", this means there's no physical cable between your foot and the throttle.  Your foot presses on a pedal without a cable, just a sensor.  The ECU interprets this information, and converts it to a desired position for the throttle, and then works to drive the throttle plate to the desired position.
 
-# H-bridge settings
+This offers a number of benefits:
+
+- Rev limiter by simply closing the throttle (not yet implemented)
+- Superior idle control
+- No need to route a cable to the throttle
+- Programmable throttle target curve/nonlinearity to improve drivability with a large throttle on a small engine
+
+## Theory of Operation
+
+Electronic throttles typically consist of:
+- A brushed DC motor.  Positive torque pushes the throttle open, and negative torque pushes the throttle closed.
+- A position sensor.  This tells the ECU the true position of the throttle, so that the ECU can use the motor to hold it where we want it.  This is a potentiometer or hall effect angle sensor, depending on the throttle, though they both function the same.
+- A "limp home" return spring.  This spring pushes the throttle plate back towards a position that's nearly closed, approximatly the correct amount of air for idle (generally 3-10% open).
+
+rusEfi hardware and software have components to deal with all three of these parts of the throttle.
+- DC motor driver H-bridge(s) to control the motor.  An H-bridge can apply a variable voltage (via PWM) in either direction to the motor.
+- Analog inputs and corresponding software to detect the position of the throttle and accelerator pedal.
+- A control algorithm that uses a table to linearize the return spring, and PID to move the throttle to the targeted position.
+
+## Configuration & Tuning
+
+[See configuration guide here.](HOWTO_electronic_throttle_body_configuration)
+
+## Hardware Configuration
+
+**If you have a pre-assembled board, ignore this section!  The default settings are correct.**
 
 Different H-bridge chips are controlled differently. So far we have experiences three different ways:
 
