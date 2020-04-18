@@ -13,7 +13,7 @@ As of April 2019 "base fuel pulse" is deprecated, "1" is recommended.
 
 Typical 4 cylinder engine with 200 cc/min injectors, sequential injection, base fule = 1ms.
 
-![table](cranking_4cylinder.png)
+![table](FAQ/cranking_4cylinder.png)
 
 For 1.6 Honda cranking settings see https://rusefi.com/forum/download/file.php?id=4536 (note that "base fuel)
 " = 1 is recomended these days, with correspodning change to cranking temperature multiplier) 
