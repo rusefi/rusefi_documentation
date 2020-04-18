@@ -1,5 +1,5 @@
 
-![img](cj125_heating_4_9.png)
+![img](overview/wbo/cj125_heating_4_9.png)
 
 Wideband controller based on Bosch CJ125 chip
 
