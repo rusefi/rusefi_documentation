@@ -1,3 +1,4 @@
+TODO: insert cranking dialog screenshot here
 
 During cranking, two curves control the amount of fuel injected:
 "cranking coolant temperature multiplier" and "cranking duration multiplier".
