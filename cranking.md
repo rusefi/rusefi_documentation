@@ -92,6 +92,7 @@ rusEFI Console command:
 ```set cranking_priming_pulse X```
 
 </details>
+
 ### Falloff temperature
 
 *This sets the temperature above which no priming pulse is used, The value at -40 is reduced until there is no more priming injection at this temperature.*
