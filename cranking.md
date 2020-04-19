@@ -41,25 +41,29 @@ The settings are divided into several sections:
 rusEfi has separate cranking control strategy for your first couple of engine revolutions - usually you want more fuel, different timing and simultaneous injection to start an engine. Engine would start rich, as long as it's not too rich, as long as you have close-enough cranking timing angle. 
 
 > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on particular settings:*
-<div style="position: relative; float: left; width: 40%; margin-right: 10px; z-index: 1">
-  <img src="FAQ/cranking/settings.png">
-  <a style="position: absolute; top: 8.5%; height: 3.5%; left: 0; width: 100%;" href="#cranking-rpm-limit" title="Cranking RPM limit"></a>
-  <a style="position: absolute; top: 12%; height: 3.5%; left: 0; width: 100%;" href="#enable-cylinder-cleanup" title="Enable cylinder cleanup"></a>
-  <a style="position: absolute; top: 17%; height: 3.5%; left: 0; width: 100%;" href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up"></a>
-  <a style="position: absolute; top: 22.5%; height: 3.5%; left: 0; width: 100%;" href="#duration-at--40c-degrees" title="Duration at -40C degrees"></a>
-  <a style="position: absolute; top: 26%; height: 3.5%; left: 0; width: 100%;" href="#falloff-temperature" title="Falloff temperature"></a>
-  <a style="position: absolute; top: 32%; height: 3.5%; left: 0; width: 100%;" href="#injection-mode" title="Injectiton mode"></a>
-  <a style="position: absolute; top: 37%; height: 3.5%; left: 0; width: 100%;" href="#fuel-source-for-cranking" title="Fuel Source For Cranking"></a>
-  <a style="position: absolute; top: 40.5%; height: 3.5%; left: 0; width: 100%;" href="#base-fuel-pulse-width" title="Base Fuel Pulse Width"></a>
-  <a style="position: absolute; top: 46.5%; height: 3.5%; left: 0; width: 100%;" href="#advance" title="Advance"></a>
-  <a style="position: absolute; top: 50%; height: 3.5%; left: 0; width: 100%;" href="#use-separate-advance-table-for-cranking" title="Use separate Advance Table for cranking"></a>
-  <a style="position: absolute; top: 53%; height: 3.5%; left: 0; width: 100%;" href="#use-advance-corrections-for-cranking" title="Use Advance Corrections for cranking"></a>
-  <a style="position: absolute; top: 56%; height: 9%; left: 0; width: 100%;" href="#use-fixed-cranking-dwell" title="Use fixed cranking dwell"></a>
-  <a style="position: absolute; top: 68%; height: 3%; left: 0; width: 100%;" href="#cranking-iac-position" title="Cranking IAC position"></a>
-  <a style="position: absolute; top: 71%; height: 3%; left: 0; width: 100%;" href="#after-cranking-iac-taper-duration" title="After cranking IAC taper duration"></a>  
-  <a style="position: absolute; top: 74%; height: 3%; left: 0; width: 100%;" href="#override-iac-multiplier-for-cranking" title="Override IAC multiplier for cranking"></a>  
-  <a style="position: absolute; top: 80%; height: 6%; left: 0; width: 100%;" href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment"></a>  
-</div>
+
+<table border=0><tr><td width= 435>
+ <img src="FAQ/cranking/settings.png" usemap="#cranking">
+ <map name="cranking"> 
+  <area shape="rect" coords="0,65,434,86" href="#cranking-rpm-limit" title="Cranking RPM limit" />
+  <area shape="rect" coords="0,86,434,110" href="#enable-cylinder-cleanup" title="Enable cylinder cleanup" />
+  <area shape="rect" coords="0,130,434,152" href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up" />
+  <area shape="rect" coords="0,172,434,192" href="#duration-at--40c-degrees" title="Duration at -40C degrees" />
+  <area shape="rect" coords="0,194,434,216" href="#falloff-temperature" title="Falloff temperature" />
+  <area shape="rect" coords="0,240,434,266" href="#injection-mode" title="Injectiton mode" />
+  <area shape="rect" coords="0,280,434,302" href="#fuel-source-for-cranking" title="Fuel Source For Cranking" />
+  <area shape="rect" coords="0,305,434,328" href="#base-fuel-pulse-width" title="Base Fuel Pulse Width" />
+  <area shape="rect" coords="0,350,434,372" href="#advance" title="Advance" />
+  <area shape="rect" coords="0,373,434,395" href="#use-separate-advance-table-for-cranking" title="Use separate Advance Table for cranking" />
+  <area shape="rect" coords="0,396,434,418" href="#use-advance-corrections-for-cranking" title="Use Advance Corrections for cranking" />
+  <area shape="rect" coords="0,419,434,486" href="#use-fixed-cranking-dwell" title="Use fixed cranking dwell" />
+  <area shape="rect" coords="0,509,434,531" href="#cranking-iac-position" title="Cranking IAC position" />
+  <area shape="rect" coords="0,532,434,552" href="#after-cranking-iac-taper-duration" title="After cranking IAC taper duration" />
+  <area shape="rect" coords="0,553,434,576" href="#override-iac-multiplier-for-cranking" title="Override IAC multiplier for cranking" />
+  <area shape="rect" coords="0,600,434,645" href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment" />
+  </map>
+</td>
+<td valign=top>
 
 ## General Cranking Settings
 ### Cranking RPM limit
@@ -70,9 +74,11 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 *When enabled, if the throttle pedal is held above 90% then no fuel is injected while cranking to clear excess fuel from the cylinders.*
 
 ### Enable faster engine spin-up
-*Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary ![trigger wheel](Trigger_Wheel).*
+*Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](Trigger_Wheels).*
 *Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
 
+
+</td></tr></table>
 
 ## Priming Fuel Pulse
 ### Duration at -40C degrees
@@ -89,7 +95,6 @@ rusEFI Console command:
 ```set cranking_priming_pulse X```
 
 </details>
-
 ### Falloff temperature
 
 *This sets the temperature above which no priming pulse is used, The value at -40 is reduced until there is no more priming injection at this temperature.*
