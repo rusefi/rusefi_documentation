@@ -1,7 +1,7 @@
 
 # What is Cranking?
 
-In order to get an engine running, it first needs to be rotated at sufficient speed. Thus, it gets the fuel pumped up to the cylinders and ignited and enables the engine to run on its own power. Cranking the engine simply means turning the engine’s crankshaft that rotates the engine to power itself.
+In order to get an engine running, it first needs to be rotated at sufficient speed. Thus, it gets the fuel pumped up to the cylinders and ignited and enables the engine to run on its own power. Cranking the engine simply means turning the engine's crankshaft that rotates the engine to power itself.
 
 
 <details><summary><i>See also</i>: <u>Starter Motor</u></summary>
