@@ -41,7 +41,7 @@ rusEfi has separate cranking control strategy for your first couple of engine re
 
 > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on particular settings:*
 
-<table border=0><tr><td width=350> <img src="FAQ/cranking/settings_01.png" valign="top" style="vertical-align: top;"/>
+<table border=0><tr><td width=370> <img src="FAQ/cranking/settings_01.png" valign="top" style="vertical-align: top;"/>
   <a href="#cranking-rpm-limit" title="Cranking RPM limit"><img src="FAQ/cranking/settings_02.png" valign="top" style="vertical-align: top;"/></a>
   <a href="#enable-cylinder-cleanup" title="Enable cylinder cleanup"><img src="FAQ/cranking/settings_03.png" valign="top" style="vertical-align: top;"/></a>
   <a href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up"><img src="FAQ/cranking/settings_04.png" valign="top" style="vertical-align: top;"/></a>
