@@ -41,8 +41,8 @@ rusEfi has separate cranking control strategy for your first couple of engine re
 
 > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on particular settings:*
 
-<p float="left">
-  <img src="FAQ/cranking/settings_01.png"/>
+<table border=0><tr><td width=50%>
+  <img src="FAQ/cranking/settings_01.png"/><br />
   <a href="#cranking-rpm-limit" title="Cranking RPM limit"><img src="FAQ/cranking/settings_02.png"/></a><br />
   <a href="#enable-cylinder-cleanup" title="Enable cylinder cleanup"><img src="FAQ/cranking/settings_03.png"/></a><br />
   <a href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up"><img src="FAQ/cranking/settings_04.png"/></a><br />
@@ -60,7 +60,9 @@ rusEfi has separate cranking control strategy for your first couple of engine re
   <a href="#override-iac-multiplier-for-cranking" title="Override IAC multiplier for cranking"><img src="FAQ/cranking/settings_16.png"/></a><br />
   <a href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment"><img src="FAQ/cranking/settings_17.png"/></a><br />
   <img src="FAQ/cranking/settings_18.png"/>
-  </p>
+
+</td>
+<td valign=top>
 
 ## General Cranking Settings
 ### Cranking RPM limit
@@ -74,7 +76,7 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 *Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](Trigger_Wheels).*
 *Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
 
-
+</td></tr></table>
 
 
 ## Priming Fuel Pulse
