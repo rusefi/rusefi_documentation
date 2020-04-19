@@ -1,4 +1,5 @@
-As of April, 2020 the strategy is to move from MediaWiki https://rusefi.com/wiki/
+As of April, 2020 the strategy is to move from MediaWiki https://rusefi.com/wiki/ to
+https://github.com/rusefi/rusefi/wiki/
 
 Full list of (Legacy) mediawiki pages is available at https://rusefi.com/wiki/index.php?title=Special:AllPages
 
