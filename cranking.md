@@ -1,4 +1,3 @@
-<link href="rusefi.css" rel="stylesheet"></link>
 
 # What is Cranking?
 
@@ -42,28 +41,26 @@ rusEfi has separate cranking control strategy for your first couple of engine re
 
 > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on particular settings:*
 
-<table border=0><tr><td width=50%>
- <img src="FAQ/cranking/settings.png" usemap="#cranking">
- <map name="cranking"> 
-  <area shape="rect" coords="0,65,434,86" href="#cranking-rpm-limit" title="Cranking RPM limit" />
-  <area shape="rect" coords="0,86,434,110" href="#enable-cylinder-cleanup" title="Enable cylinder cleanup" />
-  <area shape="rect" coords="0,130,434,152" href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up" />
-  <area shape="rect" coords="0,172,434,192" href="#duration-at--40c-degrees" title="Duration at -40C degrees" />
-  <area shape="rect" coords="0,194,434,216" href="#falloff-temperature" title="Falloff temperature" />
-  <area shape="rect" coords="0,240,434,266" href="#injection-mode" title="Injectiton mode" />
-  <area shape="rect" coords="0,280,434,302" href="#fuel-source-for-cranking" title="Fuel Source For Cranking" />
-  <area shape="rect" coords="0,305,434,328" href="#base-fuel-pulse-width" title="Base Fuel Pulse Width" />
-  <area shape="rect" coords="0,350,434,372" href="#advance" title="Advance" />
-  <area shape="rect" coords="0,373,434,395" href="#use-separate-advance-table-for-cranking" title="Use separate Advance Table for cranking" />
-  <area shape="rect" coords="0,396,434,418" href="#use-advance-corrections-for-cranking" title="Use Advance Corrections for cranking" />
-  <area shape="rect" coords="0,419,434,486" href="#use-fixed-cranking-dwell" title="Use fixed cranking dwell" />
-  <area shape="rect" coords="0,509,434,531" href="#cranking-iac-position" title="Cranking IAC position" />
-  <area shape="rect" coords="0,532,434,552" href="#after-cranking-iac-taper-duration" title="After cranking IAC taper duration" />
-  <area shape="rect" coords="0,553,434,576" href="#override-iac-multiplier-for-cranking" title="Override IAC multiplier for cranking" />
-  <area shape="rect" coords="0,600,434,645" href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment" />
-  </map>
-</td>
-<td valign=top>
+<p float="left">
+  <img src="FAQ/cranking/settings_01.png"/>
+  <a href="#cranking-rpm-limit" title="Cranking RPM limit"><img src="FAQ/cranking/settings_02.png"/></a>
+  <a href="#enable-cylinder-cleanup" title="Enable cylinder cleanup"><img src="FAQ/cranking/settings_03.png"/></a>
+  <a href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up"><img src="FAQ/cranking/settings_04.png"/></a>
+  <a href="#duration-at--40c-degrees" title="Duration at -40C degrees"><img src="FAQ/cranking/settings_05.png"/></a>
+  <a href="#falloff-temperature" title="Falloff temperature"><img src="FAQ/cranking/settings_06.png"/></a>
+  <a href="#injection-mode" title="Injectiton mode"><img src="FAQ/cranking/settings_07.png"/></a>
+  <a href="#fuel-source-for-cranking" title="Fuel Source For Cranking"><img src="FAQ/cranking/settings_08.png"/></a>
+  <a href="#base-fuel-pulse-width" title="Base Fuel Pulse Width"><img src="FAQ/cranking/settings_09.png"/></a>
+  <a href="#advance" title="Advance"><img src="FAQ/cranking/settings_10.png"/></a>
+  <a href="#use-separate-advance-table-for-cranking" title="Use separate Advance Table for cranking"><img src="FAQ/cranking/settings_11.png"/></a>
+  <a href="#use-advance-corrections-for-cranking" title="Use Advance Corrections for cranking"><img src="FAQ/cranking/settings_12.png"/></a>
+  <a href="#use-fixed-cranking-dwell" title="Use fixed cranking dwell"><img src="FAQ/cranking/settings_13.png"/></a>
+  <a href="#cranking-iac-position" title="Cranking IAC position"><img src="FAQ/cranking/settings_14.png"/></a>
+  <a href="#after-cranking-iac-taper-duration" title="After cranking IAC taper duration"><img src="FAQ/cranking/settings_15.png"/></a>
+  <a href="#override-iac-multiplier-for-cranking" title="Override IAC multiplier for cranking"><img src="FAQ/cranking/settings_16.png"/></a>
+  <a href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment"><img src="FAQ/cranking/settings_17.png"/></a>
+  <img src="FAQ/cranking/settings_18.png"/>
+  </p>
 
 ## General Cranking Settings
 ### Cranking RPM limit
@@ -78,7 +75,7 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 *Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
 
 
-</td></tr></table>
+
 
 ## Priming Fuel Pulse
 ### Duration at -40C degrees
