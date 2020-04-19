@@ -41,26 +41,24 @@ rusEfi has separate cranking control strategy for your first couple of engine re
 
 > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on particular settings:*
 
-<table border=0><tr><td width=50%>
-  <img src="FAQ/cranking/settings_01.png" valign="top"/><br />
-  <a href="#cranking-rpm-limit" title="Cranking RPM limit"><img src="FAQ/cranking/settings_02.png" valign="top"/></a><br />
-  <a href="#enable-cylinder-cleanup" title="Enable cylinder cleanup"><img src="FAQ/cranking/settings_03.png" valign="top"/></a><br />
-  <a href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up"><img src="FAQ/cranking/settings_04.png" valign="top"/></a><br />
-  <a href="#duration-at--40c-degrees" title="Duration at -40C degrees"><img src="FAQ/cranking/settings_05.png" valign="top"/></a><br />
-  <a href="#falloff-temperature" title="Falloff temperature"><img src="FAQ/cranking/settings_06.png" valign="top"/></a><br />
-  <a href="#injection-mode" title="Injectiton mode"><img src="FAQ/cranking/settings_07.png" valign="top"/></a><br />
-  <a href="#fuel-source-for-cranking" title="Fuel Source For Cranking"><img src="FAQ/cranking/settings_08.png" valign="top"/></a><br />
-  <a href="#base-fuel-pulse-width" title="Base Fuel Pulse Width"><img src="FAQ/cranking/settings_09.png" valign="top"/></a><br />
-  <a href="#advance" title="Advance"><img src="FAQ/cranking/settings_10.png" valign="top"/></a><br />
-  <a href="#use-separate-advance-table-for-cranking" title="Use separate Advance Table for cranking"><img src="FAQ/cranking/settings_11.png" valign="top"/></a><br />
-  <a href="#use-advance-corrections-for-cranking" title="Use Advance Corrections for cranking"><img src="FAQ/cranking/settings_12.png" valign="top"/></a><br />
-  <a href="#use-fixed-cranking-dwell" title="Use fixed cranking dwell"><img src="FAQ/cranking/settings_13.png" valign="top"/></a><br />
-  <a href="#cranking-iac-position" title="Cranking IAC position"><img src="FAQ/cranking/settings_14.png" valign="top"/></a><br />
-  <a href="#after-cranking-iac-taper-duration" title="After cranking IAC taper duration"><img src="FAQ/cranking/settings_15.png" valign="top"/></a><br />
-  <a href="#override-iac-multiplier-for-cranking" title="Override IAC multiplier for cranking"><img src="FAQ/cranking/settings_16.png" valign="top"/></a><br />
-  <a href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment"><img src="FAQ/cranking/settings_17.png" valign="top"/></a><br />
-  <img src="FAQ/cranking/settings_18.png" valign="top"/>
-
+<table border=0><tr><td width=350> <img src="FAQ/cranking/settings_01.png" valign="top" style="vertical-align: top;"/>
+  <a href="#cranking-rpm-limit" title="Cranking RPM limit"><img src="FAQ/cranking/settings_02.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#enable-cylinder-cleanup" title="Enable cylinder cleanup"><img src="FAQ/cranking/settings_03.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up"><img src="FAQ/cranking/settings_04.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#duration-at--40c-degrees" title="Duration at -40C degrees"><img src="FAQ/cranking/settings_05.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#falloff-temperature" title="Falloff temperature"><img src="FAQ/cranking/settings_06.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#injection-mode" title="Injectiton mode"><img src="FAQ/cranking/settings_07.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#fuel-source-for-cranking" title="Fuel Source For Cranking"><img src="FAQ/cranking/settings_08.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#base-fuel-pulse-width" title="Base Fuel Pulse Width"><img src="FAQ/cranking/settings_09.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#advance" title="Advance"><img src="FAQ/cranking/settings_10.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#use-separate-advance-table-for-cranking" title="Use separate Advance Table for cranking"><img src="FAQ/cranking/settings_11.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#use-advance-corrections-for-cranking" title="Use Advance Corrections for cranking"><img src="FAQ/cranking/settings_12.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#use-fixed-cranking-dwell" title="Use fixed cranking dwell"><img src="FAQ/cranking/settings_13.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#cranking-iac-position" title="Cranking IAC position"><img src="FAQ/cranking/settings_14.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#after-cranking-iac-taper-duration" title="After cranking IAC taper duration"><img src="FAQ/cranking/settings_15.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#override-iac-multiplier-for-cranking" title="Override IAC multiplier for cranking"><img src="FAQ/cranking/settings_16.png" valign="top" style="vertical-align: top;"/></a>
+  <a href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment"><img src="FAQ/cranking/settings_17.png" valign="top" style="vertical-align: top;"/></a>
+  <img src="FAQ/cranking/settings_18.png" valign="top" style="vertical-align: top;"/>
 </td>
 <td valign=top>
 
