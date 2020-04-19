@@ -8,9 +8,9 @@ Jenkins automation merges all changes from technical git into https://github.com
 
 For example, in order for user abelom to edit this page:
 
-1) abelom would start editing at https://github.com/rusefi/rusefi_documentation/blob/master/Special/Documentation_Workflow.md which would automatically create a branch in https://github.com/abelom/rusefi_documentation fork
+1) abelom would start editing at https://github.com/rusefi/rusefi_documentation/blob/master/Documentation_Workflow.md which would automatically create a branch in https://github.com/abelom/rusefi_documentation fork
 1) once changed are made, abelom would create a Pull Request
-3) once that PR is merged into primary rusEfi modified content would appear as https://github.com/rusefi/rusefi_documentation/blob/master/Special/Documentation_Workflow.md
+3) once that PR is merged into primary rusEfi modified content would appear as https://github.com/rusefi/rusefi_documentation/blob/master/Documentation_Workflow.md
 4) within the next 5 minutes automation would sync this page into wiki git and it would be available with nicer layout as https://github.com/rusefi/rusefi/wiki/Documentation_Workflow
 
 Same but in different terms:
@@ -28,7 +28,10 @@ A: We have images in the same repository! Just add your images while editing pag
 
 For example https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png is visible on /wiki/ as https://raw.githubusercontent.com/wiki/rusefi/rusefi/FAQ/images/TunerStudio_new_project.png
 
+Long story short, for images to work good both in technical git and user-facing wiki, we place all .md files into the same root folder.
+
+(More deteils: 
 Please note that all .md files like https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/HOWTO_quick_start.md are displayed without folder name like https://github.com/rusefi/rusefi/wiki/HOWTO_quick_start which also means
 that you need full image path like ``FAQ/images/rusEfi_console/rusEfi_console_start_screen.png`` for image to be rendered properly. This is one of github wiki features which are a bit counter-intuitive to me.
 
-This also means that .md file names have to be unique for the whole.
+This also means that .md file names have to be unique for the whole.)

@@ -43,7 +43,7 @@ rusEfi has auto-tuning software that can help generate a starting point for your
 ### _Ensure the engine is off! Do not attempt to start the engine during this process!_
 
 1. Ensure your electronic throttle roughly tracks the target position.  It doesn't have to be perfect or super fast, but it should at least work.  Confirm this by checking that the gauge "ETB position error" displays small values while moving the throttle around gently (a few percent is fine, so long as it trends towards zero if you stop moving).
-2. Set debug mode to ETB autotune and add gauges Ku, Tu, Kp, Ki, Kd (in debug menu) (todo: add screenshot)
+2. Set [debug mode](Debug_Mode) to ETB autotune and add gauges Ku, Tu, Kp, Ki, Kd (in debug menu) (todo: add screenshot)
 3. Using the accelerator pedal, hold the throttle at approximately 50% open.
 4. Press `ETB PID Autotune` button.  The throttle will begin oscillating around the target: this is normal.
 5. Observe the estimated PID parameters on gauges Kp, Ki, Kd
