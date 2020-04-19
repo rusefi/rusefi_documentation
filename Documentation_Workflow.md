@@ -35,3 +35,7 @@ Please note that all .md files like https://github.com/rusefi/rusefi_documentati
 that you need full image path like ``FAQ/images/rusEfi_console/rusEfi_console_start_screen.png`` for image to be rendered properly. This is one of github wiki features which are a bit counter-intuitive to me.
 
 This also means that .md file names have to be unique for the whole.)
+
+Q: what fancy options do we have?
+
+A: we can do collapsable sections & hints sections! see [cranking](cranking)

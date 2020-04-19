@@ -4,6 +4,8 @@
 In order to get an engine running, it first needs to be rotated at sufficient speed. Thus, it gets the fuel pumped up to the cylinders and ignited and enables the engine to run on its own power. Cranking the engine simply means turning the engine's crankshaft that rotates the engine to power itself.
 
 
+<!-- This would be rendered as a collapsable section. from 'details' to closing 'details' -->
+
 <details><summary><i>See also</i>: <u>Starter Motor</u></summary>
 
 <table><tr><td>
@@ -20,6 +22,8 @@ You can control the starter using several rusEFI firmware features:
 </details>
 
 Cranking mode is defined as any RPM value below 'cranking RPM' setting. During cranking, special fuel and timing logic is applied. 
+
+<!-- this magic '>' make a one line quote block --> 
 
 > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, Please first see: [First Engine Start](First_engine_start).*
 
