@@ -4,7 +4,7 @@
 Step 1: Sign up or sign in to https://github.com
 
 Step 2: Open https://github.com/rusefi/rusefi_documentation and click 'Fork' - this would produce your own fork/copy of rusefi_documentation which you can now edit right in your browser!
-![editor](github_online_editor.png)  
+![editor](FAQ/github_online_editor.png)  
 
 Step 3: Edit your code and Commit changes using the button below the editor.
 

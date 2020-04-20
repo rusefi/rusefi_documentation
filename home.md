@@ -52,6 +52,13 @@ https://github.com/rusefi/rusefi
 
 https://github.com/rusefi/hw_modular
 
+# Still stuck?
+
+[HOWTO_ask_questions](HOWTO_ask_questions)
+
+[Support](Support)
+
+
 # Contributor Documentation
 
 [Documentation Strategy](Documentation_Strategy)

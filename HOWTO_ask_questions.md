@@ -1,4 +1,4 @@
- Please post your tune file. It's usually Documents\TunerStudioProjects\NAMEOFYOURPROJECT\CurrentTune.msq
+Please post your tune file. More on that in [Support](Support)
 
 Please record and post a relevant log file. There are two ways to get a log file:
 
@@ -19,6 +19,5 @@ An example of a question asked with helpful background information:
  
 https://rusefi.com/forum/viewtopic.php?f=3&t=1282&start=101
 
-Also
 
-![video](images/fantastic-story-video-or-it-never-happened.jpg)
+![video](FAQ/images/fantastic-story-video-or-it-never-happened.jpg)
