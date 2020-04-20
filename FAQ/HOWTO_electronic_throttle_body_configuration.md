@@ -36,6 +36,8 @@ starts to open throttle, which offset is enough to open throttle completely.
 
 See https://rusefi.com/forum/viewtopic.php?f=5&t=592&start=150#p32044
 
+https://www.youtube.com/watch?v=USU0nnekokA
+
 ### Start with autotune
 
 rusEfi has auto-tuning software that can help generate a starting point for your PID settings.
