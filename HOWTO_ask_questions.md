@@ -8,6 +8,8 @@ Please record and post a relevant log file. There are two ways to get a log file
  
  
 HOWTO Ask Technical Questions 
+
+See also <a href="https://en.wikipedia.org/wiki/BLUF_(communication)">https://en.wikipedia.org/wiki/BLUF_(communication)</a>
  
 https://opensource.com/life/16/10/how-ask-technical-questions
 
