@@ -26,8 +26,8 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 10 | **Ignition 2**   | ign     | Ignition 2                                     |
 | 11 | **Ignition 3**   | ign     | Ignition 3                                     |
 | 12 | **Ignition 4**   | ign     | Ignition 4                                     |
-| 13 | **GP out 6**     | gp1     | Alternator (see JP2 jumper note)               |
-| 14 | **GP out 5**     | gp1     |            (see JP2 jumper note)               |
+| 13 | **GP out 6**     | gp_high | Alternator (see JP2 jumper note)               |
+| 14 | **GP out 5**     | gp_high |            (see JP2 jumper note)               |
 | 15 | **USB D-**       | usb     | USB white wire                                 |
 | 16 | **USB D+**       | usb     | USB green wire                                 |
 | 17 | **GND**          | sgnd    | Signal GND                                     |
@@ -46,9 +46,9 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 30 | **AN Volt 7**    | av      |                                                |
 | 31 | **AN Volt 3**    | av      | Throttle Pedal Position Sensor (PPS)           |
 | 32 | **AN Volt 6**    | av      | External wideband O2 sensor                    |
-| 33 | **GP out 3**     | gp2     |                                                |
-| 34 | **GP out 2**     | gp2     | Fan relay                                      |
-| 35 | **GP out 1**     | gp2     | Fuel pump relay                                |
+| 33 | **GP out 3**     | gp_low  |                                                |
+| 34 | **GP out 2**     | gp_low  | Fan relay                                      |
+| 35 | **GP out 1**     | gp_low  | Fuel pump relay                                |
 | 36 | **AN Volt 8**    | av      |                                                |
 | 37 | **Injector 1**   | inj     | Injector 1                                     |
 | 38 | **Injector 2**   | inj     | Injector 2                                     |
@@ -56,7 +56,7 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 40 | **AN Volt 9**    | av      |                                                |
 | 41 | **Injector 3**   | inj     | Injector 3                                     |
 | 42 | **Injector 4**   | inj     | Injector 4                                     |
-| 43 | **GP out 4**     | gp2     |                                                |
+| 43 | **GP out 4**     | gp_low  |                                                |
 | 44 | **5V Sensor 1**  | 5v      | TPS sensor supply                              |
 | 45 | **VR+/Hall**     | vr/hall | Crank VR+/hall                                 |
 | 46 | **VR-**          | vr      | Crank VR- (do not connect if hall)             |
@@ -94,8 +94,8 @@ These tables provide technical information about the different types of pin foun
 | inj  | Injector output     | Low side, 2.2A maximum<br/>**Only saturated (high impedance) injectors are supported.** | Injector, general purpose low side |
 | ign  | Ignition output     | 5V push-pull, 250mA maximum   | Ignition coil, general purpose 5V push-pull
 | ls   | High power low side | General purpose low side output, 4.5A maximum | General purpose low side, injector
-| gp1 | General purpose push-pull | General purpose push-pull output, 5V/12V (internally selectable based on JP2 jumper) 250mA maximum | General purpose 5V/12V push-pull, ignition coil
-| gp2 | General purpose push-pull | General purpose push-pull output, 12V 500mA maximum                            | General purpose 12V push-pull
+| gp_high | General purpose high side | General purpose high side push output, 5V/12V (internally selectable based on JP2 jumper) 250mA maximum | General purpose 5V/12V high side, ignition coil
+| gp_low | General purpose low side | General purpose low side pull output, 12V 500mA maximum                            | General purpose low side
 | mr   | Main relay          | Dedicated main relay output.  Low side turned on with power, 800mA maximum. | Main relay
 | etb  | Electronic throttle | Dedicated electronic throttle outputs.  Connect a brushed motor<br/>throttle body directly to these two pins.
 
