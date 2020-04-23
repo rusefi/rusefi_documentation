@@ -56,10 +56,14 @@ This table is the primary source of the desired fuel mixture, it will be this ta
 A future update will make this fueling table dynamic so that an input % of ethanol in the main fueling dialog will change the fuel density and thus the required fuel mass injected. The result of this will be that users can leave this table tuned as though it were for pure gasoline (14.7:1 stoiciometric) and the % ethanol input will make sure the fuelling stays at the same Lambda value. 
 This has the advantage of working well with aftermarket wideband controllers that generally work in AFR using pure gasoline as the standard. 
 
+[//]: # "Add AFR table picture"
+
 Before starting the engine for the first time it is wise to ensure the Fuel Table is filled with values of "100", a value of 100 means that the fuel calculation uses 100% of its measured air mass to decide on the fuel injection pulse.  
 Tuning this table will adjust for dynamic airflow effects that happen in the inlet of an engine and will allow small (or large but hopefully not) corrections to the fuel injection which may be required to have the engine meet it's desired air/fuel target.  
 This table should only be tuned if the engine is not meeting the desired air/fuel target under relatively steady state conditions (i.e. without any acceleration enrichment or overrun fuel cut).
 If a different air/fuel ratio is desired at a specific load or RPM then the AFR Table is the correct table to adjust instead. 
+
+[//]: # "Add VE table picture"
 
 # Obsolete information below
 
@@ -69,4 +73,4 @@ fuel_squirt_duration = injector_lag_curve_lookup(V_BATT) + warm_up_curve_lookup(
 
 where MAF is the reading at the start of engine cycle
 
-[//]: # "Comment"
+
