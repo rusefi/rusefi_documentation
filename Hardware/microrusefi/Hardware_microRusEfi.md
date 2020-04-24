@@ -28,3 +28,11 @@ Complete set of board source files is available at https://github.com/rusefi/hw_
 
 
 ![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_1_pcb.jpg)
+
+# FAQ
+
+Q: How about 6 cylinders sequential on microRusEfi?
+
+A: microRusEfi is primarily a 4 cylinder ECU. We are not comfortable recommending it for 6 cylinders sequential since six transistors would be different between them and who knows what would be the consequences.
+
+Even for batched mode it's unclear if latest 0.4.8 hardware can sustain it in terms of ECU head dissipation.
