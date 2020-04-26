@@ -11,7 +11,7 @@ There are two ways to connect our simulator to TCP, it all depends on the versio
  
  With the paid version all you need to do is to go into the communication settings inside a created project, choose the USB and wireless driver and the WiFi driver connection type, write the port as 29002 and the Ip addres as 127.0.0.1
  
- ![Communication_settings](FAQ/images/simulator/Communication_settings_direkt.PNG)
+ ![Communication_settings](FAQ/images/simulator/Communication_settings_tcp.png)
  
 However if you only have the lite version of TPC the process will be different
 
@@ -19,10 +19,10 @@ However if you only have the lite version of TPC the process will be different
 
 If you prefer using the free version of TCP you'll need to install a serial port emulator from [here](http://new.hwg.cz/files/download/sw/version/hw-vsp3-single_3-1-2.exe). You'll need to emulate a port on your PC. The only thing that you'll need to do is to choose a port name, COM100 for example amd to change the port address to 29002.
 
-![Virtual serial port](FAQ/images/simulator/Virtual_serial_port.PNG)
+![Virtual serial port](FAQ/images/simulator/Virtual_serial_port.png)
 
 One of the quirks of emulating is that your rusEfi console has to be open. So now if you open the communication settings in TCP you'll be able to connect to your emulator.
 
-![Emulated Communication settings](FAQ/images/simulator/Communication_settings.PNG) 
+![Emulated Communication settings](FAQ/images/simulator/Communication_settings.png) 
 
 Now your simulator is connected to TCP. 
