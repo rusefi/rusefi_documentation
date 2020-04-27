@@ -49,6 +49,19 @@ The current implementation of X-tau ignores coefficients (X) below 0.01 and RPM 
 
 [//]: # "need a screen shot of the x-tau TS section" 
 
+#### Evaporation time constant /tau (seconds)
+This value is the one that sets how long the fuel takes to re-enter the air charge after being deposited on the manifold walls.  
+Increasing this will have the effect of making the enrichment last for a longer time. When tuning increase this value if your logs show that the AFR goes lean towards the end of the acceleration.  
+Similarly reduce this value if the AFR becomes increasingly rich during the acceleration.
+
+#### Added to wall coef / Beta (Fraction)
+This value sets how much of the fuel lands on the walls during an acceleration event. Increasing this value will cause a larger quantity of fuel to be added to the inlet charge. 
+A large value here implies that a lot of the fuel is landing on the walls of the inlet manifold, requiring a large value may indicate that the spray pattern of the fuel injectors is incorrect for their positioning or the manifold type. 
+While tuning if you are failing to prevent the AFR from becoming leaner then increase this value. 
+
+
+Good tuning of the X-tau system relies on taking logs and some trial and error to tune the coefficients correctly. 
+
 # Old info
 
 ![config](ww_sample_config.jpg)
