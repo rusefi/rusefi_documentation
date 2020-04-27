@@ -1,6 +1,6 @@
 The Air Fuel Ratio (AFR) is controlled by how much fuel is delivered to the cylinder for combustion. There are many factors and many sensors that come into play when trying to determine how much O2 is in the cylinder. RusEFI collects this information and makes a guess about how much O2 is in the cyl, then rusEFI has to determine how much fuel is needed to get the expected AFR and deliver that fuel charge. Below is a graphic that shows some common differences in AFR for a particular Toyota engine. Other engines are similar to this, but may have a different peak power area, or peak efficiency area, etc. To know this information for your particular setup you would need to run it on a Dyno, and determine the exact AFR's.
 
-Airfuel.jpg
+Airfuel.jpg  
 [//]: # "Add picture"
 
 Original graphic found here [1]
@@ -19,7 +19,7 @@ RusEfi supports mono, individual/sequential and batched fuel injection using one
 Wideband Oxygen Sensor is pretty much a requirement for both manual and auto-tuning.
 
 
-T4dv3ed.png
+T4dv3ed.png  
 [//]: # "Add picture"
 
 Within each fuel calculation mode there is coolant temperature correction ("warm-up mode"), battery voltage correction and injector open time ("injector lag") correction.
@@ -28,7 +28,7 @@ Within each fuel calculation mode there is coolant temperature correction ("warm
 rusEfi could be used with MAF sensors sending out voltage (like Mazda Miata) or current (like Ford Aspire).
 
 
-NXe9uWH.png
+NXe9uWH.png  
 [//]: # "Add picture"
 
 (also some content at http://rusefi.com/forum/viewtopic.php?f=2&t=1124)
