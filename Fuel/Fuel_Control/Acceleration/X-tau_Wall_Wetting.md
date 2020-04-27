@@ -41,7 +41,7 @@ The math used is based on: SAE 810494 by C. F. Aquino and SAE 1999-01-0553 by Pe
 [//]: # "BETA: decreases with increasing temperature."
 [//]: # "decreases with decreasing manifold pressure."
 
-The current implemntation of X-tau ignores coefficients (X) below 0.01 and RPM below 100. 
+The current implementation of X-tau ignores coefficients (X) below 0.01 and RPM below 100. 
 
 
 
@@ -64,3 +64,5 @@ There's a bit of a spike rich-then-lean during the shifts, but it's not bad (res
 [Sample log](2019-01-01_19_modified.msl)
 
 Based on [https://rusefi.com/forum/viewtopic.php?f=5&t=1481](https://rusefi.com/forum/viewtopic.php?f=5&t=1481)
+
+[//]: # "OrchardPerformance" 

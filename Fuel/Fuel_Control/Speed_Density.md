@@ -16,3 +16,5 @@ Speed Density calculation: http://rusefi.com/docs/html/speed__density_8cpp.html
 MAP sensor processing: http://rusefi.com/docs/html/map__averaging_8cpp.html
 
 charge_temp is charge temperature heuristic formula: Tcharge = CLT * (1 - Tcharge_coff) + IAT * Tcharge_coff Where Tcharge_coff is interpolated between 0.25 if RPMs are low or throttle is closed to 0.9 if RPMs are high and wide open throttle. See http://rusefi.com/math/t_charge.html
+
+[//]: # "OrchardPerformance" 
