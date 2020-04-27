@@ -74,3 +74,4 @@ fuel_squirt_duration = injector_lag_curve_lookup(V_BATT) + warm_up_curve_lookup(
 where MAF is the reading at the start of engine cycle
 
 
+[//]: # "OrchardPerformance" 
