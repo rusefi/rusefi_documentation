@@ -9,6 +9,12 @@ The weakest point of rusEfi is documentation. If you've played with rusEfi for a
 We are also extremely short on software developers. [HOWTO_contribute_to_firmware](HOWTO_contribute_to_firmware)
 
 
+## Please do good and do not do bad
+
+We hope that as a community we can leverage each other's skills and have peaceful fun together.
+
+We probably would not articulate the guiding principles better than https://github.com/betaflight/betaflight/blob/master/docs/development/Development.md and https://github.com/betaflight/betaflight/blob/master/CONTRIBUTING.md
+
 #### Last but not least
 
 Since 2012 until today, this is just a hobby project with zero paid employees. Test PCBs, forum hosting,

@@ -55,3 +55,5 @@ rusEfi has auto-tuning software that can help generate a starting point for your
 The pedal map allows you to configure how the electronic throttle's position responds to driver input on the accelerator pedal.  Since engines with electronic throttles often have oversized throttles (because they can), this table is required to make the accelerator less sensitive for small openings, as this hurts drivability.
 
 This table is really one to tune to taste, since it has no bearing on actual engine performance, only on the relationship between driver input and resulting throttle position.
+
+[//]: # "Matt Kennedy"
