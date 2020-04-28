@@ -21,7 +21,7 @@ You can control the starter using several rusEFI firmware features:
 
 </details>
 
-Cranking mode is defined as any RPM value below 'cranking RPM' setting. During cranking, special fuel and timing logic is applied. 
+Cranking mode is defined as any RPM value below the 'cranking RPM' setting. During cranking, special fuel and timing logic is applied. 
 
 <!-- this magic '>' make a one line quote block --> 
 
@@ -41,9 +41,9 @@ The settings are divided into several sections:
 * [IAC settings](#iac-settings)
 * [Post-cranking fuel enrichment settings](#post-cranking-short-time-fuel-enrichment)
 
-rusEfi has separate cranking control strategy for your first couple of engine revolutions - usually you want more fuel, different timing and simultaneous injection to start an engine. Engine would start rich, as long as it's not too rich, as long as you have close-enough cranking timing angle. 
+rusEFI has a separate cranking control strategy for your first couple of engine revolutions - usually, you want more fuel, different timing and simultaneous injection to start an engine. The engine would start rich, as long as it's not too rich, as long as you have a close-enough cranking timing angle. 
 
-> <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on particular settings:*
+> <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on the particular settings:*
 
 <table border="0"><tr><td width="362" height="609" background="FAQ/cranking/settings_back.png" valign="top"> <img src="FAQ/cranking/settings_01.png" valign="top" style="vertical-align: top;"/>
   <a href="#cranking-rpm-limit" title="Cranking RPM limit"><img src="FAQ/cranking/settings_02.png" valign="top" style="vertical-align: top;"/></a>
@@ -83,11 +83,11 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 
 ## Priming Fuel Pulse
 ### Duration at -40C degrees
-*Prime injection pulse uses for Wall wetting before cranking. You can set prime pulse for the cold engine (-40 celsius degree) and set hotest temperature for use this setting.*
+*Prime injection pulse uses for Wall wetting before cranking. You can set-prime pulse for the cold engine (-40 celsius degree) and set the hottest temperature for use this setting.*
 
 *We use interpolation from smaller CLT to biggest CLT, to make line function for pulse width and interpolate pulse width from bigger(we set it in settings) to zero(when CLT>= falloff temperature).*
 
-*Prime pulse make a big weight when you have a long distance from injector to engine valve.*
+*Prime pulse make a big weight when you have a long-distance from the injector to the engine valve.*
 <details><summary>More...</summary>
 
 See also isFasterEngineSpinUpEnabled
@@ -125,7 +125,7 @@ rusEFI Console command:
 
 <details><summary>More...</summary>
 
-To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is number of total fuel squirt duration in milliseconds. See also http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Fuel_Control
+To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is the number of total fuel squirt duration in milliseconds. See also http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Fuel_Control
 
 </details>
 
@@ -173,20 +173,20 @@ To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is n
 During cranking, two curves control the amount of fuel injected:
 "cranking coolant temperature multiplier" and "cranking duration multiplier".
   
-Colder engine usually requires more cranking fuel, cranking fuel usually tapers down during cranking since more fuel is needed in the beginning and not really needed later.
+A Cold engine usually requires more cranking fuel, cranking fuel usually tapers down during cranking since more fuel is needed in the beginning and not really needed later.
 
-Of you have flooded your engine, i.e. got too much fuel on your spark plugs, "Cylinder Cleanup" is recommenced - i.e. cranking with wide open throttle without any fuel squired into the cylinders
+If you have flooded your engine, i.e. got too much fuel on your spark plugs, "Cylinder Cleanup" is recommenced - i.e. cranking with wide-open throttle without any fuel squired into the cylinders
 in order to ventilate your cylinders.
 
 As of April 2019 "base fuel pulse" is deprecated, "1" is recommended.
 
 
 
-Typical 4 cylinder engine with 200 cc/min injectors, sequential injection, base fule = 1ms.
+Typical 4 cylinder engine with 200 cc/min injectors, sequential injection, base fuel = 1ms.
 
 ![table](FAQ/cranking_4cylinder.png)
 
-For 1.6 Honda cranking settings see https://rusefi.com/forum/download/file.php?id=4536 (note that "base fuel" = 1 is recomended these days, with correspodning change to cranking temperature multiplier) 
+For 1.6 Honda cranking settings see https://rusefi.com/forum/download/file.php?id=4536 (note that "base fuel" = 1 is recommended these days, with a corresponding change to cranking temperature multiplier) 
 
 
 
