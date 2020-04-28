@@ -2,7 +2,7 @@
 
 ##### You'll be able to test out the rusEfi controller on your computer 
 
-This simulator is bild on the firm wear of the rusEfi controllers, made to be usable on the Windows operating systems. The only thing that you'll need will be a computer. 
+This simulator is built on the firm wear of the rusEfi controllers, made to be usable on the Windows operating systems. The only thing that you'll need will be a computer. 
 
 
 The rusEfi console runs on Java, so if you don't have that installed on your PC you'll need to download it.
