@@ -54,4 +54,4 @@ you'll be able to connect to your emulator.
 
 ![Emulated Communication settings](FAQ\images\simulator\Communication_settings_tutorial.png) 
 
-Now your simulator is connected to Tunerstudio. 
+Now your simulator is connected to Tunerstudio.
