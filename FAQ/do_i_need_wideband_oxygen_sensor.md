@@ -1,4 +1,4 @@
 
-Short answer is YES :)
+The short answer is YES :)
 
-TODO
+Long Answer is TODO
