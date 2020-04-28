@@ -30,7 +30,7 @@ To do this we need to have a "load" value that allows us to have a Load Vs Speed
     StandardAirCharge = engine displacement / number of cylinders * 1.2929 
 
 This produces the air mass for cylinder filling at 100% VE under standard SAE conditions. 
-Using this we can relate our cylinder air mass back to a standardised 100% cylinder filling and this we have a "load" value to use when tuning. 
+Using this we can relate our cylinder air mass back to a standardised 100% cylinder filling and thus we have a "load" value to use when tuning. 
 
     airChargeLoad = 100 * cylinder Airmass / Standard AirCharge
 
