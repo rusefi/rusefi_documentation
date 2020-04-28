@@ -12,7 +12,7 @@
 
 ## EFI General Theory
 
-[How to create a Tunerstudio project](HOWTO_create_tunerstudio_project)
+[How to create a TunerStudio project](HOWTO_create_tunerstudio_project)
 
 [How to convert from carburetor to EFI](how_to_convert_from_carburetor_to_EFI)
 
