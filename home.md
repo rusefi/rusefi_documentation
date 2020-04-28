@@ -13,12 +13,15 @@
 
 
 ## EFI General Theory
+[How to create a Tunerstudio project](HOWTO_create_tunerstudio_project)
 
 [how_to_convert_from_carburetor_to_EFI](how_to_convert_from_carburetor_to_EFI)
 
 [do_i_need_wideband_oxygen_sensor](do_i_need_wideband_oxygen_sensor)
 
 ## rusEfi Features
+[rusEFI virtual simulator](Virtual_simulator)
+
 [FSIO - Flexible Sweet Input Output](FSIO)
 
 [cranking](cranking)
