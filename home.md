@@ -8,18 +8,19 @@
 
 ## [Quick Start](HOWTO_quick_start)
 
-## [rusEfi overview](overview)
-
+## [rusEFI overview](overview)
 
 
 ## EFI General Theory
+
 [How to create a Tunerstudio project](HOWTO_create_tunerstudio_project)
 
 [how_to_convert_from_carburetor_to_EFI](how_to_convert_from_carburetor_to_EFI)
 
 [do_i_need_wideband_oxygen_sensor](do_i_need_wideband_oxygen_sensor)
 
-## rusEfi Features
+## rusEFI Features
+
 [rusEFI virtual simulator](Virtual_simulator)
 
 [FSIO - Flexible Sweet Input Output](FSIO)
@@ -40,14 +41,13 @@
 
 [rusEFI Assembly Completeness Chart](Completeness_Chart)
 
-[FAQ rusEfi Boards](Hardware)
+[FAQ rusEFI Boards](Hardware)
 
 ### Frankenso
+
 #### [Frankenso_MazdaMiataNA6_pnp](Frankenso_MazdaMiataNA6_pnp)
 
-
-
-Full list of (Legacy) mediawiki pages is available at https://rusefi.com/wiki/index.php?title=Special:AllPages
+Full list of (Legacy) MediaWiki pages is available at https://rusefi.com/wiki/index.php?title=Special:AllPages
 
 http://rusefi.com
 
@@ -60,7 +60,6 @@ https://github.com/rusefi/hw_modular
 [HOWTO_ask_questions](HOWTO_ask_questions)
 
 [Support](Support)
-
 
 # Contributor Documentation
 
