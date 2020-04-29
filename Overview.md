@@ -11,7 +11,7 @@ You have found the rusEFI wiki main page. Here you will find information related
 
 In order to use rusEFI you would need to acquire or fabricate one of the [supported boards](Hardware). You can also design you custom board if desired.
 
-You can use rusEFI PC simulator to try rusEfi. PC simulator Windows binaries are included into [rusEfi Bundle](Download), Unix version of PC simulator could be compiled from [source code](https://github.com/rusefi/rusefi/tree/master/simulator).
+You can use rusEFI PC simulator to try rusEfi. PC simulator Windows binaries are included into [rusEFI Bundle](Download), Unix version of PC simulator could be compiled from [source code](https://github.com/rusefi/rusefi/tree/master/simulator).
 
 
 ## Features
