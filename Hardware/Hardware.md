@@ -1,7 +1,7 @@
-Unified rusEfi firmware runs on wide array of boards with stm32f4 and stm32f7 microcontrollers.
+Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 microcontrollers.
 We also have Kinetis and Cypres prototypes.
 
-As of March 2020 microRusEfi is is sold as completely ready to run ECU or as a pre-assmbled 80% complete kit.
+As of March 2020 microRusEFI is sold as completely ready to run ECU or as a pre-assembled 80% complete kit.
 
 As of March 2020 Frankenso board is sold as mostly as a DIY kit.
 
@@ -18,7 +18,7 @@ Q: How to select a board?
 
 A: History shows that fully assembled boards are the safest way to start. History shows
 that 80% of the kits are never assembled. As of March 2020 we have many microRusEfi [in stock](https://rusefi.com/shop/) and
-very remaining [old stock assembled Frankenso](https://www.tindie.com/stores/russian/). New fabrication of assembled Frankenso is
+very remaining [old stock assembled Frankenso](https://www.tindie.com/stores/russian/). New fabrication of the assembled Frankenso board is
 currently not planned.
 
 Q: What else matters?
