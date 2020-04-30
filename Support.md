@@ -2,7 +2,7 @@ rusEfi is a community-driven free open source project. It comes with zero warran
 
 rusEfi has zero stuff and most of rusEfi contributors all over the globe have day jobs and other obligations.
 
-https://rusefi.com/forum/ isd the primary free support channel.
+https://rusefi.com/forum/ is the primary free support channel.
 
 
 Q: Matt and Andrey are on Facebook, shall I message Matt or Andrey directly?
