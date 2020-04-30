@@ -1,16 +1,24 @@
 rusEfi offers complete software download bundles for multiple supported micro controllers and boards.
 
+### Common Boards
+
+[microRusEfi 0.4 and newer (STM32F4)](https://rusefi.com/build_server/rusefi_bundle_mre-f4.zip)
+
+[Frankenso stm32f407 bundle](https://rusefi.com/build_server/rusefi_bundle.zip)
+
+### Uncommon Boards
+
 [Frankenso PnP Miata NA6 bundle](https://rusefi.com/build_server/rusefi_bundle_frankenso_na6.zip)
 
-[microRusEfi F4 bundle](https://rusefi.com/build_server/rusefi_bundle_mre-f4.zip)
+[microRusEfi 0.3 and older (STM32F7)](https://rusefi.com/build_server/rusefi_bundle_mre-f7.zip)
 
-[microRusEfi F7 bundle](https://rusefi.com/build_server/rusefi_bundle_mre-f7.zip)
+[Proteus F7](https://rusefi.com/build_server/rusefi_bundle_proteus-f7.zip)
 
-[Proteus F4 bundle](https://rusefi.com/build_server/rusefi_bundle_proteus-f4.zip)
+[Proteus F4](https://rusefi.com/build_server/rusefi_bundle_proteus-f4.zip)
 
-[Proteus F7 bundle](https://rusefi.com/build_server/rusefi_bundle_proteus-f7.zip)
 
-[Default Frankenso stm32f407 bundle](https://rusefi.com/build_server/rusefi_bundle.zip)
+
+
 
 More at https://rusefi.com/build_server/
 
