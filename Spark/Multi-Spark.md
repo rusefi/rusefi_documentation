@@ -6,7 +6,7 @@ Currently the mutli-spark in RusEFI is completely experimental and should only b
 
 ## Working Theory   
 During low speed operation if there is enough time for the dwell and ignition period of an ignition coil in a single power stroke the ECU can fire the ignition coil multiple times. The result of this will be a more complete fuel burn giving more power, better fuel economy, and lower emissions. The downside is that due to the ignition coil firing multiple times per power stroke the ignition coil will operate *hotter* possibly leading to overheating and lower ignition coil life spans.  
-![MultisparkMatlab](Spark/Images/MultisparkMatlab.png "Multi-spark theory")  
+![MultisparkMatlab](Spark/Images/multisparkmatlab.png "Multi-spark theory")  
 
 ## How-to Enable  
 To enable multispark feature open the Controller tab in the options bar. In the drop down menu open the Multispark window. In the event that the Multispark option is greyed out  
