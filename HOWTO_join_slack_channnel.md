@@ -20,7 +20,7 @@ You'll need to open the invite e-mail and click on the link inside
 
 After opening the link you'll be directed to the sigh-up page.
 
-![account](FAQ/images/HOWTO_join_rusEFI_slack channel/slack_channel_channel.png)
+![account](FAQ/images/HOWTO_join_rusEFI_slack channel/slack_invite_account.png)
 
 You'll need to fill out the specified spaces and create your then account.
 
