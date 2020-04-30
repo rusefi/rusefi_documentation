@@ -28,7 +28,7 @@
 
 [Drive-by-wire/Electronic throttle body](HOWTO_electronic_throttle_body)
 
-[Shaun TODO Multispark](Shaun TODO)
+[Multispark](Multi-Spark)
 
 [Knock Sensing](knock_sensing.md)
 
