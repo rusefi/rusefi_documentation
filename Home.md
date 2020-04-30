@@ -20,6 +20,8 @@
 
 ## rusEFI Features
 
+[Joining the rusEFI slack chaannel](HOWTO_join_slack_channnel.md)
+
 [rusEFI virtual simulator](Virtual_simulator)
 
 [FSIO - Flexible Sweet Input Output](FSIO)
