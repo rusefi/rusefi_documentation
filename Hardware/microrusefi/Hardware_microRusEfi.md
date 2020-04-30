@@ -1,9 +1,9 @@
-microrusEFI is a highly integrated board version of the rusEFI ECU. The microrusEFI ECU is targeted at port-injected
+microRusEFI is a highly integrated board version of the rusEFI ECU. The microRusEFI ECU is targeted at port-injected
 gasoline engines up to 4 cylinders. 
 
 [Connector Pinout](Hardware_microRusEfi_wiring)
 
-The latest schematics for the microrusEFI ECU are available at https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf
+The latest schematics for the microRusEFI ECU are available at https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf
 
 [Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
@@ -27,10 +27,10 @@ A complete set of board source files is available at https://github.com/rusefi/h
 [Connector Pinout](Hardware_microRusEfi_wiring)
 
 
-![microrusEFI image](Hardware/microrusefi/Hardware_microRusEfi_0_1_pcb.jpg)
+![microRusEFI image](Hardware/microrusefi/Hardware_microRusEfi_0_1_pcb.jpg)
 
 # FAQ
 
 Q: How about 6 cylinders sequential on microRusEfi?
 
-A: The microrusEFI ECU is primarily a 4 cylinder ECU. At this time the testing for safety, reliable control, and consistency have not been completed for running the microrusEFI ECU on a 6 cylinder engine. This is something that we are working on and could be added at a future point. 
+A: The microRusEFI ECU is primarily a 4 cylinder ECU. At this time the testing for safety, reliable control, and consistency have not been completed for running the microRusEFI ECU on a 6 cylinder engine. This is something that we are working on and could be added at a future point. 
