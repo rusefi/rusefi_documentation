@@ -1,13 +1,13 @@
-microRusEfi is a highly integrated board for rusEfi ECU. microRusEfi is targeted at port injected
-gasoline engines with one, two, three or four cylinders. microRusEfi has means to control electronic throttle body.
+Micro-rusEFI is a highly integrated board version of the rusEFI ECU. The Micro-rusEFI ECU is targeted at port-injected
+gasoline engines up to 4 cylinders. 
 
 [Connector Pinout](Hardware_microRusEfi_wiring)
 
-microRusEfi latest schematics is available at https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf
+The latest schematics for the Micro-rusEFI ECU are available at https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf
 
 [Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
-Complete set of board source files is available at https://github.com/rusefi/hw_microRusEfi
+A complete set of board source files is available at https://github.com/rusefi/hw_microRusEfi
 
 # Capabilities
 * Primary VR or Hall input (configurable with few resistor changes)
@@ -27,12 +27,10 @@ Complete set of board source files is available at https://github.com/rusefi/hw_
 [Connector Pinout](Hardware_microRusEfi_wiring)
 
 
-![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_1_pcb.jpg)
+![Micro-rusEFI image](Hardware/microrusefi/Hardware_microRusEfi_0_1_pcb.jpg)
 
 # FAQ
 
 Q: How about 6 cylinders sequential on microRusEfi?
 
-A: microRusEfi is primarily a 4 cylinder ECU. We are not comfortable recommending it for 6 cylinders sequential since six transistors would be different between them and who knows what would be the consequences.
-
-Even for batched mode it's unclear if latest 0.4.8 hardware can sustain it in terms of ECU head dissipation.
+A: The Micro-rusEFI ECU is primarily a 4 cylinder ECU. At this time the testing for safety, reliable control, and consistency have not been completed for running the Micro-rusEFI ECU on a 6 cylinder engine. This is something that we are working on and may be adding that capability at a future point. 
