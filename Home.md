@@ -44,6 +44,14 @@
 
 [FAQ rusEFI Boards](Hardware)
 
+### Plug&Play
+
+[MREAdapter48 Miata NA6 and early NA8](MREAdapter48.md)
+
+[MREAdapter55 from Lada to e30](MREAdapter55.md)
+
+[MREAdapter72 Miata NB2 Mark 2.5 72 pin](MREAdapter72.md)
+
 ### Frankenso
 
 #### [Frankenso MazdaMiataNA6 pnp](Frankenso_MazdaMiataNA6_pnp)
