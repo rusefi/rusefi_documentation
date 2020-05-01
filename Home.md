@@ -46,11 +46,11 @@
 
 ### Plug&Play
 
-[MREAdapter48 Miata NA6 and early NA8](MREAdapter48.md)
+[MREAdapter48 Miata NA6 and early NA8](MREAdapter48)
 
-[MREAdapter55 from Lada to e30](MREAdapter55.md)
+[MREAdapter55 from Lada to e30](MREAdapter55)
 
-[MREAdapter72 Miata NB2 Mark 2.5 72 pin](MREAdapter72.md)
+[MREAdapter72 Miata NB2 Mark 2.5 72 pin](MREAdapter72)
 
 ### Frankenso
 
