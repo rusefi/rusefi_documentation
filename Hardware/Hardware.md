@@ -37,6 +37,10 @@ Q: This is all very cool but you guys do not have a Plug&Play for my Trabant. I 
 
 A: Building a full, brand new rusEFI board from scratch is probably an exercise in insanity.  We already have too many different hardware configurations, and are running a bit thin to support it all.  Please consider basing your P&P design on Hellen, Proteus, or microRusEfi - either as an adapter board, or at least as a custom PCB with shared schematics.
 
+Q: What EDA are you guys using for your open source hardware?
+
+A: rusEFI preference at the moment is KiCad 5. A few legacy pieces are still using KiCad 4. While many EDAs have many cool features KiCad gives rusEFI uniformity and consistency.
+
 See also https://rusefi.com/wiki/index.php?title=Hardware:Boards_Comparison
 
 See also https://github.com/rusefi/rusefi/tree/master/hardware
