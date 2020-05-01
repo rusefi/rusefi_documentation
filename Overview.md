@@ -22,7 +22,7 @@ You can use rusEFI PC simulator to try rusEfi. PC simulator Windows binaries are
 
 3. [Acceleration enrichment - wall wetting/fuel trip/tau factor.](wall_wetting)
 
-
+4. And many more! See [rusEFI-project](rusEFI-project) for more details.
 
 **As of April 2020 rusEFI has not yet had following features:**
 1. rusEFI has not yet been used to manage a diesel engine.
