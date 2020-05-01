@@ -22,6 +22,7 @@ We have a few rusEFI console commands relevant for cj125
 
 ![x](overview/wbo/cj125_heating_4_9.png)
 
+
 AndreiKA says Prometheus works
 
 Matthew says 0.3 SOIC-24 boards works
@@ -49,3 +50,12 @@ D=0.3
 though you could probably use D=0 since the system is already damped so hard
 
 50Hz
+
+
+
+
+![x](FAQ/LSU_42_LSU_49_Plug_Comparsion.jpg)
+
+With SOIC-24 rusEfi module W1=W10=0R means LSU 4.2
+
+With SOIC-24 rusEfi module W1=W10=Do not populate means LSU 4.9
