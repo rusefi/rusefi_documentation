@@ -1,4 +1,5 @@
-# Advanced
+# [rusEFI-project](rusEFI project)
+## Advanced
 [Boost Control](#Boost-Control)
 
 [General Purpose PWM 1](#General-Purpose-PWM-1)
@@ -33,83 +34,104 @@
 
 [FSIO Curve #4](#FSIO-Curve-#4)
 
-## Boost Control
+### Boost Control
 ![x](overview/TS_generated/dialog_Boost_Control.png)
-## General Purpose PWM 1
+
+### General Purpose PWM 1
 ![x](overview/TS_generated/dialog_General_Purpose_PWM_1.png)
+
 Pin: This implementation produces one pulse per engine cycle. See also dizzySparkOutputPin.
 
 On above duty(%): In on-off mode, turn the output on when the table value is above this duty.
 
 Off below duty(%): In on-off mode, turn the output off when the table value is below this duty.
 
-Duty if error(%): If an error (with a sensor, etc) is detected, this value is used instead of reading from the table.\nThis should be a safe value for whatever hardware is connected to prevent damage.
+Duty if error(%): If an error (with a sensor, etc) is detected, this value is used instead of reading from the table.
+This should be a safe value for whatever hardware is connected to prevent damage.
 
 Load Axis: Selects the load axis to use for the table.
 
-## General Purpose PWM 2
+### General Purpose PWM 2
 ![x](overview/TS_generated/dialog_General_Purpose_PWM_2.png)
+
 Pin: This implementation produces one pulse per engine cycle. See also dizzySparkOutputPin.
 
 On above duty(%): In on-off mode, turn the output on when the table value is above this duty.
 
 Off below duty(%): In on-off mode, turn the output off when the table value is below this duty.
 
-Duty if error(%): If an error (with a sensor, etc) is detected, this value is used instead of reading from the table.\nThis should be a safe value for whatever hardware is connected to prevent damage.
+Duty if error(%): If an error (with a sensor, etc) is detected, this value is used instead of reading from the table.
+This should be a safe value for whatever hardware is connected to prevent damage.
 
 Load Axis: Selects the load axis to use for the table.
 
-## General Purpose PWM 3
+### General Purpose PWM 3
 ![x](overview/TS_generated/dialog_General_Purpose_PWM_3.png)
+
 Pin: This implementation produces one pulse per engine cycle. See also dizzySparkOutputPin.
 
 On above duty(%): In on-off mode, turn the output on when the table value is above this duty.
 
 Off below duty(%): In on-off mode, turn the output off when the table value is below this duty.
 
-Duty if error(%): If an error (with a sensor, etc) is detected, this value is used instead of reading from the table.\nThis should be a safe value for whatever hardware is connected to prevent damage.
+Duty if error(%): If an error (with a sensor, etc) is detected, this value is used instead of reading from the table.
+This should be a safe value for whatever hardware is connected to prevent damage.
 
 Load Axis: Selects the load axis to use for the table.
 
-## General Purpose PWM 4
+### General Purpose PWM 4
 ![x](overview/TS_generated/dialog_General_Purpose_PWM_4.png)
+
 Pin: This implementation produces one pulse per engine cycle. See also dizzySparkOutputPin.
 
 On above duty(%): In on-off mode, turn the output on when the table value is above this duty.
 
 Off below duty(%): In on-off mode, turn the output off when the table value is below this duty.
 
-Duty if error(%): If an error (with a sensor, etc) is detected, this value is used instead of reading from the table.\nThis should be a safe value for whatever hardware is connected to prevent damage.
+Duty if error(%): If an error (with a sensor, etc) is detected, this value is used instead of reading from the table.
+This should be a safe value for whatever hardware is connected to prevent damage.
 
 Load Axis: Selects the load axis to use for the table.
 
-## FSIO inputs
+### FSIO inputs
 ![x](overview/TS_generated/dialog_FSIO_inputs.png)
-## Aux PID
+
+### Aux PID
 ![x](overview/TS_generated/dialog_Aux_PID.png)
+
 Detailed status in console: Print details into rusEfi console
 
-## FSIO outputs
+### FSIO outputs
 ![x](overview/TS_generated/dialog_FSIO_outputs.png)
-## FSIO Table #1
+
+### FSIO Table #1
 ![x](overview/TS_generated/dialog_FSIO_Table_#1.png)
-## FSIO Table #2
+
+### FSIO Table #2
 ![x](overview/TS_generated/dialog_FSIO_Table_#2.png)
-## FSIO Table #3
+
+### FSIO Table #3
 ![x](overview/TS_generated/dialog_FSIO_Table_#3.png)
-## FSIO Table #4
+
+### FSIO Table #4
 ![x](overview/TS_generated/dialog_FSIO_Table_#4.png)
-## FSIO Formulas
+
+### FSIO Formulas
 ![x](overview/TS_generated/dialog_FSIO_Formulas.png)
+
 use FSIO #16 for timing adjustment: See fsioTimingAdjustment
 
-## FSIO Curve #1
+### FSIO Curve #1
 ![x](overview/TS_generated/dialog_FSIO_Curve_#1.png)
-## FSIO Curve #2
+
+### FSIO Curve #2
 ![x](overview/TS_generated/dialog_FSIO_Curve_#2.png)
-## FSIO Curve #3
+
+### FSIO Curve #3
 ![x](overview/TS_generated/dialog_FSIO_Curve_#3.png)
-## FSIO Curve #4
+
+### FSIO Curve #4
 ![x](overview/TS_generated/dialog_FSIO_Curve_#4.png)
 
-generated by class com.rusefi.MdGenerator on Fri May 01 14:51:28 EDT 2020
+
+generated by class com.rusefi.MdGenerator on Fri May 01 14:55:08 EDT 2020
