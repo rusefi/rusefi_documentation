@@ -35,8 +35,7 @@ A: [selecting_open_source_ecu_microcontroller](selecting_open_source_ecu_microco
 
 Q: This is all very cool but you guys do not have a Plug&Play for my Trabant. I think I will go and make a new rusEFI board just for Trabant!
 
-A: There is an opinion that a brand new rusEFI board from scratch would be an insanity, we already have too much hardware and we are running
-thin trying to support it. Please consider building your P&P design either on Hellen, Proteus or microRusEfi - either as an adapter board or at least as a custom PCB with shared schematics.
+A: Building a full, brand new rusEFI board from scratch is probably an exercise in insanity.  We already have too many different hardware configurations, and are running a bit thin to support it all.  Please consider basing your P&P design on Hellen, Proteus, or microRusEfi - either as an adapter board, or at least as a custom PCB with shared schematics.
 
 See also https://rusefi.com/wiki/index.php?title=Hardware:Boards_Comparison
 
