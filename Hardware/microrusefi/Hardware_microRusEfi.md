@@ -27,10 +27,11 @@ A complete set of board source files is available at https://github.com/rusefi/h
 [Connector Pinout](Hardware_microRusEfi_wiring)
 
 
-![microRusEFI image](Hardware/microrusefi/Hardware_microRusEfi_0_1_pcb.jpg)
+![microRusEFI image](https://user-images.githubusercontent.com/5051341/80747087-806e9d00-8ae8-11ea-983e-330dfc6e3015.jpg)
+![microRusEFI image](https://user-images.githubusercontent.com/5051341/80747096-849aba80-8ae8-11ea-862c-d124ef75f06a.jpg)
 
 # FAQ
 
-Q: How about 6 cylinders sequential on microRusEfi?
+Q: How about 6 cylinders sequential on microRusEFI?
 
 A: The microRusEFI ECU is primarily a 4 cylinder ECU. At this time the testing for safety, reliable control, and consistency have not been completed for running the microRusEFI ECU on a 6 cylinder engine. This is something that we are working on and could be added at a future point. 
