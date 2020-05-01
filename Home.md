@@ -20,7 +20,7 @@
 
 ## rusEFI Features
 
-[Joining the rusEFI slack chaannel](HOWTO_join_slack_channnel.md)
+[Joining the rusEFI slack channel](HOWTO_join_slack_channel)
 
 [rusEFI virtual simulator](Virtual_simulator)
 
