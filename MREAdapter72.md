@@ -1,4 +1,8 @@
 
+microRusEFI should be set for Hall
+
+High-side jumper should be set for +12v
+
 
 https://rusefi.com/forum/viewtopic.php?t=1677
 
@@ -18,7 +22,7 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | 2M  | Fuel Pump       | Low-Side     | Fuel Pump Relay Output                |
 | 2R  | MIL             | Low-Side     | Check Engine Light output             |
 | 2P  | IAC Feed        | x            | x                                     |
-| ----------:|:-------- | ------------ |:---------------------------------------------------- |
+| -          |    -     | -            | -                                     |
 | 3A  | GND             | Ground       | Ground                                |
 | 3B  | GND             | Ground       | Ground                                |
 | 3F  | Coil #1         | High-Side    | Coil #1 control                       |
@@ -33,7 +37,7 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | 3U  | Alt Warn        | x            | x                                     |
 | 3Y  | Crank           | Hall Input   | Crank shaft Hall Input                |
 | 3Z  | rusEFU USB GND  | x            | x                                     |
-| -          |    ----- | ------------ | ---------------------------------------------------- |
+| -          |    -     | -            | -                                     |
 | 4A  | GND             | Ground       | Ground                                |
 | 4D  | VVT Feed        | x            | x                                     |
 | 4K  | rusEFI 5v out   | 5v           | External MAP sensor power             |
