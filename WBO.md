@@ -22,6 +22,10 @@ We have a few rusEFI console commands relevant for cj125
 
 ![x](overview/wbo/cj125_heating_4_9.png)
 
+AndreiKA says Prometheus works
+
+Matthew says 0.3 SOIC-24 boards works
+
 Wideband controller based on Bosch CJ125 chip
 
 green is vUr, temperature feedback
