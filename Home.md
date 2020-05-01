@@ -20,7 +20,7 @@
 
 ## rusEFI Features
 
-[rusEFI project overview](rusEFI_project)
+[rusEFI project overview](rusEFI-project)
 
 [Joining the rusEFI slack channel](HOWTO_join_slack_channel)
 
