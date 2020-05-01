@@ -33,6 +33,11 @@ Q: why stm32?
 A: [selecting_open_source_ecu_microcontroller](selecting_open_source_ecu_microcontroller)
 
 
+Q: This is all very cool but you guys do not have a Plug&Play for my Trabant. I think I will go and make a new rusEFI board just for Trabant!
+
+A: There is an opinion that a brand new rusEFI board from scratch would be an insanity, we already have too much hardware and we are running
+thin trying to support it. Please consider building your P&P design either on Hellen, Proteus or microRusEfi - either as an adapter board or at least as a custom PCB with shared schematics.
+
 See also https://rusefi.com/wiki/index.php?title=Hardware:Boards_Comparison
 
 See also https://github.com/rusefi/rusefi/tree/master/hardware
