@@ -58,6 +58,7 @@ H+ Constant +12v
 H- Heater control, low-side
 
 4.9 pinout courtesy of https://www.wbo2.com/cable/lsuconns.htm
+
 ![x](FAQ/LSU-4-9-17025hcon.gif)
 
 
