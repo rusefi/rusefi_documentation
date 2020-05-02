@@ -71,4 +71,4 @@ With SOIC-24 rusEFI module W1=W10=Do not populate means LSU 4.9
 
 Q: Any troubleshooting hints when things do not work?
 
-A: VM wire between CJ125 and sensor is virtual ground, should measure 2.5v when sensor is disconnected.
+A: VM wire between CJ125 and sensor is virtual ground, should measure 2.5v when sensor is connected and when sensor is disconnected.
