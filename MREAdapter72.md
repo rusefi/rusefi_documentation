@@ -54,6 +54,8 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 
 
 
+[InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
+
 
 # Photos
 https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/MREAdapter72_0_2_front.jpg
