@@ -56,6 +56,10 @@ though you could probably use D=0 since the system is already damped so hard
 
 ![x](FAQ/LSU_42_LSU_49_Plug_Comparsion.jpg)
 
-With SOIC-24 rusEfi module W1=W10=0R means LSU 4.2
+With SOIC-24 rusEFI module W1=W10=0R means LSU 4.2
 
-With SOIC-24 rusEfi module W1=W10=Do not populate means LSU 4.9
+With SOIC-24 rusEFI module W1=W10=Do not populate means LSU 4.9
+
+Q: Any troubleshooting hints when things do not work?
+
+A: VM wire between CJ125 and sensor is virtual ground, should measure 2.5v when sensor is disconnected.
