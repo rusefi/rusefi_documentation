@@ -38,7 +38,7 @@
 
 [Variable Valve Timing](VVT)
 
-[Wide Band Sensing](cj125_heating_4_9)
+[Wideband Sensing](cj125_heating_4_9)
 
 [GDI](GDI_status)
 
