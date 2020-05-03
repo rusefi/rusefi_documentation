@@ -34,7 +34,9 @@
 
 [Multispark](Multi-Spark)
 
-[Knock Sensing](knock_sensing.md)
+[Knock Sensing](knock_sensing)
+
+[Variable Valve Timing](VVT)
 
 [Wide Band Sensing](cj125_heating_4_9)
 
