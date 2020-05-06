@@ -53,7 +53,7 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | xx  | x               | x            | x                                     |
 
 
-Extra pins: TE 316836-1
+Extra pins: TE 316836-1 and TE 316838-1
 
 
 [InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
