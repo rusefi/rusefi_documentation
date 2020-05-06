@@ -22,6 +22,8 @@
 
 [rusEFI project overview](rusEFI-project)
 
+[rusEFI Online](Online)
+
 [Joining the rusEFI slack channel](HOWTO_join_slack_channel)
 
 [rusEFI virtual simulator](Virtual_simulator)
