@@ -1,6 +1,8 @@
 
 microRusEFI should be set for Hall
 
+[Schematics](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter.pdf)
+
 
 https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1990
 
