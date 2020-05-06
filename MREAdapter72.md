@@ -47,16 +47,19 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | 4S  | Key             | 12V          | +12v from Ignition Key                |
 | 4V  | TPS             | x            | x                                     |
 | 4X  | MAF not routed  | x            | x                                     |
+| 4AE | EGR Boost Sensor| x            | kind of MAP?                          |
 | 4AF | Main Relay Power| 12V          | +12v from Main Relay                  |
 
 
 | xx  | x               | x            | x                                     |
 
+x4 AUX low-side drivers
 
 Extra pins: TE 316836-1 and TE 316838-1
 
 
-[InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
+
+[MREAdapter72 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
 
 
 # Photos
