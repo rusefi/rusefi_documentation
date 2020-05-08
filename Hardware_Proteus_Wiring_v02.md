@@ -1,6 +1,6 @@
 # Proteus Pinout & Wiring
 
-## _NOTE: this pinout only applies to boards v0.2 and older (probably black).  [If you have v0.3 or newer (green), then use the pinout found here!](Hardware_Proteus_Wiring_v03.md)_
+## _NOTE: this pinout only applies to boards v0.2 and older (probably black).  [If you have v0.3 or newer (green), then use the pinout found here!](Hardware_Proteus_Wiring_v03)_
 
 ## Black 35 Pin 776231-1
 
