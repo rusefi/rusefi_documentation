@@ -100,7 +100,7 @@
 | 26  | AV6        | av    | Analog Voltage Input #6              |
 | 27  | AV8        | av    | Analog Voltage Input #8              |
 | 28  | AV10       | av    | Analog Voltage Input #10             |
-| 29  | AV12       | av    | Analog Voltage Input #12             |
+| 29  | **GND**    | sgnd  | Sensor GND                           |
 | 30  | AT2        | at    | Intake air temperature               |
 | 31  | AT4        | at    | Analog Thermistor Input #4           |
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          |
