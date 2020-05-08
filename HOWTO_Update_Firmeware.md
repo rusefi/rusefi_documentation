@@ -1,4 +1,4 @@
-
+<!-- this URL us hard-coded in rusEFI console splash screen MAKE SURE NOT TO RENAME -->
 
 For DFU see [HOWTO_DFU](HOWTO_DFU)
 
