@@ -1,3 +1,23 @@
+Legacy HW wiki https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
+
+
+Q: Why three USB connectors?
+
+A: https://rusefi.com/forum/viewtopic.php?f=4&t=1418
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Pinouts
 
 https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
