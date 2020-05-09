@@ -138,6 +138,19 @@ J4:
 
 ![x](Hardware/microrusefi/J4.png)
 
+| N | Name | Function |
+|----|-------------| ---- |
+| 9 | GNS | GND
+| 4 | VDD | 3.3V
+| 1 | 5V | Power
+| 2 | 12V | 12V from Main Relay
+| 3 | PB8 | I2C1_SCL or CAN1_RX
+| 6 | PB9 | I2C1_SDA or CAN1_TX
+| 8 | PC10 | SPI3_SCK or USART3_TX or UART4_TX
+| 5 | PC11 | SPI3_MISO or USART3_RX or UART4_RX
+| 10 | PC12 | SPI3_MOSI or USART3_CK or UART5_TX
+| 7 | PA15 | SPI3_NSS (Chip Select)
+
 
 Jxx:
 x shared with SWD
