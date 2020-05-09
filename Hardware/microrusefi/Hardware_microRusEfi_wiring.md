@@ -136,7 +136,12 @@ microRusEFI exposes the following pins in addition to the primary 48 pin connect
 
 J4:
 
+![x](Hardware/microrusefi/J4.png)
+
+
 Jxx:
 x shared with SWD
 x shared with SWD
 x shared with SWD
+
+![x](Hardware/microrusefi/J8_9_10.png)
