@@ -137,12 +137,11 @@ microRusEFI exposes the following pins in addition to the primary 48 pin connect
 J4:
 
 ![x](Hardware/microrusefi/J4.png)
-
 | N | Name | Function |
 |----|-------------| ---- |
 | 9 | GNS | GND
 | 4 | VDD | 3.3V
-| 1 | 5V | Power
+| 1 | 5V | 5V
 | 2 | 12V | 12V from Main Relay
 | 3 | PB8 | I2C1_SCL or CAN1_RX
 | 6 | PB9 | I2C1_SDA or CAN1_TX
@@ -151,8 +150,19 @@ J4:
 | 10 | PC12 | SPI3_MOSI or USART3_CK or UART5_TX
 | 7 | PA15 | SPI3_NSS (Chip Select)
 
-Some additional GPIOs are available no testpoints around STM32.
-Please refer to STM32F407 chip documentation for alternative functions of these pins.
+Three GPIOs are available on J2 (SWD) connector. If you are not going to use debuger J2 connector can be used for other purposes.
+| N | Name | Function |
+|----|-------------| ---- |
+| 7, 8 | GND | GND |
+| 1, 2 | 5V | 5V |
+| 3, 4 | VDD | 3.3V |
+| 5 | SCK | SWD clock or PA14 gpio (no alternative functions) |
+| 9 | SWDIO | SWD data or PA13 gpio (no alternative functions) |
+| 6 | SWO | SWD/JTAG data out (?) or SPI1_SCK or SPI3_SCK |
+| 10 | NRST | CPU reset input (active low) |
+
+For HW version 0.5.0 and newer some additional GPIOs are available on testpoints around STM32.
+Please refer to STM32F407 chip documentation for alternative functions of these GPIOs.
 
 ![x](Hardware/microrusefi/J8_9_10.png)
 
