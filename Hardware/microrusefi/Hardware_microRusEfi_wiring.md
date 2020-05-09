@@ -151,10 +151,14 @@ J4:
 | 10 | PC12 | SPI3_MOSI or USART3_CK or UART5_TX
 | 7 | PA15 | SPI3_NSS (Chip Select)
 
+Some additional GPIOs are available no testpoints around STM32.
+Please refer to STM32F407 chip documentation for alternative functions of these pins.
+
+![x](Hardware/microrusefi/J8_9_10.png)
+
+
 
 Jxx:
 x shared with SWD
 x shared with SWD
 x shared with SWD
-
-![x](Hardware/microrusefi/J8_9_10.png)
