@@ -44,3 +44,7 @@ A: rusEFI preference at the moment is KiCad 5. A few legacy pieces are still usi
 See also https://rusefi.com/wiki/index.php?title=Hardware:Boards_Comparison
 
 See also https://github.com/rusefi/rusefi/tree/master/hardware
+
+Q: What pin do I use for tachometer output?
+
+A: There is no single right answer. It really depends on what kind of electrical signal is your tachometer expecting. Is it low-side driven? +5v logic signal driven? +12v logic signal driven?
