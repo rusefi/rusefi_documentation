@@ -1,7 +1,7 @@
 
 # rusEFI Online
 
-rusEFI online is facilitating data flow within rusEfi open source engine management community.
+[rusEFI online](https://rusefi.com/online/) is facilitating data flow within rusEfi open source engine management community.
 
 - share your tune
 - checkout other's tunes
