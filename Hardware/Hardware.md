@@ -48,3 +48,14 @@ See also https://github.com/rusefi/rusefi/tree/master/hardware
 Q: What pin do I use for tachometer output?
 
 A: There is no single right answer. It really depends on what kind of electrical signal is your tachometer expecting. Is it low-side driven? +5v logic signal driven? +12v logic signal driven?
+
+Q: What are these four LEDs?
+
+A: Many rusEFI boards have four status LEDs. All four LEDs blink on start-up just to confirm life.
+
+Blue Communication LED which is expected to blink at 50% duty cycle during normal board operation.
+If USB communication cable is connected Blue LED starts to blink faster. 
+
+Red CRITICAL (previously known as FATAL) error means you have a CRITICAL error, engine operation is not possible with CRITICAL error.
+
+Green LED on many rusEFI boards is RUNNING. Off if engine is stopped, blinks if engine is cranking, solid if engine is running.
