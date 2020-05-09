@@ -138,7 +138,7 @@ microRusEFI exposes the following pins in addition to the primary 48 pin connect
 J4:
 
 ![x](Hardware/microrusefi/J4.png)
-| N | Name | Function |
+| N | Name | Possible functions (not all listed!) |
 |----|-------------| ---- |
 | 9 | GNS | GND
 | 4 | VDD | 3.3V
@@ -152,7 +152,7 @@ J4:
 | 7 | PA15 | SPI3_NSS (Chip Select)
 
 Three GPIOs are available on J2 (SWD) connector. If you are not going to use debuger J2 connector can be used for other purposes.
-| N | Name | Function |
+| N | Name | Possible functions (not all listed!) |
 |----|-------------| ---- |
 | 7, 8 | GND | GND |
 | 1, 2 | 5V | 5V |
@@ -163,13 +163,17 @@ Three GPIOs are available on J2 (SWD) connector. If you are not going to use deb
 | 10 | NRST | CPU reset input (active low) |
 
 For HW version 0.5.0 and newer some additional GPIOs are available on testpoints around STM32.
-Please refer to STM32F407 chip documentation for alternative functions of these GPIOs.
 
 ![x](Hardware/microrusefi/J8_9_10.png)
+Please refer to PCB layout for exact positions of this testpoints (no silk refdefs on PCB).
 
+| Tespoint | GPIO | Possible functions (not all listed!) |
+|----|-------------| ---- |
+| J6 | PE0 | GPIO |
+| J8 | PB7 | USART1_RX or TIM4_CH2 |
+| J9 | PC13 | GPIO only |
+| J10 | PE6 | TIM9_CH2 |
+| J11 | PE5 | TIM9_CH1 |
+| J16 | PD0 | CAN1_RX |
 
-
-Jxx:
-x shared with SWD
-x shared with SWD
-x shared with SWD
+Please refer to STM32F407 chip documentation for full list of alternative functions of GPIOs listed above.
