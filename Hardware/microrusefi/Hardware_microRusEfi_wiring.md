@@ -127,3 +127,16 @@ R13=0R
 
 ![front hall](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_hall_setup.jpg)
 ![front lower](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_lower.jpg)
+
+
+
+# Extra pins
+
+microRusEFI exposes the following pins in addition to the primary 48 pin connector:
+
+J4:
+
+Jxx:
+x shared with SWD
+x shared with SWD
+x shared with SWD
