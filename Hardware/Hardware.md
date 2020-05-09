@@ -12,6 +12,7 @@ As of March 2020 Frankenso board is sold as mostly as a DIY kit.
 | [Frankenstein](https://rusefi.com/forum/viewtopic.php?f=4&t=359)  | Simplest rusEfi board | 2014 |
 | [microRusEfi](https://rusefi.com/microrusefi) | Available fully assembled! | 2019 |
 | [Hellen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682) | Coming soon! | 2020 |
+| [Proteus](Proteus) | rusEfi for v8, v12, etc. | 2020 |
 
 
 Q: How to select a board?
