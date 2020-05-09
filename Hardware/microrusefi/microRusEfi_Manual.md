@@ -118,3 +118,10 @@ At this point you need to power rusEfi device off/on and new firmware version wo
 New firmware version could be confirmed in rusEfi window title - both console and firmware versions are displayed there.
 
 ![img](Support/console_showing_firmware_version.png)
+
+
+
+Q: Made an error I connected the non protected main supply backwards what have I fried?
+Ground on pin 1 plus on pin 2 and 6.
+
+A: That's not exactly 'backwards'. Backwards would be flipping GND and +12v. Maybe no current have travelled via your microRusEFI and there is a change that your board is fine. 
