@@ -32,7 +32,7 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 16 | **USB D+**       | usb     | USB green wire                                 |
 | 17 | **GND**          | sgnd    | Signal GND                                     |
 | 18 | **AN Temp 1**    | at      | CLT sensor                                     |
-| 19 | **AN Volt 4**    | av      |                                                |
+| 19 | **AN Volt 4**    | av      | **Starting from version 0.5.0 this pin can be used as 5V input for USB connection through main connector (No need to open case to access micro-USB connector)** |
 | 20 | **AN Volt 5**    | av      |                                                |
 | 21 | **GND**          | sgnd    | Signal GND                                     |
 | 22 | **AN Temp 4**    | at      |                                                |
