@@ -50,7 +50,7 @@ Q: What pin do I use for tachometer output?
 
 A: There is no single right answer. It really depends on what kind of electrical signal is your tachometer expecting. Is it low-side driven? +5v logic signal driven? +12v logic signal driven?
 
-Q: What are these four LEDs?
+Q: What are these four status LEDs close to main processor?
 
 A: Many rusEFI boards have four status LEDs. All four LEDs blink on start-up just to confirm life.
 
@@ -60,3 +60,8 @@ If USB communication cable is connected Blue LED starts to blink faster.
 Red CRITICAL (previously known as FATAL) error means you have a CRITICAL error, engine operation is not possible with CRITICAL error.
 
 Green LED on many rusEFI boards is RUNNING. Off if engine is stopped, blinks if engine is cranking, solid if engine is running.
+
+Q: what about many other LEDs which seem to be blinking in sync with injectors or coils?
+
+A: Following Frankenso tradition, Injector LEDs are RED. Ignition LED are blue, power LED are green.
+
