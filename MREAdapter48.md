@@ -19,3 +19,5 @@ https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1995
 
 
 [InteractiveBOM](https://rusefi.com/docs/ibom/hw48na_V0.1.html)
+
+https://www.youtube.com/watch?v=vleG0Jp5isY
