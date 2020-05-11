@@ -5,13 +5,14 @@ As of March 2020 microRusEFI is sold as completely ready to run ECU or as a pre-
 
 As of March 2020 Frankenso board is sold as mostly as a DIY kit.
 
-| Board | Features | Released in |
-| ------------- | ------------- | ---- |
-| [Frankenso](https://rusefi.com/forum/viewtopic.php?f=4&t=569) | Most customizable board | 2014 |
-| [Prometheus](https://rusefi.com/forum/viewtopic.php?f=4&t=1215)  | The only rusEfi board with on-board wide band controller  | 2017 |
-| [Frankenstein](https://rusefi.com/forum/viewtopic.php?f=4&t=359)  | Simplest rusEfi board | 2014 |
-| [microRusEfi](https://rusefi.com/microrusefi) | Available fully assembled! | 2019 |
-| [Hellen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682) | Coming soon! | 2020 |
+| Board | Features | Released in | Maximum recommended engine |
+| ------------- | ------------- | ---- | ---- |
+| [Frankenso](https://rusefi.com/forum/viewtopic.php?f=4&t=569) | Most customizable board | 2014 | Flexible - probably 8 cylinder max recommended |
+| [Prometheus](https://rusefi.com/forum/viewtopic.php?f=4&t=1215)  | The only rusEfi board with on-board wide band controller  | 2017 | 4 cylinder |
+| [Frankenstein](https://rusefi.com/forum/viewtopic.php?f=4&t=359)  | Simplest rusEfi board | 2014 | Flexible - probably 8 cylinder max recommended |
+| [microRusEfi](https://rusefi.com/microrusefi) | Available fully assembled! | 2019 | 4 cylinder, single electronic throttle |
+| [Hellen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682) | Coming soon! | 2020 | TBD cylinder, single electronic throttle |
+| [Proteus](Proteus) | rusEfi if you have lots of hardware or cylinders | 2020 | 12 cylinder, dual electronic throttles |
 
 
 Q: How to select a board?
@@ -44,3 +45,23 @@ A: rusEFI preference at the moment is KiCad 5. A few legacy pieces are still usi
 See also https://rusefi.com/wiki/index.php?title=Hardware:Boards_Comparison
 
 See also https://github.com/rusefi/rusefi/tree/master/hardware
+
+Q: What pin do I use for tachometer output?
+
+A: There is no single right answer. It really depends on what kind of electrical signal is your tachometer expecting. Is it low-side driven? +5v logic signal driven? +12v logic signal driven?
+
+Q: What are these four status LEDs close to main processor?
+
+A: Many rusEFI boards have four status LEDs. All four LEDs blink on start-up just to confirm life.
+
+Blue Communication LED which is expected to blink at 50% duty cycle during normal board operation.
+If USB communication cable is connected Blue LED starts to blink faster. 
+
+Red CRITICAL (previously known as FATAL) error means you have a CRITICAL error, engine operation is not possible with CRITICAL error.
+
+Green LED on many rusEFI boards is RUNNING. Off if engine is stopped, blinks if engine is cranking, solid if engine is running.
+
+Q: what about many other LEDs which seem to be blinking in sync with injectors or coils?
+
+A: Following Frankenso tradition, Injector LEDs are RED. Ignition LED are blue, power LED are green.
+
