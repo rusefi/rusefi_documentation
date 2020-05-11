@@ -59,7 +59,7 @@ x4 AUX low-side drivers
 
 Extra pins: 
 
-TE 316836-1 for 2 AWG to 22 AWG
+TE 316836-1 for 20 AWG to 22 AWG
 
 TE 316838-1 for 16 - 18 AWG
 
