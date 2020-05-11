@@ -7,6 +7,6 @@
 - checkout other's tunes
 
 
-See [HOWTO upload tune](HOWTO_upload_tune.md)
+See [HOWTO upload tune](HOWTO_upload_tune)
 
 
