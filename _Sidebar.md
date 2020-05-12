@@ -1,9 +1,9 @@
-# [Home](/rusefi/rusefi/wiki)
+## [Home](/rusefi/rusefi/wiki)
+## [Downloads](Download)
 
 # Getting Started
 
 - [Quick Start](HOWTO_quick_start)
-- [Downloads](Download)
 - [How to ask questions](HOWTO_ask_questions)
 - [Support](Support)
 - [How to create a TunerStudio project](HOWTO_create_tunerstudio_project)
