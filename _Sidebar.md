@@ -20,7 +20,7 @@
 
 - [rusEfi Hardware Overview](Hardware)
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
-- [microRusEfi](https://rusefi.com/microrusefi)
+- [microRusEfi](Hardware_microRusEfi)
 - [Proteus](Proteus)
 - [Frankenso](https://rusefi.com/forum/viewtopic.php?f=4&t=569)
 - [Hellen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682)
