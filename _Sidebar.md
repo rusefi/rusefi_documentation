@@ -1,5 +1,5 @@
-## [Home](/rusefi/rusefi/wiki)
-## [Downloads](Download)
+### [Home](/rusefi/rusefi/wiki)
+### [Downloads](Download)
 
 # Getting Started
 
