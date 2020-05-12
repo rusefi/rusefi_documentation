@@ -50,7 +50,7 @@
 
 [FAQ rusEFI Boards](Hardware)
 
-[Basic guide to connecting engine pieces to rusEFI hardware](FAQ Basic Wiring and Connections)
+[Basic guide to connecting engine pieces to rusEFI hardware](FAQ-Basic-Wiring-and-Connections)
 
 ### Plug&Play
 
