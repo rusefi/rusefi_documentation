@@ -56,6 +56,7 @@
 - [Firmware Code Doxygen](https://rusefi.com/docs/html)
 - [Firmware Code Automated Test Coverage](https://rusefi.com/docs/unit_tests_coverage)
 - [HOWTO Contribute To Firmware](HOWTO_contribute_to_firmware)
+- [Firmware performance tracing](Developer-Performance-Tracing)
 
 # Misc
 
