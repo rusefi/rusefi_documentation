@@ -14,7 +14,7 @@ Bottom line: as long as the hardware variant has at least as many injector outpu
 
 As of May 2020, most hardware variants support only logic level drive for coils.  This means GM LSx, IGN1A, Denso coil stick, etc. (others may too - these are just examples) that have built in ignitors will work.  You should consult the documentation for both the coils and rusEFI hardware you are using to determine whether you can directly wire the coils or an external ignitor/something else is required.  Note: coil outputs are among the **least** robust (in terms of tolerating shorts, excessive voltages, etc.) on many hardware variants, including Proteus.  Double check your wiring!
 
-Like injectors, all coil outputs are interchangeable.  Coil outputs do not need to be used sequentially and order of firing / phasing can be adjusted in software
+Like injectors, all coil outputs are interchangeable.  Coil outputs do not need to be used sequentially and order of firing / phasing can be adjusted in software.  Waste fire (one coil fires two cylinders) and distributor (one coil mechanically multiplexed among all cylinders) modes are supported in addition to coil-per-cylinder direct fire.
 
 Bottom line: as long as the hardware variant has at least as many coil outputs as your engine has cylinders, you will be able to run one coil per cylinder.  
 
