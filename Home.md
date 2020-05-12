@@ -50,6 +50,8 @@
 
 [FAQ rusEFI Boards](Hardware)
 
+[FAQ Basic Wiring and Connections](Basic guide to connecting engine pieces to rusEFI hardware)
+
 ### Plug&Play
 
 [MREAdapter48 Miata NA6 and early NA8](MREAdapter48)
