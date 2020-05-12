@@ -4,11 +4,17 @@ This page is going to have information about how to hook up to rusEFI hardware, 
 
 ## Fuel injectors
 
-As of May 2020, only saturated port injectors are supported.  All hardware variants support more than one fuel injector.  You do **not** need to wire injectors in a particular way.  Cylinder #1 (as numbered by the manufacturer) does not need to be wired to injector #1.  Likewise, the 3rd (for example) injector in the firing order does **not** need to be wired to Injector #3.  Any injector driver output can be used to drive any injector.  Order of firing / phasing can be adjusted in software.
+As of May 2020, only saturated port injectors are supported.  All hardware variants are built around the concept of one ECU pin controlling one fuel injector.  As of May 2020, staged injection with multiple injectors per cylinder is possible in hardware but the software is not yet ready.
+
+You do **not** need to wire injectors in a particular way.  Cylinder #1 (as numbered by the manufacturer) does not need to be wired to injector #1 on the ECU pinout.  Likewise, the 3rd (for example) injector in the firing order does **not** need to be wired to INJ#3 on the ECU.  Order of firing / phasing can be adjusted in software.  Any injector driver output can be used to drive any injector.
+
+Bottom line: as long as the hardware variant has at least as many injector outputs as your engine has cylinders, you will be able to run one injector per cylinder.
 
 ## Coils
 
-As of May 2020, logic level coils are the most common implementation on hardware variants.  You should consult the documentation for the hardware you are using to determine whether the coils you have are compatible / external ignitor is required.  Like injectors, all coil outputs are equal.  Coil outputs do not need to be used sequentially and order of firing / phasing can be adjusted in software
+As of May 2020, logic level coils are the most common implementation on hardware variants.  You should consult the documentation for the hardware you are using to determine whether the coils you have are compatible / external ignitor is required.  Like injectors, all coil outputs are interchangeable.  Coil outputs do not need to be used sequentially and order of firing / phasing can be adjusted in software
+
+Bottom line: as long as the hardware variant has at least as many coil outputs as your engine has cylinders, you will be able to run one coil per cylinder.  Logic level drive coils (i.e. GM LSx, IGN1A, Denso coil stick, etc.) will work.  Others may too.
 
 ## General purpose outputs
 
@@ -20,13 +26,15 @@ High side outputs are used to control things in the engine bay that have one ter
 
 ## Specific Outputs
 
-Most hardware variants are set up to provide control over a main relay or auto-shutdown relay.  The rusEFI ECU has a permanent connection to the battery.  The primary power for the ECU is supplied by a relay that is energized under the control of the ECU.
+Most hardware variants are set up to provide control over a main relay or auto-shutdown relay.  The rusEFI ECU has a permanent connection to the battery.  The primary power for the ECU is supplied by a relay that is energized under the control of the ECU.  The permanent battery connection supplied to the ECU is used for memory retention (hardware specific?) and to provide enough energy to turn on the ASD/Main relay to provide power to the rest of the system.
 
-## Specific Inputs
+## Specific Function Inputs
 
 Engine position (crank, cam) are specific inputs required.  Hall Effect (square wave / magnetic or optical) and Variable Reluctance (VR / inductive) sensors are supported.
 
-## Sensor Inputs
+Some hardware variants have a provision for knock sensors.
+
+## General Sensor Inputs
 
 The two basic kinds of general-purpose inputs are categorized as "digital" and "analog" inputs.  Digital inputs only measure an "on" or "off" condition.  Analog inputs measure a signal voltage with some degree of precision.  
 
