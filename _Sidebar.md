@@ -10,8 +10,8 @@
 
 # Community
 
-- [GitHub Wiki](/rusefi/rusefi/wiki)
-- [Slack channel](HOWTO_join_slack_channel)
+- [Forum](https://rusefi.com/forum/)
+- [Slack](HOWTO_join_slack_channel)
 - [Engines running on rusEFI](List_of_engines_running_rusEfi)
 
 # Features
