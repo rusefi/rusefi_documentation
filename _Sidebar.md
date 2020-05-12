@@ -9,6 +9,7 @@
 
 - [rusEFI project overview](rusEFI-project)
 - [rusEFI Online](Online)
+- [Fueling](Fuel_Overview)
 - [Cranking](cranking)
 - [Electronic Throttle](HOWTO_electronic_throttle_body)
 - [Knock Sensing](knock_sensing)
