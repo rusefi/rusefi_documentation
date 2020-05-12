@@ -46,11 +46,13 @@
 
 ## Hardware
 
-[rusEFI Assembly Completeness Chart](Completeness_Chart)
+[rusEFI Hardware Boards](Hardware)
 
-[FAQ rusEFI Boards](Hardware)
+[Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
 
 [Basic guide to connecting engine pieces to rusEFI hardware](FAQ-Basic-Wiring-and-Connections)
+
+[rusEFI Assembly Completeness Chart](Completeness_Chart)
 
 ### Plug&Play
 
