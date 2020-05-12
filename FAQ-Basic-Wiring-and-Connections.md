@@ -26,9 +26,30 @@ Low side outputs are used to control things in the engine bay that have one term
 
 High side outputs are used to control things in the engine bay that have one terminal permanently connected to ground.  The ECU supplies battery voltage to the circuit to turn things on.
 
+All general purpose outputs are available for conditional on/off control via basic conditions. (insert more details here)
+
+All general purpose outputs can be used by the software-PWM system.  The software PWM system can provide approximately 1% duty steps at up to 1Khz.  (10uS steps, 1ms cycle)  Software PWM can operate at different speeds for different outputs - there is a lot of flexibility.  (link to more information)
+
 ## Specific Outputs
 
+### Idle Motor control
+
+Logic exists in the firmware to use several types of idle control valves to regulate idle.
+
+PWM valves (generally 2 wire) accept a variable duty-cycle square wave to control their position.  Any general-purpose output hardware that can handle the electrical load can be configured to control a PWM-style idle valve.  Dedicated pins do not need to be allocated for these style valves.  Honda, Nissan, Mitsubishi, Subaru, Ford valves are commonly this type.
+
+Bipolar stepper motors (generally 4 wire) have two coils that are energized in different patterns in order to move the valve open or closed, one step at a time.  Bipolar stepper motors require **two H-Bridges** (Proteus) to control one bipolar stepper idle valve.  Alternatively, a dedicated stepper driver IC can be used(Prometheus?) or added via a drop-in adapter board.  GM, Toyota commonly use these.
+
+Unipolar stepper valves are not supported by any hardware variants at this time. (May 2020)  Chrysler commonly used these.
+
+### Drive by Wire support
+
+Logic exists in the firmware to control a drive by wire throttle body, including using it to idle.  A single H-bridge is required to control a single DBW throttle body.  Multiple DBW throttle bodies can be simultaneously controlled as long as sufficient H-bridge drivers exist to control them.  A drive by wire pedal (Accelerator Pedal Position / APP) is generally used to provide input from the driver.
+
+### Main Relay support
+
 Most hardware variants are set up to provide control over a main relay or auto-shutdown relay.  The rusEFI ECU has a permanent connection to the battery.  The primary power for the ECU is supplied by a relay that is energized under the control of the ECU.  The permanent battery connection supplied to the ECU is used for memory retention (hardware specific?) and to provide enough energy to turn on the ASD/Main relay to provide power to the rest of the system.
+
 
 ## Specific Function Inputs
 
