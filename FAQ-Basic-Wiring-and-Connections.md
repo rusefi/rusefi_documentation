@@ -1,0 +1,1 @@
+This page is going to have information about how to hook up to rusEFI hardware, in general.  It's not intended to be a guide to a specific hardware variant but rather how to figure out what you're going to need to run different kinds of hardware you'd find in an engine bay.
