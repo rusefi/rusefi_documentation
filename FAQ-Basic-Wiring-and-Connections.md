@@ -48,7 +48,7 @@ Logic exists in the firmware to control a drive by wire throttle body, including
 
 ### Main Relay support
 
-Most hardware variants are set up to provide control over a main relay or auto-shutdown relay.  The rusEFI ECU has a permanent connection to the battery.  The primary power for the ECU is supplied by a relay that is energized under the control of the ECU.  The permanent battery connection supplied to the ECU is used for memory retention (hardware specific?) and to provide enough energy to turn on the ASD/Main relay to provide power to the rest of the system.
+Most hardware variants are set up to provide control over a main relay or auto-shutdown relay.  The rusEFI ECU typically has two power feeds.  Key-on power is supplied to the ECU in order to power the CPU and logic core of the ECU.  High side drivers, H Bridges and other power switches are then powered by a "main relay" that is energized under the control of the ECU.  Battery / continuous power is not required for setting retention.
 
 
 ## Specific Function Inputs
