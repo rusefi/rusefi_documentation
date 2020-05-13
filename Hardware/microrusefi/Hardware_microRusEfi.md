@@ -38,3 +38,5 @@ A complete set of board source files is available at https://github.com/rusefi/h
 Q: How about 6 cylinders sequential on microRusEFI?
 
 A: The microRusEFI ECU is primarily a 4 cylinder ECU. At this time the testing for safety, reliable control, and consistency have not been completed for running the microRusEFI ECU on a 6 cylinder engine. This is something that we are working on and could be added at a future point. 
+
+[See also Kit Instructions](Hardware_microRusEfi_kit_instructions)
