@@ -55,3 +55,4 @@
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1632 BMW 750 v12 M73 Dec 1, 2019
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1648 Volvo 240 LS Swap on Proteus board Dec 10, 2019
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1692 Mercedes 190e M111 SC Swap #57 April 17, 2020
+1. https://rusefi.com/forum/viewtopic.php?f=3&t=1673 Renault KM4 May 15, 2020
