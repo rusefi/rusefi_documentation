@@ -68,6 +68,24 @@ TE 316838-1 for 16 - 18 AWG
 [MREAdapter72 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
 
 
+
+SD card wiring
+
+| Board   | stm32 pin  |   |
+|---|---|---|
+|   | PC10  | SD card SPI Clock  |
+|   | PC11  | SD card SPI MISO |
+|   | PC12  | SD card SPI MOSI  |
+|   | PB8  | SD card SPI Chip Select |
+
+Bluetooth/TTL wiring
+
+| Board   | stm32 pin  |   |
+|---|---|---|
+|   | PC10  |   |
+|   | PC11  |   |
+
+
 # Photos
 https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/MREAdapter72_0_2_front.jpg
 https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/MREAdapter72_0_2_back.jpg
