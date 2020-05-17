@@ -78,6 +78,9 @@ TE 316838-1 for 16 - 18 AWG
 | 4AH | GND | Sensor ground | 
 
 
+![x](installations/NB2_Miata_ECU_Connectors_Add-Ons.png)
+
+
 ### SD card wiring
 
 | Board   | stm32 pin  |   |
