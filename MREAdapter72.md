@@ -68,8 +68,17 @@ TE 316838-1 for 16 - 18 AWG
 [MREAdapter72 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
 
 
+### OEM harness add-ons  
 
-SD card wiring
+| Board   | stm32 pin  |   |
+|-----|---|---|
+| 2O  | AFR | Analog signal for external wide band oxygen controller |  
+| 4U  | MAP| Manifold absolute pressure analog signal from external sensor | 
+| 4K  | +5v | +5v feed for MAP sensor |
+| 4AH | GND | Sensor ground | 
+
+
+### SD card wiring
 
 | Board   | stm32 pin  |   |
 |---|---|---|
@@ -78,7 +87,7 @@ SD card wiring
 |   | PC12  | SD card SPI MOSI  |
 |   | PB8  | SD card SPI Chip Select |
 
-Bluetooth/TTL wiring
+### Bluetooth/TTL wiring
 
 | Board   | stm32 pin  |   |
 |---|---|---|
