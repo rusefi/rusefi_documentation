@@ -57,7 +57,7 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 
 x4 AUX low-side drivers
 
-Extra pins: 
+Extra pins for [353830-5 72 pin](https://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#72_pin): 
 
 TE 316836-1 for 20 AWG to 22 AWG
 
