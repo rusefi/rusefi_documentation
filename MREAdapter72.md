@@ -74,3 +74,10 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/MREAdapter72_
 
 
 https://youtu.be/6IZcHCQl8yo
+
+
+
+Case compatibility:
+
+Toyota Camry 89661-3T270
+89661-06691
