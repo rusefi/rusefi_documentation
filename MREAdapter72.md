@@ -63,6 +63,8 @@ TE 316836-1 for 20 AWG to 22 AWG
 
 TE 316838-1 for 16 - 18 AWG
 
+Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_latch.jpg) plugs while installing add-on pins.
+
 
 
 [MREAdapter72 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
@@ -73,7 +75,7 @@ TE 316838-1 for 16 - 18 AWG
 | Board   | stm32 pin  |   |
 |-----|---|---|
 | 2O  | AFR | Analog signal for external wide band oxygen controller |  
-| 4U  | MAP| Manifold absolute pressure analog signal from external sensor | 
+| 4U  | MAP| Manifold absolute pressure analog signal from [external sensor](GM-map-sensor) | 
 | 4K  | +5v | +5v feed for MAP sensor |
 | 4AH | GND | Sensor ground | 
 
