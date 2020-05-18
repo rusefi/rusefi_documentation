@@ -57,7 +57,7 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 
 x4 AUX low-side drivers
 
-Extra pins: 
+Extra pins for [353830-5 72 pin](https://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#72_pin): 
 
 TE 316836-1 for 20 AWG to 22 AWG
 
@@ -74,10 +74,10 @@ Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_
 
 | Board   | stm32 pin  |   |
 |-----|---|---|
-| 2O  | AFR | Analog signal for external wide band oxygen controller |  
+| 3L  | AFR | Analog signal for external wide band oxygen controller |  
 | 4U  | MAP| Manifold absolute pressure analog signal from [external sensor](GM-map-sensor) | 
 | 4K  | +5v | +5v feed for MAP sensor |
-| 4AH | GND | Sensor ground | 
+| 3Z | GND | Sensor & USB ground | 
 
 
 ![x](installations/NB2_Miata_ECU_Connectors_Add-Ons.png)
