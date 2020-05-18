@@ -74,10 +74,10 @@ Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_
 
 | Board   | stm32 pin  |   |
 |-----|---|---|
-| 2O  | AFR | Analog signal for external wide band oxygen controller |  
+| 3L  | AFR | Analog signal for external wide band oxygen controller |  
 | 4U  | MAP| Manifold absolute pressure analog signal from [external sensor](GM-map-sensor) | 
 | 4K  | +5v | +5v feed for MAP sensor |
-| 4AH | GND | Sensor ground | 
+| 3Z | GND | Sensor & USB ground | 
 
 
 ![x](installations/NB2_Miata_ECU_Connectors_Add-Ons.png)
