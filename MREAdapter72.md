@@ -35,7 +35,7 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | 3M  | Alternator      |#13| High-Side    | Alternator Control Output             |
 | 3N  | rusEFI CAN L    |   | x            | x                                     |
 | 3O  | Tach            |#14| High-Side    | Tachometer Output                     |
-| 3V  | Cam             |   | Hall Input   | Cam shaft Hall Input                  |
+| 3V  | Cam             |#25| Hall Input   | Cam shaft Hall Input                  |
 | 3U  | Alt Warn        |   | x            | x                                     |
 | 3Y  | Crank           |#45| Hall Input   | Crank shaft Hall Input                |
 | 3Z  | rusEFU USB GND  |   | x            | x                                     |
