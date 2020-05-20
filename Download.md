@@ -1,4 +1,4 @@
-rusEfi offers complete software download bundles for multiple supported micro controllers and boards.
+rusEfi offers complete software download bundles for multiple supported microcontrollers and boards.
 
 ### Common Boards
 
