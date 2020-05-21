@@ -33,13 +33,13 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 17 | **GND**          | sgnd    | Signal GND                                     |
 | 18 | **AN Temp 1**    | at      | CLT sensor                                     |
 | 19 | **AN Volt 4**    | av      | **Starting from version 0.5.0 this pin can be used as 5V input for USB connection through main connector (No need to open case to access micro-USB connector)** |
-| 20 | **AN Volt 5**    | av      |                                                |
+| 20 | **AN Volt 5**    | av      | Throttle position sensor (TPS)                 |
 | 21 | **GND**          | sgnd    | Signal GND                                     |
 | 22 | **AN Temp 4**    | at      |                                                |
 | 23 | **AN Temp 2**    | at      | IAT sensor                                     |
 | 24 | **AN Temp 3**    | at      |                                                |
 | 25 | **Cam (hall)**   | hall    |                                                |
-| 26 | **AN Volt 2**    | av      | TPS sensor                                     |
+| 26 | **AN Volt 2**    | av      |                                                |
 | 27 | **AN Volt 1**    | av      | MAP sensor                                     |
 | 28 | **AN Volt 10**   | av      |                                                |
 | 29 | **Main relay**   | mr      | Main relay control signal (low side)           |
