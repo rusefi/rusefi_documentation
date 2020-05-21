@@ -65,6 +65,8 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 
 In some cases without "main relay output +12v" both pins #1 and #5 should be connected to the single source of +12v.
 
+Pin #1 feeds ETB H-bridge, battery voltage sense, gp5 & gp6 high-side +12v, TLE8888 H-bridges.
+
 # Pin Types
 
 These tables provide technical information about the different types of pin found on microrusEfi.
