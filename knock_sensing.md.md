@@ -1,4 +1,0 @@
-# Knock Sense
-
-TODO
-

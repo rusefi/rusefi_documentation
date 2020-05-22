@@ -32,23 +32,23 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 16 | **USB D+**       | usb     | USB green wire                                 |
 | 17 | **GND**          | sgnd    | Signal GND                                     |
 | 18 | **AN Temp 1**    | at      | CLT sensor                                     |
-| 19 | **AN Volt 4**    | av      |                                                |
-| 20 | **AN Volt 5**    | av      |                                                |
+| 19 | **AN Volt 4**    | av      | **Starting from version 0.5.0 this pin can be used as 5V input for USB connection through main connector (No need to open case to access micro-USB connector)** |
+| 20 | **AN Volt 5**    | av      | Throttle position sensor (TPS)                 |
 | 21 | **GND**          | sgnd    | Signal GND                                     |
 | 22 | **AN Temp 4**    | at      |                                                |
 | 23 | **AN Temp 2**    | at      | IAT sensor                                     |
 | 24 | **AN Temp 3**    | at      |                                                |
 | 25 | **Cam (hall)**   | hall    |                                                |
-| 26 | **AN Volt 2**    | av      | TPS sensor                                     |
+| 26 | **AN Volt 2**    | av      |                                                |
 | 27 | **AN Volt 1**    | av      | MAP sensor                                     |
 | 28 | **AN Volt 10**   | av      |                                                |
 | 29 | **Main relay**   | mr      | Main relay control signal (low side)           |
 | 30 | **AN Volt 7**    | av      |                                                |
 | 31 | **AN Volt 3**    | av      | Throttle Pedal Position Sensor (PPS)           |
 | 32 | **AN Volt 6**    | av      | External wideband O2 sensor                    |
-| 33 | **GP out 3**     | gp_low  |                                                |
-| 34 | **GP out 2**     | gp_low  | Fan relay                                      |
-| 35 | **GP out 1**     | gp_low  | Fuel pump relay                                |
+| 33 | **GP out 3**     | gp_low (gp_pp)  | (IDLE stepper coil 2+)                 |
+| 34 | **GP out 2**     | gp_low (gp_pp)  | Fan relay (IDLE stepper coil 1-)       |
+| 35 | **GP out 1**     | gp_low (gp_pp)  | Fuel pump relay (IDLE stepper coil 1+) |
 | 36 | **AN Volt 8**    | av      |                                                |
 | 37 | **Injector 1**   | inj     | Injector 1                                     |
 | 38 | **Injector 2**   | inj     | Injector 2                                     |
@@ -56,7 +56,7 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 40 | **AN Volt 9**    | av      |                                                |
 | 41 | **Injector 3**   | inj     | Injector 3                                     |
 | 42 | **Injector 4**   | inj     | Injector 4                                     |
-| 43 | **GP out 4**     | gp_low  |                                                |
+| 43 | **GP out 4**     | gp_low (gp_pp)  | (IDLE stepper coil 2+)                 |
 | 44 | **5V Sensor 1**  | 5v      | TPS sensor supply                              |
 | 45 | **VR+/Hall**     | vr/hall | Crank VR+/hall                                 |
 | 46 | **VR-**          | vr      | Crank VR- (do not connect if hall)             |
@@ -96,6 +96,7 @@ These tables provide technical information about the different types of pin foun
 | ls   | High power low side | General purpose low side output, 4.5A maximum | General purpose low side, injector
 | gp_high | General purpose high side | General purpose high side push output, 5V/12V (internally selectable based on JP2 jumper) 250mA maximum | General purpose 5V/12V high side, ignition coil
 | gp_low | General purpose low side | General purpose low side pull output, 12V 500mA maximum                            | General purpose low side
+| gp_pp  | General purpose Push-Pull | General purpose push-pull (low and high side) output, 600mA | Bipolar IDLE stepper, relays, solenoids |
 | mr   | Main relay          | Dedicated main relay output.  Low side turned on with power, 800mA maximum. | Main relay
 | etb  | Electronic throttle | Dedicated electronic throttle outputs.  Connect a brushed motor<br/>throttle body directly to these two pins.
 
@@ -112,7 +113,7 @@ USB cable white wire: USB D- DATA-
 
 USB cable black wire: ground
 
-USB cable red wire: +5v (would not work via microRusEfi connector)
+USB cable red wire: +5v (would not work via microRusEfi connector for versions < 0.5.0)
 
 ## Hall type Crank sensor
 
@@ -127,3 +128,52 @@ R13=0R
 
 ![front hall](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_hall_setup.jpg)
 ![front lower](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_lower.jpg)
+
+
+
+# Extra pins
+
+microRusEFI exposes the following pins in addition to the primary 48 pin connector:
+
+J4:
+
+![x](Hardware/microrusefi/J4.png)
+| N | Name | Possible functions (not all listed!) |
+|----|-------------| ---- |
+| 9 | GNS | GND
+| 4 | VDD | 3.3V
+| 1 | 5V | 5V
+| 2 | 12V | 12V from Main Relay
+| 3 | PB8 | I2C1_SCL or CAN1_RX
+| 6 | PB9 | I2C1_SDA or CAN1_TX
+| 8 | PC10 | SPI3_SCK or USART3_TX or UART4_TX
+| 5 | PC11 | SPI3_MISO or USART3_RX or UART4_RX
+| 10 | PC12 | SPI3_MOSI or USART3_CK or UART5_TX
+| 7 | PA15 | SPI3_NSS (Chip Select)
+
+Three GPIOs are available on J2 (SWD) connector. If you are not going to use debuger J2 connector can be used for other purposes.
+| N | Name | Possible functions (not all listed!) |
+|----|-------------| ---- |
+| 7, 8 | GND | GND |
+| 1, 2 | 5V | 5V |
+| 3, 4 | VDD | 3.3V |
+| 5 | SCK | SWD clock or PA14 gpio (no alternative functions) |
+| 9 | SWDIO | SWD data or PA13 gpio (no alternative functions) |
+| 6 | SWO | SWD/JTAG data out (?) or SPI1_SCK or SPI3_SCK |
+| 10 | NRST | CPU reset input (active low) |
+
+For HW version 0.5.0 and newer some additional GPIOs are available on testpoints around STM32.
+
+![x](Hardware/microrusefi/J8_9_10.png)
+Please refer to PCB layout for exact positions of this testpoints (no silk refdefs on PCB).
+
+| Tespoint | GPIO | Possible functions (not all listed!) |
+|----|-------------| ---- |
+| J6 | PE0 | GPIO |
+| J8 | PB7 | USART1_RX or TIM4_CH2 |
+| J9 | PC13 | GPIO only |
+| J10 | PE6 | TIM9_CH2 |
+| J11 | PE5 | TIM9_CH1 |
+| J16 | PD0 | CAN1_RX |
+
+Please refer to STM32F407 chip documentation for full list of alternative functions of GPIOs listed above.

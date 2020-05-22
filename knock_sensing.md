@@ -3,6 +3,9 @@
 We have some progress integrating with conventional knock sensors but it's not ready for end users.
 We use TPIC/HIP9011 IC for knock sensor integration
 
+We believe that we have hip9011 hardware yet nobody has ever actually detected knock with a hip9011, 
+someone would have to figure our calibration approach and test the overall implementation.
+
 Frankenso has hip9011 on-board 
 
 TODO AndreiKA?

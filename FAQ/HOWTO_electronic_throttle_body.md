@@ -18,7 +18,7 @@ There are several benefits by allowing the ECU to control the position of the th
 Electronic throttles typically consist of:
 - A brushed DC motor.  Positive torque pushes the throttle open, and negative torque pushes the throttle closed.
 - A TPS.  This is an angle sensor, commonly a potentiometer or hall sensor, which tells the ECU the actual position of the throttle. This is used as feedback to the ECU to accurately set and hold the throttle position.  
-- A "limp home" return spring.  This spring holds the throttle position open slightly, commonly 3%-10%, approximately enough to idle. This allows the vehicle to "limp home" in the event the ECU can no longer operate the throttle.
+- A "limp home" return spring.  This spring holds the throttle position open slightly, commonly 5-25%, enough for a high idle. This allows the vehicle to "limp home" in the event the ECU can no longer operate the throttle.
 
 rusEFI hardware and software have been designed to work with all three of these parts of the throttle.
 - DC motor driver H-bridge(s) to control the motor.  An H-bridge can apply a variable voltage using PWM in either direction. Both directions are important to be able to open and close the throttle completely. 
