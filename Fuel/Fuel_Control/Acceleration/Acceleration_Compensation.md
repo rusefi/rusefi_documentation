@@ -1,6 +1,6 @@
 # Acceleration_Compensation
 
-Acceleration Compensation is required in a EFI system to modify the fuel injection to compensate for the deviation in AFR caused by the change of conditions in the inlet manifold.  
+Acceleration Compensation is required in an EFI system to modify the fuel injection to compensate for the deviation in AFR caused by the change of conditions in the inlet manifold.  
 When an engine changes load the depression in the inlet manifold changes, during an increase of load the depression increases and this causes fuel to drop out of suspension and collect on the walls of the intake manifold.  
 Because of this fuel drop out, instead of being drawn into the cylinders the fuel momentarily remains on the walls of the inlet manifold. The result of this is the lean AFR spike you can often see on poorly tuned vehicles when giving a sudden increase of throttle. 
 

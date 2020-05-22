@@ -1,6 +1,6 @@
 ![img](overview/FSIO/FSIO_for_idle_target.png)
 
-rusEfi console now has build-in decoder of RPN form, for example:
+rusEFI console now has build-in decoder of RPN form, for example:
 
 ```decode_rpn "0 fsio_analog_input 20 > 0 10 if"```
 
@@ -11,7 +11,7 @@ and
 
 ```decode_rpn "0 fsio_input 20 > 0 10 if"```
 
-Would show a filing to parse message with a list of some known functions.
+It would show a filing to parse message with a list of some known functions.
 
 
 
