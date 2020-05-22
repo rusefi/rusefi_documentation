@@ -1,8 +1,8 @@
 # Joining the rusEFI slack channel
 
-#### What is slack and whi should I be there?
+#### What is slack and why should I be there?
 
-Slack in a business messenger that can be accessed through your browser or as an application on your PC. 
+Slack in a group messenger that can be accessed through your browser or as an application on your PC. 
 
 #### Joining the channel
 
