@@ -9,4 +9,6 @@
 
 See [HOWTO upload tune](HOWTO_upload_tune)
 
+See [HOWTO set rusEfi Online authentication token](HOWTO-set-rusEfi-Online-authentication-token)
+
 
