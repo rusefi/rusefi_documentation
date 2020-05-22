@@ -65,7 +65,7 @@
 - [Do I need a wideband oxygen sensor?](do_i_need_wideband_oxygen_sensor)
 
 # Pages
-- [Fuel](Page_Fuel)
+- [Fuel](Pages_Fuel)
 - Hardware - Coming Soon
 - Sensors - Coming Soon
 - Spark - Coming Soon
