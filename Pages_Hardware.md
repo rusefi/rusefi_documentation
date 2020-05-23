@@ -48,6 +48,7 @@
 * [MRE Adapter 68](MREAdapter68)
 * [MRE Adapter 72](MREAdapter72)
 * MRE Adaptor 88 - Coming Soon
+* [PNP 72 Jumper configs](PNP_72_Jumpers)
 
 </details>
 
