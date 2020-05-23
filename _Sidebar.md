@@ -69,4 +69,5 @@
 - [Hardware](Pages_Hardware)
 - [Sensors and Actuators](Pages_Sensors_and_Actuators)
 - [Ignition](Pages_Ignition)
-- Software - Coming Soon
+- [Software](Pages_Software)
+- [rusEFI Project](rusEFI_project)
