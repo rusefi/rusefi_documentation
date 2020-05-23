@@ -21,6 +21,7 @@
 
 <details><summary><u>MAF Sensors</u></summary>
 
+* [GM Map sensor](GM-map-Sensor)
 * List of tested MAP sensors - Coming Soon
 
 </details>

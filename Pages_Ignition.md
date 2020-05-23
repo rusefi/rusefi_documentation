@@ -1,10 +1,18 @@
 ## Master list of Ignition pages 
   
-<details><summary><u>xxx</u></summary>
+<details><summary><u>rusEFI Project</u></summary>
 
-* [xxx](xxx)
+* [rusEFI Project Ignition](rusEFI-project-Ignition)
 
 </details>
+
+
+details><summary><u>Ignition Wiring</u></summary>
+
+* [Basic Ignition Wiring](FAQ-Basic-Wiring-and-Connections)
+
+</details>
+
 
 <details><summary><u>Coils and ignition modules</u></summary>
 
