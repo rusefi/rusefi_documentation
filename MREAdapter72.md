@@ -8,7 +8,10 @@ High-side jumper should be set for +12v
 
 https://rusefi.com/forum/viewtopic.php?t=1677
 
+https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2002
+
 https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
+
 
 https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 
@@ -67,7 +70,7 @@ Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_
 
 
 
-[MREAdapter72 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
+[MREAdapter72 0.2 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
 
 
 ### OEM harness add-ons  
