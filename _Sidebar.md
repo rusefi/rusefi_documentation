@@ -66,6 +66,6 @@
 
 # Pages
 - [Fuel](Pages_Fuel)
-- Hardware - Coming Soon
-- Sensors - Coming Soon
+- [Hardware](Pages_Hardware)
+- [Sensors and Actuators](Pages_Sensors_and_Actuators)
 - Spark - Coming Soon
