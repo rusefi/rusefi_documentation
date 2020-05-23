@@ -89,9 +89,8 @@
 </details>
 
 
-<details><summary><u>XXX sensors</u></summary>
+<details><summary><u>Vehicle Specific Oddities</u></summary>
 
-* [xxx](????)
-* xxx - Coming Soon
+* [Mazda PRC Valve](Mazda-PRC-Valve)
 
 </details>
