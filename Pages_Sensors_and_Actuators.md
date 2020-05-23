@@ -21,6 +21,7 @@
 
 <details><summary><u>MAF Sensors</u></summary>
 
+* [GM Map sensor](GM-map-Sensor)
 * List of tested MAP sensors - Coming Soon
 
 </details>
@@ -85,6 +86,13 @@
 
 * [GDI Status](GDI_Status)
 * List of tested fuel injectors - Coming Soon
+
+</details>
+
+
+<details><summary><u>Variable Valve Timing</u></summary>
+
+* [VVT Overview](VVT)
 
 </details>
 
