@@ -1,47 +1,47 @@
 ## Master list of hardware (boards) pages 
   
-[Hardware overview](Hardware/Hardware)  
+[Hardware overview](Hardware)  
 
 
 <details><summary><u>Universal Info</u></summary>
 
-* [Hardware completeness options](Hardware/Completeness_Chart)
-* [Microcontroller selection](misc/selecting_open_source_ecu_microcontroller)
+* [Hardware completeness options](Completeness_Chart)
+* [Microcontroller selection](selecting_open_source_ecu_microcontroller)
 
 </details>
 
 
 <details><summary><u>Deucalion</u></summary>
 
-* [Deucalion UART](Hardware/Deucalion/Deucalion_uart)
+* [Deucalion UART](Deucalion_uart)
 
 </details>
 
 
 <details><summary><u>Frankenso</u></summary>
 
-* [Frankenso main page](Hardware/Frankenso/Hardware_Frankenso)
+* [Frankenso main page](Hardware_Frankenso)
 
 </details>
 
 
 <details><summary><u>MicroRusEFI (MRE)</u></summary>
 
-* [MRE Manual](Hardware/microrusefi/microRusEFI_Manual)
-* [MRE main page](Hardware/microrusefi/Hardware_microRusEFI)
-* [MRE wiring](Hardware/microrusefi/Hardware_microRusEFI_wiring)
-* [MRE Kit instructions](Hardware/microrusefi/Hardware_microRusEFI_kit_instructions)
-* [MRE Hardware checks](Hardware/microrusefi/Hardware_microRusEFI_hardware_checks)
-* [MRE DIY TLDR](Hardware/microrusefi/microRusEFI_DIY_TLDR)
-* [MRE Connectors](/Hardware/microrusefi/microRusEfi_connectors/Hardware_microRusEfi_connectors)
+* [MRE Manual](microRusEFI_Manual)
+* [MRE main page](Hardware_microRusEFI)
+* [MRE wiring](Hardware_microRusEFI_wiring)
+* [MRE Kit instructions](Hardware_microRusEFI_kit_instructions)
+* [MRE Hardware checks](Hardware_microRusEFI_hardware_checks)
+* [MRE DIY TLDR](microRusEFI_DIY_TLDR)
+* [MRE Connectors](Hardware_microRusEfi_connectors)
 
 </details>
 
 
 <details><summary><u>PNP Boards</u></summary>
 
-* [PNP 48 - MRE based for Miata NA](Hardware/pnp_microRusEfi_48na/microrusefi48adapter.pdf)
-* [PNP 72 - MRE based for Miata NB2](Hardware/pnp_microRusEfi_nb2/hw72nb.pdf)
+* [PNP 48 - MRE based for Miata NA](microrusefi48adapter.pdf)
+* [PNP 72 - MRE based for Miata NB2](hw72nb.pdf)
 * [MRE Adapter 48](MREAdapter48)
 * [MRE Adapter 55](MREAdapter55)
 * [MRE Adapter 68](MREAdapter68)
@@ -52,7 +52,7 @@
 
 <details><summary><u>Prometheus</u></summary>
 
-* [Prometheus wiring diagram](Hardware/Prometeus/Prometeus_wiring_diagram.cdr)
+* [Prometheus wiring diagram](Prometeus_wiring_diagram.cdr)
 
 </details>
 
