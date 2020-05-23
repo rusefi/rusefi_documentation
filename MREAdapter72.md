@@ -5,6 +5,7 @@ Mazda Miata MX5 NB2 2001-2005 Standalone
 
 High-side jumper should be set for +12v
 
+[Some versions of Miata may need a jumper set on the board, See detail here](PNP_72_Jumpers)
 
 https://rusefi.com/forum/viewtopic.php?t=1677
 
