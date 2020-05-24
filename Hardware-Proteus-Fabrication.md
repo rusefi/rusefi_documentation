@@ -24,4 +24,4 @@ Acceptable 3D printed case files are not public yet.
 CNC files to cut holes in 1590wxxfl/1590xxfl cases are available at ZZZ.
 
 
-  
+![x](Hardware/Proteus/Hardware-Proteus-0.3.jpg)  
