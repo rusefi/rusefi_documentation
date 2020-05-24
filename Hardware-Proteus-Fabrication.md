@@ -13,4 +13,15 @@ For best results take three official files from latest [export](https://github.c
 
 TODO picture of Proteus as received from JLCPCB.
 
-At QTY 10, each pre-assembled Proteus board costs under $40. DHL delivery is cheap and fast, you should have your 80% ready board in about 12 days! 
+At QTY 10, each pre-assembled Proteus board costs under $40. DHL delivery is cheap and fast, you should have your 80% ready board in about 12 days!
+
+The remaining components would cost you XXX more, BOM for final assembly is available at YYY.
+
+As of May 2020 we have not figured out a great case solution.
+
+Acceptable 3D printed case files are not public yet.
+
+CNC files to cut holes in 1590wxxfl/1590xxfl cases are available at ZZZ.
+
+
+  
