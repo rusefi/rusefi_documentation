@@ -80,6 +80,18 @@ These tables provide technical information about the different types of pin foun
 | sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!***
 | 5v   | 5V sensor supply    | 5V supply for external sensors.  200mA maximum per pin.
 
+
+## Stepper
+
+| Pin  | Name                | Notes & Limits                                                                       |
+|------|---------------------| ------------------------------------------------------------------------------------ |
+| #33 | GP4 | Coil #2 |
+| #34 | GP2 | Coil #1 |
+| #35| GP1 | Coil #1 |
+| #43 | GP4 | Coil #2 |
+
+
+
 ## Input
 
 | ID   | Type                | Notes & Limits                                                                       | Possible functions |
