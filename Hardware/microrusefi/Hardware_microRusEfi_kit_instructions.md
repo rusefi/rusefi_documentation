@@ -49,9 +49,9 @@ VR mode back
 ![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_vr_back.jpg)
 
 
-0.4.5, 0.4.7: For Hall, you would need to REMOVE R15 & C35 on the front, and install R17 R18 R19 on the back.
+0.4.5, 0.4.7: For Hall, you would need to REMOVE R15 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
 
-0.4.8: For Hall, you would need to REMOVE R15&R9, C12 & C35 on the front, and install R17 R18 R19 on the back.
+0.4.8: For Hall, you would need to REMOVE R15&R9, C12 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
 
 Hall mode front
 ![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_front.jpg)
