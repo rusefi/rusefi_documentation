@@ -1,5 +1,5 @@
 # Speed Density
-Speed density is the most popular fuel control system employed by rusEFI users at present. This is due to its simplicity of tuning and its suitability for turbocharged cars.  
+Speed density is the most popular fuel control system employed but rusEFI users are present. This is due to its simplicity of tuning and it's suitability for turbocharged cars.  
 It is due to this widespread use that it is the most well developed fuel control method and is the primary recommendation for fuel control at present (27/4/2020).
 
 # The detail

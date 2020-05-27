@@ -52,7 +52,9 @@ though you could probably use D=0 since the system is already damped so hard
 50Hz
 
 
-https://github.com/rusefi/hw_modular/tree/master/cj125_Module
+[Older SOIC-24 board - double sided assembly](https://github.com/rusefi/hw_modular/tree/master/cj125_Module)
+
+[Newer LQFP-32 board - single side assembly](https://github.com/rusefi/rusefi/tree/master/hardware/CJ125_board)
 
 
 IP Pump Current
