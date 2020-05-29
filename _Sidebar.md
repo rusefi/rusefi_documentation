@@ -34,6 +34,7 @@
 - [rusEfi Hardware Overview](Hardware)
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
 - [rusEFI Assembly Completeness Chart](Completeness_Chart)
+- [Kit Instructions](Pages_Kit_Instructions)
 
 ### Boards
 
@@ -70,4 +71,4 @@
 - [Sensors and Actuators](Pages_Sensors_and_Actuators)
 - [Ignition](Pages_Ignition)
 - [Software](Pages_Software)
-- [rusEFI Project](rusEFI_project)
+- [rusEFI Project](rusEFI-project)
