@@ -3,7 +3,7 @@
 ## Summary
 This page is a general guide for hardware items and suggestions on how to design and work with things like a PCB layout.  
 
-
+---
 
 ## General suggested environment
 - Allows an ambient temperature from -40C to +85C (-40F to 185F) AEC Q100 Grade 3  
@@ -20,6 +20,8 @@ This page is a general guide for hardware items and suggestions on how to design
 - When high side drive is provided with the ability to provide more than 20mA, current sensing and limiting should be implemented to prevent the possibility of electrical fire. See VND5E025AK for an example of a chip that has this feature.  
 - Take AEC Q100 into consideration See freely published documents found [here](http://www.aecouncil.com/AECDocuments.html)
 
+---
+
 ## Connectors
 - Connectors should be keyed such that it is difficult to accidentally swap connectors  
 - Connectors should be able to carry the max possible load with one pin, no doubling up pins to get increased current ratings. It is OK to double up pins to decrease connector resistance for a lower voltage drop.  
@@ -28,9 +30,13 @@ This page is a general guide for hardware items and suggestions on how to design
 - Suggested to use twisted pair PVC wire as a minimum for signal wires, silicon jackets are more costly, but also much better.  
 - Suggested to use the "Tin Commandments" found here  
 
+---
+
 ## PCB design rules
 - See http://rusefi.com/wiki/index.php?title=Manual:Hardware:PCB_design_rules    
   
+---
+
 ## Links to specific hardware projects
 #### - Frankenso
 http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
@@ -44,7 +50,7 @@ Forum thread about this PCB found [here](http://rusefi.com/forum/viewtopic.php?f
 [Current pin out](https://docs.google.com/spreadsheet/ccc?key=0Arl1FeMZcfisdGpIZVBGMWFIQXdycnVNOWRjRG5YNnc)
 
 
-
+---
 
 
 #### - Frankenstein
@@ -62,6 +68,8 @@ Frankenstein is a combination of individual modules, such that you can make sub 
 
 Source file for the schematic found [here](https://sourceforge.net/p/daecu/code/HEAD/tree/Hardware/trunk/rusefi.com/frankenstein/system_schematics/system_schematic.png?format=raw)  
 
+---
+
 Links to misc schematics
 J701 NEON engine schematics  
 ![alt text](images/120px-TPS-INJ-IAT_schematic.jpg)  
@@ -73,7 +81,9 @@ J701 NEON engine schematics
 
 Found in this thread [link](http://rusefi.com/forum/viewtopic.php?f=3&t=360&start=52)
 
-Misc
+---
+
+## Misc
 http://rusefi.com/wiki/index.php?title=Manual:Hardware:CAN_sniffer
 
 [Vehicle:Mini_Cooper_2003](https://rusefi.com/wiki/index.php?title=Vehicle:Mini_Cooper_2003)
