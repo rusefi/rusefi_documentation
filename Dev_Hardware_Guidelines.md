@@ -37,7 +37,7 @@ http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
 
 
 #### - Brain board
-Vyuqd8h.png
+![alt text](images/Vyuqd8h.png)
 The brain board can be the off the shelf STMDiscoveryF4. However the Discovery has several circuits like the analog microphone circuits which change how a particular pin is loaded. We have noticed that this pin loading cause the injector circuits to vary pulse widths. Because of this we have developed a stripped down version of the discovery board with out the extra circuits. Both boards have the same general specifications, same clock rates, same IO headers with the same pin out's, ect.
 
 Forum thread about this PCB found [here](http://rusefi.com/forum/viewtopic.php?f=4&t=381)
@@ -48,7 +48,7 @@ Forum thread about this PCB found [here](http://rusefi.com/forum/viewtopic.php?f
 
 
 #### - Frankenstein
-20140224_state.jpg
+![alt text](images/20140224_state.jpg) 
 Frankenstein is a combination of individual modules, such that you can make sub modules, then combine them with a script. The end result allows you to prototype a small board, then once you have verified the small board, you can combine it with the larger module. If you don't want all the features of Frankenstein, you can mix and match as you so choose. Frankenstein is a combination of the below.
 
 - Forum thread about this PCB found [here](http://rusefi.com/forum/viewtopic.php?f=4&t=359)  
@@ -63,10 +63,12 @@ Frankenstein is a combination of individual modules, such that you can make sub 
 Source file for the schematic found [here](https://sourceforge.net/p/daecu/code/HEAD/tree/Hardware/trunk/rusefi.com/frankenstein/system_schematics/system_schematic.png?format=raw)  
 
 Links to misc schematics
-J701 NEON engine schematics
-120px-TPS-INJ-IAT_schematic.jpg
+J701 NEON engine schematics  
+![alt text](images/120px-TPS-INJ-IAT_schematic.jpg)  
+[120px-TPS-INJ-IAT_schematic.jpg](images/TPS-INJ-IAT_schematic.jpg) 
 
-120px-IGN.jpg
+![alt text](images/120px-IGN.jpg)  
+[120px-IGN.jpg](images/IGN.jpg)
 
 
 Found in this thread [link](http://rusefi.com/forum/viewtopic.php?f=3&t=360&start=52)
@@ -74,20 +76,20 @@ Found in this thread [link](http://rusefi.com/forum/viewtopic.php?f=3&t=360&star
 Misc
 http://rusefi.com/wiki/index.php?title=Manual:Hardware:CAN_sniffer
 
-Vehicle:Mini_Cooper_2003
+[Vehicle:Mini_Cooper_2003](https://rusefi.com/wiki/index.php?title=Vehicle:Mini_Cooper_2003)
 
-Vehicle:Saturn_Ion_2004
+[Vehicle:Saturn_Ion_2004](https://rusefi.com/wiki/index.php?title=Vehicle:Saturn_Ion_2004)
 
-Vehicle:Hyundai_Elantra_2004
+[Vehicle:Hyundai_Elantra_2004](https://rusefi.com/wiki/index.php?title=Vehicle:Hyundai_Elantra_2004)
 
-176122-6 ECU connector board
+[176122-6 ECU connector board](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 
-our first ECU connector breakout board
+[our first ECU connector breakout board](http://rusefi.com/forum/viewtopic.php?f=4&t=3)
 
-migration breakout board includes fused jumpers to move wires
+[migration breakout board includes fused jumpers to move wires](http://rusefi.com/forum/viewtopic.php?f=4&t=454)
 
-Ignition modules A couple ignition (igniter) modules found in this thread.
+[Ignition modules A couple ignition (igniter) modules found in this thread.](https://rusefi.com//forum/viewtopic.php?f=4&t=286)
 
-2003 dodge Neon test mule
+[2003 dodge Neon test mule](https://rusefi.com/forum/viewtopic.php?f=3&t=696)
 
-connector boards
+[connector boards](https://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors)
