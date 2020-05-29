@@ -12,5 +12,7 @@ TBD
 
 ![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_0_5_full_bundle.jpg)
 
+![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_0_5_native_stm32.jpg)
+
 
 [For sale fully assembled!](https://www.tindie.com/products/russian/frankenso-full-bundle/)
