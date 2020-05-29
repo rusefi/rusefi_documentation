@@ -7,6 +7,7 @@
 
 * [Hardware completeness options](Completeness_Chart)
 * [Microcontroller selection](selecting_open_source_ecu_microcontroller)
+* [Hardware development guidelines](Dev_Hardware_Guidelines)
 
 </details>
 
