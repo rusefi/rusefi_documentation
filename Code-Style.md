@@ -1,7 +1,7 @@
-Reduce visibility where possible
+* Reduce visibility where possible
 
-avoid magic constants
+* Avoid magic constants
 
-please do not push dead code
+* Please do not push dead code
 
-See https://rusefi.com/wiki/index.php?title=Development:Code_Style
+See here: https://rusefi.com/wiki/index.php?title=Development:Code_Style
