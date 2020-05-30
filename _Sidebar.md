@@ -3,6 +3,7 @@
 
 # Getting Started
 
+- [How to search the Wiki](HOWTO-Search-on-rusEFI-wiki)
 - [Quick Start](HOWTO_quick_start)
 - [How to ask questions](HOWTO_ask_questions)
 - [Support](Support)

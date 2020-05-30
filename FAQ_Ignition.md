@@ -7,7 +7,7 @@ The topics below are an attempt to cover as many of the common key questions we 
 
 ## Will rusEFI work with my "XYZ" coils? 
 In theory rusEFI will work with any coils from nearly any vehicle produced since the daimler motor carriage of 1901. 
-In reality there are some practicalities to that mean some coils are easier than others. 
+In reality there are some practicalities that make some coils easier than others. 
 
 The rusEFI ignition circuits are designed to work at 5v and are not designed to resist the large currents produced when controlling an ignition coil.  "Well that's is no good!" I hear you think, actually it is perfectly fine provided certain conditions are met.  
 
@@ -44,7 +44,7 @@ OK, ok, this question needs tackling in several parts, please pick the option yo
 If you are looking to buy new coils then we would recommend taking a look at the list of Ignition coils that have been tried with rusEFI.  
 [List of ignition coils](Vault_Of_Ignition_Parts)  
 In general though we recommend trying to get a tried and tested solution and getting coils that are easily available in your local area. 
-There are lots of tried and tested options that can be found by **searching the forum**
+There are lots of tried and tested options that can be found by [**searching the forum.**](https://rusefi.com/forum/search.php)
 
 </details>
 
@@ -56,7 +56,7 @@ There are lots of tried and tested options that can be found by **searching the 
 Great, then you can wire them directly to the ECU.  
 However please take care to check that tht coils you have really do incorporate the ignition driver into the coil. 
 Having 3 or 4 connectors pins is not a guarantee that a coils is a "smart" coil.  
-There is some information on known smart coils and how to work out if you have a smart coil that can be found by **searching the forum.**
+There is some information on known smart coils and how to work out if you have a smart coil that can be found by [**searching the forum.**](https://rusefi.com/forum/search.php)
 
 </details>
 
@@ -66,7 +66,7 @@ Great, same as the smart coils please double check your coils are actually simpl
 You will need to source an external ignition module to go between the ECU and the coils. 
 These are generally quite cheap and can be found on some cars in the junk yard. We also made our own simple module [here](fix link)
 
-There are some tested Ignition modules on the Ignition components list and some can be found by **searching the forum.**
+There are some tested Ignition modules on the Ignition components list and some can be found by [**searching the forum.**](https://rusefi.com/forum/search.php)  
 [List of ignition components](Vault_Of_Ignition_Parts) 
 
 </details>
@@ -79,7 +79,7 @@ There are some tested Ignition modules on the Ignition components list and some 
 
 Most older coils will need this and some cars have them as standard.  
 These are not to be confused with the EDIS module that some ECUs require that is a more complex unit that does some of the functions for those simpler ECUs.  
-Lots of users have already had to tackle this issue so there is a host of options that can be found by **searching the forum.** 
+Lots of users have already had to tackle this issue so there is a host of options that can be found by [**searching the forum.**](https://rusefi.com/forum/search.php)
 
 There are several available modules some are listed on the Ignition components list.  
 [List of ignition components](Vault_Of_Ignition_Parts) 
