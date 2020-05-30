@@ -1,7 +1,7 @@
 
 # What is Cranking?
 
-In order to get an engine running, it first needs to be rotated at sufficient speed. Thus, it gets the fuel pumped up to the cylinders and ignited and enables the engine to run on its own power. Cranking the engine simply means turning the engine's crankshaft that rotates the engine to power itself.
+In order to get an engine running, it first needs to be rotated at sufficient speed. This gets the fuel pumped up to the cylinders and ignited and enables the engine to run on its own power. Cranking the engine simply means turning the engine's crankshaft that rotates the engine to power itself.
 
 
 <!-- This would be rendered as a collapsable section. from 'details' to closing 'details' -->
@@ -25,7 +25,7 @@ Cranking mode is defined as any RPM value below the 'cranking RPM' setting. Duri
 
 <!-- this magic '>' make a one line quote block --> 
 
-> <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, Please first see: [First Engine Start](First_engine_start).*
+> <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [First Engine Start](First_engine_start).*
 
 
 # Cranking Settings
@@ -99,7 +99,7 @@ rusEFI Console command:
 
 ### Falloff temperature
 
-*This sets the temperature above which no priming pulse is used, The value at -40 is reduced until there is no more priming injection at this temperature.*
+*This sets the temperature above which no priming pulse is used. The value at -40 is reduced until there is no more priming injection at this temperature.*
 
 ## Fuel Settings
 ### Injection mode
@@ -138,7 +138,7 @@ To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is t
 
 ### Use separate Advance Table for cranking
 
-*This activates a separate advance table for cranking conditions, this allows cranking advance to be RPM dependant.*
+*This activates a separate advance table for cranking conditions, which allows the cranking advance to be RPM dependant.*
 
 ![Cranking Advance Table](FAQ/cranking/separate_advance_table.png)
 
@@ -153,10 +153,10 @@ To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is t
 
 ## IAC Settings
 ### Cranking IAC position
-*This is the IAC position during cranking, some engines start better if given more air during cranking to improve cylinder filling.*
+*This is the IAC position during cranking; some engines start better if given more air during cranking to improve cylinder filling.*
 
 ### After cranking IAC taper duration
-*This is the duration in cycles that the IAC will take to reach its normal idle position, it can be used to hold the idle higher for a few seconds after cranking to improve startup.*
+*This is the duration in cycles that the IAC will take to reach its normal idle position; it can be used to hold the idle higher for a few seconds after cranking to improve startup.*
 
 ### Override IAC multiplier for cranking
 *This setting overrides the normal multiplication values that have been set for the idle air control valve during cranking. If this setting is enabled the "IAC multiplier" table in the Cranking settings tab needs to be adjusted appropriately or potentially no IAC opening will occur.*
@@ -173,10 +173,9 @@ To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is t
 During cranking, two curves control the amount of fuel injected:
 "cranking coolant temperature multiplier" and "cranking duration multiplier".
   
-A Cold engine usually requires more cranking fuel, cranking fuel usually tapers down during cranking since more fuel is needed in the beginning and not really needed later.
+A Cold engine usually requires more cranking fuel; cranking fuel usually tapers down during cranking since more fuel is needed in the beginning and not really needed later.
 
-If you have flooded your engine, i.e. got too much fuel on your spark plugs, "Cylinder Cleanup" is recommenced - i.e. cranking with wide-open throttle without any fuel squired into the cylinders
-in order to ventilate your cylinders.
+If you have flooded your engine, i.e. got too much fuel on your spark plugs, "Cylinder Cleanup" is recommenced - i.e. cranking with wide-open throttle without any fuel squirted into the cylinders in order to ventilate your cylinders.
 
 As of April 2019 "base fuel pulse" is deprecated, "1" is recommended.
 
