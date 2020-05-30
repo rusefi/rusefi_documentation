@@ -1,13 +1,14 @@
 ## Master list of Ignition pages 
   
+### [Ignition FAQ](FAQ_Ignition)
+
 <details><summary><u>rusEFI Project</u></summary>
 
 * [rusEFI Project Ignition](rusEFI-project-Ignition)
 
 </details>
 
-
-details><summary><u>Ignition Wiring</u></summary>
+<details><summary><u>Ignition Wiring</u></summary>
 
 * [Basic Ignition Wiring](FAQ-Basic-Wiring-and-Connections)
 
