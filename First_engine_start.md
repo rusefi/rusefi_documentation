@@ -1,1 +1,0 @@
-https://rusefi.com/wiki/index.php?title=Manual:First_engine_start
