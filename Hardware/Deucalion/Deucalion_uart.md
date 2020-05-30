@@ -1,4 +1,4 @@
-See Hardware/Deucalion/Deucalion_0_1_uart.jpg
+![](Hardware/Deucalion/Deucalion_0_1_uart.jpg)
 
 
 From right to left:

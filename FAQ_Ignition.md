@@ -29,15 +29,16 @@ Most more modern ignition coils are smart for these exact reasons and in order t
 
 ---
 
-## OK you made your point but what coils do I need? 
+## You made your point but what coils do I need? 
 
 That all depends if you want to buy new coils or already have some. In general we would advise to buy "smart coils" but we are also big fans of working with what you have or raiding the junk yard (read this as we are tight).
+We have attempted to compile a list of coils [here.](Vault_Of_Ignition_Parts)
 
 ---
 
 ## Thanks but that really did not help, please tell me exactly what to do? 
 
-OK, ok, this question needs tackling in several parts, please pick the option you need below:
+Ok, this question needs tackling in several parts, please pick the option you need below:
 
 <details><summary><u>I want to buy new coils</u></summary>
 
