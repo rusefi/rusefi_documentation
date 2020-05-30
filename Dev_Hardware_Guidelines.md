@@ -45,6 +45,7 @@ http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
 
 #### - Brain board
 ![alt text](images/Vyuqd8h.png)  
+
 The brain board can be the off the shelf STMDiscoveryF4. However the Discovery has several circuits like the analog microphone circuits which change how a particular pin is loaded. We have noticed that this pin loading cause the injector circuits to vary pulse widths. Because of this we have developed a stripped down version of the discovery board with out the extra circuits. Both boards have the same general specifications, same clock rates, same IO headers with the same pin out's, ect.
 
 Forum thread about this PCB found [here](http://rusefi.com/forum/viewtopic.php?f=4&t=381)
