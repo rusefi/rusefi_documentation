@@ -8,7 +8,7 @@ Airfuel.jpg
 
 Original graphic found here [1]
 
-Most people who are installing tune-able ECU's like rusEFI are looking for more power at the track. However your fuel weight advantage is also commonly important. So it is common that an engine will be tuned for peak power when over a certain load, and peak economy when at a cruise load. OEM's are often concerned with minimal environmental impact, so they may tune to a different AFR. Once you have decided on what your AFR strategy is going to be, you'll have to tune rusEFI to deliver that strategy. As well you will probably use an wide band oxygen sensor to measure your AFR and ensure that your are meeting your desired AFT plan.
+Most people who are installing tuneable ECU's like rusEFI are looking for more power at the track; however, your fuel weight advantage is also commonly important. So it is common that an engine will be tuned for peak power when over a certain load, and peak economy when at a cruise load. OEMs are often concerned with minimal environmental impact, so they may tune to a different AFR. Once you have decided on what your AFR strategy is going to be, you'll have to tune rusEFI to deliver that strategy. You will probably use a wide band oxygen sensor to measure your AFR and ensure that your are meeting your desired AFT plan.
 
 # Supported fuel control algorithms 
 rusEFI supports mono, individual/sequential and batched fuel injection using one of the following fuel control algorithms:
