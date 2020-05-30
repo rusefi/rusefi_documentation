@@ -1,5 +1,5 @@
 
-[Frankenso](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board) board was designed to be used on Mazda Miata NA6 as a plug-and-play solution
+The [Frankenso](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board) board was designed to be used on Mazda Miata NA6 as a plug-and-play solution.
 
 ## Stage 0
 
@@ -21,7 +21,7 @@ On NA6 Spark #1 and Spark #3 would audibly click if you use bench Spark Test but
 Because of wasted spark wiring Spark #2 and Spark #4 are not expected to click.
 
 On NA6 Injector #1 and Injector #2 would audibly click if you use bench Injector Test button.
-Because of batch injection wirint Injectors #3 and #4 are not expected to click.
+Because of batch injection wiring Injectors #3 and #4 are not expected to click.
 
 All you need is a relatively quiet surroundings and you would hear both spark and injectors. Injectors
 are louder, spark is less loud but also totally audible. Both Test buttons are expected to
@@ -29,11 +29,11 @@ produce three clicks a second after you press the button in the software.
 
 #### Wideband O2 sensor wire WBO
 
-You would really need a wideband sensor. Here is middle plug pinout to wire external wideband controller - +12v would feed external controller and analog output signal would provide rusEfi ECU with air/fuel ratio information.
+You would really need a wideband sensor. Here is the middle plug pinout to wire an external wideband controller - +12v would feed external controller and analog output signal would provide rusEfi ECU with air/fuel ratio information.
 
 ![middle plug](installations/MazdaMiataNA6_Frankenso_pnp/Frankenso_MazdaMiataNA6_pnp_middle_plug_0_2.png)
 
-A small flat screw driver and small pliers would allow you to move side latches and open the cap.
+A small flat screw driver and small pliers allow you to move side latches and open the cap.
 Insert supplied extra pin wire (pin on this picture) and close the latches. Done!
 
 ![extra wire](latches_open_J_wbo_added.jpg)
