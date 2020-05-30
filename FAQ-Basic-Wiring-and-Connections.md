@@ -2,7 +2,7 @@
 
 This page contains information about how to hook up to rusEFI hardware, in general. It's not intended to be a guide to a specific hardware variant - rather, how to figure out what you're going to need to run the different kinds of hardware you'd find in an engine bay.  
 
-***WARNING: The exact implementation of these pins is hardware specific!!!**  
+**WARNING: The exact implementation of these pins is hardware specific!!!**  
 You should always consult the documentation on your particular hardware. The information here is presented for "planning" purposes only - to help you figure out which of the hardware variants will suit the sensors and solenoids present on your engine.
 
 
