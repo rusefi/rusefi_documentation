@@ -9,9 +9,9 @@ You have found the rusEFI wiki main page. Here you will find information related
 **This project is NOT for emissions controlled or safety critical applications. This project is for race cars, snow blowers, fixed engine applications, and science experiments.**
 
 
-In order to use rusEFI you would need to acquire or fabricate one of the [supported boards](Hardware). You can also design you custom board if desired.
+In order to use rusEFI you will need to acquire or fabricate one of the [supported boards](Hardware). You can also design your own custom board if so desired.
 
-You can use rusEFI PC simulator to try rusEfi. PC simulator Windows binaries are included into [rusEFI Bundle](Download), Unix version of PC simulator could be compiled from [source code](https://github.com/rusefi/rusefi/tree/master/simulator).
+You can use rusEFI PC simulator to try rusEFI. PC simulator Windows binaries are included into [rusEFI Bundle](Download), and the Unix version of PC simulator could be compiled from [source code](https://github.com/rusefi/rusefi/tree/master/simulator).
 
 ## Features
 
@@ -23,7 +23,7 @@ You can use rusEFI PC simulator to try rusEfi. PC simulator Windows binaries are
 
 4. And many more! See [rusEFI-project](rusEFI-project) for more details.
 
-**As of April 2020 rusEFI has not yet had following features:**
+**As of April 2020 rusEFI has not yet had the following features:**
 1. rusEFI has not yet been used to manage a diesel engine.
 
 2. rusEFI has not yet been used to manage a direct injection gasoline engine.
