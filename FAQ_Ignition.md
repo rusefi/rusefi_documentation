@@ -91,3 +91,14 @@ There are several available modules some are listed on the Ignition components l
 
 Actually we already have this in the form of the Prometheus and Hellen boards.  
 These boards are intended as all in one solutions. 
+
+---
+
+## I have a coil with 3/4/5 pins, does this mean it is a smart coil?
+
+Absolutely not.  
+Some Bosch dumb coils have 3 pins, one is used for ignition misfire monitoring. 
+Wasted spark coils can share one common pin and then have a single pin for each coil pair. Resulting in a dumb coil with 3-5 pins. 
+Some wasted spark coils have 2 pins for each coil pair inside the pack. 
+
+This means it is vitally necessary to check the requirements of your actual coils by reviewing the wiring diagrams or [**searching the forum.**](https://rusefi.com/forum/search.php)
