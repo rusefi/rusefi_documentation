@@ -4,6 +4,9 @@
 
 Slack in a group messenger that can be accessed through your browser or as an application on your PC. 
 
+Before joining slack please read the section on [asking questions.](HOWTO_ask_questions)  
+Please also read the section [Here.](D_is_for_DISTRACTION)
+
 #### Joining the channel
 
 To get started you'll have to get the invite to our channel, you can do that [here](https://rusefi.com/slack/).
