@@ -2,6 +2,7 @@ Legacy HW wiki here: https://rusefi.com/wiki/index.php?title=Manual:Hardware_Fra
 
 
 **Q:** Why three USB connectors?
+
 **A:** https://rusefi.com/forum/viewtopic.php?f=4&t=1418
 
 
