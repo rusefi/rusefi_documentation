@@ -3,10 +3,10 @@ See Hardware/Deucalion/Deucalion_0_1_uart.jpg
 
 From right to left:
 
-Black GND
-Yellow above GND: +5v supply
-Blue next to yellow: TXD
-Green next to blue: RXD
+* Black GND
+* Yellow above GND: +5v supply
+* Blue next to yellow: TXD
+* Green next to blue: RXD
 
 The above mentioned four wires are all you need to update the firmware in Kinetis and connect to Deucalion via UART.
 
