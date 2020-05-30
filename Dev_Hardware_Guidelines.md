@@ -47,7 +47,7 @@ http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
 ![alt text](Images/Vyuqd8h.png)  
 The brain board can be the off the shelf STMDiscoveryF4. However the Discovery has several circuits like the analog microphone circuits which change how a particular pin is loaded. We have noticed that this pin loading cause the injector circuits to vary pulse widths. Because of this we have developed a stripped down version of the Discovery board without the extra circuits. Both boards have the same general specifications, same clock rates, same IO headers with the same pin outs, ect.
 
-Forum thread about this PCB found [here](http://rusefi.com/forum/viewtopic.php?f=4&t=381)
+Forum thread about this PCB found [here](http://rusefi.com/forum/viewtopic.php?f=4&t=381), also see: 
 [Current pin out](https://docs.google.com/spreadsheet/ccc?key=0Arl1FeMZcfisdGpIZVBGMWFIQXdycnVNOWRjRG5YNnc)
 
 
@@ -95,12 +95,12 @@ http://rusefi.com/wiki/index.php?title=Manual:Hardware:CAN_sniffer
 
 [176122-6 ECU connector board](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 
-[our first ECU connector breakout board](http://rusefi.com/forum/viewtopic.php?f=4&t=3)
+[Our first ECU connector breakout board](http://rusefi.com/forum/viewtopic.php?f=4&t=3)
 
-[migration breakout board includes fused jumpers to move wires](http://rusefi.com/forum/viewtopic.php?f=4&t=454)
+[Migration breakout board includes fused jumpers to move wires](http://rusefi.com/forum/viewtopic.php?f=4&t=454)
 
 [Ignition modules A couple ignition (igniter) modules found in this thread.](https://rusefi.com//forum/viewtopic.php?f=4&t=286)
 
 [2003 dodge Neon test mule](https://rusefi.com/forum/viewtopic.php?f=3&t=696)
 
-[connector boards](https://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors)
+[Connector boards](https://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors)
