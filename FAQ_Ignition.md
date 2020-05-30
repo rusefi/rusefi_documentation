@@ -1,6 +1,6 @@
 # Ignition FAQ
 
-One of the most common themes with rusEFI is people wanting to know more about igntion and what ignition hardware rusEFI can work with. 
+One of the most common themes with rusEFI is people wanting to know more about ignition and what ignition hardware rusEFI can work with. 
 The topics below are an attempt to cover as many of the common key questions we get asked. 
 
 ---
@@ -9,7 +9,7 @@ The topics below are an attempt to cover as many of the common key questions we 
 In theory rusEFI will work with any coils from nearly any vehicle produced since the daimler motor carriage of 1901. 
 In reality there are some practicalities that make some coils easier than others. 
 
-The rusEFI ignition circuits are designed to work at 5v and are not designed to resist the large currents produced when controlling an ignition coil.  "Well that's is no good!" I hear you think, actually it is perfectly fine provided certain conditions are met.  
+The rusEFI ignition circuits are designed to work at 5v and are not designed to resist the large currents produced when controlling an ignition coil.  "Well that's is no good!" I hear you think - actually, it is perfectly fine provided certain conditions are met.  
 
 The outputs of the rusEFI hardware are able to operate an ignition coil driver (IGBT) but not the coil directly.  
 This means that more modern "smart" coils that have an IGBT built into the coil can be driven directly. 
@@ -23,7 +23,7 @@ Quite simply for the same reasons modern ECUs do not have them either.
 1. It reduces the number of parts needed for the ECU and thus the cost
 2. It means the IGBT component is replaceable as they do sometimes fail
 3. It moves the electrically noisy high current/voltage components away from the sensitive MCU
-4. The shorter the physical length of these (actually quite sensitive) high current/voltage circuits the better, it reduces the total EMF signature of the vehicle, it reduces the weight of the vehicle as the wires can be smaller and most importantly it reduces the losses and means there is more energy available for the spark. 
+4. The shorter the physical length of these (actually quite sensitive) high current/voltage circuits the better; it reduces the total EMF signature of the vehicle, it reduces the weight of the vehicle as the wires can be smaller and most importantly it reduces the losses and means there is more energy available for the spark. 
 
 Most more modern ignition coils are smart for these exact reasons and in order to work with these nice modern, high power low weight COP coils we have a 5v output. 
 
@@ -63,7 +63,7 @@ There is some information on known smart coils and how to work out if you have a
 
 <details><summary><u>My coils are older dumb coils</u></summary>
 
-Great, same as the smart coils please double check your coils are actually simple coils without built in ignition modules. 
+Great - same as the smart coils, please double check your coils are actually simple coils without built in ignition modules. 
 You will need to source an external ignition module to go between the ECU and the coils. 
 These are generally quite cheap and can be found on some cars in the junk yard. We also made our own simple module [here](fix link)
 
