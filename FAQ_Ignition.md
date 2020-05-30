@@ -44,6 +44,7 @@ OK, ok, this question needs tackling in several parts, please pick the option yo
 If you are looking to buy new coils then we would recommend taking a look at the list of Ignition coils that have been tried with rusEFI.  
 [List of ignition coils](Vault_Of_Ignition_Parts)  
 In general though we recommend trying to get a tried and tested solution and getting coils that are easily available in your local area. 
+There are lots of tried and tested options that can be found by **searching the forum**
 
 </details>
 
@@ -54,7 +55,8 @@ In general though we recommend trying to get a tried and tested solution and get
 
 Great, then you can wire them directly to the ECU.  
 However please take care to check that tht coils you have really do incorporate the ignition driver into the coil. 
-Having 3 or 4 connectors pins is not a guarantee that a coils is a "smart" coil. 
+Having 3 or 4 connectors pins is not a guarantee that a coils is a "smart" coil.  
+There is some information on known smart coils and how to work out if you have a smart coil that can be found by **searching the forum.**
 
 </details>
 
@@ -64,7 +66,7 @@ Great, same as the smart coils please double check your coils are actually simpl
 You will need to source an external ignition module to go between the ECU and the coils. 
 These are generally quite cheap and can be found on some cars in the junk yard. We also made our own simple module [here](fix link)
 
-There are some tested Ignition modules on the Ignition components list. 
+There are some tested Ignition modules on the Ignition components list and some can be found by **searching the forum.**
 [List of ignition components](Vault_Of_Ignition_Parts) 
 
 </details>
@@ -76,7 +78,8 @@ There are some tested Ignition modules on the Ignition components list.
 ## I need an ignition module, what now? 
 
 Most older coils will need this and some cars have them as standard.  
-These are not to be confused with the EDIS module that some ECUs require that is a more complex unit that does some of the functions for those simpler ECUs. 
+These are not to be confused with the EDIS module that some ECUs require that is a more complex unit that does some of the functions for those simpler ECUs.  
+Lots of users have already had to tackle this issue so there is a host of options that can be found by **searching the forum.** 
 
 There are several available modules some are listed on the Ignition components list.  
 [List of ignition components](Vault_Of_Ignition_Parts) 
