@@ -16,10 +16,9 @@ Same but in different terms:
 
 1) Fork https://github.com/rusefi/rusefi_documentation
 2) Make your changes
-3) PR you changes
-4) Once PR is merged by one of moderators, your changes would appear at https://github.com/rusefi/rusefi_documentation instantaneously
-5) Within the next 5 minutes magic happens and changes appear at https://github.com/rusefi/rusefi/wiki
-
+3) PR your changes
+4) Once PR is merged by one of moderators, your changes will appear at https://github.com/rusefi/rusefi_documentation instantaneously
+5) Within the next 5 minutes magic happens and the changes appear at https://github.com/rusefi/rusefi/wiki
 
 **Q:** Is there a place where we are holding all images for these documents?
 **A:** We have images in the same repository! Just add your images while editing pages. Please consider using some (any really) folder structure.
@@ -28,7 +27,7 @@ For example https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/image
 
 Long story short, for images to work correctly both in the technical git and the user-facing wiki, we place all .md files into the same root folder.
 
-(More deteils: 
+(More details: 
 Please note that all .md files like https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/HOWTO_quick_start.md are displayed without folder name like https://github.com/rusefi/rusefi/wiki/HOWTO_quick_start - which also means
 that you need full image path like ``FAQ/images/rusEfi_console/rusEfi_console_start_screen.png`` for the image to be rendered properly. This is one of the github wiki features which are a bit counter-intuitive to me.
 
