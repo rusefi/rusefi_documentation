@@ -4,9 +4,9 @@ The layout here is based on the rusEFI project layout as of 2020/05/31
 Links to the overall rusEFI project pages have been retained for ease of quick access to the relevant TS view. 
 
 Colour code meanings:-  
-(&#x1F49A;): **OK to use** - Working, tested and no ongoing work  
-(&#x1F536;): **Use at own risk** - Believed working, may have bugs or has ongoing work  
-(&#x1F534;): **Do not use** - Not working or potential of damage from testing  
+(&#x1F49A;): **_OK to use_** - Working, tested and no ongoing work  
+(&#x1F536;): **_Use at own risk_** - Believed working, may have bugs or has ongoing work  
+(&#x1F534;): **_Do not use_** - Not working or potential of damage from testing  
 
 # [Base Engine](rusEFI-project-Base-Engine)
 
