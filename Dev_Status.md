@@ -13,6 +13,8 @@ Firing orders
 RPM limit  
 Boost Limit  
 
+(&#x1F534;):
+
 [Trigger](rusEFI-project-Base-Engine#trigger)  
 Trigger Patterns
 VR and Hall support
