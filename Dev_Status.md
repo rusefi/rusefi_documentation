@@ -13,7 +13,7 @@ Firing orders
 RPM limit  
 Boost Limit  
 
-(&#x1F534;):
+(&#x1F532;):
 
 [Trigger](rusEFI-project-Base-Engine#trigger)  
 Trigger Patterns
