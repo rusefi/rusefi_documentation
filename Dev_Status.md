@@ -9,20 +9,18 @@ Links to the overall rusEFI project pages have been retained for ease of quick a
 (&#x1F536;): AlphaN fuel strategy  
 (&#x1F49A;): Speed Density fuel strategy  
 (&#x1F536;): MAF fuel strategy  
-Firing orders  
-RPM limit  
-Boost Limit  
-
-(&#x1F532;):
+(&#x1F49A;): Firing orders  
+(&#x1F49A;): RPM limit  
+(&#x1F534;): Boost Limit  
 
 [Trigger](rusEFI-project-Base-Engine#trigger)  
 Trigger Patterns
-VR and Hall support
+VR and Hall support  
 (&#x1F534;): VVT support
 
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
 Vbatt display and logging
-Alternator Control
+(&#x1F536;): Alternator Control
 Button engine start
 
 [Main relay output](rusEFI-project-Base-Engine#main-relay-output)  
@@ -34,7 +32,7 @@ Starter Relay control
 [Fuel pump  rail](rusEFI-project-Base-Engine#fuel-pump--rail)  
 Fuel Pump control  
 Fuel Priming pulse  
-Fuel Rail pressure control (Absolute and MAP referenced)   
+(&#x1F536;): Fuel Rail pressure control (Absolute and MAP referenced)   
 
 [Fan Settings](rusEFI-project-Base-Engine#fan-settings)  
 Cooling fan control  
@@ -43,7 +41,7 @@ Cooling fan control
 Tachometer (Rev counter) output with configurable pulses per revolution  
 
 [Check Engine Settings](rusEFI-project-Base-Engine#check-engine-settings)  
-Check engine light (MIL) light  
+(&#x1F536;): Check engine light (MIL) light  
 
 [Status LEDs](rusEFI-project-Base-Engine#status-leds)  
 Status LED for diagnostic
@@ -57,14 +55,14 @@ Batch fuel mode
 Two wire batch emulation  
 Sequential fuel mode  
 Simultaneous fuel mode  
-Single point fuel mode
+(&#x1F536;): Single point fuel mode
 Configurable Injector output pins
 
 [Injector dead time](rusEFI-project-Fuel#injector-dead-time)  
 Injection dead time (latency) compensation
 
 [Fuel short-term closed-loop correction](rusEFI-project-Fuel#fuel-short-term-closed-loop-correction)  
-Short term fuel trim enable/disable
+(&#x1F536;): Short term fuel trim enable/disable
 CLT thresholds  
 RPM thresholds  
 EGO thresholds  
@@ -90,12 +88,12 @@ Warmup fuel compensation
 Intake air temperature fuel compensation  
 
 [tCharge Settings](rusEFI-project-Fuel#tcharge-settings)  
-tCharge fuel compensation with 2 modes  
+(&#x1F536;): tCharge fuel compensation with 2 modes  
 RPM+TPS mode  
 Air Interpolation Mode  
 
 [Accel/Decel Enrichment](rusEFI-project-Fuel#accel/decel-enrichment)  
-Acceleration enrichment disable upon triggering RPM limit with configurable duration  
+(&#x1F536;): Acceleration enrichment disable upon triggering RPM limit with configurable duration  
 TPS based acceleration enrichment  
 Wall Wetting based acceleration enrichment  
 Engine Load based acceleration enrichment  
@@ -114,7 +112,7 @@ Single coil mode
 Wasted spark mode  
 Two Wire wasted spark emulation
 Coil per cylinder mode
-Dual distributor mode  
+(&#x1F536;): Dual distributor mode  
 Configurable ignition output pins  
 Distributor pulse output  
 
@@ -142,7 +140,7 @@ Flood clear
 Faster engine start mode (a smarter cranking logic)  
 Temperature configurable fuel priming pulse  
 Cranking fuel injection mode selection (Simultaneous, batch or sequential)  
-Selectable pulse width source (VE table or fixed pulse)  
+(&#x1F536;): Selectable pulse width source (VE table or fixed pulse)  
 Configurable cranking ignition timing (fixed or table based)  
 Enable/disable ignition corrections
 Enable/disable fixed coil dwell  
