@@ -19,7 +19,7 @@ VR and Hall support
 (&#x1F534;): VVT support
 
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
-Vbatt display and logging
+Vbatt display and logging  
 (&#x1F536;): Alternator Control
 Button engine start
 
