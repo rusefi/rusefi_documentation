@@ -6,9 +6,9 @@ Links to the overall rusEFI project pages have been retained for ease of quick a
 # [Base Engine](rusEFI-project-Base-Engine)
 
 [Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)  
-AlphaN fuel strategy  
-Speed Density fuel strategy  
-MAF fuel strategy  
+(&#x1F536;): AlphaN fuel strategy  
+(&#x1F49A;): Speed Density fuel strategy  
+(&#x1F536;): MAF fuel strategy  
 Firing orders  
 RPM limit  
 Boost Limit  
@@ -16,7 +16,7 @@ Boost Limit
 [Trigger](rusEFI-project-Base-Engine#trigger)  
 Trigger Patterns
 VR and Hall support
-VVT support
+(&#x1F534;): VVT support
 
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
 Vbatt display and logging
