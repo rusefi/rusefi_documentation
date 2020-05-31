@@ -3,6 +3,11 @@
 The layout here is based on the rusEFI project layout as of 2020/05/31
 Links to the overall rusEFI project pages have been retained for ease of quick access to the relevant TS view. 
 
+Colour code meanings:-  
+(&#x1F49A;): Working, tested and no ongoing work - OK to use  
+(&#x1F536;): Believed working, may have bugs or has ongoing work - Use at own risk  
+(&#x1F534;): Not working or potential of damage from testing  - Do not use 
+
 # [Base Engine](rusEFI-project-Base-Engine)
 
 [Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)  
@@ -21,7 +26,7 @@ Links to the overall rusEFI project pages have been retained for ease of quick a
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
 (&#x1F49A;): Vbatt display and logging  
 (&#x1F536;): Alternator Control
-Button engine start
+(&#x1F536;): Button engine start
 
 [Main relay output](rusEFI-project-Base-Engine#main-relay-output)  
 (&#x1F49A;): Main Relay control
@@ -30,12 +35,12 @@ Button engine start
 (&#x1F49A;): Starter Relay control
 
 [Fuel pump  rail](rusEFI-project-Base-Engine#fuel-pump--rail)  
-Fuel Pump control  
+(&#x1F536;): Fuel Pump control  
 (&#x1F49A;): Fuel Priming pulse  
 (&#x1F536;): Fuel Rail pressure control (Absolute and MAP referenced)   
 
 [Fan Settings](rusEFI-project-Base-Engine#fan-settings)  
-Cooling fan control  
+(&#x1F536;): Cooling fan control  
 
 [Tachometer output](rusEFI-project-Base-Engine#tachometer-output)  
 (&#x1F49A;): Tachometer (Rev counter) output with configurable pulses per revolution  
@@ -59,7 +64,7 @@ Cooling fan control
 (&#x1F49A;): Configurable Injector output pins
 
 [Injector dead time](rusEFI-project-Fuel#injector-dead-time)  
-Injection dead time (latency) compensation
+(&#x1F536;): Injection dead time (latency) compensation
 
 [Fuel short-term closed-loop correction](rusEFI-project-Fuel#fuel-short-term-closed-loop-correction)  
 (&#x1F536;): Short term fuel trim enable/disable
@@ -69,17 +74,17 @@ EGO thresholds
 TPS thresholds  
 
 [Coasting Fuel Cutoff Settings](rusEFI-project-Fuel#coasting-fuel-cutoff-settings)  
-Overrun fuel cut enable/disable  
+(&#x1F536;): Overrun fuel cut enable/disable  
 CLT thresholds  
 RPM thresholds  
 MAP thresholds  
 TPS thresholds  
 
 [Fuel Table](rusEFI-project-Fuel#fuel-table)  
-16x16 VE based Fuel Table with 0.01% resolution
+(&#x1F536;): 16x16 VE based Fuel Table with 0.01% resolution
 
 [Injection Phase](rusEFI-project-Fuel#injection-phase)  
-16x16 injection timing table for sequential or DI applications
+(&#x1F536;): 16x16 injection timing table for sequential or DI applications
 
 [Warmup fuel manual Multiplier](rusEFI-project-Fuel#warmup-fuel-manual-multiplier)  
 (&#x1F49A;): Warmup fuel compensation  
@@ -89,20 +94,20 @@ TPS thresholds
 
 [tCharge Settings](rusEFI-project-Fuel#tcharge-settings)  
 (&#x1F536;): tCharge fuel compensation with 2 modes  
-RPM+TPS mode  
-Air Interpolation Mode  
+(&#x1F536;): RPM+TPS mode  
+(&#x1F536;): Air Interpolation Mode  
 
 [Accel/Decel Enrichment](rusEFI-project-Fuel#accel/decel-enrichment)  
 (&#x1F536;): Acceleration enrichment disable upon triggering RPM limit with configurable duration  
-TPS based acceleration enrichment  
-Wall Wetting based acceleration enrichment  
-Engine Load based acceleration enrichment  
+(&#x1F536;): TPS based acceleration enrichment  
+(&#x1F49A;): Wall Wetting based acceleration enrichment  
+(&#x1F536;): Engine Load based acceleration enrichment  
 
 [TPS/TPS Acceleration Extra Fuel(ms)](rusEFI-project-Fuel#tps/tps-acceleration-extra-fuel(ms))  
-Configurable table of extra injected fuel on TPS change 
+(&#x1F536;): Configurable table of extra injected fuel on TPS change 
 
 [Engine Load Acceleration Enrichment Taper](rusEFI-project-Fuel#engine-load-acceleration-enrichment-taper)  
-Configurable table of Engine load based enrichment taper
+(&#x1F536;): Configurable table of Engine load based enrichment taper
 
 # [Ignition](rusEFI-project-Ignition)
 
@@ -120,10 +125,10 @@ Configurable table of Engine load based enrichment taper
 (&#x1F49A;): RPM based ignition coil dwell  
 
 [Ignition Cylinder Extra Timing](rusEFI-project-Ignition#ignition-cylinder-extra-timing)  
-Individual cylinder additional ignition trim  
+(&#x1F536;): Individual cylinder additional ignition trim  
 
 [Ignition Table](rusEFI-project-Ignition#ignition-table)  
-16x16 ignition table with 0.01 degree resolution  
+(&#x1F536;): 16x16 ignition table with 0.01 degree resolution  
 
 [Warmup timing correction](rusEFI-project-Ignition#warmup-timing-correction)  
 Warmup ignition timing correction  
