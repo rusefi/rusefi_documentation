@@ -159,7 +159,7 @@ TPS thresholds
 
 # [Cranking](rusEFI-project-Cranking)
 
-[Cranking Settings](rusEFI-project-Cranking#cranking-settings)  [**285**](https://github.com/rusefi/rusefi/issues/285)  
+[Cranking Settings](rusEFI-project-Cranking#cranking-settings)  [**285**](https://github.com/rusefi/rusefi/issues/285)  [**314**](https://github.com/rusefi/rusefi/issues/314)  
 (&#x1F49A;): Configurable cranking speed limit  
 (&#x1F49A;): Flood clear  
 (&#x1F49A;): Faster engine start mode (a smarter cranking logic)  
@@ -483,7 +483,7 @@ Aux serial pin config
 (&#x1F536;): MAP averaging logic  
 
 [Multispark](rusEFI-project-Controller#multispark)  
-(&#x1F536;): Enable/disable multi spark  
+(&#x1F536;): Enable/disable multi spark  [**327**](https://github.com/rusefi/rusefi/issues/327)  
 (&#x1F536;): Multi spark config  
 
 [GDI Dreams](rusEFI-project-Controller#gdi-dreams)  
@@ -533,13 +533,13 @@ The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/L
 (&#x1F534;): Per cylinder fuel trim [**342**](https://github.com/rusefi/rusefi/issues/342)  
 (&#x1F534;): Fuel consumption [**45**](https://github.com/rusefi/rusefi/issues/45)  
 (&#x1F534;): Per injector performance correction [**95**](https://github.com/rusefi/rusefi/issues/95)  
-(&#x1F534;): Instant crank speed [**135**](https://github.com/rusefi/rusefi/issues/135)  
+(&#x1F534;): Instant crank speed [**135**](https://github.com/rusefi/rusefi/issues/135)  [**343**](https://github.com/rusefi/rusefi/issues/343)  [*329**](https://github.com/rusefi/rusefi/issues/329)  
 (&#x1F534;): Configurable hard cut RPM limit [**192**](https://github.com/rusefi/rusefi/issues/192)  
 (&#x1F534;): Idle switch style TPS support [**209**](https://github.com/rusefi/rusefi/issues/209)  
 (&#x1F534;): On ECU autotune [**247**](https://github.com/rusefi/rusefi/issues/247)  
 (&#x1F534;): Dual fuel maps [**289**](https://github.com/rusefi/rusefi/issues/289)  
 (&#x1F534;): Built in Timing Light [**297**](https://github.com/rusefi/rusefi/issues/297)  
-(&#x1F534;): 
+(&#x1F534;): Fan control RPM limit [**310**](https://github.com/rusefi/rusefi/issues/310)  
 (&#x1F534;):
 (&#x1F534;):
 (&#x1F534;):
