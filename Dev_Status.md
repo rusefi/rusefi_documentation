@@ -19,13 +19,13 @@ Colour code meanings:-
 (&#x1F49A;): Boost Limit  
 
 [Trigger](rusEFI-project-Base-Engine#trigger)  
-(&#x1F49A;): Trigger Patterns
+(&#x1F49A;): Trigger Patterns  
 (&#x1F49A;): VR and Hall support  
 (&#x1F534;): VVT support
 
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
 (&#x1F49A;): Vbatt display and logging  
-(&#x1F536;): Alternator Control
+(&#x1F536;): Alternator Control  
 (&#x1F536;): Button engine start
 
 [Main relay output](rusEFI-project-Base-Engine#main-relay-output)  
@@ -131,7 +131,7 @@ TPS thresholds
 (&#x1F536;): 16x16 ignition table with 0.01 degree resolution  
 
 [Warmup timing correction](rusEFI-project-Ignition#warmup-timing-correction)  
-Warmup ignition timing correction  
+(&#x1F536;): Warmup ignition timing correction  
 
 [Ignition Intake Air Temp correction](rusEFI-project-Ignition#ignition-intake-air-temp-correction)  
 (&#x1F49A;): 16x16 Intake air temperature ignition correction 
@@ -167,30 +167,30 @@ Afterstart enrichment
 # [Idle](rusEFI-project-Idle)
 
 [Idle settings](rusEFI-project-Idle#idle-settings)   
-Open or closed loop idle  
+(&#x1F536;): Open or closed loop idle  
 Instant RPM measurement for smoother idle  
-ETB for idle control  
+(&#x1F536;): ETB for idle control  
 (&#x1F49A;): Enable/disable idle ignition table  
 (&#x1F49A;): Enable/disable idle fuel table  
 (&#x1F49A;): Enable/disable IAC table for overrun  
 (&#x1F49A;): Idle TPS threshold  
-Extra IAC demand above x% throttle at idle  
+(&#x1F536;): Extra IAC demand above x% throttle at idle  
 (&#x1F49A;): Manual IAC position (open loop)  
-Idle PID controller  
+(&#x1F536;): Idle PID controller  
 
 [Idle hardware](rusEFI-project-Idle#idle-hardware)  
-Stepper Idle  
+(&#x1F536;): Stepper Idle  
 (&#x1F49A;): Dual solenoid IAC (Bosch 3 wire)
 (&#x1F49A;): Configurable IAC pins  
 (&#x1F49A;): Configurable IAC PWM frequency  
-Stepper configuration  
-H-bridge configuration  
+(&#x1F536;): Stepper configuration  
+(&#x1F536;): H-bridge configuration  
 
 [Idle Target RPM](rusEFI-project-Idle#idle-target-rpm)  
-Coolant temperature based idle speed  
+(&#x1F536;): Coolant temperature based idle speed  
 
 [Closed-loop idle timing](rusEFI-project-Idle#closed-loop-idle-timing)  
-Closed loop ignition timing based idle speed control  
+(&#x1F536;): Closed loop ignition timing based idle speed control  
 
 [Warmup Idle multiplier](rusEFI-project-Idle#warmup-idle-multiplier)  
 (&#x1F49A;): Warmup idle fuel multiplier  
@@ -206,30 +206,30 @@ Configurable PWM frequency
 8x8 boost target table  
 
 [General Purpose PWM](rusEFI-project-Advanced#general-purpose-pwm-1)  
-Configurable GP PWM output pin  
-8x8 target table  
-Configurable thresholds  
+(&#x1F536;): Configurable GP PWM output pin  
+(&#x1F536;): 8x8 target table  
+(&#x1F536;): Configurable thresholds  
 
 [FSIO inputs](rusEFI-project-Advanced#fsio-inputs)  
-4 Selectable FSIO inputs 
+(&#x1F536;): 4 Selectable FSIO inputs 
 
 [Aux PID](rusEFI-project-Advanced#aux-pid)  
-Enable/disable Auxiliary PID  
-Configurable FSIO pins  
-Configurable PID PWM frequency  
-Configurable PID settings  
+(&#x1F536;): Enable/disable Auxiliary PID  
+(&#x1F536;): Configurable FSIO pins  
+(&#x1F536;): Configurable PID PWM frequency  
+(&#x1F536;): Configurable PID settings  
 
 [FSIO outputs](rusEFI-project-Advanced#fsio-outputs)  
-Massively configurable FSIO outputs  
+(&#x1F536;): Massively configurable FSIO outputs  
 
 [FSIO Table](rusEFI-project-Advanced#fsio-table-#1)  
-4x FSIO target tables 
+(&#x1F536;): 4x FSIO target tables 
 
 [FSIO Formulas](rusEFI-project-Advanced#fsio-formulas)  
-Pre-configured FSIO formulas  
+(&#x1F536;): Pre-configured FSIO formulas  
 
 [FSIO Curve](rusEFI-project-Advanced#fsio-curve-#1)  
-4x FSIO target curves  
+(&#x1F536;): 4x FSIO target curves  
 
 # [Sensors](rusEFI-project-Sensors)
 
@@ -239,27 +239,27 @@ Pre-configured FSIO formulas
 
 [Other Sensor Inputs](rusEFI-project-Sensors#other-sensor-inputs)  
 Fuel level input  
-Clutch position Switch  
-Throttle up switch  
-Brake pedal pressure  
-A/C active input  
+(&#x1F536;): Clutch position Switch  
+(&#x1F536;): Throttle up switch  
+(&#x1F536;): Brake pedal pressure  
+(&#x1F536;): A/C active input  
 
 [Analog Input Settings](rusEFI-project-Sensors#analog-input-settings)  
 Fixed Barro correction from MAP on startup  
 (&#x1F49A;): Analogue sensor input divider ratio correction  
-Adjustable sensor smoothing factor
+(&#x1F536;): Adjustable sensor smoothing factor
 
 [CLT sensor](rusEFI-project-Sensors#clt-sensor)  
 (&#x1F49A;): Enable/Disable Coolant temperature sensor  
 (&#x1F49A;): Configurable sensor bias resistor  
 (&#x1F49A;): 3 point curve configuration using correct Steinhart–Hart math  
-Linear CLT sensor option  
+(&#x1F536;): Linear CLT sensor option  
 
 [IAT sensor](rusEFI-project-Sensors#iat-sensor)  
 (&#x1F49A;): Enable/Disable Air temperature sensor  
 (&#x1F49A;): Configurable sensor bias resistor  
 (&#x1F49A;): 3 point curve configuration using correct Steinhart–Hart math  
-Linear IAT sensor option  
+(&#x1F536;): Linear IAT sensor option  
 
 [aux Thermistor Settings](rusEFI-project-Sensors#aux1-thermistor-settings)  
 (&#x1F49A;): 2x auxillary sensor input channels  
@@ -276,12 +276,12 @@ Linear IAT sensor option
 (&#x1F49A;): Configurable linear voltage slope for redundant sensor  
 
 [MAP sensor](rusEFI-project-Sensors#map-sensor)  
-Frequency based MAP support  
+(&#x1F536;): Frequency based MAP support  
 (&#x1F49A;): Configurable high and low pressures  
 (&#x1F49A;): Single cylinder MAP sampling mode  
 (&#x1F49A;): Configurable number of minimum MAP samples  
 (&#x1F49A;): Configurable MAP input pin  
-Preset MAP configs  
+(&#x1F536;): Preset MAP configs  
 (&#x1F49A;): 2 point MAP sensor calibration  
 
 [MAP sampling](rusEFI-project-Sensors#map-sampling)  
@@ -289,8 +289,8 @@ Preset MAP configs
 (&#x1F49A;): Table to configure the sample length in degrees  
 
 [Baro sensor](rusEFI-project-Sensors#baro-sensor)  
-Configurable barro sensor pin  
-2 point barro sensor calibration  
+(&#x1F536;): Configurable barro sensor pin  
+(&#x1F536;): 2 point barro sensor calibration  
 
 [MAF sensor](rusEFI-project-Sensors#maf-sensor)  
 (&#x1F49A;): 512 cell MAF transfer function  
@@ -299,7 +299,7 @@ Configurable barro sensor pin
 (&#x1F49A;): CAN communication for AEM X-type wideband sensors  
 (&#x1F49A;): Serial communication for Innovate wideband sensors  
 (&#x1F49A;): Configurable analogue input channel  
-Configurable heater output channel  
+(&#x1F536;): Configurable heater output channel  
 (&#x1F49A;): Wideband sensor presets  
 (&#x1F49A;): 2 point wideband sensor calibration  
 (&#x1F49A;): Calibration drift correction value  
@@ -316,13 +316,13 @@ SPI settings
 
 [Speed sensor](rusEFI-project-Sensors#speed-sensor)  
 (&#x1F49A;): Vehicle speed sensor configuration  
-CANBUS vehicle speed option  
-VSS input pin select  
-VSS calibration coefficient  
+(&#x1F536;): CANBUS vehicle speed option  
+(&#x1F536;): VSS input pin select  
+(&#x1F536;): VSS calibration coefficient  
 
 [Oil pressure](rusEFI-project-Sensors#oil-pressure)  
-Configurable oil pressure input pin  
-2 point oil pressure sensor calibration  
+(&#x1F536;): Configurable oil pressure input pin  
+(&#x1F536;): 2 point oil pressure sensor calibration  
 
 [EGT inputs](rusEFI-project-Sensors#egt-inputs)  
 SPI select for EGT via SPI  
