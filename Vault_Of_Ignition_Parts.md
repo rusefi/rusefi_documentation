@@ -11,8 +11,17 @@
 ### Dumb coils
 * BMW M50 coils - Tested and working with VW ignition module
 
+* OEM B-series Honda Single coil for distributor used with the OEM ignition module, 3-4ms dwell
+
 ---
 
 ## Ignition Modules
 * VW 1.8t 4 cylinder module - PN 4D0905351  
 Tested and working with BMW Coils, uses a pair of ampseal plugs (easily available on ebay). Wiring layout available on the forum. 
+
+* OEM B-series Honda ignition module. Pull low to charge, release to fire. 3-4ms dwell, internally pulled up to 12v
+
+---
+
+* Template for new parts - Part number  
+Comments go here, Comments go here, Comments go here, Comments go here.
