@@ -4,9 +4,9 @@ The layout here is based on the rusEFI project layout as of 2020/05/31
 Links to the overall rusEFI project pages have been retained for ease of quick access to the relevant TS view. 
 
 Colour code meanings:-  
-(&#x1F49A;): Working, tested and no ongoing work - OK to use  
-(&#x1F536;): Believed working, may have bugs or has ongoing work - Use at own risk  
-(&#x1F534;): Not working or potential of damage from testing  - Do not use 
+(&#x1F49A;): **OK to use** - Working, tested and no ongoing work  
+(&#x1F536;): **Use at own risk** - Believed working, may have bugs or has ongoing work  
+(&#x1F534;): **Do not use** - Not working or potential of damage from testing  
 
 # [Base Engine](rusEFI-project-Base-Engine)
 
@@ -147,12 +147,12 @@ TPS thresholds
 (&#x1F49A;): Cranking fuel injection mode selection (Simultaneous, batch or sequential)  
 (&#x1F536;): Selectable pulse width source (VE table or fixed pulse)  
 (&#x1F49A;): Configurable cranking ignition timing (fixed or table based)  
-(&#x1F49A;): Enable/disable ignition corrections
+(&#x1F49A;): Enable/disable ignition corrections  
 (&#x1F49A;): Enable/disable fixed coil dwell  
-(&#x1F49A;): Configurable IAC position
+(&#x1F49A;): Configurable IAC position  
 (&#x1F49A;): Configurable IAC taper after cranking  
 (&#x1F49A;): Enable/disable IAC multipliers during cranking  
-Afterstart enrichment  
+(&#x1F534;): Afterstart enrichment  
  
 [Cranking Coolant Temperature Multiplier](rusEFI-project-Cranking#cranking-coolant-temperature-multiplier)  
 (&#x1F49A;): Cranking fuel coolant multiplier  
@@ -168,7 +168,7 @@ Afterstart enrichment
 
 [Idle settings](rusEFI-project-Idle#idle-settings)   
 (&#x1F536;): Open or closed loop idle  
-Instant RPM measurement for smoother idle  
+(&#x1F534;): Instant RPM measurement for smoother idle  
 (&#x1F536;): ETB for idle control  
 (&#x1F49A;): Enable/disable idle ignition table  
 (&#x1F49A;): Enable/disable idle fuel table  
@@ -199,11 +199,11 @@ Instant RPM measurement for smoother idle
 # [Advanced](rusEFI-project-Advanced)
 
 [Boost Control](rusEFI-project-Advanced#boost-control)  
-Boost control enable/disable  
-Open and closed loop boost control  
-Configurable output pin 
-Configurable PWM frequency  
-8x8 boost target table  
+(&#x1F534;): Boost control enable/disable  
+(&#x1F534;): Open and closed loop boost control  
+(&#x1F534;): Configurable output pin 
+(&#x1F534;): Configurable PWM frequency  
+(&#x1F534;): 8x8 boost target table  
 
 [General Purpose PWM](rusEFI-project-Advanced#general-purpose-pwm-1)  
 (&#x1F536;): Configurable GP PWM output pin  
@@ -238,14 +238,14 @@ Configurable PWM frequency
 (&#x1F49A;): Option to invert the inputs  
 
 [Other Sensor Inputs](rusEFI-project-Sensors#other-sensor-inputs)  
-Fuel level input  
+(&#x1F534;): Fuel level input  
 (&#x1F536;): Clutch position Switch  
 (&#x1F536;): Throttle up switch  
 (&#x1F536;): Brake pedal pressure  
 (&#x1F536;): A/C active input  
 
 [Analog Input Settings](rusEFI-project-Sensors#analog-input-settings)  
-Fixed Barro correction from MAP on startup  
+(&#x1F534;): Fixed Barro correction from MAP on startup  
 (&#x1F49A;): Analogue sensor input divider ratio correction  
 (&#x1F536;): Adjustable sensor smoothing factor
 
@@ -305,14 +305,14 @@ Fixed Barro correction from MAP on startup
 (&#x1F49A;): Calibration drift correction value  
 
 [Narrow to Wideband approximation](rusEFI-project-Sensors#narrow-to-wideband-approximation)  
-Narrow to wideband approximation table  
+(&#x1F534;): Narrow to wideband approximation table  
 
 [CJ125 Settings (wbo decoder)](rusEFI-project-Sensors#cj125-settings-(wbo-decoder))  
-CJ125 (Bosch wide band controller) enable/disable  
-LSU4.9 sensor select  
-CJ125 chip select pin  
-CJ125 chip select mode  
-SPI settings  
+(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  
+(&#x1F534;): LSU4.9 sensor select  
+(&#x1F534;): CJ125 chip select pin  
+(&#x1F534;): CJ125 chip select mode  
+(&#x1F534;): SPI settings  
 
 [Speed sensor](rusEFI-project-Sensors#speed-sensor)  
 (&#x1F49A;): Vehicle speed sensor configuration  
@@ -325,8 +325,8 @@ SPI settings
 (&#x1F536;): 2 point oil pressure sensor calibration  
 
 [EGT inputs](rusEFI-project-Sensors#egt-inputs)  
-SPI select for EGT via SPI  
-8x EGT inputs  
+(&#x1F534;): SPI select for EGT via SPI  
+(&#x1F534;): 8x EGT inputs  
 
 # [Controller](rusEFI-project-Controller)
 
@@ -357,13 +357,13 @@ Engine chart size
 (&#x1F49A;): Reset to DFU test  
 
 [Popular vehicles](rusEFI-project-Controller#popular-vehicles)  
-Popular setting presets  
-Miata NA6 0  
-Miata NA6 1  
-Miata NB2 MAP  
-ETB bench test  
-TLE8888 bench test  
-Reset firmware to default  
+(&#x1F536;): Popular setting presets  
+(&#x1F536;): Miata NA6 0  
+(&#x1F536;): Miata NA6 1  
+(&#x1F536;): Miata NB2 MAP  
+(&#x1F536;): ETB bench test  
+(&#x1F536;): TLE8888 bench test  
+(&#x1F49A;): Reset firmware to default  
 
 [LCD screen](rusEFI-project-Controller#lcd-screen)  
 (&#x1F49A;): LCD screen output configuration  
@@ -372,7 +372,7 @@ Reset firmware to default
 (&#x1F49A;): Discovery brain board joystick configuration  
 
 [SPI settings](rusEFI-project-Controller#spi-settings)  
-SPI communication configuration  
+(&#x1F536;): SPI communication configuration  
 
 [rusEfi Console Settings](rusEFI-project-Controller#rusefi-console-settings)  
 (&#x1F49A;): rusEFI console configuration  
@@ -382,8 +382,8 @@ SPI communication configuration
 (&#x1F49A;): TunerStudio communication configuration  
 (&#x1F49A;): CANBUS communication configuration  
 (&#x1F49A;): Aux serial communication configuration  
-SD card logging configuration  
-GPS module communication configuration  
+(&#x1F536;): SD card logging configuration  
+(&#x1F534;): GPS module communication configuration  
 
 [TLE8888](rusEFI-project-Controller#tle8888)  
 (&#x1F49A;): TLE8888 configuration  
@@ -452,43 +452,43 @@ TLE8888 pin config
 Aux serial pin config  
 
 [Experimental/Broken](rusEFI-project-Controller#experimental/broken)  
-Global fuel correction coefficient  
-Ignition math logic  
-MAP averaging logic  
+(&#x1F534;): Global fuel correction coefficient  
+(&#x1F534;): Ignition math logic  
+(&#x1F536;): MAP averaging logic  
 
 [Multispark](rusEFI-project-Controller#multispark)  
-Enable/disable multi spark  
-Multi spark config  
+(&#x1F536;): Enable/disable multi spark  
+(&#x1F536;): Multi spark config  
 
 [GDI Dreams](rusEFI-project-Controller#gdi-dreams)  
-MC33816_cs GDI config  
+(&#x1F534;): MC33816_cs GDI config  
 
 [HIP9011 Settings (knock decoder)](rusEFI-project-Controller#hip9011-settings-(knock-decoder))  
-HIP9011 Knock control enable/disable 
-Knock control settings  
+(&#x1F536;): HIP9011 Knock control enable/disable  
+(&#x1F534;): Knock control settings  
 
 [Electronic Throttle Body (beta)](rusEFI-project-Controller#electronic-throttle-body-(beta))  
-Enable ETB status in console  
-Disable ETB drive motor  
-H-bridge configuration  
-ETB idle settings  
-ETB PID settings   
-ETB autotune  
-TPS auto calibrate  
+(&#x1F536;): Enable ETB status in console  
+(&#x1F536;): Disable ETB drive motor  
+(&#x1F536;): H-bridge configuration  
+(&#x1F536;): ETB idle settings  
+(&#x1F536;): ETB PID settings   
+(&#x1F536;): ETB autotune  
+(&#x1F536;): TPS auto calibrate  
 
 [Electronic TB Bias Curve](rusEFI-project-Controller#electronic-tb-bias-curve)  
-ETB feed forward curve  
+(&#x1F536;): ETB feed forward curve  
 
 [ETB Pedal to TPS](rusEFI-project-Controller#etb-pedal-to-tps)  
-8x8 ETB pedal transfer map  
+(&#x1F536;): 8x8 ETB pedal transfer map  
 
 [Launch Control Settings NOT WORKING](rusEFI-project-Controller#launch-control-settings-not-working)  
-Launch control 
+(&#x1F534;): Launch control 
 
 [Rolling Launch Settings NOT WORKING](rusEFI-project-Controller#rolling-launch-settings-not-working)  
-Rolling launch 
+(&#x1F534;): Rolling launch 
 
 [AntiLag Settings NOT WORKING](rusEFI-project-Controller#antilag-settings-not-working)  
-Anti lag  
+(&#x1F534;): Anti lag  
 
 generated by class com.rusefi.MdGenerator on Fri May 01 15:24:28 EDT 2020
