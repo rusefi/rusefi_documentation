@@ -257,47 +257,47 @@ Linear CLT sensor option
 Linear IAT sensor option  
 
 [aux Thermistor Settings](rusEFI-project-Sensors#aux1-thermistor-settings)  
-2x auxillary sensor input channels  
-Configurable sensor bias resistor  
-3 point curve configuration using correct Steinhart–Hart math  
+(&#x1F49A;): 2x auxillary sensor input channels  
+(&#x1F49A;): Configurable sensor bias resistor  
+(&#x1F49A;): 3 point curve configuration using correct Steinhart–Hart math  
 
 [TPS](rusEFI-project-Sensors#tps)  
-2x Configurable TPS input pin  
-User adjustable TPS max and min values  
-Configurable high and low TPS threshold  
+(&#x1F49A;): 2x Configurable TPS input pin  
+(&#x1F49A;): User adjustable TPS max and min values  
+(&#x1F49A;): Configurable high and low TPS threshold  
 
 [Accelerator pedal](rusEFI-project-Sensors#accelerator-pedal)  
-2x Configurable Pedal input pin  
-Configurable linear voltage slope for redundant sensor  
+(&#x1F49A;): 2x Configurable Pedal input pin  
+(&#x1F49A;): Configurable linear voltage slope for redundant sensor  
 
 [MAP sensor](rusEFI-project-Sensors#map-sensor)  
 Frequency based MAP support  
-Configurable high and low pressures  
-Single cylinder MAP sampling mode  
-Configurable number of minimum MAP samples  
-Configurable MAP input pin  
+(&#x1F49A;): Configurable high and low pressures  
+(&#x1F49A;): Single cylinder MAP sampling mode  
+(&#x1F49A;): Configurable number of minimum MAP samples  
+(&#x1F49A;): Configurable MAP input pin  
 Preset MAP configs  
-2 point MAP sensor calibration  
+(&#x1F49A;): 2 point MAP sensor calibration  
 
 [MAP sampling](rusEFI-project-Sensors#map-sampling)  
-Table to configure MAP sampling angle  
-Table to configure the sample length in degrees  
+(&#x1F49A;): Table to configure MAP sampling angle  
+(&#x1F49A;): Table to configure the sample length in degrees  
 
 [Baro sensor](rusEFI-project-Sensors#baro-sensor)  
 Configurable barro sensor pin  
 2 point barro sensor calibration  
 
 [MAF sensor](rusEFI-project-Sensors#maf-sensor)  
-512 cell MAF transfer function  
+(&#x1F49A;): 512 cell MAF transfer function  
 
 [EGO sensor](rusEFI-project-Sensors#ego-sensor)  
-CAN communication for AEM X-type wideband sensors  
-Serial communication for Innovate wideband sensors  
-Configurable analogue input channel  
+(&#x1F49A;): CAN communication for AEM X-type wideband sensors  
+(&#x1F49A;): Serial communication for Innovate wideband sensors  
+(&#x1F49A;): Configurable analogue input channel  
 Configurable heater output channel  
-Wideband sensor presets  
-2 point wideband sensor calibration  
-Calibration drift correction value  
+(&#x1F49A;): Wideband sensor presets  
+(&#x1F49A;): 2 point wideband sensor calibration  
+(&#x1F49A;): Calibration drift correction value  
 
 [Narrow to Wideband approximation](rusEFI-project-Sensors#narrow-to-wideband-approximation)  
 Narrow to wideband approximation table  
@@ -310,7 +310,7 @@ CJ125 chip select mode
 SPI settings  
 
 [Speed sensor](rusEFI-project-Sensors#speed-sensor)  
-Vehicle speed sensor configuration  
+(&#x1F49A;): Vehicle speed sensor configuration  
 CANBUS vehicle speed option  
 VSS input pin select  
 VSS calibration coefficient  
@@ -326,30 +326,30 @@ SPI select for EGT via SPI
 # [Controller](rusEFI-project-Controller)
 
 [ECU stimulator](rusEFI-project-Controller#ecu-stimulator)  
-Self stimulation RPM setting  
-Enable switch for internal MCU self trigger stimulation  
+(&#x1F49A;): Self stimulation RPM setting  
+(&#x1F49A;): Enable switch for internal MCU self trigger stimulation  
 Digipot SPI input stimulation settings  
 3 trigger simulation output pin configurations  
 4 configurable logic input channels  
 Engine chart size  
 
 [Datalogging Settings](rusEFI-project-Controller#datalogging-settings)  
-Debug logging enable setting  
-Error logging enable setting  
+(&#x1F49A;): Debug logging enable setting  
+(&#x1F49A;): Error logging enable setting  
 
 [Bench Test & Commands](rusEFI-project-Controller#bench-test-&-commands)  
-8 coil spark bench test  
-8 injector bench test  
-Fuel pump bench test  
-Radiator fan bench test  
-Check engine light bench test  
-IAC bench test  
-A/C relay bench test  
-Starter relay bench test  
-Stop engine bench test  
-Write config bench test  
-Reset ECU test  
-Reset to DFU test  
+(&#x1F49A;): 8 coil spark bench test  
+(&#x1F49A;): 8 injector bench test  
+(&#x1F49A;): Fuel pump bench test  
+(&#x1F49A;): Radiator fan bench test  
+(&#x1F49A;): Check engine light bench test  
+(&#x1F49A;): IAC bench test  
+(&#x1F49A;): A/C relay bench test  
+(&#x1F49A;): Starter relay bench test  
+(&#x1F49A;): Stop engine bench test  
+(&#x1F49A;): Write config bench test  
+(&#x1F49A;): Reset ECU test  
+(&#x1F49A;): Reset to DFU test  
 
 [Popular vehicles](rusEFI-project-Controller#popular-vehicles)  
 Popular setting presets  
@@ -361,29 +361,29 @@ TLE8888 bench test
 Reset firmware to default  
 
 [LCD screen](rusEFI-project-Controller#lcd-screen)  
-LCD screen output configuration  
+(&#x1F49A;): LCD screen output configuration  
 
 [Joystick](rusEFI-project-Controller#joystick)  
-Discovery brain board joystick configuration  
+(&#x1F49A;): Discovery brain board joystick configuration  
 
 [SPI settings](rusEFI-project-Controller#spi-settings)  
 SPI communication configuration  
 
 [rusEfi Console Settings](rusEFI-project-Controller#rusefi-console-settings)  
-rusEFI console configuration  
+(&#x1F49A;): rusEFI console configuration  
 
 [Connection](rusEFI-project-Controller#connection)  
-ADC Vref configuration  
-TunerStudio communication configuration  
-CANBUS communication configuration  
-Aux serial communication configuration  
+(&#x1F49A;): ADC Vref configuration  
+(&#x1F49A;): TunerStudio communication configuration  
+(&#x1F49A;): CANBUS communication configuration  
+(&#x1F49A;): Aux serial communication configuration  
 SD card logging configuration  
 GPS module communication configuration  
 
 [TLE8888](rusEFI-project-Controller#tle8888)  
-TLE8888 configuration  
+(&#x1F49A;): TLE8888 configuration  
 
-[All Pins 1/3](rusEFI-project-Controller#all-pins-1/3)  
+[All Pins 1/3](rusEFI-project-Controller#all-pins-1/3)  - Not marking these as they are duplicates
 Trigger stimulation pin config  
 High pressure fuel rail pin config  
 Warning LED pin config  
@@ -412,7 +412,7 @@ Saab CDM Knock pin config
 Comm status light pin config  
 Running status light pin config  
 
-[All Pins 2/3](rusEFI-project-Controller#all-pins-2/3)  
+[All Pins 2/3](rusEFI-project-Controller#all-pins-2/3)  - Not marking these as they are duplicates
 Injection pin config  
 FSIO digi input pin config  
 Ignition pin config  
@@ -421,7 +421,7 @@ LCD pin config
 Debug trigger sync pin config  
 MC33816 pin config  
 
-[All Pins 3/3](rusEFI-project-Controller#all-pins-3/3)  
+[All Pins 3/3](rusEFI-project-Controller#all-pins-3/3)  - Not marking these as they are duplicates
 Throttle pedal position pin config  
 Crank/primary input pin config  
 Cam/Secondary input pin config  
