@@ -11,52 +11,52 @@ Links to the overall rusEFI project pages have been retained for ease of quick a
 (&#x1F536;): MAF fuel strategy  
 (&#x1F49A;): Firing orders  
 (&#x1F49A;): RPM limit  
-(&#x1F534;): Boost Limit  
+(&#x1F49A;): Boost Limit  
 
 [Trigger](rusEFI-project-Base-Engine#trigger)  
-Trigger Patterns
-VR and Hall support  
+(&#x1F49A;): Trigger Patterns
+(&#x1F49A;): VR and Hall support  
 (&#x1F534;): VVT support
 
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
-Vbatt display and logging  
+(&#x1F49A;): Vbatt display and logging  
 (&#x1F536;): Alternator Control
 Button engine start
 
 [Main relay output](rusEFI-project-Base-Engine#main-relay-output)  
-Main Relay control
+(&#x1F49A;): Main Relay control
 
 [Starter relay output](rusEFI-project-Base-Engine#starter-relay-output)  
-Starter Relay control
+(&#x1F49A;): Starter Relay control
 
 [Fuel pump  rail](rusEFI-project-Base-Engine#fuel-pump--rail)  
 Fuel Pump control  
-Fuel Priming pulse  
+(&#x1F49A;): Fuel Priming pulse  
 (&#x1F536;): Fuel Rail pressure control (Absolute and MAP referenced)   
 
 [Fan Settings](rusEFI-project-Base-Engine#fan-settings)  
 Cooling fan control  
 
 [Tachometer output](rusEFI-project-Base-Engine#tachometer-output)  
-Tachometer (Rev counter) output with configurable pulses per revolution  
+(&#x1F49A;): Tachometer (Rev counter) output with configurable pulses per revolution  
 
 [Check Engine Settings](rusEFI-project-Base-Engine#check-engine-settings)  
 (&#x1F536;): Check engine light (MIL) light  
 
 [Status LEDs](rusEFI-project-Base-Engine#status-leds)  
-Status LED for diagnostic
+(&#x1F49A;): Status LED for diagnostic
 
 
 # [Fuel](rusEFI-project-Fuel)
 
 [Injection settings](rusEFI-project-Fuel#injection-settings)  
-Ability to enable/disable injection  
-Batch fuel mode  
-Two wire batch emulation  
-Sequential fuel mode  
-Simultaneous fuel mode  
+(&#x1F49A;): Ability to enable/disable injection  
+(&#x1F49A;): Batch fuel mode  
+(&#x1F49A;): Two wire batch emulation  
+(&#x1F49A;): Sequential fuel mode  
+(&#x1F49A;): Simultaneous fuel mode  
 (&#x1F536;): Single point fuel mode
-Configurable Injector output pins
+(&#x1F49A;): Configurable Injector output pins
 
 [Injector dead time](rusEFI-project-Fuel#injector-dead-time)  
 Injection dead time (latency) compensation
@@ -82,10 +82,10 @@ TPS thresholds
 16x16 injection timing table for sequential or DI applications
 
 [Warmup fuel manual Multiplier](rusEFI-project-Fuel#warmup-fuel-manual-multiplier)  
-Warmup fuel compensation  
+(&#x1F49A;): Warmup fuel compensation  
 
 [Intake air temperature fuel Multiplier](rusEFI-project-Fuel#intake-air-temperature-fuel-multiplier)  
-Intake air temperature fuel compensation  
+(&#x1F49A;): Intake air temperature fuel compensation  
 
 [tCharge Settings](rusEFI-project-Fuel#tcharge-settings)  
 (&#x1F536;): tCharge fuel compensation with 2 modes  
@@ -107,17 +107,17 @@ Configurable table of Engine load based enrichment taper
 # [Ignition](rusEFI-project-Ignition)
 
 [Ignition settings](rusEFI-project-Ignition#ignition-settings)  
-Ignition enable/disable 
-Single coil mode  
-Wasted spark mode  
-Two Wire wasted spark emulation
-Coil per cylinder mode
+(&#x1F49A;): Ignition enable/disable  
+(&#x1F49A;): Single coil mode  
+(&#x1F49A;): Wasted spark mode  
+(&#x1F49A;): Two Wire wasted spark emulation  
+(&#x1F49A;): Coil per cylinder mode  
 (&#x1F536;): Dual distributor mode  
-Configurable ignition output pins  
-Distributor pulse output  
+(&#x1F49A;): Configurable ignition output pins  
+(&#x1F49A;): Distributor pulse output  
 
 [Dwell](rusEFI-project-Ignition#dwell)  
-RPM based ignition coil dwell  
+(&#x1F49A;): RPM based ignition coil dwell  
 
 [Ignition Cylinder Extra Timing](rusEFI-project-Ignition#ignition-cylinder-extra-timing)  
 Individual cylinder additional ignition trim  
@@ -129,34 +129,34 @@ Individual cylinder additional ignition trim
 Warmup ignition timing correction  
 
 [Ignition Intake Air Temp correction](rusEFI-project-Ignition#ignition-intake-air-temp-correction)  
-16x16 Intake air temperature ignition correction 
+(&#x1F49A;): 16x16 Intake air temperature ignition correction 
 
 
 # [Cranking](rusEFI-project-Cranking)
 
 [Cranking Settings](rusEFI-project-Cranking#cranking-settings)  
-Configurable cranking speed limit  
-Flood clear  
-Faster engine start mode (a smarter cranking logic)  
-Temperature configurable fuel priming pulse  
-Cranking fuel injection mode selection (Simultaneous, batch or sequential)  
+(&#x1F49A;): Configurable cranking speed limit  
+(&#x1F49A;): Flood clear  
+(&#x1F49A;): Faster engine start mode (a smarter cranking logic)  
+(&#x1F49A;): Temperature configurable fuel priming pulse  
+(&#x1F49A;): Cranking fuel injection mode selection (Simultaneous, batch or sequential)  
 (&#x1F536;): Selectable pulse width source (VE table or fixed pulse)  
-Configurable cranking ignition timing (fixed or table based)  
-Enable/disable ignition corrections
-Enable/disable fixed coil dwell  
-Configurable IAC position
-Configurable IAC taper after cranking  
-Enable/disable IAC multipliers during cranking  
+(&#x1F49A;): Configurable cranking ignition timing (fixed or table based)  
+(&#x1F49A;): Enable/disable ignition corrections
+(&#x1F49A;): Enable/disable fixed coil dwell  
+(&#x1F49A;): Configurable IAC position
+(&#x1F49A;): Configurable IAC taper after cranking  
+(&#x1F49A;): Enable/disable IAC multipliers during cranking  
 Afterstart enrichment  
  
 [Cranking Coolant Temperature Multiplier](rusEFI-project-Cranking#cranking-coolant-temperature-multiplier)  
-Cranking fuel coolant multiplier  
+(&#x1F49A;): Cranking fuel coolant multiplier  
 
 [Cranking Duration Multiplier](rusEFI-project-Cranking#cranking-duration-multiplier)   
-Cranking duration based fuel multiplier  
+(&#x1F49A;): Cranking duration based fuel multiplier  
 
 [Cranking TPS Multiplier](rusEFI-project-Cranking#cranking-tps-multiplier)  
-Cranking TPS based fuel multiplier  
+(&#x1F49A;): Cranking TPS based fuel multiplier  
 
 
 # [Idle](rusEFI-project-Idle)
@@ -165,19 +165,19 @@ Cranking TPS based fuel multiplier
 Open or closed loop idle  
 Instant RPM measurement for smoother idle  
 ETB for idle control  
-Enable/disable idle ignition table  
-Enable/disable idle fuel table  
-Enable/disable IAC table for overrun  
-Idle TPS threshold  
+(&#x1F49A;): Enable/disable idle ignition table  
+(&#x1F49A;): Enable/disable idle fuel table  
+(&#x1F49A;): Enable/disable IAC table for overrun  
+(&#x1F49A;): Idle TPS threshold  
 Extra IAC demand above x% throttle at idle  
-Manual IAC position (open loop)  
+(&#x1F49A;): Manual IAC position (open loop)  
 Idle PID controller  
 
 [Idle hardware](rusEFI-project-Idle#idle-hardware)  
 Stepper Idle  
-Dual solenoid IAC (Bosch 3 wire)
-Configurable IAC pins  
-Configurable IAC PWM frequency  
+(&#x1F49A;): Dual solenoid IAC (Bosch 3 wire)
+(&#x1F49A;): Configurable IAC pins  
+(&#x1F49A;): Configurable IAC PWM frequency  
 Stepper configuration  
 H-bridge configuration  
 
@@ -188,7 +188,7 @@ Coolant temperature based idle speed
 Closed loop ignition timing based idle speed control  
 
 [Warmup Idle multiplier](rusEFI-project-Idle#warmup-idle-multiplier)  
-Warmup idle fuel multiplier  
+(&#x1F49A;): Warmup idle fuel multiplier  
 
 
 # [Advanced](rusEFI-project-Advanced)
@@ -229,8 +229,8 @@ Pre-configured FSIO formulas
 # [Sensors](rusEFI-project-Sensors)
 
 [Trigger Inputs](rusEFI-project-Sensors#trigger-inputs)  
-Selectable cam and crank trigger inputs  
-Option to invert the inputs  
+(&#x1F49A;): Selectable cam and crank trigger inputs  
+(&#x1F49A;): Option to invert the inputs  
 
 [Other Sensor Inputs](rusEFI-project-Sensors#other-sensor-inputs)  
 Fuel level input  
@@ -241,20 +241,20 @@ A/C active input
 
 [Analog Input Settings](rusEFI-project-Sensors#analog-input-settings)  
 Fixed Barro correction from MAP on startup  
-Analogue sensor input divider ration correction 
+(&#x1F49A;): Analogue sensor input divider ratio correction  
 Adjustable sensor smoothing factor
 
 [CLT sensor](rusEFI-project-Sensors#clt-sensor)  
-Enable/Disable Coolant temperature sensor  
-Configurable sensor bias resistor  
-3 point curve configuration using correct Steinhart–Hart math  
-Linear sensor option  
+(&#x1F49A;): Enable/Disable Coolant temperature sensor  
+(&#x1F49A;): Configurable sensor bias resistor  
+(&#x1F49A;): 3 point curve configuration using correct Steinhart–Hart math  
+Linear CLT sensor option  
 
 [IAT sensor](rusEFI-project-Sensors#iat-sensor)  
-Enable/Disable Air temperature sensor  
-Configurable sensor bias resistor 
-3 point curve configuration using correct Steinhart–Hart math  
-Linear sensor option  
+(&#x1F49A;): Enable/Disable Air temperature sensor  
+(&#x1F49A;): Configurable sensor bias resistor  
+(&#x1F49A;): 3 point curve configuration using correct Steinhart–Hart math  
+Linear IAT sensor option  
 
 [aux Thermistor Settings](rusEFI-project-Sensors#aux1-thermistor-settings)  
 2x auxillary sensor input channels  
