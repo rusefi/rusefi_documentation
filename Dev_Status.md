@@ -26,9 +26,9 @@ Colour code meanings:-
 # [Base Engine](rusEFI-project-Base-Engine)
 
 [Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)  
-(&#x1F536;): AlphaN fuel strategy  -  
+(&#x1F536;): AlphaN fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299) [**1455**](https://github.com/rusefi/rusefi/issues/1455)  
 (&#x1F49A;): Speed Density fuel strategy  
-(&#x1F536;): MAF fuel strategy  
+(&#x1F536;): MAF fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299)  
 (&#x1F49A;): Firing orders  
 (&#x1F49A;): RPM limit  
 (&#x1F49A;): Boost Limit  
@@ -40,7 +40,7 @@ Colour code meanings:-
 
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
 (&#x1F49A;): Vbatt display and logging  
-(&#x1F536;): Alternator Control  
+(&#x1F536;): Alternator Control  [**262**](https://github.com/rusefi/rusefi/issues/262)  [**272**](https://github.com/rusefi/rusefi/issues/277)  
 (&#x1F536;): Button engine start
 
 [Main relay output](rusEFI-project-Base-Engine#main-relay-output)  
@@ -52,7 +52,7 @@ Colour code meanings:-
 [Fuel pump  rail](rusEFI-project-Base-Engine#fuel-pump--rail)  
 (&#x1F536;): Fuel Pump control  
 (&#x1F49A;): Fuel Priming pulse  
-(&#x1F536;): Fuel Rail pressure control (Absolute and MAP referenced)   
+(&#x1F536;): Fuel Rail pressure control (Absolute and MAP referenced)   [**954**](https://github.com/rusefi/rusefi/issues/954)  
 
 [Fan Settings](rusEFI-project-Base-Engine#fan-settings)  
 (&#x1F536;): Cooling fan control  
@@ -80,10 +80,10 @@ Colour code meanings:-
 (&#x1F49A;): Configurable Injector output pins
 
 [Injector dead time](rusEFI-project-Fuel#injector-dead-time)  
-(&#x1F536;): Injection dead time (latency) compensation
+(&#x1F536;): Injection dead time (latency) compensation [**275**](https://github.com/rusefi/rusefi/issues/275)  
 
 [Fuel short-term closed-loop correction](rusEFI-project-Fuel#fuel-short-term-closed-loop-correction)  
-(&#x1F536;): Short term fuel trim enable/disable
+(&#x1F536;): Short term fuel trim enable/disable [**384**](https://github.com/rusefi/rusefi/issues/384)  
 CLT thresholds  
 RPM thresholds  
 EGO thresholds  
@@ -97,10 +97,11 @@ MAP thresholds
 TPS thresholds  
 
 [Fuel Table](rusEFI-project-Fuel#fuel-table)  
-(&#x1F536;): 16x16 VE based Fuel Table with 0.01% resolution [868](https://github.com/rusefi/rusefi/issues/868)  
+(&#x1F536;): 16x16 VE based Fuel Table with 0.01% resolution [**868**](https://github.com/rusefi/rusefi/issues/868)  
+(&#x1F536;): 16x16 Fuel pulse width table [**1299**](https://github.com/rusefi/rusefi/issues/1299)  
 
 [Injection Phase](rusEFI-project-Fuel#injection-phase)  
-(&#x1F536;): 16x16 injection timing table for sequential or DI applications  [868](https://github.com/rusefi/rusefi/issues/868)  
+(&#x1F536;): 16x16 injection timing table for sequential or DI applications  [**868**](https://github.com/rusefi/rusefi/issues/868)  
 
 [Warmup fuel manual Multiplier](rusEFI-project-Fuel#warmup-fuel-manual-multiplier)  
 (&#x1F49A;): Warmup fuel compensation  
@@ -114,10 +115,10 @@ TPS thresholds
 (&#x1F536;): Air Interpolation Mode  
 
 [Accel/Decel Enrichment](rusEFI-project-Fuel#accel/decel-enrichment)  
-(&#x1F536;): Acceleration enrichment disable upon triggering RPM limit with configurable duration  
-(&#x1F536;): TPS based acceleration enrichment  
+(&#x1F536;): Acceleration enrichment disable upon triggering RPM limit with configurable duration  [**187**](https://github.com/rusefi/rusefi/issues/187)  
+(&#x1F536;): TPS based acceleration enrichment  [**320**](https://github.com/rusefi/rusefi/issues/320)  
 (&#x1F49A;): Wall Wetting based acceleration enrichment  
-(&#x1F536;): Engine Load based acceleration enrichment  
+(&#x1F536;): Engine Load based acceleration enrichment  [**321**](https://github.com/rusefi/rusefi/issues/321)  
 
 [TPS/TPS Acceleration Extra Fuel(ms)](rusEFI-project-Fuel#tps/tps-acceleration-extra-fuel(ms))  
 (&#x1F536;): Configurable table of extra injected fuel on TPS change 
@@ -146,7 +147,7 @@ TPS thresholds
 (&#x1F536;): Individual cylinder additional ignition trim  
 
 [Ignition Table](rusEFI-project-Ignition#ignition-table)  
-(&#x1F536;): 16x16 ignition table with 0.01 degree resolution [868](https://github.com/rusefi/rusefi/issues/868)  
+(&#x1F536;): 16x16 ignition table with 0.01 degree resolution [**868**](https://github.com/rusefi/rusefi/issues/868)  
 
 [Warmup timing correction](rusEFI-project-Ignition#warmup-timing-correction)  
 (&#x1F536;): Warmup ignition timing correction  
@@ -158,20 +159,20 @@ TPS thresholds
 
 # [Cranking](rusEFI-project-Cranking)
 
-[Cranking Settings](rusEFI-project-Cranking#cranking-settings)  
+[Cranking Settings](rusEFI-project-Cranking#cranking-settings)  [**285**](https://github.com/rusefi/rusefi/issues/285)  
 (&#x1F49A;): Configurable cranking speed limit  
 (&#x1F49A;): Flood clear  
 (&#x1F49A;): Faster engine start mode (a smarter cranking logic)  
 (&#x1F49A;): Temperature configurable fuel priming pulse  
 (&#x1F49A;): Cranking fuel injection mode selection (Simultaneous, batch or sequential)  
-(&#x1F536;): Selectable pulse width source (VE table or fixed pulse)  
+(&#x1F536;): Selectable pulse width source (VE table or fixed pulse)  [**870**](https://github.com/rusefi/rusefi/issues/870)  
 (&#x1F49A;): Configurable cranking ignition timing (fixed or table based)  
 (&#x1F49A;): Enable/disable ignition corrections  
 (&#x1F49A;): Enable/disable fixed coil dwell  
 (&#x1F49A;): Configurable IAC position  
 (&#x1F49A;): Configurable IAC taper after cranking  
 (&#x1F49A;): Enable/disable IAC multipliers during cranking  
-(&#x1F534;): Afterstart enrichment  
+(&#x1F534;): Afterstart enrichment  [**331**](https://github.com/rusefi/rusefi/issues/331)  
  
 [Cranking Coolant Temperature Multiplier](rusEFI-project-Cranking#cranking-coolant-temperature-multiplier)  
 (&#x1F49A;): Cranking fuel coolant multiplier  
@@ -187,7 +188,7 @@ TPS thresholds
 # [Idle](rusEFI-project-Idle)
 
 [Idle settings](rusEFI-project-Idle#idle-settings)   
-(&#x1F536;): Open or closed loop idle  
+(&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  
 (&#x1F534;): Instant RPM measurement for smoother idle  
 (&#x1F536;): ETB for idle control  
 (&#x1F49A;): Enable/disable idle ignition table  
@@ -241,16 +242,16 @@ TPS thresholds
 (&#x1F536;): Configurable PID settings  
 
 [FSIO outputs](rusEFI-project-Advanced#fsio-outputs)  
-(&#x1F536;): Massively configurable FSIO outputs  
+(&#x1F536;): Massively configurable FSIO outputs  [**111**](https://github.com/rusefi/rusefi/issues/111)  
 
 [FSIO Table](rusEFI-project-Advanced#fsio-table-#1)  
-(&#x1F536;): 4x FSIO target tables 
+(&#x1F536;): 4x FSIO target tables  [**111**](https://github.com/rusefi/rusefi/issues/111)  
 
 [FSIO Formulas](rusEFI-project-Advanced#fsio-formulas)  
-(&#x1F536;): Pre-configured FSIO formulas  
+(&#x1F536;): Pre-configured FSIO formulas  [**111**](https://github.com/rusefi/rusefi/issues/111)  
 
 [FSIO Curve](rusEFI-project-Advanced#fsio-curve-#1)  
-(&#x1F536;): 4x FSIO target curves  
+(&#x1F536;): 4x FSIO target curves  [**111**](https://github.com/rusefi/rusefi/issues/111)  
 
 ---
 
@@ -261,14 +262,14 @@ TPS thresholds
 (&#x1F49A;): Option to invert the inputs  
 
 [Other Sensor Inputs](rusEFI-project-Sensors#other-sensor-inputs)  
-(&#x1F534;): Fuel level input  
+(&#x1F534;): Fuel level input  [**219**](https://github.com/rusefi/rusefi/issues/219)  
 (&#x1F536;): Clutch position Switch  
 (&#x1F536;): Throttle up switch  
 (&#x1F536;): Brake pedal pressure  
 (&#x1F536;): A/C active input  
 
 [Analog Input Settings](rusEFI-project-Sensors#analog-input-settings)  
-(&#x1F534;): Fixed Barro correction from MAP on startup  
+(&#x1F536;): Fixed Baro correction from MAP on startup  [**201**](https://github.com/rusefi/rusefi/issues/201)  
 (&#x1F49A;): Analogue sensor input divider ratio correction  
 (&#x1F536;): Adjustable sensor smoothing factor
 
@@ -312,8 +313,8 @@ TPS thresholds
 (&#x1F49A;): Table to configure the sample length in degrees  
 
 [Baro sensor](rusEFI-project-Sensors#baro-sensor)  
-(&#x1F536;): Configurable barro sensor pin  
-(&#x1F536;): 2 point barro sensor calibration  
+(&#x1F536;): Configurable baro sensor pin  [**201**](https://github.com/rusefi/rusefi/issues/201)  
+(&#x1F536;): 2 point baro sensor calibration  [**201**](https://github.com/rusefi/rusefi/issues/201)  
 
 [MAF sensor](rusEFI-project-Sensors#maf-sensor)  
 (&#x1F49A;): 512 cell MAF transfer function  
@@ -331,11 +332,11 @@ TPS thresholds
 (&#x1F534;): Narrow to wideband approximation table  
 
 [CJ125 Settings (wbo decoder)](rusEFI-project-Sensors#cj125-settings-(wbo-decoder))  
-(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  
-(&#x1F534;): LSU4.9 sensor select  
-(&#x1F534;): CJ125 chip select pin  
-(&#x1F534;): CJ125 chip select mode  
-(&#x1F534;): SPI settings  
+(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
+(&#x1F534;): LSU4.9 sensor select  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
+(&#x1F534;): CJ125 chip select pin  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
+(&#x1F534;): CJ125 chip select mode  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
+(&#x1F534;): SPI settings  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 
 [Speed sensor](rusEFI-project-Sensors#speed-sensor)  
 (&#x1F49A;): Vehicle speed sensor configuration  
@@ -349,7 +350,7 @@ TPS thresholds
 
 [EGT inputs](rusEFI-project-Sensors#egt-inputs)  
 (&#x1F534;): SPI select for EGT via SPI  
-(&#x1F534;): 8x EGT inputs  
+(&#x1F534;): 8x EGT inputs  [**149**](https://github.com/rusefi/rusefi/issues/149)  
 
 ---
 
@@ -408,7 +409,7 @@ Engine chart size
 (&#x1F49A;): CANBUS communication configuration  
 (&#x1F49A;): Aux serial communication configuration  
 (&#x1F536;): SD card logging configuration  
-(&#x1F534;): GPS module communication configuration  
+(&#x1F534;): GPS module communication configuration  [**21**](https://github.com/rusefi/rusefi/issues/21)  
 
 [TLE8888](rusEFI-project-Controller#tle8888)  
 (&#x1F49A;): TLE8888 configuration  
@@ -489,8 +490,8 @@ Aux serial pin config
 (&#x1F534;): MC33816_cs GDI config  
 
 [HIP9011 Settings (knock decoder)](rusEFI-project-Controller#hip9011-settings-(knock-decoder))  
-(&#x1F536;): HIP9011 Knock control enable/disable  
-(&#x1F534;): Knock control settings  
+(&#x1F534;): HIP9011 Knock control enable/disable  [**35**](https://github.com/rusefi/rusefi/issues/35)  
+(&#x1F534;): Knock control settings  [**202**](https://github.com/rusefi/rusefi/issues/202)  
 
 [Electronic Throttle Body (beta)](rusEFI-project-Controller#electronic-throttle-body-(beta))  
 (&#x1F536;): Enable ETB status in console  
@@ -508,10 +509,10 @@ Aux serial pin config
 (&#x1F536;): 8x8 ETB pedal transfer map  
 
 [Launch Control Settings NOT WORKING](rusEFI-project-Controller#launch-control-settings-not-working)  
-(&#x1F534;): Launch control 
+(&#x1F534;): Launch control [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
 [Rolling Launch Settings NOT WORKING](rusEFI-project-Controller#rolling-launch-settings-not-working)  
-(&#x1F534;): Rolling launch 
+(&#x1F534;): Rolling launch [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
 [AntiLag Settings NOT WORKING](rusEFI-project-Controller#antilag-settings-not-working)  
 (&#x1F534;): Anti lag  
@@ -524,8 +525,26 @@ The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/L
 
 (&#x1F534;): GDI   
 (&#x1F534;): Infinite variable VVT  
-(&#x1F534;): Auto tune injector dead times  [492](https://github.com/rusefi/rusefi/issues/492)  
-(&#x1F534;): Trigger pattern auto detect  [418](https://github.com/rusefi/rusefi/issues/418)  
-(&#x1F534;): Flex fuel sensor  [540](https://github.com/rusefi/rusefi/issues/540)
-
-
+(&#x1F534;): Auto tune injector dead times  [**492**](https://github.com/rusefi/rusefi/issues/492)  
+(&#x1F534;): Trigger pattern auto detect  [**418**](https://github.com/rusefi/rusefi/issues/418)  
+(&#x1F534;): Flex fuel sensor  [**540**](https://github.com/rusefi/rusefi/issues/540)  
+(&#x1F534;): Multiple crank pattern sync [**679**](https://github.com/rusefi/rusefi/issues/679)  
+(&#x1F534;): Per cylinder fuel trim [**342**](https://github.com/rusefi/rusefi/issues/342)  
+(&#x1F534;): Per cylinder fuel trim [**342**](https://github.com/rusefi/rusefi/issues/342)  
+(&#x1F534;): Fuel consumption [**45**](https://github.com/rusefi/rusefi/issues/45)  
+(&#x1F534;): Per injector performance correction [**95**](https://github.com/rusefi/rusefi/issues/95)  
+(&#x1F534;): Instant crank speed [**135**](https://github.com/rusefi/rusefi/issues/135)  
+(&#x1F534;): Configurable hard cut RPM limit [**192**](https://github.com/rusefi/rusefi/issues/192)  
+(&#x1F534;): Idle switch style TPS support [**209**](https://github.com/rusefi/rusefi/issues/209)  
+(&#x1F534;): On ECU autotune [**247**](https://github.com/rusefi/rusefi/issues/247)  
+(&#x1F534;): Dual fuel maps [**289**](https://github.com/rusefi/rusefi/issues/289)  
+(&#x1F534;): Built in Timing Light [**297**](https://github.com/rusefi/rusefi/issues/297)  
+(&#x1F534;): 
+(&#x1F534;):
+(&#x1F534;):
+(&#x1F534;):
+(&#x1F534;):
+(&#x1F534;):
+(&#x1F534;):
+(&#x1F534;):
+(&#x1F534;):
