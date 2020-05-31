@@ -8,6 +8,20 @@ Colour code meanings:-
 (&#x1F536;): **_Use at own risk_** - Believed working, may have bugs or has ongoing work  
 (&#x1F534;): **_Do not use_** - Not working or potential of damage from testing  
 
+---
+# Quick links 
+
+[Base Engine](#Base-Engine)  
+[Fuel](#Fuel)  
+[Ignition](#Ignition)  
+[Cranking](#Cranking)  
+[Idle](#Idle)  
+[Advanced](#Advanced)  
+[Sensors](#Sensors)  
+[Controller](#Controller)  
+
+---
+
 # [Base Engine](rusEFI-project-Base-Engine)
 
 [Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)  
@@ -21,7 +35,7 @@ Colour code meanings:-
 [Trigger](rusEFI-project-Base-Engine#trigger)  
 (&#x1F49A;): Trigger Patterns  
 (&#x1F49A;): VR and Hall support  
-(&#x1F534;): VVT support
+(&#x1F536;): Basic VVT support
 
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
 (&#x1F49A;): Vbatt display and logging  
