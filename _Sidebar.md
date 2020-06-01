@@ -8,6 +8,7 @@
 - [How to ask questions](HOWTO_ask_questions)
 - [Support](Support)
 - [How to create a TunerStudio project](HOWTO_create_tunerstudio_project)
+- [HOWTOs and FAQs](Pages_FAQ_and_HOWTO)
 
 # Community
 
