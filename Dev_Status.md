@@ -29,7 +29,7 @@ Colour code meanings:-
 [Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)  
 (&#x1F536;): AlphaN fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299) [**1455**](https://github.com/rusefi/rusefi/issues/1455)  
 (&#x1F49A;): Speed Density fuel strategy  
-(&#x1F536;): MAF fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299)  
+(&#x1F536;): MAF fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299)  [**1472**](https://github.com/rusefi/rusefi/issues/1472)  
 (&#x1F49A;): Firing orders  
 (&#x1F49A;): RPM limit  
 (&#x1F49A;): Boost Limit  
@@ -37,7 +37,7 @@ Colour code meanings:-
 [Trigger](rusEFI-project-Base-Engine#trigger)  [**974**](https://github.com/rusefi/rusefi/issues/988)  
 (&#x1F49A;): Trigger Patterns  
 (&#x1F49A;): VR and Hall support  
-(&#x1F536;): Basic VVT support [**607**](https://github.com/rusefi/rusefi/issues/606)  [**707**](https://github.com/rusefi/rusefi/issues/707)  [**844**](https://github.com/rusefi/rusefi/issues/844)  [**883**](https://github.com/rusefi/rusefi/issues/883)  
+(&#x1F536;): Basic VVT support [**607**](https://github.com/rusefi/rusefi/issues/606)  [**707**](https://github.com/rusefi/rusefi/issues/707)  [**844**](https://github.com/rusefi/rusefi/issues/844)  [**883**](https://github.com/rusefi/rusefi/issues/883)  [**1368**](https://github.com/rusefi/rusefi/issues/1368)  
 
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
 (&#x1F49A;): Vbatt display and logging  
@@ -193,7 +193,7 @@ TPS thresholds
 47% complete 
 
 [Idle settings](rusEFI-project-Idle#idle-settings)   
-(&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  [**599**](https://github.com/rusefi/rusefi/issues/599)  [**975**](https://github.com/rusefi/rusefi/issues/975)  
+(&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  [**599**](https://github.com/rusefi/rusefi/issues/599)  [**975**](https://github.com/rusefi/rusefi/issues/975)  [**1263**](https://github.com/rusefi/rusefi/issues/1263)  
 (&#x1F534;): Instant RPM measurement for smoother idle  
 (&#x1F536;): ETB for idle control  
 (&#x1F49A;): Enable/disable idle ignition table  
@@ -205,7 +205,7 @@ TPS thresholds
 (&#x1F536;): Idle PID controller  [**501**](https://github.com/rusefi/rusefi/issues/501)  
 
 [Idle hardware](rusEFI-project-Idle#idle-hardware)  
-(&#x1F536;): Stepper Idle  [**351**](https://github.com/rusefi/rusefi/issues/351)  [**1088**](https://github.com/rusefi/rusefi/issues/1088)  
+(&#x1F536;): Stepper Idle  [**351**](https://github.com/rusefi/rusefi/issues/351)  [**1088**](https://github.com/rusefi/rusefi/issues/1088)  [**1395**](https://github.com/rusefi/rusefi/issues/1391)  
 (&#x1F49A;): Dual solenoid IAC (Bosch 3 wire)  
 (&#x1F49A;): Configurable IAC pins  
 (&#x1F49A;): Configurable IAC PWM frequency  
@@ -227,7 +227,7 @@ TPS thresholds
 0% complete
 
 [Boost Control](rusEFI-project-Advanced#boost-control)  
-(&#x1F534;): Boost control enable/disable  [**815**](https://github.com/rusefi/rusefi/issues/815)  
+(&#x1F534;): Boost control enable/disable  [**815**](https://github.com/rusefi/rusefi/issues/815)  [**1153**](https://github.com/rusefi/rusefi/issues/1153)  
 (&#x1F534;): Open and closed loop boost control  [**815**](https://github.com/rusefi/rusefi/issues/815)  
 (&#x1F534;): Configurable output pin [**815**](https://github.com/rusefi/rusefi/issues/815)  
 (&#x1F534;): Configurable PWM frequency  [**815**](https://github.com/rusefi/rusefi/issues/815)  
@@ -416,11 +416,11 @@ Engine chart size
 (&#x1F49A;): TunerStudio communication configuration  
 (&#x1F49A;): CANBUS communication configuration  
 (&#x1F49A;): Aux serial communication configuration  
-(&#x1F536;): SD card logging configuration  [**942**](https://github.com/rusefi/rusefi/issues/942)  
+(&#x1F536;): SD card logging configuration  [**942**](https://github.com/rusefi/rusefi/issues/942)  [**1444**](https://github.com/rusefi/rusefi/issues/1444)  [**1463**](https://github.com/rusefi/rusefi/issues/1463)  
 (&#x1F534;): GPS module communication configuration  [**21**](https://github.com/rusefi/rusefi/issues/21)  
 
 [TLE8888](rusEFI-project-Controller#tle8888)  
-(&#x1F49A;): TLE8888 configuration  
+(&#x1F536;): TLE8888 configuration  [**1426**](https://github.com/rusefi/rusefi/issues/1426)  
 
 [All Pins 1/3](rusEFI-project-Controller#all-pins-1/3)  - Not marking these as they are duplicates
 Trigger stimulation pin config  
@@ -495,14 +495,14 @@ Aux serial pin config
 (&#x1F536;): Multi spark config  
 
 [GDI Dreams](rusEFI-project-Controller#gdi-dreams)  
-(&#x1F534;): MC33816_cs GDI config  [**784**](https://github.com/rusefi/rusefi/issues/784)  
+(&#x1F534;): MC33816_cs GDI config  [**784**](https://github.com/rusefi/rusefi/issues/784)  [**1448**](https://github.com/rusefi/rusefi/issues/1448)  [**1450**](https://github.com/rusefi/rusefi/issues/1450)  
 
 [HIP9011 Settings (knock decoder)](rusEFI-project-Controller#hip9011-settings-(knock-decoder))  
 (&#x1F534;): HIP9011 Knock control enable/disable  [**35**](https://github.com/rusefi/rusefi/issues/35)  [**603**](https://github.com/rusefi/rusefi/issues/603)  
 (&#x1F534;): Knock control settings  [**202**](https://github.com/rusefi/rusefi/issues/202)  
 
 [Electronic Throttle Body (beta)](rusEFI-project-Controller#electronic-throttle-body-(beta))  
-(&#x1F536;): Enable ETB status in console [**494**](https://github.com/rusefi/rusefi/issues/494)  
+(&#x1F536;): Enable ETB status in console [**494**](https://github.com/rusefi/rusefi/issues/494)  [**1336**](https://github.com/rusefi/rusefi/issues/1336)  
 (&#x1F536;): Disable ETB drive motor  
 (&#x1F536;): H-bridge configuration  
 (&#x1F536;): ETB idle settings  
@@ -531,8 +531,8 @@ Aux serial pin config
 Everything in this section is implied to be non functional as they are all upcoming features with little or no implementation in the code yet.  
 The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/List_of_vaporware)
 
-(&#x1F534;): GDI   
-(&#x1F534;): Infinite variable VVT  
+(&#x1F534;): GDI [Tickets held with the GDI settings](null)  
+(&#x1F534;): Infinite variable VVT  [Tickets held with the simple VVT entry](null)  
 (&#x1F534;): Auto tune injector dead times  [**492**](https://github.com/rusefi/rusefi/issues/492)  
 (&#x1F534;): Trigger pattern auto detect  [**418**](https://github.com/rusefi/rusefi/issues/418)  
 (&#x1F534;): Flex fuel sensor  [**540**](https://github.com/rusefi/rusefi/issues/540)  
@@ -554,5 +554,5 @@ The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/L
 (&#x1F534;): Limp mode [**468**](https://github.com/rusefi/rusefi/issues/468)  
 (&#x1F534;): Yaw rate sensor support [**613**](https://github.com/rusefi/rusefi/issues/613)  [**932**](https://github.com/rusefi/rusefi/issues/932)  
 (&#x1F534;): Race capture integration [**1163**](https://github.com/rusefi/rusefi/issues/1163)  
-(&#x1F534;):
+(&#x1F534;): Transmission control [**1454**](https://github.com/rusefi/rusefi/issues/1454)  
 (&#x1F534;):
