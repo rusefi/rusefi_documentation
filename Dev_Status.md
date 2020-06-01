@@ -34,7 +34,7 @@ Colour code meanings:-
 (&#x1F49A;): RPM limit  
 (&#x1F49A;): Boost Limit  
 
-[Trigger](rusEFI-project-Base-Engine#trigger)  
+[Trigger](rusEFI-project-Base-Engine#trigger)  [**974**](https://github.com/rusefi/rusefi/issues/988)  
 (&#x1F49A;): Trigger Patterns  
 (&#x1F49A;): VR and Hall support  
 (&#x1F536;): Basic VVT support [**607**](https://github.com/rusefi/rusefi/issues/606)  [**707**](https://github.com/rusefi/rusefi/issues/707)  [**844**](https://github.com/rusefi/rusefi/issues/844)  [**883**](https://github.com/rusefi/rusefi/issues/883)  
@@ -56,7 +56,7 @@ Colour code meanings:-
 (&#x1F536;): Fuel Rail pressure control (Absolute and MAP referenced)   [**954**](https://github.com/rusefi/rusefi/issues/954)  
 
 [Fan Settings](rusEFI-project-Base-Engine#fan-settings)  
-(&#x1F536;): Cooling fan control  
+(&#x1F536;): Cooling fan control  [**967**](https://github.com/rusefi/rusefi/issues/967)  
 
 [Tachometer output](rusEFI-project-Base-Engine#tachometer-output)  
 (&#x1F536;): Tachometer (Rev counter) output with configurable pulses per revolution  [**476**](https://github.com/rusefi/rusefi/issues/476)  
@@ -72,7 +72,7 @@ Colour code meanings:-
 # [Fuel](rusEFI-project-Fuel) 
 37.5% complete 
 
-[Injection settings](rusEFI-project-Fuel#injection-settings)  
+[Injection settings](rusEFI-project-Fuel#injection-settings)  [**1041**](https://github.com/rusefi/rusefi/issues/1041)  
 (&#x1F49A;): Ability to enable/disable injection  
 (&#x1F49A;): Batch fuel mode  
 (&#x1F49A;): Two wire batch emulation  
@@ -193,7 +193,7 @@ TPS thresholds
 47% complete 
 
 [Idle settings](rusEFI-project-Idle#idle-settings)   
-(&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  [**599**](https://github.com/rusefi/rusefi/issues/599)  
+(&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  [**599**](https://github.com/rusefi/rusefi/issues/599)  [**975**](https://github.com/rusefi/rusefi/issues/975)  
 (&#x1F534;): Instant RPM measurement for smoother idle  
 (&#x1F536;): ETB for idle control  
 (&#x1F49A;): Enable/disable idle ignition table  
@@ -205,7 +205,7 @@ TPS thresholds
 (&#x1F536;): Idle PID controller  [**501**](https://github.com/rusefi/rusefi/issues/501)  
 
 [Idle hardware](rusEFI-project-Idle#idle-hardware)  
-(&#x1F536;): Stepper Idle  [**351**](https://github.com/rusefi/rusefi/issues/351)  
+(&#x1F536;): Stepper Idle  [**351**](https://github.com/rusefi/rusefi/issues/351)  [**1088**](https://github.com/rusefi/rusefi/issues/1088)  
 (&#x1F49A;): Dual solenoid IAC (Bosch 3 wire)  
 (&#x1F49A;): Configurable IAC pins  
 (&#x1F49A;): Configurable IAC PWM frequency  
@@ -343,7 +343,7 @@ TPS thresholds
 (&#x1F534;): LSU4.9 sensor select  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select pin  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select mode  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
-(&#x1F534;): SPI settings  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
+(&#x1F534;): SPI settings  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  [**109**](https://github.com/rusefi/rusefi/issues/1109)  
 
 [Speed sensor](rusEFI-project-Sensors#speed-sensor)  
 (&#x1F49A;): Vehicle speed sensor configuration  
@@ -416,7 +416,7 @@ Engine chart size
 (&#x1F49A;): TunerStudio communication configuration  
 (&#x1F49A;): CANBUS communication configuration  
 (&#x1F49A;): Aux serial communication configuration  
-(&#x1F536;): SD card logging configuration  
+(&#x1F536;): SD card logging configuration  [**942**](https://github.com/rusefi/rusefi/issues/942)  
 (&#x1F534;): GPS module communication configuration  [**21**](https://github.com/rusefi/rusefi/issues/21)  
 
 [TLE8888](rusEFI-project-Controller#tle8888)  
@@ -541,7 +541,7 @@ The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/L
 (&#x1F534;): Per cylinder fuel trim [**342**](https://github.com/rusefi/rusefi/issues/342)  
 (&#x1F534;): Fuel consumption [**45**](https://github.com/rusefi/rusefi/issues/45)  
 (&#x1F534;): Per injector performance correction [**95**](https://github.com/rusefi/rusefi/issues/95)  
-(&#x1F534;): Instant crank speed [**135**](https://github.com/rusefi/rusefi/issues/135)  [**343**](https://github.com/rusefi/rusefi/issues/343)  [**329**](https://github.com/rusefi/rusefi/issues/329)  
+(&#x1F534;): Instant crank speed [**135**](https://github.com/rusefi/rusefi/issues/135)  [**343**](https://github.com/rusefi/rusefi/issues/343)  [**329**](https://github.com/rusefi/rusefi/issues/329)  [**936**](https://github.com/rusefi/rusefi/issues/936)  
 (&#x1F534;): Configurable hard cut RPM limit [**192**](https://github.com/rusefi/rusefi/issues/192)  
 (&#x1F534;): Idle switch style TPS support [**209**](https://github.com/rusefi/rusefi/issues/209)  
 (&#x1F534;): On ECU autotune [**247**](https://github.com/rusefi/rusefi/issues/247)  
@@ -552,7 +552,7 @@ The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/L
 (&#x1F534;): Trigger pattern auto detect [**418**](https://github.com/rusefi/rusefi/issues/418)  
 (&#x1F534;): Variable RPM limit based on CLT [**455**](https://github.com/rusefi/rusefi/issues/455)  
 (&#x1F534;): Limp mode [**468**](https://github.com/rusefi/rusefi/issues/468)  
-(&#x1F534;): Yaw rate sensor support [**613**](https://github.com/rusefi/rusefi/issues/613)  
-(&#x1F534;):
+(&#x1F534;): Yaw rate sensor support [**613**](https://github.com/rusefi/rusefi/issues/613)  [**932**](https://github.com/rusefi/rusefi/issues/932)  
+(&#x1F534;): Race capture integration [**1163**](https://github.com/rusefi/rusefi/issues/1163)  
 (&#x1F534;):
 (&#x1F534;):
