@@ -58,7 +58,7 @@ Colour code meanings:-
 (&#x1F536;): Cooling fan control  
 
 [Tachometer output](rusEFI-project-Base-Engine#tachometer-output)  
-(&#x1F49A;): Tachometer (Rev counter) output with configurable pulses per revolution  
+(&#x1F536;): Tachometer (Rev counter) output with configurable pulses per revolution  [**476**](https://github.com/rusefi/rusefi/issues/476)  
 
 [Check Engine Settings](rusEFI-project-Base-Engine#check-engine-settings)  
 (&#x1F536;): Check engine light (MIL) light  
@@ -153,7 +153,7 @@ TPS thresholds
 (&#x1F536;): Warmup ignition timing correction  
 
 [Ignition Intake Air Temp correction](rusEFI-project-Ignition#ignition-intake-air-temp-correction)  
-(&#x1F49A;): 16x16 Intake air temperature ignition correction 
+(&#x1F536;): 16x16 Intake air temperature ignition correction [**467**](https://github.com/rusefi/rusefi/issues/467)  
 
 ---
 
@@ -188,7 +188,7 @@ TPS thresholds
 # [Idle](rusEFI-project-Idle)
 
 [Idle settings](rusEFI-project-Idle#idle-settings)   
-(&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  
+(&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  [**599**](https://github.com/rusefi/rusefi/issues/599)  
 (&#x1F534;): Instant RPM measurement for smoother idle  
 (&#x1F536;): ETB for idle control  
 (&#x1F49A;): Enable/disable idle ignition table  
@@ -197,11 +197,11 @@ TPS thresholds
 (&#x1F49A;): Idle TPS threshold  
 (&#x1F536;): Extra IAC demand above x% throttle at idle  
 (&#x1F49A;): Manual IAC position (open loop)  
-(&#x1F536;): Idle PID controller  
+(&#x1F536;): Idle PID controller  [**501**](https://github.com/rusefi/rusefi/issues/501)  
 
 [Idle hardware](rusEFI-project-Idle#idle-hardware)  
-(&#x1F536;): Stepper Idle  
-(&#x1F49A;): Dual solenoid IAC (Bosch 3 wire)
+(&#x1F536;): Stepper Idle  [**351**](https://github.com/rusefi/rusefi/issues/351)  
+(&#x1F49A;): Dual solenoid IAC (Bosch 3 wire)  
 (&#x1F49A;): Configurable IAC pins  
 (&#x1F49A;): Configurable IAC PWM frequency  
 (&#x1F536;): Stepper configuration  
@@ -228,12 +228,12 @@ TPS thresholds
 (&#x1F534;): 8x8 boost target table  
 
 [General Purpose PWM](rusEFI-project-Advanced#general-purpose-pwm-1)  
-(&#x1F536;): Configurable GP PWM output pin  
+(&#x1F536;): Configurable GP PWM output pin  [**397**](https://github.com/rusefi/rusefi/issues/397)  
 (&#x1F536;): 8x8 target table  
 (&#x1F536;): Configurable thresholds  
 
 [FSIO inputs](rusEFI-project-Advanced#fsio-inputs)  
-(&#x1F536;): 4 Selectable FSIO inputs 
+(&#x1F536;): 4 Selectable FSIO inputs [**369**](https://github.com/rusefi/rusefi/issues/369)  
 
 [Aux PID](rusEFI-project-Advanced#aux-pid)  
 (&#x1F536;): Enable/disable Auxiliary PID  
@@ -265,7 +265,7 @@ TPS thresholds
 (&#x1F534;): Fuel level input  [**219**](https://github.com/rusefi/rusefi/issues/219)  
 (&#x1F536;): Clutch position Switch  
 (&#x1F536;): Throttle up switch  
-(&#x1F536;): Brake pedal pressure  
+(&#x1F536;): Brake pedal pressure  [**415**](https://github.com/rusefi/rusefi/issues/415)  
 (&#x1F536;): A/C active input  
 
 [Analog Input Settings](rusEFI-project-Sensors#analog-input-settings)  
@@ -332,7 +332,7 @@ TPS thresholds
 (&#x1F534;): Narrow to wideband approximation table  
 
 [CJ125 Settings (wbo decoder)](rusEFI-project-Sensors#cj125-settings-(wbo-decoder))  
-(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
+(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  [**603**](https://github.com/rusefi/rusefi/issues/603)  
 (&#x1F534;): LSU4.9 sensor select  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select pin  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select mode  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
@@ -490,11 +490,11 @@ Aux serial pin config
 (&#x1F534;): MC33816_cs GDI config  
 
 [HIP9011 Settings (knock decoder)](rusEFI-project-Controller#hip9011-settings-(knock-decoder))  
-(&#x1F534;): HIP9011 Knock control enable/disable  [**35**](https://github.com/rusefi/rusefi/issues/35)  
+(&#x1F534;): HIP9011 Knock control enable/disable  [**35**](https://github.com/rusefi/rusefi/issues/35)  [**603**](https://github.com/rusefi/rusefi/issues/603)  
 (&#x1F534;): Knock control settings  [**202**](https://github.com/rusefi/rusefi/issues/202)  
 
 [Electronic Throttle Body (beta)](rusEFI-project-Controller#electronic-throttle-body-(beta))  
-(&#x1F536;): Enable ETB status in console  
+(&#x1F536;): Enable ETB status in console [**494**](https://github.com/rusefi/rusefi/issues/494)  
 (&#x1F536;): Disable ETB drive motor  
 (&#x1F536;): H-bridge configuration  
 (&#x1F536;): ETB idle settings  
@@ -533,17 +533,17 @@ The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/L
 (&#x1F534;): Per cylinder fuel trim [**342**](https://github.com/rusefi/rusefi/issues/342)  
 (&#x1F534;): Fuel consumption [**45**](https://github.com/rusefi/rusefi/issues/45)  
 (&#x1F534;): Per injector performance correction [**95**](https://github.com/rusefi/rusefi/issues/95)  
-(&#x1F534;): Instant crank speed [**135**](https://github.com/rusefi/rusefi/issues/135)  [**343**](https://github.com/rusefi/rusefi/issues/343)  [*329**](https://github.com/rusefi/rusefi/issues/329)  
+(&#x1F534;): Instant crank speed [**135**](https://github.com/rusefi/rusefi/issues/135)  [**343**](https://github.com/rusefi/rusefi/issues/343)  [**329**](https://github.com/rusefi/rusefi/issues/329)  
 (&#x1F534;): Configurable hard cut RPM limit [**192**](https://github.com/rusefi/rusefi/issues/192)  
 (&#x1F534;): Idle switch style TPS support [**209**](https://github.com/rusefi/rusefi/issues/209)  
 (&#x1F534;): On ECU autotune [**247**](https://github.com/rusefi/rusefi/issues/247)  
 (&#x1F534;): Dual fuel maps [**289**](https://github.com/rusefi/rusefi/issues/289)  
 (&#x1F534;): Built in Timing Light [**297**](https://github.com/rusefi/rusefi/issues/297)  
 (&#x1F534;): Fan control RPM limit [**310**](https://github.com/rusefi/rusefi/issues/310)  
-(&#x1F534;):
-(&#x1F534;):
-(&#x1F534;):
-(&#x1F534;):
+(&#x1F534;): Closed loop fueling [**357**](https://github.com/rusefi/rusefi/issues/355)  [**384**](https://github.com/rusefi/rusefi/issues/369)  
+(&#x1F534;): Trigger pattern auto detect [**418**](https://github.com/rusefi/rusefi/issues/418)  
+(&#x1F534;): Variable RPM limit based on CLT [**455**](https://github.com/rusefi/rusefi/issues/455)  
+(&#x1F534;): Limp mode [**468**](https://github.com/rusefi/rusefi/issues/468)  
 (&#x1F534;):
 (&#x1F534;):
 (&#x1F534;):
