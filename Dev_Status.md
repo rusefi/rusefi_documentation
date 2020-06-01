@@ -36,7 +36,7 @@ Colour code meanings:-
 [Trigger](rusEFI-project-Base-Engine#trigger)  
 (&#x1F49A;): Trigger Patterns  
 (&#x1F49A;): VR and Hall support  
-(&#x1F536;): Basic VVT support
+(&#x1F536;): Basic VVT support [**607**](https://github.com/rusefi/rusefi/issues/606)  [**707**](https://github.com/rusefi/rusefi/issues/707)  [**844**](https://github.com/rusefi/rusefi/issues/844)  [**883**](https://github.com/rusefi/rusefi/issues/883)  
 
 [Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
 (&#x1F49A;): Vbatt display and logging  
@@ -221,11 +221,11 @@ TPS thresholds
 # [Advanced](rusEFI-project-Advanced)
 
 [Boost Control](rusEFI-project-Advanced#boost-control)  
-(&#x1F534;): Boost control enable/disable  
-(&#x1F534;): Open and closed loop boost control  
-(&#x1F534;): Configurable output pin 
-(&#x1F534;): Configurable PWM frequency  
-(&#x1F534;): 8x8 boost target table  
+(&#x1F534;): Boost control enable/disable  [**815**](https://github.com/rusefi/rusefi/issues/815)  
+(&#x1F534;): Open and closed loop boost control  [**815**](https://github.com/rusefi/rusefi/issues/815)  
+(&#x1F534;): Configurable output pin [**815**](https://github.com/rusefi/rusefi/issues/815)  
+(&#x1F534;): Configurable PWM frequency  [**815**](https://github.com/rusefi/rusefi/issues/815)  
+(&#x1F534;): 8x8 boost target table  [**815**](https://github.com/rusefi/rusefi/issues/815)  
 
 [General Purpose PWM](rusEFI-project-Advanced#general-purpose-pwm-1)  
 (&#x1F536;): Configurable GP PWM output pin  [**397**](https://github.com/rusefi/rusefi/issues/397)  
@@ -236,7 +236,7 @@ TPS thresholds
 (&#x1F536;): 4 Selectable FSIO inputs [**369**](https://github.com/rusefi/rusefi/issues/369)  
 
 [Aux PID](rusEFI-project-Advanced#aux-pid)  
-(&#x1F536;): Enable/disable Auxiliary PID  
+(&#x1F536;): Enable/disable Auxiliary PID  [**866**](https://github.com/rusefi/rusefi/issues/866)  
 (&#x1F536;): Configurable FSIO pins  
 (&#x1F536;): Configurable PID PWM frequency  
 (&#x1F536;): Configurable PID settings  
@@ -248,7 +248,7 @@ TPS thresholds
 (&#x1F536;): 4x FSIO target tables  [**111**](https://github.com/rusefi/rusefi/issues/111)  
 
 [FSIO Formulas](rusEFI-project-Advanced#fsio-formulas)  
-(&#x1F536;): Pre-configured FSIO formulas  [**111**](https://github.com/rusefi/rusefi/issues/111)  
+(&#x1F536;): Pre-configured FSIO formulas  [**111**](https://github.com/rusefi/rusefi/issues/111) [**680**](https://github.com/rusefi/rusefi/issues/680)    
 
 [FSIO Curve](rusEFI-project-Advanced#fsio-curve-#1)  
 (&#x1F536;): 4x FSIO target curves  [**111**](https://github.com/rusefi/rusefi/issues/111)  
@@ -332,7 +332,7 @@ TPS thresholds
 (&#x1F534;): Narrow to wideband approximation table  
 
 [CJ125 Settings (wbo decoder)](rusEFI-project-Sensors#cj125-settings-(wbo-decoder))  
-(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  [**603**](https://github.com/rusefi/rusefi/issues/603)  
+(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  [**603**](https://github.com/rusefi/rusefi/issues/603)  [**617**](https://github.com/rusefi/rusefi/issues/617)  
 (&#x1F534;): LSU4.9 sensor select  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select pin  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select mode  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
@@ -439,7 +439,7 @@ MOSI pin config
 SPI pin config  
 HIP9011 pin config  
 LIS302 pin config  
-Saab CDM Knock pin config  
+Saab CDM Knock pin config  [**647**](https://github.com/rusefi/rusefi/issues/647)  
 Comm status light pin config  
 Running status light pin config  
 
@@ -487,7 +487,7 @@ Aux serial pin config
 (&#x1F536;): Multi spark config  
 
 [GDI Dreams](rusEFI-project-Controller#gdi-dreams)  
-(&#x1F534;): MC33816_cs GDI config  
+(&#x1F534;): MC33816_cs GDI config  [**784**](https://github.com/rusefi/rusefi/issues/784)  
 
 [HIP9011 Settings (knock decoder)](rusEFI-project-Controller#hip9011-settings-(knock-decoder))  
 (&#x1F534;): HIP9011 Knock control enable/disable  [**35**](https://github.com/rusefi/rusefi/issues/35)  [**603**](https://github.com/rusefi/rusefi/issues/603)  
@@ -503,7 +503,7 @@ Aux serial pin config
 (&#x1F536;): TPS auto calibrate  
 
 [Electronic TB Bias Curve](rusEFI-project-Controller#electronic-tb-bias-curve)  
-(&#x1F536;): ETB feed forward curve  
+(&#x1F536;): ETB feed forward curve  [**842**](https://github.com/rusefi/rusefi/issues/842)  
 
 [ETB Pedal to TPS](rusEFI-project-Controller#etb-pedal-to-tps)  
 (&#x1F536;): 8x8 ETB pedal transfer map  
@@ -544,7 +544,7 @@ The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/L
 (&#x1F534;): Trigger pattern auto detect [**418**](https://github.com/rusefi/rusefi/issues/418)  
 (&#x1F534;): Variable RPM limit based on CLT [**455**](https://github.com/rusefi/rusefi/issues/455)  
 (&#x1F534;): Limp mode [**468**](https://github.com/rusefi/rusefi/issues/468)  
-(&#x1F534;):
+(&#x1F534;): Yaw rate sensor support [**613**](https://github.com/rusefi/rusefi/issues/613)  
 (&#x1F534;):
 (&#x1F534;):
 (&#x1F534;):
