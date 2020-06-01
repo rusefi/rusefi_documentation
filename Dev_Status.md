@@ -23,7 +23,8 @@ Colour code meanings:-
 
 ---
 
-# [Base Engine](rusEFI-project-Base-Engine)
+# [Base Engine](rusEFI-project-Base-Engine) 
+52% complete
 
 [Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)  
 (&#x1F536;): AlphaN fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299) [**1455**](https://github.com/rusefi/rusefi/issues/1455)  
@@ -68,7 +69,8 @@ Colour code meanings:-
 
 ---
 
-# [Fuel](rusEFI-project-Fuel)
+# [Fuel](rusEFI-project-Fuel) 
+37.5% complete 
 
 [Injection settings](rusEFI-project-Fuel#injection-settings)  
 (&#x1F49A;): Ability to enable/disable injection  
@@ -128,7 +130,8 @@ TPS thresholds
 
 ---
 
-# [Ignition](rusEFI-project-Ignition)
+# [Ignition](rusEFI-project-Ignition) 
+61.5% complete
 
 [Ignition settings](rusEFI-project-Ignition#ignition-settings)  
 (&#x1F49A;): Ignition enable/disable  
@@ -157,7 +160,8 @@ TPS thresholds
 
 ---
 
-# [Cranking](rusEFI-project-Cranking)
+# [Cranking](rusEFI-project-Cranking) 
+87.5% complete
 
 [Cranking Settings](rusEFI-project-Cranking#cranking-settings)  [**285**](https://github.com/rusefi/rusefi/issues/285)  [**314**](https://github.com/rusefi/rusefi/issues/314)  
 (&#x1F49A;): Configurable cranking speed limit  
@@ -185,7 +189,8 @@ TPS thresholds
 
 ---
 
-# [Idle](rusEFI-project-Idle)
+# [Idle](rusEFI-project-Idle) 
+47% complete 
 
 [Idle settings](rusEFI-project-Idle#idle-settings)   
 (&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  [**599**](https://github.com/rusefi/rusefi/issues/599)  
@@ -218,7 +223,8 @@ TPS thresholds
 
 ---
 
-# [Advanced](rusEFI-project-Advanced)
+# [Advanced](rusEFI-project-Advanced) 
+0% complete
 
 [Boost Control](rusEFI-project-Advanced#boost-control)  
 (&#x1F534;): Boost control enable/disable  [**815**](https://github.com/rusefi/rusefi/issues/815)  
@@ -255,7 +261,8 @@ TPS thresholds
 
 ---
 
-# [Sensors](rusEFI-project-Sensors)
+# [Sensors](rusEFI-project-Sensors) 
+55% complete
 
 [Trigger Inputs](rusEFI-project-Sensors#trigger-inputs)  
 (&#x1F49A;): Selectable cam and crank trigger inputs  
@@ -354,7 +361,8 @@ TPS thresholds
 
 ---
 
-# [Controller](rusEFI-project-Controller)
+# [Controller](rusEFI-project-Controller) 
+45% complete
 
 [ECU stimulator](rusEFI-project-Controller#ecu-stimulator)  
 (&#x1F49A;): Self stimulation RPM setting  
