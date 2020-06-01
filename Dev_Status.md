@@ -395,7 +395,7 @@ Engine chart size
 (&#x1F536;): Miata NA6 0  
 (&#x1F536;): Miata NA6 1  
 (&#x1F536;): Miata NB2 MAP  
-(&#x1F534;): V12 M73 
+(&#x1F534;): V12 M73  
 (&#x1F536;): ETB bench test  
 (&#x1F536;): TLE8888 bench test  
 (&#x1F49A;): Reset firmware to default  
