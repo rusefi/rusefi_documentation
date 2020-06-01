@@ -57,3 +57,4 @@
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1692 Mercedes 190e M111 SC Swap #57 April 17, 2020
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1673 Renault KM4 May 15, 2020
 1. https://rusefi.com/forum/viewtopic.php?f=2&t=1740 1980 kz750 motor (carbs, electronic ignition) 
+1. https://rusefi.com/forum/viewtopic.php?f=3&t=1760 VW 1.8t Drive-by-wire May 31, 2020
