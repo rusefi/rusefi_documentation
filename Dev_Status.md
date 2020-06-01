@@ -78,7 +78,7 @@ Colour code meanings:-
 (&#x1F49A;): Two wire batch emulation  
 (&#x1F49A;): Sequential fuel mode  
 (&#x1F49A;): Simultaneous fuel mode  
-(&#x1F536;): Single point fuel mode
+(&#x1F536;): Single point fuel mode  
 (&#x1F49A;): Configurable Injector output pins
 
 [Injector dead time](rusEFI-project-Fuel#injector-dead-time)  
