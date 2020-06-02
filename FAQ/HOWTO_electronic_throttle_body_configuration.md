@@ -2,6 +2,8 @@
 
 ## Wiring
 
+ETB could easily consume 5A of current. A larger wall power supply would provide that while smaller 2A-3A units would not be enough.
+
 TODO
 
 ## Calibrate Sensors
