@@ -20,17 +20,17 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | ----------:|:-------- | ------------ | ------------  |:---------------------------------------------------- |
 | 2A  | Inj 1           |#37| Low-Side     | Injector #1                           |
 | 2B  | Fan             |#34| Low-Side     | Radiator Fan Control Relay Output     |
-| 2C  | A/C Fan         |#43| x            | x                                     |
+| 2C  | A/C Fan         |#43| Low-Side     | A/C Fan Control Relay Output          |
 | 2D  | Inj 2           |#38| Low-Side     | Injector #2                           |
 | 2G  | Inj 3           |#41| Low-Side     | Injector #3                           |
 | 2J  | Inj 4           |#42| Low-Side     | Injector #4                           |
 | 2O  | rusEFI WBO      |   | x            | x                                     |
 | 2M  | Fuel Pump       |#35| Low-Side     | Fuel Pump Relay Output                |
 | 2R  | MIL             |#33| Low-Side     | Check Engine Light output             |
-| 2P  | IAC Feed        |   | x            | x                                     |
+| 2P  | IAC Feed        |   | 12V          | Idle Valve Power                      |
 | -   |    -            | - | -            | -                                     |
-| 3A  | GND             | #2| Ground       | Ground                                |
-| 3B  | GND             | #6| Ground       | Ground                                |
+| 3A  | GND             | #2| Power Ground | Ground                                |
+| 3B  | GND             | #6| Power Ground | Ground                                |
 | 3F  | Coil #1         | #9| High-Side    | Coil #1 control                       |
 | 3I  | Coil #2         |#11| High-Side    | Coil #2 control                       |
 | 3H  | Main Relay      |#29| Low-Side     | Main Relay Control                    |
@@ -45,15 +45,15 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | 3Z  | rusEFU USB GND  |   | x            | x                                     |
 | -   |    -            |   | -            | -                                     |
 | 4A  | GND             |   | Ground       | Ground                                |
-| 4D  | VVT Feed        |   | x            | x                                     |
+| 4D  | VVT Feed        |   | 12V          | VVT Power                             |
 | 4K  | rusEFI 5v out   |   | 5v           | External MAP sensor power             |
-| 4N  | IAT             |#23| x            | x                                     |
+| 4N  | IAT             |#23| AT           | Intake Air Temperature Sensor         |
 | 4O  | GND             |   | GND          | Sensor Ground                         |
 | 4P  | CLT             |#18| Temp Input   | Coolant Temperature Sensor Input      |
 | 4S  | Key             | #5| 12V          | +12v from Ignition Key                |
-| 4V  | TPS             |#26| x            | x                                     |
+| 4V  | TPS             |#26| AV           | Throttle Position Sensor              |
 | 4X  | MAF not routed  |   | x            | x                                     |
-| 4AE | EGR Boost Sensor|   | x            | kind of MAP?                          |
+| 4AE | EGR Boost Sensor|   | AV           | MAP                                   |
 | 4AF | Main Relay Power| #1| 12V          | +12v from Main Relay                  |
 
 
