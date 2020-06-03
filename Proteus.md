@@ -8,4 +8,4 @@ See https://github.com/mck1117/proteus/
 
 [Pinout for version 0.2 (black)](Hardware_Proteus_Wiring_v02)
 
-[Fabrication](Hardware-Proteus-Fabrication.md)
+[Fabrication](Hardware-Proteus-Fabrication)
