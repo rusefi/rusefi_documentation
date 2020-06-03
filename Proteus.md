@@ -1,6 +1,8 @@
-See https://rusefi.com/forum/viewtopic.php?f=4&t=1646
+![x](Hardware/Proteus/Hardware-Proteus-0.3.jpg)  
 
-See https://github.com/mck1117/proteus/
+Forum thread at: https://rusefi.com/forum/viewtopic.php?f=4&t=1646
+
+Source & production files at: https://github.com/mck1117/proteus/
 
 ## Wiring & Pinout
 
