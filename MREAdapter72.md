@@ -29,7 +29,6 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | 2P  | IAC Feed        |   | 12V          | Idle Valve Power                      |
 | 2Q  | IAC Control     | #3| Low-Side     | Idle Valve Control                    |
 | 2R  | MIL             |#33| Low-Side     | Check Engine Light output             |
-
 | -   |    -            | - | -            | -                                     |
 | 3A  | GND             | #2| Power Ground | Ground                                |
 | 3B  | GND             | #6| Power Ground | Ground                                |
