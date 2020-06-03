@@ -47,7 +47,8 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | -   |    -            |   | -            | -                                     |
 | 4A  | GND             |   | Ground       | Ground                                |
 | 4D  | VVT Feed        |   | 12V          | VVT Power                             |
-| 4K  | rusEFI 5v out   |   | 5v           | External MAP sensor power             |
+| 4K  | rusEFI 5v out   |#39| 5v           | External MAP sensor power             |
+| 4L  | rusEFI 5v out   |#44| 5v           | Throttle Position Sensor Power        |
 | 4N  | IAT             |#23| AT           | Intake Air Temperature Sensor         |
 | 4O  | GND             |   | GND          | Sensor Ground                         |
 | 4P  | CLT             |#18| Temp Input   | Coolant Temperature Sensor Input      |
