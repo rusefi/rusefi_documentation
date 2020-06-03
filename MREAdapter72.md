@@ -26,8 +26,10 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | 2J  | Inj 4           |#42| Low-Side     | Injector #4                           |
 | 2O  | rusEFI WBO      |   | x            | x                                     |
 | 2M  | Fuel Pump       |#35| Low-Side     | Fuel Pump Relay Output                |
-| 2R  | MIL             |#33| Low-Side     | Check Engine Light output             |
 | 2P  | IAC Feed        |   | 12V          | Idle Valve Power                      |
+| 2Q  | IAC Control     | #3| Low-Side     | Idle Valve Control                    |
+| 2R  | MIL             |#33| Low-Side     | Check Engine Light output             |
+
 | -   |    -            | - | -            | -                                     |
 | 3A  | GND             | #2| Power Ground | Ground                                |
 | 3B  | GND             | #6| Power Ground | Ground                                |
@@ -50,6 +52,7 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 | 4N  | IAT             |#23| AT           | Intake Air Temperature Sensor         |
 | 4O  | GND             |   | GND          | Sensor Ground                         |
 | 4P  | CLT             |#18| Temp Input   | Coolant Temperature Sensor Input      |
+| 4R  | VVT             | #7| Low-side     | VVT Control                           |
 | 4S  | Key             | #5| 12V          | +12v from Ignition Key                |
 | 4V  | TPS             |#26| AV           | Throttle Position Sensor              |
 | 4X  | MAF not routed  |   | x            | x                                     |
