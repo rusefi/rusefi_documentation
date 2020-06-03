@@ -1,4 +1,5 @@
 
+High-side jumper should be set for +12v.
 
 Created for 1989-1995 Mazda Miata NA6 and early NA8. Would also work on Mazda Protege, Ford Festiva, Ford Escort GT and probably other relted vehicles.
 
