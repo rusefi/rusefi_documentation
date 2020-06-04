@@ -74,6 +74,12 @@ Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_
 [MREAdapter72 0.2 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
 
 
+### AV8 
+
+In order to use this output as an analogue input requires the removal of the LED. 
+
+---
+
 ### OEM harness add-ons  
 
 | Board   | stm32 pin  |   |
@@ -86,6 +92,7 @@ Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_
 
 ![x](installations/NB2_Miata_ECU_Connectors_Add-Ons.png)
 
+---
 
 ### Adapter Board Wiring
 
@@ -93,6 +100,7 @@ Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_
 |---|---|---|
 | | | |
 
+---
 
 ### SD card wiring
 
@@ -103,6 +111,8 @@ Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_
 |   | PC12  | SD card SPI MOSI  |
 |   | PB8  | SD card SPI Chip Select |
 
+---
+
 ### Bluetooth/TTL wiring
 
 | Board   | stm32 pin  |   |
@@ -110,6 +120,7 @@ Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_
 |   | PC10  |   |
 |   | PC11  |   |
 
+---
 
 # Photos
 https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/MREAdapter72_0_2_front.jpg
