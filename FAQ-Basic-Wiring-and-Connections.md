@@ -47,6 +47,8 @@ PWM valves (generally 2 wire) accept a variable duty-cycle square wave to contro
 
 Bipolar stepper motors (generally 4 wire) have two coils that are energized in different patterns in order to move the valve open or closed, one step at a time. Bipolar stepper motors require **two H-Bridges** (Proteus) to control one bipolar stepper idle valve. Alternatively, a dedicated stepper driver IC can be used(Prometheus?) or added via a drop-in adapter board. GM, Toyota commonly use these.
 
+https://youtu.be/z0rFOkAbKDQ https://youtu.be/SYNUcmNIgPo
+
 Unipolar stepper valves are not supported by any hardware variants at this time. (May 2020) Chrysler commonly used these.
 
 

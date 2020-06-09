@@ -1,6 +1,8 @@
-See https://rusefi.com/forum/viewtopic.php?f=4&t=1646
+![x](Hardware/Proteus/Hardware-Proteus-0.3.jpg)  
 
-See https://github.com/mck1117/proteus/
+Forum thread at: https://rusefi.com/forum/viewtopic.php?f=4&t=1646
+
+Source & production files at: https://github.com/mck1117/proteus/
 
 ## Wiring & Pinout
 
@@ -8,4 +10,8 @@ See https://github.com/mck1117/proteus/
 
 [Pinout for version 0.2 (black)](Hardware_Proteus_Wiring_v02)
 
-[Fabrication](Hardware-Proteus-Fabrication.md)
+[Fabrication](Hardware-Proteus-Fabrication)
+
+### TE Ampseal Connectors
+
+[Ampseal application specification](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F114-16016%7FM%7Fpdf%7FEnglish%7FENG_SS_114-16016_M.pdf%7FN-A): This document includes how to crimp connectors, how to install them in to headers, and how to remove pins from a header.
