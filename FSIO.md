@@ -71,7 +71,7 @@ RPN -> RPM Cranking_RPM <
 | RPM           | Number        |
 
 Resulting in the processor reading the < operand and performing a "less than" assessment of Cranking_RPM and RPM.   
-*"Greater than check for, Number 2, being less than Number 2"*
+*"Less than check for, Cranking_RPM, being less than RPM"*
 
 RPN is not easy at first but hopefully this short guide and the examples shown below in a similar format will make this as easy as possible while giving a little bit of understanding of how an ECU processes the FSIO. 
 
