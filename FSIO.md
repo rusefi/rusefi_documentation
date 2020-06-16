@@ -1,6 +1,6 @@
 # FSIO 
 
-The content below is from 2018 and is in the process of being updated. 
+The content below is mostly from 2018 and is in the process of being updated. 
 
 Flexible Logic is the fanciest-schmanciest feature of rusEfi. Using the FSIO a user can quickly add a logical function directly into the program of the ECU. 
 
@@ -19,12 +19,14 @@ If differs from the common mathematical notation as instead of having the operat
 Standard notation -> A + B * C
 RPN notation -> A B C * + 
 
-At first look this is very confusing to read and understand but it is actually quite simple and very effective. The two videos below explain this very well.  
-https://www.youtube.com/watch?reload=9&v=7ha78yWRDlE  
+At first look this is very confusing to read and understand but it is actually quite simple and very effective.  
+
+**The two videos below explain this very well and we strongly recommend watching them.**  
+https://www.youtube.com/watch?v=7ha78yWRDlE  
 https://www.youtube.com/watch?v=TrfcJCulsF4
 
 
-The TLDR is that the processor critical to how this notation works, if a value is a number it loads it onto its "stack" if a value is an operator is performs an operation on the numbers in the stack. 
+The TLDR is that the processor is critical to how this notation works, if a value is a number it loads it onto its "stack" if a value is an operator it performs an operation on the numbers in the stack. 
 
 A simple example of how this works is as follows: 
 
