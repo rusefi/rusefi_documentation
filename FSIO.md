@@ -12,7 +12,7 @@ For FSIO, rusEfi console provides a better user experience due to automated huma
 
 # RPN notation 
 
-Because the FSIO is like coding a new function directly into the ECU from  TunerStudio (or console) it comes with an aditional difficulty step and that is understanding "reverse Polish Notation"  
+Because the FSIO is like coding a new function directly into the ECU from  TunerStudio (or console) it comes with an additional difficulty step and that is understanding "reverse Polish Notation"  
 This is a form of "postfix" mathematical notation that is particularly suited to computer use and allows a processor to work directly with an equation.  
 If differs from the common mathematical notation as instead of having the operators (+ - < * ) between the numbers it puts all of them at the end of the expression. 
 
@@ -35,7 +35,7 @@ A B +
 | B             | Number        |
 | A             | Number        |
 
-How the processor interprets this is: "Add, Number B, to Number A."
+How the processor interprets this is: *"Add, Number B, to Number A."*
 
 A B C * + 
 
@@ -46,7 +46,7 @@ A B C * +
 | B             | Number        |
 | A             | Number        |
 
-The Processor hits the * operator first so performs a multiplication on the B and C. "Multiply, by Number C, Number B"  
+The Processor hits the * operator first so performs a multiplication on the B and C. *"Multiply, by Number C, Number B"*  
 The result of B*C would then be put back on the stack, for our example we will call this D. At which point the processor would continue the calculation. "A, B, C and *" have already been taken care of so the result would be as shown below. 
 
 | Stack         | Value         |
@@ -55,7 +55,7 @@ The result of B*C would then be put back on the stack, for our example we will c
 | D             | Number        |
 | A             | Number        |
 
-As previously shown this would be "add, Number D, to Number A" 
+As previously shown this would be *"add, Number D, to Number A"* 
 
 The clever part of this notation is that it does not need to have parenthesis in order to conform to correct calculation order [See here for deeper understanding of the importance of calculation order in maths](https://en.wikipedia.org/wiki/Order_of_operations)
 
@@ -70,10 +70,14 @@ RPN -> RPM Cranking_RPM <
 | Cranking_RPM  | Number        |
 | RPM           | Number        |
 
-Resulting in the processor reading the < operand and performing a "greater than" assessment of Cranking_RPM and RPM. 
+Resulting in the processor reading the < operand and performing a "less than" assessment of Cranking_RPM and RPM.   
+*"Greater than check for, Number 2, being less than Number 2"*
 
+RPN is not easy at first but hopefully this short guide and the examples shown below in a similar format will make this as easy as possible while giving a little bit of understanding of how an ECU processes the FSIO. 
 
 ----------------------
+
+# Examples
 
 ![img](overview/FSIO/FSIO_for_idle_target.png)
 
