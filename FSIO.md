@@ -2,18 +2,78 @@
 
 The content below is from 2018 and is in the process of being updated. 
 
-Flexible Logic is the fanciest-schmanciest feature of rusEfi.
-
-For FSIO, rusEfi console provides a better user experience due to automated human to RPN conversion.
+Flexible Logic is the fanciest-schmanciest feature of rusEfi. Using the FSIO a user can quickly add a logical function directly into the program of the ECU. 
 
 Flexible Logic allows advanced users to get unprecedented level of configurability for custom outputs and engine control. rusEfi supports up to 16 flexible outputs, each of these could be either an on/off or PWM signal. In case of a PWM signal the frequency is defined in the configuration and the duty cycle is dynamically controlled by the evaluated expression.
+
+For FSIO, rusEfi console provides a better user experience due to automated human to RPN conversion.
 
 ---
 
 # RPN notation 
 
-At the moment FSIO uses Reverse Polish Notation for technical reasons, so you would need to convert human-readable popular Infix notation to RPN using relevant rusEfi console features.
+Because the FSIO is like coding a new function directly into the ECU from  TunerStudio (or console) it comes with an aditional difficulty step and that is understanding "reverse Polish Notation"  
+This is a form of "postfix" mathematical notation that is particularly suited to computer use and allows a processor to work directly with an equation.  
+If differs from the common mathematical notation as instead of having the operators (+ - < * ) between the numbers it puts all of them at the end of the expression. 
 
+Standard notation -> A + B * C
+RPN notation -> A B C * + 
+
+At first look this is very confusing to read and understand but it is actually quite simple and very effective. The two videos below explain this very well.  
+https://www.youtube.com/watch?reload=9&v=7ha78yWRDlE  
+https://www.youtube.com/watch?v=TrfcJCulsF4
+
+
+The TLDR is that the processor critical to how this notation works, if a value is a number it loads it onto its "stack" if a value is an operator is performs an operation on the numbers in the stack. 
+
+A simple example of how this works is as follows: 
+
+A B +
+| Stack         | Value           |
+| ------------- |:-------------:|
+| +             | Operand       |
+| B             | Number        |
+| A             | Number        |
+
+How the processor interprets this is: "Add, Number B, to Number A."
+
+A B C * + 
+
+| Stack         | Value           |
+| ------------- |:-------------:|
+| *             | Operand       |
+| C             | Number        |
+| B             | Number        |
+| A             | Number        |
+
+The Processor hits the * operator first so performs a multiplication on the B and C. "Multiply, by Number C, Number B"  
+The result of B*C would then be put back on the stack, for our example we will call this D. At which point the processor would continue the calculation. "A, B, C and *" have already been taken care of so the result would be as shown below. 
+
+| Stack         | Value         |
+| ------------- |:-------------:|
+| +             | Operand       |
+| D             | Number        |
+| A             | Number        |
+
+As previously shown this would be "add, Number D, to Number A" 
+
+The clever part of this notation is that it does not need to have parenthesis in order to conform to correct calculation order [See here for deeper understanding of the importance of calculation order in maths](https://en.wikipedia.org/wiki/Order_of_operations)
+
+Taking a simple calculation to prevent a starter button working above cranking speed (as used on the Prometheus ECU):
+
+Standard notation -> RPM < Cranking_RPM
+RPN -> RPM Cranking_RPM <
+
+| Stack         | Value         |
+| ------------- |:-------------:|
+| <             | Operand       |
+| Cranking_RPM  | Number        |
+| RPM           | Number        |
+
+Resulting in the processor reading the < operand and performing a "greater than" assessment of Cranking_RPM and RPM. 
+
+
+----------------------
 
 ![img](overview/FSIO/FSIO_for_idle_target.png)
 
@@ -169,9 +229,9 @@ here 3 is the index of the output pin
 
 A configurable version of same would be
 
-set_fsio_expression 3 "rpm > fsio_setting(3)"
+*set_fsio_expression 3 "rpm > fsio_setting(3)"*
 
-set_fsio_setting 3 4500
+*set_fsio_setting 3 4500*
 
 ---
 
@@ -190,7 +250,7 @@ Configure output #3 to use 200Hz PWM
 
 And finally set the expression:
 
-'set_fsio_expression 3 "0 80 rpm 1200 > ac_on_switch AND IF"'
+*'set_fsio_expression 3 "0 80 rpm 1200 > ac_on_switch AND IF"'*
 
 Which is RPN for if(rpm > 1200 AND ac_on_switch, 80, 0)
 
