@@ -17,11 +17,14 @@ If in double of your SMD skills please consider fully assembled version.
 
 For component placement please use interactive BOM
 
-[0.4.7](https://rusefi.com/docs/ibom/microRusEfi_R0.4.7.html)
+[0.5.0](https://rusefi.com/docs/ibom/micro_rusEFI_0.5.0.html)
 
 [0.4.8](https://rusefi.com/docs/ibom/microRusEfi_R0.4.8.html)
 
-[0.5.0](https://rusefi.com/docs/ibom/micro_rusEFI_0.5.0.html)
+[0.4.7](https://rusefi.com/docs/ibom/microRusEfi_R0.4.7.html)
+
+
+[Some checkpoints](Hardware/microrusefi/Hardware_microRusEfi_0_4_7_front_checks.jpg)
 
 
 All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre-f4.zip)
@@ -31,11 +34,11 @@ All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](
 
 [Wiring Diagram](Hardware_microRusEfi_wiring)
 
-[0.4.7 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic_0_4_7.pdf)
+[0.5.0 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/micro_rusEFI_Schematic_0_5_0.pdf)
 
 [0.4.8 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic_0_4_8.pdf)
 
-[0.5.0 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/micro_rusEFI_Schematic_0_5_0.pdf)
+[0.4.7 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic_0_4_7.pdf)
 
 
 [rusEfi Slack channel](https://rusefi.com/forum/viewtopic.php?f=13&t=1198) is the primary support channel.
