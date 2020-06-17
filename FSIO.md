@@ -77,24 +77,32 @@ Resulting in the processor reading the < operand and performing a "less than" as
 
 RPN is not easy at first but hopefully this short guide and the examples shown below in a similar format will make this as easy as possible while giving a little bit of understanding of how an ECU processes the FSIO. 
 
+----
+
+
+## rusEFI console now has build-in decoder of RPN form. 
+
+For example entering the formula below into the command window:
+
+```decode_rpn "0 fsio_analog_input 20 > 0 10 if"```
+
+Would return   
+```"Human form is "if((fsio_analog_input(0) > 20), 0, 10)"```
+
+and
+
+```"decode_rpn "0 fsio_input 20 > 0 10 if"```
+
+It would show a filing to parse message with a list of some known functions.
+
+
+
 ----------------------
 
 # Examples
 
 ![img](overview/FSIO/FSIO_for_idle_target.png)
 
-rusEFI console now has build-in decoder of RPN form, for example:
-
-```decode_rpn "0 fsio_analog_input 20 > 0 10 if"```
-
-Would return "Human form is "if((fsio_analog_input(0) > 20), 0, 10)"
-"
-
-and
-
-```decode_rpn "0 fsio_input 20 > 0 10 if"```
-
-It would show a filing to parse message with a list of some known functions.
 
 ---
 
