@@ -53,3 +53,5 @@ Here are some features where AndreiKA is probably the primary SME
   triggerCompCenterVolt/triggerCompHystMin/triggerCompHystMax/triggerCompSensorSatRpm
   	https://github.com/rusefi/rusefi/commit/2a39c69f518ff44c34bbf83b7f7f213394b74c2b
 
+- IdleIncrementalPidCic
+The idea was to replace "ITerm Min" and "ITerm Max" with a running average, so that the ITerm won't overflow

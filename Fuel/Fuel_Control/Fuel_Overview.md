@@ -13,11 +13,13 @@ Most people who are installing tune-able ECU's like rusEFI are looking for more 
 # Supported fuel control algorithms 
 rusEFI supports mono, individual/sequential and batched fuel injection using one of the following fuel control algorithms:
 
-1) MAF-based or MAP-based table fuel lookup with interpolation - these algorithms are pretty rough since they do not account for ambient air temperature but not many sensor are required to run.
+1) MAF-based or MAP-based table fuel lookup with interpolation - these algorithms only use the raw sensor output and thus they do not account for ambient air temperature, this is only intended as a minimum viable hardware configuration and we would suggest using the AlphaN, Speed Density or MAF air charge methods instead. 
 
 2) TPS-based table fuel lookup with interpolation (Alpha-N)
 
 3) MAP-based Speed Density model, with fuel auto-tune provided by a fully registered copy of TunerStudio
+
+4) MAF based air charge model that computed the air mass in the cylinder and thus the required fuel quantity from the direct measurement of the mass air flow. 
 
 Wideband Oxygen Sensor is pretty much a requirement for both manual and auto-tuning.
 

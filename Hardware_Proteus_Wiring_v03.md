@@ -22,25 +22,25 @@
 | 14  |Highside #4    | hs    | output                               |
 | 15  |**Lowside #2** | ls    | Injector #2                          |
 | 16  |**Lowside #4** | ls    | Injector #4                          |
-| 17  | **GND**       | y     | Power GND                            |
-| 18  | **GND**       | y     | Power GND                            |
-| 19  |**Lowside #8** | y     | Injector #8                          |
-| 20  |**Lowside #10**| y     | Injector #10                         |
-| 21  |**Lowside #12**| y     | Injector #12                         |
-| 22  | Ignition 3    | y     | Ignition cylinder 3                  |
-| 23  |**Lowside #16**| y     | low-side output: fuel pump           |
-| 24  | **GND**       | y     | Power GND                            |
-| 25  | Ignition 12   | y     | Ignition cylinder 12                 |
-| 26  | Ignition 11   | y     | Ignition cylinder 11                 |
-| 27  | Ignition 10   | y     | Ignition cylinder 10                 |
-| 28  | Ignition 9    | y     | Ignition cylinder 9                  |
-| 29  | Ignition 8    | y     | Ignition cylinder 8                  |
-| 30  | Ignition 7    | y     | Ignition cylinder 7                  |
-| 31  | Ignition 6    | y     | Ignition cylinder 6                  |
-| 32  | Ignition 5    | y     | Ignition cylinder 5                  |
-| 33  | Ignition 4    | y     | Ignition cylinder 4                  |
-| 34  | Ignition 2    | y     | Ignition cylinder 2                  |
-| 35  | Ignition 1    | y     | Ignition cylinder 1                  |
+| 17  | **GND**       | gnd   | Power GND                            |
+| 18  | **GND**       | gnd   | Power GND                            |
+| 19  |**Lowside #8** | ls    | Injector #8                          |
+| 20  |**Lowside #10**| ls    | Injector #10                         |
+| 21  |**Lowside #12**| ls    | Injector #12                         |
+| 22  | Ignition 3    | hl    | Ignition cylinder 3                  |
+| 23  |**Lowside #16**| ls    | low-side output: fuel pump           |
+| 24  | **GND**       | gnd   | Power GND                            |
+| 25  | Ignition 12   | hl    | Ignition cylinder 12                 |
+| 26  | Ignition 11   | hl    | Ignition cylinder 11                 |
+| 27  | Ignition 10   | hl    | Ignition cylinder 10                 |
+| 28  | Ignition 9    | hl    | Ignition cylinder 9                  |
+| 29  | Ignition 8    | hl    | Ignition cylinder 8                  |
+| 30  | Ignition 7    | hl    | Ignition cylinder 7                  |
+| 31  | Ignition 6    | hl    | Ignition cylinder 6                  |
+| 32  | Ignition 5    | hl    | Ignition cylinder 5                  |
+| 33  | Ignition 4    | hl    | Ignition cylinder 4                  |
+| 34  | Ignition 2    | hl    | Ignition cylinder 2                  |
+| 35  | Ignition 1    | hl    | Ignition cylinder 1                  |
 
 ## Black 23 Pin 776228-1
 |Pin Number|Name   | Type ID | Default function                   |
@@ -53,9 +53,9 @@
 | 6   | ETB1-      | etb   | ETB 1 negative                       |
 | 7   | ETB1+      | etb   | ETB 1 positive                       |
 | 8   | ETB2-      | etb   | ETB 2 negative                       |
-| 9   | DIGITAL 5  | y     | Digital trigger/switch input         |
-| 10  | DIGITAL 1  | y     | Digital trigger/switch input         |
-| 11  | DIGITAL 6  | y     | Digital trigger/switch input         |
+| 9   | DIGITAL 5  | din   | Digital trigger/switch input         |
+| 10  | DIGITAL 1  | din   | Digital trigger/switch input         |
+| 11  | DIGITAL 6  | din   | Digital trigger/switch input         |
 | 12  | VR2 neg    | vr    | Variable Reluctance #2 negative      |
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      |
 | 14  | USB D-     | usb   | USB                                  |
@@ -63,8 +63,8 @@
 | 16  | CAN-       | can   | CAN bus low                          |
 | 17  | CAN+       | can   | CAN bus high                         |
 | 18  | +12 raw    | 12v   | ignition power / ECU power source    |
-| 19  | **GND**    | y     | Power GND                            |
-| 20  | **GND**    | nc    | Power GND                            |
+| 19  | **GND**    | gnd   | Power GND                            |
+| 20  | **GND**    | gnd   | Power GND                            |
 | 21  | USB D+     | usb   | USB                                  |
 | 22  | USB Shield | usb   | USB - connect to cable shield        |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  |
