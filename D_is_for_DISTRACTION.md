@@ -14,4 +14,4 @@ If your idea does not already appear there then consider making a Github ticket 
 
 Most simple questions can be answered by [searching the wiki](HOWTO-Search-on-rusEFI-wiki) or by [searching the forum](https://rusefi.com/forum/search.php)
 
-![img](ATdistraction.png)
+![img](Images/ATdistraction.png)  
