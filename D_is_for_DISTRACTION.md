@@ -13,3 +13,5 @@ There are details of our plans for fuel strategy improvements [at this link](Roa
 If your idea does not already appear there then consider making a Github ticket but please have a think if that feature would really add to rusEFI and if it needs to be done ASAP. If not then please tag the ticket as a future feature and low priority. 
 
 Most simple questions can be answered by [searching the wiki](HOWTO-Search-on-rusEFI-wiki) or by [searching the forum](https://rusefi.com/forum/search.php)
+
+![img](ATdistraction.png)

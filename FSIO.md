@@ -1,6 +1,6 @@
 # FSIO 
 
-The content below is mostly from 2018 and is in the process of being updated. 
+## The content below is mostly from 2018 and is in the process of being updated. This wiki article needs to be viewed as a work in progress at this time and may contain contradictory information.  
 
 Flexible Logic is the fanciest-schmanciest feature of rusEfi. Using the FSIO a user can quickly add a logical function directly into the program of the ECU. 
 
