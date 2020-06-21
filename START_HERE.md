@@ -13,5 +13,34 @@ You will be expected to put in the time to find information on the sensors you a
 
 RusEFI is also still very much in development, the dev team provide no guarantee that any of the current features are fully working. It is important that users take a good look at the [current development status](Dev_Status.md) page. This is what we consider the most comprehensive list of the status of all the features of the rusEFI system. 
 
-## 
+## Identifying your hardware requirements 
 
+Every one coming into this p
+You are going to need to know 
+
+Hall or VR 
+
+High or low impedance injectors and flow rate
+
+Trigger style 
+
+NTC sensor curves 
+
+MAF 
+
+MAP 
+
+Ignition coils 
+
+## What rusEFI board is correct for your engine? 
+
+
+
+
+## Getting help
+
+[xxx](HOWTO_ask_questions.md)
+
+## Where to search for information 
+
+[xxx](HOWTO-Search-on-rusEFI-wiki.md)
