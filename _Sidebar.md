@@ -52,6 +52,7 @@
 - [MREAdapter55: from Lada to e30](MREAdapter55)
 - [MREAdapter72: Miata NB2 Mark 2.5 72 pin](MREAdapter72)
 - [Frankenso MazdaMiataNA6 PnP](Frankenso_MazdaMiataNA6_pnp)
+- [Creating a PnP PCB](PnP_PCB_HowTO)
 
 # Contributors
 
