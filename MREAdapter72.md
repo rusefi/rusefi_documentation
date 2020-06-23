@@ -63,7 +63,7 @@ https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 ### x4 AUX low-side drivers ###
 There are 4 low-side drivers available. One is used for the alternator warning light on the dash. 
 The following I/O is available. A jumper wire will need to be routed between the Jx hole on the board and the appropriate pin on the car-side connector. 
-| Board   | stm32 pin  |  
+| Board   | stm32 pin  |
 |-----|---|---|
 | J3  | PB8 |   
 | J1  | PB9 |   
