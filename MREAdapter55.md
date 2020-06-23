@@ -25,3 +25,17 @@ pin 34 left floating as no inj4 on E30
 pin 35 left floating as no inj3 on E30  
 pin 36 is variable intake on January but main relay on E30, might work if both are lowsides?  
 pin 38 high side output, no idea if this is correct for transmission output.  
+pin 39 normally programming signal, best left floating not connected to high side output for risk of killing other modules. 
+pin 40 and pin 42 - not sure what is going on here but this will need work
+pin 43 tacho out but is actually used for AFM/MAF on euro motronics (vauxhall or M30 engine)
+pin 46 left floating on E30 or jumpered to use as relay or fan output
+pin 47 programming voltage, this is crank -ve on E30 
+pin 48 crank -v is crank -ve on E30
+pin 49 crank +ve is unused on E30 
+pin 50 EGR position is input from ABS for traction intervention, this should be ok as both are signal inputs
+pin 50 power steering request is kickdown on auto E30, might be ok as both are signal inputs
+pin 52 is throttle closed on E30, should work with AN input 
+pin 53 is WOT tps signal on E30, should be ok.
+- Note on pin 52/53, early motronic is a 3 position TPS not variable, standard is to convert to a M52 TPS, we could do this conversion on the board as they are a compatible plug
+pin 54 fuel rate output is auto trans lockup on E30, might work if both need lowsides. 
+
