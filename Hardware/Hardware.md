@@ -8,8 +8,8 @@ As of March 2020 Frankenso board is sold as mostly as a DIY kit.
 | Board | Features | Released in | Maximum recommended engine |
 | ------------- | ------------- | ---- | ---- |
 | [Frankenso](https://rusefi.com/forum/viewtopic.php?f=4&t=569) | Most customizable board | 2014 | Flexible - probably 8 cylinder max recommended |
-| [Prometheus](https://rusefi.com/forum/viewtopic.php?f=4&t=1215)  | The only rusEfi board with on-board wide band controller  | 2017 | 4 cylinder |
-| [Frankenstein](https://rusefi.com/forum/viewtopic.php?f=4&t=359)  | Simplest rusEfi board | 2014 | Flexible - probably 8 cylinder max recommended |
+| [Prometheus](https://rusefi.com/forum/viewtopic.php?f=4&t=1215)  | The only rusEfi board with on-board wide band controller. | 2017 | 4 cylinder. No plans to offer assembled units. |
+| [Frankenstein](https://rusefi.com/forum/viewtopic.php?f=4&t=359)  | Simplest rusEfi board | 2014 | Flexible - probably 8 cylinder max recommended. No plans to offer assembled units. |
 | [microRusEfi](Hardware_microRusEfi) | Available fully assembled! | 2019 | 4 cylinder, single electronic throttle |
 | [Hellen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682) | Coming soon! | 2020 | TBD cylinder, single electronic throttle |
 | [Proteus](Proteus) | rusEfi if you have lots of hardware or cylinders | 2020 | 12 cylinder, dual electronic throttles |

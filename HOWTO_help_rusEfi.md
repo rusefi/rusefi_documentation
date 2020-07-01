@@ -17,8 +17,7 @@ We probably would not articulate the guiding principles better than https://gith
 
 #### Last but not least
 
-Since 2012 until today, this is just a hobby project with zero paid employees. Test PCBs, forum hosting,
-damaged hardware and etc. costs money
+Since 2012 until today, this is just a hobby project with zero paid employees. Test PCBs, forum hosting, damaged hardware and etc. costs money
 
 There are two ways to help financially: 
 

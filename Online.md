@@ -12,3 +12,4 @@ See [HOWTO upload tune](HOWTO_upload_tune)
 See [HOWTO set rusEfi Online authentication token](HOWTO-set-rusEfi-Online-authentication-token)
 
 
+For development details see https://github.com/rusefi/web_backend
