@@ -64,10 +64,13 @@ VR mode back
 
 0.4.8: For Hall, you would need to REMOVE R15&R9, C12 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
 
-Hall mode front
+0.5.0 Hall
+![Front](Hardware/microrusefi/Hardware_microRusEfi_0.5.0_hall_mode.jpg)
+
+0.4.7 Hall mode front
 ![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_front.jpg)
 
-Hall mode back
+0.4.7 Hall mode back
 ![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_back.png)
 
 
@@ -104,3 +107,9 @@ RTC diode D42
 Wake-up CAN R8
 
 [More images](https://github.com/rusefi/hw_microRusEfi/blob/master/gerbers)
+
+# Direct board programming
+
+J7 header in bottom-left corner of microRusEFI allows direct SWD programming using TC2030-MCP-NL cable
+
+![x](Hardware/microrusefi/TC2030_SWD.jpg)
