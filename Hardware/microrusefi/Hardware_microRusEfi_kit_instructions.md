@@ -112,4 +112,6 @@ Wake-up CAN R8
 
 J7 header in bottom-left corner of microRusEFI allows direct SWD programming using TC2030-MCP-NL cable
 
+Tag Connect In circuit Cable "NO Legs" Version
+
 ![x](Hardware/microrusefi/TC2030_SWD.jpg)
