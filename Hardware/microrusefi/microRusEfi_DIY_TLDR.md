@@ -27,7 +27,7 @@ https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=dacd727e05
 
 Once you solder 8 parts to your 80% ready microRusEfi upload firmware into micro-controller
 
-https://rusefi.com/build_server/rusefi_bundle_mre-f4.zip
+https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip
 
 # More info
 

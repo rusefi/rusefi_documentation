@@ -27,7 +27,7 @@ For component placement please use interactive BOM
 [Some checkpoints](Hardware/microrusefi/Hardware_microRusEfi_0_4_7_front_checks.jpg)
 
 
-All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre-f4.zip)
+All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 
 
 
