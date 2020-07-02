@@ -26,3 +26,8 @@ https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1995
 [InteractiveBOM 0.1](https://rusefi.com/docs/ibom/hw48na_V0.1.html)
 
 https://www.youtube.com/watch?v=vleG0Jp5isY
+
+BOM
+
+47219-2001 SD card housing HINGE TYPE
+
