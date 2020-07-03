@@ -25,6 +25,7 @@ The board should be received set up as a stock replacement unit for your year ca
 
 ## 2.1. USB connection
 The unit can connect to [TunerStudio](http://www.tunerstudio.com/index.php/tuner-studio) via native USB communication. You can either plug a MicroUSB cable into the top of the unit. This is difficult to get to in the stock installation position however, so it'snot ideal for a permanent installation in the stock location.
+
 ![Micro USB connector](Hardware/pnp_microRusEfi_48na/MRE_Micro_USB.png)
 
 Alternatively, you can wire a standard USB cable into the main connector for a more permanent solution. Your board may come with additional contacts / wires for the main connector that can be soldered to a standard USB cable. Please note that the 5V connection is not needed for communication. It can, however be used to power the MRE unit with the ignition off.
