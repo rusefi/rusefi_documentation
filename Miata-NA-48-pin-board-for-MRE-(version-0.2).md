@@ -2,20 +2,20 @@ This is a PNP adapter board for NA Miatas (1990-1995). The board is true plug an
 
 Your board should look something like this: ![Miata NA 48 pin board for MRE](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view.png)
 
-Currently the only tested configuration is the NA6 Miata with a manual transmission. If you have a different car, we may need your help testing the configuration! Automatic transmission cars are definitely not confirmed to work. 
+Currently the only tested configuration is the NA6 Miata with a manual transmission. If you have a different car, we may need your help testing the configuration! Automatic transmission cars are not yet confirmed to work, although there's no reason to think they won't.
 
-The standard configuration runs the engine using he stock AFM (Air Flow Meter) to measure engine load. However, the AFM on early Miatas is an actual restriction in the intake and costs possibly as much as 3hp (this is a guess). It's also useless if you want to add boost to the car- the capability to measure airflow peters out well below the airflow capabilities of even a mild turbo or SC setup. 
+The standard configuration runs the engine using the stock AFM (Air Flow Meter) to measure engine load. However, the AFM on early Miatas is an actual restriction in the intake and costs possibly as much as 3hp (this is a guess). It's also useless if you want to add boost to the car- the capability to measure airflow peters out well below the airflow capabilities of even a mild turbo or SC setup. 
 The 48 pin board can be equipped with one or two onboard MAP sensors. Alternatively you can also run an external MAP sensor or even a bigger AFM.
 The board can be configured for several different options simply by adding/removing some simple SMD jumpers. More custom solutions can be achieved by adding wire jumpers.
 
 # 1. Installation
-- Open stock ECU case
-- Remove stock PCB from ECU case
-- Install rusEfi board in ECU case (note: one of the mounting holes, labeled J27, requires a stack of 3 M4 washers- see image below)
+- Open the stock ECU case
+- Remove the stock PCB from the ECU case
+- Install the rusEfi board in the ECU case (note: one of the mounting holes, labeled J27, requires a stack of 3 M4 washers- see image below)
 - Close the case*
 - Plug in connectors and drive
 
-*You may want to omit the "close the case" step. That makes it easier to connect to the unit with a laptop using a micro USB cable. See below: USB connection.
+*You may want to omit the "close the case" step for now. That makes it easier to connect to the unit with a laptop using a micro USB cable. See below: USB connection.
 
 One of the mounting screws needs three M4 washers because the case has a recessed thread- the stock ECU has a heat sink at that location. The washers may be included with your kit. They go here:
 ![M4 washers mounting](Hardware/pnp_microRusEfi_48na/M4_washers_mtg_hole.png)
@@ -56,3 +56,6 @@ If you want to install an external MAP sensor, like a GM 3 bar sensor for exampl
 ## 3.3. TPS
 NA6 Miata with manual gearbox come with a throttle position switch that can recognize two positions- idle (closed) and full throttle. This works good enough, but if you really want to fine tune your engine, you may want to use an actual throttle position sensor. There are several popular options on how to achieve this. Either use a TPS from an automatic NA6 Miata. these do seem, however, be hard to get by these days. You can install an aftermarket throttle body with TPS, or you can install a TPS from a Kia (part numbers are 0K01118911, 0K24718911, 0K30A18911, TH291, 5S5504, TPS4185, TH0254, 1580486, 2001332). You need an adapter for this. The design can be found here [Mazda NA6 Miata variable TPS mount](https://www.thingiverse.com/thing:3414132)
 Instructions on how to jumper the board for these configurations will be updated later. 
+
+# 4. Connections
+Expansions usually require some wiring. The standard pinout for the connector in NA6 configuration is this below.
