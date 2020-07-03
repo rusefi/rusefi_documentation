@@ -24,7 +24,11 @@ One of the mounting screws needs three M4 washers because the case has a recesse
 The board should be received set up as a stock replacement unit for your year car. Either a 1990-1993 NA6 or a 1994/1995 NA8. Even in standard configuration it can perform a few tricks the stock ECU just can't.
 
 ## 2.1. USB connection
-The unit can connect to [TunerStudio](http://www.tunerstudio.com/index.php/tuner-studio) via native USB communication. You can either plug a MicroUSB cable into the top of the unit (for location of connector see image below), or you can wire a standard USB cable into the main connector for a more permanent solution. How to make the connection is explained below. 
+The unit can connect to [TunerStudio](http://www.tunerstudio.com/index.php/tuner-studio) via native USB communication. You can either plug a MicroUSB cable into the top of the unit. This is difficult to get to in the stock installation position however, so it'snot ideal for a permanent installation in the stock location.
+![Micro USB connector](Hardware/pnp_microRusEfi_48na/MRE_Micro_USB.png)
+
+Alternatively, you can wire a standard USB cable into the main connector for a more permanent solution. Your board may come with additional contacts / wires for the main connector that can be soldered to a standard USB cable. Please note that the 5V connection is not needed for communication. It can, however be used to power the MRE unit with the ignition off.
+![USB main connector](Hardware/pnp_microRusEfi_48na/USB_connections.png)
 
 ## 2.2. Micro SD card adapter
 The board comes with an adapter for a Micro SD card. Install a card in this slot and it will automatically keep a log of your engine when it's running. Please note that the only way to retrieve this log at this point (July 2nd 2020) is to open the case, remove the SD card and read it directly from a computer or other device running MegaLogViewer. The ability to read and manipulate logs without removal, via USB is planned, but not yet implemented.
