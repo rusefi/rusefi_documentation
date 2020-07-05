@@ -18,6 +18,7 @@
 ## Ignition Modules
 * VW 1.8t 4 cylinder module - PN 4D0905351  
 Tested and working with BMW Coils, uses a pair of ampseal plugs (easily available on ebay). Wiring layout available on the forum. 
+Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
 * OEM B-series Honda ignition module. Pull low to charge, release to fire. 3-4ms dwell, internally pulled up to 12v
 

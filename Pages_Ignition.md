@@ -17,7 +17,7 @@
 
 <details><summary><u>Coils and ignition modules</u></summary>
 
-* [List of tested coils](Vaut_Of_Ignition_Parts)
-* [List of tested Ignition modules and IGBTs](Vaut_Of_Ignition_Parts)
+* [List of tested coils](Vault_Of_Ignition_Parts)
+* [List of tested Ignition modules and IGBTs](Vault_Of_Ignition_Parts)
 
 </details>
