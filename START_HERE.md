@@ -15,7 +15,7 @@ RusEFI is also still very much in development, the dev team provide no guarantee
 
 ## Identifying your hardware requirements 
 
-Every one coming into this p
+
 You are going to need to know 
 
 Hall or VR 
