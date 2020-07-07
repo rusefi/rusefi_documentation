@@ -59,3 +59,4 @@
 1. https://rusefi.com/forum/viewtopic.php?f=2&t=1740 1980 kz750 motor (carbs, electronic ignition) 
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1760 VW 1.8t Drive-by-wire May 31, 2020
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1734 Miata FE swap 2.0
+1. https://rusefi.com/forum/viewtopic.php?p=37351#p37351 1973 Opel Manta - BMW M42
