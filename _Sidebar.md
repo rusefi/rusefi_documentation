@@ -17,6 +17,14 @@
 - [Facebook Users Group](https://www.facebook.com/groups/rusEfi/)
 - [Engines running on rusEFI](List_of_engines_running_rusEfi)
 
+# Pages
+- [Fuel](Pages_Fuel)
+- [Hardware](Pages_Hardware)
+- [Sensors and Actuators](Pages_Sensors_and_Actuators)
+- [Ignition](Pages_Ignition)
+- [Software](Pages_Software)
+- [rusEFI Project](rusEFI-project)
+
 # Features
 
 - [rusEFI project overview](rusEFI-project)
@@ -68,10 +76,4 @@
 - [How to convert from carburetor to EFI](how_to_convert_from_carburetor_to_EFI)
 - [Do I need a wideband oxygen sensor?](do_i_need_wideband_oxygen_sensor)
 
-# Pages
-- [Fuel](Pages_Fuel)
-- [Hardware](Pages_Hardware)
-- [Sensors and Actuators](Pages_Sensors_and_Actuators)
-- [Ignition](Pages_Ignition)
-- [Software](Pages_Software)
-- [rusEFI Project](rusEFI-project)
+
