@@ -64,3 +64,9 @@ Instructions on how to jumper the board for these configurations will be updated
 
 # 4. Connections
 Expansions usually require some wiring. The standard pinout for the connector in NA6 configuration is this below.
+
+# 5. Assemble your own
+If you just get the bare board with all the jumpers installed, there's some things you need to do.
+
+## 5.1. MAP Sensor
+There are two positions for installing a MAP sensor on the board. The sensors used are [MPX4250](https://www.digikey.com/product-detail/en/nxp-usa-inc/MPX4250AP/MPX4250AP-ND/464053). They should be secured with two screws each. The screws are 4-40 by 0.5" long. Socket head cap screws are preferred. [4-40 x 0.5 screw](https://www.mcmaster.com/92196A110/) of course, these screws will require some [nuts](https://www.mcmaster.com/91841A005/).
