@@ -1,3 +1,5 @@
+[SEE ALSO](Miata-NA-48-pin-board-for-MRE-(version-0.2))
+
 
 High-side jumper should be set for +12v.
 
