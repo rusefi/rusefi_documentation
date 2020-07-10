@@ -17,6 +17,10 @@ If in double of your SMD skills please consider fully assembled version.
 
 For component placement please use interactive BOM
 
+[0.5.2](https://rusefi.com/docs/ibom/micro_rusEFI_R0.5.2.html)
+
+[0.5.1](https://rusefi.com/docs/ibom/micro_rusEFI_R0.5.1.html)
+
 [0.5.0](https://rusefi.com/docs/ibom/micro_rusEFI_0.5.0.html)
 
 [0.4.8](https://rusefi.com/docs/ibom/microRusEfi_R0.4.8.html)
