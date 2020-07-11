@@ -15,14 +15,14 @@
 
 * [Fuel Overview](Fuel_Overview)
 * List of tested MAP sensors - Coming Soon
+* [GM Map sensor](GM-map-Sensor)
 
 </details>
 
 
 <details><summary><u>MAF Sensors</u></summary>
 
-* [GM Map sensor](GM-map-Sensor)
-* List of tested MAP sensors - Coming Soon
+* [List of tested MAP sensors](Vault_Of_Sensors)
 
 </details>
 
