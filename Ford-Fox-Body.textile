@@ -1,0 +1,36 @@
+
+Mechanical distributor - single not smart two wire coil.
+
+Solenoid idle air control.
+
+8 injectors wired separately.
+
+
+
+John to document wiring here.
+<pre><code>
+rusEFI  Car     MRE             Desc                    Connection Type
+2		Ground	        Main Ground	        Ground
+3	 	IAC	        Idle Air Controler	Sensor
+5	 	12v +	        Main Power	        Positive Power in
+7	 	???             Shift Light		Ground
+9	 	IGN1	        Injector 5	        Ground
+10	 	IGN2	        Injector 6	        Ground
+11	 	IGN3	        Injector 7	        Ground
+12	 	IGN4	        Injector 8	        Ground
+15	 	USB D -	        Negative USB	        White Wire
+16		USB D +	        Positive USB	        Green Wire
+17		SGND	        Signal Ground USB	Black Wire
+18	 	CLT / ECT       Engine Coolant Temp   	Sensor
+23	 	IAT	        Intake Air Temp	        Sensor
+25	 	Cam (hall)	Cam Sensor 1	        Sensor
+26	 	TPS	        Throttle Position	Sensor
+27	 	MAP	        Manifold Air Pressure	Sensor
+32	 	EGT	        Exhaust Gas Temp (AEM)	Sensor
+37	 	INJ 1	        Injector 1	        Ground
+38	 	INJ 2	        Injector 2	        Ground
+41		INJ 3	        Injector 3	        Ground
+42		INJ 4	        Injector 4	        Ground
+44	 	5v +	        5 volt sensor Power	5v + Power Output
+45	 	Crank VR+/hall	Cam Sensor 2	        Sensor
+</code></pre>
