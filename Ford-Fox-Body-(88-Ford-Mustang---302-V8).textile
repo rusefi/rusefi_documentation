@@ -5,9 +5,6 @@ Solenoid idle air control.
 
 8 injectors wired separately.
 
-
-
-John to document wiring here.
 <pre><code>
 rusEFI  Car     MRE             Desc                    Connection Type
 2		Ground	        Main Ground	        Ground
