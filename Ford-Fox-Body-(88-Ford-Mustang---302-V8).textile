@@ -11,10 +11,10 @@ rusEFI  Car     MRE             Desc                    Connection Type
 3	 	IAC	        Idle Air Controler	Sensor
 5	 	12v +	        Main Power	        Positive Power in
 7	 	???             Shift Light		Ground
-9	 	IGN1	        Injector 5	        Ground
-10	 	IGN2	        Injector 6	        Ground
-11	 	IGN3	        Injector 7	        Ground
-12	 	IGN4	        Injector 8	        Ground
+9	14 	IGN1	        Injector 5	        Ground
+10	15	IGN2	        Injector 6	        Ground
+11	42 	IGN3	        Injector 7	        Ground
+12	52 	IGN4	        Injector 8	        Ground
 15	 	USB D -	        Negative USB	        White Wire
 16		USB D +	        Positive USB	        Green Wire
 17		SGND	        Signal Ground USB	Black Wire
@@ -24,10 +24,12 @@ rusEFI  Car     MRE             Desc                    Connection Type
 26	 	TPS	        Throttle Position	Sensor
 27	 	MAP	        Manifold Air Pressure	Sensor
 32	 	EGT	        Exhaust Gas Temp (AEM)	Sensor
-37	 	INJ 1	        Injector 1	        Ground
-38	 	INJ 2	        Injector 2	        Ground
-41		INJ 3	        Injector 3	        Ground
-42		INJ 4	        Injector 4	        Ground
+37	58 	INJ 1	        Injector 1	        Ground
+38	59 	INJ 2	        Injector 2	        Ground
+41	12	INJ 3	        Injector 3	        Ground
+42	13	INJ 4	        Injector 4	        Ground
 44	 	5v +	        5 volt sensor Power	5v + Power Output
 45	 	Crank VR+/hall	Cam Sensor 2	        Sensor
 </code></pre>
+
+"88-91 ECU Diagram":http://www.veryuseful.com/mustang/tech/engine/images/88-91_5.0_EEC_Wiring_Diagram.gif
