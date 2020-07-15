@@ -7,9 +7,9 @@ Solenoid idle air control.
 
 <pre><code>
 rusEFI  Car     MRE             Desc                    Connection Type
-2		Ground	        Main Ground	        Ground
-3	 	IAC	        Idle Air Controler	Sensor
-5	 	12v +	        Main Power	        Positive Power in
+2	20	Ground	        Main Ground	        Ground
+3	21 	IAC	        Idle Air Controler	Sensor
+5	37/57 	12v +	        Main Power	        Positive Power in
 7	 	???             Shift Light		Ground
 9	14 	IGN1	        Injector 5	        Ground
 10	15	IGN2	        Injector 6	        Ground
@@ -18,7 +18,7 @@ rusEFI  Car     MRE             Desc                    Connection Type
 15	 	USB D -	        Negative USB	        White Wire
 16		USB D +	        Positive USB	        Green Wire
 17		SGND	        Signal Ground USB	Black Wire
-18	 	CLT / ECT       Engine Coolant Temp   	Sensor
+18	07 	CLT / ECT       Engine Coolant Temp   	Sensor
 23	 	IAT	        Intake Air Temp	        Sensor
 25	 	Cam (hall)	Cam Sensor 1	        Sensor
 26	47 	TPS	        Throttle Position	Sensor
