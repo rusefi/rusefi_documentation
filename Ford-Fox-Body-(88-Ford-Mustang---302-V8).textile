@@ -21,7 +21,7 @@ rusEFI  Car     MRE             Desc                    Connection Type
 18	 	CLT / ECT       Engine Coolant Temp   	Sensor
 23	 	IAT	        Intake Air Temp	        Sensor
 25	 	Cam (hall)	Cam Sensor 1	        Sensor
-26	 	TPS	        Throttle Position	Sensor
+26	47 	TPS	        Throttle Position	Sensor
 27	 	MAP	        Manifold Air Pressure	Sensor
 32	 	EGT	        Exhaust Gas Temp (AEM)	Sensor
 37	58 	INJ 1	        Injector 1	        Ground
