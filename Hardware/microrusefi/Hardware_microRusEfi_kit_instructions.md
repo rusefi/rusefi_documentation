@@ -17,6 +17,10 @@ If in double of your SMD skills please consider fully assembled version.
 
 For component placement please use interactive BOM
 
+[0.5.2](https://rusefi.com/docs/ibom/micro_rusEFI_R0.5.2.html)
+
+[0.5.1](https://rusefi.com/docs/ibom/micro_rusEFI_R0.5.1.html)
+
 [0.5.0](https://rusefi.com/docs/ibom/micro_rusEFI_0.5.0.html)
 
 [0.4.8](https://rusefi.com/docs/ibom/microRusEfi_R0.4.8.html)
@@ -27,7 +31,7 @@ For component placement please use interactive BOM
 [Some checkpoints](Hardware/microrusefi/Hardware_microRusEfi_0_4_7_front_checks.jpg)
 
 
-All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre-f4.zip)
+All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 
 
 
@@ -64,10 +68,13 @@ VR mode back
 
 0.4.8: For Hall, you would need to REMOVE R15&R9, C12 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
 
-Hall mode front
+0.5.0 Hall
+![Front](Hardware/microrusefi/Hardware_microRusEfi_0.5.0_hall_mode.jpg)
+
+0.4.7 Hall mode front
 ![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_front.jpg)
 
-Hall mode back
+0.4.7 Hall mode back
 ![Back](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_hall_back.png)
 
 
@@ -104,3 +111,11 @@ RTC diode D42
 Wake-up CAN R8
 
 [More images](https://github.com/rusefi/hw_microRusEfi/blob/master/gerbers)
+
+# Direct board programming
+
+J7 header in bottom-left corner of microRusEFI allows direct SWD programming using TC2030-MCP-NL cable
+
+Tag Connect In circuit Cable "NO Legs" Version
+
+![x](Hardware/microrusefi/TC2030_SWD.jpg)

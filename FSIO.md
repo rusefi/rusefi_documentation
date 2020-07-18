@@ -317,6 +317,18 @@ See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsi
 
 ![](Images/Fsio_TS.png)
 
+
+---
+A/C control
+
+Work in Progress
+
+useFSIO12ForIdleOffset:false
+useFSIO13ForIdleMinValue:false
+
+// Human-readable: ac_on_switch & (rpm > 850) & (time_since_ac_on_switch > 0.3)
+
+
 ---
 
 ## See aslo

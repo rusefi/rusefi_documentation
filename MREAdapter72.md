@@ -131,6 +131,7 @@ In order to use this output as an analogue input requires the removal of the LED
 ---
 
 
+
 # Photos
 https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/MREAdapter72_0_2_front.jpg
 https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/MREAdapter72_0_2_back.jpg
