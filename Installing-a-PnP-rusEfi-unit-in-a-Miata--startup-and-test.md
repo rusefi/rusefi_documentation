@@ -2,7 +2,7 @@ This guide is written for the firmware released August 6th 2020. The further awa
 
 Most PnP rusEfi units can be powered through the USB port. So you can set it up in the comfort of your living room and have it communicate with Tunerstudio before it is installed in the car. It is highly recommended to try this approach. 
 
-Connect TunerStudio to your ECU. You will need a USB cable to establish communication between your tuning laptop and the rusEfi unit. There will typically be only one USB port on a PnP unit.
+Connect TunerStudio to your ECU. You will need a USB cable to establish communication between your tuning laptop and the rusEfi unit. There will typically be only one micro-USB port on a PnP unit.
 
 If you have a frankenso unit, the "brainboard" which is the smaller green board sitting on top of the red-ish main board, will have TWO USB connectors. One micro (the same as typical for older cellphones pre USB-C). This mirco-USB connector is for communication with TunerStudio. There is also a mini-USB connector on the other side of the brainboard. This is for delivering power and for flashing new firmware. During normal tuning, all you need is the connection with the micro-USB connector. 
 
