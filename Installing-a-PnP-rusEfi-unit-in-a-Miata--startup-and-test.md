@@ -4,7 +4,7 @@ Most PnP rusEfi units can be powered through the USB port. So you can set it up 
 
 Connect TunerStudio to your ECU. You will need a USB cable to establish communication between your tuning laptop and the rusEfi unit. There will typically be only one micro-USB port on a PnP unit.
 
-If you have a frankenso unit, the "brainboard" which is the smaller green board sitting on top of the red-ish main board, will have TWO USB connectors. One micro (the same as typical for older cellphones pre USB-C). This mirco-USB connector is for communication with TunerStudio. There is also a mini-USB connector on the other side of the brainboard. This is for delivering power and for flashing new firmware. During normal tuning, all you need is the connection with the micro-USB connector. 
+If you have a frankenso unit, the "brainboard" which is the smaller green board sitting on top of the red-ish main board, will have TWO USB connectors. One is a micro-USB (the same as typical for older cellphones pre USB-C) at the rear of the board (away from the main ECU connector). This mirco-USB connector is for communication with TunerStudio. There is also a mini-USB connector on the other side of the brainboard. This is for delivering power and for flashing new firmware. During normal tuning, all you need is the connection with the micro-USB connector. 
 
 Your laptop should give you an audible notification when you plug in the ECU with the ignition turned on. That means that it "sees" a new device connected to a USB port.
 Under "Communications" -> "Communication Settings" [IMAGE] you should select the correct COM port for your rusEfi. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEfi COM-port. For most cases, the selected Baud rate does not matter. If you can't establish communication, try baud rate 38,400 | 57,600 or 115,200. If that doesn't work, you may need to try a different COM port. 
@@ -43,4 +43,4 @@ Close the test window. We're getting close to starting the car.
 
 Turn the ignition off and unplug the USB cable. This removes power to the unit- just to make sure we're in a defined state. Then reconnect the USB cable, turn on the ignition, wait for TunerStudio to come to life and then crank the engine. You should see the rpms jump to a positive value (typical would be anywhere between 200 and 600rpm) and your engine should start. It may take a few cranks for rpms to register. 
 
-And we're done with the initial startup. Congratulations- you have your car running on your standalone aftermarket ECU! 
+And we're done with the initial startup. Congratulations- you have your car running on your standalone aftermarket ECU!
