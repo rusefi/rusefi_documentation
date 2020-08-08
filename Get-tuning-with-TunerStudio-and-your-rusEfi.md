@@ -22,7 +22,7 @@ Now we need the engine to idle acceptably, so we can check base timing. If your 
 This section assumes that you have a wideband O2 sensor installed and you get readings that make some sort of sense. 
 If your idle is just rough and low, or way too high, or maybe oscillating wildly, the most likely issue is that your idle control is not set right. Open the idle control main dialog under "Idle" -> "Idle Settings" and change the first setting to "Manual" (circled in yellow). This will allow you to manually control your idle setting. Then use the slider (circled in purple) to change your idle rpm.
 ![Miata NA 48 pin board for MRE](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view.png)
-![Idle_Settings](Images/Initial_Setup_Images/Manual_idle.png)
+![Idle_Settings](rusefi_documentation/Images/Initial_Setup_Images/Manual_idle.png)
 
 (If this doesn't do anything, chances are that your idle control has an issue and you need to do some troubleshooting of the hardware of basic settings). Try and get your idle to between 800 and 1200 rpm or so. Make sure it's not fluctuating much. 
 If you can change your idle to some degree with the idle control, but can't really get it right, chances are either your engine is running with a terrible air-fuel-ratio or possibly your ignition timing is way off. 
