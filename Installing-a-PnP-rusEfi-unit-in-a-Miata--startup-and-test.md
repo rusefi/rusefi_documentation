@@ -28,17 +28,19 @@ Connect TunerStudio to your ECU.
 With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. If things are set up properly, you should see reasonable values for [Coolant temperature], [Air Intake temperature], [Battery Voltage], [Manifold Air Pressure] (should be near 100kpa if you're using a MAP snesor) and even your [throttle pedal position]. The values may show some jitters. Your rpms should be 0. Push your throttle pedal and see if you get a response. Congratulations- your rusEfi can "see" your car.
 
 ## Step 5:
-Calibrate your throttle pedal. Go to "Tools" -> "Calibrate TPS". Don't touch the throttle and click on "Get Current" next to "Closed Throttle ADC count". Now do the same for full throttle.
+Calibrate your throttle pedal. Go to "Tools" -> "Calibrate TPS". Don't touch the throttle and click on "Get Current" next to "Closed Throttle ADC count". Now step on the gas- full-throttle! And do the same for full-throttle.
 
 ## Step 6:
 Test your outputs. Under "Controller" -> "Bench Test & Commands" you can see a lot of options for outputs you can test. Let's focus on the basic ones for now. Spark and Fuel. First, if your car's fuel pump is controlled by the ECU, test "Fuel Pump". You should hear the fuel pump running. 
 
-Then move on to spark. Here it depends on how your car is set up. If you have a 4-cylinder with wasted spark (which is likely the majority of users), you will likely be using "Spark #1" and "Spark #3". When you click the test button, you should hear the corresponding ignition coil firing. If you can't hear the spark, you may want to pull a spark plug (or use a spare) and hook it up to the sparkplug connector and ground it. Test again and you should see a spark arcing. 
+Then move on to spark. Here it depends on how your car is set up. If you have a 4-cylinder with wasted spark (which is likely the majority of users), you will likely be using "Spark #1" and "Spark #3". When you click the test button, you should hear the corresponding ignition coil firing. If you can't hear the spark, you may want to pull a spark plug (or use a spare) and hook it up to the spark plug connector and ground it. Test again and you should see a spark arcing.
 
-Now it's time to test your injectors. Again, this depends on your vehicle. Most cars will at least have two banks of injectors. So you should definitely hear injectors firing when you're testing "Injector #1" and "Injector #2". If you have full-sequential fuel, you should try as many injectors as your engine as cylinders.
+Now it's time to test your injectors. Again, this depends on your vehicle. Most cars will at least have two banks of injectors. So you should definitely hear injectors firing when you're testing "Injector #1" and "Injector #2". If you have full-sequential fuel, you should try as many injectors as your engine has cylinders.
 
-That's the basic outputs tested. With this you should be able to get the engine to run. You can go ahead and test the other outputs as well. Like Check Engine Light. fan, AC, AC fan etc.
+That's the basic outputs tested. With this you should be able to get the engine to run. You can go ahead and test the other outputs as well. Like Check Engine Light. Engine-Fan, AC, AC-Fan etc.
 
-Turn the ignition off and unplug the USB cable to power the unit off- just to make sure. Then reconnect the USB cable, turn on the ignition, wait for TunerStudio to come to life and the crank the engine. You should see the rpms jump to a positive value (typical would be anywhere between 200 and 600rpm) and your engine should start. It may take a few cranks for rpms to register. 
+Close the test window. We're getting close to starting the car. 
+
+Turn the ignition off and unplug the USB cable. This removes power to the unit- just to make sure we're in a defined state. Then reconnect the USB cable, turn on the ignition, wait for TunerStudio to come to life and then crank the engine. You should see the rpms jump to a positive value (typical would be anywhere between 200 and 600rpm) and your engine should start. It may take a few cranks for rpms to register. 
 
 And we're done with the initial startup. Congratulations- you have your car running on your standalone aftermarket ECU! 
