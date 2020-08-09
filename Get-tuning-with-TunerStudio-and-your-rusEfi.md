@@ -38,18 +38,33 @@ Don't worry about getting this "just right" for now. All we want is a fairly smo
 (* if you've been running the engine super-rich for extended periods of time, change your oil. You will likely have a substantial amount of fuel that has been washed into your oil now. Fuel is not a great lubricant)
 
 ### Adjust base timing
-Now that you have a somewhat smooth idle, it's time to adjust your base timing. In order to do this, you must have some sort of timing mark on your crank pulley and some pointer on the engine block. You need to know what the ignition timing is, when the two are lined up. 
+Now that you have a somewhat smooth idle, it's time to adjust your base timing. In order to do this, you must have some sort of timing mark on your crank pulley and some pointer on the engine block. You need to know what the ignition timing is, when the two are lined up.
+
 ![Timing Mark](https://www.wikihow.com/images/thumb/5/5a/Adjust-Timing-Step-3-Version-3.jpg/aid1389196-v4-728px-Adjust-Timing-Step-3-Version-3.jpg)
-We are working on the assumption that your ECU has a "safe" idle tune already uploaded. This would be a tune that allows the engine to run reasonably well with 93 Octane (US super) fuel without excessive detonation (ping) or pre-ignition, but is not yet optimized for hp or economy.
+
+We are working on the assumption that your ECU has a "safe" spark advance tune already uploaded. This would be a tune that allows the engine to run reasonably well with 93 Octane (US super) fuel without excessive detonation (ping) or pre-ignition, but is not yet optimized for hp or economy.
 
 Borrow your neighbor's timing light and hook it up, following the original instructions for the timing light that your neighbor kept carefully locked away and absolutely grease-free for the last 25 years. Chances are, if the engine is running smoothly, you are within +/- 25 degrees of where you are supposed to be. 
 
-In order to get this just right, you need to change your timing from "dynamic" to "fixed". Open "Ignition" -> "Ignition Settings" and set "Timing Mode" to "fixed". Set the "Fixed Tinming(deg)" to whatever the value is when the mark on your crank-pulley lines up. This is very often 10 degrees or something thereabouts. Now check with your timing light if the marks line up. If they do- great. Your base timing is set. Go ahead and change your timing mode back to "dynamic".
-If the marks don't line up, you need to adjust your trigger settings. Go to "Base Engine" -> "Trigger" and adjust "Trigger Angle Offset(deg)" until your timing mark lines up. Once this is done, don't forget to change your timing mode back to "dynamic" or you will continue to run on fixed timing and give up a ton of horsepower/fuel economy and have some REALLY high exhaust temperatures. 
+In order to get this just right, you need to change your timing from "dynamic" to "fixed". Open "Ignition" -> "Ignition Settings" and set "Timing Mode" to "fixed". Set the "Fixed Tinming(deg)" to whatever the value is when the mark on your crank-pulley lines up. 
+![Fixed Timing](Images/Initial_Setup_Images/Fixed_timing.png)
+This is very often 10 degrees or something thereabouts. Now check with your timing light if the marks line up. If they do- great. Your base timing is set. Go ahead and change your timing mode back to "dynamic".
+If the marks don't line up, you need to adjust your trigger settings. Go to "Base Engine" -> "Trigger" and adjust "Trigger Angle Offset(deg)" until your timing mark lines up. 
+Once this is done, don't forget to change your timing mode back to "dynamic" or you will continue to run on fixed timing and give up a ton of horsepower/fuel economy and have some REALLY high exhaust temperatures. 
 
 ## Time to Tune your VE table with TS AutoTune
 This is assuming that you are using the purchase version of TunerStudio with Autotune enabled. If you are planning on tuning your fuel table manually, you probably know what you're doing and don't need to read this wiki.
 
 But before we get to the exciting subject of tuning, there is the slightly more boring subject of target AFRs. These are defined in the aptly named target AFR table. Go to "Fuel" -> "Target AFR" and to start with having a value of 14 in all cells is probably good enough. Or you can go a bit more creative and use something like this.
+![Fancy_Target_AFR](Images/Initial_Setup_Images/Target_AFR_table.png)
+
+Let's talk about stoichiometry: 
+A stoichiometric mixture of fuel and gas is where every oxygen molecule gets fully burned by the fuel and all the fuel is burned by the oxygen. So there's no excess oxygen and no excess fuel. If you have excess oxygen, the mixture is lean. If you have excess fuel, the mixture is rich. With regular gasoline, the stoichiometric mixture is about 14.7. This means you need 14.7 pounds of air to burn 1 pound of fuel. This is what a wideband O2 sensor displays. 
+Rich is safer than lean. Rich mixtures tend to burn more slowly and "cooler". Lean mixtures burn hotter and faster, so there's more potential damage to your engine from running lean than from running rich. Also lean mixtures are more difficult to ignite than rich mixture. While you may have trouble getting your engine to run nicely at an AFR of 15.7 (one point more than stoichiometric), your engine will run fine all day at an AFR of 13.7. 
+All this is to say that it's better to start out too rich than to start out too lean.
+
+Now we are assuming at this point that your engine is at least idling and you can hopefully keep it alive if you give it some throttle. Maybe it even runs alright through most of the normal operating range. This would be the case if you received a fuel base map from some engine that is at least similar to your engine. 
+
+Autotune will 
 
 
