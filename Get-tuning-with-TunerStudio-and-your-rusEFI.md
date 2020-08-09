@@ -8,7 +8,7 @@ Inputs:
 - Intake Air Temperature
 - Wideband O2 sensor would be really great to have too
 
-*Using a Mass Airflow Meter assumes that you have a known MAF transfer function for you specific Mass Airflow Meter
+*Using a Mass Airflow Meter assumes that you have a known MAF transfer function for your specific Mass Airflow Meter
 
 Outputs:
 - Fuel pump (if controlled by ECU)
