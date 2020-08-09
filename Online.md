@@ -7,9 +7,12 @@
 - checkout other's tunes
 
 
+See [HOWTO set rusEfi Online authentication token](HOWTO-set-rusEfi-Online-authentication-token)
+
 See [HOWTO upload tune](HOWTO_upload_tune)
 
-See [HOWTO set rusEfi Online authentication token](HOWTO-set-rusEfi-Online-authentication-token)
+See [HOWTO Remote Tuning](https://github.com/rusefi/rusefi/wiki/HOWTO-Remote-Tuning)
+
 
 
 For development details see https://github.com/rusefi/web_backend
