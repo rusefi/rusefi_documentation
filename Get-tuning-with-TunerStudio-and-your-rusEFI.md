@@ -1,4 +1,4 @@
-Obviously tuning is a subject too complex to be dealt with exhaustively in a short wiki page. So all we can do here is give you some pointers. At this point we assume that you got the engine to run, or at least sputter using your rusEfi. All your main inputs and outputs needed to make an engine run OK are working. 
+Obviously tuning is a subject too complex to be dealt with exhaustively in a short wiki page. So all we can do here is give you some pointers. At this point we assume that you got the engine to run, or at least sputter using your rusEFI. All your main inputs and outputs needed to make an engine run OK are working. 
 
 This should be at least:
 Inputs:
