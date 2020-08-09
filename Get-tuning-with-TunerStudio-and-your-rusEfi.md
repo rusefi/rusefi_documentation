@@ -39,7 +39,7 @@ Don't worry about getting this "just right" for now. All we want is a fairly smo
 
 ### Adjust base timing
 Now that you have a somewhat smooth idle, it's time to adjust your base timing. In order to do this, you must have some sort of timing mark on your crank pulley and some pointer on the engine block. You need to know what the ignition timing is, when the two are lined up. 
-
+![Timing Mark](https://www.wikihow.com/images/thumb/5/5a/Adjust-Timing-Step-3-Version-3.jpg/aid1389196-v4-728px-Adjust-Timing-Step-3-Version-3.jpg)
 We are working on the assumption that your ECU has a "safe" idle tune already uploaded. This would be a tune that allows the engine to run reasonably well with 93 Octane (US super) fuel without excessive detonation (ping) or pre-ignition, but is not yet optimized for hp or economy.
 
 Borrow your neighbor's timing light and hook it up, following the original instructions for the timing light that your neighbor kept carefully locked away and absolutely grease-free for the last 25 years. Chances are, if the engine is running smoothly, you are within +/- 25 degrees of where you are supposed to be. 
