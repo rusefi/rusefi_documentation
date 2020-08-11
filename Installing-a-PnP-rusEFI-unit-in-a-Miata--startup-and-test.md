@@ -1,13 +1,13 @@
 This guide is written for the firmware released August 6th 2020. The further away from this date your FW is, the less agreement you will have in specific locations of items in TunerStudio and terms used etc. HOWEVER, the basic principles should still apply. Before you get here, install TunerStudion and MegalogViewer (the pay versions are highly recommeded). Create a new project in TunerStudio. By the way: this is not a TunerStudio manual. 
 
-Most PnP rusEfi units can be powered through the USB port. So you can set it up in the comfort of your living room and have it communicate with Tunerstudio before it is installed in the car. It is highly recommended to try this approach. 
+Most PnP rusEFI units can be powered through the USB port. So you can set it up in the comfort of your living room and have it communicate with Tunerstudio before it is installed in the car. It is highly recommended to try this approach. 
 
-Connect TunerStudio to your ECU. You will need a USB cable to establish communication between your tuning laptop and the rusEfi unit. There will typically be only one micro-USB port on a PnP unit.
+Connect TunerStudio to your ECU. You will need a USB cable to establish communication between your tuning laptop and the rusEFI unit. There will typically be only one micro-USB port on a PnP unit.
 
 If you have a frankenso unit, the "brainboard" which is the smaller green board sitting on top of the red-ish main board, will have TWO USB connectors. One is a micro-USB (the same as typical for older cellphones pre USB-C) at the rear of the board (away from the main ECU connector). This mirco-USB connector is for communication with TunerStudio. There is also a mini-USB connector on the other side of the brainboard. This is for delivering power and for flashing new firmware. During normal tuning, all you need is the connection with the micro-USB connector. 
 
 Your laptop should give you an audible notification when you plug in the ECU with the ignition turned on. That means that it "sees" a new device connected to a USB port.
-Under "Communications" -> "Communication Settings" [IMAGE] you should select the correct COM port for your rusEfi. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEfi COM-port. For most cases, the selected Baud rate does not matter. If you can't establish communication, try baud rate 38,400 | 57,600 or 115,200. If that doesn't work, you may need to try a different COM port. 
+Under "Communications" -> "Communication Settings" [IMAGE] you should select the correct COM port for your rusEFI. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEFI COM-port. For most cases, the selected Baud rate does not matter. If you can't establish communication, try baud rate 38,400 | 57,600 or 115,200. If that doesn't work, you may need to try a different COM port. 
 After selecting the COM-port (and baud rate), click on "Test Port". This should result in a "successful!" message. If you get a failed message, you need to adjust your settings. After a successful test of the port click "Accept".
 
 With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. Of course the values displayed miught not make a lot of sense, since your ECU is lacking a car, but at least you can see that TunerStudio and your computer are communicating.
@@ -18,14 +18,14 @@ With this your TunerStudio screen should come to life! You should see sensor inp
 Run your car on your stock ECU to warm it up. This may make it easier to start, especially when it's cold outside
 
 ## Step 2:
-Unplug your stock ECU and plug in your rusEfi PnP. You probably don't want to close the lid just yet, so you can observe blinky lights etc. 
+Unplug your stock ECU and plug in your rusEFI PnP. You probably don't want to close the lid just yet, so you can observe blinky lights etc. 
 
 ## Step 3: 
 Turn on the ignition. DO NOT START THE CAR
 
 ## Step 4:
 Connect TunerStudio to your ECU. 
-With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. If things are set up properly, you should see reasonable values for [Coolant temperature], [Air Intake temperature], [Battery Voltage], [Manifold Air Pressure] (should be near 100kpa if you're using a MAP snesor) and even your [throttle pedal position]. The values may show some jitters. Your rpms should be 0. Push your throttle pedal and see if you get a response. Congratulations- your rusEfi can "see" your car.
+With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. If things are set up properly, you should see reasonable values for [Coolant temperature], [Air Intake temperature], [Battery Voltage], [Manifold Air Pressure] (should be near 100kpa if you're using a MAP snesor) and even your [throttle pedal position]. The values may show some jitters. Your rpms should be 0. Push your throttle pedal and see if you get a response. Congratulations- your rusEFI can "see" your car.
 
 ## Step 5:
 Calibrate your throttle pedal. Go to "Tools" -> "Calibrate TPS". Don't touch the throttle and click on "Get Current" next to "Closed Throttle ADC count". Now step on the gas- full-throttle! And do the same for full-throttle.
