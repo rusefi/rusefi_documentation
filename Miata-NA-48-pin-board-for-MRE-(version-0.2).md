@@ -70,3 +70,8 @@ If you just get the bare board with all the jumpers installed, there's some thin
 
 ## 5.1. MAP Sensor
 There are two positions for installing a MAP sensor on the board. The sensors used are [MPX4250](https://www.digikey.com/product-detail/en/nxp-usa-inc/MPX4250AP/MPX4250AP-ND/464053). They should be secured with two screws each. [4-40 x 0.5 socket head cap screws](https://www.mcmaster.com/92196A110/) are preferred. Of course, these screws will require some [nuts](https://www.mcmaster.com/91841A005/).
+
+# 6. VAF sensor pinout for conversions 
+
+![](/Images/NA_Miata_VAF1.png)
+![](/Images/NA_Miata_VAF2.png)
