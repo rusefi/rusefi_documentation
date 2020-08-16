@@ -1,3 +1,14 @@
 rusEFI Android App is part of [rusEFI Online](https://github.com/rusefi/rusefi/wiki/Online) suite. The primary job of rusEFI Android app is to provide rusEFI ECU with remote tuning capability.
 
 One day we will publish rusEFI Android at the google store but for now you would have to install it using [rusEFI-release.apk](https://rusefi.com/build_server/rusEFI-release.apk)
+
+
+Q: How to disable "Google Play Protect"?
+
+A: On Android >= 8
+Settings => Apps => Google Play Store => Notifications => High priority => Turn OFF
+
+On Android <= 7
+Settings => Notifications => Google Play Store => Block all
+
+[Click here for pictures](https://support.mobile-tracker-free.com/hc/en-us/articles/360005346953-How-to-disable-Google-Play-Protect-)
