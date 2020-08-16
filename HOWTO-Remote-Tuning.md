@@ -3,7 +3,7 @@ Remote tuning is possible over Internet using rusEFI TunerStudio plugin if rusEF
 There are three ways to connect rusEFI to internet:
 1) Coming soon: "Broadcast" tab of rusEFI TunerStudio plugin.
 2) rusEFI network_connector tool running for instance on Raspberry Pi
-3) [rusEFI-Android](rusEFI Android application).
+3) [rusEFI Android application](rusEFI-Android)
 
 Connecting to remote ECU is a two step process:
 First you connect rusEFI TunerStudio plugin to remote controller via Internet, and then you connect TunerStudio to rusEFI TunerStudio plugin locally. IP Address "localhost" Port default value 29001.
