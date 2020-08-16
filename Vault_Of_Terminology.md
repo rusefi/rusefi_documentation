@@ -2,55 +2,56 @@
 
 ## This document contains all of the commonly used abbreviations and terminology used by rusEFI
 
-TFSI - Turbo Fuel Stratified Injection - A VW direct injection lean burn strategy  
-GDI - Gasoline Direct Injection  
-EGR - Exhaust gas recirculation  
+BMEP - Brake mean effective pressure  
+CoV - Coefficient of variability  
+CR - compression ratio  
 DI - Direct injection  
+DISA - BMW variable inlet manifold resonance system  
+EGR - Exhaust gas recirculation  
+EGT - Exhaust gas temperature  
+ETB - Electronic throttle body  
+EVC - Exhaust valve closing  
+EVO - Exhaust valve opening   
+GDI - Gasoline Direct Injection   
 Hall - A type of sensor that requires a power and earth wire in addition to its signal wire, the output is normally a 5v square wave.  
 High side - A driver that is open circuit when off and powered to 5v or 12v when on.  
-Low side - A driver that is open circuit when off and grounded to earth when switched on.  
 High/Low driver - a pushpull or HighLow is an output that is powered "high" (12v or 5v) and switched to low (earth).  
-SMD - Surface mount device, interchangeable with SMT   
-SMT - Surface mount technology, interchangeable with SMD  
-VANOS - BMW variable valve timing system  
-Valvetronic - BMW variable valve lift system  
-DISA - BMW variable inlet manifold resonance system  
-VISA - BMW variable inlet manifold length system  
-ETB - Electronic throttle body  
-PID - A proportional–integral–derivative controller  
-VSS - Vehicle speed sensor  
-VCC - Common Collector Voltage; the positive supply voltage for an integrated circuit  
-VDD - the DC Power supply connected to Drain Terminal of any FET circuit.  
-TLE - Short for TLE8888 the Infineon chip on the MRE  
-RE - rusEFI  
-REO - rusEFI Online  
-MRE - Micro rusEFI  
-PNP - Plug and play  
-NTC - Negative temperature coefficient, used in context of temperature sensors and refers to the resistance increasing as temperature decreases.  
-PFI - Port fuel injection  
+High and low Z - High and low resistance, used in terms of fuel injectors, normally around 14 ohms for high impedance and ~4 ohms for low.  
+IMEP - Indicated mean effective pressure 
+Injector impedance - The resistance of the fuel injectors, see high and low Z   
+IVC - Intake valve closing  
+IVO - Intake valve opening  
+Low side - A driver that is open circuit when off and grounded to earth when switched on.  
+LQFP - Low profile quad flat package  
 MBT - Mean best timing, used in context of spark timing, it is the spark timing that results in the best torque  
 MFB - Mass fraction burned, often stated with a number after i.e. MFB10/MFB50/MFB90 and refers to the fraction of the fuel burned by mass.  
-CR - compression ratio  
-Stoichiometric - The ideal quantity of fuel to burn with a quantity of air for complete combustion. For gasoline this is 14.7:1, ethanol is 9:1 and methanol 6.47:1  
-TVIS - Toyota variable intake system, a variable inlet length system that switches on/off a set of longer intake manifold runners.  
-IMEP - Indicated mean effective pressure  
-IVC - Intake valve closing  
-EVC - Exhaust valve closing  
-IVO - Intake valve opening  
-EVO - Exhaust valve opening  
-SI - Spark injection  
-VVT - Variable valve timing  
-CoV - Coefficient of variability  
-EGT - Exhaust gas temperature  
-BMEP - Brake mean effective pressure  
-High and low Z - High and low resistance, used in terms of fuel injectors, normally around 14 ohms for high impedance and ~4 ohms for low.  
-Injector impedance - The resistance of the fuel injectors, see high and low Z  
-Smart coil - A type of ignition coil that has its ignition drivers (IGBT) built into the coil, this means they only receive a 5v signal to activate.  
+MRE - Micro rusEFI  
+NTC - Negative temperature coefficient, used in context of temperature sensors and refers to the resistance increasing as temperature decreases.  
+PFI - Port fuel injection  
+PID - A proportional–integral–derivative controller  
+PNP - Plug and play  
 Primary coil - The primary winding of an ignition coil  
+RE - rusEFI  
+REO - rusEFI Online  
 Secondary coil - The secondary winding of an ignition coil.  
-LQFP - Low profile quad flat package  
+SI - Spark injection  
+Smart coil - A type of ignition coil that has its ignition drivers (IGBT) built into the coil, this means they only receive a 5v signal to activate.  
+SMD - Surface mount device, interchangeable with SMT   
+SMT - Surface mount technology, interchangeable with SMD  
+Stoichiometric - The ideal quantity of fuel to burn with a quantity of air for complete combustion. For gasoline this is 14.7:1, ethanol is 9:1 and methanol 6.47:1  
 SOIC - small outline integrated circuit  
 TE - TE connectors, they produce the ampseal connectors on the proteus and a lot of OEM ECUs.  
+TFSI - Turbo Fuel Stratified Injection - A VW direct injection lean burn strategy  
+TLE - Short for TLE8888 the Infineon chip on the MRE  
+TVIS - Toyota variable intake system, a variable inlet length system that switches on/off a set of longer intake manifold runners.  
+Valvetronic - BMW variable valve lift system  
+VANOS - BMW variable valve timing system  
+VCC - Common Collector Voltage; the positive supply voltage for an integrated circuit  
+VDD - the DC Power supply connected to Drain Terminal of any FET circuit.  
+VISA - BMW variable inlet manifold length system  
+VSS - Vehicle speed sensor  
+VVT - Variable valve timing  
+ 
 
 
 
