@@ -11,4 +11,4 @@ Settings => Apps => Google Play Store => Notifications => High priority => Turn 
 On Android <= 7
 Settings => Notifications => Google Play Store => Block all
 
-[Click here for pictures](https://support.mobile-tracker-free.com/hc/en-us/articles/360005346953-How-to-disable-Google-Play-Protect-)
+[Click here for pictures related to disable "Google Play Protect"](https://support.mobile-tracker-free.com/hc/en-us/articles/360005346953-How-to-disable-Google-Play-Protect-)
