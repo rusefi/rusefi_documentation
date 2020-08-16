@@ -28,7 +28,10 @@ Shorthand for Barometric pressure
 Before TDC, Before Top Dead Center - See also ATDC 
 </details>
 
-BMEP - Brake mean effective pressure  
+<details><summary><u>BMEP</u></summary>
+
+ Brake mean effective pressure  
+</details>  
 
 <details><summary><u>CAS</u></summary>
  
@@ -40,18 +43,31 @@ Crank Angle Sensor Also See [CPS](http://en.wikipedia.org/wiki/Crankshaft_positi
 Coolant Temperature
 </details>
 
-CoV - Coefficient of variability  
+<details><summary><u>CoV</u></summary>
+
+Coefficient of variability  
+</details>
 
 <details><summary><u>CPS</u></summary>
 
 Crankshaft Position Sensor
 </details>
 
-CR - compression ratio  
+<details><summary><u>CR</u></summary>
 
-DI - Direct injection  
+compression ratio  
+</details>
 
-DISA - BMW variable inlet manifold resonance system  
+<details><summary><u>DI</u></summary>
+
+Direct injection  
+</details>
+
+<details><summary><u>DISA</u></summary>
+
+BMW variable inlet manifold resonance system  
+</details>
+
 
 <details><summary><u>EDIS</u></summary>
 
@@ -65,30 +81,60 @@ Often used when referring to air fuel sensors like the lambda sensor.
 Sometimes also used as HEGO or Heated Exhaust Gas Oxygen.
 </details>
 
-EGR - Exhaust gas recirculation  
+<details><summary><u>EGR</u></summary>
 
-EGT - Exhaust gas temperature  
+Exhaust gas recirculation  
+</details>
+
+<details><summary><u>EGT</u></summary>
+
+Exhaust gas temperature  
+</details>
 
 <details><summary><u>EOI</u></summary>
 
 End Of Injection - See also SOI
 </details>
 
-ETB - Electronic throttle body  
+<details><summary><u>ETB</u></summary>
 
-EVC - Exhaust valve closing  
+Electronic throttle body  
+</details>
 
-EVO - Exhaust valve opening   
+<details><summary><u>EVC</u></summary>
 
-GDI - Gasoline Direct Injection   
+Exhaust valve closing  
+</details>
 
-Hall - A type of sensor that requires a power and earth wire in addition to its signal wire, the output is normally a 5v square wave.  
+<details><summary><u>EVO</u></summary>
 
-High side - A driver that is open circuit when off and powered to 5v or 12v when on.  
+Exhaust valve opening   
+</details>
 
-High/Low driver - a pushpull or HighLow is an output that is powered "high" (12v or 5v) and switched to low (earth).  
+<details><summary><u>GDI</u></summary>
 
-High and low Z - High and low resistance, used in terms of fuel injectors, normally around 14 ohms for high impedance and ~4 ohms for low.
+Gasoline Direct Injection   
+</details>
+
+<details><summary><u>Hall</u></summary>
+
+A type of sensor that requires a power and earth wire in addition to its signal wire, the output is normally a 5v square wave.  
+</details>
+
+<details><summary><u>High Side</u></summary>
+
+A driver that is open circuit when off and powered to 5v or 12v when on.  
+</details>
+
+<details><summary><u>High/Low</u></summary>
+
+a pushpull or HighLow is an output that is powered "high" (12v or 5v) and switched to low (earth).  
+</details>
+
+<details><summary><u>High and Low Z</u></summary>
+
+High and low resistance, used in terms of fuel injectors, normally around 14 ohms for high impedance and ~4 ohms for low.
+</details>
 
 <details><summary><u>IFR</u></summary>
 
@@ -101,21 +147,40 @@ http://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor
 A common type of transistor used for switching high power devices like ignition coils with a low power/voltage output. 
 </details>
 
-IMEP - Indicated mean effective pressure 
-Injector impedance - The resistance of the fuel injectors, see high and low Z   
+<details><summary><u>IMEP</u></summary>
+
+Indicated mean effective pressure 
+</details>
+
+<details><summary><u>Injector Impedance</u></summary>
+
+The resistance of the fuel injectors, see high and low Z   
+</details>
 
 <details><summary><u>IPW</u></summary>
 
 Injector Pulse Width
 </details>
 
-IVC - Intake valve closing  
+<details><summary><u>IVC</u></summary>
 
-IVO - Intake valve opening  
+Intake valve closing  
+</details>
 
-Low side - A driver that is open circuit when off and grounded to earth when switched on.  
+<details><summary><u>IVO</u></summary>
 
-LQFP - Low profile quad flat package 
+Intake valve opening  
+</details>
+
+<details><summary><u>Low side</u></summary>
+
+A driver that is open circuit when off and grounded to earth when switched on.  
+</details>
+
+<details><summary><u>LQFP</u></summary>
+
+Low profile quad flat package 
+</details>
 
 <details><summary><u>MAF</u></summary>
 
@@ -127,42 +192,75 @@ Mass Air Flow, often used in the context of air flow or load sensors.
 Manifold Absolute Pressure or perhaps Manifold Air Pressure, often used in the context of load sensors. 
 </details>
 
-MBT - Mean best timing, used in context of spark timing, it is the spark timing that results in the best torque  
+<details><summary><u>MBT</u></summary>
 
-MFB - Mass fraction burned, often stated with a number after i.e. MFB10/MFB50/MFB90 and refers to the fraction of the fuel burned by mass.  
+Mean best timing, used in context of spark timing, it is the spark timing that results in the best torque  
+</details>
 
-MRE - Micro rusEFI  
+<details><summary><u>MFB</u></summary>
+
+Mass fraction burned, often stated with a number after i.e. MFB10/MFB50/MFB90 and refers to the fraction of the fuel burned by mass.  
+</details>
+
+<details><summary><u>MRE</u></summary>
+
+Micro rusEFI  
+</details>
 
 <details><summary><u>NGC</u></summary>
 
 Chrysler Next Generation Controller
 </details>
 
-NTC - Negative temperature coefficient, used in context of temperature sensors and refers to the resistance increasing as temperature decreases.  
+<details><summary><u>NTC</u></summary>
+
+Negative temperature coefficient, used in context of temperature sensors and refers to the resistance increasing as temperature decreases.  
+</details>
 
 <details><summary><u>PIP</u></summary>
-
-PFI - Port fuel injection  
-
-PID - A proportional–integral–derivative controller  
-
-PNP - Plug and play  
-
-Primary coil - The primary winding of an ignition coil  
 
 Profile ignition pickup See http://en.wikipedia.org/wiki/Profile_ignition_pickup
 </details>
 
-RE - rusEFI  
+<details><summary><u>PFI</u></summary>
 
-REO - rusEFI Online  
+Port fuel injection  
+</details>
+
+<details><summary><u>PID</u></summary>
+
+A proportional–integral–derivative controller  
+</details>
+
+<details><summary><u>PNP</u></summary>
+
+Plug and play  
+</details>
+
+<details><summary><u>Primary Coil</u></summary>
+
+The primary winding of an ignition coil  
+</details>
+
+<details><summary><u>RE</u></summary>
+
+rusEFI  
+</details>
+
+<details><summary><u>REO</u></summary>
+
+rusEFI Online  
+</details>
 
 <details><summary><u>RUSEFI</u></summary>
 
 Really Uber Simple EFI? Robust Ultra Simple EFI? Retarded Unproven Shitty EFI?
 </details>
 
-Secondary coil - The secondary winding of an ignition coil.  
+<details><summary><u>Secondary Coil</u></summary>
+
+The secondary winding of an ignition coil.  
+</details>
 
 <details><summary><u>Sequential</u></summary>
 
@@ -176,13 +274,25 @@ Sequential is required for direct injection engines like common rail diesel.
 Speed Density this is a method of predicting how much fuel should be delivered to an engine. This is a MAP based system which uses pressure to make a prediction of how much O2 is entering the cyl.
 </details>
 
-SI - Spark injection  
+<details><summary><u>SI</u></summary>
 
-Smart coil - A type of ignition coil that has its ignition drivers (IGBT) built into the coil, this means they only receive a 5v signal to activate.  
+Spark injection  
+</details>
 
-SMD - Surface mount device, interchangeable with SMT 
+<details><summary><u>Smart Coil</u></summary>
 
-SMT - Surface mount technology, interchangeable with SMD  
+A type of ignition coil that has its ignition drivers (IGBT) built into the coil, this means they only receive a 5v signal to activate.  
+</details>
+
+<details><summary><u>SMD</u></summary>
+
+Surface mount device, interchangeable with SMT 
+</details>
+
+<details><summary><u>SMT</u></summary>
+
+Surface mount technology, interchangeable with SMD  
+</details>
 
 <details><summary><u>SOI</u></summary>
 
@@ -194,51 +304,90 @@ Start Of Injection - See also EOI
 The use of 2 injectors for one cyl. This commonly means at low RPM and lower loads, one injector is turned on which allows for finer control over idle fuel delivery, while at higher RPM and higher Loads both injector inject fuel which allows for larger amounts of fuel to be delivered.
 </details>
 
-Stoichiometric - The ideal quantity of fuel to burn with a quantity of air for complete combustion. For gasoline this is 14.7:1, ethanol is 9:1 and methanol 6.47:1  
+<details><summary><u>Stoichiometric</u></summary>
 
-SOIC - small outline integrated circuit  
+The ideal quantity of fuel to burn with a quantity of air for complete combustion. For gasoline this is 14.7:1, ethanol is 9:1 and methanol 6.47:1
+</details>
+
+<details><summary><u>SOIC</u></summary>
+
+small outline integrated circuit  
+</details>
 
 <details><summary><u>TDC</u></summary>
 
 Top Dead Center
 </details>
 
-TE - TE connectors, they produce the ampseal connectors on the proteus and a lot of OEM ECUs.  
+<details><summary><u>TE</u></summary>
+
+TE connectors, they produce the ampseal connectors on the proteus and a lot of OEM ECUs.  
+</details>
 
 <details><summary><u>TFI</u></summary>
 
 Thick Film Ignition - Ford distributor - Likely unsupported at this time. 
 </details>
 
-TFSI - Turbo Fuel Stratified Injection - A VW direct injection lean burn strategy  
+<details><summary><u>TFSI</u></summary>
 
-TLE - Short for TLE8888 the Infineon chip on the MRE  
+Turbo Fuel Stratified Injection - A VW direct injection lean burn strategy  
+</details>
 
-TVIS - Toyota variable intake system, a variable inlet length system that switches on/off a set of longer intake manifold runners.  
+<details><summary><u>TLE</u></summary>
 
-Valvetronic - BMW variable valve lift system  
+Short for TLE8888 the Infineon chip on the MRE  
+</details>
 
-VANOS - BMW variable valve timing system  
+<details><summary><u>TVIS</u></summary>
 
-VCC - Common Collector Voltage; the positive supply voltage for an integrated circuit  
+Toyota variable intake system, a variable inlet length system that switches on/off a set of longer intake manifold runners.  
+</details>
 
-VDD - the DC Power supply connected to Drain Terminal of any FET circuit.  
+<details><summary><u>Valvetronic</u></summary>
+
+BMW variable valve lift system  
+</details>
+
+<details><summary><u>VANOS</u></summary>
+
+BMW variable valve timing system  
+</details>
+
+<details><summary><u>VCC</u></summary>
+
+Common Collector Voltage; the positive supply voltage for an integrated circuit  
+</details>
+
+<details><summary><u>VDD</u></summary>
+
+the DC Power supply connected to Drain Terminal of any FET circuit.  
+</details>
 
 <details><summary><u>VE</u></summary>
 
 Volumetric Efficiency, often expressed as a decimal value i.e. 0.8 (for 80%)
 </details>
 
-VISA - BMW variable inlet manifold length system  
+<details><summary><u>VISA</u></summary>
+
+BMW variable inlet manifold length system  
+</details>
 
 <details><summary><u>VOL</u></summary>
 
 Short for engine volume
 </details>
 
-VSS - Vehicle speed sensor  
+<details><summary><u>VSS</u></summary>
 
-VVT - Variable valve timing  
+Vehicle speed sensor  
+</details>
+
+<details><summary><u>VVT</u></summary>
+
+Variable valve timing  
+</details>
 
 <details><summary><u>WOT</u></summary>
 
