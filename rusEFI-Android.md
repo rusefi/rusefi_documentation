@@ -2,6 +2,9 @@ rusEFI Android App is part of [rusEFI Online](https://github.com/rusefi/rusefi/w
 
 One day we will publish rusEFI Android at the google store but for now you would have to install it using [rusEFI-release.apk](https://rusefi.com/build_server/rusEFI-release.apk)
 
+You would have to agree installing application not from Play Store and you would probably have to disable Google Play Protect.
+
+
 
 Q: How to disable "Google Play Protect"?
 
