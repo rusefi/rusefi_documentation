@@ -66,7 +66,7 @@ rusEFI uses six wire colors: black white red orange green blue.
 |  7  |**Lowside #7** | ls    | Injector #7                          | |
 |  8  |**Lowside #9** | ls    | Injector #9                          | | 
 |  9  |**Lowside #11**| ls    | Injector #11                         | |
-| 10  |**Lowside #13**| ls    | low-side output: main relay          | | Black plug #2 23/24 BRN/BLK |
+| 10  |**Lowside #13**| ls    | low-side output: main relay          | Blue | Black plug #2 23/24 BRN/BLK |
 
 
 
