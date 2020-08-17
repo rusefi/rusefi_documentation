@@ -1,0 +1,32 @@
+name: Sync Wiki
+
+on: push
+  branches:
+  - master
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out docs repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        repository: chuckwagoncomputing/rusefi.wiki
+        persist-credentials: false
+
+    - name: Merge
+      run: |
+        git remote add technical-git https://github.com/rusefi/rusefi_documentation.git
+        git fetch technical-git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git merge technical-git/master
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        repository: chuckwagoncomputing/rusefi.wiki
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        branch: master
