@@ -14,5 +14,7 @@ See [HOWTO upload tune](HOWTO_upload_tune)
 See [HOWTO Remote Tuning](https://github.com/rusefi/rusefi/wiki/HOWTO-Remote-Tuning)
 
 
+![x](https://github.com/rusefi/web_backend/blob/master/documentation/rusEFI%20remote.png)
+
 
 For development details see https://github.com/rusefi/web_backend

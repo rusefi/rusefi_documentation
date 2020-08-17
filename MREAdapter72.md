@@ -14,6 +14,9 @@ https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2002
 https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
 
 
+
+[MREAdapter72 0.2 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
+
 https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEfi_nb2/hw72nb.pdf
 
 | Pin Number | Name     | microRusEFI pin |  Type ID      | Default function                                     |
@@ -77,9 +80,6 @@ TE 316838-1 for 16 - 18 AWG
 
 Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_latch.jpg) plugs while installing add-on pins.
 
-
-
-[MREAdapter72 0.2 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
 
 
 ### AV8 
