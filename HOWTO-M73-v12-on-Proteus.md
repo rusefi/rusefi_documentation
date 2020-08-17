@@ -51,3 +51,31 @@ rusEFI uses six wire colors: black white red orange green blue.
 * x12 injectors
 * CLT
 * IAT
+
+
+
+
+## Black 35 Pin 776231-1
+
+|Pin Number|Name      | Type ID | Default function                   | rusEFI color | Destination |
+| ---:|:------------- | ----- |:------------------------------------ |--------- | --- |
+|  3  |**Lowside #1** | ls    | Injector #1                          | |
+|  4  |**Lowside #3** | ls    | Injector #3                          | |
+|  5  |**Lowside #5** | ls    | Injector #5                          | |
+|  6  |**Lowside #6** | ls    | Injector #6                          | |
+|  7  |**Lowside #7** | ls    | Injector #7                          | |
+|  8  |**Lowside #9** | ls    | Injector #9                          | | 
+|  9  |**Lowside #11**| ls    | Injector #11                         | |
+| 10  |**Lowside #13**| ls    | low-side output: main relay          | |
+
+
+
+## Black 23 Pin 776228-1
+|Pin Number|Name   | Type ID | Default function                   |
+| ---:|:---------- | ----- |:------------------------------------ |
+| 18  | +12 raw    | 12v   | ignition power / ECU power source    |
+| 19  | **GND**    | y     | Power GND                            |
+| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  |
+
+
+
