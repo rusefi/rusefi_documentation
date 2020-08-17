@@ -71,11 +71,11 @@ rusEFI uses six wire colors: black white red orange green blue.
 
 
 ## Black 23 Pin 776228-1
-|Pin Number|Name   | Type ID | Default function                   |rusEFI color | Destination |
-| ---:|:---------- | ----- |:------------------------------------ |--------- | --- |
+|Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
+| ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
 | 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  
-| 19  | **GND**    | y     | Power GND                            | Black | 
-| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black plug 4 #6 |
+| 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
+| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black plug #4 26/40 GRN/BLK |
 
 
 
