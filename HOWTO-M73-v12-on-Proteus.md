@@ -21,6 +21,21 @@ rusEFI uses six wire colors: black white red orange green blue.
 
 
 # 24 pin plug #2
+| Pin  | type  | OEM color  | Description   | rusEFI color  |
+|---|---|---|---|---|
+|   |   |   |   |   |
+
 # 52 pin plug #3
+| Pin  | type  | OEM color  | Description   | rusEFI color  |
+|---|---|---|---|---|
+|   |   |   |   |   |
+
 # 40 pin plug #4
+| Pin  | type  | OEM color  | Description   | rusEFI color  |
+|---|---|---|---|---|
+|   |   |   |   |   |
+
 # 9 pin plug #5
+| Pin  | type  | OEM color  | Description   | rusEFI color  |
+|---|---|---|---|---|
+|   |   |   |   |   |
