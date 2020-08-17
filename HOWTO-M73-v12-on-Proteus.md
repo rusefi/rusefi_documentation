@@ -39,3 +39,11 @@ rusEFI uses six wire colors: black white red orange green blue.
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
 |   |   |   |   |   |
+
+
+
+# Proteus
+* +12 from main relay
+* x12 injectors
+* CLT
+* IAT
