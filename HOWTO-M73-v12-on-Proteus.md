@@ -66,16 +66,16 @@ rusEFI uses six wire colors: black white red orange green blue.
 |  7  |**Lowside #7** | ls    | Injector #7                          | |
 |  8  |**Lowside #9** | ls    | Injector #9                          | | 
 |  9  |**Lowside #11**| ls    | Injector #11                         | |
-| 10  |**Lowside #13**| ls    | low-side output: main relay          | |
+| 10  |**Lowside #13**| ls    | low-side output: main relay          | | Black plug #2 23/24 BRN/BLK |
 
 
 
 ## Black 23 Pin 776228-1
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
-| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  
+| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  Black plug #4 26/40 GRN/BLK |
 | 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
-| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black plug #4 26/40 GRN/BLK |
+| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
 
 
 
