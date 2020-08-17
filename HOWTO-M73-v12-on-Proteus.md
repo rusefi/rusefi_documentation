@@ -33,6 +33,10 @@ rusEFI uses six wire colors: black white red orange green blue.
 # 40 pin plug #4
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
+|  6|  IN   | |            start signal from ignition key |
+| 17| OUT |BLK  |       engine speed output for gauge cluster
+| 26| IN  |GRN/BLK| RED +12v hot in start & run
+| 40| OUT |YEL/BRN |BRN starter enable
 |   |   |   |   |   |
 
 # 9 pin plug #5
