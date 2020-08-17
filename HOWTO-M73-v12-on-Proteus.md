@@ -9,9 +9,18 @@ On my 1998 first set of 9+24+52+40+9=134 pins total is BLACK.
 
 Second set of 9+24+52+40+9=134 pins total is GREY.
 
-# Plug #1 9 pin
-|   |   |   |   |   |
+rusEFI uses six wire colors: black white red orange green blue.
+
+
+# 9 pin plug #1 
+| Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
 |   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
+
+
+# 24 pin plug #2
+# 52 pin plug #3
+# 40 pin plug #4
+# 9 pin plug #5
