@@ -50,8 +50,8 @@ Destination legend:
 ## Black 23 Pin 776228-1
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
-| 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      |
-| 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      |
+| 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | Black #3 32/52 |
+| 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue | Black #3 46 /52 |
 | 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  Black plug #4 26/40 GRN/BLK |
 | 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
@@ -60,6 +60,9 @@ Destination legend:
 ## White 35 Pin 776231-2
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
+| 1   | **GND**    | sgnd  | Sensor GND                           | Black | Black #3 21/52 |
+| 2   | **GND**    | sgnd  | Sensor GND                           |
+| 3   | **GND**    | sgnd  | Sensor GND                           |
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red |
 
 
