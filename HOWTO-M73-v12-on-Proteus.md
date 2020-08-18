@@ -27,21 +27,21 @@ rusEFI uses six wire colors: black white red orange green blue.
 | ---:|:------------- | ----- |:------------------------------------ |--------- | --- |
 |  3  |**Lowside #1** | ls    | Injector #1                          | Blue | Black #3 41/52 BRN/WHT |
 |  4  |**Lowside #3** | ls    | Injector #3                          | Green | Black #3 40/52 | 
-|  5  |**Lowside #5** | ls    | Injector #5                          | Red | Black #3 /52 | 
+|  5  |**Lowside #5** | ls    | Injector #5                          | Red | Black #3 28/52 | 
 |  6  |**Lowside #6** | ls    | Injector #6                          | Orange | Black #3 27/52 BRN/BLK | 
 |  7  |**Lowside #7** | ls    | Injector #7                          | Blue | Grey #3 41/52 BRN/WHT | 
-|  8  |**Lowside #9** | ls    | Injector #9                          | Green| 
-|  9  |**Lowside #11**| ls    | Injector #11                         | |
+|  8  |**Lowside #9** | ls    | Injector #9                          | Green|  Grey  #3 40/52 | 
+|  9  |**Lowside #11**| ls    | Injector #11                         | Red |Grey #3 28/52 | 
 | 10  |**Lowside #13**| ls    | low-side output: main relay          | Blue | Black plug #2 23/24 BRN/BLK |
 | 15  |**Lowside #2** | ls    | Injector #2                          | Black |  Black #3 15/52 | 
 | 16  |**Lowside #4** | ls    | Injector #4                          | White |  Black #3 2/52 | 
-| 17  | **GND**       | y     | Power GND                            | Black |
-| 18  | **GND**       | y     | Power GND                            | Black |
-| 19  |**Lowside #8** | y     | Injector #8                          | Black |
-| 20  |**Lowside #10**| y     | Injector #10                         | |
-| 21  |**Lowside #12**| y     | Injector #12                         | |
+| 17  | **GND**       | y     | Power GND                            | Black | Grey #1 4/9 |
+| 18  | **GND**       | y     | Power GND                            | Black | Black #1 4/9 |
+| 19  |**Lowside #8** | y     | Injector #8                          | Black | Grey  #3 15/52 | 
+| 20  |**Lowside #10**| y     | Injector #10                         | White| Grey  #3 2/52 | 
+| 21  |**Lowside #12**| y     | Injector #12                         | Orange | Grey #3 27/52 BRN/BLK | 
 | 23  |**Lowside #16**| y     | low-side output: fuel pump           |
-| 24  | **GND**       | y     | Power GND                            |
+| 24  | **GND**       | y     | Power GND                            | Black | Grey plug #1 6/9 BRN |
 
 
 ## Black 23 Pin 776228-1
