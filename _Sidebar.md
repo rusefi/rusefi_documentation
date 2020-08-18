@@ -24,6 +24,8 @@
 - [Ignition](Pages_Ignition)
 - [Software](Pages_Software)
 - [rusEFI Project](rusEFI-project)
+- [How To](Pages_HOWTO)
+
 
 # Features
 
