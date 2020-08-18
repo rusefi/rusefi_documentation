@@ -14,7 +14,7 @@
 ---
 
 ## Ignition Modules (aka "ignitors")
-* VW 1.8t 4 cylinder module - PN 4D0905351  
+* VW 1.8t 4 cylinder module - PN 4D0905351  for location see https://www.youtube.com/watch?v=X-iyKYUeGvc
 Tested and working with BMW Coils, uses a pair of ampseal plugs (easily available on ebay). Wiring layout available on the forum. 
 Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
