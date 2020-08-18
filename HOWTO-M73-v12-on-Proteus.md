@@ -21,6 +21,9 @@ rusEFI uses six wire colors: black white red orange green blue.
 
 
 
+Destination legend:
+"Black #3 40/52" means "Black set of ECU plugs, connector #3 - pin 40 of 52 total pins"
+
 ## Black 35 Pin 776231-1
 
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | Destination |
