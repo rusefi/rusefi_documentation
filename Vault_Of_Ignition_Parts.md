@@ -1,5 +1,3 @@
-# The Vault Of Ignition Parts
-
 ### This page is intended as a container for all trialed ignition components that are external to the ECU. 
 
 ---
