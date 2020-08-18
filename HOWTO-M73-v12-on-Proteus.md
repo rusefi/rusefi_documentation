@@ -79,3 +79,4 @@ rusEFI uses six wire colors: black white red orange green blue.
 
 
 
+![ecu1](oem_docs/Bmw/1998_750_e38/BMW-134.jpg)
