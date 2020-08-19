@@ -4,6 +4,8 @@
 
 ## _WARNING: An electronic throttle, if misconfigured or damaged, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!_
 
+See also https://github.com/rusefi/rusefi/wiki/Vault-Of-Electronic-Throttle-Bodies-ETB
+
 rusEFI supports electronic throttle body control.  Also called drive by wire (DBW), there is no physical cable between the throttle pedal, or pedal position sensor (PPS), and the throttle. The PPS is only a sensor that measures how far depressed it is. The ECU interprets the information from the PPS, and converts it to a desired position for the throttle. The ECU then drives the throttle plate to the desired position and compares the throttle plate position using the throttle position sensor (TPS) to the desired position set by the PPS and makes adjustments as required.
 
 There are several benefits by allowing the ECU to control the position of the throttle. 
