@@ -13,7 +13,7 @@ Hitachi SERA576-01 60mm
 
 ![x](oem_docs/Nissan/Hitachi-SERA576-01-2003-Nissan-Altima.png)
 
-Alternative connector
+Alternative connector. This connector goes all the way to Nissan X-Trail T30 01-07 and Nissan Patrol.
 
 ![x](oem_docs/Nissan/Hitachi_60mm_ETB.jpg)
  
