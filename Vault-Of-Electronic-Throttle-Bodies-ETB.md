@@ -3,6 +3,8 @@ See https://github.com/rusefi/rusefi/wiki/HOWTO_electronic_throttle_body
 # VAG pinout
 Bosch 0280750009 1.8T and hopefully many others 
 
+5n1973206 connector
+
 ![x](oem_docs/VAG/Bosch_0280750009_pinout.jpg)
 
 # Nissan
@@ -17,3 +19,9 @@ Alternative connector. This connector goes all the way to Nissan X-Trail T30 01-
 
 ![x](oem_docs/Nissan/Hitachi_60mm_ETB.jpg)
  
+ 
+18919-AM810 
+
+Nissan 350Z 2008, Infiniti G35 2007
+
+![x](oem_docs/Nissan/18919-AM810-pinout)
