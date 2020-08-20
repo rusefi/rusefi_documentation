@@ -20,8 +20,8 @@ Alternative connector. This connector goes all the way to Nissan X-Trail T30 01-
 ![x](oem_docs/Nissan/Hitachi_60mm_ETB.jpg)
  
  
-18919-AM810 
-
+18919-AM810 Pedal Position Sensor 
+ 
 Nissan 350Z 2008, Infiniti G35 2007
 
-![x](oem_docs/Nissan/18919-AM810-pinout)
+![x](oem_docs/Nissan/18919-AM810-pinout.jpg)
