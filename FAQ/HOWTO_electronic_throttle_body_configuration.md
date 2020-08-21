@@ -14,6 +14,12 @@ TODO
 
 ### Throttle position sensor
 
+1. configure TPS input channels:
+
+2a. press "auto calibrate TPS" - it should open then close throttle, recording endpoinst
+
+2b. hit the burn button
+
 Zero position requires you to push throttle closed. Full throttle requires you to push throttle open.
 
 Neutral position is usually somewhere around 0-10%.
