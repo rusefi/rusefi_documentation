@@ -54,28 +54,27 @@ Destination legend:
 | 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red | Black plug #3 20/52 |
 | 2   | DIGITAL 3  | din   | Start signal from ignition key       | Orange | Black plug #4 6/40 |
 | 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | Black #3 32/52 |
+| 8   | ETB1-      | y     | ETB 1 negative                       | White |
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue | Black #3 46 /52 |
+| 15  | ETB1+      | etb   | ETB 1 positive                       | Blue |
 | 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  Black plug #4 26/40 GRN/BLK |
 | 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
-| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
-
-
-later
-| 8   | ETB1-      | y     | ETB 1 negative                       | White |
-| 15  | ETB1+      | etb   | ETB 1 positive                       | Blue |
 | 21  | ETB2-      | etb   | ETB 2 negative                       | White |
 | 22  | ETB2+      | etb   | ETB 2 positive                       | Blue |
+| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
+
 
 
 ## White 35 Pin 776231-2
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector | . |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- | --- |
-| 1   | **GND**    | sgnd  | Sensor GND                           | Black | Black #3 21/52 | 
+| 1   | **GND**    | sgnd  | Sensor GND                           | Black | Black #3 21/52 BRN| 
 | 2   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 |
 | 3   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 |
+| 4   | **GND**    | sgnd  | Sensor GND                           | Black | Grey #3 47/52 BRN |
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red |
-| 30  | AT2        | at    | Intake air temperature IAT           |
-| 31  | AT4        | at    | Coolant temperature CLT              |
+| 30  | AT2        | at    | Intake air temperature IAT           | Orange | Grey #3 34/52  |
+| 31  | AT4        | at    | Coolant temperature CLT              | Green | Black #3 22/52 RED/BRN |
 
 
 # 9 pin plug #1 
