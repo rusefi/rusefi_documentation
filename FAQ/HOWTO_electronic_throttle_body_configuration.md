@@ -18,7 +18,10 @@ TODO
 
 2a. press "auto calibrate TPS" - it should open then close throttle, recording endpoinst
 
-2b. hit the burn button
+2b. hit the burn button. You now have both channels of first electronic throttle body calibrated!
+
+For second ETB you currently have to copy-paste values manually.
+
 
 Zero position requires you to push throttle closed. Full throttle requires you to push throttle open.
 
