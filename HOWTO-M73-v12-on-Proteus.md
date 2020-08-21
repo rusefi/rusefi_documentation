@@ -69,20 +69,21 @@ Destination legend:
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector | . |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- | --- |
 | 1   | **GND**    | sgnd  | Sensor GND                           | Black | Black #3 21/52 BRN| 
-| 2   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 sensor |
-| 3   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #2 sensor |
+| 2   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 sensor GND |
+| 3   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #2 sensor GND |
 | 4   | **GND**    | sgnd  | Sensor GND                           | Black | Grey #3 47/52 BRN |
-| 5   | **GND**    | sgnd  | Sensor GND                           | Black | - | Throttle Pedal |
+| 5   | **GND**    | sgnd  | Sensor GND                           | Black | - | Throttle Pedal GND |
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #1 sensor feed |
-| 11  | +12V out   | 12v   | 12V protected output for sensors     | Red | -| Throttle Pedal |
-| 14  | AV3        | av    | Analog Voltage Input #3              | Orange | - | TPS#1 CH#2 |
-| 15  | AV5        | av    | Analog Voltage Input #5              | Orange | - | TPS#2 CH#2 |
-| 16  | AV7        | av    | Analog Voltage Input #7              | White | - | Pedal Sensor #2 |
-| 24  | AV2        | av    | Analog Voltage Input #2              | Green | - | TPS#1 CH#1 |
-| 25  | AV4        | av    | Analog Voltage Input #4              | Green | - | TPS#2 CH#1 |
-| 26  | AV6        | av    | Analog Voltage Input #6              | Green | - | Pedal Sensor #1 |
+| 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - | Throttle Pedal feed |
+| 14  | AV3        | av    | Analog Voltage Input #3              | Orange | - | TPS#1 CH#2 signal |
+| 15  | AV5        | av    | Analog Voltage Input #5              | Orange | - | TPS#2 CH#2 signal |
+| 16  | AV7        | av    | Analog Voltage Input #7              | White | - | Pedal Sensor #2 signal |
+| 24  | AV2        | av    | Analog Voltage Input #2              | Green | - | TPS#1 CH#1 signal |
+| 25  | AV4        | av    | Analog Voltage Input #4              | Green | - | TPS#2 CH#1 signal |
+| 26  | AV6        | av    | Analog Voltage Input #6              | Green | - | Pedal Sensor #1 signal|
 | 30  | AT2        | at    | Intake air temperature IAT           | Orange | Grey #3 34/52  |
 | 31  | AT4        | at    | Coolant temperature CLT              | Green | Black #3 22/52 RED/BRN |
+| 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #2 sensor feed |
 
 
 # 9 pin plug #1 
