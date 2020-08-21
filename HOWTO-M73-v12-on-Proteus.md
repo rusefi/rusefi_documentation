@@ -74,7 +74,6 @@ later
 | 2   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 |
 | 3   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 |
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red |
-
 | 30  | AT2        | at    | Intake air temperature IAT           |
 | 31  | AT4        | at    | Coolant temperature CLT              |
 
