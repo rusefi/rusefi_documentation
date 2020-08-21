@@ -22,6 +22,8 @@ Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
 * LX230T 1989-1995 Ford Ranger / Mazda	B2300 4 cylinder 2.3
 
+* LX615 Integra Accord Civic Del Sol CRX Prelude
+
 ---
 
 * Template for new parts - Part number  
