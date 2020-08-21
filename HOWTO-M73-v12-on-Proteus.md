@@ -69,10 +69,12 @@ Destination legend:
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector | . |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- | --- |
 | 1   | **GND**    | sgnd  | Sensor GND                           | Black | Black #3 21/52 BRN| 
-| 2   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 |
-| 3   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 |
+| 2   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 sensor |
+| 3   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #2 sensor |
 | 4   | **GND**    | sgnd  | Sensor GND                           | Black | Grey #3 47/52 BRN |
-| 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red |
+| 5   | **GND**    | sgnd  | Sensor GND                           | Black | - | Throttle Pedal |
+| 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #1 sensor feed |
+| 11  | +12V out   | 12v   | 12V protected output for sensors     | Red | -| Throttle Pedal |
 | 30  | AT2        | at    | Intake air temperature IAT           | Orange | Grey #3 34/52  |
 | 31  | AT4        | at    | Coolant temperature CLT              | Green | Black #3 22/52 RED/BRN |
 
