@@ -46,8 +46,8 @@ Destination legend:
 | 21  |**Lowside #12**| y     | Injector #12                         | Orange | Grey #3 27/52 BRN/BLK | 
 | 23  |**Lowside #16**| y     | low-side output: fuel pump           |
 | 24  | **GND**       | y     | Power GND                            | Black | Grey plug #1 6/9 BRN |
-| 30  | Ignition 7    | y     | Ignition cylinder 7                  | TBD | - | External Igniter channel #2 |
-| 35  | Ignition 1    | y     | Ignition cylinder 1                  | TBD | - | External Igniter channel #1 |
+| 30  | Ignition 7    | y     | Ignition cylinder 7                  | White | - | External Igniter channel #2 |
+| 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | - | External Igniter channel #1 |
 
 
 ## Black 23 Pin 776228-1
