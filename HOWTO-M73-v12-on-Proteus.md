@@ -46,6 +46,8 @@ Destination legend:
 | 21  |**Lowside #12**| y     | Injector #12                         | Orange | Grey #3 27/52 BRN/BLK | 
 | 23  |**Lowside #16**| y     | low-side output: fuel pump           |
 | 24  | **GND**       | y     | Power GND                            | Black | Grey plug #1 6/9 BRN |
+| 30  | Ignition 7    | y     | Ignition cylinder 7                  | TBD | - | External Igniter channel #2 |
+| 35  | Ignition 1    | y     | Ignition cylinder 1                  | TBD | - | External Igniter channel #1 |
 
 
 ## Black 23 Pin 776228-1
@@ -81,6 +83,8 @@ Destination legend:
 | 24  | AV2        | av    | Analog Voltage Input #2              | Green | - | TPS#1 CH#1 signal |
 | 25  | AV4        | av    | Analog Voltage Input #4              | Green | - | TPS#2 CH#1 signal |
 | 26  | AV6        | av    | Analog Voltage Input #6              | Green | - | Pedal Sensor #1 signal|
+| 27  | AV8        | av    | Analog Voltage Input #8              | | MAF |
+| 28  | AV10       | av    | Analog Voltage Input #10             | | |
 | 30  | AT2        | at    | Intake air temperature IAT           | Orange | Grey #3 34/52  |
 | 31  | AT4        | at    | Coolant temperature CLT              | Green | Black #3 22/52 RED/BRN |
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #2 sensor feed |
