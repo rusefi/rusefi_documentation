@@ -5,7 +5,6 @@ May, 2020: Subaru SVX added
 
 ![x](https://rusefi.com/images/triggers/trigger_49.png)
 
-
 April, 2020: Honda K 12+1 added.
 
 ![x](https://rusefi.com/images/triggers/trigger_46.png)
