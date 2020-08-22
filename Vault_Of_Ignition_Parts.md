@@ -24,6 +24,10 @@ Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
 * Dis4-03 Hitachi 90-96 Subaru 
 
+* Toyota / Lexus 6 cylinder Camry ES300 GS300
+
+![x](oem_docs/Toyota/GS300_2001_igniter.png)
+
 ---
 
 * Template for new parts - Part number  
