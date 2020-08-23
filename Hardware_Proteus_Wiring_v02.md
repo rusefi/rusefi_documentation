@@ -59,14 +59,14 @@
 | 12  | VR2 neg    | vr    | Variable Reluctance #2 negative      |
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      |
 | 14  | USB D+     | usb   | USB                                  |
-| 15  | ETB1+      | y     | ETB 1 positive                       |
+| 15  | ETB1+      | etb   | ETB 1 positive                       |
 | 16  | CAN-       | can   | CAN bus low                          |
 | 17  | CAN+       | can   | CAN bus high                         |
 | 18  | +12 raw    | 12v   | ignition power / ECU power source    |
 | 19  | **GND**    | y     | Power GND                            |
 | 20  | n/c        | nc    | Nothing! Nada...                     |
-| 21  | ETB2-      | y     | ETB 2 negative                       |
-| 22  | ETB2+      | y     | ETB 2 positive                       |
+| 21  | ETB2-      | etb   | ETB 2 negative                       |
+| 22  | ETB2+      | etb   | ETB 2 positive                       |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  |
 
 ## White 35 Pin 776231-2
@@ -101,8 +101,8 @@
 | 27  | AV8        | av    | Analog Voltage Input #8              |
 | 28  | AV10       | av    | Analog Voltage Input #10             |
 | 29  | AV12       | av    | Analog Voltage Input #12             |
-| 30  | AT2        | at    | Intake air temperature               |
-| 31  | AT4        | at    | Analog Thermistor Input #4           |
+| 30  | AT2        | at    | Intake air temperature IAT           |
+| 31  | AT4        | at    | Coolant temperature CLT              |
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          |
 | 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          |
 | 34  | KNOCK 1    |       | Not wired on v0.2                    |

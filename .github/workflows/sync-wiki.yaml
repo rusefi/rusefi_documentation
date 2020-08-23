@@ -1,3 +1,7 @@
+#
+# ACCESS_TOKEN - Personal Access Token with "public_repo" permission
+#
+
 name: Sync Wiki
 
 on:
@@ -17,7 +21,7 @@ jobs:
         repository: rusefi/rusefi.wiki
         persist-credentials: false
 
-    - name: Merge
+    - name: Merge from rusefi_documentation
       run: |
         git remote add technical-git https://github.com/rusefi/rusefi_documentation.git
         git fetch technical-git
@@ -25,7 +29,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git merge technical-git/master
 
-    - name: Push changes
+    - name: Push changes rusefi/rusefi wiki
       uses: ad-m/github-push-action@master
       with:
         repository: rusefi/rusefi.wiki
