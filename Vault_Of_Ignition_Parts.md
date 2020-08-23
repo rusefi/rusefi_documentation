@@ -26,6 +26,7 @@ Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
 * Toyota / Lexus 6 cylinder Camry ES300 GS300
 
+89621-30020
 ![x](oem_docs/Toyota/GS300_2001_igniter.png)
 
 ---
