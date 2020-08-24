@@ -15,22 +15,27 @@ You can use rusEFI PC simulator to try rusEFI. PC simulator Windows binaries are
 
 ## Features
 
-1. Batch and Individual injection on gasoline engines up to 12 cylinders.
+Feature|Supported?
+-------|----------
+Batch Injection|✓
+Sequential Injection|✓
+Direct Injection|✗
+Wasted Ignition|✓
+Sequential Ignition|✓
+Gasoline Engines|✓
+Diesel Engines|✗
+Rotary Engines|✗
+Cylinder Count|1-12
+Knock Sensing|✗
+Boost Control|✗
+Launch Control|✗
+Flat Shifting|✗
+Automatic Transmission Control|✗
+[Acceleration enrichment - wall wetting/fuel trip/tau factor.](wall_wetting)|✓
 
-2. Wasted and Sequential ignition on gasoline engines up to 12 cylinders.
 
-3. [Acceleration enrichment - wall wetting/fuel trip/tau factor.](wall_wetting)
-
-4. And many more! See [rusEFI-project](rusEFI-project) for more details.
-
-**As of April 2020 rusEFI has not yet had the following features:**
-1. rusEFI has not yet been used to manage a diesel engine.
-
-2. rusEFI has not yet been used to manage a direct injection gasoline engine.
-
-3. rusEFI has not yet been used to manage an automatic transmission.
-
-**These are all things that would be amazing to see! IF YOU have a project that includes any of those configurations or anything else, please jump in on the forums and we can work together to make it happen! 👍 
+And many more! See [rusEFI-project](rusEFI-project) for more details.
+The unsupported features listed here are all things that would be amazing to see! IF YOU have a project that includes any of those configurations or anything else, please jump in on the forums and we can work together to make it happen! 👍 
 
 ### rusEFI in action!
 
