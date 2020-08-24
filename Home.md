@@ -18,17 +18,15 @@ You can use rusEFI PC simulator to try rusEFI. PC simulator Windows binaries are
 Feature|Supported?
 -------|----------
 Batch Injection|✓
-Sequential Injection|✓
-Direct Injection|✗
+Sequential Injection up to 12 cylinders|✓
+[Direct Injection](GDI_status)|✗
 Wasted Ignition|✓
-Sequential Ignition|✓
-Gasoline Engines|✓
-Diesel Engines|✗
+Sequential Ignition up to 12 cylinders|✓
 Rotary Engines|✗
-Cylinder Count|1-12
-Knock Sensing|✗
+Closed Loop Fueling|✓
+[Knock Sensing](knock_sensing)|✗
 Boost Control|✗
-Launch Control|✗
+[Launch Control](Launch_Control)|✗
 Flat Shifting|✗
 Automatic Transmission Control|✗
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](wall_wetting)|✓
