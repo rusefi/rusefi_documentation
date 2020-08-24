@@ -31,7 +31,7 @@ Boost Control|✗
 Launch Control|✗
 Flat Shifting|✗
 Automatic Transmission Control|✗
-[Acceleration enrichment - wall wetting/fuel trip/tau factor.](wall_wetting)|✓
+[Acceleration enrichment - wall wetting/fuel trip/tau factor](wall_wetting)|✓
 
 
 And many more! See [rusEFI-project](rusEFI-project) for more details.
