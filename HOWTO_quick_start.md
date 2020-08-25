@@ -6,7 +6,7 @@
 
 ![console](FAQ/images/rusEfi_console/rusEfi_console_start_screen.png)
 
-3. ** IF you have a Frankenso or Frankenstein board with the FT232 Chip, Download and install [FTDI's usb VCP driver on your PC](http://www.ftdichip.com/Drivers/VCP.htm).** 
+3. **IF you have a Frankenso or Frankenstein board with the FT232 Chip, Download and install [FTDI's usb VCP driver on your PC](http://www.ftdichip.com/Drivers/VCP.htm).** 
 
 4. Get friendly on the [rusEFI forums](https://rusefi.com/forum) Introduce yourself, start a build thread, and ask questions.
 
@@ -23,6 +23,7 @@
 
 2. Before loading rusEFI firmware - if you have one of the newer Rev D STM32 discovery boards - you need to update discovery's firmware. That's in the "Firmware" dialog of ST Link utility, as shown in this picture. 
 ![STLink Firmware Update](Images/Stlink_firmware_update.png)
+
 ![Discovery Upload Wire](Images/discovery_upload_wire.JPG)
 * To upload the binary image into the microcontroller you will need to download & install [http://www.st.com/st-web-ui/static/active/en/st_prod_software_internet/resource/technical/software/utility/stsw-link004.zip STM32 ST-LINK utility]. (this is both the utility and the driver) Once installed it will look like this.
 ![STLink Utility](st_link_utility.png)
