@@ -72,7 +72,7 @@ See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003_alt
 
 See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger
 
-Here is a video about how to changed these "Honda obd1 ecu" connector pins. It has also been found that the second stage release can be done with a flat hair clips can be used from the back side of the connector to release the pin. 
+Here is a video about how to chang these "Honda obd1 ecu" connector pins. It has also been found that the second stage release can be done with a flat hair clips can be used from the back side of the connector to release the pin. 
 
 [![Video How to Depin Honda and Acura OBD1 ECU Connectors](Hardware/Frankenso/depin.png)](https://www.youtube.com/watch?v=Lv02bCy0yQs)
 
