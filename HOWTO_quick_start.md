@@ -6,7 +6,7 @@
 
 ![console](FAQ/images/rusEfi_console/rusEfi_console_start_screen.png)
 
-3. ** IF you have a Frankenso or Frankenstein board with th FT232 Chip, Download and install [FTDI's usb VCP driver on your PC](http://www.ftdichip.com/Drivers/VCP.htm).** 
+3. **IF you have a Frankenso or Frankenstein board with th FT232 Chip, Download and install [FTDI's usb VCP driver on your PC](http://www.ftdichip.com/Drivers/VCP.htm).** 
 
 4. Get friendly on the [rusEFI forums](https://rusefi.com/forum) Introduce yourself, start a build thread, and ask questions.
 
