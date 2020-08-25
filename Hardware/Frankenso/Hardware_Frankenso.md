@@ -96,7 +96,7 @@ F1001 - default setup is just a piece of wire. I use the red/black diode cut-off
 
 U1001 regulator pads: +12v, +5, GND, +5, GND
 
-! [0.4 Power Supply](Hardware/Frankenso/power_supply_0_4.png)
+! [Power Supply](Hardware/Frankenso/power_supply_0_4.png)
 
 If you're assembling your Frankenso yourself:
 
