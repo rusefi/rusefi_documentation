@@ -167,7 +167,8 @@ High-side could be set to drive logic leven (not high energy) +5v or +12v. Used 
 This section of the board is optional. Output voltage is controlled by a VP<>5V or VP<>12V jumper (P602/P604 on the picture below). Before version 0.4
 all six channels were using the same jumper and the same voltage. On version 0.4 and later each pair of outputs has it's own set of jumpers.
 
-[http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010672 TC4427]
+[TC4427](http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010672)
+
 ![High Side Driver Pinout](Hardware/Frankenso/hi_side_driver_pinout.png)
 
 R601 & R604, R605 & R608, R609 & R612 are 100R current limiting resistors
