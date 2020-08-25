@@ -24,6 +24,7 @@ Wasted Ignition|✓
 Sequential Ignition up to 12 cylinders|✓
 Rotary Engines|✗
 Closed Loop Fueling|✓
+Electronic Throttle Body|✓
 [Knock Sensing](knock_sensing)|✗
 Boost Control|✗
 [Launch Control](Launch_Control)|✗
