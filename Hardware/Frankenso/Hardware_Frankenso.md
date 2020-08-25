@@ -29,12 +29,12 @@ See [HOWTO Quick Start](HOWTO_quick_start) for rusEfi Quick Start.
 
 Frankenso should be powered by ignition switch. Frankenso main relay output can control main (injectors/fuel pump etc) relay if needed.
 
-![Isometric View of Top of Frankenso, with notes](Frankenso_top-isometric_notes.png)
-![Isometric View of Bottom of Frankenso](Frankenso_bottom-isometric.png)
+![Isometric View of Top of Frankenso, with notes](Hardware/Frankenso/Frankenso_top-isometric_notes.png)
+![Isometric View of Bottom of Frankenso](Hardware/Frankenso/Frankenso_bottom-isometric.png)
 
 [Known Issues](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/known_issues.txt)
 
-![Frankenso Connector Schematic](frankenso_connector.png)
+![Frankenso Connector Schematic](Hardware/Frankenso/frankenso_connector.png)
 
 4 layer, 6.4"x6.1" (162mmx155mm)
 
