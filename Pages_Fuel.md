@@ -9,6 +9,7 @@
 <details><summary><u>Fuel Algorithms</u></summary>
 
 * [Fuel Overview](Fuel_Overview)
+* [Cranking](Cranking)
 * [AlphaN](AlphaN)
 * [Speed Density](Speed_Density)
 * [Mass Air Flow](MAF)
@@ -36,7 +37,7 @@
 * [Converting from Carb](how_to_convert_from_carburetor_to_EFI)
 * [GDI Status](GDI_Status)
 * [Basic Injector wiring](FAQ-Basic-Wiring-and-Connections)
-* Fuel injectors - Coming Soon
+* [Fuel injectors](Fuel-Injectors)
 
 </details>
 
