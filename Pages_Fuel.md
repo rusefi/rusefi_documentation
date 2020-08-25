@@ -9,6 +9,7 @@
 <details><summary><u>Fuel Algorithms</u></summary>
 
 * [Fuel Overview](Fuel_Overview)
+* [Cranking](Cranking)
 * [AlphaN](AlphaN)
 * [Speed Density](Speed_Density)
 * [Mass Air Flow](MAF)
