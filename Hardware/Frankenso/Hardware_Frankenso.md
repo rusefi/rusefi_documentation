@@ -96,7 +96,7 @@ F1001 - default setup is just a piece of wire. I use the red/black diode cut-off
 
 U1001 regulator pads: +12v, +5, GND, +5, GND
 
-! [Power Supply](Hardware/Frankenso/power_supply_0_4.png)
+![0.4 Power Supply](Hardware/Frankenso/power_supply_0_4.png)
 
 If you're assembling your Frankenso yourself:
 
@@ -111,9 +111,9 @@ The cheaper way which works for Hall sensors only is to use op-amps channels.
 
 For rev 0.1 you can use channels 9 & 11. To enable this configuration you would need to run a yellor jumper wire from the op-amp side of W211 to JPTODO to and a white hacky wire right from op-amp chip pads XX&XX to TODO.
 
-! [Jumper Wire](Hardware/Frankenso/jumper.png)
+![Jumper Wire](Hardware/Frankenso/jumper.png)
 
-! [Jumper Wire](Hardware/Frankenso/jumper_2.jpg)
+![Jumper Wire](Hardware/Frankenso/jumper_2.jpg)
 
 ## LCD screen
 
@@ -130,7 +130,7 @@ The screen has 16 wiring holes, so does Frankenso. The middle 4 wires are not us
 ## Low side
 Low-side drivers are used for **most** (**all**?) high-Z injectors and relays.
 
-! [Low Side Drivers](Hardware/Frankenso/low_side.png)
+![Low Side Drivers](Hardware/Frankenso/low_side.png)
 
 pins PE0 & PE1 are used on discovery, on stock discovery board these pins are not driving properly
 
@@ -138,7 +138,7 @@ on Frankenso 0.4, PE0 was replaced with PD5
 
 PE1 was replaced with PD3
 
-! [Solenoid Flyback Diode Wiring](Hardware/Frankenso/solenoid_diode_wiring.png)
+![Solenoid Flyback Diode Wiring](Hardware/Frankenso/solenoid_diode_wiring.png)
 
 See also http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control
 
@@ -146,7 +146,7 @@ See also http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control
 
 See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger
 
-! [VR IC Circuit](Hardware/Frankenso/vr_ic_circuit.png)
+![VR IC Circuit](Hardware/Frankenso/vr_ic_circuit.png)
 
 C101 & C102 are 1000pF / 1nF / 0.001uF
 
@@ -158,7 +158,7 @@ R102, R103, R104, R106, R107, R108, R109 & R110, R111 & R112 are 5K
 
 R113 & R114 are 10K 
 
-! [VR IC Pads](Hardware/Frankenso/vr_pads.png)
+![VR IC Pads](Hardware/Frankenso/vr_pads.png)
 
 ## Hi side
 
@@ -168,7 +168,7 @@ This section of the board is optional. Output voltage is controlled by a VP<>5V 
 all six channels were using the same jumper and the same voltage. On version 0.4 and later each pair of outputs has it's own set of jumpers.
 
 [http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en010672 TC4427]
-! [High Side Driver Pinout](Hardware/Frankenso/hi_side_driver_pinout.png)
+![High Side Driver Pinout](Hardware/Frankenso/hi_side_driver_pinout.png)
 
 R601 & R604, R605 & R608, R609 & R612 are 100R current limiting resistors
 
@@ -176,13 +176,13 @@ R602 & R603, etc are 2.7K needed only for the LEDs
 
 C601, C602 & C603 are 0.1uF
 
-! [Hi Side Layout](Hardware/Frankenso/hi_side.jpg)
+![Hi Side Layout](Hardware/Frankenso/hi_side.jpg)
 
-! [Hi Side Layout](Hardware/Frankenso/hi_side_4.jpg)
+![Hi Side Layout](Hardware/Frankenso/hi_side_4.jpg)
 
 These chips could be configured to run 5v, 12v or GND output:
 
-! [High Side Driver IC](Hardware/Frankenso/hi-side-driver.png)
+![High Side Driver IC](Hardware/Frankenso/hi-side-driver.png)
 
 ## Analog Inputs
 
@@ -192,7 +192,7 @@ See http://rusefi.com/wiki/index.php?title=Manual:Software_Temperature_Sensors
 
 https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk
 
-! [Analog Inputs](Hardware/Frankenso/analog_inputs.png)
+![Analog Inputs](Hardware/Frankenso/analog_inputs.png)
 
 Our op-amp of choice is MCP6004-E/SL
 
@@ -200,7 +200,7 @@ Our op-amp of choice is MCP6004-E/SL
 
 [Knock Sensing](knock_sensing)
 
-! [Knock Sensing IC Pads](Hardware/Frankenso/knock_chip_pads.png)
+![Knock Sensing IC Pads](Hardware/Frankenso/knock_chip_pads.png)
 
 1K: R170, R171, R172, R173 & R174
 
@@ -227,7 +227,7 @@ Our op-amp of choice is MCP6004-E/SL
 **R174 is MOSI pull-up**
 
 ## USB/TTL
-! [Programming Pads](Hardware/Frankenso/programming_pads.png)
+![Programming Pads](Hardware/Frankenso/programming_pads.png)
 
 R351 is 1M
 
@@ -281,7 +281,7 @@ tight on vertical USB but works 89661-28140
 
 need to try 89661-28120
 
-! [Mazda 929 ECU](Hardware/Frankenso/929_ecu)
+![Mazda 929 ECU](Hardware/Frankenso/929_ecu)
 
 Known to not work great but could be an option if nothing else is available:
 
