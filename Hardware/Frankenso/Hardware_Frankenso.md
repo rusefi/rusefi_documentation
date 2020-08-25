@@ -78,8 +78,7 @@ See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger
 
 Here is a video about how to changed these "Honda obd1 ecu" connector pins. It has also been found that the second stage release can be done with a flat hair clips can be used from the back side of the connector to release the pin. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Lv02bCy0yQs" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+[![Video How to Depin Honda and Acura OBD1 ECU Connectors](Hardware/Frankenso/depin.png)](https://www.youtube.com/watch?v=Lv02bCy0yQs)
 
 Terminal Removal Tool Kit or glasses screwdriver would be needed to remove pins
 
