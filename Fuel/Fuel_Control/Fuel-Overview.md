@@ -2,7 +2,7 @@
 
 The Air Fuel Ratio (AFR) is controlled by how much fuel is delivered to the cylinder for combustion. There are many factors and many sensors that come into play when trying to determine how much O2 is in the cylinder. rusEFI collects this information and makes a guess about how much O2 is in the cyl, then rusEFI has to determine how much fuel is needed to get the expected AFR and deliver that fuel charge. Below is a graphic that shows some common differences in AFR for a particular Toyota engine. Other engines are similar to this, but may have a different peak power area, or peak efficiency area, etc. To know this information for your particular setup you would need to run it on a Dyno, and determine the exact AFR's.
 
-Airfuel.jpg  
+(Airfuel.jpg)
 
 [//]: # "Add picture"
 
