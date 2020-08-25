@@ -1,17 +1,9 @@
+## Overview
 
-**Q:** Why three USB connectors?
+Frankenso should be powered by ignition switch. Frankenso main relay output can control main (injectors/fuel pump etc) relay if needed.
 
-**A:** https://rusefi.com/forum/viewtopic.php?f=4&t=1418
-
-
-**Pinouts**
-
-https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
-
-https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003_alt
-
-
-
+![Isometric View of Top of Frankenso, with notes](Hardware/Frankenso/Frankenso_top-isometric_notes.png)
+![Isometric View of Bottom of Frankenso](Hardware/Frankenso/Frankenso_bottom-isometric.png)
 ![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_0_2_assembled.jpg)
 
 ![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_0_2_native_box.jpg)
@@ -24,13 +16,6 @@ https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003_alt
 [For sale fully assembled!](https://www.tindie.com/products/russian/frankenso-full-bundle/)
 
 See [HOWTO Quick Start](HOWTO_quick_start) for rusEfi Quick Start.
-
-## Overview
-
-Frankenso should be powered by ignition switch. Frankenso main relay output can control main (injectors/fuel pump etc) relay if needed.
-
-![Isometric View of Top of Frankenso, with notes](Hardware/Frankenso/Frankenso_top-isometric_notes.png)
-![Isometric View of Bottom of Frankenso](Hardware/Frankenso/Frankenso_bottom-isometric.png)
 
 [Known Issues](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/known_issues.txt)
 
@@ -60,6 +45,13 @@ See also [online BOM](https://rusefi.com/docs/ibom/frankenso_latest.html)
 
 [disovery pinout - ADVANCED](https://docs.google.com/spreadsheet/ccc?key=0Arl1FeMZcfisdEdsa01mTW9YV0pRU29POUE4QUlma0E)
 
+## FAQ
+
+**Q:** Why three USB connectors?
+
+**A:** https://rusefi.com/forum/viewtopic.php?f=4&t=1418
+
+
 ## Default Pinout
 
 Frankenso was designed with Mazda Miata NA pinout in mind. The most easily available ECU harness pig tail comes from OBD-I Honda vehicles, different Honda vehicles use slightly different harness colors so the values given are pretty approximate, please use common sense. See connector details @ http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#64_pin
@@ -71,6 +63,10 @@ See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1994
 See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1999
 
 See also https://rusefi.com/wiki/index.php?title=Vehicle:Honda_Accord_1995
+
+See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
+
+See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003_alt
 
 ![Frankeso Default Pinout](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/www_docs/frankenso_default_pinout.png)
 
