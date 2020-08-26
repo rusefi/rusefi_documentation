@@ -4,6 +4,7 @@ Debug fields is an advanced troubleshooting feature allowing one to monitor inte
 
 
 | code | name | debug f1 | debug f2 | debug f3 | debug f4 | debug f5 | debug f6 | debug f7 | debug i1 | debug i2 | debug i3 | debug i4 | debug i5
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 | 0 | Alternator_PID | controller output | integration term | previous error | I setting | D setting | dTerm | maxValue | P setting | offset | settings change counter
 | 1 | TPS acceleration | from TPS | to TPS | current TPS<>TPS value | extra fuel
 | 2 | Warmup PID | 3 | Idle | controller output | integration term | previous error | I setting | D setting | dTerm | maxValue | P setting | offset | settings change counter
