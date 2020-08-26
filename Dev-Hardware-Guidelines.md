@@ -6,6 +6,23 @@ suggestions on how to design and work with things like a PCB layout.
 
 ---
 
+## Basic principles
+
+We are developing hardware using [KiCad EDA Suite](http://www.kicad-pcb.org/)
+Our file repository for hardware is https://github.com/rusefi/rusefi/tree/master/hardware
+For now we are developing hardware as individual functional modules. While all individual modules are in-depended from each over, the use the share the same component library which is located at https://github.com/rusefi/kicad-libraries
+
+## Collaboration process
+Since patch files do not work well for hardware projects, our collaboration process is pulling whole folders from the SVN where board author would develop them into the central SVN which is the unified repository. That's a poor man workaround over the lack of free SVN hosting with directory user permissions.
+
+
+## Naming convention
+Name capacitors with uF and pF only. So 100nF is a no go while 0.1uF is good.
+This works better with filter/sort operations in spread sheets.
+Also start the name with 0.1 instead of .1.
+
+Resistors should be listed like this 100R or 2k2
+
 ## General suggested environment
 - Allow an ambient temperature from -40C to +85C (-40F to 185F) AEC Q100 Grade 3  
 - Voltage regulators that are compatible with ISO 7637-2 and ISO16750-2 (100V repetitive pulses via 50ohm impedance, 18 V for 60 min, 24V for 60s to all relevant inputs, withstand a reversed voltage for 60s, 500V rms (50 Hz to 60 Hz) for 60s, ect).  
