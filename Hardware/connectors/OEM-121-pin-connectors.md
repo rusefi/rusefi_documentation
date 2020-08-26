@@ -43,6 +43,7 @@ Before grinding:
 
 Take the orange rubber piece away while grinding. Grind a bit on the inside.
 
+![After Shaving](Hardware/connectors/after_shaving.jpg)
 
 Re-install the rubber ring.
 
