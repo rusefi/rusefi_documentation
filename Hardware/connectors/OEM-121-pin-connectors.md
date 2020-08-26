@@ -13,7 +13,7 @@ This one is used on Asian vehicles - Kia Hyundai etc.
 
 See also http://rusefi.com/wiki/index.php?title=Vehicle:Kia_Spectra_2005 
 
-![368255 Asian Drawing](Hardware/connectors/368255_drawing.png)
+![368255 Asian render](Hardware/connectors/368255_render.png)
 
 Note the horizontal line and the lack of double-lines
 
@@ -25,11 +25,11 @@ http://www.te.com/catalog/pn/en/1241434-1
 
 This one is used on Audi, VW, Mini Cooper.
 
-![1241434 German Drawing](Hardware/connectors/1241434_drawing.png)
+![1241434 German render](Hardware/connectors/1241434_render.png)
 
 Note the double-lines:
 
-![1241434 German Drawing Top](Hardware/connectors/1241434_drawing_top.png)
+![1241434 German render Top](Hardware/connectors/1241434_render_top.png)
 
 ![1241434 German Top Photo](Hardware/connectors1241434_top.jpg)
 
