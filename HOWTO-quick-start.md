@@ -67,7 +67,9 @@ To get the console working follow the below procedure, which assumes you have lo
 * You got it to open, great! Now install gray jumper wire as noted above between pins PD1 and PC6. 
 * Select "digital sniffer" in the dev console and you should see the simulated signal. 
 * Install the blue jumper wire as noted between pins PD2 and PA5.
+![Jumper Wire](Images/discovery_and_wires.jpg)
 * You should see the crank signals as noted in the "sniffer" tab.
+![Sniffer Tab](Images/java_console_2.png)
 
 Update: there is also a lazier way to self-stimulate now, you would not need the jumper wires. That's the "enable self_stimulation" command you invoke via the dev console. The downside? Do not forget to undo it at some point with "disable self_stimulation"
 
