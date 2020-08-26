@@ -7,8 +7,14 @@ A good first contribution could be adding some automated testing into https://gi
 
 For current coverage report see https://rusefi.com/docs/unit_tests_coverage/
 
+Doxygen source code documentation is found [here.](https://rusefi.com/docs/html/)
+
+Our primary tool-chain is GCC+Eclipse but we also support IAR. 
+
 Testing coverage open tickets: https://github.com/rusefi/rusefi/labels/automated_testing
 
 All open tickets: https://github.com/rusefi/rusefi/issues
 
 See https://rusefi.com/wiki/index.php?title=Manual:Try_It for how to work on rusEfi code with zero or minimal hardware.
+
+[Click here for a Q&A on source code.](http://rusefi.com/forum/viewtopic.php?f=5&t=10)
