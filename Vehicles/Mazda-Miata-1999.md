@@ -37,8 +37,8 @@ set engine_type 9
 ## Plug 2
 16 pins
 
-| --- | ---------- | ----- | ------------------------- | ------------ |
 | pos | b pos      | color | desc                      | type         |
+| --- | ---------- | ----- | ------------------------- | ------------ |
 | 2A  | "W23"      |       | fuel tank pressure sensor |              |
 | 2B  | "W24"      |       | IAT                       | analog input |
 | 2C  | "W25"      |       |                           |              |
