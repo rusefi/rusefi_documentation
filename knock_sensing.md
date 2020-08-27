@@ -15,7 +15,7 @@ We also have ideas for knock sensor signal processor without specialised ICs but
 
 TODO MattK
 
-
+Frequency is calculated based on bore, Freq = (900 / (PIF * (bore) / 2)) 
 
 We also have some results with ion sensing but it's not ready for end users
 
