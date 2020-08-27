@@ -44,7 +44,7 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 | 52  | **GND**    | Sensor GND                            |
 |     |            | |
 
-"Early"
+"Early" 5 pages
 
 ![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_1_5.png)
 ![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_2_5.png)
@@ -52,7 +52,7 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 ![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_4_5.png)
 ![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_5_5.png)
 
-"Late"
+"Late" 5 pages
 
 ![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_late_1_5.png)
 ![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_late_2_5.png)
