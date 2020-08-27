@@ -63,3 +63,22 @@ you'll be able to connect to your emulator.
 Now if your virtual simulator is connected to Tunerstudio you'll see a green zero in your rusEFI virtual simulator.
 
 ![Connected virtual simulator](FAQ/images/simulator/rusEFI_virtual_simulator_connected.png) 
+
+## Troubleshooting
+In case something does not work with the TCP<>Serial driver, first thing is to make sure that rusefi_simulator.exe is in the list of Processes in Task Manager
+
+Next step is executing
+
+`telnet localhost 29001`
+
+to make sure that dev console protocol is alive
+
+and
+
+`telnet localhost 29002`
+
+to make sure that TS protocol is alive.
+
+Expected behavior is that connection would be established. If it does not, you might need to look in firewall settings. 
+
+

@@ -1,5 +1,7 @@
 ## Gauges
 
+![Console Gauges](Images/java_console_1.png)
+
 ## Analog Chart
 
 You can sniff either trigger angles or MAP values. 

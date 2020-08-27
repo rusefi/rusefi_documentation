@@ -24,10 +24,15 @@ Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
 * Dis4-03 Hitachi 90-96 Subaru 
 
-* Toyota / Lexus 6 cylinder Camry ES300 GS300
+* Toyota / Lexus 6 cylinder Camry ES300 GS300 89621-30020
 
-89621-30020
 ![x](oem_docs/Toyota/GS300_2001_igniter.png)
+
+* Bosch 0227100211 - VW Audi 97- 05
+
+* rusEFI's own BTS2140 module http://rusefi.com/forum/viewtopic.php?f=4&t=286
+
+![BTS2140 module](Images/BTS2140_breakout.jpg)
 
 ---
 

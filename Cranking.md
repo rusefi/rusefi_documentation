@@ -150,6 +150,8 @@ To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is t
 
 *If set to true, will use the specified duration for cranking dwell. If set to false, will use the specified dwell angle. Unless you have a really good reason to, leave this set to true to use duration mode.*
 
+*rusEFI Console command:
+```set cranking_charge_angle X```*
 
 ## IAC Settings
 ### Cranking IAC position

@@ -57,6 +57,79 @@ http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-
 
 Once connected you should test the wires. Especially the power wires like coil wires and injector wires. A poor connection with a slight resistance like .1 ohms can cause an electrical fire, which I'm sure you do not want. Once everything is connected measure both the voltage drop and current from the ECU connector, or where ever is applicably appropriate. Using your voltage and current readings, calculate the ohms, if it's above about .1 ohms fix the issue. Take note that .1 ohms at 1A is about .1watt that that connection will have to dissipate. If you have a 12 cyl, and 12 .1 ohm connections, the connector will have to dissipate 1.2 watts. 
 
+
+HOWTO start you engine with rusEfi for the first time
+
+
+
+### test outputs
+
+Both rusEfi console and TS allows you to test if rusEfi properly controls things like injectors (you would hear the clicks), cooling fan (you would hear it - if needed), fuel pump (you would usually hear it - if needed), ignition coil (that's challenging if you have a distributor)
+
+
+## get tachometer showing correct cranking rpm
+
+Your tuning software should show correct cranking RPM, usually between 150 and 300 with a fully-charged battery.
+
+See also http://rusefi.com/wiki/index.php?title=Manual:Software:Trigger
+
+See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger
+
+## Confirm TDC position
+Assuming you have the hardware ready to spark we now need to find your TDC position - we know trigger shape but we do not know the trigger wheel position in relation to TDC#1 (Top Dead Center, cylinder #1).
+
+Set cranking advance angle to zero for now. Use a timing gun while cranking. We now need to try different values of Engine->Trigger->global trigger angle offset until we get spark at zero advance - that's because we might know the relation between TDC#1 and trigger signal. 
+
+On Engine Sniffer tab of rusEfi console TDC#1 is shown with the green vertical line.
+
+![Initial Cranking Parameters](Images/Initial_cranking_parameters.png)
+
+## cranking parameters
+
+rusEfi has separate cranking control strategy for your first couple of engine revolutions - usually you want more fuel, different timing and simultaneous injection to start an engine.
+
+![Cranking Dialog](Images/Cranking_dialog_jan_2017.png)
+
+Engine would start rich, as long as it's not too rich, as long as you have close-enough cranking timing angle. By default, cranking mode is active if RPM is below 500 RPM.
+
+To adjust cranking timing, use `set cranking_timing_angle XXX` command, where XXX is timing advance angle in relation to your trigger synchronization point. Please note that trigger synchronization point often does not match TDC, so just try different values between 0 and 720. For example, try 0, then 20, then 40 etc. Use `showconfig` to see current setting.
+
+See also http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Timing_Control
+
+
+To adjust cranking fuel, use `set cranking_fuel XXX` command, where XXX is number of total fuel squirt duration in milliseconds. See also http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Fuel_Control
+
+## running parameters
+
+For first run I suggest running based on MAF sensor - even if you do not have MAF sensor, and flat maps.
+
+`set algorithm 0` would set algorithm: plain MAF
+
+To adjust running timing for your first run, use `set_whole_timing_map XXX` command, where XXX is your timing advance.
+
+To adjust running fuel for your first run, use `set_whole_fuel_map XXX` command, where XXX is number of total fuel squirt duration in milliseconds. This value is usually between 3 and 12. See also http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Fuel_Control
+
+One plain MAF workk next step is running with proper MAP sensor calibration & flow rate setting.
+
+## next steps & troubleshooting
+
+There are three ways to produce similar logs - the intention is for these three to have same exact data.
+
+1. SD card logging
+2. rusEfi console logging
+3. TunerStudio logging
+
+See also https://svn.code.sf.net/p/rusefi/code/trunk/firmware/console/binary/tunerstudio_configuration.h
+
+See also http://rusefi.com/wiki/index.php?title=Manual:Error_codes
+
+See also http://rusefi.com/wiki/index.php?title=Manual:Debug_fields
+
+## External links
+
+https://www.youtube.com/watch?v=lgvt0mh_UB8
+
+
 ## Diagnostics and trouble shooting of your engine
 
 ### Basic tests
