@@ -1,0 +1,121 @@
+## General
+
+http://en.wikipedia.org/wiki/Honda_K_engine
+
+31+24+22+17+31=125 pin header
+
+![Honda K Series Connector](Images/Honda_K_header.jpg)
+
+![Honda K Series Reluctor Wheel](Images/Honda_K_reluctor.jpg)
+
+## plug A
+
+![Plug A](Images/Honda_K_plug_a.png)
+
+| pos | color | desc | type |
+| - | - | - | - |
+|1|| o2 heater |
+|2|| power | input |
+|3|| power | input |
+|4|
+|5|
+|6|| o2 signal |
+|7|| CKP crankshaft position sensor | input |
+|8|
+|9|| know sensor signal | input |
+|10|| signal ground | ground |
+|11|| signal ground | ground |
+|12|
+|13|| n/a | n/a | n/a |
+|14| n/a | n/a | n/a |
+|15|| throttle position sensor TPS |
+|16|| o2 signal return |
+|17| n/a | n/a | n/a |
+|18| 
+|19|| MAP signal | input |
+|20|
+|21|
+|22|
+|23|
+|24|
+|25|| camshaft position sensor |
+|26|
+|27|| coil #4 | output |
+|28|| coil #3 | output |
+|29|| coil #2 | output |
+|30|| coil #1 | output |
+|31| n/a | n/a | n/a |
+
+## plug B
+
+![Plug B](Images/Honda_K_plug_b.png)
+
+| pos | color | desc                            | type  |
+|-----|-------|---------------------------------|-------|
+| 1   |       | VTC Oil Control Solenoid        |       |
+| 2   |       |                                 |       |
+| 3   |       |                                 |       |
+| 4   |       |                                 |       |
+| 5   |       |                                 |       |
+| 6   |       |                                 |       |
+| 7   |       |                                 |       |
+| 8   |       |                                 |       |
+| 9   |       | engine coolant temperature      | input |
+| 10  |       |                                 |       |
+| 11  | n/a   | n/a                             | n/a   |
+| 12  | n/a   | n/a                             | n/a   |
+| 13  |       |                                 |       |
+| 14  |       |                                 |       |
+| 15  |       |                                 |       |
+| 16  |       | A/T                             |       |
+| 17  |       | Intake Air Temperature          | Input |
+| 18  |       |                                 |       |
+| 19  | n/a   | n/a                             | n/a   |
+| 20  | n/a   | n/a                             | n/a   |
+| 21  |       |                                 |       |
+| 22  |       |                                 |       |
+| 23  |       | VTC Oil Control Solenoid Return |       |
+| 24  |       | A/T                             |       |
+
+## plug C
+
+![Plug C](Images/Honda_K_plug_c.png)
+
+## plug D
+
+![Plug D](Images/Honda_K_plug_d.png)
+
+## plug E
+
+![Plug E](Images/Honda_K_plug_e.png)
+
+| pos | color | desc | type |
+|-----|-------|------|------|
+| 1   |       |      |      |
+| 2   |       |      |      |
+| 3   |       |      |      |
+| 4   |       |      |      |
+| 5   |       |      |      |
+| 6   |       |      |      |
+| 7   |       |      |      |
+| 8   |       |      |      |
+| 9   |       |      |      |
+| 10  |       |      |      |
+| 11  |       |      |      |
+| 12  |       |      |      |
+| 13  |       |      |      |
+| 14  |       |      |      |
+| 15  |       |      |      |
+| 16  |       |      |      |
+| 17  |       |      |      |
+| 18  |       |      |      |
+| 19  |       |      |      |
+| 20  |       |      |      |
+| 21  |       |      |      |
+| 22  |       |      |      |
+| 23  |       |      |      |
+| 24  |       |      |      |
+
+## Diagram
+
+![Wiring Diagram](Acura_RSX_2003_ECU.png)

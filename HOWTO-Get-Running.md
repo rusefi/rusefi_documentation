@@ -30,6 +30,8 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
 
 ### Route the wires and harnesses
 
+* Start by drawing our your engine layout. This an be as simple as a sketch on a napkin or pizza box. This is handy as it tracks how many injectors you need, what kind of IAC, TPS, IAT, ect options you need.
+
 * It is recommended you route your wires in two different groups, analog and digital/high power. This helps ensure good signals make it to and from the ECU.
 
 * Wire size and fusing go together. The fuse is used to protect the wire against electrical fire. So the wire you can use depends largely on the upstream fuse you select. High-Z injectors are going to draw about 1A, so you can technically get by with tiny stuff like 24AWG or 22AWG. However that is generally not very strong and is prone to breaking and failure. So you would be well advised to follow the NFPA79's suggestion to use a min of 18AWG, as smaller is easily mechanically damaged. In terms of electrical sizing this is very much over sized, which is only suggested to get more rugged mechanical properties. 
@@ -53,14 +55,33 @@ http://www.littelfuse.com/~/media/automotive/catalogs/littelfuse_fuseology.pdf
 
 http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_mini_datasheet.pdf
 
+* Check in the forums for additional information. Often members can identify bumps in the road before you hit them. Forum members can also make suggestions that could make things go smoothly.
+
+* If you do something cool, or new, feel free to share in the forums, Slack, Github, e-mail or where ever. It's common that someone doing something new and cool will get more help than someone doing the same old thing. 
+
+### connecting ECU if it's not plug-and-play
+
+
+* Start by getting junk yard ECU
+* Delicately break apart the junk yard ECU salvaging the ECU connector and perhaps the enclosure.
+![Harness on car](Images/Harness_on_car.jpg)
+* If you have a connector that has a break out PCB board for it, you probably want to obtain the break out PCB for that harness connector. If not you can simply solder wires direct to the connector. Similar to this http://rusefi.com/forum/viewtopic.php?f=4&t=507
+![Breakout Render](Images/176122-6_front.jpg)
+![Breakout PCB](Images/64p_connector.jpg)
+* Wire rusEFI like Frankenstein as shown below 
+![Frankenstein wired with connector breakout](Images/Aspire_20140306_state.jpg)
+![Frankenstein wired in enclosure](Images/P1050839_zpsfdbdbd97.jpg)
+* It will likely be helpful to get a partial harness from a junk yard, and switch to rusEFI circuit-by-circuit using a [breakout module.](Breakout-Module)
+* Use junk hard harness to make extension harness. Use the junk yard ECU connector to break out the wire harness to the breakout board. Then from the far side of the breakout board, install the junk yard harness connector. Then connect the original ECU. This should allow you to start and run then engine as normal.
+
+
+
 ### Testing the wiring
 
 Once connected you should test the wires. Especially the power wires like coil wires and injector wires. A poor connection with a slight resistance like .1 ohms can cause an electrical fire, which I'm sure you do not want. Once everything is connected measure both the voltage drop and current from the ECU connector, or where ever is applicably appropriate. Using your voltage and current readings, calculate the ohms, if it's above about .1 ohms fix the issue. Take note that .1 ohms at 1A is about .1watt that that connection will have to dissipate. If you have a 12 cyl, and 12 .1 ohm connections, the connector will have to dissipate 1.2 watts. 
 
 
 HOWTO start you engine with rusEfi for the first time
-
-
 
 ### test outputs
 
