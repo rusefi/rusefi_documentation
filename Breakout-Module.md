@@ -16,6 +16,8 @@ Uses breakout module noted here http://rusefi.com/forum/viewtopic.php?f=4&t=454 
 * Either configure rusEFI to use the proper crank decoder, or get a decoder developed from the dev console logs, then configure rusEFI to use the proper decoder. 
 * See reliable RPM values displayed on the gauge, and noise free crank signals.
 
+![Harness and Analyzer](Images/Harness_and_analyzer.jpg)
+
 ### Capture MAP or MAF signal
 
 * Cut OEM harness for the MAP or MAF wire(s), or install a MAP sensor, then put the leads to the breakout module, use the fuse to simple pass the signal through the breakout module, and verify that the OEM engine is operational. 

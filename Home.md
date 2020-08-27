@@ -36,7 +36,17 @@ Automatic Transmission Control|✗
 And many more! See [rusEFI-project](rusEFI-project) for more details.
 The unsupported features listed here are all things that would be amazing to see! IF YOU have a project that includes any of those configurations or anything else, please jump in on the forums and we can work together to make it happen! 👍 
 
-### rusEFI in action!
+## Get Started!
+
+So you are thinking of doing an engine control project. You have stopped by the correct place. This rusEFI project has many options that can likely help you out. We have several forum members with a wide variety of skills that are often willing to help people out. As well we have several hardware options. If a feature doesn't exist inquire in the forums and it is likely that we can develop the feature. Or better yet, its an open source project, you can develop it yourself and if you feel like giving something back, you can share it with others. 
+
+[Quick Start](HOWTO-quick-start)
+
+[Get Running](HOWTO-Get-Running)
+
+[Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
+
+## rusEFI in action!
 
 [Engines running rusEFI](List_of_engines_running_rusEfi)
 
