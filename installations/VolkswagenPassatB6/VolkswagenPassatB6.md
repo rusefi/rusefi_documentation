@@ -18,14 +18,14 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 
 # 94 pin connector
 
-|Pin Number|Name   | Default function                   |
-| ---:|:---------- |:------------------------------------ |
-| 1   | **GND**    |  Power GND                            |
-| 2   | **GND**    |  Power GND                            |
-| 3   | **12v**    |  Hot when ignition ON                 |
-| 4   | **GND**    |  Power GND                            |
-| 5   | **12v**    |  Hot when ignition ON                 |
-| 6   | **12v**    |  Hot when ignition ON                 |
+|Pin Number|Name   | Default function                   | OEM Color |
+| ---:|:---------- |:------------------------------------ | --- |
+| 1   | **GND**    |  Power GND                            | BRN |
+| 2   | **GND**    |  Power GND                            | BRN |
+| 3   | **12v**    |  +12v from ECU relay                 | RED/WHT |
+| 4   | **GND**    |  Power GND                            | BRN |
+| 5   | **12v**    |  +12v from ECU relay                 | RED/WHT |
+| 6   | **12v**    |  +12v from ECU relay                 | RED/WHT |
 | 53  | **GND**    |  Sensor GND ?                         |
 
 
