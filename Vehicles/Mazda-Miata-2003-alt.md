@@ -119,7 +119,7 @@ Individual pages for printing:
 see [Mazda Miata 2001 - Automatic Transmission](Mazda-Miata-2001#Automatic-Transmission)
 
 
-![Wiring Diagram](Images/Mazda_miata_2003_at.png)
+![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_at.png)
 
 ### Immobilizer
 
