@@ -44,7 +44,7 @@ We have rusEfi console which is a handy development and debugging tool. The dev 
 To get the console working follow the below procedure, which assumes you have loaded the rusEFI firmware. 
 
 * Either power externally, or connect the "programming" USB cable as shown below. This will provide power to the Discovery board.
-* Connect the micro USB cable, see "console" cable shown below. When you do this for the first time, on a Windows PC, you will be prompted for drivers. You should download & install the drivers from here http://www.st.com/web/en/catalog/tools/PF257938. #: http://rusefi.com/wiki/images/thumb/0/06/RusEFI_STM.jpg/800px-RusEFI_STM.jpg
+* Connect the micro USB cable, see "console" cable shown below. When you do this for the first time, on a Windows PC, you will be prompted for drivers. You should download & install the drivers from here http://www.st.com/web/en/catalog/tools/PF257938. #: ![Jumper Setup](Images/rusEFI_STM.jpg)
 * When the driver is installed & the board is connected via the micro USB cable, you can verify serial connectivity by 
   * '''Windows''' - opening your Device Manager - we are expecting to see a Virtual COM Port 
     * http://rusefi.com/images/forum_posts/device_manager.png

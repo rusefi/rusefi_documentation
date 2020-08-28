@@ -54,19 +54,19 @@ See also [online BOM](https://rusefi.com/docs/ibom/frankenso_latest.html)
 
 ## Default Pinout
 
-Frankenso was designed with Mazda Miata NA pinout in mind. The most easily available ECU harness pig tail comes from OBD-I Honda vehicles, different Honda vehicles use slightly different harness colors so the values given are pretty approximate, please use common sense. See connector details @ http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#64_pin
+Frankenso was designed with Mazda Miata NA pinout in mind. The most easily available ECU harness pig tail comes from OBD-I Honda vehicles, different Honda vehicles use slightly different harness colors so the values given are pretty approximate, please use common sense. See connector details [here](OEM-connectors#64-pin)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1991
+See also [Mazda Miata 1991](Mazda-Miata-1991)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1994
+See also [Mazda Miata 1994](Mazda-Miata-1994)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1999
+See also [Mazda Miata 1999](Mazda-Miata-1999)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Honda_Accord_1995
+See also [Honda Accord 1995](Honda-Accord-1995)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
+See also [Mazda Miata 2003](Mazda-Miata-2003)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003_alt
+See also [Mazda Miata 2003 alt](Mazda-Miata-2003-alt)
 
 ![Frankeso Default Pinout](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/www_docs/frankenso_default_pinout.png)
 

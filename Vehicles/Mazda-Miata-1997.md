@@ -1,3 +1,3 @@
-See also http://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1994
+See also [Mazda Miata 1994](Mazda-Miata-1994)
 
-See also http://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1996
+See also [Mazda Miata 1996](Mazda-Miata-1996)

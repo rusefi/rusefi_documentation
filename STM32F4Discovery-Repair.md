@@ -1,4 +1,4 @@
-See also http://rusefi.com/wiki/index.php?title=Hardware:Troubleshooting
+See also [Troubleshooting](Troubleshooting)
 
 ## Summary
 

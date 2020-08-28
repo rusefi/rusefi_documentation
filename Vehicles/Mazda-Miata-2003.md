@@ -1,8 +1,8 @@
-http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#72_pin
+[72 pin Connector](OEM-connectors#72-pin)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003_alt
+See also [Mazda Miata 2003 alt](Mazda-Miata-2003-alt)
 
-For power see https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2002#Starting_.26_power
+For power see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting--power)
 
 ![Connector Face](Images/NB2 Miata ECU Connectors Drawing.png)
 
@@ -127,7 +127,7 @@ Individual pages for printing:
 
 ## Automatic Transmission
 
-see http://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2001#Automatic_Transmission
+see [Mazda Miata 2001 - Automatic Transmission](Mazda-Miata-2001#automatic-transmission)
 
 
 
@@ -153,7 +153,7 @@ US immobilizer
 
 ![Wiring Diagram](Images/2003_miata_ac.png)
 
-See also http://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2002
+See also [Mazda Miata 2002](Mazda-Miata-2002)
 
 ## Starting & power
 
@@ -169,7 +169,7 @@ Fly-back diode - stripe facing +12 - is needed between IAC 2P (power, stripe sid
 
 See http://rusefi.com/forum/viewtopic.php?f=3&t=906&p=25018l#p25018
 
-For ignition key see https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2002#Starting_.26_power
+For ignition key see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting--power)
 
 ## Misc
 

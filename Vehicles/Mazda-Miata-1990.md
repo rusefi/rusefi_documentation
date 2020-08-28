@@ -1,7 +1,5 @@
 [Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 
-Back to http://rusefi.com/wiki/index.php?title=Vehicle-specific_pages
-
 ![Pinout](Images/frankenso_connector_miata_1991.png)
 
 1990 1.6 US

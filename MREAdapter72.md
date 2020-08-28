@@ -9,9 +9,9 @@ High-side jumper should be set for +12v.
 
 https://rusefi.com/forum/viewtopic.php?t=1677
 
-https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2002
+[Mazda Miata 2002](Mazda-Miata-2002)
 
-https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
+[Mazda Miata 2003](Mazda-Miata-2003)
 
 
 
@@ -72,7 +72,7 @@ The following I/O is available. A jumper wire will need to be routed between the
 |   J1    |    PB9     |   
 |   J2    |    PC12    |   
 
-Extra pins for [353830-5 72 pin](https://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#72_pin): 
+Extra pins for [353830-5 72 pin](OEM-connectors#72-pin): 
 
 TE 316836-1 for 20 AWG to 22 AWG
 

@@ -45,8 +45,6 @@ If you proceed then please consider making a P&P adapter board design based on H
 
 A: rusEFI preference at the moment is KiCad 5. A few legacy pieces are still using KiCad 4. While many EDAs have many cool features KiCad gives rusEFI uniformity and consistency.
 
-See also https://rusefi.com/wiki/index.php?title=Hardware:Boards_Comparison
-
 See also https://github.com/rusefi/rusefi/tree/master/hardware
 
 ### Q: What pin do I use for tachometer output?

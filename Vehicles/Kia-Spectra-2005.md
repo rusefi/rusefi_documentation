@@ -1,4 +1,4 @@
-See also http://rusefi.com/wiki/index.php?title=Hardware:OEM_121_pin_connectors#368255.2FAsian
+See also [Asian 121 pin Connector](OEM-121-pin-connectors#368255asian)
 
 ![Connector Face](Images/Connector_121_pinout.jpg)
 

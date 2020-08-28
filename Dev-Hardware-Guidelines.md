@@ -102,11 +102,11 @@ Found in this thread [link](http://rusefi.com/forum/viewtopic.php?f=3&t=360&star
 ## Misc
 [CAN Sniffer](CAN-Sniffer)
 
-[Vehicle:Mini_Cooper_2003](https://rusefi.com/wiki/index.php?title=Vehicle:Mini_Cooper_2003)
+[Mini Cooper 2003](Mini-Cooper-2003)
 
-[Vehicle:Saturn_Ion_2004](https://rusefi.com/wiki/index.php?title=Vehicle:Saturn_Ion_2004)
+[Saturn Ion 2004](Saturn-Ion-2004)
 
-[Vehicle:Hyundai_Elantra_2004](https://rusefi.com/wiki/index.php?title=Vehicle:Hyundai_Elantra_2004)
+[Hyundai Elantra 2004](Hyundai-Elantra-2004)
 
 [176122-6 ECU connector board](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 
@@ -118,4 +118,4 @@ Found in this thread [link](http://rusefi.com/forum/viewtopic.php?f=3&t=360&star
 
 [2003 dodge Neon test mule](https://rusefi.com/forum/viewtopic.php?f=3&t=696)
 
-[Connector boards](https://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors)
+[Connector boards](OEM-Connectors)

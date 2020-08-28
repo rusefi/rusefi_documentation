@@ -1,6 +1,6 @@
 Disclaimer: the following observations could be really wrong, please let me know if you have better information. 
 
-See also https://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#121_pin
+See also [OEM Connectors - 121 pin](OEM-connectors#121-pin)
 
 
 There are two kinds of 121 connectors which look pretty much the same but do not mate together unless you use a grinder to massage them a bit.
@@ -11,7 +11,7 @@ http://www.te.com/catalog/pn/en/368255-2
 
 This one is used on Asian vehicles - Kia Hyundai etc.
 
-See also http://rusefi.com/wiki/index.php?title=Vehicle:Kia_Spectra_2005 
+See also [Kia Spectra 2005](Kia-Spectra-2005)
 
 ![368255 Asian render](Hardware/connectors/368255_render.png)
 
@@ -58,8 +58,8 @@ There is also a 115 pin version - 6 pins are left out (14, 15, 16, 33, 34, 35)
 
 ## pinouts
 
-https://rusefi.com/wiki/index.php?title=Vehicle:Kia_Spectra_2005
+[Kia Spectra 2005](Kia-Spectra-2005)
 
-https://rusefi.com/wiki/index.php?title=Vehicle:Mini_Cooper_2003
+[Mini-Cooper-2003](Mini-Cooper-2003)
 
-https://rusefi.com/wiki/index.php?title=Vehicle:Nissan_Xterra_2011
+[Nissan Xterra 2011](Nissan-Xterra-2011)

@@ -89,7 +89,7 @@ rusEFI has a virtual option. This basically simulates the ARM processors, and yo
 
 ### Compile firmware
 
-You can compile the firmware, making changes and submitting bug fixes. See http://rusefi.com/wiki/index.php?title=Development:Source_code_intro
+You can compile the firmware, making changes and submitting bug fixes. See [HOWTO Contribute to Firmware](HOWTO-contribute-to-firmware)
 
 ### Experiment with java based dev console, tuner studio, etc.
 

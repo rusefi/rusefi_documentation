@@ -2,7 +2,7 @@ In RusEFI console, set engine_type 47 loads base settings.
 
 ## Wiring
 
-http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#72_pin
+[121 pin Connector](OEM-121-pin-connectors)
 
 ![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing.png)
 
@@ -116,7 +116,7 @@ Individual pages for printing:
 
 ### Automatic Transmission
 
-see http://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2001#Automatic_Transmission
+see [Mazda Miata 2001 - Automatic Transmission](Mazda-Miata-2001#Automatic-Transmission)
 
 
 ![Wiring Diagram](Images/Mazda_miata_2003_at.png)

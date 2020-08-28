@@ -1,11 +1,8 @@
-http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#72_pin
+[72 pin Connector](OEM-connectors#72-pin)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2001_ABS
+See also [Mazda Miata 2001 ABS](Mazda-Miata-2001-ABS)
 
-For engine wiring see https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2002
-
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2001
-
+For engine wiring see [Mazda Miata 2002](Mazda-Miata-2002)
 
 
 ## Automatic Transmission
