@@ -75,7 +75,7 @@ Replace the LED or ignore it. This is only an indicator that you have 3V.
 
 [BOM archive](http://www.st.com/st-web-ui/static/active/en/resource/technical/document/bill_of_materials/stm32f4discovery_bom.zip)
 
-https://rusefi.com/wiki/index.php?title=File:Stm32f4discovery_schematics.pdf
+[Schematic](Stm32f4discovery_schematics.pdf)
 
 ## Normal measurements
 Here are several measurements to function as a point of reference. These were taken with a known good board.
