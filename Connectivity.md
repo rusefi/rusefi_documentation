@@ -5,10 +5,10 @@ rusefi firmwave currently supports two protocols for ECU monitoring & control
 1. human-readable native protocol - connect to the ECU using HyperTerminal. This used to be protocol rusEfi console was using but not any more, we are moving towards not having text protocol enabled by default.
 
 
-[List of commands](http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands)
+[List of commands](Dev-Console-Commands)
 
 
-[Java console code overview](http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_implementation)
+[Java console code overview](Dev-Console-Implementation)
 
 
 2. binary protocol for integration with rusEfi console or http://www.tunerstudio.com/ tuning software

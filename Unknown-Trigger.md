@@ -39,4 +39,4 @@ TODO
 ## Step 4: located TDC
 
 Trigger synchronization is often not happening right at TDC. One would need to find out the angle between synchronization point and Top Dead Cylinder #1.
-See http://rusefi.com/wiki/index.php?title=Manual:Software:Trigger#Q_.26_A
+See [Trigger Q&A](Trigger#q--a)

@@ -35,11 +35,7 @@ NB2 2001-2005
 
 # Other links
 
-
-
-See also https://rusefi.com/wiki/index.php?title=Manual:Hardware:Mazda_PnP
-
-See also https://github.com/rusefi/rusefi/wiki/Frankenso_MazdaMiataNA6_pnp
+See also [Frankenso NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 
 
 ![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_set_for_NA.jpg)

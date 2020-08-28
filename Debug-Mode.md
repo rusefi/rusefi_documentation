@@ -3,4 +3,4 @@ Debug fields is an advanced troubleshooting feature allowing one to monitor the 
 In TunerStudio, select "Base Engine Settings -> Debug Mode" and use the gauges from "Debug" category.
 
 
-See https://rusefi.com/wiki/index.php?title=Manual:Debug_fields
+See [Debug Fields](Debug-Fields)

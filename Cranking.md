@@ -125,7 +125,7 @@ rusEFI Console command:
 
 <details><summary>More...</summary>
 
-To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is the number of total fuel squirt duration in milliseconds. See also http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Fuel_Control
+To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is the number of total fuel squirt duration in milliseconds. See also [Console Commands - Fuel Control](Dev-Console-Commands#fuel-control)
 
 </details>
 
@@ -188,7 +188,3 @@ Typical 4 cylinder engine with 200 cc/min injectors, sequential injection, base 
 ![table](FAQ/cranking_4cylinder.png)
 
 For 1.6 Honda cranking settings see https://rusefi.com/forum/download/file.php?id=4536 (note that "base fuel" = 1 is recommended these days, with a corresponding change to cranking temperature multiplier) 
-
-
-
-See also https://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control#Fuel_control_during_cranking

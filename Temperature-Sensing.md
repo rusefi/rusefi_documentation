@@ -1,10 +1,10 @@
 See also http://rusefi.com/articles/measuring_temperature/
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenstein_board#step_3:_Analog_Inputs
+See also [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board#Analog_Inputs
+See also [Frankenso Analog Inputs](Hardware-Frankenso#analog-inputs)
 
-See also Hardware:Troubleshooting
+See also [Troubleshooting](Troubleshooting)
 
 In order to configure coolant temperature sensor or intake air sensor you would need to know it's resistance at three temperatures - lowest, highest and somewhere in between. You would also need to know the value of pull-up 'bias' resistor, which together with your sensor would make a voltage divider.
 

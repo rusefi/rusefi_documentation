@@ -1,1 +1,1 @@
-Please see here: https://rusefi.com/wiki/index.php?title=Manual:First_engine_start
+Please see here: [HOWTO Get Running](HOWTO-Get-Running)

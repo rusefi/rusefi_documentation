@@ -1,4 +1,4 @@
-### This is a **DEVELOPERS** manual. For the user manual please see https://rusefi.com/wiki/index.php?title=Manual:Hardware:User/en
+### This is a **DEVELOPERS** manual. For the user manual please see [Hardware](Hardware)
 
 ## Summary
 This page is a general guide for hardware items and 
@@ -51,13 +51,11 @@ Resistors should be listed like this 100R or 2k2
 ---
 
 ## PCB design rules
-- See http://rusefi.com/wiki/index.php?title=Manual:Hardware:PCB_design_rules    
-  
+- See [PCB Design Rules](PCB-Design-Rules)
 ---
 
 ## Links to specific hardware projects
-#### - Frankenso
-http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board
+#### - [Frankenso](Hardware-Frankenso)
 
 
 #### - Brain board
@@ -102,7 +100,7 @@ Found in this thread [link](http://rusefi.com/forum/viewtopic.php?f=3&t=360&star
 ---
 
 ## Misc
-http://rusefi.com/wiki/index.php?title=Manual:Hardware:CAN_sniffer
+[CAN Sniffer](CAN-Sniffer)
 
 [Vehicle:Mini_Cooper_2003](https://rusefi.com/wiki/index.php?title=Vehicle:Mini_Cooper_2003)
 

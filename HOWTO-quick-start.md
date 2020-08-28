@@ -33,7 +33,7 @@
 
 ## rusEfi Console
 
-http://rusefi.com/wiki/index.php?title=Manual:Software:Console
+[Console](Console)
 
 We have rusEfi console which is a handy development and debugging tool. The dev console is written in java and it talks to the ECU firmware. The console allows firmware monitoring and configuration. Here are some pictures of what it looks like when it operating correctly. 
 
@@ -83,7 +83,7 @@ At this point, the Dev Console should be up and running. Play around with it and
 
 [HOWTO create TunerStudio project](HOWTO-create-tunerstudio-project)
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Software:TunerStudio_connectivity
+See also [Tunerstudio Connectivity](Tunerstudio-Connectivity)
 
 ## Power via 12V supply
 
@@ -104,11 +104,11 @@ See also http://rusefi.com/wiki/index.php?title=Manual:Software:TunerStudio_conn
 
 ## Tuning the engine
 
+[Get Running](HOWTO-Get-Running)
+
 [Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
 
-See also http://rusefi.com/wiki/index.php?title=Manual:First_engine_start
-
-See also http://rusefi.com/wiki/index.php?title=Manual:Error_codes
+[Error Codes](Error-Codes)
 
 ## Prerequisites
 This section assumes 
@@ -157,10 +157,10 @@ TBD
 Once it's working well and reacts well to quick changes in the long pedal, you'll want cold temperature enrichments such that it starts nice and easy. 
 TBD
 
-see also [http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control Fuel Control]
-see also [http://rusefi.com/wiki/index.php?title=Manual:Software:Ignition_Control]
-see also [http://rusefi.com/wiki/index.php?title=Manual:Software:Idle_control]
-see also [http://rusefi.com/forum/viewtopic.php?f=2&t=1124&p=21278]
+see also [Fuel Overview](Fuel-Overview)
+see also [Ignition](Ignition)
+see also [Idle Control](Idle-Control)
+see also http://rusefi.com/forum/viewtopic.php?f=2&t=1124&p=21278
 
 ## Share your tune
 
@@ -205,11 +205,11 @@ I'd like to try to connect to Tuner Studio and see what happens. I have a USB/TT
 
 This UART/real serial is just another way to connect either TunerStudio or rusEfi console to the firmware. By combining both microUsb virtual serial and TTL real serial one can connect to rusEfi with both TunerStudio and rusEfi console simultaneously.
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Software:TunerStudio_connectivity
+See also [Tunerstudio Connectivity](Tunerstudio-Connectivity)
 
 ## rusEfi firmware
 
-http://rusefi.com/wiki/index.php?title=Manual:Software:Trigger
+[Trigger](Trigger)
 
 ## LEDs
 
@@ -228,14 +228,14 @@ orange LED: warning: blinking in case of trigger input decoding warning or other
 ### Communication mode
 microUSB channel is more sensitive to noise but it's faster
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Software:TunerStudio_connectivity
+See also [Tunerstudio Connectivity](Tunerstudio-Connectivity)
 
 ### Configuration reset
 Grounding PD6 resets saved configuration to default state - see http://rusefi.com/forum/viewtopic.php?f=5&t=373&p=9571&hilit=PD6#p9571
 
 ### Board Testing mode
 
-Grounding PB0 enables board testing mode. See http://rusefi.com/wiki/index.php?title=Manual:Hardware_Test_Mode
+Grounding PB0 enables board testing mode. See [Hardware Test Mode](Hardware-Test-Mode)
 
 ## FAQ
 Q: How do I change settings? Would I need to compile source code?

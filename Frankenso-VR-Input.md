@@ -23,4 +23,4 @@ Then flip the battery and hold Battery+ to Trigger #2 P and touch Battery- with 
 Should see event counter in ''triggerinfo'' go up
 
 
-Goto board info: http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board#VR_Input
+Goto board info: [Frankenso VR Input](Hardware-Frankenso#vr-input)
