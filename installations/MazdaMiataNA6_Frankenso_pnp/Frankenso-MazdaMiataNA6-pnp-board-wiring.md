@@ -47,7 +47,7 @@
 -----------------------------------
 
 
-[Frankenso-MazdaMiataNA6-pnp](Frankenso_MazdaMiataNA6_pnp)
+[Frankenso MazdaMiataNA6 pnp](Frankenso-MazdaMiataNA6-pnp)
 
 
 ![board](installations/MazdaMiataNA6_Frankenso_pnp/Frankenso_MazdaMiataNA6_pnp_jumpers.jpg)
