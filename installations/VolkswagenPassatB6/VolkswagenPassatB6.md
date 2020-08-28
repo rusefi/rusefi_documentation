@@ -16,7 +16,7 @@ Injector connector 4D0971992
 
 Maybe pin 1 is also positive and pin 2 is also GND for us?
 
-# 94 pin connector
+# 94 pin connector T94
 
 |Pin Number|Name   | Default function                   | OEM Color |
 | ---:|:---------- |:------------------------------------ | --- |
@@ -26,28 +26,28 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 | 4   | **GND**    |  Power GND                            | BRN |
 | 5   | **12v**    |  +12v from ECU relay                 | RED/WHT |
 | 6   | **12v**    |  +12v from ECU relay                 | RED/WHT |
-| 53  | **GND**    |  Sensor GND ?                         |
+| 32  | low side   | main relay control                    | GRN/YEL |
+| 53  | **GND**    |  Sensor GND ?                         | BLK |
+| 69  | low side | ECU Relay Control (CAN wake up)      | BRN/VIO |
+| 92  | +12v       | Constant +12v from Fuse #25 10A | BLK/YEL |
 |     |            |                                       |    |
-
+End of 94 pin connector T94
 
 # 60 pin connector
 |Pin Number|Name   | Default function                      | OEM Color |
 | ---:|:---------- |:------------------------------------  | --- |
 |  4  | low side   | Wastegate bypass valve                | VIO/WHT   |
-| 7   | analog in  | Fuel Low Pressure Sensor              |
-| 14  | **GND**    | Sensor GND                            |
-| 19  | low side   | Fuel pressure regulator value         |
-| 20  | low side   |  Camshaft valve #1                    | VIO/WHT   |
-| 25  | analog in  | Fuel High Pressure Sensor             |
-| 26  | 5v         | Sensor 5v power                       |
-| 32  | low side   | main relay control |
-| 36  | Crank in   | VR Crank Negative                     |
-| 37  | 5v         | Sensor 5v power                       |
-| 44  | digital in | Can sensor                            |
-| 51  | Crank in   | VR Crank Positive                     |
-| 52  | **GND**    | Sensor GND                            |
-| 69  | low side | ECU Relay Control (CAN wake up)      | BRN/VIO |
-| 92  | +12v       | Constant +12v from Fuse #25 10A | BLK/YEL |
+| 7   | analog in  | Fuel Low Pressure Sensor              | VIO/GRN |
+| 14  | **GND**    | Sensor GND                            | BRN/BLU |
+| 19  | low side   | Fuel pressure regulator value         | VIO/BRN |
+| 20  | low side   | Camshaft valve #1                     | VIO/WHT |
+| 25  | analog in  | Fuel High Pressure Sensor             | GRN/BLU |
+| 26  | 5v         | Sensor 5v power                       | BLK/GRY |
+| 36  | Crank in   | VR Crank Negative                     | White |
+| 37  | 5v         | Sensor 5v power                       | BLK/GRN |
+| 44  | digital in | Can sensor                            | GRN/VIO |
+| 51  | Crank in   | VR Crank Positive                     | BRN |
+| 52  | **GND**    | Sensor GND                            | BLK |
 |     |            | |
 
 "Early" 5 pages
