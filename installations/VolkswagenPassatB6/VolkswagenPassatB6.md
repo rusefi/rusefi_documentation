@@ -40,12 +40,13 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 | 20  | low side   |  Camshaft valve #1                    | VIO/WHT   |
 | 25  | analog in  | Fuel High Pressure Sensor             |
 | 26  | 5v         | Sensor 5v power                       |
+| 32  | low side   | main relay control |
 | 36  | Crank in   | VR Crank Negative                     |
 | 37  | 5v         | Sensor 5v power                       |
 | 44  | digital in | Can sensor                            |
 | 51  | Crank in   | VR Crank Positive                     |
 | 52  | **GND**    | Sensor GND                            |
-| 69  | low side |Main Relay Control      | BRN/VIO |
+| 69  | low side | ECU Relay Control (CAN wake up)      | BRN/VIO |
 | 92  | +12v       | Constant +12v from Fuse #25 10A | BLK/YEL |
 |     |            | |
 
