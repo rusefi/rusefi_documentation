@@ -5,4 +5,4 @@
 * [MRE DIY TLDR](microRusEFI_DIY_TLDR)
 
 
-[All Hardware pages](Pages_Hardware)
+[All Hardware pages](Pages-Hardware)

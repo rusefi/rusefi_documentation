@@ -15,7 +15,7 @@ Frankenso should be powered by ignition switch. Frankenso main relay output can 
 
 [For sale fully assembled!](https://www.tindie.com/products/russian/frankenso-full-bundle/)
 
-See [HOWTO Quick Start](HOWTO_quick_start) for rusEfi Quick Start.
+See [HOWTO Quick Start](HOWTO-quick-start) for rusEfi Quick Start.
 
 [Known Issues](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/known_issues.txt)
 
@@ -199,7 +199,7 @@ Our op-amp of choice is MCP6004-E/SL
 
 ## Knock Sensor Decoder
 
-[Knock Sensing](knock_sensing)
+[Knock Sensing](knock-sensing)
 
 ![Knock Sensing IC Pads](Hardware/Frankenso/knock_chip_pads.png)
 

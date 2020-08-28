@@ -9,7 +9,7 @@ Please Read https://opensource.com/life/16/10/how-ask-technical-questions
 Q: Matt and Andrey are on Facebook, shall I message Matt or Andrey directly?
 
 A: Unfortunately we do not have resources for technical support via Facebook direct messages.
-Same about forum private messages. Please use public channels to have a higher chance of a response from the community. The more effort you make to ask a good question, the better response you would get. See also [HOWTO_ask_questions](HOWTO_ask_questions)
+Same about forum private messages. Please use public channels to have a higher chance of a response from the community. The more effort you make to ask a good question, the better response you would get. See also [HOWTO-ask-questions](HOWTO-ask-questions)
 
 Q: how do I attach logs to my forum post? Looks like forum does not allow .msl files?
 

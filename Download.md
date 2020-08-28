@@ -24,7 +24,7 @@ rusEfi offers complete software download bundles for multiple supported microcon
 
 More at https://rusefi.com/build_server/
 
-# [Quick Start](HOWTO_quick_start)
+# [Quick Start](HOWTO-quick-start)
 
 https://rusefi.com/wiki/index.php?title=Manual:Software:Simulator
 

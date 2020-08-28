@@ -2,8 +2,8 @@
 
 <details><summary><u>Throttle and ETB</u></summary>
 
-* [How To - ETB ](HOWTO_electronic_throttle_body)
-* [How To - ETB configuration](HOWTO_electronic_throttle_body_configuration)
+* [How To - ETB ](HOWTO-electronic-throttle-body)
+* [How To - ETB configuration](HOWTO-electronic-throttle-body_configuration)
 * List of tested ETBs - Coming Soon
 * List of tested TPS sensors - Coming Soon
 * List of tested Throttle pedal sensors - Coming Soon
@@ -13,7 +13,7 @@
 
 <details><summary><u>MAP Sensors</u></summary>
 
-* [Fuel Overview](Fuel_Overview)
+* [Fuel Overview](Fuel-Overview)
 * List of tested MAP sensors - Coming Soon
 * [GM Map sensor](GM-map-Sensor)
 
@@ -22,15 +22,15 @@
 
 <details><summary><u>MAF Sensors</u></summary>
 
-* [List of tested MAP sensors](Vault_Of_Sensors)
+* [List of tested MAP sensors](Vault-Of-Sensors)
 
 </details>
 
 
 <details><summary><u>AFR measurement (Wideband)</u></summary>
 
-* [Wide Band Sensors](Wide_Band_Sensors)
-* [Do I need a wideband](do_i_need_wideband_oxygen_sensor)
+* [Wide Band Sensors](Wide-Band-Sensors)
+* [Do I need a wideband](do-i-need-wideband-oxygen-sensor)
 * [Old WBO2 page](WBO)
 * List of tested WBO2 sensors - Coming Soon
 
@@ -53,7 +53,7 @@
 
 <details><summary><u>Crank Sensors</u></summary>
 
-* [List of tested trigger patterns](All_Supported_Triggers)
+* [List of tested trigger patterns](All-Supported-Triggers)
 * List of tested Crank Sensors - Coming Soon
 
 [//]: # 'Trigger page seems broken'
@@ -63,7 +63,7 @@
 
 <details><summary><u>Knock Sensors</u></summary>
 
-* [Overview](knock_sensing)
+* [Overview](knock-sensing)
 
 </details>
 

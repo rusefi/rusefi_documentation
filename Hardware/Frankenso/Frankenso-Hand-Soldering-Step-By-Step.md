@@ -3,7 +3,7 @@ This page is dedicated to my experience with Frankenso 0.5 board, especially man
 ## Prerequisites
 
 Mandatory links:
-[Frankenso Hardware](Hardware_Frankenso)
+[Frankenso Hardware](Hardware-Frankenso)
 https://rusefi.com/wiki/index.php?title=Manual:Hardware_Test_Mode<br>
 https://rusefi.com/wiki/index.php?title=Manual:Software:TunerStudio_connectivity<br>
 https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenstein_board#step_3:_Analog_Inputs<br>

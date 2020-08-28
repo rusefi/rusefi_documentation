@@ -1,4 +1,4 @@
-See [list of all supported triggers](All_Supported_Triggers)
+See [list of all supported triggers](All-Supported-Triggers)
 
 ## Troubleshooting trigger input
 

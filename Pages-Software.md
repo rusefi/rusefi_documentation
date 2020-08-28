@@ -10,15 +10,15 @@
 <details><summary><u>General Firmware info</u></summary>
 
 * [Preferred Code Style](Code-Style)
-* [Debug Mode](Debug_Mode)
+* [Debug Mode](Debug-Mode)
 * [Performance Tracing](Developer-Performance-Tracing)
 * [Firmware Downloads](Downloads)
 * [Feature requests](Feature_Request_Feature_Bounty_Program)
-* [Feature ideas](I_have_an_idea)
-* [How To DFU](HOWTO_DFU)
-* [How To Update Firmware](HOWTO_Update_Firmware)
-* [How To Upload a Tune](HOWTO_upload_tune)
-* [rusEFI Bundle](rusefi_bundle)
+* [Feature ideas](I-have-an-idea)
+* [How To DFU](HOWTO-DFU)
+* [How To Update Firmware](HOWTO-Update-Firmware)
+* [How To Upload a Tune](HOWTO-upload-tune)
+* [rusEFI Bundle](rusefi-bundle)
 
 </details>
 
@@ -26,6 +26,6 @@
 
 * See also -> [rusEFI Project Overview](rusEFI-project)
 * [FSIO](FSIO)
-* [Virtual Simulator](Virtual_simulator)
+* [Virtual Simulator](Virtual-simulator)
 
 </details>

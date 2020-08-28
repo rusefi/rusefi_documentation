@@ -38,7 +38,7 @@ All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](
 
 
 
-[Wiring Diagram](Hardware_microRusEfi_wiring)
+[Wiring Diagram](Hardware-microRusEfi-wiring)
 
 [0.5.0 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/micro_rusEFI_Schematic_0_5_0.pdf)
 
@@ -49,7 +49,7 @@ All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](
 
 [rusEfi Slack channel](https://rusefi.com/forum/viewtopic.php?f=13&t=1198) is the primary support channel.
 
-[HOWTO program rusEfi using DFU](HOWTO_DFU)
+[HOWTO program rusEfi using DFU](HOWTO-DFU)
 
 # Crankshaft position sensor options: Hall or VR
 

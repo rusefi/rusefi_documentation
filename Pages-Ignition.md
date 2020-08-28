@@ -1,6 +1,6 @@
 ## Master list of Ignition pages 
   
-### [Ignition FAQ](FAQ_Ignition)
+### [Ignition FAQ](FAQ-Ignition)
 
 <details><summary><u>rusEFI Project</u></summary>
 
@@ -17,7 +17,7 @@
 
 <details><summary><u>Coils and ignition modules</u></summary>
 
-* [List of tested coils](Vault_Of_Ignition_Parts)
-* [List of tested Ignition modules and IGBTs](Vault_Of_Ignition_Parts)
+* [List of tested coils](Vault-Of-Ignition-Parts)
+* [List of tested Ignition modules and IGBTs](Vault-Of-Ignition-Parts)
 
 </details>

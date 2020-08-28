@@ -81,7 +81,7 @@ At this point, the Dev Console should be up and running. Play around with it and
 
 ## Tuner Studio
 
-[HOWTO create TunerStudio project](HOWTO_create_tunerstudio_project)
+[HOWTO create TunerStudio project](HOWTO-create-tunerstudio-project)
 
 See also http://rusefi.com/wiki/index.php?title=Manual:Software:TunerStudio_connectivity
 

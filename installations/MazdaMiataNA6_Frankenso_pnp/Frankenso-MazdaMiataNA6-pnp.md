@@ -40,7 +40,7 @@ Insert supplied extra pin wire (pin on this picture) and close the latches. Done
  
 
 -----------------------------------
-[Frankenso Miata NA6 PNP Technical Details](Frankenso_MazdaMiataNA6_pnp_board_wiring)
+[Frankenso Miata NA6 PNP Technical Details](Frankenso-MazdaMiataNA6-pnp-board-wiring)
 
 
 ### TPS mod

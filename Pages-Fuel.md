@@ -8,17 +8,17 @@
 
 <details><summary><u>Fuel Algorithms</u></summary>
 
-* [Fuel Overview](Fuel_Overview)
+* [Fuel Overview](Fuel-Overview)
 * [Cranking](Cranking)
 * [AlphaN](AlphaN)
-* [Speed Density](Speed_Density)
+* [Speed Density](Speed-Density)
 * [Mass Air Flow](MAF)
 
 </details>
 
 <details><summary><u>Acceleration</u></summary>
 
-* [Overview](Acceleration_Compensation)
+* [Overview](Acceleration-Compensation)
 * [X-Tau Wall Wetting](X-tau_Wall_Wetting)
 * TPS. - Coming Soon
 
@@ -26,15 +26,15 @@
 
 <details><summary><u>AFR measurement</u></summary>
 
-* [Wide Band Sensors](Wide_Band_Sensors)
-* [Do I need a wideband](do_i_need_wideband_oxygen_sensor)
+* [Wide Band Sensors](Wide-Band-Sensors)
+* [Do I need a wideband](do-i-need-wideband-oxygen-sensor)
 * [Old WBO2 page](WBO)
 
 </details>
 
 <details><summary><u>Fuel Hardware</u></summary>
 
-* [Converting from Carb](how_to_convert_from_carburetor_to_EFI)
+* [Converting from Carb](how-to-convert-from-carburetor-to-EFI)
 * [GDI Status](GDI_Status)
 * [Basic Injector wiring](FAQ-Basic-Wiring-and-Connections)
 * [Fuel injectors](Fuel-Injectors)

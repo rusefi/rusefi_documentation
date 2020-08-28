@@ -18,9 +18,9 @@ Once you have a plan, you can start making a bill of materials. You'll likely be
 
 We should offer some notes about crimps, how to verify a good crimp, things like that. 
 
-[Frankenso](Hardware_Frankenso)
+[Frankenso](Hardware-Frankenso)
 
-[Frankenstein](Hardware_Frankenstein)
+[Frankenstein](Hardware-Frankenstein)
 
 ## Preparing your engine
 
