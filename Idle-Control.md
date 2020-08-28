@@ -1,5 +1,5 @@
 
-rusEfi supports both solenoid-type IAC out of the box (well, with a fly-back diode - 1 or two wire) and http://rusefi.com/wiki/index.php?title=Hardware:Stepper_motor (4 to six wires, add-on board from eBay required)
+rusEfi supports both solenoid-type IAC out of the box (well, with a fly-back diode - 1 or two wire) and [stepper motors](Stepper-Motor) (4 to six wires, add-on board from eBay required)
 
 
 By default Idle control is in 'manual' mode, while in manual mode you can control the idle valve with

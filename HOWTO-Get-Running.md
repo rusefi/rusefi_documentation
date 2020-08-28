@@ -18,9 +18,9 @@ Once you have a plan, you can start making a bill of materials. You'll likely be
 
 We should offer some notes about crimps, how to verify a good crimp, things like that. 
 
-[Frankenso](Hardware_Frankenso)
+[Frankenso](Hardware-Frankenso)
 
-[Frankenstein](Hardware_Frankenstein)
+[Frankenstein](Hardware-Frankenstein)
 
 ## Preparing your engine
 
@@ -92,9 +92,9 @@ Both rusEfi console and TS allows you to test if rusEfi properly controls things
 
 Your tuning software should show correct cranking RPM, usually between 150 and 300 with a fully-charged battery.
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Software:Trigger
+See also [Trigger](Trigger)
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger
+See also [Trigger Hardware](Trigger-Hardware)
 
 ## Confirm TDC position
 Assuming you have the hardware ready to spark we now need to find your TDC position - we know trigger shape but we do not know the trigger wheel position in relation to TDC#1 (Top Dead Center, cylinder #1).
@@ -115,10 +115,10 @@ Engine would start rich, as long as it's not too rich, as long as you have close
 
 To adjust cranking timing, use `set cranking_timing_angle XXX` command, where XXX is timing advance angle in relation to your trigger synchronization point. Please note that trigger synchronization point often does not match TDC, so just try different values between 0 and 720. For example, try 0, then 20, then 40 etc. Use `showconfig` to see current setting.
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Timing_Control
+See also [Console Timing Commands](Dev-Console-Commands#timing-control)
 
 
-To adjust cranking fuel, use `set cranking_fuel XXX` command, where XXX is number of total fuel squirt duration in milliseconds. See also http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Fuel_Control
+To adjust cranking fuel, use `set cranking_fuel XXX` command, where XXX is number of total fuel squirt duration in milliseconds. See also [Console Fuel Commands](Dev-Console-Commands#fuel-control)
 
 ## running parameters
 
@@ -128,7 +128,7 @@ For first run I suggest running based on MAF sensor - even if you do not have MA
 
 To adjust running timing for your first run, use `set_whole_timing_map XXX` command, where XXX is your timing advance.
 
-To adjust running fuel for your first run, use `set_whole_fuel_map XXX` command, where XXX is number of total fuel squirt duration in milliseconds. This value is usually between 3 and 12. See also http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Fuel_Control
+To adjust running fuel for your first run, use `set_whole_fuel_map XXX` command, where XXX is number of total fuel squirt duration in milliseconds. This value is usually between 3 and 12. See also [Console Fuel Commands](Dev-Console-Commands#fuel-control)
 
 One plain MAF workk next step is running with proper MAP sensor calibration & flow rate setting.
 
@@ -142,9 +142,9 @@ There are three ways to produce similar logs - the intention is for these three 
 
 See also https://svn.code.sf.net/p/rusefi/code/trunk/firmware/console/binary/tunerstudio_configuration.h
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Error_codes
+See also [Error Codes](Error-Codes)
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Debug_fields
+See also [Debug Fields](Debug-Fields)
 
 ## External links
 

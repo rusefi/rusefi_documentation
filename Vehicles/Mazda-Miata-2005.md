@@ -1,3 +1,3 @@
-http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#72_pin
+[72 pin Connector](OEM-connectors#72-pin)
 
 ![Wiring Diagram](Images/Mazda_miata_2005_at.png)

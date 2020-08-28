@@ -29,7 +29,7 @@ rusEFI hardware and software have been designed to work with all three of these 
 
 ## Configuration & Tuning
 
-[See configuration guide here.](HOWTO_electronic_throttle_body_configuration)
+[See configuration guide here.](HOWTO-electronic-throttle-body-configuration)
 
 ## Hardware Configuration
 

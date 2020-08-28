@@ -70,7 +70,7 @@ See also https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showd
 http://www.te.com/catalog/pn/en/174917-6
 Escort GT, Ford Festiva, Miata NA6 manual
 
-The larger plugs are the same as on http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#64_pin
+The larger plugs are the same as on [the 64 pin](OEM-connectors#64-pin).
 
 ## 52 pin
 http://www.te.com/usa-en/product-172319-1.html
@@ -174,7 +174,7 @@ terminal 173681
 ![Grey connectors](Hardware/connectors/64_pin_connectors_grey.png)
 ![Green connectors](Hardware/connectors/64_pin_connectors_green.png)
 
-See also http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#48_pin
+See also [the 48 pin](OEM-connectors#48-pin).
 
 For sale @ http://www.ebay.com/usr/rusefi
 
@@ -211,8 +211,7 @@ http://www.te.com/catalog/pn/en/1123038-2
 
 ![72 pin connector](Hardware/connectors/72_pin.png)
 
-Oem ECU Miata 2001 - 2005
-http://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2001
+Oem ECU [Miata 2001 - 2005](Mazda-Miata-2001)
 
 pins 316836
 
@@ -315,7 +314,7 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 2003 VW Passat
 
-http://rusefi.com/wiki/index.php?title=Hardware:OEM_121_pin_connectors
+[121 pin main page](OEM-121-pin-connectors)
 
 ## 122 pin
 

@@ -19,15 +19,15 @@ Feature|Supported?
 -------|----------
 Batch Injection|✓
 Sequential Injection up to 12 cylinders|✓
-[Direct Injection](GDI_status)|✗
+[Direct Injection](GDI-status)|✗
 Wasted Ignition|✓
 Sequential Ignition up to 12 cylinders|✓
 Rotary Engines|✗
 Closed Loop Fueling|✓
 Electronic Throttle Body|✓
-[Knock Sensing](knock_sensing)|✗
+[Knock Sensing](knock-sensing)|✗
 Boost Control|✗
-[Launch Control](Launch_Control)|✗
+[Launch Control](Launch-Control)|✗
 Flat Shifting|✗
 Automatic Transmission Control|✗
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](wall_wetting)|✓
@@ -48,7 +48,7 @@ So you are thinking of doing an engine control project. You have stopped by the 
 
 ## rusEFI in action!
 
-[Engines running rusEFI](List_of_engines_running_rusEfi)
+[Engines running rusEFI](List-of-engines-running-rusEfi)
 
 ### [![Miata rusEFI Racecar!](https://user-images.githubusercontent.com/5051341/80621997-bf7bf000-8a0d-11ea-998e-48fc3accba59.png)](https://www.youtube.com/embed/3xz66oR95F8?start=8 "Miata rusEFI Racecar!")
 

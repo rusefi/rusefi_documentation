@@ -331,8 +331,10 @@ useFSIO13ForIdleMinValue:false
 
 ---
 
-## See aslo
-set debug_mode 23 https://rusefi.com//wiki/index.php?title=Manual:Debug_fields
+## See also
+set debug_mode 23
+
+[Debug Fields](Debug-Fields)
 
 https://www.youtube.com/watch?v=nrIrtdn-Nc0
 

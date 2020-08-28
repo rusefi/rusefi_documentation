@@ -1,6 +1,5 @@
-
-https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2002
-https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
+[Mazda Miata 2002](Mazda-Miata-2002)
+[Mazda Miata 2003](Mazda-Miata-2003)
 
 
 For remote start button three wires are needed:

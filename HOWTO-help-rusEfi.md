@@ -3,10 +3,10 @@
 
 The weakest point of rusEfi is documentation. If you've played with rusEfi for any time chances are you have help improve the documentation.
 
-[Click here for more details](HOWTO_contribute_to_documentation)
+[Click here for more details](HOWTO-contribute-to-documentation)
 
 
-We are also extremely short on software developers. [HOWTO_contribute_to_firmware](HOWTO_contribute_to_firmware)
+We are also extremely short on software developers. [HOWTO-contribute-to-firmware](HOWTO-contribute-to-firmware)
 
 
 ## Please do good and do not do bad

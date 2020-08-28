@@ -1,4 +1,4 @@
-Manual:Hardware:Mazda_PnP
+[Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 
 1996 US 1.8
 

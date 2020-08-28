@@ -69,7 +69,7 @@
 #3 YEL/BLK CAN high
 #7 BLU +12v power
 
-See also See also http://rusefi.com/wiki/index.php?title=Manual:Hardware:CAN_sniffer
+See also [CAN Sniffer](CAN-Sniffer)
 
 ECU header: 121p, compatible with IV Volkswagen Jetta VR6, part number http://www.te.com/catalog/pn/en/966971-2
 

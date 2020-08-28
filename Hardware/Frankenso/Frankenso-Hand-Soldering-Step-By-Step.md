@@ -3,12 +3,12 @@ This page is dedicated to my experience with Frankenso 0.5 board, especially man
 ## Prerequisites
 
 Mandatory links:
-[Frankenso Hardware](Hardware_Frankenso)
-https://rusefi.com/wiki/index.php?title=Manual:Hardware_Test_Mode<br>
-https://rusefi.com/wiki/index.php?title=Manual:Software:TunerStudio_connectivity<br>
-https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenstein_board#step_3:_Analog_Inputs<br>
-https://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger<br>
-https://rusefi.com/wiki/index.php?title=Manual:Software_Temperature_Sensors<br>
+[Frankenso Hardware](Hardware-Frankenso)
+[Hardware Test Mode](Hardware-Test-Mode)
+[TunerStudio Connectivity](Tunerstudio-Connectivity)
+[Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
+[Trigger Hardware](Trigger-Hardware)
+[Temperature Sensing](Temperature-Sensing)
 https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk/edit#gid=0
 
 

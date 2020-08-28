@@ -95,7 +95,7 @@ Chrysler NGC 6 cylinder
 
 ## Universal True 60/2
 
-If you also have a CAM sensor somewhere see https://rusefi.com/wiki/index.php?title=Manual:Software:VVT
+If you also have a CAM sensor somewhere see [VVT](VVT)
 
 ![60/2](Images/trigger_8.png)
 
@@ -108,7 +108,7 @@ Please use this one only if your CAM sensor position matches this picture exactl
 ## VW 60/2
 VW special understanding of 60/2 with a wide tooth instead of of just missing tooth.
 
-See also https://rusefi.com/wiki/index.php?title=Manual:Software:Trigger#Universal_True_60.2F2
+See also [Universal True 60/2](All-Supported-Triggers#universal-true-602)
 
 ![VW 60/2](Images/trigger_20.png)
 
@@ -152,8 +152,7 @@ See also https://rusefi.com/wiki/index.php?title=Manual:Software:Trigger#Univers
 
 ## Unknown trigger type
 
-Manual:Software:UnknownTrigger
-
+[Unknown Trigger](Unknown-Trigger)
 
 TODO: implement a feature so that trigger could be defined via TunerStudio
 

@@ -1,8 +1,8 @@
-http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#64_pin
+[64 pin Connector](OEM-connectors#64-pin)
 
 http://rusefi.com/forum/viewtopic.php?f=3&t=467
 
-http://rusefi.com/wiki/index.php?title=Manual:Software:Trigger#Mazda_Miata_NB
+[Mazda Miata NB1 Trigger](All-Supported-Triggers#mazda-miata-nb1)
 
 set engine_type 9
 

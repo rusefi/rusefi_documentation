@@ -16,16 +16,10 @@ rusEfi offers complete software download bundles for multiple supported microcon
 
 [Proteus v0.2 and older (STM32F7)](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
 
-
-
-
-
-
-
 More at https://rusefi.com/build_server/
 
-# [Quick Start](HOWTO_quick_start)
+# [Quick Start](HOWTO-quick-start)
 
-https://rusefi.com/wiki/index.php?title=Manual:Software:Simulator
+[Choos Your Own Adventure](Try-It)
 
-https://rusefi.com/wiki/index.php?title=Manual:Try_It
+[Virtual Simulator](Virtual-simulator)

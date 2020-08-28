@@ -15,7 +15,7 @@ Frankenso should be powered by ignition switch. Frankenso main relay output can 
 
 [For sale fully assembled!](https://www.tindie.com/products/russian/frankenso-full-bundle/)
 
-See [HOWTO Quick Start](HOWTO_quick_start) for rusEfi Quick Start.
+See [HOWTO Quick Start](HOWTO-quick-start) for rusEfi Quick Start.
 
 [Known Issues](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/known_issues.txt)
 
@@ -54,23 +54,23 @@ See also [online BOM](https://rusefi.com/docs/ibom/frankenso_latest.html)
 
 ## Default Pinout
 
-Frankenso was designed with Mazda Miata NA pinout in mind. The most easily available ECU harness pig tail comes from OBD-I Honda vehicles, different Honda vehicles use slightly different harness colors so the values given are pretty approximate, please use common sense. See connector details @ http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#64_pin
+Frankenso was designed with Mazda Miata NA pinout in mind. The most easily available ECU harness pig tail comes from OBD-I Honda vehicles, different Honda vehicles use slightly different harness colors so the values given are pretty approximate, please use common sense. See connector details [here](OEM-connectors#64-pin)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1991
+See also [Mazda Miata 1991](Mazda-Miata-1991)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1994
+See also [Mazda Miata 1994](Mazda-Miata-1994)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1999
+See also [Mazda Miata 1999](Mazda-Miata-1999)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Honda_Accord_1995
+See also [Honda Accord 1995](Honda-Accord-1995)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003
+See also [Mazda Miata 2003](Mazda-Miata-2003)
 
-See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003_alt
+See also [Mazda Miata 2003 alt](Mazda-Miata-2003-alt)
 
 ![Frankeso Default Pinout](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/www_docs/frankenso_default_pinout.png)
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger
+See also [Trigger Hardware](Trigger-Hardware)
 
 Here is a video about how to chang these "Honda obd1 ecu" connector pins. It has also been found that the second stage release can be done with a flat hair clips can be used from the back side of the connector to release the pin. 
 
@@ -140,11 +140,11 @@ PE1 was replaced with PD3
 
 ![Solenoid Flyback Diode Wiring](Hardware/Frankenso/solenoid_diode_wiring.png)
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control
+See also [Fuel Overview](Fuel-Overview)
 
 ## VR Input
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger
+See also [Trigger Hardware](Trigger-Hardware)
 
 ![VR IC Circuit](Hardware/Frankenso/vr_ic_circuit.png)
 
@@ -187,9 +187,9 @@ These chips could be configured to run 5v, 12v or GND output:
 
 ## Analog Inputs
 
-See http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenstein_board#step_3:_Analog_Inputs
+See [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
 
-See http://rusefi.com/wiki/index.php?title=Manual:Software_Temperature_Sensors
+See [Temperature Sensing](Temperature-Sensing)
 
 https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk
 
@@ -199,7 +199,7 @@ Our op-amp of choice is MCP6004-E/SL
 
 ## Knock Sensor Decoder
 
-[Knock Sensing](knock_sensing)
+[Knock Sensing](knock-sensing)
 
 ![Knock Sensing IC Pads](Hardware/Frankenso/knock_chip_pads.png)
 
@@ -243,7 +243,7 @@ C354 & C358 are 4.7uF
 C355, C356 and C357 are 0.1uF (same thing as 100nF)
 
 ## SD card socket
-See http://rusefi.com/wiki/index.php?title=Manual:Software:logging
+See [Logging](Logging)
 
 
 ## EGT

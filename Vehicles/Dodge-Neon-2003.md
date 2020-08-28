@@ -9,8 +9,6 @@ Bosch 0280-155-976 injectors
 
 http://rusefi.com/forum/viewtopic.php?f=3&t=696
 
-http://rusefi.com/wiki/index.php?title=Hardware:Chrysler_PCI_Bus
-
 ## Plug 1
 38 pin
 

@@ -196,4 +196,4 @@ Outputs:
 Ignition module:
 IC7#28 via R28 & Q22
 
-See also http://rusefi.com/wiki/index.php?title=Vehicle:Honda_Prelude_1993
+See also [Honda Prelude 1993](Honda-Prelude-1993)

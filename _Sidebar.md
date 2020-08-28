@@ -4,53 +4,53 @@
 # Getting Started
 
 - [How to search the Wiki](HOWTO-Search-on-rusEFI-wiki)
-- [Quick Start](HOWTO_quick_start)
-- [How to ask questions](HOWTO_ask_questions)
+- [Quick Start](HOWTO-quick-start)
+- [How to ask questions](HOWTO-ask-questions)
 - [Support](Support)
-- [How to create a TunerStudio project](HOWTO_create_tunerstudio_project)
-- [HOWTOs and FAQs](Pages_FAQ_and_HOWTO)
+- [How to create a TunerStudio project](HOWTO-create-tunerstudio-project)
+- [HOWTOs and FAQs](Pages-FAQ-and-HOWTO)
 
 # Community
 
 - [Forum](https://rusefi.com/forum/)
-- [Slack](HOWTO_join_slack_channel)
+- [Slack](HOWTO-join-slack-channel)
 - [Facebook Users Group](https://www.facebook.com/groups/rusEfi/)
-- [Engines running on rusEFI](List_of_engines_running_rusEfi)
+- [Engines running on rusEFI](List-of-engines-running-rusEfi)
 
 # Pages
-- [Fuel](Pages_Fuel)
-- [Hardware](Pages_Hardware)
-- [Sensors and Actuators](Pages_Sensors_and_Actuators)
-- [Ignition](Pages_Ignition)
-- [Software](Pages_Software)
+- [Fuel](Pages-Fuel)
+- [Hardware](Pages-Hardware)
+- [Sensors and Actuators](Pages-Sensors-and-Actuators)
+- [Ignition](Pages-Ignition)
+- [Software](Pages-Software)
 - [rusEFI Project](rusEFI-project)
-- [How To](Pages_HOWTO)
+- [How To](Pages-HOWTO)
 
 
 # Features
 
 - [rusEFI project overview](rusEFI-project)
 - [rusEFI Online](Online)
-- [rusEFI virtual simulator](Virtual_simulator)
-- [Fueling](Fuel_Overview)
+- [rusEFI virtual simulator](Virtual-simulator)
+- [Fueling](Fuel-Overview)
 - [Multispark](Multi-Spark)
 - [Cranking](cranking)
-- [Electronic Throttle](HOWTO_electronic_throttle_body)
-- [Knock Sensing](knock_sensing)
+- [Electronic Throttle](HOWTO-electronic-throttle-body)
+- [Knock Sensing](knock-sensing)
 - [Variable Valve Timing](VVT)
 - [FSIO - Flexible Sweet Input Output](FSIO)
-- [GDI](GDI_status)
+- [GDI](GDI-status)
 
 # Hardware
 
 - [rusEfi Hardware Overview](Hardware)
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
-- [rusEFI Assembly Completeness Chart](Completeness_Chart)
-- [Kit Instructions](Pages_Kit_Instructions)
+- [rusEFI Assembly Completeness Chart](Completeness-Chart)
+- [Kit Instructions](Pages-Kit-Instructions)
 
 ### Boards
 
-- [microRusEfi](Hardware_microRusEfi)
+- [microRusEfi](Hardware-microRusEfi)
 - [Proteus](Proteus)
 - [Frankenso](https://rusefi.com/forum/viewtopic.php?f=4&t=569)
 - [Hellen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682)
@@ -61,21 +61,21 @@
 - [MREAdapter48: Miata NA6 & early NA8](MREAdapter48)
 - [MREAdapter55: from Lada to e30](MREAdapter55)
 - [MREAdapter72: Miata NB2 Mark 2.5 72 pin](MREAdapter72)
-- [Frankenso MazdaMiataNA6 PnP](Frankenso_MazdaMiataNA6_pnp)
-- [Creating a PnP PCB](PnP_PCB_HowTo)
+- [Frankenso MazdaMiataNA6 PnP](Frankenso-MazdaMiataNA6-pnp)
+- [Creating a PnP PCB](PnP-PCB-HowTo)
 
 # Contributors
 
-- [Documentation Strategy](Documentation_Strategy)
-- [Documentation Workflow](Documentation_Workflow)
+- [Documentation Strategy](Documentation-Strategy)
+- [Documentation Workflow](Documentation-Workflow)
 - [Firmware Code Doxygen](https://rusefi.com/docs/html)
 - [Firmware Code Automated Test Coverage](https://rusefi.com/docs/unit_tests_coverage)
-- [HOWTO Contribute To Firmware](HOWTO_contribute_to_firmware)
+- [HOWTO Contribute To Firmware](HOWTO-contribute-to-firmware)
 - [Firmware performance tracing](Developer-Performance-Tracing)
 
 # Misc
 
-- [How to convert from carburetor to EFI](how_to_convert_from_carburetor_to_EFI)
-- [Do I need a wideband oxygen sensor?](do_i_need_wideband_oxygen_sensor)
+- [How to convert from carburetor to EFI](how-to-convert-from-carburetor-to-EFI)
+- [Do I need a wideband oxygen sensor?](do-i-need-wideband-oxygen-sensor)
 
 

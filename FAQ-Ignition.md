@@ -32,7 +32,7 @@ Most more modern ignition coils are smart for these exact reasons and in order t
 ## You made your point but what coils do I need? 
 
 That all depends if you want to buy new coils or already have some. In general we would advise to buy "smart coils" but we are also big fans of working with what you have or raiding the junk yard (read this as we are tight).
-We have attempted to compile a list of coils [here.](Vault_Of_Ignition_Parts)
+We have attempted to compile a list of coils [here.](Vault-Of-Ignition-Parts)
 
 ---
 
@@ -43,7 +43,7 @@ Ok, this question needs tackling in several parts, please pick the option you ne
 <details><summary><u>I want to buy new coils</u></summary>
 
 If you are looking to buy new coils then we would recommend taking a look at the list of Ignition coils that have been tried with rusEFI.  
-[List of ignition coils](Vault_Of_Ignition_Parts)  
+[List of ignition coils](Vault-Of-Ignition-Parts)  
 In general though we recommend trying to get a tried and tested solution and getting coils that are easily available in your local area. 
 There are lots of tried and tested options that can be found by [**searching the forum.**](https://rusefi.com/forum/search.php)
 
@@ -68,7 +68,7 @@ You will need to source an external ignition module to go between the ECU and th
 These are generally quite cheap and can be found on some cars in the junk yard. We also made our own simple module [here](fix link)
 
 There are some tested Ignition modules on the Ignition components list and some can be found by [**searching the forum.**](https://rusefi.com/forum/search.php)  
-[List of ignition components](Vault_Of_Ignition_Parts) 
+[List of ignition components](Vault-Of-Ignition-Parts) 
 
 </details>
 
@@ -83,7 +83,7 @@ These are not to be confused with the EDIS module that some ECUs require that is
 Lots of users have already had to tackle this issue so there is a host of options that can be found by [**searching the forum.**](https://rusefi.com/forum/search.php)
 
 There are several available modules some are listed on the Ignition components list.  
-[List of ignition components](Vault_Of_Ignition_Parts) 
+[List of ignition components](Vault-Of-Ignition-Parts) 
 
 ---
 

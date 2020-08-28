@@ -5,23 +5,23 @@
 
 <details><summary><u>Universal Info</u></summary>
 
-* [Hardware completeness options](Completeness_Chart)
-* [Microcontroller selection](selecting_open_source_ecu_microcontroller)
-* [Hardware development guidelines](Dev_Hardware_Guidelines)
+* [Hardware completeness options](Completeness-Chart)
+* [Microcontroller selection](selecting-open-source-ecu-microcontroller)
+* [Hardware development guidelines](Dev-Hardware-Guidelines)
 
 </details>
 
 
 <details><summary><u>Deucalion</u></summary>
 
-* [Deucalion UART](Deucalion_uart)
+* [Deucalion UART](Deucalion-uart)
 
 </details>
 
 
 <details><summary><u>Frankenso</u></summary>
 
-* [Frankenso main page](Hardware_Frankenso)
+* [Frankenso main page](Hardware-Frankenso)
 
 </details>
 
@@ -34,7 +34,7 @@
 * [MRE Kit instructions](Hardware_microRusEFI_kit_instructions)
 * [MRE Hardware checks](Hardware_microRusEFI_hardware_checks)
 * [MRE DIY TLDR](microRusEFI_DIY_TLDR)
-* [MRE Connectors](Hardware_microRusEfi_connectors)
+* [MRE Connectors](Hardware-microRusEfi-connectors)
 
 </details>
 
@@ -49,7 +49,7 @@
 * [MRE Adapter 68](MREAdapter68)
 * [MRE Adapter 72](MREAdapter72)
 * MRE Adaptor 88 - Coming Soon
-* [PNP 72 Jumper configs](PNP_72_Jumpers)
+* [PNP 72 Jumper configs](PNP-72-Jumpers)
 
 </details>
 
@@ -64,7 +64,7 @@
 <details><summary><u>Proteus</u></summary>
 
 * [Proteus Main Page](Proteus)
-* [Proteus v0.2 wiring](Hardware_Proteus_Wiring_v02)
-* [Proteus v0.3 wiring](Hardware_Proteus_Wiring_v03)
+* [Proteus v0.2 wiring](Hardware-Proteus-Wiring-v02)
+* [Proteus v0.3 wiring](Hardware-Proteus-Wiring-v03)
 
 </details>

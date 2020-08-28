@@ -1,4 +1,4 @@
-http://rusefi.com/wiki/index.php?title=Hardware:OEM_connectors#72_pin
+[72 pin Connector](OEM-connectors#72-pin)
 
 ![Connector Face](Images/NB2 Miata ECU Connectors Drawing.png)
 

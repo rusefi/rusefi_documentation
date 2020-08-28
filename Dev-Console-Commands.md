@@ -141,7 +141,7 @@ set fuel_pump_pin_mode: 1 parameters,
 set malfunction_indicator_pin_mode: 1 parameters,
 
 ## Fuel Control
-See also http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control
+See also [Fuel Overview](Fuel-Overview)
 
 set_whole_fuel_map: 1 parameter: global value for the whole fuel map, in ms
 
@@ -215,12 +215,10 @@ for example, `set tps_accel_multiplier 2.0` This coefficient controls how much e
 set tps_accel_threshold X
 for example, `set tps_accel_threshold 10` Ignore change below X % tps
 
-See http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control#delta.28TPS.29
-
 set suckedOffCoef 0.4
 set addedToWallCoef 0.2
 
-See http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control#wall_wetting
+See [Wall Wetting](X-tau-Wall-Wetting)
 
 ## Timing Control
 
@@ -241,7 +239,7 @@ set timing_mode: 1 parameters,
 
 ## Idle Control
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Software:Idle_control
+See also [Idle Control](Idle-Control)
 
 set idle_rpm PRM
 

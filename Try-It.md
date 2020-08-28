@@ -4,7 +4,7 @@
 
 ### Does Frankenso work with your setup?
 
-Frankenso is expected to work with mid 1990's Mazda Miata, Protégé, Aspire, ect. It is also compatible (but to a lesser extent) with some vehicles like Honda Civic, ... If you have one of these vehicles, move to the below step. If you don't have this kind of setup, it may still be what you want. See this page for details about what is on the board. http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board 
+Frankenso is expected to work with mid 1990's Mazda Miata, Protégé, Aspire, ect. It is also compatible (but to a lesser extent) with some vehicles like Honda Civic, ... If you have one of these vehicles, move to the below step. If you don't have this kind of setup, it may still be what you want. See this page for details about what is on the board. See [Frankenso](Frankenso) 
 
 If it has the features you need, then proceed to the next step.
 
@@ -18,7 +18,7 @@ If you get good feedback from the forum, then move on to the step below.
 
 At this point, it appears the Frankenso is good for your applications. So now you need to get it. If you have some $, you can simply purchase an assembled board.
 
-While you wait for the board, you can start learning about what you'll need to do when you get the board. You can install tuning software and you can get several items ready for when the board arrives. Start following the steps listed on this page http://rusefi.com/wiki/index.php?title=Manual:Start-a-project/en 
+While you wait for the board, you can start learning about what you'll need to do when you get the board. You can install tuning software and you can get several items ready for when the board arrives. Start following the steps listed on 0this page](HOWTO-Get-Running)
 
 Once you get the board, you should plug it into your harness. Then follow the instructions in the above link, which will walk you through powering it up, configure the board with TunerStudio (TS) and making software adjustments. Once you have things configured and working correctly you can then try to start it and make adjustments to the tuning tables via TS. 
  
@@ -26,7 +26,7 @@ Once you get the board, you should plug it into your harness. Then follow the in
 
 ### Does Frankenstein work for you setup? 
 
-Frankenstein is a generic board with a high level of flexibility. This flexibility comes at the cost of being a bit harder to work with. You will need to make some kind of adapter harness, which can often be done with an OEM harness and a break out board. In other situations like a small engine, you may wire direct to the board. This adapter harness can be done either by soldering in jumper wires to change a pin out for your specific needs, or it can be done by putting wires under screw terminal connections. This board includes high impedance fuel injectors, hi/lo drive ignition, several analog inputs and many of the most common circuits needed for a control unit. You can find information about this board at this link. http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenstein_board 
+Frankenstein is a generic board with a high level of flexibility. This flexibility comes at the cost of being a bit harder to work with. You will need to make some kind of adapter harness, which can often be done with an OEM harness and a break out board. In other situations like a small engine, you may wire direct to the board. This adapter harness can be done either by soldering in jumper wires to change a pin out for your specific needs, or it can be done by putting wires under screw terminal connections. This board includes high impedance fuel injectors, hi/lo drive ignition, several analog inputs and many of the most common circuits needed for a control unit. You can find information about this board at [this link](Hardware-Frankenstein). 
 
 If this board contains the basic features you are looking for, continue to the next step. 
 
@@ -42,7 +42,7 @@ If you have some $, you can simply purchase the board or you can purchase the so
 
 Once you have the board, you will need to follow the instructions found here (insert link some time) These instructions should get you physically connected and operational. 
 
-Once you are physically operational, then you can follow instructions found here http://rusefi.com/wiki/index.php?title=Manual:Software:User/en This can also be found under the users area in the left pane. These instructions will show you how to connect with the tuning software known as TunerStudio (TS). TS is used for configuring items like TPS, IAT, number of cyl, ect, as well it is used for uploading tuning tables and tuning parameter and making a large variety of software adjustments. 
+Once you are physically operational, then you can follow instructions found [here](HOWTO-quick-start) This can also be found under the users area in the left pane. These instructions will show you how to connect with the tuning software known as TunerStudio (TS). TS is used for configuring items like TPS, IAT, number of cyl, ect, as well it is used for uploading tuning tables and tuning parameter and making a large variety of software adjustments. 
  
 ## Adventure 3: I need other features. How do I get other features?
 
@@ -85,11 +85,11 @@ The stimulator board allows better simulation than what is noted above. It allow
 
 ### Virtual simulation
 
-rusEFI has a virtual option. This basically simulates the ARM processors, and you can feed it registers and such which will simulate the system which is done purely in PC software. This can be really handy for build validations. You can play a log file to the registers then measure the output signals and verify they are within certain tolerances. You can also develop a variety of situations that can't easily or safely be validated with real hardware. For example, it would be really costly to physically see what happens when you have extremely fast changes in RPM caused by back fires, or broken components. See http://rusefi.com/wiki/index.php?title=Manual:Software:Simulator
+rusEFI has a virtual option. This basically simulates the ARM processors, and you can feed it registers and such which will simulate the system which is done purely in PC software. This can be really handy for build validations. You can play a log file to the registers then measure the output signals and verify they are within certain tolerances. You can also develop a variety of situations that can't easily or safely be validated with real hardware. For example, it would be really costly to physically see what happens when you have extremely fast changes in RPM caused by back fires, or broken components. See [Simulator](Simulator)
 
 ### Compile firmware
 
-You can compile the firmware, making changes and submitting bug fixes. See http://rusefi.com/wiki/index.php?title=Development:Source_code_intro
+You can compile the firmware, making changes and submitting bug fixes. See [HOWTO Contribute to Firmware](HOWTO-contribute-to-firmware)
 
 ### Experiment with java based dev console, tuner studio, etc.
 

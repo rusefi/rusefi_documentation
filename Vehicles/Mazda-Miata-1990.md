@@ -1,6 +1,4 @@
-Manual:Hardware:Mazda_PnP
-
-Back to http://rusefi.com/wiki/index.php?title=Vehicle-specific_pages
+[Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 
 ![Pinout](Images/frankenso_connector_miata_1991.png)
 

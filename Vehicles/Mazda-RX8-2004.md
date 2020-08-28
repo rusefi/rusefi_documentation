@@ -27,4 +27,4 @@ ID 420 is temp, oil pressure gauge, coolent level, battery (alternator), oil war
 ID 201 is Speed (Max 300.00 Km/h, 186mph [9C 40] and RPM (Max 16382 [FF FE], although scale goes non-linear after 10k), minimum 0.5 sec timing.
 ```
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Hardware:CAN_sniffer
+See also [CAN Sniffer](CAN-Sniffer)

@@ -2,7 +2,7 @@
 
 ![board](installations/MazdaMiataNA6_Frankenso_pnp/Frankenso_MazdaMiataNA6_pnp_053_na6_v0_1.jpg)
 
-[Frankenso Board Technical Details](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board#Default_Pinout)
+[Frankenso Board Technical Details](Hardware-Frankenso#default-pinout)
 
 # Board Jumper Wires
 
@@ -26,9 +26,9 @@
 -----------------------------------
 
 
-[Frankenso analog](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board#Analog_Inputs)
+[Frankenso analog](Hardware-Frankenso#analog-inputs)
 
-| Analog        | ECU pin |MCU pin |  pull-up | pull-down |   |  
+| Analog        | ECU pin |MCU pin |  pull-up | pull-down |   |
 |------|------|----|-------|---|---|
 | Coolant (stock)       | 3Q | PC2 |  2.7K | n/a      |   |
 | Intake Air (stock)    | 3P | PC1 |  2.7K | n/a      |   |
@@ -47,7 +47,7 @@
 -----------------------------------
 
 
-[Frankenso_MazdaMiataNA6_pnp](Frankenso_MazdaMiataNA6_pnp)
+[Frankenso MazdaMiataNA6 pnp](Frankenso-MazdaMiataNA6-pnp)
 
 
 ![board](installations/MazdaMiataNA6_Frankenso_pnp/Frankenso_MazdaMiataNA6_pnp_jumpers.jpg)

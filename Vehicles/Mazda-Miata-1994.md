@@ -1,8 +1,8 @@
-Manual:Hardware:Mazda_PnP
+[Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 
 [Frankenso options](https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk)
 
-ECU pin-out seems to be very similar to https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1990 with few exceptions:
+ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few exceptions:
 
 1. dedicated MAF ground
 

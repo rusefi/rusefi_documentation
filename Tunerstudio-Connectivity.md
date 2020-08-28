@@ -4,7 +4,7 @@ By default Tuner Studio connectivity is using pin PC10 for TX and PC11 RX, **bau
 
 ![Communication Settings](Images/communication_settings.png)
 
-See also: http://rusefi.com/wiki/index.php?title=Manual:Software:dev_console_commands#Tuner_Studio
+See also: [TunerStudio Console Commands](Dev-Console-Commands#tuner-studio)
 
 Please be sure to use current firmware version with current rusefi.ini project from [http://rusefi.com/build_server/rusefi_firmware.zip build_server]
 
