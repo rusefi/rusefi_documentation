@@ -1,4 +1,4 @@
-Manual:Hardware:Mazda_PnP
+[Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 
 [Frankenso options](https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk)
 

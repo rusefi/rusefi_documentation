@@ -1,4 +1,4 @@
-Manual:Hardware:Mazda_PnP
+[Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 
 Back to http://rusefi.com/wiki/index.php?title=Vehicle-specific_pages
 

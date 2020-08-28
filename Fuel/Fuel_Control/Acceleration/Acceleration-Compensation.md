@@ -1,6 +1,6 @@
 # Acceleration_Compensation
 
-See also https://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control
+See also [Fuel Overview](Fuel-Overview)
 
 Acceleration Compensation is required in an EFI system to modify the fuel injection to compensate for the deviation in AFR caused by the change of conditions in the inlet manifold. 
  

@@ -70,7 +70,7 @@ See also https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_2003_alt
 
 ![Frankeso Default Pinout](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/www_docs/frankenso_default_pinout.png)
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger
+See also [Trigger Hardware](Trigger-Hardware)
 
 Here is a video about how to chang these "Honda obd1 ecu" connector pins. It has also been found that the second stage release can be done with a flat hair clips can be used from the back side of the connector to release the pin. 
 
@@ -140,11 +140,11 @@ PE1 was replaced with PD3
 
 ![Solenoid Flyback Diode Wiring](Hardware/Frankenso/solenoid_diode_wiring.png)
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Software:Fuel_Control
+See also [Fuel Overview](Fuel-Overview)
 
 ## VR Input
 
-See also http://rusefi.com/wiki/index.php?title=Manual:Hardware_Trigger
+See also [Trigger Hardware](Trigger-Hardware)
 
 ![VR IC Circuit](Hardware/Frankenso/vr_ic_circuit.png)
 
@@ -187,9 +187,9 @@ These chips could be configured to run 5v, 12v or GND output:
 
 ## Analog Inputs
 
-See http://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenstein_board#step_3:_Analog_Inputs
+See [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
 
-See http://rusefi.com/wiki/index.php?title=Manual:Software_Temperature_Sensors
+See [Temperature Sensing](Temperature-Sensing)
 
 https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk
 
@@ -243,7 +243,7 @@ C354 & C358 are 4.7uF
 C355, C356 and C357 are 0.1uF (same thing as 100nF)
 
 ## SD card socket
-See http://rusefi.com/wiki/index.php?title=Manual:Software:logging
+See [Logging](Logging)
 
 
 ## EGT

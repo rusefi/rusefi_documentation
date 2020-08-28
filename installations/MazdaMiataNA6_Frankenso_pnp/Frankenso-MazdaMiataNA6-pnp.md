@@ -1,5 +1,5 @@
 
-The [Frankenso](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board) board was designed to be used on Mazda Miata NA6 as a plug-and-play solution.
+The [Frankenso](Hardware-Frankenso) board was designed to be used on Mazda Miata NA6 as a plug-and-play solution.
 
 ## Stage 0
 
@@ -69,14 +69,12 @@ NSR0530HT SOD-323 SMD Schottky Barrier Diodes 30V 500mA 0.5A
 
 ![Engine Wiring](oem_docs/Mazda/1990_Miata/1990_mazda_miata_us_wiring.png)
 
-[old wiki Mazda PnP](https://rusefi.com/wiki/index.php?title=Manual:Hardware:Mazda_PnP)
+[Mazda_Miata_1990](Mazda-Miata-1990)
 
-[old wiki Mazda_Miata_1990](https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1990)
+[Mazda_Miata_1994](Mazda-Miata-1994)
 
-[old wiki Mazda_Miata_1994](https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1994)
-
-[old wiki Frankenso board](https://rusefi.com/wiki/index.php?title=Manual:Hardware_Frankenso_board)
+[Frankenso board](Hardware-Frankenso)
 
 1996+ is too different unfortunately
 
-[old wiki Mazda_Miata_1996](https://rusefi.com/wiki/index.php?title=Vehicle:Mazda_Miata_1996)
+[Mazda_Miata_1996](Mazda-Miata-1996)
