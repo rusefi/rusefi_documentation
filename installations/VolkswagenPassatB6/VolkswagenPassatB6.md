@@ -30,8 +30,8 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 
 
 # 60 pin connector
-|Pin Number|Name   | Default function                      |
-| ---:|:---------- |:------------------------------------  |
+|Pin Number|Name   | Default function                      | OEM Color |
+| ---:|:---------- |:------------------------------------  | --- |
 | 7   | analog in  | Fuel Low Pressure Sensor              |
 | 14  | **GND**    | Sensor GND                            |
 | 19  | low side   | Fuel pressure regulator value         |
@@ -42,6 +42,7 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 | 44  | digital in | Can sensor                            |
 | 51  | Crank in   | VR Crank Positive                     |
 | 52  | **GND**    | Sensor GND                            |
+| 69  | low side |Main Relay Control      | BRN/VIO |
 |     |            | |
 
 "Early" 5 pages
