@@ -27,14 +27,17 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 | 5   | **12v**    |  +12v from ECU relay                 | RED/WHT |
 | 6   | **12v**    |  +12v from ECU relay                 | RED/WHT |
 | 53  | **GND**    |  Sensor GND ?                         |
+|     |            |                                       |    |
 
 
 # 60 pin connector
 |Pin Number|Name   | Default function                      | OEM Color |
 | ---:|:---------- |:------------------------------------  | --- |
+|  4  | low side   | Wastegate bypass valve                | VIO/WHT   |
 | 7   | analog in  | Fuel Low Pressure Sensor              |
 | 14  | **GND**    | Sensor GND                            |
 | 19  | low side   | Fuel pressure regulator value         |
+| 20  | low side   |  Camshaft valve #1                    | VIO/WHT   |
 | 25  | analog in  | Fuel High Pressure Sensor             |
 | 26  | 5v         | Sensor 5v power                       |
 | 36  | Crank in   | VR Crank Negative                     |
@@ -43,6 +46,7 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 | 51  | Crank in   | VR Crank Positive                     |
 | 52  | **GND**    | Sensor GND                            |
 | 69  | low side |Main Relay Control      | BRN/VIO |
+| 92  | +12v       | Constant +12v from Fuse #25 10A | BLK/YEL |
 |     |            | |
 
 "Early" 5 pages
