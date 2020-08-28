@@ -116,14 +116,14 @@ pin further away from the engine signal
 | MAP signal | analog | blue           |
 | AFR signal | analog | white          |
 
-![Wiring Diagram](Images/Mazda_miata_2003.png)
+![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003.png)
 
 Individual pages for printing:
-![Wiring Diagram](Images/Mazda_miata_2003_page_1.png)
+![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_page_1.png)
 
-![Wiring Diagram](Images/Mazda_miata_2003_page_2.png)
+![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_page_1.png)
 
-![Wiring Diagram](Images/Mazda_miata_2003_page_3.png)
+![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_page_1.png)
 
 ## Automatic Transmission
 

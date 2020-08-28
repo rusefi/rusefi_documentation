@@ -4,7 +4,7 @@ In RusEFI console, set engine_type 47 loads base settings.
 
 [121 pin Connector](OEM-121-pin-connectors)
 
-![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing.png)
+![Connector Face](oem_docs/Mazda/Miata_NB2_ECU_Connectors_Drawing.png)
 
 ![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusefi_harness.png)
 
@@ -105,14 +105,14 @@ OUT represents the output to the A/C Compressor clutch.
 
 ## OE Wiring Diagrams
 
-![Wiring Diagram](Images/Mazda_miata_2003.png)
+![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003.png)
 
 Individual pages for printing:
-![Wiring Diagram](Images/Mazda_miata_2003_page_1.png)
+![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_page_1.png)
 
-![Wiring Diagram](Images/Mazda_miata_2003_page_2.png)
+![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_page_2.png)
 
-![Wiring Diagram](Images/Mazda_miata_2003_page_3.png)
+![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_page_3.png)
 
 ### Automatic Transmission
 
