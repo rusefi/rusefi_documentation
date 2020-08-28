@@ -1,5 +1,5 @@
 
-![Connector Face](Images/Connector_121_pinout.jpg)
+![Connector Face](oem_docs/TE/Connector_121_pinout.jpg)
 
 ## Minimalistic wiring
 
@@ -50,17 +50,17 @@
 
 ## 2003 Mini Cooper ECU Wiring Diagram
 
-![Wiring Diagram](Images/2003_cooper_1.png)
+![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_1.png)
 
-![Wiring Diagram](Images/2003_cooper_2.png)
+![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_2.png)
 
-![Wiring Diagram](Images/2003_cooper_3.png)
+![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_2.png)
 
-![Wiring Diagram](Images/2003_cooper_4.png)
+![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_3.png)
 
-![Wiring Diagram](Images/2003_cooper_instrument_cluster_1.png)
+![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_instrument_cluster_1.png)
 
-![Wiring Diagram](Images/2003_cooper_instrument_cluster_2.png)
+![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_instrument_cluster_2.png)
 
 ![Wiring Diagram](Images/2003_cooper_tach_wiring.pdf)
 

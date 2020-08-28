@@ -1,4 +1,4 @@
-![Connector Face](Images/Connector_121_pinout.jpg)
+![Connector Face](oem_docs/TE/Connector_121_pinout.jpg)
 
 ![Wiring Diagram](Images/2004_elantra_ecu_1.png)
 
