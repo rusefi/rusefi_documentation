@@ -35,8 +35,8 @@
 ## Plug 2
 12 pin (Plug on OEM ECU is not used)
 
-| -- |  |  |  |  |
 |    |  |  |  |  |
+| -- | -| -| -| -|
 | 2A |  |  |  |  |
 | 2B |  |  |  |  |
 
