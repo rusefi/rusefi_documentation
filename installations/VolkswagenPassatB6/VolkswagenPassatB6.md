@@ -38,7 +38,7 @@ End of 94 pin connector T94
 | ---:|:---------- |:------------------------------------  | --- |
 |  4  | low side   | Wastegate bypass valve                | VIO/WHT   |
 | 7   | analog in  | Fuel Low Pressure Sensor              | VIO/GRN |
-| 14  | **GND**    | Sensor GND                            | BRN/BLU |
+| 14  | **GND**    | Sensor GND (cam, )                    | BRN/BLU |
 | 19  | low side   | Fuel pressure regulator value         | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | Fuel High Pressure Sensor             | GRN/BLU |
