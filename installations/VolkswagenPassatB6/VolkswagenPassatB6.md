@@ -45,7 +45,7 @@ End of 94 pin connector T94
 | 26  | 5v         | Sensor 5v power (cam, )               | BLK/GRY |
 | 36  | Crank in   | VR Crank Negative                     | White |
 | 37  | 5v         | Sensor 5v power                       | BLK/GRN |
-| 44  | digital in | Can sensor                            | GRN/VIO |
+| 44  | digital in | Cam position sensor                   | GRN/VIO |
 | 51  | Crank in   | VR Crank Positive                     | BRN |
 | 52  | **GND**    | Sensor GND                            | BLK |
 |     |            | |
