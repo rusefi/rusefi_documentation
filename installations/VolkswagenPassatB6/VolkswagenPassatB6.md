@@ -42,7 +42,7 @@ End of 94 pin connector T94
 | 19  | low side   | Fuel pressure regulator value         | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | Fuel High Pressure Sensor             | GRN/BLU |
-| 26  | 5v         | Sensor 5v power                       | BLK/GRY |
+| 26  | 5v         | Sensor 5v power (cam, )               | BLK/GRY |
 | 36  | Crank in   | VR Crank Negative                     | White |
 | 37  | 5v         | Sensor 5v power                       | BLK/GRN |
 | 44  | digital in | Can sensor                            | GRN/VIO |
