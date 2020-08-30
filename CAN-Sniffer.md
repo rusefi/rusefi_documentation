@@ -36,7 +36,7 @@ Run female-female jumper wires to connect TX on the CAN module with pin PB6 on t
 
 Hardware is ready!
 
-![CAN hardware attached to Discovery](Images/CAN_hardware2.png)
+![CAN hardware attached to Discovery](Images/CAN_hardware2.jpg)
 
 ## Step 3: software
 1. Download and install [STSW-LINK004 STM32 ST-LINK utility](http://www.st.com/web/en/catalog/tools/PF258168)
