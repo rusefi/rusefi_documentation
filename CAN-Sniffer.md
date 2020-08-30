@@ -8,7 +8,7 @@ In this HOWTO I will explain how to see raw CAN message flow with less than $30 
 
 ![STM32F4Discovery](Images/2014-08-21T15-20-24.645Z-stm32f4_discovery.jpg)
 
-2. Get an [CAN Board](http://www.wvshare.com/product/SN65HVD230-CAN-Board.htm SN65HVD230)
+2. Get an [SN65HVD230 CAN Board](http://www.wvshare.com/product/SN65HVD230-CAN-Board.htm)
 
 ![SN65HVD230 CAN Board](Images/sn65hvd230-can-board_l_1_5.jpg)
 
@@ -39,9 +39,9 @@ Hardware is ready!
 ![CAN hardware attached to Discovery](Images/CAN_hardware2.png)
 
 ## Step 3: software
-1. Download and install [ STSW-LINK004 STM32 ST-LINK utility](http://www.st.com/web/en/catalog/tools/PF258168)
+1. Download and install [STSW-LINK004 STM32 ST-LINK utility](http://www.st.com/web/en/catalog/tools/PF258168)
 
-2. Firmware: download and unzip [rusefi_can_sniffer.zip(http://rusefi.com/images/forum_posts/CAN/rusefi_can_sniffer.zip)
+2. Firmware: download and unzip [rusefi_can_sniffer.zip](http://rusefi.com/images/forum_posts/CAN/rusefi_can_sniffer.zip)
 
 2. Uploading the firmware: Connect stm32f4discovery to your laptop using a mini-USB cable (one should come with the board), install driver, start St-Link Utility.
 
