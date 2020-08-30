@@ -55,7 +55,7 @@ Point the utility to the rusefi_can_sniffer.hex file and hit 'Start'
 
 Close ST Link Utility.
 
-3. Now it's time to connect the micro USB cable. Keep miniUSB cable connected - you should have two USB cables connected. When you do this for the first time your Windows would prompt for drivers, you should download & install [http://www.st.com/web/en/catalog/tools/PF257938 virtual COM driver]
+3. Now it's time to connect the micro USB cable. Keep miniUSB cable connected - you should have two USB cables connected. When you do this for the first time your Windows would prompt for drivers, you should download & install [virtual COM driver](http://www.st.com/web/en/catalog/tools/PF257938)
 
 Once the driver is installed, you can verify serial connectivity by opening your Device Manager - we are expecting to see a Virtual COM Port.
 ![Device Manager](Images/device_manager.png)
