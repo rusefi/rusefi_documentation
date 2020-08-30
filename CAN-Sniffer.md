@@ -4,11 +4,11 @@ In this HOWTO I will explain how to see raw CAN message flow with less than $30 
 
 ## Step 1: shopping cart
 
-1. Get an [http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF252419 STM32F4DISCOVERY] micro-controller board - there are 'Order Now' buttons at the bottom of the official page.
+1. Get an [STM32F4DISCOVERY](http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF252419) micro-controller board - there are 'Order Now' buttons at the bottom of the official page.
 
 ![STM32F4Discovery](Images/2014-08-21T15-20-24.645Z-stm32f4_discovery.jpg)
 
-2. Get an [http://www.wvshare.com/product/SN65HVD230-CAN-Board.htm SN65HVD230 CAN Board]
+2. Get an [CAN Board](http://www.wvshare.com/product/SN65HVD230-CAN-Board.htm SN65HVD230)
 
 ![SN65HVD230 CAN Board](Images/sn65hvd230-can-board_l_1_5.jpg)
 
@@ -39,16 +39,18 @@ Hardware is ready!
 ![CAN hardware attached to Discovery](Images/CAN_hardware2.png)
 
 ## Step 3: software
-1. Download and install [http://www.st.com/web/en/catalog/tools/PF258168 STSW-LINK004 STM32 ST-LINK utility]
+1. Download and install [ STSW-LINK004 STM32 ST-LINK utility](http://www.st.com/web/en/catalog/tools/PF258168)
 
-2. Firmware: download and unzip [http://rusefi.com/images/forum_posts/CAN/rusefi_can_sniffer.zip rusefi_can_sniffer.zip]
+2. Firmware: download and unzip [rusefi_can_sniffer.zip(http://rusefi.com/images/forum_posts/CAN/rusefi_can_sniffer.zip)
 
 2. Uploading the firmware: Connect stm32f4discovery to your laptop using a mini-USB cable (one should come with the board), install driver, start St-Link Utility.
+
 ![ST Link Utility](Images/st_link_utility.png)
 
 click 'Target'>'Program...'
 
 ![ST Link Start](Images/st_link_start.png)
+
 Point the utility to the rusefi_can_sniffer.hex file and hit 'Start'
 
 Close ST Link Utility.
@@ -60,7 +62,7 @@ Once the driver is installed, you can verify serial connectivity by opening your
 
 Remember the number of the COM port.
 
-4. Download and launch [http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html Putty] telnet application.
+4. Download and launch [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) telnet application.
 
 ![Putty](Images/putty.png)
 
