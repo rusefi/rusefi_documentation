@@ -42,7 +42,7 @@ Invalid sensor readings could be due to faulty wiring or broken configuration. `
 
 What you see on the multimeter should match the 'input' value in the corresponding line of `analoginfo` output.
 
-![Analog Info](Images/Analoginfo.png)
+![Analog Info](Images/analoginfo2.png)
 
 ## CLT and IAT sensors
 
