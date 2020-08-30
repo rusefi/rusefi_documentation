@@ -4,6 +4,8 @@
 
 BOSCH MED9.1 ECU P/N 3C0 907 115 F
 
+![x](oem_docs/VW/2006_Passat/B6_ecu_label.jpg)
+
 Production	2005–2010 (B6)
 
 2.0 Turbo FSI engine code BPY ???
