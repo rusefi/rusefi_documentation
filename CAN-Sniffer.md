@@ -28,7 +28,7 @@ Run some wires from these pins to CANH (high) and CANL (low) screw terminals of 
 
 Here is how the end result should look like:
 
-![CAN hardware end result](Images/CAN_hardware.png)
+![CAN hardware end result](Images/CAN_hardware.jpg)
 
 Ignore the white wire - we do not need it.
 
@@ -66,7 +66,7 @@ Remember the number of the COM port.
 
 ![Putty](Images/putty.png)
 
-![CAN hardware attached to laptop](Images/CAN_hardware3.png)
+![CAN hardware attached to laptop](Images/CAN_hardware3.jpg)
 
 Now connect the obd connector to your vehicle and you should see the CAN messages flowing in putty.
 ![CAN messages on computer screen](Images/CAN_end_result.jpg)
