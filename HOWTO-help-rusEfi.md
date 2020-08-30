@@ -1,7 +1,9 @@
 
 # How can I help rusEfi?
 
-The weakest point of rusEfi is documentation. If you've played with rusEfi for any time chances are you have help improve the documentation.
+The weakest point of rusEFI is lack of samples and success stories. As of Aug 2020, we _really_ need vehicle threads on the forum. [HOWTO-contribute-success-stories](HOWTO-contribute-success-stories)
+
+Another weak point of rusEFI is documentation. If you've played with rusEfi for any time chances are you have help improve the documentation.
 
 [Click here for more details](HOWTO-contribute-to-documentation)
 
