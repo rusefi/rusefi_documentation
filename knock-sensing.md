@@ -19,5 +19,5 @@ Frequency is calculated based on bore, Freq = (900 / (PIF * (bore) / 2))
 
 We also have some results with ion sensing but it's not ready for end users
 
-[rusEif ion sensing]Saab-Trionic-8-Combustion%20Detection%20Module-on-Mazda-Miata-running-rusEFI)
+[rusEif ion sensing](Saab-Trionic-8-Combustion-Detection-Module-on-Mazda-Miata-running-rusEFI)
  
