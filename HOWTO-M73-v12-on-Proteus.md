@@ -1,3 +1,5 @@
+See also [HOWTO-Crimp-Ampseal](HOWTO-Crimp-Ampseal)
+
 [M73 wiring diagram](BMW-e38-750)
 
 ~6 wires are different between [Proteus 0.2](https://github.com/rusefi/rusefi/wiki/Hardware_Proteus_Wiring_v02) and [Proteus 0.3](https://github.com/rusefi/rusefi/wiki/Hardware_Proteus_Wiring_v03) - all on the 23 pin plug.
