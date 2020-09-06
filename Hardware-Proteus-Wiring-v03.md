@@ -58,15 +58,15 @@
 | 11  | DIGITAL 6  | din   | Digital trigger/switch input         |
 | 12  | VR2 neg    | vr    | Variable Reluctance #2 negative      |
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      |
-| 14  | USB D-     | usb   | USB                                  |
+| 14  | Reserved   |       | Reserved for future use              |
 | 15  | ETB2+      | etb   | ETB 2 positive                       |
 | 16  | CAN-       | can   | CAN bus low                          |
 | 17  | CAN+       | can   | CAN bus high                         |
 | 18  | +12 raw    | 12v   | ignition power / ECU power source    |
 | 19  | **GND**    | gnd   | Power GND                            |
 | 20  | **GND**    | gnd   | Power GND                            |
-| 21  | USB D+     | usb   | USB                                  |
-| 22  | USB Shield | usb   | USB - connect to cable shield        |
+| 21  | Reserved   |       | Reserved for future use              |
+| 22  | Reserved   |       | Reserved for future use              |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  |
 
 ## White 35 Pin 776231-2
