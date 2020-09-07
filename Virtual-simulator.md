@@ -15,7 +15,7 @@ You'll have to unzip the file and go into the console folder.
  
  And then open the rusefi_console.jar file.
  
- ![Contents](FAQ/images/simulator/rusEFI_console_directionary_files.png)
+ ![Contents](FAQ/images/simulator/rusEfi_console_directionary_files.png)
 
 After this, you'll start the virtual simulator.
 
