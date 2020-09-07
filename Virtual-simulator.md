@@ -11,7 +11,7 @@ The rusEFI console runs on Java, so if you don't have that installed on your PC 
 If you don't have the rusEFI console you can download it [here](http://rusefi.com/build_server/rusefi_bundle.zip).  
 You'll have to unzip the file and go into the console folder.
  
- ![Directory](FAQ/images/simulator/rusEFI_console_directory.png)
+ ![Directory](FAQ/images/simulator/rusEFI_console.jar_directory.png)
  
  And then open the rusefi_console.jar file.
  
