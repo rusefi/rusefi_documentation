@@ -15,7 +15,7 @@ The board can be configured for several different options simply by adding/remov
 - Close the case*
 - Plug in connectors and drive
 
-*You may want to omit the "close the case" step for now. That makes it easier to connect to the unit with a laptop using a micro USB cable. See below: USB connection.
+*You may want to not put the lid on the case for now. That makes it easier to connect to the unit with a laptop using a micro USB cable. See below: USB connection.
 
 One of the mounting screws needs three M4 washers because the case has a recessed thread- the stock ECU has a heat sink at that location. The washers may be included with your kit. They go here:
 ![M4 washers mounting](Hardware/pnp_microRusEfi_48na/M4_washers_mtg_hole.png)
@@ -24,19 +24,22 @@ One of the mounting screws needs three M4 washers because the case has a recesse
 The board should be received set up as a stock replacement unit for your year car. Either a 1990-1993 NA6 or a 1994/1995 NA8. Even in standard configuration it can perform a few tricks the stock ECU just can't.
 
 ## 2.1. USB connection
-The unit can connect to [TunerStudio](http://www.tunerstudio.com/index.php/tuner-studio) via native USB communication. You can either plug a MicroUSB cable into the top of the unit. This is difficult to get to in the stock installation position however, so it'snot ideal for a permanent installation in the stock location.
+The unit can connect to [TunerStudio](http://www.tunerstudio.com/index.php/tuner-studio) via native USB communication. You can either plug a MiniUSB 
+ (or some boards have MicroUSB) cable into the top of the unit. This is a bit difficult to get to in the stock installation position on an NA6, so it may not be ideal for a permanent installation in the stock location.
 
 ![Micro USB connector](Hardware/pnp_microRusEfi_48na/MRE_Micro_USB.png)
 
-If you want to use this connector for communication with your tuning laptop, cutting a hole in the top for connector access is helpful. Here are some rough dimensions on where the hole should go. A5/16" or 8mm drill and a small file or Dremel works well.
+If you want to use this connector for communication with your tuning laptop, cutting a hole in the top for connector access is helpful. Here are some rough dimensions on where the hole should go. A 5/16" or 8mm drill and a small file or Dremel works well.
 ![Lid cutout](Hardware/pnp_microRusEfi_48na/Miata_NA_PnP_Lid_Cutout_Dimensions.png)
 ![USB plugged in](Hardware/pnp_microRusEfi_48na/Miata_NA_PnP_USB_plugged_in.png)
 
-Alternatively, you can wire a standard USB cable into the main connector for a more permanent solution. Your board may come with additional contacts / wires for the main connector that can be soldered to a standard USB cable. Please note that the 5V connection is not needed for communication. It can, however be used to power the MRE unit with the ignition off.
+Alternatively, you can wire a standard USB cable into the main connector for a more permanent solution. Your board may come with additional contacts / wires for the main connector that can be soldered to a standard USB cable. (Please note that the 5V connection is not needed for communication. It can, however be used to power the MRE unit with the ignition off. The 5V power suply feature is untested and may not work. Communication using GND, D+ and D- is confirmed to work.)
 ![USB main connector](Hardware/pnp_microRusEfi_48na/USB_connections.png)
 
 ## 2.2. Micro SD card adapter
-The board comes with an adapter for a Micro SD card. Install a card in this slot and it will automatically keep a log of your engine when it's running. Please note that the only way to retrieve this log at this point (July 2nd 2020) is to open the case, remove the SD card and read it directly from a computer or other device running MegaLogViewer. The ability to read and manipulate logs without removal, via USB is planned, but not yet implemented.
+The board comes with an adapter for a Micro SD card. Install a card in this slot and it will automatically keep a log of your engine when it's running. 
+The log can be retrieved using the rusEFI plugin in Tunerstudio. Please note that Tunerstudio must be offline for the plugin to have access to the USB port. If Tunerstudio is still communicating with the ECU (online), the rusEFI plugin will be unable to access the USB port.
+Another way to retrieve logs from the SD card is to open the case, remove the SD card and read it directly from a computer or other device running MegaLogViewer.
 ![Micro SD adapter](Hardware/pnp_microRusEfi_48na/Micro_SD_adapter.png)
 
 Warning: There are reports that some Micro SD cards will not work for this setup. So if you are having trouble with this, try a different card.
@@ -46,15 +49,15 @@ Your board may, or may not, have an onboard MAP sensor. The onboard MAP sensor c
 The board can be equipped with a secondary MAP sensor for barometric correction as well
 
 ## 2.4. Tach Signal
-Your stock engine uses external igniters that not only drive the ignition coils, they also provide the signal the tachometer uses to display rpm. The ECU provides only a pull-up to 5V. When equipping the vehicle with coils from a different generation Miata, or any other logic-level coil, like COPs or GM LS coils, they will not provide the tach signal and the rusEfi unit needs to take care of it. In the standard configuration the ECU only provides the pull-up resistor, but it can easily be changed to provide the tach signal.
+Your stock engine (Miata NA6 and 94/95 NA8) uses external igniters that not only drive the ignition coils, they also provide the signal the tachometer uses to display rpm. The ECU provides only a pull-up to 5V. When equipping the vehicle with coils from a different generation Miata, or any other logic-level coil, like COPs or GM LS coils, they will not provide the tach signal and the rusEfi unit needs to take care of it. In the standard configuration the ECU only provides the pull-up resistor, but it can easily be changed to provide the tach signal.
 
 # 3. Upgrades / expansions / options
 
 ## 3.1. Wideband O2 sensor
-This is so basic that you should probably do this at the same time as the installation of the ECU. Any aftermarket ECUs with an analog output will work. You will likely have to supply it with switched 12V from a decent source and connect to signal ground at the ECU. For the 12V you can splice into the wire going to pin 1B on the ECU (ignition power) and for ground rusEfi provides an additional signal ground pin on pin 2F that is not populated on the stock connector. Or you can splice into wires from pins 1C or 1D. The analog output should be connected to pin 2N on the ECU connector. This is the stock narrowband oxygen sensor input. 
+This is so basic that you should probably do this at the same time as the installation of the ECU. Any aftermarket wideband sensors with an analog output will work. You will have to supply it with switched 12V from a decent source and connect to signal ground at the ECU. For the 12V you can splice into the wire going to pin 1B on the ECU (ignition power) and for ground rusEfi provides an additional signal ground pin on pin 2F that is not populated on the stock connector. Or you can splice into wires from pins 1C or 1D. The analog output should be connected to pin 2N on the ECU connector. This is the stock narrowband oxygen sensor input. 
 
 ## 3.2. MAP Sensor
-The first thing most users will likely want to do is use a MAP sensor for load sensing instead of the stock AFM. The easiest way to achieve this is to install an MPX4250 in the designated spot on the PCB (see image). Your board may already have this sensor installed.
+The first thing most users will likely want to do is use a MAP sensor for load sensing instead of the stock VAF (AFM). The easiest way to achieve this is to install an MPX4250 in the designated spot on the PCB (see image). Your board may already have this sensor installed.
 Warning: V 0.2 of the board has an unintended "feature" that requires you to Note that only 4 of the six legs of the sensor get soldered directly to the board. Pin 1 and pin 3 get bent up by 90 degrees and wired into pin 3 and pin 1 of the ADJACENT barometric sensor. Note that pin 1 on the sensor goes to pin 3 on the board and pin 3 on the sensor goes to pin 1 on the board.
 Hardware/pnp_microRusEfi_48na/onboard_baro.png
 
