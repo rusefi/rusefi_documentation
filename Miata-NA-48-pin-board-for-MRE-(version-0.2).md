@@ -59,7 +59,7 @@ This is so basic that you should probably do this at the same time as the instal
 ## 3.2. MAP Sensor
 The first thing most users will likely want to do is use a MAP sensor for load sensing instead of the stock VAF (AFM). The easiest way to achieve this is to install an MPX4250 in the designated spot on the PCB (see image). Your board may already have this sensor installed.
 Warning: V 0.2 of the board has an unintended "feature" that requires you to Note that only 4 of the six legs of the sensor get soldered directly to the board. Pin 1 and pin 3 get bent up by 90 degrees and wired into pin 3 and pin 1 of the ADJACENT barometric sensor. Note that pin 1 on the sensor goes to pin 3 on the board and pin 3 on the sensor goes to pin 1 on the board.
-Hardware/pnp_microRusEfi_48na/onboard_baro.png
+![Onboard MAP sensor](Hardware/pnp_microRusEfi_48na/onboard_baro.png)
 
 Please make sure to upload the correct tune for this configuration or change your tune manually. Tunes can be found at [rusEfi Online](https://rusefi.com/online/?sorts[uploadedMsq]=-1&sorts[uploadedLog]=-1)
 
