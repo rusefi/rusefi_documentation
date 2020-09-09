@@ -39,7 +39,7 @@ Alternatively, you can wire a standard USB cable into the main connector for a m
 The board comes with an adapter for a Micro SD card. Install a card in this slot and it will automatically keep a log of your engine when it's running. Please note that the only way to retrieve this log at this point (July 2nd 2020) is to open the case, remove the SD card and read it directly from a computer or other device running MegaLogViewer. The ability to read and manipulate logs without removal, via USB is planned, but not yet implemented.
 ![Micro SD adapter](Hardware/pnp_microRusEfi_48na/Micro_SD_adapter.png)
 
-Warning: There are reports that some Micro SD cards will not work for this setup. So if you are having trouble with this, 
+Warning: There are reports that some Micro SD cards will not work for this setup. So if you are having trouble with this, try a different card.
 
 ## 2.3. MAP Sensor
 Your board may, or may not, have an onboard MAP sensor. The onboard MAP sensor can either be used as a primary MAP sensor to supply the ECU with a load signal, or it can be used for barometric correction for units running an external MAP sensor. In order to use the internal MAP sensor to supply the ECU load signal you have to run a 3/16" (5mm) vacuum hose from the intake manifold to the unit and drill a hole in the stock ECU case. (see picture below). 
