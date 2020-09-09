@@ -27,10 +27,10 @@ The board should be received set up as a stock replacement unit for your year ca
 The unit can connect to [TunerStudio](http://www.tunerstudio.com/index.php/tuner-studio) via native USB communication. You can either plug a MicroUSB cable into the top of the unit. This is difficult to get to in the stock installation position however, so it'snot ideal for a permanent installation in the stock location.
 
 ![Micro USB connector](Hardware/pnp_microRusEfi_48na/MRE_Micro_USB.png)
-If you want to use this connector for communication with your tuning laptop, cutting a hole in the top for connector access is helpful. Here are some rough dimensions on where the hole should go. A5/16" or 8mm drill and a small file or Dremel works well.
-[Miata NA 48 pin board for MRE](Hardware/pnp_microRusEfi_48na/Miata_NA_PnP_Lid_Cutout_Dimensions.png)
-[Miata NA 48 pin board for MRE](Hardware/pnp_microRusEfi_48na/Miata_NA_PnP_USB_plugged_in.png)
 
+If you want to use this connector for communication with your tuning laptop, cutting a hole in the top for connector access is helpful. Here are some rough dimensions on where the hole should go. A5/16" or 8mm drill and a small file or Dremel works well.
+![Lid cutout](Hardware/pnp_microRusEfi_48na/Miata_NA_PnP_Lid_Cutout_Dimensions.png)
+![USB plugged in](Hardware/pnp_microRusEfi_48na/Miata_NA_PnP_USB_plugged_in.png)
 
 Alternatively, you can wire a standard USB cable into the main connector for a more permanent solution. Your board may come with additional contacts / wires for the main connector that can be soldered to a standard USB cable. Please note that the 5V connection is not needed for communication. It can, however be used to power the MRE unit with the ignition off.
 ![USB main connector](Hardware/pnp_microRusEfi_48na/USB_connections.png)
