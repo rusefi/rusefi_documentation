@@ -12,3 +12,6 @@ Wifi password is in ``/etc/network/interfaces`` file
 ```
 sudo dhclient wlan0
 ```
+
+
+https://www.hackster.io/mexmarv/iot-raspberry-pi-wifi-headless-setup-6be0de
