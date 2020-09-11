@@ -63,6 +63,7 @@ https://docs.google.com/spreadsheets/d/1pnU3Migcc7JEezvpVt3TcVCbuE5dIXXwrYFGZI97
 http://www.openocd.org/doc/html/GDB-and-OpenOCD.html
 
 Using openocd and gdb on STM32F407G-DISC1 requires modifying stm32f4discovery.cfg to source stmlink-v2-1.cfg
+```
 openocd -f /usr/share/openocd/scripts/board/stm32f4discovery1.cfg
 arm-none-eabi-gdb rusefi.elf
 tar ext :3333
@@ -70,6 +71,7 @@ mon reset halt
 <set breakpoints>
 load
 c
+```
 
 ### Errors
 
