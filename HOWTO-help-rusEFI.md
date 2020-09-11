@@ -7,7 +7,7 @@ The weakest point of rusEFI is lack of samples and success stories. As of Aug 20
 
 We also do not have much user feedback in general - we do not know how many rusEFI units are used regularly and what are users looking for (we know about launch control).
 
-Another weak point of rusEFI is documentation. If you've played with rusEfi for any time chances are you have help (improve the documentation.) (HOWTO-contribute-to-documentation)
+Another weak point of rusEFI is documentation. If you've played with rusEfi for any time chances are you have help [improve the documentation.](HOWTO-contribute-to-documentation)
 
 
 We are also extremely short on software developers. [HOWTO contribute to firmware](HOWTO-contribute-to-firmware)
