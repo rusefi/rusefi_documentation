@@ -1,62 +1,61 @@
 ### Getting Data to and from Tunerstudio
 
+Definition of configuration data structure:  
 integration/rusefi_config.txt  
+This file has more information in its comment header.
+
+Definition of the Tunerstudio configuration interface, gauges, and indicators
 tunerstudio/rusefi.input  
+
+Contains the enum with values to be output to Tunerstudio.
 console/binary/tunerstudio_outputs.h
 
-Me:  
-And what's with Tunerstudio struct alignment? I added options for TCU enabled and upshift and downshift pin modes. Do those need to be added at the end and their space taken out of mainUnusedEnd[]?  The Source Code Q&A links to a Google Doc to track alignment that is in the owner's trash. Is this being tracked somehow else?  
-Andrey:  
-as for TS, look at the diff. if the diff is not crazy you are doing it right  
-if the diff touches too much stuff you are doing it wrong  
-In practice I have found this to mean that they should be added to the end  
-usually the tradition is not to move other existing fields for no reason. starting an array at an odd offset is also unusual  
-let's work around existing fields without shifting them please
+See the [documentation main page](https://rusefi.com/docs/html/#config) for more information and tips on how to use these files.
 
-check config/boards/kinetis/config/controllers/algo/engine_configuration_generated_structures.h  
-after generating to ensure the total size is 20000
+Q: Do new outputs need to be added at the end and their space taken out of mainUnusedEnd[]?  
+A: Look at the diff. if the diff is not crazy you are doing it right. If the diff touches too much stuff you are doing it wrong.
+In practice I have found this to mean that they should be added to the end.
+Usually the tradition is not to move other existing fields for no reason. Starting an array at an odd offset is also unusual.
+Let's work around existing fields without shifting them please.
+There may be unused "padding" variables spread throughout that can be replaced with your new variables, particularly of the 'bit' type, as we do bit packing for better communication efficiency.
 
-In the OutputChannels section of rusefi.input, the third value needs to match the bit position of the value in tunerstudio_outputs.h
+Check config/boards/kinetis/config/controllers/algo/engine_configuration_generated_structures.h after generating to ensure the total size is 20000
 
+Tunerstudio output channels are handled completely manually, as opposed to settings where offsets are managed automatically by the gen_config scripts.
+Adding channels to tunerstudio_outputs.h induces offsets which are kept track of in comments next to each channel.
+In the OutputChannels section of rusefi.input, these values are 3rd token in the configuration string.
 
 http://www.tunerstudio.com/index.php/manuals/63-changing-gauge-limits
 
-
-Q: What is "@OFFSET@"?  
-A: That's a templace placeholder for field offset within the resuting data structure.
-
-Q: What is "[0:2]"?  
-A: That part of the bit declaration specified usage of three bits - from bit 0 to bit 2
-
-
-In order to use the CONFIG macro, you need to include engine.h and call EXTERN_ENGINE in order to get persistentState
+in order to use CONFIG macro you need EXTERN_CONFIG and include engine_configuration.h
 
 ### GPIO
 
-efiSetPadMode()  
-efiReadPin()
+[efiSetPadMode()](https://rusefi.com/docs/html/io__pins_8cpp.html#a4bd76c1e23f3126d720239707dbcbaaf)  
+[efiReadPin()](https://rusefi.com/docs/html/io__pins_8cpp.html#a6df3ebf4716cb8e2a42f45f6fa7e3afe)
 
 efiSetPadMode calls brain_pin_markUsed  
-call brain_pin_markUnused if config changes
+If you call efiSetPadMode, you need to call brain_pin_markUnused if the config changes.  
+There are several places this could be done, depending on the purpose of your code.  
+applyNewHardwareSettings() in hw_layer/hardware.cpp  
+incrementGlobalConfigurationVersion() in controllers/algo/engine_configuration.cpp  
+unregisterPins() in controllers/system/efi_gpio.cpp
 
 ### General how-do-I-do-this
 
 most stuff is initiated in engine_controller.cpp
 
+There are useful enums in firmware/controllers/algo/rusefi_enums.h  
+Acquaint yourself with them to avoid re-inventing them.
 
-enums in firmware/controllers/algo/rusefi_enums.h
+[Timers](https://rusefi.com/docs/html/#sec_timers)
 
-
-PeriodicController or PeriodicTimerController  
-or controllers/algo/engine.cpp periodicFastCallback
-
-
-efitick_t is cheaper than efitimems_t  
+efitick_t is cheaper than efitimems_t.  
 getTimeNowNt() will get you the current time in units of efitick_t.  
-MS2NT(...) will convert from milliseconds to efitick_t, so you can convert the passed in threshold to use ticks internally
+MS2NT(...) will convert from milliseconds to efitick_t.
 
-scheduleMsg is logging  
-sharedLogger is available
+For logging, use [scheduleMsg()](https://rusefi.com/docs/html/loggingcentral_8h.html#a0da1724993b78c84530d681d254b59a2)  
+sharedLogger is a generally available logger object, which is passed (by reference) to scheduleMsg.
 
 ### Discovery pinout with usable pins
 
@@ -67,6 +66,7 @@ https://docs.google.com/spreadsheets/d/1pnU3Migcc7JEezvpVt3TcVCbuE5dIXXwrYFGZI97
 http://www.openocd.org/doc/html/GDB-and-OpenOCD.html
 
 Using openocd and gdb on STM32F407G-DISC1 requires modifying stm32f4discovery.cfg to source stmlink-v2-1.cfg
+
 ```
 openocd -f /usr/share/openocd/scripts/board/stm32f4discovery1.cfg
 arm-none-eabi-gdb rusefi.elf
@@ -79,16 +79,14 @@ c
 
 ### Errors
 
-cannot move location counter backwards (from 0000000020020018 to 0000000020020000)  
-means out of memory  
-down at the end of engine_controller.cpp there's a dummy array that keeps track of how much free space we have  
-you can shrink that to make it fit
+`cannot move location counter backwards (from 0000000020020018 to 0000000020020000)`  
+This means that rusEFI is out of memory.  
+Down at the end of engine_controller.cpp there's a dummy array that keeps track of how much free space we have. You can shrink that to give your code room to fit.
 
 ### Testing
 
 All tests are run in one instance, but each test gets its own EngineTestHelper, which calls commonInitEngineController, so your objects need to gracefully handle being initiated multiple times.  
-For CONFIG(...) to work in tests, you need a DECLARE_ENGINE_PTR; in the class declaration, then an INJECT_ENGINE_REFERENCE(&myObject); during init some time  
-time doesn't pass in tests  
-you have to manually pass time  
-if you want time to pass, that is  
+For CONFIG(...) to work in tests, you need a DECLARE_ENGINE_PTR; in the class declaration, then an INJECT_ENGINE_REFERENCE(&myObject), at some point during init.  
+Time doesn't pass in tests. If you need time to pass, you have to do it manually.  
+Example:  
 `timeNowUs += MS2US(15);`
