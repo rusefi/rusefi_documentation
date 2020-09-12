@@ -15,6 +15,8 @@ Testing coverage open tickets: https://github.com/rusefi/rusefi/labels/automated
 
 All open tickets: https://github.com/rusefi/rusefi/issues
 
-See [Try It](Try It) for how to work on rusEfi code with zero or minimal hardware.
+See [Try It](Try-It) for how to work on rusEfi code with zero or minimal hardware.
 
 [Click here for a Q&A on source code.](http://rusefi.com/forum/viewtopic.php?f=5&t=10)
+
+[Some random tips](Dev-Tips)

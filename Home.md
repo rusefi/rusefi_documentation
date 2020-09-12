@@ -46,6 +46,8 @@ So you are thinking of doing an engine control project. You have stopped by the 
 
 [Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
 
+[Help Out](HOWTO-help-rusEFI)
+
 ## rusEFI in action!
 
 [Engines running rusEFI](List-of-engines-running-rusEfi)

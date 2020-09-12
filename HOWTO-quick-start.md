@@ -31,6 +31,8 @@
 ![STLink Start](Images/st_link_start.png)
 * After you have programmed the chip, you should click '''Target --> Disconnect''' and hit the '''black button''' on the discovery board '''to reset''' the firmware. After you hit the reset button, you should expect all four LEDs to blink once and then you should see just the '''blue LED blinking'''. If all is good, proceed to the Dev Console below.
 
+* Another way to upload firmware is using a [DFU file](HOWTO-DFU)
+
 ## rusEfi Console
 
 [Console](Console)
