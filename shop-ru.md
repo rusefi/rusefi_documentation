@@ -3,12 +3,15 @@ https://rusefi.com/shop/
 У нас есть собранные microRusEFI в Питере.
 
 Собранный microRusEFI 11316 рублей (потому что 150 USD) - в этом варинте заказчик сам идёт отрезать проводку от Лады или Ниссана
+
 <img src="Hardware/microrusefi/store/mre_assembled.jpg" width="640">
 
 Собранный microRusEFI + компоненты коннектора 12448 рублей (потому что 165 USD) - в этом варинте заказчик умеет обжимать разъёмы
+
 <img src="Hardware/microrusefi/store/mre_assembled_connector_kit.jpg">
 
 Собранный microRusEFI + новый хвост проводки 13580 рублей (потому что 180 USD)
+
 <img src="Hardware/microrusefi/store/mre_assembled_pigtail.jpg">
 
 Оплата на карту 4627291471315556
