@@ -22,6 +22,6 @@ More at https://rusefi.com/build_server/
 
 # [Quick Start](HOWTO-quick-start)
 
-[Choos Your Own Adventure](Try-It)
+[Choose Your Own Adventure](Try-It)
 
 [Virtual Simulator](Virtual-simulator)
