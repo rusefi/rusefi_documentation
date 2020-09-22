@@ -41,6 +41,7 @@ That's the basic outputs tested. With this you should be able to get the engine 
 
 Close the test window. We're getting close to starting the car. 
 
-Turn the ignition off and unplug the USB cable. This removes power to the unit- just to make sure we're in a defined state. Then reconnect the USB cable, turn on the ignition, wait for TunerStudio to come to life and then crank the engine. You should see the rpms jump to a positive value (typical would be anywhere between 200 and 600rpm) and your engine should start. It may take a few cranks for rpms to register. 
+## Step 7:
+Turn the ignition off and unplug the USB cable. This removes power to the unit- just to make sure we're in a defined state. Then reconnect the USB cable, turn on the ignition, wait for TunerStudio to come to life and then crank the engine. You should see the rpms jump to a positive value (typical would be anywhere between 200 and 600rpm) and your engine should start. It may take a few cranks for rpms to register. If you see rpms in Tunerstudio, but the engine isn't starting, keep at it. It may take quite a bit longer than the stock ECU. You are probably used to cranking taking approx. 2s or so. rusEFI takes about 2s of cranking before it can identify the position of the crankshaft. And then it will fire the injectors and ignition coils. It may take it quite a while (>10s which seems like an eternity when cranking) for the engine to catch. Don 't give up. There may be coughs and sputters. Play with the throttle a little. It will start eventually.
 
 And we're done with the initial startup. Congratulations- you have your car running on your standalone aftermarket ECU!
