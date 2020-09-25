@@ -281,6 +281,11 @@ https://www.te.com/usa-en/product-179686-6.html
 
 Honda Accord 96-2002
 
+## 112 pin
+Molex 64333-0100
+
+https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
+
 
 ## 120 pin
 
