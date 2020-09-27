@@ -284,6 +284,11 @@ Honda Accord 96-2002
 ## 112 pin
 Molex 64333-0100
 
+32+48+32
+
+32 pin female = 643193211
+48 pin female = 643203319
+
 https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
 
 
