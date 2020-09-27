@@ -51,10 +51,18 @@ though you could probably use D=0 since the system is already damped so hard
 
 50Hz
 
+
+[Older SOIC-24 board - double sided assembly](https://github.com/rusefi/hw_modular/tree/master/cj125_Module)
+
+[Newer LQFP-32 board - single side assembly](https://github.com/rusefi/rusefi/tree/master/hardware/CJ125_board)
+
+
 IP Pump Current
+
 VS/IP=VM=common virtual ground for VS and IP
 
 H+ Constant +12v
+
 H- Heater control, low-side
 
 4.9 pinout courtesy of https://www.wbo2.com/cable/lsuconns.htm

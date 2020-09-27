@@ -1,7 +1,32 @@
-Reduce visibility where possible
+* Reduce visibility where possible
 
-avoid magic constants
+* Avoid magic constants
 
-please do not push dead code
+* Please do not push dead code
 
-See https://rusefi.com/wiki/index.php?title=Development:Code_Style
+We make with -std=c++11 see https://github.com/rusefi/rusefi/blob/master/firmware/Makefile
+
+
+## Brackets
+Only the simplest, two-line if/for/while should not have the curly brackets. Anything more than two lines should have {}.
+
+```
+if (plain_condition)
+   oneLineStatement();
+
+if (plain_condition) {
+   // comment
+   oneLineStatement();
+}
+
+if (plain_condition) {
+   oneLineStatement();
+} else {
+   oneLineStatement2();
+}
+```
+
+## Code Formatting
+Code formatting matters. The de-facto standard is Eclipse CDT (K&R) with one change: Maximum line width = 120
+
+This standard is far from perfect, but it's good enough for now.

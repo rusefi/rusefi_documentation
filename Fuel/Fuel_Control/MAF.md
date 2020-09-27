@@ -25,12 +25,12 @@ This Kg/h value is then processed into a required fuel quantity by the following
 	cylinder Airmass = airPerRevolution / half Cylinder number
 
 In rusEFI we use a correction factor table to modify this measured air mass to allow correction of any errors in the measurement due to dynamic air flow effects. 
-To do this we to have a "load" value that allows us to have a Load Vs Speed fuel table. 
+To do this we need to have a "load" value that allows us to have a Load Vs Speed fuel table. 
 
     StandardAirCharge = engine displacement / number of cylinders * 1.2929 
 
 This produces the air mass for cylinder filling at 100% VE under standard SAE conditions. 
-Using this we can relate our cylinder air mass back to a standardised 100% cylinder filling and this we have a "load" value to use when tuning. 
+Using this we can relate our cylinder air mass back to a standardised 100% cylinder filling and thus we have a "load" value to use when tuning. 
 
     airChargeLoad = 100 * cylinder Airmass / Standard AirCharge
 
@@ -65,13 +65,6 @@ If a different air/fuel ratio is desired at a specific load or RPM then the AFR 
 
 [//]: # "Add VE table picture"
 
-# Obsolete information below
-
-MAF-based table fuel lookup with interpolation
-
-fuel_squirt_duration = injector_lag_curve_lookup(V_BATT) + warm_up_curve_lookup(COOLANT_TEMPERATURE) * intake_air_correction_curve_lookup(INTAKE_AIR_TEMP) * fuel_table_lookup(RPM, MAF)
-
-where MAF is the reading at the start of engine cycle
-
+Some useful MAF sensor maths in [this link](https://www.efunda.com/designstandards/sensors/hot_wires/hot_wires_theory.cfm)
 
 [//]: # "OrchardPerformance" 
