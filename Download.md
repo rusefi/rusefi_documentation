@@ -18,6 +18,8 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 [Proteus v0.2 and older (STM32F7)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
 
+# Advanced
+
 [Older Releases](https://github.com/rusefi/rusefi/releases/)
 
 [Nightly builds](https://rusefi.com/build_server/)
