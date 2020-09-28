@@ -137,9 +137,14 @@ Terminals are E7EB-14488-GA (18 ga) and E7EB-14488-NA (14 ga)
 
 ## 60 pin superseal
 
+26 + 34
+
 https://www.te.com/usa-en/product-6437288-3.html
 
 Motec Haltech DTAfast
+
+Suzuki Hayabusa 
+99-07 Gen I GSX1300R
 
 ## 64 pin
 http://www.te.com/catalog/pn/en/176122-6
@@ -413,6 +418,10 @@ https://www.te.com/global-en/product-936762-2.html
 https://github.com/rusefi/rusefi/tree/master/hardware/284617-1-connector
 
 http://rusefi.com/forum/viewtopic.php?f=4&t=582
+
+## 196 pin
+
+Bosch 91 & 105
 
 ## 200 pin
 http://www.te.com/catalog/pn/en/6473649-1
