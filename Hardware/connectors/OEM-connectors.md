@@ -253,6 +253,10 @@ VW Jetta Golf VR6 Turbo
 
 1997 1998 Audi 4D0 907 551 A
 
+## 80 pin molex
+48+32
+Nissan
+
 ## 81 pin
 
 unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
