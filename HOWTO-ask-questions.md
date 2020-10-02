@@ -1,3 +1,7 @@
+## Please post your tune & log files at [rusEFI Online](Online). More on that in [Support](Support)
+
+---
+
 # Asking for help
 
 Before getting in touch for some assistance there are a couple of things to know that will make it easy for us to help you. 
@@ -8,7 +12,6 @@ If after that you still need direct help then please have a read of the informat
 
 ---
 
-## Please post your tune & log files at rusEFI Online. More on that in [Support](Support)
 
 ## Please record and post a relevant log file. There are two ways to get a log file:
 
