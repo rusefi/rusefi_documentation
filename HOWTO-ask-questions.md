@@ -8,7 +8,7 @@ If after that you still need direct help then please have a read of the informat
 
 ---
 
-## Please post your tune file. More on that in [Support](Support)
+## Please post your tune & log files at rusEFI Online. More on that in [Support](Support)
 
 ## Please record and post a relevant log file. There are two ways to get a log file:
 
