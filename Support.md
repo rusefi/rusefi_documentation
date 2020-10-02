@@ -1,3 +1,7 @@
+## Please post your tune & log files at [rusEFI Online](Online).
+
+---
+
 rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises.
 
 rusEFI has zero stuff and most of rusEFI contributors all over the globe have day jobs and other obligations.
