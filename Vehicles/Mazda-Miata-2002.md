@@ -1,6 +1,6 @@
 [72 pin Connector](OEM-connectors#72-pin)
 
-![Connector Face](Images/NB2 Miata ECU Connectors Drawing.png)
+![Connector Face](oem_docs/Mazda/Miata_NB2_ECU_Connectors_Drawing.png)
 
 ## ECU
 
