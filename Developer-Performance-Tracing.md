@@ -13,7 +13,9 @@ Uses:
 
 ## Capturing a Trace
 
-TODO
+Use "Grab PTrace" button in rusEFI console, this would request a 500ms performance trace from ECU and write it into a .json file.
+
+Open Google Chrome browser, open chrome://tracing/, load generated .json file.
 
 ## Interpreting a Trace
 
