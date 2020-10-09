@@ -60,3 +60,4 @@
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1760 VW 1.8t Drive-by-wire May 31, 2020
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1734 Miata FE swap 2.0
 1. https://rusefi.com/forum/viewtopic.php?p=37351#p37351 1973 Opel Manta - BMW M42
+1. https://rusefi.com/forum/viewtopic.php?f=3&t=1523&start=30 86 Toyota MR2 AW11 + 4A-GE Oct 8, 2020
