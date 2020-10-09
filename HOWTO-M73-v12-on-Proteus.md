@@ -1,6 +1,6 @@
 See also [HOWTO-Crimp-Ampseal](HOWTO-Crimp-Ampseal)
 
-See also [Vault-Of-Electronic-Throttle-Bodies-ETB](Vault-Of-Electronic-Throttle-Bodies-ETB)
+See also [Vault-Of-Electronic-Throttle-Bodies-ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Nissan Hitachi SERA576-01 60mm throttle body recommended.
 
 [M73 wiring diagram](BMW-e38-750)
 
