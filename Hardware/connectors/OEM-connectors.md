@@ -27,6 +27,11 @@ Many aftermarket ECUs
 ## 35 pin
 http://www.te.com/catalog/pn/en/825213-1
 
+Volkswagen
+0 261 200 220
+0 261 200 862
+
+
 ![35 Pin connector](Hardware/connectors/35_pin.png)
 
 ## 38 pin
@@ -193,6 +198,10 @@ Mating harness connector 1-284272-5
 
 ## 68 pin
 https://rusefi.com/forum/viewtopic.php?f=4&t=1303
+
+Volkswagen
+0 261 204 281/282
+0 261 200 497/498
 
 http://www.te.com/catalog/pn/en/963356-1
 
