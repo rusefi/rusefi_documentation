@@ -24,4 +24,12 @@ Acceptable 3D printed case files are not public yet.
 CNC files to cut holes in 1590wxxfl/1590xxfl cases are available at https://github.com/mck1117/proteus/blob/master/export/proteus-case.step
 
 
+# 0.4
+
+![x](Hardware/Proteus/Hardware-Proteus-0.4-assembled.jpg)
+
+![x](Hardware/Proteus/Hardware-Proteus-0.4-jlc.jpg)
+
+# 0.3
+
 ![x](Hardware/Proteus/Hardware-Proteus-0.3.jpg)  
