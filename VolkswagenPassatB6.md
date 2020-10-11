@@ -30,6 +30,7 @@ Maybe pin 1 is also positive and pin 2 is also GND for us?
 | 4   | **GND**    |  Power GND                            | BRN |
 | 5   | **12v**    |  +12v from ECU relay                 | RED/WHT |
 | 6   | **12v**    |  +12v from ECU relay                 | RED/WHT |
+| 12  |            |                                       |    |
 | 32  | low side   | main relay control                    | GRN/YEL |
 | 53  | **GND**    |  Sensor GND ?                         | BLK |
 | 69  | low side | ECU Relay Control (CAN wake up)      | BRN/VIO |
