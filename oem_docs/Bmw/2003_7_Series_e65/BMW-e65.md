@@ -9,6 +9,12 @@ x2 HDEV fuel injection module 7506280 121 pin connector
 ![p](oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_2.png)
 ![p](oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_3.png)
 ![p](oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_4.png)
+![p](oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_5.png)
+![p](oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_6.png)
+![p](oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_7.png)
+![p](oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_8.png)
+![p](oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_9.png)
+![p](oem_docs/Bmw/2003_7_Series_e65/2003_N73_engine_10.png)
 ![connector](oem_docs/TE/Connector_121_pinout.jpg)
 
 Injector #1 + #118
