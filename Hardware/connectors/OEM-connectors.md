@@ -1,8 +1,14 @@
+##### Table of Contents  
+[30 pin](#30)  
+[134 pin](#134)
+
+
 Do you know part numbers for any other OEM connectors? Please let us know!
 
 Here are some OEM connector part numbers. Bosch & Siemens, German and Japanese, Mazda Toyota BMW Volkswagen:
 
 
+<a name="30"/>
 ## 30 pin
 
 https://www.te.com/global-en/product-172491-1.html
@@ -354,6 +360,7 @@ http://www.te.com/catalog/pn/en/8-5353015-1
 maybe the most common Aristo 2JZ ECU connector?
 1999 TOYOTA CAMRY 3.0L V6
 
+<a name="134"/>
 ## 134 pin
 
 https://www.te.com/usa-en/product-7-967288-1.html
