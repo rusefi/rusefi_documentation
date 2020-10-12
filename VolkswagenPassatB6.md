@@ -46,18 +46,23 @@ End of 94 pin connector T94
 |Pin Number|Name   | Default function                      | OEM Color |
 | ---:|:---------- |:------------------------------------  | --- |
 |  4  | low side   | Wastegate bypass valve                | VIO/WHT   |
-| 7   | analog in  | Fuel Low Pressure Sensor              | VIO/GRN |
-| 14  | **GND**    | Sensor GND (cam, )                    | BRN/BLU |
-| 19  | low side   | Fuel pressure regulator value         | VIO/BRN |
+| 7   | analog in  | Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN |
+| 14  | **GND**    | Sensor GND (cam, LPFP)                | BRN/BLU |
+| 19  | low side   | Fuel pressure regulator valve         | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
-| 25  | analog in  | Fuel High Pressure Sensor             | GRN/BLU |
+| 25  | analog in  | Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | Sensor 5v power (cam, )               | BLK/GRY |
-| 36  | Crank in   | VR Crank Negative                     | White |
+| 36  | Crank in   | VR Crank Negative                     | White   |
 | 37  | 5v         | Sensor 5v power                       | BLK/GRN |
+| 41  | High-Side  | Coil #2                               | BLU/GRY |
+| 43  | High-Side  | Coil #3                               | RED/GRY |
 | 44  | digital in | Cam position sensor                   | GRN/VIO |
 | 51  | Crank in   | VR Crank Positive                     | BRN |
 | 52  | **GND**    | Sensor GND                            | BLK |
+| 56  | High-Side  | Coil #4                               | GRY/BRN |
+| 58  | High-Side  | Coil #1                               | VIO/GRY |
 |     |            | |
+End of 60 pin connector T60
 
 "Early" 5 pages
 
