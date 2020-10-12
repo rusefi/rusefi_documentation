@@ -10,9 +10,13 @@ Production	2005–2010 (B6)
 
 2.0 Turbo FSI engine code BPY ???
 
-Fuel Rail Pressure sensor 0261545016 06J906051D
+Fuel Rail High Pressure Sensor 0 261 545059 [0261545059](oem_docs/Bosch/0261545006.pdf) 06D906051
+Fuel Rail High Pressure sensor 0 261 545016 0261545016 06J906051D
 
 Fuel Rail Pressure sensor connector 4D0971993
+
+Fuel Tank Pressure Sensor / 
+
 
 Injector 06F906036A
 
