@@ -93,3 +93,5 @@ Relay Control wire - RED/BLK
 ![x](oem_docs/VW/2006_Passat/ENPassatB6-blok-salon-6.jpg)
 
 ![x](oem_docs/VW/2006_Passat/starting.png)
+
+[The fuel system in FSI engines](oem_docs/VW/2006_Passat/SSP_334_d1.pdf)
