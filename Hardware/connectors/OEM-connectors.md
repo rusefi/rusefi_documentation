@@ -277,6 +277,7 @@ https://www.te.com/usa-en/product-5-174385-5.html
 Nissan
 
 <a name="80"/>
+
 ## 80 pin
 
 http://www.te.com/catalog/pn/en/8-1393476-0
@@ -299,6 +300,7 @@ unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 https://rusefi.com/forum/viewtopic.php?f=4&t=1501
 
 <a name="88"/>
+
 ## 88 pin
 http://www.te.com/catalog/pn/en/185785-1
 
@@ -379,6 +381,7 @@ maybe the most common Aristo 2JZ ECU connector?
 1999 TOYOTA CAMRY 3.0L V6
 
 <a name="134"/>
+
 ## 134 pin
 
 https://www.te.com/usa-en/product-7-967288-1.html
@@ -439,6 +442,7 @@ http://www.te.com/catalog/pn/en/9-1326728-8
 http://www.te.com/catalog/pn/en/9-1326729-8
 
 <a name="154"/>
+
 ## 154 pin
 http://www.te.com/catalog/pn/en/284617-1
 
