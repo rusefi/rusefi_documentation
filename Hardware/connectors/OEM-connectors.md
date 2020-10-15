@@ -1,7 +1,11 @@
 ##### Table of Contents  
 [30 pin](#30)  
+[64 pin](#64)
+[80 pin](#80)
+[88 pin](#88)
 [121 pin](#121)
 [134 pin](#134)
+[154 pin](#154)
 
 
 Do you know part numbers for any other OEM connectors? Please let us know!
@@ -158,6 +162,7 @@ Motec Haltech DTAfast
 Suzuki Hayabusa 
 99-07 Gen I GSX1300R
 
+<a name="64"/>
 ## 64 pin
 http://www.te.com/catalog/pn/en/176122-6
 
@@ -263,6 +268,7 @@ https://www.te.com/usa-en/product-5-174385-5.html
 
 Nissan
 
+<a name="80"/>
 ## 80 pin
 
 http://www.te.com/catalog/pn/en/8-1393476-0
@@ -284,6 +290,7 @@ unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 
 https://rusefi.com/forum/viewtopic.php?f=4&t=1501
 
+<a name="88"/>
 ## 88 pin
 http://www.te.com/catalog/pn/en/185785-1
 
@@ -423,6 +430,7 @@ http://www.te.com/catalog/pn/en/9-1326728-8
 
 http://www.te.com/catalog/pn/en/9-1326729-8
 
+<a name="154"/>
 ## 154 pin
 http://www.te.com/catalog/pn/en/284617-1
 
