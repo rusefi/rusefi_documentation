@@ -1,10 +1,16 @@
 ##### Table of Contents  
-[30 pin](#30)  
+[30 pin](#30)
+  
 [64 pin](#64)
+
 [80 pin](#80)
+
 [88 pin](#88)
+
 [121 pin](#121)
+
 [134 pin](#134)
+
 [154 pin](#154)
 
 
@@ -14,6 +20,7 @@ Here are some OEM connector part numbers. Bosch & Siemens, German and Japanese, 
 
 
 <a name="30"/>
+
 ## 30 pin
 
 https://www.te.com/global-en/product-172491-1.html
@@ -163,6 +170,7 @@ Suzuki Hayabusa
 99-07 Gen I GSX1300R
 
 <a name="64"/>
+
 ## 64 pin
 http://www.te.com/catalog/pn/en/176122-6
 
