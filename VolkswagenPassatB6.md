@@ -22,6 +22,8 @@ Injector 06F906036A
 
 Injector connector 4D0971992 - pin 1 positive/pin 2 GND
 
+MED 9.1
+
 # 94 pin connector T94
 
 |Pin Number|Name   | Default function                   | OEM Color |
@@ -63,17 +65,19 @@ End of 94 pin connector T94
 | 2   | INJ neg    | Injector #1 P5-t                      | RED/BLK |
 | 4   | low side   | Wastegate bypass valve                | VIO/WHT |
 | 7   | analog in  | Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN |
+| 12  |            | [ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#1 ETB#1                                  | GRN/YEL |
 | 14  | **GND**    | Sensor GND (cam, LPFP)                | BRN/BLU |
-| 15  |            | [ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)                          | VIO     |
+| 15  |            | [ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
 | 16  | INJ neg    | Injector #4 P5-t                      | RED/GRY |
 | 17  | INJ neg    | Injector #3 P5-t                      | RED/VIO |
 | 19  | low side   | Fuel pressure regulator valve         | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | Sensor 5v power (cam, )               | BLK/GRY |
-| 28  |            |                                       | VIO/BLU |
-| 29  |            |                                       | VIO/BRN |
-| 30  |            |                                       | BRN/VIO |
+| 27  |            | [ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#2 ETB#4                                  | BLU/GRN |
+| 28  |            | [ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Signal GND ETB#2       | BLK/BLU |
+| 29  |            | [ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v ETB#6   | VIO/BRN |
+| 30  |            | [ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB) negative ETB#3  | BRN/VIO |
 | 32  | INJ pos    | Injector #3 P5-t connected to #47     |    |
 | 33  | INJ pos    | Injector #1 P5-t                      | BRN/BLK |
 | 36  | Crank in   | VR Crank Negative                     | White   |
