@@ -64,7 +64,7 @@ End of 94 pin connector T94
 | 4   | low side   | Wastegate bypass valve                | VIO/WHT |
 | 7   | analog in  | Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN |
 | 14  | **GND**    | Sensor GND (cam, LPFP)                | BRN/BLU |
-| 15  |            | [Vault-Of-Electronic-Throttle-Bodies-ETB](ETB DC Motor)                          | VIO     |
+| 15  |            | [ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)                          | VIO     |
 | 16  | INJ neg    | Injector #4 P5-t                      | RED/GRY |
 | 17  | INJ neg    | Injector #3 P5-t                      | RED/VIO |
 | 19  | low side   | Fuel pressure regulator valve         | VIO/BRN |
