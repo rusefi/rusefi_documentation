@@ -26,17 +26,33 @@ Injector connector 4D0971992 - pin 1 positive/pin 2 GND
 
 |Pin Number|Name   | Default function                   | OEM Color |
 | ---:|:---------- |:------------------------------------ | --- |
-| 1   | **GND**    |  Power GND                            | BRN |
-| 2   | **GND**    |  Power GND                            | BRN |
-| 3   | **12v**    |  +12v from ECU relay                 | RED/WHT |
-| 4   | **GND**    |  Power GND                            | BRN |
-| 5   | **12v**    |  +12v from ECU relay                 | RED/WHT |
-| 6   | **12v**    |  +12v from ECU relay                 | RED/WHT |
-| 12  |            |                                       |    |
+| 1   | **GND**    |  Power GND term. 31                   | BRN |
+| 2   | **GND**    |  Power GND term. 31                   | BRN |
+| 3   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
+| 4   | **GND**    |  Power GND term. 31                   | BRN |
+| 5   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
+| 6   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
+| 12  | analog     | Coolant CLT P1-b                          | BLU  |
+| 19  |            |                                       | VIO   |
+| 22  | analog GND | MAF GND                               | BLK   |
+| 25  |            | brake light switch +12?               |    |
+| 27  |            | fuel pump control 20Hz PWM            | YEL/BLU   |
 | 32  | low side   | main relay control                    | GRN/YEL |
-| 53  | **GND**    |  Sensor GND ?                         | BLK |
+| 38  |            |                                       | GRY   |
+| 53  | **GND**    |  Sensor GND  P1-b                       | BLK |
+| 56  |            | Pedal                                 | BLU/GRY   |
+| 57  |            | Pedal                                 | WHT/BLU   |
+| 58  |            | Pedal                                 | GRN/GRY   |
+| 64  |            | MAF signal                            |  GRN  |
+| 67  |            | CAN Low                                      |    |
+| 68  |            | CAN High                                     |    |
 | 69  | low side | ECU Relay Control (CAN wake up)      | BRN/VIO |
-| 92  | +12v       | Constant +12v from Fuse #25 10A | BLK/YEL |
+| 78  |            | Pedal                                 |  VIO/BLK  |
+| 79  |            | Pedal                                 | BLK/BLU   |
+| 80  |            | Pedal                                 | BLK/RED   |
+| 86  |            | K-line                                |         |
+| 87  | +12v       | Constant +12v from Fuse #25 10A term. 30 |         |
+| 92  | +12v       | Constant +12v from Fuse #25 10A term. 30 | BLK/YEL |
 |     |            |                                       |    |
 End of 94 pin connector T94
 
@@ -48,12 +64,16 @@ End of 94 pin connector T94
 | 4   | low side   | Wastegate bypass valve                | VIO/WHT |
 | 7   | analog in  | Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN |
 | 14  | **GND**    | Sensor GND (cam, LPFP)                | BRN/BLU |
+| 15  |            | [Vault-Of-Electronic-Throttle-Bodies-ETB](ETB DC Motor)                          | VIO     |
 | 16  | INJ neg    | Injector #4 P5-t                      | RED/GRY |
 | 17  | INJ neg    | Injector #3 P5-t                      | RED/VIO |
 | 19  | low side   | Fuel pressure regulator valve         | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | Sensor 5v power (cam, )               | BLK/GRY |
+| 28  |            |                                       | VIO/BLU |
+| 29  |            |                                       | VIO/BRN |
+| 30  |            |                                       | BRN/VIO |
 | 32  | INJ pos    | Injector #3 P5-t connected to #47     |    |
 | 33  | INJ pos    | Injector #1 P5-t                      | BRN/BLK |
 | 36  | Crank in   | VR Crank Negative                     | White   |
@@ -67,7 +87,7 @@ End of 94 pin connector T94
 | 52  | **GND**    | Sensor GND                            | BLK |
 | 56  | High-Side  | Coil #4                               | GRY/BRN |
 | 58  | High-Side  | Coil #1                               | VIO/GRY |
-|     |            | |
+|     |            |                                       |         |
 End of 60 pin connector T60
 
 "Early" 5 pages
