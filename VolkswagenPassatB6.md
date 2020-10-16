@@ -24,6 +24,8 @@ Injector connector 4D0971992 - pin 1 positive/pin 2 GND
 
 MED 9.1
 
+[rusEFI GDI dev board](MC33816-PT2001-dev-board.md)
+
 # 94 pin connector T94
 
 |Pin Number|Name   | Default function                   | OEM Color |
