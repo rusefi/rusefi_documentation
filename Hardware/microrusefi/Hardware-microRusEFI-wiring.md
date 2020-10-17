@@ -52,18 +52,18 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 34 | **GP out 2**     | gp_low (gp_pp)  | Fan relay (IDLE stepper coil 1-)       | orange |
 | 35 | **GP out 1**     | gp_low (gp_pp)  | Fuel pump relay (IDLE stepper coil 1+) | orange |
 | 36 | **AN Volt 8**    | av      |                                                | orange |
-| 37 | **Injector 1**   | inj     | Injector 1                                     |
-| 38 | **Injector 2**   | inj     | Injector 2                                     |
-| 39 | **5V Sensor 2**  | 5v      | MAP sensor supply                              |
-| 40 | **AN Volt 9**    | av      |                                                |
-| 41 | **Injector 3**   | inj     | Injector 3                                     |
-| 42 | **Injector 4**   | inj     | Injector 4                                     |
-| 43 | **GP out 4**     | gp_low (gp_pp)  | (IDLE stepper coil 2+)                 |
-| 44 | **5V Sensor 1**  | 5v      | TPS sensor supply                              |
-| 45 | **VR+/Hall**     | vr/hall | Crank VR+/hall                                 |
-| 46 | **VR-**          | vr      | Crank VR- (do not connect if hall)             |
-| 47 | **CAN low**      | can     | CAN bus                                        |
-| 48 | **CAN high**     | can     | CAN bus                                        |
+| 37 | **Injector 1**   | inj     | Injector 1                                     | grey |
+| 38 | **Injector 2**   | inj     | Injector 2                                     | grey |
+| 39 | **5V Sensor 2**  | 5v      | MAP sensor supply                              | grey |
+| 40 | **AN Volt 9**    | av      |                                                | grey |
+| 41 | **Injector 3**   | inj     | Injector 3                                     | brown |
+| 42 | **Injector 4**   | inj     | Injector 4                                     | brown |
+| 43 | **GP out 4**     | gp_low (gp_pp)  | (IDLE stepper coil 2+)                 | brown |
+| 44 | **5V Sensor 1**  | 5v      | TPS sensor supply                              | brown |
+| 45 | **VR+/Hall**     | vr/hall | Crank VR+/hall                                 | light green |
+| 46 | **VR-**          | vr      | Crank VR- (do not connect if hall)             | light green |
+| 47 | **CAN low**      | can     | CAN bus                                        | light green |
+| 48 | **CAN high**     | can     | CAN bus                                        | light green |
 
 In some cases without "main relay output +12v" both pins #1 and #5 should be connected to the single source of +12v.
 
