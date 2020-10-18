@@ -4,7 +4,7 @@ See also [Vault-Of-Electronic-Throttle-Bodies-ETB](Vault-Of-Electronic-Throttle-
 
 [M73 wiring diagram](BMW-e38-750)
 
-~6 wires are different between [Proteus 0.2](https://github.com/rusefi/rusefi/wiki/Hardware_Proteus_Wiring_v02) and [Proteus 0.3](https://github.com/rusefi/rusefi/wiki/Hardware_Proteus_Wiring_v03) - all on the 23 pin plug.
+~6 wires are different between [Proteus 0.2](https://github.com/rusefi/rusefi/wiki/Hardware-Proteus-Wiring-v02) and [Proteus 0.3](https://github.com/rusefi/rusefi/wiki/Hardware-Proteus-Wiring-v03) - all on the 23 pin plug.
 
 
 This HOWTO is focusing on M73 engine with stock ECU harness. 1998 stock ECU harness has two 134 pin connectors.
