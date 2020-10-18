@@ -14,14 +14,14 @@
 |:---------- |:----------------------------------- | ------- |
 | PC10       | SCLK                                | BROWN   |
 | PC12       | MOSI                                | RED     |
-| PC11       | MISO                                | ORANGE  |
-| PB8        | CS                                  | YELLOW  |
-|            | GND                                 | BLACK   |
-|            | FLAG0                               | VIOLET  |
-|            | DRIVEN                              | DK BLUE |
-|            | RSTB                                | LT BLUE |
-|            | TP5 5v                              | LT BLUE |
-|            | TP6 3v                              | DK BLUE |
+| PC11       | MISO                                | YELLOW  |
+| PB8        | CS                                  | ORANGE  |
+| GND        | GND                                 | BLACK   |
+| PC13       | FLAG0                               | VIOLET  |
+| PB9        | DRIVEN                              | DK BLUE |
+| PA15       | RSTB                                | GREY    |
+| 5v         | TP5 5v                              | LT BLUE |
+| 3v         | TP6 3v                              | DK BLUE |
 |            | START1 INJ1                         |         |
 |            | START2 INJ2                         |         |
 |            | START3 INJ3                         |         |
