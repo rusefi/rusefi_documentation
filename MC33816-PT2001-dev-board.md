@@ -31,3 +31,8 @@
 |            |                                     |         |
 |            |                                     |         |
 |            |                                     |         |
+
+
+# Test Points
+
+TP4 Vboost expected 65v
