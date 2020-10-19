@@ -24,7 +24,7 @@ Alternative connector. This connector goes all the way to Nissan X-Trail T30 01-
  
 18919-AM810 Pedal Position Sensor (separate from pedal) - Nissan 350Z 2008, Infiniti G35 2007
 
-89281-33010 Toyota
+89281-33010 Toyota Camry Solara ES300 2002-06  
 
 Wire side connector 6189-0029
 
