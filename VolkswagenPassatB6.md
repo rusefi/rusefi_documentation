@@ -55,6 +55,7 @@ Sensor Power:
 | 22  | analog GND | MAF GND                               | BLK   |
 | 25  |            | brake light switch +12?               | BLK/RED   |
 | 27  |            | fuel pump control 20Hz PWM            | YEL/BLU   |
+| 28  |            | coolant control module                | YEL/VIO   |
 | 32  | low side   | main relay control                    | GRN/YEL |
 | 38  |            |                                       | GRY   |
 | 53  | **GND**    | Sensor GND  P1-b                      | BLK |

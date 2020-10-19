@@ -2,6 +2,8 @@
 
 [Forum thread for test mule](https://rusefi.com/forum/viewtopic.php?f=3&t=1631)
 
+[Forum thread for dev board](https://rusefi.com/forum/viewtopic.php?f=4&t=1337)
+
 [Test Mule Wiring Diagram](VolkswagenPassatB6)
 
 Gasoline Direct Injection requires a few additional components on top of port injection:
@@ -10,3 +12,10 @@ Gasoline Direct Injection requires a few additional components on top of port in
 2) High pressure fuel pump solenoid control - we have nothing
 
 3) Target fuel pressure logic - we have nothing 
+
+
+![x](oem_docs/NXP/pulse-variables.jpg)
+
+![x](oem_docs/NXP/WBNR_FTF12_AUT_F0098.pdf_page59.png)
+
+![x](oem_docs/NXP/WBNR_FTF12_AUT_F0098.pdf_page72.png)
