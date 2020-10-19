@@ -81,17 +81,20 @@ Destination legend:
 | 5   | **GND**    | sgnd  | Sensor GND                           | Black | - | Throttle Pedal GND |
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #1 sensor feed |
 | 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - | Throttle Pedal feed |
+| 13  | AV1        | av    | Analog Voltage Input #1              | |
 | 14  | AV3        | av    | Analog Voltage Input #3              | Orange | - | TPS1 Secondary signal |
 | 15  | AV5        | av    | Analog Voltage Input #5              | Orange | - | TPS2 Secondaryl signal  |
 | 16  | AV7        | av    | Analog Voltage Input #7              | White | - | Pedal Sensor #2 signal |
+| 17  | AV9        | av    | Analog Voltage Input #9              | |
 | 24  | AV2        | av    | Analog Voltage Input #2              | Green | - | TPS1 Primary signal  |
 | 25  | AV4        | av    | Analog Voltage Input #4              | Green | - | TPS2 Primary signal  |
 | 26  | AV6        | av    | Analog Voltage Input #6              | Green | - | Pedal Sensor #1 signal|
-| 27  | AV8        | av    | Analog Voltage Input #8              | | MAF |
-| 28  | AV10       | av    | Analog Voltage Input #10             | | |
+| 27  | AV8        | av    | Analog Voltage Input #8              | | MAP/MAF |
+| 28  | AV10       | av    | Analog Voltage Input #10             | | AFR/WBO |
 | 30  | AT2        | at    | Intake air temperature IAT           | Orange | Grey #3 34/52  |
 | 31  | AT4        | at    | Coolant temperature CLT              | Green | Black #3 22/52 RED/BRN |
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #2 sensor feed |
+| 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - |                    |
 
 
 # 9 pin plug #1 
