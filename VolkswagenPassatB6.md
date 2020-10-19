@@ -59,16 +59,16 @@ Sensor Power:
 | 32  | low side   | main relay control                    | GRN/YEL |
 | 38  |            |                                       | GRY   |
 | 53  | **GND**    | Sensor GND  P1-b                      | BLK |
-| 56  | analog GND | Pedal GND                             | BLU/GRY   |
-| 57  |            | Pedal signal #1                       | WHT/BLU   |
-| 58  | +5v        | Pedal sensor power                    | GRN/GRY   |
+| 56  | analog GND | .Pedal GND                             | BLU/GRY   |
+| 57  |            | .Pedal signal #1                       | WHT/BLU   |
+| 58  | +5v        | .Pedal sensor power                    | GRN/GRY   |
 | 64  |            | MAF signal                            | GRN    |
 | 67  |            | CAN Low                               | ORG/BRN   |
 | 68  |            | CAN High                              | ORG/BLK   |
 | 69  | low side   | ECU Relay Control (CAN wake up)       | BRN/VIO  |
-| 78  | analog GND | Pedal GND                             | VIO/BLK  |
+| 78  | analog GND | .Pedal GND                             | VIO/BLK  |
 | 79  |            | Pedal signal #2                       | BLK/BLU   |
-| 80  | +5v        | Pedal sensor power                    | BLK/RED   |
+| 80  | +5v        | .Pedal sensor power                    | BLK/RED   |
 | 86  |            | K-line                                |         |
 | 87  | +12v       | Constant +12v from Fuse #25 10A term. 30 |         |
 | 92  | +12v       | Constant +12v from Fuse #25 10A term. 30 | BLK/YEL |
@@ -86,17 +86,17 @@ End of 94 pin connector T94
 | 12  | analog in  | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#1 ETB#1 | GRN/YEL |
 | 13  | analog in  | .Intake air temperatur IAT P4-b        | WHT     |
 | 14  | **GND**    | .Sensor GND (cam, LPFP)                | BRN/BLU |
-| 15  |            | [ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
-| 16  | INJ neg    | Injector #4 P5-t                      | RED/GRY |
-| 17  | INJ neg    | Injector #3 P5-t                      | RED/VIO |
+| 15  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
+| 16  | INJ neg    | .Injector #4 P5-t                      | RED/GRY |
+| 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO |
 | 19  | low side   | Fuel pressure regulator valve         | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | .Sensor 5v power (cam, )               | BLK/GRY |
 | 27  | analog in  | [ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#2 ETB#4 | BLU/GRN |
-| 28  | 5v         | [ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU |
-| 29  | analog GND | [ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Signal GND   ETB#6 | VIO/BRN |
-| 30  |            | [ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB) neg ETB#3 | BRN/VIO |
+| 28  | 5v         | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU |
+| 29  | analog GND | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Signal GND   ETB#6 | VIO/BRN |
+| 30  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB) neg ETB#3 | BRN/VIO |
 | 32  | INJ pos    | .Injector #3 P5-t connected to #47     |    |
 | 33  | INJ pos    | .Injector #1 P5-t                      | BRN/BLK |
 | 36  | Crank in   | .VR Crank Negative                     | White   |
@@ -107,7 +107,7 @@ End of 94 pin connector T94
 | 47  | INJ pos    | .Injector #2 P5-t connected to #32     | BRN/WHT   |
 | 48  | INJ pos    | .Injector #4 P5-t                      | BRN BRN/GRY   |
 | 51  | Crank in   | .VR Crank Positive                     | BRN |
-| 52  | **GND**    | Sensor GND                            | BLK |
+| 52  | **GND**    | .Sensor GND                            | BLK |
 | 56  | High-Side  | .Coil #4                               | GRY/BRN |
 | 58  | High-Side  | .Coil #1                               | VIO/GRY |
 |     |            |                                       |         |
