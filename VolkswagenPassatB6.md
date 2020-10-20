@@ -55,7 +55,7 @@ Sensor Power:
 | 22  | analog GND | MAF GND                               | BLK   |
 | 25  |            | brake light switch +12?               | BLK/RED   |
 | 27  |            | fuel pump control 20Hz PWM            | YEL/BLU   |
-| 28  |            | coolant control module                | YEL/VIO   |
+| 28  |            | coolant control module 25Hz PMW       | YEL/VIO   |
 | 32  | low side   | main relay control                    | GRN/YEL |
 | 38  |            |                                       | GRY   |
 | 53  | **GND**    | Sensor GND  P1-b                      | BLK |
@@ -100,9 +100,9 @@ End of 94 pin connector T94
 | 32  | INJ pos    | .Injector #3 P5-t connected to #47     |    |
 | 33  | INJ pos    | .Injector #1 P5-t                      | BRN/BLK |
 | 36  | Crank in   | .VR Crank Negative                     | White   |
-| 37  | 5v         | Sensor 5v power                       | BLK/GRN |
-| 41  | High-Side  | Coil #2                               | BLU/GRY |
-| 43  | High-Side  | Coil #3                               | RED/GRY |
+| 37  | 5v         | .Sensor 5v power                       | BLK/GRN |
+| 41  | High-Side  | .Coil #2                               | BLU/GRY |
+| 43  | High-Side  | .Coil #3                               | RED/GRY |
 | 44  | digital in | .Cam position sensor                   | GRN/VIO |
 | 47  | INJ pos    | .Injector #2 P5-t connected to #32     | BRN/WHT   |
 | 48  | INJ pos    | .Injector #4 P5-t                      | BRN BRN/GRY   |
@@ -138,3 +138,5 @@ Relay Control wire - RED/BLK
 ![x](oem_docs/VW/2006_Passat/starting.png)
 
 [The fuel system in FSI engines](oem_docs/VW/2006_Passat/SSP_334_d1.pdf)
+
+[Electronically Mapped Cooling System](oem_docs/VW/2006_Passat/VWUSA.COM_SSP_222_Electronically_Mapped_Cooling_System.pdf)
