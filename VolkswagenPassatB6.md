@@ -26,6 +26,8 @@ MED 9.1
 
 [rusEFI GDI dev board](MC33816-PT2001-dev-board)
 
+[microRusEFI wiring](Hardware-microRusEFI-wiring)
+
 Sensor Grounds:
 22/94
 53/94
@@ -52,13 +54,13 @@ Sensor Power:
 | 6   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
 | 12  | analog     | Radiator Coolant CLT P1-b                          | BLU  |
 | 19  |            |                                       | VIO   |
-| 22  | analog GND | MAF GND                               | BLK   |
+| 22  | analog GND | .MAF GND                               | BLK   |
 | 25  |            | brake light switch +12?               | BLK/RED   |
 | 27  |            | fuel pump control 20Hz PWM            | YEL/BLU   |
-| 28  |            | coolant control module 25Hz PMW       | YEL/VIO   |
+| 28  |            | .coolant control module 25Hz PMW       | YEL/VIO   |
 | 32  | low side   | main relay control                    | GRN/YEL |
 | 38  |            |                                       | GRY   |
-| 53  | **GND**    | Sensor GND  P1-b                      | BLK |
+| 53  | **GND**    | .Sensor GND  P1-b                      | BLK |
 | 56  | analog GND | .Pedal GND                             | BLU/GRY   |
 | 57  |            | .Pedal signal #1                       | WHT/BLU   |
 | 58  | +5v        | .Pedal sensor power                    | GRN/GRY   |
@@ -81,8 +83,8 @@ End of 94 pin connector T94
 | 1   | INJ neg    | .Injector #2 P5-t                      | RED/WHT |
 | 2   | INJ neg    | .Injector #1 P5-t                      | RED/BLK |
 | 4   | low side   | Wastegate bypass valve                | VIO/WHT |
-| 7   | analog in  | Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN |
-| 10  | analog in  | Engine CLT P4-b                       | GRN     |
+| 7   | analog in  | .Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN |
+| 10  | analog in  | .Engine CLT P4-b                       | GRN     |
 | 12  | analog in  | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#1 ETB#1 | GRN/YEL |
 | 13  | analog in  | .Intake air temperatur IAT P4-b        | WHT     |
 | 14  | **GND**    | .Sensor GND (cam, LPFP)                | BRN/BLU |
@@ -91,7 +93,7 @@ End of 94 pin connector T94
 | 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO |
 | 19  | low side   | Fuel pressure regulator valve         | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
-| 25  | analog in  | Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
+| 25  | analog in  | .Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | .Sensor 5v power (cam, )               | BLK/GRY |
 | 27  | analog in  | [ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#2 ETB#4 | BLU/GRN |
 | 28  | 5v         | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU |
