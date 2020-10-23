@@ -71,3 +71,12 @@ https://www.youtube.com/watch?v=vIzs32PNZTY&t=140s
 Battery replacement https://www.youtube.com/watch?v=V-FhPSF_880
 
 [User Manual](oem_docs/Bmw/2003_7_Series_e65/2004_Manual_7_Series.pdf)
+
+
+
+# Transmission
+
+[6 Speed Transmission mechatronic sleeve replacement](oem_docs/Bmw/2003_7_Series_e65/6_speed_sleeve_replacement.pdf)
+
+[ZF6HP26 / 6R60 / 09E Remove Mechatronic Case Connector Sleeve Valve Body](https://www.youtube.com/watch?v=b0vvqtso14k)
+
