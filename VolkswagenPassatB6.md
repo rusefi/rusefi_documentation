@@ -53,14 +53,14 @@ Sensor Power:
 | 5   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
 | 6   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
 | 12  | analog     | Radiator Coolant CLT P1-b                          | BLU  |
-| 19  |            |                                       | VIO   |
+| 19  | +5v        | MAP +5v                                  | VIO   |
 | 22  | analog GND | .MAF GND                               | BLK   |
 | 25  |            | brake light switch +12?               | BLK/RED   |
 | 27  |            | fuel pump control 20Hz PWM            | YEL/BLU   |
 | 28  |            | .coolant control module 25Hz PMW       | YEL/VIO   |
 | 32  | low side   | main relay control                    | GRN/YEL |
-| 38  |            |                                       | GRY   |
-| 53  | **GND**    | .Sensor GND  P1-b                      | BLK |
+| 38  | analog     | MAP signal P2-b                       | GRY   |
+| 53  | **GND**    | .Sensor GND CLT MAP P1-b               | BLK |
 | 56  | analog GND | .Pedal GND                             | BLU/GRY   |
 | 57  |            | .Pedal signal #1                       | WHT/BLU   |
 | 58  | +5v        | .Pedal sensor power                    | GRN/GRY   |
@@ -87,7 +87,7 @@ End of 94 pin connector T94
 | 10  | analog in  | .Engine CLT P4-b                       | GRN     |
 | 12  | analog in  | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#1 ETB#1 | GRN/YEL |
 | 13  | analog in  | .Intake air temperatur IAT P4-b        | WHT     |
-| 14  | **GND**    | .Sensor GND (cam, LPFP)                | BRN/BLU |
+| 14  | **GND**    | .Sensor GND (cam, LPFP, CLT, IAT)      | BRN/BLU |
 | 15  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
 | 16  | INJ neg    | .Injector #4 P5-t                      | RED/GRY |
 | 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO |
