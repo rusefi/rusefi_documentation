@@ -147,4 +147,16 @@ Relay Control wire - RED/BLK
 
 [Aisin TF-60SN Volkswagen transmission code 09G](oem_docs/VW/2006_Passat/automatic_transmission_09G_851503.pdf)
 
+Transmission Input Speed sensor G182 and Output Speed sensor G195 are both Hall.
+
+Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
+
+# 52 pin connector
+|Pin Number|Name     | Default function                      | OEM Color  |
+| ---:|:------------ |:------------------------------------  | ---------- |
+| 1   | ***GND***    | Ground                                | BRN        |
+| 2   | ***GND***    | Ground                                | BRN        |
+|     |              |                                       |            |
+
+
 ![x](oem_docs/VW/2006_Passat/09G.png)
