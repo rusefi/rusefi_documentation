@@ -280,6 +280,8 @@ Nissan
 
 ## 80 pin
 
+52+28
+
 http://www.te.com/catalog/pn/en/8-1393476-0
 
 ![80 Pin Connector](Hardware/connectors/80_render.png)
@@ -288,6 +290,8 @@ Audi
 VW Jetta Golf VR6 Turbo
 
 1997 1998 Audi 4D0 907 551 A
+
+Passat B6 TCU uses 52 pin portion
 
 ## 80 pin molex
 48+32
