@@ -142,3 +142,7 @@ Relay Control wire - RED/BLK
 [The fuel system in FSI engines](oem_docs/VW/2006_Passat/SSP_334_d1.pdf)
 
 [Electronically Mapped Cooling System](oem_docs/VW/2006_Passat/VWUSA.COM_SSP_222_Electronically_Mapped_Cooling_System.pdf)
+
+# Transmission
+
+[Aisin TF-60SN Volkswagen transmission code 09G](oem_docs/VW/2006_Passat/automatic_transmission_09G_851503.pdf)
