@@ -11,6 +11,9 @@ SB101 9090
 SB131 9090
 Aisin
 
+03-70le
+A42DE
+
 | pos | color        | desc                     | type                             | my color |
 | --- | ------------ | ------------------------ | -------------------------------- | -------- |
 | A   | light green  | "1" selector             |                                  | blue     |
