@@ -156,6 +156,18 @@ Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 | ---:|:------------ |:------------------------------------  | ---------- |
 | 1   | ***GND***    | Ground                                | BRN        |
 | 2   | ***GND***    | Ground                                | BRN        |
+| 3   | +12v         | Hot all time                          | RED/BRN    |
+| 15  | high side    | Solenoid #2                           | VIO/GRY    |
+| 16  |              |                                       |            |
+| 17  |              |                                       |            |
+| 18  | ???          | Solenoid #3 ?                         | YEL/GRN    |
+| 27  | +12v         | +12v                                  | GRN/BLK    |
+| 30  | ???          | Solenoid #3 ?                         | YEL/VIO    |
+| 42  |              |                                       |            |
+| 42  |              |                                       |            |
+|     |              |                                       |            |
+|     |              |                                       |            |
+|     |              |                                       |            |
 |     |              |                                       |            |
 
 
