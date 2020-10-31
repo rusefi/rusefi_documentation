@@ -179,3 +179,7 @@ Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 ![x](oem_docs/VW/2006_Passat/09G.png)
 
 ![x](oem_docs/VW/2006_Passat/09G_table.png)
+
+[Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf](oem_docs/VW/2006_Passat/Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf)
+
+
