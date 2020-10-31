@@ -147,6 +147,8 @@ Relay Control wire - RED/BLK
 
 [Aisin TF-60SN Volkswagen transmission code 09G](oem_docs/VW/2006_Passat/automatic_transmission_09G_851503.pdf)
 
+[Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf](oem_docs/VW/2006_Passat/Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf)
+
 Transmission Input Speed sensor G182 and Output Speed sensor G195 are both Hall.
 
 Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
@@ -157,18 +159,22 @@ Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 | 1   | ***GND***    | Ground                                | BRN        |
 | 2   | ***GND***    | Ground                                | BRN        |
 | 3   | +12v         | Hot all time                          | RED/BRN    |
+| 4   |              | Solenoid #10 B1 Positive              |            |
+| 5   |              | Solenoid #4 TC Positive               |            |
+| 6   |              |                                       |            |
 | 15  | high side    | Solenoid #2                           | VIO/GRY    |
 | 16  | ???          | Solenoid #9 K2 ?                      | BRN/VIO    |
-| 17  |              |                                       |            |
+| 17  |              | Solenoid #6 Main Pressure Negative    |            |
 | 18  | ???          | Solenoid #3 K3 ?                      | YEL/GRN    |
 | 27  | +12v         | +12v in start/run                     | GRN/BLK    |
 | 29  |              | Shift lock solenoid ?                 | VIO/YEL    |
 | 30  | ???          | Solenoid #3 K3 ?                      | YEL/VIO    |
-| 31  |              |                                       |            |
+| 31  |              | Solenoid #6 Main Pressure Positive    |            |
 | 32  |              | Solenoid #9 K2 ?                      | VIO/BLU    |
 | 39  |              |                                       | BRN        |
 | 42  |              |                                       |            |
 | 42  |              |                                       |            |
+| 43  |              | Solenoid #4 TC Negative               |            |
 |     |              |                                       |            |
 | 48  |              | Shift lock solenoid ?                 | VIO        |
 | 50  |              |                                       | GRN        |
@@ -179,7 +185,5 @@ Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 ![x](oem_docs/VW/2006_Passat/09G.png)
 
 ![x](oem_docs/VW/2006_Passat/09G_table.png)
-
-[Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf](oem_docs/VW/2006_Passat/Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf)
 
 
