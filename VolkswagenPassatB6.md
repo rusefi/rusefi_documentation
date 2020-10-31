@@ -158,17 +158,24 @@ Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 | 2   | ***GND***    | Ground                                | BRN        |
 | 3   | +12v         | Hot all time                          | RED/BRN    |
 | 15  | high side    | Solenoid #2                           | VIO/GRY    |
-| 16  |              |                                       |            |
+| 16  | ???          | Solenoid #9 K2 ?                      | BRN/VIO    |
 | 17  |              |                                       |            |
-| 18  | ???          | Solenoid #3 ?                         | YEL/GRN    |
-| 27  | +12v         | +12v                                  | GRN/BLK    |
-| 30  | ???          | Solenoid #3 ?                         | YEL/VIO    |
+| 18  | ???          | Solenoid #3 K3 ?                      | YEL/GRN    |
+| 27  | +12v         | +12v in start/run                     | GRN/BLK    |
+| 29  |              | Shift lock solenoid ?                 | VIO/YEL    |
+| 30  | ???          | Solenoid #3 K3 ?                      | YEL/VIO    |
+| 31  |              |                                       |            |
+| 32  |              | Solenoid #9 K2 ?                      | VIO/BLU    |
+| 39  |              |                                       | BRN        |
 | 42  |              |                                       |            |
 | 42  |              |                                       |            |
 |     |              |                                       |            |
-|     |              |                                       |            |
+| 48  |              | Shift lock solenoid ?                 | VIO        |
+| 50  |              |                                       | GRN        |
 |     |              |                                       |            |
 |     |              |                                       |            |
 
 
 ![x](oem_docs/VW/2006_Passat/09G.png)
+
+![x](oem_docs/VW/2006_Passat/09G_table.png)
