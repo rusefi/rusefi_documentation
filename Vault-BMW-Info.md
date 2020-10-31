@@ -44,3 +44,9 @@ https://docs.google.com/spreadsheets/d/1OiEaak7TElKwF-fXWvl9Dk-fD84a0NENe6lOwhXi
 [BMW-e65](BMW-e65)
 
 
+# TEVES MK60 Info
+
+The E46 switched from a different ABS partway through production (I think 2003). The earlier units don't work. I believe the M3 devices have programming  that is more suitable for track use, but that the non-M3 are still considered quite good (the differences are pretty qualitative and I haven't seen any  real back to back comparison). Some of the M3 units are also flashable with special race tunes including one that is fully programmable. So short answer  is you CAN use pretty much any Teves Mk60 from E46, but the M3 unit is often preferred. MINI's and some VAG cars of similar years also came with the Teves  
+ Mk60 and I believe those can also be used  
+There are a subset of MK60 units that can be used for Race ABS applications which requires a bench flash of a map specifically set to your chassis. Any  ZCP/CSL unit can accept the Race ABS programming and any E46 M3 MK60 who's computer number ends in 813.3 can also. 
+There are e46 m3 units that end with 818.3 which can't be flashed with the race program. 
