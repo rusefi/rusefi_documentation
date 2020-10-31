@@ -27,3 +27,10 @@ Source & production files at: https://github.com/mck1117/proteus/
 [Ampseal application specification (instruction manual)](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F114-16016%7FM%7Fpdf%7FEnglish%7FENG_SS_114-16016_M.pdf%7FN-A): This document includes how to crimp connectors, how to install them in to headers, and how to remove pins from a header.
 
 [Image showing mod for V0.3 DFU problem](Images/Proteus_DFU_Hack.jpg)
+
+
+## 3D cases
+
+[vented/unvented by Kneelo](Hardware/Proteus/Proteus_0.3_case_by_kneelo.zip)
+
+[by OrchardPerformance][https://rusefi.com/forum/download/file.php?id=6271] 
