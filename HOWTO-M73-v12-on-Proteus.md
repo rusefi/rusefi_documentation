@@ -141,3 +141,11 @@ ETB/Pedal: 7ft/213cm
 See also https://github.com/rusefi/rusefi/wiki/Vault-Of-Electronic-Throttle-Bodies-ETB
 
 ![ecu1](oem_docs/Bmw/1998_750_e38/BMW-134.jpg)
+
+![x](oem_docs/Bmw/1998_750_e38/proteus_0.2/20201007_top_both.jpg)
+![x](oem_docs/Bmw/1998_750_e38/proteus_0.2/20201019_top_black.jpg)
+![x](oem_docs/Bmw/1998_750_e38/proteus_0.2/20201019_top_grey.jpg)
+![x](oem_docs/Bmw/1998_750_e38/proteus_0.2/20201019_back_black.jpg)
+![x](oem_docs/Bmw/1998_750_e38/proteus_0.2/20201019_back_grey.jpg)
+
+
