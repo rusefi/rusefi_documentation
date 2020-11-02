@@ -13,6 +13,8 @@ Hitachi SERA576-01 60mm
 
 2003 Nissan Altima green plug
 
+8 Ohm between blue motor+ and white motor- 
+
 ![x](oem_docs/Nissan/Hitachi-SERA576-01-2003-Nissan-Altima.png)
 
 Alternative connector. This connector goes all the way to Nissan X-Trail T30 01-07 and Nissan Patrol.
@@ -28,4 +30,13 @@ Alternative connector. This connector goes all the way to Nissan X-Trail T30 01-
 
 Wire side connector 6189-0029
 
+WARNING GND#1<>GND#2 are mixed up on the image.
+
 ![x](oem_docs/Nissan/18919-AM810-pinout.jpg)
+
+
+3.2 KOhm between each pairs of GND and +5v
+
+700 Ohm between white and blue wires in sensor parked position.
+
+150 Ohm between green and black wires in sensor parked position.
