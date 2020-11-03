@@ -23,7 +23,7 @@ Z	white	input speed sensor		white
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | TCU connector |
 | ---:|:------------- | ----- |:------------------------------------ |------------- | ------------- |
 | 18  | +12 raw       | 12v   | ignition power / ECU power source    | Red          |               |
-| 19  | **GND**       | y     | Power GND                            | Black        |               |
+| 19  | **GND**       | y     | Power GND                            | Black        |     AP          |
 
 
 
