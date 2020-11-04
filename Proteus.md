@@ -41,6 +41,6 @@ Source & production files at: https://github.com/mck1117/proteus/
 
 ## Dev Access
 
-Optional ST-Link header FTSH-105-01-F-DV-007-K 
+Most boards will need a debug header installed if you want to attach a debugger (not used for normal users).  The recommended connector is Samtec PN `FTSH-105-01-F-DV-007-K`.
 
-ST-Link device TBD
+Any debugger compatible with the standard 10-pin Cortex Debug Header should work, though the [STLINK-V3 Mini](https://www.st.com/en/development-tools/stlink-v3mini.html) is recommmended.  It's available for $10-12 US from normal distributors like Mouser/Digikey.
