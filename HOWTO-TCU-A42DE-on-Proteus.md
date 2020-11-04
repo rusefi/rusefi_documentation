@@ -2,7 +2,7 @@
 
 [Mazda Miata 2001](Mazda-Miata-2001)
 
-AS      +12 running
+AS      red     +12 running
 
 AE	yellow	output speed sensor		blue
 
