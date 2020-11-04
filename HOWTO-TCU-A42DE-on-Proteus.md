@@ -28,6 +28,14 @@ Z	white	input speed sensor		white
 ## Black 23 Pin 776228-1
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | TCU connector |
 | ---:|:------------- | ----- |:------------------------------------ |------------- | ------------- |
+| 1   | DIGITAL 2     | din   | "D" selector                         | orange       | C             |
+| 2   | DIGITAL 3     | din   | "R" selector                         | green        | D             | 
+| 4   | VR2 pos       | vr    | Input Shaft positive                 | red          |  W            |
+| 5   | VR1 pos       | vr    | Output Shaft positive                | orange       | AF            |
+| 10  | DIGITAL 1     | din   | Manual Up-shift                      | green        | n/a           |
+| 11  | DIGITAL 6     | din   | Manual Down-shift                    | white        | n/a           |
+| 12  | VR2 neg       | vr    | Input Shaft negative                 | white        | Z             |
+| 13  | VR1 neg       | vr    | Output Shaft negative                | blue         | AE            |
 | 18  | +12 raw       | 12v   | ignition power / ECU power source    | Red          |    AS         |
 | 19  | **GND**       | y     | Power GND                            | Black        |   AP          |
 |     |               |       |                                      |              |               |

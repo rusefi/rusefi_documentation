@@ -17,8 +17,8 @@ A42DE
 | pos | color        | desc                     | type                             | my color |
 | --- | ------------ | ------------------------ | -------------------------------- | -------- |
 | A   | light green  | "1" selector             |                                  | blue     |
-| B   | pink/blue    | "2" selector             | seems to be +12 in wire in Drive | white    |
-| C   | yellow/black | "D" selector             | seems to be +12 in wire in 2     | orange   |
+| B   | pink/blue    | "2" selector             | seems to be +12 in wire in 2     | white    |
+| C   | yellow/black | "D" selector             | seems to be +12 in wire in Drive | orange   |
 | D   | red/yellow   | "R" selector             | \+12 in wire if in reverse       | green    |
 | E   | \*           | \*                       | \*                               |          |
 | F   |              | "N/P" selector           |                                  |          |
