@@ -20,6 +20,7 @@ Z	white	input speed sensor		white
 |  1  | Solenoid B    | hs    | high side control                    |         blue |    AN         |
 |  2  | Solenoid A    | hs    | high side control                    |    green     |     AQ        |
 | 13  |TCC Solenoid   | hs    | high side control                    |              |               |
+| 18  | **GND**       | y     | Power GND for shift buttons          | black        | n/a           |
 |     |               |       |                                      |              |               |
 |     |               |       |                                      |              |               |
 |     |               |       |                                      |              |               |
