@@ -2,7 +2,7 @@
 
 [Mazda Miata 2001](Mazda-Miata-2001)
 
-+12 running
+AS      red     +12 running
 
 AE	yellow	output speed sensor		blue
 
@@ -19,7 +19,7 @@ Z	white	input speed sensor		white
 | ---:|:------------- | ----- |:------------------------------------ |------------- | ------------- |
 |  1  | Solenoid B    | hs    | high side control                    |         blue |    AN         |
 |  2  | Solenoid A    | hs    | high side control                    |    green     |     AQ        |
-| 13  |TCC Solenoid   | hs    | high side control                    |              |               |
+| 13  |TCC Solenoid   | hs    | high side control                    |       orange       |    AO           |
 | 18  | **GND**       | y     | Power GND for shift buttons          | black        | n/a           |
 |     |               |       |                                      |              |               |
 |     |               |       |                                      |              |               |

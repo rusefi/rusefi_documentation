@@ -36,3 +36,11 @@ Source & production files at: https://github.com/mck1117/proteus/
 [vented/unvented by Kneelo](Hardware/Proteus/Proteus_0.3_case_by_kneelo.zip)
 
 [by OrchardPerformance](https://rusefi.com/forum/download/file.php?id=6271) 
+
+<a name="dev"/>
+
+## Dev Access
+
+Most boards will need a debug header installed if you want to attach a debugger (not used for normal users).  The recommended connector is Samtec PN `FTSH-105-01-F-DV-007-K`.  When soldering the connector, the keying notch goes towards the center of the board, nearer to the 23p center connector.
+
+Any debugger compatible with the standard 10-pin Cortex Debug Header should work, though the [STLINK-V3 Mini](https://www.st.com/en/development-tools/stlink-v3mini.html) is recommmended.  It's available for $10-12 US from normal distributors like Mouser/Digikey.  A ribbon cable is included so the connector and programmer are all that's required to debug on Proteus.
