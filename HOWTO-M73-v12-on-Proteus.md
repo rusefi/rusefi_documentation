@@ -58,11 +58,11 @@ ETB/Pedal: 7ft/213cm
 | 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | - | External Igniter channel #1 |
 
 
-## Black 23 Pin 776228-1
+## Black 23 Pin 776228-1 on Black Proteus 0.2 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
 | 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red | Black plug #3 20/52 |
-| 2   | DIGITAL 3  | din   | Start signal from ignition key       | Orange | Black plug #4 6/40 |
+| 2   | DIGITAL 3  | din   | Start signal from ignition key       | Orange |  |
 | 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | Black #3 32/52 |
 | 8   | ETB1-      | y     | ETB 1 negative                       | White |
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue | Black #3 46 /52 |
@@ -71,6 +71,20 @@ ETB/Pedal: 7ft/213cm
 | 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
 | 21  | ETB2-      | etb   | ETB 2 negative                       | White |
 | 22  | ETB2+      | etb   | ETB 2 positive                       | Blue |
+| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
+
+## Black 23 Pin 776228-1 on Green Proteus 0.3+
+|Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
+| ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
+| 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red | Black plug #3 20/52 |
+| 2   | DIGITAL 3  | din   | Start signal from ignition key       | Orange |  |
+| 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | Black #3 32/52 |
+| 6   | ETB1-      | y     | ETB 1 negative                       | White |
+| 7   | ETB1+      | etb   | ETB 1 positive                       | Blue |
+| 8   | ETB2-      | etb   | ETB 2 negative                       | White |
+| 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue | Black #3 46 /52 |
+| 15  | ETB2+      | etb   | ETB 2 positive                       | Blue |
+| 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
 
 
