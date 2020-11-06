@@ -52,7 +52,7 @@ ETB/Pedal: 7ft/213cm
 | 19  |**Lowside #8** | y     | Injector #8                          | Black | Grey  #3 15/52 | 
 | 20  |**Lowside #10**| y     | Injector #10                         | White| Grey  #3 2/52 | 
 | 21  |**Lowside #12**| y     | Injector #12                         | Orange | Grey #3 27/52 BRN/BLK | 
-| 23  |**Lowside #16**| y     | low-side output: fuel pump           |
+| 23  |**Lowside #16**| y     | low-side output: fuel pump           | Orange | |
 | 24  | **GND**       | y     | Power GND                            | Black | Grey plug #1 6/9 BRN |
 | 30  | Ignition 7    | y     | Ignition cylinder 7                  | White | - | External Igniter channel #2 |
 | 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | - | External Igniter channel #1 |
