@@ -5,11 +5,11 @@ x2 DME - engine control unit using [134 pin connector](OEM-connectors#134)
 
 x2 HDEV fuel injection module 7506280 [121 pin connector](OEM-connectors#121)
 
-|Pin Number|Name   | Default function                   | OEM Color |
-| ---:|:---------- |:------------------------------------ | --- |
-| 4   | **GND**    |  Power GND                            | BRN |
-| 5   | **GND**    |  Power GND                            | BRN |
-| 6   | **GND**    |  Power GND                            | BRN |
+|Pin Number|Name   | Default function                            | OEM Color   |
+| ---:|:---------- |:------------------------------------------- | ----------- |
+| 4   | **GND**    |  Power GND                                  | BRN         |
+| 5   | **GND**    |  Power GND                                  | BRN         |
+| 6   | **GND**    |  Power GND                                  | BRN         |
 | 15  | HPFP       |  High Pressure Fuel Pump Control Signal     | Blue/Yellow |
 
 
