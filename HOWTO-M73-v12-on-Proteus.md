@@ -72,6 +72,8 @@ ETB/Pedal: 7ft/213cm
 | 21  | ETB2-      | etb   | ETB 2 negative                       | White |
 | 22  | ETB2+      | etb   | ETB 2 positive                       | Blue |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
+End of Black Proteus 0.2 23 pin table
+
 
 ## Black 23 Pin 776228-1 on Green Proteus 0.3+
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
@@ -86,7 +88,7 @@ ETB/Pedal: 7ft/213cm
 | 15  | ETB2+      | etb   | ETB 2 positive                       | Blue |
 | 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
-
+End of Green Proteus 0.3+ 23 pin table
 
 
 ## White 35 Pin 776231-2
