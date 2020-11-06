@@ -45,6 +45,7 @@ ETB/Pedal: 7ft/213cm
 |  9  |**Lowside #11**| ls    | Injector #11                         | Red |Grey #3 28/52 | 
 | 10  |**Lowside #13**| ls    | low-side output: main relay          | Blue | Black plug #2 23/24 BRN/BLK |
 | 11  |**Lowside #14**| ls    | low-side output: starter enable      | White | Black plug #4 40/40 YEL/BRN |
+| 12  |**Lowside #15**| ls    | low-side output: radiator fan relay  | green | accessory | 
 | 15  |**Lowside #2** | ls    | Injector #2                          | Black |  Black #3 15/52 | 
 | 16  |**Lowside #4** | ls    | Injector #4                          | White |  Black #3 2/52 | 
 | 17  | **GND**       | y     | Power GND                            | Black | Grey #1 4/9 |
@@ -52,7 +53,7 @@ ETB/Pedal: 7ft/213cm
 | 19  |**Lowside #8** | y     | Injector #8                          | Black | Grey  #3 15/52 | 
 | 20  |**Lowside #10**| y     | Injector #10                         | White| Grey  #3 2/52 | 
 | 21  |**Lowside #12**| y     | Injector #12                         | Orange | Grey #3 27/52 BRN/BLK | 
-| 23  |**Lowside #16**| y     | low-side output: fuel pump           | Orange | |
+| 23  |**Lowside #16**| y     | low-side output: fuel pump           | Orange | accessory |
 | 24  | **GND**       | y     | Power GND                            | Black | Grey plug #1 6/9 BRN |
 | 30  | Ignition 7    | y     | Ignition cylinder 7                  | White | - | External Igniter channel #2 |
 | 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | - | External Igniter channel #1 |
@@ -86,6 +87,9 @@ End of Black Proteus 0.2 23 pin table
 | 8   | ETB2-      | etb   | ETB 2 negative                       | White |
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue | Black #3 46 /52 |
 | 15  | ETB2+      | etb   | ETB 2 positive                       | Blue |
+| 16  | CAN-       | can   | CAN bus low                          | White | accessory |
+| 17  | CAN+       | can   | CAN bus high                         | Red |  accessory | 
+| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  Black plug #4 26/40 GRN/BLK |
 | 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
 End of Green Proteus 0.3+ 23 pin table
@@ -98,7 +102,8 @@ End of Green Proteus 0.3+ 23 pin table
 | 2   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 sensor GND |
 | 3   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #2 sensor GND |
 | 4   | **GND**    | sgnd  | Sensor GND                           | Black | Grey #3 47/52 BRN |
-| 5   | **GND**    | sgnd  | Sensor GND                           | Black | - | Throttle Pedal GND |
+| 5   | **GND**    | sgnd  | Sensor GND                           | Black | - | Throttle Pedal GND #1 |
+| 6   | **GND**    | sgnd  | Sensor GND                           | Blue  | - | Throttle Pedal GND #2 |
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #1 sensor feed |
 | 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - | Throttle Pedal feed |
 | 13  | AV1        | av    | Analog Voltage Input #1              | |
@@ -110,8 +115,8 @@ End of Green Proteus 0.3+ 23 pin table
 | 24  | AV2        | av    | Analog Voltage Input #2              | Green | - | TPS1 Primary signal  |
 | 25  | AV4        | av    | Analog Voltage Input #4              | Green | - | TPS2 Primary signal  |
 | 26  | AV6        | av    | Analog Voltage Input #6              | Green | - | Pedal Sensor #1 signal|
-| 27  | AV8        | av    | Analog Voltage Input #8              | Blue | MAP/MAF |
-| 28  | AV10       | av    | Analog Voltage Input #10             | Green | AFR/WBO |
+| 27  | AV8        | av    | Analog Voltage Input #8              | Blue | MAP/MAF accessory |
+| 28  | AV10       | av    | Analog Voltage Input #10             | Green | AFR/WBO accessory |
 | 29  | AV12       | av    | Analog Voltage Input #12             | |
 | 30  | AT2        | at    | Intake air temperature IAT           | Orange | Grey #3 34/52  |
 | 31  | AT4        | at    | Coolant temperature CLT              | Green | Black #3 22/52 RED/BRN |
