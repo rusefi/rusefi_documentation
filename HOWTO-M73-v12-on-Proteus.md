@@ -104,14 +104,17 @@ End of Green Proteus 0.3+ 23 pin table
 | 4   | **GND**    | sgnd  | Sensor GND                           | Black | Grey #3 47/52 BRN |
 | 5   | **GND**    | sgnd  | Sensor GND                           | Black | - | Throttle Pedal GND #1 |
 | 6   | **GND**    | sgnd  | Sensor GND                           | Blue  | - | Throttle Pedal GND #2 |
+| 7   | **GND**    | sgnd  | Sensor GND                           | Black | - | Accessory / MAP gnd |
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #1 sensor feed |
-| 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - | Throttle Pedal feed |
+| 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - | Throttle Pedal feed #1 |
 | 13  | AV1        | av    | Analog Voltage Input #1              | |
 | 14  | AV3        | av    | Analog Voltage Input #3              | Orange | - | TPS1 Secondary signal |
-| 15  | AV5        | av    | Analog Voltage Input #5              | Orange | - | TPS2 Secondaryl signal  |
+| 15  | AV5        | av    | Analog Voltage Input #5              | Orange | - | TPS2 Secondary signal  |
 | 16  | AV7        | av    | Analog Voltage Input #7              | White | - | Pedal Sensor #2 signal |
 | 17  | AV9        | av    | Analog Voltage Input #9              | |
 | 18  | AV11       | av    | Analog Voltage Input #11             | |
+| 21  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Orange | - | Throttle Pedal feed #2 |
+| 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - | Accessory / MAP feed | 
 | 24  | AV2        | av    | Analog Voltage Input #2              | Green | - | TPS1 Primary signal  |
 | 25  | AV4        | av    | Analog Voltage Input #4              | Green | - | TPS2 Primary signal  |
 | 26  | AV6        | av    | Analog Voltage Input #6              | Green | - | Pedal Sensor #1 signal|
@@ -154,7 +157,19 @@ End of Green Proteus 0.3+ 23 pin table
 # 9 pin plug #5
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
+| 3 | OUT BLK  |   RED | coil signal, low-side |
+| 5 | GND BRN  |   GND | ground                |
+| 6 | OUT BLK  |   RED | coil signal, low-side |
+| 9 | OUT BLK  |   RED | coil signal, low-side |
 |   |   |   |   |   |
+
+
+
+ * Plug #5 9 pin
+ * ECU pin 3:  OUT BLK     RED coil signal, low-side
+ * ECU pin 5:  GND BRN     GND ground
+ * ECU pin 6:  OUT BLK     RED coil signal, low-side
+ * ECU pin 9:  OUT BLK     RED coil signal, low-side
 
 
 
