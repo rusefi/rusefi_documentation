@@ -36,7 +36,7 @@ Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
 * Toyota 89621-35020
 
-![x](oem_docs/Toyota/1995_Camry_Igniter.png)
+![x](oem_docs/Toyota/1999_Camry_Igniter.png)
 
 * Bosch 0227100211 - VW Audi 97- 05
 
