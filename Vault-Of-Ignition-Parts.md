@@ -32,6 +32,8 @@ Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
 ![x](oem_docs/Toyota/GS300_2001_igniter.png)
 
+![x](oem_docs/Toyota/1995_Camry_Igniter.png)
+
 * Bosch 0227100211 - VW Audi 97- 05
 
 * rusEFI's own BTS2140 module http://rusefi.com/forum/viewtopic.php?f=4&t=286
