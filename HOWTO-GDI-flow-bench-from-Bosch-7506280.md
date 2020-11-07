@@ -17,11 +17,11 @@ https://rusefi.com/forum/viewtopic.php?f=4&t=1564
 | 2   | **GND**       | gnd   | Power GND                            | BRN          |               |
 | 4   |               |       | +12v                                 |              |               |
 | 44  |               | ls    | Injector Control #1                  |              |               |
-| 45  |               | ls    | Injector Control #                   |              |               |
-| 46  |               | ls    | Injector Control #                   |              |               |
-| 47  |               | ls    | Injector Control #                   |              |               |
+| 45  |               | ls    | Injector Control #5                  |              |               |
+| 46  |               | ls    | Injector Control #3                  |              |               |
+| 47  |               | ls    | Injector Control #6                  |              |               |
 | 48  |               | ls    | Injector Control #2                  |              |               |
-| 49  |               | ls    | Injector Control #                   |              |               |
+| 49  |               | ls    | Injector Control #4                  |              |               |
 | 51  |               |       | +12                                  |              |               |
 | 52  |               |       | CAN                                  |              |               |
 | 53  |               |       | CAN                                  |              |               |
