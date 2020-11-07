@@ -157,12 +157,20 @@ End of Green Proteus 0.3+ 23 pin table
 # 9 pin plug #5
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
-| 3 | OUT BLK  |   RED | coil signal, low-side |
+| 3 | OUT BLK  |   ORANGE | coil signal, low-side |
 | 5 | GND BRN  |   GND | ground                |
-| 6 | OUT BLK  |   RED | coil signal, low-side |
-| 9 | OUT BLK  |   RED | coil signal, low-side |
+| 6 | OUT BLK  |   ORANGE | coil signal, low-side |
+| 9 | OUT BLK  |   ORANGE | coil signal, low-side |
 |   |   |   |   |   |
 
+
+Toyota coil output pin #10 GREEN goes to BLACK breakout
+
+Toyota coil output pin #1 YELLOW goes to GREY breakout
+
+Toyota GND pin #3 goes to both BLACK and GREY breakout #5 5/9
+
+Toyota Battery pin #9 to both BLACK and GREY breakout #1 8/9
 
 
  * Plug #5 9 pin
