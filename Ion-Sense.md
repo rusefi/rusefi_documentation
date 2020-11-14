@@ -3,9 +3,13 @@ At the moment rusEFI does NOT have any working ion sense hardware or firmware.
 Orchardperformance has some proto hardware he has not yet assembled which might help with signal acquisition. Link TBD.
 
 We like 
+
 *Saab 9-3 COP 2003-on ecotec engine
+
 *Mazda skyactiv COP 2016-on  
+
 *mini r50 coil pack
+
 *BMW M5 v-10 COP  usable for ion sense. M5 coils, Bremi PN/20631   bmw 12 13 7 835 108 
 
 Q: Is Saab/Mazda smart coil unusual in any way?
