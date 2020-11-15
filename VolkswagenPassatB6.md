@@ -12,6 +12,7 @@ Production	2005–2010 (B6)
 
 Fuel Rail High Pressure Sensor 0 261 545059 [0261545059](oem_docs/Bosch/0261545006.pdf) 06D906051
 Fuel Rail High Pressure sensor 0 261 545016 0261545016 06J906051D
+0261545053 [Pressure Sensor Fluid PSS-140](oem_docs/Bosch/Bosch-Pressure-Sensor-Fluid-600.pdf)
 
 Fuel Rail Pressure sensor connector 4D0971993
 
@@ -91,7 +92,7 @@ End of 94 pin connector T94
 | 15  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
 | 16  | INJ neg    | .Injector #4 P5-t                      | RED/GRY |
 | 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO |
-| 19  | low side   | Fuel pressure regulator valve         | VIO/BRN |
+| 19  | low side   | Fuel pressure regulator valve 4 Ohm       | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | .Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | .Sensor 5v power (cam, )               | BLK/GRY |
@@ -99,7 +100,7 @@ End of 94 pin connector T94
 | 28  | 5v         | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU |
 | 29  | analog GND | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Signal GND   ETB#6 | VIO/BRN |
 | 30  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB) neg ETB#3 | BRN/VIO |
-| 32  | INJ pos    | .Injector #3 P5-t connected to #47     |    |
+| 32  | INJ pos    | .Injector #3 P5-t connected to #47     | BRN/VIO |
 | 33  | INJ pos    | .Injector #1 P5-t                      | BRN/BLK |
 | 36  | Crank in   | .VR Crank Negative                     | White   |
 | 37  | 5v         | .Sensor 5v power                       | BLK/GRN |
