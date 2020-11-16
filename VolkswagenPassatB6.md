@@ -43,6 +43,8 @@ Sensor Power:
 28/60
 37/60
 
+<a name="94"/>
+
 # 94 pin connector T94
 
 |Pin Number|Name   | Default function                   | OEM Color |
@@ -77,6 +79,8 @@ Sensor Power:
 | 92  | +12v       | Constant +12v from Fuse #25 10A term. 30 | BLK/YEL |
 |     |            |                                       |    |
 End of 94 pin connector T94
+
+<a name="60"/>
 
 # 60 pin connector
 |Pin Number|Name   | Default function                      | OEM Color | rusEFI Color |
