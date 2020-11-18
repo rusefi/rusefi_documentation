@@ -12,6 +12,7 @@ Production	2005–2010 (B6)
 
 Fuel Rail High Pressure Sensor 0 261 545059 [0261545059](oem_docs/Bosch/0261545006.pdf) 06D906051
 Fuel Rail High Pressure sensor 0 261 545016 0261545016 06J906051D
+0261545053 [Pressure Sensor Fluid PSS-140](oem_docs/Bosch/Bosch-Pressure-Sensor-Fluid-600.pdf)
 
 Fuel Rail Pressure sensor connector 4D0971993
 
@@ -41,6 +42,8 @@ Sensor Power:
 80/94
 28/60
 37/60
+
+<a name="94"/>
 
 # 94 pin connector T94
 
@@ -77,11 +80,13 @@ Sensor Power:
 |     |            |                                       |    |
 End of 94 pin connector T94
 
+<a name="60"/>
+
 # 60 pin connector
-|Pin Number|Name   | Default function                      | OEM Color |
-| ---:|:---------- |:------------------------------------  | --- |
-| 1   | INJ neg    | .Injector #2 P5-t                      | RED/WHT |
-| 2   | INJ neg    | .Injector #1 P5-t                      | RED/BLK |
+|Pin Number|Name   | Default function                      | OEM Color | rusEFI Color |
+| ---:|:---------- |:------------------------------------  | --- | --- |
+| 1   | INJ neg    | .Injector #2 P5-t                      | RED/WHT | blue |
+| 2   | INJ neg    | .Injector #1 P5-t                      | RED/BLK | white |
 | 4   | low side   | Wastegate bypass valve                | VIO/WHT |
 | 7   | analog in  | .Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN |
 | 10  | analog in  | .Engine CLT P4-b                       | GRN     |
@@ -89,9 +94,9 @@ End of 94 pin connector T94
 | 13  | analog in  | .Intake air temperatur IAT P4-b        | WHT     |
 | 14  | **GND**    | .Sensor GND (cam, LPFP, CLT, IAT)      | BRN/BLU |
 | 15  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
-| 16  | INJ neg    | .Injector #4 P5-t                      | RED/GRY |
-| 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO |
-| 19  | low side   | Fuel pressure regulator valve         | VIO/BRN |
+| 16  | INJ neg    | .Injector #4 P5-t                      | RED/GRY | green |
+| 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO | orange |
+| 19  | low side   | .Fuel pressure regulator valve 4 Ohm       | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | .Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | .Sensor 5v power (cam, )               | BLK/GRY |
@@ -99,15 +104,15 @@ End of 94 pin connector T94
 | 28  | 5v         | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU |
 | 29  | analog GND | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Signal GND   ETB#6 | VIO/BRN |
 | 30  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB) neg ETB#3 | BRN/VIO |
-| 32  | INJ pos    | .Injector #3 P5-t connected to #47     |    |
-| 33  | INJ pos    | .Injector #1 P5-t                      | BRN/BLK |
+| 32  | INJ pos    | .Injector #3 P5-t connected to #47     | BRN/VIO | green |
+| 33  | INJ pos    | .Injector #1 P5-t                      | BRN/BLK | blue |
 | 36  | Crank in   | .VR Crank Negative                     | White   |
 | 37  | 5v         | .Sensor 5v power                       | BLK/GRN |
 | 41  | High-Side  | .Coil #2                               | BLU/GRY |
 | 43  | High-Side  | .Coil #3                               | RED/GRY |
 | 44  | digital in | .Cam position sensor                   | GRN/VIO |
-| 47  | INJ pos    | .Injector #2 P5-t connected to #32     | BRN/WHT   |
-| 48  | INJ pos    | .Injector #4 P5-t                      | BRN BRN/GRY   |
+| 47  | INJ pos    | .Injector #2 P5-t connected to #32     | BRN/WHT   | orange | 
+| 48  | INJ pos    | .Injector #4 P5-t                      | BRN BRN/GRY   | white |
 | 51  | Crank in   | .VR Crank Positive                     | BRN |
 | 52  | **GND**    | .Sensor GND                            | BLK |
 | 56  | High-Side  | .Coil #4                               | GRY/BRN |
