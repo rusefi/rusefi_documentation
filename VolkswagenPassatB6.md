@@ -120,6 +120,8 @@ End of 94 pin connector T94
 |     |            |                                       |         |
 End of 60 pin connector T60
 
+![Passat-GDI-wiring](Passat-GDI-wiring)
+
 "Early" 5 pages
 
 ![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_1_5.png)
