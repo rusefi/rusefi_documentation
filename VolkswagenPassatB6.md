@@ -120,7 +120,7 @@ End of 94 pin connector T94
 |     |            |                                       |         |
 End of 60 pin connector T60
 
-![Passat-GDI-wiring](Passat-GDI-wiring)
+[Passat-GDI-wiring](Passat-GDI-wiring)
 
 "Early" 5 pages
 
