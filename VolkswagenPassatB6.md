@@ -61,7 +61,7 @@ Sensor Power:
 | 25  |            | brake light switch +12?               | BLK/RED   |
 | 27  |            | .fuel pump control 20Hz PWM            | YEL/BLU   |
 | 28  |            | .coolant control module 25Hz PMW       | YEL/VIO   |
-| 32  | low side   | main relay control                    | GRN/YEL |
+| 32  | low side   | .main relay control                    | GRN/YEL |
 | 38  | analog     | .MAP signal P2-b                       | GRY   |
 | 53  | **GND**    | .Sensor GND CLT MAP P1-b               | BLK |
 | 56  | analog GND | .Pedal GND                             | BLU/GRY   |
