@@ -120,6 +120,14 @@ End of 94 pin connector T94
 |     |            |                                       |         |
 End of 60 pin connector T60
 
+Injector #1: #33/#2
+
+Injector #2: #47/#1 
+
+Injector #3: #32/#17 
+
+Injector #4: #48/#16 
+
 [Passat-GDI-wiring](Passat-GDI-wiring)
 
 "Early" 5 pages
