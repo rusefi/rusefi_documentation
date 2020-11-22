@@ -22,9 +22,10 @@
 | PA15       | RSTB                                | GREY    |
 | 5v         | TP5 5v                              | LT BLUE |
 | 3v         | TP6 3v                              | DK BLUE |
-|            | START1 INJ1                         |         |
-|            | START2 INJ2                         |         |
-|            | START3 INJ3                         |         |
+| 3v         | VCCIO                               | RED     |
+|            | START1 INJ1                         | BLUE    |
+|            | START2 INJ2                         | GREEN   |
+|            | START3 INJ3                         | GREY    |
 |            | START4 INJ4                         | WHITE   |
 |            | START5                              |         |
 |            | START6                              |         |
