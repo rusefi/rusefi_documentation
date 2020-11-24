@@ -61,7 +61,7 @@ Sensor Power:
 | 25  |            | brake light switch +12?               | BLK/RED   |
 | 27  |            | .fuel pump control 20Hz PWM            | YEL/BLU   |
 | 28  |            | .coolant control module 25Hz PMW       | YEL/VIO   |
-| 32  | low side   | main relay control                    | GRN/YEL |
+| 32  | low side   | .main relay control                    | GRN/YEL |
 | 38  | analog     | .MAP signal P2-b                       | GRY   |
 | 53  | **GND**    | .Sensor GND CLT MAP P1-b               | BLK |
 | 56  | analog GND | .Pedal GND                             | BLU/GRY   |
@@ -96,7 +96,7 @@ End of 94 pin connector T94
 | 15  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
 | 16  | INJ neg    | .Injector #4 P5-t                      | RED/GRY | green |
 | 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO | orange |
-| 19  | low side   | .Fuel pressure regulator valve 4 Ohm       | VIO/BRN |
+| 19  | low side   | .Fuel pressure regulator valve 4 Ohm HPFP      | VIO/BRN |
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | .Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | .Sensor 5v power (cam, )               | BLK/GRY |
@@ -119,6 +119,14 @@ End of 94 pin connector T94
 | 58  | High-Side  | .Coil #1                               | VIO/GRY |
 |     |            |                                       |         |
 End of 60 pin connector T60
+
+Injector #1: #33/#2
+
+Injector #2: #47/#1 
+
+Injector #3: #32/#17 
+
+Injector #4: #48/#16 
 
 [Passat-GDI-wiring](Passat-GDI-wiring)
 
