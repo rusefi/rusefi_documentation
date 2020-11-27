@@ -32,6 +32,8 @@ Wire length:
 
 ETB/Pedal: 7ft/213cm
 
+ECU/OEM pigtails: 52 inches / 132cm
+
 ## Black 35 Pin 776231-1
 
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | Destination |
