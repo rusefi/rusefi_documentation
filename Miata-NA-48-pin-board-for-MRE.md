@@ -92,6 +92,13 @@ See also [Miata](Miata)
 
 microRusEFI should be set for Hall
 
+[InteractiveBOM 0.4](https://rusefi.com/docs/ibom/hw48na_V0.4.html)
+
+[InteractiveBOM 0.2](https://rusefi.com/docs/ibom/hw48na_V0.2.html)
+
+[InteractiveBOM 0.1](https://rusefi.com/docs/ibom/hw48na_V0.1.html)
+
+
 [Schematics 0.4](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.4.pdf)
 
 [Schematics 0.2](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0_2.pdf)
@@ -106,7 +113,3 @@ microRusEFI should be set for Hall
 [Mazda Miata 1994](Mazda-Miata-1994)
 
 [Mazda Miata 1995](Mazda-Miata-1995)
-
-[InteractiveBOM 0.2](https://rusefi.com/docs/ibom/hw48na_V0.2.html)
-
-[InteractiveBOM 0.1](https://rusefi.com/docs/ibom/hw48na_V0.1.html)
