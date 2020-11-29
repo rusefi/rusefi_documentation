@@ -92,14 +92,72 @@ See also [Miata](Miata)
 
 microRusEFI should be set for Hall
 
-[InteractiveBOM 0.4](https://rusefi.com/docs/ibom/hw48na_V0.4.html)
+[InteractiveBOM 0.4](https://rusefi.com/docs/ibom/hna_V0.4.html)
 
-[InteractiveBOM 0.2](https://rusefi.com/docs/ibom/hw48na_V0.2.html)
+[InteractiveBOM 0.2](https://rusefi.com/docs/ibom/hna_V0.2.html)
 
-[InteractiveBOM 0.1](https://rusefi.com/docs/ibom/hw48na_V0.1.html)
+[InteractiveBOM 0.1](https://rusefi.com/docs/ibom/hna_V0.1.html)
 
 
-[Schematics 0.4](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.4.pdf)
+| ECU | MRE48 | color      | desc                           | type            |
+| --- | ----- | ---------- | ------------------------------ | --------------- |
+| 1A  | JP5   |            | not used: hot all times, Room Fuse       | Input +12v      |
+| 1B  | JP6   | White/RED  | Main relay                     | Input +12v      |
+| 1C  |       | Violet     | Ignition on                    | Input +12v      |
+| 1D  |       |            |                                |                 |
+| 1E  |       | YEL/BLK    | Check Engine Light MIL         | Output PD5      |
+| 1F  |       |            |                                |                 |
+| 1G  |       |            | Igniter 1 & 4                  | Output +5v PE14 |
+| 1H  |       |            | Igniter 2 & 3                  | Output +5v PC7  |
+| 1I  |       | \*         | \*                             | \*              |
+| 1J  |       | BLue/Black | A/C relay                      | ?               |
+| 1K  |       |            | diag connector mode switch TEN |                 |
+| 1L  |       |            | N/C                            |                 |
+| 1M  |       |            | N/C                            |                 |
+| 1N  |       |            |                                |                 |
+| 1O  |       |            | stop light switch              | input           |
+| 1P  |       |            | Power Steering SW              |                 |
+| 1Q  |       |            | AC Thermo SW                   |                 |
+| 1R  |       | BLK/GRN    | A/C Extra Cooling Fan Relay    |                 |
+| 1S  |       |            | Heater Control SW              |                 |
+| 1T  |       |            |                                |                 |
+| 1U  |       |            | Tail Fuse                      |                 |
+| 1V  |       |            |                                |                 |
+
+
+26 pin
+
+| ECU | MRE48 | color            | desc                         | type                                  |
+| --- | ----- | ---------------- | ---------------------------- | ------------------------------------- |
+| 3A  |    |                  |                              | Ground                                |
+| 3B  |    |                  |                              | Ground                                |
+| 3C  |    |                  |                              | Ground                                |
+| 3D  |    |                  |                              | Ground                                |
+| 3E  |       | White            | Crank angle \#1              | Input PC6                             |
+| 3F  |       | \*               | \*                           | \*                                    |
+| 3G  |       | Yellow/BLue      | Crank angle \#2              | Input, PA5                            |
+| 3H  | ?  |                  | MAP                          | Inp10 PA6                             |
+| 3I  |       |                  | Tach Input                   |                                       |
+| 3J  |       | \*               | \*                           | \*                                    |
+| 3K  |    | LT GRN/RED       | \+5 ref/TPS power            | Output 5v                             |
+| 3L  |    | LT GRN/WHT       | M/T TPS switch               | Analog input PA2                      |
+| 3M  |    | Red/Black        | TPS signal (A/T)             | Analog input                          |
+| 3N  |    | Red/BLue         | oxygen sensor                | Input PC3                             |
+| 3O  |    | Red              | VAF/MAF                      |                                       |
+| 3P  |    | Red/Green        | IAT, intake air thermosensor | analog input, 2.7K pull-up, 3.6K? PC1 |
+| 3Q  |    | BLue/White       | CLT, water thermosensor      | analog input, 2.7K pull-up, 3.6K? PC2 |
+| 3R  |    | \*               | \*                           | \*                                    |
+| 3S  |    | \*               | \*                           | \*                                    |
+| 3T  |    | \*               | \*                           | \*                                    |
+| 3U  | JP48 | Yellow           | injector (1&3)               | Output/low side                       |
+| 3V  | JP49 | Yellow/Black     | injector (2&4)               | Output/low side                       |
+| 3W  |    | BLue/Orange      | Idle Speed Control valve     | Output/low side                       |
+| 3X  |    | White/Blue       | purge solenoid valve control | Output                                |
+| 3Y  |    | \*               | \*                           | \*                                    |
+| 3Z  |       | A/T control unit |                              |                                       |
+
+
+[Schematics 0.4](Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.4.pdf)
 
 [Schematics 0.2](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0_2.pdf)
 
