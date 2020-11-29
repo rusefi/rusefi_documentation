@@ -82,3 +82,31 @@ There are two positions for installing a MAP sensor on the board. The sensors us
 
 ![](/Images/NA_Miata_VAF1.png)
 ![](/Images/NA_Miata_VAF2.png)
+
+## Technical Details
+
+High-side jumper should be set for +12v.
+
+
+See also [Miata](Miata)
+
+microRusEFI should be set for Hall
+
+[Schematics 0.4](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.4.pdf)
+
+[Schematics 0.2](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0_2.pdf)
+
+[Schematics 0.1](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.1.pdf)
+
+
+[Mazda Miata 1990](Mazda-Miata-1990)
+
+[Mazda Miata 1991](Mazda-Miata-1991)
+
+[Mazda Miata 1994](Mazda-Miata-1994)
+
+[Mazda Miata 1995](Mazda-Miata-1995)
+
+[InteractiveBOM 0.2](https://rusefi.com/docs/ibom/hw48na_V0.2.html)
+
+[InteractiveBOM 0.1](https://rusefi.com/docs/ibom/hw48na_V0.1.html)
