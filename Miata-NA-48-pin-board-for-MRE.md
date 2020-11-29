@@ -2,6 +2,12 @@ This is a PNP adapter board for NA Miatas (1990-1995). The board is true plug an
 
 Your board should look something like this: ![Miata NA 48 pin board for MRE](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view.png)
 
+![x](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view_0_4_NA6.png)
+
+![x](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view_0_4_NA6.jpg)
+
+![x](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view_0_4_NA94.jpg)
+
 Currently the only tested configuration is the NA6 Miata with a manual transmission. If you have a different car, we may need your help testing the configuration! Automatic transmission cars are not yet confirmed to work, although there's no reason to think they won't.
 
 The standard configuration runs the engine using the stock AFM (Air Flow Meter) to measure engine load. However, the AFM on early Miatas is an actual restriction in the intake and costs possibly as much as 3hp (this is a guess). It's also useless if you want to add boost to the car- the capability to measure airflow peters out well below the airflow capabilities of even a mild turbo or SC setup. 
@@ -139,22 +145,22 @@ microRusEFI should be set for Hall
 | 3H  | ?  |                  | MAP                          | Inp10 PA6                             |
 | 3I  |       |                  | Tach Input                   |                                       |
 | 3J  |       | \*               | \*                           | \*                                    |
-| 3K  |    | LT GRN/RED       | \+5 ref/TPS power            | Output 5v                             |
-| 3L  |    | LT GRN/WHT       | M/T TPS switch               | Analog input PA2                      |
-| 3M  |    | Red/Black        | TPS signal (A/T)             | Analog input                          |
-| 3N  |    | Red/BLue         | oxygen sensor                | Input PC3                             |
-| 3O  |    | Red              | VAF/MAF                      |                                       |
-| 3P  |    | Red/Green        | IAT, intake air thermosensor | analog input, 2.7K pull-up, 3.6K? PC1 |
-| 3Q  |    | BLue/White       | CLT, water thermosensor      | analog input, 2.7K pull-up, 3.6K? PC2 |
-| 3R  |    | \*               | \*                           | \*                                    |
-| 3S  |    | \*               | \*                           | \*                                    |
-| 3T  |    | \*               | \*                           | \*                                    |
+| 3K  |      | LT GRN/RED       | \+5 ref/TPS power            | Output 5v                             |
+| 3L  |      | LT GRN/WHT       | M/T TPS switch               | Analog input PA2                      |
+| 3M  |      | Red/Black        | TPS signal (A/T)             | Analog input                          |
+| 3N  |      | Red/BLue         | oxygen sensor                | Input PC3                             |
+| 3O  |      | Red              | VAF/MAF                      |                                       |
+| 3P  |      | Red/Green        | IAT, intake air thermosensor | analog input, 2.7K pull-up, 3.6K? PC1 |
+| 3Q  |      | BLue/White       | CLT, water thermosensor      | analog input, 2.7K pull-up, 3.6K? PC2 |
+| 3R  |      | \*               | \*                           | \*                                    |
+| 3S  |      | \*               | \*                           | \*                                    |
+| 3T  |      | \*               | \*                           | \*                                    |
 | 3U  | JP48 | Yellow           | injector (1&3)               | Output/low side                       |
 | 3V  | JP49 | Yellow/Black     | injector (2&4)               | Output/low side                       |
-| 3W  |    | BLue/Orange      | Idle Speed Control valve     | Output/low side                       |
-| 3X  |    | White/Blue       | purge solenoid valve control | Output                                |
-| 3Y  |    | \*               | \*                           | \*                                    |
-| 3Z  |       | A/T control unit |                              |                                       |
+| 3W  |      | BLue/Orange      | Idle Speed Control valve     | Output/low side                       |
+| 3X  |      | White/Blue       | purge solenoid valve control | Output                                |
+| 3Y  | JP51 | \*               | \*                           | \*                                    |
+| 3Z  | JP52 | A/T control unit |                              |                                       |
 
 
 [Schematics 0.4](Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.4.pdf)
