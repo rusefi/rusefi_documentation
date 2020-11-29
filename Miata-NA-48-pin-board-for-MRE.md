@@ -155,10 +155,10 @@ microRusEFI should be set for Hall
 | 3R  |      | \*               | \*                           | \*                                    |
 | 3S  |      | \*               | \*                           | \*                                    |
 | 3T  |      | \*               | \*                           | \*                                    |
-| 3U  | JP48 | Yellow           | injector (1&3)               | Output/low side                       |
-| 3V  | JP49 | Yellow/Black     | injector (2&4)               | Output/low side                       |
-| 3W  |      | BLue/Orange      | Idle Speed Control valve     | Output/low side                       |
-| 3X  |      | White/Blue       | purge solenoid valve control | Output                                |
+| 3U  | JP47 | Yellow           | injector (1&3)               | Output/low side                       |
+| 3V  | JP48 | Yellow/Black     | injector (2&4)               | Output/low side                       |
+| 3W  | JP49 | BLue/Orange      | Idle Speed Control valve     | Output/low side                       |
+| 3X  | JP50 | White/Blue       | purge solenoid valve control | Output                                |
 | 3Y  | JP51 | \*               | \*                           | \*                                    |
 | 3Z  | JP52 | A/T control unit |                              |                                       |
 
