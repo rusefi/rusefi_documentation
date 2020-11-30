@@ -1,4 +1,8 @@
-This guide is written for the firmware released August 6th 2020. The further away from this date your FW is, the less agreement you will have in specific locations of items in TunerStudio and terms used etc. HOWEVER, the basic principles should still apply. Before you get here, install TunerStudion and MegalogViewer (the pay versions are highly recommeded). Create a new project in TunerStudio. By the way: this is not a TunerStudio manual. 
+This guide is written for the firmware released August 6th 2020. The further away from this date your FW is, the less agreement you will have in specific locations of items in TunerStudio and terms used etc. HOWEVER, the basic principles should still apply. 
+
+First things first, download rusEFI bundle to you have your rusefiXXX.ini file and serial port drivers. https://github.com/rusefi/rusefi/wiki/Download
+
+Install TunerStudion http://www.tunerstudio.com/index.php/downloads and MegalogViewer (the pay versions are highly recommeded). Create a new project in TunerStudio. By the way: this is not a TunerStudio manual. 
 
 Most PnP rusEFI units can be powered through the USB port. So you can set it up in the comfort of your living room and have it communicate with Tunerstudio before it is installed in the car. It is highly recommended to try this approach. 
 
