@@ -4,8 +4,6 @@ Most PnP rusEFI units can be powered through the USB port. So you can set it up 
 
 Connect TunerStudio to your ECU. You will need a USB cable to establish communication between your tuning laptop and the rusEFI unit. There will typically be only one micro-USB port on a PnP unit.
 
-If you have a frankenso unit, the "brainboard" which is the smaller green board sitting on top of the red-ish main board, will have TWO USB connectors. One is a micro-USB (the same as typical for older cellphones pre USB-C) at the rear of the board (away from the main ECU connector). This mirco-USB connector is for communication with TunerStudio. There is also a mini-USB connector on the other side of the brainboard. This is for delivering power and for flashing new firmware. During normal tuning, all you need is the connection with the micro-USB connector. 
-
 Your laptop should give you an audible notification when you plug in the ECU with the ignition turned on. That means that it "sees" a new device connected to a USB port.
 Under "Communications" -> "Communication Settings" [IMAGE] you should select the correct COM port for your rusEFI. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEFI COM-port. For most cases, the selected Baud rate does not matter. If you can't establish communication, try baud rate 38,400 | 57,600 or 115,200. If that doesn't work, you may need to try a different COM port. 
 After selecting the COM-port (and baud rate), click on "Test Port". This should result in a "successful!" message. If you get a failed message, you need to adjust your settings. After a successful test of the port click "Accept".
