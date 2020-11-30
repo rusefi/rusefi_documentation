@@ -2,8 +2,6 @@ This is a PNP adapter board for NA Miatas (1990-1995). The board is true plug an
 
 Your board should look something like this: ![Miata NA 48 pin board for MRE](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view.png)
 
-![x](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view_0_4_NA6.png)
-
 ![x](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view_0_4_NA6.jpg)
 
 ![x](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view_0_4_NA94.jpg)
@@ -98,11 +96,11 @@ See also [Miata](Miata)
 
 microRusEFI should be set for Hall
 
-[InteractiveBOM 0.4](https://rusefi.com/docs/ibom/hna_V0.4.html)
+[InteractiveBOM 0.4](https://rusefi.com/docs/ibom/na_V0.4.html)
 
-[InteractiveBOM 0.2](https://rusefi.com/docs/ibom/hna_V0.2.html)
+[InteractiveBOM 0.2](https://rusefi.com/docs/ibom/na_V0.2.html)
 
-[InteractiveBOM 0.1](https://rusefi.com/docs/ibom/hna_V0.1.html)
+[InteractiveBOM 0.1](https://rusefi.com/docs/ibom/na_V0.1.html)
 
 
 | ECU | MRE48 | color      | desc                           | type            |
