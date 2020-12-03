@@ -3,30 +3,48 @@ See also [Trigger](Trigger)
 
 To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
+[Universal](#universal)
+
 [GM](#gm)
 
 [Honda](#honda)
 
 [Mazda](#mazda)
 
-[Universal](#universal)
-
 [Jeep & Renix](#jeep)
+
+## Universal 36/1
+
+<a name="universal"/>
+
+## 60/2
+
+If you also have a CAM sensor somewhere see [VVT](VVT)
+
+![60/2](https://rusefi.com/images/triggers/trigger_8.png)
+
+## 36/1
+
+![36/1](https://rusefi.com/images/triggers/trigger_9.png)
+
+## 36/2
+
+![x](https://rusefi.com/images/triggers/trigger_47.png)
+
+## Bosch Quick Start
+
+![x](https://rusefi.com/images/triggers/trigger_47.png)
 
 
 <a name="honda"/>
 
+## Honda K 1/12
+
+![x](https://rusefi.com/images/triggers/trigger_46.png)
+
 ## Honda 1+24
 
-![Honda 1+24](https://rusefi.com/images/triggers/trigger_21.png)
-
-## Honda 4+24
-
-![Honda 4+24](https://rusefi.com/images/triggers/trigger_12.png)
-
-## Honda 1+4+24
-
-![Honda 1+4+24](https://rusefi.com/images/triggers/trigger_13.png)
+![x](https://rusefi.com/images/triggers/trigger_21.png)
 
 ## Honda CBR600
 
@@ -80,15 +98,7 @@ Also used on some Mitsubishi
 ![x](https://rusefi.com/images/triggers/trigger_45.png) 
 
 
-<a name="universal"/>
-
-## Bosch Quick Start
-
-![x](https://rusefi.com/images/triggers/trigger_47.png)
-
 ![x](https://rusefi.com/images/triggers/trigger_49.png)
-
-![x](https://rusefi.com/images/triggers/trigger_46.png)
 
 
 ## Universal skipped wheel
@@ -130,16 +140,6 @@ Chrysler NGC 6 cylinder
 360 slot trigger not ready yet, no test vehicles :(
 
 ![Nissan](https://rusefi.com/images/triggers/trigger_24.png)
-
-## Universal 36/1
-
-![36/1](https://rusefi.com/images/triggers/trigger_9.png)
-
-## Universal True 60/2
-
-If you also have a CAM sensor somewhere see [VVT](VVT)
-
-![60/2](https://rusefi.com/images/triggers/trigger_8.png)
 
 ## 1 + 60/2
 
