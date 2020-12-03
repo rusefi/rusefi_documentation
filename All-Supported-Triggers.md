@@ -3,17 +3,53 @@ See also [Trigger](Trigger)
 
 To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
-Dev note: unit_tests executable produces triggers.txt file - gen_trigger_images.bat reads triggers.txt and produces these .png files. TODO: automate this further?
+[Honda](#honda)
 
-May, 2020: Subaru SVX added
+## Honda 1+24
+
+![Honda 1+24](https://rusefi.com/images/triggers/trigger_21.png)
+
+## Honda 4+24
+
+![Honda 4+24](https://rusefi.com/images/triggers/trigger_12.png)
+
+## Honda 1+4+24
+
+![Honda 1+4+24](https://rusefi.com/images/triggers/trigger_13.png)
+
+## Honda CBR600
+
+![Honda CBR600](https://rusefi.com/images/triggers/trigger_28.png)
+
+[Mazda](#mazda)
+
+
+<a name="honda"/>
+
+<a name="mazda"/>
+
+## Mazda Protege SOHC
+
+![Mazda Protege SOHC](https://rusefi.com/images/triggers/trigger_7.png)
+
+## Mazda Miata NA
+Also used on some Mitsubishi
+
+![Mazda Miata NA](https://rusefi.com/images/triggers/trigger_3.png)
+
+## Mazda Miata NB
+
+![Mazda Miata NB1](https://rusefi.com/images/triggers/trigger_4.png)
+
+## Mazda Protege 1993 DOHC
+
+![Mazda Protege 1993 DOHC](https://rusefi.com/images/triggers/trigger_15.png)
+
+
 
 ![x](https://rusefi.com/images/triggers/trigger_49.png)
 
-April, 2020: Honda K 12+1 added.
-
 ![x](https://rusefi.com/images/triggers/trigger_46.png)
-
-April, 2020: Renix 44-2-2 added.
 
 ![x](https://rusefi.com/images/triggers/trigger_44.png) 
 
@@ -59,29 +95,6 @@ Chrysler NGC 6 cylinder
 
 ![GM 7x](https://rusefi.com/images/triggers/trigger_5.png)
 
-## Mazda Protege SOHC
-
-![Mazda Protege SOHC](https://rusefi.com/images/triggers/trigger_7.png)
-
-## Mazda Miata NA
-
-![Mazda Miata NA](https://rusefi.com/images/triggers/trigger_3.png)
-
-## Mazda Miata NB1
-
-![Mazda Miata NB1](https://rusefi.com/images/triggers/trigger_4.png)
-
-## Mazda Miata NB2 VVT
-
-![Mazda Miata NB2 VVT](https://rusefi.com/images/triggers/trigger_33.png)
-
-## Mazda Protege 1993 DOHC
-
-![Mazda Protege 1993 DOHC](https://rusefi.com/images/triggers/trigger_15.png)
-
-## Mitsubishi
-
-![Mitsubishi](https://rusefi.com/images/triggers/trigger_11.png)
 
 ## Nissan
 
@@ -134,22 +147,6 @@ See also [Universal True 60/2](All-Supported-Triggers#universal-true-602)
 
 ![Jeep 18-2-2-2](https://rusefi.com/images/triggers/trigger_37.png)
 
-## Honda 1+24
-
-![Honda 1+24](https://rusefi.com/images/triggers/trigger_21.png)
-
-## Honda 4+24
-
-![Honda 4+24](https://rusefi.com/images/triggers/trigger_12.png)
-
-## Honda 1+4+24
-
-![Honda 1+4+24](https://rusefi.com/images/triggers/trigger_13.png)
-
-## Honda CBR600
-
-![Honda CBR600](https://rusefi.com/images/triggers/trigger_28.png)
-
 ## Unknown trigger type
 
 [Unknown Trigger](Unknown-Trigger)
@@ -185,3 +182,11 @@ While cranking, you can set angle-based ignition instead of timing map & dwell b
 
 
 See 'trigger decoding' in http://rusefi.com/docs/html/
+
+May, 2020: Subaru SVX added
+
+April, 2020: Honda K 12+1 added.
+
+April, 2020: Renix 44-2-2 added.
+
+Dev note: unit_tests executable produces triggers.txt file - gen_trigger_images.bat reads triggers.txt and produces these .png files. TODO: automate this further?
