@@ -3,7 +3,18 @@ See also [Trigger](Trigger)
 
 To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
+[GM](#gm)
+
 [Honda](#honda)
+
+[Mazda](#mazda)
+
+[Universal](#universal)
+
+[Jeep & Renix](#jeep)
+
+
+<a name="honda"/>
 
 ## Honda 1+24
 
@@ -20,11 +31,6 @@ To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 ## Honda CBR600
 
 ![Honda CBR600](https://rusefi.com/images/triggers/trigger_28.png)
-
-[Mazda](#mazda)
-
-
-<a name="honda"/>
 
 <a name="mazda"/>
 
@@ -45,13 +51,45 @@ Also used on some Mitsubishi
 
 ![Mazda Protege 1993 DOHC](https://rusefi.com/images/triggers/trigger_15.png)
 
+## Mazda 121/Ford Aspire
 
+![Ford Aspire](https://rusefi.com/images/triggers/trigger_1.png)
+
+<a name="gm"/>
+
+## GM 7x
+
+![GM 7x](https://rusefi.com/images/triggers/trigger_5.png)
+
+## GM LS 24x
+
+![GM LS 24](https://rusefi.com/images/triggers/trigger_27.png)
+
+<a name="jeep"/>
+
+## Jeep 18-2-2-2
+
+![Jeep 18-2-2-2](https://rusefi.com/images/triggers/trigger_37.png)
+
+## Renix 44/2/2
+
+![x](https://rusefi.com/images/triggers/trigger_44.png) 
+
+## Renix 66/2/2/2
+
+![x](https://rusefi.com/images/triggers/trigger_45.png) 
+
+
+<a name="universal"/>
+
+## Bosch Quick Start
+
+![x](https://rusefi.com/images/triggers/trigger_47.png)
 
 ![x](https://rusefi.com/images/triggers/trigger_49.png)
 
 ![x](https://rusefi.com/images/triggers/trigger_46.png)
 
-![x](https://rusefi.com/images/triggers/trigger_44.png) 
 
 ## Universal skipped wheel
 A basic wheel - assumes equally spaced teeth with a number of missing teeth.
@@ -86,15 +124,6 @@ Chrysler NGC 4 cylinder
 Chrysler NGC 6 cylinder
 
 ![Dodge Stratus](https://rusefi.com/images/triggers/trigger_22.png)
-
-## Ford Aspire
-
-![Ford Aspire](https://rusefi.com/images/triggers/trigger_1.png)
-
-## GM 7x
-
-![GM 7x](https://rusefi.com/images/triggers/trigger_5.png)
-
 
 ## Nissan
 
@@ -135,17 +164,9 @@ See also [Universal True 60/2](All-Supported-Triggers#universal-true-602)
 
 ![Toyota 2JZ 1/12](https://rusefi.com/images/triggers/trigger_29.png)
 
-## GM LS 24 tooth
-
-![GM LS 24](https://rusefi.com/images/triggers/trigger_27.png)
-
 ## Subaru 7+6 tooth
 
 ![Subaru 7+6](https://rusefi.com/images/triggers/trigger_36.png)
-
-## Jeep 18-2-2-2
-
-![Jeep 18-2-2-2](https://rusefi.com/images/triggers/trigger_37.png)
 
 ## Unknown trigger type
 
