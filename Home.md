@@ -23,10 +23,10 @@ Wasted Ignition|✓
 Sequential Ignition up to 12 cylinders|✓
 Closed Loop Fueling|✓
 Electronic Throttle Body|✓
-[Knock Sensing](knock-sensing)|✗
 Boost Control|✓
 [Launch Control](Launch-Control)|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](wall_wetting)|✓
+[Knock Sensing](knock-sensing)|✗
 Flat Shifting|✗
 Automatic Transmission Control|✗
 Rotary Engines|✗
