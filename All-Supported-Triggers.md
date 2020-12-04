@@ -11,7 +11,12 @@ To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
 [Mazda](#mazda)
 
+[Subaru](#subaru)
+
 [Jeep & Renix](#jeep)
+
+[Miscelanious](#misc)
+
 
 ## Universal 36/1
 
@@ -29,7 +34,7 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 
 ## 36/2
 
-![x](https://rusefi.com/images/triggers/trigger_47.png)
+![x](https://rusefi.com/images/triggers/trigger_48.png)
 
 ## Bosch Quick Start
 
@@ -98,12 +103,30 @@ Also used on some Mitsubishi
 ![x](https://rusefi.com/images/triggers/trigger_45.png) 
 
 
+<a name="subaru"/>
+
+## Subaru 7+6 tooth
+
+![Subaru 7+6](https://rusefi.com/images/triggers/trigger_36.png)
+
+## Subaru SVX
+
 ![x](https://rusefi.com/images/triggers/trigger_49.png)
 
 
 ## Universal skipped wheel
 A basic wheel - assumes equally spaced teeth with a number of missing teeth.
 Tuner studio allows up to 500 teeth with 500 missing - functional limits are not tested.
+
+<a name="misc"/>
+
+## Daihatsu
+
+![x](https://rusefi.com/images/triggers/trigger_6.png)
+
+## Ford ST170
+
+![x](https://rusefi.com/images/triggers/trigger_42.png)
 
 ## One tooth
 
@@ -163,10 +186,6 @@ See also [Universal True 60/2](All-Supported-Triggers#universal-true-602)
 1/12 version
 
 ![Toyota 2JZ 1/12](https://rusefi.com/images/triggers/trigger_29.png)
-
-## Subaru 7+6 tooth
-
-![Subaru 7+6](https://rusefi.com/images/triggers/trigger_36.png)
 
 ## Unknown trigger type
 
