@@ -144,6 +144,11 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ![Dodge Neon 1995 crank only](https://rusefi.com/images/triggers/trigger_39.png)
 
+## Dodge Hemi and SRT4
+
+![x](https://rusefi.com/images/triggers/trigger_30.png)
+
+
 ## Dodge Ram
 
 ![Dodge Ram](https://rusefi.com/images/triggers/trigger_19.png)
