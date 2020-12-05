@@ -25,12 +25,12 @@
 | pos | color        | desc                     | type                             | my color |
 | --- | ------------ | ------------------------ | -------------------------------- | -------- |
 | 8   |              | fuel pump                |                                  |          |
-| 10  | yellow       | ignition switch          |                                  |          |
-| 13  |              | power supply             | +12v                             | red      |
+| 10  | yellow       | Ignition switch(power)   | +12v                             | red      |
+| 13  | Yellow/Grn   | power supply (not really)| +12v                             | red      |
 | 18  |              | self shut-off            |                                  |          |
 | 22  |              | MIL check engine         |                                  |          |
-| 25  |              | GND power supply         | GND                              | black    |
-|     |              |                          |                                  |          |
+| 25  | Black/Brn    | GND power supply         | GND                              | black    |
+| 26  | Yellow/Red   | Constant Power           |                                  |          |
 |     |              |                          |                                  |          |
 
 
