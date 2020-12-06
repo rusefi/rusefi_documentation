@@ -1,7 +1,12 @@
 
 
-![x](Images/Honda_K_plug_a.png)
-![x](Images/Honda_K_plug_b.png)
-![x](Images/Honda_K_plug_c.png)
-![x](Images/Honda_K_plug_d.png)
-![x](Images/Honda_K_plug_e.png)
+A ![x](Images/Honda_K_plug_a.png)
+
+B ![x](Images/Honda_K_plug_b.png)
+
+
+C ![x](Images/Honda_K_plug_c.png)
+
+D ![x](Images/Honda_K_plug_d.png)
+
+E ![x](Images/Honda_K_plug_e.png)
