@@ -2,6 +2,8 @@
 
 ![x](oem_docs/Subaru/1993ecu1.jpg)
 
+[x](oem_docs/Subaru/1993-1996impreza.pdf)
+
 
 22 pin connector
 
