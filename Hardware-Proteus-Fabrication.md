@@ -1,7 +1,7 @@
 
 [Proteus](https://github.com/mck1117/proteus) is a 4 layer PCB measured 135mm x 82.5mm
 
-[Interactive BOM](https://rusefi.com/docs/ibom/hw48na_V0.4.html)
+[Interactive BOM](https://rusefi.com/docs/ibom/proteus_0_4_ibom.html)
 
 # 0.4
 
