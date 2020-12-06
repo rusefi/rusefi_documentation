@@ -5,6 +5,8 @@
 [1993-1996impreza.pdf](oem_docs/Subaru/1993-1996impreza.pdf)
 
 
+![x](oem_docs/Subaru/subaru-ej16-or18-wiring-diagram.gif)
+
 22 pin connector
 
 | pos | color        | desc                     | type                             | my color |
