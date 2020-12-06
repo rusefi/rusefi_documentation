@@ -11,7 +11,7 @@ Bosch 0280750009 1.8T and hopefully many others
 
 Hitachi SERA576-01 60mm diameter
 
-58mm bolt, internal hex cap see https://rusefi.com/forum/viewtopic.php?p=37682#p37682
+M6 58mm bolt, internal hex cap see https://rusefi.com/forum/viewtopic.php?p=37682#p37682
 
 2003 Nissan Altima green plug
 
