@@ -43,7 +43,7 @@ Sensor Power:
 28/60
 37/60
 
-![x](oem_docs\Bosch\connector_154.png)
+![x](oem_docs/Bosch/connector_154.png)
 
 <a name="94"/>
 
