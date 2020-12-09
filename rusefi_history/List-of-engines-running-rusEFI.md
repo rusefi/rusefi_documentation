@@ -61,3 +61,4 @@
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1734 Miata FE swap 2.0
 1. https://rusefi.com/forum/viewtopic.php?p=37351#p37351 1973 Opel Manta - BMW M42
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1523&start=30 86 Toyota MR2 AW11 + 4A-GE Oct 8, 2020
+1. https://rusefi.com/forum/viewtopic.php?f=2&t=1631&p=34682#p34682 2006 Passat GDI Dec 9, 2020
