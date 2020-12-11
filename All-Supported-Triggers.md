@@ -235,3 +235,5 @@ April, 2020: Honda K 12+1 added.
 April, 2020: Renix 44-2-2 added.
 
 Dev note: unit_tests executable produces triggers.txt file - gen_trigger_images.bat reads triggers.txt and produces these .png files. TODO: automate this further?
+
+
