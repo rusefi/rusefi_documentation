@@ -12,22 +12,22 @@
 | pos | color        | desc                     | type                             | my color |
 | --- | ------------ | ------------------------ | -------------------------------- | -------- |
 | **  | ************ | top line                 | ******************************** |          |
-| 1   |              | Injector #2              |                                  | 1A white   |
-| 2   |              | Injector #1              |                                  | 1C blue   |
-| 3   |              | Coolant Temperature CLT  | analog input                     | 1G green pin#18  |
-| 4   |              | TPS Signal               | analog input                     | white!   |
+| 1   | lt green/red | Injector #2              |                                  | 1A white   |
+| 2   | brown        | Injector #1              |                                  | 1C blue   |
+| 3   | black/yellow | Coolant Temperature CLT  | analog input                     | 1G green pin#18  |
+| 4   | lt green     | TPS Signal               | analog input                     | white   |
 |     |              |                          |                                  |          |
-| 8   |              | VR CAM positive +        |                                  |          |
-| 9   |              | VR CAM negative -        |                                  |          |
+| 8   | white        | VR CAM positive +        |                                  |          |
+| 9   | yellow       | VR CAM negative -        |                                  |          |
 | 11  |              | TPS ground/VR shield     | ground                           | black! pin#17   |
 | **  | ************ | bottom line              | ******************************** |          |
-| 12  |              | Injector #4              |                                  | 1B green   |
-| 13  |              | Injector #3              |                                  | 1D orange  |
-| 15  |              | TPS power                | +5v                              | red. pin#44    |
+| 12  | blue/red     | Injector #4              |                                  | 1B green   |
+| 13  | blue/white   | Injector #3              |                                  | 1D orange  |
+| 15  | brown        | TPS power                | +5v                              | 1H red pin#44    |
 |     |              |                          |                                  |          |
-| 20  |              | coil #3/#4               |                                  | green 1R        |
-| 21  |              | coil #1/#2               |                                  | blue 1T         |
-| 22  |              |                          |                                  |          |
+| 20  | green/white  | coil #3/#4               |                                  | green 1R        |
+| 21  | yellow/blue  | coil #1/#2               |                                  | blue 1T         |
+| 22  | black/red    | Ground                   | GND                              | black         |
 
 
 16 pin connector E31
@@ -35,7 +35,7 @@
 | pos | color        | desc                     | type                             | my color |
 | --- | ------------ | ------------------------ | -------------------------------- | -------- |
 | **  | ************ | top line                 | ******************************** |        |
-| 1   |              | MAF signal ground        | GND                              | 3A black!   |
+| 1   | black/blue   | MAF signal ground        | GND                              | 3A black!   |
 |     |              |                          |                                  |          |
 
 
@@ -44,17 +44,17 @@
 | pos | color        | desc                     | type                             | my color |
 | --- | ------------ | ------------------------ | -------------------------------- | -------- |
 | **  | ************ | top line                 | ******************************** |          |
-| 1   |              | Idle                     |                                  | 3A ls1        |
-| 2   |              | Idle                     |                                  | 3C ls2        |
+| 1   | black        | Idle                     |                                  | 3A ls1        |
+| 2   | white/black  | Idle                     |                                  | 3C ls2        |
 | 4   |              | vehicle speed VSS        |                                  |          |
 | 8   |              | fuel pump                |                                  |    green gp1 pin#35 |
 | 10  | yellow       | Ignition switch(power)   | +12v                             | 3S red      |
-| 13  | Yellow/Grn   | power supply (not really)| +12v                             | 3Y red      |
+| 13  | Yellow/Grn   | power supply from main rl| +12v                             | 3Y red      |
 | **  | ************ | bottom line              | ******************************** |          |
-| 14  |              | Ignition Ground          | GND                              | 3B         |
-| 15  |              | Injectors Ground         | GND                              | 3D black.   |
-| 18  |              | self shut-off main relay | low side                         | 3J .orange pin#29  |
-| 22  |              | MIL check engine         |                                  | white!   |
+| 14  | black        | Ignition Ground          | GND                              | 3B black        |
+| 15  | black/yellow | Injectors Ground         | GND                              | 3D black   |
+| 18  | lt green/whit| self shut-off main relay | low side                         | 3J orange pin#29  |
+| 22  | red/white    | MIL check engine         |                                  | white!   |
 | 25  | Black/Brn    | GND power supply         | GND                              | 3X black    |
 | 26  | Yellow/Red   | Constant Power           |                                  |          |
 |     |              |                          |                                  |          |
