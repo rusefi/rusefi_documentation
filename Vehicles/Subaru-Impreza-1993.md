@@ -39,13 +39,16 @@
 
 | pos | color        | desc                     | type                             | my color |
 | --- | ------------ | ------------------------ | -------------------------------- | -------- |
-| **  | ************ | top line                 | ******************************** |          |
-| 8   |              | fuel pump                |                                  |          |
+| **  | ************ | top line                 | ******************************** | 3A       |
+| 1   |              | Idle                     |                                  | 3C       |
+| 2   |              | Idle                     |                                  |          |
+| 8   |              | fuel pump                |                                  |    green  |
 | 10  | yellow       | Ignition switch(power)   | +12v                             | 3S red      |
 | 13  | Yellow/Grn   | power supply (not really)| +12v                             | 3Y red      |
 | **  | ************ | bottom line              | ******************************** |          |
-| 15  |              | Injectors Ground         | GND                              | black.   |
-| 18  |              | self shut-off            |                                  | .orange  |
+| 14  |              | Ignition Ground          | GND                              | 3B         |
+| 15  |              | Injectors Ground         | GND                              | 3D black.   |
+| 18  |              | self shut-off main relay | low side                         | .orange  |
 | 22  |              | MIL check engine         |                                  | white!   |
 | 25  | Black/Brn    | GND power supply         | GND                              | 3X black    |
 | 26  | Yellow/Red   | Constant Power           |                                  |          |

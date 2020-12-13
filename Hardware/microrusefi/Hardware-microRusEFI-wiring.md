@@ -12,11 +12,13 @@ Rear side of PCB
 
 # Pin Descriptions
 
+Left/right while looking from wires to plug, with white on top
+
 Each pin has a *Type ID*, which can be used to look up in the following tables what the pin is for, and what functions it can perform.
 
 | Pin Number | Name     | Type ID | Default function                                     | rusEFI pigtail color |
 | ----------:|:-------- | ------- |:---------------------------------------------------- | :-------- |
-| 1  | **12V**          | 12V     | 12V supply from main relay output, see also pin #29  | white |
+| 1  | **12V**          | 12V     | 12V supply from main relay output, see also pin #29  | white right |
 | 2  | **GND**          | pgnd    | Power GND                                      | white |
 | 3  | **Lowside 2**    | ls      | Idle solenoid                                  | white |
 | 4  | **ETB+**         | etb     | ETB+                                           | white |
@@ -32,7 +34,7 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 14 | **GP out 5**     | gp_high |            (see JP2 jumper note)               | yellow |
 | 15 | **USB D-**       | usb     | USB white wire https://youtu.be/4v2VnP-YdlQ                                | yellow |
 | 16 | **USB D+**       | usb     | USB green wire https://youtu.be/4v2VnP-YdlQ                                | yellow |
-| 17 | **GND**          | sgnd    | Signal GND                                     | red |
+| 17 | **GND**          | sgnd    | Signal GND                                     | red right |
 | 18 | **AN Temp 1**    | at      | CLT sensor                                     | red |
 | 19 | **AN Volt 4**    | av      | **Starting from version 0.5.0 this pin can be used as 5V input for USB connection through main connector (No need to open case to access micro-USB connector)** | red |
 | 20 | **AN Volt 5**    | av      | Throttle position sensor (TPS)                 | red |
@@ -44,7 +46,7 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 26 | **AN Volt 2**    | av      |                                                | light blue |
 | 27 | **AN Volt 1**    | av      | MAP sensor                                     | light blue |
 | 28 | **AN Volt 10**   | av      |                                                | light blue |
-| 29 | **Main relay**   | mr      | Main relay control signal (low side)           | pink |
+| 29 | **Main relay**   | mr      | Main relay control signal (low side)           | pink right |
 | 30 | **AN Volt 7**    | av      |                                                | pink |
 | 31 | **AN Volt 3**    | av      | Throttle Pedal Position Sensor (PPS)           | pink |
 | 32 | **AN Volt 6**    | av      | External wideband O2 sensor                    | pink |
@@ -52,15 +54,15 @@ Each pin has a *Type ID*, which can be used to look up in the following tables w
 | 34 | **GP out 2**     | gp_low (gp_pp)  | Fan relay (IDLE stepper coil 1-)       | orange |
 | 35 | **GP out 1**     | gp_low (gp_pp)  | Fuel pump relay (IDLE stepper coil 1+) | orange |
 | 36 | **AN Volt 8**    | av      |                                                | orange |
-| 37 | **Injector 1**   | inj     | Injector 1                                     | grey |
+| 37 | **Injector 1**   | inj     | Injector 1                                     | grey right |
 | 38 | **Injector 2**   | inj     | Injector 2                                     | grey |
 | 39 | **5V Sensor 2**  | 5v      | MAP sensor supply                              | grey |
 | 40 | **AN Volt 9**    | av      |                                                | grey |
-| 41 | **Injector 3**   | inj     | Injector 3                                     | brown |
+| 41 | **Injector 3**   | inj     | Injector 3                                     | brown right |
 | 42 | **Injector 4**   | inj     | Injector 4                                     | brown |
 | 43 | **GP out 4**     | gp_low (gp_pp)  | (IDLE stepper coil 2+)                 | brown |
 | 44 | **5V Sensor 1**  | 5v      | TPS sensor supply                              | brown |
-| 45 | **VR+/Hall**     | vr/hall | Crank VR+/hall                                 | light green |
+| 45 | **VR+/Hall**     | vr/hall | Crank VR+/hall                                 | light green right |
 | 46 | **VR-**          | vr      | Crank VR- (do not connect if hall)             | light green |
 | 47 | **CAN low**      | can     | CAN bus                                        | light green |
 | 48 | **CAN high**     | can     | CAN bus                                        | light green |
