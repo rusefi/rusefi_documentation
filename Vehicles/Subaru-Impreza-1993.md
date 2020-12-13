@@ -53,7 +53,7 @@
 | **  | ************ | bottom line              | ******************************** |          |
 | 14  | black        | Ignition Ground          | GND                              | 3B black        |
 | 15  | black/yellow | Injectors Ground         | GND                              | 3D black   |
-| 18  | lt green/whit| self shut-off main relay | low side                         | 3J orange pin#29  |
+| 18  | lt green/whit| self shut-off main relay | high side control WOW goes to key| 3J orange  |
 | 22  | red/white    | MIL check engine         |                                  | white!   |
 | 25  | Black/Brn    | GND power supply         | GND                              | 3X black    |
 | 26  | Yellow/Red   | Constant Power           |                                  |          |
