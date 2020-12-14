@@ -1,3 +1,6 @@
+# this page is NOT UP TO DATE - Frankenstein is totally forgotten as of 2020 and Frankenso is moving into the forgotten territory.
+
+
 # Choose Your Own Adventure
 
 ## Adventure 1: I have a project engine and want to try the Frankenso board
@@ -85,7 +88,7 @@ The stimulator board allows better simulation than what is noted above. It allow
 
 ### Virtual simulation
 
-rusEFI has a virtual option. This basically simulates the ARM processors, and you can feed it registers and such which will simulate the system which is done purely in PC software. This can be really handy for build validations. You can play a log file to the registers then measure the output signals and verify they are within certain tolerances. You can also develop a variety of situations that can't easily or safely be validated with real hardware. For example, it would be really costly to physically see what happens when you have extremely fast changes in RPM caused by back fires, or broken components. See [Simulator](Simulator)
+rusEFI has a virtual option. This runs same code with same RTOS in Windows, Linux or Darwin, and you can feed it mock values and such which will simulate the system which is done purely in PC software. This can be really handy for build validations. You can also develop a variety of situations that can't easily or safely be validated with real hardware. For example, it would be really costly to physically see what happens when you have extremely fast changes in RPM caused by back fires, or broken components. See [Simulator](Simulator)
 
 ### Compile firmware
 
