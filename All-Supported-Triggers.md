@@ -26,92 +26,92 @@ To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
 If you also have a CAM sensor somewhere see [VVT](VVT)
 
-![60/2](https://rusefi.com/images/triggers/trigger_8.png)
+![60/2](Images/triggers/trigger_8.png)
 
 ## 36/1
 
-![36/1](https://rusefi.com/images/triggers/trigger_9.png)
+![36/1](Images/triggers/trigger_9.png)
 
 ## 36/2
 
-![x](https://rusefi.com/images/triggers/trigger_48.png)
+![x](Images/triggers/trigger_48.png)
 
 ## Bosch Quick Start
 
-![x](https://rusefi.com/images/triggers/trigger_47.png)
+![x](Images/triggers/trigger_47.png)
 
 
 <a name="honda"/>
 
 ## Honda K 1/12
 
-![x](https://rusefi.com/images/triggers/trigger_46.png)
+![x](Images/triggers/trigger_46.png)
 
 ## Honda 1+24
 
-![x](https://rusefi.com/images/triggers/trigger_21.png)
+![x](Images/triggers/trigger_21.png)
 
 ## Honda CBR600
 
-![Honda CBR600](https://rusefi.com/images/triggers/trigger_28.png)
+![Honda CBR600](Images/triggers/trigger_28.png)
 
 <a name="mazda"/>
 
 ## Mazda Protege SOHC
 
-![Mazda Protege SOHC](https://rusefi.com/images/triggers/trigger_7.png)
+![Mazda Protege SOHC](Images/triggers/trigger_7.png)
 
 ## Mazda Miata NA
 Also used on some Mitsubishi
 
-![Mazda Miata NA](https://rusefi.com/images/triggers/trigger_3.png)
+![Mazda Miata NA](Images/triggers/trigger_3.png)
 
 ## Mazda Miata NB
 
-![Mazda Miata NB1](https://rusefi.com/images/triggers/trigger_4.png)
+![Mazda Miata NB1](Images/triggers/trigger_4.png)
 
 ## Mazda Protege 1993 DOHC
 
-![Mazda Protege 1993 DOHC](https://rusefi.com/images/triggers/trigger_15.png)
+![Mazda Protege 1993 DOHC](Images/triggers/trigger_15.png)
 
 ## Mazda 121/Ford Aspire
 
-![Ford Aspire](https://rusefi.com/images/triggers/trigger_1.png)
+![Ford Aspire](Images/triggers/trigger_1.png)
 
 <a name="gm"/>
 
 ## GM 7x
 
-![GM 7x](https://rusefi.com/images/triggers/trigger_5.png)
+![GM 7x](Images/triggers/trigger_5.png)
 
 ## GM LS 24x
 
-![GM LS 24](https://rusefi.com/images/triggers/trigger_27.png)
+![GM LS 24](Images/triggers/trigger_27.png)
 
 <a name="jeep"/>
 
 ## Jeep 18-2-2-2
 
-![Jeep 18-2-2-2](https://rusefi.com/images/triggers/trigger_37.png)
+![Jeep 18-2-2-2](Images/triggers/trigger_37.png)
 
 ## Renix 44/2/2
 
-![x](https://rusefi.com/images/triggers/trigger_44.png) 
+![x](Images/triggers/trigger_44.png) 
 
 ## Renix 66/2/2/2
 
-![x](https://rusefi.com/images/triggers/trigger_45.png) 
+![x](Images/triggers/trigger_45.png) 
 
 
 <a name="subaru"/>
 
 ## Subaru 7+6 tooth
 
-![Subaru 7+6](https://rusefi.com/images/triggers/trigger_36.png)
+![Subaru 7+6](Images/triggers/trigger_36.png)
 
 ## Subaru SVX
 
-![x](https://rusefi.com/images/triggers/trigger_49.png)
+![x](Images/triggers/trigger_49.png)
 
 
 ## Universal skipped wheel
@@ -122,75 +122,75 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ## Daihatsu
 
-![x](https://rusefi.com/images/triggers/trigger_6.png)
+![x](Images/triggers/trigger_6.png)
 
 ## Ford ST170
 
-![x](https://rusefi.com/images/triggers/trigger_42.png)
+![x](Images/triggers/trigger_42.png)
 
 ## One tooth
 
-![One Tooth](https://rusefi.com/images/triggers/trigger_18.png)
+![One Tooth](Images/triggers/trigger_18.png)
 
 ## 36/2/2
 
-![36/2/2](https://rusefi.com/images/triggers/trigger_23.png)
+![36/2/2](Images/triggers/trigger_23.png)
 
 ## Dodge Neon 1995
 
-![Dodge Neon 1995](https://rusefi.com/images/triggers/trigger_2.png)
+![Dodge Neon 1995](Images/triggers/trigger_2.png)
 
 ## Dodge Neon 1995 only crankshaft sensor
 
-![Dodge Neon 1995 crank only](https://rusefi.com/images/triggers/trigger_39.png)
+![Dodge Neon 1995 crank only](Images/triggers/trigger_39.png)
 
 ## Dodge Hemi and SRT4
 
-![x](https://rusefi.com/images/triggers/trigger_30.png)
+![x](Images/triggers/trigger_30.png)
 
 
 ## Dodge Ram
 
-![Dodge Ram](https://rusefi.com/images/triggers/trigger_19.png)
+![Dodge Ram](Images/triggers/trigger_19.png)
 
 ## Dodge Neon 2003
 Chrysler NGC 4 cylinder
 
-![Dodge Neon 2003](https://rusefi.com/images/triggers/trigger_14.png)
+![Dodge Neon 2003](Images/triggers/trigger_14.png)
 
 ## Dodge Stratus
 Chrysler NGC 6 cylinder
 
-![Dodge Stratus](https://rusefi.com/images/triggers/trigger_22.png)
+![Dodge Stratus](Images/triggers/trigger_22.png)
 
 ## Nissan
 
 360 slot trigger not ready yet, no test vehicles :(
 
-![Nissan](https://rusefi.com/images/triggers/trigger_24.png)
+![Nissan](Images/triggers/trigger_24.png)
 
 ## 1 + 60/2
 
 Please use this one only if your CAM sensor position matches this picture exactly. For a CAM which does not match this picture exactly, see above for universal 60/2 with cam input.
 
-![1+60/2](https://rusefi.com/images/triggers/trigger_17.png)
+![1+60/2](Images/triggers/trigger_17.png)
 
 ## VW 60/2
 VW special understanding of 60/2 with a wide tooth instead of of just missing tooth.
 
 See also [Universal True 60/2](All-Supported-Triggers#universal-true-602)
 
-![VW 60/2](https://rusefi.com/images/triggers/trigger_20.png)
+![VW 60/2](Images/triggers/trigger_20.png)
 
 ## Toyota 2JZ
 
 3/34 version
 
-![Toyota 2JZ 3/34](https://rusefi.com/images/triggers/trigger_25.png)
+![Toyota 2JZ 3/34](Images/triggers/trigger_25.png)
 
 1/12 version
 
-![Toyota 2JZ 1/12](https://rusefi.com/images/triggers/trigger_29.png)
+![Toyota 2JZ 1/12](Images/triggers/trigger_29.png)
 
 ## Unknown trigger type
 
