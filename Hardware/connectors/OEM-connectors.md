@@ -3,6 +3,8 @@
   
 [64 pin](#64)
 
+[72 pin](#72)
+
 [80 pin](#80)
 
 [88 pin](#88)
@@ -237,11 +239,13 @@ See http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm
 
 https://www.te.com/usa-en/product-174836-5.html
 
+<a name="72"/>
+
 ## 72 pin
 
-http://www.te.com/usa-en/product-353830-5.html
+http://www.te.com/usa-en/product-353830-5.html [octopart](https://octopart.com/search?q=353830)
 
-http://www.te.com/catalog/pn/en/1123038-2
+http://www.te.com/catalog/pn/en/1123038-2 [octopart](https://octopart.com/search?q=1123038)
 
 ![72 pin connector](Hardware/connectors/72_pin.png)
 
