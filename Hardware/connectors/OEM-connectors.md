@@ -393,6 +393,7 @@ http://www.te.com/catalog/pn/en/8-5353015-1
 
 maybe the most common Aristo 2JZ ECU connector?
 1999 TOYOTA CAMRY 3.0L V6
+89666-20041
 
 <a name="125"/>
 
