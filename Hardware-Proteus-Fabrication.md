@@ -14,6 +14,16 @@
 ![x](Hardware/Proteus/Hardware-Proteus-0.4-jlc.jpg)
 
 
+# Assembly sequence:
+
+* Buttons: paste + soldering iron
+* FB1501 Ferrite: paste + hot air
+* 2xFuses: paste + hot air
+* USB: solder wire + soldering iron
+
+At this point USB DFU should work
+
+
 # 0.4 Non-JLC BOM
 
 Comment,Designator,Footprint, PN
