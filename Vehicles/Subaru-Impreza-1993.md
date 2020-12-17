@@ -7,6 +7,11 @@
 
 ![x](oem_docs/Subaru/subaru-ej16-or18-wiring-diagram.gif)
 
+
+This vehicle has dumb coils and igniters - rusEFI does not have to provide igniters.
+
+https://github.com/rusefi/rusefi/wiki/Hardware-microRusEFI-wiring
+
 22 pin connector E30
 
 | pos | color        | desc                     | type                             | my color |
