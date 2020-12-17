@@ -11,6 +11,10 @@
 
 [121 pin](#121)
 
+[122 pin](#122)
+
+[125 pin](#125)
+
 [134 pin](#134)
 
 [154 pin](#154)
@@ -376,6 +380,8 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 2003 VW Passat
 
+<a name="122"/>
+
 [121 pin main page](OEM-121-pin-connectors)
 
 ## 122 pin
@@ -387,8 +393,13 @@ http://www.te.com/catalog/pn/en/8-5353015-1
 
 maybe the most common Aristo 2JZ ECU connector?
 1999 TOYOTA CAMRY 3.0L V6
+89666-20041
+
+<a name="125"/>
 
 ## 125 pin
+
+![125 Pin Connector](Hardware/connectors/125_5_render.png)
 
 https://www.te.com/usa-en/product-1318612-1.html
 
