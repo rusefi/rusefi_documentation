@@ -62,6 +62,7 @@ Using an external MAP sensor allows you to get the engine running above ambiant 
 You can also run the engine naturally aspirated using the OEM "boost sensor". It is located on the EGR systems and is used by stock ECU to determine whether the EGR is working or not. You've probably ditched EGR so far and so you can run a vacuum line from your plenum to this sensor and use it with this calibration:
 * 0V - 15Kpa
 * 5V - 115Kpa
+
 Or you can use the OEM sensor for barometric reading and correction.
 
 
