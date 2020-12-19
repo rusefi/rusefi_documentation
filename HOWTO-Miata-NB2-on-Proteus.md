@@ -9,13 +9,13 @@ https://rusefi.com/forum/viewtopic.php?f=4&t=1701
 
 ## OEM 72 pins connector
 
-| Pin Number | Name     | Proteus pin |  Type ID      | Default function                                     |
+| Pin Number | Name     | Proteus pin |  Type ID      | Default function           |
 | ----------:|:-------- | ------------ | ------------  |:---------------------------------------------------- |
-| 2A  | Inj 1           | B3| Low-Side  1   | Injector #1                           |
-| 2B  | Fan             | B9| Low-Side 11   | Radiator Fan Control Relay Output     |
-| 2C  | A/C Fan         | --| Low-Side xx   | A/C Fan Control Relay Output          |
+| 2A  | Inj 1           | B3| Low-Side  1   | Injector #1                          |
+| 2B  | Fan             | B9| Low-Side 11   | Radiator Fan Control Relay Output    |
+| 2C  | A/C Fan         | --| Low-Side xx   | A/C Fan Control Relay Output         |
 | 2D  | Inj 2           |B15| Low-Side 2   | Injector #2                           |
-| 2G  | Inj 3           | B4| Low-Side 3    | Injector #3                           |
+| 2G  | Inj 3           | B4| Low-Side 3    | Injector #3                          |
 | 2J  | Inj 4           |B16| Low-Side 4   | Injector #4                           |
 | 2O  |          -      |   | x            | x                                     |
 | 2M  | Fuel Pump       |B6 | Low-Side 6   | Fuel Pump Relay Output                |
@@ -56,7 +56,20 @@ https://rusefi.com/forum/viewtopic.php?f=4&t=1701
 
 ### MAP sensor
 
+Using an external MAP sensor allows you to get the engine running above ambiant pressure when using forced induction. Good cheap option is GM 3 bars but anything will work for you. MAP input can be mapped to Analog Volt 1 (A13 pin).
+
+**Note :** 
+You can also run the engine naturally aspirated using the OEM "boost sensor". It is located on the EGR systems and is used by stock ECU to determine whether the EGR is working or not. You've probably ditched EGR so far and so you can run a vacuum line from your plenum to this sensor and use it with this calibration:
+* 0V - 15Kpa
+* 5V - 115Kpa
+Or you can use the OEM sensor for barometric reading and correction.
+
+
+
 ### WBO2 sensor
+
+
+### To sum up
 
 
 
@@ -72,7 +85,7 @@ https://rusefi.com/forum/viewtopic.php?f=4&t=1701
 
 ## Alternator and tachometer
 
-## Useful outputs
+## Useful inputs/outputs
 
 # Miscellaneous
 
