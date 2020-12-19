@@ -1,6 +1,9 @@
+**# This page is still WIP**
+
+# PnP adapter board
+
 https://rusefi.com/forum/viewtopic.php?f=4&t=1701
 
-WIP
 
 # Pinning 
 
@@ -45,13 +48,33 @@ WIP
 | 4R  | VVT             | B8| Low-side 9   | VVT Control                           |
 | 4S  | Key             |C18| 12V RAW      | +12v from Ignition Key                |
 | 4V  | TPS             |A14| Analog Volt 3| Throttle Position Sensor              |
-| 4X  | MAF             |A25| Analog Volt 4| x                                     |
+| 4X  | MAF             |A25| Analog Volt 4| Mass airflow sensor, needs pulldown   |
 | 4AE | EGR Boost Sensor|A16| Analog Volt 7| MAP                                   |
-| 4AF | Main Relay Power|C23| 12V MR         | +12v from Main Relay                  |
+| 4AF | Main Relay Power|C23| 12V MR       | +12v from Main Relay                  |
 
 ## Auxiliary inputs
 
+### MAP sensor
+
+### WBO2 sensor
+
+
+
 # Tune config
+
+## Engine basics
+
+## Trigger
+
+## Ignition and injection
+
+## VVT parameters
+
+## Alternator and tachometer
+
+## Useful outputs
+
+# Miscellaneous
 
 # Running engines forum links
 * CrazyStriker's NB2 : [2004 Mazda MX5 1.8 VVT #50](https://rusefi.com/forum/viewtopic.php?f=2&t=1536&sid=2763fcb9e79e72c3cd9860a69d3620b3)
