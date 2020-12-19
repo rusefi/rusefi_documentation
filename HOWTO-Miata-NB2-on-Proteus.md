@@ -2,8 +2,16 @@
 
 # PnP adapter board
 
+A plug and play adapter board has been developped to get the car to work as easy as possible. It only requires sourcing a tock harness plug and Ampseal 23 pins headers if you want auxiliary functions.
+More informations are available at this link : 
+
 https://rusefi.com/forum/viewtopic.php?f=4&t=1701
 
+## Pin mapping
+
+## Pricing
+
+Unit price for QTY 5 assembled and delivered to Europe is 7$.
 
 # Pinning 
 
