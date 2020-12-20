@@ -21,9 +21,67 @@ Leds indicators let you see which outputs are activated, and included flyback di
 
 All the OEM pins are wired through a bridge closed by either a 0 ohm 0805 jumper or a jumper wire, letting you reallocate OEM connector pin as you want.
 
+Two 23 pins Ampseal extension connectors allows you to wire more functions like boost control, WBO2, CAN bus communication, ETB, etc.. You can use all outputs Proteus has to offer you and on a 4 cylinder with single VVT it means a lot of extra functions.
+
 ## Pin mapping
 
 The board pin mapping for OEM connector follows the tab given in the Pinning section below.
+
+For the extension connectors the pinnig is the following \:
+
+| PnP extension pin | Proteus pin |  Type ID      | Function           |
+| -----------------:|------------:|--------------:|-------------------:|
+|                 A1|             |               |                    |
+|                 A2|             |               |                    |
+|                 A3|             |               |                    |
+|                 A4|             |               |                    |
+|                 A5|             |               |                    |
+|                 A6|             |               |                    |
+|                 A7|             |               |                    |
+|                 A8|             |               |                    |
+|                 A9|             |               |                    |
+|                A10|             |               |                    |
+|                A11|             |               |                    |
+|                A12|             |               |                    |
+|                A13|             |               |                    |
+|                A14|             |               |                    |
+|                A15|             |               |                    |
+|                A16|             |               |                    |
+|                A17|             |               |                    |
+|                A18|             |               |                    |
+|                A19|             |               |                    |
+|                A20|             |               |                    |
+|                A21|             |               |                    |
+|                A22|             |               |                    |
+|                A23|             |               |                    |
+|                   |             |               |                    |
+|                 B1|             |               |                    |
+|                 B2|             |               |                    |
+|                 B3|             |               |                    |
+|                 B4|             |               |                    |
+|                 B5|             |               |                    |
+|                 B6|             |               |                    |
+|                 B7|             |               |                    |
+|                 B8|             |               |                    |
+|                 B9|             |               |                    |
+|                B10|             |               |                    |
+|                B11|             |               |                    |
+|                B12|             |               |                    |
+|                B13|             |               |                    |
+|                B14|             |               |                    |
+|                B15|             |               |                    |
+|                B16|             |               |                    |
+|                B17|             |               |                    |
+|                B18|             |               |                    |
+|                B19|             |               |                    |
+|                B20|             |               |                    |
+|                B21|             |               |                    |
+|                B22|             |               |                    |
+|                B23|             |               |                    |
+
+
+
+
 
 ## Interface with proteus
 
@@ -47,11 +105,11 @@ A few improvment would make this board really plug and play and easier to use
 
 | Pin Number | Name     | Proteus pin |  Type ID      | Default function           |
 | ----------:|:-------- | ------------ | ------------  |:---------------------------------------------------- |
-| 2A  | Inj 1           | B3| Low-Side  1   | Injector #1                          |
-| 2B  | Fan             | B9| Low-Side 11   | Radiator Fan Control Relay Output    |
-| 2C  | A/C Fan         | --| Low-Side xx   | A/C Fan Control Relay Output         |
+| 2A  | Inj 1           | B3| Low-Side  1  | Injector #1                          |
+| 2B  | Fan             | B9| Low-Side 11  | Radiator Fan Control Relay Output    |
+| 2C  | A/C Fan         | --| Low-Side xx  | A/C Fan Control Relay Output         |
 | 2D  | Inj 2           |B15| Low-Side 2   | Injector #2                           |
-| 2G  | Inj 3           | B4| Low-Side 3    | Injector #3                          |
+| 2G  | Inj 3           | B4| Low-Side 3   | Injector #3                          |
 | 2J  | Inj 4           |B16| Low-Side 4   | Injector #4                           |
 | 2O  |          -      |   | x            | x                                     |
 | 2M  | Fuel Pump       |B6 | Low-Side 6   | Fuel Pump Relay Output                |
