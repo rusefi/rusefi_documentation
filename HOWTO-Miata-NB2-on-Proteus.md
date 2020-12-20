@@ -2,12 +2,22 @@
 
 # PnP adapter board
 
+![Isometric view of adapter boaard together with proteus](https://rusefi.com/forum/download/file.php?id=5673&sid=1df371e40697c38dca9221e44ce28b50)
+
 A plug and play adapter board has been developped to get the car to work as easy as possible. It only requires sourcing a tock harness plug and Ampseal 23 pins headers if you want auxiliary functions.
 More informations are available at this link : 
 
 https://rusefi.com/forum/viewtopic.php?f=4&t=1701
 
+![Assembled V0.3 Proteus with PnP board](https://rusefi.com/forum/download/file.php?id=6752&sid=1df371e40697c38dca9221e44ce28b50)
+
 ## Pin mapping
+
+## Interface with proteus
+
+At the moment, the interface between Proteus board and the PnP adapter is handled by hacked up Ampseal connectors. To do that you need to source the male connectors used on Proteus, and cut the plastic shroud on the connector side, flush with the watertight seal if there is any, or with the mounting flange.
+
+A better solution for that would be to source rows of headers with the correct pitch.
 
 ## Pricing
 
