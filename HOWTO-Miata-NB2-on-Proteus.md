@@ -11,7 +11,16 @@ https://rusefi.com/forum/viewtopic.php?f=4&t=1701
 
 ![Assembled V0.3 Proteus with PnP board](https://rusefi.com/forum/download/file.php?id=6752&sid=1df371e40697c38dca9221e44ce28b50)
 
+## Introduction
+
+This board is meant to run an NB2 Miata on Proteus V0.3 or above ECU. IT saves you a lot of time on crimping a custom wiring harness to accomodate OEM connector, and is overall a cheaper alternative as well.
+Leds indicators let you see which outputs are activated, and included flyback diode let you run the big inductive loads without risk for the Proteus low side drivers.
+
+All the OEM pins are wired through a bridge closed by either a 0 ohm 0805 jumper or a jumper wire, letting you reallocate OEM connector pin as you want.
+
 ## Pin mapping
+
+The board pin mapping for OEM connector follows the tab given in the Pinning section below.
 
 ## Interface with proteus
 
@@ -22,6 +31,12 @@ A better solution for that would be to source rows of headers with the correct p
 ## Pricing
 
 Unit price for QTY 5 assembled and delivered to Europe is 7$.
+
+## Improvments
+
+A few improvment would make this board really plug and play and easier to use
+* For now the MAF input doesn't work because it lacks some pullup/pulldown.
+* Altough they fit in OEM ECU location, ampseal extension connectors are a bit bulky. They were chosen because board designed had them lying around.
 
 # Pinning 
 
