@@ -1,4 +1,7 @@
-**# This page is still WIP**
+**This page is still WIP**
+
+**Disclaimer : This page has been written by a user and thus might not be objective**
+
 
 # PnP adapter board
 
@@ -117,11 +120,34 @@ Or you can use the OEM sensor for barometric reading and correction.
 
 ## VVT parameters
 
+VVT is quite picky to tune on the miata
+
 ## Alternator and tachometer
 
 ## Useful inputs/outputs
 
 # Miscellaneous
+
+## 36-1 Protege trigger wheel
+
+You can replace the OEM 4 tooth crank trigger plate located between timing belt pulley and accessory belt pulley with a Mazda Protege trigger wheel. It is bolt on, meaning you just have to remove damper pulley to get it in place (it has a good chance to be stuck depending on car condition) and you get a way better trigger resolution of 10 degrees for a very low cost. Trigger wheel from mazda dealership was 12€ in France, available quickly. Part number is #ZM 01-11-408. For european folks your dealer might think this is an invalid number, but if he enters it the part will be offered by Mazda Europe. This modification is also applicable t any other miata with same crank bolt pattern.
+
+Tune-wise you will need to switch to _"4 stroke without cam sensor"_ configuration and to set your timing correctly. My offset value, verified with a timing light is 76 degrees. You can probably start your car with it, but be extra careful and check your timing with a timing light afterwards.
+
+The gain might not be felt by everyone, but on RE the cranking will be easier, and you will get a smoother running engine. Best of all, if your fuc**** cam sensor decides to die as it does quite often you can run your car without VVT in batch injection and wasted spark and get back home safely.
+
+Everything about this modification is detailed in the followinf thread on MiataTurbo : [OEM 36-1 Wheel](https://www.miataturbo.net/ecus-tuning-54/oem-36-1-wheel-64544/)
+
+## CAM position sensor
+
+OEM NB cam position sensor might die on you one day, producing trigger losses and bad misfires that happends at first when hot and then appears colder and colder, to the point you won't be able to run your car above 4k or 5k RPM. It it happens order the new sensor immediately and while waiting for it you can run without cam sync, with wasted spark (OEM config) and batch injection, but only if your crank trigger plate is asymetrical, which is not the case of the OEM one.
+
+When ordering new sensor prefer the OEM part, even if it's more expensive. Some people cooked two aftermarket sensors in 10k km and it sucks.
+
+If you're bored of switching your sensor with shit units to see them fail, you can always go the ghetto route and hack up your OEM sensor to use its mounting plate for an industrial grade sensor like Cherry/ZF GS1001 units.
+To do that you can drill the OEM body with a 12mm drill bit, the cherry sensor should thread into it. Then secure it with one or the two nuts provided with the sensor. You can adjust sensor depth to make it match OEM configuration.
+
+_Pictures to be added_
 
 # Running engines forum links
 * CrazyStriker's NB2 : [2004 Mazda MX5 1.8 VVT #50](https://rusefi.com/forum/viewtopic.php?f=2&t=1536&sid=2763fcb9e79e72c3cd9860a69d3620b3)
