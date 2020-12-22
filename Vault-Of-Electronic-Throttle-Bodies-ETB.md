@@ -15,7 +15,9 @@ M6 58mm bolt, internal hex cap see https://rusefi.com/forum/viewtopic.php?p=3768
 
 2003 Nissan Altima green plug
 
-8 Ohm between blue motor+ and white motor- 
+8 Ohm between blue motor+ and white motor-
+
+Connector 6189-7761 
 
 ![x](oem_docs/Nissan/Hitachi-SERA576-01-2003-Nissan-Altima.png)
 
