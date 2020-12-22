@@ -60,6 +60,15 @@ ECU/OEM pigtails: 52 inches / 132cm
 | 30  | Ignition 7    | y     | Ignition cylinder 7                  | White | - | External Igniter channel #2 |
 | 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | - | External Igniter channel #1 |
 
+|Color | Quantity on 35 Black   |
+| ---:|:---------- | 
+| Orange   | 4     | 
+| Red      | 2  | 
+| White    | 4  | 
+| Blue     | 3  | 
+| Black    | 5  |
+| Green    | 3  | 
+| Total    | 21 | 
 
 ## Black 23 Pin 776228-1 on Black Proteus 0.2 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
@@ -96,6 +105,15 @@ End of Black Proteus 0.2 23 pin table
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
 End of Green Proteus 0.3+ 23 pin table
 
+|Color | Quantity on 23 Black   |
+| ---:|:---------- | 
+| Orange   | 2     | 
+| Red      | 4  | 
+| White    | 3  | 
+| Blue     | 3  | 
+| Black    | 1  |
+| Green    | 0  | 
+| Total    | 13 | 
 
 ## White 35 Pin 776231-2
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector | . |
@@ -127,6 +145,29 @@ End of Green Proteus 0.3+ 23 pin table
 | 31  | AT4        | at    | Coolant temperature CLT              | Green | Black #3 22/52 RED/BRN |
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #2 sensor feed |
 | 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - |                    |
+
+
+|Color | Quantity on 35 white   |
+| ---:|:---------- | 
+| Orange   | 4     | 
+| Red      | 4  | 
+| White    | 1  | 
+| Blue     | 2  | 
+| Black    | 6  |
+| Green    | 5  | 
+| Total    | 22 |  
+
+|Color | Total Proteus Quantity   | Short | Long |
+| ---:|:---------- | :---------- | :---------- | 
+| Orange   | 10    | 7 | 3  |
+| Red      | 10 |    7 | 3  |
+| White    | 8  |    5 | 3  |
+| Blue     | 8  |    5 | 3  | 
+| Black    | 12 |    9 | 3  |
+| Green    | 8  |    5 | 3  | 
+| Total    | 56 |   38 | 18 | 
+
+
 
 
 # 9 pin plug #1 
