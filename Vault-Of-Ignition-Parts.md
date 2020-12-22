@@ -30,6 +30,8 @@ Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
  * Toyota 1991-1999 89621-16020
 
+Harness side connector 6189-0515
+
 ![x](oem_docs/Toyota/GS300_2001_igniter.png)
 
 ![x](oem_docs/Toyota/1995_Camry_Igniter.png)
