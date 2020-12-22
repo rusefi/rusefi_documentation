@@ -36,27 +36,27 @@ For the extension connectors the pinnig is the following \:
 |                 1C|          B11|     Lowside 14|                    |
 |                 1D|          B12|     Lowside 15|                    |
 |                 1E|          B23|     Lowside 16|                    |
-|                 1F|             |     Ignition 2|                    |
-|                 1G|             |     Ignition 4|                    |
-|                 1H|             |     Ignition 5|                    |
-|                 1I|             |     Ignition 6|                    |
-|                 1J|             |     Ignition 7|                    |
-|                 1K|             |     Ignition 8|                    |
-|                 1L|             |     Ignition 9|                    |
-|                 1M|             |    Ignition 10|                    |
-|                 1N|             |    Ignition 11|                    |
-|                 1O|             |    Ignition 12|                    |
+|                 1F|          B34|     Ignition 2|                    |
+|                 1G|          B33|     Ignition 4|                    |
+|                 1H|          B32|     Ignition 5|                    |
+|                 1I|          B31|     Ignition 6|                    |
+|                 1J|          B30|     Ignition 7|                    |
+|                 1K|          B29|     Ignition 8|                    |
+|                 1L|          B28|     Ignition 9|                    |
+|                 1M|          B27|    Ignition 10|                    |
+|                 1N|          B26|    Ignition 11|                    |
+|                 1O|          B25|    Ignition 12|                    |
 |                 1P|             |         Ground|                    |
 |                 1Q|             |         Ground|                    |
 |                 1R|             |         Ground|                    |
 |                 1S|             |         Ground|                    |
 |                 1T|             |    High Side 2|                    |
 |                 1U|             |    High Side 4|                    |
-|                 1V|             |12V Protected 2|                    |
+|                 1V|          A12|12V Protected 2|                    |
 |                 1W|             |         Ground|                    |
 |                   |             |               |                    |
-|                 2A|             |           CAN+|                    |
-|                 2B|             |           CAN-|                    |
+|                 2A|          C17|           CAN+|                    |
+|                 2B|          C16|           CAN-|                    |
 |                 2C|             |           VR1+|                    |
 |                 2D|             |           VR1-|                    |
 |                 2E|             |           VR2+|                    |
@@ -71,9 +71,9 @@ For the extension connectors the pinnig is the following \:
 |                 2N|             | Analog Volt 10|                    |
 |                 2O|             | Analog Volt 11|                    |
 |                 2P|             | Analog Volt 12|                    |
-|                 2Q|             |    5V Sensor 1| Used for MAP sensor|
-|                 2R|             |    5V Sensor 2|                    |
-|                 2S|             |         Ground| USED for WBO sensor|
+|                 2Q|          A21|    5V Sensor 1| Used for MAP sensor|
+|                 2R|          A10|    5V Sensor 2|                    |
+|                 2S|             |         Ground| Used for WBO sensor|
 |                 2T|             |          ETB1+|                    |
 |                 2U|             |          ETB1-|                    |
 |                 2V|             |          ETB2+|                    |
