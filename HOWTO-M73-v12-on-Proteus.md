@@ -175,13 +175,14 @@ ECU/OEM pigtails: 52 inches / 132cm
 | Red      | CAN |
 | Red      | MAP 5v |
 | Black    | MAP GND  |
-|      | MAP Signal    | 
-|      | AFR WBO Signal    | 
-| Green    | Low Side    | 
-| Orange   | Low Side Fuel Pump Relay   | 
-| Blue     |     | 
+| Blue     | MAP Signal    | 
+| Green     | AFR WBO Signal    | 
+| Green    | Radiator Fan Relay    | 
+| Orange   | Fuel Pump Relay   | 
 |      |     | 
 
+
+![x](installations/M73_v12_Proteus/134_ignition.jpg)
 
 
 
