@@ -29,55 +29,55 @@ The board pin mapping for OEM connector follows the tab given in the Pinning sec
 
 For the extension connectors the pinnig is the following \:
 
-| PnP extension pin | Proteus pin |  Type ID      | Function           |
+| PnP extension pin | Proteus pin |  Type ID      | Comment            |
 | -----------------:|------------:|--------------:|-------------------:|
-|                 A1|             |     Lowside 12|                    |
-|                 A2|             |     Lowside 13|                    |
-|                 A3|             |     Lowside 14|                    |
-|                 A4|             |     Lowside 15|                    |
-|                 A5|             |     Lowside 16|                    |
-|                 A6|             |     Ignition 2|                    |
-|                 A7|             |     Ignition 4|                    |
-|                 A8|             |     Ignition 5|                    |
-|                 A9|             |     Ignition 6|                    |
-|                A10|             |     Ignition 7|                    |
-|                A11|             |     Ignition 8|                    |
-|                A12|             |     Ignition 9|                    |
-|                A13|             |    Ignition 10|                    |
-|                A14|             |    Ignition 11|                    |
-|                A15|             |    Ignition 12|                    |
-|                A16|             |         Ground|                    |
-|                A17|             |         Ground|                    |
-|                A18|             |         Ground|                    |
-|                A19|             |         Ground|                    |
-|                A20|             |    High Side 2|                    |
-|                A21|             |    High Side 4|                    |
-|                A22|             |12V Protected 2|                    |
-|                A23|             |         Ground|                    |
+|                 1A|          B21|     Lowside 12|                    |
+|                 1B|          B10|     Lowside 13|                    |
+|                 1C|          B11|     Lowside 14|                    |
+|                 1D|          B12|     Lowside 15|                    |
+|                 1E|          B23|     Lowside 16|                    |
+|                 1F|             |     Ignition 2|                    |
+|                 1G|             |     Ignition 4|                    |
+|                 1H|             |     Ignition 5|                    |
+|                 1I|             |     Ignition 6|                    |
+|                 1J|             |     Ignition 7|                    |
+|                 1K|             |     Ignition 8|                    |
+|                 1L|             |     Ignition 9|                    |
+|                 1M|             |    Ignition 10|                    |
+|                 1N|             |    Ignition 11|                    |
+|                 1O|             |    Ignition 12|                    |
+|                 1P|             |         Ground|                    |
+|                 1Q|             |         Ground|                    |
+|                 1R|             |         Ground|                    |
+|                 1S|             |         Ground|                    |
+|                 1T|             |    High Side 2|                    |
+|                 1U|             |    High Side 4|                    |
+|                 1V|             |12V Protected 2|                    |
+|                 1W|             |         Ground|                    |
 |                   |             |               |                    |
-|                 B1|             |           CAN+|                    |
-|                 B2|             |           CAN-|                    |
-|                 B3|             |           VR1+|                    |
-|                 B4|             |           VR1-|                    |
-|                 B5|             |           VR2+|                    |
-|                 B6|             |           VR2-|                    |
-|                 B7|             |  Analog Temp 3|                    |
-|                 B8|             |  Analog Temp 4|                    |
-|                 B9|             |  Analog Volt 1|                    |
-|                B10|             |  Analog Volt 2|                    |
-|                B11|             |  Analog Volt 7|                    |
-|                B12|             |  Analog Volt 8|                    |
-|                B13|             |  Analog Volt 9|                    |
-|                B14|             | Analog Volt 10|                    |
-|                B15|             | Analog Volt 11|                    |
-|                B16|             | Analog Volt 12|                    |
-|                B17|             |    5V Sensor 1|                    |
-|                B18|             |    5V Sensor 2|                    |
-|                B19|             |         Ground|                    |
-|                B20|             |          ETB1+|                    |
-|                B21|             |          ETB1-|                    |
-|                B22|             |          ETB2+|                    |
-|                B23|             |          ETB2-|                    |
+|                 2A|             |           CAN+|                    |
+|                 2B|             |           CAN-|                    |
+|                 2C|             |           VR1+|                    |
+|                 2D|             |           VR1-|                    |
+|                 2E|             |           VR2+|                    |
+|                 2F|             |           VR2-|                    |
+|                 2G|             |  Analog Temp 3|                    |
+|                 2H|             |  Analog Temp 4|                    |
+|                 2I|             |  Analog Volt 1|  Used for MAP input|
+|                 2J|             |  Analog Volt 2| Used for WBO2 input|
+|                 2K|             |  Analog Volt 7|                    |
+|                 2L|             |  Analog Volt 8|                    |
+|                 2M|             |  Analog Volt 9|                    |
+|                 2N|             | Analog Volt 10|                    |
+|                 2O|             | Analog Volt 11|                    |
+|                 2P|             | Analog Volt 12|                    |
+|                 2Q|             |    5V Sensor 1| Used for MAP sensor|
+|                 2R|             |    5V Sensor 2|                    |
+|                 2S|             |         Ground| USED for WBO sensor|
+|                 2T|             |          ETB1+|                    |
+|                 2U|             |          ETB1-|                    |
+|                 2V|             |          ETB2+|                    |
+|                 2W|             |          ETB2-|                    |
 
 
 
