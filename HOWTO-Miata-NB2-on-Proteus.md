@@ -31,53 +31,53 @@ For the extension connectors the pinnig is the following \:
 
 | PnP extension pin | Proteus pin |  Type ID      | Function           |
 | -----------------:|------------:|--------------:|-------------------:|
-|                 A1|             |               |                    |
-|                 A2|             |               |                    |
-|                 A3|             |               |                    |
-|                 A4|             |               |                    |
-|                 A5|             |               |                    |
-|                 A6|             |               |                    |
-|                 A7|             |               |                    |
-|                 A8|             |               |                    |
-|                 A9|             |               |                    |
-|                A10|             |               |                    |
-|                A11|             |               |                    |
-|                A12|             |               |                    |
-|                A13|             |               |                    |
-|                A14|             |               |                    |
-|                A15|             |               |                    |
-|                A16|             |               |                    |
-|                A17|             |               |                    |
-|                A18|             |               |                    |
-|                A19|             |               |                    |
-|                A20|             |               |                    |
-|                A21|             |               |                    |
-|                A22|             |               |                    |
-|                A23|             |               |                    |
+|                 A1|             |     Lowside 12|                    |
+|                 A2|             |     Lowside 13|                    |
+|                 A3|             |     Lowside 14|                    |
+|                 A4|             |     Lowside 15|                    |
+|                 A5|             |     Lowside 16|                    |
+|                 A6|             |     Ignition 2|                    |
+|                 A7|             |     Ignition 4|                    |
+|                 A8|             |     Ignition 5|                    |
+|                 A9|             |     Ignition 6|                    |
+|                A10|             |     Ignition 7|                    |
+|                A11|             |     Ignition 8|                    |
+|                A12|             |     Ignition 9|                    |
+|                A13|             |    Ignition 10|                    |
+|                A14|             |    Ignition 11|                    |
+|                A15|             |    Ignition 12|                    |
+|                A16|             |         Ground|                    |
+|                A17|             |         Ground|                    |
+|                A18|             |         Ground|                    |
+|                A19|             |         Ground|                    |
+|                A20|             |    High Side 2|                    |
+|                A21|             |    High Side 4|                    |
+|                A22|             |12V Protected 2|                    |
+|                A23|             |         Ground|                    |
 |                   |             |               |                    |
-|                 B1|             |               |                    |
-|                 B2|             |               |                    |
-|                 B3|             |               |                    |
-|                 B4|             |               |                    |
-|                 B5|             |               |                    |
-|                 B6|             |               |                    |
-|                 B7|             |               |                    |
-|                 B8|             |               |                    |
-|                 B9|             |               |                    |
-|                B10|             |               |                    |
-|                B11|             |               |                    |
-|                B12|             |               |                    |
-|                B13|             |               |                    |
-|                B14|             |               |                    |
-|                B15|             |               |                    |
-|                B16|             |               |                    |
-|                B17|             |               |                    |
-|                B18|             |               |                    |
-|                B19|             |               |                    |
-|                B20|             |               |                    |
-|                B21|             |               |                    |
-|                B22|             |               |                    |
-|                B23|             |               |                    |
+|                 B1|             |           CAN+|                    |
+|                 B2|             |           CAN-|                    |
+|                 B3|             |           VR1+|                    |
+|                 B4|             |           VR1-|                    |
+|                 B5|             |           VR2+|                    |
+|                 B6|             |           VR2-|                    |
+|                 B7|             |  Analog Temp 3|                    |
+|                 B8|             |  Analog Temp 4|                    |
+|                 B9|             |  Analog Volt 1|                    |
+|                B10|             |  Analog Volt 2|                    |
+|                B11|             |  Analog Volt 7|                    |
+|                B12|             |  Analog Volt 8|                    |
+|                B13|             |  Analog Volt 9|                    |
+|                B14|             | Analog Volt 10|                    |
+|                B15|             | Analog Volt 11|                    |
+|                B16|             | Analog Volt 12|                    |
+|                B17|             |    5V Sensor 1|                    |
+|                B18|             |    5V Sensor 2|                    |
+|                B19|             |         Ground|                    |
+|                B20|             |          ETB1+|                    |
+|                B21|             |          ETB1-|                    |
+|                B22|             |          ETB2+|                    |
+|                B23|             |          ETB2-|                    |
 
 
 
