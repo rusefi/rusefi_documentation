@@ -26,7 +26,7 @@ Z	white	input speed sensor		white
 |     |               |       |                                      |              |               |
 
 
-## Black 23 Pin 776228-1
+## Black 23 Pin 776228-1on Black Proteus 0.2
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | TCU connector |
 | ---:|:------------- | ----- |:------------------------------------ |------------- | ------------- |
 | 1   | DIGITAL 2     | din   | "D" selector                         | orange       | C             |
