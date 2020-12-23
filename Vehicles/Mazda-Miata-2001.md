@@ -52,6 +52,11 @@ A42DE
 | AR  | Blue/Red     | \+12 all times           |                                  | red      |
 | AS  | Black/Yellow | \+12 running             |                                  | red      |
 
+
+R(AE,AF)==600 ohm
+
+R(W,Z)==400 ohm
+
 ![Wiring Diagram](Images/Mazda_miata_2001_at.png)
 
 ## Gear diagram
