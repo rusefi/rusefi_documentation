@@ -1,3 +1,6 @@
+[Proteus Manual](Proteus-Manual)
+
+
 Q: where can I buy a Proteus?
 
 A: https://www.ebay.com/itm/333811680319
@@ -11,9 +14,6 @@ While the most complicated main chip is soldered you would still solder a few do
 Forum thread at: https://rusefi.com/forum/viewtopic.php?f=4&t=1646
 
 Source & production files at: https://github.com/mck1117/proteus/
-
-
-[Proteus Manual](Proteus-Manual)
 
 [Fabrication](Hardware-Proteus-Fabrication)
 
