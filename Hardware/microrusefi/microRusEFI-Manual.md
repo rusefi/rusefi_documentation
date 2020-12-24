@@ -2,7 +2,7 @@
 
 [rusEFI Hardware](Hardware-microRusEfi)
 
-[rusEFI wiring](Hardware-microRusEfi_wiring)
+[rusEFI wiring](Hardware-microRusEfi-wiring)
 
 [HOWTO program rusEFI using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
