@@ -1,8 +1,8 @@
 # microRusEfi User Documentation
 
-[rusEfi Hardware](Hardware-microRusEfi)
+[rusEFI Hardware](Hardware-microRusEfi)
 
-[rusEfi wiring](Hardware-microRusEfi_wiring)
+[rusEFI wiring](Hardware-microRusEfi_wiring)
 
 [HOWTO program rusEfi using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
