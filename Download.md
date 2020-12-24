@@ -4,7 +4,7 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 ### Common Boards
 
-[microRusEfi 0.4 and newer (STM32F4)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
+[microRusEFI 0.4 and newer (STM32F4)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
 
 [Frankenso stm32f407 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle.zip)
 
