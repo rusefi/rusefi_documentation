@@ -1,4 +1,4 @@
-[Download release firmware](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip)
 
 [Download nightly firmware](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
 
