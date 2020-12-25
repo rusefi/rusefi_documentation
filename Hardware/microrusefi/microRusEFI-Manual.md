@@ -1,5 +1,9 @@
 # microRusEFI User Documentation
 
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
+
+[Download nightly firmware](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
+
 [rusEFI Hardware](Hardware-microRusEfi)
 
 [rusEFI wiring](Hardware-microRusEfi-wiring)
