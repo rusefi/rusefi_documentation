@@ -85,6 +85,9 @@ VR mode back
 
 # Board Photos
 
+![F](Hardware/microrusefi/Hardware_microRusEfi_0.5.0_module_assembled_front.jpg)
+
+
 Kit front:
 
 ![Front](Hardware/microrusefi/Hardware_microRusEfi_0.4.7_pre_assembled_front.jpg)
