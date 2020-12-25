@@ -1,3 +1,7 @@
+[Download release firmware](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
+
+[Download nightly firmware](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
+
 ## Wiring & Pinout
 
 [Pinout for version 0.3, 0.4 (green)](Hardware-Proteus-Wiring-v03)
