@@ -8,7 +8,7 @@ communicate via USB if you solder just USB connector or feed USB via 48 pin conn
 [VIDEO testing with test fixture](https://www.youtube.com/watch?v=pAaNUaCQaz0)
 
 
-## HOWTO microRusEfi Kit
+## HOWTO microRusEFI Kit
 
 
 [mircoRusEfi kit](https://www.ebay.com/itm/333517397424) comes 75% assembled - while many components are already mounted, about two dozens
@@ -18,6 +18,8 @@ If in doubt of your SMD skills please consider fully assembled version.
 
 
 For component placement please use interactive BOM
+
+[0.5.3](https://rusefi.com/docs/ibom/micro_rusEFI_R0.5.3.html)
 
 [0.5.2](https://rusefi.com/docs/ibom/micro_rusEFI_R0.5.2.html)
 
