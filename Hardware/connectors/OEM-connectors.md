@@ -288,6 +288,10 @@ Nissan
 
 ## 80 pin
 
+LS1 LS6
+
+## 80 pin
+
 52+28
 
 http://www.te.com/catalog/pn/en/8-1393476-0
