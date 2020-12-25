@@ -1,1 +1,1 @@
-[![Logo](Images/logo_new.png)](https://rusefi.com)
+<a href="https://rusefi.com/"><img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Images/logo_new.png" alt="rusEFI" width="600"></a>
