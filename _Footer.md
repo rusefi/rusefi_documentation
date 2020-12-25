@@ -1,2 +1,1 @@
-![Logo](Images/logo_new.png)
-[rusefi.com](https://rusefi.com)
+[![Logo](Images/logo_new.png)](https://rusefi.com)
