@@ -34,14 +34,24 @@ https://docs.google.com/spreadsheets/d/1OiEaak7TElKwF-fXWvl9Dk-fD84a0NENe6lOwhXi
 
 # See also
 
+BMW 3 Series (E30) 1982–1994
+
+BMW 5 Series (E34) 1987–1996
+
+BMW 3 Series (E36) 1990–2000
+
+BMW 7 Series (E38) 1994–2001
+
+[BMW-e38-1996-750](BMW-e38-1996-750)
 
 [BMW-e38-750](BMW-e38-750)
 
 [HOWTO-M73-v12-on-Proteus](HOWTO-M73-v12-on-Proteus)
 
-[BMW-e46](BMW-e46)
+[3 Series E46](BMW-e46) 1997–2006
 
-[BMW-e65](BMW-e65)
+[7 Series E65](BMW-e65) 2001–2008
+
 
 
 # TEVES MK60 Info
