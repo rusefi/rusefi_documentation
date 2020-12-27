@@ -36,9 +36,9 @@ https://docs.google.com/spreadsheets/d/1OiEaak7TElKwF-fXWvl9Dk-fD84a0NENe6lOwhXi
 
 BMW 3 Series (E30) 1982–1994
 
-BMW 5 Series (E34) 1987–1996
+[BMW 5 Series E34](BMW-e34) 1987–1996
 
-BMW 3 Series (E36) 1990–2000
+[BMW 3 Series E36](BMW-e36) 1990–2000
 
 BMW 7 Series (E38) 1994–2001
 
