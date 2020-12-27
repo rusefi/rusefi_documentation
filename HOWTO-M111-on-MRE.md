@@ -19,25 +19,25 @@ MRE pin: Where to connect the pin (wiring example).
 Comments: extra info that i learned during wiring in the ECU.
 
 
-Connector|Pin Number|Name|Function|ME2.1 Description|MRE pin|Comments
----------|---|-------------|---------|--------|------------------------------|---------|------------
- A |  1  | NC              | NC | NC | NC  | 
- A |  2  | 12V ACC         |  Supply  | Supply | MRE pin 1,5  | 12v Supply when ignition is on. 
- A |  3  | KL31(GND)       |  Ground  | Ignition earth |MRE pin 2,6 | Supply earth
- A |  4  | NC              | NC  | NC | NC |  
- A |  5  | O2 LSS          | O2 Heater | Lambda sensor heater | NC | Only if you plan to use factory NB O2 sensor
- A |  6  | FAN Control     | PWM to Fan control module | Relay for 1st Fan Control | MRE pin 33 (GP3)  | On some models this is PWM output and SAM ECU controls the FAN based on this. Note a 10hz/30% Duty is neaded to make the ecu happy, higher duty equals higher fan speed. 30% is off. 
- A |  7  | KL31(GND)       | Ignition Gnd   | Ignition earth| MRE pin 2,6                         | 
- A |  8  | KL31(GND)       | Sensors Gnd    | Electronic earth (for sensors) | MRE pin 2,6       |  
- B |  1  | NC              | NC | NC | |
- B |  2  | NC              | NC | NC | | 
- B |  3  | Diag5           | NC | Programming  | NC | 
- B |  4  | 12V KL30        | Permanent 12v supply     | Battery |  |  
- C |  1  | NC              |  | NC | |
- C |  2  | NC              |  | NC | |
- C |  3  | NC              |  | NC | |
- C |  4  | NC              |  | NC | |
- C |  5  | NC              |  | NC | |
+| Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
+| --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
+| A |  1  | NC              | NC | NC | NC  |
+|  A |  2  | 12V ACC         |  Supply  | Supply | MRE pin 1,5  | 12v Supply when ignition is on. 
+| A |  3  | KL31(GND)       |  Ground  | Ignition earth |MRE pin 2,6 | Supply earth
+| A |  4  | NC              | NC  | NC | NC |  
+| A |  5  | O2 LSS          | O2 Heater | Lambda sensor heater | NC | Only if you plan to use factory NB O2 sensor
+| A |  6  | FAN Control     | PWM to Fan control module | Relay for 1st Fan Control | MRE pin 33 (GP3)  | On some models this is PWM output and SAM ECU controls the FAN based on this. Note a 10hz/30% Duty is neaded to make the ecu happy, higher duty equals higher fan speed. 30% is off. 
+| A |  7  | KL31(GND)       | Ignition Gnd   | Ignition earth| MRE pin 2,6                         | 
+| A |  8  | KL31(GND)       | Sensors Gnd    | Electronic earth (for sensors) | MRE pin 2,6       |  
+| B |  1  | NC              | NC | NC | |
+| B |  2  | NC              | NC | NC | | 
+| B |  3  | Diag5           | NC | Programming  | NC | 
+| B |  4  | 12V KL30        | Permanent 12v supply     | Battery |  |  
+| C |  1  | NC              |  | NC | |
+| C |  2  | NC              |  | NC | |
+| C |  3  | NC              |  | NC | |
+| C |  4  | NC              |  | NC | |
+| C |  5  | NC              |  | NC | |
  C |  6  | NC              |  | NC | |
  C |  7  | NC              |  | NC | |
  C |  8  | NC              |  | NC | |
@@ -46,21 +46,21 @@ Connector|Pin Number|Name|Function|ME2.1 Description|MRE pin|Comments
  C |  11 | NC              |  | NC | |
  C |  12 | NC              |  | NC | | 
  C |  13 | NC              |  | NC | |
- C |  14 | NC              |  | NC | |
- C |  15 | NC              |  | NC | |
- C |  16 | NC              |  | NC | |
- C |  17 | NC              |  | NC | |
- C |  18 | NC              |  | NC | |
- C |  19 | NC              |  | NC | |
- C |  20 | NC              |  | NC | |
- C |  21 | EVAP Solenoid   | Low side switch   | Fuel vapour recovery solenoid valve| MRE pin 3 (LS2)                         | Control this pin via FSIO. 
- C |  22 | Supply PPS1     | 5V supply for PPS | Supply for potentiometer - 1 accelerator pedal|MRE pin 44 (5V)|
- C |  23 | GND PPS1        | Ground for PPS    | Earth for potentiometer - 1 accelerator pedal |MRE pin 21 (GND)|
- C |  24 | Signal PPS1     | Pedal Position1   | Signal for potentiometer - 1 accelerator pedal|MRE pin 31 (AV3)|
- C |  25 | Signal PPS2     | Pedal Position2   | Signal for potentiometer - 2 accelerator pedal|MRE pin 30 (AV7)|
- C |  26 | GND PPS2        | Ground for PPS    | Earth for potentiometer - 2 accelerator pedal |MRE pin 21 (GND)|
- C |  27 | Supply PPS2     | 5V supply for PPS | Supply for potentiometer - 2 accelerator pedal|MRE pin 44 (5V)|
- C |  28 | NC              |  | Sport throttle response on warning light | |  
+| C |  14 | NC              |  | NC | |
+| C |  15 | NC              |  | NC | |
+| C |  16 | NC              |  | NC | |
+| C |  17 | NC              |  | NC | |
+| C |  18 | NC              |  | NC | |
+| C |  19 | NC              |  | NC | |
+| C |  20 | NC              |  | NC | |
+| C |  21 | EVAP Solenoid   | Low side switch   | Fuel vapour recovery solenoid valve| MRE pin 3 (LS2)                         | Control this pin via FSIO. 
+| C |  22 | Supply PPS1     | 5V supply for PPS | Supply for potentiometer - 1 accelerator pedal|MRE pin 44 (5V)|
+| C |  23 | GND PPS1        | Ground for PPS    | Earth for potentiometer - 1 accelerator pedal |MRE pin 21 (GND)|
+| C |  24 | Signal PPS1     | Pedal Position1   | Signal for potentiometer - 1 accelerator pedal|MRE pin 31 (AV3)|
+| C |  25 | Signal PPS2     | Pedal Position2   | Signal for potentiometer - 2 accelerator pedal|MRE pin 30 (AV7)|
+| C |  26 | GND PPS2        | Ground for PPS    | Earth for potentiometer - 2 accelerator pedal |MRE pin 21 (GND)|
+| C |  27 | Supply PPS2     | 5V supply for PPS | Supply for potentiometer - 2 accelerator pedal|MRE pin 44 (5V)|
+| C |  28 | NC              |  | Sport throttle response on warning light | |  
  C |  29 | Fuel Pump       | Low Side switch for FP relay | Fuel pump relay | MRE pin 35 (GP1)|
  C |  30 | NC              | | NC | | 
  C |  31 | O2 Signal GND   | NB Heated O2 Signal GND | Lambda sensor earth | |
