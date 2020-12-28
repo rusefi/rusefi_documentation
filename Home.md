@@ -25,7 +25,7 @@ Closed Loop Fueling|✓
 Electronic Throttle Body|✓
 Boost Control|✓
 [Launch Control](Launch-Control)|✓
-[Acceleration enrichment - wall wetting/fuel trip/tau factor](wall_wetting)|✓
+[Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
 [Knock Sensing](knock-sensing)|✗
 Flat Shifting|✗
 Automatic Transmission Control|✗
