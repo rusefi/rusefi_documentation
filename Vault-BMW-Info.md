@@ -48,7 +48,11 @@ BMW 7 Series (E38) 1994–2001
 
 [HOWTO-M73-v12-on-Proteus](HOWTO-M73-v12-on-Proteus)
 
+BMW [5 Series E39](BMW-e39) 	1995–May 2004
+
 [3 Series E46](BMW-e46) 1997–2006
+
+[BMW X5 E53](BMW-e53) 1999-2006
 
 [7 Series E65](BMW-e65) 2001–2008
 
