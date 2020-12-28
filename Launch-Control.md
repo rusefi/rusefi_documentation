@@ -1,7 +1,4 @@
-At the moment we do not have code for launch control.
-
-
-While we have some pieces and proposals, nothing was properly tested or documented. Most of rusEFI contributors are
+While we have code and unit test coverage, no one has documented actual usage on real vehicle. Most of rusEFI contributors are
 into road racing so launch is a bit off the radar :(
 
 See also https://rusefi.com/forum/viewtopic.php?t=871
