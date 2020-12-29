@@ -1,5 +1,8 @@
 https://rusefi.com/forum/viewtopic.php?t=1692
 
+
+![x](oem_docs/Mercedes/mercedes_170.png)
+
 # 99 SLK230
 
 ![x](oem_docs/Mercedes/99_SLK230_1.png)
@@ -42,10 +45,16 @@ Comments: extra info that i learned during wiring in the ECU.
 | A |  6  | FAN Control     | PWM to Fan control module | Relay for 1st Fan Control | MRE pin 33 (GP3)  | On some models this is PWM output and SAM ECU controls the FAN based on this. Note a 10hz/30% Duty is neaded to make the ecu happy, higher duty equals higher fan speed. 30% is off. 
 | A |  7  | KL31(GND)       | Ignition Gnd   | Ignition earth| MRE pin 2,6                         | 
 | A |  8  | KL31(GND)       | Sensors Gnd    | Electronic earth (for sensors) | MRE pin 2,6       |  
+
+| Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
+| --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
 | B |  1  | NC              | NC | NC | |
 | B |  2  | NC              | NC | NC | | 
 | B |  3  | Diag5           | NC | Programming  | NC | 
 | B |  4  | 12V KL30        | Permanent 12v supply     | Battery |  |  
+
+| Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
+| --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
 | C |  1  | NC              |  | NC | |
 | C |  2  | NC              |  | NC | |
 | C |  3  | NC              |  | NC | |
@@ -86,7 +95,11 @@ Comments: extra info that i learned during wiring in the ECU.
  C |  38 | DIAG            | Tacho out   | RPM Signal |  | I send information over CAN. 
  C |  39 | DIAG            | K line      | Diagnostic connection (line K) | | 
  C |  40 | SAM?            | | NC | | 
- D |  1  | NC              | function    | MRE pin                          | Comments 
+ 
+ 
+ | Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
+ | --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
+D |  1  | NC              | function    | MRE pin                          | Comments 
  D |  2  | NC              | | Relay for cooling fan 2 nd speed | | 
  D |  3  | Starter LSS     | Starter Relay| NC | MRE pin - | I use just and external switch. 
  D |  4  | NC              | | NC | | 
@@ -110,8 +123,12 @@ Comments: extra info that i learned during wiring in the ECU.
  D |  22 | NC              | | Cruie Control recall | | 
  D |  23 | NC              | | Break Sw             | |
  D |  24 | NC              | | Cruise Control deactivation | |
- E |  1  | NC              | | Operation of injector for cyl. 3 | | 
- E |  2  | NC              | | Operation of injector for cyl. 6 | | 
+
+
+| Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
+| --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
+ E |  1  | NC              | | Injector cyl. 3 | | 
+ E |  2  | NC              | | Injector cyl. 6 | | 
  E |  3  | NC              | | NC | | 
  E |  4  | VVT LSS         | VVT coil LSS | Air conditioning compressore relay feed   | MRE pin 7 (LS1)| On My variant this is VVT, on other OEMs it is compressore clutch. 
  E |  5  | NC              | | NC | | 
@@ -122,8 +139,8 @@ Comments: extra info that i learned during wiring in the ECU.
  E |  10 | NC              | | Cruise control on warning light| | 
  E |  11 | NC              | | NC | | 
  E |  12 | NC              | | NC | | 
- E |  13 | Injector 4      | Injector 4  | Operation of injector for cyl. 2 |MRE pin 42 (INJ4) | 
- E |  14 | Injector 2      | Injector 2  | Operation of injector for cyl. 5 |MRE pin 38 (INJ2) | 
+ E |  13 | Injector 4      | Injector 4  | Injector cyl. 2 |MRE pin 42 (INJ4) | 
+ E |  14 | Injector 2      | Injector 2  | Injector cyl. 5 |MRE pin 38 (INJ2) | 
  E |  15 | NC              | | Air conditioning pressure switch 1st stage | | 
  E |  16 | NC              | | NC | | 
  E |  17 | Oil Switch      | Oil Level Switch | Air conditioning pressure switch 2nd stage | MRE pin | In case this is used, it must be connected to a temperature input. This way we have a pull up inside MRE and this switch would drive the line low. 
@@ -134,8 +151,8 @@ Comments: extra info that i learned during wiring in the ECU.
  E |  22 | NC              | | NC | |
  E |  23 | NC              | | Sport throttle response switch | | 
  E |  24 | NC              | | Sport throttle response switch earth | | 
- E |  25 | Injector 1      | Injector 1  | Operation of injector for cyl. 1 | MRE pin 37 (INJ1)| 
- E |  26 | Injector 3      | Injector 3  | Operation of injector for cyl. 4 | MRE pin 41 (INJ3)| 
+ E |  25 | Injector 1      | Injector 1  | Injector cyl. 1 | MRE pin 37 (INJ1)| 
+ E |  26 | Injector 3      | Injector 3  | Injector cyl. 4 | MRE pin 41 (INJ3)| 
  E |  27 | NC              | | NC | | 
  E |  28 | CLT GND         | Signal GND  | Coolant temperature sensor earth | MRE pin 21 | 
  E |  29 | CLT Signal      | CLT Signal  | Coolant temperature sensor signal| MRE pin 18 (AT1)| 
@@ -158,26 +175,29 @@ Comments: extra info that i learned during wiring in the ECU.
  E |  46 | MAF Pin 4       | 5V Supply   | Flow meter - reference voltage 5V | MRE pin 39|  
  E |  47 | MAF Pin 5       | MAF Signal  | Output voltage (signal) - flow meter |MRE pin 24 (AT3) | 
  E |  48 | MAF Pin 3       | Signal GND  | Earth - flow meter | MRE pin 21 | 
+
+| Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
+| --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
  F |  1  | ETB-            | | Butterfly casing motor integrated with D.V.L. (-) |MRE pin 8 (ETB-)| 
  F |  2  | ETB+            | | Butterfly casing motor integrated with D.V.L. (+) | MRE pin 4 (ETB+)| 
  F |  3  | NC              | | NC | |  
  F |  4  | NC              | | NC | | 
- F |  5  | NC              | |Operation of ignition coil for cyl. 6 | |  
- F |  6  | NC              | |Operation of ignition coil for cyl. 2 | | 
+ F |  5  | NC              | |Ignition coil for cyl. 6 | |  
+ F |  6  | NC              | |Ignition coil for cyl. 2 | | 
  F |  7  | NC              | | NC | | 
  F |  8  | NC              | | Earth | | 
  F |  9  | NC              | | NC | | 
  F |  10 | NC              | | NC | | 
  F |  11 | NC              | | NC | | 
  F |  12 | NC              | | NC | | 
- F |  13 | IGN1            | | Operation of ignition coil for cyl. 4|| OEM coils cannot be used without external igniter!!
+ F |  13 | IGN1            | | Ignition coil for cyl. 4|| OEM coils cannot be used without external igniter!!
  F |  14 | NC              | | NC | |
  F |  15 | KL31 (GND)      | | NC | |
  F |  16 | NC              | | NC | |
- F |  17 | NC              | | Operation of ignition coil for cyl. 3 | | 
+ F |  17 | NC              | | Ignition coil for cyl. 3 | | 
  F |  18 | NC              | | NC | |
- F |  19 | NC              | |Operation of ignition coil for cyl. 5| |
- F |  20 | IGN2            | |Operation of ignition coil for cyl. 1| |  
+ F |  19 | NC              | |Ignition coil for cyl. 5| |
+ F |  20 | IGN2            | |Ignition coil for cyl. 1| |  
  F |  21 | NC              | |Operation of injection warning light| |
 
 
