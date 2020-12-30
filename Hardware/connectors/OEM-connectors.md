@@ -412,6 +412,8 @@ Honda D17 Honda K
 ## 128 pin
 Mercedes M111 https://www.ebay.com/itm/333791544427
 
+[Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)
+
 A=8
 B=4
 C=40
@@ -435,6 +437,8 @@ https://www.te.com/usa-en/product-7-967288-1.html
 Also known as 965497-1
 
 9+24+52+40+9
+
+[Vault-BMW-Info](Vault-BMW-Info)
 
 bmw e38 e46 e65 e66
 
