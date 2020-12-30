@@ -101,7 +101,7 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 The NB2 OEM connectors are notoriously hard to depin. The link below is for a very useful guide. 
 https://www.iwireservices.com/post/2018/08/02/how-to-pin-and-depin-a-subaru-connector
 
-![x](installations/NB2_Miata_ECU_Connectors_Add-Ons.png)
+![x](installations/MazdaMiataNB2_Frankenso/NB2_Miata_ECU_Connectors_Add-Ons.png)
 
 ---
 
