@@ -2,6 +2,15 @@
 
 https://en.wikipedia.org/wiki/BMW_5_Series_(E39)
 
+# 1999 528
+
+![x](oem_docs/Bmw/e39/1999_bmw_528_1.png)
+
+![x](oem_docs/Bmw/e39/1999_bmw_528_2.png)
+
+![x](oem_docs/Bmw/e39/1999_bmw_528_3.png)
+
+
 # 2001 540
 
 https://en.wikipedia.org/wiki/BMW_M62
