@@ -11,6 +11,26 @@ Production 2001 – 2008
 ![p](oem_docs/Bmw/7_Series_e65/2006_bmw_750_6.png)
 
 
+| Connector/ Pin Number | OEM Color | Name / Function | 
+| --------------------- |------- |---------------- |
+| 3 | GRY     | TCU        |
+| 4 | BRN     | GND Ground |
+| 6 | BRN     | GND Ground |
+| 7 | RED     | +12v Hot all times | 
+| 8 | ORG     | +12v Hot all times | 
+|   |         |           |
+
+
+| Connector/ Pin Number | OEM Color | Name / Function | 
+| --------------------- |------- |---------------- |
+| 2 | YEL     |           |
+| 3 | YEL/RED |           |
+| 4 | BLU     |           |
+|   |         |           |
+|   |         |           |
+|   |         |           |
+
+
 # 760 12 cylinders
 
 x2 DME - engine control unit using [134 pin connector](OEM-connectors#134)
