@@ -1,7 +1,19 @@
 
-# ECU
+# 325
 
-![x](oem_docs/Bmw/2000_3_Series_e46/e46_engine_1.png)
+![x](oem_docs/Bmw/3_Series_e46/2002_bmw_325_1.png)
+
+![x](oem_docs/Bmw/3_Series_e46/2002_bmw_325_2.png)
+
+![x](oem_docs/Bmw/3_Series_e46/2002_bmw_325_3.png)
+
+# M3
+
+![x](oem_docs/Bmw/3_Series_e46/2002_bmw_m3_1.png)
+
+![x](oem_docs/Bmw/3_Series_e46/2002_bmw_m3_2.png)
+
+![x](oem_docs/Bmw/3_Series_e46/2002_bmw_m3_3.png)
 
 
 | Connector/ Pin Number | OEM Color | Name / Function | 
