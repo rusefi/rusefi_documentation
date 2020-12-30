@@ -90,35 +90,35 @@ End of Black Proteus 0.2 23 pin table
 End of Green Proteus 0.3+ 23 pin table
 
 ## White 35 Pin 776231-2
-|Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector | . |
-| ---:|:---------- | ----- |:------------------------------------ | :--------- | --- | --- |
-| 1   | **GND**    | sgnd  | Sensor GND                           | Black | Black #3 21/52 BRN| 
-| 2   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #1 sensor GND |
-| 3   | **GND**    | sgnd  | Sensor GND                           | Black | - | ETB #2 sensor GND |
-| 4   | **GND**    | sgnd  | Sensor GND                           | Black | Grey #3 47/52 BRN |
-| 5   | **GND**    | sgnd  | Sensor GND                           | Black | - | Throttle Pedal GND #1 |
-| 6   | **GND**    | sgnd  | Sensor GND                           | Blue  | - | Throttle Pedal GND #2 |
-| 7   | **GND**    | sgnd  | Sensor GND                           | Black | - | Accessory / MAP gnd |
-| 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #1 sensor feed |
-| 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - | Throttle Pedal feed #1 |
+|Pin Number|Name   | Type ID | Default function                   |rusEFI color|new color| OEM connector | . | 
+| ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |  --- | --- |
+| 1   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | Black #3 21/52 BRN| 
+| 2   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | - | ETB #1 sensor GND |
+| 3   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | - | ETB #2 sensor GND |
+| 4   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | Grey #3 47/52 BRN |
+| 5   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | - | Throttle Pedal Position GND #1 |
+| 6   | **GND**    | sgnd  | Sensor GND                           | Blue       | Brown   | - | Throttle Pedal Position GND #2 |
+| 7   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | - | Accessory / MAP gnd |
+| 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | Pink    | - | ETB #1 sensor +5v feed |
+| 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | Pink    | - | Throttle Pedal Position +5v feed #1 |
 | 13  | AV1        | av    | Analog Voltage Input #1              | |
-| 14  | AV3        | av    | Analog Voltage Input #3              | Orange | - | TPS1 Secondary signal |
-| 15  | AV5        | av    | Analog Voltage Input #5              | Orange | - | TPS2 Secondary signal  |
-| 16  | AV7        | av    | Analog Voltage Input #7              | White | - | Pedal Sensor #2 signal |
+| 14  | AV3        | av    | Analog Voltage Input #3              | Orange     | - | TPS1 Secondary signal |
+| 15  | AV5        | av    | Analog Voltage Input #5              | Orange     | - | TPS2 Secondary signal  |
+| 16  | AV7        | av    | Analog Voltage Input #7              | White      | White   | - | Throttle Pedal Position #2 signal |
 | 17  | AV9        | av    | Analog Voltage Input #9              | |
 | 18  | AV11       | av    | Analog Voltage Input #11             | |
-| 21  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Orange | - | Throttle Pedal feed #2 |
-| 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - | Accessory / MAP feed | 
-| 24  | AV2        | av    | Analog Voltage Input #2              | Green | - | TPS1 Primary signal  |
-| 25  | AV4        | av    | Analog Voltage Input #4              | Green | - | TPS2 Primary signal  |
-| 26  | AV6        | av    | Analog Voltage Input #6              | Green | - | Pedal Sensor #1 signal|
-| 27  | AV8        | av    | Analog Voltage Input #8              | Blue | MAP/MAF accessory |
-| 28  | AV10       | av    | Analog Voltage Input #10             | Green | AFR/WBO accessory |
+| 21  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Orange     | Orange  | - | Throttle Pedal Position +5v #2 |
+| 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | - | Accessory / MAP feed | 
+| 24  | AV2        | av    | Analog Voltage Input #2              | Green      | - | TPS1 Primary signal  |
+| 25  | AV4        | av    | Analog Voltage Input #4              | Green      | - | TPS2 Primary signal  |
+| 26  | AV6        | av    | Analog Voltage Input #6              | Green      | Yellow  | - | Throttle Pedal Position #1 signal|
+| 27  | AV8        | av    | Analog Voltage Input #8              | Blue       | MAP/MAF accessory |
+| 28  | AV10       | av    | Analog Voltage Input #10             | Green      | AFR/WBO accessory |
 | 29  | AV12       | av    | Analog Voltage Input #12             | |
-| 30  | AT2        | at    | Intake air temperature IAT           | Orange | Grey #3 34/52  |
-| 31  | AT4        | at    | Coolant temperature CLT              | Green | Black #3 22/52 RED/BRN |
-| 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red | - | ETB #2 sensor feed |
-| 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red | - |                    |
+| 30  | AT2        | at    | Intake air temperature IAT           | Orange     | Grey #3 34/52  |
+| 31  | AT4        | at    | Coolant temperature CLT              | Green      | Black #3 22/52 RED/BRN |
+| 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | Pink    | - | ETB #2 sensor +5v feed |
+| 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | - |                    |
 
 
 Wire length:
