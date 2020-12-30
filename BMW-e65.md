@@ -1,6 +1,18 @@
 
 Production 2001 – 2008
 
+# 750 8 cylinders
+
+![p](oem_docs/Bmw/7_Series_e65/2006_bmw_750_1.png)
+![p](oem_docs/Bmw/7_Series_e65/2006_bmw_750_2.png)
+![p](oem_docs/Bmw/7_Series_e65/2006_bmw_750_3.png)
+![p](oem_docs/Bmw/7_Series_e65/2006_bmw_750_4.png)
+![p](oem_docs/Bmw/7_Series_e65/2006_bmw_750_5.png)
+![p](oem_docs/Bmw/7_Series_e65/2006_bmw_750_6.png)
+
+
+# 760 12 cylinders
+
 x2 DME - engine control unit using [134 pin connector](OEM-connectors#134)
 
 x2 HDEV fuel injection module 7506280 [121 pin connector](OEM-connectors#121)
