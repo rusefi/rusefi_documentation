@@ -1,5 +1,7 @@
 https://rusefi.com/forum/viewtopic.php?t=1692
 
+[Case info](https://rusefi.com/forum/viewtopic.php?p=39163#p39163)
+
 
 ![x](oem_docs/Mercedes/mercedes_170.png)
 
