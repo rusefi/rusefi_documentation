@@ -102,8 +102,8 @@ End of Green Proteus 0.3+ 23 pin table
 | 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | Pink    |  ETB #1 sensor +5v feed |
 | 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | Pink    |  Throttle Pedal Position +5v feed #1 |
 | 13  | AV1        | av    | Analog Voltage Input #1              | - |- |
-| 14  | AV3        | av    | Analog Voltage Input #3              | Orange     |  TPS1 Secondary signal |
-| 15  | AV5        | av    | Analog Voltage Input #5              | Orange     |  TPS2 Secondary signal  |
+| 14  | AV3        | av    | Analog Voltage Input #3              | Orange     |- |  TPS1 Secondary signal |
+| 15  | AV5        | av    | Analog Voltage Input #5              | Orange     |  - |TPS2 Secondary signal  |
 | 16  | AV7        | av    | Analog Voltage Input #7              | White      | White   |  Throttle Pedal Position #2 signal |
 | 17  | AV9        | av    | Analog Voltage Input #9              | - |- |
 | 18  | AV11       | av    | Analog Voltage Input #11             | - |- |
