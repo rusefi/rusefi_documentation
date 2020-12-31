@@ -90,8 +90,8 @@ End of Black Proteus 0.2 23 pin table
 End of Green Proteus 0.3+ 23 pin table
 
 ## White 35 Pin 776231-2
-|Pin Number|Name   | Type ID | Default function                   |rusEFI color|new color| OEM connector | - |
-| ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |  --- | - |
+|Pin Number|Name   | Type ID | Default function                   |rusEFI color|new color| OEM connector | 
+| ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |  --- | 
 | 1   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | Black #3 21/52 BRN| 
 | 2   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   |  ETB #1 sensor GND |
 | 3   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   |  ETB #2 sensor GND |
@@ -117,7 +117,7 @@ End of Green Proteus 0.3+ 23 pin table
 | 29  | AV12       | av    | Analog Voltage Input #12             | - |- |- |
 | 30  | AT2        | at    | Intake air temperature IAT           | Orange     |- | Grey #3 34/52  |
 | 31  | AT4        | at    | Coolant temperature CLT              | Green      |- | Black #3 22/52 RED/BRN |
-| 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | Pink    | | ETB #2 sensor +5v feed |
+| 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | Pink    |  ETB #2 sensor +5v feed |
 | 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | - |               |
 
 
