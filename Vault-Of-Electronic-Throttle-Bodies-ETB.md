@@ -1,5 +1,14 @@
 See https://github.com/rusefi/rusefi/wiki/HOWTO_electronic_throttle_body
 
+New colour scheme:
+white
+orange
+purple<>blue
+brown<>black
+Pink<>red
+yellow<>green
+gray
+
 # VAG pinout
 Bosch 0280750009 1.8T and hopefully many others 
 
