@@ -32,27 +32,27 @@ Destination legend:
 
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | new color| Destination |
 | ---:|:------------- | ----- |:------------------------------------ |--------- | --- |--- |
-|  3  |**Lowside #1** | ls    | Injector #1                          | Blue   | Black #3 41/52 BRN/WHT |
-|  4  |**Lowside #3** | ls    | Injector #3                          | Green  | Black #3 40/52 | 
-|  5  |**Lowside #5** | ls    | Injector #5                          | Red    | Black #3 28/52 | 
-|  6  |**Lowside #6** | ls    | Injector #6                          | Orange | Black #3 27/52 BRN/BLK | 
-|  7  |**Lowside #7** | ls    | Injector #7                          | Blue   | Grey #3 41/52 BRN/WHT | 
-|  8  |**Lowside #9** | ls    | Injector #9                          | Green  |  Grey  #3 40/52 | 
-|  9  |**Lowside #11**| ls    | Injector #11                         | Red    |Grey #3 28/52 | 
-| 10  |**Lowside #13**| ls    | low-side output: main relay          | Blue   | Black plug #2 23/24 BRN/BLK |
-| 11  |**Lowside #14**| ls    | low-side output: starter enable      | White | Black plug #4 40/40 YEL/BRN |
-| 12  |**Lowside #15**| ls    | low-side output: radiator fan relay  | green | accessory | 
-| 15  |**Lowside #2** | ls    | Injector #2                          | Black |  Black #3 15/52 | 
-| 16  |**Lowside #4** | ls    | Injector #4                          | White |  Black #3 2/52 | 
-| 17  | **GND**       | y     | Power GND                            | Black | Grey #1 4/9 |
-| 18  | **GND**       | y     | Power GND                            | Black | Black #1 4/9 |
-| 19  |**Lowside #8** | y     | Injector #8                          | Black | Grey  #3 15/52 | 
-| 20  |**Lowside #10**| y     | Injector #10                         | White| Grey  #3 2/52 | 
-| 21  |**Lowside #12**| y     | Injector #12                         | Orange | Grey #3 27/52 BRN/BLK | 
-| 23  |**Lowside #16**| y     | low-side output: fuel pump           | Orange | accessory |
-| 24  | **GND**       | y     | Power GND                            | Black | Grey plug #1 6/9 BRN |
-| 30  | Ignition 7    | y     | Ignition cylinder 7                  | White | - | External Igniter channel #2 |
-| 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | - | External Igniter channel #1 |
+|  3  |**Lowside #1** | ls    | Injector #1                          | Blue   |  |Black #3 41/52 BRN/WHT|
+|  4  |**Lowside #3** | ls    | Injector #3                          | Green  | | Black #3 40/52 |
+|  5  |**Lowside #5** | ls    | Injector #5                          | Red    |  |Black #3 28/52 |
+|  6  |**Lowside #6** | ls    | Injector #6                          | Orange |  |Black #3 27/52 BRN/BLK| 
+|  7  |**Lowside #7** | ls    | Injector #7                          | Blue   |  |Grey #3 41/52 BRN/WHT |
+|  8  |**Lowside #9** | ls    | Injector #9                          | Green  |   |Grey  #3 40/52 |
+|  9  |**Lowside #11**| ls    | Injector #11                         | Red    | |Grey #3 28/52 |
+| 10  |**Lowside #13**| ls    | low-side output: main relay          | Blue   | |Black plug #2 23/24 BRN/BLK |
+| 11  |**Lowside #14**| ls    | low-side output: starter enable      | White |  |Black plug #4 40/40 YEL/BRN|
+| 12  |**Lowside #15**| ls    | low-side output: radiator fan relay  | green |  |accessory |
+| 15  |**Lowside #2** | ls    | Injector #2                          | Black |   |Black #3 15/52 |
+| 16  |**Lowside #4** | ls    | Injector #4                          | White |   |Black #3 2/52 |
+| 17  | **GND**       | y     | Power GND                            | Black | |Grey #1 4/9 |
+| 18  | **GND**       | y     | Power GND                            | Black | |Black #1 4/9 |
+| 19  |**Lowside #8** | y     | Injector #8                          | Black |  |Grey  #3 15/52| 
+| 20  |**Lowside #10**| y     | Injector #10                         | White| |Grey  #3 2/52  |
+| 21  |**Lowside #12**| y     | Injector #12                         | Orange |  |Grey #3 27/52 BRN/BLK| 
+| 23  |**Lowside #16**| y     | low-side output: fuel pump           | Orange | |accessory |
+| 24  | **GND**       | y     | Power GND                            | Black |  |Grey plug #1 6/9 BRN|
+| 30  | Ignition 7    | y     | Ignition cylinder 7                  | White | - |  |External Igniter channel #2|
+| 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | - | |External Igniter channel #1 |
 
 ## Black 23 Pin 776228-1 on Black Proteus 0.2 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
@@ -74,51 +74,51 @@ End of Black Proteus 0.2 23 pin table
 ## Black 23 Pin 776228-1 on Green Proteus 0.3+
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | new color| OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- | --- |
-| 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red    | Black plug #3 20/52 |
-| 2   | DIGITAL 3  | din   | Start signal from ignition key       | Orange |  |
-| 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | Black #3 32/52 |
-| 6   | ETB1-      | y     | ETB 1 negative                       | White  |
-| 7   | ETB1+      | etb   | ETB 1 positive                       | Blue   |
-| 8   | ETB2-      | etb   | ETB 2 negative                       | White  |
-| 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue   | Black #3 46 /52 |
-| 15  | ETB2+      | etb   | ETB 2 positive                       | Blue   |
-| 16  | CAN-       | can   | CAN bus low                          | White  | accessory |
-| 17  | CAN+       | can   | CAN bus high                         | Red    |  accessory | 
-| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red    |  Black plug #4 26/40 GRN/BLK |
-| 19  | **GND**    | y     | Power GND                            | Black  | Black plug #1 6/9 BRN |
-| 23  | +12V mr    | 12v   |ETB/high-side power supply from main relay| Red| Black #1 8/9 RED/BLU |
+| 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red    | |Black plug #3 20/52 |
+| 2   | DIGITAL 3  | din   | Start signal from ignition key       | Orange |  ||
+| 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | |Black #3 32/52 |
+| 6   | ETB1-      | y     | ETB 1 negative                       | White  ||
+| 7   | ETB1+      | etb   | ETB 1 positive                       | Blue   ||
+| 8   | ETB2-      | etb   | ETB 2 negative                       | White  ||
+| 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue   |  |Black #3 46 /52|
+| 15  | ETB2+      | etb   | ETB 2 positive                       | Blue   ||
+| 16  | CAN-       | can   | CAN bus low                          | White  | |accessory |
+| 17  | CAN+       | can   | CAN bus high                         | Red    |  |accessory  |
+| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red    |  |Black plug #4 26/40 GRN/BLK |
+| 19  | **GND**    | y     | Power GND                            | Black  |  |Black plug #1 6/9 BRN|
+| 23  | +12V mr    | 12v   |ETB/high-side power supply from main relay| Red|  |Black #1 8/9 RED/BLU|
 End of Green Proteus 0.3+ 23 pin table
 
 ## White 35 Pin 776231-2
-|Pin Number|Name   | Type ID | Default function                   |rusEFI color|new color| OEM connector | . | 
+|Pin Number|Name   | Type ID | Default function                   |rusEFI color|new color| OEM connector | 
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |  --- | --- |
 | 1   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | Black #3 21/52 BRN| 
-| 2   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | - | ETB #1 sensor GND |
-| 3   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | - | ETB #2 sensor GND |
+| 2   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   |  ETB #1 sensor GND |
+| 3   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   |  ETB #2 sensor GND |
 | 4   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | Grey #3 47/52 BRN |
-| 5   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | - | Throttle Pedal Position GND #1 |
-| 6   | **GND**    | sgnd  | Sensor GND                           | Blue       | Brown   | - | Throttle Pedal Position GND #2 |
-| 7   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | - | Accessory / MAP gnd |
-| 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | Pink    | - | ETB #1 sensor +5v feed |
-| 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | Pink    | - | Throttle Pedal Position +5v feed #1 |
-| 13  | AV1        | av    | Analog Voltage Input #1              | |
-| 14  | AV3        | av    | Analog Voltage Input #3              | Orange     | - | TPS1 Secondary signal |
-| 15  | AV5        | av    | Analog Voltage Input #5              | Orange     | - | TPS2 Secondary signal  |
-| 16  | AV7        | av    | Analog Voltage Input #7              | White      | White   | - | Throttle Pedal Position #2 signal |
-| 17  | AV9        | av    | Analog Voltage Input #9              | |
-| 18  | AV11       | av    | Analog Voltage Input #11             | |
-| 21  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Orange     | Orange  | - | Throttle Pedal Position +5v #2 |
-| 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | - | Accessory / MAP feed | 
-| 24  | AV2        | av    | Analog Voltage Input #2              | Green      | - | TPS1 Primary signal  |
+| 5   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   |  Throttle Pedal Position GND #1 |
+| 6   | **GND**    | sgnd  | Sensor GND                           | Blue       | Brown   |  Throttle Pedal Position GND #2 |
+| 7   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   |  Accessory / MAP gnd |
+| 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | Pink    |  ETB #1 sensor +5v feed |
+| 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | Pink    |  Throttle Pedal Position +5v feed #1 |
+| 13  | AV1        | av    | Analog Voltage Input #1              | - |- |
+| 14  | AV3        | av    | Analog Voltage Input #3              | Orange     |  TPS1 Secondary signal |
+| 15  | AV5        | av    | Analog Voltage Input #5              | Orange     |  TPS2 Secondary signal  |
+| 16  | AV7        | av    | Analog Voltage Input #7              | White      | White   |  Throttle Pedal Position #2 signal |
+| 17  | AV9        | av    | Analog Voltage Input #9              | - |- |
+| 18  | AV11       | av    | Analog Voltage Input #11             | - |- |
+| 21  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Orange     | Orange  |  Throttle Pedal Position +5v #2 |
+| 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        |  - |Accessory / MAP feed | 
+| 24  | AV2        | av    | Analog Voltage Input #2              | Green      |  - |TPS1 Primary signal  |
 | 25  | AV4        | av    | Analog Voltage Input #4              | Green      | - | TPS2 Primary signal  |
-| 26  | AV6        | av    | Analog Voltage Input #6              | Green      | Yellow  | - | Throttle Pedal Position #1 signal|
-| 27  | AV8        | av    | Analog Voltage Input #8              | Blue       | MAP/MAF accessory |
-| 28  | AV10       | av    | Analog Voltage Input #10             | Green      | AFR/WBO accessory |
-| 29  | AV12       | av    | Analog Voltage Input #12             | |
-| 30  | AT2        | at    | Intake air temperature IAT           | Orange     | Grey #3 34/52  |
-| 31  | AT4        | at    | Coolant temperature CLT              | Green      | Black #3 22/52 RED/BRN |
-| 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | Pink    | - | ETB #2 sensor +5v feed |
-| 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | - |                    |
+| 26  | AV6        | av    | Analog Voltage Input #6              | Green      | Yellow  |  Throttle Pedal Position #1 signal|
+| 27  | AV8        | av    | Analog Voltage Input #8              | Blue       |- | MAP/MAF accessory |
+| 28  | AV10       | av    | Analog Voltage Input #10             | Green      |- | AFR/WBO accessory |
+| 29  | AV12       | av    | Analog Voltage Input #12             | - |- |- |
+| 30  | AT2        | at    | Intake air temperature IAT           | Orange     |- | Grey #3 34/52  |
+| 31  | AT4        | at    | Coolant temperature CLT              | Green      |- | Black #3 22/52 RED/BRN |
+| 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | Pink    | | ETB #2 sensor +5v feed |
+| 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | - |               |
 
 
 Wire length:
