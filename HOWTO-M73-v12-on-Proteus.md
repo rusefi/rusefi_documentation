@@ -90,7 +90,7 @@ End of Black Proteus 0.2 23 pin table
 End of Green Proteus 0.3+ 23 pin table
 
 ## White 35 Pin 776231-2
-|Pin Number|Name   | Type ID | Default function                   |rusEFI color|new color| OEM connector | - |
+|Pin Number|Name   | Type ID | Default function                   |rusEFI color|new color| OEM connector | 
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |  --- |- | 
 | 1   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   | Black #3 21/52 BRN| 
 | 2   | **GND**    | sgnd  | Sensor GND                           | Black      | Brown   |  ETB #1 sensor GND |
