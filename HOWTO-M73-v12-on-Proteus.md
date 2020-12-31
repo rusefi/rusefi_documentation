@@ -30,16 +30,16 @@ Destination legend:
 
 ## Black 35 Pin 776231-1
 
-|Pin Number|Name      | Type ID | Default function                   | rusEFI color | Destination |
-| ---:|:------------- | ----- |:------------------------------------ |--------- | --- |
-|  3  |**Lowside #1** | ls    | Injector #1                          | Blue | Black #3 41/52 BRN/WHT |
-|  4  |**Lowside #3** | ls    | Injector #3                          | Green | Black #3 40/52 | 
-|  5  |**Lowside #5** | ls    | Injector #5                          | Red | Black #3 28/52 | 
+|Pin Number|Name      | Type ID | Default function                   | rusEFI color | new color| Destination |
+| ---:|:------------- | ----- |:------------------------------------ |--------- | --- |--- |
+|  3  |**Lowside #1** | ls    | Injector #1                          | Blue   | Black #3 41/52 BRN/WHT |
+|  4  |**Lowside #3** | ls    | Injector #3                          | Green  | Black #3 40/52 | 
+|  5  |**Lowside #5** | ls    | Injector #5                          | Red    | Black #3 28/52 | 
 |  6  |**Lowside #6** | ls    | Injector #6                          | Orange | Black #3 27/52 BRN/BLK | 
-|  7  |**Lowside #7** | ls    | Injector #7                          | Blue | Grey #3 41/52 BRN/WHT | 
-|  8  |**Lowside #9** | ls    | Injector #9                          | Green|  Grey  #3 40/52 | 
-|  9  |**Lowside #11**| ls    | Injector #11                         | Red |Grey #3 28/52 | 
-| 10  |**Lowside #13**| ls    | low-side output: main relay          | Blue | Black plug #2 23/24 BRN/BLK |
+|  7  |**Lowside #7** | ls    | Injector #7                          | Blue   | Grey #3 41/52 BRN/WHT | 
+|  8  |**Lowside #9** | ls    | Injector #9                          | Green  |  Grey  #3 40/52 | 
+|  9  |**Lowside #11**| ls    | Injector #11                         | Red    |Grey #3 28/52 | 
+| 10  |**Lowside #13**| ls    | low-side output: main relay          | Blue   | Black plug #2 23/24 BRN/BLK |
 | 11  |**Lowside #14**| ls    | low-side output: starter enable      | White | Black plug #4 40/40 YEL/BRN |
 | 12  |**Lowside #15**| ls    | low-side output: radiator fan relay  | green | accessory | 
 | 15  |**Lowside #2** | ls    | Injector #2                          | Black |  Black #3 15/52 | 
@@ -72,21 +72,21 @@ End of Black Proteus 0.2 23 pin table
 
 
 ## Black 23 Pin 776228-1 on Green Proteus 0.3+
-|Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
-| ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
-| 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red | Black plug #3 20/52 |
+|Pin Number|Name   | Type ID | Default function                   |rusEFI color | new color| OEM connector |
+| ---:|:---------- | ----- |:------------------------------------ | :--------- | --- | --- |
+| 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red    | Black plug #3 20/52 |
 | 2   | DIGITAL 3  | din   | Start signal from ignition key       | Orange |  |
 | 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | Black #3 32/52 |
-| 6   | ETB1-      | y     | ETB 1 negative                       | White |
-| 7   | ETB1+      | etb   | ETB 1 positive                       | Blue |
-| 8   | ETB2-      | etb   | ETB 2 negative                       | White |
-| 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue | Black #3 46 /52 |
-| 15  | ETB2+      | etb   | ETB 2 positive                       | Blue |
-| 16  | CAN-       | can   | CAN bus low                          | White | accessory |
-| 17  | CAN+       | can   | CAN bus high                         | Red |  accessory | 
-| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  Black plug #4 26/40 GRN/BLK |
-| 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
-| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
+| 6   | ETB1-      | y     | ETB 1 negative                       | White  |
+| 7   | ETB1+      | etb   | ETB 1 positive                       | Blue   |
+| 8   | ETB2-      | etb   | ETB 2 negative                       | White  |
+| 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue   | Black #3 46 /52 |
+| 15  | ETB2+      | etb   | ETB 2 positive                       | Blue   |
+| 16  | CAN-       | can   | CAN bus low                          | White  | accessory |
+| 17  | CAN+       | can   | CAN bus high                         | Red    |  accessory | 
+| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red    |  Black plug #4 26/40 GRN/BLK |
+| 19  | **GND**    | y     | Power GND                            | Black  | Black plug #1 6/9 BRN |
+| 23  | +12V mr    | 12v   |ETB/high-side power supply from main relay| Red| Black #1 8/9 RED/BLU |
 End of Green Proteus 0.3+ 23 pin table
 
 ## White 35 Pin 776231-2
