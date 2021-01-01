@@ -8,7 +8,7 @@ We believe in 100% PnP ECUs. There are a few steps helping to make an amazing Pn
 
 Once we have #2 and #3 we can make a nice PnP which uses some OEM box without the breakout board.
 
-Q: why so many steps? I am so excited, I shall make a PnP right away!
+## Q: why so many steps? I am so excited, I shall make a PnP right away!
 
 A: Please start with a wired prototype, it's a valuable development tool.  It lets you easily change configurations and play with options until you are happy.  At the same time it allows you to become family with the entire system, the entire WORKING system on a WORKING car. It also lets you show off what the product would be on a running car to get feedback from the potential market place with very little investment in time or money.  Its about starting at the beginning rather than trying to jump to the end.  Worst that happen on this path is you're buddy's car is up and running as quickly and cheaply as possible and you realize the target market doesn't exist.  Best case is you're buddy's car is up and running as quickly and cheaply as possible and serves as a marketing and development tool as you can just plug you're new board in, load the tune and know it should work and you can always resell the working generic board you've used for prototyping once you're done testing with it.  
 
