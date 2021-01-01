@@ -18,3 +18,5 @@
 [HOWTO M111 on microRusEFI](HOWTO-M111-on-microRusEFI)
 
 [Subaru Impreza 1993](Subaru-Impreza-1993)
+
+[Mustang Ford 92 5.0](Mustang-Ford-92-5.0)
