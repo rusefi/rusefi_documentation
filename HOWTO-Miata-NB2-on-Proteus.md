@@ -1,5 +1,7 @@
 **This page is still WIP**
 
+See also [Mazda-Miata-2003](Mazda-Miata-2003)
+
 **Disclaimer : This page has been written by a user and thus might not be objective**
 
 
