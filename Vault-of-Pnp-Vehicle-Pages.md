@@ -10,6 +10,9 @@
 
 [Mazda-Miata-2001](Mazda-Miata-2001)
 
+[Mazda-Miata-2003](Mazda-Miata-2003)
+
+
 # Not Miata Not v12
 
 [HOWTO M111 on microRusEFI](HOWTO-M111-on-microRusEFI)
