@@ -1,3 +1,5 @@
+Want to add new page like this? At the moment rusEFI wiki is wide open for anyone to modify. Just login/register at GitHub and start a new page my typing new URL in your browser.
+
 
 Connector image here
 
