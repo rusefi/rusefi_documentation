@@ -6,6 +6,8 @@ A: 8 pins
 
 # 99 SLK230
 
+https://en.wikipedia.org/wiki/Mercedes-Benz_M111_engine
+
 Jimmy, Scott have M111 2.3 Compressor engine, both as swaps into 190e body
 
 Alex has M111 1.8 https://rusefi.com/forum/viewtopic.php?f=2&t=1700
