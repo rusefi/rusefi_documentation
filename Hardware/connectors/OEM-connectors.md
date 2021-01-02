@@ -409,8 +409,10 @@ https://www.te.com/usa-en/product-1318612-1.html
 
 Honda D17 Honda K
 
-## 128 pin
+## 128/145 pin
 Mercedes M111 https://www.ebay.com/itm/333791544427
+
+![x](oem_docs/Mercedes/mercedes_170.png)
 
 [Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)
 
@@ -421,7 +423,11 @@ D=24
 E=48
 F=21
 
-8+4+40+24+40+21=137
+8+4+40+24+48+21=145
+
+In reality
+
+8+4+23+24+48+21=128
 
 
 A0235459732 
