@@ -26,6 +26,8 @@ Which also implies it is a 12v lowside to run it
 
 you could actually run it with general purpose pwm pretty easily  
 
+## 55 pin pinouts
+
 ## 88 pin Motronic pinouts 
 
 https://docs.google.com/spreadsheets/d/1OiEaak7TElKwF-fXWvl9Dk-fD84a0NENe6lOwhXiOe4/edit?usp=sharing
