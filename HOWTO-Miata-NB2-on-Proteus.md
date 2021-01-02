@@ -131,6 +131,7 @@ A few improvment would make this board really plug and play and easier to use
 | 3M  | Alternator      | B1| High-Side 2  | Alternator Control Output             |
 | 3N  |     -           |   | x            | x                                     |
 | 3O  | Tach            | B2| High-Side 1  | Tachometer Output                     |
+| 3T  | VSS             | ? | ?            | Vehicle Speed Sensor                  |
 | 3V  | Cam             | C1| Digital 2    | Cam shaft Hall Input                  |
 | 3U  | Alt Warn        |   | x            | x                                     |
 | 3Y  | Crank           |C10| Digital 1    | Crank shaft Hall Input                |
