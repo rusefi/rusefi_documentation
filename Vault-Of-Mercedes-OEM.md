@@ -6,6 +6,9 @@ A: 8 pins
 
 # 99 SLK230
 
+Jimmy, Scott
+Alex?
+
 ![x](oem_docs/Mercedes/99_SLK230_1.png)
 
 ![x](oem_docs/Mercedes/99_SLK230_2.png)
