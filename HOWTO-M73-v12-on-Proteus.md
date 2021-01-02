@@ -120,6 +120,8 @@ End of Green Proteus 0.3+ 23 pin table
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | PINK    |  ETB #2 sensor +5v feed |
 | 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | - |  PINK             |
 
+Unused pins are - 8;11;12;13;17;18;19;20;23;29;34;35;
+
 
 Wire length:
 
