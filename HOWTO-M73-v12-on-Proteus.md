@@ -53,6 +53,8 @@ Destination legend:
 | 24  | **GND**       | y     | Power GND                            | Black | BROWN |Grey plug #1 6/9 BRN|
 | 30  | Ignition 7    | y     | Ignition cylinder 7                  | White | WHITE |  |External Igniter channel #2|
 | 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | ORANGE| |External Igniter channel #1 |
+Unused pins are - 1;2;13;14;25;26;27;28;29;31;32;33;34;
+
 
 ## Black 23 Pin 776228-1 on Black Proteus 0.2 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
