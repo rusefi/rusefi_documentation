@@ -4,8 +4,8 @@
 ## LED decoding
 | Blue LED | Green LED | Meaning |
 |:--------:|:---------:| -----|
-| off | slow flash | sensor warming up |
-| off | fast flash | Sensor hot, operating |
+| off | fast flash | sensor warming up |
+| off | slow flash | Sensor hot, operating normally |
 | flashing | off | See error code table below |
 | alternating | alternating | Bootloader |
 
