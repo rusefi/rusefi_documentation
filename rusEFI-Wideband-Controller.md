@@ -1,5 +1,23 @@
 # NOTE: This is currently under development.  This page might be wrong or change quickly.
 
+## Pinout
+
+![connector pinout image](https://imgur.com/LvCaQ1o.jpg)
+
+| Pin Number | Function | Notes |
+|:---:|:---:| ---|
+| 1 | Ground | Connect to chassis ground |
+| 2 | LSU Ip | Connect to sensor pin |
+| 3 | LSU Heater - | Connect to sensor pin |
+| 4 | LSU Heater + | Connect to sensor pin |
+| 5 | No connection | |
+| 6 | 12v Supply | Connect to fuel pump supply or independent relay controlled by ECU |
+| 7 | No connection | |
+| 8 | LSU Vm | Connect to sensor pin |
+| 9 | LSU Rtrim | Connect to sensor pin |
+| 10 | LSU Un | Connect to sensor pin |
+| 11 | CAN H | CAN bus high |
+| 12 | CAN L | CAN bus low |
 
 ## LED decoding
 | Blue LED | Green LED | Meaning |
