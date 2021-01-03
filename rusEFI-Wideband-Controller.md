@@ -7,15 +7,15 @@
 | Pin Number | Function | Notes |
 |:---:|:---:| ---|
 | 1 | Ground | Connect to chassis ground |
-| 2 | LSU Ip | Connect to sensor pin |
-| 3 | LSU Heater - | Connect to sensor pin |
-| 4 | LSU Heater + | Connect to sensor pin |
+| 2 | LSU Ip | Connect to sensor pin 1 |
+| 3 | LSU Heater - | Connect to sensor pin 3 |
+| 4 | LSU Heater + | Connect to sensor pin 4 |
 | 5 | No connection | |
 | 6 | 12v Supply | Connect to fuel pump supply or independent relay controlled by ECU |
 | 7 | No connection | |
-| 8 | LSU Vm | Connect to sensor pin |
-| 9 | LSU Rtrim | Connect to sensor pin |
-| 10 | LSU Un | Connect to sensor pin |
+| 8 | LSU Vm | Connect to sensor pin 2 |
+| 9 | LSU Rtrim | Connect to sensor pin 5 |
+| 10 | LSU Un | Connect to sensor pin 6 |
 | 11 | CAN H | CAN bus high |
 | 12 | CAN L | CAN bus low |
 
