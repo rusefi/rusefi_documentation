@@ -27,6 +27,9 @@
 | flashing | off | See error code table below |
 | alternating | alternating | Bootloader |
 
+## Firmware Update
+
+coming soon...
 
 ## Error Codes
 
