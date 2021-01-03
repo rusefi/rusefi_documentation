@@ -93,7 +93,7 @@ End of Black Proteus 0.2 23 pin table
 | 23  | +12V mr    | 12v   |ETB/high-side power supply from main relay| Red|  PINK|Black #1 8/9 RED/BLU|
 End of Green Proteus 0.3+ 23 pin table
 
-Unused pins are - 3;4;;9;10;11;12;13;14;20;21;22;
+Unused pins are - 3;4;;9;10;11;12;14;20;21;22;
 ## White 35 Pin 776231-2
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color|new color| OEM connector | 
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |  --- | 
