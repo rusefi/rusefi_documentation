@@ -1,5 +1,5 @@
 
-We also native knock processing, with supporting hardware only [Proteus](Proteus) at the moment. We have very limited amount of testing on real vehicles.
+We have native knock processing, with supporting hardware only [Proteus](Proteus) at the moment. We have very limited amount of testing on real vehicles.
 
 
 We have some progress integrating with conventional knock sensors but it's not ready for end users.
