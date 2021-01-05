@@ -120,7 +120,6 @@ Unused pins are - 3;4;;9;10;11;12;14;20;21;22;
 | 30  | AT2        | at    | Intake air temperature IAT           | Orange     |ORANGE | Grey #3 34/52  |
 | 31  | AT4        | at    | Coolant temperature CLT              | Green      |YELLOW| Black #3 22/52 RED/BRN |
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | PINK    |  ETB #2 sensor +5v feed |
-| 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | - |  PINK             |
 
 Unused pins are - 8;11;12;13;17;18;19;20;23;29;34;35;
 
