@@ -23,7 +23,8 @@ rusEFI uses six wire colors: black white red orange green blue.
 * IAT
 
 
-
+Total wires between Proteus and GREY - 10
+Total wires between Proteus and BLACK - 15
 
 Destination legend:
 "Black #3 40/52" means "Black set of ECU plugs, connector #3 - pin 40 of 52 total pins"
@@ -39,8 +40,8 @@ Destination legend:
 |  7  |**Lowside #7** | ls    | Injector #7                          | Blue   |  PURPLE|Grey #3 41/52 BRN/WHT |
 |  8  |**Lowside #9** | ls    | Injector #9                          | Green  |   YELLOW|Grey  #3 40/52 |
 |  9  |**Lowside #11**| ls    | Injector #11                         | Red    |PINK |Grey #3 28/52 |
-| 10  |**Lowside #13**| ls    | low-side output: main relay          | Blue   | PURPLE|Black plug #2 23/24 BRN/BLK |
-| 11  |**Lowside #14**| ls    | low-side output: starter enable      | White | WHITE |Black plug #4 40/40 YEL/BRN|
+| 10  |**Lowside #13**| ls    | low-side output: main relay          | Blue   | PURPLE|Black  #2 23/24 BRN/BLK |
+| 11  |**Lowside #14**| ls    | low-side output: starter enable      | White | WHITE |Black p #4 40/40 YEL/BRN|
 | 12  |**Lowside #15**| ls    | low-side output: radiator fan relay  | green |  YELLOW|accessory |
 | 15  |**Lowside #2** | ls    | Injector #2                          | Black |  BROWN |Black #3 15/52 |
 | 16  |**Lowside #4** | ls    | Injector #4                          | White |  WHITE |Black #3 2/52 |
@@ -61,14 +62,14 @@ Unused pins are - 1;2;13;14;25;26;27;28;29;31;32;33;34;
 ## Black 23 Pin 776228-1 on Black Proteus 0.2 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
-| 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red | Black plug #3 20/52 |
+| 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red | Black #3 20/52 |
 | 2   | DIGITAL 3  | din   | Start button                         | Orange | accessory |
 | 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | Black #3 32/52 |
 | 8   | ETB1-      | y     | ETB 1 negative                       | White |
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue | Black #3 46 /52 |
 | 15  | ETB1+      | etb   | ETB 1 positive                       | Blue |
-| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  Black plug #4 26/40 GRN/BLK |
-| 19  | **GND**    | y     | Power GND                            | Black | Black plug #1 6/9 BRN |
+| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  Black #4 26/40 GRN/BLK |
+| 19  | **GND**    | y     | Power GND                            | Black | Black #1 6/9 BRN |
 | 21  | ETB2-      | etb   | ETB 2 negative                       | White |
 | 22  | ETB2+      | etb   | ETB 2 positive                       | Blue |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
@@ -78,7 +79,7 @@ End of Black Proteus 0.2 23 pin table
 ## Black 23 Pin 776228-1 on Green Proteus 0.3+
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | new color| OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- | --- |
-| 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red    | PINK|Black plug #3 20/52 |
+| 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red    | PINK|Black #3 20/52 |
 | 2   | DIGITAL 3  | din   | Start signal from ignition key       | Orange |ORANGE  ||
 | 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | ORANGE|Black #3 32/52 |
 | 6   | ETB1-      | y     | ETB 1 negative                       | White  |WHITE|
@@ -88,8 +89,8 @@ End of Black Proteus 0.2 23 pin table
 | 15  | ETB2+      | etb   | ETB 2 positive                       | Blue   |PURPLE|
 | 16  | CAN-       | can   | CAN bus low                          | White  | WHITE|accessory |
 | 17  | CAN+       | can   | CAN bus high                         | Red    |  PINK|accessory  |
-| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red    |  PINK|Black plug #4 26/40 GRN/BLK |
-| 19  | **GND**    | y     | Power GND                            | Black  | BROWN |Black plug #1 6/9 BRN|
+| 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red    |  PINK|Black #4 26/40 GRN/BLK |
+| 19  | **GND**    | y     | Power GND                            | Black  | BROWN |Black #1 6/9 BRN|
 | 23  | +12V mr    | 12v   |ETB/high-side power supply from main relay| Red|  PINK|Black #1 8/9 RED/BLU|
 End of Green Proteus 0.3+ 23 pin table
 
