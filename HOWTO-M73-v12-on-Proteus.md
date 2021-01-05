@@ -111,7 +111,7 @@ Unused pins are - 3;4;;9;10;11;12;14;20;21;22;
 | 15  | AV5        | av    | Analog Voltage Input #5              | Orange     |  ORANGE |TPS2 Secondary signal  |
 | 16  | AV7        | av    | Analog Voltage Input #7              | White      | White   |  Throttle Pedal Position #2 signal |
 | 21  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Orange     | ORANGE  |  Throttle Pedal Position +5v #2 |
-| 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        |  PINK |Accessory / MAP feed | 
+| 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        |  PINK |Accessory / MAP +5V feed | 
 | 24  | AV2        | av    | Analog Voltage Input #2              | Green      |  YELLOW |TPS1 Primary signal  |
 | 25  | AV4        | av    | Analog Voltage Input #4              | Green      | YELLOW | TPS2 Primary signal  |
 | 26  | AV6        | av    | Analog Voltage Input #6              | Green      | YELLOW  |  Throttle Pedal Position #1 signal|
