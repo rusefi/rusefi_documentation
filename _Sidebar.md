@@ -20,6 +20,7 @@
 
 # Pages
 - [Fuel](Pages-Fuel)
+    - [Flex Fuel](Flex-Fuel)
 - [Hardware](Pages-Hardware)
 - [Sensors and Actuators](Pages-Sensors-and-Actuators)
 - [Ignition](Pages-Ignition)
