@@ -24,7 +24,7 @@ rusEFI uses six wire colors: black white red orange green blue.
 
 
 Total wires between Proteus and GREY - 10
-Total wires between Proteus and BLACK - 15
+Total wires between Proteus and BLACK - 22
 
 Destination legend:
 "Black #3 40/52" means "Black set of ECU plugs, connector #3 - pin 40 of 52 total pins"
