@@ -105,13 +105,15 @@ Unused pins are - 3;4;;9;10;11;12;14;20;21;22;
 | 5   | **GND**    | sgnd  | Sensor GND                           | Black      | BROWN   |  Throttle Pedal Position GND #1 |
 | 6   | **GND**    | sgnd  | Sensor GND                           | Blue       |PURPLE|  Throttle Pedal Position GND #2 |
 | 7   | **GND**    | sgnd  | Sensor GND                           | Black      | BROWN   |  Accessory / MAP gnd |
-| 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | PINK   |  ETB #1 sensor +5v feed |
+| 8   | **GND**    | sgnd  | Sensor GND                           |            | BROWN   | Black #3 50/52 Knock Shield/GND     |
+| 9   | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | PINK    |  ETB #1 sensor +5v feed |
 | 10  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        | PINK    |  Throttle Pedal Position +5v feed #1 |
-| 14  | AV3        | av    | Analog Voltage Input #3              | Orange     |ORANGE |  TPS1 Secondary signal |
-| 15  | AV5        | av    | Analog Voltage Input #5              | Orange     |  ORANGE |TPS2 Secondary signal  |
+| 14  | AV3        | av    | Analog Voltage Input #3              | Orange     | ORANGE  |  TPS1 Secondary signal |
+| 15  | AV5        | av    | Analog Voltage Input #5              | Orange     | ORANGE  |TPS2 Secondary signal  |
 | 16  | AV7        | av    | Analog Voltage Input #7              | White      | White   |  Throttle Pedal Position #2 signal |
 | 21  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Orange     | ORANGE  |  Throttle Pedal Position +5v #2 |
-| 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        |  PINK |Accessory / MAP +5V feed | 
+| 22  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          | Red        |  PINK   |Accessory / MAP +5V feed | 
+| 23  | **GND**    | sgnd  | Sensor GND                           |            | ORANGE  | Grey  #3 37/52 Knock Shield/GND     |
 | 24  | AV2        | av    | Analog Voltage Input #2              | Green      |  YELLOW |TPS1 Primary signal  |
 | 25  | AV4        | av    | Analog Voltage Input #4              | Green      | YELLOW | TPS2 Primary signal  |
 | 26  | AV6        | av    | Analog Voltage Input #6              | Green      | YELLOW  |  Throttle Pedal Position #1 signal|
@@ -120,6 +122,8 @@ Unused pins are - 3;4;;9;10;11;12;14;20;21;22;
 | 30  | AT2        | at    | Intake air temperature IAT           | Orange     |ORANGE | Grey #3 34/52  |
 | 31  | AT4        | at    | Coolant temperature CLT              | Green      |YELLOW| Black #3 22/52 RED/BRN |
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          | Red        | PINK    |  ETB #2 sensor +5v feed |
+| 34  | knock      |       | Knock #1                             |            | ORANGE  |  Black #3 49/52                       |
+| 35  | knock      |       | Knock #1                             |            | PURPLE  |  Grey  #3 36/52                       |
 
 Unused pins are - 8;11;12;13;17;18;19;20;23;29;34;35;
 
