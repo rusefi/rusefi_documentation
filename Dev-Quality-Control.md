@@ -6,7 +6,7 @@ We love our engines and we want them to live a long & happy life. That's why we 
 
 For current coverage report see https://rusefi.com/docs/unit_tests_coverage/
 
-## Hardware Continues Integration
+## Hardware Continuous Integration
 
 Since 2015 there is always a stm32f4 board listening for VCS updates running rusEFI hardware continues integration, "HW CI" for short.
 
