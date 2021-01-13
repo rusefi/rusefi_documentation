@@ -12,9 +12,19 @@ Jimmy, Scott have M111 2.3 Compressor engine, both as swaps into 190e body https
 
 Alex has M111 1.8 https://rusefi.com/forum/viewtopic.php?f=2&t=1700
 
-# 320
+# M112 v6 320
 
 [1999-e320](1999-e320)
+
+
+# M113 v8
+## 430
+
+[1999-e430](1999-e430)
+
+[2000-s430](2000-s430)
+
+
 
 
 [Mercedes-v8](Mercedes-v8)
