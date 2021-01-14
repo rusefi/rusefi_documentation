@@ -324,6 +324,12 @@ http://www.te.com/catalog/pn/en/185785-1
 
 98-01 KIA SEPHIA
 
+## 94 pin
+
+https://www.te.com/usa-en/product-1123794-2.html
+
+maybe not used by OEM but relayed to 72 pin NB2
+
 ## 100 pin
 
 34-22-16-28 pins
@@ -338,6 +344,11 @@ Toyota 1MZ-FE 3RZ-FE 5VZ
 https://www.te.com/usa-en/product-179686-6.html
 
 Honda Accord 96-2002
+
+## 108 pin
+https://www.te.com/usa-en/product-1318613-1.html
+
+maybe not used by OEM but relayed to 72 pin NB2
 
 ## 112 pin
 Molex 64333-0100
