@@ -163,6 +163,35 @@ microRusEFI should be set for Hall
 | 3Y  | JP51 | \*               | \*                           | \*                                    |
 | 3Z  | JP52 | A/T control unit |                              |                                       |
 
+# Jumpers
+
+| #   |       |                  |                              |                                       |
+| --- | ----- | ---------------- | ---------------------------- | ------------------------------------- |
+|   	| |		93-	| 94+ | 			
+|JP1	|	AC Fan 94+	| N| 	Y |			
+JP2		|AC fan 93-	|Y	|N |			
+JP3		|TPS 93-	|Y	|N			
+JP4		|TPS 94+	|N	|Y			
+JP54	2I	| Tach out	|N	|N|	Used with aftermarket coils		
+JP55	2I	|Tach pullup	|Y	|Y	|Used with stock coils		
+JP56	1M	| Pullup VSS	|N	|Y?	| Untested		
+|JP53		INJ4 |sequ	|N|	Y |			
+JP57		INJ3 |sequ	|N	|Y			
+JP58		INJ3| parallel	|Y|	N			
+JP59		INJ4| parallel	|Y|	N			
+							
+							
+| #   |       |                  |                              |                                       |
+| --- | ----- | ---------------- | ---------------------------- | ------------------------------------- |
+|		|	93-	|94+|	93-	|94+	|Notes
+JP8		USB_D-	| Y| 	Y	|Diag Conn	|Diag Conn	 |
+JP10		USB_PWR_AV4|	Y	|Y|	Diag Conn	*	
+JP14		AC_OUT|	Y	|Y			
+JP34		USB D+	|Y|	Y	|Short Conn	| Diag Conn	
+JP36		CAN_H|	Y	|N	|*	|EGR Sensor	
+JP44		USB GND|	Y|	N|	*|	Press. Reg. vlv	
+JP50	2X	CAN_L|	Y	|N|	Purg Sol. Vlv|	Purg Sol. Vlv	
+
 
 [Schematics 0.4](Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.4.pdf)
 
