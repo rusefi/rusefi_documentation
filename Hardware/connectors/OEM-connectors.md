@@ -348,7 +348,8 @@ Honda Accord 96-2002
 ## 108 pin
 https://www.te.com/usa-en/product-1318613-1.html
 
-maybe not used by OEM but relayed to 72 pin NB2
+Honda K Series
+relayed to 72 pin NB2 but only two plugs are shared
 
 ## 112 pin
 Molex 64333-0100
@@ -419,6 +420,12 @@ maybe the most common Aristo 2JZ ECU connector?
 https://www.te.com/usa-en/product-1318612-1.html
 
 Honda D17 Honda K
+
+1318682-6 = ECU A 31
+353029-1 = ECU B 24 
+353028-1 = ECU C 22
+353027-1 = ECU D 17
+353826-1 = ECU E 31
 
 ## 128/145 pin
 Mercedes M111 https://www.ebay.com/itm/333791544427
