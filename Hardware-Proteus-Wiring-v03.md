@@ -62,12 +62,12 @@
 | 15  | ETB2+      | etb   | ETB 2 positive                       |
 | 16  | CAN-       | can   | CAN bus low                          |
 | 17  | CAN+       | can   | CAN bus high                         |
-| 18  | +12 raw    | 12v   | ignition power / ECU power source    |
+| 18  | +12 raw    | 12v   | Ignition power / ECU power source<br/>Connect this pin to the output of your ignition switch.|
 | 19  | **GND**    | gnd   | Power GND                            |
 | 20  | **GND**    | gnd   | Power GND                            |
 | 21  | Reserved   |       | Reserved for future use              |
 | 22  | Reserved   |       | Reserved for future use              |
-| 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  |
+| 23  | +12V mr    | 12v   | Power supply from main relay.<br/>Connect this pin to the output of the car's main relay that also powers injectors, coils, etc.<br/>Supplies power to electronic throttle drivers and high side outputs.### |
 
 ## White 35 Pin 776231-2
 |Pin Number|Name   | Type ID | Default function                   |
