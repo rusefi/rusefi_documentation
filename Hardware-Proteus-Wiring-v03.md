@@ -1,4 +1,4 @@
-# Proteus v0.3 Pinout & Wiring
+# Proteus v0.3/0.4 Pinout & Wiring
 
 ## _NOTE: this pinout only applies to boards v0.3 and newer (green). [If you have v0.2 or older (probably black), then use the pinout found here!](Hardware-Proteus-Wiring-v02)_
 
@@ -105,8 +105,8 @@
 | 31  | AT4        | at    | Analog Thermistor Input #4           |
 | 32  | 5V SENS 1  | 5v    | Analog Voltage +5 supply #1          |
 | 33  | 5V SENS 2  | 5v    | Analog Voltage +5 supply #2          |
-| 34  | ~KNOCK 1~  |       | ~Knock input 1~ - Due to a hardware defect, knock hardware can't work on v0.3 :( |
-| 35  | ~KNOCK 2~  |       | ~Knock input 2~ |
+| 34  | KNOCK 1  |       | Knock input 1 on 0.4. Due to a hardware defect, knock hardware can't work on v0.3 :( |
+| 35  | KNOCK 2  |       | Knock input 2 on 0.4 |
 
 ## Misc notes
 - UB-20PMFP-LC7002 waterproof USB connector
