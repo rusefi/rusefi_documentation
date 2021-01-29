@@ -6,3 +6,5 @@ https://rusefi.com/docs/ibom/hellen72b-ibom.html
 
 
 [Mazda-Miata-2003](Mazda-Miata-2003)
+
+![x](Hardware/Hellen/hellen72a.jpg)
