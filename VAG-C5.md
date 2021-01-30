@@ -6,14 +6,6 @@
 
 ![x](oem_docs/VAG/2003_a6_2.7t_3.png)
 
-# 2003 A6 2.8
-
-![x](oem_docs/VAG/2003_a6_2.8_1.png)
-
-![x](oem_docs/VAG/2003_a6_2.8_2.png)
-
-![x](oem_docs/VAG/2003_a6_2.8_3.png)
-
 # 2003 A6 3.0
 
 ![x](oem_docs/VAG/2003_a6_3.0_1.png)
