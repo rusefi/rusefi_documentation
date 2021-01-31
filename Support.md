@@ -10,11 +10,11 @@ https://rusefi.com/forum/ is the primary free support channel.
 
 Please Read https://opensource.com/life/16/10/how-ask-technical-questions
 
-Q: Shall I take a photщ of my tune?
+Q: Shall I take a photo of my tune?
 
 A: Please use rusEFI Online to share tunes https://github.com/rusefi/rusefi/wiki/HOWTO-upload-tune
 
-A: Shall I take a photщ of my screen?
+A: Shall I take a photo of my screen?
 
 Q: You can but that's a bit scary. There are a lot of much nicer options like Windows 10 Snip Tool or https://getsharex.com/ for Windows screen snapshots or screen recording.
 
