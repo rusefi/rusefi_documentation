@@ -54,6 +54,9 @@ See also [online BOM](https://rusefi.com/docs/ibom/frankenso_latest.html)
 
 ## Default Pinout
 
+[Main Connector Interactive Pinout](https://rusefi.com/docs/pinouts/frankenso/main.html)
+[Vias Interactive Pinout](https://rusefi.com/docs/pinouts/frankenso/internal.html)
+
 Frankenso was designed with Mazda Miata NA pinout in mind. The most easily available ECU harness pig tail comes from OBD-I Honda vehicles, different Honda vehicles use slightly different harness colors so the values given are pretty approximate, please use common sense. See connector details [here](OEM-connectors#64-pin)
 
 See also [Mazda Miata 1991](Mazda-Miata-1991)
