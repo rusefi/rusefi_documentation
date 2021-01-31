@@ -10,6 +10,14 @@ https://rusefi.com/forum/ is the primary free support channel.
 
 Please Read https://opensource.com/life/16/10/how-ask-technical-questions
 
+Q: Shall I take a photщ of my tune?
+
+A: Please use rusEFI Online to share tunes https://github.com/rusefi/rusefi/wiki/HOWTO-upload-tune
+
+A: Shall I take a photщ of my screen?
+
+Q: You can but that's a bit scary. There are a lot of much nicer options like Windows 10 Snip Tool or https://getsharex.com/ for Windows screen snapshots or screen recording.
+
 Q: Matt and Andrey are on Facebook, shall I message Matt or Andrey directly?
 
 A: Unfortunately we do not have resources for technical support via Facebook direct messages.
