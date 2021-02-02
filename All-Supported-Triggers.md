@@ -113,6 +113,11 @@ Also used on some Mitsubishi
 
 ![x](Images/triggers/trigger_49.png)
 
+## 36/2/2/2
+
+Might also be used on some Nissan and Miata
+
+![36/2/2](Images/triggers/trigger_23.png)
 
 ## Universal skipped wheel
 A basic wheel - assumes equally spaced teeth with a number of missing teeth.
@@ -131,10 +136,6 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 ## One tooth
 
 ![One Tooth](Images/triggers/trigger_18.png)
-
-## 36/2/2
-
-![36/2/2](Images/triggers/trigger_23.png)
 
 ## Dodge Neon 1995
 
