@@ -86,7 +86,11 @@ Also used on some Mitsubishi
 
 ## GM LS 24x
 
-![GM LS 24](Images/triggers/trigger_27.png)
+![x](Images/triggers/trigger_27.png)
+
+## GM 60/2/2/2
+
+![x](Images/triggers/trigger_54.png)
 
 <a name="jeep"/>
 
