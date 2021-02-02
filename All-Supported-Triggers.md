@@ -90,6 +90,8 @@ Also used on some Mitsubishi
 
 ## GM 60/2/2/2
 
+GM/Daewoo Distributor F8CV
+
 ![x](Images/triggers/trigger_54.png)
 
 <a name="jeep"/>
