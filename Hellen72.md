@@ -4,6 +4,7 @@ Happy Xmas
 
 https://rusefi.com/docs/ibom/hellen72b-ibom.html
 
+https://rusefi.com/docs/pinouts/hellen/helen72/main.html
 
 [Mazda-Miata-2003](Mazda-Miata-2003)
 
