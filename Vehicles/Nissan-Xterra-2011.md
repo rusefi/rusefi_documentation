@@ -1,7 +1,3 @@
-[jackm_carhack_nissan](jackm_carhack_nissan)
-
-[Knio_carhack_Nissan](Knio_carhack_Nissan.md)
-
-https://forum.autosportlabs.com/viewtopic.php?p=29166
+[Nissan-Xterra-2011-CAN](Nissan-Xterra-2011-CAN)
 
 ![Wiring Diagram](oem_docs/Nissan/2011_Xterra/2011_Xterra_ECU.png)
