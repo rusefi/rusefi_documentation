@@ -1,8 +1,29 @@
 # 23D/573
-## RPM CLT
+RPM CLT
 
 
-Sources:
+
+# Examples
+```
+SID 2D1/7 0 0 0 3 31 86 1 0,
+SID 794/3 0 0 1 0 0 0 0 0,
+SID 23D/8 53 0 0 0 0 47 9 33,
+SID 2D1/7 0 0 0 2 31 87 1 0,
+SID 216/1 40 0 0 0 0 0 0 0,
+SID 2/5 29 0 0 7 A6 0 0 0,
+SID 216/1 40 0 0 0 0 0 0 0,
+SID 2A5/7 0 0 0 10 0 0 0 0,
+SID 358/8 1 0 0 0 2 0 0 0,
+SID 2A5/7 0 0 0 10 0 0 0 0,
+SID 2A5/7 0 0 0 10 0 0 0 0,
+SID 794/3 0 0 2 0 0 0 0 0,
+SID 794/3 0 0 3 0 0 0 0 0,
+SID 794/3 0 0 0 0 0 0 0 0,
+SID 794/3 0 0 1 0 0 0 0 0,
+SID 23D/8 53 0 0 0 0 47 9 33,
+```
+
+# Sources
 
 [jackm_carhack_nissan](jackm_carhack_nissan)
 
