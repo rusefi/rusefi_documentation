@@ -199,6 +199,12 @@ See also [Universal True 60/2](All-Supported-Triggers#universal-true-602)
 
 ![Toyota 2JZ 1/12](Images/triggers/trigger_29.png)
 
+## TriTach
+
+Some older German vehicles
+
+![x](Images/triggers/trigger_53.png)
+
 ## Unknown trigger type
 
 [Unknown Trigger](Unknown-Trigger)
