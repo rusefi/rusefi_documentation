@@ -205,6 +205,10 @@ Some older German vehicles
 
 ![x](Images/triggers/trigger_53.png)
 
+## Skoda Favorit
+
+![x](Images/triggers/trigger_55.png)
+
 ## Unknown trigger type
 
 [Unknown Trigger](Unknown-Trigger)
