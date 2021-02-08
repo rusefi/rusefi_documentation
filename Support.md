@@ -10,6 +10,10 @@ https://rusefi.com/forum/ is the primary free support channel.
 
 Please Read https://opensource.com/life/16/10/how-ask-technical-questions
 
+## Q: What is the preferred way of posting videos?
+
+A: Please use youtube to post videos.
+
 Q: Shall I take a photo of my tune?
 
 A: Please use rusEFI Online to share tunes https://github.com/rusefi/rusefi/wiki/HOWTO-upload-tune
@@ -32,7 +36,7 @@ https://www.gnu.org/licenses/gpl-3.0.html
 
  Please collect the below information before requesting support in the forums. Also please include this each time you post about a problem. This can all be collected in a zip file, or done as individual files and attached to your forum support request. Please keep in mind that you are seeing this and you have allot of information which those of us in the forum do not have. Things that may seem simple to you may be complicated for those of us who have not physically seen what you have, or have not see the steps you have taken to get to the problem you are faced with.
 
-- What is the basic problem? This would be something like, engine does not start, cannot connect Tuner Studio, Magic smoke has come out, or something similar. A video can be helpful for this as well. 
+- What is the basic problem? This would be something like, engine does not start, cannot connect Tuner Studio, Magic smoke has come out, or something similar. A video on youtube can be helpful for this as well. 
 
 - Please provide a picture of the rusEFI console. This tells us allot about what firmware you are using, and the status of your software. Also please include the console's border as that indicates information as well. 
 
