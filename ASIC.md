@@ -4,7 +4,7 @@ Overview of state of integration between rusEFI and all kinds of ASICs.
 
 # Low side+
 
-## Mostly implemented
+### Mostly implemented
 
 | Part | Function | Notes |
 |------|----------|--------------|
@@ -14,7 +14,7 @@ Overview of state of integration between rusEFI and all kinds of ASICs.
 | MC33810  | 4 low + 4 ignition pre-drivers |   |
 |   |   |   |
 
-## Mostly not implemented
+### Mostly not implemented
 
 | Part | Function | Notes |
 |------|----------|--------------|
@@ -30,7 +30,7 @@ Overview of state of integration between rusEFI and all kinds of ASICs.
 
 # Misc
 
-## Implemented but known limitations
+### Implemented but known limitations
 
 | Part | Function | Known issues |
 |------|----------|--------------|
