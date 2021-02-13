@@ -1,6 +1,6 @@
 # Connector Pinout
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/main.html)
+[Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)
 
 ![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
 

@@ -16,7 +16,7 @@ pin closer to the engine is +12v
 
 pin further away from the engine signal
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen72/main.html)
+[Hellen72 Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen72/)
 
 | desc       | type   | rusEfi harness |
 | ---------- | ------ | -------------- |
