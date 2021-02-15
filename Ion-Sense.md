@@ -31,5 +31,9 @@ Background on mazda skyactiv coil on plug  https://www.hexorcism.com/16ND/sh1308
 
 bmw M5 ionic control module... for reference... we do not use this  --  
 
+AndreiKA latest---
+https://rusefi.com/forum/viewtopic.php?p=34988#p34988 https://rusefi.com/forum/viewtopic.php?p=35035#p35035
+
+
 Simon latest---  Hooked up the Ion board to the R50 coil, connected the lot to a test MRE and will attempt to run a spark with the ion board connected and check the voltages produced, might try to scope the ion output to see if we get some kind of output.
 If I need to I will play a flame over the plug while sparking to have something to pass the ions.

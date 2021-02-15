@@ -1,5 +1,8 @@
 #
 # ACCESS_TOKEN - Personal Access Token with "public_repo" permission
+# If there is a change to rusefi/rusefi_documentation, this action merges it to rusefi/rusefi/wiki
+#
+# the opposite merge is implemented as https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml
 #
 
 name: Sync Wiki

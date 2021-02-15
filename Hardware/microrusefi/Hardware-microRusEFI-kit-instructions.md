@@ -128,3 +128,6 @@ J7 header in bottom-left corner of microRusEFI allows direct SWD programming usi
 Tag Connect In circuit Cable "NO Legs" Version
 
 ![x](Hardware/microrusefi/TC2030_SWD.jpg)
+
+### Note - Missing wire caps  
+In the even of a missing wire cap on the molex plug the correct part number is 64320-1301 and these can be easily sourced online  

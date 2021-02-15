@@ -69,7 +69,7 @@ If your particular feature needs don't happen to spark enough interest with the 
  
 ## Adventure 4: I have only the discovery board. What can I do?
 
-If you only have 'naked' stm32f4 board it's recommended to ground the folling pins in order to not get funny EMI handling:
+If you only have 'naked' STM32F407G-DISC1 stm32f4 board it's recommended to ground the folling pins in order to not get funny EMI handling:
 PC10, PC11, PC6 & PA5
 
 ### You can experiment and learn the tuning software

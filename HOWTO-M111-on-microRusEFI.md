@@ -5,6 +5,15 @@ https://rusefi.com/forum/viewtopic.php?t=1692
 
 ![x](oem_docs/Mercedes/mercedes_170.png)
 
+# 97 C230
+
+![x](oem_docs/Mercedes/1997_c230_1.png)
+
+![x](oem_docs/Mercedes/1997_c230_2.png)
+
+![x](oem_docs/Mercedes/1997_c230_3.png)
+
+
 # 99 SLK230
 
 ![x](oem_docs/Mercedes/99_SLK230_1.png)
@@ -12,6 +21,15 @@ https://rusefi.com/forum/viewtopic.php?t=1692
 ![x](oem_docs/Mercedes/99_SLK230_2.png)
 
 ![x](oem_docs/Mercedes/99_SLK230_3.png)
+
+# 2002 C230
+
+![x](oem_docs/Mercedes/2002_c230_1.png)
+
+![x](oem_docs/Mercedes/2002_c230_2.png)
+
+![x](oem_docs/Mercedes/2002_c230_3.png)
+
 
 
 # W202 C180 M111.921 with ME2.1

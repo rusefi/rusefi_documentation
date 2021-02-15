@@ -30,7 +30,7 @@ you could actually run it with general purpose pwm pretty easily
 
 ## 88 pin Motronic pinouts 
 
-https://docs.google.com/spreadsheets/d/1OiEaak7TElKwF-fXWvl9Dk-fD84a0NENe6lOwhXiOe4/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1OiEaak7TElKwF-fXWvl9Dk-fD84a0NENe6lOwhXiOe4/
 
 
 
