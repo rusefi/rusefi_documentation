@@ -1,5 +1,11 @@
 Hellen81 is an ultracompact and cheap yet full-functional 8-Cylinder ECU board compatible with 81-pin M7.9.7/ME7.9.7/ME7.8.8/Yanvar7.2/Micas10.3.
 
+The board is NOT compatible with 121-pin VAG ME7.x vehicles! For VAG, please see [Hellen121vag](https://github.com/rusefi/rusefi/wiki/Hellen121VAG).
+
+
+***
+
+
 The board is a part of Hellen-One family and currently is in "**work in progress**" state, meaning **NOT fabricated or tested yet**!
 ### Please do not use the gerber files, the board is not ready yet!
 
@@ -9,10 +15,13 @@ Key features:
 * 20 analog inputs, 3 digital inputs, VR sensor;
 * USB-mini, CAN, K-Line, microSD, accelerometer;
 
-Pinout:
-https://docs.google.com/spreadsheets/d/e/2PACX-1vSg41St_69moQ2rh92Mo4bStP-pNEcl9Qb2QOHikwrR-RgWGXKjmL9DsMgeUy9ewP8MYs3RSP3EftIc/pubhtml
+The gerber files and schematics:
+https://github.com/andreika-git/hellen81/
 
 iBOM:
 https://rusefi.com/docs/ibom/hellen81-a-ibom.html
+
+Pinout table:
+https://docs.google.com/spreadsheets/d/e/2PACX-1vSg41St_69moQ2rh92Mo4bStP-pNEcl9Qb2QOHikwrR-RgWGXKjmL9DsMgeUy9ewP8MYs3RSP3EftIc/pubhtml
 
 ![3D-rendered board view](https://raw.githubusercontent.com/andreika-git/hellen81/master/boards/hellen81-a/board/hellen81-a.png)
