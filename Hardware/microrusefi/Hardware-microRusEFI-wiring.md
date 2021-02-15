@@ -1,5 +1,7 @@
 # Connector Pinout
 
+[Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)
+
 ![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
 
 ![microRusEfi photo](Hardware/microrusefi/Hardware_microRusEfi_connector.jpg)
@@ -9,63 +11,6 @@ Rear side of PCB
 ![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_3_PCB_pinout.png)
 
 ![x](Hardware/microrusefi/microRusEfi_connectors/MRE_reality.jpg)
-
-# Pin Descriptions
-
-Left/right while looking from wires to plug, with white on top
-
-Each pin has a *Type ID*, which can be used to look up in the following tables what the pin is for, and what functions it can perform.
-
-| Pin Number | Name     | Type ID | Default function                                     | rusEFI pigtail color |
-| ----------:|:-------- | ------- |:---------------------------------------------------- | :-------- |
-| 1  | **12V**          | 12V     | 12V supply from main relay output, see also pin #29  | white right |
-| 2  | **GND**          | pgnd    | Power GND                                      | white |
-| 3  | **Lowside 2**    | ls      | Idle solenoid                                  | white |
-| 4  | **ETB+**         | etb     | ETB+                                           | white |
-| 5  | **12V**          | 12V     | 12V supply from Key (turn on/off power)        | black |
-| 6  | **GND**          | pgnd    | Power GND                                      | black |
-| 7  | **Lowside 1**    | ls      | VVT                                            | black |
-| 8  | **ETB-**         | etb     | ETB-                                           | black |
-| 9  | **Ignition 1**   | ign     | Ignition 1                                     | dark blue |
-| 10 | **Ignition 2**   | ign     | Ignition 2                                     | dark blue |
-| 11 | **Ignition 3**   | ign     | Ignition 3                                     | dark blue |
-| 12 | **Ignition 4**   | ign     | Ignition 4                                     | dark blue |
-| 13 | **GP out 6**     | gp_high | Alternator (see JP2 jumper note)               | yellow |
-| 14 | **GP out 5**     | gp_high |            (see JP2 jumper note)               | yellow |
-| 15 | **USB D-**       | usb     | USB white wire https://youtu.be/4v2VnP-YdlQ                                | yellow |
-| 16 | **USB D+**       | usb     | USB green wire https://youtu.be/4v2VnP-YdlQ                                | yellow |
-| 17 | **GND**          | sgnd    | Signal GND                                     | red right |
-| 18 | **AN Temp 1**    | at      | CLT sensor                                     | red |
-| 19 | **AN Volt 4**    | av      | **Starting from version 0.5.0 this pin can be used as 5V input for USB connection through main connector (No need to open case to access micro-USB connector)** | red |
-| 20 | **AN Volt 5**    | av      | Throttle position sensor (TPS)                 | red left |
-| 21 | **GND**          | sgnd    | Signal GND                                     | dark green |
-| 22 | **AN Temp 4**    | at      |                                                | dark green |
-| 23 | **AN Temp 2**    | at      | IAT sensor                                     | dark green |
-| 24 | **AN Temp 3**    | at      |                                                | dark green |
-| 25 | **Cam (hall)**   | hall    |                                                | light blue right |
-| 26 | **AN Volt 2**    | av      |                                                | light blue |
-| 27 | **AN Volt 1**    | av      | MAP sensor                                     | light blue |
-| 28 | **AN Volt 10**   | av      |                                                | light blue left |
-| 29 | **Main relay**   | mr      | Main relay control signal (low side)           | pink right |
-| 30 | **AN Volt 7**    | av      |                                                | pink |
-| 31 | **AN Volt 3**    | av      | Throttle Pedal Position Sensor (PPS)           | pink |
-| 32 | **AN Volt 6**    | av      | External wideband O2 sensor                    | pink |
-| 33 | **GP out 3**     | gp_low (gp_pp)  | (IDLE stepper coil 2+)                 | orange right |
-| 34 | **GP out 2**     | gp_low (gp_pp)  | Fan relay (IDLE stepper coil 1-)       | orange |
-| 35 | **GP out 1**     | gp_low (gp_pp)  | Fuel pump relay (IDLE stepper coil 1+) | orange |
-| 36 | **AN Volt 8**    | av      |                                                | orange left |
-| 37 | **Injector 1**   | inj     | Injector 1                                     | grey right |
-| 38 | **Injector 2**   | inj     | Injector 2                                     | grey |
-| 39 | **5V Sensor 2**  | 5v      | MAP sensor supply                              | grey |
-| 40 | **AN Volt 9**    | av      |                                                | grey |
-| 41 | **Injector 3**   | inj     | Injector 3                                     | brown right |
-| 42 | **Injector 4**   | inj     | Injector 4                                     | brown |
-| 43 | **GP out 4**     | gp_low (gp_pp)  | (IDLE stepper coil 2+)                 | brown |
-| 44 | **5V Sensor 1**  | 5v      | TPS sensor supply                              | brown left |
-| 45 | **VR+/Hall**     | vr/hall | Crank VR+/hall                                 | light green right |
-| 46 | **VR-**          | vr      | Crank VR- (do not connect if hall)             | light green |
-| 47 | **CAN low**      | can     | CAN bus                                        | light green |
-| 48 | **CAN high**     | can     | CAN bus                                        | light green |
 
 In some cases without "main relay output +12v" both pins #1 and #5 should be connected to the single source of +12v.
 
@@ -171,6 +116,8 @@ J4:
 | 10 | PC12 | SPI3_MOSI or USART3_CK or UART5_TX
 | 7 | PA15 | SPI3_NSS (Chip Select)
 
+[J2 Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/main.html)
+
 Three GPIOs are available on J2 (SWD) connector. If you are not going to use debuger J2 connector can be used for other purposes.
 | N | Name | Possible functions (not all listed!) |
 |----|-------------| ---- |
@@ -185,7 +132,8 @@ Three GPIOs are available on J2 (SWD) connector. If you are not going to use deb
 For HW version 0.5.0 and newer some additional GPIOs are available on testpoints around STM32.
 
 ![x](Hardware/microrusefi/J8_9_10.png)
-Please refer to PCB layout for exact positions of this testpoints (no silk refdefs on PCB).
+
+[Testpoint Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/pads.html)
 
 | Tespoint | GPIO | Possible functions (not all listed!) |
 |----|-------------| ---- |
