@@ -1,5 +1,3 @@
-# Proteus v0.3 Pinout & Wiring
-
 
 ## [Interactive Pinout](https://rusefi.com/docs/pinouts/proteus/)
 
