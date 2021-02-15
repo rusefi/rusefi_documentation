@@ -74,7 +74,7 @@ If you want to install an external MAP sensor, like a GM 3 bar sensor for exampl
 
 ## 3.3. TPS
 NA6 Miata with manual gearbox come with a throttle position switch that can recognize two positions- idle (closed) and full throttle. This works good enough, but if you really want to fine tune your engine, you may want to use an actual throttle position sensor. There are several popular options on how to achieve this. Either use a TPS from an automatic NA6 Miata. these do seem, however, be hard to get by these days. You can install an aftermarket throttle body with TPS, or you can install a TPS from a Kia (part numbers are 0K01118911, 0K24718911, 0K30A18911, TH291, 5S5504, TPS4185, TH0254, 1580486, 2001332). You need an adapter for this. The design can be found here [Mazda NA6 Miata variable TPS mount](https://www.thingiverse.com/thing:3414132)
-Instructions on how to jumper the board for these configurations will be updated later. 
+Instructions on how to jumper the board for these configurations will be updated later. For now https://rusefi.com/forum/viewtopic.php?f=16&t=1908 
 
 # 4. Connections
 Expansions usually require some wiring. The standard pinout for the connector in NA6 configuration is this below.
@@ -162,6 +162,35 @@ microRusEFI should be set for Hall
 | 3X  | JP50 | White/Blue       | purge solenoid valve control | Output                                |
 | 3Y  | JP51 | \*               | \*                           | \*                                    |
 | 3Z  | JP52 | A/T control unit |                              |                                       |
+
+# Jumpers
+
+| #   |       |                  |                              |                                       |
+| --- | ----- | ---------------- | ---------------------------- | ------------------------------------- |
+|   	| |		93-	| 94+ | 			
+|JP1	|	AC Fan 94+	| N| 	Y |			
+JP2		|AC fan 93-	|Y	|N |			
+JP3		|TPS 93-	|Y	|N			
+JP4		|TPS 94+	|N	|Y			
+JP54	2I	| Tach out	|N	|N|	Used with aftermarket coils		
+JP55	2I	|Tach pullup	|Y	|Y	|Used with stock coils		
+JP56	1M	| Pullup VSS	|N	|Y?	| Untested		
+|JP53		INJ4 |sequ	|N|	Y |			
+JP57		INJ3 |sequ	|N	|Y			
+JP58		INJ3| parallel	|Y|	N			
+JP59		INJ4| parallel	|Y|	N			
+							
+							
+| #   |       |                  |                              |                                       |
+| --- | ----- | ---------------- | ---------------------------- | ------------------------------------- |
+|		|	93-	|94+|	93-	|94+	|Notes
+JP8		USB_D-	| Y| 	Y	|Diag Conn	|Diag Conn	 |
+JP10		USB_PWR_AV4|	Y	|Y|	Diag Conn	*	
+JP14		AC_OUT|	Y	|Y			
+JP34		USB D+	|Y|	Y	|Short Conn	| Diag Conn	
+JP36		CAN_H|	Y	|N	|*	|EGR Sensor	
+JP44		USB GND|	Y|	N|	*|	Press. Reg. vlv	
+JP50	2X	CAN_L|	Y	|N|	Purg Sol. Vlv|	Purg Sol. Vlv	
 
 
 [Schematics 0.4](Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.4.pdf)

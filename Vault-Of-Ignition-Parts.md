@@ -9,6 +9,14 @@
 ### Dumb coils
 * BMW M50 coils - Tested and working with VW ignition module
 
+![x](oem_docs/Bmw/bmw_dumb_coil.png)
+
+Pin #1 "15" is +12V
+
+Pin #2 "4a" Body GND
+
+Pin #3 "Negative" from igniter
+
 * OEM B-series Honda Single coil for distributor used with the OEM ignition module, 3-4ms dwell
 
 ---

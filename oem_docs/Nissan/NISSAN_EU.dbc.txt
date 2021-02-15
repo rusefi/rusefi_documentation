@@ -1,0 +1,818 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYNNNNNNNNNN/4/%%%/4/'%**4NNN///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_: USM METER IT_DISPLAY I_KEY GATEWAY EPS ECM CONSULT BCM
+VAL_TABLE_ VtEv_coFOBControl ;
+
+
+BO_ 2000 DiagGlobal: 8 CONSULT
+
+BO_ 1900 SmartToConsult: 8 I_KEY
+ SG_ DiagnosisFromI_KEY : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1868 ConsultToSmart: 8 CONSULT
+
+BO_ 1837 SMART_TO_IT: 8 I_KEY
+ SG_ SmartToIT : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1821 IT_TO_SMART: 8 IT_DISPLAY
+ SG_ ItToSmart : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1666 BCM_WakeUpFrame: 1 BCM
+ SG_ WakeUp : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1664 I_KEYWakeUpFrame: 1 I_KEY
+ SG_ I_KEYWakeUpFrame : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1573 USM_GeneralStatus: 6 USM
+ SG_ Dongle_Command_USM : 34|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Dongle_ID_USM : 32|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ IgnitionSupplyConfirmation : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ USM_WakeUpSleepReq : 26|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ USM_RefusetoSleep : 24|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BatteryVoltage : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ APCLineStatus : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FrontWiperStopPosition : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1549 BCM_GeneralStatus: 8 BCM
+ SG_ HeaterUnitSetpointFreeze : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HeadLampWasherSelection : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RearGearEngaged_84 : 52|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EngineCoolantTemp_84 : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ExternalTemp_84 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BuzzerRequest : 24|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DoorLockingState : 19|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RearFogLightStatus_84 : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HeadLampsWasherRequest : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FlashingIndicatorStatus : 13|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HighBeamRequest : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FrontFogLightsRequest : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BackDoor : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RearRightDoor : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RearLeftDoor : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FrontRightDoor : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FrontLeftDoor : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PositionLightRequest : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LowBeamRequest : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ResetInfo_BCM_84 : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1508 EPS_GeneralStatus: 3 EPS
+ SG_ Dongle_Command_EPS : 14|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Dongle_ID_EPS : 8|6@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1477 CLUSTER_GeneralStatus: 8 Vector__XXX
+ SG_ Cluster_WakeUpSleepReq : 42|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Cluster_RefusetoSleep : 6|2@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1361 ECM_GeneralStatus: 7 ECM
+ SG_ DiagMuxOn_84 : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EngineCoolantTemp_84 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1297 ECM_Verlog: 7 ECM
+ SG_ DataID511 : 8|48@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EngProt : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SkeyReq : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CodeData511 : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1280 ImmobilizerOrVerlog: 5 I_KEY
+ SG_ SoftwareLockValue_84 : 8|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Reserved : 5|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CSKey : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SkeyResp : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CodeData500 : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Preset : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HiLowKey : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1102 DummyMess3: 8 IT_DISPLAY
+
+BO_ 1101 DummyMess2: 8 ECM
+
+BO_ 861 BCM_SystemControl: 8 BCM
+ SG_ SunlightIntensity : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ATPowerLatch_84 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ VehicleRunning : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CloseActiveBrakeSwitch_BCM : 36|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TunnelDetected : 32|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Dongle_Command_BCM : 29|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ElectricalPowerDrived : 24|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FrontWipingRequest : 21|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Dongle_ID_BCM_2 : 17|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Dongle_ID_BCM_ : 10|6@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BCM_WakeUpSleepCmd_S_SLEEP_REQ : 8|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ IGNandSTARTER_REQ : 6|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ IdleSpeedIncrease : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RearDefrostRequest : 1|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ClimateCoolingRequest_84 : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 856 BCMMSG1: 8 BCM
+ SG_ BCMtoSmartIDInformation : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ S_SECODE_CLEAR : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SMART_SEC_OK : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ChalengeStandByToSEC : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ResponseToSmart : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CAL_REQ : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ REG_INF : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OtherDoorLock : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DrDoorLock : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AlarmState : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RAPState : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AntiHijackModeChange : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DrDoorActrOperateInfo : 27|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OtherDoorActrOperateInfo : 25|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OperateActrFromSmart : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ TrunkStatus : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HornCharp : 6|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ KeylessCodeNo : 1|3@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 853 CLUSTER_BasicInfo_2: 7 Vector__XXX
+ SG_ VehicleSpeed_CLUSTER : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 852 Brake_GeneralData: 8 Vector__XXX
+ SG_ VehicleSpeed_84 : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 849 SMART_bcmMSG: 8 I_KEY
+ SG_ HornChirp : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AnswerBackNum : 61|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PushSw : 60|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PermitCranking : 59|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AnswerBackSpeed : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Relay : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SuperLock : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ KeyWarningBuzzer : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ID_OKFlag : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ChallengeStandbySECtoBCM : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AcceptBackDoorOpenSW : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FOBRegistrationNoInfomation : 49|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PanicRequest : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FlickKnob : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FlickKey : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Buz2 : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Buz1 : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PInd : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ KnobInd : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlueInd : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RedInd : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PassangerWindowDownReq : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PanicArarmReq : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ModeChangeReq : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PowerSlideSwOnReq : 35|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PRDSwOn : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PassengerWindowMoveReverce : 32|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ChallRes2byteData : 16|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LockUnlockTrunkOpenReq : 14|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BlueRedLampReq : 12|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ StarterCutRelayOnReq : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Registration : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AntiHijackInfo : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ChalengetoBCM : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BuzzerRequest : 6|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Smart_RefusetoSleepReq : 4|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Smart_WakeUpReq : 2|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AllDoorsUnlockReq : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NotAnswerback : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 819 DummyMess1: 8 BCM
+
+BO_ 640 CLUSTER_BasicInfo_1: 8 METER
+ SG_ VehicleSpeed : 39|16@0+ (0.01,0) [0|65535] "[km/h]" Vector__XXX
+ SG_ Dongle_Command_CLUSTER : 22|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Dongle_ID_CLUSTER : 16|6@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 593 ATMSG1: 8 METER
+ SG_ P_Position : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 533 USM_FastFrame: 6 Vector__XXX
+ SG_ RearGearEngaged_84_USM : 14|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AlternatorLoad_84 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 505 ECM_SystemControl: 5 ECM
+ SG_ EngineRPM : 23|16@0+ (0.01,0) [0|65535] "[rpm]" Vector__XXX
+ SG_ MaxMechanicalPowerAllowed_84 : 8|5@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ EngineStatus_84 : 4|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ElectricalPowerCut_Freeze_84 : 0|2@1+ (1,0) [0|0] ""  BCM
+
+BO_ 273 test: 8 CONSULT
+
+
+EV_ coRead_Mission_Type: 0 [0|1] "" 0 296 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus21: 0 [0|2] "" 0 295 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coMission_Type: 0 [0|1] "" 0 294 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deECCS_Challenge: 0 [0|1] "" 0 1 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deBusEcmStop: 0 [0|1] "" 1 2 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deBusMetStop: 0 [0|1] "" 1 3 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deBusBcmStop: 0 [0|1] "" 1 4 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deECCS_Prot: 0 [0|1] "" 1 5 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deECCS_SkeyReq: 0 [0|1] "" 0 6 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deSet: 0 [0|1] "" 0 7 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imC_APV_6: 0 [0|255] "" 232 8 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imC_APV_5: 0 [0|255] "" 246 9 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imC_APV_4: 0 [0|255] "" 31 10 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imC_APV_3: 0 [0|255] "" 52 11 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imC_APV_2: 0 [0|255] "" 109 12 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ veMenu: 0 [0|5] "" 0 13 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ veMarket: 0 [0|6] "" 3 14 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ veGlassHatch: 0 [0|1] "" 0 15 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ veBackTrunk: 0 [0|1] "" 0 16 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sysSw: 0 [0|1] "" 0 17 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys9: 0 [0|255] "" 0 18 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys8: 0 [0|255] "" 0 19 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys7: 0 [0|255] "" 0 20 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys6: 0 [0|255] "" 0 21 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys5: 0 [0|255] "" 0 22 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys4: 0 [0|255] "" 0 23 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys3: 0 [0|255] "" 0 24 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys24: 0 [0|255] "" 0 25 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys23: 0 [0|255] "" 0 26 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys22: 0 [0|255] "" 0 27 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys21: 0 [0|255] "" 0 28 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys20: 0 [0|255] "" 0 29 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys2: 0 [0|255] "" 0 30 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys19: 0 [0|255] "" 0 31 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys18: 0 [0|255] "" 0 32 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys17: 0 [0|255] "" 0 33 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys16: 0 [0|255] "" 0 34 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys15: 0 [0|255] "" 0 35 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys14: 0 [0|255] "" 0 36 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys13: 0 [0|255] "" 0 37 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys12: 0 [0|255] "" 0 38 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys11: 0 [0|255] "" 0 39 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys10: 0 [0|255] "" 0 40 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ sys1: 0 [0|255] "" 0 41 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imPlantEnter: 0 [0|1] "" 0 42 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imMenu: 0 [0|18] "" 0 43 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imDataMoniSw3: 0 [0|1] "" 0 44 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imDataMoniSw2: 0 [0|1] "" 0 45 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imDataMoniSw1: 0 [0|1] "" 0 46 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ imC_APV_1: 0 [0|255] "" 213 47 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE59: 0 [0|255] "" 0 48 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE58: 0 [0|255] "" 0 49 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE57: 0 [0|255] "" 0 50 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE56: 0 [0|255] "" 0 51 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE55: 0 [0|255] "" 0 52 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE54: 0 [0|255] "" 0 53 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE53: 0 [0|255] "" 0 54 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE52: 0 [0|255] "" 0 55 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE51: 0 [0|255] "" 0 56 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE50: 0 [0|255] "" 0 57 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE49: 0 [0|255] "" 0 58 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE48: 0 [0|255] "" 0 59 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE47: 0 [0|255] "" 0 60 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE46: 0 [0|255] "" 0 61 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE45: 0 [0|255] "" 0 62 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE44: 0 [0|255] "" 0 63 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE43: 0 [0|255] "" 0 64 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE42: 0 [0|255] "" 0 65 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE41: 0 [0|255] "" 0 66 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE40: 0 [0|255] "" 0 67 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE39: 0 [0|255] "" 0 68 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE38: 0 [0|255] "" 0 69 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE37: 0 [0|255] "" 0 70 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE36: 0 [0|255] "" 0 71 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE35: 0 [0|255] "" 0 72 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE34: 0 [0|255] "" 0 73 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE33: 0 [0|255] "" 0 74 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE32: 0 [0|255] "" 0 75 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE31: 0 [0|255] "" 0 76 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE30: 0 [0|255] "" 0 77 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE29: 0 [0|255] "" 0 78 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE28: 0 [0|255] "" 0 79 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE27: 0 [0|255] "" 0 80 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE26: 0 [0|255] "" 0 81 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE25: 0 [0|255] "" 0 82 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE24: 0 [0|255] "" 0 83 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE23: 0 [0|255] "" 0 84 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE22: 0 [0|255] "" 0 85 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE21: 0 [0|255] "" 0 86 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE20: 0 [0|255] "" 0 87 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE19: 0 [0|255] "" 0 88 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE18: 0 [0|255] "" 0 89 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE17: 0 [0|255] "" 0 90 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE16: 0 [0|255] "" 0 91 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE15: 0 [0|255] "" 0 92 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE14: 0 [0|255] "" 0 93 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE13: 0 [0|255] "" 0 94 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE12: 0 [0|255] "" 0 95 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE11: 0 [0|255] "" 0 96 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE10: 0 [0|255] "" 0 97 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE09: 0 [0|255] "" 0 98 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE08: 0 [0|255] "" 0 99 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE07: 0 [0|255] "" 0 100 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE06: 0 [0|255] "" 0 101 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE05: 0 [0|255] "" 0 102 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE04: 0 [0|255] "" 0 103 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE03: 0 [0|255] "" 0 104 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE02: 0 [0|255] "" 0 105 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DMBYTE01: 0 [0|255] "" 0 106 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM27: 0 [0|1] "" 0 107 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM26: 0 [0|1] "" 0 108 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM25: 0 [0|1] "" 0 109 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM24: 0 [0|1] "" 0 110 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM23: 0 [0|1] "" 0 111 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM22: 0 [0|1] "" 0 112 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM21: 0 [0|1] "" 0 113 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM20: 0 [0|1] "" 0 114 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM19: 0 [0|1] "" 0 115 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM18: 0 [0|1] "" 0 116 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM17: 0 [0|1] "" 0 117 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM16: 0 [0|1] "" 0 118 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM15: 0 [0|1] "" 0 119 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM14: 0 [0|1] "" 0 120 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM13: 0 [0|1] "" 0 121 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM12: 0 [0|1] "" 0 122 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM11: 0 [0|1] "" 0 123 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM10: 0 [0|1] "" 0 124 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM09: 0 [0|1] "" 0 125 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM08: 0 [0|1] "" 0 126 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM07: 0 [0|1] "" 0 127 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM06: 0 [0|1] "" 0 128 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM05: 0 [0|1] "" 0 129 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM04: 0 [0|1] "" 0 130 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM03: 0 [0|1] "" 0 131 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM02: 0 [0|1] "" 0 132 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ I_DM01: 0 [0|1] "" 0 133 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWarningClear: 0 [0|1] "" 0 134 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWarn_P: 0 [0|0] "" 0 135 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWarn_KnobFlick: 0 [0|0] "" 0 136 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWarn_Knob: 0 [0|1] "" 0 137 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWarn_KeyRed: 0 [0|1] "" 0 138 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWarn_KeyFlick: 0 [0|0] "" 0 139 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWarn_KeyBlue: 0 [0|1] "" 0 140 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWarn_buz2: 0 [0|0] "" 0 141 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWarn_buz1: 0 [0|0] "" 0 142 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deWakeSleep: 0 [0|1] "" 1 143 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deVirtualBCM: 0 [0|1] "" 1 144 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ dePPosi: 0 [0|1] "" 0 145 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deOperateOther: 0 [0|2] "" 0 146 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deOperateDR: 0 [0|2] "" 0 147 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deOperateActr: 0 [0|1] "" 0 148 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deMeterSpeed_Float: 1 [0|65535] "" 0 149 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deMeterSpeed: 0 [0|65535] "[km/h]" 0 150 DUMMY_NODE_VECTOR0  METER;
+
+EV_ deLOCK_UNLOCK: 0 [0|4] "" 0 151 DUMMY_NODE_VECTOR0  BCM;
+
+EV_ deLampSync: 0 [0|1] "" 1 152 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ defSpeedMode: 0 [0|1] "" 0 153 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deEngRot_Float: 1 [0|65535] "" 0 154 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deEngRot: 0 [0|65535] "[rpm]" 0 155 DUMMY_NODE_VECTOR0  I_KEY;
+
+EV_ deDR_Trunk: 0 [0|1] "" 0 156 DUMMY_NODE_VECTOR0  BCM;
+
+EV_ deDR_FrontRight: 0 [0|1] "" 0 157 DUMMY_NODE_VECTOR0  BCM;
+
+EV_ deDR_FrontLeft: 0 [0|1] "" 0 158 DUMMY_NODE_VECTOR0  BCM;
+
+EV_ deDR_BackRight: 0 [0|1] "" 0 159 DUMMY_NODE_VECTOR0  BCM;
+
+EV_ deDR_BackLeft: 0 [0|1] "" 0 160 DUMMY_NODE_VECTOR0  BCM;
+
+EV_ deDoorState6: 0 [0|1] "" 0 161 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deDoorState5: 0 [0|1] "" 0 162 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deDoorState4: 0 [0|1] "" 0 163 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deDoorState3: 0 [0|1] "" 0 164 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deDoorState2: 0 [0|1] "" 0 165 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deDoorState1: 0 [0|1] "" 0 166 DUMMY_NODE_VECTOR0  BCM;
+
+EV_ deAnsBackLight: 0 [0|1] "" 0 167 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ deAcceptBackDoor: 0 [0|1] "" 0 168 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCustomizeSet: 0 [0|34] "" 0 169 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus9: 0 [0|4] "" 0 170 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus8: 0 [0|1] "" 0 171 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus7: 0 [0|1] "" 0 172 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus6: 0 [0|1] "" 0 173 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus5: 0 [0|1] "" 0 174 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus4: 0 [0|1] "" 0 175 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus20: 0 [0|1] "" 0 176 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus2: 0 [0|1] "" 0 177 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus19: 0 [0|2] "" 0 178 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus18: 0 [0|1] "" 0 179 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus17: 0 [0|1] "" 0 180 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus16: 0 [0|2] "" 0 181 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus15: 0 [0|2] "" 0 182 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus14: 0 [0|2] "" 0 183 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus13: 0 [0|2] "" 0 184 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus12: 0 [0|4] "" 0 185 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus11: 0 [0|1] "" 0 186 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus10: 0 [0|2] "" 0 187 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coUserCus1: 0 [0|1] "" 0 188 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coTrunkOpenDelay: 0 [0|2] "" 0 189 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coTPSending: 0 [0|1] "" 0 190 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coSystemIDSw: 0 [0|1] "" 0 191 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coSTRGCont: 0 [0|12] "" 0 192 DUMMY_NODE_VECTOR3 Vector__XXX;
+
+EV_ coSendingFrame2: 0 [0|1] "" 0 193 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coPowSlideDelay: 0 [0|2] "" 0 194 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coPowDownDelay: 0 [0|2] "" 0 195 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coPanicAlarmDelay: 0 [0|2] "" 0 196 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM57: 0 [0|1] "" 0 197 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM56: 0 [0|1] "" 0 198 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM40to47: 1 [0|65535] "" 0 199 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM37: 0 [0|1] "" 0 200 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM36: 0 [0|1] "" 0 201 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM35: 0 [0|1] "" 0 202 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM34: 0 [0|1] "" 0 203 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM33: 0 [0|1] "" 0 204 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM32: 0 [0|1] "" 0 205 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM31: 0 [0|1] "" 0 206 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM30: 0 [0|1] "" 0 207 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM27: 0 [0|1] "" 0 208 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM26: 0 [0|1] "" 0 209 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM25: 0 [0|1] "" 0 210 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM24: 0 [0|1] "" 0 211 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM23: 0 [0|1] "" 0 212 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM22: 0 [0|1] "" 0 213 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM21: 0 [0|1] "" 0 214 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM20: 0 [0|1] "" 0 215 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM17: 0 [0|1] "" 0 216 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM16: 0 [0|1] "" 0 217 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM15: 0 [0|1] "" 0 218 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM14: 0 [0|1] "" 0 219 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM13: 0 [0|1] "" 0 220 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM12: 0 [0|1] "" 0 221 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM11: 0 [0|1] "" 0 222 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coODM10: 0 [0|1] "" 0 223 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coMonitor: 0 [0|15] "" 0 224 DUMMY_NODE_VECTOR3 Vector__XXX;
+
+EV_ coModeChange: 0 [0|12] "" 0 225 DUMMY_NODE_VECTOR3  CONSULT;
+
+EV_ coMO42: 0 [0|1] "" 0 226 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coHazardAnsBack: 0 [0|3] "" 3 227 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coFOBID_MEMNon: 0 [0|0] "" 0 228 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coFOBID_MEM4: 0 [0|0] "" 0 229 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coFOBID_MEM3: 0 [0|0] "" 0 230 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coFOBID_MEM2: 0 [0|0] "" 0 231 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coFOBID_MEM1: 0 [0|1] "" 0 232 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coFOBForSup: 0 [0|1] "" 0 233 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coFOBControl: 0 [0|12] "" 0 234 DUMMY_NODE_VECTOR3 Vector__XXX;
+
+EV_ coErrorState: 0 [0|4] "" 0 235 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coErasePosi: 0 [0|5] "" 5 236 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coEntryResult: 0 [0|2] "" 0 237 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDMSw: 0 [0|1] "" 0 238 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDMSet: 0 [0|1] "" 0 239 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDMRenewalSpeed: 0 [100|5000] "" 100 240 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM9: 0 [0|1] "" 0 241 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM65: 1 [0|65535] "" 0 242 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM6: 0 [0|1] "" 0 243 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM59: 0 [0|1] "" 0 244 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM58: 0 [0|1] "" 0 245 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM57: 0 [0|1] "" 0 246 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM55: 0 [0|2] "" 0 247 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM53: 0 [0|3] "" 0 248 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM51: 0 [0|3] "" 0 249 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM5: 0 [0|1] "" 0 250 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM49: 0 [0|3] "" 0 251 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM44: 0 [0|1] "" 0 252 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM41: 0 [0|1] "" 0 253 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM4: 0 [0|0] "" 0 254 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM39: 0 [0|1] "" 0 255 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM38: 0 [0|0] "" 0 256 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM37: 0 [0|2] "" 0 257 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM36: 0 [0|2] "" 0 258 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM35: 0 [0|1] "" 0 259 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM34: 0 [0|1] "" 0 260 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM33: 0 [0|1] "" 0 261 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM30: 0 [0|1] "" 0 262 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM3: 0 [0|1] "" 0 263 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM29: 0 [0|1] "" 0 264 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM28: 0 [0|1] "" 0 265 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM27: 0 [0|1] "" 0 266 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM26: 0 [0|1] "" 0 267 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM25: 0 [0|1] "" 0 268 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM24: 0 [0|1] "" 0 269 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM23: 0 [0|2] "" 0 270 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM22: 0 [0|1] "" 0 271 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM21: 0 [0|1] "" 0 272 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM20: 0 [0|1] "" 0 273 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM2: 0 [0|1] "" 0 274 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM19: 0 [0|1] "" 0 275 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM18: 0 [0|1] "" 0 276 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM17: 0 [0|1] "" 0 277 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM14: 0 [0|1] "" 0 278 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM13: 0 [0|1] "" 0 279 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coDM12: 0 [0|1] "" 0 280 DUMMY_NODE_VECTOR0  CONSULT;
+
+EV_ coDM11: 0 [0|1] "" 0 281 DUMMY_NODE_VECTOR0  CONSULT;
+
+EV_ coDM10: 0 [0|1] "" 0 282 DUMMY_NODE_VECTOR0  CONSULT;
+
+EV_ coDM1: 0 [0|1] "" 0 283 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coAutoRelockTime: 0 [0|3] "" 3 284 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ coAnsBackSmaLock: 0 [0|3] "" 0 285 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ cNew: 0 [0|0] "" 0 286 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ acSOL: 0 [0|2] "" 0 287 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ acOutBuz: 0 [0|2] "" 0 288 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ acInsBuz: 0 [0|4] "" 0 289 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ acIndicator: 0 [0|7] "" 0 290 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ acDoorStateSet: 0 [0|5] "" 0 291 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ acANT: 0 [0|7] "" 0 292 DUMMY_NODE_VECTOR0 Vector__XXX;
+
+EV_ acActiveComSending: 0 [0|6] "" 0 293 DUMMY_NODE_VECTOR0  I_KEY;
+ENVVAR_DATA_ cNew: 4;
+
+CM_ BU_ I_KEY "SMART KEYLESS UNIT  ( INTELLIGENT UNIT )";
+CM_ BU_ GATEWAY "NISSAN EU GATEWAY FOR S'LOT BCM";
+CM_ BU_ ECM "ENGINE CONTROL MODULE";
+CM_ BU_ BCM "Body Control Module";
+VAL_ coFOBControl 1 "a" ;

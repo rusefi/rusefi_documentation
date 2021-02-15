@@ -86,7 +86,13 @@ Also used on some Mitsubishi
 
 ## GM LS 24x
 
-![GM LS 24](Images/triggers/trigger_27.png)
+![x](Images/triggers/trigger_27.png)
+
+## GM 60/2/2/2
+
+GM/Daewoo Distributor F8CV
+
+![x](Images/triggers/trigger_54.png)
 
 <a name="jeep"/>
 
@@ -113,6 +119,11 @@ Also used on some Mitsubishi
 
 ![x](Images/triggers/trigger_49.png)
 
+## 36/2/2/2
+
+Might also be used on some Nissan and Miata
+
+![36/2/2](Images/triggers/trigger_23.png)
 
 ## Universal skipped wheel
 A basic wheel - assumes equally spaced teeth with a number of missing teeth.
@@ -131,10 +142,6 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 ## One tooth
 
 ![One Tooth](Images/triggers/trigger_18.png)
-
-## 36/2/2
-
-![36/2/2](Images/triggers/trigger_23.png)
 
 ## Dodge Neon 1995
 
@@ -191,6 +198,16 @@ See also [Universal True 60/2](All-Supported-Triggers#universal-true-602)
 1/12 version
 
 ![Toyota 2JZ 1/12](Images/triggers/trigger_29.png)
+
+## TriTach
+
+Some older German vehicles
+
+![x](Images/triggers/trigger_53.png)
+
+## Skoda Favorit
+
+![x](Images/triggers/trigger_55.png)
 
 ## Unknown trigger type
 

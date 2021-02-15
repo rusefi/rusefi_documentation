@@ -20,6 +20,7 @@
 
 # Pages
 - [Fuel](Pages-Fuel)
+    - [Flex Fuel](Flex-Fuel)
 - [Hardware](Pages-Hardware)
 - [Sensors and Actuators](Pages-Sensors-and-Actuators)
 - [Ignition](Pages-Ignition)
@@ -44,14 +45,14 @@
 
 # Hardware
 
-- [rusEfi Hardware Overview](Hardware)
+- [rusEFI Hardware Overview](Hardware)
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
 - [rusEFI Assembly Completeness Chart](Completeness-Chart)
 - [Kit Instructions](Pages-Kit-Instructions)
 
 ### Boards
 
-- [microRusEfi](Hardware-microRusEfi)
+- [microRusEFI](Hardware-microRusEfi)
 - [Proteus](Proteus)
 - [Frankenso](https://rusefi.com/forum/viewtopic.php?f=4&t=569)
 - [Hellen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682)
