@@ -1,4 +1,4 @@
-See also [Honda Accord 1995](Honda Accord 1995)
+See also [Honda Accord 1995](Honda-Accord-1995)
 
 ![Connector Face](Images/Honda_prelude_connector.png)
 

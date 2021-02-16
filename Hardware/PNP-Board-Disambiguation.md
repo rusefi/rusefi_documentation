@@ -4,7 +4,7 @@
 This is our 72 pin MRE board or a Proteus based version, the info on these boards can be found below:
 
 [MRE Version](MREAdapter72)  
-[Proteus Version](ProteusAdaptor72.md)
+[Proteus Version](ProteusAdapter72)
 
 ---
 

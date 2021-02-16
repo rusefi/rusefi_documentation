@@ -10,7 +10,7 @@
 
 [HOWTO program rusEFI using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
-[See also Kit Instructions](Hardware-microRusEfi_kit_instructions)
+[See also Kit Instructions](Hardware-microRusEFI-kit-instructions)
 
 
 ## HOWTO update microRusEFI Firmware

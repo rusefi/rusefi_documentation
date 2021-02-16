@@ -111,7 +111,7 @@ You plug discovery into a powered mini USB cable and discovery is totally dark
 
 ## Scenario: A drop of life
 
-![Weak](Images/weak.png)
+![Weak](Images/weak.jpg)
 
 You plug discovery into a powered mini USB cable and there is bit of light on LD2 but nothing on LD1.
 

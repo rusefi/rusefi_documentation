@@ -28,7 +28,7 @@ Type `enable trigger_details` in rusEfi console to enable verbose synchronizatio
 
 Enable Trigger Counters
 
-![Trigger Counter in Base Engine Settings](Images/trigger_counter.png)
+![Trigger Counter in Base Engine Settings](Images/trigger_counters.png)
 
 Channel #1 counter would be "debug i1" gauge and channel #2 is "debug i2". These values should go up if you are cranking and that confirms that the events are being registered by rusEfi firmware.
 

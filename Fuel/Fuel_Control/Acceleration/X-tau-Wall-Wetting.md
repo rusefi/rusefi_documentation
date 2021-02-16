@@ -64,9 +64,9 @@ Good tuning of the X-tau system relies on taking logs and some trial and error t
 
 # Old info
 
-![config](ww_sample_config.jpg)
+![config](X-tau-Wall-Wetting)
 
-![log](ww_log.jpg)
+![log](./Overview/wall_wetting/wall_wetting_log.jpg)
 
 This is about 1 second worth of log, during a 2-3-4 shift at low-ish RPM, but near wide open throttle. Worst case scenario for AE!
 

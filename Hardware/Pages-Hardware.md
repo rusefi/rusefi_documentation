@@ -30,7 +30,7 @@
 
 * [MRE Manual](microRusEFI-Manual)
 * [MRE main page](Hardware-microRusEFI)
-* [MRE wiring](Hardware_microRusEFI-wiring)
+* [MRE wiring](Hardware-microRusEFI-wiring)
 * [MRE Kit instructions](Hardware-microRusEFI-kit-instructions)
 * [MRE Hardware checks](Hardware-microRusEFI-hardware-checks)
 * [MRE DIY TLDR](microRusEFI-DIY-TLDR)
@@ -57,7 +57,7 @@
 <details><summary><u>Prometheus</u></summary>
 
 * [Prometheus Overview](Hardware-Prometheus)  
-* [Prometheus wiring diagram](Prometeus-wiring-diagram.cdr)
+* [Prometheus wiring diagram](Hardware/Prometheus/Prometheus_wiring_diagram.cdr)
 
 </details>
 
