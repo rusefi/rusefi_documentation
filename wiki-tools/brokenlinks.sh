@@ -23,7 +23,7 @@ searchfile() {
         continue
       else
         echo $link
-        FILES=$(find . -iname "*$(basename $link)*")
+        FILES=$(find . -iname "*$(basename "$link")*")
         if [ $(echo -n "$FILES" | wc -c) -lt 1 ]; then
           echo "Could not find"
           continue
@@ -38,7 +38,7 @@ searchfile() {
       fi
     fi
     echo $link
-    FILES=$(find . -iname "*$(basename $link)*")
+    FILES=$(find . -iname "*$(basename "$link")*")
     if [ $(echo -n "$FILES" | wc -c) -lt 1 ]; then
       echo "Could not find"
       continue
