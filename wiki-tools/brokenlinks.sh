@@ -22,6 +22,7 @@ searchfile() {
       if ls "$link" 2>/dev/null >/dev/null; then
         continue
       else
+        echo "In $1:"
         echo $link
         FILES=$(find . -iname "*$(basename "$link")*")
         if [ $(echo -n "$FILES" | wc -c) -lt 1 ]; then
@@ -37,6 +38,7 @@ searchfile() {
         continue
       fi
     fi
+    echo "In $1:"
     echo $link
     FILES=$(find . -iname "*$(basename "$link")*")
     if [ $(echo -n "$FILES" | wc -c) -lt 1 ]; then
