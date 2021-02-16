@@ -4,15 +4,15 @@
 
 BOSCH MED9.1 ECU P/N 3C0 907 115 F
 
-![x](oem_docs/VW/2006_Passat/B6_ecu_label.jpg)
+![x](./OEM-Docs/VW/2006_Passat/B6_ecu_label.jpg)
 
 Production	2005–2010 (B6)
 
 2.0 Turbo FSI engine code BPY ???
 
-Fuel Rail High Pressure Sensor 0 261 545059 [0261545059](oem_docs/Bosch/0261545006.pdf) 06D906051
+Fuel Rail High Pressure Sensor 0 261 545059 [0261545059](./OEM-Docs/Bosch/0261545006.pdf) 06D906051
 Fuel Rail High Pressure sensor 0 261 545016 0261545016 06J906051D
-0261545053 [Pressure Sensor Fluid PSS-140](oem_docs/Bosch/Bosch-Pressure-Sensor-Fluid-600.pdf)
+0261545053 [Pressure Sensor Fluid PSS-140](./OEM-Docs/Bosch/Bosch-Pressure-Sensor-Fluid-600.pdf)
 
 Fuel Rail Pressure sensor connector 4D0971993
 
@@ -43,7 +43,7 @@ Sensor Power:
 28/60
 37/60
 
-![x](oem_docs/Bosch/connector_154.png)
+![x](./OEM-Docs/Bosch/connector_154.png)
 
 <a name="94"/>
 
@@ -134,37 +134,37 @@ Injector #4: #48/#16
 
 "Early" 5 pages
 
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_1_5.png)
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_2_5.png)
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_3_5.png)
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_4_5.png)
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_early_5_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_1_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_2_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_3_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_4_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_5_5.png)
 
 "Late" 5 pages
 
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_late_1_5.png)
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_late_2_5.png)
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_late_3_5.png)
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_late_4_5.png)
-![ecu1](oem_docs/VW/2006_Passat/2006_passat_2.0t_late_5_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_1_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_2_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_3_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_4_5.png)
+![ecu1](./OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_5_5.png)
 
 
 R17 Starter motor relay
 
 Relay Control wire - RED/BLK
-![x](oem_docs/VW/2006_Passat/ENPassatB6-blok-salon-6.jpg)
+![x](./OEM-Docs/VW/2006_Passat/ENPassatB6-blok-salon-6.jpg)
 
-![x](oem_docs/VW/2006_Passat/starting.png)
+![x](./OEM-Docs/VW/2006_Passat/starting.png)
 
-[The fuel system in FSI engines](oem_docs/VW/2006_Passat/SSP_334_d1.pdf)
+[The fuel system in FSI engines](./OEM-Docs/VW/2006_Passat/SSP_334_d1.pdf)
 
-[Electronically Mapped Cooling System](oem_docs/VW/2006_Passat/VWUSA.COM_SSP_222_Electronically_Mapped_Cooling_System.pdf)
+[Electronically Mapped Cooling System](./OEM-Docs/VW/2006_Passat/VWUSA.COM_SSP_222_Electronically_Mapped_Cooling_System.pdf)
 
 # Transmission
 
-[Aisin TF-60SN Volkswagen transmission code 09G](oem_docs/VW/2006_Passat/automatic_transmission_09G_851503.pdf)
+[Aisin TF-60SN Volkswagen transmission code 09G](./OEM-Docs/VW/2006_Passat/automatic_transmission_09G_851503.pdf)
 
-[Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf](oem_docs/VW/2006_Passat/Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf)
+[Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf](./OEM-Docs/VW/2006_Passat/Aisin-Warner-09G-Electronics-Anatomy-of-Shift-Controls-Rostra-Powertrain-Controls.pdf)
 
 Transmission Input Speed sensor G182 and Output Speed sensor G195 are both Hall.
 
@@ -199,8 +199,8 @@ Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 |     |              |                                       |            |
 
 
-![x](oem_docs/VW/2006_Passat/09G.png)
+![x](./OEM-Docs/VW/2006_Passat/09G.png)
 
-![x](oem_docs/VW/2006_Passat/09G_table.png)
+![x](./OEM-Docs/VW/2006_Passat/09G_table.png)
 
 

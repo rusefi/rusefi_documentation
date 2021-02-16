@@ -14,7 +14,7 @@ Listed for sale with early June deliveries.
 
 [Frankenso](Frankenso) could be set for this pinout using a few dozen jumper wires in the wiring breakout area.
 
-As of May 2020 [Proteus](Proteus) or [Hardware-microRusEfi](Hardware-microRusEfi) could be wired
+As of May 2020 [Proteus](Proteus) or [Hardware-microRusEfi](Hardware-microRusEFI) could be wired
 using [breakout board](https://www.ebay.com/itm/64-pin-ECU-connector-civic-mazda-mx-5-eunos-miata-toyota-with-breakout-PCB/332771650527)
 
 One day we plan to have a microRusEFI adapter for these cars maybe in August 2020?
@@ -23,7 +23,7 @@ One day we plan to have a microRusEFI adapter for these cars maybe in August 202
 # Early NB
 NB1 1999-2000 while connector still looks similar that's another different pinout.
 
-As of May 2020 [Proteus](Proteus) or [Hardware-microRusEfi](Hardware-microRusEfi) could be wired
+As of May 2020 [Proteus](Proteus) or [Hardware-microRusEfi](Hardware-microRusEFI) could be wired
 using [breakout board](https://www.ebay.com/itm/64-pin-ECU-connector-civic-mazda-mx-5-eunos-miata-toyota-with-breakout-PCB/332771650527)
 
 One day we plan to have a microRusEFI adapter for these cars maybe in August 2020?

@@ -430,7 +430,7 @@ Honda D17 Honda K
 ## 128/145 pin
 Mercedes M111 https://www.ebay.com/itm/333791544427
 
-![x](oem_docs/Mercedes/mercedes_170.png)
+![x](./OEM-Docs/Mercedes/mercedes_170.png)
 
 [Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)
 

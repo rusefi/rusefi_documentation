@@ -1,7 +1,7 @@
 
 Mazda Miata MX5 NB2 2001-2005 Standalone
 
-[microRusEFI](Hardware-microRusEfi) should be set for Hall
+[microRusEFI](Hardware-microRusEFI) should be set for Hall
 
 High-side jumper should be set for +12v.
 

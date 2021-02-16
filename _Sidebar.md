@@ -15,8 +15,8 @@
 - [Forum](https://rusefi.com/forum/)
 - [Slack](HOWTO-join-slack-channel)
 - [Facebook Users Group](https://www.facebook.com/groups/rusEfi/)
-- [Engines running on rusEFI](List-of-engines-running-rusEfi)
-- [HOWTO-help-rusEfi](HOWTO-help-rusEfi)
+- [Engines running on rusEFI](List-of-engines-running-rusEFI)
+- [HOWTO-help-rusEfi](HOWTO-help-rusEFI)
 
 # Pages
 - [Fuel](Pages-Fuel)
@@ -36,7 +36,7 @@
 - [rusEFI virtual simulator](Virtual-simulator)
 - [Fueling](Fuel-Overview)
 - [Multispark](Multi-Spark)
-- [Cranking](cranking)
+- [Cranking](Cranking)
 - [Electronic Throttle](HOWTO-electronic-throttle-body)
 - [Knock Sensing](knock-sensing)
 - [Variable Valve Timing](VVT)
@@ -52,7 +52,7 @@
 
 ### Boards
 
-- [microRusEFI](Hardware-microRusEfi)
+- [microRusEFI](Hardware-microRusEFI)
 - [Proteus](Proteus)
 - [Frankenso](https://rusefi.com/forum/viewtopic.php?f=4&t=569)
 - [Hellen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682)

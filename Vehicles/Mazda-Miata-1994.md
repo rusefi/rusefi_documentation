@@ -88,6 +88,6 @@ The CAS has four wires. Two are for +12 power and ground. The other two are the 
 
 The signals are called SGC and SGT on the 1.8 engine. They are called called NE and G signals on the 1.6 engine. The computer can decode the position of the engine camshaft and the engine speed from these two signals. With this information, it calculates when to send spark to the spark plugs and fuel to the fuel injectors.
 
-![CAS Signals](Images/miata_cas_signals.jpg)
+![CAS Signals](./Images/Miata_cas_signals.jpg)
 
-![CAS Pinout](Images/miata_cas_wires.jpg)
+![CAS Pinout](./Images/Miata_cas_wires.jpg)

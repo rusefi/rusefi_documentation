@@ -74,7 +74,7 @@ The yellow trace on the top graph, AfrRatio, is a ratio of target vs. actual. If
 
 There's a bit of a spike rich-then-lean during the shifts, but it's not bad (results in a nice burble out of the exhaust  :lol:), and resolves once back on the throttle. Some of this is caused by the phase shift between the AFR target and measured AFR, but some of it is real.
 
-[Sample log](2019-01-01_19_modified.msl)
+[Sample log](./Overview/wall_wetting/wall_wetting_2019-01-01_19_modified.msl)
 
 Based on [https://rusefi.com/forum/viewtopic.php?f=5&t=1481](https://rusefi.com/forum/viewtopic.php?f=5&t=1481)
 

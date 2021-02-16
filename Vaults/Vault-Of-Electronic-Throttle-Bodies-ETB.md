@@ -14,7 +14,7 @@ Bosch 0280750009 1.8T and hopefully many others
 
 5n1973206 connector
 
-![x](oem_docs/VAG/Bosch_0280750009_pinout.jpg)
+![x](./OEM-Docs/VAG/Bosch_0280750009_pinout.jpg)
 
 # Nissan
 
@@ -28,11 +28,11 @@ M6 58mm bolt, internal hex cap see https://rusefi.com/forum/viewtopic.php?p=3768
 
 Connector 6189-7761 
 
-![x](oem_docs/Nissan/Hitachi-SERA576-01-2003-Nissan-Altima.png)
+![x](./OEM-Docs/Nissan/Hitachi-SERA576-01-2003-Nissan-Altima.png)
 
 Alternative connector. This connector goes all the way to Nissan X-Trail T30 01-07 and Nissan Patrol.
 
-![x](oem_docs/Nissan/Hitachi_60mm_ETB.jpg)
+![x](./OEM-Docs/Nissan/Hitachi_60mm_ETB.jpg)
  
  
 18002 4z800 Pedal with build-in position sensor - 2004-2007 Nissan Altima Maxima
@@ -45,7 +45,7 @@ Wire side connector 6189-0029
 
 WARNING GND#1<>GND#2 are mixed up on the image.
 
-![x](oem_docs/Nissan/18919-AM810-pinout.jpg)
+![x](./OEM-Docs/Nissan/18919-AM810-pinout.jpg)
 
 
 3.2 KOhm between each pairs of GND and +5v

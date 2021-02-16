@@ -2,18 +2,18 @@
 
 <details><summary><u>HOW TO</u></summary>
 
-* [Ask questions](HOWTO-ask-questions.md)
-* [Contribute to documentation](HOWTO-contribute-to-documentation.md)
-* [Create a tunerstudio project](HOWTO-create-tunerstudio-project.md)
-* [DFU](HOWTO-DFU.md)
-* [Get running](HOWTO-Get-Running.md)
-* [Help out](HOWTO-help-rusEfi.md)
-* [Join Slack](HOWTO-join-slack-channel.md)
-* [Quick Start](HOWTO-quick-start.md)
-* [Update firmware](HOWTO-Update-Firmware.md)
-* [Upload a tune](HOWTO-upload-tune.md)
-* [Remote tune](HOWTO-Remote-Tuning.md)
-* [Search the wiki](HOWTO-Search-on-rusEFI-wiki.md)
-* [Set rusEfi Online authentication token](HOWTO-set-rusEfi-Online-authentication-token.md)
+* [Ask questions](HOWTO-ask-questions)
+* [Contribute to documentation](HOWTO-contribute-to-documentation)
+* [Create a tunerstudio project](HOWTO-create-tunerstudio-project)
+* [DFU](HOWTO-DFU)
+* [Get running](HOWTO-Get-Running)
+* [Help out](HOWTO-help-rusEFI)
+* [Join Slack](HOWTO-join-slack-channel)
+* [Quick Start](HOWTO-quick-start)
+* [Update firmware](HOWTO-Update-Firmware)
+* [Upload a tune](HOWTO-upload-tune)
+* [Remote tune](HOWTO-Remote-Tuning)
+* [Search the wiki](HOWTO-Search-on-rusEFI-wiki)
+* [Set rusEfi Online authentication token](HOWTO-set-rusEFI-Online-authentication-token)
 
 </details>

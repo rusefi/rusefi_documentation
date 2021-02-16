@@ -1,4 +1,4 @@
-![Connector Face](oem_docs/TE/Connector_121_pinout.jpg)
+![Connector Face](./OEM-Docs/TE/Connector_121_pinout.jpg)
 
 ![ECU](Images/Hyundai_ecu_1.jpg)
 

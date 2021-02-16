@@ -40,6 +40,6 @@ SID 23D/8 53 0 0 0 0 47 9 33,
 
 [jackm_carhack_nissan](jackm_carhack_nissan)
 
-[Knio_carhack_Nissan](Knio_carhack_Nissan.md)
+[Knio_carhack_Nissan](Knio_carhack_Nissan)
 
 https://forum.autosportlabs.com/viewtopic.php?p=29166

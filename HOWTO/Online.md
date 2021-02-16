@@ -7,7 +7,7 @@
 - checkout other's tunes
 
 
-See [HOWTO set rusEfi Online authentication token](HOWTO-set-rusEfi-Online-authentication-token)
+See [HOWTO set rusEfi Online authentication token](HOWTO-set-rusEFI-Online-authentication-token)
 
 See [HOWTO upload tune](HOWTO-upload-tune)
 

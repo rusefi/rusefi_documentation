@@ -118,4 +118,4 @@ Found in this thread [link](http://rusefi.com/forum/viewtopic.php?f=3&t=360&star
 
 [2003 dodge Neon test mule](https://rusefi.com/forum/viewtopic.php?f=3&t=696)
 
-[Connector boards](OEM-Connectors)
+[Connector boards](OEM-connectors)

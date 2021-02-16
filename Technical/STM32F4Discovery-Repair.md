@@ -22,7 +22,7 @@ This prevents the 3V from making it to the target ST chip. This will isolate the
 * Is LD1 "COM" green? -- If so this means you have 3V and ??? (I don't know when it will be green). If it's green or blinks green when communicating with it, this means you have 3V and your LD2 "PWR" light is broken. Proceed to **Solution 3 Broken LD1** else proceed to the next line.
 * Is LD1 "COM" blinking red? -- If so this could be and could be indicating the processor is active and doing stuff. TBD inquire in the forums for help. 
 * Is LD1 dim -- TBD ask in the forums for help.
-* Are all LED's off? -- If so this likely means there was a 5V short to GND and D1 has broken. To really check, with a multi-meter measure ![DC Symbol](DC-symbol.gif) DC voltage referenced to GND like at JP2 or JP3. Measure the voltage at both sides of D1. If you measure 5V at one side and less than 100mV on the other side, proceed to **Solution 2 Broken D1** If you measure below 100mV on both sides, 5V is not making it to this board, check your USB is providing 5V. 
+* Are all LED's off? -- If so this likely means there was a 5V short to GND and D1 has broken. To really check, with a multi-meter measure ![DC Symbol](./Images/DC-symbol.gif) DC voltage referenced to GND like at JP2 or JP3. Measure the voltage at both sides of D1. If you measure 5V at one side and less than 100mV on the other side, proceed to **Solution 2 Broken D1** If you measure below 100mV on both sides, 5V is not making it to this board, check your USB is providing 5V. 
 
 
 ### Step 2 Check the target ST chip
@@ -75,7 +75,7 @@ Replace the LED or ignore it. This is only an indicator that you have 3V.
 
 [BOM archive](http://www.st.com/st-web-ui/static/active/en/resource/technical/document/bill_of_materials/stm32f4discovery_bom.zip)
 
-[Schematic](Stm32f4discovery_schematics.pdf)
+[Schematic](./PDFs/Stm32f4discovery_schematics.pdf)
 
 ## Normal measurements
 Here are several measurements to function as a point of reference. These were taken with a known good board.

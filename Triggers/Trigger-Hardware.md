@@ -43,11 +43,11 @@ If the above didn't detail specifically what you need, here are some note that m
 #### VR lower level details, formulas, app notes, etc
 VR's have many critical characteristics that need may be of concern. The variations in design will result in different minimum RPM's, maximum RPM's, noise immunity and other such items that result in properly detecting the shaft angle. There are critical dimensions and critical materials used in parts of a VR that need to be taken into consideration. There are some equations and examples noted on this application note http://sensing.honeywell.com/vrs-app-note-005934-2-en-final-26jun12.pdf These equations help you determine the min RPM, load resistor and voltages produced at higher RPM's. This is also a useful app note about hall sensor. https://sensing.honeywell.com/hallbook.pdf 
 
-This application note is copied [here](pdfs/VRS_App_Note_005934-2-EN_Final_26Jun12.pdf) for archival purposes. 
+This application note is copied [here](./PDFs/VRS_App_Note_005934-2-EN_Final_26Jun12.pdf) for archival purposes. 
 
-[Hall Book](pdfs/Hallbook.pdf)
+[Hall Book](./PDFs/Hallbook.pdf)
 
-There is a condensed version of this app note found here http://sensing.honeywell.com/index.php?ci_id=51555 and archived [here](pdfs/VRS_output_voltage_calculations.pdf)
+There is a condensed version of this app note found here http://sensing.honeywell.com/index.php?ci_id=51555 and archived [here](./PDFs/VRS_output_voltage_calculations.pdf)
 
 As an example, see the below spreadsheet that includes the information from the above application note. This is a starting point and you can copy this spread sheet then enter specifics relative to your application.
 

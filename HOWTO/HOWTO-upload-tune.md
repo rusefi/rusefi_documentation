@@ -6,5 +6,5 @@ In order to be able to post your tune you would need to to have your Engine Make
 
 Now you are ready to hit "Upload" button on https://rusefi.com/online/
 
-![x](overview/TS_generated/dialog_Base_Engine_Settings.png)
+![x](./Overview/TS_generated/dialog_Base_Engine_Settings.png)
 

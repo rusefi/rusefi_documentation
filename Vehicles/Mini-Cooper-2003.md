@@ -1,5 +1,5 @@
 
-![Connector Face](oem_docs/TE/Connector_121_pinout.jpg)
+![Connector Face](./OEM-Docs/TE/Connector_121_pinout.jpg)
 
 ## Minimalistic wiring
 
@@ -24,7 +24,7 @@
 | 80 | BRN     | Ground                                       | black  |
 | 81 | BRN     | Ground                                       | black  |
 
-![Connector Face](Images/Connector_121_pinout.jpg)
+![Connector Face](./OEM-Docs/TE/Connector_121_pinout.jpg)
 
 |        |         |                           |        |
 | ------ | ------- | ------------------------- | ------ |
@@ -46,21 +46,21 @@
 | A      | B       | C                         |        |
 | A      | B       | C                         |        |
 
-![Connector Face](Images/Connector_121_pinout.jpg)
+![Connector Face](./OEM-Docs/TE/Connector_121_pinout.jpg)
 
 ## 2003 Mini Cooper ECU Wiring Diagram
 
-![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_1.png)
+![Wiring Diagram](./OEM-Docs/Mini/2003_Cooper/2003_cooper_1.png)
 
-![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_2.png)
+![Wiring Diagram](./OEM-Docs/Mini/2003_Cooper/2003_cooper_2.png)
 
-![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_2.png)
+![Wiring Diagram](./OEM-Docs/Mini/2003_Cooper/2003_cooper_2.png)
 
-![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_3.png)
+![Wiring Diagram](./OEM-Docs/Mini/2003_Cooper/2003_cooper_3.png)
 
-![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_instrument_cluster_1.png)
+![Wiring Diagram](./OEM-Docs/Mini/2003_Cooper/2003_cooper_instrument_cluster_1.png)
 
-![Wiring Diagram](oem_docs/Mini/2003_Cooper/2003_cooper_instrument_cluster_2.png)
+![Wiring Diagram](./OEM-Docs/Mini/2003_Cooper/2003_cooper_instrument_cluster_2.png)
 
 ![Wiring Diagram](Images/2003_cooper_tach_wiring.pdf)
 

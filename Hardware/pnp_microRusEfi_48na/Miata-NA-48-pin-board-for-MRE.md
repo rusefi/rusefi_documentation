@@ -1,7 +1,7 @@
 See also https://github.com/rusefi/rusefi/wiki/HOWTO-quick-start
 See also https://github.com/rusefi/rusefi/wiki/Installing-a-PnP-rusEFI-unit-startup-and-test
 
-This is a PNP adapter board for NA Miatas (1990-1995). The board is true plug and play. Just replace the PCB in your ECU with this board and drive the car. The hardware capabilities are defined by the [microRusEFI](Hardware-microRusEfi) module that drives the unit.
+This is a PNP adapter board for NA Miatas (1990-1995). The board is true plug and play. Just replace the PCB in your ECU with this board and drive the car. The hardware capabilities are defined by the [microRusEFI](Hardware-microRusEFI) module that drives the unit.
 
 Your board should look something like this: ![Miata NA 48 pin board for MRE](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view.png)
 
@@ -87,8 +87,8 @@ There are two positions for installing a MAP sensor on the board. The sensors us
 
 # 6. VAF sensor pinout for conversions 
 
-![](/Images/NA_Miata_VAF1.png)
-![](/Images/NA_Miata_VAF2.png)
+![](./Images/NA_miata_VAF1.png)
+![](./Images/NA_miata_VAF2.png)
 
 ## Technical Details
 

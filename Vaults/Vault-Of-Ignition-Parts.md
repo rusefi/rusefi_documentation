@@ -9,7 +9,7 @@
 ### Dumb coils
 * BMW M50 coils - Tested and working with VW ignition module
 
-![x](oem_docs/Bmw/bmw_dumb_coil.png)
+![x](./OEM-Docs/Bmw/bmw_dumb_coil.png)
 
 Pin #1 "15" is +12V
 
@@ -40,13 +40,13 @@ Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
 
 Harness side connector Sumitomo 6189-0515 Toyota 90980-11653
 
-![x](oem_docs/Toyota/GS300_2001_igniter.png)
+![x](./OEM-Docs/Toyota/GS300_2001_igniter.png)
 
-![x](oem_docs/Toyota/1995_Camry_Igniter.png)
+![x](./OEM-Docs/Toyota/1995_Camry_Igniter.png)
 
 * Toyota 89621-35020
 
-![x](oem_docs/Toyota/1999_Camry_Igniter.png)
+![x](./OEM-Docs/Toyota/1999_Camry_Igniter.png)
 
 * Bosch 0227100211 - VW Audi 97- 05
 

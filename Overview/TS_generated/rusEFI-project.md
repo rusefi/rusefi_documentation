@@ -1,6 +1,6 @@
 # [Base Engine](rusEFI-project-Base-Engine)
 
-<a href='rusEFI-project-Base-Engine'>![x](overview/TS_generated/top_level_Base_Engine.png)
+<a href='rusEFI-project-Base-Engine'>![x](./Overview/TS_generated/top_level_Base_Engine.png)
 </a>[Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)
 
 [Trigger](rusEFI-project-Base-Engine#trigger)
@@ -24,7 +24,7 @@
 
 # [Fuel](rusEFI-project-Fuel)
 
-<a href='rusEFI-project-Fuel'>![x](overview/TS_generated/top_level_Fuel.png)
+<a href='rusEFI-project-Fuel'>![x](./Overview/TS_generated/top_level_Fuel.png)
 </a>[Injection settings](rusEFI-project-Fuel#injection-settings)
 
 [Injector dead time](rusEFI-project-Fuel#injector-dead-time)
@@ -52,7 +52,7 @@
 
 # [Ignition](rusEFI-project-Ignition)
 
-<a href='rusEFI-project-Ignition'>![x](overview/TS_generated/top_level_Ignition.png)
+<a href='rusEFI-project-Ignition'>![x](./Overview/TS_generated/top_level_Ignition.png)
 </a>[Ignition settings](rusEFI-project-Ignition#ignition-settings)
 
 [Dwell](rusEFI-project-Ignition#dwell)
@@ -68,7 +68,7 @@
 
 # [Cranking](rusEFI-project-Cranking)
 
-<a href='rusEFI-project-Cranking'>![x](overview/TS_generated/top_level_Cranking.png)
+<a href='rusEFI-project-Cranking'>![x](./Overview/TS_generated/top_level_Cranking.png)
 </a>[Cranking Settings](rusEFI-project-Cranking#cranking-settings)
 
 [Cranking Coolant Temperature Multiplier](rusEFI-project-Cranking#cranking-coolant-temperature-multiplier)
@@ -80,7 +80,7 @@
 
 # [Idle](rusEFI-project-Idle)
 
-<a href='rusEFI-project-Idle'>![x](overview/TS_generated/top_level_Idle.png)
+<a href='rusEFI-project-Idle'>![x](./Overview/TS_generated/top_level_Idle.png)
 </a>[Idle settings](rusEFI-project-Idle#idle-settings)
 
 [Idle hardware](rusEFI-project-Idle#idle-hardware)
@@ -94,7 +94,7 @@
 
 # [Advanced](rusEFI-project-Advanced)
 
-<a href='rusEFI-project-Advanced'>![x](overview/TS_generated/top_level_Advanced.png)
+<a href='rusEFI-project-Advanced'>![x](./Overview/TS_generated/top_level_Advanced.png)
 </a>[Boost Control](rusEFI-project-Advanced#boost-control)
 
 [General Purpose PWM 1](rusEFI-project-Advanced#general-purpose-pwm-1)
@@ -132,7 +132,7 @@
 
 # [Sensors](rusEFI-project-Sensors)
 
-<a href='rusEFI-project-Sensors'>![x](overview/TS_generated/top_level_Sensors.png)
+<a href='rusEFI-project-Sensors'>![x](./Overview/TS_generated/top_level_Sensors.png)
 </a>[Trigger Inputs](rusEFI-project-Sensors#trigger-inputs)
 
 [Other Sensor Inputs](rusEFI-project-Sensors#other-sensor-inputs)
@@ -176,7 +176,7 @@
 
 # [Controller](rusEFI-project-Controller)
 
-<a href='rusEFI-project-Controller'>![x](overview/TS_generated/top_level_Controller.png)
+<a href='rusEFI-project-Controller'>![x](./Overview/TS_generated/top_level_Controller.png)
 </a>[ECU stimulator](rusEFI-project-Controller#ecu-stimulator)
 
 [Datalogging Settings](rusEFI-project-Controller#datalogging-settings)

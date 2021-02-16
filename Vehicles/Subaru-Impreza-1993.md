@@ -1,11 +1,11 @@
-![x](oem_docs/Subaru/1993ecu.jpg)
+![x](./OEM-Docs/Subaru/1993ecu.jpg)
 
-![x](oem_docs/Subaru/1993ecu1.jpg)
+![x](./OEM-Docs/Subaru/1993ecu1.jpg)
 
-[1993-1996impreza.pdf](oem_docs/Subaru/1993-1996impreza.pdf)
+[1993-1996impreza.pdf](./OEM-Docs/Subaru/1993-1996impreza.pdf)
 
 
-![x](oem_docs/Subaru/subaru-ej16-or18-wiring-diagram.gif)
+![x](./OEM-Docs/Subaru/subaru-ej16-or18-wiring-diagram.gif)
 
 
 This vehicle has dumb coils and igniters - rusEFI does not have to provide igniters.

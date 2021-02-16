@@ -284,7 +284,7 @@ tight on vertical USB but works 89661-28140
 
 need to try 89661-28120
 
-![Mazda 929 ECU](Hardware/Frankenso/929_ecu)
+![Mazda 929 ECU](./Hardware/Frankenso/929_ecu.png)
 
 Known to not work great but could be an option if nothing else is available:
 

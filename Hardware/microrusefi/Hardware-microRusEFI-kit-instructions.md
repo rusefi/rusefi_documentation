@@ -40,7 +40,7 @@ All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](
 
 
 
-[Wiring Diagram](Hardware-microRusEfi-wiring)
+[Wiring Diagram](Hardware-microRusEFI-wiring)
 
 [0.5.0 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/micro_rusEFI_Schematic_0_5_0.pdf)
 

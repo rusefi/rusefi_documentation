@@ -15,7 +15,7 @@
 
 * [Fuel Overview](Fuel-Overview)
 * List of tested MAP sensors - Coming Soon
-* [GM Map sensor](GM-map-Sensor)
+* [GM Map sensor](GM-map-sensor)
 
 </details>
 
