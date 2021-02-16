@@ -32,9 +32,9 @@ Alex has M111 1.8 https://rusefi.com/forum/viewtopic.php?f=2&t=1700
 
 # 1997 S320
 
-![x](./OEM-Docs/Mercedes/1997_s320_1.png)
+![x](OEM-Docs/Mercedes/1997_s320_1.png)
 
-![x](./OEM-Docs/Mercedes/1997_s320_2.png)
+![x](OEM-Docs/Mercedes/1997_s320_2.png)
 
-![x](./OEM-Docs/Mercedes/1997_s320_3.png)
+![x](OEM-Docs/Mercedes/1997_s320_3.png)
 

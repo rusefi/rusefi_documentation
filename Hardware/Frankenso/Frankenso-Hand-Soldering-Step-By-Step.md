@@ -49,4 +49,4 @@ The remaining parts I group by the engine components, see the following table:
 
 ## Step 1 - Voltage converter
 
-![Voltage converter](./Hardware/Frankenso/Frankenso-0.5-power.jpg)
+![Voltage converter](Hardware/Frankenso/Frankenso-0.5-power.jpg)

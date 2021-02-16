@@ -87,8 +87,8 @@ There are two positions for installing a MAP sensor on the board. The sensors us
 
 # 6. VAF sensor pinout for conversions 
 
-![](./Images/NA_miata_VAF1.png)
-![](./Images/NA_miata_VAF2.png)
+![](Images/NA_miata_VAF1.png)
+![](Images/NA_miata_VAF2.png)
 
 ## Technical Details
 

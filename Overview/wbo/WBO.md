@@ -20,7 +20,7 @@ We have a few rusEFI console commands relevant for cj125
 
 
 
-![x](./Overview/wbo/cj125_heating_4_9.png)
+![x](Overview/wbo/cj125_heating_4_9.png)
 
 
 AndreiKA says Prometheus works

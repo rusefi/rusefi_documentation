@@ -69,7 +69,7 @@ Rusefi Engine Type 41 on Frankenso
 | 3Y  | W63   | \*               | \*                           | \*                                    |
 | 3Z  |       | A/T control unit |                              |                                       |
 
-![Wiring Diagram](./OEM-Docs/Mazda/1990_Miata/1990_mazda_miata_us_wiring.png)
+![Wiring Diagram](OEM-Docs/Mazda/1990_Miata/1990_mazda_miata_us_wiring.png)
 
 
 See also https://sites.google.com/site/mazdaecutechnicaldata/

@@ -67,7 +67,7 @@ Fly back diode:
 NSR0530HT SOD-323 SMD Schottky Barrier Diodes 30V 500mA 0.5A
 
 
-![Engine Wiring](./OEM-Docs/Mazda/1990_Miata/1990_mazda_miata_us_wiring.png)
+![Engine Wiring](OEM-Docs/Mazda/1990_Miata/1990_mazda_miata_us_wiring.png)
 
 [Mazda_Miata_1990](Mazda-Miata-1990)
 

@@ -35,10 +35,10 @@
 [FSIO Curve #4](#fsio-curve-#4)
 
 ### Boost Control
-![x](./Overview/TS_generated/dialog_Boost_Control.png)
+![x](Overview/TS_generated/dialog_Boost_Control.png)
 
 ### General Purpose PWM 1
-![x](./Overview/TS_generated/dialog_General_Purpose_PWM_1.png)
+![x](Overview/TS_generated/dialog_General_Purpose_PWM_1.png)
 
 Pin: This implementation produces one pulse per engine cycle. See also dizzySparkOutputPin.
 
@@ -52,7 +52,7 @@ This should be a safe value for whatever hardware is connected to prevent damage
 Load Axis: Selects the load axis to use for the table.
 
 ### General Purpose PWM 2
-![x](./Overview/TS_generated/dialog_General_Purpose_PWM_2.png)
+![x](Overview/TS_generated/dialog_General_Purpose_PWM_2.png)
 
 Pin: This implementation produces one pulse per engine cycle. See also dizzySparkOutputPin.
 
@@ -66,7 +66,7 @@ This should be a safe value for whatever hardware is connected to prevent damage
 Load Axis: Selects the load axis to use for the table.
 
 ### General Purpose PWM 3
-![x](./Overview/TS_generated/dialog_General_Purpose_PWM_3.png)
+![x](Overview/TS_generated/dialog_General_Purpose_PWM_3.png)
 
 Pin: This implementation produces one pulse per engine cycle. See also dizzySparkOutputPin.
 
@@ -80,7 +80,7 @@ This should be a safe value for whatever hardware is connected to prevent damage
 Load Axis: Selects the load axis to use for the table.
 
 ### General Purpose PWM 4
-![x](./Overview/TS_generated/dialog_General_Purpose_PWM_4.png)
+![x](Overview/TS_generated/dialog_General_Purpose_PWM_4.png)
 
 Pin: This implementation produces one pulse per engine cycle. See also dizzySparkOutputPin.
 
@@ -94,15 +94,15 @@ This should be a safe value for whatever hardware is connected to prevent damage
 Load Axis: Selects the load axis to use for the table.
 
 ### FSIO inputs
-![x](./Overview/TS_generated/dialog_FSIO_inputs.png)
+![x](Overview/TS_generated/dialog_FSIO_inputs.png)
 
 ### Aux PID
-![x](./Overview/TS_generated/dialog_Aux_PID.png)
+![x](Overview/TS_generated/dialog_Aux_PID.png)
 
 Detailed status in console: Print details into rusEfi console
 
 ### FSIO outputs
-![x](./Overview/TS_generated/dialog_FSIO_outputs.png)
+![x](Overview/TS_generated/dialog_FSIO_outputs.png)
 
 ### FSIO Table #1
 ![x](overview/TS_generated/dialog_FSIO_Table_#1.png)
@@ -117,7 +117,7 @@ Detailed status in console: Print details into rusEfi console
 ![x](overview/TS_generated/dialog_FSIO_Table_#4.png)
 
 ### FSIO Formulas
-![x](./Overview/TS_generated/dialog_FSIO_Formulas.png)
+![x](Overview/TS_generated/dialog_FSIO_Formulas.png)
 
 use FSIO #16 for timing adjustment: See fsioTimingAdjustment
 

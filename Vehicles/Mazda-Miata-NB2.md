@@ -8,4 +8,4 @@ RED/WHITE From battery
 BLUE Start/Run switch
 BHT/BLACK Starter
 
-![x](./OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003_power.png)
+![x](OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003_power.png)

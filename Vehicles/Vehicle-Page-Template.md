@@ -7,7 +7,7 @@ Connector image here
 
 Wiring diagrams here
 
-![x](./OEM-Docs/Bmw/e39/1999_bmw_528_1.png)
+![x](OEM-Docs/Bmw/e39/1999_bmw_528_1.png)
 
 Pinout table here
 

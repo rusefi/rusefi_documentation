@@ -13,7 +13,7 @@
 * [Debug Mode](Debug-Mode)
 * [Performance Tracing](Developer-Performance-Tracing)
 * [Firmware Downloads](Downloads)
-* [Feature requests](Feature_Request_Feature_Bounty_Program)
+* [Feature requests](HOWTO/Feature-Requests-the-Feature-Bounty-Program.md)
 * [Feature ideas](I-have-an-idea)
 * [How To DFU](HOWTO-DFU)
 * [How To Update Firmware](HOWTO-Update-Firmware)

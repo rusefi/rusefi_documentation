@@ -223,7 +223,7 @@ red LED: constant ON in case of firmware FATAL error. Many people confuse red LE
 
 orange LED: warning: blinking in case of trigger input decoding warning or other firmware warning, or in case of serial bus exchange. Orange LED is located closer to the main chip.
 
-![Red LED](./Images/Red_LED.png)
+![Red LED](Images/Red_LED.png)
 
 ## Jumpers
 

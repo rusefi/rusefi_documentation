@@ -42,7 +42,7 @@
 <details><summary><u>PNP Boards</u></summary>
 
 * [PNP 48 - MRE based for Miata NA](microrusefi48adapter.pdf)
-* [PNP 72 - MRE based for Miata NB2](./Hardware/pnp_microRusEfi_nb2/hw72nb.pdf)
+* [PNP 72 - MRE based for Miata NB2](Hardware/pnp_microRusEfi_nb2/hw72nb.pdf)
 * PNP 88 - Proteus based for 88pin Bosch - Coming Soon
 * [MRE Adapter 48](MREAdapter48)
 * [MRE Adapter 55](MREAdapter55)

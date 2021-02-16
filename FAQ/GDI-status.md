@@ -14,11 +14,11 @@ Gasoline Direct Injection requires a few additional components on top of port in
 3) Target fuel pressure logic - we have nothing, but could be as easy as adding a simple table?
 
 
-![x](./OEM-Docs/NXP/pulse-variables.jpg)
+![x](OEM-Docs/NXP/pulse-variables.jpg)
 
-![x](./OEM-Docs/NXP/WBNR_FTF12_AUT_F0098.pdf_page59.png)
+![x](OEM-Docs/NXP/WBNR_FTF12_AUT_F0098.pdf_page59.png)
 
-![x](./OEM-Docs/NXP/WBNR_FTF12_AUT_F0098.pdf_page72.png)
+![x](OEM-Docs/NXP/WBNR_FTF12_AUT_F0098.pdf_page72.png)
 
 
 TODO: try INJECTOR DRIVE MODULE IDM-2

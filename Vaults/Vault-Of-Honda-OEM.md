@@ -13,4 +13,4 @@ E ![x](Images/Honda_K_plug_e.png)
 
 
 
-![x](./OEM-Docs/Honda/ECU_overview.jpg)
+![x](OEM-Docs/Honda/ECU_overview.jpg)

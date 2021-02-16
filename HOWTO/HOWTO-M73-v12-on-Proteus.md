@@ -254,14 +254,14 @@ Pictured Proteus with ampseal connectors, non-BMW pedal sensor, two non-BMW ETB 
 
 OEM pedal and ETBs are too unusual thus complete redesign of pedal and ETB hardware and wiring. 
 
-![x](./OEM-Docs/Bmw/1998_750_e38/proteus_0.2/Proteus_ready_for_M73.jpg)
+![x](OEM-Docs/Bmw/1998_750_e38/proteus_0.2/Proteus_ready_for_M73.jpg)
 
-![ecu1](./OEM-Docs/Bmw/1998_750_e38/BMW-134.jpg)
+![ecu1](OEM-Docs/Bmw/1998_750_e38/BMW-134.jpg)
 
-![x](./OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201007_top_both.jpg)
-![x](./OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201019_top_black.jpg)
-![x](./OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201019_top_grey.jpg)
-![x](./OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201019_back_black.jpg)
-![x](./OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201019_back_grey.jpg)
+![x](OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201007_top_both.jpg)
+![x](OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201019_top_black.jpg)
+![x](OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201019_top_grey.jpg)
+![x](OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201019_back_black.jpg)
+![x](OEM-Docs/Bmw/1998_750_e38/proteus_0.2/20201019_back_grey.jpg)
 
 
