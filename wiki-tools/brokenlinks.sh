@@ -8,8 +8,7 @@ escapeReplace() {
 }
 export -f escapeReplace
 searchfile() {
-  LINKS=$(grep -oP '(?<=\]\().+?(?=[\)| ])' "$1")
-  for link in $LINKS; do
+  while IFS= read -r -u 3 link; do
     if echo $link | grep -E '^http' >/dev/null; then
       continue
     fi
@@ -42,7 +41,7 @@ searchfile() {
     REPLACE=$(escape '('$link')')
     REPLACEWITH=$(escapeReplace "$FILE")
     sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
-  done
+  done 3< <(grep -oP '(?<=\]\().+?(?=[\)])' "$1")
 }
 export -f searchfile
 find . -iname "*.md" -exec bash -c 'searchfile "$0"' {} \;
