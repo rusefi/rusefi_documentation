@@ -117,7 +117,7 @@ rusEFI Console command:
 * *In "Fixed" mode, you can manually set the fixed pulse duration (in ms) in the next text field.*
 
 * *In "Fuel Map" mode, the "Running" fuel math used for cranking.*
-    > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Please make sure your Running fuel tables are extended into the low RPM range for cranking.*
+    > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Please make sure your [Running fuel tables](Running) are extended into the low RPM range for cranking.*
 
 ### Base fuel pulse width
 
