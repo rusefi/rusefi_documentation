@@ -3,7 +3,7 @@
 <details><summary><u>Throttle and ETB</u></summary>
 
 * [How To - ETB ](HOWTO-electronic-throttle-body)
-* [How To - ETB configuration](HOWTO/HOWTO-electronic-throttle-body-configuration.md)
+* [How To - ETB configuration](HOWTO-electronic-throttle-body-configuration)
 * List of tested ETBs - Coming Soon
 * List of tested TPS sensors - Coming Soon
 * List of tested Throttle pedal sensors - Coming Soon
@@ -84,7 +84,7 @@
 
 <details><summary><u>Fuel Injectors</u></summary>
 
-* [GDI Status](FAQ/GDI-status.md)
+* [GDI Status](GDI-status)
 * List of tested fuel injectors - Coming Soon
 
 </details>

@@ -44,6 +44,9 @@ searchfile() {
         fi
         echo "$FILES" | cat --number
         read PICK
+        if ! [[ $PICK =~ '^[0-9]+$' ]]; then
+          continue
+        fi
         FILE=$(echo "$FILES" | head -n $PICK | tail -n 1 | sed 's/^\.\///')
         REPLACE=$(escape '('$link')')
         REPLACEWITH=$(escapeReplace "$FILE")
@@ -61,6 +64,9 @@ searchfile() {
     fi
     echo "$FILES" | cat --number
     read PICK
+    if ! [[ $PICK =~ '^[0-9]+$' ]]; then
+      continue
+    fi
     FILE=$(basename "$(echo "$FILES" | head -n $PICK | tail -n 1)" .md)
     REPLACE=$(escape '('$link')')
     REPLACEWITH=$(escapeReplace "$FILE")

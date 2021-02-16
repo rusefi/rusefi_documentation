@@ -2,7 +2,7 @@
 
 
 * [MRE Kit instructions](Hardware-microRusEFI-kit-instructions)
-* [MRE DIY TLDR](Hardware/microrusefi/microRusEFI-DIY-TLDR.md)
+* [MRE DIY TLDR](microRusEFI-DIY-TLDR)
 
 
 [All Hardware pages](Pages-Hardware)
