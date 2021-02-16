@@ -49,7 +49,7 @@ connector body is laser trimmed with this value."
 http://www.aemelectronics.com/files/instructions/30-4100%20Digital%20Wideband%20UEGO%20Gauge.pdf
 
 
-![Pinout](Fuel/aem_UEGO_pinout.png)
+![Pinout](Fuel/Aem_UEGO_pinout.png)
 
 
 1j0973733 Bosch 4.2 6 pin connector available everywhere

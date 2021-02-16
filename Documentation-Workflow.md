@@ -34,4 +34,4 @@ that you need full image path like ``FAQ/images/rusEfi_console/rusEfi_console_st
 This also means that .md file names have to be unique for the whole.)
 
 **Q:** What sort of fancy options do we have?
-**A:** We can do collapsible sections & hints sections! See [cranking](cranking) for an example.
+**A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example.

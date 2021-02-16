@@ -64,9 +64,9 @@ Good tuning of the X-tau system relies on taking logs and some trial and error t
 
 # Old info
 
-![config](ww_sample_config.jpg)
+![config](X-tau-Wall-Wetting)
 
-![log](ww_log.jpg)
+![log](Overview/wall_wetting/wall_wetting_log.jpg)
 
 This is about 1 second worth of log, during a 2-3-4 shift at low-ish RPM, but near wide open throttle. Worst case scenario for AE!
 
@@ -74,7 +74,7 @@ The yellow trace on the top graph, AfrRatio, is a ratio of target vs. actual. If
 
 There's a bit of a spike rich-then-lean during the shifts, but it's not bad (results in a nice burble out of the exhaust  :lol:), and resolves once back on the throttle. Some of this is caused by the phase shift between the AFR target and measured AFR, but some of it is real.
 
-[Sample log](2019-01-01_19_modified.msl)
+[Sample log](Overview/wall_wetting/wall_wetting_2019-01-01_19_modified.msl)
 
 Based on [https://rusefi.com/forum/viewtopic.php?f=5&t=1481](https://rusefi.com/forum/viewtopic.php?f=5&t=1481)
 

@@ -179,7 +179,7 @@ tcm 28100-P0H-A02
 Measured 845 ohms between pins B15 / B16 also same for B14 / B13 and same for B12 / 11.
 
 
-![Scope Screenshot](Images/distributor_timing_obd1.jpg)
+![Scope Screenshot](Images/Distributor_timing_obd1.jpg)
 
 ## stock ECU schematics highlights
 

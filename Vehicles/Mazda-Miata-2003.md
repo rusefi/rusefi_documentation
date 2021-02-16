@@ -23,14 +23,14 @@ pin further away from the engine signal
 | MAP signal | analog | blue           |
 | AFR signal | analog | white          |
 
-![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003.png)
+![Wiring Diagram](OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003.png)
 
 Individual pages for printing:
-![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_page_1.png)
+![Wiring Diagram](OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003_page_1.png)
 
-![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_page_2.png)
+![Wiring Diagram](OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003_page_2.png)
 
-![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_page_3.png)
+![Wiring Diagram](OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003_page_3.png)
 
 ## Automatic Transmission
 
@@ -38,7 +38,7 @@ see [Mazda Miata 2001 - Automatic Transmission](Mazda-Miata-2001#automatic-trans
 
 
 
-![Wiring Diagram](oem_docs/Mazda/2003_Miata/Mazda_miata_2003_at.png)
+![Wiring Diagram](OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003_at.png)
 
 ## Immobilizer
 

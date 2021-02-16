@@ -11,7 +11,7 @@
 ## (b) - ground/power connections
 
 ### Component List:
-![Components](Hardware/Prometheus/prometheus_assembly_2b-comp.jpg)
+![Components](Hardware/Prometheus/Prometheus_assembly_2b-comp.jpg)
 
 ### PCB Top Side:
 ![Placement](Hardware/Prometheus/Prometheus_assembly_2b-pcb1.jpg)
