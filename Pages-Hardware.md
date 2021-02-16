@@ -56,6 +56,7 @@
 
 <details><summary><u>Prometheus</u></summary>
 
+* [Prometheus Overview](Hardware-Prometheus)  
 * [Prometheus wiring diagram](Prometeus-wiring-diagram.cdr)
 
 </details>
