@@ -9,7 +9,7 @@ escapeReplace() {
 export -f escapeReplace
 searchfile() {
   while IFS= read -r -u 3 link; do
-    if echo $link | grep -E '^http' >/dev/null; then
+    if echo $link | grep -E '^[http|\/]' >/dev/null; then
       continue
     fi
     if [ $(find . -name "$link"".md" 2>/dev/null | wc -l) -gt 0 ]; then
