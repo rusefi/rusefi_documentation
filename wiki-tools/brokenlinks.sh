@@ -24,6 +24,10 @@ searchfile() {
       else
         echo $link
         FILES=$(find . -iname "*$(basename $link)*")
+        if [ $(echo -n "$FILES" | wc -c) -lt 1 ]; then
+          echo "Could not find"
+          continue
+        fi
         echo "$FILES" | cat --number
         read PICK
         FILE=$(echo "$FILES" | head -n $PICK | tail -n 1)
@@ -35,6 +39,10 @@ searchfile() {
     fi
     echo $link
     FILES=$(find . -iname "*$(basename $link)*")
+    if [ $(echo -n "$FILES" | wc -c) -lt 1 ]; then
+      echo "Could not find"
+      continue
+    fi
     echo "$FILES" | cat --number
     read PICK
     FILE=$(basename "$(echo "$FILES" | head -n $PICK | tail -n 1)" .md)
