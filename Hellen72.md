@@ -1,5 +1,7 @@
 Happy Xmas
 
+[hellen72b-schematic.pdf](Hardware/Hellen/hellen72b-schematic.pdf)
+
 [Latest bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
 
 https://rusefi.com/docs/ibom/hellen72b-ibom.html
