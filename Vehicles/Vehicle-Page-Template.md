@@ -3,7 +3,7 @@ Want to add new page like this? At the moment rusEFI wiki is wide open for anyon
 
 Connector image here
 
-![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusefi_harness.png)
+![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusEFI_harness.png)
 
 Wiring diagrams here
 

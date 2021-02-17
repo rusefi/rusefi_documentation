@@ -29,7 +29,7 @@ Two 23 pins Ampseal extension connectors allows you to wire more functions like 
 
 The board pin mapping for OEM connector follows the tab given in the Pinning section below.
 
-![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusefi_harness.png)
+![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusEFI_harness.png)
 
 For the extension connectors the pinnig is the following \:
 

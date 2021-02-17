@@ -34,7 +34,7 @@
 * [MRE Kit instructions](Hardware-microRusEFI-kit-instructions)
 * [MRE Hardware checks](Hardware-microRusEFI-hardware-checks)
 * [MRE DIY TLDR](microRusEFI-DIY-TLDR)
-* [MRE Connectors](Hardware/microrusefi/microRusEFI_connectors/Hardware-microRusEFI-connectors.md)
+* [MRE Connectors](Hardware-microRusEFI-connectors)
 
 </details>
 

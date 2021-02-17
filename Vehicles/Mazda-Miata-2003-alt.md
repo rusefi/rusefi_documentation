@@ -6,7 +6,7 @@ In RusEFI console, set engine_type 47 loads base settings.
 
 ![Connector Face](OEM-Docs/Mazda/Miata_NB2_ECU_Connectors_Drawing.png)
 
-![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusefi_harness.png)
+![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusEFI_harness.png)
 
 | Pin STM32 | Type             | Pin RusEFI | Pin 64 Conn | Pin 72 Conn (NB2) | Desc                      |
 | --------- | ---------------- | ---------- | ----------- | ----------------- | ------------------------- |
