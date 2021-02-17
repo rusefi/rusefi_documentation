@@ -4,11 +4,11 @@
 
 ![connector](Hardware/microRusEFI/Hardware_microRusEFI_connector.png)
 
-![microRusEfi photo](Hardware/microRusEFI/Hardware_microRusEFI_connector.jpg)
+![microRusEFI photo](Hardware/microRusEFI/Hardware_microRusEFI_connector.jpg)
 
 Rear side of PCB
 
-![microRusEfi image](Hardware/microRusEFI/Hardware_microRusEFI_0_3_PCB_pinout.png)
+![microRusEFI image](Hardware/microRusEFI/Hardware_microRusEFI_0_3_PCB_pinout.png)
 
 ![x](Hardware/microRusEFI/microRusEFI_connectors/MRE_reality.jpg)
 
@@ -78,7 +78,7 @@ USB cable black wire: ground
 
 [HOWTO wire external USB](https://youtu.be/4v2VnP-YdlQ)
 
-USB cable red wire: +5v (would not work via microRusEfi connector for versions < 0.5.0)
+USB cable red wire: +5v (would not work via microRusEFI connector for versions < 0.5.0)
 
 ## Hall type Crank sensor
 

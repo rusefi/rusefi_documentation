@@ -15,7 +15,7 @@
 
 ## HOWTO update microRusEFI Firmware
 
-The best way to update microRusEfi firmware is using rusEFI console "Auto DFU" mode. 
+The best way to update microRusEFI firmware is using rusEFI console "Auto DFU" mode. 
 In AutoDFU a few things happen once you click the "Update Firmware" button.
 
 0) AutoDFU procedure works if your Windows device manager shows "STMicroelectronics Virtual COM Port" in "Ports" category.

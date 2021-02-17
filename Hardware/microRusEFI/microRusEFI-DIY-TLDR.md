@@ -1,8 +1,8 @@
-Bare minimum microRusEfi instructions: 
+Bare minimum microRusEFI instructions: 
 
 
-# Step 1 80% ready microRusEfi
-Fabricate "pre-populated" 80% ready microRusEfi at https://jlcpcb.com/
+# Step 1 80% ready microRusEFI
+Fabricate "pre-populated" 80% ready microRusEFI at https://jlcpcb.com/
 
 You would need three files to do that - gerbers archive, BOM and placement files."
 
@@ -25,7 +25,7 @@ https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=dacd727e05
 
 # Step 3 Upload firmware
 
-Once you solder 8 parts to your 80% ready microRusEfi upload firmware into micro-controller
+Once you solder 8 parts to your 80% ready microRusEFI upload firmware into micro-controller
 
 https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip
 
