@@ -18,7 +18,7 @@
 * [How To DFU](HOWTO-DFU)
 * [How To Update Firmware](HOWTO-Update-Firmware)
 * [How To Upload a Tune](HOWTO-upload-tune)
-* [rusEFI Bundle](rusefi-bundle)
+* [rusEFI Bundle](HOWTO/rusEFI-bundle.md)
 
 </details>
 
