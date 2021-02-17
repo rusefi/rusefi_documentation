@@ -3,11 +3,11 @@ See also https://github.com/rusefi/rusefi/wiki/Installing-a-PnP-rusEFI-unit-star
 
 This is a PNP adapter board for NA Miatas (1990-1995). The board is true plug and play. Just replace the PCB in your ECU with this board and drive the car. The hardware capabilities are defined by the [microRusEFI](Hardware-microRusEFI) module that drives the unit.
 
-Your board should look something like this: ![Miata NA 48 pin board for MRE](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view.png)
+Your board should look something like this: ![Miata NA 48 pin board for MRE](Hardware/pnp_microRusEFI_48na/Whole_PCB_top_view.png)
 
-![x](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view_0_4_NA6.jpg)
+![x](Hardware/pnp_microRusEFI_48na/Whole_PCB_top_view_0_4_NA6.jpg)
 
-![x](Hardware/pnp_microRusEfi_48na/Whole_PCB_top_view_0_4_NA94.jpg)
+![x](Hardware/pnp_microRusEFI_48na/Whole_PCB_top_view_0_4_NA94.jpg)
 
 Currently the only tested configuration is the NA6 Miata with a manual transmission. If you have a different car, we may need your help testing the configuration! Automatic transmission cars are not yet confirmed to work, although there's no reason to think they won't.
 
@@ -25,7 +25,7 @@ The board can be configured for several different options simply by adding/remov
 *You may want to not put the lid on the case for now. That makes it easier to connect to the unit with a laptop using a micro USB cable. See below: USB connection.
 
 One of the mounting screws needs three M4 washers because the case has a recessed thread- the stock ECU has a heat sink at that location. The washers may be included with your kit. They go here:
-![M4 washers mounting](Hardware/pnp_microRusEfi_48na/M4_washers_mtg_hole.png)
+![M4 washers mounting](Hardware/pnp_microRusEFI_48na/M4_washers_mtg_hole.png)
 
 # 2. Standard upgrades over stock
 The board should be received set up as a stock replacement unit for your year car. Either a 1990-1993 NA6 or a 1994/1995 NA8. Even in standard configuration it can perform a few tricks the stock ECU just can't.
@@ -34,20 +34,20 @@ The board should be received set up as a stock replacement unit for your year ca
 The unit can connect to [TunerStudio](http://www.tunerstudio.com/index.php/tuner-studio) via native USB communication. You can either plug a MiniUSB 
  (or some boards have MicroUSB) cable into the top of the unit. This is a bit difficult to get to in the stock installation position on an NA6, so it may not be ideal for a permanent installation in the stock location.
 
-![Micro USB connector](Hardware/pnp_microRusEfi_48na/MRE_Micro_USB.png)
+![Micro USB connector](Hardware/pnp_microRusEFI_48na/MRE_Micro_USB.png)
 
 If you want to use this connector for communication with your tuning laptop, cutting a hole in the top for connector access is helpful. Here are some rough dimensions on where the hole should go. A 5/16" or 8mm drill and a small file or Dremel works well.
-![Lid cutout](Hardware/pnp_microRusEfi_48na/Miata_NA_PnP_Lid_Cutout_Dimensions.png)
-![USB plugged in](Hardware/pnp_microRusEfi_48na/Miata_NA_PnP_USB_plugged_in.png)
+![Lid cutout](Hardware/pnp_microRusEFI_48na/Miata_NA_PnP_Lid_Cutout_Dimensions.png)
+![USB plugged in](Hardware/pnp_microRusEFI_48na/Miata_NA_PnP_USB_plugged_in.png)
 
 Alternatively, you can wire a standard USB cable into the main connector for a more permanent solution. Your board may come with additional contacts / wires for the main connector that can be soldered to a standard USB cable. (Please note that the 5V connection is not needed for communication. It can, however be used to power the MRE unit with the ignition off. The 5V power suply feature is untested and may not work. Communication using GND, D+ and D- is confirmed to work.)
-![USB main connector](Hardware/pnp_microRusEfi_48na/USB_connections.png)
+![USB main connector](Hardware/pnp_microRusEFI_48na/USB_connections.png)
 
 ## 2.2. Micro SD card adapter
 The board comes with an adapter for a Micro SD card. Install a card in this slot and it will automatically keep a log of your engine when it's running. 
 The log can be retrieved using the rusEFI plugin in Tunerstudio. Please note that Tunerstudio must be offline for the plugin to have access to the USB port. If Tunerstudio is still communicating with the ECU (online), the rusEFI plugin will be unable to access the USB port.
 Another way to retrieve logs from the SD card is to open the case, remove the SD card and read it directly from a computer or other device running MegaLogViewer.
-![Micro SD adapter](Hardware/pnp_microRusEfi_48na/Micro_SD_adapter.png)
+![Micro SD adapter](Hardware/pnp_microRusEFI_48na/Micro_SD_adapter.png)
 
 Warning: There are reports that some Micro SD cards will not work for this setup. So if you are having trouble with this, try a different card.
 
@@ -66,7 +66,7 @@ This is so basic that you should probably do this at the same time as the instal
 ## 3.2. MAP Sensor
 The first thing most users will likely want to do is use a MAP sensor for load sensing instead of the stock VAF (AFM). The easiest way to achieve this is to install an MPX4250 in the designated spot on the PCB (see image). Your board may already have this sensor installed.
 Warning: V 0.2 of the board has an unintended "feature" that requires you to Note that only 4 of the six legs of the sensor get soldered directly to the board. Pin 1 and pin 3 get bent up by 90 degrees and wired into pin 3 and pin 1 of the ADJACENT barometric sensor. Note that pin 1 on the sensor goes to pin 3 on the board and pin 3 on the sensor goes to pin 1 on the board.
-![Onboard MAP sensor](Hardware/pnp_microRusEfi_48na/onboard_baro.png)
+![Onboard MAP sensor](Hardware/pnp_microRusEFI_48na/onboard_baro.png)
 
 Please make sure to upload the correct tune for this configuration or change your tune manually. Tunes can be found at [rusEFI Online](https://rusefi.com/online/?sorts[uploadedMsq]=-1&sorts[uploadedLog]=-1)
 
@@ -193,7 +193,7 @@ JP44		USB GND|	Y|	N|	*|	Press. Reg. vlv
 JP50	2X	CAN_L|	Y	|N|	Purg Sol. Vlv|	Purg Sol. Vlv	
 
 
-[Schematics 0.4](Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.4.pdf)
+[Schematics 0.4](Hardware/pnp_microRusEFI_48na/microrusefi48adapter_0.4.pdf)
 
 [Schematics 0.2](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0_2.pdf)
 

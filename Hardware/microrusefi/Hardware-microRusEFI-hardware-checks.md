@@ -8,4 +8,4 @@ v0.1/v0.2 power supply check list
 1. 5v test pad: expected 5.0v
 
 
-![front lower](Hardware/microrusefi/Hardware_microRusEfi_0_2_top_checks.jpg)
+![front lower](Hardware/microrusefi/Hardware_microRusEFI_0_2_top_checks.jpg)

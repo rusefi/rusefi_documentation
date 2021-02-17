@@ -2,15 +2,15 @@
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)
 
-![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
+![connector](Hardware/microrusefi/Hardware_microRusEFI_connector.png)
 
-![microRusEfi photo](Hardware/microrusefi/Hardware_microRusEfi_connector.jpg)
+![microRusEfi photo](Hardware/microrusefi/Hardware_microRusEFI_connector.jpg)
 
 Rear side of PCB
 
-![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_3_PCB_pinout.png)
+![microRusEfi image](Hardware/microrusefi/Hardware_microRusEFI_0_3_PCB_pinout.png)
 
-![x](Hardware/microrusefi/microRusEfi_connectors/MRE_reality.jpg)
+![x](Hardware/microrusefi/microRusEFI_connectors/MRE_reality.jpg)
 
 In some cases without "main relay output +12v" both pins #1 and #5 should be connected to the single source of +12v.
 
@@ -91,8 +91,8 @@ R12=10K
 R13=0R
 
 
-![front hall](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_hall_setup.jpg)
-![front lower](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_lower.jpg)
+![front hall](Hardware/microrusefi/Hardware_microRusEFI_0_1_assembled_front_hall_setup.jpg)
+![front lower](Hardware/microrusefi/Hardware_microRusEFI_0_1_assembled_front_lower.jpg)
 
 
 
