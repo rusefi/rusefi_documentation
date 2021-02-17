@@ -32,7 +32,7 @@ For component placement please use interactive BOM
 [0.4.7](https://rusefi.com/docs/ibom/microRusEfi_R0.4.7.html)
 
 
-[Some checkpoints](Hardware/microrusefi/Hardware_microRusEFI_0_4_7_front_checks.jpg)
+[Some checkpoints](Hardware/microRusEFI/Hardware_microRusEFI_0_4_7_front_checks.jpg)
 
 
 All microRusEfi kits use [MRE F4 rusEFI firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
@@ -62,10 +62,10 @@ Depending on your crankshaft position sensor type you would need to populate eit
 0.4.8: Comes set for VR (R9 & C12 are now on the front since)
 
 VR mode front - comes pre-assembled
-![Back](Hardware/microrusefi/Hardware_microRusEFI_0.4.7_vr_front.png)
+![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_vr_front.png)
 
 VR mode back
-![Back](Hardware/microrusefi/Hardware_microRusEFI_0.4.7_vr_back.jpg)
+![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_vr_back.jpg)
 
 
 0.4.5, 0.4.7: For Hall, you would need to REMOVE R15 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
@@ -73,36 +73,36 @@ VR mode back
 0.4.8: For Hall, you would need to REMOVE R15&R9, C12 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
 
 0.5.0 Hall
-![Front](Hardware/microrusefi/Hardware_microRusEFI_0.5.0_hall_mode.jpg)
+![Front](Hardware/microRusEFI/Hardware_microRusEFI_0.5.0_hall_mode.jpg)
 
 0.4.7 Hall mode front
-![Front](Hardware/microrusefi/Hardware_microRusEFI_0.4.7_hall_front.jpg)
+![Front](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_hall_front.jpg)
 
 0.4.7 Hall mode back
-![Back](Hardware/microrusefi/Hardware_microRusEFI_0.4.7_hall_back.png)
+![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_hall_back.png)
 
 
 
 # Board Photos
 
-![F](Hardware/microrusefi/Hardware_microRusEFI_0.5.3_assembled_front.jpg)
+![F](Hardware/microRusEFI/Hardware_microRusEFI_0.5.3_assembled_front.jpg)
 
-![F](Hardware/microrusefi/Hardware_microRusEFI_0.5.0_module_assembled_front.jpg)
+![F](Hardware/microRusEFI/Hardware_microRusEFI_0.5.0_module_assembled_front.jpg)
 
 
 Kit front:
 
-![Front](Hardware/microrusefi/Hardware_microRusEFI_0.4.7_pre_assembled_front.jpg)
+![Front](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_pre_assembled_front.jpg)
 
 Kit parts on the front:
 
-![Front](Hardware/microrusefi/Hardware_microRusEFI_0.4.7_kit_front.jpg)
+![Front](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_front.jpg)
 
 Kit parts on the back:
-![Back](Hardware/microrusefi/Hardware_microRusEFI_0.4.7_kit_assembled_back.jpg)
+![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_assembled_back.jpg)
 
 Flyback diodes orientation
-![Back](Hardware/microrusefi/Hardware_microRusEFI_0.4.7_kit_diodes_orientation.jpg)
+![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_diodes_orientation.jpg)
 
 
 # Important details
@@ -127,7 +127,7 @@ J7 header in bottom-left corner of microRusEFI allows direct SWD programming usi
 
 Tag Connect In circuit Cable "NO Legs" Version
 
-![x](Hardware/microrusefi/TC2030_SWD.jpg)
+![x](Hardware/microRusEFI/TC2030_SWD.jpg)
 
 ### Note - Missing wire caps  
 In the even of a missing wire cap on the molex plug the correct part number is 64320-1301 and these can be easily sourced online  
