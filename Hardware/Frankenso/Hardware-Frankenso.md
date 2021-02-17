@@ -15,7 +15,7 @@ Frankenso should be powered by ignition switch. Frankenso main relay output can 
 
 [For sale fully assembled!](https://www.tindie.com/products/russian/frankenso-full-bundle/)
 
-See [HOWTO Quick Start](HOWTO-quick-start) for rusEfi Quick Start.
+See [HOWTO Quick Start](HOWTO-quick-start) for rusEFI Quick Start.
 
 [Known Issues](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/known_issues.txt)
 

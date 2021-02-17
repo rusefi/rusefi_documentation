@@ -9,9 +9,9 @@ to start supporting more trigger options.
 
 At the moment rusEFI has only one channel of VVT position input.
 
-rusEfi trigger configuration is the most confusing part of rusEfi configuration unfortunately.
+rusEFI trigger configuration is the most confusing part of rusEFI configuration unfortunately.
 
-If rusEfi does not know your exact overall trigger shape and you use composite setup with crank sensor driving RPM and single tooth cam sensor providing phase information, that's considered "4 stroke without cam with VVT". Even if you do not have VVT :(
+If rusEFI does not know your exact overall trigger shape and you use composite setup with crank sensor driving RPM and single tooth cam sensor providing phase information, that's considered "4 stroke without cam with VVT". Even if you do not have VVT :(
 
 
 ## VVT mode 'first half'

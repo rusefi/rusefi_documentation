@@ -1,4 +1,4 @@
-## rusEfi power supply troubleshooting guide
+## rusEFI power supply troubleshooting guide
 
 http://www.ti.com/product/lm2596
 

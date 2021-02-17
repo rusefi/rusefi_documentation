@@ -16,7 +16,7 @@
 - [Slack](HOWTO-join-slack-channel)
 - [Facebook Users Group](https://www.facebook.com/groups/rusEfi/)
 - [Engines running on rusEFI](List-of-engines-running-rusEFI)
-- [HOWTO-help-rusEfi](HOWTO-help-rusEFI)
+- [HOWTO-help-rusEFI](HOWTO-help-rusEFI)
 
 # Pages
 - [Fuel](Pages-Fuel)

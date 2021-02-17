@@ -1,5 +1,5 @@
 
-[rusEfi forum](https://rusefi.com/forum/) is the central meeting point for everything rusEfi but there are also:
+[rusEFI forum](https://rusefi.com/forum/) is the central meeting point for everything rusEFI but there are also:
 
 - Slack at https://rusefi.slack.com/ see https://rusefi.com/forum/viewtopic.php?t=1198
 

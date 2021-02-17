@@ -1,13 +1,13 @@
 
 # rusEFI Online
 
-[rusEFI online](https://rusefi.com/online/) is facilitating data flow within rusEfi open source engine management community.
+[rusEFI online](https://rusefi.com/online/) is facilitating data flow within rusEFI open source engine management community.
 
 - share your tune
 - checkout other's tunes
 
 
-See [HOWTO set rusEfi Online authentication token](HOWTO-set-rusEFI-Online-authentication-token)
+See [HOWTO set rusEFI Online authentication token](HOWTO-set-rusEFI-Online-authentication-token)
 
 See [HOWTO upload tune](HOWTO-upload-tune)
 

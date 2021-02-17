@@ -4,7 +4,7 @@ http://www.pololu.com/file/download/a4988_DMOS_microstepping_driver_with_transla
 
 Use a jumper or wire to connect SLEEP with RESET
 
-For first test, leave ENABLE disconnected. Once tested, connect stepper enable to rusEfi 'stepper enable' pin
+For first test, leave ENABLE disconnected. Once tested, connect stepper enable to rusEFI 'stepper enable' pin
 
 We do not have our own add-on board for a4988, we use ones from eBay like "stepper motor driver A4988 with Heat sinks"
 

@@ -3,8 +3,8 @@ The [Frankenso](Hardware-Frankenso) board was designed to be used on Mazda Miata
 
 ## Stage 0
 
-### Everything stock running rusEfi ECU
-All stock sensors, no extra wires, no extra hoses - just lift the carpet and plug rusEfi box instead of OEM ECU.  
+### Everything stock running rusEFI ECU
+All stock sensors, no extra wires, no extra hoses - just lift the carpet and plug rusEFI box instead of OEM ECU.  
 
 Timing, fuel control based on VAF/MAF, programmable check engine light, A/C compressor control. Online tuning using TunerStudio.
 
@@ -29,7 +29,7 @@ produce three clicks a second after you press the button in the software.
 
 #### Wideband O2 sensor wire WBO
 
-You would really need a wideband sensor. Here is the middle plug pinout to wire an external wideband controller - +12v would feed external controller and analog output signal would provide rusEfi ECU with air/fuel ratio information.
+You would really need a wideband sensor. Here is the middle plug pinout to wire an external wideband controller - +12v would feed external controller and analog output signal would provide rusEFI ECU with air/fuel ratio information.
 
 ![middle plug](installations/MazdaMiataNA6_Frankenso_pnp/Frankenso_MazdaMiataNA6_pnp_middle_plug_0_2.png)
 

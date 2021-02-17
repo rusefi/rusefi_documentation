@@ -33,11 +33,11 @@
 
 * Another way to upload firmware is using a [DFU file](HOWTO-DFU)
 
-## rusEfi Console
+## rusEFI Console
 
 [Console](Console)
 
-We have rusEfi console which is a handy development and debugging tool. The dev console is written in java and it talks to the ECU firmware. The console allows firmware monitoring and configuration. Here are some pictures of what it looks like when it operating correctly. 
+We have rusEFI console which is a handy development and debugging tool. The dev console is written in java and it talks to the ECU firmware. The console allows firmware monitoring and configuration. Here are some pictures of what it looks like when it operating correctly. 
 
 ![Java Console](Images/java_console_1.png)
 ![Java Console](Images/java_console_2.png)
@@ -60,7 +60,7 @@ To get the console working follow the below procedure, which assumes you have lo
       [10572.797285] cdc_acm 5-1:1.0: ttyACM0: USB ACM device
       ```
      *  In this case, the newly plugged in USB is register to ttyACM0, which you can find on /dev/ttyACM0
-* If you don't already have the Dev Console, get it http://rusefi.com/build_server/rusefi_bundle.zip (part of the same bundle) Take note rusEfi dev console required java 1.7+
+* If you don't already have the Dev Console, get it http://rusefi.com/build_server/rusefi_bundle.zip (part of the same bundle) Take note rusEFI dev console required java 1.7+
 * When you launch the Dev Console, it will ask you to select which serial address it should use. However you can specify that when you launch it by specifying a command line parameter as noted below.
   * Windows
     `java -jar rusefi_console.jar COM15`
@@ -78,7 +78,7 @@ Update: there is also a lazier way to self-stimulate now, you would not need the
 At this point, the Dev Console should be up and running. Play around with it and see what you can learn. Also note, it as some functionality as noted below. 
 
 * If used together with the build-in position sensor emulator, the console allows some level of testing on the bench, without a real engine or any additional hardware. The most useful feature is the plain signal sniffer - both real inputs and generated signals can go into it and this is actually quite handy. Another useful feature is the text log.
-* You can use the console to invoke rusEfi commands and control the internal flow using the 'Messages Central' tab
+* You can use the console to invoke rusEFI commands and control the internal flow using the 'Messages Central' tab
 ![Messages Central](Images/messages_central.png)
 
 ## Tuner Studio
@@ -205,11 +205,11 @@ I'd like to try to connect to Tuner Studio and see what happens. I have a USB/TT
  `4073 Alive`
 
 
-This UART/real serial is just another way to connect either TunerStudio or rusEfi console to the firmware. By combining both microUsb virtual serial and TTL real serial one can connect to rusEfi with both TunerStudio and rusEfi console simultaneously.
+This UART/real serial is just another way to connect either TunerStudio or rusEFI console to the firmware. By combining both microUsb virtual serial and TTL real serial one can connect to rusEFI with both TunerStudio and rusEFI console simultaneously.
 
 See also [Tunerstudio Connectivity](Tunerstudio-Connectivity)
 
-## rusEfi firmware
+## rusEFI firmware
 
 [Trigger](Trigger)
 
@@ -248,10 +248,10 @@ Q: Low side, high side... Too complicated! Where do I hook my coils?!
 
 A: There is some variation between vehicles and components. Please use [rusEFI forums](https://rusefi.com/forum) for custom installation help!
 
-Q: I've made some changes in Tuner Studio & hit Burn. 'Need Burn' has appeared but the values are not there after rusEfi reset?
+Q: I've made some changes in Tuner Studio & hit Burn. 'Need Burn' has appeared but the values are not there after rusEFI reset?
 
-A: rusEfi does not write to internal flash memory while your engine is running. In order to really write the values into the permanent memory you would need to stop the engine (or disconnect your stimulator). Online tuning is not affected by this issue - you can still tune and the new values would be applied right away, they just would not be saved until you stop the engine.
+A: rusEFI does not write to internal flash memory while your engine is running. In order to really write the values into the permanent memory you would need to stop the engine (or disconnect your stimulator). Online tuning is not affected by this issue - you can still tune and the new values would be applied right away, they just would not be saved until you stop the engine.
 
 Q: I've remapped some analog inputs and outputs but nothing has changed, looks like the old pins are still used for output?
 
-A: For most of the pinout changes to be applied you need to reset rusEfi. Do not forget to stop the engine so that the new config is saved into internal memory!
+A: For most of the pinout changes to be applied you need to reset rusEFI. Do not forget to stop the engine so that the new config is saved into internal memory!

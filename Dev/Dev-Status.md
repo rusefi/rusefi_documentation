@@ -409,7 +409,7 @@ Engine chart size
 [SPI settings](rusEFI-project-Controller#spi-settings)  
 (&#x1F536;): SPI communication configuration  
 
-[rusEfi Console Settings](rusEFI-project-Controller#rusefi-console-settings)  
+[rusEFI Console Settings](rusEFI-project-Controller#rusefi-console-settings)  
 (&#x1F49A;): rusEFI console configuration  
 
 [Connection](rusEFI-project-Controller#connection)  

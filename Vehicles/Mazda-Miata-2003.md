@@ -6,7 +6,7 @@ For power see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting--p
 
 ![Connector Face](Images/NB2 Miata ECU Connectors Drawing.png)
 
-![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusefi_harness.png)
+![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusEFI_harness.png)
 
 Coil three wire plug:
 
@@ -18,7 +18,7 @@ pin further away from the engine signal
 
 [Hellen72 Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen72/)
 
-| desc       | type   | rusEfi harness |
+| desc       | type   | rusEFI harness |
 | ---------- | ------ | -------------- |
 | MAP signal | analog | blue           |
 | AFR signal | analog | white          |

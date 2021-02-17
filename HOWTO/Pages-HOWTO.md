@@ -14,6 +14,6 @@
 * [Upload a tune](HOWTO-upload-tune)
 * [Remote tune](HOWTO-Remote-Tuning)
 * [Search the wiki](HOWTO-Search-on-rusEFI-wiki)
-* [Set rusEfi Online authentication token](HOWTO-set-rusEFI-Online-authentication-token)
+* [Set rusEFI Online authentication token](HOWTO-set-rusEFI-Online-authentication-token)
 
 </details>

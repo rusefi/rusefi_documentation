@@ -2,15 +2,15 @@
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)
 
-![connector](Hardware/microrusefi/Hardware_microRusEfi_connector.png)
+![connector](Hardware/microRusEFI/Hardware_microRusEFI_connector.png)
 
-![microRusEfi photo](Hardware/microrusefi/Hardware_microRusEfi_connector.jpg)
+![microRusEfi photo](Hardware/microRusEFI/Hardware_microRusEFI_connector.jpg)
 
 Rear side of PCB
 
-![microRusEfi image](Hardware/microrusefi/Hardware_microRusEfi_0_3_PCB_pinout.png)
+![microRusEfi image](Hardware/microRusEFI/Hardware_microRusEFI_0_3_PCB_pinout.png)
 
-![x](Hardware/microrusefi/microRusEfi_connectors/MRE_reality.jpg)
+![x](Hardware/microRusEFI/microRusEFI_connectors/MRE_reality.jpg)
 
 In some cases without "main relay output +12v" both pins #1 and #5 should be connected to the single source of +12v.
 
@@ -18,7 +18,7 @@ Pin #1 feeds ETB H-bridge, battery voltage sense, gp5 & gp6 high-side +12v, TLE8
 
 # Pin Types
 
-These tables provide technical information about the different types of pin found on microrusEfi.
+These tables provide technical information about the different types of pin found on microRusEFI.
 
 ## Power
 
@@ -91,8 +91,8 @@ R12=10K
 R13=0R
 
 
-![front hall](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_hall_setup.jpg)
-![front lower](Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_lower.jpg)
+![front hall](Hardware/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_hall_setup.jpg)
+![front lower](Hardware/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_lower.jpg)
 
 
 
@@ -102,7 +102,7 @@ microRusEFI exposes the following pins in addition to the primary 48 pin connect
 
 J4:
 
-![x](Hardware/microrusefi/J4.png)
+![x](Hardware/microRusEFI/J4.png)
 | N | Name | Possible functions (not all listed!) |
 |----|-------------| ---- |
 | 9 | GNS | GND
@@ -131,7 +131,7 @@ Three GPIOs are available on J2 (SWD) connector. If you are not going to use deb
 
 For HW version 0.5.0 and newer some additional GPIOs are available on testpoints around STM32.
 
-![x](Hardware/microrusefi/J8_9_10.png)
+![x](Hardware/microRusEFI/J8_9_10.png)
 
 [Testpoint Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/pads.html)
 
