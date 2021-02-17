@@ -6,7 +6,7 @@
 
 You can sniff either trigger angles or MAP values. 
 
-Analog chart tab in java console is a very, very plain oscilloscope build into rusEfi firmware.
+Analog chart tab in java console is a very, very plain oscilloscope build into rusEFI firmware.
 
 Analog chart always displays the signal for a duration of one complete engine cycle.
 

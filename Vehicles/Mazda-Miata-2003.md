@@ -18,7 +18,7 @@ pin further away from the engine signal
 
 [Hellen72 Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen72/)
 
-| desc       | type   | rusEfi harness |
+| desc       | type   | rusEFI harness |
 | ---------- | ------ | -------------- |
 | MAP signal | analog | blue           |
 | AFR signal | analog | white          |

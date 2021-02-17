@@ -1,12 +1,12 @@
 ## human readable protocol
 
-A typical line in rusEfi human-readable protocol look like
+A typical line in rusEFI human-readable protocol look like
 
 `line:16:rpm,100,maf,3.3,`
 
 Here `line` is a magic prefix, `16` is the length of the payload, and the payload `rpm,100,maf,3.3,` is a comma separated list of keys and pairs, let's call this "a line of known length"
 
-As for sending commands to rusEfi, there are two options
+As for sending commands to rusEFI, there are two options
 
 a) plain unwrapped command, for example
 
@@ -16,7 +16,7 @@ b) a command with specified length (this case the firmware can validate the comm
 
 `sec!7!rpm 400<end of line>`
 
-Pretty much same was as with data coming from rusEfi, we have a prefix `sec` and `7` for the payload length.
+Pretty much same was as with data coming from rusEFI, we have a prefix `sec` and `7` for the payload length.
 TODO: unify `line` and sec `one` day?
 
 ## java classes

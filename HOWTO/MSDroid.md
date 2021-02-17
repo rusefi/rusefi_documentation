@@ -4,12 +4,12 @@ Then you need to save this file: https://svn.code.sf.net/p/rusefi/code/trunk/fir
 
 Move the rusefi.ini file you've just downloaded to MSDroid/ini folder (I've used https://play.google.com/store/apps/details?id=com.estrongs.android.pop for that)
 
-In order to connect msDroid to rusEfi you would need to tap 'App settings' and select the paired Bluetooth device. As of today, msDroid does not turn Bluetooth on automatically.
+In order to connect msDroid to rusEFI you would need to tap 'App settings' and select the paired Bluetooth device. As of today, msDroid does not turn Bluetooth on automatically.
 
 
 Current status: partial integration
-* List of rusEfi gauges YES
-* List of rusEfi menues YES
+* List of rusEFI gauges YES
+* List of rusEFI menues YES
 * Simple single-values parameters YES
 
 * Gauge values NO

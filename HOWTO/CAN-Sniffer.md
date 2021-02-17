@@ -1,4 +1,4 @@
-## HOWTO use custom build of rusEfi for CAN bus sniffing
+## HOWTO use custom build of rusEFI for CAN bus sniffing
 
 In this HOWTO I will explain how to see raw CAN message flow with less than $30 in hardware & some free software.
 

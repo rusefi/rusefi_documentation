@@ -18,7 +18,7 @@ Pin #1 feeds ETB H-bridge, battery voltage sense, gp5 & gp6 high-side +12v, TLE8
 
 # Pin Types
 
-These tables provide technical information about the different types of pin found on microrusEfi.
+These tables provide technical information about the different types of pin found on microRusEFI.
 
 ## Power
 

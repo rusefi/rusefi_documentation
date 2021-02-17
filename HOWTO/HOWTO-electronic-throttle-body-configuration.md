@@ -51,7 +51,7 @@ https://www.youtube.com/watch?v=USU0nnekokA
 
 ### Start with autotune
 
-rusEfi has auto-tuning software that can help generate a starting point for your PID settings.
+rusEFI has auto-tuning software that can help generate a starting point for your PID settings.
 
 ### _Ensure the engine is off! Do not attempt to start the engine during this process!_
 

@@ -1,14 +1,14 @@
-## Reverse Engineering Saab Trionic 8 Combustion Detection Module (CDM) output signals using rusEfi ECU
+## Reverse Engineering Saab Trionic 8 Combustion Detection Module (CDM) output signals using rusEFI ECU
 
 ###### by Andrey Belomutskiy, 2018
 
 * Table of contents
-  * [Overview](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#overview)
-  * [Hardware](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#hardware)
-  * [Detonation test scenario](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#detonation-test-scenario)
-  * [Detonation signals](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#detonation-signals)
-* [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#next-steps)  
-* [External links](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEfi#external-links)
+  * [Overview](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#overview)
+  * [Hardware](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#hardware)
+  * [Detonation test scenario](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#detonation-test-scenario)
+  * [Detonation signals](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#detonation-signals)
+* [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#next-steps)  
+* [External links](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#external-links)
 
 
 This data would not be gathered without help from kb1gtt, stefanst, andreika, nighthunter, hankthefourth and many others.
@@ -64,7 +64,7 @@ Knock detection wire has 0.8KOhm pull-up to 5v, combustion detection signal has 
 
 ### Detonation test scenario
 
-2003 Mazda Miata 1.8 VVT Automatic running on rusEfi open source ECU.
+2003 Mazda Miata 1.8 VVT Automatic running on rusEFI open source ECU.
 
 Engine coolant temperature 100C, ambient temperature 4C, violent 40 degrees advance from 1500 RPM to 3500 RPM timing table.
 
@@ -89,7 +89,7 @@ Detonation is also audible while parked, revving with brakes applied in "D" gear
 
 [youtube: No knocking while standing on brakes 25 degrees timing](https://youtu.be/jS3LXw_v9ls)
 
-And that's it! We have seen enough to get some code for the rusEfi firmware to start consuming this knock singal data!
+And that's it! We have seen enough to get some code for the rusEFI firmware to start consuming this knock singal data!
 
 ### Next Steps
 
@@ -107,13 +107,13 @@ Inside of 55352173 Saab Ionization Detection Module
 
 ### External Links
 
-[rusEfi Patreon](https://www.patreon.com/rusefi)
+[rusEFI Patreon](https://www.patreon.com/rusefi)
 
-[rusEfi ECU](https://www.rusefi.com/)
+[rusEFI ECU](https://www.rusefi.com/)
 
-[rusEfi forum](https://www.rusefi.com/forum/)
+[rusEFI forum](https://www.rusefi.com/forum/)
 
-[rusEfi store](https://www.tindie.com/stores/russian/)
+[rusEFI store](https://www.tindie.com/stores/russian/)
 
 [Trionic 8](https://en.wikipedia.org/wiki/Trionic_8)
 

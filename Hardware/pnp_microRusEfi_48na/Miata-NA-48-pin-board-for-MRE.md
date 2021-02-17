@@ -18,7 +18,7 @@ The board can be configured for several different options simply by adding/remov
 # 1. Installation
 - Open the stock ECU case
 - Remove the stock PCB from the ECU case
-- Install the rusEfi board in the ECU case (note: one of the mounting holes, labeled J27, requires a stack of 3 M4 washers- see image below)
+- Install the rusEFI board in the ECU case (note: one of the mounting holes, labeled J27, requires a stack of 3 M4 washers- see image below)
 - Close the case*
 - Plug in connectors and drive
 
@@ -56,19 +56,19 @@ Your board may, or may not, have an onboard MAP sensor. The onboard MAP sensor c
 The board can be equipped with a secondary MAP sensor for barometric correction as well
 
 ## 2.4. Tach Signal
-Your stock engine (Miata NA6 and 94/95 NA8) uses external igniters that not only drive the ignition coils, they also provide the signal the tachometer uses to display rpm. The ECU provides only a pull-up to 5V. When equipping the vehicle with coils from a different generation Miata, or any other logic-level coil, like COPs or GM LS coils, they will not provide the tach signal and the rusEfi unit needs to take care of it. In the standard configuration the ECU only provides the pull-up resistor, but it can easily be changed to provide the tach signal.
+Your stock engine (Miata NA6 and 94/95 NA8) uses external igniters that not only drive the ignition coils, they also provide the signal the tachometer uses to display rpm. The ECU provides only a pull-up to 5V. When equipping the vehicle with coils from a different generation Miata, or any other logic-level coil, like COPs or GM LS coils, they will not provide the tach signal and the rusEFI unit needs to take care of it. In the standard configuration the ECU only provides the pull-up resistor, but it can easily be changed to provide the tach signal.
 
 # 3. Upgrades / expansions / options
 
 ## 3.1. Wideband O2 sensor
-This is so basic that you should probably do this at the same time as the installation of the ECU. Any aftermarket wideband sensors with an analog output will work. You will have to supply it with switched 12V from a decent source and connect to signal ground at the ECU. For the 12V you can splice into the wire going to pin 1B on the ECU (ignition power) and for ground rusEfi provides an additional signal ground pin on pin 2F that is not populated on the stock connector. Or you can splice into wires from pins 1C or 1D. The analog output should be connected to pin 2N on the ECU connector. This is the stock narrowband oxygen sensor input. 
+This is so basic that you should probably do this at the same time as the installation of the ECU. Any aftermarket wideband sensors with an analog output will work. You will have to supply it with switched 12V from a decent source and connect to signal ground at the ECU. For the 12V you can splice into the wire going to pin 1B on the ECU (ignition power) and for ground rusEFI provides an additional signal ground pin on pin 2F that is not populated on the stock connector. Or you can splice into wires from pins 1C or 1D. The analog output should be connected to pin 2N on the ECU connector. This is the stock narrowband oxygen sensor input. 
 
 ## 3.2. MAP Sensor
 The first thing most users will likely want to do is use a MAP sensor for load sensing instead of the stock VAF (AFM). The easiest way to achieve this is to install an MPX4250 in the designated spot on the PCB (see image). Your board may already have this sensor installed.
 Warning: V 0.2 of the board has an unintended "feature" that requires you to Note that only 4 of the six legs of the sensor get soldered directly to the board. Pin 1 and pin 3 get bent up by 90 degrees and wired into pin 3 and pin 1 of the ADJACENT barometric sensor. Note that pin 1 on the sensor goes to pin 3 on the board and pin 3 on the sensor goes to pin 1 on the board.
 ![Onboard MAP sensor](Hardware/pnp_microRusEfi_48na/onboard_baro.png)
 
-Please make sure to upload the correct tune for this configuration or change your tune manually. Tunes can be found at [rusEfi Online](https://rusefi.com/online/?sorts[uploadedMsq]=-1&sorts[uploadedLog]=-1)
+Please make sure to upload the correct tune for this configuration or change your tune manually. Tunes can be found at [rusEFI Online](https://rusefi.com/online/?sorts[uploadedMsq]=-1&sorts[uploadedLog]=-1)
 
 If you want to install an external MAP sensor, like a GM 3 bar sensor for example, you can wire it to your stock AFM connector instead of the AFM. Or you can run additional wires from the ECU. Instructions will follow separately. 
 

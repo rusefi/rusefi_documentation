@@ -14,7 +14,7 @@ This would produce a [Pull request like this](https://github.com/rusefi/rusefi_d
 https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/rusefi.input
 
 
-#### How to contribute to rusEfi TunerStudio project
+#### How to contribute to rusEFI TunerStudio project
 
 
 Same as above, fork https://github.com/rusefi/rusefi and edit your local copy of

@@ -35,7 +35,7 @@ For component placement please use interactive BOM
 [Some checkpoints](Hardware/microrusefi/Hardware_microRusEfi_0_4_7_front_checks.jpg)
 
 
-All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
+All microRusEfi kits use [MRE F4 rusEFI firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 
 
 
@@ -49,9 +49,9 @@ All microRusEfi kits use [MRE F4 rusEfi firmware - DOWNLOAD LATEST BUNDLE HERE](
 [0.4.7 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic_0_4_7.pdf)
 
 
-[rusEfi Slack channel](https://rusefi.com/forum/viewtopic.php?f=13&t=1198) is the primary support channel.
+[rusEFI Slack channel](https://rusefi.com/forum/viewtopic.php?f=13&t=1198) is the primary support channel.
 
-[HOWTO program rusEfi using DFU](HOWTO-DFU)
+[HOWTO program rusEFI using DFU](HOWTO-DFU)
 
 # Crankshaft position sensor options: Hall or VR
 

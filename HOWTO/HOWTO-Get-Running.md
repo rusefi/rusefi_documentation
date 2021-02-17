@@ -81,11 +81,11 @@ http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-
 Once connected you should test the wires. Especially the power wires like coil wires and injector wires. A poor connection with a slight resistance like .1 ohms can cause an electrical fire, which I'm sure you do not want. Once everything is connected measure both the voltage drop and current from the ECU connector, or where ever is applicably appropriate. Using your voltage and current readings, calculate the ohms, if it's above about .1 ohms fix the issue. Take note that .1 ohms at 1A is about .1watt that that connection will have to dissipate. If you have a 12 cyl, and 12 .1 ohm connections, the connector will have to dissipate 1.2 watts. 
 
 
-HOWTO start you engine with rusEfi for the first time
+HOWTO start you engine with rusEFI for the first time
 
 ### test outputs
 
-Both rusEfi console and TS allows you to test if rusEfi properly controls things like injectors (you would hear the clicks), cooling fan (you would hear it - if needed), fuel pump (you would usually hear it - if needed), ignition coil (that's challenging if you have a distributor)
+Both rusEFI console and TS allows you to test if rusEFI properly controls things like injectors (you would hear the clicks), cooling fan (you would hear it - if needed), fuel pump (you would usually hear it - if needed), ignition coil (that's challenging if you have a distributor)
 
 
 ## get tachometer showing correct cranking rpm
@@ -101,13 +101,13 @@ Assuming you have the hardware ready to spark we now need to find your TDC posit
 
 Set cranking advance angle to zero for now. Use a timing gun while cranking. We now need to try different values of Engine->Trigger->global trigger angle offset until we get spark at zero advance - that's because we might know the relation between TDC#1 and trigger signal. 
 
-On Engine Sniffer tab of rusEfi console TDC#1 is shown with the green vertical line.
+On Engine Sniffer tab of rusEFI console TDC#1 is shown with the green vertical line.
 
 ![Initial Cranking Parameters](Images/Initial_cranking_parameters.png)
 
 ## cranking parameters
 
-rusEfi has separate cranking control strategy for your first couple of engine revolutions - usually you want more fuel, different timing and simultaneous injection to start an engine.
+rusEFI has separate cranking control strategy for your first couple of engine revolutions - usually you want more fuel, different timing and simultaneous injection to start an engine.
 
 ![Cranking Dialog](Images/Cranking_dialog_jan_2017.png)
 
@@ -137,7 +137,7 @@ One plain MAF workk next step is running with proper MAP sensor calibration & fl
 There are three ways to produce similar logs - the intention is for these three to have same exact data.
 
 1. SD card logging
-2. rusEfi console logging
+2. rusEFI console logging
 3. TunerStudio logging
 
 See also https://svn.code.sf.net/p/rusefi/code/trunk/firmware/console/binary/tunerstudio_configuration.h

@@ -2,7 +2,7 @@ See [list of all supported triggers](All-Supported-Triggers)
 
 ## Troubleshooting trigger input
 
-### Troubleshooting hardware with rusEfi console
+### Troubleshooting hardware with rusEFI console
 
 Use `triggerinfo` command (go to Messages tab, your can either type or use a button from the panel on the right) to confirm input pin(s). Also use `triggerinfo` command to see how many trigger events were registered by the firmware ("trigger#1 event counters up=x/down=y").
 
@@ -18,11 +18,11 @@ test #1: GND input channels 11 and 12, tell me what you read on W211 and W212
 
 test #2: float input channels 11 and 12, tell me what you read on W211 and W212
 
-### Troubleshooting synchronization rusEfi console
+### Troubleshooting synchronization rusEFI console
 
-Type `enable trigger_details` in rusEfi console to enable verbose synchronization logging. Post from 'Messages" output on the forum.
+Type `enable trigger_details` in rusEFI console to enable verbose synchronization logging. Post from 'Messages" output on the forum.
 
-"print sync details to console" in TS enables the same output but the output still goes only to rusEfi console.
+"print sync details to console" in TS enables the same output but the output still goes only to rusEFI console.
 
 ### Troubleshooting with TunenStudio
 
@@ -30,21 +30,21 @@ Enable Trigger Counters
 
 ![Trigger Counter in Base Engine Settings](Images/trigger_counters.png)
 
-Channel #1 counter would be "debug i1" gauge and channel #2 is "debug i2". These values should go up if you are cranking and that confirms that the events are being registered by rusEfi firmware.
+Channel #1 counter would be "debug i1" gauge and channel #2 is "debug i2". These values should go up if you are cranking and that confirms that the events are being registered by rusEFI firmware.
 
 ![Debug Gauges](Images/debug_gauges_counter.png)
 
 ## Trigger Simulation
 
-rusEfi has a feature of trigger signal emulation on Trigger Simulator Pins. All channels of trigger input would be simulated on corresponding channels of Trigger Simlator.
+rusEFI has a feature of trigger signal emulation on Trigger Simulator Pins. All channels of trigger input would be simulated on corresponding channels of Trigger Simlator.
 
-At the moment rusEfi has no means for VVT/camInput simulation.
+At the moment rusEFI has no means for VVT/camInput simulation.
 
 ## Q & A
 
 **Q: what is _globalTriggerAngleOffset_ configuration parameter?**
 
-A: On engine sniffer tab in rusEfi console, there is a signal front with "0" next to it. That's the trigger synchronization event on the primary trigger line. The trigger synchronization always happens at one of the rise of fall of the primary trigger. globalTriggerAngleOffset is the angle distance between synchronization point and cylinder #1 top dead center. TDC#1 is the green line by the way.
+A: On engine sniffer tab in rusEFI console, there is a signal front with "0" next to it. That's the trigger synchronization event on the primary trigger line. The trigger synchronization always happens at one of the rise of fall of the primary trigger. globalTriggerAngleOffset is the angle distance between synchronization point and cylinder #1 top dead center. TDC#1 is the green line by the way.
 
 ![Sync Point](Images/Sync_point_highlighed.png)
 
@@ -76,7 +76,7 @@ A: try _enable trigger_details_ command in console or "print sync details to con
 
 *Q: I have a 60/2 crank wheel and I would like to use a cam sensor for fully sequential mode. Should I use "4-stroke with Cam sensor"?*
 
-A: You can only use "4-stroke with Cam sensor" if your composite trigger shape is known to rusEfi. If you are adding a cam to 60/2, rusEfi probably does not know this combination with all the angles precisely. The way to add sequential to a skipped-tooth crank wheel is via cam input mode, same as used for VVT (see also [VVT](VVT))
+A: You can only use "4-stroke with Cam sensor" if your composite trigger shape is known to rusEFI. If you are adding a cam to 60/2, rusEFI probably does not know this combination with all the angles precisely. The way to add sequential to a skipped-tooth crank wheel is via cam input mode, same as used for VVT (see also [VVT](VVT))
 This case your known crank shape is used for shaft position lookup and your cam is only used for phase lookup - exact cam sensor angular position is less important.
 
 See also [VVT](VVT)

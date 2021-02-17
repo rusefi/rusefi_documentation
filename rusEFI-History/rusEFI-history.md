@@ -1,5 +1,5 @@
 # 2012
-rusEfi has started out of the blue by Andrey. 
+rusEFI has started out of the blue by Andrey. 
 
 # 2013
 
@@ -14,4 +14,4 @@ Honda Accord came with head gasket pre-blown! https://honda-tech.com/forums/engi
 
 That's when Nick has joined the party.
 
-https://github.com/rusefi/rusefi_documentation/wiki/List_of_engines_running_rusEfi
+https://github.com/rusefi/rusefi_documentation/wiki/List_of_engines_running_rusEFI

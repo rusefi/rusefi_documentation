@@ -21,7 +21,7 @@ Use separate VE Table for idle: This activates a separate fuel table for Idle, t
 
 Use separate IAC Table For Coasting: This setting allows the ECU to open the IAC during overrun conditions to help reduce engine breaking, this can be helpful for large engines in light weight cars.
 
-Detailed status in console: Print details into rusEfi console
+Detailed status in console: Print details into rusEFI console
 
 PID Extra for low RPM(%): Increases PID reaction for RPM<target by adding extra percent to PID-error
 

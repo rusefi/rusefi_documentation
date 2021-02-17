@@ -3,7 +3,7 @@
 A reliable measurement of the AFR is vital for the tuner to be able to tune the engine and be sure that his changes to the fueling are correct. For this purpose we recommend one of the readily available aftermarket wideband gauges or controllers.
 A wide-band oxygen sensor is pretty much a must for what we are doing here. Bosch is the only manufacturer of these sensors I am aware of. The wide-band precision of the sensor is achieved by a relatively sophisticated magic which happens inside the sensor, that's why 5 or 6 wises and that's why the sensor requires it's own controller (brain). Since there are at least two kinds of sensors it's safer to buy a kit.
 
-As of April 2016 rusEfi does not have build-in WBO controller.
+As of April 2016 rusEFI does not have build-in WBO controller.
 
 Wide-band controllers range from $35.00 for http://www.14point7.com/products/slc-free ($85 with sensor) all the way to high-200 for kits with a gauge.
 

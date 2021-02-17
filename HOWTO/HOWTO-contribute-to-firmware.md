@@ -1,4 +1,4 @@
-The majority of rusEfi code is written in very plain C++ ("C with classes"), with rusEfi console and some code generating
+The majority of rusEFI code is written in very plain C++ ("C with classes"), with rusEFI console and some code generating
 tools written in java.
 
 Most of the needs are within the C/C++ firmware and automated testing. 
@@ -15,7 +15,7 @@ Testing coverage open tickets: https://github.com/rusefi/rusefi/labels/automated
 
 All open tickets: https://github.com/rusefi/rusefi/issues
 
-See [Try It](Try-It) for how to work on rusEfi code with zero or minimal hardware.
+See [Try It](Try-It) for how to work on rusEFI code with zero or minimal hardware.
 
 [Click here for a Q&A on source code.](http://rusefi.com/forum/viewtopic.php?f=5&t=10)
 

@@ -2,11 +2,11 @@
 
 ## The content below is mostly from 2018 and is in the process of being updated. This wiki article needs to be viewed as a work in progress at this time and may contain contradictory information.  
 
-Flexible Logic is the fanciest-schmanciest feature of rusEfi. Using the FSIO a user can quickly add a logical function directly into the program of the ECU. 
+Flexible Logic is the fanciest-schmanciest feature of rusEFI. Using the FSIO a user can quickly add a logical function directly into the program of the ECU. 
 
-Flexible Logic allows advanced users to get unprecedented level of configurability for custom outputs and engine control. rusEfi supports up to 16 flexible outputs, each of these could be either an on/off or PWM signal. In case of a PWM signal the frequency is defined in the configuration and the duty cycle is dynamically controlled by the evaluated expression.
+Flexible Logic allows advanced users to get unprecedented level of configurability for custom outputs and engine control. rusEFI supports up to 16 flexible outputs, each of these could be either an on/off or PWM signal. In case of a PWM signal the frequency is defined in the configuration and the duty cycle is dynamically controlled by the evaluated expression.
 
-For FSIO, rusEfi console provides a better user experience due to automated human to RPN conversion.
+For FSIO, rusEFI console provides a better user experience due to automated human to RPN conversion.
 
 ---
 

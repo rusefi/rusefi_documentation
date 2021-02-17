@@ -1,4 +1,4 @@
-At the moment the only way to add a new trigger pattern is by having rusEfi developers add a little bit of code into the firmware along the lines of:
+At the moment the only way to add a new trigger pattern is by having rusEFI developers add a little bit of code into the firmware along the lines of:
 
 s->addEvent(52.960405, T_SECONDARY, TV_RISE);
 
@@ -20,7 +20,7 @@ For developers to add the code we need to know the angles of signal rises and fa
 
 ## Step 1: tooth count
 
-Using rusEfi console get a picture of a long enough engine sniff. On this example you see that a cycle of events consists of 24 tooth.
+Using rusEFI console get a picture of a long enough engine sniff. On this example you see that a cycle of events consists of 24 tooth.
 
 ![Engine Sniffer](Images/Engine_sniffer.png)
 
