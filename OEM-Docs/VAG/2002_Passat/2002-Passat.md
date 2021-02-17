@@ -13,7 +13,7 @@
 | 36  | ?       | gnd             | PPS Ground       |
 | 58  | ORG/BRN | can             | CANL                |
 | 60  | ORG/BLK | can             | CANH                  |
-| 62  | ?       | 12v             | NO NEED FOR microRusEfi permanent +12v |
+| 62  | ?       | 12v             | NO NEED FOR microRusEFI permanent +12v |
 | 65  | ?       | low side       ?| Fuel pump relay  |
 | 72  | GRY     |                ?| ?                |
 | 82  | GRY     | vr              | Crank+ |

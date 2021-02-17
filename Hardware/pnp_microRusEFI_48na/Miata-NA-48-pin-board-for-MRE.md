@@ -195,9 +195,9 @@ JP50	2X	CAN_L|	Y	|N|	Purg Sol. Vlv|	Purg Sol. Vlv
 
 [Schematics 0.4](Hardware/pnp_microRusEFI_48na/microRusEFI48adapter_0.4.pdf)
 
-[Schematics 0.2](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0_2.pdf)
+[Schematics 0.2](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEFI_48na/microrusefi48adapter_0_2.pdf)
 
-[Schematics 0.1](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEfi_48na/microrusefi48adapter_0.1.pdf)
+[Schematics 0.1](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/pnp_microRusEFI_48na/microrusefi48adapter_0.1.pdf)
 
 
 [Mazda Miata 1990](Mazda-Miata-1990)

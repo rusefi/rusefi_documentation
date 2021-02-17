@@ -343,4 +343,4 @@ https://www.youtube.com/watch?v=eA4clVtklZ8
 ---
 
 ## Pin naming usability issue
-We have a usability feature with microRusEfi where stm32 pin names are hidden from users. Unfortunately for FSIO these smt32 pin names are needed. Those are visible in https://github.com/rusefi/rusefi/blob/master/firmware/config/boards/microrusefi/mapping.yaml
+We have a usability feature with microRusEFI where stm32 pin names are hidden from users. Unfortunately for FSIO these smt32 pin names are needed. Those are visible in https://github.com/rusefi/rusefi/blob/master/firmware/config/boards/microrusefi/mapping.yaml

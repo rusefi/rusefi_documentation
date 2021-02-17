@@ -11,7 +11,7 @@ communicate via USB if you solder just USB connector or feed USB via 48 pin conn
 ## HOWTO microRusEFI Kit
 
 
-[mircoRusEfi kit](https://www.ebay.com/itm/333517397424) comes 75% assembled - while many components are already mounted, about two dozens
+[microRusEFI kit](https://www.ebay.com/itm/333517397424) comes 75% assembled - while many components are already mounted, about two dozens
 still need to be added. This includes both easy to mount components like main connector and harder to solder
 TLE8888 100-pin chip. Some soldering hints and tricks [are discussed here](https://rusefi.com/forum/viewtopic.php?t=425).
 If in doubt of your SMD skills please consider fully assembled version. 
@@ -35,7 +35,7 @@ For component placement please use interactive BOM
 [Some checkpoints](Hardware/microRusEFI/Hardware_microRusEFI_0_4_7_front_checks.jpg)
 
 
-All microRusEfi kits use [MRE F4 rusEFI firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
+All microRusEFI kits use [MRE F4 rusEFI firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 
 
 
