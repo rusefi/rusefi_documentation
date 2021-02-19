@@ -521,6 +521,8 @@ http://www.te.com/catalog/pn/en/9-1326729-8
 
 60+94
 
+me9.7
+
 http://www.te.com/catalog/pn/en/284617-1
 
 http://www.te.com/catalog/pn/en/936524-2
