@@ -518,6 +518,9 @@ http://www.te.com/catalog/pn/en/9-1326729-8
 <a name="154"/>
 
 ## 154 pin
+
+60+94
+
 http://www.te.com/catalog/pn/en/284617-1
 
 http://www.te.com/catalog/pn/en/936524-2
