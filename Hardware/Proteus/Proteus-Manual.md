@@ -6,13 +6,13 @@
 
 [Download nightly firmware](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
 
-[List of I/O](https://github.com/mck1117/proteus#proteus)
-
 ## Wiring & Pinout
 
 [Pinout for version 0.3, 0.4, and 0.5 (green)](Hardware-Proteus-Wiring-v03)
 
 [Pinout for version 0.2 (black)](Hardware-Proteus-Wiring-v02)
+
+[List of I/O](https://github.com/mck1117/proteus#proteus)
 
 
 More technical details see [Proteus](Proteus)
