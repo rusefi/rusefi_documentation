@@ -30,6 +30,11 @@ Alex has M111 1.8 https://rusefi.com/forum/viewtopic.php?f=2&t=1700
 [Mercedes-v8](Mercedes-v8)
 
 
+M113K is 113.990 or 113.991? Looks like 134 pin connector?
+
+M156 looks like 154 pin connector? http://benz.ehost.tj/ is amazing?
+
+
 # 1997 S320
 
 ![x](OEM-Docs/Mercedes/1997_s320_1.png)
