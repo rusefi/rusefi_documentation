@@ -17,6 +17,8 @@ You can use rusEFI PC simulator to try rusEFI. PC simulator Windows binaries are
 
 Feature|Supported?
 -------|----------
+Hall, VR, CLT, TPS and all popular sensors|✓
+[TunerStudio online tuning](https://github.com/rusefi/rusefi/wiki/HOWTO-create-tunerstudio-project)|✓
 Batch Injection|✓
 Sequential Injection up to 12 cylinders|✓
 Wasted Ignition|✓
