@@ -2,6 +2,8 @@
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)
 
+<span style="color:red"> **## WARNING: for historical reasons microRusEFI pin numbers do not match Molex numbers on the plastic</span>
+
 ![connector](Hardware/microRusEFI/Hardware_microRusEFI_connector.png)
 
 ![microRusEFI photo](Hardware/microRusEFI/Hardware_microRusEFI_connector.jpg)
