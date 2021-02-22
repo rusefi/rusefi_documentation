@@ -521,7 +521,7 @@ http://www.te.com/catalog/pn/en/9-1326729-8
 
 60+94
 
-me9.7
+EDC16 EDC17
 
 http://www.te.com/catalog/pn/en/284617-1
 
@@ -536,6 +536,14 @@ https://www.te.com/global-en/product-936762-2.html
 https://github.com/rusefi/rusefi/tree/master/hardware/284617-1-connector
 
 http://rusefi.com/forum/viewtopic.php?f=4&t=582
+
+## 154 pin 
+
+96+58
+
+me9.7
+
+Aptiv Delphi 13830808
 
 ## 196 pin
 
