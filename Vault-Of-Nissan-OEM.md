@@ -14,7 +14,7 @@ https://rusefi.com/forum/viewtopic.php?f=4&t=1935
 
 ![x](OEM-Docs/Nissan/2005-sentra-2.5-ecu.png)
 
-#
+# 2005 Maxima
 
 ![x](OEM-Docs/Nissan/2005-maxima-ecu.png)
 
