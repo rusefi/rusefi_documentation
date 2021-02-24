@@ -1,6 +1,8 @@
 
 # 325
 
+![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_325_ecu.png)
+
 ![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_325_1.png)
 
 ![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_325_2.png)
@@ -8,6 +10,8 @@
 ![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_325_3.png)
 
 # M3
+
+![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_m3_ecu.png)
 
 ![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_m3_1.png)
 
