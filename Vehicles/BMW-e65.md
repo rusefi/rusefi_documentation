@@ -3,6 +3,8 @@ Production 2001 – 2008
 
 # 750 8 cylinders
 
+![x](OEM-Docs/Bmw/7_Series_e65/2006_bmw_750_ecu.png)
+
 ![p](OEM-Docs/Bmw/7_Series_e65/2006_bmw_750_1.png)
 ![p](OEM-Docs/Bmw/7_Series_e65/2006_bmw_750_2.png)
 ![p](OEM-Docs/Bmw/7_Series_e65/2006_bmw_750_3.png)
