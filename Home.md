@@ -33,8 +33,8 @@ Hundreds of rusEFI units produced|✓
 We've lost track of how many vehicles are running on rusEFI|✓
 [Knock Sensing](knock-sensing)|✓
 [Knock response](https://github.com/rusefi/rusefi/issues/202)|✗
-[Boost Control by gear](https://github.com/rusefi/rusefi/issues/2404)|✗
-[Anilag](https://github.com/rusefi/rusefi/issues/2403)|✗
+[Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)|✗
+[Antilag](https://github.com/rusefi/rusefi/issues/2403)|✗
 Flat Shifting|✗
 Automatic Transmission Control|✗
 Rotary Engines|✗
