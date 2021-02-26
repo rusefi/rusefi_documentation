@@ -31,7 +31,10 @@ Boost Control|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
 Hundreds of rusEFI units produced|✓
 We've lost track of how many vehicles are running on rusEFI|✓
-[Knock Sensing](knock-sensing)|✗
+[Knock Sensing](knock-sensing)|✓
+Knock response|✗
+Boost Control by gear|✗
+Anilag|✗
 Flat Shifting|✗
 Automatic Transmission Control|✗
 Rotary Engines|✗
