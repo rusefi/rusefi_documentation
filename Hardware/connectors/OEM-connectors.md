@@ -421,10 +421,16 @@ https://www.te.com/usa-en/product-1318612-1.html
 
 Honda D17 Honda K
 
+31+24+22+17+31=125
+
 1318682-6 = ECU A 31
-353029-1 = ECU B 24 
+
+353029-1 = ECU B 24
+ 
 353028-1 = ECU C 22
+
 353027-1 = ECU D 17
+
 353826-1 = ECU E 31
 
 ## 128/145 pin
