@@ -27,6 +27,7 @@ Flex Fuel 🌽|✓
 Closed Loop Fueling|✓
 Electronic Throttle Body|✓
 Boost Control|✓
+Dual AFR signal logging|✓
 [Launch Control](Launch-Control)|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
 Hundreds of rusEFI units produced|✓
