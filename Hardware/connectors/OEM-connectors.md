@@ -210,6 +210,8 @@ terminal 173681
 ![Grey connectors](Hardware/connectors/64_pin_connectors_grey.png)
 ![Green connectors](Hardware/connectors/64_pin_connectors_green.png)
 
+mitsubishi colt/mirage 1991-1995 year for 1.3, 1.6 and 1.8 engine
+
 See also [the 48 pin](OEM-connectors#48-pin).
 
 For sale @ http://www.ebay.com/usr/rusefi
