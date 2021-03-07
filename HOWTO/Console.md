@@ -24,7 +24,7 @@ Currently analog chart can display one of these two things
 
 ![Log Viewer](Images/log_viewer.png)
 
-Greed line is a border of engine cycle. Please note that the angle within current engine cycle is displayed in the bottom left corner - the angle is from 0 to 720 in case of a four stroke engine.
+Green line is a border of engine cycle. Please note that the angle within current engine cycle is displayed in the bottom left corner - the angle is from 0 to 720 in case of a four stroke engine.
 
 Red line is just absolute time scale. One line per second? Per 100ms? Something like that. TODO.
 
