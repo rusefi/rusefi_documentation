@@ -24,3 +24,10 @@ https://github.com/rusefi/rusefi/issues/95 - per-injector performance correction
 https://rusefi.com/forum/viewtopic.php?f=5&t=1952&p=40009 - Fw. improvement - PANIC BUTTON  
 https://rusefi.com/forum/viewtopic.php?f=5&t=1900&p=39412 - Limp Home and Engine Protection  
 https://rusefi.com/forum/viewtopic.php?f=5&t=1469&p=39327 - Software knock processing  
+
+
+# Control methods and logic:   
+### Knock Intervention  
+Current status - Knock sensors work, we have reliable logging of signals, we have some level of noise threshold working, we have know windowing working, we have auto calculation of the second harmonic?  
+
+
