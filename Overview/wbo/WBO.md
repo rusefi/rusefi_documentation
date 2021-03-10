@@ -69,6 +69,8 @@ H+ Constant +12v
 
 H- Heater control, low-side
 
+UN = Vs = sensor voltage output
+
 4.9 pinout courtesy of https://www.wbo2.com/cable/lsuconns.htm
 
 ![x](FAQ/LSU-4-9-17025hcon.gif)
