@@ -57,9 +57,13 @@ though you could probably use D=0 since the system is already damped so hard
 [Newer LQFP-32 board - single side assembly](https://github.com/rusefi/rusefi/tree/master/hardware/CJ125_board)
 
 
-IP Pump Current
+# Naming Convention
+
+IP=Pump Current
 
 VS/IP=VM=common virtual ground for VS and IP
+
+R Trim=Calibration resistor
 
 H+ Constant +12v
 
