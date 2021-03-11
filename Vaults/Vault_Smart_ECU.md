@@ -26,7 +26,13 @@ https://rusefi.com/forum/viewtopic.php?f=5&t=1900&p=39412 - Limp Home and Engine
 https://rusefi.com/forum/viewtopic.php?f=5&t=1469&p=39327 - Software knock processing  
 
 
-# Control methods and logic:   
+# Control methods and logic: 
+### Malfunction light behavior  
+One of the most critical things in terms of driver feedback is making the error warnings as clear as possible. In a critical engine protection situation the last thing you want is the driver not being sure what he needs to do.  
+Because of this the EML light should have 2 stages:  
+1. Solid on light - meaning there is an issue and reducing speed/demand/aggression is advised but there is no need to immediately stop driving.  
+2. Flashing light - Lift off immediately and check error.  
+
 ### Knock Intervention  
 Current status - Knock sensors work, we have reliable logging of signals, we have some level of noise threshold working, we have know windowing working, we have auto calculation of the second harmonic?  
 
@@ -49,9 +55,11 @@ Should remain on until driver lifts throttle to prevent surging. Should be the n
 
 4. Use water meth.  
 In cases where vehicle has water meth injection then this should be activated in addition to the initial spark retard.  
-In a siuation where EGT results are available and the engine is near EGT limit then this should take preference to retarding spark.  
+In a situation where EGT results are available and the engine is near EGT limit then this should take preference to retarding spark.  
 I.e. above user defined EGT spark max retard is reduced to user defined level and meth is activated as soon as knock is detected.  
 Requires: flag "has water meth", user defined EGT limit, maybe water meth pin assignment, user defined water meth pwm? Trigger water meth from gpio table?  
+
+5. Extreme case cut fuel and ignition for x cycles to reduce the in cylinder temperatures before re-enabling as a last ditch to keep auto ignition down.  
 
 EML severity: no action until the need to reduce boost, at which point flash light.  
 
@@ -71,4 +79,18 @@ EML severity: solid on for light while temp is over set limit.
 ### High EGT.  
 Where vehicle has EGT sensing allow user to set a preffered EGT limit and max exceed value.  
 If EGT limit is reached light eml and enrich. If EGT max exceed value is breached flash EML.  
+As we schedule events individually we could cut the cylinder that was detected to be high, this would require killing the injector for just that cylinder or for the batch.  
 
+### Low fuel pressure or max injector duty cycle  
+Main thing to avoid here is leanout, fuel pressure compensation is going to deal with a lot of the problem as the pressure drop but at some point it will reach the max injector duty cycle.  
+Possible ways to mitigate this are to limit RPM, limit boost and/or limit pedal to achieve the previous.  
+
+### ETB deviation error  
+Implies a loss or lack of accurate control of the ETB, this should probably be considered a serious error resulting in a flashing EML.  
+
+
+### Fatal errors  
+
+### Load sensor failure  
+
+### 
