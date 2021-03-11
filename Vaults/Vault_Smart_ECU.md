@@ -47,4 +47,28 @@ Should be designed to be user configurable as to the level of intervention and w
 Requires: max allowed pressure reduction by ETB, toggle option for etb, toggle option for wastegate, maybe a max pwm duty cycle increase for wastegate.  
 Should remain on until driver lifts throttle to prevent surging. Should be the next action after the enrichment if knock still present.  
 
+4. Use water meth.  
+In cases where vehicle has water meth injection then this should be activated in addition to the initial spark retard.  
+In a siuation where EGT results are available and the engine is near EGT limit then this should take preference to retarding spark.  
+I.e. above user defined EGT spark max retard is reduced to user defined level and meth is activated as soon as knock is detected.  
+Requires: flag "has water meth", user defined EGT limit, maybe water meth pin assignment, user defined water meth pwm? Trigger water meth from gpio table?  
+
+EML severity: no action until the need to reduce boost, at which point flash light.  
+
+### Overboost protection.  
+This one is more easy, take similar action to knock stages 3 and 4.  
+EML severity: Solid on for light as boost reduction will take care of it, if after x cycles boost still high then flash light.  
+
+### High coolant temperature.  
+Intended to help prevent mishaps with overstretched cooling systems.  
+Use knock stage 2 and 3, if 4 available then activating has benefit to reduce in cylinder temps.  
+If EWP then also demand increased or MAX pump duty cycle for x time (1 min).  
+If electric fan then enable fan until temp is restored.  
+Requires: user defined maximum coolant temperature, boost cut and enrichment optional.  
+EML severity: solid on for light while temp is over set limit.  
+
+
+### High EGT.  
+Where vehicle has EGT sensing allow user to set a preffered EGT limit and max exceed value.  
+If EGT limit is reached light eml and enrich. If EGT max exceed value is breached flash EML.  
 
