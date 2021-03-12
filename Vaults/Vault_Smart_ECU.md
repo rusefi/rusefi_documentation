@@ -77,7 +77,7 @@ EML severity: solid on for light while temp is over set limit.
 
 
 ### High EGT.  
-Where vehicle has EGT sensing allow user to set a preffered EGT limit and max exceed value.  
+Where vehicle has EGT sensing allow user to set a preferred EGT limit and max exceed value.  
 If EGT limit is reached light eml and enrich. If EGT max exceed value is breached flash EML.  
 As we schedule events individually we could cut the cylinder that was detected to be high, this would require killing the injector for just that cylinder or for the batch.  
 
@@ -90,7 +90,12 @@ Implies a loss or lack of accurate control of the ETB, this should probably be c
 
 
 ### Fatal errors  
+As these are "fatal" we should likely treat them as such and perform a controlled shutdown.  
+In this case it would be to deactivate injection and ignition and close ETB.  
+This MUST only be the case for truly fatal errors where the consequences of keeping the engine running are worse than leaving someone with a total loss of power (even if it is done in a controlled fashion), again this is a case where a flashing EML is needed.  
+
 
 ### Load sensor failure  
+Loss of primary load sensor (MAP, TPS or MAF) is currently a problem that will leave the engine inoperable. 
 
 ### 
