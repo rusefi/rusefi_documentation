@@ -38,8 +38,10 @@ In TunerStudio, open the *"TPS"* window from the *Sensors* menu.
 1. Remove intake plumbing such that you can see and touch the throttle plate in the throttle body to confirm proper operation.
 2. Select the channels wired to your primary and secondary redundant throttle position sensors.  Using both is a safety concern: this lets rusEFI detect a broken or shorted wire or failed sensor.
 3. Restart the ECU: disconnect USB, and cycle the ignition off, then back on, and reconnect USB.
-4. Push the "auto calibrate ETB 1" button. The throttle should first OPEN, then CLOSE. If it does the inverse, your throttle motor is wired backwards, and ETB+ and ETB- wires must be swapped.
-6. Press BURN.
+4. Push the "auto calibrate ETB 1" button. The throttle should first OPEN, then CLOSE. If it does the inverse, your throttle motor is wired backwards, and ETB+ and ETB- wires must be physically swapped.
+6. Press BURN. Ensure that the TPS gauge reads correctly for the full range of throttle positions.
+
+Repeat this process for the second throttle, if present.
 
 # Throttle Tuning
 
