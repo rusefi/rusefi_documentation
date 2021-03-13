@@ -18,7 +18,7 @@
 - [Engines running on rusEFI](List-of-engines-running-rusEFI)
 - [HOWTO-help-rusEFI](HOWTO-help-rusEFI)
 
-# Guides
+# Setup Guides
 
 - [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)
 
