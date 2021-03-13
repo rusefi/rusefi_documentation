@@ -20,8 +20,7 @@
 
 # Guides
 
-- [Electronic Throttle Body](Guide%3A-Electronic-Throttle-Body-Configuration)
-
+- [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)
 
 # Pages
 - [Fuel](Pages-Fuel)
