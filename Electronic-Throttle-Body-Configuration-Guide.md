@@ -1,3 +1,5 @@
+## _WARNING: An electronic throttle, if misconfigured or damaged, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!_
+
 # Wiring
 
 ## Throttle Position Sensors
