@@ -25,7 +25,7 @@
 | off | fast flash | sensor warming up |
 | off | slow flash | Sensor hot, operating normally |
 | flashing | off | See error code table below |
-| alternating | alternating | Bootloader |
+| alternating | alternating | Bootloader, see below |
 
 ## Firmware Update
 
@@ -40,6 +40,13 @@ Green LED off and blue LED flashing indicates an error.  The blue LED will blink
 | 3 | Sensor failed to heat up within 15 seconds |
 | 4 | Sensor overheated after entering closed loop mode |
 | 5 | Sensor unexpectedly cold after entering closed loop mode (bad wiring?) |
+
+### Bootloader LED Codes
+
+| Blink pattern | Meaning |
+| --- |:--- |
+| alternating slowly | Firmware integrity check failed, please retry firmware upgrade. |
+| alternating quickly | Waiting for bootloader entry command, only occurs for ~1 second before launching firmware |
 
 ## Source Code
 
