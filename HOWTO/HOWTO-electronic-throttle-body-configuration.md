@@ -1,31 +1,63 @@
-# Electronic Throttle Body Configuration Guide
+# Wiring
 
-## Wiring
+## Throttle Position Sensors
 
-ETB could easily consume 5A of current. A larger wall power supply would provide that while smaller 2A-3A units would not be enough.
+Electronic throttles always have two redundant throttle position signals (TPS).  The exact relationship between them is not restricted, but it is required that there are two signals present.
 
-TODO
+## Accelerator Pedal
+
+Similar to TPS, accelerator pedals have two or three redundant position signals.  If you have three, leave one unconnected as rusEFI only requires two.
+
+## Motor
+
+rusEFI supports electronic throttles that use brushed DC motors.  This includes nearly all modern throttles, but excludes some very early ETB implementations (BMW, Toyota) that used a stepper motor instead.
+
+Brushed DC motors have two wires.  When connected to power one way the throttle opens, and the other way it closes. The convention for wiring for ETBs with rusEFI is that when ETB+ is connected to battery+, and ETB- connected to battery-, the throttle should OPEN.  This generally agrees with the OEM wiring diagrams available for your vehicle.
+
+Most throttles have one connector that contains both the position sensors and motor, but some use separate connectors. Electrically they are the same either way.
+
+# Basic Setup
 
 ## Calibrate Sensors
 
 ### Pedal position sensor
 
-TODO
+In TunerStudio, open the *"Accelerator pedal"* window from the *Sensors* menu.
+
+1. Select the channels wired to your primary and secondary redundant pedal sensors.  Using both is a safety concern: this lets rusEFI detect a broken or shorted wire or failed sensor.
+2. Restart the ECU: disconnect USB, and cycle the ignition off, then back on, and reconnect USB.
+3. Ensure that both "Raw Pedal Primary" and "Raw Pedal Secondary" voltage gauges move smoothly as the pedal is depressed.
+4. Record the primary/secondary voltages with your foot off the pedal in their respective "up voltage" fields.
+5. Repeat with the pedal pressed all the way to the floor.
+6. Press BURN, and ensure that the "Throttle pedal position" gauge moves smoothly to match the pedal's position.
 
 ### Throttle position sensor
 
-1. configure TPS input channels:
+In TunerStudio, open the *"TPS"* window from the *Sensors* menu.
 
-2a. press "auto calibrate TPS" - it should open then close throttle, recording endpoinst
+1. Remove intake plumbing such that you can see and touch the throttle plate in the throttle body to confirm proper operation.
+2. Select the channels wired to your primary and secondary redundant throttle position sensors.  Using both is a safety concern: this lets rusEFI detect a broken or shorted wire or failed sensor.
+3. Restart the ECU: disconnect USB, and cycle the ignition off, then back on, and reconnect USB.
+4. Push the "auto calibrate ETB 1" button. The throttle should first OPEN, then CLOSE. If it does the inverse, your throttle motor is wired backwards, and ETB+ and ETB- wires must be swapped.
+6. Press BURN.
 
-2b. hit the burn button. You now have both channels of first electronic throttle body calibrated!
+# Throttle Tuning
 
-For second ETB you currently have to copy-paste values manually.
+See https://rusefi.com/forum/viewtopic.php?f=5&t=592&start=150#p32044
 
+https://www.youtube.com/watch?v=USU0nnekokA
 
-Zero position requires you to push throttle closed. Full throttle requires you to push throttle open.
+## Autotune PID
 
-Neutral position is usually somewhere around 0-10%.
+rusEFI includes PID auto-tuning software that can help generate a starting point for your PID settings.  It is often good enough that no further tuning is required for good performance.
+
+### _Ensure the engine is off! Do not attempt to start the engine during this process!_
+
+1. Ensure your electronic throttle roughly tracks the target position.  Speed or perfection is not required, but it should at least work. Confirm this by checking that the gauge "ETB position error" displays small values while moving the throttle around gently (a few percent is fine, so long as it trends towards zero if you stop moving).  If not, revisit the basic configuration steps above.
+2. Press `Start ETB PID Autotune` button.  The throttle will begin oscillating around 50% position: this is normal.
+3. Once the values in the `pFactor`/`iFactor`/`dFactor` fields have stabilized, auto-tune is complete.  Press `Stop ETB PID Autotune` to return to normal operation.  Press BURN to save the learned values.
+
+*Note: to see additional detail about the autotuning process, the [debug mode](Debug-Mode) `ETB Autotune` and gauges Ku, Tu, Kp, Ki, Kd (in debug menu) (todo: add screenshot) may be interesting*
 
 ## Tune Bias Table
 
@@ -37,29 +69,6 @@ The goal is that at position X, the bias will somewhat hold it there on it's own
 Bias is also known as feed-forward.
 
 We are interested in positions like 0, between-0-and-default, default, a bit open, a bit more open, 50% open, wide open, 
-
-Set P=I=D=0. Set curve to all zeros.
-
-Now use offset (offset is same thing as constant bias) to manually control duty cycle. Try different values and see which offset sets throttle to closed, which offset
-starts to open throttle, which offset is enough to open throttle completely.
-
-## Tune PID
-
-See https://rusefi.com/forum/viewtopic.php?f=5&t=592&start=150#p32044
-
-https://www.youtube.com/watch?v=USU0nnekokA
-
-### Start with autotune
-
-rusEFI has auto-tuning software that can help generate a starting point for your PID settings.
-
-### _Ensure the engine is off! Do not attempt to start the engine during this process!_
-
-1. Ensure your electronic throttle roughly tracks the target position.  It doesn't have to be perfect or super fast, but it should at least work.  Confirm this by checking that the gauge "ETB position error" displays small values while moving the throttle around gently (a few percent is fine, so long as it trends towards zero if you stop moving).
-2. Set [debug mode](Debug-Mode) to ETB autotune and add gauges Ku, Tu, Kp, Ki, Kd (in debug menu) (todo: add screenshot)
-3. Using the accelerator pedal, hold the throttle at approximately 50% open.
-4. Press `ETB PID Autotune` button.  The throttle will begin oscillating around the target: this is normal.
-5. Observe the estimated PID parameters on gauges Kp, Ki, Kd
 
 ## Configure Pedal Map
 
