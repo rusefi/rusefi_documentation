@@ -13,7 +13,7 @@ There are several benefits by allowing the ECU to control the position of the th
 
 # Configuration and Setup Guide
 
-##[See configuration guide here.](Guide:-Electronic-Throttle-Body-Configuration)
+##[See configuration guide here.](Electronic-Throttle-Body-Configuration-Guide)
 
 # Theory of Operation
 
