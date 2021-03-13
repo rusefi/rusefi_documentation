@@ -61,12 +61,7 @@ rusEFI includes PID auto-tuning software that can help generate a starting point
 
 ## Tune Bias Table
 
-"Bias curve" is a curve of PWM duty cycle values which kind of get TPS close to desired value, for each of the 8 points on the curve.
-It measures how much duty is required to hold the throttle at that spot.
-
-The goal is that at position X, the bias will somewhat hold it there on it's own.
-
-Bias is also known as feed-forward.
+Also known as a "feed forward" term, bias curve serves to offset the throttle's return spring. The table stores how much PWM duty cycle is required to hold the throttle at that particular throttle position against the spring.  Since the spring pushes towards ~5-20%, the value will be negative when below the neutral point, and positive above it, transitioning steeply as it passes the neutral point of the spring.
 
 We are interested in positions like 0, between-0-and-default, default, a bit open, a bit more open, 50% open, wide open, 
 
