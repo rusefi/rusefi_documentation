@@ -1,7 +1,3 @@
-
-# Electronic Throttle Body (ETB)
-
-
 ## _WARNING: An electronic throttle, if misconfigured or damaged, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!_
 
 See also [Vault Of Electronic Throttle Bodies ETB](Vault-Of-Electronic-Throttle-Bodies-ETB)
@@ -15,7 +11,11 @@ There are several benefits by allowing the ECU to control the position of the th
 - No need to route a cable to the throttle
 - Programmable throttle target curve/nonlinearity to improve drivability with a large throttle on a small engine
 
-## Theory of Operation
+# Configuration and Setup Guide
+
+[See configuration guide here.](Electronic-Throttle-Body-Configuration-Guide)
+
+# Theory of Operation
 
 Electronic throttles typically consist of:
 - A brushed DC motor.  Positive torque pushes the throttle open, and negative torque pushes the throttle closed.
@@ -26,10 +26,6 @@ rusEFI hardware and software have been designed to work with all three of these 
 - DC motor driver H-bridge(s) to control the motor.  An H-bridge can apply a variable voltage using PWM in either direction. Both directions are important to be able to open and close the throttle completely. 
 - Analog inputs and corresponding software to measure both the TPS and PPS.
 - A control algorithm that uses a table to linearize the effects of the return spring and PID to move the throttle to the targeted position.
-
-## Configuration & Tuning
-
-[See configuration guide here.](HOWTO-electronic-throttle-body-configuration)
 
 ## Hardware Configuration
 

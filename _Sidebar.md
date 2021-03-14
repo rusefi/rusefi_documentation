@@ -18,6 +18,10 @@
 - [Engines running on rusEFI](List-of-engines-running-rusEFI)
 - [HOWTO-help-rusEFI](HOWTO-help-rusEFI)
 
+# Setup Guides
+
+- [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)
+
 # Pages
 - [Fuel](Pages-Fuel)
     - [Flex Fuel](Flex-Fuel)
@@ -27,7 +31,6 @@
 - [Software](Pages-Software)
 - [rusEFI Project](rusEFI-project)
 - [How To](Pages-HOWTO)
-
 
 # Features
 
