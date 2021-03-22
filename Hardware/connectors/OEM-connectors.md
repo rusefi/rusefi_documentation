@@ -363,6 +363,7 @@ Molex 64333-0100
 
 https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
 
+2010 Nissan Versa
 
 ## 120 pin
 
