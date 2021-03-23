@@ -1,9 +1,15 @@
+# External WBO
 
-# Wide band oxygen
+* External controller with analog output, like then AEM 30-4110 and similar products.
+* External controller with CAN interface, like the AEM X-Series wideband controller/gauge.
+
+
+# rusEFI Wide band oxygen
 
 rusEFI has two probably working implementations for Bosch wideband oxygen control:
 
-We have cj125 integration but we like https://github.com/mck1117/wideband even more. See https://rusefi.com/forum/viewtopic.php?f=4&t=1856
+* We have cj125 integration 
+* We like https://github.com/mck1117/wideband even more. See https://rusefi.com/forum/viewtopic.php?f=4&t=1856
 
 TODO: document it better
 
