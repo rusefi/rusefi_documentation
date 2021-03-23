@@ -2,6 +2,8 @@ Happy Xmas
 
 
 
+[hellen72-c-schematic.pdf](Hardware/Hellen/hellen72-c-schematic.pdf)
+
 [hellen72b-schematic.pdf](Hardware/Hellen/hellen72b-schematic.pdf)
 
 [Nightly firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
