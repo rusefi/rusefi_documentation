@@ -1,7 +1,9 @@
 
-Wide band oxygen.
+# Wide band oxygen
 
-We have cj125 integration
+rusEFI has two probably working implementations for Bosch wideband oxygen control:
+
+We have cj125 integration but we like https://github.com/mck1117/wideband even more.
 
 TODO: document it better
 
