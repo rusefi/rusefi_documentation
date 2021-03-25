@@ -30,15 +30,15 @@ To inspect the missing tooth signal's shape:
 3. Crank (or run) the engine for a few seconds, until you see a trace appear on the screen in TunerStudio, then release the starter.
 4. Determine which of the below images matches your trigger pattern:
 
-#### Correct missing tooth shape
+#### This is the correct missing tooth shape:
 
-< image correct >
+![correct VR missing tooth pattern](https://i.imgur.com/x3AK5sU.jpg)
 
-#### Swap your wires!
+#### This is the wrong missing tooth shape - swap your wires:
 
-< image wrong >
+![wrong VR sensor missing tooth pattern](https://i.imgur.com/rJRJWP7.jpg)
 
-> These images were collected on a Volvo 60-2 trigger wheel, the exact timing may vary, but a long period of low preceding the long high time (marked with arrow on the wrong image) is the clear indicator of a miswired sensor.
+> These images were collected on a Volvo 60-2 trigger wheel, the exact timing may vary, but a long period of low preceding the long high time (marked with arrow on the wrong image) is the clear indicator of a miswired sensor.  The correct pattern is equally sized low periods, with a single long high period.
 
 5. If your missing tooth looks like the wrong example, swap the VR+ and VR- wires.  Repeat steps 2-4, and double check that it now looks like the good example.
 6. In TunerStudio, ensure that "Use only rising edge" is set to `true`, and "Invert Primary" is set to `false`. (found in the menu *Base Engine* > *Trigger*).  These are the only correct options for a MAX992x-based VR interface.
