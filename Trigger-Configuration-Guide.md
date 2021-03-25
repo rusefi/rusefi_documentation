@@ -15,8 +15,6 @@ VR sensors have two wires, VR+ and VR-, usually with an additional shield that p
 
 ## Determine Correct Polarity
 
-### ECUs with "Bipolar" VR inputs (microRusEFI)
-
 ### ECUs with MAX992x-based VR inputs (Proteus, Frankenso)
 
 The [MAX992x series chips](https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX9924.html) provide an integrated single-chip solution for converting a VR sensor's analog signal to a digital one usable by the microcontroller on the ECU.  While these chips are very reliable, they will exhibit incorrect behavior if the VR sensor's wires are swapped.  On a negative zero crossing (ie, voltage decreasing through zero), the output will be exactly aligned with the zero crossing, but on a positive crossing, the threshold is at roughly 1/3 the peak voltage of the VR signal.
@@ -41,7 +39,19 @@ To inspect the missing tooth signal's shape:
 > These images were collected on a Volvo 60-2 trigger wheel, the exact timing may vary, but a long period of low preceding the long high time (marked with arrow on the wrong image) is the clear indicator of a miswired sensor.  The correct pattern is equally sized low periods, with a single long high period.
 
 5. If your missing tooth looks like the wrong example, swap the VR+ and VR- wires.  Repeat steps 2-4, and double check that it now looks like the good example.
-6. In TunerStudio, ensure that "Use only rising edge" is set to `true`, and "Invert Primary" is set to `false`. (found in the menu *Base Engine* > *Trigger*).  These are the only correct options for a MAX992x-based VR interface.
+6. In TunerStudio, ensure that "Use only rising edge" is set to `true`, and "Invert Primary" is set to `false`. (found in the menu *Base Engine* > *Trigger*).  These are the only correct combination of options for a MAX992x-based VR interface.
+
+### ECUs with "Bipolar" VR inputs (microRusEFI)
+
+ECUs with bipolar VR sensor interfaces provide accurate zero-crossings for both directions, so inverting the polarity can be done in software, without hardware changes required.  You will, however, need to look at the trigger log to determine whether or not to set the "Invert Primary" option.
+
+Here is how to determine your trigger polarity with a bipolar input:
+
+1. Complete steps 1 thru 3 of the above procedure for unipolar inputs (crank the engine, collect a trigger log).
+2. Determine whether to set "Invert Primary":
+    1. If your missing tooth is LOW, then HIGH (looks like the "wrong" example above), set "Invert Primary" to `true`.
+    2. If your missing tooth is HIGH, then LOW (looks like the inverse of the "wrong" example), set "Invert Primary" to `false`.
+3. In TunerStudio, ensure that "Use only rising edge" is set to `true`.
 
 ## I'm a Nerd and Want to Know More
 
@@ -49,7 +59,7 @@ Here are some oscilloscope screenshots of a different trigger wheel, in this cas
 
 VR sensors output a voltage proportional to how quickly something conductive is moving toward/away from the sensor.  This fact is exploited because when the sensor is centered on a tooth, the voltage will rapidly cross zero as the tooth approaches then departs.  [More good info and drawings here about how VR sensors work, and which edge you want to listen to](http://mcs.woodward.com/content/motohawk/Documentation/MotoHawk2015bSP0/HTML/MotoHawk_topics/VRInterfacing.html)
 
-The green trace is the analog input to the max9924, and pink is the digital output (same trace that's seen in the TunerStudio trigger log).
+The green trace is the analog input to the MAX9924, and pink is the digital output (the same trace that's seen in the TunerStudio trigger log in the guides above).
 
 First, here's the wrong polarity:
 
