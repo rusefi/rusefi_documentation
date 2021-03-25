@@ -20,6 +20,7 @@
 
 # Setup Guides
 
+- [Trigger Configuration](Trigger-Configuration-Guide)
 - [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)
 
 # Pages
