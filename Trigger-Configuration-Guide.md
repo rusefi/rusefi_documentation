@@ -1,5 +1,5 @@
 # Hall Effect Sensors
-*note: this section also includes optical sensors, as they behave electrically the same as hall sensors*
+*note: the hall effect section also includes optical sensors, as they behave electrically the same as hall sensors*
 
 ## Wiring
 
