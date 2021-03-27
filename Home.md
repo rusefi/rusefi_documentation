@@ -40,6 +40,7 @@ Flat Shifting|✗
 Automatic Transmission Control|✗
 Rotary Engines|✗
 [Direct Injection](GDI-status)|✗
+[Kick start](Kick-Start)|✗
 
 
 And many more! See [rusEFI-project](rusEFI-project) for more details.
