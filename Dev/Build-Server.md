@@ -1,5 +1,5 @@
 Github Actions is currently in charge of:
-* Firmware Builds
+* Firmware Builds: continues integration publishing at https://rusefi.com/build_server/
 * Console Builds
 * Simulator Builds
 * Android App Builds
