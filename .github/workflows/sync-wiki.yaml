@@ -15,6 +15,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    if: ${{github.actor != "actions-user"}}
 
     steps:
     - name: Check out docs repo
