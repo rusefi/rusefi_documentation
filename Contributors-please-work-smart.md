@@ -5,3 +5,5 @@ Any repetitive user support request has to be addresses strategically
 * is it a usability which has to be documented?
 
 * is it something to document on wiki once instead of explaining more than once? 
+
+![x](Images/cavemen-wheel-cartoon.png)
