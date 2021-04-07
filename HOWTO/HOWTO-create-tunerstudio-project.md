@@ -1,6 +1,4 @@
-## HOWTO Create a Tunerstudio Project
-
-Tunerstudio is a tuning application that might be needed while working with rusEFI. Here is how you create your first project in Tunerstudio:
+Tunerstudio is a tuning application needed while working with rusEFI. Here is how you create your first project in Tunerstudio:
 
 ![First project](FAQ/images/simulator/TCP_first_project.png)
 
