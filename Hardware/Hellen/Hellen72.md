@@ -37,3 +37,12 @@ a) if you have a Miata 2002 (where we measure the battery voltage from 4T=altern
 
 b) or if you have a Miata 2003 (where we measure the battery voltage from 4S=ign.switch), then remove "R10 (2002)"
 
+### OEM harness add-ons  
+The OEM ECU connector uses AMP Multilock .040 and .070 pins. 
+
+| Board   | stm32 pin  |   |
+|-----|---|---|
+| 4U  | MAP| Manifold absolute pressure analog signal from [external sensor](GM-map-sensor) | 
+| 4K  | +5v | +5v feed for MAP sensor |
+| 3Z | GND | Sensor & USB ground | 
+
