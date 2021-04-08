@@ -28,10 +28,10 @@ Tested and working with BMW Coils, uses a pair of ampseal plugs (easily availabl
 Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9  
 Also known as: VW Audi 97- 05 - Bosch PN _0227100211_  
 
-* LX615 OEM B-series Honda ignition module.  
+* OEM B-series Honda ignition module - PN _LX615_  
 Pull low to charge, release to fire. 3-4ms dwell, internally pulled up to 12v. Integra Accord Civic Del Sol CRX Prelude (inside the huge distributor, not considered very reliable)
 
-* LX230T 1989-1995 Ford Ranger / Mazda	B2300 4 cylinder 2.3  
+* 1989-1995 Ford Ranger / Mazda	B2300 4 cylinder 2.3 - PN _LX230T_  
 (in front of the battery, bolted to heat sink)
 
 * Dis4-03 Hitachi 90-96 Subaru 
