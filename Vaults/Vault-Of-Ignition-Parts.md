@@ -25,7 +25,7 @@ Pin #3 "Negative" from igniter
 * VW 1.8t 4 cylinder module - PN _4D0905351_  
 For igniter location see https://www.youtube.com/watch?v=X-iyKYUeGvc
 Tested and working with BMW Coils, uses a pair of ampseal plugs (easily available on ebay). Wiring layout available on the forum. 
-Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9
+Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9  
 Also known as: VW Audi 97- 05 - Bosch PN _0227100211_  
 
 * LX615 OEM B-series Honda ignition module.  
@@ -57,5 +57,6 @@ Harness side connector Sumitomo _6189-0515_ Toyota _90980-11653_
 
 ---
 
-* Template for new parts - Part number  
+Template for new parts 
+* Name - PN _Part number_   
 Comments go here, Comments go here, Comments go here, Comments go here.
