@@ -17,6 +17,8 @@ https://rusefi.com/docs/ibom/hellen72-c-ibom.html
 
 [Mazda Miata 2003](Mazda-Miata-2003)
 
+![x](Hardware/Hellen/hellen72-c-as-received.jpg)
+
 ![x](Hardware/Hellen/hellen72a.jpg)
 
 # Jumpers
