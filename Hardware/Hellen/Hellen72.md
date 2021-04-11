@@ -21,13 +21,13 @@ https://rusefi.com/docs/ibom/hellen72-c-ibom.html
 
 ![x](Hardware/Hellen/hellen72a.jpg)
 
-# Jumpers (Applies to board version 72A-72C so far)
+# Jumpers (Applies to board version 72a-72c so far)
  in order to run a Miata NB test vehicle:
 
 External MAP vs more ignition channels:
 a) if you are going to use an external MAP, then remove "R5 (IGN5)", "R7 (IGN6)" and "R11 (IGN8)"
 
-b) or if you NOT using an external MAP (either internal MAP or external MAF, or maybe alpha-N), then remove "R6 (GND)" and "R8 (+5V)"
+b) or if you NOT using an external MAP (either internal MAP or external MAF, or alpha-N), then remove "R6 (GND)" and "R8 (+5V)"
 
 Warning! The board can be damaged if you skip this step!
 
