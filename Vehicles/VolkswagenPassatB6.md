@@ -61,20 +61,20 @@ Sensor Power:
 | 19  | +5v        | .MAP +5v                                  | VIO   |
 | 22  | analog GND | .MAF GND                               | BLK   |
 | 25  |            | brake light switch +12?               | BLK/RED   |
-| 27  |            | .fuel pump control 20Hz PWM            | YEL/BLU   |
-| 28  |            | .coolant control module 25Hz PMW       | YEL/VIO   |
+| 27  | low side   | .fuel pump control 20Hz PWM            | YEL/BLU   |
+| 28  | low side   | .coolant control module 25Hz PMW       | YEL/VIO   |
 | 32  | low side   | .main relay control                    | GRN/YEL |
 | 38  | analog     | .MAP signal P2-b                       | GRY   |
 | 53  | **GND**    | .Sensor GND CLT MAP P1-b               | BLK |
 | 56  | analog GND | .Pedal GND                             | BLU/GRY   |
-| 57  |            | .Pedal signal #1                       | WHT/BLU   |
+| 57  | analog input | .Pedal signal #1                       | WHT/BLU   |
 | 58  | +5v        | .Pedal sensor power                    | GRN/GRY   |
 | 64  |            | MAF signal                            | GRN    |
 | 67  |            | CAN Low                               | ORG/BRN   |
 | 68  |            | CAN High                              | ORG/BLK   |
 | 69  | low side   | ECU Relay Control (CAN wake up)       | BRN/VIO  |
 | 78  | analog GND | .Pedal GND                             | VIO/BLK  |
-| 79  |            | Pedal signal #2                       | BLK/BLU   |
+| 79  | analog input | Pedal signal #2                       | BLK/BLU   |
 | 80  | +5v        | .Pedal sensor power                    | BLK/RED   |
 | 86  |            | K-line                                |         |
 | 87  | +12v       | Constant +12v from Fuse #25 10A term. 30 |         |

@@ -17,10 +17,12 @@ https://rusefi.com/docs/ibom/hellen72-c-ibom.html
 
 [Mazda Miata 2003](Mazda-Miata-2003)
 
+![x](Hardware/Hellen/hellen72-c-as-received.jpg)
+
 ![x](Hardware/Hellen/hellen72a.jpg)
 
 # Jumpers
- in order to run a Miata NB text vehicle:
+ in order to run a Miata NB test vehicle:
 
 External MAP vs more ignition channels:
 a) if you are going to use an external MAP, then remove "R5 (IGN5)", "R7 (IGN6)" and "R11 (IGN8)"
