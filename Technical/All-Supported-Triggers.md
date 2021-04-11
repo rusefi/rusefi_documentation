@@ -189,7 +189,7 @@ Please use this one only if your CAM sensor position matches this picture exactl
 ## VW 60/2
 VW special understanding of 60/2 with a wide tooth instead of of just missing tooth.
 
-See also [Universal True 60/2](All-Supported-Triggers#universal-true-602)
+See also [Universal True 60/2](All-Supported-Triggers#602)
 
 ![VW 60/2](Images/triggers/trigger_20.png)
 
