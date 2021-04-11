@@ -2,6 +2,8 @@ Hellen Plug&Play for ME7 VAG vehicles
 
 Status: not even alpha
 
+[Pinout](https://rusefi.com/docs/pinouts/hellen/hellen121vag/)
+
 TODO: pinout table https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk
 
 
