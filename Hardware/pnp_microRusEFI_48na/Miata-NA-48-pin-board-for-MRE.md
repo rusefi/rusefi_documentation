@@ -34,14 +34,20 @@ The board should be received set up as a stock replacement unit for your year ca
 The unit can connect to [TunerStudio](http://www.tunerstudio.com/index.php/tuner-studio) via native USB communication. You can either plug a MiniUSB 
  (or some boards have MicroUSB) cable into the top of the unit. This is a bit difficult to get to in the stock installation position on an NA6, so it may not be ideal for a permanent installation in the stock location.
 
-![Micro USB connector](Hardware/pnp_microRusEFI_48na/MRE_Micro_USB.png)
 
 If you want to use this connector for communication with your tuning laptop, cutting a hole in the top for connector access is helpful. Here are some rough dimensions on where the hole should go. A 5/16" or 8mm drill and a small file or Dremel works well.
 ![Lid cutout](Hardware/pnp_microRusEFI_48na/Miata_NA_PnP_Lid_Cutout_Dimensions.png)
 ![USB plugged in](Hardware/pnp_microRusEFI_48na/Miata_NA_PnP_USB_plugged_in.png)
 
 Alternatively, you can wire a standard USB cable into the main connector for a more permanent solution. Your board may come with additional contacts / wires for the main connector that can be soldered to a standard USB cable. (Please note that the 5V connection is not needed for communication. It can, however be used to power the MRE unit with the ignition off. The 5V power suply feature is untested and may not work. Communication using GND, D+ and D- is confirmed to work.)
-![USB main connector](Hardware/pnp_microRusEFI_48na/USB_connections.png)
+
+|   USB  | COLOR | PIN | JUMPER |
+| ------ | ----- | --- | ------ |
+|   5V   | RED   | 2J  | JP36   |
+|   GND  | BLACK | 1I  | JP13   |
+| DATA + | GREEN | 1T  | JP24   |
+| DATA - | WHITE | 1S  | JP23   |
+
 
 ## 2.2. Micro SD card adapter
 The board comes with an adapter for a Micro SD card. Install a card in this slot and it will automatically keep a log of your engine when it's running. 
@@ -172,7 +178,7 @@ microRusEFI should be set for Hall
 JP2		|AC fan 93-	|Y	|N |			
 JP3		|TPS 93-	|Y	|N			
 JP4		|TPS 94+	|N	|Y			
-JP54	2I	| Tach out	|N	|N|	Used with aftermarket coils		
+JP54	2I	| Tach out	|N	|N|	Used with aftermarket coils OR 95.5 TachOUT.  Jump from JP54 to JP10(removed).		
 JP55	2I	|Tach pullup	|Y	|Y	|Used with stock coils		
 JP56	1M	| Pullup VSS	|N	|Y?	| Untested		
 |JP53		INJ4 |sequ	|N|	Y |			
@@ -184,13 +190,13 @@ JP59		INJ4| parallel	|Y|	N
 | #   |       |                  |                              |                                       |
 | --- | ----- | ---------------- | ---------------------------- | ------------------------------------- |
 |		|	93-	|94+|	93-	|94+	|Notes
-JP8		USB_D-	| Y| 	Y	|Diag Conn	|Diag Conn	 |
-JP10		USB_PWR_AV4|	Y	|Y|	Diag Conn	*	
+JP23		USB_D-	| Y| 	Y	|Heater	 |
+JP36		USB_PWR_AV4|	N	|*	|EGR Sensor	*	
 JP14		AC_OUT|	Y	|Y			
-JP34		USB D+	|Y|	Y	|Short Conn	| Diag Conn	
-JP36		CAN_H|	Y	|N	|*	|EGR Sensor	
-JP44		USB GND|	Y|	N|	*|	Press. Reg. vlv	
-JP50	2X	CAN_L|	Y	|N|	Purg Sol. Vlv|	Purg Sol. Vlv	
+JP24		USB D+	|Y|	Y	|egr solenoid	
+JP8		CAN_H|	Y	|N		
+JP13		USB GND|	N|	N|	*|	A/T contoller
+JP10	2X	CAN_L|	Y	|N|	TachOUT on 95.5	
 
 
 [Schematics 0.4](Hardware/pnp_microRusEFI_48na/microRusEFI48adapter_0.4.pdf)
