@@ -8,3 +8,6 @@ Now you are ready to hit "Upload" button on https://rusefi.com/online/
 
 ![x](Overview/TS_generated/dialog_Base_Engine_Settings.png)
 
+Q: Any hints on forum links best practices?
+
+A: If you want to mention a tune please provide exact URL. It's really poor taste to just say "I've uploaded my tune" without full URL. Please help us help you by pointing at what _exactly_ we are looking to discuss :)
