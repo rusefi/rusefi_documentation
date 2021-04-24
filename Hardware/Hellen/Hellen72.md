@@ -4,6 +4,8 @@ Happy Xmas
 
 [hellen72-c-schematic.pdf](Hardware/Hellen/hellen72-c-schematic.pdf)
 
+[Forum DEVELOPMENT thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1947)
+
 https://rusefi.com/docs/ibom/hellen72-c-ibom.html
 
 [Nightly firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
