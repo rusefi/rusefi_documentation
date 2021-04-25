@@ -10,7 +10,9 @@ First off before asking for help, please check the rest of the [wiki,](HOWTO-Sea
 
 If after that you still need direct help then please have a read of the information below and help us to help you. 
 
----
+# Please post details on resolution
+
+Once your issue is resolved please write up how you got things resolved.
 
 
 ## Please record and post a relevant log file. There are two ways to get a log file:
