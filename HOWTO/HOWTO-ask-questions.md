@@ -15,6 +15,10 @@ If after that you still need direct help then please have a read of the informat
 Once your issue is resolved please write up how you got things resolved.
 
 
+# Persistence
+
+https://rusefi.com/forum and https://github.com/rusefi/ are two permanent systems of record for any rusEFI knowledge. rusEFI Slack does NOT keep history. Forum - anything you say on Slack would get hidden after about 15 days. All valuable data and content has to be persisted outside of Slack.
+
 ## Please record and post a relevant log file. There are two ways to get a log file:
 
  1) In TunerStudio, Use "DataLogging">"Start Logging" menu item. Logs are written to Documents\TunerStudioProjects\NAMEOFYOURPROJECT\DataLogs folder.
