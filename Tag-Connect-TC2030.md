@@ -9,3 +9,14 @@ TC2030-CTX-NL-STDC14 and STLINK-V3MINI is the easiest to use combo.
 Way more ghetto option would be
 
 ![x](Hardware/microRusEFI/TC2030_SWD.jpg)
+
+
+![x](Hardware/tc2030.png)
+
+Four more important wires are:
+
+* GND
+* 13-swdio
+* 14-swclk
+
+
