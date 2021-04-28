@@ -50,3 +50,6 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 | 4K  | +5v | +5v feed for MAP sensor |
 | 3Z | GND | Sensor & USB ground | 
 
+
+
+![x](Hardware/Hellen/hellen72-wbo.jpg)
