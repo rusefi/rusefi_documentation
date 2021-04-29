@@ -1,4 +1,27 @@
-# 
+# Basics
+
+## Conventions
+
+- The Lua interpreter will trigger an error if there is a mistake in the program, check the rusEFI console to see errors and script output.
+- All `index` parameters start with the first element at index at 0.
+
+## Writing Your Script
+
+The entire Lua script is read at startup, then a function called `onTick` is called periodically by rusEFI.
+
+Here is a simple script you can run to illustrate this behavior:
+
+```
+print('Hello Lua startup!')
+
+function onTick()
+    print('Hello onTick()')
+end
+```
+
+### Controlling the Tick Rate
+
+The function `setTickRate(hz)` can be used to configure how often rusEFI calls the `onTick` function.  If your script does a lot of work in the `onTick()` function it may run slower than the desired rate.
 
 # Function Reference
 
@@ -22,6 +45,15 @@ print('Hello Lua, number is: ' ..n)
 ```
 Output:
 `Hello Lua, number is 5.5`
+
+### `setTickRate(hz)`
+
+Sets the rate at which rusEFI calls your `onTick` function, in hz.
+
+- Parameters
+  - `hz`: Desired tick rate, in hz.  Values passed will be clamped to a minimum of 1hz, and maximum of 100hz.
+- Returns
+  - none
 
 ### `table3d(tableIdx, x, y)`
 
@@ -53,6 +85,16 @@ Reads the raw value from the specified sensor.  For most sensors, this means the
   - `index`: Index of the sensor to read.  [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 - Returns
   - The raw value that yielded the sensor reading, or 0 if the sensor doesn't support raw readings, isn't configured, or has failed.
+
+### `hasSensor(index)`
+
+Checks whether a particular sensor is configured (whether it is currently valid or not).
+
+- Parameters
+  - `index`: Index of the sensor to check.  [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
+- Returns
+  - A boolean value, `true` if the sensor is configured, and `false` if not.
+
 
 ### `getAnalog(index)`
 
