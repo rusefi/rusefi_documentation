@@ -7,3 +7,5 @@ Hello
 [Mazda Miata 1990](Mazda-Miata-1990)
 
 [Mazda Miata 1994](Mazda-Miata-1994)
+
+![x](Hardware/Hellen/hellen64na6-a.jpg)
