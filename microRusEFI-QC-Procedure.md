@@ -15,4 +15,4 @@ This procedure tests
 
 
 This procedure does NOT test
-1) VR inout
+1) VR input
