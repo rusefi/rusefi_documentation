@@ -4,7 +4,7 @@ We use special QC firmware
 1) disconnect microRusEFI from USB, plug microRusEFI into special test fixture LED board, power special test fixture LED board with +12v
 1) observe lack of smoke
 1) observe expected LED flashing sequence
-1) observe expected MRE red LED 'fatal' state
+1) observe expected MRE red LED 'fatal' state (would be solid in case of failed analog AT test)
 
 This procedure tests
 1) 12v to 5v to 3v power dance
