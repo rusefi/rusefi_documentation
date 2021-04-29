@@ -16,3 +16,7 @@ This procedure tests
 
 This procedure does NOT test
 1) VR input
+
+
+
+After the text please flash latest normal release. Attach an orange QC sticker to the part of the connector visible outside of the case.
