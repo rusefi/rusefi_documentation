@@ -23,6 +23,15 @@ end
 
 The function `setTickRate(hz)` can be used to configure how often rusEFI calls the `onTick` function.  If your script does a lot of work in the `onTick()` function it may run slower than the desired rate.  Since the Lua virtual machine runs at low priority compared to other functions of the ECU, it is impossible to swamp the ECU with too much Lua work, so set the tick rate to whatever is necessary.
 
+```
+n = 0
+setTickRate(5) --set tick rate to 5hz
+function onTick()
+    print('Hello Lua: ' ..n)
+    n = n + 1
+end
+```
+
 # Function Reference
 
 ## Utility
