@@ -14,7 +14,8 @@ Hello
 * build-in WBO
 * battery to keep real time clock running
 * LPS25HB baro sensor
-* QMA7981 accelerometer
+* QMA7981 accelerometer on rev A.
+* LIS2DW12TR accelerometer on rev B.
 
 
 
