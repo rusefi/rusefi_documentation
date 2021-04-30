@@ -8,7 +8,7 @@ Hello
 
 [Mazda Miata 1994](Mazda-Miata-1994)
 
-Hardware features:
+## Hardware features
 
 * knock detection module
 * build-in WBO
