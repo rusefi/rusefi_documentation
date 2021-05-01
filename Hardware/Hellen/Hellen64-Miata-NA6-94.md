@@ -1,5 +1,7 @@
 Hello
 
+[nightly build](https://rusefi.com/build_server/rusefi_bundle_hellenNA6.zip)
+
 [hellen64_miataNA6_94-a-schematic.pdf](Hardware/Hellen/hellen64_miataNA6_94-a-schematic.pdf)
 
 [draft hellen64_miataNA6_94-b-schematic.pdf](Hardware/Hellen/hellen64_miataNA6_94-b-schematic.pdf)
