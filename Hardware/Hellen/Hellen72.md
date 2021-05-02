@@ -2,6 +2,7 @@
 
 * knock detection module
 * build-in WBO
+* Two auxiliary low side outputs 
 
 
 
