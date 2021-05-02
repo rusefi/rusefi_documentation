@@ -1,4 +1,8 @@
-Happy Xmas
+## Hardware features
+
+* knock detection module
+* build-in WBO
+
 
 
 
