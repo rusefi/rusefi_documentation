@@ -1,5 +1,7 @@
 Hello.
 
+[Schematics DRAFT](Hardware/Hellen/hellen121nissan-a-schematic.pdf)
+
 https://github.com/rusefi/rusefi/wiki/Nissan-Xterra-2011
 
 https://github.com/rusefi/rusefi/wiki/Vault-Of-Nissan-OEM

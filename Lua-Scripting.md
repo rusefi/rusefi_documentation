@@ -75,6 +75,16 @@ Looks up a value from the specified FSIO table.
 - Returns
   - A number representing the value looked up from the table.
 
+### `setDebug(index, value)`
+
+Sets a debug channel to the specified value.  Note: this only works when the ECU debug mode is set to `Lua`.
+
+- Parameters
+  - `index`: the index of the debug channel to set, 1 thru 7 inclusive.
+  - `value`: the value to set the channel to
+- Returns
+  - none
+
 ## Input
 
 ### `getSensor(index)`
