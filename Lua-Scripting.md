@@ -3,7 +3,7 @@
 ## Conventions
 
 - The Lua interpreter will trigger an error if there is a mistake in the program, check the rusEFI console to see errors and script output.
-- All `index` parameters start with the first element at index at 0.
+- Unless otherwise mentioned, all `index` parameters start with the first element at index at 0.
 
 ## Writing Your Script
 
