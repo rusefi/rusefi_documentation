@@ -1,10 +1,13 @@
 ## Prerequisites
 
 1. rusEFI forum account (registration question answer: microRusEFI)
+1. communication skills
+1. strong PC skills: please know how to make a screenshot
 1. digital multimeter
 1. soldering iron
 1. nice to have hot air soldering experience
 1. let's be honest - the moment things do not work as intended you would need an oscilloscope
+1. still interested?
 
 
 
