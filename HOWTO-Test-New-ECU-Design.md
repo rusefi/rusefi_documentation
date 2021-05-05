@@ -1,6 +1,16 @@
+## Prerequisites
+
+1. rusEFI forum account (registration question answer: microRusEFI)
+1. digital multimeter
+1. soldering iron
+1. nice to have hot air soldering experience
+1. let's be honest - the moment things do not work as intended you would need an oscilloscope
+
+
+
 ## HOWTO test brand new ECU design which was never fabricated before
 
-If dealing with a brand new never before tested hardware design it's recommended to gradually add wires one by one.
+If dealing with a brand new never before tested hardware design it's recommended to gradually add wires between vehicle connector breakout board and untested ECU.
 
 # Prerequisites for each testing session
 
