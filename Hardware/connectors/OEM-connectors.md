@@ -248,6 +248,7 @@ https://www.te.com/usa-en/product-174836-5.html
 <a name="72"/>
 
 ## 72 pin
+31+24+17=72
 
 http://www.te.com/usa-en/product-353830-5.html [octopart](https://octopart.com/search?q=353830)
 
@@ -328,9 +329,17 @@ http://www.te.com/catalog/pn/en/185785-1
 
 ## 94 pin
 
+31+24+17+22=94
+
 https://www.te.com/usa-en/product-1123794-2.html
+https://www.te.com/usa-en/product-1473181-1.html
 
 maybe not used by OEM but relayed to 72 pin NB2
+
+22 position for PN# 353028-1
+17 position for PN# 353027-1
+24 position for PN# 353029-1
+31 position for PN# 353031-1
 
 ## 100 pin
 
