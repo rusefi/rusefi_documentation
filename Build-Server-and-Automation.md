@@ -9,6 +9,7 @@ Github Actions is currently in charge of:
 * Generating Coverity code coverage pages
 * Generating Doxygen documentation
 * Generating iBOMs for hardware
+* Uploading .ini files into rusEFI Online database using RUSEFI_ONLINE_FTP_USER
 * Generating Hardware PCB visual diffs
 * Updating date stamps for builds
 * Synchronizing between rusefi/rusefi/wiki to rusefi_documentation repo
