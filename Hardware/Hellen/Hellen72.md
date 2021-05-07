@@ -58,3 +58,5 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 
 
 ![x](Hardware/Hellen/hellen72-wbo.jpg)
+
+![x](Hardware/Hellen/hellen72-c-connector-cover.jpg)
