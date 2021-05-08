@@ -1,9 +1,8 @@
 Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 microcontrollers.
 We also have Kinetis and Cypres prototypes.
 
-As of March 2020 microRusEFI is sold as completely ready to run ECU or as a pre-assembled 80% complete kit.
+As of May 2021 microRusEFI and Proteus are sold as ECU development boards. See [Mission-Statement](Mission-Statement)
 
-As of March 2020 Frankenso board is sold as mostly as a DIY kit.
 
 | Board | Features | Connectors/Misc. Info | Released in | Maximum recommended engine |
 | ----- | -------- | --------------------- | ----------- | ---------------------------|
