@@ -114,16 +114,6 @@ Checks whether a particular sensor is configured (whether it is currently valid 
 - Returns
   - A boolean value, `true` if the sensor is configured, and `false` if not.
 
-
-### `getAnalog(index)`
-
-Reads an analog voltage from one of the FSIO ADC inputs.
-
-- Parameters
-  - `index`: The index of the configured analog input to read. Currently 4 inputs are supported, so values of 0, 1, 2, 3 are valid for this parameter.
-- Returns
-  - The raw analog voltage from the input pin. Most rusEFI ECUs can measure between 0 and 5 volts, so this value will be a number between 0 and 5.
-
 ### `getDigital(index)`
 
 Reads a digital input from the specified channel.
