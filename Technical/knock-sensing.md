@@ -1,5 +1,11 @@
 
-We have native knock processing, with [Proteus](Proteus) and Hellen hardware support at the moment. We have very limited amount of testing on real vehicles.
+TL,DR: We have native knock processing, with [Proteus](Proteus) and Hellen hardware support at the moment. We have very limited amount of testing on real vehicles.
+
+# Software knock sensing
+
+![x](https://rusefi.com/forum/download/file.php?id=6900)
+
+https://youtu.be/GOWEKU2SH9I
 
 
 We have some progress integrating with conventional knock sensors but it's not ready for end users.
