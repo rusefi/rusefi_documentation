@@ -9,3 +9,7 @@ Pin type, function and mapping between user-phasing physical pin and stm32 MCU p
 Pin locations section is help Java Script of https://rusefi.com/docs/pinouts/ locate the pin on the user friendly interactive documentation page.
 
 Connector Mapping process is invoked nightly or could be requested on demand.
+
+# Best Practives
+
+YAML is all about space indentation. http://www.yamllint.com/ is a great online yaml validator.
