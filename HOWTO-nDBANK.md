@@ -1,6 +1,6 @@
 Some chips like STM32F767 are bringing nDBANK drama into our life.
 
-At the moment we only know how to deal with it via Stm32CubeProg
+At the moment we only know how to deal with it via Stm32CubeProgrammer
 
 ![x](HOWTO/nDBANK/stm32prog-steps.png)
 
