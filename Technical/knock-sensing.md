@@ -5,7 +5,7 @@ TL,DR: We have native knock processing, with [Proteus](Proteus) and Hellen hardw
 
 ![x](https://rusefi.com/forum/download/file.php?id=6900)
 
-https://youtu.be/GOWEKU2SH9I
+[Youtube rusEFI: knock on standing Miata, Proteus](https://youtu.be/GOWEKU2SH9I)
 
 
 We have some progress integrating with conventional knock sensors but it's not ready for end users.
