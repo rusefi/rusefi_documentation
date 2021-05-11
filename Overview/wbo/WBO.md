@@ -11,6 +11,8 @@ rusEFI has two probably working implementations for Bosch wideband oxygen contro
 * We have cj125 integration 
 * We like https://github.com/mck1117/wideband even more. See https://rusefi.com/forum/viewtopic.php?f=4&t=1856
 
+initial programming binary at https://github.com/mck1117/wideband/tree/master/for_rusefi
+
 TODO: document it better
 
 
