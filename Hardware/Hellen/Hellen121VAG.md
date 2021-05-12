@@ -19,6 +19,8 @@ Status: landed in USA!
 
 [Connector Vehicle Pinout reference table](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
 
+![x](https://rusefi.com/forum/download/file.php?id=7575)
+
 
 https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1kp4Y/
 
