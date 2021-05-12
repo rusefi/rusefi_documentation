@@ -1,14 +1,16 @@
-## Please post your tune & log files at [rusEFI Online](Online).
-
----
 
 rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises.
 
-rusEFI has zero staff and most of rusEFI contributors all over the globe have day jobs and other obligations.
+rusEFI has zero full time staff and most of rusEFI contributors all over the globe have day jobs and other obligations.
 
-https://rusefi.com/forum/ is the primary free support channel.
+https://rusefi.com/forum/ is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online).
 
 Please Read https://opensource.com/life/16/10/how-ask-technical-questions
+
+## Q: What is Slack?
+
+A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on https://rusefi.com/forum/ Slack often comes handy for follow-up discussion. Slack registration http://rusefi.com/slack/ and login https://rusefi.slack.com/
+
 
 ## Q: What is the preferred way of posting videos?
 

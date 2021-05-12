@@ -7,9 +7,7 @@
 
 # User Support
 
-See
-Registration http://rusefi.com/slack/
-login https://rusefi.slack.com/
+[Click here for Support overview](Support)
 
 
 
