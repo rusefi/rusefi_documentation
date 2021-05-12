@@ -4,7 +4,7 @@ Hellen Plug&Play for ME7 VAG vehicles
 
 [KiCAD source files](https://github.com/rusefi/hellen121vag)
 
-Status: in fabrication!
+Status: landed in USA!
 
 
 [Hellen121vag interactive pinout](https://rusefi.com/docs/pinouts/hellen/hellen121vag/)
