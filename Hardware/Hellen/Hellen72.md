@@ -5,7 +5,15 @@
 * Two auxiliary low side outputs 
 
 
+# User Support
 
+See
+Registration http://rusefi.com/slack/
+login https://rusefi.slack.com/
+
+
+
+# Technical Details
 
 [hellen72-c-schematic.pdf](Hardware/Hellen/hellen72-c-schematic.pdf)
 
@@ -15,8 +23,6 @@ https://rusefi.com/docs/ibom/hellen72-c-ibom.html
 
 [Nightly firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
 
-
-[hellen72b-schematic.pdf](Hardware/Hellen/hellen72b-schematic.pdf)
 
 
 
