@@ -53,3 +53,7 @@ WARNING GND#1<>GND#2 are mixed up on the image.
 700 Ohm between white and blue wires in sensor parked position.
 
 150 Ohm between green and black wires in sensor parked position.
+
+# Outside information
+
+lots of useful information here https://www.maxxecu.com/webhelp/wirings-e-throttle_bodies.html
