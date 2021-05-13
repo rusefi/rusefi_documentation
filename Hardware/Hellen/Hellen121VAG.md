@@ -19,13 +19,13 @@ Status: landed in USA!
 
 [Connector Vehicle Pinout reference table](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
 
-![x](https://rusefi.com/forum/download/file.php?id=7575)
-
 https://github.com/rusefi/rusefi/wiki/VAG-B5
 
 https://github.com/rusefi/rusefi/wiki/VAG-C5
 
-https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk
+
+![x](https://rusefi.com/forum/download/file.php?id=7575)
+
 
 
 https://github.com/rusefi/rusefi/wiki/VAG-B5
