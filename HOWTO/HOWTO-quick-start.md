@@ -20,7 +20,7 @@
 
 ### Install firmware on Frankenstein, Frankenso, and Discovery
 
-/If you have any other rusEFI board, such as microRusEFI, Proteus, or Hellen, your board comes with firmware installed, and you can skip to "Update Firmware" ./
+_If you have any other rusEFI board, such as microRusEFI, Proteus, or Hellen, your board comes with firmware installed, and you can skip to "Update Firmware"._
 
 1. Connect the stm32f4discovery ('brain board') to the IO board, place jumpers like XYZ, then connect to a PC with a mini-USB cable. Mini-USB cable is used to power and to program the brain board. See below procedure found [here](http://rusefi.com/forum/viewtopic.php?f=5&t=210&start=23)
 
