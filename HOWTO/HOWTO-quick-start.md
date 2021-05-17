@@ -22,9 +22,9 @@
 
 Your board comes with rusEFI firmware installed on it, but it should be updated.
 
-If you have a Frankenso, Frankenstein, or are just messing with a Discovery, see [these instructions.](HOWTO-Install-rusEFI-Firmware)
-
 [How to update your firmware](HOWTO-Update-Firmware)
+
+If you have a Frankenso, Frankenstein, or are just messing with a Discovery, you will need to install firmware first. See [these instructions.](HOWTO-Install-rusEFI-Firmware)
 
 ## rusEFI Console
 
