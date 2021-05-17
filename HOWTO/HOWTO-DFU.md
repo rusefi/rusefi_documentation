@@ -10,6 +10,3 @@ used to program brand new stm32 chips which do not have a running version of rus
 [HOWTO DFU video](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
 On a STM32F4 Discovery, entering DFU mode requires putting a jumper between the pins VDD and BOOT0, then powering or resetting the board.
-
-If you're running Linux, the tool `dfu-util` works great for uploading DFUs.
-example: `dfu-util -a 0 -D rusefi.dfu`

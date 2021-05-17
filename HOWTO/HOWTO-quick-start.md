@@ -2,7 +2,7 @@
 
 1. [Download the rusEFI bundle](Download) for your hardware. 
 
-2. Uncompress the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual Com Port and ST-Link drivers. If necessary the bundle will also help you install java run-time.
+2. Extract the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual Com Port and ST-Link drivers. If necessary the bundle will also help you install java run-time.
 
 ![console](FAQ/images/rusEFI_console_start_screen.png)
 
@@ -18,6 +18,9 @@
 
 ## Once you get your hardware:
 
+### Install firmware on Frankenstein, Frankenso, and Discovery
+
+/If you have any other rusEFI board, such as microRusEFI, Proteus, or Hellen, your board comes with firmware installed, and you can skip to "Update Firmware" ./
 
 1. Connect the stm32f4discovery ('brain board') to the IO board, place jumpers like XYZ, then connect to a PC with a mini-USB cable. Mini-USB cable is used to power and to program the brain board. See below procedure found [here](http://rusefi.com/forum/viewtopic.php?f=5&t=210&start=23)
 
@@ -31,7 +34,11 @@
 ![STLink Start](Images/st_link_start.png)
 * After you have programmed the chip, you should click '''Target --> Disconnect''' and hit the '''black button''' on the discovery board '''to reset''' the firmware. After you hit the reset button, you should expect all four LEDs to blink once and then you should see just the '''blue LED blinking'''. If all is good, proceed to the Dev Console below.
 
-* Another way to upload firmware is using a [DFU file](HOWTO-DFU)
+### Update Firmware
+
+Now that your board has rusEFI firmware installed on it, the firmware can be updated without using STLink software. You should ensure your firmware is up to date before proceeding.
+
+[How to update your firmware](HOWTO-Update-Firmware)
 
 ## rusEFI Console
 
