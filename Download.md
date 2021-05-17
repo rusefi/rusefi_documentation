@@ -14,15 +14,15 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 ### Hellen Family Boards
 
-[121 Nissan](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
+[Nissan 121 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
 
-[121 VAG](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121vag.zip)
+[VAG 121 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121vag.zip)
 
-[128](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
+[Mercedes 128 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
 
-[72](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
+[Miata NBT 72 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
 
-[NA6](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
+[Miata NA6 64 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
 
 ### Uncommon Boards
 
