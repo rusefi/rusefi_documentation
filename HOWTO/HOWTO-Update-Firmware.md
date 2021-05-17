@@ -2,13 +2,13 @@
 
 [Download the rusEFI bundle](Download) for your hardware. 
 
-##Windows:
+## Windows:
 ---
 Launch [rusEFI Console](Console). You can find it in the bundle you downloaded, in the "console" folder.
 
 Click the "Update Firmware" button.
 
-##Linux:
+## Linux:
 ---
 The canonical way to update the firmware on Linux is with DFU.
 
@@ -29,7 +29,7 @@ dfu-util -a 0 -D rusefi.dfu
 
 ```
 
-##More Information
+## More Information
 ---
 
 For more about DFU see [HOWTO-DFU](HOWTO-DFU)
