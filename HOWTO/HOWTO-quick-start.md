@@ -28,7 +28,7 @@ _If you have any other rusEFI board, such as microRusEFI, Proteus, or Hellen, yo
 ![STLink Firmware Update](Images/Stlink_firmware_update.png)
 
 ![Discovery Upload Wire](Images/discovery_upload_wire.JPG)
-* To upload the binary image into the microcontroller you will need to download & install [http://www.st.com/st-web-ui/static/active/en/st_prod_software_internet/resource/technical/software/utility/stsw-link004.zip](STM32 ST-LINK utility). (this is both the utility and the driver) Once installed it will look like this.
+* To upload the binary image into the microcontroller you will need to download & install [STM32 ST-LINK utility](http://www.st.com/st-web-ui/static/active/en/st_prod_software_internet/resource/technical/software/utility/stsw-link004.zip). (this is both the utility and the driver) Once installed it will look like this.
 ![STLink Utility](Images/st_link_utility.png)
 * You should click '''Target --> Program...''' , browse to the rusefi.bin you have downloaded and hit Start button like this
 ![STLink Start](Images/st_link_start.png)
