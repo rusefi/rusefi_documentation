@@ -13,11 +13,7 @@ rusEFI has two probably working implementations for Bosch wideband oxygen contro
 
 # rusEFI wideband module
 
-rusEFI own wideband module requires one time initial programming. Self contained version of the board relies on custom USB header while module integrated into Hellen requires usage of ST-Link programmer hardware via TC2030 or breakout SWD pins.
-
-initial programming binary at https://github.com/mck1117/wideband/tree/master/for_rusefi
-
-At the moment only known to work using stm32cube software not ST Link utility (weird). In case of Hellen 5v via USB is required.
+See [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
 TODO: document it better
 
