@@ -1,3 +1,5 @@
+[HOWTO create TunerStudio project](HOWTO-create-tunerstudio-project)
+
 # Summary
 
 So you either have hardware under way, or are considering getting rusEFI hardware. This manual is intended for those that are using purchased hardware. If you are not, don't worry, we also encourage DIY and like hearing back from those that have. We also encourage people to use the purchased boards as a starting point for a DIY effort, feel free to modify the board we'll likely make suggestions on how to make your effort better.
@@ -74,7 +76,14 @@ http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-
 * It will likely be helpful to get a partial harness from a junk yard, and switch to rusEFI circuit-by-circuit using a [breakout module.](Breakout-Module)
 * Use junk hard harness to make extension harness. Use the junk yard ECU connector to break out the wire harness to the breakout board. Then from the far side of the breakout board, install the junk yard harness connector. Then connect the original ECU. This should allow you to start and run then engine as normal.
 
+## Prepare engine wiring
 
+* Connect TPS, MAP, IAT, and other such analog signals to the IO board. 
+* Connect 12V system / battery to the IO board connector. 
+* Calibrate the sensors using TS and Java console as required.
+* Crank engine and see RPM's are registering correctly on the Java Console.
+* Connect LED to pins TODO, which will blink at TDC. Verify that TDC is correct by shining on a crank wheel like a timing light. PS: actually right now we do not have this - see https://sourceforge.net/p/rusefi/tickets/291/
+* Connect injectors and ignition as required and see if it will start.
 
 ### Testing the wiring
 
