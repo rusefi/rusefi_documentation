@@ -1,3 +1,69 @@
+## Prerequisites
+This section assumes 
+* You have hardware connected to an engine.
+* You can connect to the rusEFI board with a USB cable, or some communications stream.
+* You have a PC which is running Tuner Studio, and can connect it to the board
+* You have calibrated the sensors like TPS, MAP, crank decoder, etc
+* WO2 or tail pipe probe to measure your AFR or HP. 
+* This tutorial assumes that you want speed density, which is good for peak power applications and it's assumed you are tuning the load tables. 
+
+## Fuel tuning 
+### Some quick theory
+Most people who do the after market ECU are looking to get around the track faster. This section assumes you are looking for fast track times. This commonly means you are looking for minimal fuel consumption when you are maintaining speed or decreasing speed, then max power when you are at higher engine loads. Every person will be differ in what RPM and loads they want power vs fuel efficiency. The below graphic shows how you vary horse power as you change AFR. 
+
+![Airflow chart](Fuel/Fuel_Control/Airfuel.jpg)
+
+If you have a V8 in a Miata, and you need a lite load perhaps like when approaching a turn, you might have a load around 20%. At this point you have enough power and you want to minimize fuel consumption. Such that you get the most out of the fuel in the tank. Then when you are say 80% or 100% load you want maximum power, as you do not have enough power and you want every Hp you can get. So your tuning table around the 20% would be tuned to have an AFR around 16, while when at 100% load your tune will be tuned for something closer to 11.5 to 12.5, and a variety of AFRs based on your driving habits, race event, personal preferences etc. You will take your best stab to guess what is the most optimal way to get to the finish line fastest. 
+
+However if you have a 4 cyl Miata, then your load under the same conditions as noted above would be about 40% instead of 20%, which means your tuning table will be adjusted differently at different points. As well if you have a 4 cyl Miata with a turbo, you might be at around 30% under these same conditions. 
+
+The tuning tables are mostly for tuning the steady state conditions. There is also a bunch of tuning to deal with the short term dynamic conditions, as well there is tuning for cold engine conditions, etc. Every one has a different tuning preference for a variety of reasons, some good some not so good. This tutorial is going to make some suggestions and keep in mind there are going to be lots of different opinions and different reasons for doing things differently. This tutorial is just a suggestions, and will suggest you first start with a warm engine and tune the load table such that you get the AFR's that you are looking for. Then tune the wall wetting, then tune the cold start conditions. 
+
+## Quick version 
+### Manual tuning via TS
+Open TS, and guess at your fuel table, it will probably look similar to the below. 
+
+![Target AFR chart](Images/Target-afr.jpg)
+
+Guess at your spark table it will look something similar to this
+
+[insert picture]
+
+Once you have a guess that seems to keep things running, tune 100% by running TS and looking at your WO2 AFR, find a long hill put it in high gear and put your foot the the floor. Keep adjusting the cell to keep your AFT at about 11.5 to 12.5. Doing this on a dyno is better as you don't really care about this range of AFR you care about max HP which is at an unknown AFR. Some how adjust this for full load and keep an eye on your AFT. If you can't get the AFT in the 11.5 to 12.5 range, it likely means your fuel pump is not providing enough fuel. Once you know full load, do this for medium load, low load, etc, until you have a fuel table that you are happy with. 
+
+Once fuel is good, then do the same with spark, again adjust for max power and if possible tune with a knock sensor. If you detect knock stop advancing, and back away by perhaps 2 to 4 degrees. Don't get to close to the absolute limit, as variations in temperature, pressure, carbon build up, etc could change this limit. Once spark is adjusted, go back and re-do fuel, then again back to spark, keep doing this until they are both perfect. 
+
+### Auto tuning via TS
+
+This requires a resisted version of TS. The general procedure here is similar to the manual tune method, but you set the desired AFR in a table drive it around and TS will adjust the cells to get the AFR that it's commanded to get to. While is is effective, peak power can be obtained via dyno, not by AFR measurements, so this is great for those that don't have a dyno, but if you are looking for peak power, you really need a dyno. 
+
+### Wall wetting tuning
+Once it's operational, you now want to tune the dynamic such that you get faster throttle response. 
+TBD
+
+### Cold temperature
+Once it's working well and reacts well to quick changes in the long pedal, you'll want cold temperature enrichments such that it starts nice and easy. 
+TBD
+
+see also [Fuel Overview](Fuel-Overview)
+see also [Ignition](Ignition)
+see also [Idle Control](Idle-Control)
+see also http://rusefi.com/forum/viewtopic.php?f=2&t=1124&p=21278
+
+## Share your tune
+
+### Take notes and collect information
+
+We all benefit from from sharing the tune, so we would like to suggest you share it. By sharing it others may notice issues with your tune, as well it can function as a starting point for other which you have likely used when you did your tune. By sharing your tune, we can better help people when they are doing their initial configurations. After all it's not like your tune is something you need to protect and can't share, so we would find it nice if you were to share your tune.
+
+Take notes about your setup, preferably including what ever parameters you can provide, like what you have for intake components, exhaust, CAM, pistons, geographical location, ect. We hope to have a web page form that can be used to simplify the process. For now, we hare hoping you can post it in the forum, or e-mail it to a developer. 
+
+### Post on forum or e-mail the tune
+
+Find the forum sub section where people are sharing tunes, then fill out your posting the with the suggested XYZ format. At the time of writing this most of this tuning sharing stuff new and pre-alpha. 
+
+
+
 Obviously tuning is a subject too complex to be dealt with exhaustively in a short wiki page. So all we can do here is give you some pointers. At this point we assume that you got the engine to run, or at least sputter using your rusEFI. All your main inputs and outputs needed to make an engine run OK are working. 
 
 This should be at least:
