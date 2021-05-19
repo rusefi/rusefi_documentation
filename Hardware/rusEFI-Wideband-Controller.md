@@ -56,3 +56,6 @@ Green LED off and blue LED flashing indicates an error.  The blue LED will blink
 ## Source Code
 
 [The hardware and software source code are hosted here.](https://github.com/mck1117/wideband)
+
+## Index Selection
+https://github.com/mck1117/wideband/issues/11
