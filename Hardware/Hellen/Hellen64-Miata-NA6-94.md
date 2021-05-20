@@ -20,8 +20,17 @@ Hello
 * battery to keep real time clock running
 * LPS25HB baro sensor
 * QMA7981 accelerometer on rev A.
-* LIS2DW12TR accelerometer on rev B.
-
+* LIS2DW12TR accelerometer on rev B
 
 
 ![x](Hardware/Hellen/hellen64na6-a.jpg)
+
+## Extension Pads
+
+|   |   |  Comments |
+|---|---|---|
+| Pxx  | Low side  | 99A limit  |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   | 
