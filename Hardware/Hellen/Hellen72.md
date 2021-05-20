@@ -17,7 +17,7 @@
 
 [Forum DEVELOPMENT thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1947)
 
-https://rusefi.com/docs/ibom/hellen72-c-ibom.html
+[Interactive iBom rev C](https://rusefi.com/docs/ibom/hellen72-c-ibom.html)
 
 [Nightly firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
 
