@@ -135,4 +135,31 @@ Valid `index` parameter values:
 
 ## Output
 
-coming soon...
+### `startPwm(index, frequency, duty)`
+
+Initializes PWM on the specified index, starting at the specified frequency and duty cycle.  The index selects which config field pin to use, see "Lua PWM Outputs" page in TunerStudio.
+
+- Parameters
+  - `index`: The index of the PWM channel to start.  Valid values are 0 through 7, one for each of the 8 channels.
+  - `frequency`: Initial frequency of the output, in hertz (cycles per second).  Valid values are between 1 and 1000hz.
+  - `duty`: Initial duty cycle of the output.  `0.0` = fully off, and `1.0` = fully on.  `0.25` = on 25% of the time, off 75% of the time.
+- Returns
+  - none
+
+### `setPwmDuty(index, duty)`
+
+Set the duty cycle of the specified PWM channel.
+
+- Parameters
+  - `index`: The index of the PWM channel to set.
+  - `duty`: Desired duty cycle of the output.  `0.0` = fully off, and `1.0` = fully on.  `0.25` = on 25% of the time, off 75% of the time.
+- Returns
+  - none
+
+### `setPwmFreq(index, frequency)`
+
+- Parameters
+  - `index`: The index of the PWM channel to set.
+  - `frequency`: Initial frequency of the output, in hertz (cycles per second).  Valid values are between 1 and 1000hz.
+- Returns
+  - none
