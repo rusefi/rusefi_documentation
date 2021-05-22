@@ -1,7 +1,9 @@
-# Intro
+# BMW-S1000RR
+
+## Intro
 The [BMW S1000RR Motorcycle](https://en.wikipedia.org/wiki/BMW_S1000RR#:~:text=BMW%20S1000RR%20is%20a%20race,engine%20redlined%20at%2014%2C200%20rpm.) was originally released in 2009. It is a 999cc four cylinder engine making 180-200hp depending on the model year. There have been a few changes over the years, but the general architecture remains the same.
 
-# Overview
+## Overview
 Model years vary in their engine configuration somewhat:
 * 2009-2014 models used virtually the same engine, sensors, etc.
 * 2015-2018 had some minor engine updates, put out a little more power.
@@ -19,11 +21,11 @@ Model years vary in their engine configuration somewhat:
 * Quickshift strain gauge sensor in the linkage allowing the ECU to sense shift forces
 * 2x Variable Exhaust Actuators (not documented here)
 
-# Individual Component Detail
+## Individual Component Detail
 
-## Injectors
+### Injectors
 
-## Ignition Coils
+### Ignition Coils
 
-## Quickshift Sensor
+### Quickshift Sensor
 

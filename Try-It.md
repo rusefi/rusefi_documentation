@@ -1,7 +1,6 @@
-# this page is NOT UP TO DATE - Frankenstein is totally forgotten as of 2020 and Frankenso is moving into the forgotten territory.
-
-
 # Choose Your Own Adventure
+
+**this page is NOT UP TO DATE - Frankenstein is totally forgotten as of 2020 and Frankenso is moving into the forgotten territory.**
 
 ## Adventure 1: I have a project engine and want to try the Frankenso board
 
