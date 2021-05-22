@@ -21,7 +21,7 @@ meaning more detonation. Combustion signal seems to be just a comparator giving 
 seems to be showing post-flame pressure, with the middle of this pulse correlating with moment of peak cylinder pressure.
 
 Knocking - note a lot of blue line pulses (1ms timebase)
-![knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png>) 
+![knock](</Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png>) 
 
 Knocking (50us timebase)
 ![knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_knock_signal.png>)
@@ -97,9 +97,9 @@ And that's it! We have seen enough to get some code for the rusEFI firmware to s
 
 2) Try Mazda H6T61171 ignition coils - these are a bit longer and narrower, seem to fit my Miata engine.
 
-3) analyze [raw waveforms](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png) Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_2018_01_05_miata_rigol.zip) and detect knock based on just ion sense signal without CDM
+3) analyze [raw waveforms](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_2018_01_05_miata_rigol.zip) and detect knock based on just ion sense signal without CDM
 
-![Coils](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png) Detection Module_on_Mazda_Miata_running_rusEFI/H6T60271_and_H6T61171.jpg)
+![Coils](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/H6T60271_and_H6T61171.jpg)
 
 Inside of 55352173 Saab Ionization Detection Module
 
