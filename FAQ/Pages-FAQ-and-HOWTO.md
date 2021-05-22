@@ -1,4 +1,4 @@
-# This is a repository of FAQ and HOWTO pages
+# List of FAQ and HOWTO pages
 
 <details><summary><u>FAQs</u></summary>
 
