@@ -1,0 +1,8 @@
+site_name: rusEFI Wiki
+repo_url: https://github.com/rusefi/rusefi
+theme: readthedocs
+plugins:
+  - search
+  - ezlinks:
+      wikilinks: true
+collapse_navigation: true
