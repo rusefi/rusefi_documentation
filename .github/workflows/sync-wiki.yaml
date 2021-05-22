@@ -30,9 +30,10 @@ jobs:
 
     - name: Generate static pages
       run: |
+        shopt -s extglob
         cd mkdocs
         mkdir docs
-        cp -r ../* .
+        cp -r ../!(mkdocs) docs
         mkdocs build
 
     - name: Set FTP variables
