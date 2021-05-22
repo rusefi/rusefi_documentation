@@ -4,7 +4,7 @@ edit_uri: edit/master/
 theme: 
   name: readthedocs
   collapse_navigation: true
-lugins:
+plugins:
   - search
   - ezlinks:
       wikilinks: true
