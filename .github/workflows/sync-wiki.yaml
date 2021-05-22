@@ -31,7 +31,9 @@ jobs:
     - name: Generate static pages
       run: |
         cd mkdocs
-        
+        mkdir docs
+        cp -r ../* .
+        mkdocs build
 
     - name: Set FTP variables
       env:
