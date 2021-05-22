@@ -1,5 +1,5 @@
 ### Click on the image below for the latest builds and downloads!
-[test](foobar)
+[test](foobar.md)
 
 [![](Images/Latest_bundle_border.png)](https://github.com/rusefi/rusefi/wiki/Download)
 
