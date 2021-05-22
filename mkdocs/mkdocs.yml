@@ -8,3 +8,5 @@ plugins:
   - search
   - ezlinks:
       wikilinks: true
+markdown_extensions:
+  - sane_lists
