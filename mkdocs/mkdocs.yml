@@ -1,6 +1,6 @@
 site_name: rusEFI Wiki
 repo_url: https://github.com/rusefi/rusefi_documentation
-edit_uri: /
+edit_uri: edit/master/
 theme: readthedocs
 plugins:
   - search
