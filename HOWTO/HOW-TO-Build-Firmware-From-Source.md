@@ -61,7 +61,7 @@ cd /home/owner/rusefi
 code .  
 
 14. Run the built tool for the specific board in VScode  
-Ctrl-B and select the chosen board, this should build the firmware.  
+Ctrl-Shift-B and select the chosen board, this should build the firmware.  
 
 
 
