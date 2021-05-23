@@ -10,9 +10,26 @@ https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZ
 
 ## Extension Pads
 
-|   |   |  Comments |
+| Pin | Type | Comments |
 |---|---|---|
-| Pxx  | Low side  | 99A limit  |
+| P43 | PP | 1.5 A peak |
+| P45 | PP | 1.5 A peak |
+| P48 | Bridge driver A | 3 A peak |
+| P49 | Bridge driver A | 3 A peak |
+| P50 | Bridge driver B | 3 A peak |
+| P51 | Bridge driver B | 3 A peak |
+| P52 | Low side | 0.5 A |
+| P53 | Low side | 1 A |
+| P54 | Low side | 0.5 A |
+| P55 | Low side | 0.5 A |
+| P56 | Low side | 0.5 A |
+| P57 | Low side | 0.5 A |
+| P58 | Low side | 0.5 A |
+| P59 | Low side | 0.5 A |
+| P60 | High side | 4 A |
+| P61 | High side | 4 A |
+| P73 | PP 5 V | 20 mA |
+| P74 | PP 5 V | 20 mA |
 |   |   |   |
 |   |   |   |
 |   |   |   |
