@@ -12,6 +12,7 @@ https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZ
 
 | Pin | Type | Comments |
 |---|---|---|
+||**Outputs**||
 | P43 | PP | 1.5 A peak |
 | P45 | PP | 1.5 A peak |
 | P48 | Bridge driver A | 3 A peak |
@@ -30,7 +31,15 @@ https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZ
 | P61 | High side | 4 A |
 | P73 | PP 5 V | 20 mA |
 | P74 | PP 5 V | 20 mA |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   | 
+|   | **Inputs** |   |
+| P62 | Analog pull up | |
+| P63 | Analog pull up | |
+| P64 | Analog pull down | |
+| P65 | Analog pull down | |
+| P66 | Analog pull down | |
+| P67 | Analog pull down | |
+| P68 | Analog pull down | |
+| P69 | Analog pull down | |
+| P70 | Discrete pull up | |
+| P71 | Discrete pull up | |
+| P72 | Discrete pull down | |
