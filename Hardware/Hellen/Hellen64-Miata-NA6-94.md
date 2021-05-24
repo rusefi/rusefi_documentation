@@ -25,7 +25,7 @@ Hello
 
 ![x](Hardware/Hellen/hellen64na6-a.jpg)
 
-## Extension Pads
+## Extension Pads (rev. b)
 
 | Pin | Type | Comments |
 |---|---|---|
