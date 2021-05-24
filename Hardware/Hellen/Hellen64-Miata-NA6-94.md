@@ -27,10 +27,50 @@ Hello
 
 ## Extension Pads
 
-|   |   |  Comments |
+| Pin | Type | Comments |
 |---|---|---|
-| Pxx  | Low side  | 99A limit  |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   | 
+||**Outputs**||
+| P9 | PP | 1.5 A peak |
+| P10 | PP | 1.5 A peak |
+| P12 | Bridge driver A | 3 A peak |
+| P11 | Bridge driver A | 3 A peak |
+| P13 | Bridge driver B | 3 A peak |
+| P14 | Bridge driver B | 3 A peak |
+| P8 | Low side | 1.4 A |
+| P15 | Low side | 1 A |
+| P16 | Low side | 1 A |
+| P17 | Low side (always hot) | 0.5 A |
+| P18 | Low side | 0.5 A |
+| P19 | Low side | 0.5 A |
+| P20 | Low side | 0.5 A |
+| P21 | Low side | 0.5 A |
+| P22 | High side | 4 A |
+| P23 | High side | 4 A |
+| P24 | PP 5 V | 20 mA |
+| P25 | PP 5 V | 20 mA |
+| P29 | PP 5 V | 20 mA |
+| P30 | PP 5 V | 20 mA |
+| P31 | PP 5 V | 20 mA |
+| P32 | PP 5 V | 20 mA |
+|   | **Inputs** |   |
+| P26 | Discrete pull down | |
+| P27 | Discrete pull down | | 
+| P28 | Discrete pull down | |
+| P33 | Analog pull up | |
+| P34 | Analog pull up | |
+| P35 | Analog pull down | |
+| P36 | Analog pull up | |
+| P37 | Analog pull up| |
+| P38 | Analog pull down | |
+| P39 | Analog pull down | |
+| P40 | Analog pull up | |
+| P41 | Analog pull up | |
+| P42 | Discrete pull up | |
+| P43 | Discrete pull down | | 
+| P44 | Discrete pull up | |
+| P45 | Discrete pull down | | 
+|   | **MCU** |   |
+| P3 | GPIO | | 
+| P4 | GPIO | | 
+| P5 | GPIO | | 
+| P6 | GPIO | | 
