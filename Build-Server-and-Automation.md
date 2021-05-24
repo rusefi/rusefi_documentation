@@ -1,4 +1,5 @@
 Github Actions is currently in charge of:
+
 * Firmware Builds: continues integration publishing at https://rusefi.com/build_server/
 * Console Builds
 * Simulator Builds
@@ -19,6 +20,7 @@ We have tried to keep Jenkins working in case we need to revert to it.
 ## Jenkins setup
 
 ### Jobs:
+
 1) unit_tests
 2) integration_and_primary_bundle
 3) documentation
@@ -29,6 +31,7 @@ We have tried to keep Jenkins working in case we need to revert to it.
 https://cygwin.com/install.html
 
 Cygwin packages that need to be installed:
+
 - make
 - gcc-core
 - mingw64-i686-gcc-core
