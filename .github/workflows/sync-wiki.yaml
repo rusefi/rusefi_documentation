@@ -53,7 +53,5 @@ jobs:
         if [ -n "$RUSEFI_FTP_SERVER" ]; then
           echo "Uploading Wiki"
           ncftpput -R -z -m -V -u "$RUSEFI_DOXYGEN_FTP_USER" -p "$RUSEFI_DOXYGEN_FTP_PASS" "$RUSEFI_FTP_SERVER" / wiki
-        else
-          echo "Secret not set"
-          exit 1
         fi
+        [ $? -eq 0 ] || { echo "upload FAILED"; exit 1; }
