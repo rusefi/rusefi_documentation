@@ -1,4 +1,4 @@
-See https://github.com/rusefi/rusefi/wiki/HOWTO_electronic_throttle_body
+See [Electronic Throttle Body Configuration](Electronic-Throttle-Body-Configuration-Guide)
 
 New colour scheme:
 white;

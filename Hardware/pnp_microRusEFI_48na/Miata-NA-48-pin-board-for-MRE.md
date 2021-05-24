@@ -1,5 +1,5 @@
-See also https://github.com/rusefi/rusefi/wiki/HOWTO-quick-start
-See also https://github.com/rusefi/rusefi/wiki/Installing-a-PnP-rusEFI-unit-startup-and-test
+See also [Quick Start](HOWTO-quick-start)
+See also [Installing a PnP rusEFI unit - Startup and Test](Installing-a-PnP-rusEFI-unit-startup-and-test)
 
 This is a PNP adapter board for NA Miatas (1990-1995). The board is true plug and play. Just replace the PCB in your ECU with this board and drive the car. The hardware capabilities are defined by the [microRusEFI](Hardware-microRusEFI) module that drives the unit.
 

@@ -17,7 +17,7 @@ https://rusefi.com/forum/viewtopic.php?t=1677
 
 [MREAdapter72 0.2 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
 
-https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEFI_nb2/hw72nb.pdf
+[[https://github.com/rusefi/rusefi_documentation/blob/master/Hardware/pnp_microRusEFI_nb2/hw72nb.pdf]]
 
 | Pin Number | Name     | microRusEFI pin |  Type ID      | Default function                                     |
 | ----------:|:-------- | ------------ | ------------  |:---------------------------------------------------- |
@@ -136,8 +136,8 @@ https://www.iwireservices.com/post/2018/08/02/how-to-pin-and-depin-a-subaru-conn
 
 
 # Photos
-https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEFI_nb2/MREAdapter72_0_2_front.jpg
-https://github.com/rusefi/rusefi/wiki/Hardware/pnp_microRusEFI_nb2/MREAdapter72_0_2_back.jpg
+![[Hardware/pnp_microRusEFI_nb2/MREAdapter72_0_2_front.jpg]]
+![[Hardware/pnp_microRusEFI_nb2/MREAdapter72_0_2_back.jpg]]
 
 
 https://youtu.be/6IZcHCQl8yo
