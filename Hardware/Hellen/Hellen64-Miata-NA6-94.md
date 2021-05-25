@@ -6,7 +6,7 @@ Hello
 [[ibom rev b]](https://rusefi.com/docs/ibom/hellen64_miataNA6_94-b-ibom.html)
 [[Pinout]](https://rusefi.com/docs/pinouts/hellen/hellen64_miataNA6_94/)
 
-[draft hellen64_miataNA6_94-b-schematic.pdf](Hardware/Hellen/hellen64_miataNA6_94-b-schematic.pdf)
+[preview draft of future revision subject to change](Hardware/Hellen/hellen64_miataNA6_94-b-schematic.pdf)
 
 
 [Mazda Miata 1990](Mazda-Miata-1990)
