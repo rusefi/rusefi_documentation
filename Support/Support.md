@@ -18,7 +18,7 @@ A: Please use youtube to post videos.
 
 Q: Shall I take a photo of my tune?
 
-A: Please use rusEFI Online to share tunes https://github.com/rusefi/rusefi/wiki/HOWTO-upload-tune
+A: Please use rusEFI Online to [share tunes](HOWTO-upload-tune)
 
 A: Shall I take a photo of my screen?
 

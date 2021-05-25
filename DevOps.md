@@ -1,1 +1,1 @@
-See https://github.com/rusefi/rusefi/wiki/Build-Server
+See [Build Server](Build-Server)

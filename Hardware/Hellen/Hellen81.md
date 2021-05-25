@@ -2,7 +2,7 @@
 
 Hellen81 is an ultracompact and cheap yet full-functional 8-Cylinder ECU board compatible with 81-pin M7.9.7/ME7.9.7/ME7.8.8/Yanvar7.2/Micas10.3.
 
-The board is NOT compatible with 121-pin VAG ME7.x vehicles! For VAG, please see [Hellen121vag](https://github.com/rusefi/rusefi/wiki/Hellen121VAG).
+The board is NOT compatible with 121-pin VAG ME7.x vehicles! For VAG, please see [Hellen121vag](Hellen121VAG).
 
 
 ***

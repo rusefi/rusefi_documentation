@@ -10,7 +10,7 @@
 
 This vehicle has dumb coils and igniters - rusEFI does not have to provide igniters.
 
-https://github.com/rusefi/rusefi/wiki/Hardware-microRusEFI-wiring
+[microRusEFI Wirinng](Hardware-microRusEFI-wiring)
 
 22 pin connector E30
 

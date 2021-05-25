@@ -1,1 +1,1 @@
-See https://github.com/rusefi/rusefi/wiki/shop-ru
+See [[shop-ru]]

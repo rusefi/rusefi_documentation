@@ -1,10 +1,10 @@
 Current status: very early development, this board is 2% done at the moment.
 
 
-Hellen PnP GDI board for https://github.com/rusefi/rusefi/wiki/VolkswagenPassatB6
+Hellen PnP GDI board for [Volkswagen Passat B6](VolkswagenPassatB6)
 
 
-See also https://github.com/rusefi/rusefi/wiki/Passat-GDI-wiring
+See also [Passat GDI Wiring](Passat-GDI-wiring)
 
 
 
