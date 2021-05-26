@@ -53,6 +53,7 @@ Hello
 | P31 | PP 5 V | 20 mA |
 | P32 | PP 5 V | 20 mA |
 |   | **Inputs** |   |
+| P1 | Knock | |
 | P26 | Discrete pull down | |
 | P27 | Discrete pull down | | 
 | P28 | Discrete pull down | |
@@ -74,3 +75,4 @@ Hello
 | P4 | GPIO | | 
 | P5 | GPIO | | 
 | P6 | GPIO | | 
+| J4 | SPI, UART, I2C | See silkscreen and schematic for details | 
