@@ -75,4 +75,4 @@ Hello
 | P4 | GPIO | | 
 | P5 | GPIO | | 
 | P6 | GPIO | | 
-| J4 | SPI, UART, I2C | See silkscreen and schematic for details | 
+| J4 | SPI, UART, I2C, GPIO | See silkscreen and schematic for details | 
