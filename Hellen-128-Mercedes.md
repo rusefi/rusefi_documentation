@@ -9,3 +9,36 @@ Mercedes M111 and M113
 Relevant? 
 
 https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1kp4Y/
+
+## Extension Pads (rev. a)
+
+| Pin | Type | Comments |
+|---|---|---|
+||**Outputs**||
+| P33 | Bridge driver B | 3 A peak |
+| P34 | Low side | 0.5 A |
+| P35 | Low side | 0.5 A |
+|   | **Inputs** |   |
+| P30 | Analog pull up | |
+| P31 | Analog pull down | |
+| P32 | Analog pull down | |
+|   | **MCU** |   |
+| J1 | SPI, UART/GPIO | See schematic for details | 
+|   | **WBO1** |   |
+| J9 | XH-8 WBO1 connector| |
+| P19 | GND | |
+| P21 | H- | |
+| P22 | R Trim | |
+| P23 | Ip | |
+| P24 | Vs/Ip | |
+| P25 | Vs | |
+| J7 | SWD| |
+|   | **WBO2** |   |
+| J18 | XH-8 WBO1 connector| |
+| P18 | GND | |
+| P20 | H- | |
+| P26 | R Trim | |
+| P27 | Ip | |
+| P28 | Vs/Ip | |
+| P29 | Vs | |
+| J19 | SWD | |
