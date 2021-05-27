@@ -213,3 +213,5 @@ JP10	2X	CAN_L|	Y	|N|	TachOUT on 95.5
 [Mazda Miata 1994](Mazda-Miata-1994)
 
 [Mazda Miata 1995](Mazda-Miata-1995)
+
+https://www.youtube.com/watch?v=vleG0Jp5isY
