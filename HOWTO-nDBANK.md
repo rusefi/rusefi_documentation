@@ -1,5 +1,7 @@
 Some chips like STM32F767 are bringing nDBANK drama into our life.
 
+TODO: try https://github.com/danielinux/stm32f7-dualbank-tool
+
 At the moment we only know how to deal with it via Stm32CubeProgrammer
 
 ![x](HOWTO/nDBANK/stm32prog-steps.png)
