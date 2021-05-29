@@ -13,3 +13,7 @@ Stop and go driving
 Highway cruising
 
 Excited acceleration driving
+
+# VVT control
+
+[CrazyStriker Miata NB2](https://rusefi.com/online/?vehicleName=H72_CS_NB2&user_id=853)
