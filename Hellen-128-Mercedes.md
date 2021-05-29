@@ -34,7 +34,7 @@ https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1k
 | P25 | Vs | |
 | J7 | SWD| |
 |   | **WBO2** |   |
-| J18 | XH-8 WBO1 connector| |
+| J18 | XH-8 WBO2 connector| |
 | P18 | GND | |
 | P20 | H- | |
 | P26 | R Trim | |
