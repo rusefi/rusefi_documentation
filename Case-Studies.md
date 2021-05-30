@@ -1,6 +1,8 @@
-Cold start on a Summer day
+# Cold start on a Summer day
 
-Cold start on a Winter day
+https://rusefi.com/online/view.php?msq=495
+
+# Cold start on a Winter day
 
 Hot start
 
