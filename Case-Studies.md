@@ -19,3 +19,9 @@ Excited acceleration driving
 [CrazyStriker Miata NB2](https://rusefi.com/online/?vehicleName=H72_CS_NB2&user_id=853)
 
 [Jimmy M111 190e](https://rusefi.com/online/?vehicleName=Jimmys+190e+that+runs+good&user_id=1115)
+
+# Stepper Idle control
+
+todo Dron
+
+todo Matt
