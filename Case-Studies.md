@@ -1,6 +1,17 @@
 # Cold start on a Summer day
 
-https://rusefi.com/online/view.php?msq=495
+v8 LS: [tune](https://rusefi.com/online/view.php?msq=495)
+(waiting for video)
+(waiting for log)
+
+Turbo Volvo: [tune](https://rusefi.com/online/view.php?msq=541)
+[video](https://youtu.be/n8Znw2P6ALw)
+(waiting for log)
+
+Miata NA
+(waiting for tune)
+[video](https://youtu.be/r-RgwNGDV78)
+(waiting for log)
 
 # Cold start on a Winter day
 
