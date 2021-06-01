@@ -28,7 +28,7 @@ Innovate's LC-2 serial interface is supported. The Innovate sensor controller ha
 ## Misc Info
 
 Bosch LSU 4.2
-http://www.bosch-motorsport.de/media/catalog_resources/Lambda_Sensor_LSU_42_Datasheet_51_en_2779111435pdf.pdf
+[Lambda_Sensor_LSU_4.2_Datasheet_51_en_2779111435.pdf](OEM-Docs/Bosch/Lambda_Sensor_LSU_4.2_Datasheet_51_en_2779111435.pdf)
 
 AEM 30-4100 Digital Wideband UEGO Gauge (donated by AlexL)
 
