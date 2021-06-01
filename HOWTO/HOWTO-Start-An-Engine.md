@@ -15,7 +15,7 @@ Before you can even try to start the engine you have to get some of the basics r
 - Finally, make sure there is fuel in it, the number one non-start issue is a dry fuel tank right up to pro level.  
 
 Cranking - Step one.  
-First off verify your crank sensor reads the trigger wheel.  
+## Verify your crank sensor reads the trigger wheel.  
 This can be done before setting anything in the ECU and should be the first test done.  
 To do this go into tuner studio and disable the fuel injection and the ignition under each of the settings tabs.  
 	- Insert picture of each of the settings tabs  
