@@ -22,7 +22,7 @@
 
 <details><summary><u>MAF Sensors</u></summary>
 
-* [List of tested MAP sensors](Vault-Of-Sensors)
+* [List of tested sensors](Vault-Of-Sensors)
 
 </details>
 
