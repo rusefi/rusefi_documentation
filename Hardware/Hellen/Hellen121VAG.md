@@ -16,6 +16,12 @@ Status: landed in USA!
 * Baro sensor LPS25HB (footprint, not populated by JLC)
 
 
+# Vehicle Specific Jumpers
+
+TODO:
+when do we remove/keep R2 R3 R8 R9
+
+
 
 
 [Connector Vehicle Pinout reference table](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
@@ -26,6 +32,8 @@ Status: landed in USA!
 
 
 ![x](https://rusefi.com/forum/download/file.php?id=7575)
+
+![x](Hardware/Hellen/hellen121vag-a.jpg)
 
 ## Q: what cars is the 121vag applicable for?
 
