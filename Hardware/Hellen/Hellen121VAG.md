@@ -18,7 +18,7 @@ Status: early phases of testing!
 
 # Vehicle Specific Jumpers
 
-**Never have both R2 and R3 jumpers populated! **Early 1.8T applications have R2, do not populate R3, do not populate R8, have R9
+**Never have both R2 and R3 jumpers populated!** Early 1.8T applications have R2, do not populate R3, do not populate R8, have R9
 
 Late models do not populate R2, populate R3, do not populate R8, have R9
 
