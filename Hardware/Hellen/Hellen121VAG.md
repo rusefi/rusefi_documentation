@@ -18,11 +18,18 @@ Status: early phases of testing!
 
 # Vehicle Specific Jumpers
 
-**Never have both R2 and R3 jumpers populated!** Early 1.8T applications have R2, do not populate R3, do not populate R8, have R9
+**Never have both R2 and R3 jumpers populated!** 
 
-Late models do not populate R2, populate R3, do not populate R8, have R9
+**Never have both R8 and R9 jumpers populated!** 
 
-TODO: 2003 A6 4.2 and similar: do not populate R2, populate R3, try populate R9, do not populate R9 
+| Vehicle | R2 | R3 | R8 | R9 |
+| --- | --- | --- | --- | --- |
+| 2000 Early Audi A4 1.8T (ME7.1, NBO2, NO VVT, DBW) | ✔ | ✘ | ✘ | ✔ |
+| 2001 Audi A4 1.8T (ME7.5, WBO2, VVT, DBW) | ✔ | ✘ | ✘ | ✔ |
+| 2006 Jetta 2.5 BGQ | ✘ | ✔ | ✘ | ✔ |
+| 2003 Audi A6 3.0 | ✘ | ✔ | ✘ | ✔ |
+| 2003 Audi A6 4.2 | ✘ | ✔ | ✔ | ✘ |
+| Other models | ? | ? | ? | ? |
 
 
 [Connector Vehicle Pinout reference table](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
