@@ -6,22 +6,23 @@ Hellen Plug&Play for ME7 VAG vehicles
 
 [KiCAD source files](https://github.com/rusefi/hellen121vag)
 
-Status: landed in USA!
+Status: early phases of testing!
 
 
 ## Hardware features
 
 * knock detection module with headphone jack
-* build-in WBO - WARNING 4.2 software not ready while we believe that hardware is universal (footprint, stm32f042 not in stock at JLC)
+* build-in WBO - **WARNING 4.2 software not ready while we believe that hardware is universal** (footprint, stm32f042 not in stock at JLC)
 * Baro sensor LPS25HB (footprint, not populated by JLC)
 
 
 # Vehicle Specific Jumpers
 
-TODO:
-when do we remove/keep R2 R3 R8 R9
+**Never have both R2 and R3 jumpers populated! **Early 1.8T applications have R2, do not populate R3, do not populate R8, have R9
 
+Late models do not populate R2, populate R3, do not populate R8, have R9
 
+TODO: 2003 A6 4.2 and similar: do not populate R2, populate R3, try populate R9, do not populate R9 
 
 
 [Connector Vehicle Pinout reference table](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
