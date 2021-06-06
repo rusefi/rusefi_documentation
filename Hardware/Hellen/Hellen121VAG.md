@@ -33,7 +33,7 @@ Status: early phases of testing!
 | 2002 VR6 24V BDF | ✘ | ✔ | ✘ | ✔ |
 | Other model | ? | ? | ? | ? |
 
-[R2 R3 R8 R9](https://drive.google.com/file/d/1r4os5Ft1mQFYYcKLPqTyI-RTlIX4GPmx/view?usp=sharing)
+[R2-R3-R8-R9 JUMPER](https://drive.google.com/file/d/1r4os5Ft1mQFYYcKLPqTyI-RTlIX4GPmx/view?usp=sharing)
 
 [Connector Vehicle Pinout reference table](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
 
