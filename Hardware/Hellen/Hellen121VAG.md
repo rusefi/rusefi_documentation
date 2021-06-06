@@ -33,7 +33,7 @@ Status: early phases of testing!
 | 2002 VR6 24V BDF | ✘ | ✔ | ✘ | ✔ |
 | Other model | ? | ? | ? | ? |
 
-[https://github.com/rusefi/rusefi/wiki/R3-R2-R8-R9-LOCATION](R3 R2 R8 R9 LOCATION)
+[R2 R3 R8 R9 Location](https://github.com/rusefi/rusefi/wiki/R3-R2-R8-R9-LOCATION)
 
 [Connector Vehicle Pinout reference table](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
 
