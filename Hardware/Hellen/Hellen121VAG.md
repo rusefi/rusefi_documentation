@@ -29,7 +29,9 @@ Status: early phases of testing!
 | 2006 Jetta 2.5 BGQ | ✘ | ✔ | ✘ | ✔ |
 | 2003 Audi A6 3.0 | ✘ | ✔ | ✘ | ✔ |
 | 2003 Audi A6 4.2 | ✘ | ✔ | ✔ | ✘ |
-| Other models | ? | ? | ? | ? |
+| 2001 VR6 12V AFP | ✘ | ✘ | ✘ | ✔ |
+| 2002 VR6 24V BDF | ✘ | ✔ | ✘ | ✔ |
+| Other model | ? | ? | ? | ? |
 
 
 [Connector Vehicle Pinout reference table](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
