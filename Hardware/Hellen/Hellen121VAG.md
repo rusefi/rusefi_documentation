@@ -22,6 +22,8 @@ Status: early phases of testing!
 
 **Never have both R8 and R9 jumpers populated!** 
 
+**Never have both F1 and F2 jumpers populated!** 
+
 | Vehicle | R2 | R3 | R8 | R9 | F1 | F2 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2000 Early Audi A4 1.8T (ME7.1, NBO2, NO VVT, DBW) | ✔ | ✘ | ✘ | ✔ | ✘ | ✔ |
