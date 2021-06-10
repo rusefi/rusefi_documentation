@@ -17,3 +17,9 @@ Honda Accord came with head gasket pre-blown! https://honda-tech.com/forums/engi
 That's when Nick has joined the party.
 
 https://github.com/rusefi/rusefi_documentation/wiki/List_of_engines_running_rusEFI
+
+# 2021 is the year of Hellen
+
+By the way, Hellen is the son of Deucalion (we have Deucalion board). Deucalion is the son of Prometheus (we have Prometheus board).
+
+Mary Shelley has a novel named "Frankenstein, or The Modern Prometheus" and that's how Hellen name has roots in Frankenstein which was the first rusEFI board :)
