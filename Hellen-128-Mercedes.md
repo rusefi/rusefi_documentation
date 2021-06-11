@@ -1,4 +1,4 @@
-[Schematics DRAFT](Hardware/Hellen/hellen128mercedes-a-schematic.pdf)
+[[Schematics rev a]](Hardware/Hellen/hellen128mercedes-a-schematic.pdf)
 
 [Hellen128 Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen128/)
 
