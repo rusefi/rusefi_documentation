@@ -1,5 +1,7 @@
 https://en.wikipedia.org/wiki/Volkswagen_Group_B_platform#B5
 
+[sensors-2-1_bosch_2013_2014.pdf](OEM-Docs/Bosch/sensors-2-1_bosch_2013_2014.pdf)
+
 
 | Connector/ Pin Number | OEM Color | Name / Function | 
 | --------------------- |------- |---------------- |
