@@ -1,6 +1,8 @@
 [[Schematics rev a]](Hardware/Hellen/hellen128mercedes-a-schematic.pdf)
+[[iBom rev a]](https://rusefi.com/docs/ibom/hellen128mercedes-a-ibom.html)
+[[Pinout]](https://rusefi.com/docs/pinouts/hellen/hellen128/)
 
-[Hellen128 Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen128/)
+[[Issue Tracker]](https://github.com/rusefi/hellen128merc-issues)
 
 [Google Docs Pinout Spreadsheet](https://docs.google.com/spreadsheets/d/1I-lZKRajTiEGFUXdZpXEtKF2pymlOo-lPahy3cLMnl4)
 
