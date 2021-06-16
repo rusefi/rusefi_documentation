@@ -31,8 +31,8 @@ Status: early phases of testing!
 | 2006 Jetta 2.5 BGQ | ✘ | ✔ | ✘ | ✔ | ✔ | ✘ |
 | 2003 Audi A6 3.0 | ✘ | ✔ | ✘ | ✔ | ? | ? |
 | 2003 Audi A6 4.2 | ✘ | ✔ | ✔ | ✘ | ✔ | ✘ |
-| 2001 VR6 12V AFP | ✘ | ✘ | ✘ | ✔ | ? | ? |
-| 2002 VR6 24V BDF | ✘ | ✔ | ✘ | ✔ | ? | ? |
+| 2001 VR6 12V AFP | ✘ | ✘ | ✘ | ✔ | ✔ | ✘ |
+| 2002 VR6 24V BDF | ✘ | ✔ | ✘ | ✔ | ✔ | ✘|
 | Other model | ? | ? | ? | ? | ? | ? |
 
 [R2-R3-R8-R9 JUMPER](https://drive.google.com/file/d/1r4os5Ft1mQFYYcKLPqTyI-RTlIX4GPmx/view?usp=sharing)
