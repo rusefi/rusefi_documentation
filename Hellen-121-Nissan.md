@@ -1,6 +1,6 @@
 Hello.
 
-[Schematics DRAFT](Hardware/Hellen/hellen121nissan-a-schematic.pdf)
+[[Schematics rev a]](Hardware/Hellen/hellen121nissan-a-schematic.pdf)[[ibom rev a]](https://rusefi.com/docs/ibom/hellen121nissan-a-ibom.html)
 
 [[Nissan-Xterra-2011]]
 
