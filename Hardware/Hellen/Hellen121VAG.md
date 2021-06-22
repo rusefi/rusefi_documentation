@@ -1,5 +1,7 @@
 Hellen Plug&Play for ME7 VAG vehicles
 
+[[EBAY]](https://www.ebay.com/itm/334048095704)
+
 [[Schematics rev a]](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-a/board/hellen121vag-a-schematic.pdf)
 [[iBom rev b]](https://rusefi.com/docs/ibom/hellen121vag-b-ibom.html)
 [[Pinout]](https://rusefi.com/docs/pinouts/hellen/hellen121vag/)
@@ -11,9 +13,10 @@ Status: early phases of testing!
 
 ## Hardware features
 
+* Electronic Throttle Body
 * knock detection module with headphone jack
 * build-in WBO - **WARNING 4.2 software not ready while we believe that hardware is universal** (footprint, stm32f042 not in stock at JLC)
-* Baro sensor LPS25HB (footprint, not populated by JLC)
+* Baro sensor LPS25HB (footprint, not populated)
 
 
 # Vehicle Specific Jumpers
