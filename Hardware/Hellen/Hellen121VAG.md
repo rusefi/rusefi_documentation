@@ -1,10 +1,15 @@
 Hellen Plug&Play for ME7 VAG vehicles
 
+[[Pinout]](https://rusefi.com/docs/pinouts/hellen/hellen121vag/)
 [[EBAY]](https://www.ebay.com/itm/334048095704)
 
 [[Schematics rev a]](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-a/board/hellen121vag-a-schematic.pdf)
+
+
+[[Schematics rev b]](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-b/board/hellen121vag-b-schematic.pdf)
 [[iBom rev b]](https://rusefi.com/docs/ibom/hellen121vag-b-ibom.html)
-[[Pinout]](https://rusefi.com/docs/pinouts/hellen/hellen121vag/)
+
+
 
 [KiCAD source files](https://github.com/rusefi/hellen121vag)
 
