@@ -2,7 +2,9 @@
 
 * knock detection module
 * build-in WBO
-* Two auxiliary low side outputs 
+* Two auxiliary low side outputs
+* A/C toggle switch
+* A/C relay control
 
 
 # User Support
