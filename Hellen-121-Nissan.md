@@ -43,3 +43,4 @@ https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZ
 | P70 | Discrete pull up | |
 | P71 | Discrete pull up | |
 | P72 | Discrete pull down | |
+
