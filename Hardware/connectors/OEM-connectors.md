@@ -9,7 +9,7 @@
 
 [88 pin](#88)
 
-[104 pin Honda OBD2a/b](#104)
+[104 pin: Honda OBD2a/b](#104)
 
 [121 pin](#121)
 
@@ -351,6 +351,10 @@ Toyota 1MZ-FE 3RZ-FE 5VZ
 1-5178203-6
 
 1-178203-6
+
+
+<a name="104"/>
+
 
 ## 104 pin
 
