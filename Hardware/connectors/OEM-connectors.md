@@ -356,6 +356,21 @@ https://www.te.com/usa-en/product-179686-6.html
 
 Honda Accord 96-2002
 
+Honda Insight 99-2006
+
+Honda "OBD2a / OBD2b" connector
+
+OBD2B
+• 2000-2001 Acura Integra
+• 1999-2000 Honda Civic
+• 1998-2002 Honda Accord
+
+OBD2A
+• 1996-1999 Acura Integra
+• 1996-1998 Honda Civic
+• 1996-2001 Honda Prelude
+• 1996-1997 Honda Accord
+
 ## 108 pin
 https://www.te.com/usa-en/product-1318613-1.html
 
