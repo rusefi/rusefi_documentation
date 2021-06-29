@@ -2,6 +2,8 @@ Issue tracker at https://github.com/rusefi/hellen121nissan-issues/issues
 
 [[Schematics rev b]](Hardware/Hellen/hellen121nissan-b-schematic.pdf)[[ibom rev b]](https://rusefi.com/docs/ibom/hellen121nissan-b-ibom.html)
 
+[Pinout](https://rusefi.com/docs/pinouts/hellen/hellen121nissan/)
+
 [[Nissan-Xterra-2011]]
 
 [[Vault-Of-Nissan-OEM]]
