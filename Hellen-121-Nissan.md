@@ -46,3 +46,11 @@ https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZ
 | P71 | Discrete pull up | |
 | P72 | Discrete pull down | |
 
+## Vehicle Specific Jumpers
+
+| Vehicle | R7 | R8 |
+| --- | --- | --- |
+| 2005 Sentra, 2005 Maxima | ✔️ | ❌ |
+| 2003 350z, 2005 350z | ❌ | ✔️ |
+| 2011 Nissan Xterra | ❌ | ❌ |
+| Other model | ? | ? |
