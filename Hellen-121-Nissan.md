@@ -15,6 +15,9 @@ Issue tracker at https://github.com/rusefi/hellen121nissan-issues/issues
 
 https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZHCA
 
+![x](Hardware/Hellen/hellen121nissan-rev-B-with-connector.jpg)
+
+
 ## Extension Pads
 
 | Pin | Type | Comments |
