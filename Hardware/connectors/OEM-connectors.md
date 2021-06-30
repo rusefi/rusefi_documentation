@@ -437,6 +437,8 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 ![122 Pin Connector](Hardware/connectors/122_render.png)
 
+https://www.ebay.com/itm/334058887716
+
 http://www.te.com/catalog/pn/en/8-5353015-1
 
 Mazda RX-8
@@ -451,6 +453,8 @@ maybe the most common Aristo 2JZ ECU connector?
 ## 125 pin
 
 ![125 Pin Connector](Hardware/connectors/125_5_render.png)
+
+https://www.ebay.com/itm/333855911372
 
 https://www.te.com/usa-en/product-1318612-1.html
 
