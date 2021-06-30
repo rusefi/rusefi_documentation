@@ -1,3 +1,7 @@
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
+
+[Download nightly firmware](https://rusefi.com/build_server/rusefi_bundle_hellen121nissan.zip)
+
 Issue tracker at https://github.com/rusefi/hellen121nissan-issues/issues
 
 [[Schematics rev b]](Hardware/Hellen/hellen121nissan-b-schematic.pdf)[[ibom rev b]](https://rusefi.com/docs/ibom/hellen121nissan-b-ibom.html)
