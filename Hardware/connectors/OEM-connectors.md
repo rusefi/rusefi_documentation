@@ -439,6 +439,8 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 http://www.te.com/catalog/pn/en/8-5353015-1
 
+Mazda RX-8
+
 
 maybe the most common Aristo 2JZ ECU connector?
 1999 TOYOTA CAMRY 3.0L V6
