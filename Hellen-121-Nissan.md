@@ -1,3 +1,5 @@
+Compatible with: Earlier 350Z, 2nd Generation Nissan X-Terra, some Sentra, some Maxima.
+
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
 
 [Download nightly firmware](https://rusefi.com/build_server/rusefi_bundle_hellen121nissan.zip)
