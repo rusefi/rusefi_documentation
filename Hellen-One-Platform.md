@@ -5,18 +5,15 @@ A number of functional building modules were developed with the intention of eas
 
 |   |   |   |
 |---|---|---|
-| Hellen72 Miata NB2  |   |   |
-| Hellen NA 90-95 |   |   |
-| [Volkswagen 121 pin ME7](https://github.com/rusefi/rusefi/wiki/Hellen121VAG)  |   |  https://www.ebay.com/itm/334048095704 |
+| [Hellen72 Miata NB2](Hellen72)  |   |   |
+| [Hellen NA 90-95](Hellen64-Miata-NA6-94) |   |   |
+| [Volkswagen 121 pin ME7](Hellen121VAG)  |   |  https://www.ebay.com/itm/334048095704 |
 | Nissan 121 pin  |   |   |
 |   |   |   |
 |   |   |   |
 
 
 
-[Hellen72 for Miata NB2](Hellen72)
-
-[HellenNA6 for Miata NA6 and early NA8](Hellen64-Miata-NA6-94)
 
 
 For dev information see https://github.com/andreika-git/hellen-one/wiki
