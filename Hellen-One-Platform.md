@@ -7,7 +7,7 @@ A number of functional building modules were developed with the intention of eas
 |---|---|---|
 | Hellen72 Miata NB2  |   |   |
 | Hellen NA 90-95 |   |   |
-| Volkswagen 121 pin ME7  |   |   |
+| [Volkswagen 121 pin ME7](https://github.com/rusefi/rusefi/wiki/Hellen121VAG)  |   |  https://www.ebay.com/itm/334048095704 |
 | Nissan 121 pin  |   |   |
 |   |   |   |
 |   |   |   |
