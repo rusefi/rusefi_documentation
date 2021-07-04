@@ -9,7 +9,7 @@ A number of functional building modules were developed with the intention of eas
 | Hellen NB1 coming soon!  |   |   |
 | [Hellen72 Miata NB2](Hellen72)  |   |   |
 | Hellen121vag [Volkswagen 121 pin ME7](Hellen121VAG)  |   |  https://www.ebay.com/itm/334048095704 |
-| Hellen [121 pin Nissan](Hellen-121-Nissan)  |   |   |
+| Hellen [121 pin Nissan](Hellen-121-Nissan)  |  https://www.ebay.com/itm/334061645783 |   |
 | [Hellen 128 Mercedes](Hellen-128-Mercedes)  |   |   |
 | Hellen BMW 88 coming soon!  |   |   |
 |   |   |   |
