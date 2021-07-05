@@ -4,6 +4,8 @@
 
 [[Issue Tracker]](https://github.com/rusefi/hellen128merc-issues)
 
+![x](Hardware/Hellen/hellen128mercedes-rev-a.jpg)
+
 [Google Docs Pinout Spreadsheet](https://docs.google.com/spreadsheets/d/1I-lZKRajTiEGFUXdZpXEtKF2pymlOo-lPahy3cLMnl4)
 
 Mercedes M111 and M113 
