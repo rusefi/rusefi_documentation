@@ -1,7 +1,7 @@
 This development board is PnP for NA6 and 94-95 Miatas.
 
-[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
-[[Nightly firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellenNA6.zip)
+[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121vag.zip)
+[[Nightly firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen121vag.zip)
 
 [[eBay]](https://www.ebay.com/itm/234060110093)
 
