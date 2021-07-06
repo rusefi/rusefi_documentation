@@ -1,3 +1,6 @@
+[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
+[[Nightly firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
+
 [[Schematics rev a]](Hardware/Hellen/hellen128mercedes-a-schematic.pdf)
 [[iBom rev a]](https://rusefi.com/docs/ibom/hellen128mercedes-a-ibom.html)
 [[Pinout]](https://rusefi.com/docs/pinouts/hellen/hellen128/)
