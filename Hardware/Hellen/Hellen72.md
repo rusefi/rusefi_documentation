@@ -1,3 +1,9 @@
+[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
+[[Nightly firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
+
+
+
+
 ## Hardware features
 
 * knock detection module
@@ -23,7 +29,6 @@
 
 
 
-[Nightly firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
 
 
 
