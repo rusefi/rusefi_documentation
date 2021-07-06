@@ -1,8 +1,7 @@
 Compatible with: Earlier 350Z, 2nd Generation Nissan X-Terra, some Sentra, some Maxima.
 
-[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
-
-[Download nightly firmware](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
+[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
+[[Download nightly firmware]](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
 
 
 Issue tracker at https://github.com/rusefi/hellen121nissan-issues/issues
