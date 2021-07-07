@@ -27,6 +27,9 @@ Highway cruising
 
 Excited acceleration driving
 
+
+# Consecutive engine cranking / engine stop
+
 # VVT control
 
 [CrazyStriker Miata NB2](https://rusefi.com/online/?vehicleName=H72_CS_NB2&user_id=853)
