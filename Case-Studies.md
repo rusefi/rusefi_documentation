@@ -29,6 +29,7 @@ Excited acceleration driving
 
 
 # Consecutive engine cranking / engine stop
+TODO https://github.com/rusefi/rusefi_documentation/issues/151
 
 # VVT control
 
