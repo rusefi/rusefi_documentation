@@ -42,7 +42,7 @@
 - [Fueling](Fuel-Overview)
 - [Multispark](Multi-Spark)
 - [Cranking](Cranking)
-- [Electronic Throttle](HOWTO-electronic-throttle-body)
+- [Electronic Throttle](Electronic-Throttle-Body-Configuration-Guide)
 - [Knock Sensing](knock-sensing)
 - [Variable Valve Timing](VVT)
 - [FSIO - Flexible Sweet Input Output](FSIO)
