@@ -2,8 +2,7 @@
 
 <details><summary><u>Throttle and ETB</u></summary>
 
-* [How To - ETB ](HOWTO-electronic-throttle-body)
-* [How To - ETB configuration](HOWTO-electronic-throttle-body-configuration)
+* [How To - ETB](Electronic-Throttle-Body-Configuration-Guide)
 * List of tested ETBs - Coming Soon
 * List of tested TPS sensors - Coming Soon
 * List of tested Throttle pedal sensors - Coming Soon
