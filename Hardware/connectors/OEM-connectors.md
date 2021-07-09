@@ -179,6 +179,12 @@ Suzuki Hayabusa
 
 <a name="64"/>
 
+## 64 pin Nissan
+
+center bolt
+
+TBD we have no idea
+
 ## 64 pin
 http://www.te.com/catalog/pn/en/176122-6
 
