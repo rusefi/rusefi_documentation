@@ -181,6 +181,8 @@ Suzuki Hayabusa
 
 ## 64 pin Nissan
 
+90-94
+
 center bolt
 
 TBD we have no idea
