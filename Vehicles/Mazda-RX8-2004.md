@@ -1,3 +1,11 @@
+![x](OEM-Docs/Mazda/rx8/mazda-rx8-2004-1.png)
+![x](OEM-Docs/Mazda/rx8/mazda-rx8-2004-2.png)
+![x](OEM-Docs/Mazda/rx8/mazda-rx8-2004-3.png)
+![x](OEM-Docs/Mazda/rx8/mazda-rx8-2004-4.png)
+![x](OEM-Docs/Mazda/rx8/mazda-rx8-2004-5.png)
+
+
+
 ![Wiring Diagram](Images/2004_rx8_instrument_cluster.png)
 
 bLue/White: CAN high
