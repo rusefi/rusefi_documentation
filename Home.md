@@ -8,7 +8,6 @@ You have found the rusEFI wiki main page. Here you will find information related
 
 **This project is NOT for emissions controlled or safety critical applications. This project is for race cars, snow blowers, fixed engine applications, and science experiments. It is PROHIBITED to use rusEFI on manned aircraft. **
 
-
 In order to use rusEFI you will need to acquire or fabricate one of the [supported boards](Hardware). You can also design your own custom board if so desired.
 
 You can use rusEFI PC simulator to try rusEFI. PC simulator Windows binaries are included into [rusEFI Bundle](Download), and the Unix version of PC simulator could be compiled from [source code](https://github.com/rusefi/rusefi/tree/master/simulator).

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.pin-marker {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.21vw black solid;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  line-height: 200%;
+}
+
+[data-type*="12v"],
+[data-type*="12V"] {
+  border-color: yellow;
+}
+
+[data-type*="5v"],
+[data-type*="5V"] {
+  border-color: red;
+}
+
+[data-type*="at"] {
+  border-color: green;
+}
+
+[data-type*="av"] {
+  border-color: brown;
+}
+
+[data-type*="can"] {
+  border-color: blue;
+}
+
+[data-type*="din"] {
+  border-color: lime;
+}
+
+[data-type*="etb"] {
+  border-color: darkcyan;
+}
+
+[data-type*="gnd"] {
+  border-color: darkgreen;
+}
+
+[data-type*="gp_high"] {
+  border-color: aqua;
+}
+
+[data-type*="gp_low"] {
+  border-color: aquamarine;
+}
+
+[data-type*="gp_pp"] {
+  border-color: cyan;
+}
+
+[data-type*="hall"] {
+  border-color: darkolivegreen;
+}
+
+[data-type*="hl"] {
+  border-color: gold;
+}
+
+[data-type*="hs"] {
+  border-color: indigo;
+}
+
+[data-type*="ign"] {
+  border-color: magenta;
+}
+
+[data-type*="inj"] {
+  border-color: maroon;
+}
+
+[data-type*="ls"] {
+  border-color: lightgreen;
+}
+
+[data-type*="mr"] {
+  border-color: firebrick;
+}
+
+[data-type*="pgnd"] {
+  border-color: coral;
+}
+
+[data-type*="sgnd"] {
+  border-color: olive;
+}
+
+[data-type*="usb"] {
+  border-color: lightseagreen;
+}
+
+[data-type*="vr"] {
+  border-color: sienna;
+}
+
+.pin-marker:hover {
+  transform: scale(2);
+  z-index: 2;
+}
+
+.pin-marker.highlight {
+  background-color: #fc935a;
+}
+
+.pin-marker.selected {
+  background-color: #f15a24;
+  color: white;
+}
+
+.connector-container {
+  width: 100%;
+  overflow-x: scroll;
+  position: relative;
+  height: max(3in, 50vh);
+}
+
+.connector-div {
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  width: max-content;
+}
+
+.connector-img {
+  height: 100%;
+  min-width: 100%;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: clamp(100%, 100%, 1000px);
+  text-align: left;
+}
+
+@media (min-width: 1000px) {
+  table {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  table {
+    word-wrap: break-word;
+    font-size: 2.5rem;
+  }
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+@media screen {
+  td.pin-data {
+    border-color: black;
+  }
+}
+
+table td, table th {
+    border: 1px solid black;
+  padding: 8px;
+}
+
+table tr:nth-child(even){
+  background-color: #fc935a;
+}
+
+table tr:hover {
+  background-color: #f15a24;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f15a24;
+  color: black;
+}
+
+.info-table {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+    color: white;
+  }
+
+  td.pin-data {
+    border: 1px solid #ddd;
+  }
+
+  table td, table th {
+    border: 1px solid #ddd;
+  }
+
+  table th {
+    color: white;
+  }
+
+  table tr:nth-child(even){
+    background-color: #230c00;
+    color: white;
+  }
+
+  table tr:hover {
+    background-color: #f15a24;
+  }
+}
+
+@media print {
+  .container {
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .info-table, .ts-data, .ts-header, .type-data, .type-header, .color-data, .color-header, thead {
+    display: none;
+  }
+  .connector-container {
+    flex: 0 1 auto;
+    height: unset;
+    min-height: 2in;
+  }
+  .connector-div {
+    max-width: 100%;
+    height: unset;
+  }
+  .connector-img {
+    max-width: 100% !important;
+    max-height: 3in;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  th {
+    font-size: 12px;
+  }
+  td {
+    font-size: 10px;
+  }
+  td:not(.pin-data) {
+    border: none !important;
+  }
+  td.pin-data {
+    border-width: 3px;
+    border-radius: 10px;
+    width: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  html, tr {
+    background-color: white !important;
+    color: black !important;
+  }
+  table {
+    width: auto;
+    border-collapse: separate;
+  }
+  .table-wrapper { 
+    column-count: 4;
+  }
+  table, tbody, tr {
+    display: block;
+  }
+}
+</style>
+
+<script type="text/javascript">
+var connectorData = [
+`{ "pins": [ { "pin": "1a", "function": "GND", "type": "GND" }, { "pin": "4a", "class": "outputs", "ts_name": "ETB_OUT+", "function": "+ETB_OUT" }, { "pin": "5a", "class": "outputs", "ts_name": "ETB_OUT-", "function": "-ETB_OUT" }, { "pin": "7a", "function": "USB +" }, { "pin": "8a", "function": "USB -" }, { "pin": "10a", "id": "GPIOF_13", "ts_name": "10 - VTC Left", "class": "outputs", "function": "Intake VTC solenoid Bank 2" }, { "pin": "11a", "id": "GPIOF_14", "ts_name": "11 - VTC Right", "class": "outputs", "function": "Intake VTC solenoid Bank 1" }, { "pin": "13a", "function": "Crank Sensor", "id": [ "GPIOB_1" ], "class": [ "event_inputs" ], "ts_name": "13 - Crank" }, { "pin": "14a", "function": "Cam Sensor Left", "id": [ "GPIOA_6" ], "class": [ "event_inputs" ], "ts_name": "14 - Cam Left" }, { "pin": "21a", "id": "GPIOD_9", "class": "outputs", "ts_name": "21 - INJ_5", "function": "Injector 5", "type": "inj" }, { "pin": "22a", "id": "GPIOD_11", "class": "outputs", "ts_name": "22 - INJ_3", "function": "Injector 3", "type": "inj" }, { "pin": "23a", "id": "GPIOG_7", "class": "outputs", "ts_name": "23 - INJ_1", "function": "Injector 1", "type": "inj" }, { "pin": "29a", "id": "GPIOD_3", "ts_name": "29 - VIAS", "class": "outputs", "function": "VIAS control Solenoid" }, { "pin": "33a", "function": "Cam Sensor Right", "id": [ "GPIOA_7" ], "class": [ "event_inputs" ], "ts_name": "33 - Cam Right" }, { "pin": "34a", "id": "EFI_ADC_13", "class": "analog_inputs", "ts_name": "34 - IAT", "function": "IAT sensor" }, { "pin": "40a", "id": "GPIOF_12", "class": "outputs", "ts_name": "40 - INJ_6", "function": "Injector 6", "type": "inj" }, { "pin": "41a", "id": "GPIOD_10", "class": "outputs", "ts_name": "41 - INJ_4", "function": "Injector 4", "type": "inj" }, { "pin": "42a", "id": "GPIOG_8", "class": "outputs", "ts_name": "42 - INJ_2", "function": "Injector 2", "type": "inj" }, { "pin": "47a", "function": "+5v TPS sensors" }, { "pin": "48a", "function": "+5v EVAP sensor" }, { "pin": "50a", "id": "EFI_ADC_4", "class": "analog_inputs", "ts_name": "50 - TPS 1", "function": "TPS 1 sensor input" }, { "pin": "60a", "id": "GPIOE_2", "class": "outputs", "ts_name": "60 - Coil 5", "function": "Coil 5", "type": "ign" }, { "pin": "61a", "id": "GPIOE_4", "class": "outputs", "ts_name": "61 - Coil 3", "function": "Coil 3", "type": "ign" }, { "pin": "62a", "id": "GPIOC_13", "class": "outputs", "ts_name": "62 - Coil 1", "function": "Coil 1", "type": "ign" }, { "pin": "66a", "function": "GNDA TPS sensors" }, { "pin": "67a", "function": "GNDA many sensors" }, { "pin": "69a", "id": "EFI_ADC_8", "class": "analog_inputs", "ts_name": "69 - TPS 2", "function": "TPS 2 sensor input" }, { "pin": "73a", "id": "EFI_ADC_12", "class": "analog_inputs", "ts_name": "73 - CLT", "function": "CLT sensor" }, { "pin": "78a", "function": "GNDA" }, { "pin": "79a", "id": "GPIOB_8", "class": "outputs", "ts_name": "79 - Coil 6", "function": "Coil 6", "type": "ign" }, { "pin": "80a", "id": "GPIOE_3", "class": "outputs", "ts_name": "80 - Coil 4", "function": "Coil 4", "type": "ign" }, { "pin": "81a", "id": "GPIOE_5", "class": "outputs", "ts_name": "81 - Coil 2", "function": "Coil 2", "type": "ign" }, { "pin": "82a", "function": "GNDA pedal sensor 1" }, { "pin": "83a", "function": "GNDA pedal sensor 2" }, { "pin": "86a", "function": "CAN bus low", "type": "can" }, { "pin": "90a", "function": "+5v pedal sensor 1" }, { "pin": "91a", "function": "+5v pedal sensor 2" }, { "pin": "94a", "function": "CAN bus high", "type": "can" }, { "pin": "98a", "id": "EFI_ADC_14", "class": "analog_inputs", "ts_name": "98 - PPS 2", "function": "PPS 2 sensor input" }, { "pin": "101a", "id": "GPIOF_9", "class": "switch_inputs", "ts_name": "101 - Brake Input", "function": "Brake Switch" }, { "pin": "102a", "id": "GPIOF_10", "class": "switch_inputs", "ts_name": "102 - Power Steering Input", "function": "Power Steering Switch" }, { "pin": "104a", "id": "GPIOG_5", "class": "outputs", "ts_name": "104 ETB Relay", "function": "ETB relay control", "type": "ls" }, { "pin": "106a", "id": "EFI_ADC_3", "class": "analog_inputs", "ts_name": "106 - PPS 1", "function": "PPS 1 sensor input" }, { "pin": "109a", "id": "EFI_ADC_5", "class": "analog_inputs", "ts_name": "109 Ignition Key Voltage", "function": "+12V engine ECU power source, run/start" }, { "pin": "111a", "id": "GPIOG_14", "class": "outputs", "ts_name": "111 Main Relay", "function": "Main relay control", "type": "ls" }, { "pin": "113a", "id": "GPIOD_12", "class": "outputs", "ts_name": "113 Fuel Pump Relay", "function": "Fuel Pump control", "type": "ls" }, { "pin": "115a", "function": "GND", "type": "GND" }, { "pin": "116a", "function": "GND", "type": "GND" }, { "pin": "119a", "function": "+12v from main relay" }, { "pin": "120a", "function": "+12v from main relay" }, { "pin": "121a", "function": "Bat+ (Hot all times), 12v 20A fuse from battery" } ], "info": { "image": { "file": "main.jpg" }, "pins": [ { "pin": "1a", "x": 286, "y": 582 }, { "pin": "2a", "x": 456, "y": 582 }, { "pin": "3a", "x": 375, "y": 405 }, { "pin": "4a", "x": 286, "y": 250 }, { "pin": "5a", "x": 456, "y": 250 }, { "pin": "6a", "x": 2193, "y": 250 }, { "pin": "7a", "x": 2113, "y": 250 }, { "pin": "8a", "x": 2033, "y": 250 }, { "pin": "9a", "x": 1953, "y": 250 }, { "pin": "10a", "x": 1873, "y": 250 }, { "pin": "11a", "x": 1793, "y": 250 }, { "pin": "12a", "x": 1713, "y": 250 }, { "pin": "13a", "x": 1633, "y": 250 }, { "pin": "14a", "x": 1553, "y": 250 }, { "pin": "15a", "x": 1473, "y": 250 }, { "pin": "16a", "x": 1393, "y": 250 }, { "pin": "17a", "x": 1313, "y": 250 }, { "pin": "18a", "x": 1233, "y": 250 }, { "pin": "19a", "x": 1153, "y": 250 }, { "pin": "20a", "x": 1073, "y": 250 }, { "pin": "21a", "x": 993, "y": 250 }, { "pin": "22a", "x": 913, "y": 250 }, { "pin": "23a", "x": 833, "y": 250 }, { "pin": "24a", "x": 753, "y": 250 }, { "pin": "25a", "x": 2193, "y": 330 }, { "pin": "26a", "x": 2113, "y": 330 }, { "pin": "27a", "x": 2033, "y": 330 }, { "pin": "28a", "x": 1953, "y": 330 }, { "pin": "29a", "x": 1873, "y": 330 }, { "pin": "30a", "x": 1793, "y": 330 }, { "pin": "31a", "x": 1713, "y": 330 }, { "pin": "32a", "x": 1633, "y": 330 }, { "pin": "33a", "x": 1553, "y": 330 }, { "pin": "34a", "x": 1473, "y": 330 }, { "pin": "35a", "x": 1393, "y": 330 }, { "pin": "36a", "x": 1313, "y": 330 }, { "pin": "37a", "x": 1233, "y": 330 }, { "pin": "38a", "x": 1153, "y": 330 }, { "pin": "39a", "x": 1073, "y": 330 }, { "pin": "40a", "x": 993, "y": 330 }, { "pin": "41a", "x": 913, "y": 330 }, { "pin": "42a", "x": 833, "y": 330 }, { "pin": "43a", "x": 753, "y": 330 }, { "pin": "44a", "x": 2193, "y": 495 }, { "pin": "45a", "x": 2113, "y": 495 }, { "pin": "46a", "x": 2033, "y": 495 }, { "pin": "47a", "x": 1953, "y": 495 }, { "pin": "48a", "x": 1873, "y": 495 }, { "pin": "49a", "x": 1793, "y": 495 }, { "pin": "50a", "x": 1713, "y": 495 }, { "pin": "51a", "x": 1633, "y": 495 }, { "pin": "52a", "x": 1553, "y": 495 }, { "pin": "53a", "x": 1473, "y": 495 }, { "pin": "54a", "x": 1393, "y": 495 }, { "pin": "55a", "x": 1313, "y": 495 }, { "pin": "56a", "x": 1233, "y": 495 }, { "pin": "57a", "x": 1153, "y": 495 }, { "pin": "58a", "x": 1073, "y": 495 }, { "pin": "59a", "x": 993, "y": 495 }, { "pin": "60a", "x": 913, "y": 495 }, { "pin": "61a", "x": 833, "y": 495 }, { "pin": "62a", "x": 732, "y": 495 }, { "pin": "63a", "x": 2193, "y": 579 }, { "pin": "64a", "x": 2113, "y": 579 }, { "pin": "65a", "x": 2033, "y": 579 }, { "pin": "66a", "x": 1953, "y": 579 }, { "pin": "67a", "x": 1873, "y": 579 }, { "pin": "68a", "x": 1793, "y": 579 }, { "pin": "69a", "x": 1713, "y": 579 }, { "pin": "70a", "x": 1633, "y": 579 }, { "pin": "71a", "x": 1553, "y": 579 }, { "pin": "72a", "x": 1473, "y": 579 }, { "pin": "73a", "x": 1393, "y": 579 }, { "pin": "74a", "x": 1313, "y": 579 }, { "pin": "75a", "x": 1233, "y": 579 }, { "pin": "76a", "x": 1153, "y": 579 }, { "pin": "77a", "x": 1073, "y": 579 }, { "pin": "78a", "x": 993, "y": 579 }, { "pin": "79a", "x": 913, "y": 579 }, { "pin": "80a", "x": 833, "y": 579 }, { "pin": "81a", "x": 732, "y": 579 }, { "pin": "82a", "x": 2724, "y": 585 }, { "pin": "83a", "x": 2802, "y": 585 }, { "pin": "84a", "x": 2877, "y": 585 }, { "pin": "85a", "x": 2958, "y": 585 }, { "pin": "86a", "x": 3048, "y": 585 }, { "pin": "87a", "x": 3123, "y": 585 }, { "pin": "88a", "x": 3201, "y": 585 }, { "pin": "89a", "x": 3282, "y": 585 }, { "pin": "90a", "x": 2724, "y": 507 }, { "pin": "91a", "x": 2802, "y": 507 }, { "pin": "92a", "x": 2877, "y": 507 }, { "pin": "93a", "x": 2958, "y": 507 }, { "pin": "94a", "x": 3048, "y": 507 }, { "pin": "95a", "x": 3123, "y": 507 }, { "pin": "96a", "x": 3201, "y": 507 }, { "pin": "97a", "x": 3282, "y": 507 }, { "pin": "98a", "x": 2724, "y": 336 }, { "pin": "99a", "x": 2802, "y": 336 }, { "pin": "100a", "x": 2877, "y": 336 }, { "pin": "101a", "x": 2958, "y": 336 }, { "pin": "102a", "x": 3048, "y": 336 }, { "pin": "103a", "x": 3123, "y": 336 }, { "pin": "104a", "x": 3201, "y": 336 }, { "pin": "105a", "x": 3282, "y": 336 }, { "pin": "106a", "x": 2724, "y": 258 }, { "pin": "107a", "x": 2802, "y": 258 }, { "pin": "108a", "x": 2877, "y": 258 }, { "pin": "109a", "x": 2958, "y": 258 }, { "pin": "110a", "x": 3048, "y": 258 }, { "pin": "111a", "x": 3123, "y": 258 }, { "pin": "112a", "x": 3201, "y": 258 }, { "pin": "113a", "x": 3282, "y": 258 }, { "pin": "115a", "x": 3700, "y": 585 }, { "pin": "116a", "x": 3882, "y": 585 }, { "pin": "117a", "x": 3615, "y": 414 }, { "pin": "118a", "x": 3780, "y": 414 }, { "pin": "119a", "x": 3516, "y": 261 }, { "pin": "120a", "x": 3700, "y": 261 }, { "pin": "121a", "x": 3882, "y": 261 } ] } }`,
+///DATA///
+];
+
+function hideEmptyColumns(table) {
+  var rows = table.querySelector('tbody').children;
+  var tableHead = table.querySelector("thead>tr")
+  var cols = tableHead.children
+  for (var i = 0; i < cols.length; i++) {
+    var empty = true;
+    for (var ii = 0; ii < rows.length; ii++) {
+      empty = rows[ii].children[i].textContent.length > 0 ? false : empty;
+    }
+    if (empty) {
+      tableHead.querySelectorAll('th')[i].style.display = 'none';
+      for (var ii = 0; ii < rows.length; ii++) {
+        rows[ii].children[i].style.display = 'none';
+      }
+    } else {
+      tableHead.querySelectorAll('th')[i].style.display = '';
+      for (var ii = 0; ii < rows.length; ii++) {
+        rows[ii].children[i].style.display = '';
+      }
+    }
+  }
+}
+
+function addRow(table, pin, pdiv) {
+  var template = document.getElementById("table-template");
+  var clone = template.content.cloneNode(true);
+  var row = clone.querySelector(".data");
+  var cells = row.children;
+  for (var i = 0; i < cells.length; i++) {
+    var cell = cells[i];
+    cell.textContent = Array.isArray(pin[cell.dataset.field]) ? pin[cell.dataset.field].join(", ") : pin[cell.dataset.field];
+  }
+  clone.querySelector(".pin-data").dataset.type = pin.type;
+  if (pdiv) {
+    row.addEventListener('click', function(table, pin, pdiv) {
+      clickPin(table.parentElement.parentElement.parentElement.querySelector(".info-table tbody"), pin, pdiv);
+      table.parentElement.parentElement.parentElement.scrollIntoView()
+    }.bind(null, table, pin, pdiv));
+  }
+  table.appendChild(clone);
+}
+
+function clickPin(table, pin, pdiv) {
+  table.parentElement.style.display = "table";
+  table.innerHTML = "";
+  addRow(table, pin, pdiv);
+  var pins = document.querySelectorAll(".pin-marker");
+  for (var i = 0; i < pins.length; i++) {
+    if (pins[i].dataset.type == pin.type) {
+      pins[i].classList.add("highlight");
+    } else {
+      pins[i].classList.remove("highlight");
+    }
+    pins[i].classList.remove("selected");
+  }
+  pdiv.classList.add("selected");
+  hideEmptyColumns(table.parentElement);
+}
+
+window.addEventListener('load', function() {
+  for (var c = 0; c < connectorData.length; c++) {
+    var connector = JSON.parse(connectorData[c]);
+    var template = document.getElementById("connector-template");
+    var clone = template.content.cloneNode(true);
+    document.body.appendChild(clone);
+    var sdiv = document.body.lastChild.previousSibling;
+    var img = sdiv.querySelector(".connector-img");
+    img.addEventListener('load', function(connector, sdiv, img) {
+      var cdiv = sdiv.querySelector(".connector-div");
+      var ptemplate = document.getElementById("pin-template");
+      var imgHeight = img.naturalHeight;
+      var imgWidth = img.naturalWidth;
+      var table = sdiv.querySelector(".info-table").querySelector("tbody");
+      var fullTable = sdiv.querySelector(".pinout-table").querySelector("tbody");
+      for (var i = 0; i < connector.pins.length; i++) {
+        var pin = connector.pins[i];
+        if (!pin.pin) {
+          continue;
+        }
+        var pinfo = {};
+        for (var ii = 0; ii < connector.info.pins.length; ii++) {
+          if (connector.info.pins[ii].pin == pin.pin) {
+            pinfo = connector.info.pins[ii];
+            break;
+          }
+        }
+        if (!pinfo.x) {
+          addRow(fullTable, connector.pins[i], null);
+          continue;
+        }
+        var closest = 1000000;
+        for (var ii = 0; ii < connector.info.pins.length; ii++) {
+          var tinfo = connector.info.pins[ii];
+          var distance = Math.pow((tinfo.x - pinfo.x), 2) + Math.pow((tinfo.y - pinfo.y), 2);
+          if (tinfo.pin != pin.pin && (!closest || distance < closest)) {
+            closest = distance;
+          }
+        }
+        var pclone = ptemplate.content.cloneNode(true);
+        var pdiv = pclone.querySelector("div");
+        pdiv.textContent = pinfo.pin;
+        pdiv.style.top = ((pinfo.y / imgHeight) * 100) + "%";
+        pdiv.style.left = ((pinfo.x / imgWidth) * 100) + "%";
+        pdiv.dataset.type = pin.type;
+        pdiv.addEventListener("click", function(table, pin, pdiv) {
+          clickPin(table, pin, pdiv);
+        }.bind(null, table, pin, pdiv));
+        closest = Math.sqrt(closest);
+        var divheight = cdiv.clientHeight;
+        var divwidth = cdiv.clientWidth;
+        var mult = cdiv.querySelector("img").naturalHeight / divheight;
+        var newheight = (closest / mult)
+        var pxheight = divheight * 0.08;
+        if (newheight < pxheight) {
+          pxheight = newheight;
+        }
+        var height = (pxheight / divheight) * 100;
+        var width = (pxheight / divwidth) * 100;
+        pdiv.style.height = "calc(" + height + "% - 0.21vw)";
+        pdiv.style.width = "calc(" +  width + "% - 0.21vw)";
+        pdiv.style.marginTop = "-" + (width / 2) + "%";
+        pdiv.style.marginLeft = "-" + (width / 2) + "%";
+        pdiv.style.fontSize = (height * 1.8) + "px";
+        pdiv.style.fontSize = (pxheight * 0.5) + "px";
+        window.addEventListener('beforeprint', function(pdiv, width, divwidth, event) {
+          pdiv.style.fontSize = "calc(calc(" + width + "px * min(640, "  + divwidth + ")) * 0.0055)";
+        }.bind(null, pdiv, width, divwidth));
+        window.addEventListener('afterprint', function(pdiv, pxheight, event) {
+          pdiv.style.fontSize = (pxheight * 0.5) + "px";
+        }.bind(null, pdiv, pxheight));
+        cdiv.appendChild(pdiv);
+        addRow(fullTable, connector.pins[i], pdiv);
+      }
+      hideEmptyColumns(sdiv.querySelector('.pinout-table'));
+    }.bind(null, connector, sdiv, img));
+    img.src = connector.info.image.file;
+  }
+});
+</script>
+</head>
+<body>
+
+<template id="pin-template">
+  <div class="pin-marker"></div>
+</template>
+
+<template id="table-template">
+  <tr class="data">
+    <td class="pin-data" data-field="pin"></td>
+    <td class="ts-data" data-field="ts_name"></td>
+    <td class="type-data" data-field="type"</td>
+    <td class="function-data" data-field="function"></td>
+    <td class="color-data" data-field="color"></td>
+  </tr>
+</template>
+
+<template id="connector-template">
+  <div class="container">
+    <div class="connector-container">
+      <div class="connector-div">
+        <img class="connector-img"></img>
+      </div>
+    </div>
+    <table class="info-table">
+      <thead>
+        <tr>
+          <th class="pin-header" data-field="pin">Pin Number</th>
+          <th class="ts-header" data-field="ts_name">TS Name</th>
+          <th class="type-header" data-field="type">Type</th>
+          <th class="function-header" data-field="function">Typical Function</th>
+          <th class="color-header" data-field="color">Pigtail Color</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <h2>Full Pinout Table</h2>
+    <div class="table-wrapper">
+      <table class="pinout-table">
+        <thead>
+          <tr>
+            <th class="pin-header" data-field="pin">Pin Number</th>
+            <th class="ts-header" data-field="ts_name">TS Name</th>
+            <th class="type-header" data-field="type">Type</th>
+            <th class="function-header" data-field="function">Typical Function</th>
+            <th class="color-header" data-field="color">Pigtail Color</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</template>
+
+</body>
+</html>
