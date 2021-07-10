@@ -105,6 +105,7 @@ Flyback diodes orientation around version 0.4.7 - horizontal facing OPPOSITE dir
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_diodes_orientation.jpg)
 
 Flyback diodes orientation around version 0.5.2 - angles, facing SAME direction
+![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.5.2_kit_diodes_orientation.jpg)
 
 
 # Important details
