@@ -10,5 +10,8 @@ In the end we would need 5-25 units total (one unit soldered to application-spec
 
 For first round the proposal is to test functional blocks as separate small PCBs, long term we might Hellen merge or not.
 
+We are building Stim using NUCLEO-F429ZI due to chip shortage.
+
+
 
 See [Tag-Connect-TC2030](Tag-Connect-TC2030)
