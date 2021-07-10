@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.pin-marker {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.21vw black solid;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  line-height: 200%;
+}
+
+[data-type*="12v"],
+[data-type*="12V"] {
+  border-color: yellow;
+}
+
+[data-type*="5v"],
+[data-type*="5V"] {
+  border-color: red;
+}
+
+[data-type*="at"] {
+  border-color: green;
+}
+
+[data-type*="av"] {
+  border-color: brown;
+}
+
+[data-type*="can"] {
+  border-color: blue;
+}
+
+[data-type*="din"] {
+  border-color: lime;
+}
+
+[data-type*="etb"] {
+  border-color: darkcyan;
+}
+
+[data-type*="gnd"] {
+  border-color: darkgreen;
+}
+
+[data-type*="gp_high"] {
+  border-color: aqua;
+}
+
+[data-type*="gp_low"] {
+  border-color: aquamarine;
+}
+
+[data-type*="gp_pp"] {
+  border-color: cyan;
+}
+
+[data-type*="hall"] {
+  border-color: darkolivegreen;
+}
+
+[data-type*="hl"] {
+  border-color: gold;
+}
+
+[data-type*="hs"] {
+  border-color: indigo;
+}
+
+[data-type*="ign"] {
+  border-color: magenta;
+}
+
+[data-type*="inj"] {
+  border-color: maroon;
+}
+
+[data-type*="ls"] {
+  border-color: lightgreen;
+}
+
+[data-type*="mr"] {
+  border-color: firebrick;
+}
+
+[data-type*="pgnd"] {
+  border-color: coral;
+}
+
+[data-type*="sgnd"] {
+  border-color: olive;
+}
+
+[data-type*="usb"] {
+  border-color: lightseagreen;
+}
+
+[data-type*="vr"] {
+  border-color: sienna;
+}
+
+.pin-marker:hover {
+  transform: scale(2);
+  z-index: 2;
+}
+
+.pin-marker.highlight {
+  background-color: #fc935a;
+}
+
+.pin-marker.selected {
+  background-color: #f15a24;
+  color: white;
+}
+
+.connector-container {
+  width: 100%;
+  overflow-x: scroll;
+  position: relative;
+  height: max(3in, 50vh);
+}
+
+.connector-div {
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  width: max-content;
+}
+
+.connector-img {
+  height: 100%;
+  min-width: 100%;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: clamp(100%, 100%, 1000px);
+  text-align: left;
+}
+
+@media (min-width: 1000px) {
+  table {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  table {
+    word-wrap: break-word;
+    font-size: 2.5rem;
+  }
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+@media screen {
+  td.pin-data {
+    border-color: black;
+  }
+}
+
+table td, table th {
+    border: 1px solid black;
+  padding: 8px;
+}
+
+table tr:nth-child(even){
+  background-color: #fc935a;
+}
+
+table tr:hover {
+  background-color: #f15a24;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f15a24;
+  color: black;
+}
+
+.info-table {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+    color: white;
+  }
+
+  td.pin-data {
+    border: 1px solid #ddd;
+  }
+
+  table td, table th {
+    border: 1px solid #ddd;
+  }
+
+  table th {
+    color: white;
+  }
+
+  table tr:nth-child(even){
+    background-color: #230c00;
+    color: white;
+  }
+
+  table tr:hover {
+    background-color: #f15a24;
+  }
+}
+
+@media print {
+  .container {
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .info-table, .ts-data, .ts-header, .type-data, .type-header, .color-data, .color-header, thead {
+    display: none;
+  }
+  .connector-container {
+    flex: 0 1 auto;
+    height: unset;
+    min-height: 2in;
+  }
+  .connector-div {
+    max-width: 100%;
+    height: unset;
+  }
+  .connector-img {
+    max-width: 100% !important;
+    max-height: 3in;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  th {
+    font-size: 12px;
+  }
+  td {
+    font-size: 10px;
+  }
+  td:not(.pin-data) {
+    border: none !important;
+  }
+  td.pin-data {
+    border-width: 3px;
+    border-radius: 10px;
+    width: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  html, tr {
+    background-color: white !important;
+    color: black !important;
+  }
+  table {
+    width: auto;
+    border-collapse: separate;
+  }
+  .table-wrapper { 
+    column-count: 4;
+  }
+  table, tbody, tr {
+    display: block;
+  }
+}
+</style>
+
+<script type="text/javascript">
+var connectorData = [
+`{ "pins": [ { "id": "EFI_ADC_14", "class": "analog_inputs", "ts_name": "Analog VBatt" } ] }`,
+ `{ "pins": [ { "pin": 2, "function": "Power Ignition On (input)" }, { "pin": 6, "id": "GPIOC_9", "class": "outputs", "function": "Ignition Coil", "ts_name": "Coil 1F" }, { "pin": 7, "id": "GPIOE_14", "class": "outputs", "function": "Ignition Coil", "ts_name": "Coil 1G" }, { "pin": 8, "id": "GPIOC_7", "class": "outputs", "function": "Ignition Coil", "ts_name": "Coil 1H" }, { "pin": 9, "id": "GPIOE_10", "class": "outputs", "function": "Spare High", "ts_name": "Coil 1I" }, { "pin": 12, "id": "GPIOE_8", "class": "outputs", "function": "Spare High", "ts_name": "Coil 1L" }, { "pin": 13, "id": "GPIOE_12", "class": "outputs", "function": "Ignition Coil", "ts_name": "Coil 1M" }, { "pin": 15, "id": "GPIOD_8", "class": "outputs", "function": "Spare High", "ts_name": "Coil 1O" }, { "pin": 16, "id": "GPIOD_9", "class": "outputs", "function": "Spare High", "ts_name": "Coil 1P" }, { "pin": 23, "function": "Crank Pos/Trigger" }, { "pin": 24, "function": "Crank Neg/Trigger" }, { "pin": 25, "function": "Cam Pos/Trigger" }, { "pin": 26, "function": "Cam Neg/Trigger" }, { "pin": 29, "function": "Knock sensor" }, { "pin": 30, "function": "Knock sensor" }, { "pin": 33, "function": "CAN high" }, { "pin": 34, "function": "CAN low" }, { "pin": 35, "id": "GPIOC_13", "class": "outputs", "ts_name": "Injector 2M", "function": "Idle Valve Control Solenoid" }, { "pin": 36, "id": "GPIOD_7", "class": "outputs", "ts_name": "Injector 2N", "function": "Main Relay" }, { "pin": 37, "id": "GPIOE_5", "class": "outputs", "ts_name": "Injector 2O", "function": "Coolant Fan Relay" }, { "pin": 38, "id": "GPIOE_6", "class": "outputs", "ts_name": "Injector 2P", "function": "Spare low" }, { "pin": 39, "function": "Ground" }, { "pin": 40, "function": "Ground" }, { "pin": 41, "function": "Ground" }, { "pin": 42, "function": "Ground" }, { "pin": 43, "id": "EFI_ADC_15", "class": "analog_inputs", "ts_name": "Analog 3E" }, { "pin": 45, "id": "EFI_ADC_7", "class": "analog_inputs", "ts_name": "Analog 3G" }, { "pin": 46, "id": "EFI_ADC_6", "class": "analog_inputs", "ts_name": "Analog 3H" }, { "pin": 47, "id": "EFI_ADC_4", "class": "analog_inputs", "ts_name": "Analog 3I" }, { "pin": 48, "id": "EFI_ADC_3", "class": "analog_inputs", "ts_name": "Analog 3J" }, { "pin": 49, "function": "5V Sensor Power Supply Output" }, { "pin": 50, "id": "EFI_ADC_1", "class": "analog_inputs", "ts_name": "Analog 3L", "function": "Extra Input" }, { "pin": 51, "id": "EFI_ADC_2", "class": "analog_inputs", "ts_name": "Analog 3M", "function": "Throttle Position Sensor" }, { "pin": 52, "id": "EFI_ADC_13", "class": "analog_inputs", "ts_name": "Analog 3N", "function": "O2 Sensor" }, { "pin": 53, "id": "EFI_ADC_0", "class": "analog_inputs", "ts_name": "Analog 3O", "function": "MAP Sensor" }, { "pin": 54, "id": "EFI_ADC_11", "class": "analog_inputs", "ts_name": "Analog 3P", "function": "Intake air temp Sensor" }, { "pin": 55, "id": "EFI_ADC_12", "class": "analog_inputs", "ts_name": "Analog 3Q", "function": "Coolant Temp Sensor" }, { "pin": 57, "id": "GPIOE_3", "class": "outputs", "ts_name": "Injector 3S", "function": "Spare low" }, { "pin": 58, "id": "GPIOE_4", "class": "outputs", "ts_name": "Injector 3T", "function": "Fuel Pump Relay" }, { "pin": 59, "id": "GPIOD_3", "class": "outputs", "ts_name": "Injector 3U", "function": "Spare low" }, { "pin": 60, "id": "GPIOE_2", "class": "outputs", "ts_name": "Injector 3V", "function": "Injector" }, { "pin": 61, "id": "GPIOB_9", "class": "outputs", "ts_name": "Injector 3W", "function": "Injector" }, { "pin": 62, "id": "GPIOD_5", "class": "outputs", "ts_name": "Injector 3X", "function": "Spare low" }, { "pin": 63, "id": "GPIOB_8", "class": "outputs", "ts_name": "Injector 3Y", "function": "Injector" }, { "pin": 64, "id": "GPIOB_7", "class": "outputs", "ts_name": "Injector 3Z", "function": "Injector" } ] } `,
+///DATA///
+];
+
+function hideEmptyColumns(table) {
+  var rows = table.querySelector('tbody').children;
+  var tableHead = table.querySelector("thead>tr")
+  var cols = tableHead.children
+  for (var i = 0; i < cols.length; i++) {
+    var empty = true;
+    for (var ii = 0; ii < rows.length; ii++) {
+      empty = rows[ii].children[i].textContent.length > 0 ? false : empty;
+    }
+    if (empty) {
+      tableHead.querySelectorAll('th')[i].style.display = 'none';
+      for (var ii = 0; ii < rows.length; ii++) {
+        rows[ii].children[i].style.display = 'none';
+      }
+    } else {
+      tableHead.querySelectorAll('th')[i].style.display = '';
+      for (var ii = 0; ii < rows.length; ii++) {
+        rows[ii].children[i].style.display = '';
+      }
+    }
+  }
+}
+
+function addRow(table, pin, pdiv) {
+  var template = document.getElementById("table-template");
+  var clone = template.content.cloneNode(true);
+  var row = clone.querySelector(".data");
+  var cells = row.children;
+  for (var i = 0; i < cells.length; i++) {
+    var cell = cells[i];
+    cell.textContent = Array.isArray(pin[cell.dataset.field]) ? pin[cell.dataset.field].join(", ") : pin[cell.dataset.field];
+  }
+  clone.querySelector(".pin-data").dataset.type = pin.type;
+  if (pdiv) {
+    row.addEventListener('click', function(table, pin, pdiv) {
+      clickPin(table.parentElement.parentElement.parentElement.querySelector(".info-table tbody"), pin, pdiv);
+      table.parentElement.parentElement.parentElement.scrollIntoView()
+    }.bind(null, table, pin, pdiv));
+  }
+  table.appendChild(clone);
+}
+
+function clickPin(table, pin, pdiv) {
+  table.parentElement.style.display = "table";
+  table.innerHTML = "";
+  addRow(table, pin, pdiv);
+  var pins = document.querySelectorAll(".pin-marker");
+  for (var i = 0; i < pins.length; i++) {
+    if (pins[i].dataset.type == pin.type) {
+      pins[i].classList.add("highlight");
+    } else {
+      pins[i].classList.remove("highlight");
+    }
+    pins[i].classList.remove("selected");
+  }
+  pdiv.classList.add("selected");
+  hideEmptyColumns(table.parentElement);
+}
+
+window.addEventListener('load', function() {
+  for (var c = 0; c < connectorData.length; c++) {
+    var connector = JSON.parse(connectorData[c]);
+    var template = document.getElementById("connector-template");
+    var clone = template.content.cloneNode(true);
+    document.body.appendChild(clone);
+    var sdiv = document.body.lastChild.previousSibling;
+    var img = sdiv.querySelector(".connector-img");
+    img.addEventListener('load', function(connector, sdiv, img) {
+      var cdiv = sdiv.querySelector(".connector-div");
+      var ptemplate = document.getElementById("pin-template");
+      var imgHeight = img.naturalHeight;
+      var imgWidth = img.naturalWidth;
+      var table = sdiv.querySelector(".info-table").querySelector("tbody");
+      var fullTable = sdiv.querySelector(".pinout-table").querySelector("tbody");
+      for (var i = 0; i < connector.pins.length; i++) {
+        var pin = connector.pins[i];
+        if (!pin.pin) {
+          continue;
+        }
+        var pinfo = {};
+        for (var ii = 0; ii < connector.info.pins.length; ii++) {
+          if (connector.info.pins[ii].pin == pin.pin) {
+            pinfo = connector.info.pins[ii];
+            break;
+          }
+        }
+        if (!pinfo.x) {
+          addRow(fullTable, connector.pins[i], null);
+          continue;
+        }
+        var closest = 1000000;
+        for (var ii = 0; ii < connector.info.pins.length; ii++) {
+          var tinfo = connector.info.pins[ii];
+          var distance = Math.pow((tinfo.x - pinfo.x), 2) + Math.pow((tinfo.y - pinfo.y), 2);
+          if (tinfo.pin != pin.pin && (!closest || distance < closest)) {
+            closest = distance;
+          }
+        }
+        var pclone = ptemplate.content.cloneNode(true);
+        var pdiv = pclone.querySelector("div");
+        pdiv.textContent = pinfo.pin;
+        pdiv.style.top = ((pinfo.y / imgHeight) * 100) + "%";
+        pdiv.style.left = ((pinfo.x / imgWidth) * 100) + "%";
+        pdiv.dataset.type = pin.type;
+        pdiv.addEventListener("click", function(table, pin, pdiv) {
+          clickPin(table, pin, pdiv);
+        }.bind(null, table, pin, pdiv));
+        closest = Math.sqrt(closest);
+        var divheight = cdiv.clientHeight;
+        var divwidth = cdiv.clientWidth;
+        var mult = cdiv.querySelector("img").naturalHeight / divheight;
+        var newheight = (closest / mult)
+        var pxheight = divheight * 0.08;
+        if (newheight < pxheight) {
+          pxheight = newheight;
+        }
+        var height = (pxheight / divheight) * 100;
+        var width = (pxheight / divwidth) * 100;
+        pdiv.style.height = "calc(" + height + "% - 0.21vw)";
+        pdiv.style.width = "calc(" +  width + "% - 0.21vw)";
+        pdiv.style.marginTop = "-" + (width / 2) + "%";
+        pdiv.style.marginLeft = "-" + (width / 2) + "%";
+        pdiv.style.fontSize = (height * 1.8) + "px";
+        pdiv.style.fontSize = (pxheight * 0.5) + "px";
+        window.addEventListener('beforeprint', function(pdiv, width, divwidth, event) {
+          pdiv.style.fontSize = "calc(calc(" + width + "px * min(640, "  + divwidth + ")) * 0.0055)";
+        }.bind(null, pdiv, width, divwidth));
+        window.addEventListener('afterprint', function(pdiv, pxheight, event) {
+          pdiv.style.fontSize = (pxheight * 0.5) + "px";
+        }.bind(null, pdiv, pxheight));
+        cdiv.appendChild(pdiv);
+        addRow(fullTable, connector.pins[i], pdiv);
+      }
+      hideEmptyColumns(sdiv.querySelector('.pinout-table'));
+    }.bind(null, connector, sdiv, img));
+    img.src = connector.info.image.file;
+  }
+});
+</script>
+</head>
+<body>
+
+<template id="pin-template">
+  <div class="pin-marker"></div>
+</template>
+
+<template id="table-template">
+  <tr class="data">
+    <td class="pin-data" data-field="pin"></td>
+    <td class="ts-data" data-field="ts_name"></td>
+    <td class="type-data" data-field="type"</td>
+    <td class="function-data" data-field="function"></td>
+    <td class="color-data" data-field="color"></td>
+  </tr>
+</template>
+
+<template id="connector-template">
+  <div class="container">
+    <div class="connector-container">
+      <div class="connector-div">
+        <img class="connector-img"></img>
+      </div>
+    </div>
+    <table class="info-table">
+      <thead>
+        <tr>
+          <th class="pin-header" data-field="pin">Pin Number</th>
+          <th class="ts-header" data-field="ts_name">TS Name</th>
+          <th class="type-header" data-field="type">Type</th>
+          <th class="function-header" data-field="function">Typical Function</th>
+          <th class="color-header" data-field="color">Pigtail Color</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <h2>Full Pinout Table</h2>
+    <div class="table-wrapper">
+      <table class="pinout-table">
+        <thead>
+          <tr>
+            <th class="pin-header" data-field="pin">Pin Number</th>
+            <th class="ts-header" data-field="ts_name">TS Name</th>
+            <th class="type-header" data-field="type">Type</th>
+            <th class="function-header" data-field="function">Typical Function</th>
+            <th class="color-header" data-field="color">Pigtail Color</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</template>
+
+</body>
+</html>

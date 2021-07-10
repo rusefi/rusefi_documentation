@@ -1,0 +1,630 @@
+<html>
+<head>
+
+<style>
+.pin-marker {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px blue solid;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  line-height: 200%;
+}
+
+.pin-marker:hover {
+  background-color: #f15a24;
+  color: white;
+  transform: scale(2);
+  z-index: 2;
+}
+
+.pin-marker.highlight {
+  border: 2px #f15a24 solid;
+}
+
+.pin-marker.selected {
+  background-color: #fc935a;
+}
+
+#connector-container {
+  width: 100%;
+  height: 50%;
+  overflow-x: scroll;
+  position: relative;
+}
+
+#connector-div {
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+#connector-img {
+  height: 100%;
+  z-index: 0;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: clamp(100%, 100%, 1000px);
+  text-align: left;
+}
+
+@media (min-width: 1000px) {
+  table {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  table {
+    font-size: 3rem;
+  }
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+table td, table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+table tr:nth-child(even){
+  background-color: #fc935a;
+}
+
+table tr:hover {
+  background-color: #f15a24;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f15a24;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+    color: white;
+  }
+
+  table td, table th {
+    border: 1px solid #ddd;
+  }
+
+  table th {
+    color: white
+  }
+
+  table tr:nth-child(even){
+    background-color: #230c00;
+    color: white;
+  }
+
+  table tr:hover {
+    background-color: #f15a24;
+  }
+}
+
+</style>
+
+<script type="text/javascript" src="yaml.min.js"></script>
+<script type="text/javascript">
+var connectorYaml = `
+pins:
+  - pin: 1
+    id: GPIOA_8
+    function: output
+    class: outputs
+    ts_name: Highside 2
+    type: hs
+
+  - pin: 2
+    id: GPIOA_9
+    function: output
+    class: outputs
+    ts_name: Highside 1
+    type: hs
+
+  - pin: 3
+    id: GPIOD_7
+    function: Injector #1
+    class: outputs
+    ts_name: Lowside 1
+    type: ls
+
+  - pin: 4
+    id: GPIOG_10
+    function: Injector #3
+    class: outputs
+    ts_name: Lowside 3
+    type: ls
+
+  - pin: 5
+    id: GPIOG_12
+    function: Injector #5
+    class: outputs
+    ts_name: Lowside 5
+    type: ls
+
+  - pin: 6
+    id: GPIOG_13
+    function: Injector #6
+    class: outputs
+    ts_name: Lowside 6
+    type: ls
+
+  - pin: 7
+    id: GPIOG_14
+    function: Injector #7
+    class: outputs
+    ts_name: Lowside 7
+    type: ls
+
+  - pin: 8
+    id: GPIOB_5
+    function: Injector #9
+    class: outputs
+    ts_name: Lowside 9
+    type: ls
+
+  - pin: 9
+    id: GPIOB_7
+    function: Injector #11
+    class: outputs
+    ts_name: Lowside 11
+    type: ls
+
+  - pin: 10
+    id: GPIOB_9
+    function: main relay
+    class: outputs
+    ts_name: Lowside 13
+    type: ls
+
+  - pin: 11
+    id: GPIOE_0
+    function: Lowside output
+    class: outputs
+    ts_name: Lowside 14
+    type: ls
+
+  - pin: 12
+    id: GPIOE_1
+    function: radiator fan relay
+    class: outputs
+    ts_name: Lowside 15
+    type: ls
+
+  - pin: 13
+    id: GPIOD_15
+    function: output
+    class: outputs
+    ts_name: Highside 3
+    type: hs
+
+  - pin: 14
+    id: GPIOD_14
+    function: output
+    class: outputs
+    ts_name: Highside 4
+    type: hs
+
+  - pin: 15
+    id: GPIOG_9
+    function: Injector #2
+    class: outputs
+    ts_name: Lowside 2
+    type: ls
+
+  - pin: 16
+    id: GPIOG_11
+    function: Injector #4
+    class: outputs
+    ts_name: Lowside 4
+    type: ls
+
+  - pin: 17
+    function: Power GND
+    type: gnd
+
+  - pin: 18
+    function: Power GND
+    type: gnd
+
+  - pin: 19
+    id: GPIOB_4
+    function: Injector #8
+    class: outputs
+    ts_name: Lowside 8
+    type: ls
+
+  - pin: 20
+    id: GPIOB_6
+    function: Injector #10
+    class: outputs
+    ts_name: Lowside 10
+    type: ls
+
+  - pin: 21
+    id: GPIOB_8
+    function: Injector #12
+    class: outputs
+    ts_name: Lowside 12
+    type: ls
+
+  - pin: 22
+    id: GPIOC_9
+    function: Ignition cylinder 3
+    class: outputs
+    ts_name: Ign 3
+    type: hl
+
+  - pin: 23
+    id: GPIOE_2
+    function: Fuel Pump
+    class: outputs
+    ts_name: Lowside 16
+    type: ls
+
+  - pin: 24
+    function: Power GND
+    type: gnd
+
+  - pin: 25
+    id: GPIOG_2
+    function: Ignition cylinder 12
+    class: outputs
+    ts_name: Ign 12
+    type: hl
+
+  - pin: 26
+    id: GPIOG_3
+    function: Ignition cylinder 11
+    class: outputs
+    ts_name: Ign 11
+    type: hl
+
+  - pin: 27
+    id: GPIOG_4
+    function: Ignition cylinder 10
+    class: outputs
+    ts_name: Ign 10
+    type: hl
+
+  - pin: 28
+    id: GPIOG_5
+    function: Ignition cylinder 9
+    class: outputs
+    ts_name: Ign 9
+    type: hl
+
+  - pin: 29
+    id: GPIOG_6
+    function: Ignition cylinder 8
+    class: outputs
+    ts_name: Ign 8
+    type: hl
+
+  - pin: 30
+    id: GPIOG_7
+    function: Ignition cylinder 7
+    class: outputs
+    ts_name: Ign 7
+    type: hl
+
+  - pin: 31
+    id: GPIOG_8
+    function: Ignition cylinder 6
+    class: outputs
+    ts_name: Ign 6
+    type: hl
+
+  - pin: 32
+    id: GPIOC_7
+    function: Ignition cylinder 5
+    class: outputs
+    ts_name: Ign 5
+    type: hl
+
+  - pin: 33
+    id: GPIOC_8
+    function: Ignition cylinder 4
+    class: outputs
+    ts_name: Ign 4
+    type: hl
+
+  - pin: 34
+    id: GPIOD_3
+    function: Ignition cylinder 2
+    class: outputs
+    ts_name: Ign 2
+    type: hl
+
+  - pin: 35
+    id: GPIOD_4
+    function: Ignition cylinder 1
+    class: outputs
+    ts_name: Ign 1
+    type: hl
+
+info:
+  image:
+    file: black35.jpg
+  pins:
+    - pin: 1
+      x: 294
+      y: 300
+    - pin: 2
+      x: 398
+      y: 300
+    - pin: 3
+      x: 502
+      y: 300
+    - pin: 4
+      x: 606
+      y: 300
+    - pin: 5
+      x: 710
+      y: 300
+    - pin: 6
+      x: 814
+      y: 300
+    - pin: 7
+      x: 918
+      y: 300
+    - pin: 8
+      x: 1022
+      y: 300
+    - pin: 9
+      x: 1126
+      y: 300
+    - pin: 10
+      x: 1230
+      y: 300
+    - pin: 11
+      x: 1334
+      y: 300
+    - pin: 12
+      x: 1438
+      y: 300
+    - pin: 13
+      x: 346
+      y: 405
+    - pin: 14
+      x: 450
+      y: 405
+    - pin: 15
+      x: 554
+      y: 405
+    - pin: 16
+      x: 658
+      y: 405
+    - pin: 17
+      x: 762
+      y: 405
+    - pin: 18
+      x: 866
+      y: 405
+    - pin: 19
+      x: 970
+      y: 405
+    - pin: 20
+      x: 1074
+      y: 405
+    - pin: 21
+      x: 1178
+      y: 405
+    - pin: 22
+      x: 1282
+      y: 405
+    - pin: 23
+      x: 1386
+      y: 405
+    - pin: 24 
+      x: 294
+      y: 510
+    - pin: 25
+      x: 398
+      y: 510
+    - pin: 26 
+      x: 502
+      y: 510
+    - pin: 27
+      x: 606
+      y: 510
+    - pin: 28
+      x: 710
+      y: 510
+    - pin: 29
+      x: 814
+      y: 510
+    - pin: 30
+      x: 918
+      y: 510
+    - pin: 31
+      x: 1022
+      y: 510
+    - pin: 32
+      x: 1126
+      y: 510
+    - pin: 33
+      x: 1230
+      y: 510
+    - pin: 34 
+      x: 1334
+      y: 510
+    - pin: 35
+      x: 1438
+      y: 510
+`;
+
+function addRow(table, pin, pdiv) {
+  var template = document.getElementById("table-template");
+  var clone = template.content.cloneNode(true);
+  var row = clone.querySelector(".data");
+  var pdata = clone.querySelector(".pin-data");
+  var idata = clone.querySelector(".id-data");
+  var tdata = clone.querySelector(".type-data");
+  var fdata = clone.querySelector(".function-data");
+  var cdata = clone.querySelector(".color-data");
+  pdata.textContent = pin.pin;
+  idata.textContent = pin.id;
+  tdata.textContent = pin.type
+  fdata.textContent = pin.function;
+  cdata.textContent = pin.color
+  row.addEventListener('click', function(pin, pdiv) {
+    clickPin(pin, pdiv);
+  }.bind(null, pin, pdiv));
+  table.appendChild(clone);
+}
+
+function clickPin(pin, pdiv) {
+  var table = document.getElementById("info-table").querySelector("tbody");
+  table.innerHTML = "";
+  if (Array.isArray(pin.id)) {
+    var pinIds = pin.id.filter((value, index) => {
+      return pin.id.indexOf(value) === index;
+    });
+    for (var i = 0; i < pinIds.length; i++) {
+      addRow(table, {pin: pin.pin, id: pinIds[i], function: pin.function}, pdiv);
+    }
+  } else {
+    addRow(table, pin, pdiv);
+  }
+  var pins = document.querySelectorAll(".pin-marker");
+  for (var i = 0; i < pins.length; i++) {
+    if (pins[i].dataset.type == pin.type) {
+      pins[i].classList.add("highlight");
+    } else {
+      pins[i].classList.remove("highlight");
+    }
+    pins[i].classList.remove("selected");
+  }
+  pdiv.classList.add("selected");
+}
+
+function adjustMarkers() {
+  var cdiv = document.getElementById("connector-div");
+  cdiv.style.width = document.getElementById("connector-img").clientWidth;
+  var pins = document.querySelectorAll(".pin-marker");
+  for (var i = 0; i < pins.length; i++) {
+    var height = cdiv.clientHeight * 0.05;
+    pins[i].style.height = height + "px";
+    pins[i].style.width = height + "px";
+    pins[i].style.marginTop = "-" + (height * 0.5) + "px";
+    pins[i].style.marginLeft = "-" + (height * 0.5) + "px";
+    pins[i].style.fontSize = (height * 0.5) + "px";
+  }
+}
+
+window.addEventListener('load', function() {
+  var connector = YAML.parse(connectorYaml);
+  document.getElementById("connector-img").addEventListener('load', function() {
+    for (var i = 0; i < connector.pins.length; i++) {
+      var pin = connector.pins[i];
+      if (!pin.pin) {
+        continue;
+      }
+      var pinfo;
+      for (var ii = 0; ii < connector.info.pins.length; ii++) {
+        if (connector.info.pins[ii].pin == pin.pin) {
+          pinfo = connector.info.pins[ii];
+          break;
+        }
+      }
+      var cdiv = document.getElementById("connector-div");
+      var template = document.getElementById("pin-template");
+      var clone = template.content.cloneNode(true);
+      var pdiv = clone.querySelector("div");
+      var img = document.getElementById("connector-img");
+      var imgHeight = img.naturalHeight;
+      var imgWidth = img.naturalWidth;
+      pdiv.textContent = pinfo.pin;
+      pdiv.style.top = ((pinfo.y / imgHeight) * 100) + "%";
+      pdiv.style.left = ((pinfo.x / imgWidth) * 100) + "%";
+      pdiv.dataset.type = pin.type;
+      pdiv.addEventListener("click", function(pin, pdiv) {
+        clickPin(pin, pdiv);
+      }.bind(null, pin, pdiv));
+      cdiv.appendChild(pdiv);
+      var fullTable = document.getElementById("pinout-table").querySelector("tbody");
+      addRow(fullTable, connector.pins[i], pdiv);
+    }
+    adjustMarkers();
+  });
+  document.getElementById("connector-img").src = connector.info.image.file;
+});
+
+window.addEventListener('resize', function() {
+  adjustMarkers();
+});
+</script>
+</head>
+<body>
+
+<template id="pin-template">
+  <div class="pin-marker"></div>
+</template>
+
+<div id="connector-container">
+  <div id="connector-div">
+    <img id="connector-img"></img>
+  </div>
+</div>
+
+<template id="table-template">
+  <tr class="data">
+    <td class="pin-data"></td>
+    <td class="id-data"></td>
+    <td class="type-data"></td>
+    <td class="function-data"></td>
+    <td class="color-data"></td>
+  </tr>
+</template>
+
+<table id="info-table">
+  <thead>
+    <tr>
+      <th>Pin Number</th>
+      <th>Firmware ID</th>
+      <th>Type</th>
+      <th>Typical Function</th>
+      <th>Pigtail Color</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h2>Full Pinout Table</h2>
+<table id="pinout-table">
+  <thead>
+    <tr>
+      <th>Pin Number</th>
+      <th>Firmware ID</th>
+      <th>Type</th>
+      <th>Typical Function</th>
+      <th>Pigtail Color</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+</body>
+</html>
