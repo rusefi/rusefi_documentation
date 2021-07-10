@@ -45,3 +45,5 @@ Problem: sometimes we do not want to feed ECU via ST-Link. Solution: Stim has a 
 See [Tag-Connect-TC2030](Tag-Connect-TC2030)
 
 See https://github.com/rusefi/stim
+
+See [microRusEFI-QC-Procedure](microRusEFI-QC-Procedure)
