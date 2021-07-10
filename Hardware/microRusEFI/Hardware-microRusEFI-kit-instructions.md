@@ -101,8 +101,10 @@ Kit parts on the front:
 Kit parts on the back:
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_assembled_back.jpg)
 
-Flyback diodes orientation
+Flyback diodes orientation around version 0.4.7 - horizontal facing OPPOSITE direction
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_diodes_orientation.jpg)
+
+Flyback diodes orientation around version 0.5.2 - angles, facing SAME direction
 
 
 # Important details
