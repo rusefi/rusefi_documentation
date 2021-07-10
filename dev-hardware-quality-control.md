@@ -12,6 +12,15 @@ For first round the proposal is to test functional blocks as separate small PCBs
 
 We are building Stim using NUCLEO-F429ZI due to chip shortage.
 
+# Requirements
+
+In the order of priority
+
+1. Validate low side digital outputs
+1. Validate 5v and 12v high side outputs
+1. Validate Hall inputs and switch inputs
+1. Validate analog inputs
+
 # Overview
 
 We have ECU, PC and Stim device interconnected.
