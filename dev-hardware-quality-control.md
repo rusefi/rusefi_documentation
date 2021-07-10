@@ -9,3 +9,6 @@ The plan is to develop incrementally starting with a quick & dirty solution.
 In the end we would need 5-25 units total (one unit soldered to application-specific connector, multiplied by number of people) so we shall maximize use of JLCPBC assembly from beginning.
 
 For first round the proposal is to test functional blocks as separate small PCBs, long term we might Hellen merge or not.
+
+
+See [Tag-Connect-TC2030](Tag-Connect-TC2030)
