@@ -16,6 +16,8 @@ We are building Stim using NUCLEO-F429ZI due to chip shortage.
 
 In the order of priority
 
+1. Minimal possible number of clicks hardware quality control procedure
+1. Automated green or red huge bright LED at the end of the test
 1. Validate low side digital outputs
 1. Validate 5v and 12v high side outputs
 1. Validate Hall inputs and switch inputs
