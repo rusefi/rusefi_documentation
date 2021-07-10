@@ -12,6 +12,23 @@ For first round the proposal is to test functional blocks as separate small PCBs
 
 We are building Stim using NUCLEO-F429ZI due to chip shortage.
 
+# Overview
+
+We have ECU, PC and Stim device interconnected.
+
+PC runs overall control software.
+
+PC uses ST-Link to flash rusEFI ECU with special QC firmware if needed.
+
+PC has USB CDC with Stim.
+
+PC _probably_ has USB CDC with ECU. Funny idea: CAN bus between ECU and Stim?
+
+Problem: sometimes we do not want to feed ECU via ST-Link. Solution: Stim has a switch(es) to break +5v line(s) between PC and ECU.
+
+
+![x](Hardware/hw-qc-overview.jpg)
+
 
 
 See [Tag-Connect-TC2030](Tag-Connect-TC2030)
