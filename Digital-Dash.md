@@ -1,4 +1,6 @@
-Page for how to set up a Raspberry Pi with TunerStudio as a Digital Dash
+How to set up a Raspberry Pi with TunerStudio as a Digital Dash
+
+![](https://user-images.githubusercontent.com/5051341/125208727-ee206800-e259-11eb-9600-6cf742fba5a6.jpg)
 
 # Hardware Needed
 
