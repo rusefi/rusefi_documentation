@@ -32,11 +32,13 @@ Controls|[Keyboard and Mouse](https://www.amazon.com/Logitech-Wireless-Keyboard-
 
         ii. Load your tune and dash
 
-        iii. Go to options - preferences - select "load last project on startup"
+        iii. Go to options - preferences - select "load last project on startup" **paid TunerStudio function
 
-        iv. Go to options - preferences - select "make dashboard fullscreen"
+        iv. Go to options - preferences - select "make dashboard fullscreen" **paid TunerStudio function
 
         v. Save tune. Close TunerStudio
+
+
 
 
 
