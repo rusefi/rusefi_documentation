@@ -56,4 +56,24 @@ ExecStartPre=/bin/echo "" >/tmp/random-seed
 
 ### Hardware
 
+https://kaspars.net/blog/orange-pi-zero-gpio
+
+https://rusefi.com/forum/viewtopic.php?p=37563#p37563
+
 http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2#Dimensional_Diagram
+
+
+# Orange PI CI setup
+
+https://www.armbian.com/orange-pi-zero/
+
+wget https://redirect.armbian.com/orangepizero/Buster_current.torrent
+sudo apt-get install transmission-cli transmission-common transmission-daemon
+transmission-remote -n 'transmission:transmission' -a Buster_current.torrent
+lsblk -p
+sudo apt install xz-utils
+xzcat /var/lib/transmission-daemon/downloads/Armbian_21.05.6_Orangepizero_buster_current_5.10.43.img.xz > Orangepizero.img
+sudo dd if=Orangepizero.img of=/dev/sdb bs=4M conv=fsync
+
+
+
