@@ -2,7 +2,7 @@ Page for how to set up a Raspberry Pi with TunerStudio as a Digital Dash
 
 # Hardware Needed
 
-## Component|Link
+Component|Link
 -------|----------
 Raspberry Pi (3 b+ or 4)|[Raspberry Pi](https://www.sparkfun.com/products/15446?src=raspberrypi)
 Display of your choice|[7" Display](https://www.amazon.com/Eviciv-Portable-Monitor-Display-1024X600/dp/B07L6WT77H/ref=sr_1_5?crid=1X69430RFAY22&dchild=1&keywords=raspberry+pi+display&qid=1626032478&s=electronics&sprefix=raspberry+pi+dis%2Celectronics%2C200&sr=1-5)
