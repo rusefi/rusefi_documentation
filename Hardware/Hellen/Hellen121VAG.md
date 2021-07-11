@@ -31,16 +31,17 @@ Status: early phases of testing!
 
 # Vehicle Specific Jumpers
 
-**Never have both R2 and R3 jumpers populated!** 
+Main Relay option **Never have both R2 and R3 jumpers populated!** 
 
-**Never have both R8 and R9 jumpers populated!** 
+Voltage Input option **Never have both R8 and R9 jumpers populated!** 
 
-**Never have both F1 and F2 jumpers populated!** 
+Raw +12 option **Never have both F1 and F2 jumpers populated!** 
 
 | Vehicle | R2 | R3 | R8 | R9 | F1 | F2 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2000 Early Audi A4 1.8T (ME7.1, NBO2, NO VVT, DBW) | ✔ | ✘ | ✘ | ✔ | ✘ | ✔ |
 | 2001 Audi A4 1.8T (ME7.5, WBO2, VVT, DBW) | ✔ | ✘ | ✘ | ✔ | ✘ | ✔ |
+| 2002 Audi Allroad 2.7t apb | ? | ? | ? | ? | ? | ? |
 | 2006 Jetta 2.5 BGQ | ✘ | ✔ | ✘ | ✔ | ✔ | ✘ |
 | 2003 Audi A6 3.0 | ✘ | ✔ | ✘ | ✔ | ? | ? |
 | 2003 Audi A6 4.2 | ✘ | ✔ | ✔ | ✘ | ✔ | ✘ |
