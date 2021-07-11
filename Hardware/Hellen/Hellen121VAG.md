@@ -61,6 +61,8 @@ Status: early phases of testing!
 
 ![x](https://rusefi.com/forum/download/file.php?id=7575)
 
+![x](Hardware/Hellen/hellen121vag-b.jpg)
+
 ![x](Hardware/Hellen/hellen121vag-a.jpg)
 
 ## Q: what cars is the 121vag applicable for?
