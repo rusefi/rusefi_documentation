@@ -14,21 +14,20 @@ Controls|[Keyboard and Mouse](https://www.amazon.com/Logitech-Wireless-Keyboard-
 1. Download [TunerStudio](http://tunerstudio.com/index.php/downloads) - you want the tar.gz file
 
 2. Extract to your home directory
-***
 
-   a. default is "pi", open terminal and type: "ls /home/pi/TunerStudioMS" (if your home directory isnt "pi" change to match your home directory)
-   b. Ensure that "TunerStudio.sh" shows up in the results. If it is not, re-install 
+> a. default is "pi", open terminal and type: "ls /home/pi/TunerStudioMS" (if your home directory isnt "pi" change to match your home directory)
+
+b. Ensure that "TunerStudio.sh" shows up in the results. If it is not, re-install 
 
 3. Create link to start TunerStudio:
-***
 
-   a. Open termnial and type: "ln -s /home/pi/TunerStudioMS/TunerStudio.sh /usr/local/bin"
-   b. Once complete in terminal type: type: "bash /usr/local/bin/TunerStudio.sh" 
-      i. TunerStudio will open. Enter your registration information now. 
-      ii. Load your tune and dash
-      iii. Go to options - preferences - select "load last project on startup"
-      iv. Go to options - preferences - select "make dashboard fullscreen"
-      v. Save tune. Close TunerStudio
+a. Open termnial and type: "ln -s /home/pi/TunerStudioMS/TunerStudio.sh /usr/local/bin"
+b. Once complete in terminal type: type: "bash /usr/local/bin/TunerStudio.sh" 
+i. TunerStudio will open. Enter your registration information now. 
+ii. Load your tune and dash
+iii. Go to options - preferences - select "load last project on startup"
+iv. Go to options - preferences - select "make dashboard fullscreen"
+v. Save tune. Close TunerStudio
 
 
 
