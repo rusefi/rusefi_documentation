@@ -22,6 +22,11 @@ Controls|[Keyboard and Mouse](https://www.amazon.com/Logitech-Wireless-Keyboard-
 
      b. Ensure that "TunerStudio.sh" shows up in the results. If it is not, re-install 
 
+Note: you MAY need to install JAVA... if so, type 
+**sudo apt-get install openjdk-8-jre**
+To set default Java runtime
+**sudo update-alternatives --config java**
+
 3. Create link to start TunerStudio:
 
      a. Open termnial and type: "ln -s /home/pi/TunerStudioMS/TunerStudio.sh /usr/local/bin"
