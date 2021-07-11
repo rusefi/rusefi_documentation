@@ -24,11 +24,11 @@ Controls|[Keyboard and Mouse](https://www.amazon.com/Logitech-Wireless-Keyboard-
 
 Note: you MAY need to install JAVA... if so, type 
 
-`**sudo apt-get install openjdk-8-jre**`
+`sudo apt-get install openjdk-8-jre`
 
 To set default Java runtime
 
-`**sudo update-alternatives --config java**`
+`sudo update-alternatives --config java`
 
 3. Create link to start TunerStudio:
 
