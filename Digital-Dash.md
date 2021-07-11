@@ -1,6 +1,6 @@
 We have 3 versions of Digital Dash currently 
 
-Below is How to set up a Raspberry Pi 3 or 4 with TunerStudio as a Digital Dash
+Below is _**How to set up a Raspberry Pi 3 or 4 with TunerStudio as a Digital Dash**_
 
 ![](https://user-images.githubusercontent.com/5051341/125208727-ee206800-e259-11eb-9600-6cf742fba5a6.jpg)
 
