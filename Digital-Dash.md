@@ -15,9 +15,10 @@ Controls|[Keyboard and Mouse](https://www.amazon.com/Logitech-Wireless-Keyboard-
 
 2. Extract to your home directory
 
-> a. default is "pi", open terminal and type: "ls /home/pi/TunerStudioMS" (if your home directory isnt "pi" change to match your home directory)
+>
+     a. default is "pi", open terminal and type: "ls /home/pi/TunerStudioMS" (if your home directory isnt "pi" change to match your home directory)
 
-b. Ensure that "TunerStudio.sh" shows up in the results. If it is not, re-install 
+     b. Ensure that "TunerStudio.sh" shows up in the results. If it is not, re-install 
 
 3. Create link to start TunerStudio:
 
