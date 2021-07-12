@@ -52,7 +52,13 @@ To set default Java runtime
 
 
 
+Here is a site with free dashboards to spice up your look 
 
+[https://tunerstudiodashboards.com](https://tunerstudiodashboards.com)
+
+and ro make custom setups 
+
+[using-tunerstudio-dashboard-designer](http://www.tunerstudio.com/index.php/manuals/53-using-tunerstudio-dashboard-designer)
 
 
 
