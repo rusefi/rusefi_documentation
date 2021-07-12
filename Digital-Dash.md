@@ -54,7 +54,7 @@ To set default Java runtime
 
 Here is a site with free dashboards to spice up your look 
 
-[https://tunerstudiodashboards.com](https://tunerstudiodashboards.com)
+[tunerstudiodashboards.com](https://tunerstudiodashboards.com)
 
 and ro make custom setups 
 
