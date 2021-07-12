@@ -1,6 +1,6 @@
 We have 3 versions of Digital Dash currently 
 
-A-- The Quickest and easiest Digital Dash is Below 
+A-- The Quickest and easiest Digital Dash is TunerStudioMS... And  is described Below 
 
 B-- Second  is a PowerTune IMG that is just copied onto a SDcard -- and will boot up PowerTune on a raspberry Pi 3 ... Link here.... 
 
