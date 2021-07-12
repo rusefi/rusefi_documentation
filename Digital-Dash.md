@@ -2,7 +2,7 @@ We have 3 versions of Digital Dash currently
 
 One is a PowerTune IMG that is just copied onto a SDcard -- and will boot up PowerTune on a raspberry Pi 3 ... Link here.... 
 
-One is a Custom Digital Gauge cluster... [Link HERE ](https://customgt6.com/2021/03/28/custom-digital-gauge-cluster/)
+One is a Custom Digital Gauge cluster... [Link HERE ](https://customgt6.com/2021/03/28/custom-digital-gauge-cluster/)  And Here is the [GitHub link for Code ](https://github.com/joshellissh/pi-dgc)
 
 The Quickest and easiest Digital Dash is Below 
 
