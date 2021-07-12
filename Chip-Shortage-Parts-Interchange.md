@@ -4,7 +4,9 @@ todo organize these notes better
 
 https://rusefi.com/forum/viewtopic.php?p=41539#p41539
 
-BM2LC105FJ ?
+BM2LC105FJ 3A?
+
+BM2LB150FJ 6.5A?
 
 # Hellen
 
