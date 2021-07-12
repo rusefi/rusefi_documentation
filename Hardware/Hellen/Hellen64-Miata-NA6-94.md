@@ -11,7 +11,7 @@ This development board is PnP for NA6 and 94-95 Miatas.
 
 [[schematic rev a]](Hardware/Hellen/hellen64_miataNA6_94-a-schematic.pdf)
 
-[preview draft of future revision subject to change](Hardware/Hellen/hellen64_miataNA6_94-b-schematic.pdf)[[ibom rev b]](https://rusefi.com/docs/ibom/hellen64_miataNA6_94-b-ibom.html)
+[preview draft of future revision subject to change](Hardware/Hellen/hellen64_miataNA6_94-b-schematic.pdf)
 
 
 [Mazda Miata 1990](Mazda-Miata-1990)
