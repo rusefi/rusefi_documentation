@@ -18,7 +18,7 @@
 1. [1990 Geo Storm](https://rusefi.com/forum/viewtopic.php?t=917) 1990 Geo Storm
 1. [Mazda Miata 1.6 Turbo](https://rusefi.com/forum/viewtopic.php?f=3&t=1038) Jun 03, 2016 - Miata 1.6 Blue Smurf turbo
 1. [Mazda Miata 1.6](https://rusefi.com/forum/viewtopic.php?f=3&t=906) June 14, 2016 - Miata 1.6 Hunchback <span style="color:#FF9000">first Miata racecar</span>
-1. [Mazda Miata 1.6](Miata 1.6](https://rusefi.com/forum/viewtopic.php?f=3&t=660) June 15, 2016 - Tomiata ![i](https://github.com/rusefi/rusefi_documentation/raw/master/rusefi_history/10k_driven_with_rusefi.png) <span style="color:#FF9000">first 3'000km all over US trip</span>
+1. [Mazda Miata 1.6](https://rusefi.com/forum/viewtopic.php?f=3&t=660) June 15, 2016 - Tomiata ![i](https://github.com/rusefi/rusefi_documentation/raw/master/rusefi_history/10k_driven_with_rusefi.png) <span style="color:#FF9000">first 3'000km all over US trip</span>
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1051 2JZ-GTE NON VVTi June 28, 2016
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=860 VW Bug | <span style="color:#FF9000">first H4</span>
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=1060 2JZ-GTE Jeep
