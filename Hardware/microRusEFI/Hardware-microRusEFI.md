@@ -5,7 +5,7 @@ gasoline engines up to 4 cylinders.
 
 [Connector Pinout](Hardware-microRusEFI-wiring)
 
-The latest schematics for the microRusEFI ECU are available at https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf
+[Latest Schematics](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf) 
 
 [Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
