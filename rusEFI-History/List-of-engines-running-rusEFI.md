@@ -3,14 +3,14 @@
 1. [1993 Mazda Protege/Ford Festiva](https://rusefi.com/forum/viewtopic.php?f=3&t=537) Apr 10, 2014 russian ! dyno tuned ! first rusEfi race car ![i](https://github.com/rusefi/rusefi_documentation/raw/master/rusefi_history/10k_driven_with_rusefi.png)
 1. [1999 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=467&start=33) sturovo 1999 Miata Apr 13, 2014
 1. [1995 Honda Accord](https://rusefi.com/forum/viewtopic.php?f=3&t=621) russian 1995 Honda Accord Aug 07, 2014 ! failed test mule
-1. https://rusefi.com/forum/viewtopic.php?f=3&t=622&start=180 Mitsubishi Sep 09, 2014
+1. [Mitsubishi 4G63](https://rusefi.com/forum/viewtopic.php?f=3&t=622&start=180) Mitsubishi Sep 09, 2014
 1. [1996 Mazda Miata 1.8](https://rusefi.com/forum/viewtopic.php?f=3&t=666) by tomiata 
-1. https://rusefi.com/forum/viewtopic.php?f=15&t=540 2002 Citroen Berlingo
-1. https://rusefi.com/forum/viewtopic.php?f=3&t=696 2003 Dodge Neon ! test mule
-1. https://rusefi.com/forum/viewtopic.php?f=15&t=644 BMW 6 cylinder turbo ! <span style="color:#FF9000">first L6 engine</span>
-1. https://rusefi.com/forum/viewtopic.php?f=3&t=729 spags PR 1994 1.8 Miata
-1. https://rusefi.com/forum/viewtopic.php?f=3&t=332&start=210 One Cylinder moped Nov 29, 2014 ! CDI ! <span style="color:#FF9000">first one cylinder</span>
-1. https://rusefi.com/forum/viewtopic.php?f=15&t=710 Mazda 626 turbo
+1. [2002 Citroen](https://rusefi.com/forum/viewtopic.php?f=15&t=540) 2002 Citroen Berlingo
+1. [2003 Dodge Neon](https://rusefi.com/forum/viewtopic.php?f=3&t=696) 2003 Dodge Neon ! test mule
+1. [BMW 6 cylinder turbo](https://rusefi.com/forum/viewtopic.php?f=15&t=644) BMW 6 cylinder turbo ! <span style="color:#FF9000">first L6 engine</span>
+1. [1994 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=729) spags PR 1994 1.8 Miata
+1. [1 cylinder moped](https://rusefi.com/forum/viewtopic.php?f=3&t=332&start=210) One Cylinder moped Nov 29, 2014 ! CDI ! <span style="color:#FF9000">first one cylinder</span>
+1. [1987 Mazda 626 Turbo](https://rusefi.com/forum/viewtopic.php?f=15&t=710) Mazda 626 turbo
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=396 ! <span style="color:#FF9000">first 2 stroke</span> Mar 29, 2015 ! 7kRPM+ !
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=864 Dodge Ram May 03, 2015 ! <span style="color:#FF9000">first V8</span>
 1. https://rusefi.com/forum/viewtopic.php?f=3&t=699 VW passat supercharged 
