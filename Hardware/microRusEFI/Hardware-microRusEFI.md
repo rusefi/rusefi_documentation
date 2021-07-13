@@ -28,6 +28,9 @@ gasoline engines up to 4 cylinders.
 
 [Connector Pinout](Hardware-microRusEFI-wiring)
 
+Main Relay Wiring:
+
+![](https://user-images.githubusercontent.com/48498823/90672739-94b7e080-e224-11ea-92fb-12a4fdc5b056.png)
 
 ![microRusEFI image](https://user-images.githubusercontent.com/5051341/80747087-806e9d00-8ae8-11ea-983e-330dfc6e3015.jpg)
 ![microRusEFI image](https://user-images.githubusercontent.com/5051341/80747096-849aba80-8ae8-11ea-862c-d124ef75f06a.jpg)

@@ -31,6 +31,10 @@ Q: How do I change settings?
 
 A: You can change settings and your engine tune using [TunerStudio](HOWTO-create-tunerstudio-project).
 
+Q: Is there anything special I need to do to wire USB from ECU harness?
+
+A: The USB Cable needs to be shielded all the way to the connector. Don't connect the shield at the ECU end. There should be exactly one ground from laptop to ECU, and it needs to be in the USB cable, no splices.
+
 Q: Do I need to compile source code myself?
 
 A: Nope, not at all. Prebuilt bundles are availabile on the [Download Page](Download).
