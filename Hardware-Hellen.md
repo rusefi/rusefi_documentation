@@ -1,5 +1,3 @@
-# Buy here: [need correct link]()
-
 Hellen is a (need to add information)
 
 Version|Bundle|Schematics|Forum|Source Files|Pinout|Image|Purchase
