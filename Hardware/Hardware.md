@@ -65,3 +65,6 @@ Green LED on many rusEFI boards is RUNNING. Off if engine is stopped, blinks if 
 
 A: Following Frankenso tradition, Injector LEDs are RED. Ignition LED are blue, power LED are green.
 
+Q: Why mini/micro/type C on MRE?
+
+A: USB choice dictated by price and availability. If it changes MRE page will note. 
