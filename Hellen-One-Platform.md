@@ -19,4 +19,4 @@ A number of functional building modules were developed with the intention of eas
 
 
 
-For dev information see https://github.com/andreika-git/hellen-one/wiki
+[Dev Information](https://github.com/andreika-git/hellen-one/wiki) 
