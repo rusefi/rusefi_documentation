@@ -1,21 +1,30 @@
-[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
-[[Nightly firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
+This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 engine; late 90s-early 2000s. confirm your ecu)
 
-[[Schematics rev a]](Hardware/Hellen/hellen128mercedes-a-schematic.pdf)
-[[iBom rev a]](https://rusefi.com/docs/ibom/hellen128mercedes-a-ibom.html)
-[[Pinout]](https://rusefi.com/docs/pinouts/hellen/hellen128/)
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
+[Nightly firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
+
+[Ebay]()
+
+[Pinout](https://rusefi.com/docs/pinouts/hellen/hellen128/) & [Google Sheet](https://docs.google.com/spreadsheets/d/1I-lZKRajTiEGFUXdZpXEtKF2pymlOo-lPahy3cLMnl4) & [Another Google Sheet](https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1kp4Y/)
 
 [[Issue Tracker]](https://github.com/rusefi/hellen128merc-issues)
 
+[Schematics rev a](Hardware/Hellen/hellen128mercedes-a-schematic.pdf)
+
+[iBom rev a](https://rusefi.com/docs/ibom/hellen128mercedes-a-ibom.html)
+
+## Hardware features
+
+* 
+* 
+* 
+* 
+* 
+* 
+
 ![x](Hardware/Hellen/hellen128mercedes-rev-a.jpg)
 
-[Google Docs Pinout Spreadsheet](https://docs.google.com/spreadsheets/d/1I-lZKRajTiEGFUXdZpXEtKF2pymlOo-lPahy3cLMnl4)
 
-Mercedes M111 and M113 
-
-Relevant? 
-
-https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1kp4Y/
 
 ## Extension Pads (rev. a)
 
