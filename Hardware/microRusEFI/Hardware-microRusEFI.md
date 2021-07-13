@@ -7,9 +7,9 @@ gasoline engines up to 4 cylinders.
 
 [Latest Schematics](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf) 
 
-[Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
+[Forum Thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
-A complete set of board source files is available at https://github.com/rusefi/hw_microRusEfi
+[Board Source Files](https://github.com/rusefi/hw_microRusEfi)
 
 # Capabilities
 * Primary VR or Hall input (configurable with few resistor changes)
