@@ -11,9 +11,9 @@
 
 [Schematics rev b](Hardware/Hellen/hellen121nissan-b-schematic.pdf)[[ibom rev b]](https://rusefi.com/docs/ibom/hellen121nissan-b-ibom.html)
 
-[Nissan-Xterra-2011]
+[[Nissan-Xterra-2011]]
 
-[Vault-Of-Nissan-OEM]
+[[Vault-Of-Nissan-OEM]]
 
 https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZHCA
 
