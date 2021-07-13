@@ -1,6 +1,6 @@
 This guide is written for the firmware released August 6th 2020. The further away from this date your FW is, the less agreement you will have in specific locations of items in TunerStudio and terms used etc. HOWEVER, the basic principles should still apply. 
 
-1. [download the rusEFI bundle](Download) to get your rusefiXXX.ini file and serial port drivers.
+1. [Download the rusEFI Bundle](Download) to get your rusefiXXX.ini file and serial port drivers.
 
 2. Install [TunerStudio](http://www.tunerstudio.com/index.php/downloads) and [MegaLog Viewer](https://www.efianalytics.com/MegaLogViewer/download/) (the payed versions are highly recommended). 
 
