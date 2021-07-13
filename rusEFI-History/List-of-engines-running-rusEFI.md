@@ -34,7 +34,7 @@
 1. [Nissan SR20VE](https://rusefi.com/forum/viewtopic.php?f=3&t=1194) Nissan Mar 22, 2017
 1. [BMW E36 328i M52B28 Turbo](https://rusefi.com/forum/viewtopic.php?f=4&t=1216) M52Bxx Apr 17, 2017
 1. [1994 Nissan Altima KA24DE](https://rusefi.com/forum/viewtopic.php?f=3&t=1235) Nissan Altima May 20, 2017
-1. [1977 Lada]9https://rusefi.com/forum/viewtopic.php?f=15&t=1233&start=180) Lada 1977 June 17, 2017 ! <span style="color:#FF9000">first STM32F469 chip</span> ![i](https://github.com/rusefi/rusefi_documentation/raw/master/rusefi_history/10k_driven_with_rusefi.png) first 10'000km all over Europe trip
+1. [1977 Lada](https://rusefi.com/forum/viewtopic.php?f=15&t=1233&start=180) Lada 1977 June 17, 2017 ! <span style="color:#FF9000">first STM32F469 chip</span> ![i](https://github.com/rusefi/rusefi_documentation/raw/master/rusefi_history/10k_driven_with_rusefi.png) first 10'000km all over Europe trip
 1. [1999 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=1282) Miata NB 99 Oct 28, 2017
 1. [2000 Mazda Miata Turbo](https://rusefi.com/forum/viewtopic.php?f=3&t=1264&p=27465#p27465) Miata NB1 ov 11, 2017
 1. [2007 MonoZver](https://rusefi.com/forum/viewtopic.php?f=15&t=1300) Iz Oda 2126 Nov 23, 2017
