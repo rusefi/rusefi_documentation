@@ -15,10 +15,16 @@
 
 [[Vault-Of-Nissan-OEM]]
 
+## Hardware features
 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ![x](Hardware/Hellen/hellen121nissan-rev-B-with-connector.jpg)
-
 
 ## Extension Pads
 
