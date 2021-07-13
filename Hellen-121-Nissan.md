@@ -5,7 +5,7 @@
 
 [Ebay](https://www.ebay.com/itm/334061645783)
 
-[Pinout](https://rusefi.com/docs/pinouts/hellen/hellen121nissan/) [Google Sheet](https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZHCA)
+[Pinout](https://rusefi.com/docs/pinouts/hellen/hellen121nissan/) & [Google Sheet](https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZHCA)
 
 [Issue Tracker](https://github.com/rusefi/hellen121nissan-issues/issues)
 
