@@ -41,7 +41,7 @@ Automatic Transmission Control|✗
 Rotary Engines|✗
 [Direct Injection](GDI-status)|✗
 [Kick start](Kick-Start)|✗
-[Multi-Spark](https://github.com/rusefi/rusefi/wiki/Multi-Spark)
+[Multi-Spark](https://github.com/rusefi/rusefi/wiki/Multi-Spark)|✗
 
 
 And many more! See [rusEFI-project](rusEFI-project) for more details.
