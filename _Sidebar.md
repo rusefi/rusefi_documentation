@@ -60,7 +60,7 @@
 - [microRusEFI](Hardware-microRusEFI)
 - [Proteus](Proteus)
 - [Frankenso](https://rusefi.com/forum/viewtopic.php?f=4&t=569)
-- [Hellen](https://rusefi.com/forum/viewtopic.php?f=4&t=1682)
+- [Hellen](Hardware-Hellen)
 - [Frankenstein](https://rusefi.com/forum/viewtopic.php?f=4&t=359)
 - [Hellen121vag](https://github.com/rusefi/rusefi/wiki/Hellen121VAG) 
 
