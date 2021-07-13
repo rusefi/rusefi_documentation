@@ -1,14 +1,15 @@
-Compatible with: Earlier 350Z, 2nd Generation Nissan X-Terra, some Sentra, some Maxima.
+*Compatible with: Earlier 350Z, 2nd Generation Nissan X-Terra, some Sentra, some Maxima.
 
 [[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
 [[Download nightly firmware]](https://rusefi.com/build_server/rusefi_bundle_hellen121nissan.zip)
 
-
-Issue tracker at https://github.com/rusefi/hellen121nissan-issues/issues
-
-[[Schematics rev b]](Hardware/Hellen/hellen121nissan-b-schematic.pdf)[[ibom rev b]](https://rusefi.com/docs/ibom/hellen121nissan-b-ibom.html)
+[Ebay](https://www.ebay.com/itm/334061645783)
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen121nissan/)
+
+[Issue Tracker](https://github.com/rusefi/hellen121nissan-issues/issues)
+
+[[Schematics rev b]](Hardware/Hellen/hellen121nissan-b-schematic.pdf)[[ibom rev b]](https://rusefi.com/docs/ibom/hellen121nissan-b-ibom.html)
 
 [[Nissan-Xterra-2011]]
 
