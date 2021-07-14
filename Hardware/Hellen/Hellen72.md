@@ -74,6 +74,8 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 | 3Z | GND | Sensor & USB ground | 
 
 
+# Proto Area Pinout
+
 |Proto   | stm32 pin  | 
 |-----|---|
 | EXT_SPI_SCK    |   |
