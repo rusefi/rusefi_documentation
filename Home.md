@@ -30,8 +30,7 @@ Boost Control|✓
 Dual AFR signal logging|✓
 [Launch Control](Launch-Control)|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
-Hundreds of rusEFI units produced|✓
-We've lost track of how many vehicles are running on rusEFI|✓
+[Digital Dash](Digital-Dash)
 [Knock Sensing](knock-sensing)|✓
 [Knock response](https://github.com/rusefi/rusefi/issues/202)|✗
 [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)|✗
@@ -42,6 +41,11 @@ Rotary Engines|✗
 [Direct Injection](GDI-status)|✗
 [Kick start](Kick-Start)|✗
 [Multi-Spark](https://github.com/rusefi/rusefi/wiki/Multi-Spark)|✗
+
+Achievement|Results
+-------|----------
+Hundreds of rusEFI units produced|✓
+We've lost track of how many vehicles are running on rusEFI|✓
 
 
 And many more! See [rusEFI-project](rusEFI-project) for more details.
