@@ -47,6 +47,7 @@
 - [Variable Valve Timing](VVT)
 - [FSIO - Flexible Sweet Input Output](FSIO)
 - [GDI](GDI-status)
+- [Digital Dash](Digital-Dash)
 
 # Hardware
 
