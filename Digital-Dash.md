@@ -8,7 +8,9 @@ C-- Third is a Custom Digital Gauge cluster... [Link HERE ](https://customgt6.co
 
 # How to set up a Raspberry Pi with TunerStudio as a Digital Dash
 
-![](https://user-images.githubusercontent.com/5051341/125208727-ee206800-e259-11eb-9600-6cf742fba5a6.jpg)
+Click the image to watch a video of a Raspberry Pi rusEFI connected display. Early "proof of concept" 
+
+[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/5051341/125208727-ee206800-e259-11eb-9600-6cf742fba5a6.jpg)](https://www.youtube.com/watch?v=a0mdhANrIhw "PiDash rusEFI")
 
 # Hardware Needed
 
@@ -59,8 +61,4 @@ To set default Java runtime
 Here is a [site](https://tunerstudiodashboards.com) with free dashboards to spice up your look 
 
 Here is a [site](http://www.tunerstudio.com/index.php/manuals/53-using-tunerstudio-dashboard-designer) on how to make your own custom dashboards
-
-
-
-
 
