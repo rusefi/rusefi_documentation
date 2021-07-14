@@ -36,7 +36,10 @@ Source & production files at: https://github.com/mck1117/proteus/
 
 [by Kon](https://github.com/ksmola/proteus-case) 
 
-We have a plastic CNCed case https://www.ebay.com/itm/333958050504 XXX screws recommended
+We have a plastic CNCed case https://www.ebay.com/itm/333958050504 
+
+McM 90417A118
+black oxide, #4 3/8" long screws recommended
 
 <a name="dev"/>
 
