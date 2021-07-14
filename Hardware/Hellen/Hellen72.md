@@ -73,6 +73,16 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 | 4K  | +5v | +5v feed for MAP sensor |
 | 3Z | GND | Sensor & USB ground | 
 
+
+|Proto   | stm32 pin  | 
+|-----|---|
+| EXT_SPI_SCK    |   |
+| EXT_IO1    | PB12  |
+| EXT_IO2    |  PB13 |
+|     |   |
+
+
+
 [rev C Reference image of jumpers set for external MAP sensor on 2003 miata](https://rusefi.com/forum/download/file.php?id=7570)
 
 ![x](Hardware/Hellen/hellen72-wbo.jpg)
