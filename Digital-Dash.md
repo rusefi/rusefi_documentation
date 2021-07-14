@@ -56,13 +56,10 @@ To set default Java runtime
 
 
 
-Here is a site with free dashboards to spice up your look 
+Here is a [site](https://tunerstudiodashboards.com) with free dashboards to spice up your look 
 
-[tunerstudiodashboards.com](https://tunerstudiodashboards.com)
+Here is a [site](http://www.tunerstudio.com/index.php/manuals/53-using-tunerstudio-dashboard-designer) on how to make your own custom dashboards
 
-and ro make custom setups 
-
-[using-tunerstudio-dashboard-designer](http://www.tunerstudio.com/index.php/manuals/53-using-tunerstudio-dashboard-designer)
 
 
 
