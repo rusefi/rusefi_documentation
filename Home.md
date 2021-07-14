@@ -42,7 +42,8 @@ Rotary Engines|✗
 [Kick start](Kick-Start)|✗
 [Multi-Spark](https://github.com/rusefi/rusefi/wiki/Multi-Spark)|✗
 
-Achievement|Results
+
+Achievement| Results 
 -------|-------------
 Hundreds of rusEFI units produced|✓
 We've lost track of how many vehicles are running on rusEFI|✓
