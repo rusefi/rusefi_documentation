@@ -30,7 +30,7 @@ Boost Control|✓
 Dual AFR signal logging|✓
 [Launch Control](Launch-Control)|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
-[Digital Dash](Digital-Dash)
+[Digital Dash](Digital-Dash)|✓
 [Knock Sensing](knock-sensing)|✓
 [Knock response](https://github.com/rusefi/rusefi/issues/202)|✗
 [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)|✗
