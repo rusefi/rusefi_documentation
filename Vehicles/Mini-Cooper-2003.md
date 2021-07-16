@@ -62,7 +62,7 @@
 
 ![Wiring Diagram](OEM-Docs/Mini/2003_Cooper/2003_cooper_instrument_cluster_2.png)
 
-![Wiring Diagram](https://rusefi.com/wiki/images/9/91/2003_cooper_tach_wiring.pdf)
+![Wiring Diagram](https://user-images.githubusercontent.com/5051341/126010542-a1fb5a05-b0ae-4585-a585-613de2a43fe4.png)
 
 #1 BRN/BLK ground
 #2 YEL/BRN CAN low
