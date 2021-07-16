@@ -61,7 +61,7 @@ So you are thinking of doing an engine control project. You have stopped by the 
 
 ## rusEFI in action!
 
-[Engines running rusEFI](List-of-engines-running-rusEFI)
+[Engines running rusEFI](List-of-Engines-Running-rusEFI)
 
 ### [![Miata rusEFI Racecar!](https://user-images.githubusercontent.com/5051341/80621997-bf7bf000-8a0d-11ea-998e-48fc3accba59.png)](https://www.youtube.com/embed/3xz66oR95F8?start=8 "Miata rusEFI Racecar!")
 

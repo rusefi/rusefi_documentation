@@ -98,7 +98,7 @@ searchfile() {
       # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
       #   and not some other place in the file that happens to use the same words.
       REPLACE=$(escape '('$link')')
-      REPLACEWITH=$(escapeReplace "$FILE")
+      REPLACEWITH=$(escapeReplace "$(basename "$FILE" .md)")
       sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
       continue
     fi
@@ -133,7 +133,7 @@ searchfile() {
     sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
   # This regex finds links in the file that is passed to searchfile
   # Results are fed to file descriptor 3 for the reasons previously explained.
-  done 3< <(grep -oP '(?<=\]\().+?(?=[\)])' "$1")
+  done 3< <(grep -oP '(?<=\]\().*?(?=[\)])' "$1" | sed -e "s/^<//g" -e "s/>$//g" | cut -d '"' -f1 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
 }
 export -f searchfile
 
