@@ -79,8 +79,11 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 |Proto   | stm32 pin  | 
 |-----|---|
 | EXT_SPI_SCK    |   |
+| UART_RX    | PD6  |
+| UART_TX    | PD5  |
 | EXT_IO1    | PB12  |
 | EXT_IO2    |  PB13 |
+|     |   |
 |     |   |
 
 
