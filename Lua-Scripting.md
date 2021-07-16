@@ -1,5 +1,9 @@
 # Basics
 
+A proper ECU has to offer users as much flexibility as possible, meaning a completely user-defined control strategy for both primary and auxiliary actuators. For many years rusEFI had FSIO to do just that.
+
+As of 2021, rusEFI is replacing FSIO with a popular open source [Lua scripting engine](https://en.wikipedia.org/wiki/Lua_(programming_language))
+
 ## Conventions
 
 - The Lua interpreter will trigger an error if there is a mistake in the program, check the rusEFI console to see errors and script output.
