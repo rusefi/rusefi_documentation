@@ -32,7 +32,7 @@ Example:
 
 Links to images are relative to the .md file they are in.
 Example:
-`![TunerStudio New Project View](images/TunerStudio_new_project.png)`
+`![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)`
 
 **Q:** What sort of fancy options do we have?
 **A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example.

@@ -1,1 +1,1 @@
-See [Build Server](Build-Server)
+See [Build Server](Build-Server-and-Automation)
