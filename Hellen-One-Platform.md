@@ -17,7 +17,7 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |88 Pin BMW coming soon!|[Buy Here]()|
 
 
-
+## The .ini file for Hellen is loaded onto the Hellen board. When you plug the Hellen into your computer, a "virtual flashdrive" will load up. The .ini file is in there. Copy to your computer and save in your TunerStudio folder, and link your TunerStudio definition to that file. When your Hellen firmware is updated, the .ini file is also updated, so make sure you get the latest .ini from the Hellen board after you update the firmware!
 
 
 
