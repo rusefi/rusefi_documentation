@@ -1,6 +1,6 @@
 ## Uploading your rusEFI tune from TunerStudio to rusEFI Online!
 
- (known as REO from here on out)
+ (rusEFI Online will be known as **REO** from here on out)
 
 1. In your tune in TunerStudio, ensure that the **Base Engine** values are input fully so the description in REO is complete.
 2. Log into [rusefi.com/forum](rusefi.com/forum)
