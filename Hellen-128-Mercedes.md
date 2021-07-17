@@ -15,12 +15,7 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 
 ## Hardware features
 
-* 
-* 
-* 
-* 
-* 
-* 
+* ?
 
 ![x](Hardware/Hellen/hellen128mercedes-rev-a.jpg)
 
@@ -74,3 +69,8 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Dumb | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ |
 | Smart | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ |
+
+
+[Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)
+
+[Mercedes-C230-and-SLK230](Mercedes-C230-and-SLK230)
