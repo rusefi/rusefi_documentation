@@ -7,7 +7,7 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen128/) & [Google Sheet](https://docs.google.com/spreadsheets/d/1I-lZKRajTiEGFUXdZpXEtKF2pymlOo-lPahy3cLMnl4) & [Another Google Sheet](https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1kp4Y/)
 
-[[Issue Tracker]](https://github.com/rusefi/hellen128merc-issues)
+[[Issue Tracker]](https://github.com/rusefi/hellen128merc-issues/issues)
 
 [Schematics rev a](Hardware/Hellen/hellen128mercedes-a-schematic.pdf)
 
