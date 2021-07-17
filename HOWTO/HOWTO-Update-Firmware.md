@@ -32,3 +32,9 @@ dfu-util -a 0 -D rusefi.dfu
 For more about DFU see [HOWTO-DFU](HOWTO-DFU)
 
 ST-LINK is an advanced mode of firmware update which requires ST-LINK device, either external, or built-in like on Discovery/Nucleo board.
+
+## Update TunerStudio Definition
+
+Once you have updated your firmware, you also need to update your TunerStudio definition so it is able to communicate properly.
+
+You can find the .ini file in the USB storage device that rusEFI board presents to your computer, or in the [rusEFI bundle](Download). The former is preferable, as it ensures that you have the correct version for the firmware that is installed on your board.
