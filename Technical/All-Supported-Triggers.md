@@ -11,6 +11,8 @@ To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
 [Mazda](#mazda)
 
+[Nissan](#nissan)
+
 [Subaru](#subaru)
 
 [Jeep & Renix](#jeep)
@@ -175,6 +177,14 @@ Chrysler NGC 6 cylinder
 ![Dodge Stratus](Images/triggers/trigger_22.png)
 
 ## Nissan
+
+VQ35
+![x](Images/triggers/trigger_58.png)
+![x](Images/triggers/trigger_59.png)
+
+
+VQ30
+![x](Images/triggers/trigger_60.png)
 
 360 slot trigger not ready yet, no test vehicles :(
 
