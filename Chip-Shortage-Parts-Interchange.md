@@ -10,12 +10,11 @@ BM2LB150FJ 6.5A?
 
 ## Proteus MCU options
 
-STM32F767ZIT6
-
-STM32F429ZGT6
-
-STM32F767ZGT6
-
+Requirements:
+- LQFP144 
+- 1MB flash (but 2MB works as well)
+- STM32F4: Known working is any F427/F429.  256KB RAM required. 1MB or 2MB acceptable.
+- STM32F7: Known working is F767. 1MB or 2MB acceptable.
 
 # Hellen
 
