@@ -1,3 +1,5 @@
+.sal is file extension of Saleae v2
+
 
 nb2-happy-warmup-idle: good spark plugs, everything good
 
