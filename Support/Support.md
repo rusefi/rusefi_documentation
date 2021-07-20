@@ -11,6 +11,14 @@ Please Read https://opensource.com/life/16/10/how-ask-technical-questions
 
 A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on https://rusefi.com/forum/ Slack often comes handy for follow-up discussion. Slack registration http://rusefi.com/slack/ and login https://rusefi.slack.com/
 
+## Q: do you guys prefer short text descriptions or long text descriptions?
+
+A: We prefer longer problem descriptions with as much of supporting material as possible. Screen shots, videos etc.
+Just a reminder that to attach a screen shot to the forum post you LITERLLY need to hit under 6 keys.
+
+"ctrl-print screen" or "alt-print screen" to take a screenshot into clipboard
+"ctrl-v" to attach image from clipboard into forum post.
+
 
 ## Q: What is the preferred way of posting videos?
 
