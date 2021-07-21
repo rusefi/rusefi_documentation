@@ -25,7 +25,9 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 
 A: from our experience for our tiny quantities the primary bottleneck is rusEFI manual labor. Between crimping and cases Hellen in a powder coated OEM ECU really looks like the simplest way to produce 10 units for specific vehicle.
 
-### Q: What's Hellen's role in [Mission-Statement](Mission-Statement)?
+### Q: What's Hellen's role in rusEFI [Mission-Statement](Mission-Statement)?
+
+A: Part of the reasoning behind developing PnP boards at this stage is attracting software developers who might know less about cars, or who just aren't ready to make the commitment of building or modifying a harness.
 
 ### Q: Why so many closed source boards? Ultimately, these are to be commercial products right?
 
