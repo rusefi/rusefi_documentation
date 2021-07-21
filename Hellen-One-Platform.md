@@ -17,10 +17,11 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |88 Pin BMW coming soon!|[Buy Here]()|
 
 
-# The .ini file for Hellen is loaded onto the Hellen board. When you plug the Hellen into your computer, a "virtual flashdrive" will load up. The .ini file is in there. Copy to your computer and save in your TunerStudio folder, and link your TunerStudio definition to that file. When your Hellen firmware is updated, the .ini file is also updated, so make sure you get the latest .ini from the Hellen board after you update the firmware!
+### The .ini file for Hellen is loaded onto the Hellen board. When you plug the Hellen into your computer, a "virtual flashdrive" will load up. The .ini file is in there. Copy to your computer and save in your TunerStudio folder, and link your TunerStudio definition to that file. When your Hellen firmware is updated, the .ini file is also updated, so make sure you get the latest .ini from the Hellen board after you update the firmware!
 
+# FAQ
 
-# Q: Surely it would have made more sense and less effort to make one universal hardware design and produce and sell adapter looms?
+### Q: Surely it would have made more sense and less effort to make one universal hardware design and produce and sell adapter looms?
 
 A: from our experience for our tiny quantities the primary bottleneck is rusEFI manual labor. Between crimping and cases Hellen in a powder coated OEM ECU really looks like the simplest way to produce 10 units for specific vehicle.
 
