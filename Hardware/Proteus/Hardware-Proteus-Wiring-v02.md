@@ -2,7 +2,7 @@
 
 ## _NOTE: this pinout only applies to boards v0.2 and older (probably black).  [If you have v0.3 or newer (green), then use the pinout found here!](Hardware-Proteus-Wiring-v03)_
 
-## Black 35 Pin 776231-1
+## Black 35 Pin 776231-1 Right
 
 |Pin Number|Name      | Type ID | Default function                   |
 | ---:|:------------- | ----- |:------------------------------------ |
@@ -42,7 +42,7 @@
 | 34  | Ignition 2    | y     | Ignition cylinder 2                  |
 | 35  | Ignition 1    | y     | Ignition cylinder 1                  |
 
-## Black 23 Pin 776228-1
+## Black 23 Pin 776228-1 Middle
 |Pin Number|Name   | Type ID | Default function                   |
 | ---:|:---------- | ----- |:------------------------------------ |
 | 1   | DIGITAL 2  | din   | Digital trigger/switch input         |
@@ -69,7 +69,7 @@
 | 22  | ETB2+      | etb   | ETB 2 positive                       |
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  |
 
-## White 35 Pin 776231-2
+## White 35 Pin 776231-2 Left
 |Pin Number|Name   | Type ID | Default function                   |
 | ---:|:---------- | ----- |:------------------------------------ |
 | 1   | **GND**    | sgnd  | Sensor GND                           |
