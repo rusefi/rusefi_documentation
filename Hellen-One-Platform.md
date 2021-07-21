@@ -25,5 +25,9 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 
 A: from our experience for our tiny quantities the primary bottleneck is rusEFI manual labor. Between crimping and cases Hellen in a powder coated OEM ECU really looks like the simplest way to produce 10 units for specific vehicle.
 
+### Q: Why so many closed source boards? Ultimately, these are to be commercial products right?
+
+A: it's mostly an experiment really. As of July 2021 we have an open source board with very little community interest and a closed source board with a very enthusiastic dealer. As of July 2021 we are still waiting for someone to come in and commission a Hellen board or for someone to come in and contribute a Hellen board. We are still gathering data. 
+
 
 [Dev Information](https://github.com/andreika-git/hellen-one/wiki) 
