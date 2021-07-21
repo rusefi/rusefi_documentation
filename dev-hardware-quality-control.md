@@ -10,7 +10,7 @@ In the end we would need 5-25 units total (one unit soldered to application-spec
 
 For first round the proposal is to test functional blocks as separate small PCBs, long term we might Hellen merge or not.
 
-We are building Stim using NUCLEO-F429ZI due to chip shortage.
+We are building Stim using NUCLEO-F429ZI due to chip shortage. NUCLEO-F429ZI would be plug into https://github.com/rusefi/hw_modular/tree/master/NUCLEO144_wing and wires or connectors would be routed via NUCLEO144_wing.
 
 # Requirements
 
