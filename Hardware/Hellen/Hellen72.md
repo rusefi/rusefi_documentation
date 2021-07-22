@@ -40,7 +40,7 @@
 https://github.com/rusefi/rusefi/wiki/It's-complicated
 
 
-[Mazda Miata 2003](Mazda-Miata-2003)
+[Mazda Miata 2003](Mazda-Miata-2003) [Mazdaspeed Miata 2005](Mazdaspeed-Miata-2005)
 
 ![x](Hardware/Hellen/hellen72-c-as-received.jpg)
 
