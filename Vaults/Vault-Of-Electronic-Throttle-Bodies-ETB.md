@@ -16,6 +16,12 @@ Bosch 0280750009 1.8T and hopefully many others
 
 ![x](OEM-Docs/VAG/Bosch_0280750009_pinout.jpg)
 
+# Mercedes
+
+Bosch 0280750074 68mm
+
+![](https://mbworld.org/forums/attachments/c-class-w203/156698d1242113136-bad-throttle-position-sensor-tps-pinout.jpg)
+
 # Nissan
 
 Hitachi SERA576-01 60mm diameter
