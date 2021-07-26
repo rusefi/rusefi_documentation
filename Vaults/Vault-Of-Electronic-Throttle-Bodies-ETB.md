@@ -20,7 +20,7 @@ Bosch 0280750009 1.8T and hopefully many others
 
 Bosch 0280750074 68mm
 
-![](https://mbworld.org/forums/attachments/c-class-w203/156698d1242113136-bad-throttle-position-sensor-tps-pinout.jpg)
+![x](https://mbworld.org/forums/attachments/c-class-w203/156698d1242113136-bad-throttle-position-sensor-tps-pinout.jpg)
 
 # Nissan
 
