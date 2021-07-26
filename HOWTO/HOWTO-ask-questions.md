@@ -24,7 +24,9 @@ https://rusefi.com/forum and https://github.com/rusefi/ are two permanent system
  1) In TunerStudio, Use "DataLogging">"Start Logging" menu item. Logs are written to Documents\TunerStudioProjects\NAMEOFYOURPROJECT\DataLogs folder.
 
  2) With rusEFI console, simply grab the latest .msl file from "out" folder
- 
+
+
+See also [Knowledge-best-practices-and-Channels](Knowledge-best-practices-and-Channels) 
  
 ## HOWTO Ask Technical Questions 
 
