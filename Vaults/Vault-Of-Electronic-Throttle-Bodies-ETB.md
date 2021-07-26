@@ -9,7 +9,7 @@ Pink<>red;
 yellow<>green;
 gray
 
-# VAG pinout
+# VAG
 Bosch 0280750009 1.8T and hopefully many others 
 
 5n1973206 connector
