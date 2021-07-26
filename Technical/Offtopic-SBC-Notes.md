@@ -32,8 +32,6 @@ https://www.hackster.io/mexmarv/iot-raspberry-pi-wifi-headless-setup-6be0de
 
 https://www.furkantokac.com/rpi3-fast-boot-less-than-2-seconds/
 
-https://medium.com/swlh/make-your-raspberry-pi-file-system-read-only-raspbian-buster-c558694de79
-
 # latest packages
 sudo apt-get update && apt-get upgrade
 sudo apt-get remove --purge triggerhappy logrotate dphys-swapfile
@@ -62,6 +60,44 @@ https://rusefi.com/forum/viewtopic.php?p=37563#p37563
 
 http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2#Dimensional_Diagram
 
+### SD card preparation
+
+Resize primary partition https://elinux.org/RPi_Resize_Flash_Partitions#Resizing
+```
+lsusb
+lsblk
+
+resize2fs /dev/sdb 4g
+
+parted /dev/sdb
+resizepart 1
+4300 works good for 4g filesystem
+quit
+
+e2fsck -f /dev/sdb1
+
+fdisk -l /dev/sdb
+to see last used sector and total number of sectors 
+
+fdisk  /dev/sdb
+n for 'new'
+p for 'primary'
+2
+begin (last used sector+1)
+end ( total number of sectors -1)
+
+blkid /dev/sdb2 | awk -F'"' '{print $2}'
+
+UUID=0e281f8d-1117-451d-9b1b-b07405a631bc /rw auto nosuid,nodev,nofail 0 0
+
+
+```
+
+now add ",ro" into /etc/fstab
+https://medium.com/swlh/make-your-raspberry-pi-file-system-read-only-raspbian-buster-c558694de79
+
+backup
+dd if=/dev/sdb of=2021_July_26_orange_zero.img
 
 # Orange PI CI setup
 
