@@ -56,4 +56,6 @@ WARNING GND#1<>GND#2 are mixed up on the image.
 
 # Outside information
 
+See https://rusefi.com/forum/viewtopic.php?f=2&t=2077 TODO move content to here
+
 lots of useful information here https://www.maxxecu.com/webhelp/wirings-e-throttle_bodies.html
