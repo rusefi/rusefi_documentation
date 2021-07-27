@@ -6,7 +6,6 @@ If you are rusEFI end user, you are looking at the wrong page - you are probably
 https://github.com/rusefi/rusefi/wiki 
 
 
-
 If you are looking to change rusEFI documentation you are in the right place! 
 
 This readme.md file is the main file visible at https://github.com/rusefi/rusefi_documentation
