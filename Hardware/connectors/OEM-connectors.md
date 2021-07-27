@@ -294,7 +294,7 @@ See also https://github.com/rusefi/rusefi/wiki/OEM-connectors#64-pin-nissan-cent
 
 https://www.te.com/usa-en/product-5-174385-5.html
 
-Nissan
+Nissan 1992 Skyline R32 GT-S 4 RB20DET
 
 <a name="80"/>
 
