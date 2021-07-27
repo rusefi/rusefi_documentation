@@ -179,13 +179,14 @@ Suzuki Hayabusa
 
 <a name="64"/>
 
-## 64 pin Nissan
+## 64 pin Nissan center lock
+
+https://www.te.com/usa-en/product-174836-5.html
 
 90-94
 
 center bolt
 
-TBD we have no idea
 
 ## 64 pin
 http://www.te.com/catalog/pn/en/176122-6
@@ -250,10 +251,6 @@ http://www.te.com/catalog/pn/en/966595-1
 VW Jetta, Passat
 
 See http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm
-
-## 68 pin center lock
-
-https://www.te.com/usa-en/product-174836-5.html
 
 <a name="72"/>
 
