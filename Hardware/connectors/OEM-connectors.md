@@ -290,6 +290,8 @@ And terminals 173716-1 or 173716-2 and 173630-1 or 173630-2
 
 ## 76 pin center lock
 
+See also https://github.com/rusefi/rusefi/wiki/OEM-connectors#64-pin-nissan-center-lock
+
 https://www.te.com/usa-en/product-5-174385-5.html
 
 Nissan
