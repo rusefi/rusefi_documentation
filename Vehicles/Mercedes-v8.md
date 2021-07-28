@@ -21,7 +21,7 @@ https://en.wikipedia.org/wiki/Mercedes-Benz_M113_engine
 
 # 2005 ML500
 
-![x](OEM-Docs/Mercedes/2005_ml500_1.png)
+![x](OEM-Docs/Mercedes/2005-ml500-1.png)
 
 ![x](OEM-Docs/Mercedes/2005_ml500_2.png)
 
