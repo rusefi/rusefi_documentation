@@ -10,3 +10,8 @@ the thing is, the harness changes slightly between the years
 
 
 https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUdvyo
+
+
+## Hardware Features 
+* x4 aux high current low side outputs
+* x2 aux high current H-bridge
