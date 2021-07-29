@@ -27,8 +27,11 @@ This development board is PnP for NA6 and 94-95 Miatas.
 * QMA7981 accelerometer on rev A.
 * LIS2DW12TR accelerometer on rev B
 
+Rev A
 
 ![x](Hardware/Hellen/hellen64na6-a.jpg)
+
+Rev B
 
 ![x](Hardware/Hellen/hellen64na6-b.jpg)
 
