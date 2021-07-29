@@ -479,6 +479,8 @@ Honda D17 Honda K
 
 353826-1 = ECU E 31
 
+See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM
+
 ## 128/145 pin
 Mercedes M111 https://www.ebay.com/itm/333791544427
 
