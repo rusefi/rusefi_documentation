@@ -30,6 +30,8 @@ This development board is PnP for NA6 and 94-95 Miatas.
 
 ![x](Hardware/Hellen/hellen64na6-a.jpg)
 
+![x](Hardware/Hellen/hellen64na6-b.jpg)
+
 ## Extension Pads (rev. b)
 
 | Pin | Type | Comments |
