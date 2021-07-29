@@ -11,7 +11,7 @@ Please Read https://opensource.com/life/16/10/how-ask-technical-questions
 
 A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on https://rusefi.com/forum/ Slack often comes handy for follow-up discussion. Slack registration http://rusefi.com/slack/ and login https://rusefi.slack.com/
 
-## Q: do you guys prefer short text descriptions or long text descriptions?
+## Q: Do you guys prefer short text descriptions or long text descriptions?
 
 A: We prefer longer problem descriptions with as much of supporting material as possible. Screen shots, videos etc.
 Just a reminder that to attach a screen shot to the forum post you LITERLLY need to hit under 6 keys.
@@ -37,7 +37,11 @@ Q: Matt and Andrey are on Facebook, shall I message Matt or Andrey directly?
 A: Unfortunately we do not have resources for technical support via Facebook direct messages.
 Same about forum private messages. Please use public channels to have a higher chance of a response from the community. The more effort you make to ask a good question, the better response you would get. See also [HOWTO-ask-questions](HOWTO-ask-questions)
 
-Q: how do I attach logs to my forum post? Looks like forum does not allow .msl files?
+Q: Is there an option for priority support?
+
+A: Commercial support is available https://www.ebay.com/itm/333612090037
+
+Q: How do I attach logs to my forum post? Looks like forum does not allow .msl files?
 
 A: in TunerStudio, please use "Help->Create TunerStudio Debug Package" button - this would combine your tune and your logs.
 Just make sure to remove the oldest unneeded logs from your DataLogs folder :) 
