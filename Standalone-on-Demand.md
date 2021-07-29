@@ -1,6 +1,6 @@
-We can develop and fabricate a Standalone PnP ECU board for more or less any port injected gasoline engine for $400.
+We can develop and fabricate a Standalone PnP ECU board for more or less any port injected gasoline engine for $550.
 
-(well, minimal order of three required)
+(well, minimal order of three required so minimal order price $1650)
 
 * two months turn around time
 * up to dual ETB
