@@ -12,4 +12,4 @@ We can develop and fabricate a Standalone PnP ECU board for more or less any por
 * if we mess up second round is on us!
 * interested in GDI? Let's talk!
 
-Powered by [Hellen-One-Platform](Hellen One Platform)
+Powered by [Hellen One Platform](Hellen-One-Platform)
