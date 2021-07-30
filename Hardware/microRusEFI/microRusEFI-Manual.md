@@ -4,9 +4,9 @@
 
 [Download nightly firmware](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 
-[rusEFI Hardware](Hardware-microRusEFI)
+[microRusEFI Hardware](Hardware-microRusEFI)
 
-[rusEFI wiring](Hardware-microRusEFI-wiring)
+[microRusEFI wiring](Hardware-microRusEFI-wiring)
 
 [HOWTO program rusEFI using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
