@@ -35,3 +35,7 @@ A: it's mostly an experiment really. As of July 2021 we have an open source boar
 
 
 [Dev Information](https://github.com/andreika-git/hellen-one/wiki) 
+
+
+
+![x](Hardware/Hellen/hellen-one-logo-300.jpg)
