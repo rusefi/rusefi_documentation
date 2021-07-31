@@ -19,4 +19,6 @@ This procedure does NOT test
 
 
 
-After the text please flash latest normal release. Attach an orange QC sticker to the part of the connector visible outside of the case.
+After the text please flash latest normal release https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip
+
+Attach an orange QC sticker to the part of the connector visible outside of the case.
