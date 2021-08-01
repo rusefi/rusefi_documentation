@@ -577,6 +577,10 @@ http://www.te.com/catalog/pn/en/9-1326729-8
 
 EDC16 EDC17
 
+09 10 11 12 HYUNDAI ELANTRA 2.0L
+
+2011 2012 Kia Sorento 2.4L 39133-2G120 K17 019
+
 http://www.te.com/catalog/pn/en/284617-1
 
 http://www.te.com/catalog/pn/en/936524-2
@@ -602,6 +606,10 @@ Aptiv Delphi 13830808
 ## 196 pin
 
 Bosch 91 & 105
+
+2011 2012 2013 Kia Optima
+
+HYUNDAI SONATA 2011 2012 2013 2014 39111-2G667 2.4L ECM PCM OEM
 
 ## 200 pin
 http://www.te.com/catalog/pn/en/6473649-1
