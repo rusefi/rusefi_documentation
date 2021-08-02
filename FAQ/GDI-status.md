@@ -1,4 +1,4 @@
-
+TL,DR: we had car [starting/idling](https://youtu.be/JB2RnAJJSOk) using a [plywood board](https://rusefi.com/forum/download/file.php?id=6429) we have postponed GDI progress until funding or qualified contributor joins the game.
 
 [Forum thread for test mule](https://rusefi.com/forum/viewtopic.php?f=3&t=1631)
 
