@@ -1,5 +1,7 @@
 [Issue tracker](https://github.com/rusefi/hellen154hyundai-issues)
 
+[pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
+
 https://en.wikipedia.org/wiki/Hyundai_Genesis_Coupe
 
 Genesis Coupe 2.0T
