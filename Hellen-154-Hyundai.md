@@ -2,6 +2,8 @@
 
 [pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
 
+[Schematics rev a](Hardware/Hellen/hellen154hyundai-a-schematic.pdf)
+
 https://en.wikipedia.org/wiki/Hyundai_Genesis_Coupe
 
 Genesis Coupe 2.0T
