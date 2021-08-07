@@ -603,6 +603,10 @@ me9.7
 
 Aptiv Delphi 13830808
 
+## 154 pin Molex
+
+https://www.molex.com/molex/products/part-detail/pcb_headers/0347630001
+
 ## 196 pin
 
 Bosch 91 & 105
