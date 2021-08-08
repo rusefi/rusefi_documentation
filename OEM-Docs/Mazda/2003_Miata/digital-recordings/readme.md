@@ -1,4 +1,4 @@
-.sal is file extension of Saleae v2
+.sal is file extension of Saleae v2 https://www.saleae.com/downloads/
 
 First channel is CRANK shaft - see RIGHT 4 tooth per revolution shape on https://github.com/rusefi/rusefi/wiki/Images/triggers/trigger_4.png
 
