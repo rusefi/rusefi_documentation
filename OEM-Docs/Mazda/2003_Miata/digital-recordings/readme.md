@@ -1,5 +1,9 @@
 .sal is file extension of Saleae v2
 
+First channel is CRANK shaft - see RIGHT 4 tooth per revolution shape on https://github.com/rusefi/rusefi/wiki/Images/triggers/trigger_4.png
+
+Second channel is CAM shaft (half speed of CRANK shaft) - three tooth per revolution see left on https://github.com/rusefi/rusefi/wiki/Images/triggers/trigger_4.png
+
 nb2-happy-warmup-idle: good spark plugs, everything good
 
 nb2-idle-without-injector-2: same good spark plugs but injector #2 disable in software
