@@ -625,6 +625,10 @@ https://www.molex.com/molex/products/part-detail/pcb_headers/0347630001
 
 ## 196 pin
 
+1928405455 105 plug
+
+1928405452
+
 Bosch 91 & 105
 
 2011 2012 2013 Kia Optima
