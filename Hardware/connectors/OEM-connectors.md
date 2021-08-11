@@ -481,6 +481,16 @@ Honda D17 Honda K
 
 See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM
 
+## 126 4 row
+
+https://www.te.com/usa-en/product-1-353222-6.html
+
+1123338-1 35 pin plug
+
+2000s Mazda 6 ?
+
+06-07 Subaru ?
+
 ## 128/145 pin
 Mercedes M111 https://www.ebay.com/itm/333791544427
 
@@ -607,7 +617,17 @@ Aptiv Delphi 13830808
 
 https://www.molex.com/molex/products/part-detail/pcb_headers/0347630001
 
+## 167
+
+4 row
+
+1318813
+
 ## 196 pin
+
+1928405455 105 plug
+
+1928405452
 
 Bosch 91 & 105
 
