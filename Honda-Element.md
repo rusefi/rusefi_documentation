@@ -12,10 +12,10 @@ https://en.wikipedia.org/wiki/Honda_Element
 
 # 2008 K24A8 
 
-![x](OEM-Docs/Honda/2008-honda-element-ecu-1.png)
+![x](OEM-Docs/Honda/2008-element-1.png)
 
-![x](OEM-Docs/Honda/2008-honda-element-ecu-2.png)
+![x](OEM-Docs/Honda/2008-element-2.png)
 
-![x](OEM-Docs/Honda/2008-honda-element-ecu-3.png)
+![x](OEM-Docs/Honda/2008-element-3.png)
 
-![x](OEM-Docs/Honda/2008-honda-element-ecu-4.png)
+![x](OEM-Docs/Honda/2008-element-4.png)
