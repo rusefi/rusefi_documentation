@@ -13,6 +13,8 @@
 
 [[Nissan-Xterra-2011]]
 
+[Almera](OEM-Docs/Nissan/Almera-N16-ECU.pdf)
+
 [[Vault-Of-Nissan-OEM]]
 
 ## Hardware features
