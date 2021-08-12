@@ -33,7 +33,7 @@ Dual AFR signal logging|✓
 [Digital Dash](Digital-Dash)|✓
 [Knock Sensing](knock-sensing)|✓
 [Multi-Spark](https://github.com/rusefi/rusefi/wiki/Multi-Spark)|✓
-[Lua Scripting](Lua-Scripting)✓
+[Lua Scripting](Lua-Scripting)|✓
 [Rotary Engines](Rotary)|?
 [Knock response](https://github.com/rusefi/rusefi/issues/202)|✗
 [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)|✗
