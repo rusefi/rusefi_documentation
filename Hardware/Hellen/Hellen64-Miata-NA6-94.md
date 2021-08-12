@@ -104,3 +104,7 @@ This development board is PnP for NA6 and 94-95 Miatas.
 | 2N | Temperature Sensor | |
 | 2O | Ground | |
 | 2P | Knock Sensor Input | |
+
+**Options Port Schematic**
+
+![x](Hardware/Hellen/H64b-Options.jpg)
