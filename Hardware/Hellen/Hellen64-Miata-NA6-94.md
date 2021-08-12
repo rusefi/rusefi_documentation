@@ -16,9 +16,7 @@ This development board is PnP for NA6 and 94-95 Miatas.
 * knock detection module
 * build-in WBO
 * battery to keep real time clock running
-* LPS25HB baro sensor
-* QMA7981 accelerometer on rev A.
-* LIS2DW12TR accelerometer on rev B
+* options port for additional I/O
 
 ## **Rev A**
 
