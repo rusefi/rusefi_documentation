@@ -32,6 +32,8 @@ Dual AFR signal logging|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
 [Digital Dash](Digital-Dash)|✓
 [Knock Sensing](knock-sensing)|✓
+[Multi-Spark](https://github.com/rusefi/rusefi/wiki/Multi-Spark)|✓
+[Lua Scripting](Lua-Scripting)|✓
 [Rotary Engines](Rotary)|?
 [Knock response](https://github.com/rusefi/rusefi/issues/202)|✗
 [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)|✗
@@ -40,7 +42,7 @@ Flat Shifting|✗
 Automatic Transmission Control|✗
 [Direct Injection](GDI-status)|✗
 [Kick start](Kick-Start)|✗
-[Multi-Spark](https://github.com/rusefi/rusefi/wiki/Multi-Spark)|✗
+
 
 
 Achievement| Results 
