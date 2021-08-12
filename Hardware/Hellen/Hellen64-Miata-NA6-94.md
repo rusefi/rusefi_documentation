@@ -19,17 +19,14 @@ This development board is PnP for NA6 and 94-95 Miatas.
 * LPS25HB baro sensor
 * QMA7981 accelerometer on rev A.
 * LIS2DW12TR accelerometer on rev B
-**---------------------------------------------------------------------------------------------------------------------------------------------------**
 
-**Rev A**
+## **Rev A**
 
 [Schematic Rev A](Hardware/Hellen/hellen64_miataNA6_94-a-schematic.pdf)
 
 ![x](Hardware/Hellen/hellen64na6-a.jpg)
 
-**---------------------------------------------------------------------------------------------------------------------------------------------------**
-
-**Rev B**
+## **Rev B**
 
 ![x](Hardware/Hellen/hellen64na6-b.jpeg)
 
@@ -86,3 +83,8 @@ This development board is PnP for NA6 and 94-95 Miatas.
 | P5 | GPIO | | 
 | P6 | GPIO | | 
 | J4 | SPI, UART, I2C, GPIO | See silkscreen and schematic for details | 
+
+## Options Port (rev. b)
+
+| Pin | Type | Comments |
+|---|---|---|
