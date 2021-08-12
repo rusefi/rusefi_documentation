@@ -88,3 +88,19 @@ This development board is PnP for NA6 and 94-95 Miatas.
 
 | Pin | Type | Comments |
 |---|---|---|
+| 2A | Ground | |
+| 2B | +5v | |
+| 2C | WBO Heater - | LSU 4.9 Pin 3 |
+| 2D | +12v | LSU 4.9 Pin 4 |
+| 2E | WBO R Trim | LSU 4.9 Pin 5 |
+| 2F | WBO Ip | LSU 4.9 Pin 1 |
+| 2G | WBO Vs/Ip | LSU 4.9 Pin 2 |
+| 2H | WBO Vs | LSU 4.9 Pin 6 |
+| 2I | VVT Output | |
+| 2J | Boost Control Output | |
+| 2K | Ground | |
+| 2L | Digital Input | Flex Sensor |
+| 2M | Pressure Sensor | |
+| 2N | Temperature Sensor | |
+| 2O | Ground | |
+| 2P | Knock Sensor Input | |

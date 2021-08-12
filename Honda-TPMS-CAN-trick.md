@@ -5,3 +5,5 @@ First generation of Honda K ECUs around 2002-2006 had CAN bus on the vehicle (Ho
 ![x](OEM-Docs/Honda/2006-civic-tmps-pinout.png)
 
 ![x](OEM-Docs/Honda/2006-civic-tmps-plug.png)
+
+![x](OEM-Docs/Honda/2007_acura_TSX_buses.png)
