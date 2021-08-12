@@ -31,7 +31,7 @@ Rev A
 
 Rev B
 
-![x](Hardware/Hellen/hellen64na6-b.jpg)
+![x](Hardware/Hellen/hellen64na6-b.jpeg)
 
 ## Extension Pads (rev. b)
 
