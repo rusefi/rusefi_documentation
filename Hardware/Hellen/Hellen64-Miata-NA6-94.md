@@ -7,14 +7,9 @@ This development board is PnP for NA6 and 94-95 Miatas.
 
 [Issue tracker](https://github.com/rusefi/hellenNA6_issues)
 
-[Schematic Rev A](Hardware/Hellen/hellen64_miataNA6_94-a-schematic.pdf)
+[Mazda Miata 1990 Schematic](Mazda-Miata-1990)
 
-[Schematic Rev B](Hardware/Hellen/hellen64_miataNA6_94-b-schematic.pdf)
-
-
-[Mazda Miata 1990](Mazda-Miata-1990)
-
-[Mazda Miata 1994](Mazda-Miata-1994)
+[Mazda Miata 1994 Schematic](Mazda-Miata-1994)
 
 ## Hardware features
 
@@ -24,14 +19,21 @@ This development board is PnP for NA6 and 94-95 Miatas.
 * LPS25HB baro sensor
 * QMA7981 accelerometer on rev A.
 * LIS2DW12TR accelerometer on rev B
+**---------------------------------------------------------------------------------------------------------------------------------------------------**
 
-Rev A
+**Rev A**
+
+[Schematic Rev A](Hardware/Hellen/hellen64_miataNA6_94-a-schematic.pdf)
 
 ![x](Hardware/Hellen/hellen64na6-a.jpg)
 
-Rev B
+**---------------------------------------------------------------------------------------------------------------------------------------------------**
+
+**Rev B**
 
 ![x](Hardware/Hellen/hellen64na6-b.jpeg)
+
+[Schematic Rev B](Hardware/Hellen/hellen64_miataNA6_94-b-schematic.pdf)
 
 ## Extension Pads (rev. b)
 
