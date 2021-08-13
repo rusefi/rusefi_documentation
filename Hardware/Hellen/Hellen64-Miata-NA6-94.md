@@ -1,6 +1,7 @@
 This development board is PnP for NA6 and 94-95 Miatas.
 
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
+
 [Nightly firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellenNA6.zip)
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen64_miataNA6_94/)
@@ -106,3 +107,9 @@ This development board is PnP for NA6 and 94-95 Miatas.
 **Options Port Schematic**
 
 ![x](Hardware/Hellen/H64b-Options.jpg)
+
+[Options Port Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/3460?osCsid=ru4mqe3g51skdvoflufkdpao00)
+
+[LSU 4.9 Wideband Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/2081)
+
+[LSU 4.9 Wideband Sensor](https://www.bmotorsports.com/shop/product_info.php/products_id/1645) Or Similar
