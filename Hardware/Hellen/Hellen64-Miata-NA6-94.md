@@ -106,3 +106,9 @@ This development board is PnP for NA6 and 94-95 Miatas.
 **Options Port Schematic**
 
 ![x](Hardware/Hellen/H64b-Options.jpg)
+
+[Options Port Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/3460?osCsid=ru4mqe3g51skdvoflufkdpao00)
+
+[LSU 4.9 Wideband Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/2081)
+
+[LSU 4.9 Wideband Sensor](https://www.bmotorsports.com/shop/product_info.php/products_id/1645) Or Similar
