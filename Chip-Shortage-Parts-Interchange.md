@@ -18,4 +18,8 @@ Requirements:
 
 # Hellen
 
+any f405xG should work
+
+G = 1MB
+
 https://github.com/andreika-git/hellen-one/labels/CHIP-SHORTAGE
