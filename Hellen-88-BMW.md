@@ -4,6 +4,8 @@ M50tu and Pre-1995 USA M3
 
 [schematics DRAFT](Hardware/Hellen/hellen88bmw-a-schematic.pdf)
 
+[Issue Tracker](https://github.com/rusefi/hellen88bmw-issues)
+
 [iIbom-a](https://rusefi.com/docs/ibom/hellen88bmw-a-ibom.html)
 
 
