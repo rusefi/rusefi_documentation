@@ -4,9 +4,9 @@ todo organize these notes better
 
 https://rusefi.com/forum/viewtopic.php?p=41539#p41539
 
-BM2LC105FJ 3A?
+Highside BTS4175SGA: BSP762/ISP762, ISP752T
 
-BM2LB150FJ 6.5A?
+BM2LC105FJ-C is replacement for VNLD5160
 
 ## Proteus MCU options
 
