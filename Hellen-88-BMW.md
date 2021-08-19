@@ -11,11 +11,12 @@ M50tu and Pre-1995 USA M3
 
 [BMW e34](BMW e34)
 [BMW e36](BMW-e36)
+[https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bmw/1994_e36/1996%20BMW%20318is-c%20-%20320i%20-%20325i-c%20-%20328i-c%20%20Electrical%20Troubleshooting%20Manual.pdf](1996 325 electrical manual)
 
 
 [Dev Pinout Notes](https://docs.google.com/spreadsheets/d/1OiEaak7TElKwF-fXWvl9Dk-fD84a0NENe6lOwhXiOe4/)
 
-https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bmw/1994_e36/1996%20BMW%20318is-c%20-%20320i%20-%20325i-c%20-%20328i-c%20%20Electrical%20Troubleshooting%20Manual.pdf
+
 
 
 
@@ -40,3 +41,11 @@ M1.7 - E30 M42
 M1.7.2- E36 M42
 M1.7.3 - Z3 M44
 M5.2 - E36/Z3 M44 and M62 and M73
+
+
+
+## Auxiliary Pins
+* Dual channel H-bridge footprint
+* Dual channel PPS and TPS sensors add-on connector
+* GPIO pins XXX: 
+
