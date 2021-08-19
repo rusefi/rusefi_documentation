@@ -23,7 +23,7 @@ M50tu and Pre-1995 USA M3
 
 
 ## Supported
-We hope that this board supports:
+Up to 8 cylinder with OEM dumb or aftermarket smart coils. We hope that this board supports:
 * M3.1 - M50
 * M3.3 - M60 and Pre-1995 Euro M3
 * M3.3.1 - M50tu and Pre-1995 USA M3
