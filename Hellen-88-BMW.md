@@ -19,10 +19,11 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bmw/1994_e36
 
 
 
-
+## Supported
 We hope that this board supports:
 * TBD
 
+## Not supported
 This board definitely does not support:
 
 Siemens
