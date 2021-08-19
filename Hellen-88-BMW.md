@@ -21,7 +21,9 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bmw/1994_e36
 
 ## Supported
 We hope that this board supports:
-* TBD
+* M3.1 - M50
+* M3.3 - M60 and Pre-1995 Euro M3
+* M3.3.1 - M50tu and Pre-1995 USA M3
 
 ## Not supported
 This board definitely does not support:
@@ -37,7 +39,4 @@ Bosch
 M1.7 - E30 M42
 M1.7.2- E36 M42
 M1.7.3 - Z3 M44
-M3.1 - M50
-M3.3 - M60 and Pre-1995 Euro M3
-M3.3.1 - M50tu and Pre-1995 USA M3
 M5.2 - E36/Z3 M44 and M62 and M73
