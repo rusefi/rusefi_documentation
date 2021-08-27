@@ -8,6 +8,8 @@ Highside BTS4175SGA: BSP762/ISP762, ISP752T
 
 BM2LC105FJ-C is replacement for VNLD5160
 
+MCP6004T-I/ST: MCP6004T-E/ST
+
 ## Proteus MCU options
 
 Requirements:
