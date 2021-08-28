@@ -25,3 +25,6 @@ any f405xG should work
 G = 1MB
 
 https://github.com/andreika-git/hellen-one/labels/CHIP-SHORTAGE
+
+todo:
+shall we try TLE82092 one day?
