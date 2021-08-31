@@ -136,6 +136,11 @@ Valid `index` parameter values:
 | 2 | Brake switch |
 | 3 | AC switch |
 
+### readPin
+
+Reads physical value of arbitrary MCU pin
+- Parameters
+ - `pinName`: string name of MCU pin, for examples "PD15"
 
 ## Output
 
