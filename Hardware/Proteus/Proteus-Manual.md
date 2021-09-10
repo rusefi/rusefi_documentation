@@ -4,7 +4,7 @@ https://www.ebay.com/itm/333841923141
 
 # Software
 
-[Download F4 release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [Download F7 release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
+Release firmware: [[Download F4]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [[Download F7]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
 
 [Download F4 nightly firmware](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip) [Download F7 nightly firmware](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
 
