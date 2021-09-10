@@ -10,7 +10,7 @@ Nightly firmware: [[Download F4]](https://rusefi.com/build_server/rusefi_bundle_
 
 ## Wiring & Pinout
 
-[Pinout for version 0.3, 0.4, and 0.5 (green)](Hardware-Proteus-Wiring-v03)
+[Pinout for version 0.3, 0.4, 0.5 and 0.6 (green or blue)](Hardware-Proteus-Wiring-v03)
 
 [Pinout for version 0.2 (black)](Hardware-Proteus-Wiring-v02)
 
