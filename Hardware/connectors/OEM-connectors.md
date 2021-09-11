@@ -402,6 +402,10 @@ https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
 
 2010 Nissan Versa
 
+## 112 pin 56+56
+
+56+56 Suzuki 
+
 ## 120 pin
 
 http://www.te.com/usa-en/product-1-178405-6.html
