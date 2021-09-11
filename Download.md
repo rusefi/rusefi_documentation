@@ -6,9 +6,7 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 [microRusEFI 0.4 and newer (STM32F4)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
 
-[Proteus 0.6 (STM32F7)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
-
-[Proteus 0.3-0.5 (STM32F4)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip)
+[Proteus](Proteus-Manual#software)
 
 [STM32 Discovery](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_default.zip)
 

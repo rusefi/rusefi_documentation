@@ -4,9 +4,9 @@ https://www.ebay.com/itm/333841923141
 
 # Software
 
-Release firmware: [[Download F4]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [[Download F7]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
+Proteus 0.6 (STM32F7)  [[Release F7]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip) [[Nightly F7]](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
 
-Nightly firmware: [[Download F4]](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip) [[Download F7]](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
+Proteus 0.3-0.5 (STM32F4) [[Release F7]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [[Nightly  F4]](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip) 
 
 ## Wiring & Pinout
 
