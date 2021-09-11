@@ -406,6 +406,8 @@ https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
 
 56+56 Suzuki 
 
+1 928 405 216 Bosch
+
 ## 120 pin
 
 http://www.te.com/usa-en/product-1-178405-6.html
