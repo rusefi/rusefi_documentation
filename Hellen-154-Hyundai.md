@@ -1,4 +1,4 @@
-[Issue tracker](https://github.com/rusefi/hellen154hyundai-issues)
+[Issue tracker & Repository](https://github.com/rusefi/hellen154hyundai)
 
 [pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
 
