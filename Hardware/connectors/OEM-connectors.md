@@ -11,7 +11,7 @@
 
 [104 pin: Honda OBD2a/b](#104)
 
-[112 pin](#112)
+[112 pin](#112-pin)
 
 [121 pin](#121)
 
@@ -406,7 +406,9 @@ https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
 
 ## 112 pin 56+56
 
-56+56 Suzuki ALTO
+56+56 Suzuki ALTO Jimny Swift
+
+Fiat 500 1.4T
 
 me17.3.0
 
