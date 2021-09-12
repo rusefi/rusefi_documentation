@@ -223,7 +223,7 @@ Some older German vehicles
 
 ![x](Images/triggers/trigger_55.png)
 
-## Ford
+## Ford PIP
 
 ![Ford PIP](Images/triggers/trigger_65.png)
 
