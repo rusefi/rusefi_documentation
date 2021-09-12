@@ -404,7 +404,7 @@ https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
 
 ## 112 pin 56+56
 
-56+56 Suzuki 
+56+56 Suzuki ALTO
 
 me17.3.0
 
