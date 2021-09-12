@@ -406,6 +406,8 @@ https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
 
 56+56 Suzuki 
 
+me17.3.0
+
 1 928 405 216 Bosch
 
 ## 120 pin
