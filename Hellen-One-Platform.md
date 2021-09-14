@@ -14,6 +14,7 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |[121 Pin VAG](Hellen121VAG)|[Buy Here](https://www.ebay.com/itm/334048095704)|
 |[121 Pin Nissan](Hellen-121-Nissan)|[Buy Here](https://www.ebay.com/itm/334061645783)|
 |[128 Pin Mercedes](Hellen-128-Mercedes)|[Buy Here]()|
+|[154 Pin Hyundai](Hellen-154-Hyundai)|[Buy Here]()|
 |88 Pin BMW coming soon!|[Buy Here]()|
 
 
