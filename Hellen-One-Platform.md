@@ -8,7 +8,7 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 
 |Platform|Purchase|
 |--------|--------|
-|[64 Pin Miata 90-95](Hellen64-Miata-NA6-94)|[Buy Here](https://www.ebay.com/itm/234060110093)|
+|[Miata 90-95](Hellen64-Miata-NA6-94)|[Buy Here](https://www.ebay.com/itm/234060110093)|
 |[Miata NB1](Hellen-NB1)|[Buy Here]()|
 |[72 Pin Miata 01-05](Hellen72)|[Buy Here](https://www.ebay.com/itm/334064047907)|
 |[121 Pin VAG](Hellen121VAG)|[Buy Here](https://www.ebay.com/itm/334048095704)|
