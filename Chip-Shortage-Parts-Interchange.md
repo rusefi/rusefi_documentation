@@ -20,6 +20,8 @@ Requirements:
 
 # Hellen
 
+See also https://github.com/andreika-git/hellen-one/wiki/JLC-fabrication-component-substitution-options
+
 any f405xG should work
 
 G = 1MB
