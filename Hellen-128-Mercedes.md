@@ -58,7 +58,30 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 | P29 | Vs | |
 | J19 | SWD | |
 
-## Ignition jumpers (rev. a)
+## Extension Pads (rev. b)
+
+| Pin | Type | Comments |
+|---|---|---|
+||**Outputs**||
+| P19 | Low side | 0.5 A |
+| P33 | Bridge driver B | 3 A peak |
+| P34 | Low side | 0.5 A |
+| P35 | Low side | 0.5 A |
+|   | **Inputs** |   |
+| P30 | Analog pull up | |
+| P31 | Analog pull down | |
+| P32 | Analog pull down | |
+| P36 | Analog pull down | |
+| P40 | Analog pull up | |
+| P41 | Analog pull up | |
+|   | **MCU** |   |
+| J1 | SPI, UART/GPIO | See schematic for details | 
+|   | **WBO1** |   |
+| J9 | XH-8 WBO1 connector| |
+|   | **WBO2** |   |
+| J18 | XH-8 WBO2 connector| |
+
+## Ignition jumpers (rev. a, rev. b)
 
 | Vehicle | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | F10 | F11 | F12 | F13 | F14 | F15 | F16 | F17 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
