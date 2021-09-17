@@ -11,11 +11,15 @@
 
 [104 pin: Honda OBD2a/b](#104)
 
+[112 pin](#112-pin)
+
 [121 pin](#121)
 
 [122 pin](#122)
 
 [125 pin](#125)
+
+[132 pin](#132)
 
 [134 pin](#134)
 
@@ -402,6 +406,16 @@ https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
 
 2010 Nissan Versa
 
+## 112 pin 56+56
+
+56+56 Suzuki ALTO Jimny Swift
+
+Fiat 500 1.4T
+
+me17.3.0
+
+1 928 405 216 Bosch
+
 ## 120 pin
 
 http://www.te.com/usa-en/product-1-178405-6.html
@@ -515,6 +529,26 @@ In reality
 A0235459732 
 A0225452732
 A0275457932 
+
+<a name="132"/>
+
+## 132 pin
+
+https://www.te.com/usa-en/product-1717139-1.html
+
+This appears to be used on **many** 08-14ish Honda and Acura ECUs.  The harness connectors are 3 different keyed 44 pin connectors.  More info:
+
+Connector A (White) 44 Position Plug Assembly (Female): 1717138-6
+Connector A (White) 44 Position Wire Cover: 1827108-1
+Connector B (Grey) 44 Position Plug Assembly (Female): 1717138-5
+Connector B (Grey) 44 Position Wire Cover: 1827109-1
+Connector C (Green) 44 Position Plug Assembly (Female): 1717138-4
+Connector C (Green) 44 Position Wire Cover: 1674419-2
+Cavity Plug: 1612108-4
+Wire Cover V Type: 1746089-1
+132 Position Cap Assembly (Male) (Part of the ECM assembly): 1717139-1
+44 Position Wire Cover Type-IV: 1903287-1
+
 
 <a name="134"/>
 

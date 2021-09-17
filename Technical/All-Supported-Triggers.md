@@ -223,6 +223,12 @@ Some older German vehicles
 
 ![x](Images/triggers/trigger_55.png)
 
+## Ford PIP
+
+![Ford PIP](Images/triggers/trigger_65.png)
+
+
+
 ## Unknown trigger type
 
 [Unknown Trigger](Unknown-Trigger)

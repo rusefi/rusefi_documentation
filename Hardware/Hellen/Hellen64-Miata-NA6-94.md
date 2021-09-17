@@ -1,9 +1,10 @@
 This development board is PnP for NA6 and 94-95 Miatas.
 
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
+
 [Nightly firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellenNA6.zip)
 
-[Pinout](https://rusefi.com/docs/pinouts/hellen/hellen64_miataNA6_94/)
+[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen64_miataNA6_94/)
 
 [Issue tracker](https://github.com/rusefi/hellenNA6_issues)
 
@@ -16,9 +17,7 @@ This development board is PnP for NA6 and 94-95 Miatas.
 * knock detection module
 * build-in WBO
 * battery to keep real time clock running
-* LPS25HB baro sensor
-* QMA7981 accelerometer on rev A.
-* LIS2DW12TR accelerometer on rev B
+* options port for additional I/O
 
 ## **Rev A**
 
@@ -88,3 +87,31 @@ This development board is PnP for NA6 and 94-95 Miatas.
 
 | Pin | Type | Comments |
 |---|---|---|
+| 2A | Ground | |
+| 2B | +5v | |
+| 2C | WBO Heater - | LSU 4.9 Pin 3 |
+| 2D | +12v | LSU 4.9 Pin 4 |
+| 2E | WBO R Trim | LSU 4.9 Pin 5 |
+| 2F | WBO Ip | LSU 4.9 Pin 1 |
+| 2G | WBO Vs/Ip | LSU 4.9 Pin 2 |
+| 2H | WBO Vs | LSU 4.9 Pin 6 |
+| 2I | VVT Output | |
+| 2J | Boost Control Output | |
+| 2K | Ground | |
+| 2L | Digital Input | Flex Sensor |
+| 2M | Pressure Sensor | |
+| 2N | Temperature Sensor | |
+| 2O | Ground | |
+| 2P | Knock Sensor Input | |
+
+**Options Port Schematic**
+
+![x](Hardware/Hellen/H64b-Options.jpg)
+
+## Additional Hardware
+
+[Options Port Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/3460?osCsid=ru4mqe3g51skdvoflufkdpao00)
+
+[LSU 4.9 Wideband Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/2081)
+
+[LSU 4.9 Wideband Sensor](https://www.bmotorsports.com/shop/product_info.php/products_id/1645) Or Similar

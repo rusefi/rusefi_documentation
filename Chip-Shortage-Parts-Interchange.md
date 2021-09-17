@@ -4,9 +4,11 @@ todo organize these notes better
 
 https://rusefi.com/forum/viewtopic.php?p=41539#p41539
 
-BM2LC105FJ 3A?
+Highside BTS4175SGA: BSP762/ISP762, ISP752T
 
-BM2LB150FJ 6.5A?
+BM2LC105FJ-C is replacement for VNLD5160
+
+MCP6004T-I/ST: MCP6004T-E/ST
 
 ## Proteus MCU options
 
@@ -18,4 +20,13 @@ Requirements:
 
 # Hellen
 
+See also https://github.com/andreika-git/hellen-one/wiki/JLC-fabrication-component-substitution-options
+
+any f405xG should work
+
+G = 1MB
+
 https://github.com/andreika-git/hellen-one/labels/CHIP-SHORTAGE
+
+todo:
+shall we try TLE82092 one day?
