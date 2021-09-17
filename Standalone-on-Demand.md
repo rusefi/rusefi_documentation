@@ -1,4 +1,4 @@
-We can develop and fabricate a Standalone PnP ECU board for more or less any port injected gasoline engine for $550.
+We can develop and fabricate a Standalone PnP ECU board* for more or less any port injected gasoline engine for $550.
 
 (well, minimal order of three required so minimal order price $1650)
 
@@ -16,3 +16,14 @@ Powered by [Hellen One Platform](Hellen-One-Platform)
 
 
 ![x](Hardware/Hellen/hellen-one-logo-300.jpg)
+
+
+# Plug and Play
+
+* Uses OEM header (new if available, used otherwise)
+* Goes into OEM case
+* Basic CAN programming included according to provided CAN message format
+* Tuning NOT included
+* K-line NOT supported
+* Vehicle integration research NOT included
+* TL,DR: this is a _blank_ PnP _board_ not a "Hook it up and drive to the race track" deal. Please do your research!
