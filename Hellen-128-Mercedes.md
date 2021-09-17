@@ -1,4 +1,4 @@
-<a href="https://www.ebay.com/itm/334094173341"><img src="https://github.com/rusefi/rusefi_documentation/raw/master/Images/120px-IGN.jpg"></a>
+<a href="https://www.ebay.com/itm/334094173341"><img src="https://raw.githubusercontent.com/rusefi/rusefi_documentation/master/Images/ebay_gen_button.gif"></a>
 
 This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 engine; late 90s-early 2000s. confirm your ECU)
 
