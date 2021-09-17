@@ -1,4 +1,6 @@
-This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 engine; late 90s-early 2000s. confirm your ecu)
+<a href="https://www.ebay.com/itm/334094173341"><img src="https://github.com/rusefi/rusefi_documentation/raw/master/Images/120px-IGN.jpg"></a>
+
+This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 engine; late 90s-early 2000s. confirm your ECU)
 
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
 [Nightly firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
