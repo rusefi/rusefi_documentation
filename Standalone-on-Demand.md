@@ -17,6 +17,7 @@ Powered by [Hellen One Platform](Hellen-One-Platform)
 
 ![x](Hardware/Hellen/hellen-one-logo-300.jpg)
 
+For list of Hellen boards available for sale already see [Hellen-One-Platform](Hellen-One-Platform)
 
 # Plug and Play
 
