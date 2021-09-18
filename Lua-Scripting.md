@@ -109,6 +109,15 @@ Reads the raw value from the specified sensor.  For most sensors, this means the
 - Returns
   - The raw value that yielded the sensor reading, or 0 if the sensor doesn't support raw readings, isn't configured, or has failed.
 
+### `getAuxAnalog(index)`
+
+More or less like getSensorRaw but always voltage of aux analog input. 
+
+- Parameters
+  - `index`: Index of aux analog sensor to read. From 0 to 3
+- Returns
+  - Voltage of sensor reading, or nil if sensor isn't configured.
+
 ### `hasSensor(index)`
 
 Checks whether a particular sensor is configured (whether it is currently valid or not).
