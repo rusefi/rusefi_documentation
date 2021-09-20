@@ -244,6 +244,8 @@ https://rusefi.com/forum/viewtopic.php?f=4&t=1303
 
 Volkswagen
 0 261 204 281/282
+1997 Jetta
+
 0 261 200 497/498
 
 http://www.te.com/catalog/pn/en/963356-1
