@@ -2,7 +2,7 @@
 
 [pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
 
-[Schematics rev a](Hardware/Hellen/hellen154hyundai-a-schematic.pdf)
+[[Schematics rev a]](Hardware/Hellen/hellen154hyundai-a-schematic.pdf)[[ibom rev a]](https://rusefi.com/docs/ibom/hellen154hyundai-a-ibom.html)
 
 https://en.wikipedia.org/wiki/Hyundai_Genesis_Coupe
 
