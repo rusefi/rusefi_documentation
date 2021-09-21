@@ -14,4 +14,8 @@ Arguments against:
 
 # Vote with dollars proposal
 
-Ask FB rusEFI group members to post paypal deposits with platform votes. Winning total dollar amount moves forward, all other deposits are refunded.
+Maybe not attempt to decide based on _expert opinion_ but use dollar metric?
+
+Ask FB rusEFI group members to post paypal deposits with platform votes. Winning total dollar amount moves forward, all other deposits are refunded. Participants get ECUs at fixed $300 price once fabricated.
+
+todo: better articulate ^^^ idea in more understandable terms?
