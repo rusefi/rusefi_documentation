@@ -10,3 +10,8 @@ Arguments against:
 - good tuneability in OEM form
 - overall CAN and/or other data bus complexity
 
+
+
+# Vote with dollars proposal
+
+Ask FB rusEFI group members to post paypal deposits with platform votes. Winning total dollar amount moves forward, all other deposits are refunded.
