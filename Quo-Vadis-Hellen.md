@@ -3,7 +3,7 @@ What vehicle if any is a good candidate for next Hellen board?
 Arguments for:
 - cheap enthusiast platform like non-M3 e46
 - wide ECU reuse between different vehicles (Nissan 121 for instance)
-- test mules in rusEFI community
+- test mules in rusEFI community https://github.com/andreika-git/hellen-boards/blob/master/commercial_products/evil_thoughts.md
 
 Arguments against:
 - expensive platform like e46 M3
