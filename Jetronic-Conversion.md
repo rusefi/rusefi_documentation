@@ -5,4 +5,4 @@
 
 [![x](http://img.youtube.com/vi/e2SG5xNeZmI/0.jpg)](http://www.youtube.com/watch?v=e2SG5xNeZmI "Injector Insert")
 
-[Проводка ](https://disk.yandex.ru/i/SOGAFhDfFwNaLQ)
+[wiring-rus](mre-pinout-rus.pdf)
