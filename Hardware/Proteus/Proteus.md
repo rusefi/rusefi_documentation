@@ -56,4 +56,6 @@ https://github.com/rusefi/proteus-m73tu-adapter
 
 https://github.com/rusefi/proteus-M54-adapter
 
+https://github.com/rusefi/proteus-Honda-K-125-adapter
+
 https://github.com/rusefi/proteus-rx8-adapter
