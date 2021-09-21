@@ -51,6 +51,9 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 
 TODO:
+
 https://github.com/rusefi/proteus-m73tu-adapter
+
 https://github.com/rusefi/proteus-XXX-adapter
+
 https://github.com/rusefi/proteus-rx8-adapter
