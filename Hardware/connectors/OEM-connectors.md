@@ -110,6 +110,10 @@ The larger plugs are the same as on [the 64 pin](OEM-connectors#64-pin).
 ## 52 pin
 http://www.te.com/usa-en/product-172319-1.html
 
+https://www.ebay.com/itm/333749717058
+
+https://www.ebay.com/itm/333848385837
+
 10+18+24
 18 pin housing 172316-7
 10 pin housing 172315-7
@@ -118,6 +122,28 @@ contacts 170353-1
 Toyota early 3SGE, 7MGTE and 4AGZE
 
 Galant VR4, Eclipse 1G
+
+http://www.13betc.com/19861988-rx7-ecu-connector-52-pin-p-12.html says 
+```
+1991-1992 Dodge Stealth (SOHC Engine)
+1990-1994 Eagle Talon (All)
+1989 Ford Probe (F2T Engine)
+1986-1989 Mazda 323 (All)
+1986-1989 Mazda 626 (FE Turbo and F2T Engines)
+1986-1988 Mazda RX7 (Except for some European or JDM models)
+1988-1989 Mazda MX6 (F2T Engine)
+1991-1994 Mercury Capri (B6T Turbo Engine)
+1990-1994 Mitsubishi Eclipse (All)
+1988-1992 Mitsubishi Galant (All)
+1991-1992 Mitsubishi Galant VR4 (4G63 Engine)
+1990-1994 Plymouth Laser (All)
+1988-1989 Toyota Celica All-Trac (3SGTE Engine)
+1983-1986 Toyota Celica Supra (All)
+1988-1989 Toyota MR2 (4AGZE Engine)
+1983-1986 Toyota Supra (5MGE Engine)
+1986.5 - 1990 Toyota Supra (7MGE & 7MGTE Engines)
+1989-1994 Suzuki Swift (GTI Engine)
+```
 
 ## 54 pin
 
@@ -164,6 +190,12 @@ https://www.te.com/usa-en/product-828763-1.html
 Female side 85193-2
 https://www.te.com/usa-en/product-85193-2.html
 
+## 56 pin
+
+Aptiv Delphi 12020756
+
+GM cars in 80s late ’80s Jeeps
+
 ## 60 pin
 
 Ford todo :)
@@ -185,11 +217,33 @@ Suzuki Hayabusa
 
 ## 64 pin Nissan center lock
 
+Center bolt
+
 https://www.te.com/usa-en/product-174836-5.html
+
+https://www.ebay.com/itm/334139955900
 
 90-94
 
-center bolt
+https://www.wiringspecialties.com/nissan-64-pin-ecu-connector/ says
+```
+Silvia S15 SR20DET
+Silvia S14 SR20DET Kouki & Silvia S14 SR20DE non-turbo
+Silvia S13 SR20DET & SR20DE non-turbo
+180SX Type X S13 SR20DET & non-type X SR20DET
+ 
+
+Bluebird U14, U13 & SR-equipped U12
+Pulsar N15 & N14
+Primera P11 & P10
+Primera Wagon W#P11
+Avenir W11 & W10
+Sunny B14 & B13
+NX Coupe S13
+March K11
+Cube Z10
+Terrano YD21
+```
 
 
 ## 64 pin
