@@ -408,9 +408,17 @@ https://www.molex.com/molex/products/part-detail/pcb_headers/0643330100
 
 2010 Nissan Versa
 
+## 112 pin 64+48
+
+F01R 20D 067 2050900-1
+
 ## 112 pin 56+56
 
 56+56 Suzuki ALTO Jimny Swift
+
+2284486488
+
+KTM 125 DUKE 2013-2016
 
 Fiat 500 1.4T
 
