@@ -38,6 +38,15 @@ end
 
 # Function Reference
 
+## Engine Control
+
+### setTimingAdd(angle)
+todo add details but ready to test!
+
+### setTimingMult(coeff)
+
+todo add details but ready to test!
+
 ## Utility
 
 ### `print(msg)`
