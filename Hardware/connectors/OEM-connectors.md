@@ -707,11 +707,17 @@ http://rusefi.com/forum/viewtopic.php?f=4&t=582
 
 96+58
 
+1 264 486 513
+
+Honda Ford Mercedes
+
 me9.7
 
 Aptiv Delphi 13830808
 
 ## 154 pin Molex
+
+48 + 53 + 53
 
 https://www.molex.com/molex/products/part-detail/pcb_headers/0347630001
 
