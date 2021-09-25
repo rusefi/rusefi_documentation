@@ -2,7 +2,9 @@ rusEFI likes Tag Connect so many boards have that small TC2030 footprint - micro
 
 TC2030-CTX-NL-STDC14 cable (old part number: TC2030-CTX-NL-STDC14)
 
-and STLINK-V3MINI is the easiest to use combo.
+$43.00 at https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3
+
+and STLINK-V3MINI $11 everywhere is the easiest to use combo.
 
 
 ![x](Images/tc2030-stlink-v3.jpg)
