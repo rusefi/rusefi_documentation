@@ -36,7 +36,7 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 [Older Releases](https://github.com/rusefi/rusefi/releases/)
 
-[Nightly builds](https://rusefi.com/build_server/)
+[Snapshot builds](https://rusefi.com/build_server/)
 
 # [Quick Start](HOWTO-quick-start)
 

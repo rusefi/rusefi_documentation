@@ -18,4 +18,11 @@ E ![x](Images/Honda_K_plug_e.png)
 
 ![x](OEM-Docs/Honda/ECU_overview.jpg)
 
+[OBD1 connector part number](https://github.com/rusefi/rusefi/wiki/OEM-connectors#64)
+
+[OBD2 connector part number](https://github.com/rusefi/rusefi/wiki/OEM-connectors#104)
+
+[DBC Honda K](https://github.com/rusefi/rusefi/wiki/OEM-connectors#125-pin)
+
+
 [bomarc-services-p28.pdf](OEM-Docs/Honda/bomarc-services-p28.pdf)
