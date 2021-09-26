@@ -20,6 +20,8 @@ https://github.com/rusefi/rusefi/wiki/Honda-Prelude-1993
 
 https://github.com/rusefi/rusefi/wiki/Honda-Accord-1995
 
+https://ff-squad.com/wp/?paged=2&cat=17
+
 # OBD-2
 [OBD2 connector part number](https://github.com/rusefi/rusefi/wiki/OEM-connectors#104)
 
