@@ -21,3 +21,8 @@ A: As of Aug 2021 rusEFI console uses "older" ST DFU driver. You would need to r
 
 **GOOD**
 ![](https://github.com/BeerMoneyMotorsports/rusefi_images/blob/main/RE_DFUmode.png)
+
+
+## Q: I am using the buttons but it simply does not work?
+
+A: We have a report of this at https://www.rusefi.com/forum/viewtopic.php?p=42317#p42317. For now please keep trying!
