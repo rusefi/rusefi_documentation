@@ -26,3 +26,7 @@ A: As of Aug 2021 rusEFI console uses "older" ST DFU driver. You would need to r
 ## Q: I am using the buttons but it simply does not work?
 
 A: We have a report of this at https://www.rusefi.com/forum/viewtopic.php?p=42317#p42317. For now please keep trying!
+
+## Q: Do you have any ST-Link provisions?
+
+Some boards have [Tag-Connect-TC2030] upwards three of those! Some boards have an unofficial (?) ST-Link V2 pinout. Both are intended for software developers while debugging issues, those are not intended for firmware update/recovery.
