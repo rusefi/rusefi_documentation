@@ -444,6 +444,8 @@ OBD2A
 • 1996-2001 Honda Prelude
 • 1996-1997 Honda Accord
 
+[Vault-Of-Honda-OEM](Vault-Of-Honda-OEM)
+
 ## 108 pin
 https://www.te.com/usa-en/product-1318613-1.html
 
