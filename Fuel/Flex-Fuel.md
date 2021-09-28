@@ -1,3 +1,20 @@
+## Sensor and Wiring
+
+The following Sensors are known to work
+
+GM part numbers
+
+13577379 - SENSOR (short tube)
+
+13577394 - SENSOR (long tube) 
+
+13352241 - HARNESS 
+
+The Pinout is shown below
+
+![](https://i.imgur.com/RGOmlZq.png)
+
+
 ## Sensor Setup
 
 Connect your sensor to a digital input on the ECU.  Then, pick the pin in TunerStudio at `Sensors -> Misc sensors -> Flex fuel sensor`.
