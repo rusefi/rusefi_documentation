@@ -4,9 +4,8 @@ The following Sensors are known to work
 
 GM part numbers
 
-13577379 - SENSOR (short tube) - 65.62
-
-13577394 - SENSOR (long tube) - 66.00
+13577379 - SENSOR (short tube)
+13577394 - SENSOR (long tube) 
 
 13352241 - HARNESS - 8.16
 
