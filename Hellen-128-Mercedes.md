@@ -21,6 +21,10 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 * supports both smart and dumb coils
 * ?
 
+4 cylinder configuration
+
+![x](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder.jpg)
+
 ![x](Hardware/Hellen/hellen128mercedes-rev-b.jpg)
 
 ![x](Hardware/Hellen/hellen128mercedes-rev-a.jpg)
