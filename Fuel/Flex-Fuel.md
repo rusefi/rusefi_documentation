@@ -17,7 +17,9 @@ The Pinout is shown below
 
 ## Sensor Setup
 
-Connect your sensor to a digital input on the ECU.  Then, pick the pin in TunerStudio at `Sensors -> Misc sensors -> Flex fuel sensor`.
+Connect your sensor to a digital input on the ECU. Then, pick the pin in TunerStudio at `Sensors -> Misc sensors -> Flex fuel sensor`.
+
+(technical details - we expect a pull-up on the ECU)
 
 ![](https://i.imgur.com/a3NWAhn.png)
 
