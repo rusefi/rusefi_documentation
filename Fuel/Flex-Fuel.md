@@ -6,9 +6,7 @@ GM part numbers
 
 13577379 - SENSOR (short tube)
 13577394 - SENSOR (long tube) 
-
-13352241 - HARNESS - 8.16
-
+13352241 - HARNESS 
 
 The Pinout is shown below
 
