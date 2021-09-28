@@ -28,6 +28,8 @@ That's it! The firmware will now automatically vary the fuel's stoichiometric ra
 
 **It's recommended to switch to lambda mode (`File -> Vehicle Projects -> Project Properties -> Settings -> Lambda Display`), as the target lambda table is multiplied by the current stoichiometric ratio to get the target air/fuel ratio.**
 
+![](https://i.imgur.com/mRKFNjT.png)
+
 ## Ignition Timing
 
 Coming soon...
