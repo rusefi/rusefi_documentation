@@ -56,6 +56,8 @@ https://github.com/rusefi/proteus-m73tu-adapter
 
 https://github.com/rusefi/proteus-Honda-K-125-adapter
 
+https://github.com/rusefi/proteus-68-pin-vag-adapter
+
 https://github.com/rusefi/proteus-Honda-OBD2A-adapter
 
 https://github.com/rusefi/proteus-80-pin-vag-adapter
