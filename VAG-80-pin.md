@@ -9,11 +9,14 @@
 
 # 1999 1.8T
 
+![x](OEM-Docs/VAG/1999-a4-1.8t.png)
+
 ![x](OEM-Docs/VAG/1999-a4-1.8t-1.png)
 ![x](OEM-Docs/VAG/1999-a4-1.8t-2.png)
 
 # 1999 a4 vr6
 
+![x](OEM-Docs/VAG/1999-a4-vr6.png)
 ![x](OEM-Docs/VAG/1999-a4-vr6-1.png)
 ![x](OEM-Docs/VAG/1999-a4-vr6-2.png)
 
