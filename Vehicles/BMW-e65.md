@@ -34,6 +34,7 @@ Production 2001 – 2008
 
 
 # 760 12 cylinders
+# N73
 
 x2 DME - engine control unit using [134 pin connector](OEM-connectors#134)
 
@@ -46,6 +47,7 @@ x2 HDEV fuel injection module 7506280 [121 pin connector](OEM-connectors#121)
 | 6   | **GND**    |  Power GND                                  | BRN         |
 | 15  | HPFP       |  High Pressure Fuel Pump Control Signal     | Blue/Yellow |
 
+![p](OEM-Docs/Bmw/2003_7_Series_e65/2003_N73_engine_part-1.png)
 
 ![p](OEM-Docs/Bmw/2003_7_Series_e65/2003_N73_engine_1.png)
 ![p](OEM-Docs/Bmw/2003_7_Series_e65/2003_N73_engine_2.png)
