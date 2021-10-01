@@ -15,6 +15,8 @@ rusEFI has two probably working implementations for Bosch wideband oxygen contro
 
 See [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
+on Hellen boards we use JST XH2.54 XH 2.54mm connector for WBO
+
 TODO: document it better
 
 
