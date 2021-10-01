@@ -64,6 +64,8 @@ https://github.com/rusefi/proteus-80-pin-vag-adapter
 
 https://github.com/rusefi/proteus-Honda-OBD1-adapter
 
+https://github.com/rusefi/proteus-N73-adapter/
+
 https://github.com/rusefi/proteus-M54-adapter
 
 https://github.com/rusefi/proteus-rx8-adapter
