@@ -1,5 +1,8 @@
-# 760 12 cylinders
+
 # N73
+
+BMW 760 12 cylinders
+e65/e66
 
 x2 DME - engine control unit using [134 pin connector](OEM-connectors#134)
 
