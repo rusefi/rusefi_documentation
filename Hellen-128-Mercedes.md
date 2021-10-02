@@ -107,3 +107,16 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 [Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)
 
 [Mercedes-C230-and-SLK230](Mercedes-C230-and-SLK230)
+
+
+# Changelog
+
+## rev B
+
+* better provisions for high-current control of supercharger clutch solenoid on 5 M111
+* ignition fuse changed from 36915000000 5A to 2010-T10A0V2T11192AM5G 10A
+
+
+## rev A
+
+* good to drive, great success!
