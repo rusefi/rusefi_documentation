@@ -114,7 +114,7 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 ## rev B
 
 * better provisions for high-current control of supercharger clutch solenoid on 5 M111
-* ignition fuse changed from 36915000000 5A to 2010-T10A0V2T11192AM5G 10A
+* ignition fuse changed from 36915000000 5A to 2010-T10A0V2T11192AM5G 10A. 0697H9100-02 could be use for refitting of rev A
 
 
 ## rev A
