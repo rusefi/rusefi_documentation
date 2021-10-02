@@ -1,10 +1,11 @@
 
 
-A: 8 pins
 
 [HOWTO M111 on microRusEFI](HOWTO-M111-on-microRusEFI)
 
 # 99 SLK230
+
+See [Mercedes-C230-and-SLK230](Mercedes-C230-and-SLK230)
 
 https://en.wikipedia.org/wiki/Mercedes-Benz_M111_engine
 
