@@ -9,7 +9,7 @@ With fabrication files for Proteus you can get a 80% assembled unit from JLCPCB.
 While the most complicated main chip is soldered you would still solder a few dozens of surface mount components. 
 
 
-![x](Hardware/Proteus/Hardware-Proteus-0.3.jpg)  
+![x](Hardware/Proteus/Hardware-Proteus-0.6-top.jpg)  
 
 Forum thread at: https://rusefi.com/forum/viewtopic.php?f=4&t=1646
 
