@@ -121,6 +121,12 @@ GM/Daewoo Distributor F8CV
 
 ![x](Images/triggers/trigger_49.png)
 
+<a name="suzuki"/>
+
+## Suzuki G13B
+
+![x](Images/triggers/trigger_66.png)
+
 ## 36/2/2/2
 
 Might also be used on some Daihatsu, Nissan and Miata
