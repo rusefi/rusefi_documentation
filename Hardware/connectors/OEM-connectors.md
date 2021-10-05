@@ -213,6 +213,8 @@ Motec Haltech DTAfast
 Suzuki Hayabusa 
 99-07 Gen I GSX1300R
 
+2006 Yamaha R6
+
 <a name="64"/>
 
 ## 64 pin Nissan center lock
