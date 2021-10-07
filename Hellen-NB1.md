@@ -29,11 +29,11 @@ https://github.com/rusefi/hellen-NB1-issues
 
 **Options Port Schematic**
 
-![x](Hardware/Hellen/H76a-Options.jpg)
+![x](Hardware/Hellen/H76a-Options.JPG)
 
 ## Additional Hardware
 
-[Options Port Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/3460?osCsid=ru4mqe3g51skdvoflufkdpao00)
+[Options Port Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/4462)
 
 [LSU 4.9 Wideband Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/2081)
 
