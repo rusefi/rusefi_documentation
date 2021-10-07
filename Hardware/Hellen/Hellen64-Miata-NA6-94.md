@@ -21,15 +21,16 @@ This development board is PnP for NA6 and 94-95 Miatas.
 
 ## **Rev A**
 
-[Schematic Rev A](Hardware/Hellen/hellen64_miataNA6_94-a-schematic.pdf)
+[**Schematic Rev A**](Hardware/Hellen/hellen64_miataNA6_94-a-schematic.pdf)
 
 ![x](Hardware/Hellen/hellen64na6-a.jpg)
 
 ## **Rev B**
 
+[**Schematic Rev B**](Hardware/Hellen/hellen64_miataNA6_94-b-schematic.pdf)
+
 ![x](Hardware/Hellen/hellen64na6-b.jpeg)
 
-[Schematic Rev B](Hardware/Hellen/hellen64_miataNA6_94-b-schematic.pdf)
 
 ## Extension Pads (rev. b)
 
