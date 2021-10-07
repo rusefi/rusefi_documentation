@@ -6,7 +6,7 @@ B-- Second  is a PowerTune IMG that is just copied onto a SDcard -- and will boo
 
 C-- Third is a Custom Digital Gauge cluster... [Link HERE ](https://customgt6.com/2021/03/28/custom-digital-gauge-cluster/) ... And here is the [GitHub link for Code ](https://github.com/joshellissh/pi-dgc)
 
-D— Fourth is Android tablet or phone running [Real Dash](http://realdash.net/index.php)
+D— Fourth is Android tablet or phone running the [Real Dash](http://realdash.net/index.php) App
 
 # How to set up a Raspberry Pi with TunerStudio as a Digital Dash
 
