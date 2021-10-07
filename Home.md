@@ -25,7 +25,7 @@ Wasted Ignition|✓
 Sequential Ignition up to 12 cylinders|✓
 [Flex Fuel](https://github.com/rusefi/rusefi/wiki/Flex-Fuel) 🌽|✓
 Closed Loop Fueling|✓
-Electronic Throttle Body|✓
+[Electronic Throttle Body] (https://github.com/rusefi/rusefi/wiki/Electronic-Throttle-Body-Configuration-Guide)|✓
 Boost Control|✓
 Dual AFR signal logging|✓
 [Launch Control](Launch-Control)|✓
