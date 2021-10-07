@@ -8,7 +8,7 @@ https://github.com/rusefi/hellen-NB1-issues
 
 [**Schematic Rev A**](Hardware/Hellen/hellen64_NB1-a-schematic.pdf)
 
-![x](Hardware/Hellen/HellenNB1_a.jpg)
+![x](Hardware/Hellen/HellenNB1_a.JPG)
 
 
 
