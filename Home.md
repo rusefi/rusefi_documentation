@@ -23,7 +23,7 @@ Batch Injection|✓
 Sequential Injection up to 12 cylinders|✓
 Wasted Ignition|✓
 Sequential Ignition up to 12 cylinders|✓
-[Flex Fuel](https://github.com/rusefi/rusefi/wiki/FlexFuel) 🌽|✓
+[Flex Fuel](https://github.com/rusefi/rusefi/wiki/Flex-Fuel) 🌽|✓
 Closed Loop Fueling|✓
 Electronic Throttle Body|✓
 Boost Control|✓
