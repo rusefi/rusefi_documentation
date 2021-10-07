@@ -18,7 +18,7 @@
 1. [1990 Geo Storm](https://rusefi.com/forum/viewtopic.php?t=917) 1990 Geo Storm
 1. [Mazda Miata 1.6 Turbo](https://rusefi.com/forum/viewtopic.php?f=3&t=1038) Jun 03, 2016 - Miata 1.6 Blue Smurf turbo
 1. [Mazda Miata 1.6](https://rusefi.com/forum/viewtopic.php?f=3&t=906) June 14, 2016 - Miata 1.6 Hunchback <span style="color:#FF9000">first Miata racecar</span>
-1. [Mazda Miata 1.6](https://rusefi.com/forum/viewtopic.php?f=3&t=660) June 15, 2016 - Tomiata ![i](https://github.com/rusefi/rusefi_documentation/raw/master/rusefi_history/10k_driven_with_rusefi.png) <span style="color:#FF9000">first 3'000km all over US trip</span>
+1. [Mazda Miata 1.6](https://rusefi.com/forum/viewtopic.php?f=3&t=660) June 15, 2016 - Tomiata ![x](rusEFI-History/10k_driven_with_rusEFI.png) <span style="color:#FF9000">first 3'000km all over US trip</span>
 1. [2JZ-GTE non VVTi](https://rusefi.com/forum/viewtopic.php?f=3&t=1051) 2JZ-GTE NON VVTi June 28, 2016
 1. [VW Beetle](https://rusefi.com/forum/viewtopic.php?f=3&t=860) VW Bug | <span style="color:#FF9000">first H4</span>
 1. [2JZ-GTE Jeep](https://rusefi.com/forum/viewtopic.php?f=3&t=1060) 2JZ-GTE Jeep
@@ -27,14 +27,14 @@
 1. [2003 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=1095) red 2003 VVT Miata 
 1. [2003 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=1076) blue 2003 VVT Miata
 1. [Subaru Impreza Supercharged EJ25](https://rusefi.com/forum/viewtopic.php?f=15&t=1142) supercharged Subaru Jan 12, 2017
-1. [1993 Volvo 240 Turbo](https://rusefi.com/forum/viewtopic.php?f=3&t=1162) Jan 29, 2017 ![i](https://github.com/rusefi/rusefi_documentation/raw/master/rusefi_history/10k_driven_with_rusefi.png)
+1. [1993 Volvo 240 Turbo](https://rusefi.com/forum/viewtopic.php?f=3&t=1162) Jan 29, 2017 ![x](rusEFI-History/10k_driven_with_rusEFI.png)
 1. [Mitsubishi 4G63](https://rusefi.com/forum/viewtopic.php?f=2&t=1077&start=150) Mitsubishi Feb 12, 2017
 1. [Honda CRX B16A](https://rusefi.com/forum/viewtopic.php?f=3&t=1009&start=90) Honda CRX Feb 15, 2017
 1. [Smart Roadster 3 cylinder](https://rusefi.com/forum/viewtopic.php?f=3&t=1164&p=24242#p24242) 3 cylinder Mar 6, 2017 | <span style="color:#FF9000">first 3 cylinder</span>
 1. [Nissan SR20VE](https://rusefi.com/forum/viewtopic.php?f=3&t=1194) Nissan Mar 22, 2017
 1. [BMW E36 328i M52B28 Turbo](https://rusefi.com/forum/viewtopic.php?f=4&t=1216) M52Bxx Apr 17, 2017
 1. [1994 Nissan Altima KA24DE](https://rusefi.com/forum/viewtopic.php?f=3&t=1235) Nissan Altima May 20, 2017
-1. [1977 Lada](https://rusefi.com/forum/viewtopic.php?f=15&t=1233&start=180) Lada 1977 June 17, 2017 ! <span style="color:#FF9000">first STM32F469 chip</span> ![i](https://github.com/rusefi/rusefi_documentation/raw/master/rusefi_history/10k_driven_with_rusefi.png) first 10'000km all over Europe trip
+1. [1977 Lada](https://rusefi.com/forum/viewtopic.php?f=15&t=1233&start=180) Lada 1977 June 17, 2017 ! <span style="color:#FF9000">first STM32F469 chip</span> ![x](rusEFI-History/10k_driven_with_rusEFI.png) first 10'000km all over Europe trip
 1. [1999 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=1282) Miata NB 99 Oct 28, 2017
 1. [2000 Mazda Miata Turbo](https://rusefi.com/forum/viewtopic.php?f=3&t=1264&p=27465#p27465) Miata NB1 ov 11, 2017
 1. [2007 MonoZver](https://rusefi.com/forum/viewtopic.php?f=15&t=1300) Iz Oda 2126 Nov 23, 2017
