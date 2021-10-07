@@ -8,6 +8,7 @@
 
 ![x](OEM-Docs/Mercedes/1997_c230_3.png)
 
+![x](OEM-Docs/Mercedes/1997_c230-starting.png)
 
 # 99 SLK230
 
