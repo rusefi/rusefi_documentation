@@ -12,4 +12,12 @@ Anyway looks like there is a working procedure.
 
 5) close STM32CubeProgrammer, unplug USB cable, plug USB cable, open STM32CubeProgrammer. STM32CubeProgrammer is finicky you really have to restart it between steps
 
-6) 
+6) erase using "Full Chip Erase"
+
+![x](Images/erase-using-STM32CubeProgrammer.png)
+
+7) close STM32CubeProgrammer, unplug USB cable, plug USB cable, open STM32CubeProgrammer.
+
+8) program like on the picture
+
+![x](Images/program-using-STM32CubeProgrammer.png)
