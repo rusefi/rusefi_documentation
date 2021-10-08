@@ -1,6 +1,6 @@
-Too many of Proteus 0.6 with F767 are behaving strangely in terms of initial programming. Maybe we have a hardware design issue? Maybe we are missing something?
+Too many of Proteus 0.6 with F767 are behaving strangely in terms of SWD programming. Maybe we have a hardware design issue? Maybe we are missing something?
 
-Anyway looks like there is a working procedure.
+Anyway looks like there is a working procedure, using DFU and STM32CubeProgrammer 
 
 1) use STM32CubeProgrammer software https://www.st.com/en/development-tools/stm32cubeprog.html
 
