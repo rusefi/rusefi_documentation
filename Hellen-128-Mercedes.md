@@ -115,7 +115,7 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 
 ## Would this work on my all original Mercedes?
 
-Hellen 128 was originally designed for M111 swaps into W201. Depending on the year some W202, R170 and other models could be driver with different amount of supporting mods:
+Hellen 128 was originally designed for M111 swaps into W201. Depending on the year some W202, R170 and other models could be driven with different amount of supporting mods:
 
 * Somewhere around 99 Mercedes has transitioned from just plain wires on C40 and D3 to CAN-bus starter security. For those later models one would have simplify starter wiring and add a start button
 
