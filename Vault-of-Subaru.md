@@ -1,5 +1,7 @@
 ![x](OEM-Docs/Subaru/sti-family-picture.jpg)
 
+From left to right: 04 sti, 06 sti, 07 sti (canbus), 08-14 sti (canbus)
+
 # 2006
 
 ![x](OEM-Docs/Subaru/2006-subaru-impreza-2.5T-1.png)
