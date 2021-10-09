@@ -1,4 +1,4 @@
-<a href="https://www.ebay.com/itm/334094173341"><img src="https://raw.githubusercontent.com/rusefi/rusefi_documentation/master/Images/ebay_gen_button.gif"></a>
+<a href="https://www.ebay.com/itm/334094173341"><img src="Images/ebay_gen_button.gif"></a>
 
 This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 engine; late 90s-early 2000s. confirm your ECU)
 
@@ -27,9 +27,9 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 
 [test points](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder-test-points.png)
 
-![x](Hardware/Hellen/hellen128mercedes-rev-b.jpg)
+[Rev B naked board](Hardware/Hellen/hellen128mercedes-rev-b.jpg)
 
-![x](Hardware/Hellen/hellen128mercedes-rev-a.jpg)
+[Rev A naked board](Hardware/Hellen/hellen128mercedes-rev-a.jpg)
 
 
 
@@ -111,6 +111,20 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 [Mercedes-C230-and-SLK230](Mercedes-C230-and-SLK230)
 
 
+# FAQ
+
+## Would this work on my all original Mercedes?
+
+Hellen 128 was originally designed for M111 swaps into W201. Depending on the year some W202, R170 and other models could be driver with different amount of supporting mods:
+
+* Somewhere around 99 Mercedes has transitioned from just plain wires on C40 and D3 to CAN-bus starter security. For those later models one would have simplify starter wiring and add a start button
+
+* And obviously your engine harness should use <a href="Images/mercedes-128.png">this ME 2.0 style of plug</a> not <a href="Images/mercedes-134.png">this 134 pin style of plug</a>.
+
+
+
+
+
 # Changelog
 
 ## rev B
@@ -122,3 +136,6 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 ## rev A
 
 * good to drive, great success!
+
+
+
