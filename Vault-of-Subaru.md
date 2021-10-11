@@ -2,7 +2,13 @@
 
 From left to right: 04 sti, 06 sti, 07 sti (canbus), 08-14 sti (canbus)
 
+# 2004
+
+2004 STI USDM
+
 # 2006
+
+2006 STI USDM
 
 ![x](OEM-Docs/Subaru/2006-subaru-impreza-2.5T-1.png)
 
