@@ -8,7 +8,7 @@ M50tu and Pre-1995 USA M3
 
 [Issue Tracker](https://github.com/rusefi/hellen88bmw-issues)
 
-[iIbom-a](https://rusefi.com/docs/ibom/hellen88bmw-a-ibom.html)
+[ibom-a](https://rusefi.com/docs/ibom/hellen88bmw-a-ibom.html)
 
 
 [BMW e34](BMW-e34)
