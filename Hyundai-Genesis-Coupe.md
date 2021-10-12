@@ -12,6 +12,16 @@
 
 ![x](OEM-Docs/Hyundai/2010-coupe-2.0-5.png)
 
+# Starting
+
+With start button
+
+![x](OEM-Docs/Hyundai/2013-start-couple-at-with-button.png)
+
+Without start button
+
+![x](OEM-Docs/Hyundai/2013-start-couple-at-without-button.png)
+
 # 2014
 
 ETB 35100-2C300
