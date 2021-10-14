@@ -201,9 +201,9 @@ JP10	2X	CAN_L|	Y	|N|	TachOUT on 95.5
 
 [Schematics 0.4](Hardware/pnp_microRusEFI_48na/microRusEFI48adapter_0.4.pdf)
 
-[Schematics 0.2](Hardware/pnp_microRusEFI_48na/microrusefi48adapter_0_2.pdf)
+[Schematics 0.2](Hardware/pnp_microRusEFI_48na/microRusEFI48adapter_0_2.pdf)
 
-[Schematics 0.1](Hardware/pnp_microRusEFI_48na/microrusefi48adapter_0.1.pdf)
+[Schematics 0.1](Hardware/pnp_microRusEFI_48na/microRusEFI48adapter_0.1.pdf)
 
 
 [Mazda Miata 1990](Mazda-Miata-1990)

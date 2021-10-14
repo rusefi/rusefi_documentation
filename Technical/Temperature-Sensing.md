@@ -10,7 +10,7 @@ In order to configure coolant temperature sensor or intake air sensor you would 
 
 While troubleshooting CLT and IAT, the two most useful commands are `analoginfo` and `tempinfo` - these show you the voltage registered by rusEFI alongside with input pins and resistance processing values.
 
-![analoginfo Output](Images/analoginfo.png)
+![analoginfo Output](Images/analoginfo2.png)
 
 ![tempinfo Output](Images/tempinfo.png)
 
