@@ -4,8 +4,6 @@ See also [Mazda Miata 2003 alt](Mazda-Miata-2003-alt)
 
 For power see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting--power)
 
-![Connector Face](Images/NB2 Miata ECU Connectors Drawing.png)
-
 ![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusEFI_harness.png)
 
 Coil three wire plug:

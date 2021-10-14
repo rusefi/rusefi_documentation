@@ -31,7 +31,7 @@ Note the double-lines:
 
 ![1241434 German render Top](Hardware/connectors/1241434_render_top.png)
 
-![1241434 German Top Photo](Hardware/connectors1241434_top.jpg)
+![1241434 German Top Photo](Hardware/connectors/1241434_top.jpg)
 
 ## How to make a German plug work with an Asian header
 
