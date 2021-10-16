@@ -743,6 +743,11 @@ Bosch 91 & 105
 
 HYUNDAI SONATA 2011 2012 2013 2014 39111-2G667 2.4L ECM PCM OEM
 
+
+## 198 pin
+
+Ford 2014-2017, Volvo V90 T5 2.0T
+
 ## 200 pin
 http://www.te.com/catalog/pn/en/6473649-1
 
