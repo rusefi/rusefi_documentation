@@ -190,3 +190,27 @@ Set the duty cycle of the specified PWM channel.
   - `frequency`: Initial frequency of the output, in hertz (cycles per second).  Valid values are between 1 and 1000hz.
 - Returns
   - none
+
+
+## Misc console commands
+
+``luamemory``
+
+``luareset``
+
+
+## Examples
+
+```
+t = Timer.new();
+
+function onTick()
+   auxV = getAuxAnalog(0)
+   if auxV > 2 then
+     t:reset();
+   end
+   val = t:getElapsedSeconds();
+
+   print('Hello analog ' .. auxV .. " " .. val)
+end
+```
