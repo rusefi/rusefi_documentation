@@ -203,13 +203,25 @@ Set the duty cycle of the specified PWM channel.
 
 ```
 t = Timer.new();
+timingAdd = 0;
 
 function onTick()
    auxV = getAuxAnalog(0)
+   tps = getSensor(10)
+-- todo: check for NIL value which is a sign of analog input not assigned in TS
    if auxV > 2 then
      t:reset();
    end
+
    val = t:getElapsedSeconds();
+
+   if t:getElapsedSeconds() < 3 then
+     timingAdd = 10;
+   else
+     timingAdd = 0;
+   end
+   setTimingAdd(timingAdd)
+
 
    print('Hello analog ' .. auxV .. " " .. val)
 end
