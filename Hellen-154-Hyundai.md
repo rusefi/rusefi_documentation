@@ -21,3 +21,6 @@ https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUd
 ## Hardware Features 
 * x4 aux high current low side outputs
 * x2 aux high current H-bridge
+
+
+![x](Hardware/Hellen/hellen88bmw-rev-a.jpg)
