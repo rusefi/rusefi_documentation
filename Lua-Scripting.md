@@ -190,3 +190,10 @@ Set the duty cycle of the specified PWM channel.
   - `frequency`: Initial frequency of the output, in hertz (cycles per second).  Valid values are between 1 and 1000hz.
 - Returns
   - none
+
+
+## Misc console commands
+
+``luamemory``
+
+``luareset``
