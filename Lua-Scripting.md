@@ -207,6 +207,7 @@ timingAdd = 0;
 
 function onTick()
    auxV = getAuxAnalog(0)
+   tps = getSensor(10)
 -- todo: check for NIL value which is a sign of analog input not assigned in TS
    if auxV > 2 then
      t:reset();
