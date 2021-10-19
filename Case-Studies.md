@@ -42,3 +42,10 @@ TODO https://github.com/rusefi/rusefi_documentation/issues/151
 todo Dron
 
 todo Matt
+
+# Misc Marketing
+
+[NB1 first drive](https://www.youtube.com/watch?v=rxwOemGg5F4)
+
+[Drift Championship](https://www.youtube.com/watch?v=y4h5dAlh6tE)
+
