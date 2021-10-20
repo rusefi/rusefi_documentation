@@ -28,3 +28,6 @@ For list of Hellen boards available for sale already see [Hellen-One-Platform](H
 * K-line NOT supported
 * Vehicle integration research NOT included
 * TL,DR: this is a _blank_ PnP _board_ not a "Hook it up and drive to the race track" deal. Please do your research!
+
+
+See also [Plug-In-Board-Process](Plug-In-Board-Process)
