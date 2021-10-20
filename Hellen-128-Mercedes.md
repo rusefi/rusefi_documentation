@@ -106,6 +106,14 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 | Smart | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ |
 
 
+# 4 cylinder application
+* uses inj 5-6-7-8 for INJ
+* two IGBT
+* one MOSFET soldered instead of IBGT for clutch solenoid
+* INJ3 with fly-back for boost control solenoid
+
+
+
 [Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)
 
 [Mercedes-C230-and-SLK230](Mercedes-C230-and-SLK230)
