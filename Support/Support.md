@@ -1,3 +1,5 @@
+TL,DR: https://github.com/rusefi/rusefi/wiki/Knowledge-best-practices-and-Channels#q-i-need-help
+
 
 rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises.
 
