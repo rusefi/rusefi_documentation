@@ -1,3 +1,5 @@
+[Lancer info](OEM-Docs/Mitsubishi/link76.pdf)
+
 # 1995 Eclipse
 
 ![x](OEM-Docs/Mitsubishi/1995-eclipse-1.png)
