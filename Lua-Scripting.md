@@ -101,7 +101,16 @@ Sets a debug channel to the specified value.  Note: this only works when the ECU
 
 ## Input
 
-### `getSensor(index)`
+### `getSensor(name)`
+
+Reads the specified sensor.
+
+- Parameters
+  - `name`: Name of the sensor to read.  [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
+- Returns
+  - A reading from the sensor, or `nil` if the sensor has a problem or isn't configured.
+
+### `getSensorByIndex(index)`
 
 Reads the specified sensor.
 
@@ -225,5 +234,21 @@ function onTick()
 
 
    print('Hello analog ' .. auxV .. " " .. val)
+end
+```
+
+
+
+
+```
+-- index 0, 100Hz, zero duty inititally
+startPwm(0, 100, 0)
+
+function onTick()
+ enable_pump = getSensor("RPM") > 700  and getSensor("BatteryVoltage") > 13 and getSensor("VehicleSpeed") <60
+ 
+ -- lua does not have ternary ? : operator, this here means "100 if enable_pump and 0 otherwise"
+ setPwmDuty(0, enable_pump and 100 or 0)
+
 end
 ```
