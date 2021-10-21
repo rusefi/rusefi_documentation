@@ -737,7 +737,9 @@ Delphi 35043766
 
 1928405455 105 plug
 
-1928405452
+91 pin plug female Bosch 1928405452
+
+91 pin plug https://www.te.com/usa-en/product-1-2208709-1.html
 
 Bosch 91 & 105
 
