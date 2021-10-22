@@ -32,7 +32,7 @@ A: Part of the reasoning behind developing PnP boards at this stage is attractin
 
 ### Q: Why so many closed source boards? Ultimately, these are to be commercial products right?
 
-A: it's mostly an experiment really. As of July 2021 we have an open source board with very little community interest and a closed source board with a very enthusiastic dealer. As of July 2021 we are still waiting for someone to come in and commission a Hellen board or for someone to come in and contribute a Hellen board. We are still gathering data. 
+A: it's mostly an experiment really. As of October 2021 we have couple of open source boards with very little community interest and a some closed source boards with a very enthusiastic dealer. We are still gathering data. [It's-complicated](It's-complicated). See also [Standalone-on-Demand](Standalone-on-Demand)
 
 
 [Dev Information](https://github.com/andreika-git/hellen-one/wiki) 
