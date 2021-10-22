@@ -11,7 +11,7 @@ M50tu and Pre-1995 USA M3
 [ibom-a](https://rusefi.com/docs/ibom/hellen88bmw-a-ibom.html)
 
 
-[BMW e34](BMW-e34)
+[BMW e34](BMW-e34) E34 ~= E36
 
 [BMW e36](BMW-e36)
 
