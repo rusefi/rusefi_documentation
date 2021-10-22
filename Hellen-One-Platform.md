@@ -6,8 +6,8 @@ A number of functional building modules were developed with the intention of eas
 Hellen One framework merges modules so that we do not have to sandwich separate PCBs.
 
 
-|Platform|Purchase|
-|--------|--------|
+|Platform|Purchase| |
+|--------|--------|--|
 |[Miata 90-95](Hellen64-Miata-NA6-94)|[Buy Here](https://www.beermoneymotorsports.com/)|
 |[Miata NB1](Hellen-NB1)|[Buy Here](https://www.beermoneymotorsports.com/)|
 |[72 Pin Miata 01-05](Hellen72)|[Buy Here](https://www.beermoneymotorsports.com/)|
