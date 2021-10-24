@@ -1,11 +1,9 @@
 <a href="https://www.ebay.com/itm/334094173341"><img src="Images/ebay_gen_button.gif"></a>
 
-This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 engine; late 90s-early 2000s. confirm your ECU)
+This development board is PnP for Mercedes with the 128 Pin ECU (could be used on M104, M111, M112 and M113 engine; late 90s-early 2000s. confirm your ECU _harness_)
 
 [[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
 [[Snapshot firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
-
-[Ebay]()
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen128/) & [Google Sheet](https://docs.google.com/spreadsheets/d/1I-lZKRajTiEGFUXdZpXEtKF2pymlOo-lPahy3cLMnl4) & [Another Google Sheet](https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1kp4Y/)
 
@@ -108,9 +106,12 @@ This development board is PnP for Mercedes with the 128 Pin ECU (M111 and M113 e
 
 # 4 cylinder application
 * uses inj 5-6-7-8 for INJ
-* two IGBT
+* two IGBT: Q1 & Q3
 * one MOSFET soldered instead of IBGT for clutch solenoid
 * INJ3 with fly-back for boost control solenoid
+
+# M104
+* three IGBT: Q1, Q3 & Q5
 
 
 
@@ -147,6 +148,8 @@ Hellen 128 was originally designed for M111 swaps into W201. Depending on the ye
 
 
 ## Spare Parts
-ISL9V3040S3S is the large IGBT driver
+ISL9V3040S3S is the large IGBT driver (same thing as ISL9V3040S3ST)
+
+Smaller NGD8201AN or ISL9V3040D3ST could probably be used as well.
 
 
