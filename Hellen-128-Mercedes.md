@@ -148,7 +148,7 @@ Hellen 128 was originally designed for M111 swaps into W201. Depending on the ye
 
 
 ## Spare Parts
-ISL9V3040S3S is the large IGBT driver
+ISL9V3040S3S is the large IGBT driver (same thing as ISL9V3040S3ST)
 
 Smaller NGD8201AN or ISL9V3040D3ST could probably be used as well.
 
