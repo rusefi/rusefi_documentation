@@ -58,7 +58,7 @@ https://ant.apache.org/
 https://jenkins.io/download/
 
 ### Install Kicad
-http://www.kicad-pcb.org/download/
+https://www.kicad.org/download/
 for iBom automation
 
 ### Install for Hardware Testing
