@@ -1,3 +1,5 @@
+[[Snapshot firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen-nb1.zip)
+
 https://github.com/rusefi/hellen-NB1-issues
 
 [Miata 1999](Mazda-Miata-1999)
