@@ -49,6 +49,10 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 
 ![x](Images/triggers/trigger_46.png)
 
+## Honda K 4+1
+
+![x](Images/triggers/trigger_67.png)
+
 ## Honda 1+24
 
 ![x](Images/triggers/trigger_21.png)
