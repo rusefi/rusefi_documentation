@@ -53,3 +53,7 @@ M5.2 - E36/Z3 M44 and M62 and M73
 * Dual channel PPS and TPS sensors add-on connector
 * GPIO pins XXX: 
 
+## Spare Parts
+
+Extra ECU connector terminals: 969005-2
+
