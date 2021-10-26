@@ -1,4 +1,4 @@
-[[Download release firmware]](https://github.com/rusefi/rusefi/releases/download/2021.10.08_release/rusefi_bundle_hellen-nb1.zip)
+[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen-nb1.zip)
 
 [[Snapshot firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen-nb1.zip)
 
