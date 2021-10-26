@@ -55,5 +55,5 @@ M5.2 - E36/Z3 M44 and M62 and M73
 
 ## Spare Parts
 
-Extra ECU connector terminals: 969005-2
+Extra ECU connector terminals: 927845-2
 
