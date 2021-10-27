@@ -4,6 +4,8 @@
 
 https://github.com/rusefi/hellen-NB1-issues
 
+[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-nb1/)
+
 [Miata 1999](Mazda-Miata-1999)
 
 [[ibom rev a]](https://rusefi.com/docs/ibom/hellen64_NB1-a-ibom.html)
