@@ -18,7 +18,7 @@ https://github.com/rusefi/hellen-NB1-issues
 
 
 
-## Options Port (rev. b)
+## Options Port
 
 | Pin | Type | Comments |
 |---|---|---|
