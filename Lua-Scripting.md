@@ -252,3 +252,21 @@ function onTick()
 
 end
 ```
+
+
+```
+function onTick()
+  tps = getSensor("CLT")
+  print('TPS ' .. tps)
+  voltage0 = getSensor("aux0")
+ 
+  txPayload = {}
+  // first byte: integer part, would be autoboxed to int
+  txPayload[1] = voltage0
+  // second byte: fractional part, would be autoboxed to int, overflow would be ignored
+  txPayload[2] = voltage0 * 256;
+
+  txCan(1, 0x600, 1, txPayload)
+
+end
+```
