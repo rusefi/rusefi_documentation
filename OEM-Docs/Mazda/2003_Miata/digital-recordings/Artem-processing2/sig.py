@@ -14,7 +14,7 @@ path_csv_list = []
 
 
 for i in csv_list:
-    path_csv_list.append(path_dir + '\\' + i)
+    path_csv_list.append(path_dir + '/' + i)
 
 
 t_start = time.time()
