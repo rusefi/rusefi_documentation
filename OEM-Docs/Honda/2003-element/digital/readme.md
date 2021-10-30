@@ -4,4 +4,4 @@
 * long-cranking-no-ignition-with-compression: long cranking with all spark plugs, we have compression!
 
 
-![x](sample.png)
+![x](OEM-Docs/Honda/2003-element/digital/sample.png)
