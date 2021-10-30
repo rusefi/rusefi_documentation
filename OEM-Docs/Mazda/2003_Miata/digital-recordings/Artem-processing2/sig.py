@@ -5,7 +5,7 @@ import time
 import os
 import sys
 
-path_dir = r'C:\Users\home\Documents\last_data'
+path_dir = r'last_data'
 
 
 all_file_list = os.listdir(path_dir)
