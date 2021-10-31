@@ -30,6 +30,7 @@ Dual AFR signal logging|✓
 [Launch Control](Launch-Control)|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
 [Digital Dash](Digital-Dash)|✓
+[on board wideband controller](WBO)|✓
 [Knock Sensing](knock-sensing)|✓
 [Multi-Spark](https://github.com/rusefi/rusefi/wiki/Multi-Spark)|✓
 [Lua Scripting](Lua-Scripting)|✓
