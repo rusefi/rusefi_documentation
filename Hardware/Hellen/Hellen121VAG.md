@@ -47,7 +47,7 @@ Raw +12 option **Never have both F1 and F2 jumpers populated!**
 | 2003 Audi A6 4.2 | ✘ | ✔ | ✔ | ✘ | ✔ | ✘ |
 | 2001 VR6 12V AFP | ✘ | ✘ | ✘ | ✔ | ✔ | ✘ |
 | 2002 VR6 24V BDF | ✘ | ✔ | ✘ | ✔ | ✔ | ✘|
-| 2004 Cayene | ✘ | ✔ | ✔ | ✘ | ✔ | ✘|
+| 2004 Cayenne | ✘ | ✔ | ✔ | ✘ | ✔ | ✘|
 | Other model | ? | ? | ? | ? | ? | ? |
 
 [R2-R3-R8-R9 JUMPER](https://drive.google.com/file/d/1r4os5Ft1mQFYYcKLPqTyI-RTlIX4GPmx/view?usp=sharing)
