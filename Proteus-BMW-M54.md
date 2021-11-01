@@ -1,0 +1,1 @@
+https://github.com/rusefi/proteus-M54-adapter
