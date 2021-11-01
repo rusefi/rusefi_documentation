@@ -22,6 +22,10 @@ A: As of Oct 2021 rusEFI console uses "newer" ST DFU driver. You would need to r
 
 A: this image says that you do not have STM32 Bootloader driver installed.
 
+## Q: Do I need to install STM32CubeProgramer in order to use update firmware via DFU?
+
+A: No. We have a small portion of STM32CubeProgramer embedded into rusEFI console, even the drivers! Make sure to download complete fresh bundle, use "Install Drivers" button to automatically extract silent_st_drivers2.exe archive and attempt auto-install. If automatic driver install did not happen try pointing device manager driver wizard at drivers\silent_st_drivers\DFU_Driver folder within uncompressed rusEFI bundle.
+
 ## Q: I am using the buttons but it simply does not work?
 
 A: We have a report of this at https://www.rusefi.com/forum/viewtopic.php?p=42317#p42317. For now please keep trying!
