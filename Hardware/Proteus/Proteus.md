@@ -64,6 +64,8 @@ https://github.com/rusefi/proteus-M54-adapter
 
 https://github.com/rusefi/proteus-mitsubishi76-adapter
 
+https://github.com/rusefi/proteus-2004sti-adapter
+
 https://github.com/rusefi/proteus-Honda-OBD1-adapter/
 
 https://github.com/rusefi/proteus-mustang5.0-60-pin
