@@ -3,6 +3,8 @@
 
 ![x](Hardware/Jetronic/audi-5-cyl.jpg)
 
+
+
 [![x](http://img.youtube.com/vi/e2SG5xNeZmI/0.jpg)](http://www.youtube.com/watch?v=e2SG5xNeZmI "Injector Insert")
 
-[wiring-rus](mre-pinout-rus.pdf)
+[harness pinout RUS](Hardware/Jetronic/mre-pinout-rus.pdf)
