@@ -29,5 +29,9 @@ For list of Hellen boards available for sale already see [Hellen-One-Platform](H
 * Vehicle integration research NOT included
 * TL,DR: this is a _blank_ PnP _board_ not a "Hook it up and drive to the race track" deal. Please do your research!
 
+# What next?
+
+rusEFI LLC does not have experience and resources to provide adequate support to retail customers. The ideal setup is rusEFI focusing on hardware, software and fabrication, with _product owners_ dealing with sales, marketing and user support for each of the platform specific ECUs.
+
 
 See also [Plug-In-Board-Process](Plug-In-Board-Process)
