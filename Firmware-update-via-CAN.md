@@ -4,6 +4,8 @@
 ## technical info
 STM32 hard-coded bootloader support CAN firmware update but only on specific hardware pins PB5 PB13 which conflict with SPI hardware pins, weird not great option for us.
 
-http://www.feaser.com is an open source bootloader which allows CAN firmware update via pins. feaser uses it's custom (?) update protocol using two CAN PIDs. 
+[OpenBLT GNU GPL Bootloader](http://www.feaser.com) allows CAN firmware update via any CAN pins. OpenBLT uses it's custom (?) update protocol using two CAN PIDs. 
 
-This was tested on https://www.peak-system.com/PCAN-USB.199.0.html?&L=1
+This was tested using https://www.peak-system.com/PCAN-USB.199.0.html?&L=1 hardware
+
+Open question how popular is PCAN. Looks like https://github.com/moonglow/pcan_cantact turns stm32f042 boards into PCAN. Maybe even https://canable.io/?
