@@ -56,9 +56,9 @@ https://github.com/rusefi/proteus-Honda-K-125-adapter
 
 https://github.com/rusefi/proteus-m73tu-adapter
 
-# Adapters WIP
-
 https://github.com/rusefi/proteus-Honda-OBD2A-adapter
+
+# Adapters WIP
 
 https://github.com/rusefi/proteus-M54-adapter
 
