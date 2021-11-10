@@ -63,6 +63,8 @@ Volkswagen
 0 261 200 220
 0 261 200 862
 
+BMW and Citroen/Peugeot
+
 
 ![35 Pin connector](Hardware/connectors/35_pin.png)
 
