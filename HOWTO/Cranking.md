@@ -75,7 +75,7 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 *When enabled, if the throttle pedal is held above 90% then no fuel is injected while cranking to clear excess fuel from the cylinders.*
 
 ### Enable faster engine spin-up
-*Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](Trigger_Wheels).*
+*Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
 *Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
 
 </td></tr></table>
@@ -117,7 +117,7 @@ rusEFI Console command:
 * *In "Fixed" mode, you can manually set the fixed pulse duration (in ms) in the next text field.*
 
 * *In "Fuel Map" mode, the "Running" fuel math used for cranking.*
-    > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Please make sure your [Running fuel tables](Running) are extended into the low RPM range for cranking.*
+    > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Please make sure your running fuel tables are extended into the low RPM range for cranking.*
 
 ### Base fuel pulse width
 
