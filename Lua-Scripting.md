@@ -270,3 +270,8 @@ function onTick()
 
 end
 ```
+
+
+## See also
+
+http://lua-users.org/wiki/TernaryOperator
