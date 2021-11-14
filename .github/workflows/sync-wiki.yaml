@@ -54,7 +54,7 @@ jobs:
         cp -r ../!(mkdocs) docs
         mkdocs build
 
-    - name: Set FTP variables
+    - name: Set SSH variables
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
       run: |
