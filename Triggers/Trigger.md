@@ -24,6 +24,10 @@ Type `enable trigger_details` in rusEFI console to enable verbose synchronizatio
 
 "print sync details to console" in TS enables the same output but the output still goes only to rusEFI console.
 
+![x](Images/trigger-gather-gaps-step-1.png)
+
+![x](Images/trigger-gather-gaps-step-2.png)
+
 ### Troubleshooting with TunenStudio
 
 Enable Trigger Counters
