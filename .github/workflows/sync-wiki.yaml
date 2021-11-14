@@ -43,7 +43,7 @@ jobs:
     - name: Install mkdocs Prerequisites
       run: |
         sudo apt update
-        sudo apt install ncftp
+        sudo apt install sshpass
         pip install mkdocs mkdocs-ezlinks-plugin
 
     - name: Generate static pages using mkdocs
