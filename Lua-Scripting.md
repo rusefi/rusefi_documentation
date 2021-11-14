@@ -86,14 +86,22 @@ Sets the rate at which rusEFI calls your `onTick` function, in hz.
 
 ### `table3d(tableIdx, x, y)`
 
-Looks up a value from the specified FSIO table.
+Looks up a value from the specified Script Table.
 
 - Parameters
-  - `tableIdx`: Index of the table to use.  Currently 4 tables are supported, so indices 0, 1, 2, and 3 are valid.
+  - `tableIdx`: Index of the table to use.  Currently 4 tables are supported, so indices 1, 2, 3, and 4 are valid.
   - `x`: X-axis value to look up in the table (this is often RPM)
   - `y`: Y-axis value to look up in the table (this is often load)
 - Returns
   - A number representing the value looked up from the table.
+
+### curve(curveIdx, x)
+
+Looks up a value from the specified Script Curve.
+- Parameters
+  - `tableIdx`: Index of the script to use, starting from 1.
+  - `x`: Axis value to look up in the table
+
 
 ### `setDebug(index, value)`
 
