@@ -39,6 +39,12 @@ end
 
 # Function Reference
 
+## User Settings
+
+### findSetting(name)
+Find User Setting with specified name and returns numeric value. Useful when script developer and script consumer are
+different people, also useful while Lua script editing is available only in TS.
+
 ## Engine Control
 
 ### setTimingAdd(angle)
