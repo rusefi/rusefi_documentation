@@ -39,3 +39,38 @@ jobs:
         repository: rusefi/rusefi.wiki
         github_token: ${{ secrets.ACCESS_TOKEN }}
         branch: master
+
+    - name: Install mkdocs Prerequisites
+      run: |
+        sudo apt update
+        sudo apt install ncftp
+        pip install mkdocs mkdocs-ezlinks-plugin
+
+    - name: Generate static pages using mkdocs
+      run: |
+        shopt -s extglob
+        cd mkdocs
+        mkdir docs
+        cp -r ../!(mkdocs) docs
+        mkdocs build
+
+    - name: Set FTP variables
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+      run: |
+        if [ "${{github.ref}}" = "refs/heads/master" ]; then
+          echo "::set-env name=RUSEFI_FTP_SERVER::${{secrets.RUSEFI_FTP_SERVER}}";
+          echo "::set-env name=RUSEFI_DOXYGEN_FTP_USER::${{secrets.RUSEFI_DOXYGEN_FTP_USER}}";
+          echo "::set-env name=RUSEFI_DOXYGEN_FTP_PASS::${{secrets.RUSEFI_DOXYGEN_FTP_PASS}}";
+        fi
+
+    - name: Upload static results to wiki3
+      run: |
+        cd mkdocs/
+        mv site wiki
+        if [ -n "$RUSEFI_FTP_SERVER" ]; then
+          echo "Uploading Wiki"
+# todo: convert to sftp
+          ncftpput -R -z -m -V -u "$RUSEFI_DOXYGEN_FTP_USER" -p "$RUSEFI_DOXYGEN_FTP_PASS" "$RUSEFI_FTP_SERVER" / wiki
+        fi
+        [ $? -eq 0 ] || { echo "upload FAILED"; exit 1; }
