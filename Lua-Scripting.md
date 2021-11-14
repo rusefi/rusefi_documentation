@@ -41,16 +41,20 @@ end
 
 ## User Settings
 
-### findSetting(name)
+### `findSetting(name, defaultValue)`
 Find User Setting with specified name and returns numeric value. Useful when script developer and script consumer are
 different people, also useful while Lua script editing is available only in TS.
 
+- Parameters
+ - `name`: Variable name, as in corresponding 'name' field in configuration
+ - `dataultValue`: value to use if specified setting not located by name
+
 ## Engine Control
 
-### setTimingAdd(angle)
+### `setTimingAdd(angle)`
 todo add details but ready to test!
 
-### setTimingMult(coeff)
+### `setTimingMult(coeff)`
 
 todo add details but ready to test!
 
@@ -95,7 +99,7 @@ Looks up a value from the specified Script Table.
 - Returns
   - A number representing the value looked up from the table.
 
-### curve(curveIdx, x)
+### `curve(curveIdx, x)`
 
 Looks up a value from the specified Script Curve.
 - Parameters
