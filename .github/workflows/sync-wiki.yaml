@@ -4,6 +4,8 @@
 #
 # the opposite merge is implemented as https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml
 #
+# TODO: convert to sftp
+#
 
 name: Sync Wiki
 
@@ -70,7 +72,6 @@ jobs:
         mv site wiki
         if [ -n "$RUSEFI_FTP_SERVER" ]; then
           echo "Uploading Wiki"
-# todo: convert to sftp
           ncftpput -R -z -m -V -u "$RUSEFI_DOXYGEN_FTP_USER" -p "$RUSEFI_DOXYGEN_FTP_PASS" "$RUSEFI_FTP_SERVER" / wiki
         fi
         [ $? -eq 0 ] || { echo "upload FAILED"; exit 1; }
