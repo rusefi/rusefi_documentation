@@ -1,4 +1,5 @@
 site_name: rusEFI Wiki
+site_url: https://rusefi.com/docs/wiki/Home
 repo_url: https://github.com/rusefi/rusefi_documentation
 edit_uri: edit/master/
 theme: 
