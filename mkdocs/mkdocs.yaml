@@ -1,4 +1,5 @@
 site_name: rusEFI Wiki
+site_url: https://rusefi.com/docs/wiki/Home
 repo_url: https://github.com/rusefi/rusefi_documentation
 edit_uri: edit/master/
 theme: 
@@ -11,70 +12,69 @@ plugins:
 markdown_extensions:
   - sane_lists
 nav:
-  - 'Home': index.md
-  - 'Downloads': Download.md
+  - 'Home': Home
+  - 'Downloads': Download
   - 'Getting Started':
-    - 'How to search the Wiki': HOWTO-Search-on-rusEFI-wiki.md
-    - 'Quick Start': HOWTO-quick-start.md
-    - 'How to ask questions': HOWTO-ask-questions.md
-    - 'Support': Support.md
-    - 'How to create a TunerStudio project': HOWTO-create-tunerstudio-project.md
-    - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
+    - 'How to search the Wiki': HOWTO/HOWTO-Search-on-rusEFI-wiki
+    - 'Quick Start': HOWTO/HOWTO-quick-start
+    - 'How to ask questions': HOWTO/HOWTO-ask-questions
+    - 'Support': Support/Support
+    - 'How to create a TunerStudio project': HOWTO/HOWTO-create-tunerstudio-project
+    - 'HOWTOs and FAQs': FAQ/Pages-FAQ-and-HOWTO
   - 'Community':
     - 'Forum': "https://rusefi.com/forum/"
-    - 'Slack': HOWTO-join-slack-channel.md
-    - 'Engines running on rusEFI': List-of-Engines-Running-rusEFI.md
-    - 'HOWTO-help-rusEFI': HOWTO-help-rusEFI.md
+    - 'Slack': HOWTO/HOWTO-join-slack-channel
+    - 'Engines running on rusEFI': List-of-Engines-Running-rusEFI
+    - 'HOWTO-help-rusEFI': HOWTO/HOWTO-help-rusEFI
   - 'Setup Guides':
-    - 'Trigger - Configuration': Trigger-Configuration-Guide.md
-    - 'Trigger - Setting Offset': How-Do-I-Set-My-Trigger-Offset.md
-    - 'Electronic Throttle Body': Electronic-Throttle-Body-Configuration-Guide.md
+    - 'Trigger - Configuration': Trigger-Configuration-Guide
+    - 'Trigger - Setting Offset': FAQ/How-Do-I-Set-My-Trigger-Offset
+    - 'Electronic Throttle Body': Electronic-Throttle-Body-Configuration-Guide
   - 'Pages':
-    - 'Fuel': Pages-Fuel.md
-    - 'Flex Fuel': Flex-Fuel.md
-    - 'Hardware': Pages-Hardware.md
-    - 'Sensors and Actuators': Pages-Sensors-and-Actuators.md
-    - 'Ignition': Pages-Ignition.md
-    - 'Software': Pages-Software.md
-    - 'rusEFI Project': rusEFI-project.md
-    - 'How To': Pages-HOWTO.md
+    - 'Fuel': Fuel/Pages-Fuel
+    - 'Flex Fuel': Fuel/Flex-Fuel
+    - 'Hardware': Hardware/Pages-Hardware
+    - 'Sensors and Actuators': HOWTO/Pages-Sensors-and-Actuators
+    - 'Ignition': Spark/Pages-Ignition
+    - 'Software': HOWTO/Pages-Software
+    - 'TunerStudio Views': Overview/TS_generated/rusEFI-project
+    - 'How To': HOWTO/Pages-HOWTO
   - 'Features':
-    - 'rusEFI project overview': rusEFI-project.md
-    - 'rusEFI Online': Online.md
-    - 'rusEFI virtual simulator': Virtual-simulator.md
-    - 'Fueling': Fuel-Overview.md
-    - 'Multispark': Multi-Spark.md
-    - 'Cranking': Cranking.md
-    - 'Electronic Throttle': Electronic-Throttle-Body-Configuration-Guide.md
-    - 'Knock Sensing': knock-sensing.md
-    - 'Variable Valve Timing': VVT.md
-    - 'FSIO - Flexible Sweet Input Output': FSIO.md
-    - 'GDI': GDI-status.md
-    - 'Digital Dash': Digital-Dash.md
+    - 'rusEFI Online': HOWTO/Online
+    - 'rusEFI virtual simulator': HOWTO/Virtual-simulator
+    - 'Fueling': Fuel/Fuel_Control/Fuel-Overview
+    - 'Multispark': Spark/Multi-Spark
+    - 'Cranking': HOWTO/Cranking
+    - 'Electronic Throttle': Electronic-Throttle-Body-Configuration-Guide
+    - 'Knock Sensing': Technical/knock-sensing
+    - 'Variable Valve Timing': Technical/VVT
+    - 'FSIO - Flexible Sweet Input Output': HOWTO/FSIO
+    - 'GDI': FAQ/GDI-status
+    - 'Digital Dash': Digital-Dash
   - 'Hardware':
-    - 'rusEFI Hardware Overview': Hardware.md
-    - 'Wiring & Connectivity Overview': FAQ-Basic-Wiring-and-Connections.md
-    - 'rusEFI Assembly Completeness Chart': Completeness-Chart.md
-    - 'Kit Instructions': Pages-Kit-Instructions.md
+    - 'rusEFI Hardware Overview': Hardware/Hardware
+    - 'Wiring & Connectivity Overview': FAQ/FAQ-Basic-Wiring-and-Connections
+    - 'rusEFI Assembly Completeness Chart': Hardware/Completeness-Chart
+    - 'Kit Instructions': HOWTO/Pages-Kit-Instructions
     - 'Boards':
       - 'Hellen': "https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform"
-      - 'Proteus': Proteus.md
-      - 'microRusEFI': Hardware-microRusEFI.md
-      - 'Frankenso': Hardware-Frankenso.md
-      - 'Frankenstein': Hardware-Frankenstein.md
+      - 'Proteus': Hardware/Proteus/Proteus
+      - 'microRusEFI': Hardware/microRusEFI/Hardware-microRusEFI
+      - 'Frankenso': Hardware/Frankenso/Hardware-Frankenso
+      - 'Frankenstein': Hardware/Frankenstein/Hardware-Frankenstein
     - 'Plug & Play Hardware':
-      - 'Hellen Miata 90-95': Hellen64-Miata-NA6-94.md
-      - 'Hellen Miata 01-05 VVT': Hellen72.md
-      - 'MREAdapter55: from Lada to e30': MREAdapter55.md
-      - 'Frankenso MazdaMiataNA6 PnP': Frankenso-MazdaMiataNA6-pnp.md
-      - 'Creating a PnP PCB': PnP-PCB-HowTo.md
+      - 'Hellen Miata 90-95': Hardware/Hellen/Hellen64-Miata-NA6-94
+      - 'Hellen Miata 01-05 VVT': Hardware/Hellen/Hellen72
+      - 'MREAdapter55: from Lada to e30': Hardware/MREAdapter55
+      - 'Frankenso MazdaMiataNA6 PnP': installations/MazdaMiataNA6_Frankenso_pnp/Frankenso-MazdaMiataNA6-pnp
+      - 'Creating a PnP PCB': HOWTO/HOWTO-Make-a-PnP-board
   - 'Contributors':
-    - 'Documentation Strategy': Documentation-Strategy.md
-    - 'Documentation Workflow': Documentation-Workflow.md
+    - 'Documentation Strategy': Documentation-Strategy
+    - 'Documentation Workflow': Documentation-Workflow
     - 'Firmware Code Doxygen': "https://rusefi.com/docs/html"
     - 'Firmware Code Automated Test Coverage': "https://rusefi.com/docs/unit_tests_coverage"
-    - 'HOWTO Contribute To Firmware': HOWTO-contribute-to-firmware.md
-    - 'Firmware performance tracing': Developer-Performance-Tracing.md
+    - 'HOWTO Contribute To Firmware': HOWTO/HOWTO-contribute-to-firmware
+    - 'Firmware performance tracing': Dev/Developer-Performance-Tracing
   - 'Misc':
-    - 'How to convert from carburetor to EFI': how-to-convert-from-carburetor-to-EFI.md
-    - 'Do I need a wideband oxygen sensor?': do-i-need-wideband-oxygen-sensor.md
+    - 'How to convert from carburetor to EFI': FAQ/how-to-convert-from-carburetor-to-EFI
+    - 'Do I need a wideband oxygen sensor?': FAQ/do-i-need-wideband-oxygen-sensor

@@ -26,7 +26,7 @@
 
 # Pages
 - [Fuel](Pages-Fuel)
-    - [Flex Fuel](Flex-Fuel)
+- [Flex Fuel](Flex-Fuel)
 - [Hardware](Pages-Hardware)
 - [Sensors and Actuators](Pages-Sensors-and-Actuators)
 - [Ignition](Pages-Ignition)
@@ -61,8 +61,8 @@
 - [Hellen](https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform)
 - [Proteus](Proteus)
 - [microRusEFI](Hardware-microRusEFI)
-- [Frankenso](https://rusefi.com/forum/viewtopic.php?f=4&t=569)
-- [Frankenstein](https://rusefi.com/forum/viewtopic.php?f=4&t=359)
+- [Frankenso](Hardware-Frankenso)
+- [Frankenstein](Hardware-Frankenstein)
 
 ### Plug & Play Hardware
 
@@ -71,7 +71,7 @@
 - [Hellen Miata 01-05 VVT](Hellen72)
 - [MREAdapter55: from Lada to e30](MREAdapter55)
 - [Frankenso MazdaMiataNA6 PnP](Frankenso-MazdaMiataNA6-pnp)
-- [Creating a PnP PCB](PnP-PCB-HowTo)
+- [Creating a PnP PCB](HOWTO-Make-a-PnP-board)
 
 # Contributors
 
