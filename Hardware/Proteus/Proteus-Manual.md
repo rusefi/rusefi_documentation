@@ -4,11 +4,11 @@ https://www.ebay.com/itm/333841923141
 
 # Software
 
-Proteus 0.6 (STM32F7)  [[Release F7]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip) [[Snapshot F7]](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
+Proteus 0.6 (STM32F7)  [Release F7](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip) [Snapshot F7](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
 
-Proteus 0.3-0.5 (STM32F4) [[Release F4]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [[Snapshot F4]](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip) 
+Proteus 0.3-0.5 (STM32F4) [Release F4](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [Snapshot F4](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip) 
 
-Proteus black market (STM32H7) [[Release H7]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_h7.zip) [[Snapshot H7]](https://rusefi.com/build_server/rusefi_bundle_proteus_h7.zip)
+Proteus black market (STM32H7) [Release H7](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_h7.zip) [Snapshot H7](https://rusefi.com/build_server/rusefi_bundle_proteus_h7.zip)
 
 
 
