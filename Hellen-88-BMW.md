@@ -2,9 +2,9 @@ PnP Development board for M50
 M60 and Pre-1995 Euro M3
 M50tu and Pre-1995 USA M3
 
-[[snapshot bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen88bmw.zip)
+[snapshot bundle](https://rusefi.com/build_server/rusefi_bundle_hellen88bmw.zip)
 
-[[schematics rev A]](Hardware/Hellen/hellen88bmw-a-schematic.pdf)
+[schematics rev A](Hardware/Hellen/hellen88bmw-a-schematic.pdf)
 
 [Issue Tracker](https://github.com/rusefi/hellen88bmw-issues)
 

@@ -28,7 +28,7 @@ The latest Frankenso files can be found here: https://github.com/rusefi/rusefi/t
 Make sure to look at the file frankenso.csv. This is a list of the components of the board. You can import it with program like MS Excel or other CSV (comma separated values) viewer.
 In MS Excel you can import it going to tab "Data", select "From Text" from "Get External Data" group, now you browse to the file and select it, "Import" , "Delimited" (next) , You chose "Comma", then Finish. Here is a pdf version of the file. I printed it in order to make  a quick reference.
 
-I made the table borders black, set the page margins to "Narrow" , orientation to "Landscape", forced "Wrap text" to the first column in order to fit all the components in one row, and all this in order to make everything on single page. You can see the file [[File:Frankenso-0.5-components.pdf]]. It is best to print this list.
+I made the table borders black, set the page margins to "Narrow" , orientation to "Landscape", forced "Wrap text" to the first column in order to fit all the components in one row, and all this in order to make everything on single page. You can see the file [File:Frankenso-0.5-components.pdf]. It is best to print this list.
 
 Next is to print all the pages from frankenso_schematic.pdf. Currently there are 15 pages. This is the most important think to do because you'll use it to note the soldered and the remaining components to be soldered.
 

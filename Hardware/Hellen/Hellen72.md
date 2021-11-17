@@ -1,5 +1,5 @@
-[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
-[[Snapshot firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
+[Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
 
 
 [Issue Tracker](https://github.com/rusefi/hellen-NB2-issues)
@@ -21,14 +21,14 @@
 
 # Technical Details
 
-[[schematic rev C]](Hardware/Hellen/hellen72-c-schematic.pdf)
-[[Interactive iBom rev C]](https://rusefi.com/docs/ibom/hellen72-c-ibom.html)
+[schematic rev C](Hardware/Hellen/hellen72-c-schematic.pdf)
+[Interactive iBom rev C](https://rusefi.com/docs/ibom/hellen72-c-ibom.html)
 
-[[schematic rev D]](Hardware/Hellen/hellen72-d-schematic.pdf)
-[[Interactive iBom rev D]](https://rusefi.com/docs/ibom/hellen72-d-ibom.html)
+[schematic rev D](Hardware/Hellen/hellen72-d-schematic.pdf)
+[Interactive iBom rev D](https://rusefi.com/docs/ibom/hellen72-d-ibom.html)
 
 
-[[Pinout]](https://rusefi.com/docs/pinouts/hellen/helen72/)
+[Pinout](https://rusefi.com/docs/pinouts/hellen/helen72/)
 
 [Forum DEVELOPMENT thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1947)
 

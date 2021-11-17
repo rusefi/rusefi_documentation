@@ -1,6 +1,6 @@
-[[ibom]](https://rusefi.com/docs/ibom/hellen81-a-ibom.html)
+[ibom](https://rusefi.com/docs/ibom/hellen81-a-ibom.html)
 
-[[Pinout]](https://rusefi.com/docs/pinouts/hellen/hellen81/)
+[Pinout](https://rusefi.com/docs/pinouts/hellen/hellen81/)
 
 Hellen81 is an ultracompact and cheap yet full-functional 8-Cylinder ECU board compatible with 81-pin M7.9.7/ME7.9.7/ME7.8.8/Yanvar7.2/Micas10.3.
 

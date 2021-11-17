@@ -2,17 +2,17 @@ Hellen Plug&Play for ME7 VAG vehicles
 
 
 
-[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121vag.zip)
-[[Snapshot firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen121vag.zip)
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121vag.zip)
+[Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen121vag.zip)
 
-[[Pinout]](https://rusefi.com/docs/pinouts/hellen/hellen121vag/)
-[[EBAY]](https://www.ebay.com/itm/334048095704)
+[Pinout](https://rusefi.com/docs/pinouts/hellen/hellen121vag/)
+[EBAY](https://www.ebay.com/itm/334048095704)
 
-[[Schematics rev a]](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-a/board/hellen121vag-a-schematic.pdf)
+[Schematics rev a](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-a/board/hellen121vag-a-schematic.pdf)
 
 
-[[Schematics rev b]](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-b/board/hellen121vag-b-schematic.pdf)
-[[iBom rev b]](https://rusefi.com/docs/ibom/hellen121vag-b-ibom.html)
+[Schematics rev b](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-b/board/hellen121vag-b-schematic.pdf)
+[iBom rev b](https://rusefi.com/docs/ibom/hellen121vag-b-ibom.html)
 
 
 
@@ -54,9 +54,9 @@ Raw +12 option **Never have both F1 and F2 jumpers populated!**
 
 [Connector Pinout Spreadsheet, with links to wiring drawings](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
 
-[[VAG-B5]]
+[VAG-B5]
 
-[[VAG-C5]]
+[VAG-C5]
 
 [VAG-MK4 VR6](https://github.com/rusefi/rusefi/wiki/mk4-vr6-wiring)
 

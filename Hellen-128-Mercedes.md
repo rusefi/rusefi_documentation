@@ -2,16 +2,16 @@
 
 This development board is PnP for Mercedes with the 128 Pin ECU (could be used on M104, M111, M112 and M113 engine; late 90s-early 2000s. confirm your ECU _harness_)
 
-[[Download release firmware]](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
-[[Snapshot firmware bundle]](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
+[Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen128/) & [Google Sheet](https://docs.google.com/spreadsheets/d/1I-lZKRajTiEGFUXdZpXEtKF2pymlOo-lPahy3cLMnl4) & [Another Google Sheet](https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1kp4Y/)
 
-[[Issue Tracker]](https://github.com/rusefi/hellen128merc-issues/issues)
+[Issue Tracker](https://github.com/rusefi/hellen128merc-issues/issues)
 
-[[Schematics rev a]](Hardware/Hellen/hellen128mercedes-a-schematic.pdf)[[iBom rev a]](https://rusefi.com/docs/ibom/hellen128mercedes-a-ibom.html)
+[Schematics rev a]](Hardware/Hellen/hellen128mercedes-a-schematic.pdf)[[iBom rev a](https://rusefi.com/docs/ibom/hellen128mercedes-a-ibom.html)
 
-[[Schematics rev b]](Hardware/Hellen/hellen128mercedes-b-schematic.pdf)[[iBom rev b]](https://rusefi.com/docs/ibom/hellen128mercedes-b-ibom.html)
+[Schematics rev b]](Hardware/Hellen/hellen128mercedes-b-schematic.pdf)[[iBom rev b](https://rusefi.com/docs/ibom/hellen128mercedes-b-ibom.html)
 
 ## Hardware features
 

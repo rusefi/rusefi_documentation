@@ -4,6 +4,6 @@ rusEFI is a group of enthusiasts developing a fundamentally _smarter_ open sourc
 
 See also https://github.com/rusefi/rusefi/blob/master/misc/Strategy_2021.md
 
-Interested to tinker with us? [[Hardware]](Hardware)
+Interested to tinker with us? [Hardware](Hardware)
 
 Want to know more? See you on [rusEFI forum](https://rusefi.com/forum) and Slack.

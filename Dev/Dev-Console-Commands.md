@@ -48,7 +48,7 @@
 |injector|5|
 |ls|3|
 |mountsd|0|
-|performance info|0| [[Development:Software:performance#Event_handling]]|
+|performance info|0| [Development:Software:performance#Event_handling]|
 |readconfig|0 |read config from flash/EEPROM|
 |resetconfig|0|Resets configuration to default|
 |set ignition_offset|1|
