@@ -6,6 +6,26 @@ These can be extracted under your home directory; just add the `bin` directory t
 
 TODO: You probably need to install additional packages but I don't remember what they are.
 
+Then to compile the firmware,
+```
+cd firmware
+make PROJECT_BOARD=nucleo_h743 PROJECT_CPU=ARCH_STM32H7 -j4
+```
+Edit according to your environment.
+
+To compile the simulator,
+```
+cd simulator
+./compile.sh
+```
+
+To compile the unit tests,
+```
+cd unit_tests
+make -j4
+```
+
+
 # Working with STM32 Dev/Nucleo boards
 
 These boards are convenient as they include an ST-Link onboard which aids debugging.  I believe the main difference is a Development board includes a bunch of peripherals that you may or may not care about, while a Nucleo board is much more stripped down.  Some (all?) boards will be powered when you connect to the ST-Link USB board.  The ST-Link will include, among other things, a virtual com port, which can be used to run either the console or TunerStudio.  However, by default the ports are not accessible by regular users.  You can solve this with:
