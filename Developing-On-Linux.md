@@ -33,6 +33,7 @@ flash write-image erase build/rusefi.elf
 reset run
 exit
 ```
+Conveniently, OpenOCD will retain a history of commands, allowing you to use up-arrows to retrieve previous commands.
 
 On a nucleo-h743, I don't seem to get much indication this worked, but if you connect via gdb:
 ```
