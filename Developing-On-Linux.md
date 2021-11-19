@@ -48,9 +48,7 @@ OpenOCD can be left running in the background while you develop in other windows
 To reprogram, simply do:
 ```
 telnet localhost 4444
-reset halt
-flash write-image erase build/rusefi.elf
-reset run
+program build/rusefi.elf reset
 exit
 ```
 Conveniently, OpenOCD will retain a history of commands, allowing you to use up-arrows to retrieve previous commands.
