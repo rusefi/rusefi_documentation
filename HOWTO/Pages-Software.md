@@ -18,6 +18,7 @@
 * [How To DFU](HOWTO-DFU)
 * [How To Update Firmware](HOWTO-Update-Firmware)
 * [How To Upload a Tune](HOWTO-upload-tune)
+* [Developing On Linux]
 * [rusEFI Bundle](rusEFI-bundle)
 
 </details>
