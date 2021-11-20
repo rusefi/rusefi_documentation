@@ -6,6 +6,7 @@ From left to right: 04 sti, 06 sti, 07 sti (canbus), 08-14 sti (canbus)
 
 2004 STI USDM
 
+[2005-2007 GDA GDB 5 Engine Control Module ECM IO Signals.pdf](OEM-Docs/Subaru/2005-2007-GDA-GDB-5-Engine-Control-Module-ECM-IO-Signals.pdf)
 
 ![x](OEM-Docs/Subaru/2004-subaru-impreza-2.5T-1.png)
 
