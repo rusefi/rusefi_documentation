@@ -81,7 +81,7 @@ Output:
 
 ### `setTickRate(hz)`
 
-Sets the rate at which rusEFI calls your `onTick` function, in hz.
+Sets the rate at which rusEFI calls your `onTick` function, in hz. On reset default is 10hz.
 
 - Parameters
   - `hz`: Desired tick rate, in hz.  Values passed will be clamped to a minimum of 1hz, and maximum of 100hz.
