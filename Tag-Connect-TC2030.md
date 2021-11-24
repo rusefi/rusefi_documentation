@@ -23,4 +23,5 @@ Four more important wires are:
 * 13-swdio
 * 14-swclk
 
-
+Offtopic:
+STLINK-V3MINI also works with FTSH-105-01-F-DV-007-K on Proteus
