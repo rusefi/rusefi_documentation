@@ -289,6 +289,18 @@ function onTick()
 end
 ```
 
+# table
+
+```
+tableIndex = findTableIndex("duty")
+
+TurbochargerSpeed = getSensor("TurbochargerSpeed")
+tps = getSenor("Tps1")
+
+dutyCycle = table3d(tableIndex, TurbochargerSpeed, tps)
+
+```
+
 
 ## See also
 
