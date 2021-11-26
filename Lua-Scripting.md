@@ -229,6 +229,7 @@ Set the duty cycle of the specified PWM channel.
 
 ## Examples
 
+# timer
 ```
 t = Timer.new();
 timingAdd = 0;
@@ -257,7 +258,7 @@ end
 
 
 
-
+# PWM
 ```
 -- index 0, 100Hz, zero duty inititally
 startPwm(0, 100, 0)
@@ -271,7 +272,7 @@ function onTick()
 end
 ```
 
-
+# CAN transmit
 ```
 function onTick()
   tps = getSensor("CLT")
@@ -289,8 +290,20 @@ function onTick()
 end
 ```
 
-# table
+# CAN receive
+```
+canRxAdd(0x570)
+function onCanRx(bus, id, dlc, data)
+  print('got CAN id=' .. id .. ' dlc='  .. dlc)
+  id11 = id % 2048
+  if id11 == 0x500 then --Check can state of BCM
+    canState = data[1]
+  end
+end
+```
 
+
+# table
 ```
 tableIndex = findTableIndex("duty")
 
