@@ -51,6 +51,8 @@ different people, also useful while Lua script editing is available only in TS.
 
 ## Engine Control
 
+### `stopEngine`
+
 ### `setTimingAdd(angle)`
 todo add details but ready to test!
 
