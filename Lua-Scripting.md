@@ -311,7 +311,7 @@ end
 tableIndex = findTableIndex("duty")
 
 TurbochargerSpeed = getSensor("TurbochargerSpeed")
-tps = getSenor("Tps1")
+tps = getSensor("Tps1")
 
 dutyCycle = table3d(tableIndex, TurbochargerSpeed, tps)
 
