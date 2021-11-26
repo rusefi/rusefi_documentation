@@ -292,6 +292,7 @@ end
 
 # CAN receive
 ```
+canRxAdd(0x500)
 canRxAdd(0x570)
 function onCanRx(bus, id, dlc, data)
   print('got CAN id=' .. id .. ' dlc='  .. dlc)
