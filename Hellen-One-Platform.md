@@ -14,8 +14,8 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |[121 Pin VAG](Hellen121VAG)|<a href="https://www.ebay.com/itm/334048095704"><img src="Images/ebay_gen_button.gif"></a>|[open source](https://github.com/rusefi/hellen121vag)|
 |[121 Pin Nissan](Hellen-121-Nissan)|<a href="https://www.ebay.com/itm/334061645783"><img src="Images/ebay_gen_button.gif"></a>|
 |[128 Pin Mercedes](Hellen-128-Mercedes)|<a href="https://www.ebay.com/itm/334094173341"><img src="Images/ebay_gen_button.gif"></a>|
+|[88 Pin BMW](Hellen-88-BMW)|<a href="https://www.ebay.com/itm/334235601464"><img src="Images/ebay_gen_button.gif"></a>|
 |[154 Pin Hyundai](Hellen-154-Hyundai)|soon|[open source](https://github.com/rusefi/hellen154hyundai)|
-|[88 Pin BMW](Hellen-88-BMW)|soon|
 
 
 ### The .ini file for Hellen is loaded onto the Hellen board. When you plug the Hellen into your computer, a "virtual flashdrive" will load up. The .ini file is in there. Copy to your computer and save in your TunerStudio folder, and link your TunerStudio definition to that file. When your Hellen firmware is updated, the .ini file is also updated, so make sure you get the latest .ini from the Hellen board after you update the firmware!
