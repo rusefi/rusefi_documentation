@@ -268,8 +268,8 @@ startPwm(0, 100, 0)
 function onTick()
  enable_pump = getSensor("RPM") > 700  and getSensor("BatteryVoltage") > 13 and getSensor("VehicleSpeed") <60
  
- -- lua does not have ternary ? : operator, this here means "100 if enable_pump and 0 otherwise"
- setPwmDuty(0, enable_pump and 100 or 0)
+ -- lua does not have ternary ? : operator, this here means "1 if enable_pump and 0 otherwise"
+ setPwmDuty(0, enable_pump and 1 or 0)
 
 end
 ```
