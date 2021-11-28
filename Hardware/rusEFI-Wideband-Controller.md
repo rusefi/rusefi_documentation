@@ -63,3 +63,6 @@ Green LED off and blue LED flashing indicates an error.  The blue LED will blink
 
 ## Index Selection
 https://github.com/mck1117/wideband/issues/11
+
+
+![x](Hardware/Hellen/hellen-wbo-F042-soldering-map.jpg)
