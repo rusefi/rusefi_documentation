@@ -6,6 +6,7 @@
 
 ## Pinout
 
+
 ![connector pinout image](https://imgur.com/LvCaQ1o.jpg)
 
 | Pin Number | Function | Notes |
