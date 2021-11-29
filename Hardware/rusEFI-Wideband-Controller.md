@@ -65,4 +65,10 @@ Green LED off and blue LED flashing indicates an error.  The blue LED will blink
 https://github.com/mck1117/wideband/issues/11
 
 
+# Fabrication
+
+* Power board with 5v (WBO module produces it's own 3v from supplied 5v)
+* [Tag-Connect-TC2030](Tag-Connect-TC2030) to upload https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_image_with_bl.bin firmware
+* power cycle to confirm green LED blinking 
+
 ![x](Hardware/Hellen/hellen-wbo-F042-soldering-map.jpg)
