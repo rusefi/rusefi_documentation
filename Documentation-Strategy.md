@@ -15,3 +15,15 @@ Arguments against github
 
 Arguments for mediawiki:
 1) ?
+
+
+
+
+# Side note
+
+Open question what is in scope of rusEFI wiki and what is out of scope.
+
+* We are probably not trying to teach people how to tune HP Academy does that better
+* Andrey does not believe in text documentation on wiki
+
+
