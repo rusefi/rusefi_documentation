@@ -5,7 +5,7 @@
 # the opposite merge is implemented as https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml
 #
 
-name: Sync Wiki
+name: Sync Wiki & Generate static wiki
 
 on:
   push:
