@@ -53,6 +53,11 @@ different people, also useful while Lua script editing is available only in TS.
 
 ### `stopEngine`
 
+### `setSparkSkipRatio`
+
+setSparkSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
+setSparkSkipRatio(0.5) would skip half of ignition events. We never skip two consecutive ignitions.
+
 ### `setTimingAdd(angle)`
 todo add details but ready to test!
 
