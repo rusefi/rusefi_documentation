@@ -9,7 +9,7 @@
 ![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_325_3.png)
 
 # M3
-## 2002
+## 2002 M3
 
 ![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_m3_ecu.png)
 
@@ -19,13 +19,23 @@
 
 ![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_m3_3.png)
 
-## 2004
+## 2004 M3
 
 ![x](OEM-Docs/Bmw/3_Series_e46/2004_bmw_m3_1.png)
 
 ![x](OEM-Docs/Bmw/3_Series_e46/2004_bmw_m3_2.png)
 
 ![x](OEM-Docs/Bmw/3_Series_e46/2004_bmw_m3_3.png)
+
+## 2004 330
+
+![x](OEM-Docs/Bmw/3_Series_e46/2004_330ci-ecu-1.png)
+
+![x](OEM-Docs/Bmw/3_Series_e46/2004_330ci-ecu-2.png)
+
+![x](OEM-Docs/Bmw/3_Series_e46/2004_330ci-ecu-3.png)
+
+
 
 | Connector/ Pin Number | OEM Color | Name / Function | 
 | --------------------- |------- |---------------- |
