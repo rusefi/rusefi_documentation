@@ -1,7 +1,7 @@
 TL,DR: https://github.com/rusefi/rusefi/wiki/Knowledge-best-practices-and-Channels#q-i-need-help
 
 
-rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises.
+rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises including zero promises of technical support. 
 
 rusEFI has zero full time staff and most of rusEFI contributors all over the globe have day jobs and other obligations.
 
