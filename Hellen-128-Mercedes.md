@@ -136,13 +136,16 @@ Hellen 128 was originally designed for M111 swaps into W201. Depending on the ye
 
 # Changelog
 
-## rev B
+## rev C
+* wastegate diode
 
-* better provisions for high-current control of supercharger clutch solenoid on 5 M111
+## rev B Aug 27, 2021
+
+* better provisions for high-current control of supercharger [clutch solenoid on M111 Q6 R80](https://github.com/rusefi/hellen128merc-issues/issues/10)
 * ignition fuse changed from 36915000000 5A to 2010-T10A0V2T11192AM5G 10A. 0697H9100-02 could be use for refitting of rev A
 
 
-## rev A
+## rev A June 10, 2021
 
 * good to drive, great success!
 
