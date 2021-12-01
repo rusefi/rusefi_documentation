@@ -23,6 +23,8 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 
 ![x](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder.jpg)
 
+With R80 on the back side
+
 [test points](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder-test-points.png)
 
 [Rev B naked board](Hardware/Hellen/hellen128mercedes-rev-b.jpg)
