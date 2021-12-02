@@ -65,6 +65,10 @@ todo add details but ready to test!
 
 todo add details but ready to test!
 
+### `setEtbAdd(extraEtb)`
+
+extraEtb `10` for 10%
+
 ## Utility
 
 ### `print(msg)`
