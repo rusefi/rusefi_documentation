@@ -14,6 +14,9 @@
 | TLE8888QK      | 2014-2017     | 7+7           | n/a  | Used on M86 http://chiptuner.ru/content/ctpro_m86/  |
 |       |      |            |   |   |
 |       |      |            |   |   |
+| mc33810 MCZ33810      |      |            |   |   |
+|       |      |            |   |   |
+|       |      |            |   |   |
 
 
 ![tree](OEM-Docs/Infineon/low_side_selection_tree.png)
