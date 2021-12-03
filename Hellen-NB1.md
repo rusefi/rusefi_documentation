@@ -47,3 +47,15 @@ https://github.com/rusefi/hellen-NB1-issues
 [LSU 4.9 Wideband Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/2081)
 
 [LSU 4.9 Wideband Sensor](https://www.bmotorsports.com/shop/product_info.php/products_id/1645) Or Similar
+
+# Changelog
+
+## rev B Nov 30, 2021
+* [high-side outputs protection](https://github.com/rusefi/hellen-NB1-issues/issues/25)
+
+## rev A
+
+* good to drive, great success!
+
+
+
