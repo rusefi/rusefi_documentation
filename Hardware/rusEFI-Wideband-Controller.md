@@ -4,6 +4,16 @@
 
 [Hellen-WBO](Hellen-WBO)
 
+# FAQ
+
+### Q: dim red LED?
+
+A: We only preheat mildly until engine is running for reasons TBD.
+
+### Q: Why would you need CAN for rusEFI WBO?
+
+A: We control heater based on RPM, also WBO compensate for battery voltage based on CAN info.
+
 ## Pinout
 
 
