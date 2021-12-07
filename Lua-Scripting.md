@@ -69,6 +69,15 @@ todo add details but ready to test!
 
 extraEtb `10` for 10%
 
+## CAN bus
+
+### `enableCanTx(isEnabled)`
+
+enabled by default
+
+use enableCanTx(false) to suppress CAN TX
+
+
 ## Utility
 
 ### `print(msg)`
