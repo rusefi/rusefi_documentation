@@ -17,7 +17,11 @@ Miata NA
 
 # Cold start on a Winter day
 
-Hot start
+
+
+# Hot start
+
+Wow Matt hot starts https://www.youtube.com/watch?v=lGjPbiyv49c
 
 # Parked Idle
 
