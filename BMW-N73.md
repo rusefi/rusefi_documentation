@@ -1,4 +1,6 @@
 
+[rusEFI 2004 BMW 760](https://rusefi.com/forum/viewtopic.php?f=2&t=1845)
+
 # N73
 
 BMW 760 12 cylinders
