@@ -57,7 +57,7 @@ nav:
     - 'rusEFI Assembly Completeness Chart': Hardware/Completeness-Chart
     - 'Kit Instructions': HOWTO/Pages-Kit-Instructions
     - 'Boards':
-      - 'Hellen': "https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform"
+      - 'Hellen': Hellen-One-Platform
       - 'Proteus': Hardware/Proteus/Proteus
       - 'microRusEFI': Hardware/microRusEFI/Hardware-microRusEFI
       - 'Frankenso': Hardware/Frankenso/Hardware-Frankenso
