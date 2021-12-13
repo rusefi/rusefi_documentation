@@ -108,6 +108,10 @@ Sets the rate at which rusEFI calls your `onTick` function, in hz. On reset defa
 - Returns
   - none
 
+### `mcu_stop`
+
+Stops MCU.
+
 ### `table3d(tableIdx, x, y)`
 
 Looks up a value from the specified Script Table.
