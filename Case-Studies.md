@@ -1,5 +1,11 @@
 See also [List-of-Engines-Running-rusEFI](List-of-Engines-Running-rusEFI)
 
+We have a bracket GP winner, Matts lucky dog car has not done too badly iirc and we have a UKDC pro2 qualifying drift car.
+Street and import side, obviously your mr2, beers various mx5s and i believe a genesis has just been done.
+We also are starting to make plug and tinker boards for popular tuner chassis, MX5, genesis, e36/46.
+
+
+
 # Cold start on a Summer day
 
 v8 LS: [tune](https://rusefi.com/online/view.php?msq=495)
