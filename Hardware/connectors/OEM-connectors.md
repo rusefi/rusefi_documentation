@@ -402,6 +402,14 @@ http://www.te.com/catalog/pn/en/185785-1
 
 98-01 KIA SEPHIA
 
+## 93 pin
+
+![x](OEM-Docs/Subaru/93pins.jpeg)
+
+35+28+30
+Subaru 22611AE670 
+SUBARU IMPREZA 2000-2003 ENGINE CONTROL MODULE UNIT ECU 22611AF634
+
 ## 94 pin
 
 31+24+17+22=94
