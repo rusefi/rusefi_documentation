@@ -41,6 +41,18 @@ end
 
 ## User Settings
 
+### `getCalibration(name)`
+
+Gets current calibration value for specified scalar setting. For example ``getCalibration("cranking.rpm")``
+
+See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.cpp for field names
+
+### `setCalibration(name, value, needEvent)`
+
+Sets specified calibration setting to specified value. Fires calibration change event depending on needEvent parameter.
+
+For example ``setCalibration("cranking.rpm", 900, false)``
+
 ### `findSetting(name, defaultValue)`
 Find User Setting with specified name and returns numeric value. Useful when script developer and script consumer are
 different people, also useful while Lua script editing is available only in TS.
