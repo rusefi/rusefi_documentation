@@ -47,7 +47,7 @@ For example ``getOutput("clutchUpState")`` ``getOutput("brakePedalState")``
 
 See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp for output names.
 
-### `setClutchUpState(value)
+### `setClutchUpState(value)`
 
 ### `setBrakePedalState(value)`
 
