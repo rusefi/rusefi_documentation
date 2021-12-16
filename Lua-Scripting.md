@@ -41,11 +41,21 @@ end
 
 ## User Settings
 
+### `getOutput(name)`
+
+For example ``getOutput("clutchUpState")`` ``getOutput("brakePedalState")``
+
+See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp for output names.
+
+### `setClutchUpState(value)`
+
+### `setBrakePedalState(value)`
+
 ### `getCalibration(name)`
 
 Gets current calibration value for specified scalar setting. For example ``getCalibration("cranking.rpm")``
 
-See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.cpp for field names
+See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.cpp for field names.
 
 ### `setCalibration(name, value, needEvent)`
 
