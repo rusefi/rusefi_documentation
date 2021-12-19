@@ -4,10 +4,11 @@ Test mule #2 2006 760 Zeiss HeinrichG
 
 Some packets with formats E90 https://www.loopybunny.co.uk/CarPC/k_can.html
 
-Recordings of both buses by Zeiss HeinrichG https://github.com/HeinrichG-V12/E65_ReverseEngineering
+Recordings of both buses by Zeiss HeinrichG https://github.com/HeinrichG-V12/E65_ReverseEngineering - see https://github.com/rusefi/rusefi/wiki/e65-can for description
 
 
 Need to decode message format: Smaller list of names in English https://www.m5board.com/threads/lets-talk-dct-conversion.461873/page-21#post-7596717
+
 Need to decode message format: Huge list in German https://www.bimmerforums.com/forum/showthread.php?2298830-E90-Can-bus-project-%28E60-E65-E87-%29&p=29628499#post29628499
 
 
@@ -22,7 +23,7 @@ E90 https://www.bimmerforums.com/forum/showthread.php?2298830-E90-Can-bus-projec
 
 
 
-LOCAL messages:
+Local-CAN messages:
 
  105
 
@@ -40,9 +41,9 @@ LOCAL messages:
 
  208
 
- 20D
+ 20D ? Position Lenksäule (5) 101 0x65 SZM_MIT_KBUS/SZM
 
- 212
+ 212 ? Höhenstände Luftfeder [8] 56 0x38 EHC 
 
  214
 
