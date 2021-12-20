@@ -24,7 +24,7 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 ### Uncommon Boards
 
-[Frankenso stm32f407 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle.zip)
+[Discovery stm32f407 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle.zip)
 
 [Frankenso PnP Miata NA6 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_frankenso_na6.zip)
 
