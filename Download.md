@@ -4,11 +4,11 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 ### Common Boards
 
-[microRusEFI 0.4 and newer (STM32F4)](microRusEFI-Manual#software)
+[microRusEFI 0.4 and newer (STM32F4)](https://linkify.me/6MfPywF)
 
-[Proteus](Proteus-Manual#software)
+[Proteus](https://linkify.me/5tNC4TG)
 
-[STM32 Discovery Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_default.zip)
+[STM32 Discovery Release](https://linkify.me/eNnwFZs)
 
 ### Hellen Family Boards
 
