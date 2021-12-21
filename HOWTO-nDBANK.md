@@ -1,6 +1,6 @@
 Some chips like STM32F767 are bringing nDBANK drama into our life.
 
-We have Windows batch scripts in console\STM32_Programmer_CLI\bin folder
+We have Windows batch scripts in ``console\STM32_Programmer_CLI\bin`` folder
 
 step 1) switch to DFU mode with button or rusEFI console or TS "reboot to DFU"
 
