@@ -1,5 +1,7 @@
 Some chips like STM32F767 are bringing nDBANK drama into our life.
 
+# New way, Windows command line DFU scripts
+
 We have Windows batch scripts in ``console\STM32_Programmer_CLI\bin`` folder
 
 step 1) switch to DFU mode with button or rusefi_console.exe or TS "reboot to DFU"
@@ -10,6 +12,8 @@ step 3) ``stm32-full-erase.bat``
 
 step 4) ``stm32-flash-dfu.bat``
 
+
+# Old way - GUI application via DFU or SWD
 
 TODO: try https://github.com/danielinux/stm32f7-dualbank-tool
 
