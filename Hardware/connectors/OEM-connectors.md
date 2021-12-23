@@ -32,6 +32,12 @@ Do you know part numbers for any other OEM connectors? Please let us know!
 
 Here are some OEM connector part numbers. Bosch & Siemens, German and Japanese, Mazda Toyota BMW Volkswagen:
 
+## 24 pin
+
+Popular aftermarket connector
+
+APTIV (FORMERLY DELPHI) HCCPHPE24BKA90F 
+
 
 <a name="30"/>
 
