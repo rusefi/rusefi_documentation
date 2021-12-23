@@ -68,7 +68,7 @@ Green LED off and blue LED flashing indicates an error.  The blue LED will blink
 | alternating slowly | Firmware integrity check failed, please retry firmware upgrade. |
 | alternating quickly | Waiting for bootloader entry command, only occurs for ~1 second before launching firmware |
 
-## Setting it up
+## Setting it up in Tunerstudio
 In order for the WBO to work, the following conditions (and maybe more) have to be met:
 * Under "Controller" -> "Can Bus Communication" -> "Enable rusEFI Can Broadcast" = "true" must be set
 * Under "Sensors" -> "EGO Sensor" -> "Enable Can Wideband" = "true" must be set
