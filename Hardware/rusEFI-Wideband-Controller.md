@@ -70,8 +70,8 @@ Green LED off and blue LED flashing indicates an error.  The blue LED will blink
 
 ## Setting it up
 In order for the WBO to work, the following conditions (and maybe more) have to be met:
-Under "Controller" -> "Can Bus Communication" -> "Enable rusEFI Can Broadcast" = "true" must be set
-Under "Sensors" -> "EGO Sensor" -> "Enable Can Wideband" = "true" must be set
+* Under "Controller" -> "Can Bus Communication" -> "Enable rusEFI Can Broadcast" = "true" must be set
+* Under "Sensors" -> "EGO Sensor" -> "Enable Can Wideband" = "true" must be set
 
 There was also an opinion voiced that the board needs to see voltage on the "vBatt ADC Input" pin. This is as yet unconfirmed.
 
