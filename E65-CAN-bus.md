@@ -2,6 +2,10 @@ First priority to control 6HP26 gearbox
 
 [Forum Thread](https://rusefi.com/forum/viewtopic.php?f=2&t=2241)
 
+[BMW N73 electronics](BMW-N73)
+
+
+
 Test mule #1 2004 760 AndreyB
 
 Test mule #2 2006 760 Zeiss HeinrichG
