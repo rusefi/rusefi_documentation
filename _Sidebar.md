@@ -62,7 +62,6 @@
 - [Proteus](Proteus)
 - [microRusEFI](Hardware-microRusEFI)
 - [Frankenso](Hardware-Frankenso)
-- [Frankenstein](Hardware-Frankenstein)
 
 ### Plug & Play Hardware
 
