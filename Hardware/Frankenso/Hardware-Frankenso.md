@@ -1,3 +1,5 @@
+# EFFECTIVELY RETIRED BOARD
+
 ## Overview
 
 Frankenso should be powered by ignition switch. Frankenso main relay output can control main (injectors/fuel pump etc) relay if needed.
