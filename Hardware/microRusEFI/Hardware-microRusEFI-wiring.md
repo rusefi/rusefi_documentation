@@ -36,7 +36,7 @@ These tables provide technical information about the different types of pin foun
 
 | Pin  | Name                | Notes & Limits                                                                       |
 |------|---------------------| ------------------------------------------------------------------------------------ |
-| #33 | GP4 | Stepper Coil #2 |
+| #33 | GP3 | Stepper Coil #2 |
 | #34 | GP2 | Stepper Coil #1 |
 | #35| GP1 | Stepper Coil #1 |
 | #43 | GP4 | Stepper Coil #2 |
