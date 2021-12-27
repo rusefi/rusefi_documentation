@@ -28,3 +28,7 @@ http://forum.diyefi.org/viewtopic.php?f=4&t=2184
 [First test mule Ford Aspire](https://rusefi.com/forum/viewtopic.php?t=375)
 
 rusEFI has started out of the blue by Andrey. 
+
+# 2010
+
+Keith, Hoang and Josh has pulled me into 24 hours of Lemons. That's how I got into cars :) https://www.youtube.com/watch?v=nfwEQIIFBlU
