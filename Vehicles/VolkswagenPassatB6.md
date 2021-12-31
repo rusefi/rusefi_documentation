@@ -51,7 +51,7 @@ Sensor Power:
 
 |Pin Number|Name   | Default function                   | OEM Color |
 | ---:|:---------- |:------------------------------------ | --- |
-| 1   | **GND**    |  Power GND term. 31                   | BRN |
+| 1/61   | **GND**    |  Power GND term. 31                   | BRN |
 | 2   | **GND**    |  Power GND term. 31                   | BRN |
 | 3   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
 | 4   | **GND**    |  Power GND term. 31                   | BRN |
@@ -65,17 +65,17 @@ Sensor Power:
 | 28  | low side   | .coolant FAN control module 25Hz PMW       | YEL/VIO   |
 | 32  | low side   | .main relay control                    | GRN/YEL |
 | 38  | analog     | .MAP signal P2-b                       | GRY   |
-| 53  | **GND**    | .Sensor GND CLT MAP P1-b               | BLK |
-| 56  | analog GND | .Pedal GND                             | BLU/GRY   |
-| 57  | analog input | .Pedal signal #1                       | WHT/BLU   |
-| 58  | +5v        | .Pedal sensor power                    | GRN/GRY   |
+| 53/113  | **GND**    | .Sensor GND CLT MAP P1-b               | BLK |
+| 56/116  | analog GND | .Pedal GND                             | BLU/GRY   |
+| 57/117  | analog input | .Pedal signal #1                       | WHT/BLU   |
+| 58/118  | +5v        | .Pedal sensor power                    | GRN/GRY   |
 | 64  |            | MAF signal                            | GRN    |
 | 67  |            | CAN Low                               | ORG/BRN   |
 | 68  |            | CAN High                              | ORG/BLK   |
 | 69  | low side   | ECU Relay Control (CAN wake up)       | BRN/VIO  |
-| 78  | analog GND | .Pedal GND                             | VIO/BLK  |
-| 79  | analog input | Pedal signal #2                       | BLK/BLU   |
-| 80  | +5v        | .Pedal sensor power                    | BLK/RED   |
+| 78/138  | analog GND | .Pedal GND                             | VIO/BLK  |
+| 79/139  | analog input | Pedal signal #2                       | BLK/BLU   |
+| 80/140  | +5v        | .Pedal sensor power                    | BLK/RED   |
 | 86  |            | K-line                                |         |
 | 87  | +12v       | Constant +12v from Fuse #25 10A term. 30 |         |
 | 92  | +12v       | Constant +12v from Fuse #25 10A term. 30 | BLK/YEL |
