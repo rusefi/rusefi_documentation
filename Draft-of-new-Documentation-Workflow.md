@@ -6,6 +6,7 @@ When a change is made to the repo, a Github Action automatically builds the wiki
 
 
 For example, in order for user abelom to edit this page:
+
 1. abelom would start editing at https://github.com/rusefi/rusefi_documentation/blob/master/Documentation_Workflow.md which would automatically create a branch in https://github.com/abelom/rusefi_documentation fork
 2. Once changed are made, abelom would create a Pull Request
 3. Once that PR is merged into primary rusEFI modified content would appear as https://github.com/rusefi/rusefi_documentation/blob/master/Documentation_Workflow.md
@@ -28,11 +29,14 @@ For example https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/image
 
 Links to page names use only the name of the page; relative path does not matter.
 Example:
+
 `[The Documentation Workflow](Documentation-Workflow)`
 
 Links to images are relative to the .md file they are in.
 Example:
+
 `![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)`
 
 **Q:** What sort of fancy options do we have?
+
 **A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example.
