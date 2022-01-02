@@ -18,6 +18,7 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 * ME 2.0 pinout
 * supports both smart and dumb coils
 * ?
+* one or two channels of [rusEFI-Wideband-Controller](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
 
 4 cylinder configuration
 
