@@ -12,6 +12,7 @@
 | TLE8110EE      | 2009-2013     |       6+4     | $2.4  |   |
 | TLE8080-3EM      | 2012-2016     |  2+2  | n/a | also power supply, for one cylinder motocycle engine  |   |
 | TLE8110ED      | 2018     |       6+4     | n/a  |   |
+| L9779WD | 2015 | ? | | |
 | TLE8888QK      | 2014-2017     | 7+7           | n/a  | Used on M86 http://chiptuner.ru/content/ctpro_m86/  |
 | TLE8088      |      |            |   |   |
 | L9779WD      |      |            |   |   |
