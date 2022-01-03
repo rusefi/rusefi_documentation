@@ -15,9 +15,8 @@
 | L9779WD | 2015 | ? | | |
 | TLE8888QK      | 2014-2017     | 7+7           | n/a  | Used on M86 http://chiptuner.ru/content/ctpro_m86/  |
 | TLE8088      |      |            |   |   |
-| L9779WD      |      |            |   |   |
 | mc33810 MCZ33810      |      |            |   |   |
-|       |      |            |   |   |
+|  TLE8209     |      |            |   |  H-Bridge |
 |       |      |            |   |   |
 
 
