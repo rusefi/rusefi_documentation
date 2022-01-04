@@ -26,13 +26,13 @@ Just a reminder that to attach a screen shot to the forum post you LITERLLY need
 
 A: Please use youtube to post videos.
 
-### Q: What about N75?
+### Q: Will I get a useful response if I use manufacturer-specific jargon? (i.e. "What about N75?")
 
-A: Please help us help you by using most universal terminology where possible. rusEFI is not Mazda-specific nor is it Mercedes specific, "solenoid wastegate valve" is the way to be understandable by the wider audience.
+A: rusEFI is not specific to a particular vehicle.  The people involved own and know about a wide range of vehicles.  It's easy to forget this and use terms that may be familiar to people who mess with vehicles like yours but aren't well known in the broader audience.  Asking "What about N75?" is a much more ambiguous question than "What about N75 (boost control valves)?"  Adding the extra information (parenthetically) makes it easier for more people to understand what you are asking and help you faster.
 
-### Q: I have 2009 AXP with TAMTAM.
+### Q: I have 2009 AXP with TAMTAM.  Help me.  ("AXP" and "TAMTAM" are made up to illustrate that the particulars really don't matter here.)
 
-A: What you are asking for is not something that we have time or bandwidth to address at this time.  We have no expectation that it will become a priority in the next 6 months
+A: You are very unlikely to get much help asking for support like this.  rusEFI helps those that are willing to help themselves.  We do not have the have time or bandwidth to provide handholding for specific setups or features.  Unless you want to become involved in the development process as a contributor, it is very unlikely that we will "just get around to it" in the next year.
 
 Please feel free to familiarize yourself with the available open source files and submit a PR to enable the functionality required to meet your needs.
 
