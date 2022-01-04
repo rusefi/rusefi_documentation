@@ -20,11 +20,16 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 * ?
 * one or two channels of [rusEFI-Wideband-Controller](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
 
-4 cylinder configuration
+## 4 cylinder configuration
+
+### Supercharger Clutch
+* F14 removed
+* R80 jumper added on back
+* Q6 MOSFET VNB14NV04
 
 ![x](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder.jpg)
 
-With R80 on the back side
+
 
 [test points](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder-test-points.png)
 
