@@ -22,7 +22,7 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 
 ## 4 cylinder configuration
 
-### Supercharger Clutch:
+### Supercharger Clutch
 * F14 removed
 * R80 jumper added on back
 * Q6 MOSFET VNB14NV04
