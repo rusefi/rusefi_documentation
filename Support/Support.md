@@ -26,6 +26,10 @@ Just a reminder that to attach a screen shot to the forum post you LITERLLY need
 
 A: Please use youtube to post videos.
 
+### Q: What about N75?
+
+A: Please help us help you by using most universal terminology where possible. rusEFI is not Mazda-specific nor is it Mercedes specific, "solenoid wastegate valve" is the way to be understandable by the wider audience.
+
 ### Q: I have 2009 AXP with TAMTAM.
 
 A: What you are asking for is not something that we have time or bandwidth to address at this time.  We have no expectation that it will become a priority in the next 6 months
