@@ -99,6 +99,11 @@ enabled by default
 
 use enableCanTx(false) to suppress CAN TX
 
+### `txCan(bus, ID, isExt, payload)`
+- Parameters
+ - bus: hardware CAN bus index, only '1' on most rusEFI boards, '1' or '2' on Proteus
+ - isExt: 0 for 11 bit mode
+
 
 ## Utility
 
