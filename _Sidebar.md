@@ -66,6 +66,7 @@
 ### Plug & Play Hardware
 
 - [Hellen Miata 90-95](Hellen64-Miata-NA6-94)
+- [Hellen Miata 96-97}(Hellen-NA96)
 - [Hellen Miata 99-00](Hellen-NB1)
 - [Hellen Miata 01-05 VVT](Hellen-NB2)
 - [MREAdapter55: from Lada to e30](MREAdapter55)
