@@ -168,6 +168,10 @@ Sets a debug channel to the specified value.  Note: this only works when the ECU
 - Returns
   - none
 
+### `mcu_standby`
+
+Puts MCU into standby low current consumption mode.
+
 ## Input
 
 ### `getSensor(name)`
