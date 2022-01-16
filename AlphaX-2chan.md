@@ -5,3 +5,5 @@
 [Issue tracker & hardware files](https://github.com/rusefi/alphax-2chan)
 
 Hello. https://rusefi.com/build_server/rusefi_bundle_alphax-2chan.zip
+
+On-board MPXH6400A
