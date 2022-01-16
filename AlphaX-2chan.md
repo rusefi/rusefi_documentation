@@ -9,3 +9,5 @@ https://www.alphaxpr.com/
 Hello. https://rusefi.com/build_server/rusefi_bundle_alphax-2chan.zip
 
 On-board MPXH6400A
+
+![x](Hardware/Hellen/alphax-2chan-rev-a.jpg)
