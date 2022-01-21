@@ -118,11 +118,12 @@ Project page [rusEFI-Wideband-Controller](https://github.com/rusefi/rusefi/wiki/
 [Google Sheet](https://docs.google.com/spreadsheets/d/1I-lZKRajTiEGFUXdZpXEtKF2pymlOo-lPahy3cLMnl4) 
 
 [Another Google Sheet](https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1kp4Y/)
-## 4 cylinder application
-* uses inj 5-6-7-8 for INJ
+## 4 cylinder application (Jimmy M111 2.3 Kompressor setup on 190e)
+* uses E13,E14,E25,E26 for INJECTORS
 * two IGBT: Q1 & Q3
 * one MOSFET soldered instead of IBGT for clutch solenoid
-* INJ3 with fly-back for boost control solenoid
+* E1 with fly-back for boost control solenoid
+* E3 for supercharger bypass valve
 
 ## M104
 * three IGBT: Q1, Q3 & Q5
