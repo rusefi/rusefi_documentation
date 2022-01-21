@@ -25,7 +25,7 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 ### Supercharger Clutch
 * F14 removed
 * R80 jumper added on back
-* Q6 MOSFET VNB14NV04
+* High-current MOSFET like for example VNB14NV04 is soldered on Q6 instead of IGBT
 
 ![x](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder.jpg)
 
