@@ -23,9 +23,11 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 ## 4 cylinder configuration
 
 ### Supercharger Clutch
-* F14 removed
-* R80 jumper added on back
-* High-current MOSFET like for example VNB14NV04 is soldered on Q6 instead of IGBT
+If you want to control the clutch on a Mercedes supercharger, some hardware modifications are required.  The following modifications will result in pin F21 being able to control the supercharger clutch:
+* F14 must be removed
+* R80 jumper is added on back of PCB
+* Remove IGBT from Q6
+* Solder high-current MOSFET (for example VNB14NV04, VNB14NV0413TR) instead on Q6
 
 ![x](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder.jpg)
 
