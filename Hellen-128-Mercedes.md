@@ -60,23 +60,20 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 
 ### Supercharger Clutch 
 
+Guide valid for Rev. B and Rev. C
+
 If you want to control the clutch on a Mercedes supercharger, some hardware modifications are required.  The following modifications will result in pin F21 being able to control the supercharger clutch:
-* F14 must be removed
+* F13, F14, F17 must be removed
 * Find R80 on the back of the ECU.  It should be a pair of pads for a resistor.  Bridge R80 with solder or connect a 0 Ohm Jumper on R80.
 * Remove IGBT from Q6
 * Solder high-current MOSFET (for example VNB14NV04, VNB14NV0413TR) instead on Q6
-
-todo: see if we really need to remove all from this list.
-
-* F14, F13, F17 removed
-* R80 jumper added on back
-* change Q6 to VNB14NV04 MOSFET
 * in TunerStudio use F17 - IGN 6
-* supercharger pin will be F21
 
-todo: document Rev. A howto!
+Rev. A board dose not have R80!, for this variant you need to remove the Fuses from the list above and solder a wire instead of placing R80:
+todo: <image>
 
-Guide valid for Rev. B and Rev. C
+
+
 
 ## Solenoid control
 By design Rev. a and Rev. b is design to drive the VVT coil. On Rev. c hardware E1, E2, E3 and E4 can all be used as solenoid control, they have internal diods needed for protection.
