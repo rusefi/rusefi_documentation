@@ -65,12 +65,15 @@ If you want to control the clutch on a Mercedes supercharger, some hardware modi
 * Find R80 on the back of the ECU.  It should be a pair of pads for a resistor.  Bridge R80 with solder or connect a 0 Ohm Jumper on R80.
 * Remove IGBT from Q6
 * Solder high-current MOSFET (for example VNB14NV04, VNB14NV0413TR) instead on Q6
+
 todo: see if we really need to remove all from this list.
+
 * F14, F13, F17 removed
 * R80 jumper added on back
 * change Q6 to VNB14NV04 MOSFET
 * in TunerStudio use F17 - IGN 6
 * supercharger pin will be F21
+
 todo: document Rev. A howto!
 
 Guide valid for Rev. B and Rev. C
