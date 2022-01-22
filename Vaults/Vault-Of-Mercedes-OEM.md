@@ -11,7 +11,7 @@ Jimmy, Scott have M111 2.3 Compressor engine, both as swaps into 190e body [wire
 Alex has M111 1.8 (now swaped M111.961) 
 [Forum](https://rusefi.com/forum/viewtopic.php?f=2&t=1700)
 
-[OEM Wiring harness](OEM-Docs/Mercedes/w202c180m111wiring4.pdf)
+[w202.018 C180 MY99](OEM-Docs/Mercedes/w202c180m111wiring4.pdf)
 
 [ME 2.1 description/Pinout](OEM-Docs/Mercedes/motronic.pdf)
 # M112 v6 320
