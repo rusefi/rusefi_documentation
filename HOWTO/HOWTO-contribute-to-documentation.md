@@ -1,6 +1,9 @@
 
 #### How to contribute to https://github.com/rusefi/rusefi_documentation
 
+Step 0: Just a text edit? Text edits are possible directly via https://github.com/rusefi/rusefi/wiki/ 'Edit' button, no PR needed!
+
+
 Step 1: Sign up or sign in to https://github.com
 
 Step 2: Open https://github.com/rusefi/rusefi_documentation and click 'Fork' - this would produce your own fork/copy of rusefi_documentation which you can now edit right in your browser!
