@@ -29,13 +29,13 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 * ME 2.0/2.1 pinout
 * Up to 8 Injectors.
 * Up to 8 Coils (Low impedance or Smart coils)
-* On bord WBO controller
+* On board WBO controller
 * ETB support
-* VR Cranck and HAll CAM sensor support
+* VR Crank and HAll Cam sensor support
 * 1/2 channel Knock input
 * Factory Engine Sensor input support
 * CAN communication 
-* Possibility to extend IOs
+* Possibility to extend IOs (Inputs/Outputs)
 * USB connection
 * SD-CARD logging
 
@@ -69,14 +69,14 @@ If you want to control the clutch on a Mercedes supercharger, some hardware modi
 * Solder high-current MOSFET (for example VNB14NV04, VNB14NV0413TR) instead on Q6
 * in TunerStudio use F17 - IGN 6
 
-Rev. A board dose not have R80!, for this variant you need to remove the Fuses from the list above and solder a wire instead of placing R80:
+Rev. A board does not have R80! for this variant, you need to remove the Fuses from the list above and solder a wire instead of placing R80:
 todo: <image>
 
 
 
 
 ## Solenoid control
-By design Rev. a and Rev. b is design to drive the VVT coil. On Rev. c hardware E1, E2, E3 and E4 can all be used as solenoid control, they have internal diods needed for protection.
+By design Rev. A and Rev. B boards are designed to drive the VVT coil. On Rev. C hardware E1, E2, E3 and E4 can all be used as solenoid control. They have the internal diodes needed for protection.
 ### Add extra IO
 
 Using the Interactive pinout, Test Points are documented that are connected from the Car connector to the PCB. These can be connected with wires to the Test Points that are available in TunerStudio. 
@@ -111,7 +111,7 @@ todo: add a picture with board/TunerStudio config.
 | J1 | SPI, UART/GPIO | See schematic for details | A,B,C |
 ### rusEFI WBO controller
 
-Since Narrow band lambda was used in the original ecu, Hellen includes an onboard wideband controller. Harness is needed to connect a sensor, these lines are not possible to wire in true the car connector.
+Since a narrow band lambda (O2 sensor) was used in the original ECU, Hellen includes an onboard wideband controller. A harness is needed to connect the lambda sensor, these lines are not possible to wire in to the car connector.
 
 Connection  [Hellen WBO](https://github.com/rusefi/rusefi/wiki/Hellen-WBO)
 
@@ -147,7 +147,7 @@ Project page [rusEFI-Wideband-Controller](https://github.com/rusefi/rusefi/wiki/
 
 Hellen 128 was originally designed for M111 swaps into W201. Depending on the year some W202, R170 and other models could be driven with different amount of supporting mods:
 
-* Somewhere around 99 Mercedes has transitioned from just plain wires on C40 and D3 to CAN-bus starter security. For those later models one would have simplify starter wiring and add a start button
+* Somewhere around 99 Mercedes has transitioned from just plain wires on C40 and D3 to CAN-bus starter security. For those later models one would have to simplify starter wiring and add a start button
 
 * And obviously your engine harness should use <a href="Images/mercedes-128.png">this ME 2.0 style of plug</a> not <a href="Images/mercedes-134.png">this 134 pin style of plug</a>.
 
