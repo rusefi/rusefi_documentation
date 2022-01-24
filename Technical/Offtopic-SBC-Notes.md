@@ -94,14 +94,14 @@ UUID=0e281f8d-1117-451d-9b1b-b07405a631bc /rw auto nosuid,nodev,nofail 0 0
 ```
 
 now add ",ro" into /etc/fstab
-https://medium.com/swlh/make-your-raspberry-pi-file-system-read-only-raspbian-buster-c558694de79
+[Make your Raspberry Pi file system read-only](https://medium.com/swlh/make-your-raspberry-pi-file-system-read-only-raspbian-buster-c558694de79)
 
 backup
 dd if=/dev/sdb of=2021_July_26_orange_zero.img
 
 # Orange PI CI setup
 
-https://www.armbian.com/orange-pi-zero/
+[Orange Pi Zero](https://www.armbian.com/orange-pi-zero/)
 
 wget https://redirect.armbian.com/orangepizero/Buster_current.torrent
 sudo apt-get install transmission-cli transmission-common transmission-daemon
