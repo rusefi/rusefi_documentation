@@ -21,6 +21,7 @@ searchfile() {
     echo $link
     read -p "Enter a title or leave empty to use URL as title or enter 'n' to skip: " TITLE
     if [ "$TITLE" == "n" ]; then
+      echo
       continue
     fi
     if [ $(echo -n "$TITLE" | wc -c) -lt 1 ]; then
