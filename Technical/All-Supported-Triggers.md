@@ -273,7 +273,7 @@ Injection could be offset using 'set injection_offset X' command.
 While cranking, you can set angle-based ignition instead of timing map & dwell based ignition. In angle-based mode, dwell is defined in crankshaft angle duration and timing is constant. set cranking_charge_angle and set_cranking_timing_angle.
 
 
-See 'trigger decoding' in http://rusefi.com/docs/html/
+See 'trigger decoding' in [Doxygen](http://rusefi.com/docs/html/)
 
 May, 2020: Subaru SVX added
 

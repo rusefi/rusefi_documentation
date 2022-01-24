@@ -1,4 +1,4 @@
-https://rusefi.com//wiki/index.php?title=Hardware:Shock_Dyno
+[Shock Dyno](Shock-Dyno)
 
 https://arstechnica.com/cars/2015/07/the-future-of-car-suspension-is-here-dsc-sports-active-shocks-in-action/
 "Normally, a car's weight transfers from front to back as it brakes and accelerates, and from side to side as it corners. As the force on each corner changes, so does the grip available to that wheel; less weight equals less grip. Active shocks control this by varying the degree to which each spring's compresses and extends (as the springs are passive, these systems are sometimes known as semi-active)."

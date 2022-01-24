@@ -1,6 +1,6 @@
-http://www.pololu.com/product/1182
+[Pololu A4988 Stepper Motor Driver Carrier](http://www.pololu.com/product/1182)
 
-http://www.pololu.com/file/download/a4988_DMOS_microstepping_driver_with_translator.pdf?file_id=0J450
+[A4988 DMOS Microstepping Driver With Translator datasheet](http://www.pololu.com/file/download/a4988_DMOS_microstepping_driver_with_translator.pdf?file_id=0J450)
 
 Use a jumper or wire to connect SLEEP with RESET
 
@@ -10,8 +10,8 @@ We do not have our own add-on board for a4988, we use ones from eBay like "stepp
 
 ![Stepper Motor Driver](Images/stepper_motor_driver.jpg)
 
-http://rusefi.com/forum/viewtopic.php?f=5&t=767
+[Stepper Motor Logic](http://rusefi.com/forum/viewtopic.php?f=5&t=767)
 
-pinout: http://rusefi.com/forum/viewtopic.php?f=5&t=767&start=30#p17671
+[pinout](http://rusefi.com/forum/viewtopic.php?f=5&t=767&start=30#p17671)
 
-See http://rusefi.com/forum/viewtopic.php?f=4&t=1161
+See [Frankenso: prototyping area stepper board install](http://rusefi.com/forum/viewtopic.php?f=4&t=1161)

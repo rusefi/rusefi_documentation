@@ -1,4 +1,4 @@
-See also http://rusefi.com/articles/measuring_temperature/
+See also [Measuring Temperature](http://rusefi.com/articles/measuring_temperature/)
 
 See also [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
 
@@ -18,17 +18,17 @@ While troubleshooting CLT and IAT, the two most useful commands are `analoginfo`
 
 ## Some datapoints
 
-http://rusefi.com/forum/viewtopic.php?f=3&t=864&start=60#p15344
+[1996 Dodge RAM 1500 V8 Temp spreadsheet from FSM](http://rusefi.com/forum/viewtopic.php?f=3&t=864&start=60#p15344)
 
 ![IAT Thermistor settings](Images/IAT_screen.png)
 
 
 MLX90621
 
-http://forum.arduino.cc/index.php?topic=126244.0
+[MLX90620 / MLX90621 - 16X4 pixel IR thermal array](http://forum.arduino.cc/index.php?topic=126244.0)
 
-http://www.melexis.com/Asset/Datasheet-IR-thermometer-16X4-sensor-array-MLX90620-DownloadLink-6099.aspx
+[Broken Link](http://www.melexis.com/Asset/Datasheet-IR-thermometer-16X4-sensor-array-MLX90620-DownloadLink-6099.aspx)
 
-http://www.melexis.com/Assets/Transition-from-MLX90620-to-MLX90621-6446.aspx
+[Transition from MLX90620 to MLX90621](https://www.melexis.com/en/documents/documentation/how-it-works/how-it-works-transition-mlx90620-mlx90621)
 
 ![MLX90621  Pinout](Images/MLX90621_pinout.png)
