@@ -4,7 +4,7 @@
 
 * Please do not push dead code
 
-We make with -std=c++11 see https://github.com/rusefi/rusefi/blob/master/firmware/Makefile
+We make with -std=c++11 see [the Makefile](https://github.com/rusefi/rusefi/blob/master/firmware/Makefile)
 
 
 ## Brackets

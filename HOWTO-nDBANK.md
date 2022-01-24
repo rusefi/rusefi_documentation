@@ -15,7 +15,7 @@ step 4) ``stm32-flash-dfu.bat``
 
 # Old way - GUI application via DFU or SWD
 
-TODO: try https://github.com/danielinux/stm32f7-dualbank-tool
+TODO: try [https://github.com/danielinux/stm32f7-dualbank-tool](https://github.com/danielinux/stm32f7-dualbank-tool)
 
 At the moment we only know how to deal with it via Stm32CubeProgrammer
 
@@ -24,4 +24,4 @@ At the moment we only know how to deal with it via Stm32CubeProgrammer
 ![x](HOWTO/nDBANK/stm32prog-result.png)
 
 
-https://github.com/rusefi/rusefi_external_utils/ has a backup copy of en.stm32cubeprg-win64_v2-7-0.zip
+[https://github.com/rusefi/rusefi_external_utils/](https://github.com/rusefi/rusefi_external_utils/) has a backup copy of en.stm32cubeprg-win64_v2-7-0.zip
