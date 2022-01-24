@@ -10,7 +10,7 @@ Test mule #1 2004 760 AndreyB
 
 Test mule #2 2006 760 Zeiss HeinrichG
 
-Recordings of both buses by Zeiss HeinrichG https://github.com/HeinrichG-V12/E65_ReverseEngineering - see https://github.com/rusefi/rusefi/wiki/e65-can for description
+Recordings of both buses by Zeiss HeinrichG https://github.com/HeinrichG-V12/E65_ReverseEngineering - see [E65 CAN](https://wiki.rusefi.com/E65-CAN-bus/) for description
 
 Some packets with formats E90 https://www.loopybunny.co.uk/CarPC/k_can.html
 

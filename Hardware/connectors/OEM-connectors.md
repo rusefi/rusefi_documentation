@@ -362,7 +362,7 @@ And terminals 173716-1 or 173716-2 and 173630-1 or 173630-2
 
 ## 76 pin center lock
 
-See also https://github.com/rusefi/rusefi/wiki/OEM-connectors#64-pin-nissan-center-lock
+See also [64 pin nissan center lock](OEM-connectors#64-pin-nissan-center-lock)
 
 https://www.te.com/usa-en/product-5-174385-5.html
 
@@ -587,7 +587,7 @@ Honda D17 Honda K
 
 353826-1 = ECU E 31
 
-See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM
+See [Vault of Honda OEM](Vault-Of-Honda-OEM)
 
 ## 126 4 row
 

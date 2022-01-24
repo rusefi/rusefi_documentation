@@ -113,9 +113,9 @@ todo: add a picture with board/TunerStudio config.
 
 Since a narrow band lambda (O2 sensor) was used in the original ECU, Hellen includes an onboard wideband controller. A harness is needed to connect the lambda sensor, these lines are not possible to wire in to the car connector.
 
-Connection  [Hellen WBO](https://github.com/rusefi/rusefi/wiki/Hellen-WBO)
+Connection  [Hellen WBO](Hellen-WBO)
 
-Project page [rusEFI-Wideband-Controller](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
+Project page [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
 
 # Misc

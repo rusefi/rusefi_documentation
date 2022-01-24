@@ -1,6 +1,6 @@
 For now see https://github.com/rusefi/proteus-Honda-K-125-adapter
 
-https://github.com/rusefi/rusefi/wiki/OEM-connectors#125-pin
+[125 Pin Connector](OEM-connectors#125)
 
 https://en.wikipedia.org/wiki/Acura_TSX#Engine
 
