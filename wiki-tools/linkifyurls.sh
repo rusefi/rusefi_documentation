@@ -15,7 +15,7 @@ export -f escapeReplace
 searchfile() {
   while IFS= read -r -u 3 link; do
     echo $link
-    read -m "Enter a title or leave empty to use URL as title: " TITLE
+    read -p "Enter a title or leave empty to use URL as title: " TITLE
     if [ $(echo -n "$TITLE" | wc -c) -lt 1 ]; then
       TITLE="$link"
     fi
