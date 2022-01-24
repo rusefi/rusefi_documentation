@@ -22,7 +22,7 @@ searchfile() {
     REPLACE=$(escape "$link")
     REPLACEWITH=$(escapeReplace '['"$TITLE"']''('"$link"')')
     sed -i "s/$REPLACE/$REPLACEWITH/" "$1"
-  done 3< <(grep -oP '((?<!\()http[s]?:\/\/[^\s]*)' "$1")
+  done 3< <(grep -oP '((?<![\(\[])http[s]?:\/\/[^\s]*)' "$1")
 }
 export -f searchfile
 
