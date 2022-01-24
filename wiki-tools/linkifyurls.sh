@@ -14,6 +14,10 @@ export -f escapeReplace
 # Passed the path to a .md file
 searchfile() {
   while IFS= read -r -u 3 link; do
+    LINE=$(grep "$link" "$1")
+    if [ "$LINE" != "$link" ]; then
+      echo "$LINE"
+    fi
     echo $link
     read -p "Enter a title or leave empty to use URL as title: " TITLE
     if [ $(echo -n "$TITLE" | wc -c) -lt 1 ]; then
