@@ -10,7 +10,7 @@ In the end we would need 5-25 units total (one unit soldered to application-spec
 
 For first round the proposal is to test functional blocks as separate small PCBs, long term we might Hellen merge or not.
 
-We are building Stim using NUCLEO-F429ZI due to chip shortage. NUCLEO-F429ZI would be plug into https://github.com/rusefi/hw_modular/tree/master/NUCLEO144_wing and wires or connectors would be routed via NUCLEO144_wing.
+We are building Stim using NUCLEO-F429ZI due to chip shortage. NUCLEO-F429ZI would be plug into [NUCLEO144 Wing](https://github.com/rusefi/hw_modular/tree/master/NUCLEO144_wing) and wires or connectors would be routed via NUCLEO144_wing.
 
 # Requirements
 
@@ -44,6 +44,6 @@ Problem: sometimes we do not want to feed ECU via ST-Link. Solution: Stim has a 
 
 See [Tag-Connect-TC2030](Tag-Connect-TC2030)
 
-See https://github.com/rusefi/stim
+See [rusEFI Stimulator](https://github.com/rusefi/stim)
 
 See [microRusEFI-QC-Procedure](microRusEFI-QC-Procedure)

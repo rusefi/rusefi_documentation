@@ -24,7 +24,7 @@ SPC563Mx, MPC563x - this one has some ChibiOS support - [What chip is inside For
 
 TMS570 - [TMS570](https://rusefi.com/forum/viewtopic.php?f=13&t=407) & [Hello World project for TMS570](https://github.com/rusefi/rusefi/issues/89)
 
-(in Russian) https://rusefi.com/forum/viewtopic.php?f=8&t=269
+(in Russian) [Why did you choose this STM32? - русский](https://rusefi.com/forum/viewtopic.php?f=8&t=269)
 
 =======================================================
 

@@ -1,6 +1,6 @@
 
 
-https://www.balena.io/etcher/ is a popular tool to flash OS images to SD cards & USB drives.
+[Balena Etcher](https://www.balena.io/etcher/) is a popular tool to flash OS images to SD cards & USB drives.
 
 
 rusEFI console in headless mode is known to work on Raspberry 3.
@@ -28,9 +28,9 @@ Default root password 1234
 Default baud rate 115200
 
 
-https://www.hackster.io/mexmarv/iot-raspberry-pi-wifi-headless-setup-6be0de
+[Raspberry PI wifi headless setup](https://www.hackster.io/mexmarv/iot-raspberry-pi-wifi-headless-setup-6be0de)
 
-https://www.furkantokac.com/rpi3-fast-boot-less-than-2-seconds/
+[Raspberry PI fast boot](https://www.furkantokac.com/rpi3-fast-boot-less-than-2-seconds/)
 
 # latest packages
 sudo apt-get update && apt-get upgrade
@@ -54,15 +54,15 @@ ExecStartPre=/bin/echo "" >/tmp/random-seed
 
 ### Hardware
 
-https://kaspars.net/blog/orange-pi-zero-gpio
+[Orange Pi Zero GPIO Pins](https://kaspars.net/blog/orange-pi-zero-gpio)
 
-https://rusefi.com/forum/viewtopic.php?p=37563#p37563
+[Single Board Computers](https://rusefi.com/forum/viewtopic.php?p=37563#p37563)
 
-http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2#Dimensional_Diagram
+[NanoPi Duo2 Dimensions](http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2#Dimensional_Diagram)
 
 ### SD card preparation
 
-Resize primary partition https://elinux.org/RPi_Resize_Flash_Partitions#Resizing
+Resize primary partition [Resizing RPi Partitions](https://elinux.org/RPi_Resize_Flash_Partitions#Resizing)
 ```
 lsusb
 lsblk

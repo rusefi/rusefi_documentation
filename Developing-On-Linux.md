@@ -1,6 +1,6 @@
 # Compiling
 
-Download the latest ARM GCC from ARM itself: https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads
+Download the latest ARM GCC from ARM itself: [ARM GCC toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
 
 These can be extracted under your home directory; just add the `bin` directory to your path.
 
@@ -39,7 +39,7 @@ Adapt as necessary depending on the permissions you choose to expose.
 ## Working with OpenOCD
 
 Depending on how new your dev board is, you may need to upgrade OpenOCD.  For example, a nucleo-h743 requires OpenOCD 0.11+.  Luckily you can download and run the latest version from your local home directory.  Unofficial binaries are available here:
-https://github.com/xpack-dev-tools/openocd-xpack/releases
+[OpenOCD-Xpack releases](https://github.com/xpack-dev-tools/openocd-xpack/releases)
 
 To get started, plug the ST-Link side of the dev board into your computer.  Generally this should power the whole board.
 

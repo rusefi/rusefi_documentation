@@ -35,7 +35,7 @@ TBD
 #### Check(s) to determine what solution to follow.
 TBD
 
-reference forum suggestion for repair found here http://rusefi.com/forum/viewtopic.php?f=4&t=653&start=16
+reference forum suggestion for repair found here [stm32f4discovery troubleshooting and repair](http://rusefi.com/forum/viewtopic.php?f=4&t=653&start=16)
 
 ## Solutions
 ### Solution 1 Broken D3
