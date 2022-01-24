@@ -9,4 +9,4 @@ If assumed injector lag is above actual injector lag, batch mode would get more 
 If assumed injector lag is below actual injector lag, batch mode would get less fuel than it should, air/fuel ratio would go up/leaner comparing with individual mode. During the switch from individual to batch AFR would go richer.
 
 
-https://github.com/rusefi/rusefi/issues/492
+[auto-tune injector open/close lag](https://github.com/rusefi/rusefi/issues/492)

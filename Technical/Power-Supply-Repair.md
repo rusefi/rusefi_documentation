@@ -1,6 +1,6 @@
 ## rusEFI power supply troubleshooting guide
 
-http://www.ti.com/product/lm2596
+[LM2596](http://www.ti.com/product/lm2596)
 
 ![Regulator Pinout](Images/regulator_pinout.png)
 
