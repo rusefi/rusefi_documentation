@@ -1,5 +1,5 @@
 We use special QC firmware
-1) Download https://github.com/rusefi/rusefi/releases/download/2020.11.27_release/rusefi_bundle_mre_f4_hardware_QC_special_build.zip
+1) Download [MRE F4 Hardware QC Special Build 2020.11.27](https://github.com/rusefi/rusefi/releases/download/2020.11.27_release/rusefi_bundle_mre_f4_hardware_QC_special_build.zip)
 1) using Manual DFU mode flash abovementioned 2020 Black Friday rusefi_bundle_mre_f4_hardware_QC_special_build.zip
 1) disconnect microRusEFI from USB, plug microRusEFI into special test fixture LED board, power special test fixture LED board with +12v
 1) observe lack of smoke
@@ -19,6 +19,6 @@ This procedure does NOT test
 
 
 
-After the text please flash latest normal release https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip
+After the text please flash latest normal release [MRE F4 Firmware bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
 
 Attach an orange QC sticker to the part of the connector visible outside of the case.

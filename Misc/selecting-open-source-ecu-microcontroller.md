@@ -18,11 +18,11 @@ We've looked into a few other chips but so far have not found a better overall p
 
 Relevant forum threads:
 
-S32K148 https://rusefi.com/forum/viewtopic.php?f=13&t=816
+S32K148 [Is STM32F4 the right chip?](https://rusefi.com/forum/viewtopic.php?f=13&t=816)
 
-SPC563Mx, MPC563x - this one has some ChibiOS support - https://rusefi.com/forum/viewtopic.php?f=13&t=429
+SPC563Mx, MPC563x - this one has some ChibiOS support - [What chip is inside Ford EEC*?](https://rusefi.com/forum/viewtopic.php?f=13&t=429)
 
-TMS570 - https://rusefi.com/forum/viewtopic.php?f=13&t=407 & https://github.com/rusefi/rusefi/issues/89
+TMS570 - [TMS570](https://rusefi.com/forum/viewtopic.php?f=13&t=407) & [Hello World project for TMS570](https://github.com/rusefi/rusefi/issues/89)
 
 (in Russian) https://rusefi.com/forum/viewtopic.php?f=8&t=269
 

@@ -47,9 +47,9 @@ Repeat this process for the second throttle, if present.
 
 # Throttle Tuning
 
-See https://rusefi.com/forum/viewtopic.php?f=5&t=592&start=150#p32044
+See [Tuning ETB PID](https://rusefi.com/forum/viewtopic.php?f=5&t=592&start=150#p32044)
 
-https://www.youtube.com/watch?v=USU0nnekokA
+[rusEFI ETB PID Autotune](https://www.youtube.com/watch?v=USU0nnekokA)
 
 ## Autotune PID
 

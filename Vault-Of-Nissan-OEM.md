@@ -1,4 +1,4 @@
-https://rusefi.com/forum/viewtopic.php?f=4&t=1935
+[Hellen 121 Nissan Forum Thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1935)
 
 [Nissan-Xterra-2011](Nissan-Xterra-2011)
 
