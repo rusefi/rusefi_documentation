@@ -19,8 +19,13 @@ searchfile() {
       echo "$LINE"
     fi
     echo $link
-    read -p "Enter a title or leave empty to use URL as title or enter 'n' to skip: " TITLE
+    read -p "Enter a title or leave empty or [n:skip|e:edit]: " TITLE
     if [ "$TITLE" == "n" ]; then
+      echo
+      continue
+    fi
+    if [ "$TITLE" == "e" ]; then
+      $EDITOR "$1"
       echo
       continue
     fi
