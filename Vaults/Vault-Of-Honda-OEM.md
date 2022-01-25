@@ -7,7 +7,7 @@
 
 [1995 Honda Accord](Honda-Accord-1995)
 
-https://ff-squad.com/wp/?paged=2&cat=17
+[ECU Pin diagrams](https://ff-squad.com/wp/?paged=2&cat=17)
 
 # OBD-2
 [OBD2 connector part number](OEM-connectors#104)

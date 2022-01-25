@@ -143,7 +143,7 @@ Injector Flow Rate
 
 <details><summary><u>IGBT</u></summary>
 
-http://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor  
+[Wikipedia - IGBT](http://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor)  
 A common type of transistor used for switching high power devices like ignition coils with a low power/voltage output. 
 </details>
 
@@ -219,7 +219,7 @@ Negative temperature coefficient, used in context of temperature sensors and ref
 
 <details><summary><u>PIP</u></summary>
 
-Profile ignition pickup See http://en.wikipedia.org/wiki/Profile_ignition_pickup
+Profile ignition pickup See [Wikipedia - Profile Ignition Pickup](http://en.wikipedia.org/wiki/Profile_ignition_pickup)
 </details>
 
 <details><summary><u>PFI</u></summary>

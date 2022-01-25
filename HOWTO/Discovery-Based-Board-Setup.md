@@ -38,7 +38,7 @@ microUSB channel is more sensitive to noise but it's faster
 See also [Tunerstudio Connectivity](Tunerstudio-Connectivity)
 
 ### Configuration reset
-Grounding PD6 resets saved configuration to default state - see http://rusefi.com/forum/viewtopic.php?f=5&t=373&p=9571&hilit=PD6#p9571
+Grounding PD6 resets saved configuration to default state - see [this forum post](http://rusefi.com/forum/viewtopic.php?f=5&t=373&p=9571&hilit=PD6#p9571)
 
 ### Board Testing mode
 

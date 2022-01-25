@@ -1,4 +1,4 @@
-https://rusefi.com/forum/viewtopic.php?t=1692
+[Making my 190e More Fun (M111 SC Swap)](https://rusefi.com/forum/viewtopic.php?t=1692)
 
 [Case info](https://rusefi.com/forum/viewtopic.php?p=39163#p39163)
 

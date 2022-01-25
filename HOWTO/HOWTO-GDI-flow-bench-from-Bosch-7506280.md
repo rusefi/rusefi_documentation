@@ -1,4 +1,4 @@
-https://rusefi.com/forum/viewtopic.php?f=4&t=1564
+[bosch 7506280 GDI driver](https://rusefi.com/forum/viewtopic.php?f=4&t=1564)
 
 [BMW e65](BMW-e65)
 

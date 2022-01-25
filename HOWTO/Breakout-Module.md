@@ -5,7 +5,7 @@ This page is a general guide and general outline of how to use the breakout modu
 ![Breakout](Images/breakout.png)
 
 ## Move a engine control to rusEFI
-Uses breakout module noted here http://rusefi.com/forum/viewtopic.php?f=4&t=454 This is an example of how you might move the wires, it may not work for you exactly this way, but this at least lays out the general process. For example, some setups connect all fuel channels to one ECU fuel channel. So you might need to do thing differently when trying to move one fuel channel as noted below. Items like that can vary. 
+Uses breakout module noted [here](http://rusefi.com/forum/viewtopic.php?f=4&t=454) This is an example of how you might move the wires, it may not work for you exactly this way, but this at least lays out the general process. For example, some setups connect all fuel channels to one ECU fuel channel. So you might need to do thing differently when trying to move one fuel channel as noted below. Items like that can vary. 
 
 ### Capture RPM signal
 

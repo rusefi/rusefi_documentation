@@ -77,7 +77,7 @@ There are three ways to produce similar logs - the intention is for these three 
 2. rusEFI console logging
 3. TunerStudio logging
 
-See also https://svn.code.sf.net/p/rusefi/code/trunk/firmware/console/binary/tunerstudio_configuration.h
+See also [https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt](https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt)
 
 See also [Error Codes](Error-Codes)
 
@@ -85,7 +85,7 @@ See also [Debug Fields](Debug-Fields)
 
 ## External links
 
-https://www.youtube.com/watch?v=lgvt0mh_UB8
+[Fuel injectors at first start](https://www.youtube.com/watch?v=lgvt0mh_UB8)
 
 
 ## Diagnostics and trouble shooting of your engine

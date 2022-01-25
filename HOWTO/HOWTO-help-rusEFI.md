@@ -17,7 +17,7 @@ We are also extremely short on software developers. [HOWTO contribute to firmwar
 
 We hope that as a community we can leverage each other's skills and have peaceful fun together.
 
-We probably would not articulate the guiding principles better than https://github.com/betaflight/betaflight/blob/master/docs/development/Development.md and https://github.com/betaflight/betaflight/blob/master/CONTRIBUTING.md
+We probably would not articulate the guiding principles better than [https://github.com/betaflight/betaflight/blob/master/docs/development/Development.md](https://github.com/betaflight/betaflight/blob/master/docs/development/Development.md) and [https://github.com/betaflight/betaflight/blob/master/CONTRIBUTING.md](https://github.com/betaflight/betaflight/blob/master/CONTRIBUTING.md)
 
 #### Last but not least
 
@@ -25,6 +25,6 @@ Since 2012 until today, this is just a hobby project with zero paid employees. T
 
 There are two ways to help financially: 
 
-One-time or monthly https://tinyurl.com/paypal-rusefi  
+One-time or monthly [https://tinyurl.com/paypal-rusefi](https://tinyurl.com/paypal-rusefi)  
 
 One-time or monthly [rusEFI Patreon](https://www.patreon.com/rusefi)   

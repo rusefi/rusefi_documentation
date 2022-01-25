@@ -1,4 +1,4 @@
-https://rusefi.com/shop/
+[https://rusefi.com/shop/](https://rusefi.com/shop/)
 
 У нас есть собранные microRusEFI в Питере.
 
@@ -18,10 +18,10 @@ https://rusefi.com/shop/
 
 После оплаты пожалуйста пишите в Whatsapp или Телеграм +1-773-414-1279
 
-Покупки лично в Петербурге или доставка через https://cdek.ru/ с оплатой доставки получателем.
+Покупки лично в Петербурге или доставка через [https://cdek.ru/](https://cdek.ru/) с оплатой доставки получателем.
 
 
-Кстати, русский чатик https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB
+Кстати, русский чатик [https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB](https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB)
 
 
-PS: всё очень добровольно. Всегда есть вариант всё сделать самим, см. https://www.drive2.ru/c/555801204769161551/
+PS: всё очень добровольно. Всегда есть вариант всё сделать самим, см. [https://www.drive2.ru/c/555801204769161551/](https://www.drive2.ru/c/555801204769161551/)

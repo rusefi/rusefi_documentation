@@ -1,6 +1,6 @@
 
 
-https://youtu.be/24bNFu7a9lc
+[AMPSEAL Connector Tutorial](https://youtu.be/24bNFu7a9lc)
 
 If your pins are not loose, use nice wire cutters to separate individual terminals from the loom - do not bend break terminals from the loom.
 
