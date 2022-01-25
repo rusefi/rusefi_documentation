@@ -22,8 +22,8 @@ RPN notation -> A B C * +
 At first look this is very confusing to read and understand but it is actually quite simple and very effective.  
 
 **The two videos below explain this very well and we strongly recommend watching them.**  
-[Reverse Polish Notation and The Stack - Computerphile](https://www.youtube.com/watch?v=7ha78yWRDlE)  
-[Reverse Polish Grows on Trees - Computerphile](https://www.youtube.com/watch?v=TrfcJCulsF4)
+[Reverse Polish Notation and The Stack - Computerphile Video](https://www.youtube.com/watch?v=7ha78yWRDlE)  
+[Reverse Polish Grows on Trees - Computerphile Video](https://www.youtube.com/watch?v=TrfcJCulsF4)
 
 
 The TLDR is that the processor is critical to how this notation works, if a value is a number it loads it onto its "stack" if a value is an operator it performs an operation on the numbers in the stack. 
@@ -336,9 +336,9 @@ set debug_mode 23
 
 [Debug Fields](Debug-Fields)
 
-[FSIO warning light via rusEfi console](https://www.youtube.com/watch?v=nrIrtdn-Nc0)
+[FSIO warning light via rusEfi console - Video](https://www.youtube.com/watch?v=nrIrtdn-Nc0)
 
-[FSIO warning light via TunerStudio](https://www.youtube.com/watch?v=eA4clVtklZ8)
+[FSIO warning light via TunerStudio - Video](https://www.youtube.com/watch?v=eA4clVtklZ8)
 
 ---
 

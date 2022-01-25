@@ -1,4 +1,4 @@
-TL,DR: we had car [starting/idling](https://youtu.be/JB2RnAJJSOk) using a [plywood board](https://rusefi.com/forum/download/file.php?id=6429) we have postponed GDI progress until funding or qualified contributor joins the game.
+TL,DR: we had car [starting/idling - Video](https://youtu.be/JB2RnAJJSOk) using a [plywood board - Forum](https://rusefi.com/forum/download/file.php?id=6429) we have postponed GDI progress until funding or qualified contributor joins the game.
 
 [Forum thread for test mule](https://rusefi.com/forum/viewtopic.php?f=3&t=1631)
 
@@ -7,7 +7,7 @@ TL,DR: we had car [starting/idling](https://youtu.be/JB2RnAJJSOk) using a [plywo
 [Test Mule Wiring Diagram](VolkswagenPassatB6) runs on rusEFI GDI!
 
 Gasoline Direct Injection requires a few additional components on top of port injection:
-1) High voltage injection control - we have [rusEFI GDI dev board](MC33816-PT2001-dev-board) which [has clicked injector on a bench](https://www.youtube.com/watch?v=MI0gJ4th9Tg).
+1) High voltage injection control - we have [rusEFI GDI dev board](MC33816-PT2001-dev-board) which [has clicked injector on a bench - Video](https://www.youtube.com/watch?v=MI0gJ4th9Tg).
 
 2) High pressure fuel pump solenoid control - we have a basic implementation
 

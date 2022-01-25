@@ -67,7 +67,7 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
 * Start by getting junk yard ECU
 * Delicately break apart the junk yard ECU salvaging the ECU connector and perhaps the enclosure.
 ![Harness on car](Images/Harness_on_car.jpg)
-* If you have a connector that has a break out PCB board for it, you probably want to obtain the break out PCB for that harness connector. If not you can simply solder wires direct to the connector. Similar to [this](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
+* If you have a connector that has a break out PCB board for it, you probably want to obtain the break out PCB for that harness connector. If not you can simply solder wires direct to the connector. Similar to [this - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 ![Breakout Render](Images/176122-6_front.jpg)
 ![Breakout PCB](Images/64p_connector.jpg)
 * Wire rusEFI like Frankenstein as shown below 
@@ -157,7 +157,7 @@ See also [Debug Fields](Debug-Fields)
 
 ## External links
 
-[Fuel injectors at first start](https://www.youtube.com/watch?v=lgvt0mh_UB8)
+[Fuel injectors at first start - Video](https://www.youtube.com/watch?v=lgvt0mh_UB8)
 
 
 ## Diagnostics and trouble shooting of your engine
