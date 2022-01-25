@@ -168,7 +168,7 @@ last 22RE, 4AGE, 4/7AFE
 
 [TE 963063-2](http://www.te.com/catalog/pn/en/963063-2)
 
-[55 pin connector 963063-1 963063-2](http://rusefi.com/forum/viewtopic.php?f=4&t=616)
+[55 pin connector 963063-1 963063-2 - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=616)
 
 ECU connector for 1990-1995 Porsche 911
 
@@ -267,7 +267,7 @@ Terrano YD21
 
 ![64 pin connector](Hardware/connectors/64_pin.png)
 
-[64 pin 176122 ECU connector board](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
+[64 pin 176122 ECU connector board - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 
 Mating plugs:
 16p [TE 175109-6](http://www.te.com/catalog/pn/en/175109-6) 
@@ -306,7 +306,7 @@ Mating harness connector 1-284272-5
 284331-1 64+64 header
 
 ## 68 pin
-[68pin VW connector](https://rusefi.com/forum/viewtopic.php?f=4&t=1303)
+[68pin VW connector - Forum](https://rusefi.com/forum/viewtopic.php?f=4&t=1303)
 
 Volkswagen
 0 261 204 281/282
@@ -397,7 +397,7 @@ Nissan
 
 unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 
-[81 pin connector](https://rusefi.com/forum/viewtopic.php?f=4&t=1501)
+[81 pin connector - Forum](https://rusefi.com/forum/viewtopic.php?f=4&t=1501)
 
 <a name="88"/>
 
@@ -532,7 +532,7 @@ JZ
 
 ![121 Pin Connector](Hardware/connectors/368255_render.png)
 
-[121 pin connector 368255-2 (same as 1241434-1)](http://rusefi.com/forum/viewtopic.php?t=208)
+[121 pin connector 368255-2 (same as 1241434-1) - Forum](http://rusefi.com/forum/viewtopic.php?t=208)
 
 Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
@@ -730,7 +730,7 @@ EDC16 EDC17
 
 [Breakout 154pin 284617-1 Connector](https://github.com/rusefi/rusefi/tree/master/hardware/Breakout_154pin_284617-1-Connector)
 
-[154 pin connector 284617-1](http://rusefi.com/forum/viewtopic.php?f=4&t=582)
+[154 pin connector 284617-1 - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=582)
 
 ## 154 pin 
 

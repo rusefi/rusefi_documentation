@@ -1,4 +1,4 @@
-[Wikipedia - BMW 7 Series (E38)](https://en.wikipedia.org/wiki/BMW_7_Series_(E38))
+[BMW 7 Series (E38) - Wikipedia]](https://en.wikipedia.org/wiki/BMW_7_Series_(E38))
 
 # 2000 740
 

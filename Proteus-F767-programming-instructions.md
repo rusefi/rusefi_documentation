@@ -5,7 +5,7 @@ Anyway looks like there is a working procedure, using DFU and STM32CubeProgramme
 
 # Command line option
 
-1) use STM32CubeProgrammer software [STM32CubeProgrammer]([STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html))
+1) use STM32CubeProgrammer software [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)
 
 2) connect via USB while holding PROG button
 
@@ -37,7 +37,7 @@ Done!
 
 # GUI option
 
-1) use STM32CubeProgrammer software [STM32CubeProgrammer]([STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html))
+1) use STM32CubeProgrammer software [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)
 
 2) connect via USB while holding PROG button
 

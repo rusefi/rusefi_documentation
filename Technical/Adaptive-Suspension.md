@@ -4,22 +4,22 @@
 "Normally, a car's weight transfers from front to back as it brakes and accelerates, and from side to side as it corners. As the force on each corner changes, so does the grip available to that wheel; less weight equals less grip. Active shocks control this by varying the degree to which each spring's compresses and extends (as the springs are passive, these systems are sometimes known as semi-active)."
 
 
-[Wikipedia - Active Suspension](http://en.wikipedia.org/wiki/Active_suspension)
+[Active Suspension - Wikipedia]](http://en.wikipedia.org/wiki/Active_suspension)
 
 [Active Suspension banned](http://www.f1fanatic.co.uk/2007/05/17/banned-active-suspension/)
 
-[Wikipedia - Northstar Engine Series](http://en.wikipedia.org/wiki/Northstar_engine_series)
+[Northstar Engine Series - Wikipedia]](http://en.wikipedia.org/wiki/Northstar_engine_series)
 Road Sensing Suspension
 RSS
 CV-RSS continuously-variable CV-RSS
 
-[Wikipedia - Magneride Applications](https://en.wikipedia.org/wiki/MagneRide#Applications)
+[Magneride Applications - Wikipedia]](https://en.wikipedia.org/wiki/MagneRide#Applications)
 
-[Wikipedia - Toyota Active Control Suspension](https://en.wikipedia.org/wiki/Toyota_Active_Control_Suspension)
+[Toyota Active Control Suspension - Wikipedia]](https://en.wikipedia.org/wiki/Toyota_Active_Control_Suspension)
 
 "yaw velocity sensors, vertical G sensors, height sensors, wheel speed sensors, longitudinal and lateral G sensors) that detected cornering, acceleration and braking forces"
 
-Mercedes-Benz hydraulic fully active suspension: [Wikipedia - Active Body Control](https://en.wikipedia.org/wiki/Active_Body_Control)
+Mercedes-Benz hydraulic fully active suspension: [Active Body Control - Wikipedia]](https://en.wikipedia.org/wiki/Active_Body_Control)
 W220: "Prior to September 2002, only higher end models" S600 2003 "ABC system which combined an hydraulic system and springs"
 Furthermore, at highway speeds the suspension computer automatically engages sport mode (Airmatic - Sport mode 1 or 2 depending on the current speed), thus aiding safety by significantly reducing body roll in sharp turns.
 
@@ -51,9 +51,9 @@ buick regal 13319741
 
 yaw sensor
 
-[Jalopnik - How Magnets Make The Camaro ZL1 Dance Around A Race Track](http://jalopnik.com/5932764/how-magnets-make-the-camaro-zl1-dance-around-a-race-track)
+[How Magnets Make The Camaro ZL1 Dance Around A Race Track - Jalopnik](http://jalopnik.com/5932764/how-magnets-make-the-camaro-zl1-dance-around-a-race-track)
 
 
-[FOX Car Report - Car that can 'jump' potholes](https://www.youtube.com/watch?v=DS9LjHSTofw)
+[Car that can 'jump' potholes - Video](https://www.youtube.com/watch?v=DS9LjHSTofw)
 
 shock connector adapter GM 19180262 [https://www.cadillacforums.com/forums/cadillac-escalade-ext-esv-forum-2007/1067118-how-delete-z95-front-rear-mrc.html](https://www.cadillacforums.com/forums/cadillac-escalade-ext-esv-forum-2007/1067118-how-delete-z95-front-rear-mrc.html)
