@@ -92,7 +92,7 @@ for iBom automation
 #### Additional plugins:
 - Pipeline GitHub Notify Step
 
-[Show current state of Jenkins build on GitHub repo](https://stackoverflow.com/questions/14274293/show-current-state-of-jenkins-build-on-github-repo)
+[Show current state of Jenkins build on GitHub repo - StackOverflow](https://stackoverflow.com/questions/14274293/show-current-state-of-jenkins-build-on-github-repo)
 
 [https://github.com/settings/tokens](https://github.com/settings/tokens)
 
