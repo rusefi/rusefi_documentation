@@ -11,7 +11,7 @@ rusEFI firmware currently supports two protocols for ECU monitoring & control
 [Java console code overview](Dev-Console-Implementation)
 
 
-2. binary protocol for integration with rusEFI console or http://www.tunerstudio.com/ tuning software
+2. binary protocol for integration with rusEFI console or [TunerStudio](http://www.tunerstudio.com/) tuning software
 See [tunerstudio.cpp](https://sourceforge.net/p/rusefi/code/HEAD/tree/trunk/firmware/console/binary/tunerstudio.cpp) for a brief description of this binary protocol
 
 For physical level rs232 is used ("serial port") - either via a FL232 chip or by emulating a USB device right within stm32f4. A bluetooth option is also available.

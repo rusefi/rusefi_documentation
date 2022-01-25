@@ -1,6 +1,6 @@
 Anti-lock Braking System
 
-https://en.wikipedia.org/wiki/Anti-lock_braking_system
+[ABS - Wikipedia]](https://en.wikipedia.org/wiki/Anti-lock_braking_system)
 
 
 Miata NB2

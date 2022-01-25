@@ -20,4 +20,4 @@ Part of the problem is the fact that Tuner Studio works only one way - once proj
 
 TODO: we need a better solution.
 
-See also https://sourceforge.net/p/rusefi/tickets/86/
+See also [https://github.com/rusefi/rusefi/issues/93](https://github.com/rusefi/rusefi/issues/93)

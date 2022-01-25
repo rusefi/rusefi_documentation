@@ -38,7 +38,7 @@
 
 
 
-https://github.com/rusefi/rusefi/wiki/It's-complicated
+[It's Complicated](It's-complicated)
 
 
 [Mazda Miata 2003](Mazda-Miata-2003) [Mazdaspeed Miata 2005](Mazdaspeed-Miata-2005)

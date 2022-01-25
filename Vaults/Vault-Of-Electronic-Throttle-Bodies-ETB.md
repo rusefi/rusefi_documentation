@@ -28,7 +28,7 @@ Bosch 0280750074 68mm
 
 Hitachi SERA576-01 60mm diameter
 
-M6 58mm bolt, internal hex cap see https://rusefi.com/forum/viewtopic.php?p=37682#p37682
+M6 58mm bolt, internal hex cap see [this forum post](https://rusefi.com/forum/viewtopic.php?p=37682#p37682)
 
 2003 Nissan Altima green plug
 
@@ -64,6 +64,6 @@ WARNING GND#1<>GND#2 are mixed up on the image.
 
 # Outside information
 
-See https://rusefi.com/forum/viewtopic.php?f=2&t=2077 TODO move content to here
+See [this forum thread](https://rusefi.com/forum/viewtopic.php?f=2&t=2077) TODO move content to here
 
-lots of useful information here https://www.maxxecu.com/webhelp/wirings-e-throttle_bodies.html
+lots of useful information [here](https://www.maxxecu.com/webhelp/wirings-e-throttle_bodies.html)

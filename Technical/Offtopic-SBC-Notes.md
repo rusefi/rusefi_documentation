@@ -1,6 +1,6 @@
 
 
-https://www.balena.io/etcher/ is a popular tool to flash OS images to SD cards & USB drives.
+[Balena Etcher](https://www.balena.io/etcher/) is a popular tool to flash OS images to SD cards & USB drives.
 
 
 rusEFI console in headless mode is known to work on Raspberry 3.
@@ -28,9 +28,9 @@ Default root password 1234
 Default baud rate 115200
 
 
-https://www.hackster.io/mexmarv/iot-raspberry-pi-wifi-headless-setup-6be0de
+[Raspberry PI wifi headless setup](https://www.hackster.io/mexmarv/iot-raspberry-pi-wifi-headless-setup-6be0de)
 
-https://www.furkantokac.com/rpi3-fast-boot-less-than-2-seconds/
+[Raspberry PI fast boot](https://www.furkantokac.com/rpi3-fast-boot-less-than-2-seconds/)
 
 # latest packages
 sudo apt-get update && apt-get upgrade
@@ -54,15 +54,15 @@ ExecStartPre=/bin/echo "" >/tmp/random-seed
 
 ### Hardware
 
-https://kaspars.net/blog/orange-pi-zero-gpio
+[Orange Pi Zero GPIO Pins](https://kaspars.net/blog/orange-pi-zero-gpio)
 
-https://rusefi.com/forum/viewtopic.php?p=37563#p37563
+[Single Board Computers - Forum](https://rusefi.com/forum/viewtopic.php?p=37563#p37563)
 
-http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2#Dimensional_Diagram
+[NanoPi Duo2 Dimensions](http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2#Dimensional_Diagram)
 
 ### SD card preparation
 
-Resize primary partition https://elinux.org/RPi_Resize_Flash_Partitions#Resizing
+Resize primary partition [Resizing RPi Partitions](https://elinux.org/RPi_Resize_Flash_Partitions#Resizing)
 ```
 lsusb
 lsblk
@@ -94,14 +94,14 @@ UUID=0e281f8d-1117-451d-9b1b-b07405a631bc /rw auto nosuid,nodev,nofail 0 0
 ```
 
 now add ",ro" into /etc/fstab
-https://medium.com/swlh/make-your-raspberry-pi-file-system-read-only-raspbian-buster-c558694de79
+[Make your Raspberry Pi file system read-only](https://medium.com/swlh/make-your-raspberry-pi-file-system-read-only-raspbian-buster-c558694de79)
 
 backup
 dd if=/dev/sdb of=2021_July_26_orange_zero.img
 
 # Orange PI CI setup
 
-https://www.armbian.com/orange-pi-zero/
+[Orange Pi Zero](https://www.armbian.com/orange-pi-zero/)
 
 wget https://redirect.armbian.com/orangepizero/Buster_current.torrent
 sudo apt-get install transmission-cli transmission-common transmission-daemon

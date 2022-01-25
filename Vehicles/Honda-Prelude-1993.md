@@ -2,7 +2,7 @@ See also [Honda Accord 1995](Honda-Accord-1995)
 
 ![Connector Face](Images/Honda_prelude_connector.png)
 
-http://honda-tech.com/showthread.php?t=2377726
+[94 accord ex ecu pinout](http://honda-tech.com/showthread.php?t=2377726)
 
 
 ## 26 pin

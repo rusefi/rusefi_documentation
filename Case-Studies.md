@@ -23,17 +23,17 @@ Miata NA
 
 # Cold start on a Winter day
 
-Beer Money's Lemon cold start(0c ambient) on E85 https://youtu.be/wx5dU16RtPU
+[Beer Money's Lemon cold start(0c ambient) on E85 - Video](https://youtu.be/wx5dU16RtPU)
 
-Tune- https://rusefi.com/online/view.php?msq=808
+[Tune](https://rusefi.com/online/view.php?msq=808)
 
 # Hot start
 
-Wow Matt hot starts https://www.youtube.com/watch?v=lGjPbiyv49c
+[Wow Matt hot starts - Video](https://www.youtube.com/watch?v=lGjPbiyv49c)
 
 # Parked Idle
 
-https://youtu.be/8sUXxj-Q1Bo
+[Hellen64 idle rusEFI - Video](https://youtu.be/8sUXxj-Q1Bo)
 
 Stop and go driving
 
@@ -43,13 +43,13 @@ Excited acceleration driving
 
 
 # Consecutive engine cranking / engine stop
-TODO https://github.com/rusefi/rusefi_documentation/issues/151
+TODO [https://github.com/rusefi/rusefi_documentation/issues/151](https://github.com/rusefi/rusefi_documentation/issues/151)
 
 # VVT control
 
-[CrazyStriker Miata NB2](https://rusefi.com/online/?vehicleName=H72_CS_NB2&user_id=853)
+[CrazyStriker Miata NB2 - Forum](https://rusefi.com/online/?vehicleName=H72_CS_NB2&user_id=853)
 
-[Jimmy M111 190e](https://rusefi.com/online/?vehicleName=Jimmys+190e+that+runs+good&user_id=1115)
+[Jimmy M111 190e - Forum](https://rusefi.com/online/?vehicleName=Jimmys+190e+that+runs+good&user_id=1115)
 
 # Stepper Idle control
 
@@ -59,7 +59,7 @@ todo Matt
 
 # Misc Marketing
 
-[NB1 first drive](https://www.youtube.com/watch?v=rxwOemGg5F4)
+[NB1 first drive - Video](https://www.youtube.com/watch?v=rxwOemGg5F4)
 
-[Drift Championship](https://www.youtube.com/watch?v=y4h5dAlh6tE)
+[Drift Championship - Video](https://www.youtube.com/watch?v=y4h5dAlh6tE)
 

@@ -1,4 +1,4 @@
-https://www.ebay.com/itm/333841923141
+[For Sale on eBay](https://www.ebay.com/itm/333841923141)
 
 [New to rusEFI start here](Home)
 

@@ -1,6 +1,6 @@
 Github Actions is currently in charge of:
 
-* Firmware Builds: continues integration publishing at https://rusefi.com/build_server/
+* Firmware Builds: continues integration publishing at [https://rusefi.com/build_server/](https://rusefi.com/build_server/)
 * Console Builds
 * Simulator Builds
 * Android App Builds
@@ -28,7 +28,7 @@ We have tried to keep Jenkins working in case we need to revert to it.
 5) git2svn_sync
 
 ### Install Cygwin
-https://cygwin.com/install.html
+[Download Cygwin](https://cygwin.com/install.html)
 
 Cygwin packages that need to be installed:
 
@@ -49,23 +49,23 @@ Cygwin packages that need to be installed:
 - graphviz
 
 ### Install Java JDK 8
-https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+[Download JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
 ### Install Ant:
-https://ant.apache.org/
+[Download Ant](https://ant.apache.org/)
 
 ### Install Jenkins
-https://jenkins.io/download/
+[Download Jenkins](https://jenkins.io/download/)
 
 ### Install Kicad
-https://www.kicad.org/download/
+[Download Kicad](https://www.kicad.org/download/)
 for iBom automation
 
 ### Install for Hardware Testing
 #### ST Link Utility  
-http://www.st.com/st-web-ui/static/active/en/st_prod_software_internet/resource/technical/software/utility/stsw-link004.zip
+[STM32 ST-Link Utility](http://www.st.com/st-web-ui/static/active/en/st_prod_software_internet/resource/technical/software/utility/stsw-link004.zip)
 #### ST Virtual Serial Driver
-http://www.st.com/web/en/catalog/tools/PF257938
+[STM32 Virtual COM Port Driver](http://www.st.com/web/en/catalog/tools/PF257938)
 
 ### System Environment Variables:
 |Variable|Example|
@@ -92,9 +92,9 @@ http://www.st.com/web/en/catalog/tools/PF257938
 #### Additional plugins:
 - Pipeline GitHub Notify Step
 
-https://stackoverflow.com/questions/14274293/show-current-state-of-jenkins-build-on-github-repo
+[Show current state of Jenkins build on GitHub repo - StackOverflow](https://stackoverflow.com/questions/14274293/show-current-state-of-jenkins-build-on-github-repo)
 
-https://github.com/settings/tokens
+[https://github.com/settings/tokens](https://github.com/settings/tokens)
 
 Discard Old Build
 

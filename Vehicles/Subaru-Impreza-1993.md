@@ -66,4 +66,4 @@ This vehicle has dumb coils and igniters - rusEFI does not have to provide ignit
 
 
 
-Thank you http://northursalia.com/modifications/misc/wiring/wiring.html
+Thank you [http://northursalia.com/modifications/misc/wiring/wiring.html](http://northursalia.com/modifications/misc/wiring/wiring.html)

@@ -1,13 +1,13 @@
 STM32F407 firmware
 ```
-git clone --recurse-submodules https://github.com/rusefi/rusefi
+git clone --recurse-submodules [https://github.com/rusefi/rusefi](https://github.com/rusefi/rusefi)
 cd firmware
 make
 ```
 
 virtual serial port
 
-PC application to send commands: https://rusefi.com/build_server/rusefi_bundle.zip
+PC application to send commands: [rusEFI Firmware bundle](https://rusefi.com/build_server/rusefi_bundle.zip)
 
 
-https://www.chibios.org/
+[ChibiOS](https://www.chibios.org/)

@@ -39,11 +39,11 @@ No silicon
 In my mazda, they cut the BMW box in half: half is in the coil, half is in the ecu
 On Saab, they put half in the coil, and half in the extra module
 
-Background on mazda skyactiv coil on plug  https://www.hexorcism.com/16ND/sh13084/
+Background on mazda skyactiv coil on plug  [https://www.hexorcism.com/16ND/sh13084/](https://www.hexorcism.com/16ND/sh13084/)
 
 bmw M5 ionic control module... for reference... we do not use this  --  
 
 AndreiKA latest---
-https://rusefi.com/forum/viewtopic.php?p=34988#p34988 https://rusefi.com/forum/viewtopic.php?p=35035#p35035
+[cheap cylinder pressure sensor option - smart diesel glow plug with pressure sensor](https://rusefi.com/forum/viewtopic.php?p=34988#p34988) [Ion Sense](https://rusefi.com/forum/viewtopic.php?p=35035#p35035)
 
 

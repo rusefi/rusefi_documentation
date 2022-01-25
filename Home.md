@@ -23,9 +23,9 @@ Batch Injection|✓
 Sequential Injection up to 12 cylinders|✓
 Wasted Ignition|✓
 Sequential Ignition up to 12 cylinders|✓
-[Flex Fuel](https://github.com/rusefi/rusefi/wiki/Flex-Fuel) 🌽|✓
+[Flex Fuel](Flex-Fuel) 🌽|✓
 Closed Loop Fueling|✓
-[Electronic Throttle Body](https://github.com/rusefi/rusefi/wiki/Electronic-Throttle-Body-Configuration-Guide)|✓
+[Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)|✓
 Boost Control|✓
 Dual AFR signal logging|✓
 [Launch Control](Launch-Control)|✓
@@ -33,7 +33,7 @@ Dual AFR signal logging|✓
 [Digital Dash](Digital-Dash)|✓
 [on board wideband controller](WBO)|✓
 [Knock Sensing](knock-sensing)|✓
-[Multi-Spark](https://github.com/rusefi/rusefi/wiki/Multi-Spark)|✓
+[Multi-Spark](Multi-Spark)|✓
 [Lua Scripting](Lua-Scripting)|✓
 [Rotary Engines](Rotary)|?
 [Knock response](https://github.com/rusefi/rusefi/issues/202)|✗

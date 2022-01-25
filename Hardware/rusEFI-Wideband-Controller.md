@@ -46,7 +46,7 @@ A: We control heater based on RPM, also WBO compensate for battery voltage based
 
 rusEFI own wideband module requires one time initial programming. Self contained version of the board relies on custom USB header while module integrated into Hellen requires usage of ST-Link programmer hardware via TC2030 or breakout SWD pins.
 
-initial programming binary at https://github.com/mck1117/wideband/tree/master/for_rusefi
+initial programming binary at [https://github.com/mck1117/wideband/tree/master/for_rusefi](https://github.com/mck1117/wideband/tree/master/for_rusefi)
 
 At the moment only known to work using stm32cube software not ST Link utility (weird). In case of Hellen 5v via USB is required.
 
@@ -80,13 +80,13 @@ There was also an opinion voiced that the board needs to see voltage on the "vBa
 [The hardware and software source code are hosted here.](https://github.com/mck1117/wideband)
 
 ## Index Selection
-https://github.com/mck1117/wideband/issues/11
+[https://github.com/mck1117/wideband/issues/11](https://github.com/mck1117/wideband/issues/11)
 
 
 # Fabrication
 
 * Power board with 5v (WBO module produces it's own 3v from supplied 5v)
-* [Tag-Connect-TC2030](Tag-Connect-TC2030) to upload https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_image_with_bl.bin firmware
+* [Tag-Connect-TC2030](Tag-Connect-TC2030) to upload [firmware](https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_image_with_bl.bin)
 * power cycle to confirm green LED blinking 
 
 ![x](Hardware/Hellen/hellen-wbo-F042-soldering-map.jpg)

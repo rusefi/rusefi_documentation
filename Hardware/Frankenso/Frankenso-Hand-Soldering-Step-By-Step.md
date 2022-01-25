@@ -9,7 +9,7 @@ Mandatory links:
 [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
 [Trigger Hardware](Trigger-Hardware)
 [Temperature Sensing](Temperature-Sensing)
-https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk/edit#gid=0
+[1994 Miata Frankenso pinout spreadsheet](https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk/edit#gid=0)
 
 
 First you need the board. Then you need the components. I decided to select and buy the components step-by-step.
@@ -17,7 +17,7 @@ First you need the board. Then you need the components. I decided to select and 
 ![Frankenso 0.5 bare board](Hardware/Frankenso/Frankenso-0.5-naked.jpg)
 
 Before you begin it would be helpful if you have experience with KiCad. Sometimes it is more convenient to use it to explore the schematic and the PCB files.
-The latest Frankenso files can be found here: https://github.com/rusefi/rusefi/tree/master/hardware/frankenso
+The latest Frankenso files can be found [here](https://github.com/rusefi/rusefi/tree/master/hardware/frankenso)
 
 ## Helpful files
 

@@ -1,6 +1,6 @@
-https://rusefi.com/forum/viewtopic.php?t=1692
+[Making my 190e More Fun (M111 SC Swap) - Forum](https://rusefi.com/forum/viewtopic.php?t=1692)
 
-[Case info](https://rusefi.com/forum/viewtopic.php?p=39163#p39163)
+[Case info - Forum](https://rusefi.com/forum/viewtopic.php?p=39163#p39163)
 
 [OEM C230 and SLK230 Wiring Diagrams](Mercedes-C230-and-SLK230)
 

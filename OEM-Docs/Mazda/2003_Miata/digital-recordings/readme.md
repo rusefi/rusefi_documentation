@@ -1,8 +1,14 @@
-.sal is file extension of Saleae v2 https://www.saleae.com/downloads/
+.sal is file extension of Saleae v2 
 
-First channel is CRANK shaft - see RIGHT 4 tooth per revolution shape on https://github.com/rusefi/rusefi/wiki/Images/triggers/trigger_4.png
+[Downloads](https://www.saleae.com/downloads/)
 
-Second channel is CAM shaft (half speed of CRANK shaft) - three tooth per revolution see left on https://github.com/rusefi/rusefi/wiki/Images/triggers/trigger_4.png
+First channel is CRANK shaft - see RIGHT 4 tooth per revolution shape
+
+![x](Images/triggers/trigger_4.png)
+
+Second channel is CAM shaft (half speed of CRANK shaft) - three tooth per revolution see left
+
+![x](Images/triggers/trigger_4.png)
 
 # July dataset
 

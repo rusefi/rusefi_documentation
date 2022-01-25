@@ -25,7 +25,7 @@ Tunerstudio output channels are handled completely manually, as opposed to setti
 Adding channels to tunerstudio_outputs.h induces offsets which are kept track of in comments next to each channel.
 In the OutputChannels section of rusefi.input, these values are 3rd token in the configuration string.
 
-http://www.tunerstudio.com/index.php/manuals/63-changing-gauge-limits
+[Changing gauge limits](http://www.tunerstudio.com/index.php/manuals/63-changing-gauge-limits)
 
 in order to use CONFIG macro you need EXTERN_CONFIG and include engine_configuration.h
 
@@ -59,11 +59,11 @@ sharedLogger is a generally available logger object, which is passed (by referen
 
 ### Discovery pinout with usable pins
 
-https://docs.google.com/spreadsheets/d/1pnU3Migcc7JEezvpVt3TcVCbuE5dIXXwrYFGZI97GNM/edit#gid=0
+[stm32f4 discovery pinout with functions](https://docs.google.com/spreadsheets/d/1pnU3Migcc7JEezvpVt3TcVCbuE5dIXXwrYFGZI97GNM/edit#gid=0)
 
 ### Debugging
 
-http://www.openocd.org/doc/html/GDB-and-OpenOCD.html
+[GDB and OpenOCD](http://www.openocd.org/doc/html/GDB-and-OpenOCD.html)
 
 Using openocd and gdb on STM32F407G-DISC1 requires modifying stm32f4discovery.cfg to source stmlink-v2-1.cfg
 

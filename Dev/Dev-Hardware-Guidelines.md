@@ -9,8 +9,8 @@ suggestions on how to design and work with things like a PCB layout.
 ## Basic principles
 
 We are developing hardware using [KiCad EDA Suite](http://www.kicad-pcb.org/)
-Our file repository for hardware is https://github.com/rusefi/rusefi/tree/master/hardware
-For now we are developing hardware as individual functional modules. While all individual modules are in-depended from each over, the use the share the same component library which is located at https://github.com/rusefi/kicad-libraries
+Our file repository for hardware is [here](https://github.com/rusefi/rusefi/tree/master/hardware)
+For now we are developing hardware as individual functional modules. While all individual modules are in-depended from each over, the use the share the same component library which is located at [https://github.com/rusefi/kicad-libraries](https://github.com/rusefi/kicad-libraries)
 
 ## Collaboration process
 Since patch files do not work well for hardware projects, our collaboration process is pulling whole folders from the SVN where board author would develop them into the central SVN which is the unified repository. That's a poor man workaround over the lack of free SVN hosting with directory user permissions.

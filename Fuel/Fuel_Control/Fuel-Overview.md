@@ -45,7 +45,7 @@ rusEFI could be used with MAF sensors sending out voltage (like Mazda Miata) or 
 
 ![Table](Fuel/Fuel_Control/table.png) 
  
-(also some content at http://rusefi.com/forum/viewtopic.php?f=2&t=1124)
+(also some content at [this forum thread](http://rusefi.com/forum/viewtopic.php?f=2&t=1124))
 
 ## I/O settings
 

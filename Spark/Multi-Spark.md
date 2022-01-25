@@ -34,6 +34,6 @@ This is the time the spark occurs during multispark.
 This is the time the Dwell period is set for. Keep in mind that this time does not need to be as long as your main ignition dwell period due to a partial burn having already occured. Not only does it not *need* to be as long it should not be to prevent overheating of the ignition coils.  
 
 ## Example  
-An example of multispark in action can be viewed here https://www.youtube.com/watch?v=SZn2CPouFek  
+An example of multispark in action can be viewed [here](https://www.youtube.com/watch?v=SZn2CPouFek)  
 
 [//]: # "Shaun Veilluex"

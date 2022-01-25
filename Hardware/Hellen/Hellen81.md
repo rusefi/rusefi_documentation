@@ -20,11 +20,11 @@ Key features:
 * USB-mini, CAN, K-Line, microSD, accelerometer;
 
 The gerber files and schematics:
-https://github.com/andreika-git/hellen81/
+[https://github.com/andreika-git/hellen81/](https://github.com/andreika-git/hellen81/)
 
 
 Pinout table:
-https://docs.google.com/spreadsheets/d/e/2PACX-1vSg41St_69moQ2rh92Mo4bStP-pNEcl9Qb2QOHikwrR-RgWGXKjmL9DsMgeUy9ewP8MYs3RSP3EftIc/pubhtml
+[Hellen81 Pinout Spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vSg41St_69moQ2rh92Mo4bStP-pNEcl9Qb2QOHikwrR-RgWGXKjmL9DsMgeUy9ewP8MYs3RSP3EftIc/pubhtml)
 
 ![x](Hardware/Hellen/hellen81-a.jpg)
 

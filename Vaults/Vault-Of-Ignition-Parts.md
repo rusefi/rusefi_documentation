@@ -23,7 +23,7 @@ Pin #3 "Negative" from igniter
 
 ## Ignition Modules (aka "ignitors")
 * VW 1.8t 4 cylinder module - PN _4D0905351_  
-For igniter location see https://www.youtube.com/watch?v=X-iyKYUeGvc
+For igniter location see [broken link](https://www.youtube.com/watch?v=X-iyKYUeGvc)
 Tested and working with BMW Coils, uses a pair of ampseal plugs (easily available on ebay). Wiring layout available on the forum. 
 Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9  
 Also known as: VW Audi 97- 05 - Bosch PN _0227100211_  
@@ -51,7 +51,7 @@ Harness side connector Sumitomo _6189-0515_ Toyota _90980-11653_
 
 ![x](OEM-Docs/Toyota/1999_Camry_Igniter.png) 
 
-* rusEFI's own BTS2140 module http://rusefi.com/forum/viewtopic.php?f=4&t=286
+* [rusEFI's own BTS2140 module](http://rusefi.com/forum/viewtopic.php?f=4&t=286)
 
 ![BTS2140 module](Images/BTS2140_breakout.jpg)
 

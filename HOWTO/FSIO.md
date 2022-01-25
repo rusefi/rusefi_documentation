@@ -22,8 +22,8 @@ RPN notation -> A B C * +
 At first look this is very confusing to read and understand but it is actually quite simple and very effective.  
 
 **The two videos below explain this very well and we strongly recommend watching them.**  
-https://www.youtube.com/watch?v=7ha78yWRDlE  
-https://www.youtube.com/watch?v=TrfcJCulsF4
+[Reverse Polish Notation and The Stack - Computerphile Video](https://www.youtube.com/watch?v=7ha78yWRDlE)  
+[Reverse Polish Grows on Trees - Computerphile Video](https://www.youtube.com/watch?v=TrfcJCulsF4)
 
 
 The TLDR is that the processor is critical to how this notation works, if a value is a number it loads it onto its "stack" if a value is an operator it performs an operation on the numbers in the stack. 
@@ -113,7 +113,7 @@ FSIO setting 6 has been configured for an adjustable RPM limiter, this can be co
 
 # See [legacy wiki](https://rusefi.com/wiki/index.php?title=Manual:Flexible_Logic) content below.  
 
-Fuel pump is already using this mechanism - see https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.txt
+Fuel pump is already using this mechanism - see [[https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.txt](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.txt)](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.txt)
 
 Here are some commands to try:
 
@@ -142,7 +142,7 @@ set_fsio_output_pin 1 pd11
 Tells output #1 to use pin PD11
 
 
-See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/core/fsio_impl.cpp for list of available methods
+See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/core/fsio_impl.cpp](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/core/fsio_impl.cpp) for list of available methods
 
 ---
 
@@ -312,7 +312,7 @@ Here is how this would look in Tuner Studio:
 
 That's RPN notation for "(rpm > 6000) * 0.8"
 
-See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.txt see https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.h
+See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.txt](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.txt) see [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.h](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.h)
 
 
 ![](Images/Fsio_TS.png)
@@ -336,11 +336,11 @@ set debug_mode 23
 
 [Debug Fields](Debug-Fields)
 
-https://www.youtube.com/watch?v=nrIrtdn-Nc0
+[FSIO warning light via rusEfi console - Video](https://www.youtube.com/watch?v=nrIrtdn-Nc0)
 
-https://www.youtube.com/watch?v=eA4clVtklZ8
+[FSIO warning light via TunerStudio - Video](https://www.youtube.com/watch?v=eA4clVtklZ8)
 
 ---
 
 ## Pin naming usability issue
-We have a usability feature with microRusEFI where stm32 pin names are hidden from users. Unfortunately for FSIO these smt32 pin names are needed. Those are visible in https://github.com/rusefi/rusefi/blob/master/firmware/config/boards/microrusefi/mapping.yaml
+We have a usability feature with microRusEFI where stm32 pin names are hidden from users. Unfortunately for FSIO these smt32 pin names are needed. Those are visible in the yaml files in each board's connector directory, e.g. [https://github.com/rusefi/rusefi/blob/master/firmware/config/boards/microrusefi/connectors/main.yaml](https://github.com/rusefi/rusefi/blob/master/firmware/config/boards/microrusefi/connectors/main.yaml)

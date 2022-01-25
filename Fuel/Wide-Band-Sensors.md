@@ -5,7 +5,7 @@ A wide-band oxygen sensor is pretty much a must for what we are doing here. Bosc
 
 As of April 2016 rusEFI does not have build-in WBO controller.
 
-Wide-band controllers range from $35.00 for http://www.14point7.com/products/slc-free ($85 with sensor) all the way to high-200 for kits with a gauge.
+Wide-band controllers range from $35.00 for [14point7 SLC-free](http://www.14point7.com/products/slc-free) ($85 with sensor) all the way to high-200 for kits with a gauge.
 
 TODO: an explanation why narrow band works for OEM but now for what we are doing here.
 
@@ -46,7 +46,7 @@ connector body is laser trimmed with this value."
 0v = 10AFR
 5v = 20AFR
 
-http://www.aemelectronics.com/files/instructions/30-4100%20Digital%20Wideband%20UEGO%20Gauge.pdf
+[AEM Controller Installation Instructions](http://www.aemelectronics.com/files/instructions/30-4100%20Digital%20Wideband%20UEGO%20Gauge.pdf)
 
 
 ![Pinout](Fuel/Aem_UEGO_pinout.png)
@@ -54,4 +54,4 @@ http://www.aemelectronics.com/files/instructions/30-4100%20Digital%20Wideband%20
 
 1j0973733 Bosch 4.2 6 pin connector available everywhere
 
-http://www.ecotrons.com/products/wideband-controller-alm-can/
+[ALM-CAN lambda meter](http://www.ecotrons.com/products/wideband-controller-alm-can/)

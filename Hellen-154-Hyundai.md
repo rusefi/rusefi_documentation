@@ -4,7 +4,7 @@
 
 [Schematics rev b]](Hardware/Hellen/hellen154hyundai-b-schematic.pdf)[[ibom rev b](https://rusefi.com/docs/ibom/hellen154hyundai-b-ibom.html)
 
-https://en.wikipedia.org/wiki/Hyundai_Genesis_Coupe
+[Hyundai Genesis Coupe - Wikipedia](https://en.wikipedia.org/wiki/Hyundai_Genesis_Coupe)
 
 
 Genesis Coupe 2.0T
@@ -13,9 +13,9 @@ Genesis Coupe 2.0T
 and 2013-2014
 the thing is, the harness changes slightly between the years
 
-[wiring diagram](https://github.com/rusefi/rusefi/wiki/Hyundai-Genesis-Coupe)
+[wiring diagram](Hyundai-Genesis-Coupe)
 
-https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUdvyo
+[Hellen 154 Hyundai pinout spreadsheet](https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUdvyo)
 
 
 ## Hardware Features 

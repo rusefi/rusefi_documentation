@@ -1,21 +1,21 @@
 
 
 # OBD-1
-[OBD1 connector part number](https://github.com/rusefi/rusefi/wiki/OEM-connectors#64)
+[OBD1 connector part number](OEM-connectors#64)
 
-https://github.com/rusefi/rusefi/wiki/Honda-Prelude-1993
+[1993 Honda Prelude](Honda-Prelude-1993)
 
-https://github.com/rusefi/rusefi/wiki/Honda-Accord-1995
+[1995 Honda Accord](Honda-Accord-1995)
 
-https://ff-squad.com/wp/?paged=2&cat=17
+[ECU Pin diagrams](https://ff-squad.com/wp/?paged=2&cat=17)
 
 # OBD-2
-[OBD2 connector part number](https://github.com/rusefi/rusefi/wiki/OEM-connectors#104)
+[OBD2 connector part number](OEM-connectors#104)
 
-https://github.com/rusefi/rusefi/wiki/Honda-Civic-1996
+[1996 Honda Civic](Honda-Civic-1996)
 
 # DBC K
-[DBC Honda K](https://github.com/rusefi/rusefi/wiki/OEM-connectors#125-pin)
+[DBC Honda K](OEM-connectors#125-pin)
 
 # K engine plug
 

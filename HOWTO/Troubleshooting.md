@@ -7,7 +7,7 @@ Remove the green brain board from the ECU and remove all cables. Power brain boa
 
 ![Only Mini USB](Images/Only_mini_usb.png)
 
-Download latest http://rusefi.com/build_server/rusefi_bundle.zip
+Download latest [http://rusefi.com/build_server/rusefi_bundle.zip](http://rusefi.com/build_server/rusefi_bundle.zip)
 Run rusefi_console.exe hit Erase, then hit Program
 
 ![Reflash](Images/Reflash.png)

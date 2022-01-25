@@ -3,7 +3,7 @@
 A proper ECU has to offer users as much flexibility as possible, meaning a completely user-defined control strategy for both primary and auxiliary actuators. For many years rusEFI had FSIO to do just that.
 
 As of 2021, rusEFI is replacing FSIO with a popular open source [Lua scripting engine](https://en.wikipedia.org/wiki/Lua_(programming_language))
-We use Lua https://www.lua.org/ version 5.4.3
+We use [Lua](https://www.lua.org/) version 5.4.3
 
 ## Conventions
 
@@ -45,7 +45,7 @@ end
 
 For example ``getOutput("clutchUpState")`` ``getOutput("brakePedalState")``
 
-See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp for output names.
+See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp) for output names.
 
 ### `setClutchUpState(value)`
 
@@ -55,7 +55,7 @@ See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/genera
 
 Gets current calibration value for specified scalar setting. For example ``getCalibration("cranking.rpm")``
 
-See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.cpp for field names.
+See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.cpp](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.cpp) for field names.
 
 ### `setCalibration(name, value, needEvent)`
 
@@ -373,4 +373,4 @@ dutyCycle = table3d(tableIndex, TurbochargerSpeed, tps)
 
 ## See also
 
-http://lua-users.org/wiki/TernaryOperator
+[Lua Ternary Operator](http://lua-users.org/wiki/TernaryOperator)

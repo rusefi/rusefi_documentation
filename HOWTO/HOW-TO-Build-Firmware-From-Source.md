@@ -11,7 +11,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 2. Download linux  
 Download the appx for linux 2004 from here:   
-https://docs.microsoft.com/en-us/windows/wsl/install-manual  
+[WSL Install Manual](https://docs.microsoft.com/en-us/windows/wsl/install-manual)  
 Or type the following into powershell:  
 cd ubuntu/  
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-2004 -OutFile Ubuntu.appx -UseBasicParsing  

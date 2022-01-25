@@ -12,7 +12,7 @@ See also [Mazda-Miata-2003](Mazda-Miata-2003)
 A plug and play adapter board has been developped to get the car to work as easy as possible. It only requires sourcing a tock harness plug and Ampseal 23 pins headers if you want auxiliary functions.
 More informations are available at this link : 
 
-https://rusefi.com/forum/viewtopic.php?f=4&t=1701
+[Proteus Plug and Play board for Miata/MX5 NB2 (72 pins)](https://rusefi.com/forum/viewtopic.php?f=4&t=1701)
 
 ![Assembled V0.3 Proteus with PnP board](https://rusefi.com/forum/download/file.php?id=6752&sid=1df371e40697c38dca9221e44ce28b50)
 

@@ -51,7 +51,7 @@ See also [online BOM](https://rusefi.com/docs/ibom/frankenso_latest.html)
 
 **Q:** Why three USB connectors?
 
-**A:** https://rusefi.com/forum/viewtopic.php?f=4&t=1418
+**A:** [Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1418)
 
 
 ## Default Pinout
@@ -195,7 +195,7 @@ See [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
 
 See [Temperature Sensing](Temperature-Sensing)
 
-https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk
+[1994 Miata Frankenso pinout spreadsheet](https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk)
 
 ![Analog Inputs](Hardware/Frankenso/analog_inputs.png)
 
@@ -259,7 +259,7 @@ CR2032
 
 ## More pictures
 
-More pictures at http://rusefi.com/images/Frankenso/
+More pictures at [http://rusefi.com/images/Frankenso/](http://rusefi.com/images/Frankenso/)
 
 ## Pigtail compatibility
 

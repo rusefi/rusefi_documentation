@@ -115,7 +115,7 @@ Flyback diodes orientation around version 0.5.2 - angles, facing SAME direction
 0.4.5, 0.4.7: 
 JP1 needs to be TBDsee
 
-see https://github.com/rusefi/hw_microRusEfi/issues/127
+see [https://github.com/rusefi/hw_microRusEfi/issues/127](https://github.com/rusefi/hw_microRusEfi/issues/127)
 
 Unpopulated parts which you probably do NOT need:
 

@@ -43,11 +43,11 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
   * 20AWG, no larger than a 10A fuse 
   * 22AWG, no larger than a 7A fuse
   * 24AWG, no larger than a 3A fuse 
- Those fuse sizes are based on this table for chassis wiring. http://www.powerstream.com/Wire_Size.htm
+ Those fuse sizes are based on [this table](http://www.powerstream.com/Wire_Size.htm) for chassis wiring.
 
 * When selecting a fuse, you can use the below guide to help. Generally you choose the fuse and wire based on what the load needs. If your load is 1A capable, you need wire and fusing that can provide at least 1A. However you don't want too large of a wire as it adds costs, or the wire size might be to large for certain connectors, etc. 
 
-http://www.littelfuse.com/~/media/automotive/catalogs/littelfuse_fuseology.pdf
+[Littelfuse Fuseology](http://www.littelfuse.com/~/media/automotive/catalogs/littelfuse_fuseology.pdf)
 
 * Take note there is a fatigue issue known as I2t (That's amps squared time) which is a common reason for failures after several cycles. 
 
@@ -55,7 +55,7 @@ http://www.littelfuse.com/~/media/automotive/catalogs/littelfuse_fuseology.pdf
 
 * For Frankenso it can typically use a typical automotive blade style fuse. From page 9 of the Frankenso schematic it suggests to use a 1.5A fuse. However that was for the one mounted on the PCB, which generally has a small wire installed. The below 2A would work for an external fuse. 
 
-http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_mini_datasheet.pdf
+[Littelfuse Mini Datasheet](http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_mini_datasheet.pdf)
 
 * Check in the forums for additional information. Often members can identify bumps in the road before you hit them. Forum members can also make suggestions that could make things go smoothly.
 
@@ -67,7 +67,7 @@ http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-
 * Start by getting junk yard ECU
 * Delicately break apart the junk yard ECU salvaging the ECU connector and perhaps the enclosure.
 ![Harness on car](Images/Harness_on_car.jpg)
-* If you have a connector that has a break out PCB board for it, you probably want to obtain the break out PCB for that harness connector. If not you can simply solder wires direct to the connector. Similar to this http://rusefi.com/forum/viewtopic.php?f=4&t=507
+* If you have a connector that has a break out PCB board for it, you probably want to obtain the break out PCB for that harness connector. If not you can simply solder wires direct to the connector. Similar to [this - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 ![Breakout Render](Images/176122-6_front.jpg)
 ![Breakout PCB](Images/64p_connector.jpg)
 * Wire rusEFI like Frankenstein as shown below 
@@ -82,7 +82,7 @@ http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-
 * Connect 12V system / battery to the IO board connector. 
 * Calibrate the sensors using TS and Java console as required.
 * Crank engine and see RPM's are registering correctly on the Java Console.
-* Connect LED to pins TODO, which will blink at TDC. Verify that TDC is correct by shining on a crank wheel like a timing light. PS: actually right now we do not have this - see https://sourceforge.net/p/rusefi/tickets/291/
+* Connect LED to pins TODO, which will blink at TDC. Verify that TDC is correct by shining on a crank wheel like a timing light. PS: actually right now we do not have this - see [https://github.com/rusefi/rusefi/issues/297](https://github.com/rusefi/rusefi/issues/297) and [https://github.com/rusefi/rusefi/issues/2732](https://github.com/rusefi/rusefi/issues/2732) and [https://github.com/rusefi/rusefi/issues/3120](https://github.com/rusefi/rusefi/issues/3120)
 * Connect injectors and ignition as required and see if it will start.
 
 ### Testing the wiring
@@ -149,7 +149,7 @@ There are three ways to produce similar logs - the intention is for these three 
 2. rusEFI console logging
 3. TunerStudio logging
 
-See also https://svn.code.sf.net/p/rusefi/code/trunk/firmware/console/binary/tunerstudio_configuration.h
+See also [https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt](https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt)
 
 See also [Error Codes](Error-Codes)
 
@@ -157,7 +157,7 @@ See also [Debug Fields](Debug-Fields)
 
 ## External links
 
-https://www.youtube.com/watch?v=lgvt0mh_UB8
+[Fuel injectors at first start - Video](https://www.youtube.com/watch?v=lgvt0mh_UB8)
 
 
 ## Diagnostics and trouble shooting of your engine

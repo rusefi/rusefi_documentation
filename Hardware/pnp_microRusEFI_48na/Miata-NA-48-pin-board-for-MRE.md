@@ -80,7 +80,7 @@ If you want to install an external MAP sensor, like a GM 3 bar sensor for exampl
 
 ## 3.3. TPS
 NA6 Miata with manual gearbox come with a throttle position switch that can recognize two positions- idle (closed) and full throttle. This works good enough, but if you really want to fine tune your engine, you may want to use an actual throttle position sensor. There are several popular options on how to achieve this. Either use a TPS from an automatic NA6 Miata. these do seem, however, be hard to get by these days. You can install an aftermarket throttle body with TPS, or you can install a TPS from a Kia (part numbers are 0K01118911, 0K24718911, 0K30A18911, TH291, 5S5504, TPS4185, TH0254, 1580486, 2001332). You need an adapter for this. The design can be found here [Mazda NA6 Miata variable TPS mount](https://www.thingiverse.com/thing:3414132)
-Instructions on how to jumper the board for these configurations will be updated later. For now https://rusefi.com/forum/viewtopic.php?f=16&t=1908 
+Instructions on how to jumper the board for these configurations will be updated later. For now [see this forum thread](https://rusefi.com/forum/viewtopic.php?f=16&t=1908) 
 
 # 4. Connections
 Expansions usually require some wiring. The standard pinout for the connector in NA6 configuration is this below.
@@ -214,4 +214,4 @@ JP10	2X	CAN_L|	Y	|N|	TachOUT on 95.5
 
 [Mazda Miata 1995](Mazda-Miata-1995)
 
-https://www.youtube.com/watch?v=vleG0Jp5isY
+[rusefi MRE 4.8 48 pin PNP adapter board for NA Miatas 1990-1995 (pre ODBII)](https://www.youtube.com/watch?v=vleG0Jp5isY)

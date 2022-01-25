@@ -4,7 +4,7 @@ We love our engines and we want them to live a long & happy life. That's why we 
 * built-in trigger signal simulation
 * [Simulator](Virtual-simulator)
 
-For current coverage report see https://rusefi.com/docs/unit_tests_coverage/
+For current coverage report see [the coverage page](https://rusefi.com/docs/unit_tests_coverage/)
 
 ## Hardware Continuous Integration
 
@@ -13,7 +13,7 @@ Since 2015 there is always a stm32f4 board listening for VCS updates running rus
 
 
 Anyone can execute real hardware test suite by invoking. This command would detect rusEFI hardware automatically and invoke
-https://github.com/rusefi/rusefi/blob/master/java_console/autotest/src/com/rusefi/RealHwTest.java
+[broken link](https://github.com/rusefi/rusefi/blob/master/java_console/autotest/src/com/rusefi/RealHwTest.java)
 
 
 ``java -jar rusefi_console.jar functional_test``

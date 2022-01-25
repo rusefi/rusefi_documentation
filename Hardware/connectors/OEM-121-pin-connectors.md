@@ -7,7 +7,7 @@ There are two kinds of 121 connectors which look pretty much the same but do not
 
 
 ## 368255/Asian
-http://www.te.com/catalog/pn/en/368255-2
+[TE 368255-2](http://www.te.com/catalog/pn/en/368255-2)
 
 This one is used on Asian vehicles - Kia Hyundai etc.
 
@@ -21,7 +21,7 @@ Note the horizontal line and the lack of double-lines
 
 ## 1241434/German
 
-http://www.te.com/catalog/pn/en/1241434-1
+[TE 1241434-1](http://www.te.com/catalog/pn/en/1241434-1)
 
 This one is used on Audi, VW, Mini Cooper.
 

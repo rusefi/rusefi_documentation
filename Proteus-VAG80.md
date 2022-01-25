@@ -1,3 +1,3 @@
-https://github.com/rusefi/proteus-80-pin-vag-adapter
+[Proetus 80 pin VAG adapter](https://github.com/rusefi/proteus-80-pin-vag-adapter)
 
-https://github.com/rusefi/rusefi/wiki/Proteus-Manual
+[Proteus Manual](Proteus-Manual)

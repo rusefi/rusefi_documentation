@@ -58,7 +58,7 @@ Raw +12 option **Never have both F1 and F2 jumpers populated!**
 
 [VAG-C5]
 
-[VAG-MK4 VR6](https://github.com/rusefi/rusefi/wiki/mk4-vr6-wiring)
+[VAG-MK4 VR6](mk4-vr6-wiring)
 
 
 ![x](https://rusefi.com/forum/download/file.php?id=7575)

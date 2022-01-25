@@ -2,7 +2,7 @@ todo organize these notes better
 
 # Proteus
 
-https://rusefi.com/forum/viewtopic.php?p=41539#p41539
+[Proteus Stock issues - Forum](https://rusefi.com/forum/viewtopic.php?p=41539#p41539)
 
 Highside BTS4175SGA: BSP762/ISP762, ISP752T
 
@@ -20,13 +20,13 @@ Requirements:
 
 # Hellen
 
-See also https://github.com/andreika-git/hellen-one/wiki/JLC-fabrication-component-substitution-options
+See also [Hellen JLC fabrication component substitution options](https://github.com/andreika-git/hellen-one/wiki/JLC-fabrication-component-substitution-options)
 
 any f405xG should work
 
 G = 1MB
 
-https://github.com/andreika-git/hellen-one/labels/CHIP-SHORTAGE
+[https://github.com/andreika-git/hellen-one/labels/CHIP-SHORTAGE](https://github.com/andreika-git/hellen-one/labels/CHIP-SHORTAGE)
 
 todo:
 shall we try TLE82092 one day?

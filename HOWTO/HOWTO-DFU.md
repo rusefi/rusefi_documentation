@@ -28,7 +28,7 @@ A: No. We have a small portion of STM32CubeProgramer embedded into rusEFI consol
 
 ## Q: I am using the buttons but it simply does not work?
 
-A: We have a report of this at https://www.rusefi.com/forum/viewtopic.php?p=42317#p42317. For now please keep trying!
+A: We have a report of this [on the forum](https://www.rusefi.com/forum/viewtopic.php?p=42317#p42317). For now please keep trying!
 
 ## Q: I have a Mac? Or even better I have a Linux device?
 

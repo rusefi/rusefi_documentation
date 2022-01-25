@@ -41,20 +41,20 @@ If the above didn't detail specifically what you need, here are some note that m
 * Low RPM generally has a small voltage, EMI noise from things like spark can cause false triggers, and you need to shield the wires between the sensing circuit and the VR sensor. 
 
 #### VR lower level details, formulas, app notes, etc
-VR's have many critical characteristics that need may be of concern. The variations in design will result in different minimum RPM's, maximum RPM's, noise immunity and other such items that result in properly detecting the shaft angle. There are critical dimensions and critical materials used in parts of a VR that need to be taken into consideration. There are some equations and examples noted on this application note http://sensing.honeywell.com/vrs-app-note-005934-2-en-final-26jun12.pdf These equations help you determine the min RPM, load resistor and voltages produced at higher RPM's. This is also a useful app note about hall sensor. https://sensing.honeywell.com/hallbook.pdf 
+VR's have many critical characteristics that need may be of concern. The variations in design will result in different minimum RPM's, maximum RPM's, noise immunity and other such items that result in properly detecting the shaft angle. There are critical dimensions and critical materials used in parts of a VR that need to be taken into consideration. There are some equations and examples noted on [this application note](http://sensing.honeywell.com/vrs-app-note-005934-2-en-final-26jun12.pdf) These equations help you determine the min RPM, load resistor and voltages produced at higher RPM's. [This is also a useful app note about hall sensor](https://sensing.honeywell.com/hallbook.pdf).
 
 This application note is copied [here](PDFs/VRS_App_Note_005934-2-EN_Final_26Jun12.pdf) for archival purposes. 
 
 [Hall Book](PDFs/Hallbook.pdf)
 
-There is a condensed version of this app note found here http://sensing.honeywell.com/index.php?ci_id=51555 and archived [here](PDFs/VRS_output_voltage_calculations.pdf)
+There is a condensed version of this app note found [here](http://sensing.honeywell.com/index.php?ci_id=51555) and archived [here](PDFs/VRS_output_voltage_calculations.pdf)
 
 As an example, see the below spreadsheet that includes the information from the above application note. This is a starting point and you can copy this spread sheet then enter specifics relative to your application.
 
-https://docs.google.com/spreadsheets/d/1zjY_75mM5rDzKeJ_xcjCDBJ1z_Nbhw614xTaEh1eNq0/edit#gid=1410395179
+[VR Calculations Spreadsheet](https://docs.google.com/spreadsheets/d/1zjY_75mM5rDzKeJ_xcjCDBJ1z_Nbhw614xTaEh1eNq0/edit#gid=1410395179)
 
 It's good practice to design to at least 300V or better, especially if you expect more than 6kRPM, and you don't know your VR sensor. However most VR sensors only get up to around 50V. See below snap shot of the above spread sheet. It shows a 10kRPM 36 tooth VR design that would generate 300V. 
 
 ![VR Signal](Images/300V_VR_Signal.png)
 
-One forum member noted their motorcycle VR goes up to 380Vp-p. http://rusefi.com/forum/viewtopic.php?f=4&t=811&p=13981&hilit=380V#p13981
+[One forum member noted their motorcycle VR goes up to 380Vp-p](https://rusefi.com/forum/viewtopic.php?p=13981#p13981).

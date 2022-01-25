@@ -34,7 +34,7 @@
 |chart|1|
 |chartsize|1|Sets the size of engine sniffing buffer in ECU. Nothing would change on your screen until a new larger packet of engine sniffing would arrive from ECU.|
 |get date|0 |Gets current real time clock|
-|set date XXX|1|XXX is time in seconds sins Unix epoch - see http://www.epochconverter.com|
+|set date XXX|1|XXX is time in seconds sins Unix epoch - see [EpochConverter](http://www.epochconverter.com)|
 |echo|1|Just prints out the parameter - this is useful for troubleshooting connectivity|
 |fatal|0 |This command would cause the firmware to halt. I am not sure that you want to try this one :)|
 |fadc|0|

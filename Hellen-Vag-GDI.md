@@ -6,13 +6,13 @@ Hellen PnP GDI board for [Volkswagen Passat B6](VolkswagenPassatB6)
 
 Problem statement:
 
-See also https://github.com/rusefi/rusefi/wiki/VolkswagenPassatB6
+See also [Volkswagen Passat B6](VolkswagenPassatB6)
 
-See also https://github.com/rusefi/rusefi/wiki/MC33816-PT2001-dev-board
+See also [MC33816-PT2001-dev-board](MC33816-PT2001-dev-board)
 
 See also [Passat GDI Wiring](Passat-GDI-wiring)
 
 
 
-https://github.com/rusefi/hellen154vag-9.1
+[hellen154vag-9.1 board](https://github.com/rusefi/hellen154vag-9.1)
 
