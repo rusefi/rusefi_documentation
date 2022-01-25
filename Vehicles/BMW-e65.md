@@ -37,18 +37,18 @@ See [BMW-N73](BMW-N73)
 
 ##### HOWTO videos
 
-Console removal https://www.youtube.com/watch?v=pGAeodWa_i4
+[Console removal](https://www.youtube.com/watch?v=pGAeodWa_i4)
 
 SRS module controls fuel pump 
-https://lacarpro.com/blogs/dal-works/2002-1-2-bmw-745i-no-start
+[broken link](https://lacarpro.com/blogs/dal-works/2002-1-2-bmw-745i-no-start)
 
-RHD instrument cluster removal https://www.youtube.com/watch?v=GyVhkNa3010
+[RHD instrument cluster removal](https://www.youtube.com/watch?v=GyVhkNa3010)
 
-Emergency Brake Release Procedure https://www.youtube.com/watch?v=xDP5w6bBccM
+[Emergency Brake Release Procedure](https://www.youtube.com/watch?v=xDP5w6bBccM)
 
-https://www.youtube.com/watch?v=vIzs32PNZTY&t=140s
+[BMW 745li e66, parking brake malfunction, fix](https://www.youtube.com/watch?v=vIzs32PNZTY&t=140s)
 
-Battery replacement https://www.youtube.com/watch?v=V-FhPSF_880
+[Battery replacement](https://www.youtube.com/watch?v=V-FhPSF_880)
 
 [User Manual](OEM-Docs/Bmw/2003_7_Series_e65/2004_Manual_7_Series.pdf)
 

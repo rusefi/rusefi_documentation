@@ -97,7 +97,7 @@ We are still working on our own power supply, for now you would probably need a 
 
 For the "low side to high side" hack you would need to mount through-hole resistors in a tower/Manhattan style.
 
-There is no SD module part number from a major US supplier. TODO: figure this out, but just get them on eBay - see http://rusefi.com/forum/viewtopic.php?f=4&t=215&start=10#p4896
+There is no SD module part number from a major US supplier. TODO: figure this out, but just get them on eBay - see [forum thread](http://rusefi.com/forum/viewtopic.php?f=4&t=215&start=10#p4896)
 
 FT232 validation:
 

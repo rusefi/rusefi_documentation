@@ -72,9 +72,9 @@ Rusefi Engine Type 41 on Frankenso
 ![Wiring Diagram](OEM-Docs/Mazda/1990_Miata/1990_mazda_miata_us_wiring.png)
 
 
-See also https://sites.google.com/site/mazdaecutechnicaldata/
+See also [Mazda ECU Technical Data](https://sites.google.com/site/mazdaecutechnicaldata/)
 
-See you - some notes on stock ECU schematics (TinyCAD format) - https://drive.google.com/file/d/0B7l1FeMZcfisM3pHanlkWFRGQVU/view?usp=sharing
+See you - some notes on stock ECU schematics (TinyCAD format) - [https://drive.google.com/file/d/0B7l1FeMZcfisM3pHanlkWFRGQVU/view?usp=sharing](https://drive.google.com/file/d/0B7l1FeMZcfisM3pHanlkWFRGQVU/view?usp=sharing)
 
 ## Gauges
 
@@ -88,4 +88,4 @@ Turn signal Left G/B Green/Black
 ![Wiring Diagram](Images/2009-11-10_224518_tach.gif)
 
 
-See also http://www.mellens.net/mazda/Mazda-Miata-1991-1993/1991_wiring.pdf
+See also [http://www.mellens.net/mazda/Mazda-Miata-1991-1993/1991_wiring.pdf](http://www.mellens.net/mazda/Mazda-Miata-1991-1993/1991_wiring.pdf)

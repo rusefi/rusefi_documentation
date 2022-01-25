@@ -1,4 +1,6 @@
-.sal is file extension of Saleae v2 https://www.saleae.com/downloads/
+.sal is file extension of Saleae v2 
+
+[Downloads](https://www.saleae.com/downloads/)
 
 First channel is CRANK shaft - see RIGHT 4 tooth per revolution shape
 

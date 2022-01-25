@@ -3,7 +3,7 @@
 
 ![Connector Pinout](Images/Accord_pinout.png)
 
-http://honda-tech.com/showthread.php?t=2377726
+[94 accord ex ecu pinout](http://honda-tech.com/showthread.php?t=2377726)
 
 ## 26 pin
 
@@ -92,7 +92,7 @@ http://honda-tech.com/showthread.php?t=2377726
 
 ## Components
 
-http://en.wikipedia.org/wiki/Honda_F_engine#F22B1
+[Wikipedia - Honda F22B1 Engine](http://en.wikipedia.org/wiki/Honda_F_engine#F22B1)
 
 Fuel Injector 06164-P0A-A00 248cc/min Low impedance
 

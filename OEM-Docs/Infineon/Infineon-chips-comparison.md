@@ -13,7 +13,7 @@
 | TLE8080-3EM      | 2012-2016     |  2+2  | n/a | also power supply, for one cylinder motocycle engine  |   |
 | TLE8110ED      | 2018     |       6+4     | n/a  |   |
 | L9779WD | 2015 | out6,7 5A | | |
-| TLE8888QK      | 2014-2017     | 7+7           | n/a  | Used on M86 http://chiptuner.ru/content/ctpro_m86/  |
+| TLE8888QK      | 2014-2017     | 7+7           | n/a  | [Used on M86](http://chiptuner.ru/content/ctpro_m86/)  |
 | TLE8088      |      |            |   |   |
 | mc33810 MCZ33810      |      |            |   |   |
 |  TLE8209     |      |            |   |  H-Bridge |
@@ -21,4 +21,4 @@
 
 
 ![tree](OEM-Docs/Infineon/low_side_selection_tree.png)
-from https://www.infineon.com/dgdl/Infineon-Automotive_Power_SelectionGuide_2019-SG-v01_00-EN.pdf?fileId=5546d4625ee5d4cd015f10996d2d6d44
+from [https://www.infineon.com/dgdl/Infineon-Automotive_Power_SelectionGuide_2019-SG-v01_00-EN.pdf?fileId=5546d4625ee5d4cd015f10996d2d6d44](https://www.infineon.com/dgdl/Infineon-Automotive_Power_SelectionGuide_2019-SG-v01_00-EN.pdf?fileId=5546d4625ee5d4cd015f10996d2d6d44)

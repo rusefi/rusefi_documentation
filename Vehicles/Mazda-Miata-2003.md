@@ -72,7 +72,7 @@ Fly-back diode - stripe facing +12 - is needed between VVT 4D (power, stripe sid
 
 Fly-back diode - stripe facing +12 - is needed between IAC 2P (power, stripe side) and IAC control 2Q.
 
-See http://rusefi.com/forum/viewtopic.php?f=3&t=906&p=25018l#p25018
+See [http://rusefi.com/forum/viewtopic.php?f=3&t=906&p=25018l#p25018](http://rusefi.com/forum/viewtopic.php?f=3&t=906&p=25018l#p25018)
 
 For ignition key see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting--power)
 

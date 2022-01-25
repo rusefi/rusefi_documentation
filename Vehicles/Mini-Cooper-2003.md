@@ -71,7 +71,7 @@
 
 See also [CAN Sniffer](CAN-Sniffer)
 
-ECU header: 121p, compatible with IV Volkswagen Jetta VR6, part number http://www.te.com/catalog/pn/en/966971-2
+ECU header: 121p, compatible with IV Volkswagen Jetta VR6, part number [966971-2](http://www.te.com/catalog/pn/en/966971-2)
 
 ## Trigger shape
 

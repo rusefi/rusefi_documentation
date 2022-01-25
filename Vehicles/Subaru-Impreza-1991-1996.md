@@ -130,4 +130,4 @@ Output drivers:
 
 ## See also
 
-http://www.type-ra.com/
+[http://www.type-ra.com/](http://www.type-ra.com/)

@@ -73,7 +73,7 @@ ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few except
 | 2Z  | W64 0Ohm | GRN        | Injector \#4                | Output/low side     |
 
 == Diagram ==
-http://www.miataforumz.com/1990-200-Miata-Wiring/94sys.pdf
+[1990-2000 Miata System Wiring Diagrams](http://www.miataforumz.com/1990-200-Miata-Wiring/94sys.pdf)
 
 
 ![Wiring Diagram](Images/1994_miata_1.8_1.png)
@@ -83,7 +83,7 @@ http://www.miataforumz.com/1990-200-Miata-Wiring/94sys.pdf
 ![Wiring Diagram](Images/1994_miata_1.8_charging.png)
 
 ## CAS
-Source: http://www.rivercityroad.com/garage/cas.htm
+Source: [http://www.rivercityroad.com/garage/cas.htm](http://www.rivercityroad.com/garage/cas.htm)
 The CAS has four wires. Two are for +12 power and ground. The other two are the output signals read by the engine computer.
 
 The signals are called SGC and SGT on the 1.8 engine. They are called called NE and G signals on the 1.6 engine. The computer can decode the position of the engine camshaft and the engine speed from these two signals. With this information, it calculates when to send spark to the spark plugs and fuel to the fuel injectors.

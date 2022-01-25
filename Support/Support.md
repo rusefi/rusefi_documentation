@@ -1,17 +1,17 @@
-TL,DR: https://github.com/rusefi/rusefi/wiki/Knowledge-best-practices-and-Channels#q-i-need-help
+[TL,DR](Knowledge-best-practices-and-Channels#q-i-need-help)
 
 
 rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises including zero promises of technical support. 
 
 rusEFI has zero full time staff and most of rusEFI contributors all over the globe have day jobs and other obligations.
 
-https://rusefi.com/forum/ is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online).
+[[https://rusefi.com/forum/](https://rusefi.com/forum/)](https://rusefi.com/forum/) is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online).
 
-Please Read https://opensource.com/life/16/10/how-ask-technical-questions
+Please Read [How To Ask Technical Questions](https://opensource.com/life/16/10/how-ask-technical-questions)
 
 ## Q: What is Slack?
 
-A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on https://rusefi.com/forum/ Slack often comes handy for follow-up discussion. Slack registration http://rusefi.com/slack/ and login https://rusefi.slack.com/
+A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on [[https://rusefi.com/forum/](https://rusefi.com/forum/)](https://rusefi.com/forum/) Slack often comes handy for follow-up discussion. Slack registration [http://rusefi.com/slack/](http://rusefi.com/slack/) and login [https://rusefi.slack.com/](https://rusefi.slack.com/)
 
 ## Q: Do you guys prefer short text descriptions or long text descriptions?
 
@@ -42,7 +42,7 @@ A: Please use rusEFI Online to [share tunes](HOWTO-upload-tune)
 
 ### Q: Shall I take a photo of my screen?
 
-A: You can but that's a bit scary. There are a lot of much nicer options like Windows 10 Snip Tool or https://getsharex.com/ for Windows screen snapshots or screen recording.
+A: You can but that's a bit scary. There are a lot of much nicer options like Windows 10 Snip Tool or [ShareX](https://getsharex.com/) for Windows screen snapshots or screen recording.
 
 ### Q: Matt and Andrey are on Facebook, shall I message Matt or Andrey directly?
 
@@ -51,14 +51,14 @@ Same about forum private messages. Please use public channels to have a higher c
 
 Q: Is there an option for priority support?
 
-A: Commercial support is available https://www.ebay.com/itm/333612090037
+A: Commercial support is available [here](https://www.ebay.com/itm/333612090037)
 
 Q: How do I attach logs to my forum post? Looks like forum does not allow .msl files?
 
 A: in TunerStudio, please use "Help->Create TunerStudio Debug Package" button - this would combine your tune and your logs.
 Just make sure to remove the oldest unneeded logs from your DataLogs folder :) 
 
-https://www.gnu.org/licenses/gpl-3.0.html
+[https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
 
  Please collect the below information before requesting support in the forums. Also please include this each time you post about a problem. This can all be collected in a zip file, or done as individual files and attached to your forum support request. Please keep in mind that you are seeing this and you have allot of information which those of us in the forum do not have. Things that may seem simple to you may be complicated for those of us who have not physically seen what you have, or have not see the steps you have taken to get to the problem you are faced with.
 

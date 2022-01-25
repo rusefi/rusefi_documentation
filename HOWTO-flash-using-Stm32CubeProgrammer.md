@@ -1,6 +1,6 @@
 Stm32CubeProgrammer is the last most powerful option for DFU and ST-Link firmware update.
 
-https://www.st.com/en/development-tools/stm32cubeprog.html to download
+[https://www.st.com/en/development-tools/stm32cubeprog.html](https://www.st.com/en/development-tools/stm32cubeprog.html) to download
 
 Cube is simple to use, place device in dfu
 

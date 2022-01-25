@@ -9,7 +9,7 @@
 rusEFI has two probably working implementations for Bosch wideband oxygen control:
 
 * We have cj125 integration 
-* We like https://github.com/mck1117/wideband even more. See https://rusefi.com/forum/viewtopic.php?f=4&t=1856
+* We like [https://github.com/mck1117/wideband](https://github.com/mck1117/wideband) even more. See [the forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1856)
 
 # rusEFI wideband module
 
@@ -86,7 +86,7 @@ H- Heater control, low-side
 
 UN = Vs = sensor voltage output
 
-4.9 pinout courtesy of https://www.wbo2.com/cable/lsuconns.htm
+4.9 pinout courtesy of [https://www.wbo2.com/cable/lsuconns.htm](https://www.wbo2.com/cable/lsuconns.htm)
 
 ![x](FAQ/LSU-4-9-17025hcon.gif)
 

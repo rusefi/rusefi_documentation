@@ -3,7 +3,7 @@
 
 Q: where can I buy a Proteus?
 
-A: https://www.ebay.com/itm/333811680319
+A: [broken link](https://www.ebay.com/itm/333811680319)
 
 With fabrication files for Proteus you can get a 80% assembled unit from JLCPCB. QTY 2 price XXX, QTY 10 price YYY.
 While the most complicated main chip is soldered you would still solder a few dozens of surface mount components. 
@@ -11,9 +11,9 @@ While the most complicated main chip is soldered you would still solder a few do
 
 ![x](Hardware/Proteus/Hardware-Proteus-0.6-top.jpg)  
 
-Forum thread at: https://rusefi.com/forum/viewtopic.php?f=4&t=1646
+Forum thread [here](https://rusefi.com/forum/viewtopic.php?f=4&t=1646)
 
-Source & production files at: https://github.com/mck1117/proteus/
+Source & production files [here](https://github.com/mck1117/proteus/)
 
 [Fabrication](Hardware-Proteus-Fabrication)
 
@@ -36,7 +36,7 @@ Source & production files at: https://github.com/mck1117/proteus/
 
 [by Kon](https://github.com/ksmola/proteus-case) 
 
-We have a plastic CNCed case https://www.ebay.com/itm/333958050504 
+We have a plastic CNCed case [here](https://www.ebay.com/itm/333958050504) 
 
 McM 90417A118
 black oxide, #4 3/8" long screws recommended
@@ -52,30 +52,30 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 # Adapters DONE
 
-https://github.com/rusefi/proteus-Honda-K-125-adapter
+[Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Honda-K-125-adapter)
 
-https://github.com/rusefi/proteus-m73tu-adapter
+[Proteus M73TU Adapter](https://github.com/rusefi/proteus-m73tu-adapter)
 
-https://github.com/rusefi/proteus-Honda-OBD2A-adapter
+[Proteus Honda OBD2A Adapter](https://github.com/rusefi/proteus-Honda-OBD2A-adapter)
 
-https://github.com/rusefi/proteus-M54-adapter
+[Proteus M54 Adapter](https://github.com/rusefi/proteus-M54-adapter)
 
 # Adapters WIP
 
-https://github.com/rusefi/proteus-mitsubishi76-adapter
+[Proteus Mitsubishi 76 adapter](https://github.com/rusefi/proteus-mitsubishi76-adapter)
 
-https://github.com/rusefi/proteus-2004sti-adapter
+[Proteus 2004 STI Adapter](https://github.com/rusefi/proteus-2004sti-adapter)
 
-https://github.com/rusefi/proteus-Honda-OBD1-adapter/
+[Proteus Honda OBD1 Adapter](https://github.com/rusefi/proteus-Honda-OBD1-adapter/)
 
-https://github.com/rusefi/proteus-mustang5.0-60-pin
+[Proteus Mustang 5.0 60pin](https://github.com/rusefi/proteus-mustang5.0-60-pin)
 
-https://github.com/rusefi/proteus-N73-adapter/
+[Proteus N73 Adapter](https://github.com/rusefi/proteus-N73-adapter/)
 
-https://github.com/rusefi/proteus-80-pin-vag-adapter
+[Proteus 80pin VAG adapter](https://github.com/rusefi/proteus-80-pin-vag-adapter)
 
-https://github.com/rusefi/proteus-68-pin-vag-adapter
+[Proteus 68pin VAG adapter](https://github.com/rusefi/proteus-68-pin-vag-adapter)
 
 # Adapters maybe NOT
 
-https://github.com/rusefi/proteus-rx8-adapter
+[Proteus RX8 Adapter](https://github.com/rusefi/proteus-rx8-adapter)

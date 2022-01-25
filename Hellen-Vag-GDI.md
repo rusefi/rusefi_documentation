@@ -14,5 +14,5 @@ See also [Passat GDI Wiring](Passat-GDI-wiring)
 
 
 
-https://github.com/rusefi/hellen154vag-9.1
+[hellen154vag-9.1 board](https://github.com/rusefi/hellen154vag-9.1)
 

@@ -40,10 +40,10 @@ Licensed under the TAPR Open Hardware License (http://www.tapr.org/OHL).
 ## More...
 
 
-**See http://rusefi.com/forum/viewtopic.php?f=4&t=1215**
+**See [Prometheus - NEW compact ECU shield!](http://rusefi.com/forum/viewtopic.php?f=4&t=1215**)
 
 Project files:
-https://github.com/andreika-git/prometheus/
+[https://github.com/andreika-git/prometheus/](https://github.com/andreika-git/prometheus/)
 
 Interactive Map:
-https://rawgit.com/andreika-git/prometheus/master/html/prometheus-map.html
+[Prometheus Board Map](https://rawgit.com/andreika-git/prometheus/master/html/prometheus-map.html)

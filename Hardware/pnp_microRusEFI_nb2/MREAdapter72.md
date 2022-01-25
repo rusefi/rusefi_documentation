@@ -7,7 +7,7 @@ High-side jumper should be set for +12v.
 
 [Some versions of Miata may need a jumper set on the board, See detail here](PNP-72-Jumpers)
 
-https://rusefi.com/forum/viewtopic.php?t=1677
+[MREAdapter72 pnp Miata MX5 NB2](https://rusefi.com/forum/viewtopic.php?t=1677)
 
 [Mazda Miata 2002](Mazda-Miata-2002)
 
@@ -99,7 +99,7 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 | 3Z | GND | Sensor & USB ground | 
 
 The NB2 OEM connectors are notoriously hard to depin. The link below is for a very useful guide. 
-https://www.iwireservices.com/post/2018/08/02/how-to-pin-and-depin-a-subaru-connector
+[How to pin and depin a subaru connector](https://www.iwireservices.com/post/2018/08/02/how-to-pin-and-depin-a-subaru-connector)
 
 ![x](installations/MazdaMiataNB2_Frankenso/NB2_Miata_ECU_Connectors_Add-Ons.png)
 
@@ -140,7 +140,7 @@ https://www.iwireservices.com/post/2018/08/02/how-to-pin-and-depin-a-subaru-conn
 ![Hardware/pnp_microRusEFI_nb2/MREAdapter72_0_2_back.jpg]
 
 
-https://youtu.be/6IZcHCQl8yo
+[MREAdapter72 rusEfi Miata NB2 pnp standalone](https://youtu.be/6IZcHCQl8yo)
 
 
 

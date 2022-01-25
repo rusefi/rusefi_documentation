@@ -2,7 +2,7 @@
 
 [Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen-nb1.zip)
 
-https://github.com/rusefi/hellen-NB1-issues
+[https://github.com/rusefi/hellen-NB1-issues](https://github.com/rusefi/hellen-NB1-issues)
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-nb1/)
 

@@ -21,11 +21,11 @@ Blue/Red: 12v
 
 ![Wiring Diagram](Images/Rx8_connector.png)
 
-https://www.cantanko.com/rx-8/reverse-engineering-the-rx-8s-instrument-cluster-part-one/
+[Reverse Engineering the RX8s instrument cluster part one](https://www.cantanko.com/rx-8/reverse-engineering-the-rx-8s-instrument-cluster-part-one/)
 
 
 
-http://www.xsimulator.net/community/threads/driving-real-gauges.3278/
+[Driving Real Gauges](http://www.xsimulator.net/community/threads/driving-real-gauges.3278/)
 ```
 The CAN-bus id's in the case of the RX-8 (and likely Mazda6 / MX-5)
 

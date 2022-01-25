@@ -1,4 +1,4 @@
-http://www.neons.org/forumdodge/trans.htm
+[1995-2005 Neon T350/T350HD Transaxle Cross-Reference Guide](http://www.neons.org/forumdodge/trans.htm)
 
 Bosch 0280-155-976 injectors
 
@@ -7,7 +7,7 @@ Bosch 0280-155-976 injectors
 
 152 pin connector (x4 38 pin)
 
-http://rusefi.com/forum/viewtopic.php?f=3&t=696
+[2003 Dodge Neon](http://rusefi.com/forum/viewtopic.php?f=3&t=696)
 
 ## Plug 1
 38 pin

@@ -1,4 +1,4 @@
-TL,DR: please post knowledge on forum and report issues at https://github.com/rusefi/rusefi/issues
+TL,DR: please post knowledge on forum and report issues at [https://github.com/rusefi/rusefi/issues](https://github.com/rusefi/rusefi/issues)
 
 (do we have this somewhere already?)
 
