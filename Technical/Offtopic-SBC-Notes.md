@@ -56,7 +56,7 @@ ExecStartPre=/bin/echo "" >/tmp/random-seed
 
 [Orange Pi Zero GPIO Pins](https://kaspars.net/blog/orange-pi-zero-gpio)
 
-[Single Board Computers](https://rusefi.com/forum/viewtopic.php?p=37563#p37563)
+[Single Board Computers - Forum](https://rusefi.com/forum/viewtopic.php?p=37563#p37563)
 
 [NanoPi Duo2 Dimensions](http://wiki.friendlyarm.com/wiki/index.php/NanoPi_Duo2#Dimensional_Diagram)
 

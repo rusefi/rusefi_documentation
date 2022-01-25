@@ -25,10 +25,10 @@ After 9 months of very questionable hardware a silent co-founder from New Englan
 
 # 2012
 
-[First test mule Ford Aspire](https://rusefi.com/forum/viewtopic.php?t=375)
+[First test mule Ford Aspire - Forum](https://rusefi.com/forum/viewtopic.php?t=375)
 
 rusEFI has started out of the blue by Andrey. 
 
 # 2010
 
-Keith, Hoang and Josh has pulled me into 24 hours of Lemons. That's how I got into cars :) [24 hours of Lemons - Byte Marks Racing 89 Mercury Tracer](https://www.youtube.com/watch?v=nfwEQIIFBlU)
+Keith, Hoang and Josh has pulled me into 24 hours of Lemons. That's how I got into cars :) [24 hours of Lemons - Byte Marks Racing 89 Mercury Tracer - Video](https://www.youtube.com/watch?v=nfwEQIIFBlU)

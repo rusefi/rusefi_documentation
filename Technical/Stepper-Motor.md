@@ -10,8 +10,8 @@ We do not have our own add-on board for a4988, we use ones from eBay like "stepp
 
 ![Stepper Motor Driver](Images/stepper_motor_driver.jpg)
 
-[Stepper Motor Logic](http://rusefi.com/forum/viewtopic.php?f=5&t=767)
+[Stepper Motor Logic - Forum](http://rusefi.com/forum/viewtopic.php?f=5&t=767)
 
-[pinout](http://rusefi.com/forum/viewtopic.php?f=5&t=767&start=30#p17671)
+[pinout - Forum](http://rusefi.com/forum/viewtopic.php?f=5&t=767&start=30#p17671)
 
-See [Frankenso: prototyping area stepper board install](http://rusefi.com/forum/viewtopic.php?f=4&t=1161)
+See [Frankenso: prototyping area stepper board install - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=1161)

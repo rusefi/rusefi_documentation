@@ -18,7 +18,7 @@ While troubleshooting CLT and IAT, the two most useful commands are `analoginfo`
 
 ## Some datapoints
 
-[1996 Dodge RAM 1500 V8 Temp spreadsheet from FSM](http://rusefi.com/forum/viewtopic.php?f=3&t=864&start=60#p15344)
+[1996 Dodge RAM 1500 V8 Temp spreadsheet from FSM - Forum](http://rusefi.com/forum/viewtopic.php?f=3&t=864&start=60#p15344)
 
 ![IAT Thermistor settings](Images/IAT_screen.png)
 

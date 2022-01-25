@@ -1,6 +1,6 @@
 **red 2003 VVT test mule Miata NB2 #27**
 
-[red 2003 VVT test mule Miata NB2](https://rusefi.com/forum/viewtopic.php?f=3&t=1095)
+[red 2003 VVT test mule Miata NB2 - Forum](https://rusefi.com/forum/viewtopic.php?f=3&t=1095)
 
 [PCB front](installations/MazdaMiataNB2_Frankenso/2003_Miata_NB2_rusEFI27_20190413_front.jpg)
 [PCB back](installations/MazdaMiataNB2_Frankenso/2003_Miata_NB2_rusEFI27_20190413_back.jpg)

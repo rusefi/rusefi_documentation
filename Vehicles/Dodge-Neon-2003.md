@@ -7,7 +7,7 @@ Bosch 0280-155-976 injectors
 
 152 pin connector (x4 38 pin)
 
-[2003 Dodge Neon](http://rusefi.com/forum/viewtopic.php?f=3&t=696)
+[2003 Dodge Neon - Forum](http://rusefi.com/forum/viewtopic.php?f=3&t=696)
 
 ## Plug 1
 38 pin
