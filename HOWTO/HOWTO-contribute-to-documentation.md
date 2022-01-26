@@ -1,29 +1,23 @@
 
 #### How to contribute to https://github.com/rusefi/rusefi_documentation
 
-Step 0: Just a text edit? Text edits are possible directly via https://github.com/rusefi/rusefi/wiki/ 'Edit' button, no PR needed!
+1. From the wiki page you wish to edit on [https://wiki.rusefi.com](https://wiki.rusefi.com), click on the "Edit on GitHub" link in the upper right hand corner.
 
+2. Sign up or sign in to [Github](https://github.com) if you aren't already
 
-Step 1: Sign up or sign in to https://github.com
+3. If you have been given write access the the rusefi_documentation priority, you can commit changes directly. If not, clicking on "Propose Changes" will fork the repository and give you the option to create a pull request.
 
-Step 2: Open https://github.com/rusefi/rusefi_documentation and click 'Fork' - this would produce your own fork/copy of rusefi_documentation which you can now edit right in your browser!
-![editor](FAQ/github_online_editor.png)  
-
-Step 3: Edit your code and Commit changes using the button below the editor.
-
-Step 4: Once you are ready to contribute your changes, hit 'New pull request' button on the main page of your fork.
-
-This would produce a [Pull request like this](https://github.com/rusefi/rusefi_documentation/pull/3) in the official rusefi repository and your changes would probably soon become public!   
-https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/rusefi.input
-
+4. Click "Create Pull Request" and wait for your change to be reviewed.
 
 #### How to contribute to rusEFI TunerStudio project
 
+1. Sign up or sign in to [Github](https://github.com) if you aren't already
 
-Same as above, fork https://github.com/rusefi/rusefi and edit your local copy of
-https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/rusefi.input file
+2. Go to  [https://github.com/rusefi/rusefi](https://github.com/rusefi/rusefi) and click "Fork" near the upper right corner
 
-https://github.com/rusefi/rusefi/commit/9d9ae5a05499027b32ed76df3e7ee2e2e8240c31 is an example of how more help could be added
+3. Edit your fork of [the TunerStudio input](https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/rusefi.input) file
+
+[This commit](https://github.com/rusefi/rusefi/commit/9d9ae5a05499027b32ed76df3e7ee2e2e8240c31) is an example of how more help could be added
 right into TunerStudio project file. Lines with green background are the lines being added.
 
 Unfortunately while you would be modifying your mainController.ini file while trying your changes, you need to edit rusefi.input file which

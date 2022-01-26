@@ -1,22 +1,11 @@
-As of April, 2020 the strategy is to move from MediaWiki https://rusefi.com/wiki/ to
-https://github.com/rusefi/rusefi/wiki/
+As of January, 2022 the strategy is to move from [Github Wiki](https://github.com/rusefi/rusefi/wiki/) to
+(https://wiki.rusefi.com)[https://wiki.rusefi.com], while still maintaining backwards compatibility with the Github wiki.
 
-A full list of (Legacy) mediawiki pages is available at https://rusefi.com/wiki/index.php?title=Special:AllPages
-
-
-Arguments for github:
-1) Access control
-2) Better change review process
-3) Better history and version control management
 
 Arguments against github
-1) Weird workflow with two separate git repositories
-2) Weird inconsistency of markup language between two git repositories
-
-Arguments for mediawiki:
-1) ?
-
-
+1. [Not crawlable by search engines](https://github.com/isaacs/github/issues/1683)
+2. Weird workflow with two separate git repositories
+3. Weird inconsistency of markup language between two git repositories
 
 
 # Side note
