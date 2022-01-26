@@ -1,4 +1,6 @@
-# This page documents the current development status of rusEFI
+# Development Status
+
+This page documents the current development status of rusEFI
 
 The layout here is based on the rusEFI project layout as of 2020/05/31
 Links to the overall rusEFI project pages have been retained for ease of quick access to the relevant TS view. 

@@ -1,3 +1,5 @@
+# Lua Scripting
+
 # Basics
 
 A proper ECU has to offer users as much flexibility as possible, meaning a completely user-defined control strategy for both primary and auxiliary actuators. For many years rusEFI had FSIO to do just that.

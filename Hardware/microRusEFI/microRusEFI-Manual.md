@@ -1,3 +1,5 @@
+# microRusEFI Manual
+
 # Software
 
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
