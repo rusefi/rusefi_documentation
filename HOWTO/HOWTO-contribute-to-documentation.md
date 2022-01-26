@@ -48,6 +48,10 @@ This way we have the nice Pull Request process on https://github.com/rusefi/ruse
 merged into https://github.com/rusefi/rusefi_documentation, complete https://github.com/rusefi/rusefi_documentation is merged
 into https://github.com/rusefi/rusefi_documentation.wiki.git which makes actual content nicely visible at https://github.com/rusefi/rusefi_documentation/wiki 
 
+### How Page Titles Work
+
+If the first line with content is a top-level header, e.g. `# rusEFI Documentation`, that will be used as the page title.
+If not, the file name will be used as the page title, only without the hyphens.
 
 ### How URLs work
 
