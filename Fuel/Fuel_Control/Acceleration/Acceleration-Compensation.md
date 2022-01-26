@@ -1,4 +1,4 @@
-# Acceleration_Compensation
+# Acceleration Compensation
 
 See also [Fuel Overview](Fuel-Overview)
 

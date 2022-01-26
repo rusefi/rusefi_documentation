@@ -1,4 +1,5 @@
-# This page serves as a landing page for all miscellaneous PNP searches. 
+# PNP Board Disambiguation landing page
+ This page serves as a landing page for all miscellaneous PNP searches. 
 
 ## Miata NB2 PNP
 This is our 72 pin MRE board or a Proteus based version, the info on these boards can be found below:

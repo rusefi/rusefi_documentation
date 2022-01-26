@@ -1,3 +1,5 @@
+# microRusEFI Wiring
+
 # Connector Pinout
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)

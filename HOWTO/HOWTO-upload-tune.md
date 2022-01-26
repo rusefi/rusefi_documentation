@@ -1,4 +1,4 @@
-# HOWTO
+# HOWTO Upload a Tune
 
 We are only starting so some usability would be less than perfect in the beginning. Please stay tuned!
 
