@@ -10,7 +10,7 @@ Proteus 0.3-0.5 (STM32F4) [Release F4](https://github.com/rusefi/rusefi/releases
 
 Proteus black market (STM32H7) [Release H7](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_h7.zip) [Snapshot H7](https://rusefi.com/build_server/rusefi_bundle_proteus_h7.zip)
 
-
+Proteus Legacy 0.2 (STM32F7) [Release Legacy](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_legacy.zip) [Snapshot Legacy](https://rusefi.com/build_server/rusefi_bundle_proteus_legacy.zip) 
 
 ## Wiring & Pinout
 
