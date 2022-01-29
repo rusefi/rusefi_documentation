@@ -16,8 +16,11 @@ A: We control heater based on RPM, also WBO compensate for battery voltage based
 
 ## Pinout
 
+[connector info](https://rusefi.com/forum/viewtopic.php?p=43705#p43705)
 
 ![connector pinout image](https://imgur.com/LvCaQ1o.jpg)
+
+F042 module pinout
 
 | Pin Number | Function | Notes |
 |:---:|:---:| ---|
