@@ -60,6 +60,8 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 [Proteus M54 Adapter](https://github.com/rusefi/proteus-M54-adapter)
 
+[Proteus Ford](https://github.com/rusefi/proteus-mustang5.0-60-pin)
+
 # Adapters WIP
 
 [Proteus Mitsubishi 76 adapter](https://github.com/rusefi/proteus-mitsubishi76-adapter)
