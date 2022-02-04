@@ -52,7 +52,7 @@ M5.2 - E36/Z3 M44 and M62 and M73
 
 ## Auxiliary Pins
 * Dual channel H-bridge footprint
-* Dual channel PPS and TPS sensors add-on connector. We are hinting at M52 swaps into E30.
+* Dual channel PPS and TPS sensors add-on connector. We are hinting at M52 swaps into E36. See J20 and J21 for sensor hookup.
 * GPIO pins XXX: 
 
 ## Spare Parts
