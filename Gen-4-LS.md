@@ -6,3 +6,15 @@ x+y+z E67 ECM used 2007+ envoy, trailblazer, saab 97x, rainier, impala ss, and o
 
 https://www.lt1swap.com/pcm_identification.htm
 
+
+# 2007 Tahoe 5.3
+
+![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-1.png)
+
+![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-2.png)
+
+![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-3.png)
+
+![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-4.png)
+
+![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-5.png)
