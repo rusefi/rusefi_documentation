@@ -1,6 +1,6 @@
 # How to build the rusEFI firmware from the source files  
 
-### The following process is a step-by-step guide to creating the build environment in windows 10 and Linux  
+### The following process is a step-by-step guide to creating the build environment in windows 10+ and Linux  
 
 The best way to build the rusEFI firmware is using a set of tools that run best under linux, 
 
