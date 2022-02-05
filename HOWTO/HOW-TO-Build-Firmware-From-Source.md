@@ -74,3 +74,7 @@ sudo apt update
 sudo apt install openjdk-8-jre-headless -y  
 curl -O https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2  
 tar -xf gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2  
+
+
+### Without WSL
+Less fancy toolchain without WSL works as well https://rusefi.com/forum/viewtopic.php?f=5&t=9
