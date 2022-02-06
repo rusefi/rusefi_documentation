@@ -9,6 +9,7 @@ mx123 molex
 73 pin grey
 31387-2002
 
+https://github.com/rusefi/proteus-gm-e67
 
 73+80   e38 ECM, used 07-14 trucks/suv
 
