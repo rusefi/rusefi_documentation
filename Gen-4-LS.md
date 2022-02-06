@@ -2,6 +2,8 @@
 
 https://www.maxxecu.com/webhelp/wirings-pluginecu-chevrolet_corvette_c6_e38_ecm.html
 
+https://lt1swap.com/E38%20ECM%20Connector%20Pinouts.htm
+
 x+y+z E67 ECM used 2007+ envoy, trailblazer, saab 97x, rainier, impala ss, and others
 
 https://www.lt1swap.com/pcm_identification.htm
