@@ -1,3 +1,5 @@
+mx123 molex
+
 73+80   e38 ECM, used 07-14 trucks/suv
 
 https://www.maxxecu.com/webhelp/wirings-pluginecu-chevrolet_corvette_c6_e38_ecm.html
