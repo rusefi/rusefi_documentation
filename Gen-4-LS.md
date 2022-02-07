@@ -35,7 +35,9 @@ If I had to make an educated guess, GM used the E67 for their GMPP (GM Performan
 
 [LS9 crate](OEM-Docs/GM/ls9-crate-engine-control-system-19354338.pdf)
 
-[e67 2008 XLR V STS 4.4 NA ECU.pdf}(OEM-Docs/GM/e67-2008-XLR-V-STS-4.4-NA-ECU.pdf)
+[e67 2008 XLR V STS 4.4 NA ECU.pdf](OEM-Docs/GM/e67-2008-XLR-V-STS-4.4-NA-ECU.pdf)
+
+[e67-2008-XLR-V-STS-4.6-NA-ECU.pdf](OEM-Docs/GM/e67-2008-XLR-V-STS-4.6-NA-ECU.pdf)
 
 [e67-2013-CTS-6.2-Supercharged-ECU-LSA-ENGINE.pdf](OEM-Docs/GM/e67-2013-CTS-6.2-Supercharged-ECU-LSA-ENGINE.pdf)
 
