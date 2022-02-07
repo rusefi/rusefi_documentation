@@ -21,6 +21,8 @@ x+y+z E67 ECM used 2007+ envoy, trailblazer, saab 97x, rainier, impala ss, and o
 
 https://www.lt1swap.com/pcm_identification.htm
 
+[LS9 crate](OEM-Docs/GM/ls9-crate-engine-control-system-19354338.pdf)
+
 
 E38 and E67 are very comparable in terms of processor speed, OS design, etc.
 
