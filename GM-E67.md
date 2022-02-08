@@ -14,6 +14,23 @@ mx123 molex. 56 pin blue 31386-2020. 73 pin black 31387-2014. 73 pin grey 31387-
 [OEM-Docs/GM/e67-TBSS.Charging.pdf](OEM-Docs/GM/e67-TBSS.Charging.pdf)
 
 # Vehicles
+
+[LS9 crate](OEM-Docs/GM/ls9-crate-engine-control-system-19354338.pdf)
+
+
+[2007-Impala-5.3](OEM-Docs/GM/e67-2007-Impala-5.3-ECU.pdf)
+
+[2008 XLR V STS 4.4 NA ECU.pdf](OEM-Docs/GM/e67-2008-XLR-V-STS-4.4-NA-ECU.pdf)
+
+[2008-XLR-V-STS-4.6-NA-ECU.pdf](OEM-Docs/GM/e67-2008-XLR-V-STS-4.6-NA-ECU.pdf)
+
+[2009-Corvette-LS9-SC-ECU.pdf](OEM-Docs/GM/e67-2009-Corvette-LS9-SC-ECU.pdf)
+
+[2011-Colorado-5.3-GM-OEM-ECU.pdf](OEM-Docs/GM/e67-2011-Colorado-5.3-GM-OEM-ECU.pdf)
+
+[2013-CTS-6.2-Supercharged-ECU-LSA-ENGINE.pdf](OEM-Docs/GM/e67-2013-CTS-6.2-Supercharged-ECU-LSA-ENGINE.pdf)
+
+
 Gen IV V8, V6, L4 E67 ECM – Stream E67
 ```
 V8 Cars
