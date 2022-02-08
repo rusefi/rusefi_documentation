@@ -5,6 +5,14 @@ https://github.com/rusefi/proteus-gm-e67
 mx123 molex. 56 pin blue 31386-2020. 73 pin black 31387-2014. 73 pin grey 31387-2002
 
 
+# Alternator
+
+[OEM-Docs/GM/e67-CTSV.Charging.pdf](OEM-Docs/GM/e67-CTSV.Charging.pdf)
+
+[OEM-Docs/GM/e67-CTSV-GeneratorControl.pdf](OEM-Docs/GM/e67-CTSV-GeneratorControl.pdf)
+
+[OEM-Docs/GM/e67-TBSS.Charging.pdf](OEM-Docs/GM/e67-TBSS.Charging.pdf)
+
 # Vehicles
 Gen IV V8, V6, L4 E67 ECM – Stream E67
 ```
