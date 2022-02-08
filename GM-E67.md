@@ -1,3 +1,5 @@
+https://github.com/rusefi/proteus-gm-e67
+
 ![x](OEM-Docs/GM/e67-oem.png)
 
 mx123 molex. 56 pin blue 31386-2020. 73 pin black 31387-2014. 73 pin grey 31387-2002
