@@ -1,15 +1,4 @@
-mx123 molex
-
-56 pin blue 
-31386-2020
-
-73 pin black
-31387-2014
-
-73 pin grey
-31387-2002
-
-https://github.com/rusefi/proteus-gm-e67
+https://github.com/rusefi/rusefi/wiki/GM-E67
 
 73+80   e38 ECM, used 07-14 trucks/suv
 
@@ -32,19 +21,7 @@ If I had to make an educated guess, GM used the E67 for their GMPP (GM Performan
 
 
 # e67
-
-[LS9 crate](OEM-Docs/GM/ls9-crate-engine-control-system-19354338.pdf)
-
-
-[e67 2007-Impala-5.3](OEM-Docs/GM/e67-2007-Impala-5.3-ECU.pdf)
-
-[e67 2008 XLR V STS 4.4 NA ECU.pdf](OEM-Docs/GM/e67-2008-XLR-V-STS-4.4-NA-ECU.pdf)
-
-[e67-2008-XLR-V-STS-4.6-NA-ECU.pdf](OEM-Docs/GM/e67-2008-XLR-V-STS-4.6-NA-ECU.pdf)
-
-[e67-2013-CTS-6.2-Supercharged-ECU-LSA-ENGINE.pdf](OEM-Docs/GM/e67-2013-CTS-6.2-Supercharged-ECU-LSA-ENGINE.pdf)
-
-
+https://github.com/rusefi/rusefi/wiki/GM-E67
 
 
 # e38 2007 Tahoe 5.3
