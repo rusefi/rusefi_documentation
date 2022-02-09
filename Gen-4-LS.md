@@ -1,3 +1,5 @@
+https://github.com/rusefi/rusefi/wiki/GM-E38
+
 https://github.com/rusefi/rusefi/wiki/GM-E67
 
 73+80   e38 ECM, used 07-14 trucks/suv
