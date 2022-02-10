@@ -51,11 +51,15 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 # Wiring
 
-10A Power GND, 12V_MR
+20A Power GND
 
-5A ETB, 12V_IGN
+10A 12V_MR
+
+5A ETB
 
 2A Low side, High side
+
+0.5A 12V_IGN
 
 
 # Adapters DONE
