@@ -49,6 +49,12 @@ Most boards will need a debug header installed if you want to attach a debugger 
 
 Any debugger compatible with the standard 10-pin Cortex Debug Header should work, though the [STLINK-V3 Mini](https://www.st.com/en/development-tools/stlink-v3mini.html) is recommmended.  It's available for $10-12 US from normal distributors like Mouser/Digikey.  A ribbon cable is included so the connector and programmer are all that's required to debug on Proteus.
 
+# Wiring
+
+10A Power GND, 12V_MR
+5A ETB
+2A Low side, High side
+
 
 # Adapters DONE
 
@@ -62,15 +68,13 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 [Proteus Ford](https://github.com/rusefi/proteus-mustang5.0-60-pin)
 
-# Adapters WIP
-
 [Proteus Mitsubishi 76 adapter](https://github.com/rusefi/proteus-mitsubishi76-adapter)
+
+# Adapters WIP
 
 [Proteus 2004 STI Adapter](https://github.com/rusefi/proteus-2004sti-adapter)
 
 [Proteus Honda OBD1 Adapter](https://github.com/rusefi/proteus-Honda-OBD1-adapter/)
-
-[Proteus Mustang 5.0 60pin](https://github.com/rusefi/proteus-mustang5.0-60-pin)
 
 [Proteus N73 Adapter](https://github.com/rusefi/proteus-N73-adapter/)
 
