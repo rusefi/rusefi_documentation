@@ -1,3 +1,0 @@
-
-
-[Wiring Diagrams](Harley-Davidson)
