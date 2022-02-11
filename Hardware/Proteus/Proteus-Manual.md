@@ -14,7 +14,7 @@ Proteus Legacy 0.2 (STM32F7) [Release Legacy](https://github.com/rusefi/rusefi/r
 
 ## Wiring & Pinout
 
-[Pinout for version 0.3, 0.4, 0.5 and 0.6 (green or blue)](Hardware-Proteus-Wiring-v03)
+[Pinout for version 0.3, 0.4, 0.5 and 0.6 (green or blue)](https://rusefi.com/docs/pinouts/proteus/)
 
 [Pinout for version 0.2 (black)](Hardware-Proteus-Wiring-v02)
 
