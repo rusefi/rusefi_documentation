@@ -1,6 +1,6 @@
 STM32F407 firmware
 ```
-git clone --recurse-submodules [https://github.com/rusefi/rusefi](https://github.com/rusefi/rusefi)
+git clone --recurse-submodules https://github.com/rusefi/rusefi
 cd firmware
 make
 ```
