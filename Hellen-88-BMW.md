@@ -51,7 +51,7 @@ M5.2 - E36/Z3 M44 and M62 and M73
 
 
 ## Auxiliary Pins
-* Dual channel H-bridge footprint
+* DC Motor for drive-by-wire or DC motor wastegate see J19
 * Dual channel PPS and TPS sensors add-on connector. We are hinting at M52 swaps into E36. See J20 and J21 for sensor hookup.
 * GPIO pins XXX: 
 
