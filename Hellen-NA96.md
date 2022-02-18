@@ -10,7 +10,7 @@
 
 [Mazda-Miata-1997](Mazda-Miata-1997)
 
-[ibom rev a](https://rusefi.com/docs/ibom/hellen64_NA8_96-a-a-ibom.html)
+[ibom rev a](https://rusefi.com/docs/ibom/hellen64_NA8_96-a-ibom.html)
 
 [neomiata 1997 Wiring Diagram](http://neomiata.com/garage/Wiring%20Diagrams/Wiring%20Diagrams%201997-2000/1997_Miata%20System%20Wiring%20Diagrams.pdf)
 
