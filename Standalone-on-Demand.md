@@ -19,7 +19,7 @@ Powered by [Hellen One Platform](Hellen-One-Platform)
 
 For list of Hellen boards available for sale already see [Hellen-One-Platform](Hellen-One-Platform)
 
-# Plug and Play
+# Plug In, not Plug and Play
 
 * Uses OEM header (new if available, used otherwise)
 * Goes into OEM case
@@ -27,7 +27,7 @@ For list of Hellen boards available for sale already see [Hellen-One-Platform](H
 * Tuning NOT included
 * K-line NOT supported
 * Vehicle integration research NOT included
-* TL,DR: this is a _blank_ PnP _board_ not a "Hook it up and drive to the race track" deal. Please do your research!
+* TL,DR: this is a _blank_ plug-in _board_ not a "Hook it up and drive to the race track" deal. While we can produce a great ECU, only someone with a test vehicle can make the base tune. Please do your research!
 
 # What next?
 
