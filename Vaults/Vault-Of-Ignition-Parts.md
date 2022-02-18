@@ -7,7 +7,7 @@
 * LSx ignition coils - Considered the cheap goto for US users. Can be purchased cheaply from junkyards and Ebay.
 
 ### Dumb coils
-* BMW M50 coils - Tested and working with VW ignition module
+* BMW M50 coils - Tested and working with 4D0905351 ignition module
 
 ![x](OEM-Docs/Bmw/bmw_dumb_coil.png)
 
@@ -18,6 +18,8 @@ Pin #2 "4a" Body GND
 Pin #3 "Negative" from igniter
 
 * OEM B-series Honda Single coil for distributor used with the OEM ignition module, 3-4ms dwell
+
+* Ford V6 wasted spark coil - PN _Unknown_ - Used sucessfully at about 4-5ms dwell in conjunction with the 4D0905351 ignition module  
 
 ---
 
