@@ -1,4 +1,4 @@
-See [Hardware-Proteus-Wiring-v03](Hardware-Proteus-Wiring-v03)
+See [https://rusefi.com/docs/pinouts/proteus/](https://rusefi.com/docs/pinouts/proteus/)
 
 Most differences between 0.3 and 0.4:
 - knock input works
