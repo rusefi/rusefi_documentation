@@ -4,7 +4,7 @@
 - Not sure what board you have? Your probably have NEWER board and you are looking at the wrong page
 ```
 
-## _NOTE: this pinout only applies to boards v0.2 and older (probably black).  [If you have v0.3 or newer (green), then use the pinout found here!](Hardware-Proteus-Wiring-v03)_
+## _NOTE: this pinout only applies to boards v0.2 and older (probably black).  [Interactive Pinout 0.3, 0.4, 0.5 and 0.6](https://rusefi.com/docs/pinouts/proteus/)_
 
 ## Black 35 Pin 776231-1 Right
 
