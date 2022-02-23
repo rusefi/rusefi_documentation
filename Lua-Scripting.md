@@ -381,6 +381,17 @@ function decimalToHex(num)
 	return result
 end
 
+
+
+function print_array(arr)
+	local str = ""
+	local index = 1
+	while arr[index] ~= nil do
+		str = str.." "..decimalToHex(arr[index])
+		index = index + 1
+	end
+	return str
+end
 ```
 
 # table
