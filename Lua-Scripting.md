@@ -365,6 +365,24 @@ end
 ```
 
 
+```
+function decimalToHex(num)
+	if num == 0 then
+		return '0'
+	end
+
+	local hexstr = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F" }
+	local result = ""
+	while num > 0 do
+		local n = num % 16
+		result = hexstr[n + 1] ..result
+		num = math.floor(num / 16)
+	end
+	return result
+end
+
+```
+
 # table
 ```
 tableIndex = findTableIndex("duty")
