@@ -471,6 +471,16 @@ OBD2A
 
 [Vault-Of-Honda-OEM](Vault-Of-Honda-OEM)
 
+## 105 pin
+
+31+24+gap+28+22
+
+3-353016-1
+
+subaru 6 cylinder BE/BH
+
+a subset of 122 pin connector
+
 ## 108 pin
 [TE 1318613-1](https://www.te.com/usa-en/product-1318613-1.html)
 
@@ -555,6 +565,8 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 31+24+17+28+22
 
 Mazda RX-8
+
+see also 105 pin variation
 
 maybe the most common Aristo 2JZ ECU connector?
 1999 TOYOTA CAMRY 3.0L V6
