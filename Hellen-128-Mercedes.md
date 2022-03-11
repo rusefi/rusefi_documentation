@@ -157,6 +157,7 @@ Hellen 128 was originally designed for M111 swaps into W201. Depending on the ye
 
 ## rev C
 * wastegate diode
+* USB type B
 
 ![x](Hardware/Hellen/hellen128mercedes-rev-c.jpg)
 
