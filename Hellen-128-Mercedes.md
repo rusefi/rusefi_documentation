@@ -158,6 +158,8 @@ Hellen 128 was originally designed for M111 swaps into W201. Depending on the ye
 ## rev C
 * wastegate diode
 
+![x](Hardware/Hellen/hellen128mercedes-rev-c.jpg)
+
 ## rev B Aug 27, 2021
 
 * better provisions for high-current control of supercharger [clutch solenoid on M111 Q6 R80](https://github.com/rusefi/hellen128merc-issues/issues/10)
