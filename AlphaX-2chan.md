@@ -13,3 +13,7 @@ On-board MPXH6400A
 ![x](Hardware/Hellen/alphax-2chan-rev-a.jpg)
 
 [See also AlphaX-4chan](AlphaX-4chan)
+
+rev B:
+
+* BT fixed
