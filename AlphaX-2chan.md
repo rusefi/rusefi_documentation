@@ -2,7 +2,7 @@
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-2chan/)
 
-[iBom](https://rusefi.com/docs/ibom/alphax_2ch-a-ibom.html)
+[iBom rev B](https://rusefi.com/docs/ibom/alphax_2ch-b-ibom.html)
 
 [Issue tracker & hardware files](https://github.com/rusefi/alphax-2chan)
 
