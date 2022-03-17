@@ -105,11 +105,28 @@ With SOIC-24 rusEFI module W1=W10=Do not populate means LSU 4.9
 A: VM wire between CJ125 and sensor is virtual ground, should measure 2.5v when sensor is connected and when sensor is disconnected.
 
 
-### Q: any part numbers?
 
-A:
-MCP15K.SWS-SKT1	.2-.35 mm2 (24-22 AWG)	Tin	1564324-1	1564325-1
--	Gold	1564324-2	1564325-2
-MCP15K.SWS-SKT2	.5-1.0 mm2 (20-18 AWG)	Tin	1241380-1	1241381-1
-MCP15K.SWS-SKT2-AU	Gold	1241380-2	1241381-2
-MCP15K.SWS-SKT3	1.0-1.5 mm2 (16 AWG)	Tin	1418884-1	1418885-1
+
+# Part Numbers
+
+### Connector Shells
+
+| Connector        | Part Number |
+| :--------------: | :---------: |
+| Female (harness) | 1928404669  |
+| Male (sensor)    | 1928405111  |
+
+Male connector is only needed when building extension harnesses. The connector on the sensor contains a laser-trimmed calibration resistor and should not be removed.
+
+### Female Terminals for Harness Side
+
+| Wire Size | Plating | Strip       | Loose       |
+| :-------: | :-----: | :---------: | :---------: |
+| 24-22 AWG | Tin     | 1564324-1   | 1564325-1   |
+| 24-22 AWG | Gold    | 1564324-2   | 1564325-2   |
+| 20-18 AWG | Tin     | 1241380-1   | 1241381-1   |
+| 20-18 AWG | Gold    | 1241380-2   | 1241381-2   |
+| 16 AWG    | Tin     | 1418884-1   | 1418885-1   |
+| 16 AWG    | Gold    | unavailable | unavailable |
+
+Part numbers provided by and available for purchase at corsa-technic.com individually or as a kit. https://www.corsa-technic.com/item.php?item_id=1296
