@@ -100,12 +100,12 @@ With SOIC-24 rusEFI module W1=W10=0R means LSU 4.2
 
 With SOIC-24 rusEFI module W1=W10=Do not populate means LSU 4.9
 
-Q: Any troubleshooting hints when things do not work?
+### Q: Any troubleshooting hints when things do not work?
 
 A: VM wire between CJ125 and sensor is virtual ground, should measure 2.5v when sensor is connected and when sensor is disconnected.
 
 
-Q: any part numbers?
+### Q: any part numbers?
 
 A:
 MCP15K.SWS-SKT1	.2-.35 mm2 (24-22 AWG)	Tin	1564324-1	1564325-1
