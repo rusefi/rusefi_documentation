@@ -186,6 +186,14 @@ Chrysler NGC 6 cylinder
 
 ![Dodge Stratus](Images/triggers/trigger_22.png)
 
+## Mitsubishi
+
+36-2-1-1
+![x](Images/triggers/trigger_TT_36_2_1_1.png)
+
+3A92 VVT
+![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_3A92.png)
+
 ## Nissan
 
 VQ35
