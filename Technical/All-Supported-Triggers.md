@@ -192,7 +192,7 @@ Chrysler NGC 6 cylinder
 ![x](Images/triggers/trigger_TT_36_2_1_1.png)
 
 3A92 VVT
-![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_3A92)
+![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_3A92.png)
 
 ## Nissan
 
