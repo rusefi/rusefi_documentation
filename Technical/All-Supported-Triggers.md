@@ -15,6 +15,8 @@ To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
 [Subaru](#subaru)
 
+[Mitsubishi](#Mitsubishi)
+
 [Jeep & Renix](#jeep)
 
 [Miscelanious](#misc)
