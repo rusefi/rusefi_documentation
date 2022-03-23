@@ -236,6 +236,10 @@ See also [Universal True 60/2](All-Supported-Triggers#602)
 
 ![Toyota 2JZ 1/12](Images/triggers/trigger_29.png)
 
+VVT 4-1
+
+![x](Images/triggers/trigger_TT_VVT_TOYOTA_4_1.png)
+
 ## TriTach
 
 Some older German vehicles
