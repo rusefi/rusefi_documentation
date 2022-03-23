@@ -13,6 +13,8 @@ To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
 [Nissan](#nissan)
 
+[Toyota](#toyota)
+
 [Subaru](#subaru)
 
 [Mitsubishi](#Mitsubishi)
@@ -225,6 +227,9 @@ VW special understanding of 60/2 with a wide tooth instead of of just missing to
 See also [Universal True 60/2](All-Supported-Triggers#602)
 
 ![VW 60/2](Images/triggers/trigger_20.png)
+
+
+### Toyota
 
 ## Toyota 2JZ
 
