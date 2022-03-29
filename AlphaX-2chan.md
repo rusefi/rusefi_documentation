@@ -14,6 +14,12 @@ On-board MPXH6400A
 
 [See also AlphaX-4chan](AlphaX-4chan)
 
+
+
+
 rev B:
 
 * BT fixed
+``
+bluetooth_jdy 115200 alphax 1234
+``
