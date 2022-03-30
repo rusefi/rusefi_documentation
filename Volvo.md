@@ -15,4 +15,4 @@ https://github.com/rusefi/proteus-volvo
 
 # Pinout
 
-[OEM-Docs/Volvo/2001-S80-Pinout-2.9.pdf](OEM-Docs/Volvo/2001-S80-Pinout-2.9.pdf)
+[OEM-Docs/Volvo/2001-S80-2.9-AllData.pdf](OEM-Docs/Volvo/2001-S80-2.9-AllData.pdf)
