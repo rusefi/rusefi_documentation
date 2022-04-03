@@ -1,4 +1,4 @@
-```
+```diff
 -While MREAdapter72 is still functional and supported there are very few of those in the wild
 ```
 
