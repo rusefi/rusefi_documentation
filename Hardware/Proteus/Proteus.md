@@ -78,13 +78,13 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 # Adapters WIP
 
+[Proteus 80pin VAG adapter](https://github.com/rusefi/proteus-80-pin-vag-adapter)
+
 [Proteus 2004 STI Adapter](https://github.com/rusefi/proteus-2004sti-adapter)
 
 [Proteus Honda OBD1 Adapter](https://github.com/rusefi/proteus-Honda-OBD1-adapter/)
 
 [Proteus N73 Adapter](https://github.com/rusefi/proteus-N73-adapter/)
-
-[Proteus 80pin VAG adapter](https://github.com/rusefi/proteus-80-pin-vag-adapter)
 
 [Proteus 68pin VAG adapter](https://github.com/rusefi/proteus-68-pin-vag-adapter)
 
