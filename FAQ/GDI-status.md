@@ -21,6 +21,10 @@ Gasoline Direct Injection requires a few additional components on top of port in
 ![x](OEM-Docs/NXP/WBNR_FTF12_AUT_F0098.pdf_page72.png)
 
 
+See also [BMW injector driver](https://rusefi.com/forum/viewtopic.php?f=4&t=1564)
+
+See also [rusEFI injector driver](https://github.com/rusefi/rusefi-hardware/tree/main/GDI-4ch)
+
 TODO: try INJECTOR DRIVE MODULE IDM-2
 2013 13 HYUNDAI GENESIS 
 39175-3C000
