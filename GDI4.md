@@ -4,6 +4,11 @@
 
 [Hardware & Firmware](https://github.com/rusefi/rusefi-hardware/tree/main/GDI-4ch/)
 
+* 4 GDI injectors with peak-hold control using NXP PT2001 chip
+* Aux analog inputs
+* CAN connectivity
+
+
 ![x](Hardware/GDI/rusefi-gdi4-rev-a.jpg)
 
 
