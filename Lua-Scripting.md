@@ -53,6 +53,10 @@ See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/gener
 
 ### `setBrakePedalState(value)`
 
+### ``setAcDisabled(value)``
+
+### ``getTimeSinceAcToggleMs``
+
 ### `getCalibration(name)`
 
 Gets current calibration value for specified scalar setting. For example ``getCalibration("cranking.rpm")``
