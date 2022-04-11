@@ -1,34 +1,3 @@
-### Getting Data to and from Tunerstudio
-
-Definition of configuration data structure:  
-integration/rusefi_config.txt  
-This file has more information in its comment header.
-
-Definition of the Tunerstudio configuration interface, gauges, and indicators
-tunerstudio/rusefi.input  
-
-Contains the enum with values to be output to Tunerstudio.
-console/binary/tunerstudio_outputs.h
-
-See the [documentation main page](https://rusefi.com/docs/html/#config) for more information and tips on how to use these files.
-
-Q: Do new fields need to be added at the end and their space taken out of mainUnusedEnd[]?  
-A: Look at the diff after generating config files (i.e. using `firmware/gen_config.sh`). If the diff is not crazy you are doing it right. If the diff touches too much stuff you are doing it wrong.
-In practice I have found this to mean that they should be added to the end.
-Usually the tradition is not to move other existing fields for no reason. Starting an array at an odd offset is also unusual.
-Let's work around existing fields without shifting them please.
-There may be unused padding variables spread throughout that can be replaced with your new variables, particularly of the 'bit' type, as we do bit packing for better communication efficiency. You will likely be able to find a few uint8_t or uint16_t padding fields to replace with your new variables as well. The tradition is to name them "unusedSomething", so you can find them by searching for "unused" in rusefi_config.txt.
-
-Check config/boards/kinetis/config/controllers/algo/engine_configuration_generated_structures.h after generating to ensure the total size is 20000
-
-Tunerstudio output channels are handled completely manually, as opposed to settings where offsets are managed automatically by the gen_config scripts.
-Adding channels to tunerstudio_outputs.h induces offsets which are kept track of in comments next to each channel.
-In the OutputChannels section of rusefi.input, these values are 3rd token in the configuration string.
-
-[Changing gauge limits](http://www.tunerstudio.com/index.php/manuals/63-changing-gauge-limits)
-
-in order to use CONFIG macro you need EXTERN_CONFIG and include engine_configuration.h
-
 ### GPIO
 
 [efiSetPadMode()](https://rusefi.com/docs/html/io__pins_8cpp.html#a4bd76c1e23f3126d720239707dbcbaaf)  
