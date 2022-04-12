@@ -18,7 +18,14 @@ On-board MPXH6400A
 [See also AlphaX-4chan](AlphaX-4chan)
 
 
+## Q: how many injectors per channel?
 
+A: VND14NV04TR-E
+
+
+
+rev C:
+* pull-down fixed
 
 rev B:
 
