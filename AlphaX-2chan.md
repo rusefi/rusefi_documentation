@@ -20,7 +20,7 @@ On-board MPXH6400A
 
 ## Q: how many injectors per channel?
 
-A: VND14NV04TR-E
+A: VND14NV04TR-E 93mJ 18A
 
 
 
