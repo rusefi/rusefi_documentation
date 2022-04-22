@@ -22,6 +22,7 @@ Acquaint yourself with them to avoid re-inventing them.
 efitick_t is cheaper than efitimems_t.  
 getTimeNowNt() will get you the current time in units of efitick_t.  
 MS2NT(...) will convert from milliseconds to efitick_t.
+US2MS(NT2US()) will convert in the other direction.
 
 For logging, use [scheduleMsg()](https://rusefi.com/docs/html/loggingcentral_8h.html#a0da1724993b78c84530d681d254b59a2)  
 sharedLogger is a generally available logger object, which is passed (by reference) to scheduleMsg.
