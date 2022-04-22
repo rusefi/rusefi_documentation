@@ -2,7 +2,9 @@
 
 [pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
 
-[Schematics rev b]](Hardware/Hellen/hellen154hyundai-b-schematic.pdf)[[ibom rev b](https://rusefi.com/docs/ibom/hellen154hyundai-b-ibom.html)
+[[Schematics rev b]](Hardware/Hellen/hellen154hyundai-b-schematic.pdf)[[ibom rev b]](https://rusefi.com/docs/ibom/hellen154hyundai-b-ibom.html)
+
+[fw snapshot](https://rusefi.com/build_server/rusefi_bundle_hellen154hyundai.zip)
 
 [Hyundai Genesis Coupe - Wikipedia](https://en.wikipedia.org/wiki/Hyundai_Genesis_Coupe)
 
