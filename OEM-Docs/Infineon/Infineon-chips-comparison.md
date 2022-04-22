@@ -14,7 +14,8 @@
 | TLE8110ED      | 2018     |       6+4     | n/a  |   |
 | L9779WD | 2015 | out6,7 5A | | |
 | TLE8888QK      | 2014-2017     | 7+7           | n/a  | [Used on M86](http://chiptuner.ru/content/ctpro_m86/)  |
-| TLE8088      |      |            |   |   |
+| TLE8082      |      |      4      |   |   |
+| TLE8088      |  2021    |  2          |   |   |
 | mc33810 MCZ33810      |      |            |   |   |
 |  TLE8209     |      |            |   |  H-Bridge |
 |       |      |            |   |   |
