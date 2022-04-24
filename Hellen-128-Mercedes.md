@@ -151,7 +151,9 @@ Hellen 128 was originally designed for M111 swaps into W201. Depending on the ye
 
 * And obviously your engine harness should use <a href="Images/mercedes-128.png">this ME 2.0 style of plug</a> not <a href="Images/mercedes-134.png">this 134 pin style of plug</a>.
 
+## Transmission Control
 
+As of April 2022 we know nothing about m111 automatic transmission control. All successful swaps so far were using manual gearboxes.
 
 # Changelog
 
