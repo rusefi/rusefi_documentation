@@ -12,3 +12,4 @@
 * CAN
 * ETB
 * one channel knock input
+* Bluetooth
