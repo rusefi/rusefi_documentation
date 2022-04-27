@@ -2,7 +2,7 @@
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-4chan/)
 
-[iBom rev A](https://rusefi.com/docs/ibom/alphax_4ch-a-ibom.html)
+[iBom rev A](https://rusefi.com/docs/ibom/alphax_4ch-a-ibom.html) [iBom rev B](https://rusefi.com/docs/ibom/alphax_4ch-b-ibom.html)
 
 [Issue tracker & hardware files](https://github.com/rusefi/alphax-4chan)
 
@@ -15,3 +15,13 @@
 * ETB
 * one channel knock input
 * Bluetooth
+
+
+
+## Changelog
+
+rev B:
+ - one channel knock input added
+
+rev A:
+ - it works! https://youtu.be/egtDQsMDQqs
