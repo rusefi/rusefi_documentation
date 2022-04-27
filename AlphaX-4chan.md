@@ -17,6 +17,8 @@
 * Bluetooth
 
 
+![x](https://rusefi.com/forum/download/file.php?id=9345)
+
 
 ## Changelog
 
