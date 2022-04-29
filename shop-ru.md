@@ -1,6 +1,8 @@
 [https://rusefi.com/shop/](https://rusefi.com/shop/)
 
-У нас есть собранные microRusEFI в Питере.
+У нас есть собранные microRusEFI в Питере. https://rusefi.com/index.html#microrusefi
+
+Скоро будет Proteus по 35000 рублей (420 долларов) https://rusefi.com/index.html#proteus
 
 Собранный microRusEFI 18370.00 рублей (потому что 220 USD) - в этом варинте заказчик сам идёт отрезать проводку от Лады или Ниссана
 
@@ -13,8 +15,6 @@
 Собранный microRusEFI + новый хвост проводки 22545.00 рублей (потому что 270 USD)
 
 ![](Hardware/microRusEFI/store/mre_assembled_pigtail.jpg)
-
-Скоро будет Proteus по 35000 рублей (420 долларов)
 
 
 Оплата на карту 4627291471315556
