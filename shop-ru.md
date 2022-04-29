@@ -1,4 +1,4 @@
-Тут у нас русская версия [https://rusefi.com/shop/](https://shop.rusefi.com/) - Авито по плану в мае 2022
+Тут у нас русская версия [https://shop.rusefi.com/](https://shop.rusefi.com/) - Авито по плану в мае 2022
 
 У нас есть собранные microRusEFI в Питере. https://rusefi.com/index.html#microrusefi
 
