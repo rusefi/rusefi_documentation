@@ -63,3 +63,11 @@ todo Matt
 
 [Drift Championship - Video](https://www.youtube.com/watch?v=y4h5dAlh6tE)
 
+
+# v8
+
+https://www.youtube.com/watch?v=Xu1WibAQU_s
+
+# v12
+
+https://www.youtube.com/watch?v=DkhOHbRG_j4
