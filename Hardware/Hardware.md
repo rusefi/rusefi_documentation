@@ -42,7 +42,7 @@ If you proceed then please consider making a P&P adapter board design based on H
 
 ### Q: What EDA are you guys using for your open source hardware?
 
-A: rusEFI preference at the moment is KiCad 5. A few legacy pieces are still using KiCad 4. While many EDAs have many cool features KiCad gives rusEFI uniformity and consistency.
+A: rusEFI preference at the moment is KiCad 6. A few legacy pieces are still using KiCad 4 and 5. While many EDAs have many cool features KiCad gives rusEFI uniformity and consistency.
 
 See also [https://github.com/rusefi/rusefi/tree/master/hardware](https://github.com/rusefi/rusefi/tree/master/hardware)
 
