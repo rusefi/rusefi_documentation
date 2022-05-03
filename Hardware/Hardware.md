@@ -17,8 +17,7 @@ As of May 2021 microRusEFI and Proteus are sold as ECU development boards. See [
 ### Q: How to select a board?
 
 A: History shows that fully assembled boards are the safest way to start. History shows
-that 80% of the kits are never assembled. As of March 2020 we have many microRusEFI [in stock](https://rusefi.com/shop/) and
-very remaining [old stock assembled Frankenso](https://www.tindie.com/stores/russian/). New fabrication of the assembled Frankenso board is
+that 80% of the kits are never assembled. As of May 2022 we have microRusEFI and Proteus [in stock](https://shop.rusefi.com/). New fabrication of the assembled Frankenso board is
 currently not planned.
 
 ### Q: What else matters?
@@ -42,7 +41,7 @@ If you proceed then please consider making a P&P adapter board design based on H
 
 ### Q: What EDA are you guys using for your open source hardware?
 
-A: rusEFI preference at the moment is KiCad 5. A few legacy pieces are still using KiCad 4. While many EDAs have many cool features KiCad gives rusEFI uniformity and consistency.
+A: rusEFI preference at the moment is KiCad 6. A few legacy pieces are still using KiCad 4 and 5. While many EDAs have many cool features KiCad gives rusEFI uniformity and consistency.
 
 See also [https://github.com/rusefi/rusefi/tree/master/hardware](https://github.com/rusefi/rusefi/tree/master/hardware)
 
