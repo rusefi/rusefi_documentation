@@ -50,7 +50,9 @@ APTIV (FORMERLY DELPHI) HCCPHPE24BKA90F
 ADM 22RE
 
 ## 34 pin
-Superseal 6437288-1 and 6437288-2
+Superseal 6437288-1 and 6437288-2 male
+
+female 1437290
 
 [TE 6437288-1](https://www.te.com/usa-en/product-6437288-1.html)
 [TE 6437288-2](https://www.te.com/usa-en/product-6437288-2.html)
