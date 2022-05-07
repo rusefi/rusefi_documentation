@@ -2,7 +2,8 @@
 
 У нас есть собранные microRusEFI в Питере. https://rusefi.com/index.html#microrusefi
 
-Скоро будет Proteus по 35000 рублей (420 долларов) https://rusefi.com/index.html#proteus
+У нас есть собранные Proteus по 35000 рублей с только белым разъёмом и 38000 с полным комплектом под обжим
+https://rusefi.com/index.html#proteus
 
 Собранный microRusEFI 18370.00 рублей (потому что 220 USD) - в этом варинте заказчик сам идёт отрезать проводку от Лады или Ниссана
 
