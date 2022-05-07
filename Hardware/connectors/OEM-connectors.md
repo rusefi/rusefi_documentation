@@ -339,7 +339,8 @@ See [http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm
 
 Oem ECU [Miata 2001 - 2005](Mazda-Miata-2001)
 
-pins 316836
+pins 316836?
+pins 316838
 
 ## 76 pin
 
