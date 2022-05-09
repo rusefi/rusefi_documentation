@@ -1,4 +1,4 @@
-
+Licensed TunerStudio would you give you faster data rate.
 
 In TunerStudio hit "Data Logging" -> "Start Logging".
 Once you've done something interesting, hit "Data Logging" -> "Stop"
