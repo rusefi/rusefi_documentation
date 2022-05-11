@@ -215,11 +215,6 @@ VQ30
 
 ![Nissan](Images/triggers/trigger_24.png)
 
-## 1 + 60/2
-
-Please use this one only if your CAM sensor position matches this picture exactly. For a CAM which does not match this picture exactly, see above for universal 60/2 with cam input.
-
-![1+60/2](Images/triggers/trigger_17.png)
 
 ## VW 60/2
 VW special understanding of 60/2 with a wide tooth instead of of just missing tooth.
@@ -240,6 +235,10 @@ See also [Universal True 60/2](All-Supported-Triggers#602)
 1/12 version
 
 ![Toyota 2JZ 1/12](Images/triggers/trigger_29.png)
+
+## VVT 3-0
+
+![1+60/2](Images/triggers/trigger_17.png)
 
 ## VVT 4-1
 
