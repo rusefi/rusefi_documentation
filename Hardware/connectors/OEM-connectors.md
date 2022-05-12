@@ -1,6 +1,8 @@
 ##### Table of Contents  
 [30 pin](#30)
-  
+ 
+[60 pin superseal](#60)
+ 
 [64 pin](#64)
 
 [72 pin](#72)
@@ -214,9 +216,13 @@ Ford todo :)
 
 Terminals are E7EB-14488-GA (18 ga) and E7EB-14488-NA (14 ga)
 
+<a name="60"/>
+
 ## 60 pin superseal
 
 26 + 34
+
+terminal 1447221
 
 [TE 6437288-3](https://www.te.com/usa-en/product-6437288-3.html)
 
