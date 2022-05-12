@@ -217,6 +217,7 @@ Ford todo :)
 Terminals are E7EB-14488-GA (18 ga) and E7EB-14488-NA (14 ga)
 
 <a name="60"/>
+
 ## 60 pin superseal
 
 26 + 34
