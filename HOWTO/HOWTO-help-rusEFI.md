@@ -19,6 +19,10 @@ We hope that as a community we can leverage each other's skills and have peacefu
 
 We probably would not articulate the guiding principles better than [https://github.com/betaflight/betaflight/blob/master/docs/development/Development.md](https://github.com/betaflight/betaflight/blob/master/docs/development/Development.md) and [https://github.com/betaflight/betaflight/blob/master/CONTRIBUTING.md](https://github.com/betaflight/betaflight/blob/master/CONTRIBUTING.md)
 
+## Q: What's the plan about XXX?
+
+A: How can you help? There are so many ways to help, quite often having a test mule and being available to try new features is huge help!
+
 #### Last but not least
 
 Since 2012 until today, this is just a hobby project with zero paid employees. Test PCBs, forum hosting, damaged hardware and etc. costs money
