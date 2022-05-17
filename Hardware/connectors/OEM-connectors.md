@@ -51,10 +51,12 @@ APTIV (FORMERLY DELPHI) HCCPHPE24BKA90F
 
 ADM 22RE
 
+<a name="34"/>
+
 ## 34 pin
 Superseal 6437288-1 and 6437288-2 male
 
-female 1437290
+female 1437290-7 Haltech 2500
 
 [TE 6437288-1](https://www.te.com/usa-en/product-6437288-1.html)
 [TE 6437288-2](https://www.te.com/usa-en/product-6437288-2.html)
@@ -228,9 +230,14 @@ terminal 1447221
 
 [TE 6437288-5 upside down](https://www.te.com/usa-en/product-6437288-5.html)
 
+[26 pin plug 3-1437290-7](https://www.te.com/usa-en/product-3-1437290-7.html) Haltech 2500
+
 [26 pin plug 1473416](https://www.te.com/usa-en/product-1473416-1.html)
 
 Motec Haltech DTAfast
+
+See [26 pin](#26)
+See [34 pin](#34)
 
 Suzuki Hayabusa 
 99-07 Gen I GSX1300R
