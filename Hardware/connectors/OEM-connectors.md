@@ -224,7 +224,9 @@ Terminals are E7EB-14488-GA (18 ga) and E7EB-14488-NA (14 ga)
 
 terminal 1447221
 
-[TE 6437288-3](https://www.te.com/usa-en/product-6437288-3.html)
+[TE 6437288-3](https://www.te.com/usa-en/product-6437288-3.html) Haltech 2500
+
+[TE 6437288-5 upside down](https://www.te.com/usa-en/product-6437288-5.html)
 
 [26 pin plug 1473416](https://www.te.com/usa-en/product-1473416-1.html)
 
