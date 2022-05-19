@@ -25,11 +25,15 @@ A: VND14NV04TR-E 93mJ 18A. In terms of current and switching energy those could 
 
 
 rev C:
-* pull-down fixed
+ - pull-down fixed https://github.com/rusefi/alphax-2chan/issues/40
+ - affected by BOM issue p-channel mosfet https://github.com/rusefi/alphax-2chan/issues/53
 
 rev B:
-
+ - affected by BOM issue p-channel mosfet https://github.com/rusefi/alphax-2chan/issues/53
 * BT fixed
 ``
 bluetooth_jdy 115200 alphax 1234
 ``
+
+rev A:
+ - affected by BOM issue p-channel mosfet https://github.com/rusefi/alphax-2chan/issues/53
