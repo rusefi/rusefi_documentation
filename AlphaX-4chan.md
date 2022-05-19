@@ -24,6 +24,9 @@
 
 rev B:
  - one channel knock input added
+ - gerber defect under C461 https://github.com/rusefi/alphax-4chan/issues/20
+ - BOM issue p-channel mosfet https://github.com/rusefi/alphax-4chan/issues/19
 
 rev A:
  - it works! https://youtu.be/egtDQsMDQqs
+ - BOM issue p-channel mosfet https://github.com/rusefi/alphax-4chan/issues/19
