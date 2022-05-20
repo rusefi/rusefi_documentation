@@ -436,6 +436,8 @@ unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 Subaru 22611AE670 
 SUBARU IMPREZA 2000-2003 ENGINE CONTROL MODULE UNIT ECU 22611AF634
 
+mitsubishi evo9
+
 ## 94 pin
 
 31+24+17+22=94
