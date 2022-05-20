@@ -432,6 +432,8 @@ unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 
 ![x](OEM-Docs/Subaru/93pins.jpeg)
 
+MX7-93PL-C4
+
 35+28+30
 Subaru 22611AE670 
 SUBARU IMPREZA 2000-2003 ENGINE CONTROL MODULE UNIT ECU 22611AF634
