@@ -6,4 +6,6 @@ single, key 1: 3-1437290-7
 
 single, key 2: 3-1437290-8
 
-single, key 2: 1473416-1 [findchips](https://www.findchips.com/search/1473416-1)
+single, key 3: 1473416-1 [findchips](https://www.findchips.com/search/1473416-1)
+
+single, key 4: 1473416-2 [findchips](https://www.findchips.com/search/1473416-2)
