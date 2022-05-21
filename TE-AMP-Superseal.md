@@ -13,9 +13,9 @@ single, key 4: 1473416-2 [findchips](https://www.findchips.com/search/1473416-2)
 
 == 26 headers
 
-[9-6437287-7](https://www.te.com/usa-en/product-9-6437287-7.html) [findchips](https://www.findchips.com/search/9-6437287-7)
-
 [9-6437287-8](https://www.te.com/usa-en/product-9-6437287-8.html) [findchips](https://www.findchips.com/search/9-6437287-8)
+
+[9-6437287-9](https://www.te.com/usa-en/product-9-6437287-9.html) [findchips](https://www.findchips.com/search/9-6437287-9)
 
 [6473423-1](https://www.te.com/usa-en/product-6473423-1.html) [findchips](https://www.findchips.com/search/6473423-1)
 
