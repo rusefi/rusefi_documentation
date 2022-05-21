@@ -21,7 +21,7 @@ single, key 4: 1473416-2 [findchips](https://www.findchips.com/search/1473416-2)
 
 [6473423-2](https://www.te.com/usa-en/product-6473423-2.html) [findchips](https://www.findchips.com/search/6473423-2)
 
-== 36 headers
+== 34 headers
 
 [2-6437285-5](https://www.te.com/usa-en/product-2-6437285-5.html)
 
