@@ -11,6 +11,10 @@ single, key 3: 1473416-1 [findchips](https://www.findchips.com/search/1473416-1)
 single, key 4: 1473416-2 [findchips](https://www.findchips.com/search/1473416-2)
 
 
+== 26 headers
+
+[9-6437287-8](https://www.te.com/usa-en/product-9-6437287-8.html) [findchips](https://www.findchips.com/search/9-6437287-8)
+
 == 36 headers
 
 [2-6437285-5](https://www.te.com/usa-en/product-2-6437285-5.html)
