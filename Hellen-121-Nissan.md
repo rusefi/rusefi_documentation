@@ -11,7 +11,8 @@
 
 [Issue Tracker](https://github.com/rusefi/hellen121nissan-issues/issues)
 
-[Schematics rev B](Hardware/Hellen/hellen121nissan-b-schematic.pdf) [Schematics rev С](Hardware/Hellen/hellen121nissan-с-schematic.pdf)
+[Schematics rev B](Hardware/Hellen/hellen121nissan-b-schematic.pdf) 
+[Schematics rev С](Hardware/Hellen/hellen121nissan-c-schematic.pdf)
 
 [ibom rev B](https://rusefi.com/docs/ibom/hellen121nissan-b-ibom.html) [ibom rev С](https://rusefi.com/docs/ibom/hellen121nissan-C-ibom.html)
 
