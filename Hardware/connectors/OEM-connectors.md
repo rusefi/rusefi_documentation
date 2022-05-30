@@ -794,6 +794,10 @@ Aptiv Delphi 13830808
 
 1318813
 
+## 186 pin
+
+Toyota/Lexus 2013
+
 ## 196 pin
 
 Delphi 35043766
