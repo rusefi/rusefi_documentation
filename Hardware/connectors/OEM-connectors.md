@@ -821,6 +821,8 @@ Ford 2014-2017, Volvo V90 T5 2.0T
 
 ![200 Pin Connector](Hardware/connectors/200_render.png)
 
+31+35+33+32+35+34
+
 Toyota
 
 ## Random links
