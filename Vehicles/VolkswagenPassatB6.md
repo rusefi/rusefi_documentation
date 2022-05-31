@@ -67,14 +67,14 @@ Sensor Power:
 | 38/98  | analog     | ..MAP signal P2-b                       | GRY   |
 | 53/113  | **GND**    | .Sensor GND CLT MAP P1-b               | BLK |
 | 56/116  | analog GND | ..Pedal GND                             | BLU/GRY   |
-| 57/117  | analog input | ..Pedal signal #1                       | WHT/BLU   |
+| 57/117  | analog input | ..Pedal signal #1 PPS                     | WHT/BLU   |
 | 58/118  | +5v        | ..Pedal sensor power                    | GRN/GRY   |
 | 64  |            | MAF signal                            | GRN    |
 | 67  |            | CAN Low                               | ORG/BRN   |
 | 68  |            | CAN High                              | ORG/BLK   |
 | 69  | low side   | ECU Relay Control (CAN wake up)       | BRN/VIO  |
 | 78/138  | analog GND | .Pedal GND                             | VIO/BLK  |
-| 79/139  | analog input | Pedal signal #2                       | BLK/BLU   |
+| 79/139  | analog input | Pedal signal #2 PPS2                      | BLK/BLU   |
 | 80/140  | +5v        | .Pedal sensor power                    | BLK/RED   |
 | 86  |            | K-line                                |         |
 | 87  | +12v       | Constant +12v from Fuse #25 10A term. 30 |         |
@@ -91,11 +91,11 @@ End of 94 pin connector T94
 | 2   | INJ neg    | .Injector #1 P5-t                      | RED/BLK | white |
 | 4   | low side   | Wastegate bypass valve                | VIO/WHT |
 | 7   | analog in  | .Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN |
-| 10  | analog in  | .Engine CLT P4-b                       | GRN     |
-| 12  | analog in  | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#1 ETB#1 | GRN/YEL |
-| 13  | analog in  | .Intake air temperatur IAT P4-b        | WHT     |
-| 14  | **GND**    | .Sensor GND (cam, LPFP, CLT, IAT)      | BRN/BLU |
-| 15  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
+| 10  | analog in  | ..Engine CLT P4-b                       | GRN     |
+| 12  | analog in  | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#1 ETB#1 | GRN/YEL |
+| 13  | analog in  | ..Intake air temperatur IAT P4-b        | WHT     |
+| 14  | **GND**    | ..Sensor GND (cam, LPFP, CLT, IAT)      | BRN/BLU |
+| 15  |            | ..[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
 | 16  | INJ neg    | .Injector #4 P5-t                      | RED/GRY | green |
 | 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO | orange |
 | 19  | low side   | .Fuel pressure regulator valve 4 Ohm HPFP      | VIO/BRN |
