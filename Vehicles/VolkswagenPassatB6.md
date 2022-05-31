@@ -73,9 +73,9 @@ Sensor Power:
 | 67  |            | ..CAN Low                               | ORG/BRN   |
 | 68  |            | ..CAN High                              | ORG/BLK   |
 | 69  | low side   | ECU Relay Control (CAN wake up)       | BRN/VIO  |
-| 78/138  | analog GND | .Pedal GND                             | VIO/BLK  |
-| 79/139  | analog input | Pedal signal #2 PPS2                      | BLK/BLU   |
-| 80/140  | +5v        | .Pedal sensor power                    | BLK/RED   |
+| 78/138  | analog GND | ..Pedal GND                             | VIO/BLK  |
+| 79/139  | analog input | ..Pedal signal #2 PPS2                      | BLK/BLU   |
+| 80/140  | +5v        | ..Pedal sensor power                    | BLK/RED   |
 | 86  |            | K-line                                |         |
 | 87  | +12v       | Constant +12v from Fuse #25 10A term. 30 |         |
 | 92  | +12v       | Constant +12v from Fuse #25 10A term. 30 | BLK/YEL |
