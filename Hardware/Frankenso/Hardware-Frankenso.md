@@ -29,8 +29,8 @@ See [HOWTO Quick Start](HOWTO-quick-start) for rusEFI Quick Start.
 
 [Forum Thread](http://rusefi.com/forum/viewtopic.php?f=4&t=569)
 
-[Latest frankenso_schematic.pdf](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/frankenso_schematic.pdf)
-[Latest frankenso_PCB.pdf](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/frankenso_PCB.pdf)
+[Latest frankenso_schematic.pdf](https://github.com/rusefi/rusefi-hardware/raw/main/classic-designs/frankenso/frankenso_schematic.pdf)
+[Latest frankenso_PCB.pdf](https://github.com/rusefi/rusefi-hardware/raw/main/classic-designs/frankenso/frankenso_PCB.pdf)
 
 [3D Files](https://cad.onshape.com/documents/e3886c26c195f696b0992337/w/606a3f224be979ff0bba0b49/e/aa0d12eea4c57b8fd8218752) at OnShape
 
