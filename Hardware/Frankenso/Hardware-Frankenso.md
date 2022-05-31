@@ -35,7 +35,7 @@ See [HOWTO Quick Start](HOWTO-quick-start) for rusEFI Quick Start.
 [3D Files](https://cad.onshape.com/documents/e3886c26c195f696b0992337/w/606a3f224be979ff0bba0b49/e/aa0d12eea4c57b8fd8218752) at OnShape
 
 
-[frankenso_schematic.pdf 0.4](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_historyfrankenso_rev00.40/frankenso/frankenso_schematic.pdf)
+[frankenso_schematic.pdf 0.4](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_history/frankenso_rev00.40/frankenso/frankenso_schematic.pdf)
 
 [Frankenso 0.3 archive](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_history/frankenso_rev00.30.7z)
 
