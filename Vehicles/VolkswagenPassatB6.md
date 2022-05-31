@@ -58,13 +58,13 @@ Sensor Power:
 | 5   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
 | 6   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
 | 12  | analog     | Radiator Coolant CLT P1-b                          | BLU  |
-| 19  | +5v        | .MAP +5v                                  | VIO   |
-| 22  | analog GND | .MAF GND                               | BLK   |
+| 19/79  | +5v        | .MAP +5v                                  | VIO   |
+| 22/82  | analog GND | .MAF GND                               | BLK   |
 | 25  |            | brake light switch +12?               | BLK/RED   |
-| 27  | low side   | .fuel pump control 20Hz PWM            | YEL/BLU   |
-| 28  | low side   | .coolant FAN control module 25Hz PMW       | YEL/VIO   |
-| 32  | low side   | .main relay control                    | GRN/YEL |
-| 38  | analog     | .MAP signal P2-b                       | GRY   |
+| 27/87  | low side   | .fuel pump control 20Hz PWM            | YEL/BLU   |
+| 28/88  | low side   | .coolant FAN control module 25Hz PMW       | YEL/VIO   |
+| 32/92  | low side   | .main relay control                    | GRN/YEL |
+| 38/98  | analog     | .MAP signal P2-b                       | GRY   |
 | 53/113  | **GND**    | .Sensor GND CLT MAP P1-b               | BLK |
 | 56/116  | analog GND | .Pedal GND                             | BLU/GRY   |
 | 57/117  | analog input | .Pedal signal #1                       | WHT/BLU   |
