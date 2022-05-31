@@ -35,15 +35,15 @@ See [HOWTO Quick Start](HOWTO-quick-start) for rusEFI Quick Start.
 [3D Files](https://cad.onshape.com/documents/e3886c26c195f696b0992337/w/606a3f224be979ff0bba0b49/e/aa0d12eea4c57b8fd8218752) at OnShape
 
 
-[frankenso_schematic.pdf 0.4](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/rusefi_hardware_history/frankenso_rev00.40/frankenso/frankenso_schematic.pdf)
+[frankenso_schematic.pdf 0.4](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_historyfrankenso_rev00.40/frankenso/frankenso_schematic.pdf)
 
-[Frankenso 0.3 archive](https://github.com/rusefi/rusefi/raw/master/hardware/rusefi_hardware_history/frankenso_rev00.30.7z)
+[Frankenso 0.3 archive](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_history/frankenso_rev00.30.7z)
 
-[frankenso_schematic.pdf 0.2](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/rusefi_hardware_history/frankenso_rev00.20/frankenso/frankenso_schematic.pdf)
+[frankenso_schematic.pdf 0.2](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_history/frankenso_rev00.20/frankenso/frankenso_schematic.pdf)
 
-[Frankenso 0.1 archive](https://github.com/rusefi/rusefi/raw/master/hardware/rusefi_hardware_history/frankenso_rev00.10.7z)
+[Frankenso 0.1 archive](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_history/frankenso_rev00.10.7z)
 
-[frankenso_gerbers_R0.4.zip](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/rusefi_hardware_history/frankenso_rev00.40/frankenso/frankenso_gerbers/frankenso_gerbers_R0.4.zip)
+[frankenso_gerbers_R0.4.zip](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_history/frankenso_rev00.40/frankenso/frankenso_gerbers/frankenso_gerbers_R0.4.zip)
 
 See also [online BOM](https://rusefi.com/docs/ibom/frankenso_latest.html)
 
