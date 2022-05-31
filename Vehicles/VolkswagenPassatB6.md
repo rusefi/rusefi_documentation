@@ -51,8 +51,8 @@ Sensor Power:
 
 |Pin Number|Name   | Default function                   | OEM Color |
 | ---:|:---------- |:------------------------------------ | --- |
-| 1/61   | **GND**    |  Power GND term. 31                   | BRN |
-| 2   | **GND**    |  Power GND term. 31                   | BRN |
+| 1/61   | **GND**    |  ..Power GND term. 31                   | BRN |
+| 2   | **GND**    |  ..Power GND term. 31                   | BRN |
 | 3   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
 | 4   | **GND**    |  Power GND term. 31                   | BRN |
 | 5   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
@@ -102,10 +102,10 @@ End of 94 pin connector T94
 | 20  | low side   | Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | .Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | .Sensor 5v power (cam, )               | BLK/GRY |
-| 27  | analog in  | [ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#2 ETB#4 | BLU/GRN |
-| 28  | 5v         | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU |
-| 29  | analog GND | .[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Signal GND   ETB#6 | VIO/BRN |
-| 30  |            | .[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB) neg ETB#3 | BRN/VIO |
+| 27  | analog in  | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#2 ETB#4 | BLU/GRN |
+| 28  | 5v         | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU |
+| 29  | analog GND | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Signal GND   ETB#6 | VIO/BRN |
+| 30  |            | ..[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB) neg ETB#3 | BRN/VIO |
 | 32  | INJ pos    | .Injector #3 P5-t connected to #47     | BRN/VIO | green |
 | 33  | INJ pos    | .Injector #1 P5-t                      | BRN/BLK | blue |
 | 36  | Crank in   | .VR Crank Negative                     | White   |
