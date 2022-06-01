@@ -55,17 +55,17 @@ Sensor Power:
 | 2   | **GND**    |  ..Power GND term. 31                   | BRN |
 | 3   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
 | 4   | **GND**    |  Power GND term. 31                   | BRN |
-| 5   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
-| 6   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
+| 5   | **12v**    |  ..+12v from ECU relay  term.15         | RED/WHT |
+| 6   | **12v**    |  ..+12v from ECU relay  term.15         | RED/WHT |
 | 12  | analog     | Radiator Coolant CLT P1-b                          | BLU  |
 | 19/79  | +5v        | ..MAP +5v                                  | VIO   |
 | 22/82  | analog GND | ..MAF GND                               | BLK   |
 | 25  |            | brake light switch +12?               | BLK/RED   |
 | 27/87  | low side   | ..fuel pump control 20Hz PWM            | YEL/BLU   |
 | 28/88  | low side   | ..coolant FAN control module 25Hz PMW       | YEL/VIO   |
-| 32/92  | low side   | .main relay control                    | GRN/YEL |
+| 32/92  | low side   | ..main relay control                    | GRN/YEL |
 | 38/98  | analog     | ..MAP signal P2-b                       | GRY   |
-| 53/113  | **GND**    | .Sensor GND CLT MAP P1-b               | BLK |
+| 53/113  | **GND**    | ..Sensor GND CLT MAP P1-b               | BLK |
 | 56/116  | analog GND | ..Pedal GND                             | BLU/GRY   |
 | 57/117  | analog input | ..Pedal signal #1 PPS                     | WHT/BLU   |
 | 58/118  | +5v        | ..Pedal sensor power                    | GRN/GRY   |
@@ -99,7 +99,7 @@ End of 94 pin connector T94
 | 16  | INJ neg    | .Injector #4 P5-t                      | RED/GRY | green |
 | 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO | orange |
 | 19  | low side   | ..Fuel pressure regulator valve 4 Ohm HPFP      | VIO/BRN |
-| 20  | low side   | Camshaft valve #1                     | VIO/WHT |
+| 20  | low side   | ..Camshaft valve #1                     | VIO/WHT |
 | 25  | analog in  | .Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | ..Sensor 5v power (cam, )               | BLK/GRY |
 | 27  | analog in  | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#2 ETB#4 | BLU/GRN |
@@ -112,7 +112,7 @@ End of 94 pin connector T94
 | 37  | 5v         | ..Sensor 5v power                       | BLK/GRN |
 | 41  | High-Side  | ..Coil #2                               | BLU/GRY |
 | 43  | High-Side  | ..Coil #3                               | RED/GRY |
-| 44  | digital in | .Cam position sensor                   | GRN/VIO |
+| 44  | digital in | ..Cam position sensor                   | GRN/VIO |
 | 47  | INJ pos    | .Injector #2 P5-t connected to #32     | BRN/WHT   | orange | 
 | 48  | INJ pos    | .Injector #4 P5-t                      | BRN BRN/GRY   | white |
 | 51  | Crank in   | ..VR Crank Positive                     | BRN |
