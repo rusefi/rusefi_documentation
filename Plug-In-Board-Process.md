@@ -15,5 +15,8 @@ Pinout data entry into KiCAD
 # Step 5 Adapter
 Proteus or else adapter for specific vehicle, based on steps 2, 3 and 4. Because cheaper fabrication and less labor intense.
 
-# Step 6 Plug In
-Full plug in board like Hellen if demand exists.
+# Step 6 Plug In Hellen
+Full plug in board like Hellen if demand exists. See https://github.com/rusefi/rusefi/wiki/Standalone-on-Demand
+
+# Step 7 Hellen real vehicle tests
+We are getting good at these Hellen boards but a board is not done until tested on a real vehicle. A master tech skillset is needed to turn a Hellen into a proven board!
