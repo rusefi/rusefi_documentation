@@ -33,5 +33,15 @@ For list of Hellen boards available for sale already see [Hellen-One-Platform](H
 
 rusEFI LLC does not have experience and resources to provide adequate support to retail customers. The ideal setup is rusEFI focusing on hardware, software and fabrication, with _product owners_ dealing with sales, marketing and user support for each of the platform specific ECUs.
 
+FAQ:
+
+## Q: What do you mean not PnP?
+
+A: We cannot guarantee a turn key product without a test mule at our disposal in NJ, USA.
+
+## Q: I want a turn key solution?
+
+A: We have not done that yet, that would be more money :( Step one would be to have a test mule purchased in NJ, USA. Rougthly please expect test mule cost and $11K on top of that, and that's just a wild guess - we have no tried that yet, some modern vehicle with too much CAN would be more for sure.
+
 
 See also [Plug-In-Board-Process](Plug-In-Board-Process)
