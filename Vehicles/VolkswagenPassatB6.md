@@ -100,7 +100,7 @@ End of 94 pin connector T94
 | 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO | orange |
 | 19  | low side   | ..Fuel pressure regulator valve 4 Ohm HPFP      | VIO/BRN |
 | 20  | low side   | ..Camshaft valve #1                     | VIO/WHT |
-| 25  | analog in  | .Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
+| 25  | analog in  | ..Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
 | 26  | 5v         | ..Sensor 5v power (cam, )               | BLK/GRY |
 | 27  | analog in  | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#2 ETB#4 | BLU/GRN |
 | 28  | 5v         | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU |
