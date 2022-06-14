@@ -43,5 +43,9 @@ A: We cannot guarantee a turn key product without a test mule at our disposal in
 
 A: We have not done that yet, that would be more money :( Step one would be to have a test mule purchased in NJ, USA. Rougthly please expect test mule cost and $11K on top of that, and that's just a wild guess - we have no tried that yet, some modern vehicle with too much CAN would be more for sure.
 
+## Q: Do I get all fabrication files?
+
+A: Yes, you get all files for full control to change or fabricate additional boards independently.
+
 
 See also [Plug-In-Board-Process](Plug-In-Board-Process)
