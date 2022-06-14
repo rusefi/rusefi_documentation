@@ -22,6 +22,11 @@
 
 ## Changelog
 
+rev C:
+ - improved PCB shape
+ - better thermal and overal simpler to solder
+ - https://github.com/rusefi/alphax-4chan/issues?q=is%3Aissue+label%3AREV-C
+
 rev B:
  - one channel knock input added
  - gerber defect under C461 https://github.com/rusefi/alphax-4chan/issues/20
