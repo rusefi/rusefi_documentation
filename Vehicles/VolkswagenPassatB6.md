@@ -47,6 +47,8 @@ Sensor Power:
 
 <a name="94"/>
 
+WARNING: my test mule is EARLY or LATE? TBD
+
 # 94 pin connector T94
 
 |Pin Number|Name   | Default function                   | OEM Color |
@@ -135,19 +137,31 @@ Injector #4: #48/#16
 "Early" 5 pages
 
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_1_5.png)
+"Early"
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_2_5.png)
+"Early"
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_3_5.png)
+"Early"
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_4_5.png)
+"Early"
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_early_5_5.png)
 
 "Late" 5 pages
 
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_1_5.png)
+"Late"
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_2_5.png)
+"Late"
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_3_5.png)
+"Late"
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_4_5.png)
+"Late"
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_5_5.png)
 
+
+Charging
+
+![x](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_charging.png)
 
 R17 Starter motor relay
 
