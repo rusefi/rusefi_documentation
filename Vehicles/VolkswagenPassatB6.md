@@ -51,37 +51,37 @@ WARNING: my test mule is EARLY or LATE? TBD
 
 # 94 pin connector T94
 
-|Pin Number|Name   | Default function                   | OEM Color |
-| ---:|:---------- |:------------------------------------ | --- |
-| 1/61   | **GND**    |  ..Power GND term. 31                   | BRN |
-| 2   | **GND**    |  ..Power GND term. 31                   | BRN |
-| 3   | **12v**    |  +12v from ECU relay  term.15         | RED/WHT |
-| 4   | **GND**    |  Power GND term. 31                   | BRN |
-| 5   | **12v**    |  ..+12v from ECU relay  term.15         | RED/WHT |
-| 6   | **12v**    |  ..+12v from ECU relay  term.15         | RED/WHT |
-| 12  | analog     | Radiator Coolant CLT P1-b                          | BLU  |
-| 19/79  | +5v        | ..MAP +5v                                  | VIO   |
-| 22/82  | analog GND | ..MAF GND                               | BLK   |
-| 25  |            | brake light switch +12?               | BLK/RED   |
-| 27/87  | low side   | ..fuel pump control 20Hz PWM            | YEL/BLU   |
-| 28/88  | low side   | ..coolant FAN control module 25Hz PMW       | YEL/VIO   |
-| 32/92  | low side   | ..main relay control                    | GRN/YEL |
-| 38/98  | analog     | ..MAP signal P2-b                       | GRY   |
-| 53/113  | **GND**    | ..Sensor GND CLT MAP P1-b               | BLK |
-| 56/116  | analog GND | ..Pedal GND                             | BLU/GRY   |
-| 57/117  | analog input | ..Pedal signal #1 PPS                     | WHT/BLU   |
-| 58/118  | +5v        | ..Pedal sensor power                    | GRN/GRY   |
-| 64  |            | MAF signal                            | GRN    |
-| 67  |            | ..CAN Low                               | ORG/BRN   |
-| 68  |            | ..CAN High                              | ORG/BLK   |
-| 69  | low side   | ECU Relay Control (CAN wake up)       | BRN/VIO  |
-| 78/138  | analog GND | ..Pedal GND                             | VIO/BLK  |
-| 79/139  | analog input | ..Pedal signal #2 PPS2                      | BLK/BLU   |
-| 80/140  | +5v        | ..Pedal sensor power                    | BLK/RED   |
-| 86  |            | K-line                                |         |
+|Pin Number|Name   | Default function                         | OEM Color |
+| ---:|:---------- |:-----------------------------------------| --- |
+| 1/61   | **GND**    | ..Power GND term. 31                     | BRN |
+| 2   | **GND**    | ..Power GND term. 31                     | BRN |
+| 3   | **12v**    | +12v from ECU relay  term.15             | RED/WHT |
+| 4   | **GND**    | Power GND term. 31                       | BRN |
+| 5   | **12v**    | ..+12v from ECU relay  term.15           | RED/WHT |
+| 6   | **12v**    | ..+12v from ECU relay  term.15           | RED/WHT |
+| 12  | analog     | Radiator Coolant CLT P1-b                | BLU  |
+| 19/79  | +5v        | ..MAP +5v                                | VIO   |
+| 22/82  | analog GND | ..MAF GND                                | BLK   |
+| 25  |            | brake light switch +12?                  | BLK/RED   |
+| 27/87  | low side   | ..fuel pump control 20Hz PWM             | YEL/BLU   |
+| 28/88  | low side   | ..coolant FAN control module 25Hz PMW    | YEL/VIO   |
+| 32/92  | low side   | ..main relay control                     | GRN/YEL |
+| 38/98  | analog     | ..MAP signal P2-b                        | GRY   |
+| 53/113  | **GND**    | ..Sensor GND CLT MAP P1-b                | BLK |
+| 56/116  | analog GND | ..Pedal GND                              | BLU/GRY   |
+| 57/117  | analog input | ..Pedal signal #1 PPS                    | WHT/BLU   |
+| 58/118  | +5v        | ..Pedal sensor power                     | GRN/GRY   |
+| 64  |            | MAF signal                               | GRN    |
+| 67  |            | ..CAN Low "yellow tape"                  | ORG/BRN   |
+| 68  |            | ..CAN High "black tape"                   | ORG/BLK   |
+| 69  | low side   | ECU Relay Control (CAN wake up)          | BRN/VIO  |
+| 78/138  | analog GND | ..Pedal GND                              | VIO/BLK  |
+| 79/139  | analog input | ..Pedal signal #2 PPS2                   | BLK/BLU   |
+| 80/140  | +5v        | ..Pedal sensor power                     | BLK/RED   |
+| 86  |            | K-line                                   |         |
 | 87  | +12v       | Constant +12v from Fuse #25 10A term. 30 |         |
 | 92  | +12v       | Constant +12v from Fuse #25 10A term. 30 | BLK/YEL |
-|     |            |                                       |    |
+|     |            |                                          |    |
 End of 94 pin connector T94
 
 <a name="60"/>
