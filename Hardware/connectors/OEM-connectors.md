@@ -794,6 +794,14 @@ Aptiv Delphi 13830808
 
 1318813
 
+## 170
+
+TE 1717313-8
+
+110+60
+
+Toyota Camry 2008 Yaris 2008
+
 ## 186 pin
 
 Toyota/Lexus 2013
