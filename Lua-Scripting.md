@@ -141,7 +141,7 @@ Sets the rate at which rusEFI calls your `onTick` and `onCanRx` functions, in hz
 - Returns
   - none
 
-### `mcu_stop`
+### `mcu_standby()`
 
 Stops MCU.
 
