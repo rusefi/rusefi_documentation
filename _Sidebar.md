@@ -23,6 +23,7 @@
 - [Trigger - Configuration](Trigger-Configuration-Guide)
 - [Trigger - Setting Offset](How-Do-I-Set-My-Trigger-Offset)
 - [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)
+- [Logging](Logging-Guide)
 
 # Pages
 - [Fuel](Pages-Fuel)
