@@ -125,6 +125,10 @@ GM/Daewoo Distributor F8CV
 
 ![Subaru 7+6](Images/triggers/trigger_36.png)
 
+## Subaru EZ30 variation of 36/2/2/2
+
+![!](Images/triggers/trigger_TT_SUBARU_EZ30.png)
+
 ## Subaru SVX
 
 ![x](Images/triggers/trigger_49.png)
