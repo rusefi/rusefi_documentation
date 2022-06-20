@@ -24,7 +24,7 @@ The data rate should default to 100hz when using rusEFI, but it's worth checking
 
 # Internal SD card
 
-Some rusEFI ECUs support logging to a microSD card directly.
+Some rusEFI ECUs support logging to a microSD card directly. This is useful for all the times you don't have a PC around. Maybe you're busy driving around a racetrack!
 
 To enable it, find the "SD Card Logger" menu under the "Controller" section (far right).  Set "Enable SD Card" to true to start logging. Set how often the log should be written. The default is every 50ms, aka 20 times per second.
 
