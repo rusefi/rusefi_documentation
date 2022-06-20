@@ -249,7 +249,7 @@ C354 & C358 are 4.7uF
 C355, C356 and C357 are 0.1uF (same thing as 100nF)
 
 ## SD card socket
-See [Logging](Logging)
+See [Logging](Logging-Guide)
 
 
 ## EGT
