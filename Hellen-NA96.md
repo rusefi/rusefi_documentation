@@ -4,7 +4,7 @@
 
 [Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellenNA8_96.zip)
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-nb1/)
+[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellenNA8_96/)
 
 [Mazda-Miata-1996](Mazda-Miata-1996)
 
