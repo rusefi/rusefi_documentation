@@ -2,6 +2,7 @@ todo organize these notes better
 
 # Proteus
 
+
 [Proteus Stock issues - Forum](https://rusefi.com/forum/viewtopic.php?p=41539#p41539)
 
 Highside BTS4175SGA: BSP762/ISP762, ISP752T
