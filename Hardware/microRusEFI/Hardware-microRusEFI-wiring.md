@@ -29,8 +29,8 @@ These tables provide technical information about the different types of pin foun
 | Pin  | ID | Type | Notes & Limits |
 |------|----|-------------| ---- |
 | . | 12V  | Power supply        | 9-22V operating, 5A fuse recommended           |
-| . | pgnd | Power ground        | Solidly ground directly to chassis or engine block. |
-| . | sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!***
+| [#2, #6](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=6) | pgnd | Power ground        | Solidly ground directly to chassis or engine block. |
+| [#17, #21](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=21) | sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!***
 | . | 5v   | 5V sensor supply    | 5V supply for external sensors.  200mA maximum per pin.
 
 
