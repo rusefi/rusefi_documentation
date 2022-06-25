@@ -71,3 +71,11 @@ https://www.youtube.com/watch?v=Xu1WibAQU_s
 # v12
 
 https://www.youtube.com/watch?v=DkhOHbRG_j4
+
+
+# Lua and CAN
+
+https://www.youtube.com/watch?v=3fbXCgkIJoM
+
+
+# GDI
