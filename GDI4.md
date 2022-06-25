@@ -8,7 +8,7 @@
 * Aux analog inputs
 * CAN connectivity
 * Max boost voltage 72V
-* Max peak and hold current TBD
+* Max peak 15A or a bit more
 * open and short circuit software PENDING
 
 
