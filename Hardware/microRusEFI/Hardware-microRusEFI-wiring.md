@@ -149,3 +149,10 @@ For HW version 0.5.0 and newer some additional GPIOs are available on testpoints
 | J16 | PD0 | CAN1_RX |
 
 Please refer to STM32F407 chip documentation for full list of alternative functions of GPIOs listed above.
+
+
+FAQ
+
+Q: Can I use temperature inputs for EGT?
+
+A: "temperature input" is a just an analog 0-5v input with a strong pull-down implied to use with a thermistor. Your EGT sensor is probably not a thermistor, your 0-5v output out of a conditioner would probably not be happy about the pull-up.
