@@ -22,11 +22,14 @@
 
 # Technical Details
 
-[schematic rev C](Hardware/Hellen/hellen72-c-schematic.pdf)
-[Interactive iBom rev C](https://rusefi.com/docs/ibom/hellen72-c-ibom.html)
+[schematic rev E](Hardware/Hellen/hellen72_NB2-e-schematic.pdf)
+[Interactive iBom rev E](https://rusefi.com/docs/ibom/hellen72_NB2-e-ibom.html)
 
 [schematic rev D](Hardware/Hellen/hellen72-d-schematic.pdf)
 [Interactive iBom rev D](https://rusefi.com/docs/ibom/hellen72-d-ibom.html)
+
+[schematic rev C](Hardware/Hellen/hellen72-c-schematic.pdf)
+[Interactive iBom rev C](https://rusefi.com/docs/ibom/hellen72-c-ibom.html)
 
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/helen72/)
