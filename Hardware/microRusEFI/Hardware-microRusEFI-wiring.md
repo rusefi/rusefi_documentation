@@ -155,4 +155,4 @@ FAQ
 
 Q: Can I use temperature inputs for EGT?
 
-A: "temperature input" is a just an analog 0-5v input with a strong pull-down implied to use with a thermistor. Your EGT sensor is probably not a thermistor, your 0-5v output out of a conditioner would probably not be happy about the pull-up.
+A: "temperature input" is a just an analog 0-5v input with a strong pull-up implied to use with a thermistor. Your EGT sensor is probably not a thermistor, your 0-5v output out of a conditioner would probably not be happy about the pull-up.
