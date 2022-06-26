@@ -26,12 +26,12 @@ These tables provide technical information about the different types of pin foun
 
 ## Power
 
-| ID | Type | Notes & Limits |
-|----|-------------| ---- |
-| 12V  | Power supply        | 9-22V operating, 5A fuse recommended           |
-| pgnd | Power ground        | Solidly ground directly to chassis or engine block. |
-| sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!***
-| 5v   | 5V sensor supply    | 5V supply for external sensors.  200mA maximum per pin.
+| Pin  | ID | Type | Notes & Limits |
+|------|----|-------------| ---- |
+| . | 12V  | Power supply        | 9-22V operating, 5A fuse recommended           |
+| [#2, #6](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=6) | pgnd | Power ground        | Solidly ground directly to chassis or engine block. |
+| [#17, #21](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=21) | sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!***
+| . | 5v   | 5V sensor supply    | 5V supply for external sensors.  200mA maximum per pin.
 
 
 ## Stepper
@@ -149,3 +149,10 @@ For HW version 0.5.0 and newer some additional GPIOs are available on testpoints
 | J16 | PD0 | CAN1_RX |
 
 Please refer to STM32F407 chip documentation for full list of alternative functions of GPIOs listed above.
+
+
+FAQ
+
+Q: Can I use temperature inputs for EGT?
+
+A: "temperature input" is a just an analog 0-5v input with a strong pull-down implied to use with a thermistor. Your EGT sensor is probably not a thermistor, your 0-5v output out of a conditioner would probably not be happy about the pull-up.

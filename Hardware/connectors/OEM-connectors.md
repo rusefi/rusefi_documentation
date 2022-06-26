@@ -705,7 +705,8 @@ bmw e38 e46 e65 e66
 ![135 Pin Connector](Hardware/connectors/135_render.png)
 
 Honda
-2003-2008 corolla/matrix/vibe
+2003-2008 
+02 through 08 corolla/matrix/vibe
 
 harness side connectors:
 

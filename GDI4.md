@@ -7,6 +7,11 @@
 * 4 GDI injectors with peak-hold control using NXP PT2001 chip
 * Aux analog inputs
 * CAN connectivity
+* Max boost voltage 72V
+* Max peak 15A or a bit more
+* Max hold 5A or a bit more
+* Metal case
+* open and short circuit software PENDING
 
 
 ![x](Hardware/GDI/rusefi-gdi4-rev-a.jpg)
