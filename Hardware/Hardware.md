@@ -67,3 +67,8 @@ A: Following Frankenso tradition, Injector LEDs are RED. Ignition LED are blue, 
 ### Q: Why mini/micro/type C on MRE?
 
 A: USB choice dictated by price and availability. If it changes MRE page will note. 
+
+
+### Q: Exiting, what soldering iron is best?
+
+A: [FAQ Why No Self Assembly](FAQ-Why-No-Self-Assembly/)
