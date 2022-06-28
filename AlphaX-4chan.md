@@ -2,7 +2,9 @@
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-4chan/)
 
-[iBom rev A](https://rusefi.com/docs/ibom/alphax_4ch-a-ibom.html) [iBom rev B](https://rusefi.com/docs/ibom/alphax_4ch-b-ibom.html)
+[iBom rev C](https://rusefi.com/docs/ibom/alphax_4ch-c-ibom.html)
+[iBom rev B](https://rusefi.com/docs/ibom/alphax_4ch-b-ibom.html)
+[iBom rev A](https://rusefi.com/docs/ibom/alphax_4ch-a-ibom.html) 
 
 [Issue tracker & hardware files](https://github.com/rusefi/alphax-4chan)
 
@@ -24,7 +26,7 @@
 
 rev C:
  - improved PCB shape
- - better thermal and overal simpler to solder
+ - better thermal and overall simpler to solder
  - https://github.com/rusefi/alphax-4chan/issues?q=is%3Aissue+label%3AREV-C
 
 rev B:
