@@ -26,7 +26,7 @@
 
 rev C:
  - improved PCB shape
- - better thermal and overal simpler to solder
+ - better thermal and overall simpler to solder
  - https://github.com/rusefi/alphax-4chan/issues?q=is%3Aissue+label%3AREV-C
 
 rev B:
