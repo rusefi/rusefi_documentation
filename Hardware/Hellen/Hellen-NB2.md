@@ -8,7 +8,7 @@
 ## Hardware features
 
 * knock detection module
-* build-in WBO
+* built-in WBO
 * Two auxiliary low side outputs
 * A/C toggle switch
 * A/C relay control
@@ -33,8 +33,9 @@
 [schematic rev C](Hardware/Hellen/hellen72-c-schematic.pdf)
 [Interactive iBom rev C](https://rusefi.com/docs/ibom/hellen72-c-ibom.html)
 
+[rev F Pinout]
 
-[Pinout](https://rusefi.com/docs/pinouts/hellen/helen72/)
+[rev C-E Pinout](https://rusefi.com/docs/pinouts/hellen/helen72/)
 
 [Forum DEVELOPMENT thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1947)
 
@@ -51,6 +52,27 @@
 ![x](Hardware/Hellen/hellen72-c-as-received.jpg)
 
 ![x](Hardware/Hellen/hellen72a.jpg)
+
+
+## Options Port (rev F)
+Using 28 Pin [Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/5655?osCsid=cs48b6aap1pgdvt9vgn1889sq0)
+
+![x](https://user-images.githubusercontent.com/5051341/176225958-4747f49b-c707-49f7-b354-43b6f9bad201.png)
+
+| Pin | Type | Comments |
+|---|---|---|
+| 5P | PPS1 | Pedal Position Sensor Input 1 |
+| 5R | TPS1 | Throttle Position Sensor Input 1 |
+| 5S | TPS2 | Throttle Position Sensor Input 1 |
+| 5T | PPS2 | Pedal Position Sensor Input 2 |
+| 5Z | WBO Vs/Ip | LSU 4.9 Pin 2 |
+| 5AA | WBO Vs | LSU 4.9 Pin 6 |
+| 5AB | WBO R Trim | LSU 4.9 Pin 5 |
+| 5AC | WBO Ip | LSU 4.9 Pin 1 |
+| 5AD | WBO Heater - | LSU 4.9 Pin 3 |
+| 5AE | +12v | LSU 4.9 Pin 4 |
+
+*ETB+ and ETB- are on ECU PCB 
 
 # Jumpers (Applies to board version 72a-72c so far)
  in order to run a Miata NB test vehicle:
