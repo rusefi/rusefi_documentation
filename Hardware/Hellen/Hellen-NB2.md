@@ -22,6 +22,8 @@
 
 # Technical Details
 
+[Interactive iBom rev E](https://rusefi.com/docs/ibom/hellen72_NB2-f-ibom.html)
+
 [schematic rev E](Hardware/Hellen/hellen72_NB2-e-schematic.pdf)
 [Interactive iBom rev E](https://rusefi.com/docs/ibom/hellen72_NB2-e-ibom.html)
 
