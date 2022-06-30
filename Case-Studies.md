@@ -77,5 +77,9 @@ https://www.youtube.com/watch?v=DkhOHbRG_j4
 
 https://www.youtube.com/watch?v=3fbXCgkIJoM
 
+# Boost Control
+
+https://rusefi.com/online/view.php?msq=969
+
 
 # GDI
