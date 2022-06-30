@@ -19,6 +19,12 @@
 
 # Changelog
 
-rev A:
+rev C:
+* optional six channels
 
-Arrived April 2022
+rev B:
+* rev A with [#101](https://github.com/rusefi/rusefi-hardware/issues/101) fixed
+
+rev A:
+* Arrived April 2022
+* fully working but [soldering nightmare issue](https://github.com/rusefi/rusefi-hardware/issues/101)
