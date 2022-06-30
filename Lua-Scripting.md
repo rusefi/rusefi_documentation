@@ -290,6 +290,10 @@ Set the duty cycle of the specified PWM channel.
 
 ## Examples
 
+# BMW iDrive
+
+See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/bmw-idrive.txt
+
 # timer
 ```
 t = Timer.new();
