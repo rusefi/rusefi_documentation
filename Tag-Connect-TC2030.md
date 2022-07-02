@@ -17,11 +17,11 @@ Way more ghetto option would be
 
 ![x](Hardware/tc2030.png)
 
-Four more important wires are:
+Three more important wires are:
 
-* GND
-* 13-swdio
-* 14-swclk
+* GND (black on TC2030)
+* 13-swdio (yellow on TC2030)
+* 14-swclk (red on TC2030)
 
 Offtopic:
 STLINK-V3MINI also works with FTSH-105-01-F-DV-007-K on Proteus
