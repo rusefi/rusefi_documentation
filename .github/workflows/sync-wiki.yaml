@@ -39,6 +39,10 @@ jobs:
         git config --local user.name "GitHub Action"
         git merge technical-git/master
 
+    - name: GitHub LFS work-around
+      run: |
+        rm .git/hooks/pre-push
+
     - name: Push changes rusefi/rusefi wiki
       uses: ad-m/github-push-action@master
       with:
