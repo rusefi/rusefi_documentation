@@ -55,6 +55,8 @@ See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/gener
 
 ### ``setAcDisabled(value)``
 
+Disable/supress A/C functionality regardless of what and how enables it, an override kind of deal.
+
 ### ``getTimeSinceAcToggleMs``
 
 ### `getCalibration(name)`
