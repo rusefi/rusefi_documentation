@@ -1,1 +1,1 @@
-(Moved to Home)[/]
+[Moved to Home](/)
