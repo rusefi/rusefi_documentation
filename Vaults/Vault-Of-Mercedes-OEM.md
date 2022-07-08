@@ -54,8 +54,17 @@ W210 chassis will have 210 545 81 28 (Black Strip Plug), R129 will have 029 545 
 The strip or oval plugs connect a handful of accessory sensors, power leads, and the starter wire. *In General*, on a MB wiring harness, plain brown is GND, plain red is +V, purple is starter circuit. 
 
 ![image](https://user-images.githubusercontent.com/17059674/177897778-0f450933-71eb-48d5-97cb-81741f11061e.png)
+
+
 Seen here is a 029 545 72 28 from a MY97 R129 SL320. 
 Purple wire on pin 13 is starter signal
 Blue/Yellow wire on pin 12 is A/C Compressor
 Blue/Green wire on pin 9 is a sensor on the Oil Filter housing
+Brn/Wht wire on pin 7 is GND
+Brn/Wht wire on pin 6 is ECM GND
+Black/Green wire on pin 3 is IGN +V
+Red/Green wire on pin 2 is VVT/Resonance Flap +V
+Red/Blue wire on pin 1 is INJ +V
+
+NB These plugs are not indicated on the wiring diagrams posted here.
 
