@@ -20,16 +20,14 @@ You can use rusEFI PC simulator to try rusEfi. PC simulator Windows binaries are
 
 2. Wasted and Sequential ignition on gasoline engines up to 12 cylinders.
 
-3. [Acceleration enrichment - wall wetting/fuel trip/tau factor.](wall_wetting)
+3. [Acceleration enrichment - wall wetting/fuel trip/tau factor.](X-tau-Wall-Wetting)
 
 4. And many more! See [rusEFI-project](rusEFI-project) for more details.
 
-**As of April 2020 rusEFI has not yet had following features:**
+**As of July 2022 rusEFI has not yet had following features:**
 1. rusEFI has not yet been used to manage a diesel engine.
 
-2. rusEFI has not yet been used to manage a direct injection gasoline engine.
-
-3. rusEFI has not yet been used to manage an automatic transmission.
+2. rusEFI has not yet been used to manage an automatic transmission.
 
 **These are all things that would be amazing to see! IF YOU have a project that includes any of those configurations or anything else, please jump in on the forums and we can work together to make it happen! 👍 
 
