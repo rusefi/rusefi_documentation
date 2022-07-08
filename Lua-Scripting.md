@@ -53,6 +53,12 @@ See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/gener
 
 ### `setBrakePedalState(value)`
 
+Use setBrakePedalState to tell rusEFI about CAN-based brake pedal.
+
+### `setAcRequestState(value)`
+
+Use setAcRequestState to tell rusEFI about CAN-based A/C request.
+
 ### ``setAcDisabled(value)``
 
 Disable/supress A/C functionality regardless of what and how enables it, an override kind of deal.
