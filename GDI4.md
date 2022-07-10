@@ -21,6 +21,7 @@
 
 rev C:
 * optional six channels
+* Low-side 1 output moved to PB8 to free analog input.
 
 rev B:
 * rev A with [#101](https://github.com/rusefi/rusefi-hardware/issues/101) fixed
