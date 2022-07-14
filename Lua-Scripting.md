@@ -153,6 +153,9 @@ Sets the rate at which rusEFI calls your `onTick` and `onCanRx` functions, in hz
 
 Stops MCU.
 
+### `findTableIndex(name)`
+Find table index by specified human-readable name.
+
 ### `table3d(tableIdx, x, y)`
 
 Looks up a value from the specified Script Table.
@@ -163,6 +166,9 @@ Looks up a value from the specified Script Table.
   - `y`: Y-axis value to look up in the table (this is often load)
 - Returns
   - A number representing the value looked up from the table.
+
+### `findCurveIndex(name)`
+Finds curve index by specific curve name
 
 ### `curve(curveIdx, x)`
 
