@@ -419,6 +419,9 @@ tps = getSensor("Tps1")
 
 dutyCycle = table3d(tableIndex, TurbochargerSpeed, tps)
 
+sparkCutCurve = findCurveIndex("sparkcut")
+sparkCutByTorque = curve(sparkCutCurve, torque)
+
 ```
 
 
