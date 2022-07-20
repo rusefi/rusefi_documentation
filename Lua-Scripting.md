@@ -209,7 +209,7 @@ Puts MCU into standby low current consumption mode.
 Reads the specified sensor.
 
 - Parameters
-  - `name`: Name of the sensor to read.  [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
+  - `name`: Name of the sensor to read.  [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 - Returns
   - A reading from the sensor, or `nil` if the sensor has a problem or isn't configured.
 
@@ -377,6 +377,12 @@ function onTick()
   txCan(1, 0x600, 1, txPayload)
 
 end
+```
+
+# set sensor value
+```
+vssSensor = Sensor.new("VSS");
+vssSensor.set(90)
 ```
 
 # CAN receive
