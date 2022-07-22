@@ -6,7 +6,7 @@ Overview of CAN usage and IDs used by rusEFI
 * rusEFI vehicle specific communication 
 * rusEFI ECU bootloader OpenBLT
 * rusEFI CAN GPIO
-* rusEFI [TS over CAN](TS-over-CAN)
+* rusEFI [TS over CAN](TS-over-CAN) 0x100 0x102
 
 
 # Hardware options
