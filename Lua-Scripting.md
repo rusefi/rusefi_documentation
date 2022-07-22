@@ -381,8 +381,14 @@ end
 
 # set sensor value
 ```
-vssSensor = Sensor.new("VSS");
-vssSensor.set(90)
+vssSensor = Sensor.new("VSS")
+function onTick()
+	vssSensor : set(90)
+	val = getSensor("VSS")
+	print ("VVS " ..getSensor("VSS"))
+end
+
+
 ```
 
 # CAN receive
