@@ -385,7 +385,7 @@ vssSensor = Sensor.new("VSS")
 function onTick()
 	vssSensor : set(90)
 	val = getSensor("VSS")
-	print ("VVS " ..getSensor("VSS"))
+	print ("VSS " ..getSensor("VSS"))
 end
 
 
