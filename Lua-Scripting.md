@@ -128,6 +128,21 @@ use enableCanTx(false) to suppress CAN TX
  - bus: hardware CAN bus index, only '1' on most rusEFI boards, '1' or '2' on Proteus
  - isExt: 0 for 11 bit mode
 
+### `canRxAdd(id)`
+### `canRxAdd(bus, id)`
+### `canRxAdd(id, callback)`
+### `canRxAdd(bus, id, callback)`
+
+### `canRxAddMask(id, mask)`
+### `canRxAddMask(bus, id, mask)`
+### `canRxAddMask(id, mask, callback)`
+### `canRxAddMask(bus, id, mask, callback)`
+
+- Parameters
+ - id: CAN ID to listen to.
+ - mask: Apply a mask to the received ID before comparing to the `id` parameter. For example, passing an id of `3` and mask of 0xFF will match any frame whose last 8 bits match `3`. If ommitted, no masking is applied before comparison, so only a single CAN ID will be received.
+ - bus: Hardware CAN bus index, only '1' on myst rusEFI boards, '1' or '2' on Proteus. If this parameter is omitted, messages will be received from all busses.
+ - callback: A the callback function to call when the specified ID is received. If this parameter is not passed, the default function `onCanRx` will be used.
 
 ## Utility
 
