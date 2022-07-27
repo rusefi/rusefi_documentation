@@ -82,8 +82,8 @@ Find User Setting with specified name and returns numeric value. Useful when scr
 different people, also useful while Lua script editing is available only in TS.
 
 - Parameters
- - `name`: Variable name, as in corresponding 'name' field in configuration
- - `dataultValue`: value to use if specified setting not located by name
+  - `name`: Variable name, as in corresponding 'name' field in configuration
+  - `dataultValue`: value to use if specified setting not located by name
 
 ## Engine Control
 
@@ -125,8 +125,8 @@ use enableCanTx(false) to suppress CAN TX
 
 ### `txCan(bus, ID, isExt, payload)`
 - Parameters
- - bus: hardware CAN bus index, only '1' on most rusEFI boards, '1' or '2' on Proteus
- - isExt: 0 for 11 bit mode
+  - bus: hardware CAN bus index, only '1' on most rusEFI boards, '1' or '2' on Proteus
+  - isExt: 0 for 11 bit mode
 
 ### `canRxAdd(id)`
 ### `canRxAdd(bus, id)`
@@ -139,10 +139,10 @@ use enableCanTx(false) to suppress CAN TX
 ### `canRxAddMask(bus, id, mask, callback)`
 
 - Parameters
- - id: CAN ID to listen to.
- - mask: Apply a mask to the received ID before comparing to the `id` parameter. For example, passing an id of `3` and mask of 0xFF will match any frame whose last 8 bits match `3`. If ommitted, no masking is applied before comparison, so only a single CAN ID will be received.
- - bus: Hardware CAN bus index, only '1' on myst rusEFI boards, '1' or '2' on Proteus. If this parameter is omitted, messages will be received from all busses.
- - callback: A the callback function to call when the specified ID is received. If this parameter is not passed, the default function `onCanRx` will be used.
+  - id: CAN ID to listen to.
+  - mask: Apply a mask to the received ID before comparing to the `id` parameter. For example, passing an id of `3` and mask of 0xFF will match any frame whose last 8 bits match `3`. If ommitted, no masking is applied before comparison, so only a single CAN ID will be received.
+  - bus: Hardware CAN bus index, only '1' on myst rusEFI boards, '1' or '2' on Proteus. If this parameter is omitted, messages will be received from all busses.
+  - callback: A the callback function to call when the specified ID is received. If this parameter is not passed, the default function `onCanRx` will be used.
 
 ## Utility
 
@@ -286,7 +286,7 @@ Valid `index` parameter values:
 
 Reads physical value of arbitrary MCU pin
 - Parameters
- - `pinName`: string name of MCU pin, for examples "PD15"
+  - `pinName`: string name of MCU pin, for examples "PD15"
 
 ## Output
 
