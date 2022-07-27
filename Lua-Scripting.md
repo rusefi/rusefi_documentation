@@ -140,9 +140,17 @@ use enableCanTx(false) to suppress CAN TX
 
 - Parameters
   - id: CAN ID to listen to.
-  - mask: Apply a mask to the received ID before comparing to the `id` parameter. For example, passing an id of `3` and mask of 0xFF will match any frame whose last 8 bits match `3`. If ommitted, no masking is applied before comparison, so only a single CAN ID will be received.
-  - bus: Hardware CAN bus index, only '1' on myst rusEFI boards, '1' or '2' on Proteus. If this parameter is omitted, messages will be received from all busses.
+  - mask: Apply a mask to the received ID before comparing to the `id` parameter. For example, passing an id of `3` and mask of 0xFF will match any frame whose last 8 bits match `3`. If ommitted, no masking is applied before comparison, so only a single CAN ID will be received. Use the mask to subscribe to multiple messages with similar IDs with a single call to `canRxAddMask`.
+  - bus: Hardware CAN bus index, only '1' on myst rusEFI boards, '1' or '2' on Proteus. If this parameter is omitted, messages will be received from any bus.
   - callback: A the callback function to call when the specified ID is received. If this parameter is not passed, the default function `onCanRx` will be used.
+
+Your CAN RX callback should look like this:
+
+```lua
+function onCanRx(bus, id, dlc, data)
+    -- Do things with CAN data!
+end
+```
 
 ## Utility
 
@@ -158,7 +166,7 @@ Print a line of text to the ECU's log.
 #### Usage example
 
 Program:
-```
+```lua
 n = 5.5
 print('Hello Lua, number is: ' ..n)
 ```
@@ -334,7 +342,7 @@ Set the duty cycle of the specified PWM channel.
 See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/bmw-idrive.txt
 
 # timer
-```
+```lua
 t = Timer.new();
 timingAdd = 0;
 
@@ -363,7 +371,7 @@ end
 
 
 # PWM
-```
+```lua
 -- index 0, 100Hz, zero duty inititally
 startPwm(0, 100, 0)
 
@@ -377,7 +385,7 @@ end
 ```
 
 # CAN transmit
-```
+```lua
 function onTick()
   tps = getSensor("CLT")
   print('TPS ' .. tps)
@@ -395,7 +403,7 @@ end
 ```
 
 # set sensor value
-```
+```lua
 vssSensor = Sensor.new("VSS")
 function onTick()
 	vssSensor : set(90)
@@ -407,7 +415,7 @@ end
 ```
 
 # CAN receive
-```
+```lua
 canRxAdd(0x500)
 canRxAdd(0x570)
 function onCanRx(bus, id, dlc, data)
@@ -424,7 +432,7 @@ end
 ```
 
 
-```
+```lua
 function decimalToHex(num)
 	if num == 0 then
 		return '0'
@@ -454,7 +462,7 @@ end
 ```
 
 # table
-```
+```lua
 tableIndex = findTableIndex("duty")
 
 TurbochargerSpeed = getSensor("TurbochargerSpeed")
