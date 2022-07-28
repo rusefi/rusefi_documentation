@@ -404,11 +404,11 @@ end
 
 # set sensor value
 ```lua
-vssSensor = Sensor.new("VSS")
+vssSensor = Sensor.new("VehicleSpeed")
 function onTick()
 	vssSensor : set(90)
-	val = getSensor("VSS")
-	print ("VSS " ..getSensor("VSS"))
+	val = getSensor("VehicleSpeed")
+	print ("VSS " .. val)
 end
 
 
