@@ -24,6 +24,9 @@
 
 ## Changelog
 
+rev D:
+ - SD card added
+
 rev C:
  - improved PCB shape
  - better thermal and overall simpler to solder
