@@ -109,6 +109,9 @@ todo: add a picture with board/TunerStudio config.
 | P41 | Analog pull up | | B, C |
 |   | **MCU** |   | |
 | J1 | SPI, UART/GPIO | See schematic for details | A,B,C |
+    
+NOTE: the Analog inputs can also be used as switched inputs! These can be configured for example clutch pedal switch or switch for launch control.
+    
 ### rusEFI WBO controller
 
 Since a narrow band lambda (O2 sensor) was used in the original ECU, Hellen includes an onboard wideband controller. A harness is needed to connect the lambda sensor, these lines are not possible to wire in to the car connector.
