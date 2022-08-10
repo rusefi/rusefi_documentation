@@ -1,3 +1,6 @@
+TL,DR: are you interested in any knowledge being indexed by google and are you interested in any knowledge outliving your rusEFI involvment?
+
+
 TL,DR: please post knowledge on forum and report issues at [https://github.com/rusefi/rusefi/issues](https://github.com/rusefi/rusefi/issues)
 
 (do we have this somewhere already?)
