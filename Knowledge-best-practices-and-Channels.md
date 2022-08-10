@@ -6,11 +6,12 @@ TL,DR: please post knowledge on forum and report issues at [https://github.com/r
 (do we have this somewhere already?)
 
 We have too many channels.
-* forum
 * wiki
+* github tickets
+* forum
 * facebook
 * slack
-* source code on github
+
 
 We do not pay for Slack history - Slack history is purged.
 
