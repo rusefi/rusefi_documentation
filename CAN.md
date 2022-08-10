@@ -5,7 +5,7 @@ Overview of CAN usage and IDs used by rusEFI
 * rusEFI WBO bootloader
 * rusEFI gauge broadcast 0x200 default base see https://github.com/rusefi/rusefi/tree/master/firmware/controllers/can
 * rusEFI vehicle specific communication 
-* rusEFI ECU bootloader OpenBLT
+* rusEFI ECU bootloader OpenBLT  TX 667h, RX 7E1h
 * rusEFI CAN GPIO
 * rusEFI [TS over CAN](TS-over-CAN) 0x100 0x102
 
