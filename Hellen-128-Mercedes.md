@@ -152,6 +152,8 @@ Hellen 128 was originally designed for M111 swaps into W201. Depending on the ye
 
 * Somewhere around 99 Mercedes has transitioned from just plain wires on C40 and D3 to CAN-bus starter security. For those later models one would have to simplify starter wiring and add a start button
 
+* M112 and M113 are also supported as long as you have those with the matching engine _harness_!
+
 * And obviously your engine harness should use <a href="Images/mercedes-128.png">this ME 2.0 style of plug</a> not <a href="Images/mercedes-134.png">this 134 pin style of plug</a>.
 
 ## Transmission Control
