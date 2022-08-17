@@ -1,5 +1,9 @@
 [AlphaX](https://www.alphaxpr.com/)
 
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_alphax-4chan.zip)
+
+[Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_alphax-4chan.zip)
+
 [Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-4chan/)
 
 [iBom rev C](https://rusefi.com/docs/ibom/alphax_4ch-c-ibom.html)
