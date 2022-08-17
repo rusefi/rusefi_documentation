@@ -1,8 +1,8 @@
 This development board is PnP for NA6 and 94-95 Miatas.
 
-[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_alphax-4chan.zip)
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
 
-[Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_alphax-4chan.zip)
+[Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellenNA6.zip)
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen64_miataNA6_94/)
 
