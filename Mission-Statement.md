@@ -8,4 +8,4 @@ See also [https://github.com/rusefi/rusefi/blob/master/misc/Strategy_2021.md](ht
 
 Interested to use? [Hardware](Hardware)
 
-Want to know more? See you on [rusEFI forum](https://rusefi.com/forum) and Slack.
+Want to know more? See you on [rusEFI forum](https://rusefi.com/forum) and [Slack](https://rusefi.com/forum/viewtopic.php?f=13&t=1198).
