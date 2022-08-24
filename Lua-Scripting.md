@@ -188,6 +188,10 @@ Sets the rate at which rusEFI calls your `onTick` and `onCanRx` functions, in hz
 
 Stops MCU.
 
+### `interpolate(x1, y1, x2, y2, x)`
+
+Interpolates `x` placing it on the line defined by (x1, y1) and (x2, y2)
+
 ### `findTableIndex(name)`
 Find table index by specified human-readable name.
 
