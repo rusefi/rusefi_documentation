@@ -807,6 +807,16 @@ Toyota Camry 2008 Yaris 2008
 
 Toyota/Lexus 2013
 
+## 186 pin small
+
+114+72
+
+Subaru 2018 2019 BRZ
+
+GR86
+
+Molex 5601381861 56013-81861
+
 ## 196 pin
 
 Delphi 35043766
