@@ -53,11 +53,16 @@ totalTcuMessages = 0
 function onMotor1(bus, id, dlc, data)
     engineTorque = getBitRange(data, 8, 8) * 0.39
     rpm = getBitRange(data, 16, 16) * 0.25
+    
+    innerTorqWithoutExt = getBitRange(data, 32, 8) * 0.4
     tps = getBitRange(data, 40, 8) * 0.4
+    
     torqueLoss = getBitRange(data, 48, 8) * 0.39
     requestedTorque = getBitRange(data, 56, 8) * 0.39
     
     print ('engineTorque ' .. engineTorque .. ' RPM ' .. rpm)
+    print ('innerTorqWithoutExt ' .. innerTorqWithoutExt .. ' tps ' .. tps)
+    
     print ('torqueLoss ' .. torqueLoss ' requestedTorque ' .. requestedTorque)
     
 end
