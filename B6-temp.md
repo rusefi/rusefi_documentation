@@ -1,5 +1,13 @@
 ```
 
+MOTOR_1 = 0x280
+MOTOR_3 = 0x380
+MOTOR_INFO = 0x580
+MOTOR_5 = 0x480
+MOTOR_6 = 0x488
+MOTOR_7 = 0x588
+
+
 function getBitRange(data, bitIndex, bitWidth)
 	byteIndex = bitIndex >> 3
 	shift = bitIndex - byteIndex * 8
