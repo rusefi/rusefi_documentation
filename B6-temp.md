@@ -85,7 +85,7 @@ function onMotor1(bus, id, dlc, data)
     print ('engineTorque ' .. engineTorque .. ' RPM ' .. rpm)
     print ('innerTorqWithoutExt ' .. innerTorqWithoutExt .. ' tps ' .. tps)
     
-    print ('torqueLoss ' .. torqueLoss ' requestedTorque ' .. requestedTorque)
+    print ('torqueLoss ' .. torqueLoss .. ' requestedTorque ' .. requestedTorque)
        
        txCan(TCU_BUS, id, 0, motor1Data) 
 end
