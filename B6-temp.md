@@ -21,6 +21,12 @@ ECU_BUS = 1
 -- really 'not ECU'
 TCU_BUS = 2
 
+function setTwoBytes(data, offset, value)
+		value = math.floor(value)
+		data[offset + 2] = value >> 8
+		data[offset + 1] = value & 0xff
+	end
+
 hexstr = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F" }
 
 function toHexString(num)
@@ -50,15 +56,31 @@ end
 totalEcuMessages = 0
 totalTcuMessages = 0
 
+motor1Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+
 function onMotor1(bus, id, dlc, data)
-    engineTorque = getBitRange(data, 8, 8) * 0.39
     rpm = getBitRange(data, 16, 16) * 0.25
-    
-    innerTorqWithoutExt = getBitRange(data, 32, 8) * 0.4
     tps = getBitRange(data, 40, 8) * 0.4
     
-    torqueLoss = getBitRange(data, 48, 8) * 0.39
-    requestedTorque = getBitRange(data, 56, 8) * 0.39
+    fakeTorque = interpolate(0, 6, 100, 60)
+    
+    -- engineTorque = getBitRange(data, 8, 8) * 0.39
+    -- innerTorqWithoutExt = getBitRange(data, 32, 8) * 0.4
+    -- torqueLoss = getBitRange(data, 48, 8) * 0.39
+    -- requestedTorque = getBitRange(data, 56, 8) * 0.39
+    
+    engineTorque = fakeTorque;
+    innerTorqWithoutExt = fakeTorque;
+    torqueLoss = 10;
+    requestedTorque = fakeTorque;
+    
+       	motor1Data[2] = engineTorque / 0.39
+	setTwoBytes(motor1Data, 2, rpm / 0.25)
+	motor1Data[5] = innerTorqWithoutExt / 0.4
+ 	motor1Data[6] = tps / 0.4
+	motor1Data[7] = torqueLoss / 0.39
+	motor1Data[8] = requestedTorque / 0.39
+   
     
     print ('engineTorque ' .. engineTorque .. ' RPM ' .. rpm)
     print ('innerTorqWithoutExt ' .. innerTorqWithoutExt .. ' tps ' .. tps)
