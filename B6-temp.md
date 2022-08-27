@@ -62,17 +62,17 @@ function onMotor1(bus, id, dlc, data)
     rpm = getBitRange(data, 16, 16) * 0.25
     tps = getBitRange(data, 40, 8) * 0.4
     
-    fakeTorque = interpolate(0, 6, 100, 60)
+    fakeTorque = interpolate(0, 6, 100, 60, tps)
     
     -- engineTorque = getBitRange(data, 8, 8) * 0.39
     -- innerTorqWithoutExt = getBitRange(data, 32, 8) * 0.4
     -- torqueLoss = getBitRange(data, 48, 8) * 0.39
     -- requestedTorque = getBitRange(data, 56, 8) * 0.39
     
-    engineTorque = fakeTorque;
-    innerTorqWithoutExt = fakeTorque;
-    torqueLoss = 10;
-    requestedTorque = fakeTorque;
+    engineTorque = fakeTorque
+    innerTorqWithoutExt = fakeTorque
+    torqueLoss = 10
+    requestedTorque = fakeTorque
     
        	motor1Data[2] = engineTorque / 0.39
 	setTwoBytes(motor1Data, 2, rpm / 0.25)
@@ -81,12 +81,13 @@ function onMotor1(bus, id, dlc, data)
 	motor1Data[7] = torqueLoss / 0.39
 	motor1Data[8] = requestedTorque / 0.39
    
-    
+    print ('fakeTorque ' .. fakeTorque)
     print ('engineTorque ' .. engineTorque .. ' RPM ' .. rpm)
     print ('innerTorqWithoutExt ' .. innerTorqWithoutExt .. ' tps ' .. tps)
     
     print ('torqueLoss ' .. torqueLoss ' requestedTorque ' .. requestedTorque)
-    
+       
+       txCan(TCU_BUS, id, 0, motor1Data) 
 end
 
 
