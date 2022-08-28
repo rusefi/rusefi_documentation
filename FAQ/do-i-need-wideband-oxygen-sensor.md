@@ -8,3 +8,5 @@ PS: if you are looking to debate or double-check anything here - please don't. Y
 ## Q: Shall I get Innovate wideband controller?
 
 A: rusEFI advices AGAINST Innovate wideband controllers.
+
+[WBO](WBO)
