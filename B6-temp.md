@@ -65,6 +65,7 @@ totalEcuMessages = 0
 totalTcuMessages = 0
 
 motor1Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 
 function onMotor1(bus, id, dlc, data)
     rpm = getBitRange(data, 16, 16) * 0.25
@@ -114,7 +115,12 @@ function onAnythingFromTCU(bus, id, dlc, data)
 end
 
 -- VAG Motor_1 just as example
- canRxAdd(ECU_BUS, 0x280, onMotor1)
+ canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
+ 
+-- canRxAdd(ECU_BUS, MOTOR_3, printAndDrop)
+-- canRxAdd(ECU_BUS, MOTOR_5, printAndDrop)
+-- canRxAdd(ECU_BUS, MOTOR_6, printAndDrop)
+-- canRxAdd(ECU_BUS, MOTOR_7, printAndDrop)
 
 -- last option: unconditional forward of all remaining messages
 canRxAddMask(ECU_BUS, 0, 0, onAnythingFromECU)
@@ -126,6 +132,12 @@ function onTick()
     if everySecondTimer:getElapsedSeconds() > 1 then
         everySecondTimer:reset()
         print("Total from ECU " .. totalEcuMessages .. " from TCU " .. totalTcuMessages)
+	
+	
+	    	canMotorInfo = (canMotorInfo + 1) % 8
+    	canMotorInfo[1] = 0x90 + (canMotorInfo * 2)
+--	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
+
     end
 end
 
