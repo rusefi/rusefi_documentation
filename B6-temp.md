@@ -127,6 +127,7 @@ canRxAddMask(ECU_BUS, 0, 0, onAnythingFromECU)
 canRxAddMask(TCU_BUS, 0, 0, onAnythingFromTCU)
 
 everySecondTimer = Timer.new()
+canMotorInfoCounter = 0
 
 function onTick()
     if everySecondTimer:getElapsedSeconds() > 1 then
@@ -134,9 +135,9 @@ function onTick()
         print("Total from ECU " .. totalEcuMessages .. " from TCU " .. totalTcuMessages)
 	
 	
-	    	canMotorInfo = (canMotorInfo + 1) % 8
-    	canMotorInfo[1] = 0x90 + (canMotorInfo * 2)
---	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
+		canMotorInfoCounter = (canMotorInfoCounter + 1) % 8
+		canMotorInfo[1] = 0x90 + (canMotorInfoCounter * 2)
+		--	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
 
     end
 end
