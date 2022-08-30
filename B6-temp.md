@@ -8,6 +8,18 @@ MOTOR_6 = 0x488
 MOTOR_7 = 0x588
 
 
+xorChecksum(data, targetIndex)        
+	local index = 1 
+	local result = 0 
+  while data[index] ~= nil do 
+	if index ~= targetIndex then 
+       result = result ~ data[index] 
+    end 
+	index = index + 1 
+  end 
+		return result  
+	end
+
 function getBitRange(data, bitIndex, bitWidth)
 	byteIndex = bitIndex >> 3
 	shift = bitIndex - byteIndex * 8
