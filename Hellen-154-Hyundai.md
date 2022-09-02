@@ -2,6 +2,8 @@
 
 [pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
 
+[[Schematics rev c]](Hardware/Hellen/hellen154hyundai-c-schematic.pdf)[[ibom rev c]](https://rusefi.com/docs/ibom/hellen154hyundai-c-ibom.html)
+
 [[Schematics rev b]](Hardware/Hellen/hellen154hyundai-b-schematic.pdf)[[ibom rev b]](https://rusefi.com/docs/ibom/hellen154hyundai-b-ibom.html)
 
 [fw snapshot](https://rusefi.com/build_server/rusefi_bundle_hellen154hyundai.zip)
