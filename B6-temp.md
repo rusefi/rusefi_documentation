@@ -8,17 +8,18 @@ MOTOR_6 = 0x488
 MOTOR_7 = 0x588
 
 
-xorChecksum(data, targetIndex)        
-	local index = 1 
-	local result = 0 
-  while data[index] ~= nil do 
-	if index ~= targetIndex then 
-       result = result ~ data[index] 
-    end 
-	index = index + 1 
-  end 
-		return result  
+function xorChecksum(data, targetIndex)
+	local index = 1
+	local result = 0
+	while data[index] ~= nil do
+		if index ~= targetIndex then
+			result = result ~ data[index]
+		end
+		index = index + 1
 	end
+	data[targetIndex] = result
+	return result
+end
 
 function getBitRange(data, bitIndex, bitWidth)
 	byteIndex = bitIndex >> 3
@@ -76,8 +77,11 @@ end
 totalEcuMessages = 0
 totalTcuMessages = 0
 
-motor1Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor1Data   = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
+canMotor3    = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+canMotor6    = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+canMotor7    = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 function onMotor1(bus, id, dlc, data)
     rpm = getBitRange(data, 16, 16) * 0.25
@@ -129,9 +133,9 @@ end
 -- VAG Motor_1 just as example
  canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
  
--- canRxAdd(ECU_BUS, MOTOR_3, printAndDrop)
+ canRxAdd(ECU_BUS, MOTOR_3, printAndDrop)
 -- canRxAdd(ECU_BUS, MOTOR_5, printAndDrop)
--- canRxAdd(ECU_BUS, MOTOR_6, printAndDrop)
+ canRxAdd(ECU_BUS, MOTOR_6, printAndDrop)
 -- canRxAdd(ECU_BUS, MOTOR_7, printAndDrop)
 
 -- last option: unconditional forward of all remaining messages
