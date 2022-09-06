@@ -21,6 +21,21 @@ function xorChecksum(data, targetIndex)
 	return result
 end
 
+function setBitRange(data, totalBitIndex, bitWidth, value) 
+	local byteIndex = totalBitIndex >> 3 
+	local bitInByteIndex = totalBitIndex - byteIndex * 8 
+	if (bitInByteIndex + bitWidth > 8) then 
+		bitsToHandleNow = 8 - bitInByteIndex 
+		setBitRange(data, totalBitIndex + bitsToHandleNow, bitWidth - bitsToHandleNow, value >> bitsToHandleNow) 
+		bitWidth = bitsToHandleNow
+	end 
+	mask = (1 << bitWidth) - 1 
+	data[1 + byteIndex] = data[1 + byteIndex] & (~(mask << bitInByteIndex)) 
+	maskedValue = value & mask 
+	shiftedValue = maskedValue << bitInByteIndex 
+	data[1 + byteIndex] = data[1 + byteIndex] | shiftedValue 
+end 
+
 function getBitRange(data, bitIndex, bitWidth)
 	byteIndex = bitIndex >> 3
 	shift = bitIndex - byteIndex * 8
