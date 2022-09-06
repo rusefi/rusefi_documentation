@@ -80,8 +80,8 @@ totalTcuMessages = 0
 motor1Data   = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotor3    = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
-canMotor6    = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
-canMotor7    = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor6Data    = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor7Data    = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 function onMotor1(bus, id, dlc, data)
     rpm = getBitRange(data, 16, 16) * 0.25
@@ -115,6 +115,18 @@ function onMotor1(bus, id, dlc, data)
        txCan(TCU_BUS, id, 0, motor1Data) 
 end
 
+function onMotor3(bus, id, dlc, data)
+	iat = getBitRange(data, 8, 8) * 0.75 - 48
+	pps = getBitRange(data, 16, 8) * 0.40
+	tps = getBitRange(data, 56, 8) * 0.40
+	print ('pps ' .. pps .. ' tps ' .. tps .. ' iat ' .. iat)
+
+ 		canMotor3[2] = (iat + 48) / 0.75
+		canMotor3[3] = tps / 0.4
+		canMotor3[5] = 0x22
+ 		canMotor3[8] = tps / 0.4
+		txCan(TCU_BUS, id, 0, canMotor3) 
+end
 
 function printAndDrop(bus, id, dlc, data)
     print('Dropping ' ..arrayToString(data))
@@ -133,8 +145,9 @@ end
 -- VAG Motor_1 just as example
  canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
  
- canRxAdd(ECU_BUS, MOTOR_3, printAndDrop)
+ canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 -- canRxAdd(ECU_BUS, MOTOR_5, printAndDrop)
+ canRxAdd(ECU_BUS, MOTOR_INFO, printAndDrop)
  canRxAdd(ECU_BUS, MOTOR_6, printAndDrop)
 -- canRxAdd(ECU_BUS, MOTOR_7, printAndDrop)
 
@@ -146,18 +159,16 @@ everySecondTimer = Timer.new()
 canMotorInfoCounter = 0
 
 function onTick()
-    if everySecondTimer:getElapsedSeconds() > 1 then
-        everySecondTimer:reset()
-        print("Total from ECU " .. totalEcuMessages .. " from TCU " .. totalTcuMessages)
-	
-	
+	if everySecondTimer : getElapsedSeconds() > 1 then
+		everySecondTimer : reset()
+		print("Total from ECU " ..totalEcuMessages .." from TCU " ..totalTcuMessages)
+
+
 		canMotorInfoCounter = (canMotorInfoCounter + 1) % 8
-		canMotorInfo[1] = 0x90 + (canMotorInfoCounter * 2)
-		--	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
+		motor7Data[1] = 0x90 + (canMotorInfoCounter * 2)
+		txCan(1, MOTOR_INFO, 0, motor7Data)
 
-    end
+	end
 end
-
-
 
 ```
