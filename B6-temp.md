@@ -138,7 +138,8 @@ function onMotor3(bus, id, dlc, data)
 
  		canMotor3[2] = (iat + 48) / 0.75
 		canMotor3[3] = tps / 0.4
-		canMotor3[5] = 0x22
+		canMotor3[5] = 0x20
+		setBitRange(canMotor3, 24, 12, math.floor(desired_wheel_torque / 0.39))
  		canMotor3[8] = tps / 0.4
 		txCan(TCU_BUS, id, 0, canMotor3) 
 end
