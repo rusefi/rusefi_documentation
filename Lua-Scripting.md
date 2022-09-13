@@ -343,10 +343,6 @@ Set the duty cycle of the specified PWM channel.
 
 ## Examples
 
-# BMW iDrive
-
-See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/bmw-idrive.txt
-
 # timer
 ```lua
 t = Timer.new();
@@ -483,5 +479,16 @@ sparkCutByTorque = curve(sparkCutCurve, torque)
 
 
 ## See also
+
+# BMW iDrive
+
+See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/bmw-idrive.txt
+
+More examples at https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/
+
+See also a library for CAN data manipulation https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/lua_lib.h
+
+See also test driven development approach https://github.com/rusefi/rusefi/tree/master/unit_tests/tests/lua
+
 
 [Lua Ternary Operator](http://lua-users.org/wiki/TernaryOperator)
