@@ -150,6 +150,8 @@ function onMotor3(bus, id, dlc, data)
 end
 
 function onMotor5(bus, id, dlc, data)
+	setBitRange(motor5Data, 5, 9, fuelCounter)
+	xorChecksum(motor5Data, 8)
 	txCan(TCU_BUS, id, 0, motor5Data)
 end
 
@@ -171,7 +173,7 @@ end
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 
 canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
-canRxAdd(ECU_BUS, MOTOR_5, onMotor3)
+canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
 canRxAdd(ECU_BUS, MOTOR_INFO, printAndDrop)
 canRxAdd(ECU_BUS, MOTOR_6, printAndDrop)
 canRxAdd(ECU_BUS, MOTOR_7, printAndDrop)
