@@ -97,8 +97,10 @@ setSparkSkipRatio(0.5) would skip half of ignition events. We never skip two con
 ### `setIdleAdd`
 
 ### `setFuelAdd`
+Sorry not finished :(
 
 ### `setFuelMult`
+Sorry not finished :(
 
 ### `setBoostAdd`
 Additive for closed loop target boost pressure.
