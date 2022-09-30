@@ -260,7 +260,7 @@ Some older German vehicles
 
 ## Ford PIP
 
-![Ford PIP](Images/triggers/trigger_65.png)
+![Ford PIP](Images/triggers/trigger_TT_FORD_TFI_PIP.png)
 
 
 
