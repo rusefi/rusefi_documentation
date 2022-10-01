@@ -13,8 +13,8 @@
 [Issue tracker & hardware files](https://github.com/rusefi/alphax-4chan)
 
 * 4 injector channels
-* 5 auxiliary low side outputs up to 5A
 * 4 logic level coil control 
+* 5 auxiliary low side outputs up to 5A
 * 2 VR inputs
 * 3 Hall inputs
 * CAN
