@@ -18,7 +18,7 @@
 * 2 VR inputs
 * 3 Hall inputs
 * CAN
-* ETB
+* Single ETB
 * one channel knock input
 * Bluetooth
 
