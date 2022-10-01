@@ -3,6 +3,8 @@
 
 * 8 HighZ injector channels
 * 8 logic level coil control
+* 2 VR inputs
+* 5 Hall inputs
 * Dual channel knock input
 * Dual on-board WBO controller
 * Bluetooth
