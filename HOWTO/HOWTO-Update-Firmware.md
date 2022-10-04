@@ -5,7 +5,7 @@
 ## Windows:
 Launch [rusEFI Console](Console). You can find it in the bundle you downloaded, in the "console" folder.
 
-Click the "Update Firmware" button.
+Click the "Update Firmware" button once you've picked desired update mode.
 
 ## Linux:
 The canonical way to update the firmware on Linux is with DFU.
