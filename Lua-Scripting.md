@@ -167,6 +167,13 @@ Print a line of text to the ECU's log.
 - Returns
   - none
 
+### `vin(index)`
+ 
+Return VIN setting character at specified index
+
+- Parameters
+  - index: zero-based index
+
 #### Usage example
 
 Program:
