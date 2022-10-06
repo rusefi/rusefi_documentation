@@ -236,10 +236,6 @@ See also [Universal True 60/2](All-Supported-Triggers#602)
 
 ![Toyota 2JZ 3/34](Images/triggers/trigger_25.png)
 
-1/12 version
-
-![Toyota 2JZ 1/12](Images/triggers/trigger_29.png)
-
 ## VVT 3-0 "VVT: 2JZ"
 
 ![1+60/2](Images/triggers/trigger_17.png)
