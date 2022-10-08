@@ -30,6 +30,11 @@ A: VND14NV04TR-E 93mJ 18A. In terms of current and switching energy those could 
 
 ## Changelog
 
+rev D:
+September 2022
+ - crank/cam test pads https://github.com/rusefi/alphax-2chan/issues/63
+ - TSOP-10 TLS115 https://github.com/rusefi/alphax-2chan/issues/64
+
 rev C:
  - pull-down fixed https://github.com/rusefi/alphax-2chan/issues/40
  - affected by BOM issue p-channel mosfet https://github.com/rusefi/alphax-2chan/issues/53
