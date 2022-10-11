@@ -3,7 +3,7 @@ Overview of CAN usage and IDs used by rusEFI
 
 * rusEFI WBO two way communication 0xEF50000 0x190
 * rusEFI WBO bootloader
-* rusEFI gauge broadcast 0x200 default base see https://github.com/rusefi/rusefi/tree/master/firmware/controllers/can
+* rusEFI gauge broadcast 0x200 default base see [DBC](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/can/rusEFI_CAN_verbose.dbc)
 * rusEFI vehicle specific communication 
 * rusEFI ECU bootloader OpenBLT  TX 667h, RX 7E1h
 * rusEFI CAN GPIO
