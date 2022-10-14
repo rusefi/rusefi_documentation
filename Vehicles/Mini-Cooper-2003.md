@@ -1,3 +1,5 @@
+CAN bus notes see https://rusefi.com/forum/viewtopic.php?f=5&t=473
+
 
 ![Connector Face](OEM-Docs/TE/Connector_121_pinout.jpg)
 
