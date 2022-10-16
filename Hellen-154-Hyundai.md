@@ -28,3 +28,17 @@ the thing is, the harness changes slightly between the years
 
 
 ![x](Hardware/Hellen/hellen154hyundai-rev-b.jpg)
+
+
+## Changelog
+
+# Rev C
+
+* Molex Aux connector
+* ETB issue fixed
+
+
+# Rev B
+
+* It's alive
+* ETB requires a hardware mod
