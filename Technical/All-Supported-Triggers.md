@@ -49,6 +49,8 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 
 <a name="honda"/>
 
+[temporary link for Honda 12](https://github.com/rusefi/rusefi_documentation/issues/227)
+
 ## Honda K 1/12
 
 ![x](Images/triggers/trigger_46.png)
