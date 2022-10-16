@@ -57,10 +57,6 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 
 ![x](Images/triggers/trigger_67.png)
 
-## Honda 1+24
-
-![x](Images/triggers/trigger_21.png)
-
 ## Honda CBR600
 
 ![Honda CBR600](Images/triggers/trigger_28.png)
