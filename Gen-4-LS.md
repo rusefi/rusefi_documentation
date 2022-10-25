@@ -37,3 +37,6 @@ https://github.com/rusefi/rusefi/wiki/GM-E67
 ![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-4.png)
 
 ![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-5.png)
+
+
+See also [Gen-5-LS](Gen-5-LS)
