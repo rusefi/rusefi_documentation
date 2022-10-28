@@ -435,12 +435,11 @@ canRxAdd(0x500)
 canRxAdd(0x570)
 function onCanRx(bus, id, dlc, data)
 	print('got CAN id=' ..id ..' dlc=' ..dlc)
-	id11 = id % 2048
-	if id11 == 0x500 then
+	if id == 0x500 then
 		-- Check can state of BCM
 		canState = data[1]
 	end
-	if id11 == 0x570 then
+	if id == 0x570 then
 		mcu_standby()
 	end
 end
