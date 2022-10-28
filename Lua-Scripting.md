@@ -414,6 +414,7 @@ end
 ```
 
 # set sensor value
+ [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 ```lua
 vssSensor = Sensor.new("VehicleSpeed")
 function onTick()
