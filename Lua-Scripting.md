@@ -418,9 +418,12 @@ end
 ```lua
 vssSensor = Sensor.new("VehicleSpeed")
 function onTick()
-	vssSensor : set(90)
-	val = getSensor("VehicleSpeed")
-	print ("VSS " .. val)
+	injectedVssValue = 123.4;
+	vssSensor : set(injectedVssValue)
+	-- here we would read the value we have just injected into the sensor. 
+	valFromSensor = getSensor("VehicleSpeed")
+        -- we expect output to be "VSS 123.4"
+	print ("VSS " .. valFromSensor)
 end
 
 
