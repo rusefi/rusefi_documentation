@@ -313,6 +313,10 @@ Reads physical value of arbitrary MCU pin
 
 ## Output
 
+### `selfStimulateRPM(rpm)`
+
+Positive value would start clicking injectors at specified RPM, zero value would stop self-stimulation.
+
 ### `startPwm(index, frequency, duty)`
 
 Initializes PWM on the specified index, starting at the specified frequency and duty cycle.  The index selects which config field pin to use, see "Lua PWM Outputs" page in TunerStudio.
