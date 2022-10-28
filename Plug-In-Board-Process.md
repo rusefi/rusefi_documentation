@@ -6,7 +6,7 @@ have wiring diagrams in random loose format: pictures, scans, PDF, text.
 # Step 2 Data Entry
 have ECU connector pinout in google spreadsheet form, with explicit function of each pin, often with analysis of multiple vehicles with similar pinout. [Good example](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
 
-# Step 3 breakout
+# Step 3 Breakout
 Break board for that connector to reduce risks, also a product by itself!
 
 # Step 4 Start of KiCAD
