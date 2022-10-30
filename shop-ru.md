@@ -1,10 +1,6 @@
-[Avito Proteus](https://www.avito.ru/sankt-peterburg/zapchasti_i_aksessuary/rusefi_blok_upravleniya_dvigatelem_proteus_2448451820)
-
-[Avito microRusEFI](https://www.avito.ru/sankt-peterburg/zapchasti_i_aksessuary/rusefi_blok_upravleniya_dvs_microrusefi_2448286894)
-
 Hellen? сложнее, надо писать в [чатик](https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB)
 
-Тут у нас русская версия [https://shop.rusefi.com/](https://shop.rusefi.com/) - Авито по плану в мае 2022
+Тут у нас русская версия [https://shop.rusefi.com/](https://shop.rusefi.com/) - Авито всё сложно
 
 У нас есть собранные microRusEFI в Питере. https://rusefi.com/index.html#microrusefi
 
