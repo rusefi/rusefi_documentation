@@ -11,10 +11,19 @@
 
 [Issue Tracker](https://github.com/rusefi/hellen121nissan-issues/issues)
 
-[Schematics rev B](Hardware/Hellen/hellen121nissan-b-schematic.pdf) 
+[Schematics rev D](Hardware/Hellen/hellen121nissan-d-schematic.pdf)
+
+
 [Schematics rev С](Hardware/Hellen/hellen121nissan-c-schematic.pdf)
 
-[ibom rev B](https://rusefi.com/docs/ibom/hellen121nissan-b-ibom.html) [ibom rev С](https://rusefi.com/docs/ibom/hellen121nissan-C-ibom.html)
+[Schematics rev B](Hardware/Hellen/hellen121nissan-b-schematic.pdf) 
+
+
+[ibom rev D](https://rusefi.com/docs/ibom/hellen121nissan-d-ibom.html)
+
+[ibom rev С](https://rusefi.com/docs/ibom/hellen121nissan-c-ibom.html)
+
+[ibom rev B](https://rusefi.com/docs/ibom/hellen121nissan-b-ibom.html)
 
 [Nissan-Xterra-2011](Nissan-Xterra-2011)
 
