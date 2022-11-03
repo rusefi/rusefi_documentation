@@ -463,10 +463,11 @@ Dodge Hemi
 Chrysler
 
 header 
-13784962 grey
+13784962 grey Micro HVT
 
 13784963 brown
 
+13784964 green
 
 
 harness side 1924939-1 [3-1924939-5](https://www.te.com/usa-en/product-3-1924939-5.html) [1924941-2](https://www.te.com/usa-en/product-1924941-2.html)
