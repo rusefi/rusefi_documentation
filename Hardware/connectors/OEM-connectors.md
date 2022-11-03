@@ -458,6 +458,9 @@ maybe not used by OEM but relayed to 72 pin NB2
 
 ## 96 pin
 
+Dodge Hemi
+
+Chrysler
 
 header 
 13784962 grey
