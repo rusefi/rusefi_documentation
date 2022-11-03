@@ -1,6 +1,6 @@
 [Schematics rev b](Hardware/Hellen/hellen-gm-e67-b-schematic.pdf) [iBom rev b](https://rusefi.com/docs/ibom/hellen-gm-e67-b-ibom.html)
 
-
+[Issue Tracker](https://github.com/rusefi/hellen-gm-e67-issues)
 
 ![image](https://user-images.githubusercontent.com/48498823/175112155-b0a7f661-4288-444e-8ac2-c9e3f5ee2f2c.png)
 
