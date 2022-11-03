@@ -456,6 +456,19 @@ maybe not used by OEM but relayed to 72 pin NB2
 24 position for PN# 353029-1
 31 position for PN# 353031-1
 
+## 96 pin
+
+
+header 
+13784962 grey
+
+13784963 brown
+
+
+
+harness side 1924939-1 [3-1924939-5](https://www.te.com/usa-en/product-3-1924939-5.html) [1924941-2](https://www.te.com/usa-en/product-1924941-2.html)
+
+
 ## 100 pin
 
 34-22-16-28 pins
