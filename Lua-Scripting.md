@@ -421,6 +421,8 @@ end
  [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 ```lua
 vssSensor = Sensor.new("VehicleSpeed")
+-- any value would be considered valid for three seconds
+vssSensor:setTimeout(3000)
 function onTick()
 	injectedVssValue = 123.4;
 	vssSensor : set(injectedVssValue)
