@@ -1,14 +1,16 @@
 We can develop and fabricate a Standalone PnP ECU board* for more or less any gasoline engine.
 
+TL,DR: design services start at $10K, two iterations/ten units included.
 
-* two months turn around time
+
 * up to dual ETB
 * up to 16 injectors
 * up to 16 coil drivers
 * CAN programming of whatever packets as long as you know what packets are needed
 * new or used main connector, depending on availability
-* shape matching OEM case if desired
+* fits into OEM case if desired
 * interested in GDI? Let's talk!
+* four months turn around time
 
 Powered by [Hellen One Platform](Hellen-One-Platform)
 
