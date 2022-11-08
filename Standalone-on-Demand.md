@@ -1,6 +1,5 @@
-We can develop and fabricate a Standalone PnP ECU board* for more or less any port injected gasoline engine for $1100.
+We can develop and fabricate a Standalone PnP ECU board* for more or less any gasoline engine.
 
-(well, minimal order of five required so minimal order price $5500, additional boards $400)
 
 * two months turn around time
 * up to dual ETB
@@ -9,7 +8,6 @@ We can develop and fabricate a Standalone PnP ECU board* for more or less any po
 * CAN programming of whatever packets as long as you know what packets are needed
 * new or used main connector, depending on availability
 * shape matching OEM case if desired
-* if we mess up second round is on us!
 * interested in GDI? Let's talk!
 
 Powered by [Hellen One Platform](Hellen-One-Platform)
@@ -41,11 +39,11 @@ A: We cannot guarantee a turn key product without a test mule at our disposal in
 
 ## Q: I want a turn key solution?
 
-A: We have not done that yet, that would be more money :( Step one would be to have a test mule purchased in NJ, USA. Rougthly please expect test mule cost and $11K on top of that, and that's just a wild guess - we have no tried that yet, some modern vehicle with too much CAN would be more for sure.
+A: A test mule would be needed in NJ, USA.
 
 ## Q: Do I get all fabrication files?
 
-A: Yes, you get all files for full control to change or fabricate additional boards independently.
+A: We offer open source, per-board license and full design buy-in options.
 
 
 See also [Plug-In-Board-Process](Plug-In-Board-Process)
