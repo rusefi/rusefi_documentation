@@ -10,7 +10,10 @@ Please also read the section [Here.](D-is-for-DISTRACTION). And maybe even [Know
 
 #### Joining the channel
 
-To get started you'll have to get the invite to our channel, you can do that [here](https://rusefi.com/slack/).
+NEW LINK [https://join.slack.com/t/rusefi/shared_invite/zt-1jay59c0l-idseNjIRg~gU1GNQuimYQw](https://join.slack.com/t/rusefi/shared_invite/zt-1jay59c0l-idseNjIRg~gU1GNQuimYQw)
+
+
+To get started you'll have to get the invite to our channel, you can do that using the link above.
 
 ![invite](FAQ/images/HOWTO_join_rusEFI_slack_channel/slack_channel_invite.png) 
 
