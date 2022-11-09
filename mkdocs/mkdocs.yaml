@@ -59,7 +59,7 @@ nav:
     - 'Boards':
       - 'Hellen': Hellen-One-Platform
       - 'Proteus': Hardware/Proteus/Proteus
-      - 'microRusEFI': Hardware/microRusEFI/Hardware-microRusEFI
+      - 'MicroRusEFI (MRE)': Hardware/microRusEFI/Hardware-microRusEFI
       - 'Frankenso': Hardware/Frankenso/Hardware-Frankenso
       - 'Frankenstein': Hardware/Frankenstein/Hardware-Frankenstein
     - 'Plug & Play Hardware':
