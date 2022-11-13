@@ -1,10 +1,10 @@
 GM uses SENT since 2015ish and Ford uses SENT ETBs/DBW since around 2019ish.
 
-Large Ford 0280750688 including Godzilla.
+Large Ford 0280750688 2019 Mustang and Godzilla.
 
-Large GM
+Large GM 12617792 for instance 2014-2019 Chevrolet Silverado 1500 Throttle Body
 
-Smaller GM 12639457AA which seems to point me at 2012 Buick regal. Opel Insignia 2.0 turbo A20NFT.
+Smaller GM 12639457AA for instance 2012 Buick regal and Opel Insignia 2.0 turbo A20NFT.
 
 All three use same pinout with different colors obviously.
 
@@ -25,6 +25,12 @@ All three use same pinout with different colors obviously.
 
 
 
+# Harness
 
+harness side connector TE 1-1419168-1
+pins 1393365-2
+kit https://www.bmotorsports.com/shop/product_info.php/products_id/4479
 
-[https://github.com/rusefi/rusefi_documentation/blob/master/PDFs/SAE%20J2716-2016.pdf](SAE J2716-2016.pdf) is standard.
+# Protocol
+
+[SAE J2716-2016.pdf](https://github.com/rusefi/rusefi_documentation/blob/master/PDFs/SAE%20J2716-2016.pdf) is standard.
