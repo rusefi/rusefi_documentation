@@ -31,6 +31,9 @@ harness side connector TE 1-1419168-1
 pins 1393365-2
 kit https://www.bmotorsports.com/shop/product_info.php/products_id/4479
 
-# Protocol
 
-[SAE J2716-2016.pdf](https://github.com/rusefi/rusefi_documentation/blob/master/PDFs/SAE%20J2716-2016.pdf) is standard.
+# See also 
+
+https://github.com/rusefi/rusefi/labels/SENT-protocol for dev notes.
+
+[SAE J2716-2016.pdf](https://github.com/rusefi/rusefi_documentation/blob/master/PDFs/SAE%20J2716-2016.pdf) is the standard.
