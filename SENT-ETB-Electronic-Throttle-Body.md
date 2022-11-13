@@ -33,4 +33,4 @@ kit https://www.bmotorsports.com/shop/product_info.php/products_id/4479
 
 # Protocol
 
-[https://github.com/rusefi/rusefi_documentation/blob/master/PDFs/SAE%20J2716-2016.pdf](SAE J2716-2016.pdf) is standard.
+[SAE J2716-2016.pdf](https://github.com/rusefi/rusefi_documentation/blob/master/PDFs/SAE%20J2716-2016.pdf) is standard.
