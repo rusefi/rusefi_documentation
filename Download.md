@@ -43,3 +43,10 @@ rusEFI offers complete software download bundles for multiple supported microcon
 [Choose Your Own Adventure](Try-It)
 
 [Virtual Simulator](Virtual-simulator)
+
+
+## FAQ
+
+# Q: I see something interesting was just changed in the firmware? How do I use latest version?
+
+A: Most snapshot builds take about 30 minutes to get updated on at [Snapshot builds](https://rusefi.com/build_server/)
