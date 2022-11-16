@@ -157,6 +157,10 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ![x](Images/triggers/trigger_6.png)
 
+## Benelli Tre
+
+![x](Images/triggers/trigger_TT_BENELLI_TRE.png)
+
 ## Ford ST170
 
 ![x](Images/triggers/trigger_42.png)
