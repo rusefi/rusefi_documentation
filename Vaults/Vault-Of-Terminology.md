@@ -136,6 +136,12 @@ a pushpull or HighLow is an output that is powered "high" (12v or 5v) and switch
 High and low resistance, used in terms of fuel injectors, normally around 14 ohms for high impedance and ~4 ohms for low.
 </details>
 
+
+<details><summary><u>IAT</u></summary>
+
+Intake Air Temperature
+</details>
+
 <details><summary><u>IFR</u></summary>
 
 Injector Flow Rate
