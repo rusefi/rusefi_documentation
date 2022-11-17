@@ -55,7 +55,7 @@ After download, install it, then run the configuration application "HW Virtual S
 Now you can create your virtual port.
 
 ![Virtual_port_start](FAQ/images/simulator/Virtual_port_start.png)
-HW 
+
 So now if you open the communication settings in Tunerstudio,
 
 ![Commsettings](FAQ/images/simulator/Tunerstudio_comm._settings.png)
@@ -81,7 +81,7 @@ and
 
 `telnet localhost 29002`
 
-to make sure that TS protocol is alive.
+to make sure that Tunerstudio protocol is alive.
 
 Expected behavior is that connection would be established. If it does not, you might need to look in firewall settings. 
 
