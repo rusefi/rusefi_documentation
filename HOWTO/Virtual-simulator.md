@@ -42,7 +42,11 @@ choose the driver "Standard Protocols Driver" and connection type "TCP/IP - WiFi
 
 ## Emulating a serial port to connect to Tunerstudio lite
 
-If you prefer using the free version of Tunerstudio - Tunerstudio lite -  you'll need to install a serial port emulator from [here](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port#download). You'll need to emulate a port on your PC. The only thing that you'll need to do is to choose a port name, COM100 for example, and to change the port address to 29002.
+If you prefer using the free version of Tunerstudio - Tunerstudio lite -  you'll need to install a serial port emulator 
+from [here](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port#download). 
+After download, install it, then run the configuration application "HW Virtual Serial Port".
+- switch from "read only access" to "admin access" by clicking "Login" button
+- choose a port name, COM100 for example, and change the port address to 29002.
 
 
 
@@ -77,7 +81,7 @@ and
 
 `telnet localhost 29002`
 
-to make sure that TS protocol is alive.
+to make sure that Tunerstudio protocol is alive.
 
 Expected behavior is that connection would be established. If it does not, you might need to look in firewall settings. 
 
