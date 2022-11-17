@@ -243,6 +243,12 @@ A proportional–integral–derivative controller
 Plug and play  
 </details>
 
+<details><summary><u>PPS</u></summary>
+
+Pedal Position Sensor
+</details>
+
+
 <details><summary><u>Primary Coil</u></summary>
 
 The primary winding of an ignition coil  
@@ -323,6 +329,11 @@ small outline integrated circuit
 <details><summary><u>TDC</u></summary>
 
 Top Dead Center
+</details>
+
+<details><summary><u>TPS</u></summary>
+
+Throttle Position Sensor
 </details>
 
 <details><summary><u>TE</u></summary>
