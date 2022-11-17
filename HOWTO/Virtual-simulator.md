@@ -34,7 +34,7 @@ With the paid version all you need to do is to go into the communication setting
  ![Commsetings](FAQ/images/simulator/Tunerstudio_comm._settings.png)
  
  
-choose the USB and wireless driver and the WiFi driver connection type, write the Port as 29002 and the IP address as 127.0.0.1
+choose the driver "Standard Protocols Driver" and connection type "TCP/IP - WiFi driver", enter the Port as "29002" and the IP address as "localhost" (aka 127.0.0.1)
  
  ![Communication_settings](FAQ/images/simulator/Communication_settings_direct.png)
  
