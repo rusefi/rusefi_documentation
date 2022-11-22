@@ -570,6 +570,8 @@ me17.3.0
 
 1 928 405 216 Bosch
 
+harness side 1928405160
+
 ## 120 pin
 
 [TE 1-178405-6](http://www.te.com/usa-en/product-1-178405-6.html)
