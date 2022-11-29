@@ -31,6 +31,17 @@ Bosch 0280750074 68mm
 
 ![](https://user-images.githubusercontent.com/5051341/127017376-9012525b-92cd-4bb0-8a1d-1b70946396a1.JPG)
 
+# Toyota
+
+![image](https://user-images.githubusercontent.com/48498823/204656477-c55242ef-56f5-4e48-8fa2-973816feee5e.png)
+
+1. Motor-
+2. Motor+
+3. E2 Sensor ground
+4. VTA2 TPS Sub
+5. Vc 5V
+6. VTA1 TPS Main
+
 # Nissan
 
 Hitachi SERA576-01 60mm diameter
