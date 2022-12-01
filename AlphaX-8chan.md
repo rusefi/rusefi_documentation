@@ -3,6 +3,7 @@
 
 * 8 HighZ injector channels
 * 8 logic level coil control
+* 4 H-bridges
 * 2 VR inputs
 * 5 Hall inputs
 * Dual channel knock input
