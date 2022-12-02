@@ -209,6 +209,9 @@ Chrysler NGC 6 cylinder
 
 ## Nissan
 
+QR25
+![x](Images/triggers/trigger_TT_NISSAN_QR25.png)
+
 VQ35
 ![x](Images/triggers/trigger_TT_NISSAN_VQ35.png)
 ![x](Images/triggers/trigger_TT_VVT_NISSAN_VQ35.png)
