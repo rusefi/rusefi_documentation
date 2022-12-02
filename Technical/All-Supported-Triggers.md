@@ -209,12 +209,18 @@ Chrysler NGC 6 cylinder
 
 ## Nissan
 
-QR25
+QR25 crank
 ![x](Images/triggers/trigger_TT_NISSAN_QR25.png)
 
-VQ35
+QR/MR cam
+![x](Images/triggers/trigger_TT_NISSAN_MR18_CAM_VVT.png)
+
+VQ35 crank
 ![x](Images/triggers/trigger_TT_NISSAN_VQ35.png)
+VQ cam
 ![x](Images/triggers/trigger_TT_VVT_NISSAN_VQ35.png)
+
+
 
 
 VQ30
