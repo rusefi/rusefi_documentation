@@ -22,6 +22,6 @@
 |A Wire    | [4-1437290-0](https://www.te.com/usa-en/product-4-1437290-0.html)  | 
 |B Wire   | [3-1437290-7](https://www.te.com/usa-en/product-3-1437290-7.html)  |   
 |C Wire   |[4-1437290-1](https://www.te.com/usa-en/product-4-1437290-1.html)   | 
-|D Wire   | [3-1437290-8]()  | 
+|D Wire   | [3-1437290-8](https://www.te.com/usa-en/product-3-1437290-8.html)  | 
 
 
