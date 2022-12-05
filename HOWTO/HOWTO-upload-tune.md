@@ -1,6 +1,6 @@
 # HOWTO Upload a Tune
 
-We are only starting so some usability would be less than perfect in the beginning. Please stay tuned!
+Tune file is a TunerStudio file with your current calibrations, it's often called CurrentTune.msq.
 
 In order to be able to post your tune you would need to to have your Engine Make, Engine Code and Vehicle Name fields filled in. Close TunerStudio project once you've made engine name changes for file to be updated.
 
