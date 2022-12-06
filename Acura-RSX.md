@@ -1,6 +1,11 @@
 # Acura RSX
 
+# 2003
+2003-acura-rsx-type-R.pdf
+
 # 2005
+[2003-acura-rsx-type-R.pdf](https://github.com/rusefi/rusefi_documentation/raw/master/OEM-Docs/Honda/2003-acura-rsx-type-R.pdf)
+
 
 ![x](OEM-Docs/Honda/2005-rsx-s-1.png)
 
