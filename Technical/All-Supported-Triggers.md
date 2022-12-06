@@ -53,9 +53,13 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 
 ## Honda K 1/12
 
+Honda K Crankshaft
+
 ![x](Images/triggers/trigger_46.png)
 
 ## Honda K 4+1
+
+Honda K Exhaust Camshaft
 
 ![x](Images/triggers/trigger_67.png)
 
