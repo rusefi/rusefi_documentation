@@ -654,6 +654,14 @@ Honda D17 Honda K
 
 353826-1 = ECU E 31
 
+
+Terminal 175180-1
+175180-2
+173681-1
+173681-2
+175062-1
+175062-2
+
 See [Vault of Honda OEM](Vault-Of-Honda-OEM)
 
 ## 126 4 row
