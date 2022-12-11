@@ -1,6 +1,6 @@
 # Maybe prerequisite
 Nathan wonders what the hell does current automation even do. Could this be clarified with minor code comments on top of key files?
-Nathan reminds that some code generation could/should be integrated into Makefile
+Nathan reminds that some code generation could/should be integrated into Makefile. Some documentation in https://github.com/rusefi/rusefi/blob/master/firmware/config/boards/readme.md
 
 # Current state
 
