@@ -1,6 +1,6 @@
 ### Click on the image below for the latest builds and downloads!
 
-[![](Images/Latest_bundle_border.png)](Download)
+[![](Images/Latest_bundle_border.png)](https://wiki.rusefi.com/Download/)
 
 Hello and welcome!
 
