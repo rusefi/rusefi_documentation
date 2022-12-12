@@ -30,6 +30,10 @@ A: VND14NV04TR-E 93mJ 18A. In terms of current and switching energy those could 
 
 ## Changelog
 
+rev E:
+December 2022
+ - migrated to Hellen MegaModule 0.1
+
 rev D:
 September 2022
  - crank/cam test pads https://github.com/rusefi/alphax-2chan/issues/63
