@@ -1,1 +1,1 @@
-See [shop-ru]
+See [shop-ru](shop-ru)
