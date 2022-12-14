@@ -1,10 +1,10 @@
 # link validation in markdown documents
 
-VS Code introduced a [link validator](https://code.visualstudio.com/Docs/languages/markdown) in version 1.72. This seems the best approach while a single file is being edited due to automated "fix all supported markdownlint violations in the document" .
+VS Code introduced a [link validator](https://code.visualstudio.com/Docs/languages/markdown) in version 1.72. This seems the best approach while a single file is being edited due to automated "fix all supported markdownlint violations in the document" (see below for more details).
 
 For bulk validation <https://github.com/webhintio/markdown-link-validator> seems best
 
-## findings
+## findings for bulk validation
 
 - debug mode is extremely helpful for troubleshooting
 - it's incredible fast
@@ -16,7 +16,7 @@ For bulk validation <https://github.com/webhintio/markdown-link-validator> seems
   markdown-link-validator:utils:request problem with request: read ECONNRESET - https://www.te.com/usa-en/product-4-1437290-1.html +1m
 ```
 
-## solution
+### solution
 
 - use exclude list for batch validation, skip all external links
 
@@ -29,12 +29,12 @@ Found a total of 1361 links in directory "C:\Users\mholzer\Documents\git\rusefi_
 Time to validate: 1.07s
 ```
 
-## open issue(s)
+### open issue(s)
 
 - would like to have only "invalid" references in output. There is [already an enhancement request](https://github.com/webhintio/markdown-link-validator/issues/6) filed since Aug 2019 :(
 - requested to [assign committer](https://github.com/webhintio/hint/issues/5382)
 
-## workaround
+### workaround
 
 <https://github.com/chmac/markdown-link-validator/commits/omit-success-output> has a quick fix
 
@@ -50,3 +50,12 @@ to run:
 ```powershell
 node .\node_modules\markdown-link-validator\dist\src\bin\markdown-link-validator.js . -i https?:\/\/.* --debug
 ```
+
+## using VS Code for markdown files
+
+### prerequisites
+
+VS Code Extensions "markdownlint" and "Code Spell Checker" have to be installed
+
+![show all rule violations](/Images/DevTools/VS Code - show all violations)
+![fix all rule violations](/Images/DevTools/VS Code - fix all violations)
