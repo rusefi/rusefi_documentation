@@ -1,34 +1,34 @@
-##### Table of Contents  
-[30 pin](#30)
- 
-[60 pin superseal](#60)
- 
-[64 pin](#64)
+# Table of Contents  
 
-[72 pin](#72)
+[30 pin](#30-pin)
 
-[80 pin](#80)
+[60 pin superseal](#60-pin)
 
-[88 pin](#88)
+[64 pin](#64-pin)
 
-[104 pin: Ford](#104-Ford)
+[72 pin](#72-pin)
 
-[104 pin: Honda OBD2a/b](#104)
+[80 pin](#80-pin)
+
+[88 pin](#88-pin)
+
+[104 pin Ford](#104-pin-ford)
+
+[104 pin: Honda OBD2a/b](#honda-obd2a--obd2b-connector)
 
 [112 pin](#112-pin)
 
-[121 pin](#121)
+[121 pin](#121-pin)
 
-[122 pin](#122)
+[122 pin](#122-pin)
 
-[125 pin](#125)
+[125 pin](#125-pin)
 
-[132 pin](#132)
+[132 pin](#132-pin)
 
-[134 pin](#134)
+[134 pin](#134-pin)
 
-[154 pin](#154)
-
+[154 pin](#154-pin)
 
 Do you know part numbers for any other OEM connectors? Please let us know!
 
@@ -38,10 +38,7 @@ Here are some OEM connector part numbers. Bosch & Siemens, German and Japanese, 
 
 Popular aftermarket connector
 
-APTIV (FORMERLY DELPHI) HCCPHPE24BKA90F 
-
-
-<a name="30"/>
+APTIV (FORMERLY DELPHI) HCCPHPE24BKA90F
 
 ## 30 pin
 
@@ -51,16 +48,14 @@ APTIV (FORMERLY DELPHI) HCCPHPE24BKA90F
 
 ADM 22RE
 
-<a name="34"/>
-
 ## 34 pin
+
 Superseal 6437288-1 and 6437288-2 male
 
 female 1437290-7 Haltech 2500
 
 [TE 6437288-1](https://www.te.com/usa-en/product-6437288-1.html)
 [TE 6437288-2](https://www.te.com/usa-en/product-6437288-2.html)
-
 
 Suzuki GSXR1300 Hayabusa ECU (99'-07')
 
@@ -69,6 +64,7 @@ Yamaha YZF-R1 2009-2011 ECU
 Many aftermarket ECUs
 
 ## 35 pin
+
 [TE 825213-1](http://www.te.com/catalog/pn/en/825213-1)
 
 Volkswagen
@@ -77,8 +73,7 @@ Volkswagen
 
 BMW and Citroen/Peugeot
 
-
-![35 Pin connector](Hardware/connectors/35_pin.png)
+![35 Pin connector](/Hardware/connectors/35_pin.png)
 
 ## 38 pin
 
@@ -94,7 +89,7 @@ INDEX C 9-1326728-8
 
 INDEX D 9-1326729-8
 
-PCB side unavailable Mates to 
+PCB side unavailable Mates to
 05087006AB
 05087007AB
 05087008AA
@@ -107,6 +102,7 @@ PCB side unavailable Mates to
 [TE 175446-1](https://www.te.com/usa-en/product-175446-1.html)
 
 ## 42 pin three piece
+
 172489-7
 
 [TE 172489-7](http://www.te.com/usa-en/product-172489-7.html)
@@ -118,12 +114,14 @@ Toyota Camry, early 22R(T)E and 4AGE
 See also [Pulse Lock Connector Product Specification](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-5157%7FB%7Ftif%7FEnglish%7FENG_SS_108-5157_B.tif%7F172315-7)
 
 ## 48 pin
+
 [TE 174917-6](http://www.te.com/catalog/pn/en/174917-6)
 Escort GT, Ford Festiva, Miata NA6 manual
 
 The larger plugs are the same as on [the 64 pin](OEM-connectors#64-pin).
 
 ## 52 pin
+
 [TE 172319-1](http://www.te.com/usa-en/product-172319-1.html)
 
 [52 pin ECU connector ONLY breakout PCB toyota mitsubishi galant eclipse](https://www.ebay.com/itm/334285307897)
@@ -133,14 +131,15 @@ The larger plugs are the same as on [the 64 pin](OEM-connectors#64-pin).
 10+18+24
 18 pin housing 172316-7
 10 pin housing 172315-7
-contacts 170353-1 
+contacts 170353-1
 
 Toyota early 3SGE, 7MGTE and 4AGZE
 
 Galant VR4, Eclipse 1G
 
-[13B ETC](http://www.13betc.com/19861988-rx7-ecu-connector-52-pin-p-12.html) says 
-```
+[13B ETC](http://www.13betc.com/19861988-rx7-ecu-connector-52-pin-p-12.html) says
+
+```text
 1991-1992 Dodge Stealth (SOHC Engine)
 1990-1994 Eagle Talon (All)
 1989 Ford Probe (F2T Engine)
@@ -170,6 +169,7 @@ Galant VR4, Eclipse 1G
 last 22RE, 4AGE, 4/7AFE
 
 ## 55 pin
+
 [TE 963063-1](https://www.te.com/usa-en/product-963063-1.html)
 
 [TE 963063-2](http://www.te.com/catalog/pn/en/963063-2)
@@ -194,12 +194,13 @@ Citroen Berlingo m49, Citroen Xara
 
 Lada Samara
 
-![55 pin connector](Hardware/connectors/55_pin.png)
+![55 pin connector](/Hardware/connectors/55_pin.png)
 
 For sale @ [eBay Store](http://www.ebay.com/usr/rusefi)
 
 ## 2 row 55 pin
-sagem/renault
+
+Sagem/Renault
 
 [TE 828763-1](https://www.te.com/usa-en/product-828763-1.html)
 
@@ -218,8 +219,6 @@ Ford todo :)
 
 Terminals are E7EB-14488-GA (18 ga) and E7EB-14488-NA (14 ga)
 
-<a name="60"/>
-
 ## 60 pin superseal
 
 26 + 34
@@ -236,15 +235,13 @@ terminal 1447221
 
 Motec Haltech DTAfast
 
-See [26 pin](#26)
-See [34 pin](#34)
+See `Todo: [26 pin] ToDo: add reference`
+See [34 pin](#34-pin)
 
-Suzuki Hayabusa 
+Suzuki Hayabusa
 99-07 Gen I GSX1300R
 
 2006 Yamaha R6
-
-<a name="64"/>
 
 ## 64 pin Nissan center lock
 
@@ -257,7 +254,8 @@ Center bolt
 90-94
 
 [Wiring Specialties](https://www.wiringspecialties.com/nissan-64-pin-ecu-connector/) says
-```
+
+```text
 Silvia S15 SR20DET
 Silvia S14 SR20DET Kouki & Silvia S14 SR20DE non-turbo
 Silvia S13 SR20DET & SR20DE non-turbo
@@ -276,20 +274,20 @@ Cube Z10
 Terrano YD21
 ```
 
-
 ## 64 pin
+
 [TE 176122-6](http://www.te.com/catalog/pn/en/176122-6)
 
 [TE 4-174518-7](http://www.te.com/usa-en/product-4-174518-7.html)
 
 -1, -6 and -7 are color options
 
-![64 pin connector](Hardware/connectors/64_pin.png)
+![64 pin connector](/Hardware/connectors/64_pin.png)
 
 [64 pin 176122 ECU connector board - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 
 Mating plugs:
-16p [TE 175109-6](http://www.te.com/catalog/pn/en/175109-6) 
+16p [TE 175109-6](http://www.te.com/catalog/pn/en/175109-6)
 
 16p  [TE 174514-6](http://www.te.com/usa-en/product-174514-6.html)
 
@@ -307,8 +305,8 @@ terminal [TE 173634-1](http://www.te.com/usa-en/product-173634-1.html)
 
 terminal 173681
 
-![Grey connectors](Hardware/connectors/64_pin_connectors_grey.png)
-![Green connectors](Hardware/connectors/64_pin_connectors_green.png)
+![Grey connectors](/Hardware/connectors/64_pin_connectors_grey.png)
+![Green connectors](/Hardware/connectors/64_pin_connectors_green.png)
 
 mitsubishi colt/mirage 1991-1995 year for 1.3, 1.6 and 1.8 engine
 
@@ -325,6 +323,7 @@ Mating harness connector 1-284272-5
 284331-1 64+64 header
 
 ## 68 pin
+
 [68pin VW connector - Forum](https://rusefi.com/forum/viewtopic.php?f=4&t=1303)
 
 Volkswagen
@@ -335,7 +334,7 @@ Volkswagen
 
 [TE 963356-1](http://www.te.com/catalog/pn/en/963356-1)
 
-![68 pin connector](Hardware/connectors/68_pin.png)
+![68 pin connector](/Hardware/connectors/68_pin.png)
 
 [TE 966595-1](http://www.te.com/catalog/pn/en/966595-1)
 
@@ -343,18 +342,17 @@ VW Jetta, Passat
 
 See [http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm](http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm)
 
-<a name="72"/>
-
 ## 72 pin
+
 31+24+17=72
 
 [TE 353830-5](http://www.te.com/usa-en/product-353830-5.html) [octopart](https://octopart.com/search?q=353830)
 
 [TE 1123038-2](http://www.te.com/catalog/pn/en/1123038-2) [octopart](https://octopart.com/search?q=1123038)
 
-![72 pin connector](Hardware/connectors/72_pin.png)
+![72 pin connector](/Hardware/connectors/72_pin.png)
 
-Oem ECU [Miata 2001 - 2005](Mazda-Miata-2001)
+Oem ECU `Todo: find [Miata 2001 - 2005](/Mazda-Miata-2001)`
 
 pins 316836?
 pins 316838
@@ -376,9 +374,9 @@ Vehicle:Subaru Impreza 1991-1996
 
 22 pins (6 hi-current + 16 low-current) 174515-6
 
-And terminals 173716-1 or 173716-2 and 173630-1 or 173630-2 
+And terminals 173716-1 or 173716-2 and 173630-1 or 173630-2
 
-![76 Pin Connector](Hardware/connectors/76_render.png)
+![76 Pin Connector](/Hardware/connectors/76_render.png)
 
 ## 76 pin center lock
 
@@ -388,19 +386,15 @@ See also [64 pin nissan center lock](OEM-connectors#64-pin-nissan-center-lock)
 
 Nissan 1992 Skyline R32 GT-S 4 RB20DET
 
-<a name="80"/>
-
 ## 80 pin
 
 LS1 LS6
-
-## 80 pin
 
 52+28
 
 [TE 8-1393476-0](http://www.te.com/catalog/pn/en/8-1393476-0)
 
-![80 Pin Connector](Hardware/connectors/80_render.png)
+![80 Pin Connector](/Hardware/connectors/80_render.png)
 
 Audi
 VW Jetta Golf VR6 Turbo
@@ -410,6 +404,7 @@ VW Jetta Golf VR6 Turbo
 Passat B6 TCU uses 52 pin portion
 
 ## 80 pin molex
+
 48+32
 Nissan
 
@@ -419,26 +414,25 @@ unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 
 [81 pin connector - Forum](https://rusefi.com/forum/viewtopic.php?f=4&t=1501)
 
-<a name="88"/>
-
 ## 88 pin
+
 [TE 185785-1](http://www.te.com/catalog/pn/en/185785-1)
 
-![88 Pin Connector in ECU](Hardware/connectors/88_ecu.png)
+![88 Pin Connector in ECU](/Hardware/connectors/88_ecu.png)
 
 98-01 KIA SEPHIA
 
 ## 93 pin
 
-![x](OEM-Docs/Subaru/93pins.jpeg)
+![x](/OEM-Docs/Subaru/93pins.jpeg)
 
 MX7-93PL-C4
 
 35+28+30
-Subaru 22611AE670 
+Subaru 22611AE670
 SUBARU IMPREZA 2000-2003 ENGINE CONTROL MODULE UNIT ECU 22611AF634
 
-1998 to 2001 SUBARU 
+1998 to 2001 SUBARU
 
 mitsubishi evo9
 
@@ -462,20 +456,18 @@ Dodge Hemi
 
 Chrysler
 
-header 
+header
 
 brown tyco 2035160-2
 
-header 
+header
 13784962 grey Micro HVT
 
 13784963 brown
 
 13784964 green
 
-
 harness side 1924939-1 [3-1924939-5](https://www.te.com/usa-en/product-3-1924939-5.html) [1924941-2](https://www.te.com/usa-en/product-1924941-2.html)
-
 
 ## 100 pin
 
@@ -486,14 +478,9 @@ Toyota 1MZ-FE 3RZ-FE 5VZ
 
 1-178203-6
 
-
-<a name="104-ford"/>
-
 ## 104 pin Ford
 
-
-<a name="104"/>
-
+ToDo: add reference
 
 ## 104 pin
 
@@ -503,7 +490,7 @@ Honda Accord 96-2002
 
 Honda Insight 99-2006
 
-Honda "OBD2a / OBD2b" connector
+## Honda "OBD2a / OBD2b" connector
 
 OBD2B
 • 2000-2001 Acura Integra
@@ -516,7 +503,7 @@ OBD2A
 • 1996-2001 Honda Prelude
 • 1996-1997 Honda Accord
 
-[Vault-Of-Honda-OEM](Vault-Of-Honda-OEM)
+`Todo: find [Vault-Of-Honda-OEM](Vault-Of-Honda-OEM)`
 
 ## 105 pin
 
@@ -529,12 +516,14 @@ subaru 6 cylinder BE/BH
 a subset of 122 pin connector
 
 ## 108 pin
+
 [TE 1318613-1](https://www.te.com/usa-en/product-1318613-1.html)
 
 Honda K Series
 relayed to 72 pin NB2 but only two plugs are shared
 
 ## 112 pin
+
 Molex 64333-0100
 
 32+48+32
@@ -587,16 +576,13 @@ JZ
 
 [TE 368255-2](http://www.te.com/catalog/pn/en/368255-2)
 
-
 [Breakout 121pin 368255-2 Connector](https://github.com/rusefi/rusefi/tree/master/hardware/Breakout_121pin_368255-2-Connector)
 
 [TE 1473244-1](https://www.te.com/global-en/product-1473244-1.html)
 
 [TE 1473252-1](https://www.te.com/global-en/product-1473252-1.html)
 
-<a name="121"/>
-
-![121 Pin Connector](Hardware/connectors/368255_render.png)
+![121 Pin Connector](/Hardware/connectors/368255_render.png)
 
 [121 pin connector 368255-2 (same as 1241434-1) - Forum](http://rusefi.com/forum/viewtopic.php?t=208)
 
@@ -606,13 +592,11 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 2003 VW Passat
 
-<a name="122"/>
-
 [121 pin main page](OEM-121-pin-connectors)
 
 ## 122 pin
 
-![122 Pin Connector](Hardware/connectors/122_render.png)
+![122 Pin Connector](/Hardware/connectors/122_render.png)
 
 [122 pin ECU connector Toyota Mazda harness breakout PCB board](https://www.ebay.com/itm/334058887716)
 
@@ -630,11 +614,9 @@ maybe the most common Aristo 2JZ ECU connector?
 
 Subaru Legacy 2002
 
-<a name="125"/>
-
 ## 125 pin
 
-![125 Pin Connector](Hardware/connectors/125_5_render.png)
+![125 Pin Connector](/Hardware/connectors/125_5_render.png)
 
 [125 pin ECU connector Honda harness breakout PCB board](https://www.ebay.com/itm/333855911372)
 
@@ -647,13 +629,12 @@ Honda D17 Honda K
 1318682-6 = ECU A 31
 
 353029-1 = ECU B 24
- 
+
 353028-1 = ECU C 22
 
 353027-1 = ECU D 17
 
 353826-1 = ECU E 31
-
 
 Terminal 175180-1
 175180-2
@@ -662,7 +643,7 @@ Terminal 175180-1
 175062-1
 175062-2
 
-See [Vault of Honda OEM](Vault-Of-Honda-OEM)
+See `Todo: find [Vault of Honda OEM](/Vault-Of-Honda-OEM)`
 
 ## 126 4 row
 
@@ -675,11 +656,12 @@ See [Vault of Honda OEM](Vault-Of-Honda-OEM)
 06-07 Subaru ?
 
 ## 128/145 pin
+
 Mercedes M111 [eBay](https://www.ebay.com/itm/333791544427)
 
-![x](OEM-Docs/Mercedes/mercedes_170.png)
+![x](/OEM-Docs/Mercedes/mercedes_170.png)
 
-[Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)
+`Todo: find [Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)`
 
 A=8
 B=4
@@ -694,12 +676,9 @@ In reality
 
 8+4+23+24+48+21=128
 
-
-A0235459732 
+A0235459732
 A0225452732
-A0275457932 
-
-<a name="132"/>
+A0275457932
 
 ## 132 pin
 
@@ -718,9 +697,6 @@ Wire Cover V Type: 1746089-1
 132 Position Cap Assembly (Male) (Part of the ECM assembly): 1717139-1
 44 Position Wire Cover Type-IV: 1903287-1
 
-
-<a name="134"/>
-
 ## 134 pin
 
 [TE 7-967288-1](https://www.te.com/usa-en/product-7-967288-1.html)
@@ -729,7 +705,7 @@ Also known as 965497-1
 
 9+24+52+40+9
 
-[Vault-BMW-Info](Vault-BMW-Info)
+`Todo: find [Vault-BMW-Info](Vault-BMW-Info)`
 
 bmw e38 e46 e65 e66
 
@@ -738,12 +714,13 @@ bmw e38 e46 e65 e66
 2002-2005 Land Rover
 
 ## 135 pin
+
 [TE 1-1376430-0](http://www.te.com/catalog/pn/en/1-1376430-0)
 
-![135 Pin Connector](Hardware/connectors/135_render.png)
+![135 Pin Connector](/Hardware/connectors/135_render.png)
 
 Honda
-2003-2008 
+2003-2008
 02 through 08 corolla/matrix/vibe
 
 harness side connectors:
@@ -755,7 +732,6 @@ E 4 Engine Control Module Toyota 90980-12145
 E 5 Engine Control Module Toyota 90980-12529
 
 E 6 Engine Control Module Toyota 90980-12525
-
 
 ## 145 pin
 
@@ -783,8 +759,6 @@ Chrysler NGC ECU connector
 
 [TE 9-1326729-8](http://www.te.com/catalog/pn/en/9-1326729-8)
 
-<a name="154"/>
-
 ## 154 pin
 
 60+94
@@ -803,13 +777,11 @@ EDC16 EDC17
 
 [TE 936762-2](https://www.te.com/global-en/product-936762-2.html)
 
-![154 Pin Connector](Hardware/connectors/154_render.png)
+![154 Pin Connector](/Hardware/connectors/154_render.png)
 
 [Breakout 154pin 284617-1 Connector](https://github.com/rusefi/rusefi/tree/master/hardware/Breakout_154pin_284617-1-Connector)
 
 [154 pin connector 284617-1 - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=582)
-
-## 154 pin 
 
 96+58
 
@@ -873,24 +845,26 @@ HYUNDAI SONATA 2011 2012 2013 2014 39111-2G667 2.4L ECM PCM OEM
 
 Maybe Mercedes M157 1779007904
 
-https://www.ebay.com/itm/334192244682
+<https://www.ebay.com/itm/334192244682>
 
 ## 198 pin
 
-Ford 2014-2017, Volvo V90 T5 2.0T 
+Ford 2014-2017, Volvo V90 T5 2.0T
 
-https://www.ebay.com/itm/334331453305
+<https://www.ebay.com/itm/334331453305>
 
 ## 200 pin
+
 [TE 6473649-1](http://www.te.com/catalog/pn/en/6473649-1)
 
-![200 Pin Connector](Hardware/connectors/200_render.png)
+![200 Pin Connector](/Hardware/connectors/200_render.png)
 
 31+35+33+32+35+34
 
 Toyota
 
 ## Random links
+
 [broken link](http://www.autosoftsys.com/supra/ecuext/)
 
 [Speeduino - ECU Connectors](https://speeduino.com/wiki/index.php/ECU_Connectors)
