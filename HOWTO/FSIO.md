@@ -101,9 +101,9 @@ It would show a filing to parse message with a list of some known functions.
 
 ## Rev limit logic
 
-![img](Overview/FSIO/FSIO_for_idle_target.png)
+![img](/Overview/FSIO/FSIO_for_idle_target.png)
 
-![img](Images/RevFSIO.png)  
+![img](/Images/RevFSIO.png)  
 
 FSIO setting 6 has been configured for an adjustable RPM limiter, this can be configured as shown above, the first number (2000) is the limit that will be active when the signal is on, the second (7000) is the standard limiter when the switch is deactivated.
 
