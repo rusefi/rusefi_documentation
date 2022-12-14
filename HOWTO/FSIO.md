@@ -63,7 +63,7 @@ The clever part of this notation is that it does not need to have parenthesis in
 Taking a simple calculation to prevent a starter button working above cranking speed (as used on the Prometheus ECU):
 
 Standard notation -> RPM < Cranking_RPM
-RPN -> RPM Cranking_RPM <
+```RPN -> RPM Cranking_RPM <```
 
 | Stack         | Value         |
 | ------------- |:-------------:|
@@ -76,7 +76,7 @@ Resulting in the processor reading the < operand and performing a "less than" as
 
 RPN is not easy at first but hopefully this short guide and the examples shown below in a similar format will make this as easy as possible while giving a little bit of understanding of how an ECU processes the FSIO.
 
----;
+---
 
 ## rusEFI console now has build-in decoder of RPN form
 
@@ -84,8 +84,7 @@ For example entering the formula below into the command window:
 
 ```decode_rpn "0 fsio_analog_input 20 > 0 10 if"```
 
-Would return
-```"Human form is "if((fsio_analog_input(0) > 20), 0, 10)"```
+Would return ```"Human form is "if((fsio_analog_input(0) > 20), 0, 10)"```
 
 and
 
@@ -97,13 +96,11 @@ It would show a filing to parse message with a list of some known functions.
 
 ## Examples
 
----;
+### Rev limit logic
 
-## Rev limit logic
+![img](/Overview/FSIO/FSIO_for_idle_target.png)
 
-![img](Overview/FSIO/FSIO_for_idle_target.png)
-
-![img](Images/RevFSIO.png)  
+![img](/Images/RevFSIO.png)  
 
 FSIO setting 6 has been configured for an adjustable RPM limiter, this can be configured as shown above, the first number (2000) is the limit that will be active when the signal is on, the second (7000) is the standard limiter when the switch is deactivated.
 
@@ -141,19 +138,17 @@ See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/core/fsio
 
 ## Contents
 
-1 [More Examples](##More Examples)  
-2 [FSIO parameters](##FSIO parameters)  
-3 [FSIO digital inputs](##FSIO digital inputs)  
-4 [FSIO analog inputs](##FSIO analog inputs)  
-5 [Case study #1: shift light](##Case study #1: shift light)  
-6 [Case study #2: A/C compressor control](##Case study #2: A/C compressor control)  
-7 [Case study #3: digital inputs for extra devices](##Case study #3: digital inputs for extra devices)  
-8 [Case study #4: boost controller](##Case study #4: boost controller)  
-9 [Case study #5: solenoid exhaust cam actuator](##Case study #5: solenoid exhaust cam actuator)  
-10 [See also](##See also)  
-11 [Pin naming usability issue](##Pin naming usability issue)  
-
----
+1 [More Examples](#more-examples)  
+2 [FSIO parameters](#fsio-parameters)  
+3 [FSIO digital inputs](#fsio-digital-inputs)  
+4 [FSIO analog inputs](#fsio-analog-inputs)  
+5 [Case study #1: shift light](#case-study-1-shift-light)  
+6 [Case study #2: A/C compressor control](#case-study-2-ac-compressor-control)  
+7 [Case study #3: digital inputs for extra devices](#case-study-3-digital-inputs-for-extra-devices)  
+8 [Case study #4: boost controller](#case-study-4-boost-controller)  
+9 [Case study #5: solenoid exhaust cam actuator](#case-study-5-solenoid-exhaust-cam-actuator)  
+10 [See also](#see-also)
+11 [Pin naming usability issue](#pin-naming-usability-issue)
 
 ## More Examples
 
@@ -277,11 +272,11 @@ Solenoid-controlled boost controller would need variable duty cycle.
 
 For example, let's use fsio table #3 to define the desired duty cycle:
 
-![FSIO table](Images/Fsio_table3.png)
+![FSIO table](/Images/Fsio_table3.png)
 
 Let's set PE11@300Hz as FSIO output #4
 
-![FSIO outputs](Images/Fsio_outputs.png)
+![FSIO outputs](/Images/Fsio_outputs.png)
 
 And now the tricky part, let's set FSIO expression on that output using the following command
 
@@ -291,7 +286,7 @@ Do not forget writeconfig
 
 fsioinfo could be used to monitor output value
 
-![FSIO info](Images/Fsioinfo.png)
+![FSIO info](/Images/Fsioinfo.png)
 
 As for the magic expression, that's RPN for "fsio_table (3, rpm, map) / 100".
 
@@ -307,7 +302,7 @@ That's RPN notation for "(rpm > 6000) * 0.8"
 
 See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.txt](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/system_fsio.txt)
 
-![FSIO TunerStudio](Images/Fsio_TS.png)
+![FSIO TunerStudio](/Images/Fsio_TS.png)
 
 ---
 A/C control
