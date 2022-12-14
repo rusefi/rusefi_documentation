@@ -1,6 +1,6 @@
 # link validation in markdown documents
 
-VS Code introduced a [link validator](https://code.visualstudio.com/Docs/languages/markdown) in version 1.72. This seems the best approach while a single file is edited.
+VS Code introduced a [link validator](https://code.visualstudio.com/Docs/languages/markdown) in version 1.72. This seems the best approach while a single file is being edited due to automated "fix all supported markdownlint violations in the document" .
 
 For bulk validation <https://github.com/webhintio/markdown-link-validator> seems best
 
