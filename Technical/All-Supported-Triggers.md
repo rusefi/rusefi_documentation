@@ -1,3 +1,4 @@
+# All Supported Triggers
 
 See also [Trigger](Trigger)
 
@@ -17,16 +18,16 @@ To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
 [Subaru](#subaru)
 
-[Mitsubishi](#Mitsubishi)
+[Mitsubishi](#mitsubishi)
 
 [Jeep & Renix](#jeep)
 
-[Miscelanious](#misc)
+[Miscellaneous](#universal)
 
+## Universal
 
-## Universal 36/1
-
-<a name="universal"/>
+Universal  36/1
+ToDo: add picture
 
 ## 60/2
 
@@ -46,96 +47,91 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 
 ![x](Images/triggers/trigger_47.png)
 
-
-<a name="honda"/>
-
 [temporary link for Honda 12](https://github.com/rusefi/rusefi_documentation/issues/227)
 
-## Honda K 1/12
+## Honda
 
-Honda K Crankshaft
+### Honda K 1/12 Crankshaft
 
 ![x](Images/triggers/trigger_46.png)
 
-## Honda K 4+1
+### Honda K 4+1
 
 Honda K Exhaust Camshaft
 
 ![x](Images/triggers/trigger_67.png)
 
-## Honda CBR600
+### Honda CBR600
 
 ![Honda CBR600](Images/triggers/trigger_28.png)
 
-<a name="mazda"/>
+## Mazda
 
-## Mazda Protege SOHC
+### Mazda Protege SOHC
 
 ![Mazda Protege SOHC](Images/triggers/trigger_7.png)
 
-## Mazda Miata NA
+### Mazda Miata NA
+
 Also used on some Mitsubishi
 
 ![Mazda Miata NA](Images/triggers/trigger_3.png)
 
-## Mazda Miata NB
+### Mazda Miata NB
 
 ![Mazda Miata NB1](Images/triggers/trigger_4.png)
 
-## Mazda Protege 1993 DOHC
+### Mazda Protege 1993 DOHC
 
 ![Mazda Protege 1993 DOHC](Images/triggers/trigger_15.png)
 
-## Mazda 121/Ford Aspire
+### Mazda 121/Ford Aspire
 
 ![Ford Aspire](Images/triggers/trigger_1.png)
 
-<a name="gm"/>
+## GM
 
-## GM 7x
+### GM 7x
 
 ![GM 7x](Images/triggers/trigger_5.png)
 
-## GM LS 24x
+### GM LS 24x
 
 ![x](Images/triggers/trigger_27.png)
 
-## GM 60/2/2/2
+### GM 60/2/2/2
 
 GM/Daewoo Distributor F8CV
 
 ![x](Images/triggers/trigger_54.png)
 
-<a name="jeep"/>
+## Jeep
 
-## Jeep 18-2-2-2
+### Jeep 18-2-2-2
 
 ![Jeep 18-2-2-2](Images/triggers/trigger_37.png)
 
-## Renix 44/2/2
+### Renix 44/2/2
 
-![x](Images/triggers/trigger_44.png) 
+![x](Images/triggers/trigger_44.png)
 
-## Renix 66/2/2/2
+### Renix 66/2/2/2
 
-![x](Images/triggers/trigger_45.png) 
+![x](Images/triggers/trigger_45.png)
 
+## Subaru
 
-<a name="subaru"/>
-
-## Subaru 7+6 tooth
+### Subaru 7+6 tooth
 
 ![Subaru 7+6](Images/triggers/trigger_36.png)
 
-## Subaru EZ30 variation of 36/2/2/2
+### Subaru EZ30 variation of 36/2/2/2
 
 ![!](Images/triggers/trigger_TT_SUBARU_EZ30.png)
 
-## Subaru SVX
+### Subaru SVX
 
 ![x](Images/triggers/trigger_49.png)
-
-<a name="suzuki"/>
 
 ## Suzuki G13B
 
@@ -148,10 +144,9 @@ Might also be used on some Daihatsu, Nissan and Miata
 ![36/2/2](Images/triggers/trigger_23.png)
 
 ## Universal skipped wheel
+
 A basic wheel - assumes equally spaced teeth with a number of missing teeth.
 Tuner studio allows up to 500 teeth with 500 missing - functional limits are not tested.
-
-<a name="misc"/>
 
 ## Ford Barra VVT
 
@@ -185,17 +180,18 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ![x](Images/triggers/trigger_30.png)
 
-
 ## Dodge Ram
 
 ![Dodge Ram](Images/triggers/trigger_19.png)
 
 ## Dodge Neon 2003
+
 Chrysler NGC 4 cylinder
 
 ![Dodge Neon 2003](Images/triggers/trigger_14.png)
 
 ## Dodge Stratus
+
 Chrysler NGC 6 cylinder
 
 ![Dodge Stratus](Images/triggers/trigger_22.png)
@@ -224,9 +220,6 @@ VQ35 crank
 VQ cam
 ![x](Images/triggers/trigger_TT_VVT_NISSAN_VQ35.png)
 
-
-
-
 VQ30
 ![x](Images/triggers/trigger_60.png)
 
@@ -234,14 +227,13 @@ VQ30
 
 ![Nissan](Images/triggers/trigger_24.png)
 
-
 ## VW 60/2
+
 VW special understanding of 60/2 with a wide tooth instead of of just missing tooth.
 
 See also [Universal True 60/2](All-Supported-Triggers#602)
 
 ![VW 60/2](Images/triggers/trigger_20.png)
-
 
 ### Toyota
 
@@ -273,14 +265,11 @@ Some older German vehicles
 
 ![Ford PIP](Images/triggers/trigger_TT_FORD_TFI_PIP.png)
 
-
-
 ## Unknown trigger type
 
 [Unknown Trigger](Unknown-Trigger)
 
 TODO: implement a feature so that trigger could be defined via TunerStudio
-
 
 If your have an unknown or an unsupported trigger shape, once you've confirmed that trigger events are getting into the software (see "troubleshooting" sections) you need to crank your engine while rusEFI console is connected with Engine Sniffer tab active.
 
@@ -308,15 +297,7 @@ Injection could be offset using 'set injection_offset X' command.
 
 While cranking, you can set angle-based ignition instead of timing map & dwell based ignition. In angle-based mode, dwell is defined in crankshaft angle duration and timing is constant. set cranking_charge_angle and set_cranking_timing_angle.
 
-
 See 'trigger decoding' in [Doxygen](http://rusefi.com/docs/html/)
 
-May, 2020: Subaru SVX added
-
-April, 2020: Honda K 12+1 added.
-
-April, 2020: Renix 44-2-2 added.
-
-Dev note: unit_tests executable produces triggers.txt file - gen_trigger_images.bat reads triggers.txt and produces these .png files. TODO: automate this further?
-
-
+Dev note: unit_tests executable produces triggers.txt file - gen_trigger_images.bat reads triggers.txt and produces these .png files.
+TODO: automate this further?
