@@ -14,7 +14,7 @@
 
 [104 pin Ford](#104-pin-ford)
 
-[104 pin: Honda OBD2a/b](#honda-obd2a--obd2b-connector)
+[104 pin Honda OBD2a OBD2b](#honda-obd2a-obd2b-connector)
 
 [112 pin](#112-pin)
 
@@ -490,7 +490,7 @@ Honda Accord 96-2002
 
 Honda Insight 99-2006
 
-## Honda "OBD2a / OBD2b" connector
+## Honda OBD2a OBD2b connector
 
 OBD2B
 • 2000-2001 Acura Integra

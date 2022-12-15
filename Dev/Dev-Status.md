@@ -27,7 +27,9 @@ Color code meanings:-
 
 ---
 
-## [Base Engine](/Overview/TS_generated/rusEFI-project-Base-Engine)
+## Base Engine
+
+[Base Engine](/Overview/TS_generated/rusEFI-project-Base-Engine)
 
 52% complete (11/21)
 
@@ -74,7 +76,9 @@ Color code meanings:-
 
 ---
 
-## [Fuel](/Overview/TS_generated/rusEFI-project-Fuel)
+## Fuel
+
+[Fuel](/Overview/TS_generated/rusEFI-project-Fuel)
 
 37.5% complete (9/24)
 
@@ -136,7 +140,9 @@ TPS thresholds
 
 ---
 
-## [Ignition](/Overview/TS_generated/rusEFI-project-Ignition)
+## Ignition
+
+[Ignition](/Overview/TS_generated/rusEFI-project-Ignition)
 
 61.5% complete (8/13)
 
@@ -167,7 +173,9 @@ TPS thresholds
 
 ---
 
-## [Cranking](/Overview/TS_generated/rusEFI-project-Cranking)
+## Cranking
+
+[Cranking](/Overview/TS_generated/rusEFI-project-Cranking)
 
 87.5% complete (14/16)
 
@@ -197,7 +205,9 @@ TPS thresholds
 
 ---
 
-## [Idle](/Overview/TS_generated/rusEFI-project-Idle)
+## Idle
+
+[Idle](/Overview/TS_generated/rusEFI-project-Idle)
 
 52.5% complete (10/19)
 
@@ -232,7 +242,9 @@ TPS thresholds
 
 ---
 
-## [Advanced](/Overview/TS_generated/rusEFI-project-Advanced)
+## Advanced
+
+[Advanced](/Overview/TS_generated/rusEFI-project-Advanced)
 
 0% complete (0/17)
 
@@ -271,7 +283,9 @@ TPS thresholds
 
 ---
 
-## [Sensors](/Overview/TS_generated/rusEFI-project-Sensors)
+## Sensors
+
+[Sensors](/Overview/TS_generated/rusEFI-project-Sensors)
 
 55% complete (32/58)  
 
@@ -372,7 +386,9 @@ TPS thresholds
 
 ---
 
-## [Controller](/Overview/TS_generated/rusEFI-project-Controller)
+## Controller
+
+[Controller](/Overview/TS_generated/rusEFI-project-Controller)
 
 45% complete (24/53)  
 
