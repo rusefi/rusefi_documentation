@@ -76,7 +76,7 @@
 
 ![x](/Overview/TS_generated/dialog_SPI_settings.png)
 
-SPI1mosi mode: Modes count be used for 3v<>5v integration using pull-ups/pull-downs etc.
+SPI1MOSI mode: Modes count be used for 3v<>5v integration using pull-ups/pull-downs etc.
 
 ### rusEfi Console Settings
 
