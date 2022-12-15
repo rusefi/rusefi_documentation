@@ -36,10 +36,17 @@ Time to validate: 1.07s
 
 ### workaround
 
+- edit output log file to find "invalid" references quickly
+
+1. find all strings containing " 0 invalid" (note leading blank) and replace them with "nothing"
+2. find all strings containing "invalid" => only actually erroneous links with show
+
+#### using a "quick fix" version
+
 <https://github.com/chmac/markdown-link-validator/commits/omit-success-output> has a quick fix
 
-to install:
-note: as of 2022-12-13 still in testing with some issues!!
+note: as of 2022-12-13 the method to install:
+did NOT work for me, trying to get help!!
 
 ```powershell
 npm install --save chmac/markdown-link-validator#omit-success-output
