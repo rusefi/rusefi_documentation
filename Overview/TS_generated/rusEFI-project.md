@@ -1,7 +1,9 @@
-# [Base Engine](rusEFI-project-Base-Engine)
+# rusEFI Project
 
-<a href='rusEFI-project-Base-Engine'>![x](Overview/TS_generated/top_level_Base_Engine.png)
-</a>[Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)
+## [Base Engine](rusEFI-project-Base-Engine)
+
+[x](/Overview/TS_generated/top_level_Base_Engine.png)
+[Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)
 
 [Trigger](rusEFI-project-Base-Engine#trigger)
 
@@ -11,7 +13,7 @@
 
 [Starter relay output](rusEFI-project-Base-Engine#starter-relay-output)
 
-[Fuel pump  rail](rusEFI-project-Base-Engine#fuel-pump--rail)
+[Fuel pump  rail](rusEFI-project-Base-Engine#fuel-pump-rail)
 
 [Fan Settings](rusEFI-project-Base-Engine#fan-settings)
 
@@ -21,11 +23,10 @@
 
 [Status LEDs](rusEFI-project-Base-Engine#status-leds)
 
+## [Fuel](rusEFI-project-Fuel)
 
-# [Fuel](rusEFI-project-Fuel)
-
-<a href='rusEFI-project-Fuel'>![x](Overview/TS_generated/top_level_Fuel.png)
-</a>[Injection settings](rusEFI-project-Fuel#injection-settings)
+[x](/Overview/TS_generated/top_level_Fuel.png)
+[Injection settings](rusEFI-project-Fuel#injection-settings)
 
 [Injector dead time](rusEFI-project-Fuel#injector-dead-time)
 
@@ -43,17 +44,16 @@
 
 [tCharge Settings](rusEFI-project-Fuel#tcharge-settings)
 
-[Accel/Decel Enrichment](rusEFI-project-Fuel#accel/decel-enrichment)
+[Acceleration or Deceleration Enrichment](rusEFI-project-Fuel#acceleration-or-deceleration-enrichment)
 
-[TPS/TPS Acceleration Extra Fuel(ms)](rusEFI-project-Fuel#tps/tps-acceleration-extra-fuel(ms))
+[TPS Acceleration Extra Fuel](rusEFI-project-Fuel#tps-acceleration-extra-fuel)
 
 [Engine Load Acceleration Enrichment Taper](rusEFI-project-Fuel#engine-load-acceleration-enrichment-taper)
 
+## [Ignition](rusEFI-project-Ignition)
 
-# [Ignition](rusEFI-project-Ignition)
-
-<a href='rusEFI-project-Ignition'>![x](Overview/TS_generated/top_level_Ignition.png)
-</a>[Ignition settings](rusEFI-project-Ignition#ignition-settings)
+[x](/Overview/TS_generated/top_level_Ignition.png)
+[Ignition settings](rusEFI-project-Ignition#ignition-settings)
 
 [Dwell](rusEFI-project-Ignition#dwell)
 
@@ -65,11 +65,10 @@
 
 [Ignition Intake Air Temp correction](rusEFI-project-Ignition#ignition-intake-air-temp-correction)
 
+## [Cranking](rusEFI-project-Cranking)
 
-# [Cranking](rusEFI-project-Cranking)
-
-<a href='rusEFI-project-Cranking'>![x](Overview/TS_generated/top_level_Cranking.png)
-</a>[Cranking Settings](rusEFI-project-Cranking#cranking-settings)
+[x](/Overview/TS_generated/top_level_Cranking.png)
+[Cranking Settings](rusEFI-project-Cranking#cranking-settings)
 
 [Cranking Coolant Temperature Multiplier](rusEFI-project-Cranking#cranking-coolant-temperature-multiplier)
 
@@ -77,11 +76,10 @@
 
 [Cranking TPS Multiplier](rusEFI-project-Cranking#cranking-tps-multiplier)
 
+## [Idle](rusEFI-project-Idle)
 
-# [Idle](rusEFI-project-Idle)
-
-<a href='rusEFI-project-Idle'>![x](Overview/TS_generated/top_level_Idle.png)
-</a>[Idle settings](rusEFI-project-Idle#idle-settings)
+[x](/Overview/TS_generated/top_level_Idle.png)
+[Idle settings](rusEFI-project-Idle#idle-settings)
 
 [Idle hardware](rusEFI-project-Idle#idle-hardware)
 
@@ -91,11 +89,10 @@
 
 [Warmup Idle multiplier](rusEFI-project-Idle#warmup-idle-multiplier)
 
+## [Advanced](rusEFI-project-Advanced)
 
-# [Advanced](rusEFI-project-Advanced)
-
-<a href='rusEFI-project-Advanced'>![x](Overview/TS_generated/top_level_Advanced.png)
-</a>[Boost Control](rusEFI-project-Advanced#boost-control)
+[x](/Overview/TS_generated/top_level_Advanced.png)
+[Boost Control](rusEFI-project-Advanced#boost-control)
 
 [General Purpose PWM 1](rusEFI-project-Advanced#general-purpose-pwm-1)
 
@@ -129,11 +126,10 @@
 
 [FSIO Curve #4](rusEFI-project-Advanced#fsio-curve-#4)
 
+## [Sensors](rusEFI-project-Sensors)
 
-# [Sensors](rusEFI-project-Sensors)
-
-<a href='rusEFI-project-Sensors'>![x](Overview/TS_generated/top_level_Sensors.png)
-</a>[Trigger Inputs](rusEFI-project-Sensors#trigger-inputs)
+[x](/Overview/TS_generated/top_level_Sensors.png)
+[Trigger Inputs](rusEFI-project-Sensors#trigger-inputs)
 
 [Other Sensor Inputs](rusEFI-project-Sensors#other-sensor-inputs)
 
@@ -173,15 +169,14 @@
 
 [EGT inputs](rusEFI-project-Sensors#egt-inputs)
 
+## [Controller](rusEFI-project-Controller)
 
-# [Controller](rusEFI-project-Controller)
+[x](/Overview/TS_generated/top_level_Controller.png)
+[ECU stimulator](rusEFI-project-Controller#ecu-stimulator)
 
-<a href='rusEFI-project-Controller'>![x](Overview/TS_generated/top_level_Controller.png)
-</a>[ECU stimulator](rusEFI-project-Controller#ecu-stimulator)
+[Data logging Settings](rusEFI-project-Controller#data-logging-settings)
 
-[Datalogging Settings](rusEFI-project-Controller#datalogging-settings)
-
-[Bench Test & Commands](rusEFI-project-Controller#bench-test-&-commands)
+[Bench Test and Commands](rusEFI-project-Controller#bench-test-and-commands)
 
 [Popular vehicles](rusEFI-project-Controller#popular-vehicles)
 
@@ -197,13 +192,13 @@
 
 [TLE8888](rusEFI-project-Controller#tle8888)
 
-[All Pins 1/3](rusEFI-project-Controller#all-pins-1/3)
+[All Pins 1 of 3](rusEFI-project-Controller#all-pins-1-of-3)
 
-[All Pins 2/3](rusEFI-project-Controller#all-pins-2/3)
+[All Pins 2 of 3](rusEFI-project-Controller#all-pins-2-of-3)
 
-[All Pins 3/3](rusEFI-project-Controller#all-pins-3/3)
+[All Pins 3 of 3](rusEFI-project-Controller#all-pins-3-of-3)
 
-[Experimental/Broken](rusEFI-project-Controller#experimental/broken)
+[Experimental or Broken](rusEFI-project-Controller#experimental-or-broken)
 
 [Multispark](rusEFI-project-Controller#multispark)
 
@@ -223,6 +218,4 @@
 
 [AntiLag Settings NOT WORKING](rusEFI-project-Controller#antilag-settings-not-working)
 
-
-
-generated by class com.rusefi.MdGenerator on Fri May 01 15:24:28 EDT 2020
+generated by class com.rusefi.MdGenerator on Fri May 01 15:24:28 EDT 2020 manually corrected!
