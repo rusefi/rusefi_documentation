@@ -291,7 +291,7 @@ Now the real TDC, 'set global_trigger_offset_angle 175' command:
 
 ![Offset Angle 175](Images/offset_175.png)
 
-Note the different location of the green TDC line. Also note how all Injector #1 pulse has moved (/Injector #3 is the lowest signal on these pictures) - that's because ignition and injection are scheduled based on TDC point.
+Note the different location of the green TDC line. Also note how all Injector #1 pulse has moved (Injector #3 is the lowest signal on these pictures) - that's because ignition and injection are scheduled based on TDC point.
 
 While running ignition is controlled by ignition timing map, you can also offset the whole ignition timing map using 'set ignition_offset' command. Ignition dwell is controlled by dwell time curve.
 
