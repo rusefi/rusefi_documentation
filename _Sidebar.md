@@ -13,9 +13,8 @@
 # Community
 
 - [Forum](https://rusefi.com/forum/)
-- [Slack](HOWTO-join-slack-channel)
 - [Facebook Users Group](https://www.facebook.com/groups/rusEfi/)
-- [Engines running on rusEFI](List-of-Engines-Running-rusEFI)
+- [Slack](HOWTO-join-slack-channel)
 - [HOWTO-help-rusEFI](HOWTO-help-rusEFI)
 
 # Setup Guides
@@ -46,7 +45,7 @@
 - [Electronic Throttle](Electronic-Throttle-Body-Configuration-Guide)
 - [Knock Sensing](knock-sensing)
 - [Variable Valve Timing](VVT)
-- [FSIO - Flexible Sweet Input Output](FSIO)
+- [Lua Scripting](Lua-Scripting)
 - [GDI](GDI-status)
 - [Digital Dash](Digital-Dash)
 
