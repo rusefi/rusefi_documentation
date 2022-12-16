@@ -47,11 +47,11 @@ On the other hand, we have https://github.com/rusefi/rusefi/wiki which is displa
 that https://github.com/rusefi/rusefi/wiki is actually implemented by ANOTHER git repository 
 https://github.com/rusefi/rusefi.wiki.git behind the scene. That https://github.com/rusefi/rusefi.wiki.git repository does not have a nice Pull Request process :(
 
-Solution? A combination. [wiki2-human](https://github.com/rusefi/rusefi/wiki) and "wiki2-technical" repositories are actually set to mirror each other.
+Solution? A combination. [wiki2-human](https://github.com/rusefi/rusefi/wiki) and [wiki2-technical](https://github.com/rusefi/rusefi_documentation) repositories are actually set to mirror each other.
 This way we have the nice Pull Request process on https://github.com/rusefi/rusefi_documentation and once changes are
-merged into https://github.com/rusefi/rusefi_documentation, complete https://github.com/rusefi/rusefi_documentation is merged
-into https://github.com/rusefi/rusefi_documentation.wiki.git which makes actual content nicely visible at https://github.com/rusefi/rusefi_documentation/wiki 
-
+merged into https://github.com/rusefi/rusefi_documentation, complete https://github.com/rusefi/rusefi_documentation is automatically merged
+into https://github.com/rusefi/rusefi.wiki.git which makes actual content nicely visible at https://github.com/rusefi/rusefi/wiki 
+Synchronization between wiki2-human and wiki2-technical is automated via [Github Action](https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml), file content is expected to be the same between these two repositories.
 
 # Technical FAQ
 
