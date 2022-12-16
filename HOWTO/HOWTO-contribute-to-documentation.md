@@ -29,13 +29,16 @@ right into TunerStudio project file. Lines with green background are the lines b
 Unfortunately while you would be modifying your mainController.ini file while trying your changes, you need to edit rusefi.input file which
 is a template from which rusefi.ini is generated programmatically on rusefi side.
 
+# Wiki location migration
+
+As of Dec 2022, https://github.com/rusefi/rusefi/wiki called "wiki2-human" is the primary documentation URL. wiki.rusefi.com migration is on-going we are fighting some issues. 
 
 
 # Technical implementation details
 
 Github Wiki is weird.
 
-One the one hand, we have https://github.com/rusefi/rusefi_documentation - that's a git repository with nice pull
+One the one hand, we have https://github.com/rusefi/rusefi_documentation called "wiki2-technical" - that's a git repository with nice pull
 request process, but less nice web page rendering which start each folder by showing list of files, that's not what end users want to see. 
 
 
