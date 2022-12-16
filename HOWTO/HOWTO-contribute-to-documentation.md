@@ -1,10 +1,11 @@
 
 #### How to contribute to https://github.com/rusefi/rusefi_documentation
 
-Step 0: Edits are possible directly via [https://github.com/rusefi/rusefi/wiki/](https://wiki.rusefi.com/) 'Edit in GitHub' button. A Fork and PR will be created.
+Step 0: Edits are possible directly via [https://wiki.rusefi.com](https://wiki.rusefi.com/) 'Edit in GitHub' button. A Fork and PR will be created.
+
 ![image](https://user-images.githubusercontent.com/22799428/200407238-74b1fd66-e6b1-46cc-a7b8-398f5c5b41f6.png)
 
-Step 1: Sign up or sign in to https://github.com
+Step 1: Alternatively, sign up or sign in to https://github.com
 
 Step 2: Open https://github.com/rusefi/rusefi_documentation and click 'Fork' - this would produce your own fork/copy of rusefi_documentation which you can now edit right in your browser!
 ![editor](FAQ/github_online_editor.png)  
@@ -42,11 +43,11 @@ One the one hand, we have https://github.com/rusefi/rusefi_documentation called 
 request process, but less nice web page rendering which start each folder by showing list of files, that's not what end users want to see. 
 
 
-On the other hand, we have https://github.com/rusefi/rusefi_documentation/wiki which is displayed much nicer - and 
-that https://github.com/rusefi/rusefi_documentation/wiki is actually implemented by ANOTHER git repository 
-https://github.com/rusefi/rusefi_documentation.wiki.git behind the scene. That https://github.com/rusefi/rusefi_documentation.wiki.git repository does not have a nice Pull Request process :(
+On the other hand, we have https://github.com/rusefi/rusefi/wiki which is displayed much nicer - and 
+that https://github.com/rusefi/rusefi/wiki is actually implemented by ANOTHER git repository 
+https://github.com/rusefi/rusefi.wiki.git behind the scene. That https://github.com/rusefi/rusefi.wiki.git repository does not have a nice Pull Request process :(
 
-Solution? A combination. Here at rusefi_documentation both repositories are actually set to mirror each other.
+Solution? A combination. [wiki2-human](https://github.com/rusefi/rusefi/wiki) and "wiki2-technical" repositories are actually set to mirror each other.
 This way we have the nice Pull Request process on https://github.com/rusefi/rusefi_documentation and once changes are
 merged into https://github.com/rusefi/rusefi_documentation, complete https://github.com/rusefi/rusefi_documentation is merged
 into https://github.com/rusefi/rusefi_documentation.wiki.git which makes actual content nicely visible at https://github.com/rusefi/rusefi_documentation/wiki 
@@ -54,9 +55,9 @@ into https://github.com/rusefi/rusefi_documentation.wiki.git which makes actual 
 
 # Technical FAQ
 
-Q: Is it ok that https://github.com/rusefi/rusefi_documentation.wiki.git cannot be opened from browser?
+Q: Is it ok that https://github.com/rusefi/rusefi.wiki.git cannot be opened from browser?
 
-A: There is no reason to open https://github.com/rusefi/rusefi_documentation.wiki.git from browser. Also while you technically
+A: There is no reason to open https://github.com/rusefi/rusefi.wiki.git from browser. Also while you technically
 CAN "git clone https://github.com/rusefi/rusefi_documentation.wiki.git" and it would work -
  you should NOT. Anyone looking to make changes should be making changes to non-wiki git via normal fork & pull request process.
  
