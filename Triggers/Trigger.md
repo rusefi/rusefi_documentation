@@ -1,6 +1,6 @@
 # Triggers
 
-See [list of all supported triggers](/Technical/All-Supported-Triggers.md)
+See [list of all supported triggers](All-Supported-Triggers.md)
 
 ## Troubleshooting trigger input
 
