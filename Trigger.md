@@ -10,7 +10,7 @@ Use `triggerinfo` command (go to Messages tab, your can either type or use a but
 
 Use reset_trigger to reset counters if needed.
 
-![triggerinfo Example](/Images/triggerinfo.png)
+![triggerinfo Example](Images/triggerinfo.png)
 
 If using an unknown sensor, confirm the sensor signal. In case of Hall type sensor inside distributor, provide power to the sensor and read the output. Typical sensor would be switching from GND to floating.
 
@@ -26,19 +26,19 @@ Type `enable trigger_details` in rusEFI console to enable verbose synchronizatio
 
 "print sync details to console" in TS enables the same output but the output still goes only to rusEFI console.
 
-![x](/Images/trigger-gather-gaps-step-1.png)
+![x](Images/trigger-gather-gaps-step-1.png)
 
-![x](/Images/trigger-gather-gaps-step-2.png)
+![x](Images/trigger-gather-gaps-step-2.png)
 
 ### Troubleshooting with TunerStudio
 
 Enable Trigger Counters
 
-![Trigger Counter in Base Engine Settings](/Images/trigger_counters.png)
+![Trigger Counter in Base Engine Settings](Images/trigger_counters.png)
 
 Channel #1 counter would be "debug i1" gauge and channel #2 is "debug i2". These values should go up if you are cranking and that confirms that the events are being registered by rusEFI firmware.
 
-![Debug Gauges](/Images/debug_gauges_counter.png)
+![Debug Gauges](Images/debug_gauges_counter.png)
 
 ## Trigger Simulation
 
@@ -52,7 +52,7 @@ At the moment rusEFI has no means for VVT/camInput simulation.
 
 A: On engine sniffer tab in rusEFI console, there is a signal front with "0" next to it. That's the trigger synchronization event on the primary trigger line. The trigger synchronization always happens at one of the rise of fall of the primary trigger. globalTriggerAngleOffset is the angle distance between synchronization point and cylinder #1 top dead center. TDC#1 is the green line by the way.
 
-![Sync Point](/Images/Sync_point_highlighed.png)
+![Sync Point](Images/Sync_point_highlighed.png)
 
 **Q: how do I confirm that ECU knows the correct top dead center #1 (TDC) location?**
 
@@ -68,7 +68,7 @@ A: it depends, but a rule of thumb is that IF you have BOTH camshaft position se
 
 Here is a picture with a one-teeth cam sensor and a 60/2 crank:
 
-![Sniffer](/Images/60_2_with_cam.png)
+![Sniffer](Images/60_2_with_cam.png)
 
 **Q: what does _total errors_ mean in triggerinfo output?**
 
