@@ -1,6 +1,8 @@
-rusEFI has a few different ways to collect logs from your ECU.
+# Logging Guide
 
-Both of these methods will product a .mlg file compatible with [MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/). For some technical reasons, the content between the two files is slightly different, but all important fields are identical.  For most troubleshooting, either log type will do the job.
+rusEFI supports multiple methods to collect logs from your ECU.
+
+Both of the methods detailed here will produce a `.mlg` file compatible with [MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/). For some technical reasons, the content between the two methods differs slightly, but all important fields are identical.  For most troubleshooting, either log type will do the job.
 
 If you're trying to share the log with someone to help you with your engine, please upload it at [rusEFI Online](https://rusefi.com/online).
 
@@ -16,44 +18,41 @@ The preferred log for tuning and debugging is a log made in TunerStudio. It requ
 
 ## Logging Data Rate
 
-rusEFI is capable of feeding data to TunerStudio several hundred times per second, so TS lets you select how much to slow it down. For most purposes, 100hz is appropriate. If looking at trigger sync or some other high-speed need, set the logging rate to "Max reads per second". This shouldn't hurt ECU performance, but will make a humongous log file on your PC pretty quickly.
+rusEFI is capable of feeding data to TunerStudio several hundred times per second, so TS lets you select the sample rate as desired. For most purposes, 100 Hz is suitable. When looking at trigger sync or some other high-speed need, set the rate to "Max reads per second"; this shouldn't hurt ECU performance but will make a humongous log file pretty quickly.
 
-The data rate should default to 100hz when using rusEFI, but it's worth checking that its set to a speed appropriate for your application. That said, storage is cheap, so it doesn't really hurt to have it set faster than you need.
+The data rate should default to 100 Hz when using rusEFI, but it's worth checking that its set to a speed appropriate for your application. That said, storage is cheap, so it doesn't really hurt to have it set faster than you need.
 
 ![](https://github.com/rusefi/rusefi_documentation/raw/master/Images/ts-data-rate.png)
 
-# Internal SD card
+# Internal SD Card
 
 Some rusEFI ECUs support logging to a microSD card directly. This is useful for all the times you don't have a PC around. Maybe you're busy driving around a racetrack!
 
-To enable it, find the "SD Card Logger" menu under the "Controller" section (far right).  Set "Enable SD Card" to true to start logging. Set how often the log should be written. The default is every 50ms, aka 20 times per second.
+To enable it, find the "SD Card Logger" menu under the "Controller" section (far right).  Set "Enable SD Card" to true to start logging. Set how often the log should be written: the default is every 50 ms, i.e. 20 times per second (20 Hz).
 
 ![](https://github.com/rusefi/rusefi_documentation/raw/master/Images/ts-sd.png)
 
 ## Storage Consumption
 
-rusEFI SD logging is through, but not too heavy when compared to the size of cheaply available SD cards. Expect about 20MB/hr when set to the default 50ms period, with consumption scaling linearly with logging rate. 20MB/hr means 50hr/gigabyte, or 400 hours (2.4 weeks!) on an inexpensive 8GB card.
+rusEFI SD logging is thorough, but not too heavy when compared to the size of cheaply available SD cards. Expect about 20 MB/hr when set to the default 50 ms period, with consumption scaling linearly with logging rate. 20 MB/hr means 50 hr/GB, or ~400 hours (2.4 weeks!) with an 8 GB card.
 
 ## SD Card USB Connection
 
-When connected to a PC, rusEFI will function as an SD card reader, allowing you to transfer ECU-created logs to your PC. However, since the SD can't be both connected to your PC and used for logging by rusEFI, the following logic is used to decide which to do:
+When connected to a PC, rusEFI ECUs will function as an SD card reader, allowing you to transfer logs to your PC. However, since the SD card can't be both connected to your PC and used for logging by rusEFI, the following logic is used to decide which to do:
 
-- ECU powered from car, USB never connected: Logging to SD card
-- ECU powered from car, then USB connected: Logging to SD card
-- ECU connected to USB first: SD card connected to PC
+- ECU first powered from car, USB never connected: SD card logging mode
+- ECU first powered from car, USB later connected: SD card logging mode
+- ECU first powered from USB: SD card reading mode
 
 If you're unsure what the SD card is currently doing, have a look at the three SD card-related indicators in TunerStudio:
 
 No SD card detected:
-
 ![](https://github.com/rusefi/rusefi_documentation/raw/master/Images/sd-none.png)
 
-Logging to SD card:
-
+SD card logging mode:
 ![](https://github.com/rusefi/rusefi_documentation/raw/master/Images/sd-indicators-logging.png)
 
-Connected to PC:
-
+SD card reading mode:
 ![](https://github.com/rusefi/rusefi_documentation/raw/master/Images/sd-indicators-msd.png)
 
 The assumption is that if you have USB connected, you will be logging using TunerStudio instead of the onboard SD card.
