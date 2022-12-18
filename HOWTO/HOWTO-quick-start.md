@@ -4,7 +4,7 @@
 
 2. Extract the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual Com Port and ST-Link drivers. If necessary the bundle will also help you install java run-time.
 
-![console](FAQ/images/rusEFI_console_start_screen.png)
+![console](Images/rusEFI_console_start_screen.png)
 
 3. **IF you have a Frankenso or Frankenstein board with the FT232 Chip, Download and install [FTDI's usb VCP driver on your PC](http://www.ftdichip.com/Drivers/VCP.htm).** 
 
@@ -14,7 +14,7 @@
 
 6. Start a new project, save to a folder that you specify, and choose the rusefi.ini file from the bundle.
 
-![project](FAQ/images/TunerStudio_new_project.png)
+![project](Images/TunerStudio_new_project.png)
 
 ## Once you get your hardware:
 

@@ -23,7 +23,7 @@ Sensors that have been used with rusEFI so far include:
 
 Innovate's LC-2 serial interface is supported. The Innovate sensor controller has typically two serial connectors, the one labeled *OUT* needs to be connected to the ECU. AUX Serial needs to be configured with a baud rate of 19200BPs and *Enable Innovate LC-2 Serial* needs to be set to true in the EGO sensor window. 
 
-![Innovate LC-2 Settings](Fuel/innovate_lc2_settings.png)
+![Innovate LC-2 Settings](Images/innovate_lc2_settings.png)
 
 ## Misc Info
 
@@ -49,7 +49,7 @@ connector body is laser trimmed with this value."
 [AEM Controller Installation Instructions](http://www.aemelectronics.com/files/instructions/30-4100%20Digital%20Wideband%20UEGO%20Gauge.pdf)
 
 
-![Pinout](Fuel/Aem_UEGO_pinout.png)
+![Pinout](Images/Aem_UEGO_pinout.png)
 
 
 1j0973733 Bosch 4.2 6 pin connector available everywhere

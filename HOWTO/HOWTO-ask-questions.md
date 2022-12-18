@@ -43,4 +43,4 @@ An example of a question asked with helpful background information:
 [UK Mazda MX5 miata NB 1.8'99 - Future Turbo project r0.5 #38 - Forum](https://rusefi.com/forum/viewtopic.php?f=3&t=1282&start=101)
 
 
-![video](FAQ/images/fantastic-story-video-or-it-never-happened.jpg)
+![video](Images/fantastic-story-video-or-it-never-happened.jpg)

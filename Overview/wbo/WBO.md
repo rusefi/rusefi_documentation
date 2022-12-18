@@ -92,11 +92,11 @@ UN = Vs = sensor voltage output
 
 4.9 pinout courtesy of [https://www.wbo2.com/cable/lsuconns.htm](https://www.wbo2.com/cable/lsuconns.htm)
 
-![x](FAQ/LSU-4-9-17025hcon.gif)
+![x](Images/LSU-4-9-17025hcon.gif)
 
 
 
-![x](FAQ/LSU_42_LSU_49_Plug_Comparsion.jpg)
+![x](Images/LSU_42_LSU_49_Plug_Comparsion.jpg)
 
 With SOIC-24 rusEFI module W1=W10=0R means LSU 4.2
 

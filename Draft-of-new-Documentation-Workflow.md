@@ -25,7 +25,7 @@ If you have been added to the documentation team, you will be able to make chang
 **Q:** Is there a place where we are holding all images for these documents?
 **A:** We have images in the same repository! Just add your images while editing pages. Please consider using some (any really) folder structure.
 
-For example [https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png](https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png) is visible on wiki.rusefi.com as [https://wiki.rusefi.com/FAQ/images/TunerStudio_new_project.png](https://wiki.rusefi.com/FAQ/images/TunerStudio_new_project.png)
+For example [https://github.com/rusefi/rusefi_documentation/blob/master/Images/TunerStudio_new_project.png](https://github.com/rusefi/rusefi_documentation/blob/master/Images/TunerStudio_new_project.png) is visible on wiki.rusefi.com as [https://wiki.rusefi.com/Images/TunerStudio_new_project.png](https://wiki.rusefi.com/Images/TunerStudio_new_project.png)
 
 ### How URLs work
 
@@ -37,7 +37,7 @@ Example:
 Links to images are relative to the .md file they are in.
 Example:
 
-`![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)`
+`![TunerStudio New Project View](Images/TunerStudio_new_project.png)`
 
 **Q:** What sort of fancy options do we have?
 

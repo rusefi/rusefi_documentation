@@ -15,25 +15,25 @@ NEW LINK [https://join.slack.com/t/rusefi/shared_invite/zt-1jay59c0l-idseNjIRg~g
 
 To get started you'll have to get the invite to our channel, you can do that using the link above.
 
-![invite](FAQ/images/HOWTO_join_rusEFI_slack_channel/slack_channel_invite.png) 
+![invite](Images/HOWTO_join_rusEFI_slack_channel/slack_channel_invite.png) 
 
 After entering, you'll receive an invitation in your E-mail of choice.
 
-![email](FAQ/images/HOWTO_join_rusEFI_slack_channel/slack_invite_email.png)
+![email](Images/HOWTO_join_rusEFI_slack_channel/slack_invite_email.png)
 
 You'll need to open the invite e-mail and click on the link inside
 
-![link](FAQ/images/HOWTO_join_rusEFI_slack_channel/slack_invite_link.png)
+![link](Images/HOWTO_join_rusEFI_slack_channel/slack_invite_link.png)
 
 After opening the link you'll be directed to the sigh-up page.
 
-![account](FAQ/images/HOWTO_join_rusEFI_slack_channel/slack_invite_account.png)
+![account](Images/HOWTO_join_rusEFI_slack_channel/slack_invite_account.png)
 
 You'll need to fill out the specified spaces and create your then account.
 
 After creating your account you'll enter the rusEFI slack channel.
 
-![channel](FAQ/images/HOWTO_join_rusEFI_slack_channel/slack_channel_channel.png)
+![channel](Images/HOWTO_join_rusEFI_slack_channel/slack_channel_channel.png)
 
 Welcome!
 

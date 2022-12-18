@@ -6,4 +6,4 @@ rusEFI console also automatically writes tooth log .vcd files compatible with [P
 
 Both tooth logs are written until we have at least 300 RPM for at least 5 seconds.
 
-![x](FAQ/images/PulseView-trigger-viewer.png)
+![x](Images/PulseView-trigger-viewer.png)

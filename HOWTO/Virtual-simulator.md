@@ -11,15 +11,15 @@ The rusEFI console runs on Java, so if you don't have that installed on your PC 
 If you don't have the rusEFI console you can download it [here](http://rusefi.com/build_server/rusefi_bundle.zip).  
 You'll have to unzip the file and go into the console folder.
  
- ![Directory](FAQ/images/simulator/rusEFI_console_directory.png)
+ ![Directory](Images/simulator/rusEFI_console_directory.png)
  
  And then open the rusefi_console.jar file.
  
- ![Contents](FAQ/images/simulator/rusEFI_console_directionary_files.png)
+ ![Contents](Images/simulator/rusEFI_console_directionary_files.png)
 
 After this, you'll start the virtual simulator.
 
-![rusEFI_start](FAQ/images/simulator/rusEFI_start.png)
+![rusEFI_start](Images/simulator/rusEFI_start.png)
 
 ## Connecting the simulator to Tunerstudio
 
@@ -31,12 +31,12 @@ If you don't know how to create a Tunerstudio project go [here](HOWTO-create-tun
  
 With the paid version all you need to do is to go into the communication settings inside a created project
  
- ![Commsetings](FAQ/images/simulator/Tunerstudio_comm._settings.png)
+ ![Commsetings](Images/simulator/Tunerstudio_comm._settings.png)
  
  
 choose the driver "Standard Protocols Driver" and connection type "TCP/IP - WiFi driver", enter the Port as "29002" and the IP address as "localhost" (aka 127.0.0.1)
  
- ![Communication_settings](FAQ/images/simulator/Communication_settings_direct.png)
+ ![Communication_settings](Images/simulator/Communication_settings_direct.png)
  
 **However, if you only have the lite version of Tunerstudio the process will be different.**
 
@@ -50,23 +50,23 @@ After download, install it, then run the configuration application "HW Virtual S
 
 
 
-![Virtual serial port](FAQ/images/simulator/Emulator_settings.png)
+![Virtual serial port](Images/simulator/Emulator_settings.png)
 
 Now you can create your virtual port.
 
-![Virtual_port_start](FAQ/images/simulator/Virtual_port_start.png)
+![Virtual_port_start](Images/simulator/Virtual_port_start.png)
 
 So now if you open the communication settings in Tunerstudio,
 
-![Commsettings](FAQ/images/simulator/Tunerstudio_comm._settings.png)
+![Commsettings](Images/simulator/Tunerstudio_comm._settings.png)
 
 you'll be able to connect to your emulator.
 
-![Emulated Communication settings](FAQ/images/simulator/Communication_settings_tutorial.png) 
+![Emulated Communication settings](Images/simulator/Communication_settings_tutorial.png) 
 
 Now if your virtual simulator is connected to Tunerstudio you'll see a green zero in your rusEFI virtual simulator.
 
-![Connected virtual simulator](FAQ/images/simulator/rusEFI_virtual_simulator_connected.png) 
+![Connected virtual simulator](Images/simulator/rusEFI_virtual_simulator_connected.png) 
 
 ## Troubleshooting
 In case something does not work with the TCP<>Serial driver, first thing is to make sure that rusefi_simulator.exe is in the list of Processes in Task Manager
