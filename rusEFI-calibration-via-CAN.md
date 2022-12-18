@@ -8,13 +8,13 @@ With all the electromagnetic interference around the gasoline engine due to spar
 
 [https://github.com/rusefi/rusefi/tree/master/java_console/io/src/main/java/com/rusefi/io/can](https://github.com/rusefi/rusefi/tree/master/java_console/io/src/main/java/com/rusefi/io/can) folder has java implementation of ISO-TP packet encoding/decoding.
 
-There is no standard way of communicating with CAN bus on Windows. At the moment rusEFI is focusing on [PCAN by Peak System]([https://www.peak-system.com/](https://www.peak-system.com/)) and ELM327 options of the Windows side of CAN.
+There is no standard way of communicating with CAN bus on Windows. At the moment rusEFI is focusing on [PCAN by Peak System](https://www.peak-system.com/) and ELM327 options of the Windows side of CAN.
 
 
 
 # PCAN
 Between three major professional CAN frontend vendors we like PCAN by [https://www.peak-system.com/](https://www.peak-system.com/) due to the combination of the following
-1) documented Windows DLL drivers with official java wrappers called [PCAN-Basic API]([https://www.peak-system.com/](https://www.peak-system.com/)PCAN-Basic.239.0.html?&L=1)
+1) documented Windows DLL drivers with official java wrappers called [PCAN-Basic API](https://www.peak-system.com/PCAN-Basic.239.0.html?&L=1)
 
 2) [https://github.com/moonglow/pcan_cantact](https://github.com/moonglow/pcan_cantact) open source firmware for [cheeeeeeap third party devices](https://rusefi.com/forum/viewtopic.php?f=13&t=2243 )
 

@@ -71,4 +71,4 @@ A: USB choice dictated by price and availability. If it changes MRE page will no
 
 ### Q: Exiting, what soldering iron is best?
 
-A: [FAQ Why No Self Assembly](FAQ-Why-No-Self-Assembly/)
+A: [FAQ Why No Self Assembly](FAQ-Why-No-Self-Assembly)
