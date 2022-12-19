@@ -12,7 +12,6 @@ plugins:
 markdown_extensions:
   - sane_lists
 nav:
-  - 'Home': Home
   - 'Downloads': Download
   - 'Getting Started':
     - 'How to search the Wiki': HOWTO/HOWTO-Search-on-rusEFI-wiki
