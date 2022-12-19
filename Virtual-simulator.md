@@ -27,7 +27,7 @@ There are two ways to connect rusEFI virtual simulator to Tunerstudio, it all de
 
 To start off you'll need to open one of your existing projects or just create a new one.
 
-If you don't know how to create a Tunerstudio project go [here](HOWTO-create-tunerstudio-project)
+If you don't know how to create a Tunerstudio project go [here](HOWTO-create-tunerstudio-project.md)
  
 With the paid version all you need to do is to go into the communication settings inside a created project
  

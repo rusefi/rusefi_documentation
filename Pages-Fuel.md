@@ -26,7 +26,7 @@
 
 <details><summary><u>AFR measurement</u></summary>
 
-* [Wide Band Sensors](Wide-Band-Sensors)
+* [Wide Band Sensors](Wide-Band-Sensors.md)
 * [Do I need a wideband](do-i-need-wideband-oxygen-sensor)
 * [Old WBO2 page](WBO)
 
@@ -37,7 +37,7 @@
 * [Converting from Carb](how-to-convert-from-carburetor-to-EFI)
 * [GDI Status](GDI-status)
 * [Basic Injector wiring](FAQ-Basic-Wiring-and-Connections)
-* [Fuel injectors](Fuel-Injectors)
+* [Fuel injectors](Fuel-Injectors.md)
 
 </details>
 

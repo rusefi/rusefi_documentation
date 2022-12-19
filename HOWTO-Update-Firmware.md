@@ -3,7 +3,7 @@
 [Download the rusEFI bundle](Download) for your hardware. 
 
 ## Windows:
-Launch [rusEFI Console](Console). You can find it in the bundle you downloaded, in the "console" folder.
+Launch [rusEFI Console](Console.md). You can find it in the bundle you downloaded, in the "console" folder.
 
 Click the "Update Firmware" button once you've picked desired update mode.
 
@@ -29,7 +29,7 @@ dfu-util -a 0 -D rusefi.dfu
 
 ## More Information
 
-For more about DFU see [HOWTO-DFU](HOWTO-DFU)
+For more about DFU see [HOWTO-DFU](HOWTO-DFU.md)
 
 ST-LINK is an advanced mode of firmware update which requires ST-LINK device, either external, or built-in like on Discovery/Nucleo board.
 

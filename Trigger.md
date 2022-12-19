@@ -80,7 +80,7 @@ A: try _enable trigger_details_ command in console or "print sync details to con
 
 _Q: I have a 60/2 crank wheel and I would like to use a cam sensor for fully sequential mode. Should I use "4-stroke with Cam sensor"?_
 
-A: You can only use "4-stroke with Cam sensor" if your composite trigger shape is known to rusEFI. If you are adding a cam to 60/2, rusEFI probably does not know this combination with all the angles precisely. The way to add sequential to a skipped-tooth crank wheel is via cam input mode, same as used for VVT (see also [VVT](/Technical/VVT))
+A: You can only use "4-stroke with Cam sensor" if your composite trigger shape is known to rusEFI. If you are adding a cam to 60/2, rusEFI probably does not know this combination with all the angles precisely. The way to add sequential to a skipped-tooth crank wheel is via cam input mode, same as used for VVT (see also [VVT](/VVT.md))
 This case your known crank shape is used for shaft position lookup and your cam is only used for phase lookup - exact cam sensor angular position is less important.
 
-See also [VVT](/Technical/VVT)
+See also [VVT](/VVT.md)

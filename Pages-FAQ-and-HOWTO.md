@@ -2,8 +2,8 @@
 
 <details><summary><u>FAQs</u></summary>
 
-* [Ignition](FAQ-Ignition)
-* [Basic Wiring and Connections](FAQ-Basic-Wiring-and-Connections)
+* [Ignition](FAQ-Ignition.md)
+* [Basic Wiring and Connections](FAQ-Basic-Wiring-and-Connections.md)
 
 </details>
 
