@@ -69,7 +69,7 @@ Disable/supress A/C functionality regardless of what and how enables it, an over
 
 Gets current calibration value for specified scalar setting. For example ``getCalibration("cranking.rpm")``
 
-See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.cpp](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.cpp) for field names.
+See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md) for field names.
 
 ### `setCalibration(name, value, needEvent)`
 
