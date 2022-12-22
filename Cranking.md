@@ -26,7 +26,7 @@ Cranking mode is defined as any RPM value below the 'cranking RPM' setting. Duri
 
 <!-- this magic '>' make a one line quote block --> 
 
-> <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [First Engine Start](First-Engine-Start).*
+> ![Hint](FAQ/icons/hint.png) *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [First Engine Start](First-Engine-Start).*
 
 
 # Cranking Settings
@@ -46,7 +46,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on the particular settings:*
 
-<table border="0"><tr><td width="362" height="609" background="FAQ/cranking/settings_back.png" valign="top"> <img src="FAQ/cranking/settings_01.png" valign="top" style="vertical-align: top;"/>
+<table border="0" markdown="1"><tr markdown="1"><td width="362" height="609" background="FAQ/cranking/settings_back.png" valign="top" markdown="1"> <img src="FAQ/cranking/settings_01.png" valign="top" style="vertical-align: top;"/>
   <a href="#cranking-rpm-limit" title="Cranking RPM limit"><img src="FAQ/cranking/settings_02.png" valign="top" style="vertical-align: top;"/></a>
   <a href="#enable-cylinder-cleanup" title="Enable cylinder cleanup"><img src="FAQ/cranking/settings_03.png" valign="top" style="vertical-align: top;"/></a>
   <a href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up"><img src="FAQ/cranking/settings_04.png" valign="top" style="vertical-align: top;"/></a>
