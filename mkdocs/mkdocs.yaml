@@ -13,6 +13,9 @@ markdown_extensions:
   - sane_lists
   - md_in_html
 
+extra_css:
+  - style.css
+
 nav:
   - 'Downloads': Download
   - 'Getting Started':
