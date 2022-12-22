@@ -72,6 +72,9 @@ https://www.youtube.com/watch?v=Xu1WibAQU_s
 
 https://www.youtube.com/watch?v=DkhOHbRG_j4
 
+# Epic 8 hours ride of 2016
+
+https://youtu.be/a_0XbZutufU
 
 # Lua and CAN
 
