@@ -11,6 +11,8 @@ plugins:
       wikilinks: true
 markdown_extensions:
   - sane_lists
+  - md_in_html
+
 nav:
   - 'Downloads': Download
   - 'Getting Started':
