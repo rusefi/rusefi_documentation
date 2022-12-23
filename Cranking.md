@@ -65,21 +65,30 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
   <a href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment"><img src="FAQ/cranking/settings_17.png" valign="top" style="vertical-align: top;"/></a>
   <img src="FAQ/cranking/settings_18.png" valign="top" style="vertical-align: top;"/>
 </td>
-<td valign="top">
+<td valign="top" markdown="block">
 
-## General Cranking Settings
-### Cranking RPM limit
-*This sets the RPM limit below which the ECU will use cranking fuel and ignition logic, typically this is around 350-450 rpm.* <details><summary>More...</summary>
-In rusEFI Console, you can use command ```set cranking_rpm X``` to change this value.</details>
+## General Cranking Settings  
+### Cranking RPM limit  
+*This sets the RPM limit below which the ECU will use cranking fuel and ignition logic, typically this is around 350-450 rpm.*  
 
-### Enable cylinder cleanup
-*When enabled, if the throttle pedal is held above 90% then no fuel is injected while cranking to clear excess fuel from the cylinders.*
+<details markdown="1">
+<summary>More...</summary>
 
-### Enable faster engine spin-up
-*Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
-*Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
+In rusEFI Console, you can use command ```set cranking_rpm X``` to change this value.
 
-</td></tr></table>
+</details>
+
+### Enable cylinder cleanup  
+
+*When enabled, if the throttle pedal is held above 90% then no fuel is injected while cranking to clear excess fuel from the cylinders.*  
+
+### Enable faster engine spin-up  
+
+* Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
+* Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
+
+</td>
+</tr></table>
 
 
 ## Priming Fuel Pulse
@@ -89,7 +98,8 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 *We use interpolation from smaller CLT to biggest CLT, to make line function for pulse width and interpolate pulse width from bigger(we set it in settings) to zero(when CLT>= falloff temperature).*
 
 *Prime pulse make a big weight when you have a long-distance from the injector to the engine valve.*
-<details><summary>More...</summary>
+<details>
+<summary>More...</summary>
 
 See also isFasterEngineSpinUpEnabled
 
