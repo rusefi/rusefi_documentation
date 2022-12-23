@@ -47,7 +47,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 > ![Hint](FAQ/icons/hint.png) *Hint: Click on the screenshot below to see more info on the particular settings:*
 
-<table class="mapped-screenshot" markdown="1" style="width:334px; height:609px;"><td markdown="1">
+<table class="mapped-screenshot" markdown="1" style="width:334px; height:609px;"><td markdown="1" width="334">
 
 ![Settings01](FAQ/cranking/settings_01.png)
 [![Cranking RPM limit](FAQ/cranking/settings_02.png)](#cranking-rpm-limit)
