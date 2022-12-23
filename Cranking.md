@@ -44,7 +44,7 @@ The settings are divided into several sections:
 
 rusEFI has a separate cranking control strategy for your first couple of engine revolutions - usually, you want more fuel, different timing and simultaneous injection to start an engine. The engine would start rich, as long as it's not too rich, as long as you have a close-enough cranking timing angle. 
 
-> <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on the particular settings:*
+> ![Hint](FAQ/icons/hint.png) *Hint: Click on the screenshot below to see more info on the particular settings:*
 
 <table border="0" markdown="1"><tr markdown="1"><td width="366" height="609" valign="top" markdown="1">
   ![Settings01](FAQ/cranking/settings_01.png)
@@ -174,7 +174,7 @@ To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is t
 
 ## Post-cranking short-time fuel enrichment
 
-> <img src="FAQ/icons/warning.png" style="vertical-align:middle"> *Warning: Currently not implemented!*
+> ![Warning](FAQ/icons/warning.png) *Warning: Currently not implemented!*
 
 ---
 
