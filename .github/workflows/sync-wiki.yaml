@@ -52,6 +52,7 @@ jobs:
         cd mkdocs
         mkdir docs
         cp -r ../!(mkdocs) docs
+        cp style.css docs
         mkdocs build
 
     - name: Set SSH variables

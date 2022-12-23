@@ -1,0 +1,21 @@
+.wy-table-responsive table td, .wy-table-responsive table th {
+	white-space: normal;
+}
+
+rst-content .toctree-wrapper > p.caption, .rst-content h1, .rst-content h2, .rst-content h3, .rst-content h4, .rst-content h5, .rst-content h6 {
+	margin-top: 24px;
+	margin-bottom: 12px;
+}
+
+.mapped-screenshot p {
+	line-height: 0px;
+}
+
+.rst-content table.mapped-screenshot td {
+	padding: 0px;
+}
+
+.wy-table-responsive {
+	float: left;
+	margin: 18px;
+}

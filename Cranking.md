@@ -6,16 +6,17 @@ In order to get an engine running, it first needs to be rotated at sufficient sp
 
 <!-- This would be rendered as a collapsable section. from 'details' to closing 'details' -->
 
-<details><summary><i>See also</i>: <u>Starter Motor</u></summary>
+<details markdown="1"><summary><i>See also</i>: <u>Starter Motor</u></summary>
 
-<table><tr><td>
+<table markdown="1"><tr markdown="1"><td markdown="1">
 
 ![Starter](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Automobile_starter.JPG/270px-Automobile_starter.JPG)
-</td><td> The electric starter motor or cranking motor is the most common type used on gasoline engines and small diesel engines. 
+</td><td markdown="1"> The electric starter motor or cranking motor is the most common type used on gasoline engines and small diesel engines. 
 
-You can control the starter using several rusEFI firmware features:
-* [Start-Stop Button Control](Start_Stop_Button)
-* [Starter Disable Relay Control](Starter_Block_Relay)
+You can control the starter using several rusEFI firmware features:  
+
+- [Start-Stop Button Control](Start_Stop_Button)  
+- [Starter Disable Relay Control](Starter_Block_Relay)
 
 </td></tr></table>
 
@@ -25,7 +26,7 @@ Cranking mode is defined as any RPM value below the 'cranking RPM' setting. Duri
 
 <!-- this magic '>' make a one line quote block --> 
 
-> <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [First Engine Start](First-Engine-Start).*
+> ![Hint](FAQ/icons/hint.png) *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [First Engine Start](First-Engine-Start).*
 
 
 # Cranking Settings
@@ -34,6 +35,7 @@ In TunerStudio, the Cranking Settings are accessed from the top menu:
 ![table](FAQ/cranking/menu.png)
 
 The settings are divided into several sections:
+
 * [General settings](#general-cranking-settings)
 * [Priming fuel pulse settings](#priming-fuel-pulse)
 * [Fuel settings](#fuel-settings)
@@ -43,42 +45,45 @@ The settings are divided into several sections:
 
 rusEFI has a separate cranking control strategy for your first couple of engine revolutions - usually, you want more fuel, different timing and simultaneous injection to start an engine. The engine would start rich, as long as it's not too rich, as long as you have a close-enough cranking timing angle. 
 
-> <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on the particular settings:*
+> ![Hint](FAQ/icons/hint.png) *Hint: Click on the screenshot below to see more info on the particular settings:*
 
-<table border="0"><tr><td width="362" height="609" background="FAQ/cranking/settings_back.png" valign="top"> <img src="FAQ/cranking/settings_01.png" valign="top" style="vertical-align: top;"/>
-  <a href="#cranking-rpm-limit" title="Cranking RPM limit"><img src="FAQ/cranking/settings_02.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#enable-cylinder-cleanup" title="Enable cylinder cleanup"><img src="FAQ/cranking/settings_03.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up"><img src="FAQ/cranking/settings_04.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#duration-at--40c-degrees" title="Duration at -40C degrees"><img src="FAQ/cranking/settings_05.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#falloff-temperature" title="Falloff temperature"><img src="FAQ/cranking/settings_06.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#injection-mode" title="Injectiton mode"><img src="FAQ/cranking/settings_07.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#fuel-source-for-cranking" title="Fuel Source For Cranking"><img src="FAQ/cranking/settings_08.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#base-fuel-pulse-width" title="Base Fuel Pulse Width"><img src="FAQ/cranking/settings_09.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#advance" title="Advance"><img src="FAQ/cranking/settings_10.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#use-separate-advance-table-for-cranking" title="Use separate Advance Table for cranking"><img src="FAQ/cranking/settings_11.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#use-advance-corrections-for-cranking" title="Use Advance Corrections for cranking"><img src="FAQ/cranking/settings_12.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#use-fixed-cranking-dwell" title="Use fixed cranking dwell"><img src="FAQ/cranking/settings_13.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#cranking-iac-position" title="Cranking IAC position"><img src="FAQ/cranking/settings_14.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#after-cranking-iac-taper-duration" title="After cranking IAC taper duration"><img src="FAQ/cranking/settings_15.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#override-iac-multiplier-for-cranking" title="Override IAC multiplier for cranking"><img src="FAQ/cranking/settings_16.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment"><img src="FAQ/cranking/settings_17.png" valign="top" style="vertical-align: top;"/></a>
-  <img src="FAQ/cranking/settings_18.png" valign="top" style="vertical-align: top;"/>
-</td>
-<td valign="top">
+<table class="mapped-screenshot" markdown="1" style="width:334px; height:609px;"><td markdown="1" width="334">
 
-## General Cranking Settings
-### Cranking RPM limit
-*This sets the RPM limit below which the ECU will use cranking fuel and ignition logic, typically this is around 350-450 rpm.* <details><summary>More...</summary>
+![Settings01](FAQ/cranking/settings_01.png)
+[![Cranking RPM limit](FAQ/cranking/settings_02.png)](#cranking-rpm-limit)
+[![Enable cylinder cleanup](FAQ/cranking/settings_03.png)](#enable-cylinder-cleanup)
+[![Enable faster engine spin-up](FAQ/cranking/settings_04.png)](#enable-faster-engine-spin-up)
+[![Duration at -40C degrees](FAQ/cranking/settings_05.png)](#duration-at--40c-degrees)
+[![Falloff temperature](FAQ/cranking/settings_06.png)](#falloff-temperature)
+[![Injectiton mode](FAQ/cranking/settings_07.png)](#injection-mode)
+[![Fuel Source For Cranking](FAQ/cranking/settings_08.png)](#fuel-source-for-cranking)
+[![Base Fuel Pulse Width](FAQ/cranking/settings_09.png)](#base-fuel-pulse-width)
+[![Advance](FAQ/cranking/settings_10.png)](#advance)
+[![Use separate Advance Table for cranking](FAQ/cranking/settings_11.png)](#use-separate-advance-table-for-cranking)
+[![Use Advance Corrections for cranking](FAQ/cranking/settings_12.png)](#use-advance-corrections-for-cranking)
+[![Use fixed cranking dwell](FAQ/cranking/settings_13.png)](#use-fixed-cranking-dwell)
+[![Cranking IAC position](FAQ/cranking/settings_14.png)](#cranking-iac-position)
+[![After cranking IAC taper duration](FAQ/cranking/settings_15.png)](#after-cranking-iac-taper-duration)
+[![Override IAC multiplier for cranking](FAQ/cranking/settings_16.png)](#override-iac-multiplier-for-cranking)
+[![Post-cranking short-time fuel enrichment](FAQ/cranking/settings_17.png)](#post-cranking-short-time-fuel-enrichment)
+![Settings18](FAQ/cranking/settings_18.png)
+</td></table>
 
-### Enable cylinder cleanup
-*When enabled, if the throttle pedal is held above 90% then no fuel is injected while cranking to clear excess fuel from the cylinders.*
+## General Cranking Settings  
+### Cranking RPM limit  
+*This sets the RPM limit below which the ECU will use cranking fuel and ignition logic, typically this is around 350-450 rpm.*  
+<details markdown="block">
+<summary>More...</summary>
 
-### Enable faster engine spin-up
-*Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
-*Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
+In rusEFI Console, you can use command ```set cranking_rpm X``` to change this value.
+</details>
 
-</td></tr></table>
+### Enable cylinder cleanup  
+*When enabled, if the throttle pedal is held above 90% then no fuel is injected while cranking to clear excess fuel from the cylinders.*  
 
+### Enable faster engine spin-up  
+* *Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
+* *Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
 
 ## Priming Fuel Pulse
 ### Duration at -40C degrees
@@ -87,7 +92,8 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 *We use interpolation from smaller CLT to biggest CLT, to make line function for pulse width and interpolate pulse width from bigger(we set it in settings) to zero(when CLT>= falloff temperature).*
 
 *Prime pulse make a big weight when you have a long-distance from the injector to the engine valve.*
-<details><summary>More...</summary>
+<details markdown="block">
+<summary>More...</summary>
 
 See also isFasterEngineSpinUpEnabled
 
@@ -119,7 +125,8 @@ See also isFasterEngineSpinUpEnabled
 
 *Base duration of the fuel injection during cranking, this is modified by the multipliers for CLT, IAT, TPS ect, to give the final cranking pulse width. Used only if "Fuel Source for cranking" option is set to "Fixed".*
 
-<details><summary>More...</summary>
+<details markdown="block">
+<summary>More...</summary>
 
 </details>
 
@@ -157,7 +164,7 @@ See also isFasterEngineSpinUpEnabled
 
 ## Post-cranking short-time fuel enrichment
 
-> <img src="FAQ/icons/warning.png" style="vertical-align:middle"> *Warning: Currently not implemented!*
+> ![Warning](FAQ/icons/warning.png) *Warning: Currently not implemented!*
 
 ---
 
