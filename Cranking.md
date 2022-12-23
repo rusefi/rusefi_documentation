@@ -71,7 +71,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 ## General Cranking Settings  
 ### Cranking RPM limit  
 *This sets the RPM limit below which the ECU will use cranking fuel and ignition logic, typically this is around 350-450 rpm.*  
-<details markdown="1">
+<details markdown="block">
 <summary>More...</summary>
 
 In rusEFI Console, you can use command ```set cranking_rpm X``` to change this value.
@@ -94,7 +94,7 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 *We use interpolation from smaller CLT to biggest CLT, to make line function for pulse width and interpolate pulse width from bigger(we set it in settings) to zero(when CLT>= falloff temperature).*
 
 *Prime pulse make a big weight when you have a long-distance from the injector to the engine valve.*
-<details>
+<details markdown="block">
 <summary>More...</summary>
 
 See also isFasterEngineSpinUpEnabled
@@ -130,7 +130,8 @@ rusEFI Console command:
 
 *Base duration of the fuel injection during cranking, this is modified by the multipliers for CLT, IAT, TPS ect, to give the final cranking pulse width. Used only if "Fuel Source for cranking" option is set to "Fixed".*
 
-<details><summary>More...</summary>
+<details markdown="block">
+<summary>More...</summary>
 
 To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is the number of total fuel squirt duration in milliseconds. See also [Console Commands - Fuel Control](Dev-Console-Commands#fuel-control)
 
