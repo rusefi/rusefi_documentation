@@ -47,27 +47,27 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 > ![Hint](FAQ/icons/hint.png) *Hint: Click on the screenshot below to see more info on the particular settings:*
 
-<table border="0" markdown="1"><tr markdown="1"><td width="366" height="609" valign="top" markdown="1">
-  ![Settings01](FAQ/cranking/settings_01.png)
-  [![Cranking RPM limit](FAQ/cranking/settings_02)](#cranking-rpm-limit)
-  [![Enable cylinder cleanup](FAQ/cranking/settings_03.png)](#enable-cylinder-cleanup)
-  [![Enable faster engine spin-up](FAQ/cranking/settings_04.png)](#enable-faster-engine-spin-up)
-  [![Duration at -40C degrees](FAQ/cranking/settings_05.png)](#duration-at--40c-degrees)
-  [![Falloff temperature](FAQ/cranking/settings_06.png)](#falloff-temperature)
-  [![Injectiton mode](FAQ/cranking/settings_07.png)](#injection-mode)
-  [![Fuel Source For Cranking](FAQ/cranking/settings_08.png)](#fuel-source-for-cranking)
-  [![Base Fuel Pulse Width](FAQ/cranking/settings_09.png)](#base-fuel-pulse-width)
-  [![Advance](FAQ/cranking/settings_10.png)](#advance)
-  [![Use separate Advance Table for cranking](FAQ/cranking/settings_11.png)](#use-separate-advance-table-for-cranking)
-  [![Use Advance Corrections for cranking](FAQ/cranking/settings_12.png)](#use-advance-corrections-for-cranking)
-  [![Use fixed cranking dwell](FAQ/cranking/settings_13.png)](#use-fixed-cranking-dwell)
-  [![Cranking IAC position](FAQ/cranking/settings_14.png)](#cranking-iac-position)
-  [![After cranking IAC taper duration](FAQ/cranking/settings_15.png)](#after-cranking-iac-taper-duration)
-  [![Override IAC multiplier for cranking](FAQ/cranking/settings_16.png)](#override-iac-multiplier-for-cranking)
-  [![Post-cranking short-time fuel enrichment](FAQ/cranking/settings_17.png)](#post-cranking-short-time-fuel-enrichment)
-  ![Settings18](FAQ/cranking/settings_18.png)
-</td>
-<td valign="top" markdown="block">
+<table class="mapped-screenshot" markdown="1" style="width:334px; height:609px;"><td markdown="1">
+
+![Settings01](FAQ/cranking/settings_01.png)
+[![Cranking RPM limit](FAQ/cranking/settings_02.png)](#cranking-rpm-limit)
+[![Enable cylinder cleanup](FAQ/cranking/settings_03.png)](#enable-cylinder-cleanup)
+[![Enable faster engine spin-up](FAQ/cranking/settings_04.png)](#enable-faster-engine-spin-up)
+[![Duration at -40C degrees](FAQ/cranking/settings_05.png)](#duration-at--40c-degrees)
+[![Falloff temperature](FAQ/cranking/settings_06.png)](#falloff-temperature)
+[![Injectiton mode](FAQ/cranking/settings_07.png)](#injection-mode)
+[![Fuel Source For Cranking](FAQ/cranking/settings_08.png)](#fuel-source-for-cranking)
+[![Base Fuel Pulse Width](FAQ/cranking/settings_09.png)](#base-fuel-pulse-width)
+[![Advance](FAQ/cranking/settings_10.png)](#advance)
+[![Use separate Advance Table for cranking](FAQ/cranking/settings_11.png)](#use-separate-advance-table-for-cranking)
+[![Use Advance Corrections for cranking](FAQ/cranking/settings_12.png)](#use-advance-corrections-for-cranking)
+[![Use fixed cranking dwell](FAQ/cranking/settings_13.png)](#use-fixed-cranking-dwell)
+[![Cranking IAC position](FAQ/cranking/settings_14.png)](#cranking-iac-position)
+[![After cranking IAC taper duration](FAQ/cranking/settings_15.png)](#after-cranking-iac-taper-duration)
+[![Override IAC multiplier for cranking](FAQ/cranking/settings_16.png)](#override-iac-multiplier-for-cranking)
+[![Post-cranking short-time fuel enrichment](FAQ/cranking/settings_17.png)](#post-cranking-short-time-fuel-enrichment)
+![Settings18](FAQ/cranking/settings_18.png)
+</td></table>
 
 ## General Cranking Settings  
 ### Cranking RPM limit  
@@ -84,9 +84,6 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 ### Enable faster engine spin-up  
 * *Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
 * *Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
-
-</td></tr></table>
-
 
 ## Priming Fuel Pulse
 ### Duration at -40C degrees
