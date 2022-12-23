@@ -97,9 +97,6 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 
 See also isFasterEngineSpinUpEnabled
 
-rusEFI Console command:
-```set cranking_priming_pulse X```
-
 </details>
 
 ### Falloff temperature
@@ -131,16 +128,12 @@ rusEFI Console command:
 <details markdown="block">
 <summary>More...</summary>
 
-To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is the number of total fuel squirt duration in milliseconds. See also [Console Commands - Fuel Control](Dev-Console-Commands#fuel-control)
-
 </details>
 
 ## Ignition Settings
 ### Advance
 *Ignition advance angle used during engine cranking, 5-10 degrees will work as a base setting for most engines.*
 
-*rusEFI Console command:
-```set cranking_timing_angle X```*
 
 ### Use separate Advance Table for cranking
 
@@ -156,8 +149,6 @@ To adjust cranking fuel, use ```set cranking_fuel XXX``` command, where XXX is t
 
 *If set to true, will use the specified duration for cranking dwell. If set to false, will use the specified dwell angle. Unless you have a really good reason to, leave this set to true to use duration mode.*
 
-*rusEFI Console command:
-```set cranking_charge_angle X```*
 
 ## IAC Settings
 ### Cranking IAC position
