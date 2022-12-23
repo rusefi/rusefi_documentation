@@ -70,25 +70,20 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 ## General Cranking Settings  
 ### Cranking RPM limit  
 *This sets the RPM limit below which the ECU will use cranking fuel and ignition logic, typically this is around 350-450 rpm.*  
-
 <details markdown="1">
 <summary>More...</summary>
 
 In rusEFI Console, you can use command ```set cranking_rpm X``` to change this value.
-
 </details>
 
 ### Enable cylinder cleanup  
-
 *When enabled, if the throttle pedal is held above 90% then no fuel is injected while cranking to clear excess fuel from the cylinders.*  
 
 ### Enable faster engine spin-up  
-
 * Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
 * Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
 
-</td>
-</tr></table>
+</td></tr></table>
 
 
 ## Priming Fuel Pulse
