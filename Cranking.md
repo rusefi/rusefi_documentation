@@ -46,24 +46,25 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on the particular settings:*
 
-<table border="0" markdown="1"><tr markdown="1"><td width="362" height="609" background="../FAQ/cranking/settings_back.png" valign="top" markdown="1"> <img src="FAQ/cranking/settings_01.png" valign="top" style="vertical-align: top;"/>
+<table border="0" markdown="1"><tr markdown="1"><td width="362" height="609" background="../FAQ/cranking/settings_back.png" valign="top" markdown="1">
+  ![Settings01](FAQ/cranking/settings_01.png)
   [![Cranking RPM limit](FAQ/cranking/settings_02)](#cranking-rpm-limit)
   [![Enable cylinder cleanup](FAQ/cranking/settings_03.png)](#enable-cylinder-cleanup)
   [![Enable faster engine spin-up](FAQ/cranking/settings_04.png)](#enable-faster-engine-spin-up)
   [![Duration at -40C degrees](FAQ/cranking/settings_05.png)](#duration-at--40c-degrees)
-  <a href="#falloff-temperature" title="Falloff temperature"><img src="FAQ/cranking/settings_06.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#injection-mode" title="Injectiton mode"><img src="FAQ/cranking/settings_07.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#fuel-source-for-cranking" title="Fuel Source For Cranking"><img src="FAQ/cranking/settings_08.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#base-fuel-pulse-width" title="Base Fuel Pulse Width"><img src="FAQ/cranking/settings_09.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#advance" title="Advance"><img src="FAQ/cranking/settings_10.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#use-separate-advance-table-for-cranking" title="Use separate Advance Table for cranking"><img src="FAQ/cranking/settings_11.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#use-advance-corrections-for-cranking" title="Use Advance Corrections for cranking"><img src="FAQ/cranking/settings_12.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#use-fixed-cranking-dwell" title="Use fixed cranking dwell"><img src="FAQ/cranking/settings_13.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#cranking-iac-position" title="Cranking IAC position"><img src="FAQ/cranking/settings_14.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#after-cranking-iac-taper-duration" title="After cranking IAC taper duration"><img src="FAQ/cranking/settings_15.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#override-iac-multiplier-for-cranking" title="Override IAC multiplier for cranking"><img src="FAQ/cranking/settings_16.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#post-cranking-short-time-fuel-enrichment" title="Post-cranking short-time fuel enrichment"><img src="FAQ/cranking/settings_17.png" valign="top" style="vertical-align: top;"/></a>
-  <img src="FAQ/cranking/settings_18.png" valign="top" style="vertical-align: top;"/>
+  [![Falloff temperature](FAQ/cranking/settings_06.png)](#falloff-temperature)
+  [![Injectiton mode](FAQ/cranking/settings_07.png)](#injection-mode)
+  [![Fuel Source For Cranking](FAQ/cranking/settings_08.png)](#fuel-source-for-cranking)
+  [![Base Fuel Pulse Width](FAQ/cranking/settings_09.png)](#base-fuel-pulse-width)
+  [![Advance](FAQ/cranking/settings_10.png)](#advance)
+  [![Use separate Advance Table for cranking](FAQ/cranking/settings_11.png)](#use-separate-advance-table-for-cranking)
+  [![Use Advance Corrections for cranking](FAQ/cranking/settings_12.png)](#use-advance-corrections-for-cranking)
+  [![Use fixed cranking dwell](FAQ/cranking/settings_13.png)](#use-fixed-cranking-dwell)
+  [![Cranking IAC position](FAQ/cranking/settings_14.png)](#cranking-iac-position)
+  [![After cranking IAC taper duration](FAQ/cranking/settings_15.png)](#after-cranking-iac-taper-duration)
+  [![Override IAC multiplier for cranking](FAQ/cranking/settings_16.png)](#override-iac-multiplier-for-cranking)
+  [![Post-cranking short-time fuel enrichment](FAQ/cranking/settings_17.png)](#post-cranking-short-time-fuel-enrichment)
+  ![Settings18](FAQ/cranking/settings_18.png)
 </td>
 <td valign="top" markdown="block">
 
