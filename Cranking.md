@@ -35,6 +35,7 @@ In TunerStudio, the Cranking Settings are accessed from the top menu:
 ![table](FAQ/cranking/menu.png)
 
 The settings are divided into several sections:
+
 * [General settings](#general-cranking-settings)
 * [Priming fuel pulse settings](#priming-fuel-pulse)
 * [Fuel settings](#fuel-settings)
@@ -81,8 +82,8 @@ In rusEFI Console, you can use command ```set cranking_rpm X``` to change this v
 *When enabled, if the throttle pedal is held above 90% then no fuel is injected while cranking to clear excess fuel from the cylinders.*  
 
 ### Enable faster engine spin-up  
-* Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
-* Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
+* *Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
+* *Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
 
 </td></tr></table>
 
