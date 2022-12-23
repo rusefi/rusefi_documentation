@@ -47,10 +47,10 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 > <img src="FAQ/icons/hint.png" style="vertical-align:middle"> *Hint: Click on the screenshot below to see more info on the particular settings:*
 
 <table border="0" markdown="1"><tr markdown="1"><td width="362" height="609" background="FAQ/cranking/settings_back.png" valign="top" markdown="1"> <img src="FAQ/cranking/settings_01.png" valign="top" style="vertical-align: top;"/>
-  [![Settings02](FAQ/cranking/settings_02)](#cranking-rpm-limit)
-  <a href="#enable-cylinder-cleanup" title="Enable cylinder cleanup"><img src="FAQ/cranking/settings_03.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#enable-faster-engine-spin-up" title="Enable faster engine spin-up"><img src="FAQ/cranking/settings_04.png" valign="top" style="vertical-align: top;"/></a>
-  <a href="#duration-at--40c-degrees" title="Duration at -40C degrees"><img src="FAQ/cranking/settings_05.png" valign="top" style="vertical-align: top;"/></a>
+  [![Cranking RPM limit](FAQ/cranking/settings_02)](#cranking-rpm-limit)
+  [![Enable cylinder cleanup](FAQ/cranking/settings_03.png)](#enable-cylinder-cleanup)
+  [![Enable faster engine spin-up](FAQ/cranking/settings_04.png)](#enable-faster-engine-spin-up)
+  [![Duration at -40C degrees](FAQ/cranking/settings_05.png)](#duration-at--40c-degrees)
   <a href="#falloff-temperature" title="Falloff temperature"><img src="FAQ/cranking/settings_06.png" valign="top" style="vertical-align: top;"/></a>
   <a href="#injection-mode" title="Injectiton mode"><img src="FAQ/cranking/settings_07.png" valign="top" style="vertical-align: top;"/></a>
   <a href="#fuel-source-for-cranking" title="Fuel Source For Cranking"><img src="FAQ/cranking/settings_08.png" valign="top" style="vertical-align: top;"/></a>
