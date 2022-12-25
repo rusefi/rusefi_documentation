@@ -8,7 +8,7 @@ MOTOR_6 = 0x488
 MOTOR_7 = 0x588
 
 
-fuelCounter = 0;
+fuelCounter = 0
 
 function xorChecksum(data, targetIndex)
 	local index = 1
@@ -97,7 +97,7 @@ totalTcuMessages = 0
 motor1Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
-motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD}
+motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
 motor6Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
@@ -189,7 +189,7 @@ mafSensor = Sensor.new("maf")
 mafCalibrationIndex = findCurveIndex("mafcurve")
 
 function onTick()
-    freqValue = getSensor("AuxSpeed1") * 16 or 0
+    freqValue = getSensor("AuxSpeed1") or 0
 	mafValue = curve(mafCalibrationIndex, 5)
 --	print(freqValue .. " mafValue=" .. mafValue)
 	mafSensor : set(mafValue)
@@ -199,7 +199,7 @@ function onTick()
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
 		print("Total from ECU " ..totalEcuMessages .." from TCU " ..totalTcuMessages)
-		
+
 		fuelCounter = fuelCounter + 20
 
 
