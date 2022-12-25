@@ -185,7 +185,17 @@ canRxAddMask(TCU_BUS, 0, 0, onAnythingFromTCU)
 everySecondTimer = Timer.new()
 canMotorInfoCounter = 0
 
+mafSensor = Sensor.new("maf")
+mafCalibrationIndex = findCurveIndex("mafcurve")
+
 function onTick()
+    freqValue = getSensor("AuxSpeed1") * 16 or 0
+	mafValue = curve(mafCalibrationIndex, 5)
+--	print(freqValue .. " mafValue=" .. mafValue)
+	mafSensor : set(mafValue)
+
+
+
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
 		print("Total from ECU " ..totalEcuMessages .." from TCU " ..totalTcuMessages)
