@@ -168,7 +168,7 @@ function onMotor6(bus, id, dlc, data)
 --	    actualTorque = fakeTorque
 --  feedbackGearbox = 255
 
- 		motor6Data[2] = math.floor(targetTorque / 0.39)
+ 		motor6Data[2] = math.floor(engineTorque / 0.39)
 		motor6Data[3] = math.floor(actualTorque / 0.39)
  		motor6Data[6] = math.floor(feedbackGearbox / 0.39)
 

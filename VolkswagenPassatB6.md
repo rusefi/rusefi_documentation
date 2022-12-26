@@ -202,11 +202,12 @@ Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 | 30  | ???          | Solenoid #3 K3 ?                      | YEL/VIO    |
 | 31  |              | Solenoid #6 Main Pressure Positive    |            |
 | 32  |              | Solenoid #9 K2 ?                      | VIO/BLU    |
+| 34  | CAN          | CAN                                   | ORG/BRN    |
 | 39  |              |                                       | BRN        |
 | 42  |              |                                       |            |
 | 42  |              |                                       |            |
 | 43  |              | Solenoid #4 TC Negative               |            |
-|     |              |                                       |            |
+| 46  | CAN          | CAN                                   | ORG/BRN    |
 | 48  |              | Shift lock solenoid ?                 | VIO        |
 | 50  |              |                                       | GRN        |
 |     |              |                                       |            |
