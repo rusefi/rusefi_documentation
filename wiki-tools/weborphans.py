@@ -1,0 +1,360 @@
+#!/usr/bin/env python
+
+#source: https://shallowsky.com/blog/tech/web/finding-web-orphans.html
+#https://github.com/akkana/scripts/blob/master/weborphans
+
+# Check a website (perhaps localhost) against a local mirror.
+# Find broken links and orphaned files.
+# You must specify both the directory, and a web URL to a server
+# (e.g. localhost) that is serving that directory.
+
+import sys, os
+import posixpath
+import re
+#from scheme import *
+#from urllib.parse import scheme
+from urllib.parse import urlparse
+from urllib.parse import quote_plus
+from urllib.parse import urlunsplit
+from urllib.request import Request
+from urllib.request import build_opener
+from urllib.error import HTTPError
+from urllib.error import URLError
+
+
+#from bs4 import BeautifulSoup
+#from BeautifulSoup import BeautifulSoup
+
+class Spider:
+    def __init__(self, rootdir, starturl):
+        self.debug = False
+
+        self.starturl = starturl
+        self.rootdir = os.path.normpath(rootdir)
+        if not os.path.isdir(rootdir):
+            # It's not a directory, so take the dirname, but save the filename.
+            self.rootdir, rootfile = os.path.split(rootdir)
+        else:
+            # It's already a directory, so self.rootdir is fine.
+            rootfile = None
+
+        # XXX This next bit isn't platform-agnostic:
+        if not self.rootdir.endswith('/'):
+            self.rootdir += '/'
+
+        # Now we need to get the true root url. The starturl may have
+        # something like /index.html appended to it; we need something
+        # we can prepend to paths.
+
+        # Extract any path information from the root url:
+        parsed = urlparse(starturl)
+        self.scheme = parsed.scheme
+        self.host = parsed.netloc
+        self.rooturlpath = posixpath.normpath(parsed.path)
+        dirpart, basepart = posixpath.split(self.rooturlpath)
+        # If the path is a directory and ends in / (as it should)
+        # then posixpath will split on that slash, not the previous one.
+        if not basepart:
+            dirpart, basepart = posixpath.split(dirpart)
+
+        # Now basepart is the last part of the path, which might
+        # be a directory name on the server or it might be index.*
+        # Compare it to the last part of self.rootdir, which is
+        # guaranteed to be a directory.
+        # But we have to split it twice, because self.rootdir ends in /
+        # so the first split will return '' as the basename.
+        lastdir = posixpath.basename(posixpath.dirname(self.rootdir))
+        if basepart != lastdir:
+            self.rooturlpath = posixpath.dirname(self.rooturlpath)
+
+        if not self.rooturlpath.endswith('/'):
+            self.rooturlpath += '/'
+
+        # Now we're confident self.rooturlpath is the base directory.
+        # Add the schema and host back on.
+        self.rooturl = urlunsplit((self.scheme, self.host,
+                                            self.rooturlpath, None, None))
+        if not self.rooturl.endswith('/'):
+            self.rooturl += '/'
+
+        print ("rootdir:", self.rootdir)
+        print ("rooturl:", self.rooturl)
+        print ("rooturlpath:", self.rooturlpath)
+        print ("scheme:", self.scheme)
+        print ("host:", self.host)
+        print
+
+        self.urls_to_check = [ self.rooturl ]
+        self.urls_succeeded = []
+        self.urls_failed = []
+        self.outside_urls = []
+        self.files_succeeded = []
+
+        # Eventually, the list of excludes should be a commandline argument.
+        # For now, let's just make sure all the .git objects aren't orphaned,
+        # nor web stats or archived files.
+        self.excludes = [ ".git", "stats", "0-pre2011", "0-calendars" ]
+
+        # Files that aren't explicitly referenced by the website,
+        # but might be needed for other purposes.
+        self.nonorphans = [ "favicon.ico", "robots.txt", ".htaccess" ]
+
+    def spide(self):
+        """Check all urls in urls_to_check, which has new urls
+           being added to it during the spidering process.
+        """
+        self.check_url(self.starturl)
+        while self.urls_to_check:
+            self.check_url(self.urls_to_check.pop())
+
+        print ("Done spiding")
+
+    def check_orphans(self):
+        """Assuming we already have self.files_succeeded,
+           find all files in self.rootdir that weren't in succeeded.
+        """
+        self.orphans = []
+        for root, dirs, files in os.walk(self.rootdir, topdown=True):
+            dirs[:] = [d for d in dirs if d not in self.excludes]
+            for filename in files:
+                if filename in self.nonorphans:
+                    continue
+                f = os.path.join(root, filename)
+                if f not in self.files_succeeded:
+                    self.orphans.append(f)
+
+    def print_summary(self):
+        print
+        print ("URLs succeeded:")
+        print ('\n'.join(self.urls_succeeded))
+        print
+        print ("Outside URLs:")
+        print ('\n'.join(self.outside_urls))
+        print
+        print ("URLs failed:")
+        print ('\n'.join(self.urls_failed))
+        print
+        print ("Orphans:")
+        print ('\n'.join(self.orphans))
+        print
+        print (len(self.urls_succeeded), "good links,", \
+            len(self.outside_urls), "external urls not checked,", \
+            len(self.urls_failed), "bad links,", \
+            len(self.orphans), "orphaned files."
+        )
+
+    def get_local_for_url(self, urlpath):
+        """Get a local file path for a path parsed from an absolute URL.
+        """
+        # Now compare parsed.path with self.rooturlpath
+        if self.rooturlpath not in urlpath:
+            return None
+        return os.path.normpath(urlpath.replace(self.rooturlpath,
+                                                self.rootdir,
+                                                1))
+
+    def make_absolute(self, url, relative_to):
+        """Make a URL absolute. If it's a relative path,
+           then make it relative to relative_to
+           which must be an absolute path on the webhost.
+        """
+        parsed = urlparse(url)
+        if parsed.scheme:    # already has an http://host specified
+            # XXX If we ever extend this to check validity of
+            # external URLs, this next condition is the one to change.
+            if parsed.netloc != self.host:
+                if self.debug:
+                    print ("Ignoring external link", url)
+                return None
+            return url
+
+        # So there's no scheme. Add one.
+        if parsed.path.startswith('/'):
+            # The results of urlparse() aren't modifiable, but
+            # if we turn them into a list we can modify them
+            # then turn them back into a URL.
+            lurl = list(parsed)
+            lurl[0] = self.scheme
+            lurl[1] = self.host
+            #return urlparse.urlunparse(lurl)
+            return urlunparse(lurl)
+
+        # Otherwise it's relative to urldir. Make it absolute, normalized.
+        lurl = list(parsed)
+        lurl[0] = self.scheme
+        lurl[1] = self.host
+        lurl[2] = posixpath.normpath(posixpath.join(relative_to, parsed.path))
+        #return urlparse.urlunparse(lurl)
+        return urlunparse(lurl)
+
+    def check_url(self, url):
+        """Check a URL. This should be an absolute URL on the server."""
+        # If we got this far, we'll be comparing links.
+        # So we'll need to know the parsed parts of this url.
+        urlparsed = urlparse(url)
+        if not urlparsed.scheme or not urlparsed.path.startswith('/'):
+        #if not scheme or not path.startswith('/'):
+            print ("EEK! Non-relative URL passed to check_url, bailing")
+            return
+
+        # URL encode special characters like spaces:
+        # urlpath = urllib.quote(urlparsed.path.encode('utf-8'))
+        urlpath = quote_plus(urlparsed.path.encode('utf-8'))
+
+        # This check must come after the special char substitution.
+        if urlpath in self.urls_succeeded or urlpath in self.urls_failed:
+            return
+
+        if self.debug:
+            print ("=============================== Checking", url)
+
+        # Now we need just the directory part. This might be
+        # dirname(urlparsed.path), if the url is a file, or it
+        # might just be urlparsed.path if that's already a directory.
+        # The only way to know is to check on the local filesystem.
+        # But here's the tricky part: to get the absolute path,
+        # we need to know what relative links are relative_to,
+        # but if they themselves XXX
+        localpath = self.get_local_for_url(urlparsed.path)
+        if self.debug:
+            print ("=== local for", urlpath, "is", localpath)
+
+        if not localpath:
+            if self.debug:
+                print (urlparsed.path, "is outside original directory; skipping")
+            if url not in self.outside_urls:
+                self.outside_urls.append(url)
+            return
+
+        if not os.path.exists(localpath):
+            if self.debug:
+                print ("Local path '%s' doesn't exist! %s" % (localpath,  url))
+            self.urls_failed.append(urlpath)
+            return
+
+        # If we substituted any special characters, rebuild the URL:
+        if urlpath != urlparsed.path:
+            lurl = list(urlparsed)
+            lurl[2] = urlpath
+            url = urlparse.urlunparse(lurl)
+            #url = urlunparse(lurl)
+            if self.debug:
+                print ("Substituted characters, recombined to", url)
+
+        if os.path.isdir(localpath):
+            # The web server will substitute index.something,
+            # so we'd better do that too or else the index file
+            # will show up as an orphan.
+            localdir = localpath
+            localpath = None
+            for ext in ( "php", "cgi", "html" ):
+                indexfile = os.path.join(localdir, "index." + ext)
+                if os.path.exists(indexfile):
+                    localpath = indexfile
+                    break
+            if not localpath:
+                print ("Can't find an index file inside", localdir)
+                return
+            urldir = urlpath
+        else:
+            localdir = os.path.dirname(localpath)
+            urldir = posixpath.dirname(urlpath)
+
+        if self.debug:
+            print ("localpath", localpath, "localdir", localdir)
+            print ("urldir:", urldir)
+
+        try:
+            request = Request(url)
+            handle = build_opener()
+        except IOError:
+            return None
+
+        if not handle:
+            print ("Can't open", url)
+
+        # request.add_header("User-Agent", AGENT)
+
+        try:
+            response = handle.open(request)
+            info = response.info()
+            if 'content-type' not in info.keys() or \
+               not info['content-type'].startswith('text/html'):
+                if self.debug:
+                    print (url, "isn't HTML; skipping")
+                self.urls_succeeded.append(urlpath)
+                self.files_succeeded.append(localpath)
+                return
+            # content = unicode(response.read(), "utf-8", errors="replace")
+            # content = encode(response.read(), "utf-8", errors="replace")
+            content = (response.read())
+
+        except HTTPError as error:
+            if error.code == 404:
+                print ("ERROR: %s -> %s" % (error, error.url))
+            else:
+                print ("ERROR: %s" % error)
+            self.urls_failed.append(urlpath)
+            return
+
+        except URLError as error:
+            print ("ERROR: %s" % error)
+            self.urls_failed.append(urlpath)
+            return
+
+        self.urls_succeeded.append(urlpath)
+        self.files_succeeded.append(localpath)
+
+        ctype = response.headers['content-type']
+        if not ctype.startswith("text/html"):
+            if self.debug:
+                print (url, "isn't HTML (%s); not reading content" % ctype)
+            return
+
+        soup = BeautifulSoup(content)
+
+        for tag in soup.findAll('a', href=True):
+            href = tag.get("href")
+            if not href:
+                continue
+            if href[0] == '#':
+                continue
+
+            href = self.make_absolute(href, urldir)
+            if not href:
+                # It's probably an external URL. Skip it.
+                href = tag.get("href")
+                if href not in self.outside_urls:
+                    self.outside_urls.append(href)
+                continue
+
+            # This check won't get everything, because href
+            # hasn't been special char substituted yet.
+            if href not in self.urls_to_check and \
+               href not in self.urls_succeeded and \
+               href not in self.urls_failed:
+                self.urls_to_check.append(href)
+
+        for tag in soup.findAll('img', src=True):
+            src = self.make_absolute(tag.get('src'), urldir)
+            if not src:
+                self.outside_urls.append(tag.get('src'))
+                continue
+            # self.urls_succeeded.append(src)
+            urlparsed = urlparse(src)
+            localpath = self.get_local_for_url(urlparsed.path)
+            self.urls_to_check.append(src)
+
+if __name__ == '__main__':
+    if len(sys.argv) < 3:
+        print ("Usage: %s local_dir url" % os.path.basename(sys.argv[0]))
+        sys.exit(1)
+
+    spider = Spider(sys.argv[1], sys.argv[2])
+    try:
+        spider.spide()
+        spider.check_orphans()
+        spider.print_summary()
+    except KeyboardInterrupt:
+        print ("Interrupt")
+
