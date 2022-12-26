@@ -240,8 +240,10 @@ class Spider:
         if urlpath != urlparsed.path:
             lurl = list(urlparsed)
             lurl[2] = urlpath
+            print (dir(lurl))
             url = urlparse.urlunparse(lurl)
             #url = urlunparse(lurl)
+            
             if self.debug:
                 print ("Substituted characters, recombined to", url)
 
