@@ -3,6 +3,7 @@
 #source: https://shallowsky.com/blog/tech/web/finding-web-orphans.html
 #https://github.com/akkana/scripts/blob/master/weborphans
 
+
 # Check a website (perhaps localhost) against a local mirror.
 # Find broken links and orphaned files.
 # You must specify both the directory, and a web URL to a server
@@ -21,6 +22,9 @@ from urllib.request import build_opener
 from urllib.error import HTTPError
 from urllib.error import URLError
 
+# tested with python version 3.10.8
+if sys.version_info < (3, 10):
+    raise RuntimeError("This package requires Python 3.10+")
 
 #from bs4 import BeautifulSoup
 #from BeautifulSoup import BeautifulSoup
