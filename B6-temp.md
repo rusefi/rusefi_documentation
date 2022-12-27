@@ -1,14 +1,18 @@
 ```
 
+-- 640
 MOTOR_1 = 0x280
 MOTOR_3 = 0x380
 MOTOR_INFO = 0x580
 MOTOR_5 = 0x480
+-- 1160
 MOTOR_6 = 0x488
+-- 1416
 MOTOR_7 = 0x588
 
 
-fuelCounter = 0;
+fuelCounter = 0
+fakeTorque = 0
 
 function xorChecksum(data, targetIndex)
 	local index = 1
@@ -97,8 +101,8 @@ totalTcuMessages = 0
 motor1Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
-motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD}
-motor6Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
+motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
 motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 function onMotor1(bus, id, dlc, data)
@@ -112,9 +116,9 @@ function onMotor1(bus, id, dlc, data)
 	-- torqueLoss = getBitRange(data, 48, 8) * 0.39
 	-- requestedTorque = getBitRange(data, 56, 8) * 0.39
 
-	engineTorque = fakeTorque
+	engineTorque = fakeTorque * 0.9
 	innerTorqWithoutExt = fakeTorque
-	torqueLoss = 10
+	torqueLoss = 20
 	requestedTorque = fakeTorque
 
 	motor1Data[2] = engineTorque / 0.39
@@ -155,6 +159,26 @@ function onMotor5(bus, id, dlc, data)
 	txCan(TCU_BUS, id, 0, motor5Data)
 end
 
+function onMotor6(bus, id, dlc, data)
+		engineTorque = getBitRange(data, 8, 8) * 0.39
+		actualTorque = getBitRange(data, 16, 8) * 0.39
+		feedbackGearbox = getBitRange(data, 40, 8) * 0.39
+
+--	    engineTorque = fakeTorque * 0.9
+--	    actualTorque = fakeTorque
+--  feedbackGearbox = 255
+
+ 		motor6Data[2] = math.floor(engineTorque / 0.39)
+		motor6Data[3] = math.floor(actualTorque / 0.39)
+ 		motor6Data[6] = math.floor(feedbackGearbox / 0.39)
+
+		xorChecksum(motor6Data, 1)
+	txCan(TCU_BUS, id, 0, motor6Data)
+end
+
+function silentDrop(bus, id, dlc, data)
+end
+
 function printAndDrop(bus, id, dlc, data)
 	print('Dropping ' ..arrayToString(data))
 end
@@ -175,7 +199,7 @@ canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
 canRxAdd(ECU_BUS, MOTOR_INFO, printAndDrop)
-canRxAdd(ECU_BUS, MOTOR_6, printAndDrop)
+canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
 canRxAdd(ECU_BUS, MOTOR_7, printAndDrop)
 
 -- last option: unconditional forward of all remaining messages
@@ -185,11 +209,21 @@ canRxAddMask(TCU_BUS, 0, 0, onAnythingFromTCU)
 everySecondTimer = Timer.new()
 canMotorInfoCounter = 0
 
+mafSensor = Sensor.new("maf")
+mafCalibrationIndex = findCurveIndex("mafcurve")
+
 function onTick()
+    freqValue = getSensor("AuxSpeed1") or 0
+	mafValue = curve(mafCalibrationIndex, 5)
+--	print(freqValue .. " mafValue=" .. mafValue)
+	mafSensor : set(mafValue)
+
+
+
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
 		print("Total from ECU " ..totalEcuMessages .." from TCU " ..totalTcuMessages)
-		
+
 		fuelCounter = fuelCounter + 20
 
 
