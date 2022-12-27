@@ -2,16 +2,19 @@
 
 -- 640
 MOTOR_1 = 0x280
+-- 896
 MOTOR_3 = 0x380
-MOTOR_INFO = 0x580
+-- 1152
 MOTOR_5 = 0x480
 -- 1160
 MOTOR_6 = 0x488
+-- 1408 the one with variable payload
+MOTOR_INFO = 0x580
 -- 1416
 MOTOR_7 = 0x588
 
 
-fuelCounter = 0
+motor5FuelCounter = 0
 fakeTorque = 0
 
 function xorChecksum(data, targetIndex)
@@ -99,10 +102,11 @@ totalEcuMessages = 0
 totalTcuMessages = 0
 
 motor1Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
 motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
-motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
+-- motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 function onMotor1(bus, id, dlc, data)
 	rpm = getBitRange(data, 16, 16) * 0.25
@@ -127,11 +131,11 @@ function onMotor1(bus, id, dlc, data)
 	motor1Data[7] = torqueLoss / 0.39
 	motor1Data[8] = requestedTorque / 0.39
 
-	print ('fakeTorque ' ..fakeTorque)
-	print ('engineTorque ' ..engineTorque ..' RPM ' ..rpm)
-	print ('innerTorqWithoutExt ' ..innerTorqWithoutExt ..' tps ' ..tps)
+--	print ('MOTOR_1 fakeTorque ' ..fakeTorque)
+--	print ('MOTOR_1 engineTorque ' ..engineTorque ..' RPM ' ..rpm)
+--	print ('MOTOR_1 innerTorqWithoutExt ' ..innerTorqWithoutExt ..' tps ' ..tps)
 
-	print ('torqueLoss ' ..torqueLoss ..' requestedTorque ' ..requestedTorque)
+--	print ('MOTOR_1 torqueLoss ' ..torqueLoss ..' requestedTorque ' ..requestedTorque)
 
 	txCan(TCU_BUS, id, 0, motor1Data)
 end
@@ -140,7 +144,7 @@ function onMotor3(bus, id, dlc, data)
 	iat = getBitRange(data, 8, 8) * 0.75 - 48
 	pps = getBitRange(data, 16, 8) * 0.40
 	tps = getBitRange(data, 56, 8) * 0.40
-	print ('pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
+--	print ('MOTOR_1 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
 
 
 	desired_wheel_torque = fakeTorque
@@ -153,7 +157,7 @@ function onMotor3(bus, id, dlc, data)
 end
 
 function onMotor5(bus, id, dlc, data)
-	setBitRange(motor5Data, 5, 9, fuelCounter)
+	setBitRange(motor5Data, 5, 9, motor5FuelCounter)
 	xorChecksum(motor5Data, 8)
 	txCan(TCU_BUS, id, 0, motor5Data)
 end
@@ -192,14 +196,12 @@ function onAnythingFromTCU(bus, id, dlc, data)
 --	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
 end
 
--- VAG Motor_1 just as example
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
-
 canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
-canRxAdd(ECU_BUS, MOTOR_INFO, printAndDrop)
+canRxAdd(ECU_BUS, MOTOR_INFO, silentDrop)
 canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
-canRxAdd(ECU_BUS, MOTOR_7, printAndDrop)
+canRxAdd(ECU_BUS, MOTOR_7, silentDrop)
 
 -- last option: unconditional forward of all remaining messages
 canRxAddMask(ECU_BUS, 0, 0, onAnythingFromECU)
@@ -223,12 +225,12 @@ function onTick()
 		everySecondTimer : reset()
 		print("Total from ECU " ..totalEcuMessages .." from TCU " ..totalTcuMessages)
 
-		fuelCounter = fuelCounter + 20
+		motor5FuelCounter = motor5FuelCounter + 20
 
 
 		canMotorInfoCounter = (canMotorInfoCounter + 1) % 8
-		motor7Data[1] = 0x90 + (canMotorInfoCounter * 2)
-		txCan(1, MOTOR_INFO, 0, motor7Data)
+		canMotorInfo[1] = 0x90 + (canMotorInfoCounter * 2)
+		txCan(1, MOTOR_INFO, 0, canMotorInfo)
 
 	end
 end
