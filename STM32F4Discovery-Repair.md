@@ -89,7 +89,7 @@ Replace the LED or ignore it. This is only an indicator that you have 3V.
 
 ![STM42F4 Discovery](Images/2014-08-21T15-20-24.645Z-stm32f4_discovery.jpg)
 
-![STM42F4 Discovery Layout](Images/layout.png)
+![STM42F4 Discovery Layout](Images/Layout.png)
 
 [stm32f4discovery home page](http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF252419)
 
@@ -101,18 +101,20 @@ Replace the LED or ignore it. This is only an indicator that you have 3V.
 
 Here are several measurements to function as a point of reference. These were taken with a known good board.
 
-With the USB powering the board via CN1 and JP1 removed,
+* With the USB powering the board via CN1 and JP1 removed,
 
-* Voltage referenced to GND is
+Voltage referenced to GND is
+
 Voltage measurements
 ||Away from audio jack|closer to audio jack
+--- | ----- | ------
 |D1|4.76V|5.08V
 |D3|3.298V|2.968V
 |JP1|2.968V|.3mV
 
-With no USB and no other connections to the discovery,
+* With no USB and no other connections to the discovery,
 
-* the measured ohms (auto scale) to GND with JP1 removed, The SWD side of JP1 measured at 7.34k ohms, and the audio jack side of JP 1 measured at 4.98k ohms.
+the measured ohms (auto scale) to GND with JP1 removed, The SWD side of JP1 measured at 7.34k ohms, and the audio jack side of JP 1 measured at 4.98k ohms.
 
 ## common parts
 
