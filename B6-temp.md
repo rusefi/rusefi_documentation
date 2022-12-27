@@ -99,7 +99,6 @@ totalEcuMessages = 0
 totalTcuMessages = 0
 
 motor1Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
-canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
 motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
@@ -185,12 +184,12 @@ end
 
 function onAnythingFromECU(bus, id, dlc, data)
 	totalEcuMessages = totalEcuMessages + 1
-	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+--	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
 end
 
 function onAnythingFromTCU(bus, id, dlc, data)
 	totalTcuMessages = totalTcuMessages + 1
-	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+--	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
 end
 
 -- VAG Motor_1 just as example
