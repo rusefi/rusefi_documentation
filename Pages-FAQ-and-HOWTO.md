@@ -1,13 +1,11 @@
 # List of FAQ and HOWTO pages
 
-<details><summary><u>FAQs</u></summary>
+## FAQs
 
 * [Ignition](FAQ-Ignition.md)
 * [Basic Wiring and Connections](FAQ-Basic-Wiring-and-Connections.md)
 
-</details>
-
-<details><summary><u>HOWTOs</u></summary>
+## HOWTOs
 
 * [Asking Questions](HOWTO-ask-questions)
 * [Contributing to Documentation](HOWTO-contribute-to-documentation)
@@ -19,6 +17,4 @@
 * [Update Firmware](HOWTO-Update-Firmware)
 * [Upload a Tune](HOWTO-upload-tune)
 * [Search the Wiki](HOWTO-Search-on-rusEFI-wiki)
-* [Online Authorisation Tokens](HOWTO-set-rusEFI-Online-authentication-token)
-
-</details>
+* [Online Authentication Tokens](HOWTO-set-rusEFI-Online-authentication-token)
