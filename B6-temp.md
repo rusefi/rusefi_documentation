@@ -137,6 +137,8 @@ function onMotor1(bus, id, dlc, data)
 
 --	print ('MOTOR_1 torqueLoss ' ..torqueLoss ..' requestedTorque ' ..requestedTorque)
 
+motor1Data[1] = data[1]
+
 	txCan(TCU_BUS, id, 0, motor1Data)
 end
 
@@ -175,6 +177,8 @@ function onMotor6(bus, id, dlc, data)
 		motor6Data[3] = math.floor(actualTorque / 0.39)
  		motor6Data[6] = math.floor(feedbackGearbox / 0.39)
 
+motor6Data[8] = data[8]
+
 		xorChecksum(motor6Data, 1)
 	txCan(TCU_BUS, id, 0, motor6Data)
 end
@@ -188,20 +192,22 @@ end
 
 function onAnythingFromECU(bus, id, dlc, data)
 	totalEcuMessages = totalEcuMessages + 1
---	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+--	print("Relaying to TCU " .. id)
+	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
 end
 
 function onAnythingFromTCU(bus, id, dlc, data)
 	totalTcuMessages = totalTcuMessages + 1
---	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+--	print("Relaying to ECU " .. id)
+	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
-canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
-canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
-canRxAdd(ECU_BUS, MOTOR_INFO, silentDrop)
+--canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
+--canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
+--canRxAdd(ECU_BUS, MOTOR_INFO, silentDrop)
 canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
-canRxAdd(ECU_BUS, MOTOR_7, silentDrop)
+--canRxAdd(ECU_BUS, MOTOR_7, silentDrop)
 
 -- last option: unconditional forward of all remaining messages
 canRxAddMask(ECU_BUS, 0, 0, onAnythingFromECU)
