@@ -106,11 +106,13 @@ totalEcuMessages = 0
 totalTcuMessages = 0
 
 motor1Data = { 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motorBreData={ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor2Data = { 0x8A, 0x8D, 0x10, 0x04, 0x00, 0x4C, 0xDC, 0x87 } 
 canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
 motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
--- motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 function onMotor1(bus, id, dlc, data)
 	rpm = getBitRange(data, 16, 16) * 0.25
@@ -203,24 +205,33 @@ end
 
 function onMotorBre(bus, id, dlc, data)
 --	print("Relaying to TCU " .. id)
-	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+	motorBreCounter = (motorBreCounter + 1) % 16
+
+    setBitRange(motorBreData, 8, 4, motorBreCounter)
+    xorChecksum(motorBreData, 1)
+
+	txCan(TCU_BUS, id, 0, motorBreData) -- relay non-TCU message to TCU
 end
 
 function onMotor2(bus, id, dlc, data)
 --	print("Relaying to TCU " .. id)
-	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+    minTorque = fakeTorque / 2
+    motor2Data[7] = math.floor(minTorque / 0.39)
+--	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+	txCan(TCU_BUS, id, 0, motor2Data)
 end
 
 function onMotor7(bus, id, dlc, data)
 --	print("Relaying to TCU " .. id)
-	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+--	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+	txCan(TCU_BUS, id, 0, motor7Data)
 end
 
-function onAnythingFromECU(bus, id, dlc, data)
-	totalEcuMessages = totalEcuMessages + 1
---	print("Relaying to TCU " .. id)
-	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
-end
+--function onAnythingFromECU(bus, id, dlc, data)
+--	totalEcuMessages = totalEcuMessages + 1
+----	print("Relaying to TCU " .. id)
+--	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+--end
 
 function onAnythingFromTCU(bus, id, dlc, data)
 	totalTcuMessages = totalTcuMessages + 1
@@ -246,6 +257,7 @@ canRxAddMask(TCU_BUS, 0, 0, onAnythingFromTCU)
 everySecondTimer = Timer.new()
 canMotorInfoCounter = 0
 
+motorBreCounter = 0
 counter16 = 0
 
 mafSensor = Sensor.new("maf")
