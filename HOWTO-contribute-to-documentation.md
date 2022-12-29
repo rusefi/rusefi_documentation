@@ -28,7 +28,7 @@ In order to leverage the Github pull request process for access control to the w
 
 4. Once you are ready to contribute your changes, click the 'New pull request' button on the main page of your fork.
 
-## After creating a Pull Request
+### After creating a Pull Request
 
 Within the next 5 minutes after the pull request has been merged, a Github Action automatically builds the wiki and uploads it to both wikis.
 
