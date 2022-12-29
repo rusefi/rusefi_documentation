@@ -26,18 +26,13 @@ In order to leverage the Github pull request process for access control to the w
 
 3. Edit your code and Commit changes using the button below the editor.
 
-4. Once you are ready to contribute your changes, hit 'New pull request' button on the main page of your fork.
-
-This would produce a [Pull request like this](https://github.com/rusefi/rusefi_documentation/pull/3) in the official rusefi repository and your changes would probably soon become public!   
-https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/rusefi.input
+4. Once you are ready to contribute your changes, click the 'New pull request' button on the main page of your fork.
 
 ## After creating a Pull Request
 
 Within the next 5 minutes after the pull request has been merged, a Github Action automatically builds the wiki and uploads it to both wikis.
 
-
 ## How to contribute to rusEFI TunerStudio project
-
 
 1. Sign up or sign in to [Github](https://github.com) if you aren't already
 
@@ -55,28 +50,19 @@ right into TunerStudio project file. Lines with green background are the lines b
 Unfortunately while you would be modifying your mainController.ini file while trying your changes, you need to edit rusefi.input file which
 is a template from which rusefi.ini is generated programmatically on rusefi side.
 
-## Wiki location migration
-
-As of Dec 2022, https://github.com/rusefi/rusefi/wiki called "wiki2-human" is the primary documentation URL. wiki.rusefi.com migration is on-going we are fighting some issues. 
-
-
 ## Technical implementation details
 
 Github Wiki is weird.
 
-One the one hand, we have https://github.com/rusefi/rusefi_documentation called "wiki2-technical" - that's a git repository with nice pull
-request process, but less nice web page rendering which start each folder by showing list of files, that's not what end users want to see. 
+One the one hand, we have [https://github.com/rusefi/rusefi_documentation](https://github.com/rusefi/rusefi_documentation), which we will call "wiki-source".
+That's a git repository with nice pull request process, but less nice web page rendering which starts each page by showing a list of files - that's not what end users want to see.
 
+On the other hand, we have [the Github Wiki](https://github.com/rusefi/rusefi/wiki), which we will call "wiki2" which is displayed much nicer - and that is actually implemented by ANOTHER git repository https://github.com/rusefi/rusefi.wiki.git behind the scenes.  
+That repository does not have a nice Pull Request process :(
 
-On the other hand, we have https://github.com/rusefi/rusefi/wiki which is displayed much nicer - and 
-that https://github.com/rusefi/rusefi/wiki is actually implemented by ANOTHER git repository 
-https://github.com/rusefi/rusefi.wiki.git behind the scene. That https://github.com/rusefi/rusefi.wiki.git repository does not have a nice Pull Request process :(
-
-Solution? A combination. [wiki2-human](https://github.com/rusefi/rusefi/wiki) and [wiki2-technical](https://github.com/rusefi/rusefi_documentation) repositories are actually set to mirror each other.
-This way we have the nice Pull Request process on https://github.com/rusefi/rusefi_documentation and once changes are
-merged into https://github.com/rusefi/rusefi_documentation, complete https://github.com/rusefi/rusefi_documentation is automatically merged
-into https://github.com/rusefi/rusefi.wiki.git which makes actual content nicely visible at https://github.com/rusefi/rusefi/wiki 
-Synchronization between wiki2-human and wiki2-technical is automated via [Github Action](https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml), file content is expected to be the same between these two repositories.
+Solution? A combination. [wiki2](https://github.com/rusefi/rusefi/wiki) and [wiki-source](https://github.com/rusefi/rusefi_documentation) repositories are actually set to mirror each other.
+This way we have the nice Pull Request process on [https://github.com/rusefi/rusefi_documentation](https://github.com/rusefi/rusefi_documentation) and once changes are merged into https://github.com/rusefi/rusefi_documentation, complete https://github.com/rusefi/rusefi_documentation is automatically merged into https://github.com/rusefi/rusefi.wiki.git which makes actual content nicely visible at [https://github.com/rusefi/rusefi/wiki](https://github.com/rusefi/rusefi/wiki)  
+Synchronization between wiki2 and wiki-source is automated via [Github Action](https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml), file content is expected to be the same between these two repositories.
 
 ## How Page Titles Work on Wiki3
 
