@@ -40,7 +40,7 @@ We have attempted to compile a list of coils [here.](Vault-Of-Ignition-Parts)
 
 Ok, this question needs tackling in several parts, please pick the option you need below:
 
-<details><summary><u>I want to buy new coils</u></summary>
+<details markdown="1"><summary><u>I want to buy new coils</u></summary>
 
 If you are looking to buy new coils then we would recommend taking a look at the list of Ignition coils that have been tried with rusEFI.  
 [List of ignition coils](Vault-Of-Ignition-Parts)  
@@ -50,9 +50,9 @@ There are lots of tried and tested options that can be found by [**searching the
 </details>
 
 
-<details><summary><u>I have existing coils </u></summary>
+<details markdown="1"><summary><u>I have existing coils </u></summary>
 
-<details><summary><u>My coils are newer smart coils</u></summary>
+<details markdown="1"><summary><u>My coils are newer smart coils</u></summary>
 
 Great, then you can wire them directly to the ECU.  
 However please take care to check that tht coils you have really do incorporate the ignition driver into the coil. 
@@ -61,7 +61,7 @@ There is some information on known smart coils and how to work out if you have a
 
 </details>
 
-<details><summary><u>My coils are older dumb coils</u></summary>
+<details markdown="1"><summary><u>My coils are older dumb coils</u></summary>
 
 Great - same as the smart coils, please double check your coils are actually simple coils without built in ignition modules. 
 You will need to source an external ignition module to go between the ECU and the coils. 
