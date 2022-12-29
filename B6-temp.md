@@ -12,6 +12,8 @@ MOTOR_3 = 0x380
 MOTOR_5 = 0x480
 -- 1160
 MOTOR_6 = 0x488
+-- 1386
+ACC_GRA = 0x56A
 -- 1408 the one with variable payload
 MOTOR_INFO = 0x580
 -- 1416
@@ -113,6 +115,7 @@ canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
 motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
 motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
+accGraData = { 0x00, 0x00, 0x08, 0x00, 0x1A, 0x00, 0x02, 0x01 }
 
 function onMotor1(bus, id, dlc, data)
 	rpm = getBitRange(data, 16, 16) * 0.25
@@ -227,6 +230,16 @@ function onMotor7(bus, id, dlc, data)
 	txCan(TCU_BUS, id, 0, motor7Data)
 end
 
+function onAccGra(bus, id, dlc, data)
+	accGraCounter = (accGraCounter + 1) % 16
+	setBitRange(accGraData, 60, 4, accGraCounter)
+    xorChecksum(accGraData, 1)
+    
+--	print("Relaying to TCU " .. id)
+--	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+	txCan(TCU_BUS, id, 0, accGraData)
+end
+
 --function onAnythingFromECU(bus, id, dlc, data)
 --	totalEcuMessages = totalEcuMessages + 1
 ----	print("Relaying to TCU " .. id)
@@ -248,7 +261,7 @@ canRxAdd(ECU_BUS, MOTOR_INFO, silentDrop)
 canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
 canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
 
-canRxAdd(ECU_BUS, 1386, onMotor7)
+canRxAdd(ECU_BUS, ACC_GRA, onAccGra)
 
 -- last option: unconditional forward of all remaining messages
 canRxAddMask(ECU_BUS, 0, 0, silentDrop)
@@ -258,6 +271,7 @@ everySecondTimer = Timer.new()
 canMotorInfoCounter = 0
 
 motorBreCounter = 0
+accGraCounter = 0
 counter16 = 0
 
 mafSensor = Sensor.new("maf")
