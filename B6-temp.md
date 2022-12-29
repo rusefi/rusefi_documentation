@@ -239,11 +239,6 @@ canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
 
 canRxAdd(ECU_BUS, 1386, onMotor7)
 
-
-canRxAdd(ECU_BUS, 1312, onMotor7)
-canRxAdd(ECU_BUS, 1394, onMotor7)
-canRxAdd(ECU_BUS, 1488, onMotor7)
-
 -- last option: unconditional forward of all remaining messages
 canRxAddMask(ECU_BUS, 0, 0, silentDrop)
 canRxAddMask(TCU_BUS, 0, 0, onAnythingFromTCU)
