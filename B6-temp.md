@@ -101,7 +101,7 @@ end
 totalEcuMessages = 0
 totalTcuMessages = 0
 
-motor1Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor1Data = { 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
@@ -169,6 +169,9 @@ function onMotor6(bus, id, dlc, data)
 		actualTorque = getBitRange(data, 16, 8) * 0.39
 		feedbackGearbox = getBitRange(data, 40, 8) * 0.39
 
+	counter16 = (counter16 + 1) % 16
+
+
 --	    engineTorque = fakeTorque * 0.9
 --	    actualTorque = fakeTorque
 --  feedbackGearbox = 255
@@ -176,6 +179,7 @@ function onMotor6(bus, id, dlc, data)
  		motor6Data[2] = math.floor(engineTorque / 0.39)
 		motor6Data[3] = math.floor(actualTorque / 0.39)
  		motor6Data[6] = math.floor(feedbackGearbox / 0.39)
+    setBitRange(motor6Data, 60, 4, counter16)
 
 motor6Data[8] = data[8]
 
@@ -215,6 +219,8 @@ canRxAddMask(TCU_BUS, 0, 0, onAnythingFromTCU)
 
 everySecondTimer = Timer.new()
 canMotorInfoCounter = 0
+
+counter16 = 0
 
 mafSensor = Sensor.new("maf")
 mafCalibrationIndex = findCurveIndex("mafcurve")
