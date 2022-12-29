@@ -61,7 +61,7 @@ On the other hand, we have [the Github Wiki](https://github.com/rusefi/rusefi/wi
 That repository does not have a nice Pull Request process :(
 
 Solution? A combination. [wiki2](https://github.com/rusefi/rusefi/wiki) and [wiki-source](https://github.com/rusefi/rusefi_documentation) repositories are actually set to mirror each other.
-This way we have the nice Pull Request process on [https://github.com/rusefi/rusefi_documentation](https://github.com/rusefi/rusefi_documentation) and once changes are merged, the repo is then automatically merged into https://github.com/rusefi/rusefi.wiki.git which makes actual content nicely visible at [https://github.com/rusefi/rusefi/wiki](https://github.com/rusefi/rusefi/wiki)  
+This way we have the nice Pull Request process on [wiki-source](https://github.com/rusefi/rusefi_documentation) and once changes are merged, the wiki-source repo is then automatically merged into the wiki2 repo, which makes actual content nicely visible on [wiki2](https://github.com/rusefi/rusefi/wiki)  
 Synchronization between wiki2 and wiki-source is automated via [Github Action](https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml), file content is expected to be the same between these two repositories.
 
 ## How Page Titles Work on Wiki3
