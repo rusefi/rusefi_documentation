@@ -74,16 +74,16 @@ If not, the file name will be used as the page title, only without the hyphens.
 Links to page names use only the name of the page.
 Example:
 
-`[How to contribute to documentation](HOWTO-contribute-to-documentation)`
-Result:
+`[How to contribute to documentation](HOWTO-contribute-to-documentation)`  
+Result:  
 [How to contribute to documentation](HOWTO-contribute-to-documentation)
 
 Links to images are relative to the root of the wiki on Wiki2, and relative to the .md file location on Wiki3.  
 The only way for this to work consistently between Wiki2 and Wiki3 is to have a flat directory structure.
 Example:
 
-`![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)`
-Result:
+`![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)`  
+Result:  
 ![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)
 
 ## Technical FAQ
