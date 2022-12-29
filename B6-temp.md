@@ -2,6 +2,10 @@
 
 -- 640
 MOTOR_1 = 0x280
+-- 644
+MOTOR_BRE = 0x284
+-- 648
+MOTOR_2 = 0x288
 -- 896
 MOTOR_3 = 0x380
 -- 1152
@@ -181,8 +185,6 @@ function onMotor6(bus, id, dlc, data)
  		motor6Data[6] = math.floor(feedbackGearbox / 0.39)
     setBitRange(motor6Data, 60, 4, counter16)
 
-motor6Data[8] = data[8]
-
 		xorChecksum(motor6Data, 1)
 	txCan(TCU_BUS, id, 0, motor6Data)
 end
@@ -192,6 +194,26 @@ end
 
 function printAndDrop(bus, id, dlc, data)
 	print('Dropping ' ..arrayToString(data))
+end
+
+function onMotorInfo(bus, id, dlc, data)
+--	print("Relaying to TCU " .. id)
+	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+end
+
+function onMotorBre(bus, id, dlc, data)
+--	print("Relaying to TCU " .. id)
+	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+end
+
+function onMotor2(bus, id, dlc, data)
+--	print("Relaying to TCU " .. id)
+	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+end
+
+function onMotor7(bus, id, dlc, data)
+--	print("Relaying to TCU " .. id)
+	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
 end
 
 function onAnythingFromECU(bus, id, dlc, data)
@@ -207,14 +229,23 @@ function onAnythingFromTCU(bus, id, dlc, data)
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
---canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
---canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
---canRxAdd(ECU_BUS, MOTOR_INFO, silentDrop)
+canRxAdd(ECU_BUS, MOTOR_BRE, onMotorBre)
+canRxAdd(ECU_BUS, MOTOR_2, onMotor2)
+canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
+canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
+canRxAdd(ECU_BUS, MOTOR_INFO, silentDrop)
 canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
---canRxAdd(ECU_BUS, MOTOR_7, silentDrop)
+canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
+
+canRxAdd(ECU_BUS, 1386, onMotor7)
+
+
+canRxAdd(ECU_BUS, 1312, onMotor7)
+canRxAdd(ECU_BUS, 1394, onMotor7)
+canRxAdd(ECU_BUS, 1488, onMotor7)
 
 -- last option: unconditional forward of all remaining messages
-canRxAddMask(ECU_BUS, 0, 0, onAnythingFromECU)
+canRxAddMask(ECU_BUS, 0, 0, silentDrop)
 canRxAddMask(TCU_BUS, 0, 0, onAnythingFromTCU)
 
 everySecondTimer = Timer.new()
