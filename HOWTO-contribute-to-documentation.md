@@ -88,14 +88,14 @@ Result:
 
 ## Technical FAQ
 
-**Q:** Is there a place where we are holding all images for these documents?
+**Q:** Is there a place where we are holding all images for these documents?  
 **A:** We have images in the same repository! Just add your images while editing pages. Please consider using some (any really) folder structure.
 For example [https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png](https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png) is visible on wiki.rusefi.com as [https://wiki.rusefi.com/FAQ/images/TunerStudio_new_project.png](https://wiki.rusefi.com/FAQ/images/TunerStudio_new_project.png)
 
-**Q:** What sort of fancy options do we have?
+**Q:** What sort of fancy options do we have?  
 **A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example.
 
-**Q**: Is it ok that https://github.com/rusefi/rusefi.wiki.git cannot be opened from browser?
+**Q**: Is it ok that https://github.com/rusefi/rusefi.wiki.git cannot be opened from browser?  
 **A**: There is no reason to open https://github.com/rusefi/rusefi.wiki.git from browser. Also while you technically
 CAN "git clone https://github.com/rusefi/rusefi_documentation.wiki.git" and it would work -
  you should NOT. Anyone looking to make changes should be making changes to non-wiki git via normal fork & pull request process.
