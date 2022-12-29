@@ -1,6 +1,6 @@
 Github Actions is currently in charge of:
 
-* Firmware Builds: continues integration publishing at [https://rusefi.com/build_server/](https://rusefi.com/build_server/)
+* Firmware Builds: continuous integration publishing at [https://rusefi.com/build_server/](https://rusefi.com/build_server/)
 * Console Builds
 * Simulator Builds
 * Android App Builds
@@ -10,7 +10,7 @@ Github Actions is currently in charge of:
 * Generating Coverity code coverage pages
 * Generating Doxygen documentation
 * Generating iBOMs for hardware
-* Uploading .ini files into rusEFI Online database using RUSEFI_ONLINE_FTP_USER
+* Uploading .ini files into rusEFI Online database using RUSEFI_SSH_USER
 * Generating Hardware PCB visual diffs
 * Updating date stamps for builds
 * Synchronizing between rusefi/rusefi/wiki to rusefi_documentation repo
