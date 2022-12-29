@@ -17,6 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor != 'actions-user' }}
 
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+
     - name: Install mkdocs Prerequisites
       run: |
         sudo apt update
