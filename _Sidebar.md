@@ -76,7 +76,7 @@
 # Contributors
 
 - [Documentation Strategy](Documentation-Strategy)
-- [Documentation Workflow](Documentation-Workflow)
+- [HOWTO Contribute to Documentation](HOWTO-contribute-to-documentation)
 - [Firmware Code Doxygen](https://rusefi.com/docs/html)
 - [Firmware Code Automated Test Coverage](https://rusefi.com/docs/unit_tests_coverage)
 - [HOWTO Contribute To Firmware](HOWTO-contribute-to-firmware)
