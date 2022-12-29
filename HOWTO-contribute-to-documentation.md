@@ -93,7 +93,16 @@ Result:
 For example [https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png](https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png) is visible on wiki.rusefi.com as [https://wiki.rusefi.com/FAQ/images/TunerStudio_new_project.png](https://wiki.rusefi.com/FAQ/images/TunerStudio_new_project.png)
 
 **Q:** What sort of fancy options do we have?  
-**A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example.
+**A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example. Unfortunately, it's quite picky about how you format the markdown.
+```
+<details markdown="1"><summary>More...</summary>
+
+^ Must have empty line after </summary>
+# Content
+</details>
+
+^ Must have empty line after </details>
+```
 
 **Q**: Is it ok that https://github.com/rusefi/rusefi.wiki.git cannot be opened from browser?  
 **A**: There is no reason to open https://github.com/rusefi/rusefi.wiki.git from browser. Also while you technically
