@@ -1,6 +1,6 @@
 ## Master list of Sensor and Actuators pages 
 
-<details><summary><u>Throttle and ETB</u></summary>
+<details markdown="1"><summary><u>Throttle and ETB</u></summary>
 
 * [How To - ETB](Electronic-Throttle-Body-Configuration-Guide)
 * List of tested ETBs - Coming Soon
@@ -10,7 +10,7 @@
 </details>
 
 
-<details><summary><u>MAP Sensors</u></summary>
+<details markdown="1"><summary><u>MAP Sensors</u></summary>
 
 * [Fuel Overview](Fuel-Overview)
 * [GM Map sensor](GM-map-sensor)
@@ -19,14 +19,14 @@
 </details>
 
 
-<details><summary><u>MAF Sensors</u></summary>
+<details markdown="1"><summary><u>MAF Sensors</u></summary>
 
 
 
 </details>
 
 
-<details><summary><u>AFR measurement (Wideband)</u></summary>
+<details markdown="1"><summary><u>AFR measurement (Wideband)</u></summary>
 
 * [Wide Band Sensors](Wide-Band-Sensors)
 * [Do I need a wideband](do-i-need-wideband-oxygen-sensor)
@@ -36,21 +36,21 @@
 </details>
 
 
-<details><summary><u>Intake Air Temperature Sensors</u></summary>
+<details markdown="1"><summary><u>Intake Air Temperature Sensors</u></summary>
 
 * List of tested Intake Air Temperature Sensors - Coming Soon
 
 </details>
 
 
-<details><summary><u>Coolant Temperature Sensors</u></summary>
+<details markdown="1"><summary><u>Coolant Temperature Sensors</u></summary>
 
 * List of tested Coolant Temperature Sensors - Coming Soon
 
 </details>
 
 
-<details><summary><u>Crank Sensors</u></summary>
+<details markdown="1"><summary><u>Crank Sensors</u></summary>
 
 * [List of tested trigger patterns](All-Supported-Triggers)
 * List of tested Crank Sensors - Coming Soon
@@ -60,28 +60,28 @@
 </details>
 
 
-<details><summary><u>Knock Sensors</u></summary>
+<details markdown="1"><summary><u>Knock Sensors</u></summary>
 
 * [Overview](knock-sensing)
 
 </details>
 
 
-<details><summary><u>Camshaft Sensors</u></summary>
+<details markdown="1"><summary><u>Camshaft Sensors</u></summary>
 
  - Coming Soon
 
 </details>
 
 
-<details><summary><u>Ignition Coils</u></summary>
+<details markdown="1"><summary><u>Ignition Coils</u></summary>
 
 - Coming Soon
 
 </details>
 
 
-<details><summary><u>Fuel Injectors</u></summary>
+<details markdown="1"><summary><u>Fuel Injectors</u></summary>
 
 * [GDI Status](GDI-status)
 * List of tested fuel injectors - Coming Soon
@@ -89,14 +89,14 @@
 </details>
 
 
-<details><summary><u>Variable Valve Timing</u></summary>
+<details markdown="1"><summary><u>Variable Valve Timing</u></summary>
 
 * [VVT Overview](VVT)
 
 </details>
 
 
-<details><summary><u>Vehicle Specific Oddities</u></summary>
+<details markdown="1"><summary><u>Vehicle Specific Oddities</u></summary>
 
 * [Mazda PRC Valve](Mazda-PRC-Valve)
 

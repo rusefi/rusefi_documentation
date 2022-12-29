@@ -1,6 +1,6 @@
 #Master list of HOW TO pages 
 
-<details><summary><u>HOW TO</u></summary>
+<details markdown="1"><summary><u>HOW TO</u></summary>
 
 * [Ask questions](HOWTO-ask-questions.md)
 * [Contribute to documentation](HOWTO-contribute-to-documentation.md)
