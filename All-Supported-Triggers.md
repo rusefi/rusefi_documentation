@@ -73,7 +73,7 @@ Honda K Exhaust Camshaft
 
 ### Mazda Miata NA
 
-Also used on some Mitsubishi
+Also used on some Mitsubishi like 4g18 4g93 
 
 ![Mazda Miata NA](Images/triggers/trigger_3.png)
 
