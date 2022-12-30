@@ -16,6 +16,10 @@ Open hood, unhook TPS sensor plug. Repeat "TPS/PPS sweep"
 
 Record 30 seconds of car idling
 
+# Change gears while parked idling
+
+Press brake pedal, engage R, engage D, engage R, engage D, engage R, engage D.
+
 # Revving while parked
 
 Rev engine slowly to 3000 RPM, rev engine quickly, rev engine slowly to 3000 RPM, rev engine quickly.
