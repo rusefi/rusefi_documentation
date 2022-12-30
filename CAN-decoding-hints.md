@@ -4,6 +4,10 @@ Text format CAN traces preferred. Please name files according to scenarios.
 
 Start trace recording, turn ignition key/wake up car, turn key off, record until CAN traffic stops or 30 seconds whatever happens first. Stop trace recording.
 
+# Brake Pedal
+
+Ignition key ON, engine OFF. Tap and hold breaks five times.
+
 # TPS/PPS sweep
 
 Ignition key ON, engine OFF. Press pedal all the way down fast, complexly release fast, press all way down slowly, complexly release slowly, repeat from start two more times.
