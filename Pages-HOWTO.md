@@ -1,7 +1,5 @@
 #Master list of HOW TO pages 
 
-<details><summary><u>HOW TO</u></summary>
-
 * [Ask questions](HOWTO-ask-questions.md)
 * [Contribute to documentation](HOWTO-contribute-to-documentation.md)
 * [Create a tunerstudio project](HOWTO-create-tunerstudio-project.md)
@@ -15,5 +13,3 @@
 * [Remote tune](HOWTO-Remote-Tuning.md)
 * [Search the wiki](HOWTO-Search-on-rusEFI-wiki.md)
 * [Set rusEFI Online authentication token](HOWTO-set-rusEFI-Online-authentication-token.md)
-
-</details>
