@@ -192,13 +192,6 @@ function onMotor6(bus, id, dlc, data)
 	txCan(TCU_BUS, id, 0, motor6Data)
 end
 
-function silentDrop(bus, id, dlc, data)
-end
-
-function printAndDrop(bus, id, dlc, data)
-	print('Dropping ' ..arrayToString(data))
-end
-
 function onMotorInfo(bus, id, dlc, data)
 --	print("Relaying to TCU " .. id)
 	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
@@ -216,6 +209,13 @@ end
 function onMotor2(bus, id, dlc, data)
     minTorque = fakeTorque / 2
     motor2Data[7] = math.floor(minTorque / 0.39)
+
+print ( "brake " .. getBitRange(data, 16, 2) .. " " .. rpm) 
+
+brakeBit = rpm < 2000 and 1 or 0
+setBitRange(motor2Data, 16, 1, brakeBit)
+
+
 	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
 --	txCan(TCU_BUS, id, 0, motor2Data)
 end
