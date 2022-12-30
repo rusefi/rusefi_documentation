@@ -11,7 +11,7 @@ In order to leverage the Github pull request process for access control to the w
 
 2. Sign up or sign in to [Github](https://github.com) if you aren't already
 
-3. If you have been given write access the the rusefi_documentation priority, you can commit changes directly. If not, clicking on "Propose Changes" will fork the repository and give you the option to create a pull request.
+3. If you have been given write access the the rusefi_documentation previously, you can commit changes directly. If not, clicking on "Propose Changes" will fork the repository and give you the option to create a pull request.
 
 ![image](https://user-images.githubusercontent.com/22799428/200407238-74b1fd66-e6b1-46cc-a7b8-398f5c5b41f6.png)
 
