@@ -2,12 +2,18 @@
 
 -- 640
 MOTOR_1 = 0x280
+-- 644
+MOTOR_BRE = 0x284
+-- 648
+MOTOR_2 = 0x288
 -- 896
 MOTOR_3 = 0x380
 -- 1152
 MOTOR_5 = 0x480
 -- 1160
 MOTOR_6 = 0x488
+-- 1386
+ACC_GRA = 0x56A
 -- 1408 the one with variable payload
 MOTOR_INFO = 0x580
 -- 1416
@@ -101,12 +107,15 @@ end
 totalEcuMessages = 0
 totalTcuMessages = 0
 
-motor1Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor1Data = { 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motorBreData={ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor2Data = { 0x8A, 0x8D, 0x10, 0x04, 0x00, 0x4C, 0xDC, 0x87 } 
 canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
 motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
--- motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
+accGraData = { 0x00, 0x00, 0x08, 0x00, 0x1A, 0x00, 0x02, 0x01 }
 
 function onMotor1(bus, id, dlc, data)
 	rpm = getBitRange(data, 16, 16) * 0.25
@@ -136,8 +145,6 @@ function onMotor1(bus, id, dlc, data)
 --	print ('MOTOR_1 innerTorqWithoutExt ' ..innerTorqWithoutExt ..' tps ' ..tps)
 
 --	print ('MOTOR_1 torqueLoss ' ..torqueLoss ..' requestedTorque ' ..requestedTorque)
-
-motor1Data[1] = data[1]
 
 	txCan(TCU_BUS, id, 0, motor1Data)
 end
@@ -169,6 +176,9 @@ function onMotor6(bus, id, dlc, data)
 		actualTorque = getBitRange(data, 16, 8) * 0.39
 		feedbackGearbox = getBitRange(data, 40, 8) * 0.39
 
+	counter16 = (counter16 + 1) % 16
+
+
 --	    engineTorque = fakeTorque * 0.9
 --	    actualTorque = fakeTorque
 --  feedbackGearbox = 255
@@ -176,45 +186,73 @@ function onMotor6(bus, id, dlc, data)
  		motor6Data[2] = math.floor(engineTorque / 0.39)
 		motor6Data[3] = math.floor(actualTorque / 0.39)
  		motor6Data[6] = math.floor(feedbackGearbox / 0.39)
-
-motor6Data[8] = data[8]
+    setBitRange(motor6Data, 60, 4, counter16)
 
 		xorChecksum(motor6Data, 1)
 	txCan(TCU_BUS, id, 0, motor6Data)
 end
 
-function silentDrop(bus, id, dlc, data)
-end
-
-function printAndDrop(bus, id, dlc, data)
-	print('Dropping ' ..arrayToString(data))
-end
-
-function onAnythingFromECU(bus, id, dlc, data)
-	totalEcuMessages = totalEcuMessages + 1
+function onMotorInfo(bus, id, dlc, data)
 --	print("Relaying to TCU " .. id)
 	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
 end
 
-function onAnythingFromTCU(bus, id, dlc, data)
-	totalTcuMessages = totalTcuMessages + 1
---	print("Relaying to ECU " .. id)
-	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+function onMotorBre(bus, id, dlc, data)
+	motorBreCounter = (motorBreCounter + 1) % 16
+
+    setBitRange(motorBreData, 8, 4, motorBreCounter)
+    xorChecksum(motorBreData, 1)
+
+	txCan(TCU_BUS, id, 0, motorBreData) -- relay non-TCU message to TCU
+end
+
+function onMotor2(bus, id, dlc, data)
+    minTorque = fakeTorque / 2
+    motor2Data[7] = math.floor(minTorque / 0.39)
+
+print ( "brake " .. getBitRange(data, 16, 2) .. " " .. rpm) 
+
+brakeBit = rpm < 2000 and 1 or 0
+setBitRange(motor2Data, 16, 1, brakeBit)
+
+
+	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+--	txCan(TCU_BUS, id, 0, motor2Data)
+end
+
+function onMotor7(bus, id, dlc, data)
+--	print("Relaying to TCU " .. id)
+--	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+	txCan(TCU_BUS, id, 0, motor7Data)
+end
+
+function onAccGra(bus, id, dlc, data)
+	accGraCounter = (accGraCounter + 1) % 16
+	setBitRange(accGraData, 60, 4, accGraCounter)
+    xorChecksum(accGraData, 1)
+    
+--	print("Relaying to TCU " .. id)
+--	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+	txCan(TCU_BUS, id, 0, accGraData)
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
---canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
---canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
---canRxAdd(ECU_BUS, MOTOR_INFO, silentDrop)
+canRxAdd(ECU_BUS, MOTOR_BRE, onMotorBre)
+canRxAdd(ECU_BUS, MOTOR_2, onMotor2)
+canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
+canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
+canRxAdd(ECU_BUS, MOTOR_INFO, onMotorInfo)
 canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
---canRxAdd(ECU_BUS, MOTOR_7, silentDrop)
+canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
 
--- last option: unconditional forward of all remaining messages
-canRxAddMask(ECU_BUS, 0, 0, onAnythingFromECU)
-canRxAddMask(TCU_BUS, 0, 0, onAnythingFromTCU)
+canRxAdd(ECU_BUS, ACC_GRA, onAccGra)
 
 everySecondTimer = Timer.new()
 canMotorInfoCounter = 0
+
+motorBreCounter = 0
+accGraCounter = 0
+counter16 = 0
 
 mafSensor = Sensor.new("maf")
 mafCalibrationIndex = findCurveIndex("mafcurve")

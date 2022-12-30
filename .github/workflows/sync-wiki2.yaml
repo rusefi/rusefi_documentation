@@ -1,0 +1,41 @@
+#
+# ACCESS_TOKEN - Personal Access Token with "public_repo" permission
+# If there is a change to rusefi/rusefi_documentation, this action merges it to rusefi/rusefi/wiki
+#
+# the opposite merge is implemented as https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml
+#
+
+name: Sync Wiki2
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor != 'actions-user' }}
+
+    steps:
+    - name: Check out docs repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        repository: rusefi/rusefi.wiki
+        persist-credentials: false
+
+    - name: Merge from rusefi_documentation
+      run: |
+        git remote add technical-git https://github.com/rusefi/rusefi_documentation.git
+        git fetch technical-git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git merge technical-git/master
+
+    - name: Push changes rusefi/rusefi wiki
+      uses: ad-m/github-push-action@master
+      with:
+        repository: rusefi/rusefi.wiki
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        branch: master
