@@ -146,8 +146,6 @@ function onMotor1(bus, id, dlc, data)
 
 --	print ('MOTOR_1 torqueLoss ' ..torqueLoss ..' requestedTorque ' ..requestedTorque)
 
-motor1Data[1] = data[1]
-
 	txCan(TCU_BUS, id, 0, motor1Data)
 end
 
@@ -207,7 +205,6 @@ function onMotorInfo(bus, id, dlc, data)
 end
 
 function onMotorBre(bus, id, dlc, data)
---	print("Relaying to TCU " .. id)
 	motorBreCounter = (motorBreCounter + 1) % 16
 
     setBitRange(motorBreData, 8, 4, motorBreCounter)
@@ -217,11 +214,10 @@ function onMotorBre(bus, id, dlc, data)
 end
 
 function onMotor2(bus, id, dlc, data)
---	print("Relaying to TCU " .. id)
     minTorque = fakeTorque / 2
     motor2Data[7] = math.floor(minTorque / 0.39)
---	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
-	txCan(TCU_BUS, id, 0, motor2Data)
+	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+--	txCan(TCU_BUS, id, 0, motor2Data)
 end
 
 function onMotor7(bus, id, dlc, data)
@@ -240,32 +236,16 @@ function onAccGra(bus, id, dlc, data)
 	txCan(TCU_BUS, id, 0, accGraData)
 end
 
---function onAnythingFromECU(bus, id, dlc, data)
---	totalEcuMessages = totalEcuMessages + 1
-----	print("Relaying to TCU " .. id)
---	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
---end
-
-function onAnythingFromTCU(bus, id, dlc, data)
-	totalTcuMessages = totalTcuMessages + 1
---	print("Relaying to ECU " .. id)
-	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
-end
-
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 canRxAdd(ECU_BUS, MOTOR_BRE, onMotorBre)
 canRxAdd(ECU_BUS, MOTOR_2, onMotor2)
 canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
-canRxAdd(ECU_BUS, MOTOR_INFO, silentDrop)
+canRxAdd(ECU_BUS, MOTOR_INFO, onMotorInfo)
 canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
 canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
 
 canRxAdd(ECU_BUS, ACC_GRA, onAccGra)
-
--- last option: unconditional forward of all remaining messages
-canRxAddMask(ECU_BUS, 0, 0, silentDrop)
-canRxAddMask(TCU_BUS, 0, 0, onAnythingFromTCU)
 
 everySecondTimer = Timer.new()
 canMotorInfoCounter = 0
