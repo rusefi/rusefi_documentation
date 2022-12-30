@@ -20,6 +20,14 @@ Open hood, unhook TPS sensor plug. Repeat "TPS/PPS sweep"
 
 Record 30 seconds of car idling
 
+# Idle with CLT removed
+
+Idle, Unplug and plug coolant sensor
+
+# PR Special
+
+Idle, Turn on and off A/C
+
 # Change gears while parked idling
 
 Press brake pedal, engage R, engage D, engage R, engage D, engage R, engage D.
