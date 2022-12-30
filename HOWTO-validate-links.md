@@ -65,4 +65,22 @@ node .\node_modules\markdown-link-validator\dist\src\bin\markdown-link-validator
 VS Code Extensions "markdownlint" and "Code Spell Checker" have to be installed
 
 ![show all rule violations](Images/DevTools/VS Code - show all violations)
-![fix all rule violations](Images/DevTools/VS Code - fix all violations)
+
+![fix all rule violations](Images/DevTools/VS Code - fix all violations.png)
+
+## find orphaned files
+
+- mkdocs build
+
+-create python venv
+bash: python3.10 -m venv ~/weborphans_venv
+
+-switch to venv
+ps1: $HOME\Documents\.venv\bin\Activate.ps1
+bash: source ~/weborphans_venv/bin/activate
+-run script
+ps1:  mkdocs build >..\mkdocs.log 2>..\mkdocs.error.log
+
+```powershell
+python3.10 .\wiki-tools\weborphans.py C:\Users\mholzer\Documents\git\rusefi_documentation\mkdocs\site\Home\ https://wiki.rusefi.com/ >.\wiki-tools\weborphans.log
+```
