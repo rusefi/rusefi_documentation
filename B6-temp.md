@@ -249,8 +249,8 @@ function onMotorInfo(bus, id, dlc, data)
 	    txCan(1, MOTOR_INFO, 0, canMotorInfo1)
 --	txCan(TCU_BUS, id, 0, data)
 	else
---	    txCan(1, MOTOR_INFO, 0, canMotorInfo3)
-	txCan(TCU_BUS, id, 0, data)
+	    txCan(1, MOTOR_INFO, 0, canMotorInfo3)
+--	txCan(TCU_BUS, id, 0, data)
     end
 end
 
