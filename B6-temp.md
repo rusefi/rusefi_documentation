@@ -103,22 +103,22 @@ function arrayToString(arr)
 end
 
 totalEcuMessages = 0
-totalTcuMessages = 0
 
 motor1Data = { 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motorBreData={ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor2Data = { 0x8A, 0x8D, 0x10, 0x04, 0x00, 0x4C, 0xDC, 0x87 } 
 motor2mux = {0x8A, 0xE8, 0x2C, 0x64}
-canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
-canMotorInfo1= { 0x99, 0x14, 0x00, 0x7F, 0x00, 0xF0, 0x47, 0x01 }
-canMotorInfo3= { 0x9B, 0x14, 0x00, 0x11, 0x1F, 0xE0, 0x0C, 0x46 }
 canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
 motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
-motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 accGraData = { 0x00, 0x00, 0x08, 0x00, 0x1A, 0x00, 0x02, 0x01 }
+canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
+canMotorInfo1= { 0x99, 0x14, 0x00, 0x7F, 0x00, 0xF0, 0x47, 0x01 }
+canMotorInfo3= { 0x9B, 0x14, 0x00, 0x11, 0x1F, 0xE0, 0x0C, 0x46 }
+motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 function onMotor1(bus, id, dlc, data)
+    totalEcuMessages = totalEcuMessages + 1
 	rpm = getBitRange(data, 16, 16) * 0.25
 	tps = getBitRange(data, 40, 8) * 0.4
 
@@ -150,7 +150,36 @@ function onMotor1(bus, id, dlc, data)
 	txCan(TCU_BUS, id, 0, motor1Data)
 end
 
+motorBreCounter = 0
+function onMotorBre(bus, id, dlc, data)
+	motorBreCounter = (motorBreCounter + 1) % 16
+
+    setBitRange(motorBreData, 8, 4, motorBreCounter)
+    xorChecksum(motorBreData, 1)
+
+	txCan(TCU_BUS, id, 0, motorBreData)
+end
+
+motor2counter = 0
+function onMotor2(bus, id, dlc, data)
+	motor2counter = (motor2counter + 1) % 16
+
+    minTorque = fakeTorque / 2
+    motor2Data[7] = math.floor(minTorque / 0.39)
+
+--print ( "brake " .. getBitRange(data, 16, 2) .. " " .. rpm) 
+
+    brakeBit = rpm < 2000 and 1 or 0
+    setBitRange(motor2Data, 16, 1, brakeBit)
+
+    motor2Data[1] = motor2mux[math.floor(motor2counter / 4)]
+
+--	txCan(TCU_BUS, id, 0, data)
+	txCan(TCU_BUS, id, 0, motor2Data)
+end
+
 function onMotor3(bus, id, dlc, data)
+    totalEcuMessages = totalEcuMessages + 1
 	iat = getBitRange(data, 8, 8) * 0.75 - 48
 	pps = getBitRange(data, 16, 8) * 0.40
 	tps = getBitRange(data, 56, 8) * 0.40
@@ -193,6 +222,17 @@ function onMotor6(bus, id, dlc, data)
 	txCan(TCU_BUS, id, 0, motor6Data)
 end
 
+accGraCounter = 0
+function onAccGra(bus, id, dlc, data)
+	accGraCounter = (accGraCounter + 1) % 16
+	setBitRange(accGraData, 60, 4, accGraCounter)
+    xorChecksum(accGraData, 1)
+    
+--	print("Relaying to TCU " .. id)
+--	txCan(TCU_BUS, id, 0, data)
+	txCan(TCU_BUS, id, 0, accGraData)
+end
+
 canMotorInfoCounter = 0
 function onMotorInfo(bus, id, dlc, data)
 --	print("Relaying to TCU " .. id)
@@ -215,49 +255,10 @@ function onMotorInfo(bus, id, dlc, data)
     end
 end
 
-motorBreCounter = 0
-function onMotorBre(bus, id, dlc, data)
-	motorBreCounter = (motorBreCounter + 1) % 16
-
-    setBitRange(motorBreData, 8, 4, motorBreCounter)
-    xorChecksum(motorBreData, 1)
-
-	txCan(TCU_BUS, id, 0, motorBreData) -- relay non-TCU message to TCU
-end
-
-motor2counter = 0
-function onMotor2(bus, id, dlc, data)
-	motor2counter = (motor2counter + 1) % 16
-
-    minTorque = fakeTorque / 2
-    motor2Data[7] = math.floor(minTorque / 0.39)
-
---print ( "brake " .. getBitRange(data, 16, 2) .. " " .. rpm) 
-
-brakeBit = rpm < 2000 and 1 or 0
-setBitRange(motor2Data, 16, 1, brakeBit)
-
-    motor2Data[1] = motor2mux[math.floor(motor2counter / 4)]
-
---	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
-	txCan(TCU_BUS, id, 0, motor2Data)
-end
-
 function onMotor7(bus, id, dlc, data)
 --	print("Relaying to TCU " .. id)
---	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+--	txCan(TCU_BUS, id, 0, data)
 	txCan(TCU_BUS, id, 0, motor7Data)
-end
-
-accGraCounter = 0
-function onAccGra(bus, id, dlc, data)
-	accGraCounter = (accGraCounter + 1) % 16
-	setBitRange(accGraData, 60, 4, accGraCounter)
-    xorChecksum(accGraData, 1)
-    
---	print("Relaying to TCU " .. id)
---	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
-	txCan(TCU_BUS, id, 0, accGraData)
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
@@ -286,13 +287,10 @@ function onTick()
 
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
-		print("Total from ECU " ..totalEcuMessages .." from TCU " ..totalTcuMessages)
-
+		print("Total from ECU " ..totalEcuMessages)
 		motor5FuelCounter = motor5FuelCounter + 20
-
 	end
 end
-
 
 
 ```
