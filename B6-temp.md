@@ -254,8 +254,8 @@ function onMotorInfo(bus, id, dlc, data)
 end
 
 function onMotor7(bus, id, dlc, data)
---	txCan(TCU_BUS, id, 0, motor7Data)
-	txCan(TCU_BUS, id, 0, data)
+	txCan(TCU_BUS, id, 0, motor7Data)
+--	txCan(TCU_BUS, id, 0, data)
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
@@ -279,8 +279,6 @@ function onTick()
 	mafValue = curve(mafCalibrationIndex, 5)
 --	print(freqValue .. " mafValue=" .. mafValue)
 	mafSensor : set(mafValue)
-
-
 
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
