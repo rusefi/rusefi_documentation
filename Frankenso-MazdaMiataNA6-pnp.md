@@ -35,8 +35,6 @@ You would really need a wideband sensor. Here is the middle plug pinout to wire 
 
 A small flat screw driver and small pliers allow you to move side latches and open the cap.
 Insert supplied extra pin wire (pin on this picture) and close the latches. Done!
-
-![extra wire](latches_open_J_wbo_added.jpg)
  
 
 -----------------------------------
