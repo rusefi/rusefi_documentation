@@ -185,7 +185,7 @@ C601, C602 & C603 are 0.1uF
 
 ![Hi Side Layout](Hardware/Frankenso/hi_side.jpg)
 
-![Hi Side Layout](Hardware/Frankenso/hi_side_4.jpg)
+![Hi Side Layout](Hardware/Frankenso/hi_side_4.png)
 
 These chips could be configured to run 5v, 12v or GND output:
 
