@@ -175,23 +175,21 @@ end
 
 counter16 = 0
 function onMotor6(bus, id, dlc, data)
-		engineTorque = getBitRange(data, 8, 8) * 0.39
-		actualTorque = getBitRange(data, 16, 8) * 0.39
-		feedbackGearbox = getBitRange(data, 40, 8) * 0.39
-
 	counter16 = (counter16 + 1) % 16
 
+	-- engineTorque = getBitRange(data, 8, 8) * 0.39
+	-- actualTorque = getBitRange(data, 16, 8) * 0.39
+	-- feedbackGearbox = getBitRange(data, 40, 8) * 0.39
+	engineTorque = fakeTorque * 0.9
+	actualTorque = fakeTorque
+	feedbackGearbox = 255
 
---	    engineTorque = fakeTorque * 0.9
---	    actualTorque = fakeTorque
---  feedbackGearbox = 255
+	motor6Data[2] = math.floor(engineTorque / 0.39)
+	motor6Data[3] = math.floor(actualTorque / 0.39)
+	motor6Data[6] = math.floor(feedbackGearbox / 0.39)
+	setBitRange(motor6Data, 60, 4, counter16)
 
- 		motor6Data[2] = math.floor(engineTorque / 0.39)
-		motor6Data[3] = math.floor(actualTorque / 0.39)
- 		motor6Data[6] = math.floor(feedbackGearbox / 0.39)
-    setBitRange(motor6Data, 60, 4, counter16)
-
-		xorChecksum(motor6Data, 1)
+	xorChecksum(motor6Data, 1)
 	txCan(TCU_BUS, id, 0, motor6Data)
 end
 
@@ -202,14 +200,18 @@ function onMotorInfo(bus, id, dlc, data)
 	
 	canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
 	canMotorInfo[1] = 0x90 + (canMotorInfoCounter)
+	canMotorInfo1[1] = 0x90 + (canMotorInfoCounter)
+	canMotorInfo3[1] = 0x90 + (canMotorInfoCounter)
 --	mod4 = canMotorInfoCounter % 4
 	mod4 = data[1]
 	
 	
 	if (mod4 == 0 or mod4 == 2) then
 	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
+	elseif (mod4 == 1) then
+	    txCan(1, MOTOR_INFO, 0, canMotorInfo1)
 	else
-    	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+	    txCan(1, MOTOR_INFO, 0, canMotorInfo3)
     end
 end
 
