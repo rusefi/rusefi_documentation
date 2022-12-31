@@ -236,9 +236,9 @@ end
 canMotorInfoCounter = 0
 function onMotorInfo(bus, id, dlc, data)
 	canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
-	canMotorInfo[1] = 0x90 + (canMotorInfoCounter)
-	canMotorInfo1[1] = 0x90 + (canMotorInfoCounter)
-	canMotorInfo3[1] = 0x90 + (canMotorInfoCounter)
+	canMotorInfo[1] = 0x80 + (canMotorInfoCounter)
+	canMotorInfo1[1] = 0x80 + (canMotorInfoCounter)
+	canMotorInfo3[1] = 0x80 + (canMotorInfoCounter)
 	mod4 = canMotorInfoCounter % 4
 	
 	
@@ -246,8 +246,8 @@ function onMotorInfo(bus, id, dlc, data)
 --	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
 	txCan(TCU_BUS, id, 0, data)
 	elseif (mod4 == 1) then
---	    txCan(1, MOTOR_INFO, 0, canMotorInfo1)
-	txCan(TCU_BUS, id, 0, data)
+	    txCan(1, MOTOR_INFO, 0, canMotorInfo1)
+--	txCan(TCU_BUS, id, 0, data)
 	else
 --	    txCan(1, MOTOR_INFO, 0, canMotorInfo3)
 	txCan(TCU_BUS, id, 0, data)
