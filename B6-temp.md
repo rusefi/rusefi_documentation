@@ -172,7 +172,8 @@ function onMotor2(bus, id, dlc, data)
     brakeBit = rpm < 2000 and 1 or 0
     setBitRange(motor2Data, 16, 1, brakeBit)
 
-    motor2Data[1] = motor2mux[math.floor(motor2counter / 4)]
+    index = math.floor(motor2counter / 4)
+    motor2Data[1] = motor2mux[1 + index]
 
 --	txCan(TCU_BUS, id, 0, data)
 	txCan(TCU_BUS, id, 0, motor2Data)
