@@ -17,70 +17,70 @@ extra_css:
   - style.css
 
 nav:
-  - 'Downloads': Download
+  - 'Downloads': Download.md
   - 'Getting Started':
-    - 'How to search the Wiki': HOWTO-Search-on-rusEFI-wiki
-    - 'Quick Start': HOWTO-quick-start
-    - 'How to ask questions': HOWTO-ask-questions
-    - 'Support': Support
-    - 'How to create a TunerStudio project': HOWTO-create-tunerstudio-project
-    - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO
+    - 'How to search the Wiki': HOWTO-Search-on-rusEFI-wiki.md
+    - 'Quick Start': HOWTO-quick-start.md
+    - 'How to ask questions': HOWTO-ask-questions.md
+    - 'Support': Support.md
+    - 'How to create a TunerStudio project': HOWTO-create-tunerstudio-project.md
+    - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
   - 'Community':
     - 'Forum': "https://rusefi.com/forum/"
-    - 'Slack': HOWTO-join-slack-channel
-    - 'Engines running on rusEFI': List-of-Engines-Running-rusEFI
-    - 'HOWTO-help-rusEFI': HOWTO-help-rusEFI
+    - 'Slack': HOWTO-join-slack-channel.md
+    - 'Engines running on rusEFI': List-of-Engines-Running-rusEFI.md
+    - 'HOWTO-help-rusEFI': HOWTO-help-rusEFI.md
   - 'Setup Guides':
-    - 'Trigger - Configuration': Trigger-Configuration-Guide
-    - 'Trigger - Setting Offset': How-Do-I-Set-My-Trigger-Offset
-    - 'Electronic Throttle Body': Electronic-Throttle-Body-Configuration-Guide
+    - 'Trigger - Configuration': Trigger-Configuration-Guide.md
+    - 'Trigger - Setting Offset': How-Do-I-Set-My-Trigger-Offset.md
+    - 'Electronic Throttle Body': Electronic-Throttle-Body-Configuration-Guide.md
   - 'Pages':
-    - 'Fuel': Pages-Fuel
-    - 'Flex Fuel': Flex-Fuel
-    - 'Hardware': Pages-Hardware
-    - 'Sensors and Actuators': Pages-Sensors-and-Actuators
-    - 'Ignition': Pages-Ignition
-    - 'Software': Pages-Software
-    - 'TunerStudio Views': rusEFI-project
-    - 'How To': Pages-HOWTO
+    - 'Fuel': Pages-Fuel.md
+    - 'Flex Fuel': Flex-Fuel.md
+    - 'Hardware': Pages-Hardware.md
+    - 'Sensors and Actuators': Pages-Sensors-and-Actuators.md
+    - 'Ignition': Pages-Ignition.md
+    - 'Software': Pages-Software.md
+    - 'TunerStudio Views': rusEFI-project.md
+    - 'How To': Pages-HOWTO.md
   - 'Features':
-    - 'rusEFI Online': Online
-    - 'rusEFI virtual simulator': Virtual-simulator
-    - 'Fueling': Fuel-Overview
-    - 'Multispark': Multi-Spark
-    - 'Cranking': Cranking
-    - 'Electronic Throttle': Electronic-Throttle-Body-Configuration-Guide
-    - 'Knock Sensing': knock-sensing
-    - 'Variable Valve Timing': VVT
-    - 'FSIO - Flexible Sweet Input Output': FSIO
-    - 'GDI': GDI-status
-    - 'Digital Dash': Digital-Dash
+    - 'rusEFI Online': Online.md
+    - 'rusEFI virtual simulator': Virtual-simulator.md
+    - 'Fueling': Fuel-Overview.md
+    - 'Multispark': Multi-Spark.md
+    - 'Cranking': Cranking.md
+    - 'Electronic Throttle': Electronic-Throttle-Body-Configuration-Guide.md
+    - 'Knock Sensing': knock-sensing.md
+    - 'Variable Valve Timing': VVT.md
+    - 'FSIO - Flexible Sweet Input Output': FSIO.md
+    - 'GDI': GDI-status.md
+    - 'Digital Dash': Digital-Dash.md
   - 'Hardware':
-    - 'rusEFI Hardware Overview': Hardware
-    - 'Wiring & Connectivity Overview': FAQ-Basic-Wiring-and-Connections
-    - 'rusEFI Assembly Completeness Chart': Completeness-Chart
-    - 'Kit Instructions': Pages-Kit-Instructions
+    - 'rusEFI Hardware Overview': Hardware.md
+    - 'Wiring & Connectivity Overview': FAQ-Basic-Wiring-and-Connections.md
+    - 'rusEFI Assembly Completeness Chart': Completeness-Chart.md
+    - 'Kit Instructions': Pages-Kit-Instructions.md
     - 'Boards':
-      - 'Hellen': Hellen-One-Platform
-      - 'Proteus': Proteus
-      - 'MicroRusEFI (MRE)': Hardware-microRusEFI
-      - 'Frankenso': Hardware-Frankenso
-      - 'Frankenstein': Hardware-Frankenstein
+      - 'Hellen': Hellen-One-Platform.md
+      - 'Proteus': Proteus.md
+      - 'MicroRusEFI (MRE)': Hardware-microRusEFI.md
+      - 'Frankenso': Hardware-Frankenso.md
+      - 'Frankenstein': Hardware-Frankenstein.md
     - 'Plug & Play Hardware':
-      - 'Hellen Miata 90-95': Hellen64-Miata-NA6-94
-      - 'Hellen Miata 01-05 VVT': Hellen-NB2
-      - 'MRE Adapter55: from Lada to e30': MREAdapter55
-      - 'Frankenso Mazda Miata NA6 PnP': Frankenso-MazdaMiataNA6-pnp
-      - 'Creating a PnP PCB': HOWTO-Make-a-PnP-board
+      - 'Hellen Miata 90-95': Hellen64-Miata-NA6-94.md
+      - 'Hellen Miata 01-05 VVT': Hellen-NB2.md
+      - 'MRE Adapter55: from Lada to e30': MREAdapter55.md
+      - 'Frankenso Mazda Miata NA6 PnP': Frankenso-MazdaMiataNA6-pnp.md
+      - 'Creating a PnP PCB': HOWTO-Make-a-PnP-board.md
   - 'Contributors':
-    - 'Documentation Strategy': Documentation-Strategy
-    - 'HOWTO Contribute to Documentation': HOWTO-contribute-to-documentation
+    - 'Documentation Strategy': Documentation-Strategy.md
+    - 'HOWTO Contribute to Documentation': HOWTO-contribute-to-documentation.md
     - 'Firmware Code Doxygen': "https://rusefi.com/docs/html"
     - 'Firmware Code Automated Test Coverage': "https://rusefi.com/docs/unit_tests_coverage"
-    - 'HOWTO Contribute To Firmware': HOWTO-contribute-to-firmware
-    - 'Firmware performance tracing': Developer-Performance-Tracing
-    - 'Connector Mapping': Connector-Mapping
+    - 'HOWTO Contribute To Firmware': HOWTO-contribute-to-firmware.md
+    - 'Firmware performance tracing': Developer-Performance-Tracing.md
+    - 'Connector Mapping': Connector-Mapping.md
   - 'Misc':
-    - 'How to convert from carburetor to EFI': how-to-convert-from-carburetor-to-EFI
-    - 'Do I need a wideband oxygen sensor?': do-i-need-wideband-oxygen-sensor
+    - 'How to convert from carburetor to EFI': how-to-convert-from-carburetor-to-EFI.md
+    - 'Do I need a wideband oxygen sensor?': do-i-need-wideband-oxygen-sensor.md
   - 'Sitemap': sitemap.xml
