@@ -1,6 +1,6 @@
 # Frankenso
 
-# EFFECTIVELY RETIRED BOARD as of Dec 2021
+## EFFECTIVELY RETIRED BOARD as of Dec 2021
 
 ## Overview
 
@@ -15,7 +15,6 @@ Frankenso should be powered by ignition switch. Frankenso main relay output can 
 ![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_0_5_full_bundle.jpg)
 
 ![Frankenso image](Hardware/Frankenso/Hardware_Frankenso_0_5_native_stm32.jpg)
-
 
 [For sale fully assembled!](https://www.tindie.com/products/russian/frankenso-full-bundle/)
 
@@ -34,7 +33,6 @@ See [HOWTO Quick Start](HOWTO-quick-start) for rusEFI Quick Start.
 
 [3D Files](https://cad.onshape.com/documents/e3886c26c195f696b0992337/w/606a3f224be979ff0bba0b49/e/aa0d12eea4c57b8fd8218752) at OnShape
 
-
 [frankenso_schematic.pdf 0.4](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_history/frankenso_rev00.40/frankenso/frankenso_schematic.pdf)
 
 [Frankenso 0.3 archive](https://github.com/rusefi/rusefi-hardware/tree/main/classic-designs/rusefi_hardware_history/frankenso_rev00.30.7z)
@@ -47,14 +45,13 @@ See [HOWTO Quick Start](HOWTO-quick-start) for rusEFI Quick Start.
 
 See also [online BOM](https://rusefi.com/docs/ibom/frankenso_latest.html)
 
-[disovery pinout - ADVANCED](https://docs.google.com/spreadsheet/ccc?key=0Arl1FeMZcfisdEdsa01mTW9YV0pRU29POUE4QUlma0E)
+[discovery pinout - ADVANCED](https://docs.google.com/spreadsheet/ccc?key=0Arl1FeMZcfisdEdsa01mTW9YV0pRU29POUE4QUlma0E)
 
 ## FAQ
 
 **Q:** Why three USB connectors?
 
 **A:** [Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1418)
-
 
 ## Default Pinout
 
@@ -74,11 +71,11 @@ See also [Mazda Miata 2003](Mazda-Miata-2003)
 
 See also [Mazda Miata 2003 alt](Mazda-Miata-2003-alt)
 
-![Frankeso Default Pinout](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/www_docs/frankenso_default_pinout.png)
+![Frankenso Default Pinout](https://raw.githubusercontent.com/rusefi/rusefi/master/hardware/frankenso/www_docs/frankenso_default_pinout.png)
 
 See also [Trigger Hardware](Trigger-Hardware)
 
-Here is a video about how to chang these "Honda obd1 ecu" connector pins. It has also been found that the second stage release can be done with a flat hair clips can be used from the back side of the connector to release the pin. 
+Here is a video about how to chang these "Honda obd1 ecu" connector pins. It has also been found that the second stage release can be done with a flat hair clips can be used from the back side of the connector to release the pin.
 
 [![Video How to Depin Honda and Acura OBD1 ECU Connectors](Hardware/Frankenso/depin.png)](https://www.youtube.com/watch?v=Lv02bCy0yQs)
 
@@ -90,7 +87,7 @@ Inductors - black squarish things with "330" on them - orientation does not matt
 
 R1001 - 1K resistor - orientation does not matter
 
-D1001 - that's the trickiest one. I need a magnifying glass to see the dash which should be oriented towards the round electrolytic capacitor/connector section. 
+D1001 - that's the trickiest one. I need a magnifying glass to see the dash which should be oriented towards the round electrolytic capacitor/connector section.
 
 Yellow capacitors - should be oriented as on the picture
 
@@ -113,6 +110,7 @@ If you're assembling your Frankenso yourself:
 3. If you've got +5V then install a jumper at W23 - its right next to L1002 (the left inductor) in the picture above - this will bring power to the rest of the board. If you don't have +5V then something is wrong.
 
 ## Cam/crank input
+
 The cheaper way which works for Hall sensors only is to use op-amps channels.
 
 For rev 0.1 you can use channels 9 & 11. To enable this configuration you would need to run a yellor jumper wire from the op-amp side of W211 to JPTODO to and a white hacky wire right from op-amp chip pads XX&XX to TODO.
@@ -134,6 +132,7 @@ LCD power jumper: JPO1
 The screen has 16 wiring holes, so does Frankenso. The middle 4 wires are not used, the other 6+6 wires on the sides should be connected.
 
 ## Low side
+
 Low-side drivers are used for **most** (**all**?) high-Z injectors and relays.
 
 ![Low Side Drivers](Hardware/Frankenso/low_side.png)
@@ -162,7 +161,7 @@ C104 is 0.1uF / 100nF
 
 R102, R103, R104, R106, R107, R108, R109 & R110, R111 & R112 are 5K
 
-R113 & R114 are 10K 
+R113 & R114 are 10K
 
 ![VR IC Pads](Hardware/Frankenso/vr_pads.png)
 
@@ -185,7 +184,7 @@ C601, C602 & C603 are 0.1uF
 
 ![Hi Side Layout](Hardware/Frankenso/hi_side.jpg)
 
-![Hi Side Layout](Hardware/Frankenso/hi_side_4.jpg)
+![Hi Side Layout](Hardware/Frankenso/hi_side_4.png)
 
 These chips could be configured to run 5v, 12v or GND output:
 
@@ -227,13 +226,14 @@ Our op-amp of choice is MCP6004-E/SL
 
 **Troubleshooting notes:**
 
-**R170 is INT/HOLD pull-up**
+    **R170 is INT/HOLD pull-up**
 
-**R171 is CS pull-up**
+    **R171 is CS pull-up**
 
-**R174 is MOSI pull-up**
+    **R174 is MOSI pull-up**
 
 ## USB/TTL
+
 ![Programming Pads](Hardware/Frankenso/programming_pads.png)
 
 R351 is 1M
@@ -249,14 +249,15 @@ C354 & C358 are 4.7uF
 C355, C356 and C357 are 0.1uF (same thing as 100nF)
 
 ## SD card socket
-See [Logging](Logging-Guide)
 
+See [Logging](Logging-Guide)
 
 ## EGT
 
 Frankenso board has provisions for exhaust gas temperature but MAX31855 chips are not included in DIY kits and not populated on assembled boards. Special connectors would also be needed to connect the EGT sensing wire.
 
 ## Clock backup battery
+
 CR2032
 
 ## More pictures
@@ -283,7 +284,6 @@ Different case but also works -  Toyota Cressida - a bit tight with LCD 89661-30
 
 1992 1993 Mazda MX3 4cyl AT B66T
 
-
 tight on vertical USB but works 89661-28140
 
 need to try 89661-28120
@@ -296,8 +296,7 @@ Mazda 929  JE48 18 881A
 
 89661-32590 and 89661-32260 are taller cases. Kind of an option - only one mounting hole aligns perfectly but couple of holes could be massaged to work. TODO adjust Frankenso board accordingly.
 
-
-89561-32021, 89561-32022, 89661-32231, 89661-12511, 89661-07010, 89661-07050 are using other connectors so these would require cutting 
+89561-32021, 89561-32022, 89661-32231, 89661-12511, 89661-07010, 89661-07050 are using other connectors so these would require cutting
 
 89661-3T270 board fits but no LCD access and no mounting hole line up
 
@@ -335,7 +334,6 @@ LM2596 5V TO-263 Voltage Regulator
 
 SN65HVD230 sop-8
 
-
 In order to make cheap kits available we need to use generic eBay "2000 pcs 0805 parts". Good news most 0805 components have a wide acceptable range.
 
 Part #/system|Schematics value|Acceptable range of values
@@ -358,8 +356,6 @@ pin PA15 = P11
 pin PB1 = P13
 
 pin PD3 = P20 connector (same pin goes to one of low-side drivers)
-
-
 
 ## Low side switch options
 
