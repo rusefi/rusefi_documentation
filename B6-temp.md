@@ -200,14 +200,18 @@ function onMotorInfo(bus, id, dlc, data)
 	
 	canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
 	canMotorInfo[1] = 0x90 + (canMotorInfoCounter)
+	canMotorInfo1[1] = 0x90 + (canMotorInfoCounter)
+	canMotorInfo3[1] = 0x90 + (canMotorInfoCounter)
 --	mod4 = canMotorInfoCounter % 4
 	mod4 = data[1]
 	
 	
 	if (mod4 == 0 or mod4 == 2) then
 	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
+	elseif (mod4 == 1) then
+	    txCan(1, MOTOR_INFO, 0, canMotorInfo1)
 	else
-    	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+	    txCan(1, MOTOR_INFO, 0, canMotorInfo3)
     end
 end
 
