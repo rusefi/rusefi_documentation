@@ -228,8 +228,8 @@ function onAccGra(bus, id, dlc, data)
 	setBitRange(accGraData, 60, 4, accGraCounter)
     xorChecksum(accGraData, 1)
     
---	txCan(TCU_BUS, id, 0, accGraData)
-	txCan(TCU_BUS, id, 0, data)
+	txCan(TCU_BUS, id, 0, accGraData)
+--	txCan(TCU_BUS, id, 0, data)
 end
 
 canMotorInfoCounter = 0
