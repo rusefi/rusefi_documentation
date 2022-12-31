@@ -228,37 +228,34 @@ function onAccGra(bus, id, dlc, data)
 	setBitRange(accGraData, 60, 4, accGraCounter)
     xorChecksum(accGraData, 1)
     
---	print("Relaying to TCU " .. id)
---	txCan(TCU_BUS, id, 0, data)
-	txCan(TCU_BUS, id, 0, accGraData)
+--	txCan(TCU_BUS, id, 0, accGraData)
+	txCan(TCU_BUS, id, 0, data)
 end
 
 canMotorInfoCounter = 0
 function onMotorInfo(bus, id, dlc, data)
---	print("Relaying to TCU " .. id)
-	
-	
 	canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
 	canMotorInfo[1] = 0x90 + (canMotorInfoCounter)
 	canMotorInfo1[1] = 0x90 + (canMotorInfoCounter)
 	canMotorInfo3[1] = 0x90 + (canMotorInfoCounter)
---	mod4 = canMotorInfoCounter % 4
-	mod4 = data[1]
+	mod4 = canMotorInfoCounter % 4
 	
 	
 	if (mod4 == 0 or mod4 == 2) then
-	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
+--	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
+	txCan(TCU_BUS, id, 0, data)
 	elseif (mod4 == 1) then
-	    txCan(1, MOTOR_INFO, 0, canMotorInfo1)
+--	    txCan(1, MOTOR_INFO, 0, canMotorInfo1)
+	txCan(TCU_BUS, id, 0, data)
 	else
-	    txCan(1, MOTOR_INFO, 0, canMotorInfo3)
+--	    txCan(1, MOTOR_INFO, 0, canMotorInfo3)
+	txCan(TCU_BUS, id, 0, data)
     end
 end
 
 function onMotor7(bus, id, dlc, data)
---	print("Relaying to TCU " .. id)
---	txCan(TCU_BUS, id, 0, data)
-	txCan(TCU_BUS, id, 0, motor7Data)
+--	txCan(TCU_BUS, id, 0, motor7Data)
+	txCan(TCU_BUS, id, 0, data)
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
