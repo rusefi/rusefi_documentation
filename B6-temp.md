@@ -244,13 +244,11 @@ function onMotorInfo(bus, id, dlc, data)
 	
 	if (mod4 == 0 or mod4 == 2) then
 --	    txCan(1, MOTOR_INFO, 0, canMotorInfo)
-	txCan(TCU_BUS, id, 0, data)
+	    txCan(TCU_BUS, id, 0, data)
 	elseif (mod4 == 1) then
 	    txCan(1, MOTOR_INFO, 0, canMotorInfo1)
---	txCan(TCU_BUS, id, 0, data)
 	else
 	    txCan(1, MOTOR_INFO, 0, canMotorInfo3)
---	txCan(TCU_BUS, id, 0, data)
     end
 end
 
