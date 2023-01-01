@@ -16,6 +16,8 @@ plugins:
 markdown_extensions:
   - sane_lists
   - md_in_html
+  - toc:
+      permalink: True
 
 extra_css:
   - style.css
