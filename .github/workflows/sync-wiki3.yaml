@@ -25,16 +25,11 @@ jobs:
       run: |
         sudo apt update
         sudo apt install sshpass
-        pip install mkdocs mkdocs-ezlinks-plugin mkdocs-exclude
+        bash ./bin/mkdocs-install.sh
 
     - name: Generate static pages using mkdocs
       run: |
-        shopt -s extglob
-        cd mkdocs
-        mkdir docs
-        cp -r ../!(mkdocs) docs
-        cp style.css docs
-        mkdocs build
+        bash ./bin/mkdocs-run.sh
 
     - name: Set SSH variables
       env:
