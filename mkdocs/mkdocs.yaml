@@ -9,6 +9,10 @@ plugins:
   - search
   - ezlinks:
       wikilinks: true
+  - exclude:
+      glob:
+        - mkdocs/*
+
 markdown_extensions:
   - sane_lists
   - md_in_html
