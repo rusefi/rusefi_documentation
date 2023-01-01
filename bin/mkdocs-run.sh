@@ -1,7 +1,8 @@
 #!/bin/bash
 
-shopt -s extglob
 cd mkdocs
-mkdir docs
-cp -r ../!(mkdocs) docs
-mkdocs build
+ln -s .. docs
+cp style.css ..
+mkdocs build --strict
+cd ..
+rm style.css
