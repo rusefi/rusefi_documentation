@@ -25,7 +25,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt install sshpass
-        pip install mkdocs mkdocs-ezlinks-plugin
+        pip install mkdocs mkdocs-ezlinks-plugin mkdocs-exclude
 
     - name: Generate static pages using mkdocs
       run: |
