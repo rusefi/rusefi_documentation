@@ -1,5 +1,4 @@
 
-
 ![board](installations/MazdaMiataNA6_Frankenso_pnp/Frankenso_MazdaMiataNA6_pnp_053_na6_v0_1.jpg)
 
 [Frankenso Board Technical Details](Hardware-Frankenso#default-pinout)
@@ -25,7 +24,6 @@
 |      |      |    |       |   |
 -----------------------------------
 
-
 [Frankenso analog](Hardware-Frankenso#analog-inputs)
 
 | Analog        | ECU pin |MCU pin |  pull-up | pull-down |   |
@@ -46,9 +44,7 @@
 
 -----------------------------------
 
-
 [Frankenso MazdaMiataNA6 pnp](Frankenso-MazdaMiataNA6-pnp)
-
 
 ![board](installations/MazdaMiataNA6_Frankenso_pnp/Frankenso_MazdaMiataNA6_pnp_jumpers.jpg)
 

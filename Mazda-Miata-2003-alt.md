@@ -1,4 +1,4 @@
-In RusEFI console, set engine_type 47 loads base settings. 
+In RusEFI console, set engine_type 47 loads base settings.
 
 ## Wiring
 
@@ -87,7 +87,7 @@ Fly-back diode - stripe facing +12 - is needed between IAC 2P (power, stripe sid
 
 **Vehicle Speed Sensor**
 
-Vehicle speed sensor (VSS) should be wired internally to P6. P6 is located on the backside of the board near PA8. From there it can be wired to a spare WXX spot on the RusEFI. The NB2 side pin is 3T. 
+Vehicle speed sensor (VSS) should be wired internally to P6. P6 is located on the backside of the board near PA8. From there it can be wired to a spare WXX spot on the RusEFI. The NB2 side pin is 3T.
 
 **Air Conditioning**
 
@@ -97,11 +97,11 @@ Vehicle speed sensor (VSS) should be wired internally to P6. P6 is located on th
 | FAN  | 1O         | 2C      |
 | OUT  | 1M         | 2K      |
 
-IN represents the switch located in the center console. 
+IN represents the switch located in the center console.
 
-FAN represents the output to the fan relay in the engine compartment. 
+FAN represents the output to the fan relay in the engine compartment.
 
-OUT represents the output to the A/C Compressor clutch. 
+OUT represents the output to the A/C Compressor clutch.
 
 ## OE Wiring Diagrams
 
@@ -118,19 +118,17 @@ Individual pages for printing:
 
 see [Mazda Miata 2001 - Automatic Transmission](Mazda-Miata-2001#Automatic-Transmission)
 
-
 ![Wiring Diagram](OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003_at.png)
 
 ### Immobilizer
 
-NALDEC NC87 67 790 MAZDA MX5 EUNOS MK2 MK2.5 BURGLAR ALARM MODULE NC8767790 is not an immobilizer 
-
+NALDEC NC87 67 790 MAZDA MX5 EUNOS MK2 MK2.5 BURGLAR ALARM MODULE NC8767790 is not an immobilizer
 
 US immobilizer
 ![Wiring Diagram](Images/2001_miata_immobilizer.png)
 
-
 ### Wiper Motor
+
 ![Wiring Diagram](Images/2003_miata_wiper_motor.png)
 
 ### Charging

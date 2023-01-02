@@ -38,6 +38,7 @@ F042 module pinout
 | 12 | CAN L | CAN bus low |
 
 ## LED decoding
+
 | Blue LED | Green LED | Meaning |
 |:--------:|:---------:| -----|
 | off | fast flash | sensor warming up |
@@ -52,7 +53,6 @@ rusEFI own wideband module requires one time initial programming. Self contained
 initial programming binary at [https://github.com/mck1117/wideband/tree/master/for_rusefi](https://github.com/mck1117/wideband/tree/master/for_rusefi)
 
 At the moment only known to work using stm32cube software not ST Link utility (weird). In case of Hellen 5v via USB is required.
-
 
 ## Error Codes
 
@@ -72,7 +72,9 @@ Green LED off and blue LED flashing indicates an error.  The blue LED will blink
 | alternating quickly | Waiting for bootloader entry command, only occurs for ~1 second before launching firmware |
 
 ## Setting it up in Tunerstudio
+
 In order for the WBO to work, the following conditions (and maybe more) have to be met:
+
 * Under "Controller" -> "Can Bus Communication" -> "Enable rusEFI Can Broadcast" = "true" must be set
 * Under "Sensors" -> "EGO Sensor" -> "Enable Can Wideband" = "true" must be set
 
@@ -83,13 +85,13 @@ There was also an opinion voiced that the board needs to see voltage on the "vBa
 [The hardware and software source code are hosted here.](https://github.com/mck1117/wideband)
 
 ## Index Selection
-[https://github.com/mck1117/wideband/issues/11](https://github.com/mck1117/wideband/issues/11)
 
+[https://github.com/mck1117/wideband/issues/11](https://github.com/mck1117/wideband/issues/11)
 
 # Fabrication
 
 * Power board with 5v (WBO module produces it's own 3v from supplied 5v)
 * [Tag-Connect-TC2030](Tag-Connect-TC2030) to upload [firmware](https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_image_with_bl.bin)
-* power cycle to confirm green LED blinking 
+* power cycle to confirm green LED blinking
 
 ![x](Hardware/Hellen/hellen-wbo-F042-soldering-map.jpg)

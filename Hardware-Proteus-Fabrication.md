@@ -13,8 +13,7 @@
 
 ![x](Hardware/Proteus/Hardware-Proteus-0.4-jlc.jpg)
 
-
-# Assembly sequence:
+# Assembly sequence
 
 * Buttons: paste + soldering iron
 * FB1501 Ferrite: paste + hot air
@@ -22,7 +21,6 @@
 * USB: solder wire + soldering iron
 
 At this point USB DFU should work
-
 
 # 0.4 Non-JLC BOM
 
@@ -37,7 +35,6 @@ Ferrite_Bead,FB1501,Inductor_SMD:L_0603_1608Metric,BLM18EG221SN1D
 Polyfuse,"F101,F102",Resistor_SMD:R_1206_3216Metric,1206L012WR
 Micro_SD_Card,J1,Connector_Card:microSD_HC_Wuerth_693072010801,47219-2001
 SW_Push,"SW1501,SW1502",Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,
-
 
 [jlcpcb.com](http://www.jlcpcb.com) not only fabricates the PCB but also assembles a significant portion of Proteus pretty cheaply.
 
@@ -59,9 +56,6 @@ Acceptable 3D printed case files are not public yet.
 
 CNC files to cut holes in 1590wxxfl/1590xxfl cases are available [here](https://github.com/mck1117/proteus/blob/master/export/proteus-case.step)
 
-
-
 # 0.3
 
-![x](Hardware/Proteus/Hardware-Proteus-0.3.jpg) 
-
+![x](Hardware/Proteus/Hardware-Proteus-0.3.jpg)

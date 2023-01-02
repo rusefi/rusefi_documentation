@@ -11,7 +11,6 @@ Mandatory links:
 [Temperature Sensing](Temperature-Sensing)
 [1994 Miata Frankenso pinout spreadsheet](https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk/edit#gid=0)
 
-
 First you need the board. Then you need the components. I decided to select and buy the components step-by-step.
 
 ![Frankenso 0.5 bare board](Hardware/Frankenso/Frankenso-0.5-naked.jpg)
@@ -21,7 +20,7 @@ The latest Frankenso files can be found [here](https://github.com/rusefi/rusefi/
 
 ## Helpful files
 
-* [frankenso.csv ](https://github.com/rusefi/rusefi/blob/master/hardware/frankenso/frankenso.csv)
+* [frankenso.csv](https://github.com/rusefi/rusefi/blob/master/hardware/frankenso/frankenso.csv)
 * [frankenso_PCB.pdf](https://github.com/rusefi/rusefi/blob/master/hardware/frankenso/frankenso_PCB.pdf)
 * [frankenso_schematic.pdf](https://github.com/rusefi/rusefi/blob/master/hardware/frankenso/frankenso_schematic.pdf)
 
@@ -41,7 +40,8 @@ I decided to start with the power supply / voltage converter. After the required
 The remaining parts I group by the engine components, see the following table:
 
 ### Engine components
-* Crankshaft position sensor 
+
+* Crankshaft position sensor
 * Camshaft position sensor
 * Mass Air Flow sensor
 * Throttle position sensor

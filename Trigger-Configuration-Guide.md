@@ -1,4 +1,5 @@
 # Hall Effect Sensors
+
 *note: the hall effect section also includes optical sensors, as they behave electrically the same as hall sensors*
 
 ## Wiring
@@ -28,11 +29,11 @@ To inspect the missing tooth signal's shape:
 3. Crank (or run) the engine for a few seconds, until you see a trace appear on the screen in TunerStudio, then release the starter.
 4. Determine which of the below images matches your trigger pattern:
 
-#### This is the correct missing tooth shape:
+#### This is the correct missing tooth shape
 
 ![correct VR missing tooth pattern](https://i.imgur.com/x3AK5sU.jpg)
 
-#### This is the wrong missing tooth shape - swap your wires:
+#### This is the wrong missing tooth shape - swap your wires
 
 ![wrong VR sensor missing tooth pattern](https://i.imgur.com/rJRJWP7.jpg)
 

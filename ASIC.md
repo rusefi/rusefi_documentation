@@ -1,7 +1,6 @@
 
 Overview of state of integration between rusEFI and all kinds of ASICs.
 
-
 # Low side+
 
 ### Mostly implemented
@@ -40,5 +39,3 @@ Overview of state of integration between rusEFI and all kinds of ASICs.
 | MAX31855 | EGT | Not used by anyone |
 | [MC33972](https://www.nxp.com/docs/en/data-sheet/MC33972.pdf) | Multiple switch detection interface  | EG33 board |
 |   |   |   |   |   |
-
-

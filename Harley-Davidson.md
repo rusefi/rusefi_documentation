@@ -11,4 +11,3 @@
 # 2021
 
 ![x](OEM-Docs/Harley/2021-ecu-pinout.png)
-

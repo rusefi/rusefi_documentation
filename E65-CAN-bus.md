@@ -4,8 +4,6 @@ First priority to control 6HP26 gearbox
 
 [BMW N73 electronics](BMW-N73)
 
-
-
 Test mule #1 2004 760 AndreyB
 
 Test mule #2 2006 760 Zeiss HeinrichG
@@ -18,17 +16,9 @@ Need to decode message format: Smaller list of names in English [here](https://w
 
 Need to decode message format: Huge list in German [here](https://www.bimmerforums.com/forum/showthread.php?2298830-E90-Can-bus-project-%28E60-E65-E87-%29&p=29628499#post29628499)
 
-
-
-
 [BMW E65 CANBUS](https://github.com/damienmaguire/BMW-E65-CANBUS)
 
-
-
-
 [E90](https://www.bimmerforums.com/forum/showthread.php?2298830-E90-Can-bus-project-(E60-E65-E87-))
-
-
 
 Local-CAN messages:
 
@@ -50,7 +40,7 @@ Local-CAN messages:
 
  20D ? Position Lenksäule (5) 101 0x65 SZM_MIT_KBUS/SZM
 
- 212 ? Höhenstände Luftfeder [8] 56 0x38 EHC 
+ 212 ? Höhenstände Luftfeder [8] 56 0x38 EHC
 
  214
 

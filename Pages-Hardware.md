@@ -1,7 +1,6 @@
-## Master list of hardware (boards) pages 
+## Master list of hardware (boards) pages
   
 [Hardware overview](Hardware)  
-
 
 <details><summary><u>Universal Info</u></summary>
 
@@ -11,20 +10,17 @@
 
 </details>
 
-
 <details><summary><u>Deucalion</u></summary>
 
 * [Deucalion UART](Deucalion-uart)
 
 </details>
 
-
 <details><summary><u>Frankenso</u></summary>
 
 * [Frankenso main page](Hardware-Frankenso)
 
 </details>
-
 
 <details><summary><u>MicroRusEFI (MRE)</u></summary>
 
@@ -44,7 +40,6 @@
 
 </details>
 
-
 <details><summary><u>PNP Boards</u></summary>
 
 * [PNP 48 - MRE based for Miata NA](microrusefi48adapter.pdf)
@@ -59,14 +54,12 @@
 
 </details>
 
-
 <details><summary><u>Prometheus</u></summary>
 
 * [Prometheus Overview](Hardware-Prometheus)  
 * [Prometheus wiring diagram](Hardware/Prometheus/Prometheus_wiring_diagram.cdr)
 
 </details>
-
 
 <details><summary><u>Proteus</u></summary>
 

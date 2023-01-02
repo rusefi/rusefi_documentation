@@ -3,7 +3,8 @@ Over the years of developing rusEFI at least 20 of these stm32f4discovery boards
 TODO: write down safest operation protocols.
 
 ## Does you brain board work?
-Remove the green brain board from the ECU and remove all cables. Power brain board with mini-USB - just the top mini-USB, no other cables. 
+
+Remove the green brain board from the ECU and remove all cables. Power brain board with mini-USB - just the top mini-USB, no other cables.
 
 ![Only Mini USB](Images/Only_mini_usb.png)
 

@@ -14,4 +14,4 @@ Now you are ready to hit "Upload" button on [https://rusefi.com/online/](https:/
 
 ### A: If you want to mention a tune please provide exact URL. It's not very useful to just say "I've uploaded my tune" without full URL. Please help us help you by pointing at what _exactly_ we are looking to discuss :)
 
-See also https://github.com/rusefi/rusefi/wiki/HOWTO-upload-log
+See also <https://github.com/rusefi/rusefi/wiki/HOWTO-upload-log>

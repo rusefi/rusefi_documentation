@@ -13,11 +13,9 @@
 
 [Schematics rev D](Hardware/Hellen/hellen121nissan-d-schematic.pdf)
 
-
 [Schematics rev С](Hardware/Hellen/hellen121nissan-c-schematic.pdf)
 
-[Schematics rev B](Hardware/Hellen/hellen121nissan-b-schematic.pdf) 
-
+[Schematics rev B](Hardware/Hellen/hellen121nissan-b-schematic.pdf)
 
 [ibom rev D](https://rusefi.com/docs/ibom/hellen121nissan-d-ibom.html)
 
@@ -33,12 +31,12 @@
 
 ## Hardware features
 
-* 
-* 
-* 
-* 
-* 
-* 
+*
+*
+*
+*
+*
+*
 
 ![x](Hardware/Hellen/hellen121nissan-rev-B-with-connector.jpg)
 

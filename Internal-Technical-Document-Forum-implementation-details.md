@@ -2,7 +2,7 @@
 
 * Button menu
 * Clipboard Image
-* Quick Title Edition deprecated or not supported? [https://www.phpbb.com/customise/db/mod/qte/](https://www.phpbb.com/customise/db/mod/qte/) 
+* Quick Title Edition deprecated or not supported? [https://www.phpbb.com/customise/db/mod/qte/](https://www.phpbb.com/customise/db/mod/qte/)
 
 Random Notes
 

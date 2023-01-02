@@ -2,14 +2,13 @@
 
 [pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
 
-[[Schematics rev c]](Hardware/Hellen/hellen154hyundai-c-schematic.pdf)[[ibom rev c]](https://rusefi.com/docs/ibom/hellen154hyundai-c-ibom.html)
+[[Schematics rev c]][Hardware/Hellen/hellen154hyundai-c-schematic.pdf]([ibom rev c)](https://rusefi.com/docs/ibom/hellen154hyundai-c-ibom.html)
 
-[[Schematics rev b]](Hardware/Hellen/hellen154hyundai-b-schematic.pdf)[[ibom rev b]](https://rusefi.com/docs/ibom/hellen154hyundai-b-ibom.html)
+[[Schematics rev b]][Hardware/Hellen/hellen154hyundai-b-schematic.pdf]([ibom rev b)](https://rusefi.com/docs/ibom/hellen154hyundai-b-ibom.html)
 
 [fw snapshot](https://rusefi.com/build_server/rusefi_bundle_hellen154hyundai.zip)
 
 [Hyundai Genesis Coupe - Wikipedia](https://en.wikipedia.org/wiki/Hyundai_Genesis_Coupe)
-
 
 Genesis Coupe 2.0T
 
@@ -21,14 +20,12 @@ the thing is, the harness changes slightly between the years
 
 [Hellen 154 Hyundai pinout spreadsheet](https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUdvyo)
 
+## Hardware Features
 
-## Hardware Features 
 * x4 aux high current low side outputs
 * x2 aux high current H-bridge
 
-
 ![x](Hardware/Hellen/hellen154hyundai-rev-b.jpg)
-
 
 ## Changelog
 
@@ -36,7 +33,6 @@ the thing is, the harness changes slightly between the years
 
 * Molex Aux connector
 * ETB issue fixed
-
 
 # Rev B
 

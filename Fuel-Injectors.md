@@ -1,4 +1,4 @@
-## Fuel injector info 
+## Fuel injector info
 
 ### Fuel injectors
 
@@ -9,4 +9,4 @@ You do **not** need to wire injectors in a particular way.  Cylinder #1 (as numb
 
 Bottom line: as long as the hardware variant has at least as many injector outputs as your engine has cylinders, you will be able to run one injector per cylinder.
 
-Info to be updated soon. 
+Info to be updated soon.

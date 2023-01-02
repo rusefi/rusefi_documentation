@@ -1,12 +1,11 @@
 
-
 [Wikipedia](https://en.wikipedia.org/wiki/Volkswagen_Passat_%28B6%29)
 
 BOSCH MED9.1 ECU P/N 3C0 907 115 F
 
 ![x](OEM-Docs/VW/2006_Passat/B6_ecu_label.jpg)
 
-Production	2005–2010 (B6)
+Production 2005–2010 (B6)
 
 2.0 Turbo FSI engine code BPY ???
 
@@ -16,8 +15,7 @@ Fuel Rail High Pressure sensor 0 261 545016 0261545016 06J906051D
 
 Fuel Rail Pressure sensor connector 4D0971993
 
-Fuel Tank Pressure Sensor / 
-
+Fuel Tank Pressure Sensor /
 
 Injector 06F906036A
 
@@ -87,6 +85,7 @@ End of 94 pin connector T94
 <a name="60"/>
 
 # 60 pin connector
+
 |Pin Number|Name   | Default function                      | OEM Color | rusEFI Color |
 | ---:|:---------- |:------------------------------------  | --- | --- |
 | 1   | INJ neg    | .Injector #2 P5-t                      | RED/WHT | blue |
@@ -115,7 +114,7 @@ End of 94 pin connector T94
 | 41  | High-Side  | ..Coil #2                               | BLU/GRY |
 | 43  | High-Side  | ..Coil #3                               | RED/GRY |
 | 44  | digital in | ..Cam position sensor                   | GRN/VIO |
-| 47  | INJ pos    | .Injector #2 P5-t connected to #32     | BRN/WHT   | orange | 
+| 47  | INJ pos    | .Injector #2 P5-t connected to #32     | BRN/WHT   | orange |
 | 48  | INJ pos    | .Injector #4 P5-t                      | BRN BRN/GRY   | white |
 | 51  | Crank in   | ..VR Crank Positive                     | BRN |
 | 52  | **GND**    | ..Sensor GND                            | BLK |
@@ -126,11 +125,11 @@ End of 60 pin connector T60
 
 Injector #1: #33/#2
 
-Injector #2: #47/#1 
+Injector #2: #47/#1
 
-Injector #3: #32/#17 
+Injector #3: #32/#17
 
-Injector #4: #48/#16 
+Injector #4: #48/#16
 
 [Passat-GDI-wiring](Passat-GDI-wiring)
 
@@ -158,7 +157,6 @@ Injector #4: #48/#16
 "Late"
 ![ecu1](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_late_5_5.png)
 
-
 Charging
 
 ![x](OEM-Docs/VW/2006_Passat/2006_passat_2.0t_charging.png)
@@ -185,6 +183,7 @@ Transmission Input Speed sensor G182 and Output Speed sensor G195 are both Hall.
 Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 
 # 52 pin connector
+
 |Pin Number|Name     | Default function                      | OEM Color  |
 | ---:|:------------ |:------------------------------------  | ---------- |
 | 1   | ***GND***    | Ground                                | BRN        |
@@ -213,9 +212,6 @@ Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 |     |              |                                       |            |
 |     |              |                                       |            |
 
-
 ![x](OEM-Docs/VW/2006_Passat/09G.png)
 
 ![x](OEM-Docs/VW/2006_Passat/09G_table.png)
-
-

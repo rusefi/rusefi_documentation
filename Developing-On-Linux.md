@@ -9,24 +9,27 @@ These can be extracted under your home directory; just add the `bin` directory t
 TODO: You probably need to install additional packages but I don't remember what they are.
 
 Then to compile the firmware,
+
 ```
 cd firmware
 make PROJECT_BOARD=nucleo_h743 PROJECT_CPU=ARCH_STM32H7 -j4
 ```
+
 Edit according to your environment.
 
 To compile the simulator,
+
 ```
 cd simulator
 ./compile.sh
 ```
 
 To compile the unit tests,
+
 ```
 cd unit_tests
 make -j4
 ```
-
 
 # Working with STM32 Dev/Nucleo boards
 
@@ -50,23 +53,30 @@ OpenOCD can be left running in the background while you develop in other windows
 ```
 sudo ~/openocd/xpack-openocd-0.11.0-2/bin/openocd -f ~/openocd/xpack-openocd-0.11.0-2/scripts/board/st_nucleo_h743zi.cfg
 ```
+
 Adjust as necessary; you may need `sudo` if you don't normally have access to USB devices.
 
 To reprogram, simply do:
+
 ```
 telnet localhost 4444
 program build/rusefi.elf reset
 exit
 ```
+
 Or, if you prefer a one-liner:
+
 ```
 (echo "program build/rusefi.elf reset"; echo exit) | nc localhost 4444
 ```
+
 Conveniently, OpenOCD will retain a history of commands, allowing you to use up-arrows to retrieve previous commands.
 
 On a nucleo-h743, I don't seem to get much indication this worked, but if you connect via gdb:
+
 ```
 gdb build/rusefi.elf
 target remote :3333
 ```
+
 then you might end up in the middle of the ChibiOS idle function, a good indication you've succeeded.

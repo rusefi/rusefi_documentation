@@ -1,6 +1,7 @@
 rusEFI has build-in provisions for performance tracing
 
 Whenever certain events occur, a few things are logged to a buffer:
+
 - Event type (function name, etc)
 - Current thread
 - Current interrupt number (if not in a thread)
@@ -9,6 +10,7 @@ Whenever certain events occur, a few things are logged to a buffer:
 This data is then transported to a PC, and reconstructed in to an easy-to-read format.
 
 Uses:
+
 - Performance optimization
 - Where did the time go? Are we running out of CPU? Is a particular interrupt or thread getting in the way often?
 - Is the interrupt/thread priority set properly? Are things getting preempted as expected?

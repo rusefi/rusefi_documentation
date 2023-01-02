@@ -28,6 +28,3 @@ Configuration Fields:
 <b>Fuel Cut:</b> In case RPM would shoot over the target value, fuel cut to stop the engine to rev higher.
 
 <b>Hard Cut:</b> Launch limits engine while it revs in 2500 - 3500 window. If this value would be set to 1000, then rev limit window would be 2500 - 4000.
-
-
-

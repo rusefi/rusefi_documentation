@@ -1,38 +1,37 @@
 # How to build the rusEFI firmware from the source files  
 
-### The following process is a step-by-step guide to creating the build environment in windows 10+ using Windows Shell for Linux 
+### The following process is a step-by-step guide to creating the build environment in windows 10+ using Windows Shell for Linux
 
-The best way to build the rusEFI firmware is using a set of tools that run best under linux, 
+The best way to build the rusEFI firmware is using a set of tools that run best under linux,
 
-
-1. Install WSL 
+1. Install WSL
 Run the following in an elevated powershell  
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux  
 
 2. Download linux  
-Download the appx for linux 2004 from here:   
+Download the appx for linux 2004 from here:
 [WSL Install Manual](https://docs.microsoft.com/en-us/windows/wsl/install-manual)  
 Or type the following into powershell:  
 cd ubuntu/  
-Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-2004 -OutFile Ubuntu.appx -UseBasicParsing  
+Invoke-WebRequest -Uri <https://aka.ms/wsl-ubuntu-2004> -OutFile Ubuntu.appx -UseBasicParsing  
 This command will download the file to the currently active directory.  
 
-3. install linux   
+3. install linux
 PS C:\Windows\system32> cd c:/Ubuntu  
 PS C:\Ubuntu> Add-AppxPackage Ubuntu_2004.2020.424.0_x64.appx  
 Open start menu and launch linux  
-Wait for it to complete install and ask for username and password   
+Wait for it to complete install and ask for username and password
 
-4. check WSL default install   
+4. check WSL default install
 In powershell type:  
 wslconfig /l  
-Make sure the ubuntu 2004 is marked as default.   
+Make sure the ubuntu 2004 is marked as default.
 
 5. get git  
 sudo apt-get install git  
 
 6. clone git  
-git clone https://github.com/YOUR-REPOSITORY/rusefi.git  
+git clone <https://github.com/YOUR-REPOSITORY/rusefi.git>  
 
 7. Run setup script  
 cd /home/owner/rusefi/firmware  
@@ -45,7 +44,7 @@ Download and install as normal, is should detect WSL and ask to install the exte
 cd /home/owner/rusefi  
 code .  
 
-10. Hit ctrl-b and run "build unit tests"   
+10. Hit ctrl-b and run "build unit tests"
 Allow to run and complete, it may exit with "multiple targets" error, if so just run it a second time.  
 
 11. exit both VScode and ubunu  
@@ -63,18 +62,15 @@ code .
 14. Run the built tool for the specific board in VScode  
 Ctrl-Shift-B and select the chosen board, this should build the firmware.  
 
-
-
 - Note submodules are their own thing - the main repo just contains a pointer to where the submodule should be checked out  
 
-
-- Zach method: 
+- Zach method:
 install wsl (already have ubuntu 20.04 on wsl2)  
 sudo apt update  
 sudo apt install openjdk-8-jre-headless -y  
-curl -O https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2  
+curl -O <https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2>  
 tar -xf gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2  
 
-
 ### Without WSL
-Less fancy toolchain without WSL works as well https://rusefi.com/forum/viewtopic.php?f=5&t=9
+
+Less fancy toolchain without WSL works as well <https://rusefi.com/forum/viewtopic.php?f=5&t=9>

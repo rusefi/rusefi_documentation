@@ -1,7 +1,8 @@
-### [Home](/rusefi/rusefi/wiki)
-### [Downloads](/rusefi/rusefi/wiki/Download)
+# [Home](/rusefi/rusefi/wiki)
 
-# Getting Started
+## [Downloads](/rusefi/rusefi/wiki/Download)
+
+## Getting Started
 
 - [How to search the Wiki](HOWTO-Search-on-rusEFI-wiki)
 - [Quick Start](HOWTO-quick-start)
@@ -10,21 +11,22 @@
 - [How to create a TunerStudio project](HOWTO-create-tunerstudio-project)
 - [HOWTOs and FAQs](Pages-FAQ-and-HOWTO)
 
-# Community
+## Community
 
 - [Forum](https://rusefi.com/forum/)
 - [Facebook Users Group](https://www.facebook.com/groups/rusEfi/)
 - [Slack](HOWTO-join-slack-channel)
 - [HOWTO-help-rusEFI](HOWTO-help-rusEFI)
 
-# Setup Guides
+## Setup Guides
 
 - [Trigger - Configuration](Trigger-Configuration-Guide)
 - [Trigger - Setting Offset](How-Do-I-Set-My-Trigger-Offset)
 - [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)
 - [Logging](Logging-Guide)
 
-# Pages
+## Pages
+
 - [Fuel](Pages-Fuel)
 - [Flex Fuel](Flex-Fuel)
 - [Hardware](Pages-Hardware)
@@ -34,7 +36,7 @@
 - [rusEFI Project](rusEFI-project)
 - [How To](Pages-HOWTO)
 
-# Features
+## Features
 
 - [rusEFI project overview](rusEFI-project)
 - [rusEFI Online](Online)
@@ -49,7 +51,7 @@
 - [GDI](GDI-status)
 - [Digital Dash](Digital-Dash)
 
-# Hardware
+## Hardware
 
 - [rusEFI Hardware Overview](Hardware)
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
@@ -73,7 +75,7 @@
 - [Frankenso MazdaMiataNA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 - [Creating a PnP PCB](HOWTO-Make-a-PnP-board)
 
-# Contributors
+## Contributors
 
 - [Documentation Strategy](Documentation-Strategy)
 - [HOWTO Contribute to Documentation](HOWTO-contribute-to-documentation)
@@ -82,7 +84,7 @@
 - [HOWTO Contribute To Firmware](HOWTO-contribute-to-firmware)
 - [Firmware performance tracing](Developer-Performance-Tracing)
 
-# Misc
+## Misc
 
 - [How to convert from carburetor to EFI](how-to-convert-from-carburetor-to-EFI)
 - [Do I need a wideband oxygen sensor?](do-i-need-wideband-oxygen-sensor)

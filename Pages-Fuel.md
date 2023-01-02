@@ -1,4 +1,4 @@
-## Master list of fuel pages 
+## Master list of fuel pages
 
 <details markdown="1"><summary><u>rusEFI Project</u></summary>
 
@@ -40,5 +40,3 @@
 * [Fuel injectors](Fuel-Injectors.md)
 
 </details>
-
-

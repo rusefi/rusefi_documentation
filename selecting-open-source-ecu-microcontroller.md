@@ -11,8 +11,7 @@ Toolchain, Hardware API.
 4. **Hardware API** ChibiOS Hardware Abstraction Layer allows us to not spend too much time debugging low level peripheral registers
 
 One of the things we do not like about smt32 Cortex-M is the fact that this family is not automotive and not based on 5 volts.
-In an ideal chip we would like to see 5v ADC and maybe more hardware timers. 
-
+In an ideal chip we would like to see 5v ADC and maybe more hardware timers.
 
 We've looked into a few other chips but so far have not found a better overall platform.
 
@@ -28,14 +27,8 @@ TMS570 - [TMS570 - Forum](https://rusefi.com/forum/viewtopic.php?f=13&t=407) & [
 
 =======================================================
 
-
 Rafael Matos  4:13 AM
 @Matthew Kennedy  @Andrey  in your opinion whats the advantage between runing a 8bit mcu and a 32 bit mcu apart from having more timers can bus, etc? (serious question)
-
-
-
-
-
 
 Matthew Kennedy  4:17 AM
 You mean why is 32b better?
@@ -62,7 +55,6 @@ not yet :slightly_smiling_face:
 :heavy_check_mark:
 2
 
-
 Gwendal Blot  4:41 AM
 Should be imo, quite readable for semi specialists
 
@@ -79,7 +71,6 @@ Matthew Kennedy  4:50 AM
 the actual value for this project is that with a faster CPU, the ratio of tricks or cleverness required to functionality achieved is minimized
 :heart:
 1
-
 
 Gwendal Blot  4:51 AM
 Isn't it an automotive rating thing also ?
@@ -130,7 +121,7 @@ Gwendal Blot  4:55 AM
 That would be neat for interruption parallelization, with possibility of running a 60-2 or even more at 15k rpm
 
 Matthew Kennedy  4:55 AM
-we can do 60-2 at 15k (edited) 
+we can do 60-2 at 15k (edited)
 4:56
 the point of the fancy timer hardware is that you don't need per-tooth interrupts
 
@@ -159,10 +150,8 @@ Like the iphone 1 also makes calls and sends texts...
 
 Matthew Kennedy  5:00 AM
 But the iPhone 1 doesn't take photos like this
-Image from iOS 
 Image from iOS
-
-
+Image from iOS
 
 Rafael Matos  5:00 AM
 Yep

@@ -1,4 +1,4 @@
-Based on 
+Based on
 
 nb2-happy-warmup-idle.csv
 

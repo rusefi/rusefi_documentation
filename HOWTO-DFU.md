@@ -1,5 +1,4 @@
 
-
 DFU is Device Firmware Update mode - that's a way to update firmware via the same USB cable you use for rusEFI communication. stm32 DFU is part of stm32 factory bootloader and we expect that any rusEFI board could be updated/reset via same USB connector as the one you use to communicate to your rusEFI ECU. Please let us know if that's not the case!
 
 *Auto DFU* is when your rusEFI console switches your rusEFI device into DFU mode
@@ -10,7 +9,6 @@ used to program brand new stm32 chips which do not have a running version of rus
 [HOWTO DFU video](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
 On a STM32F4 Discovery, entering DFU mode requires putting a jumper between the pins VDD and BOOT0, then powering or resetting the board.
-
 
 ## Q: I have "STM Device in DFU Mode" in Device Manager and rusEFI console does not update firmware. What's wrong?
 

@@ -4,13 +4,12 @@ See also [Mazda-Miata-2003](Mazda-Miata-2003)
 
 **Disclaimer : This page has been written by a user and thus might not be objective**
 
-
 # PnP adapter board
 
 ![Isometric view of adapter boaard together with proteus](https://rusefi.com/forum/download/file.php?id=5673&sid=1df371e40697c38dca9221e44ce28b50)
 
 A plug and play adapter board has been developped to get the car to work as easy as possible. It only requires sourcing a tock harness plug and Ampseal 23 pins headers if you want auxiliary functions.
-More informations are available at this link : 
+More informations are available at this link :
 
 [Proteus Plug and Play board for Miata/MX5 NB2 (72 pins)](https://rusefi.com/forum/viewtopic.php?f=4&t=1701)
 
@@ -83,10 +82,6 @@ For the extension connectors the pinnig is the following \:
 |                 2V|             |          ETB2+|                    |
 |                 2W|             |          ETB2-|                    |
 
-
-
-
-
 ## Interface with proteus
 
 At the moment, the interface between Proteus board and the PnP adapter is handled by hacked up Ampseal connectors. To do that you need to source the male connectors used on Proteus, and cut the plastic shroud on the connector side, flush with the watertight seal if there is any, or with the mounting flange.
@@ -100,10 +95,11 @@ Unit price for QTY 5 assembled and delivered to Europe is 7$.
 ## Improvments
 
 A few improvment would make this board really plug and play and easier to use
+
 * For now the MAF input doesn't work because it lacks some pullup/pulldown.
 * Altough they fit in OEM ECU location, ampseal extension connectors are a bit bulky. They were chosen because board designed had them lying around.
 
-# Pinning 
+# Pinning
 
 ## OEM 72 pins connector
 
@@ -157,21 +153,17 @@ A few improvment would make this board really plug and play and easier to use
 
 Using an external MAP sensor allows you to get the engine running above ambiant pressure when using forced induction. Good cheap option is GM 3 bars but anything will work for you. MAP input can be mapped to Analog Volt 1 (A13 pin).
 
-**Note :** 
+**Note :**
 You can also run the engine naturally aspirated using the OEM "boost sensor". It is located on the EGR systems and is used by stock ECU to determine whether the EGR is working or not. You've probably ditched EGR so far and so you can run a vacuum line from your plenum to this sensor and use it with this calibration:
+
 * 0V - 15Kpa
 * 5V - 115Kpa
 
 Or you can use the OEM sensor for barometric reading and correction.
 
-
-
 ### WBO2 sensor
 
-
 ### To sum up
-
-
 
 # Tune config
 
@@ -213,4 +205,5 @@ To do that you can drill the OEM body with a 12mm drill bit, the cherry sensor s
 _Pictures to be added_
 
 # Running engines forum links
+
 * CrazyStriker's NB2 : [2004 Mazda MX5 1.8 VVT #50](https://rusefi.com/forum/viewtopic.php?f=2&t=1536&sid=2763fcb9e79e72c3cd9860a69d3620b3)

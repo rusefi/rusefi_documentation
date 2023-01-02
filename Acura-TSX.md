@@ -9,4 +9,3 @@
 ![x](OEM-Docs/Honda/2005-tsx-3.png)
 
 ![x](OEM-Docs/Honda/2005-tsx-4.png)
-

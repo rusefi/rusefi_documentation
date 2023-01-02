@@ -1,11 +1,10 @@
-## Master list of software pages 
+## Master list of software pages
 
 <details markdown="1"><summary><u>rusEFI Project</u></summary>
 
 * [rusEFI Project Overview](rusEFI-project)
 
 </details>
-
 
 <details markdown="1"><summary><u>General Firmware info</u></summary>
 

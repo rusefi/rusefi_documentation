@@ -24,7 +24,7 @@ Most throttles have one connector that contains both the position sensors and mo
 
 ### Pedal position sensor
 
-In TunerStudio, open the *"Accelerator pedal"* window from the *Sensors* menu.
+In TunerStudio, open the _"Accelerator pedal"_ window from the _Sensors_ menu.
 
 1. Select the channels wired to your primary and secondary redundant pedal sensors.  Using both is a safety concern: this lets rusEFI detect a broken or shorted wire or failed sensor.
 2. Restart the ECU: disconnect USB, and cycle the ignition off, then back on, and reconnect USB.
@@ -35,7 +35,7 @@ In TunerStudio, open the *"Accelerator pedal"* window from the *Sensors* menu.
 
 ### Throttle position sensor
 
-In TunerStudio, open the *"TPS"* window from the *Sensors* menu.
+In TunerStudio, open the _"TPS"_ window from the _Sensors_ menu.
 
 1. Remove intake plumbing such that you can see and touch the throttle plate in the throttle body to confirm proper operation.
 2. Select the channels wired to your primary and secondary redundant throttle position sensors.  Using both is a safety concern: this lets rusEFI detect a broken or shorted wire or failed sensor.
@@ -67,7 +67,7 @@ rusEFI includes PID auto-tuning software that can help generate a starting point
 
 Also known as a "feed forward" term, bias curve serves to offset the throttle's return spring. The table stores how much PWM duty cycle is required to hold the throttle at that particular throttle position against the spring.  Since the spring pushes towards ~5-20%, the value will be negative when below the neutral point, and positive above it, transitioning steeply as it passes the neutral point of the spring.
 
-We are interested in positions like 0, between-0-and-default, default, a bit open, a bit more open, 50% open, wide open, 
+We are interested in positions like 0, between-0-and-default, default, a bit open, a bit more open, 50% open, wide open,
 
 ## Configure Pedal Map
 

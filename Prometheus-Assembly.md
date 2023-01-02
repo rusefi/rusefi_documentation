@@ -19,4 +19,3 @@ This is a recommended order of assembly:
 13. SD-card connector (optional)
 14. Bluetooth-module (optional)
 15. Ignition coils block
-

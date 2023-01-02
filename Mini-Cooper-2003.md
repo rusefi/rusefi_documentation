@@ -1,5 +1,4 @@
-CAN bus notes see https://rusefi.com/forum/viewtopic.php?f=5&t=473
-
+CAN bus notes see <https://rusefi.com/forum/viewtopic.php?f=5&t=473>
 
 ![Connector Face](OEM-Docs/TE/Connector_121_pinout.jpg)
 
@@ -66,10 +65,13 @@ CAN bus notes see https://rusefi.com/forum/viewtopic.php?f=5&t=473
 
 ![Wiring Diagram](https://user-images.githubusercontent.com/5051341/126010542-a1fb5a05-b0ae-4585-a585-613de2a43fe4.png)
 
-#1 BRN/BLK ground
-#2 YEL/BRN CAN low
-#3 YEL/BLK CAN high
-#7 BLU +12v power
+# 1 BRN/BLK ground
+
+# 2 YEL/BRN CAN low
+
+# 3 YEL/BLK CAN high
+
+# 7 BLU +12v power
 
 See also [CAN Sniffer](CAN-Sniffer)
 

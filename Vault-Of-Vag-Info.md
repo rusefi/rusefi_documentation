@@ -15,4 +15,3 @@ BGQ
 ![x](OEM-Docs/VAG/2006-jetta-2.5-bgq-4.png)
 
 ![x](OEM-Docs/VAG/2006-jetta-2.5-bgq-5.png)
-
