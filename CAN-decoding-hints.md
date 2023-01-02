@@ -24,9 +24,13 @@ Record 30 seconds of car idling
 
 Idle, Unplug and plug coolant sensor
 
+# Wheels in the air
+
+Raise car, turn wheels manually while ignition ON or idle.
+
 # PR Special
 
-Idle, Turn on and off A/C
+Idle, Turn A/C on and off a few times
 
 # Change gears while parked idling
 
