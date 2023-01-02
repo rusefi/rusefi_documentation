@@ -424,7 +424,7 @@ unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 
 ## 93 pin
 
-![x](/OEM-Docs/Subaru/93pins.jpeg)
+![x](OEM-Docs/Subaru/93pins.jpeg)
 
 MX7-93PL-C4
 
@@ -659,7 +659,7 @@ See `Todo: find [Vault of Honda OEM](/Vault-Of-Honda-OEM)`
 
 Mercedes M111 [eBay](https://www.ebay.com/itm/333791544427)
 
-![x](/OEM-Docs/Mercedes/mercedes_170.png)
+![x](OEM-Docs/Mercedes/mercedes_170.png)
 
 `Todo: find [Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)`
 
