@@ -352,7 +352,7 @@ See [http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm
 
 ![72 pin connector](Hardware/connectors/72_pin.png)
 
-Oem ECU `Todo: find [Miata 2001 - 2005](/Mazda-Miata-2001)`
+Oem ECU `Todo: find [Miata 2001 - 2005](Mazda-Miata-2001)`
 
 pins 316836?
 pins 316838
@@ -643,7 +643,7 @@ Terminal 175180-1
 175062-1
 175062-2
 
-See `Todo: find [Vault of Honda OEM](/Vault-Of-Honda-OEM)`
+See `Todo: find [Vault of Honda OEM](Vault-Of-Honda-OEM)`
 
 ## 126 4 row
 
