@@ -8,7 +8,6 @@
 
 # Bosch 7506280 wiring
 
-
 # 81 pin connector
 
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | rusEFI connector |
@@ -26,8 +25,6 @@
 | 52  |               |       | CAN                                  |              |               |
 | 53  |               |       | CAN                                  |              |               |
 |     |               |       |                                      |              |               |
-
-
 
 # 40 pin connector
 
@@ -54,4 +51,3 @@
 | 120 |               |       | inj pos #6                           |              |               |
 | 121 |               |       | inj pos #2                           |              |               |
 |     |               |       |                                      |              |               |
- 

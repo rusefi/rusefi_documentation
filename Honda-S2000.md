@@ -7,4 +7,3 @@
 ![x](OEM-Docs/Honda/2001-s2000-2.png)
 
 ![x](OEM-Docs/Honda/2001-s2000-3.png)
-

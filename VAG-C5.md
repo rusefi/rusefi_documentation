@@ -27,4 +27,3 @@
 ![x](OEM-Docs/VAG/2003_a6_4.2_3.png)
 
 ![x](OEM-Docs/VAG/2003_a6_4.2_4.png)
-

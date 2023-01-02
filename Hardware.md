@@ -3,7 +3,6 @@ We also have Kinetis and Cypress prototypes.
 
 As of May 2021 microRusEFI and Proteus are sold as ECU development boards. See [Mission-Statement](Mission-Statement)
 
-
 | Board | Features | Connectors/Misc. Info | Released in | Maximum recommended engine |
 | ----- | -------- | --------------------- | ----------- | ---------------------------|
 | [Hellen](Hellen-One-Platform) | +knock detection<br/>+VR<br/>+Wideband Controller | Not an ECU, but a collection of modules that can be used to design an ECU. | 2020 | Board-specific |
@@ -12,7 +11,6 @@ As of May 2021 microRusEFI and Proteus are sold as ECU development boards. See [
 | [Prometheus](https://rusefi.com/forum/viewtopic.php?f=4&t=1215)  | + on-board wide band controller.<br/>+ compact 4-layer PCB smaller than 93 x 100 mm<br/>+ on-board power supply<br/>+ knock sensor chip<br/>+ stepper motor IAC controller chip<br/>+ stepper motor IAC controller chip<br/>+ onboard 4-channel "smart" protected ignition drivers<br/>+ bluetooth module<br/>+ supports two packages of on-board stm32 chips | no on-board connector (wired)<br/>SD card, USB/TTL, CAN  | 2017 | 4 cylinder. No plans to offer assembled units. |
 | [Frankenso](Hardware-Frankenso) retired| + Most customizable board<br/>+ larger 154x152mm 4-layer board requires a Medium Box shipping rate<br/>+ on-board power supply<br/>+ 20x4 LCD screen<br/>+ joystick<br/>+ works both with external brain boards and on-board stm32 chip<br/>+ knock sensor chip<br/>+ used Denso OEM cases available | on-board 64 pin connector<br/>SD card, USB/TTL, CAN<br/>open source hardware | 2014 | Flexible - probably 8 cylinder max recommended |
 | [Frankenstein](https://rusefi.com/forum/viewtopic.php?f=4&t=359) retired | + Simplest rusEFI board<br/>+ our smaller two-layer board<br/>+ Small Box shipping rate<br/>+ low price<br/>- external 5v power supply required<br/>- external brain board required | no on-board connector (wired)<br/>SD card, USB/TTL, CAN<br/>open source hardware | 2014 | Flexible - probably 8 cylinder max recommended. No plans to offer assembled units. |
-
 
 ### Q: How to select a board?
 
@@ -23,7 +21,7 @@ currently not planned.
 ### Q: What else matters?
 
 A: Types and total count of crank and camshaft positions sensors is the next
-important question. microRusEFI unfortunately only supports one VR shaft input maximum with two inputs total. 
+important question. microRusEFI unfortunately only supports one VR shaft input maximum with two inputs total.
 
 Frankenso supports up to 2 VR or 2 Hall shaft position sensors. Prometheus supports TBD. Proteus supports TBD.
 
@@ -31,8 +29,7 @@ Frankenso supports up to 2 VR or 2 Hall shaft position sensors. Prometheus suppo
 
 A: [selecting-open-source-ecu-microcontroller](selecting-open-source-ecu-microcontroller)
 
-
-### Q: This is all very cool but you guys do not have a Plug&Play for my Trabant. I think I will go and make a new rusEFI board just for my Trabant!
+### Q: This is all very cool but you guys do not have a Plug&Play for my Trabant. I think I will go and make a new rusEFI board just for my Trabant
 
 A: At rusEFI we love cool new projects, but we are a really small team and only have so much time to work on rusEFI.  
 We already have lots of different hardware configurations and we would suggest using one of the existing wire in versions.  
@@ -54,7 +51,7 @@ A: There is no single right answer. It really depends on what kind of electrical
 A: Many rusEFI boards have four status LEDs. All four LEDs blink on start-up just to confirm life.
 
 Blue Communication LED which is expected to blink at 50% duty cycle during normal board operation.
-If USB communication cable is connected Blue LED starts to blink faster. 
+If USB communication cable is connected Blue LED starts to blink faster.
 
 Red CRITICAL (previously known as FATAL) error means you have a CRITICAL error, engine operation is not possible with CRITICAL error.
 
@@ -66,8 +63,7 @@ A: Following Frankenso tradition, Injector LEDs are RED. Ignition LED are blue, 
 
 ### Q: Why mini/micro/type C on MRE?
 
-A: USB choice dictated by price and availability. If it changes MRE page will note. 
-
+A: USB choice dictated by price and availability. If it changes MRE page will note.
 
 ### Q: Exiting, what soldering iron is best?
 

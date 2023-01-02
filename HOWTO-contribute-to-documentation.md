@@ -69,7 +69,7 @@ Github Wiki is weird.
 One the one hand, we have [https://github.com/rusefi/rusefi_documentation](https://github.com/rusefi/rusefi_documentation), which we will call "wiki-source".  
 That's a git repository with nice pull request process, but less nice web page rendering which starts each page by showing a list of files - that's not what end users want to see.
 
-On the other hand, we have [the Github Wiki](https://github.com/rusefi/rusefi/wiki), which we will call "wiki2" which is displayed much nicer - and that is actually implemented by ANOTHER git repository https://github.com/rusefi/rusefi.wiki.git behind the scenes.  
+On the other hand, we have [the Github Wiki](https://github.com/rusefi/rusefi/wiki), which we will call "wiki2" which is displayed much nicer - and that is actually implemented by ANOTHER git repository <https://github.com/rusefi/rusefi.wiki.git> behind the scenes.  
 That repository does not have a nice Pull Request process :(
 
 Solution? A combination. [wiki2](https://github.com/rusefi/rusefi/wiki) and [wiki-source](https://github.com/rusefi/rusefi_documentation) repositories are actually set to mirror each other.
@@ -106,6 +106,7 @@ For example [https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/imag
 
 **Q:** What sort of fancy options do we have?  
 **A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example. Unfortunately, it's quite picky about how you format the markdown.
+
 ```
 <details markdown="1"><summary>More...</summary>
 
@@ -116,9 +117,9 @@ For example [https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/imag
 ^ Must have empty line after </details>
 ```
 
-**Q**: Is it ok that https://github.com/rusefi/rusefi.wiki.git cannot be opened from browser?  
-**A**: There is no reason to open https://github.com/rusefi/rusefi.wiki.git from browser. Also while you technically
-CAN "git clone https://github.com/rusefi/rusefi_documentation.wiki.git" and it would work -
+**Q**: Is it ok that <https://github.com/rusefi/rusefi.wiki.git> cannot be opened from browser?  
+**A**: There is no reason to open <https://github.com/rusefi/rusefi.wiki.git> from browser. Also while you technically
+CAN "git clone <https://github.com/rusefi/rusefi_documentation.wiki.git>" and it would work -
  you should NOT. Anyone looking to make changes should be making changes to non-wiki git via normal fork & pull request process.
- 
-Additional automation is in charge of merging from https://github.com/rusefi/rusefi_documentation.git into https://github.com/rusefi/rusefi_documentation.wiki.git 
+
+Additional automation is in charge of merging from <https://github.com/rusefi/rusefi_documentation.git> into <https://github.com/rusefi/rusefi_documentation.wiki.git>

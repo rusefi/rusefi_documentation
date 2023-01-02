@@ -10,4 +10,4 @@ Linear Velocity Transducer
 
 [Accu-Force Shock Dyno - Video](https://www.youtube.com/watch?v=2L_S78RpUcU)
 
-[DIY Shock Dyno](https://www.eng-tips.com/viewthread.cfm?qid=357653) "scotch-yoke drive" 
+[DIY Shock Dyno](https://www.eng-tips.com/viewthread.cfm?qid=357653) "scotch-yoke drive"

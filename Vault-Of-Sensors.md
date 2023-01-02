@@ -1,6 +1,6 @@
-## MAF sensors 
+## MAF sensors
 
-Ford Slot type MAF sensor 
+Ford Slot type MAF sensor
 PN - Hitachi MAF0012
 plug TE 1-1419168-2
 

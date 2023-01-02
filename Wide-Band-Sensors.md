@@ -1,4 +1,4 @@
-# Wide Band Lambda Sensors - Also known as HEGO or WBO2 
+# Wide Band Lambda Sensors - Also known as HEGO or WBO2
 
 A reliable measurement of the AFR is vital for the tuner to be able to tune the engine and be sure that his changes to the fueling are correct. For this purpose we recommend one of the readily available aftermarket wideband gauges or controllers.
 A wide-band oxygen sensor is pretty much a must for what we are doing here. Bosch is the only manufacturer of these sensors I am aware of. The wide-band precision of the sensor is achieved by a relatively sophisticated magic which happens inside the sensor, that's why 5 or 6 wises and that's why the sensor requires it's own controller (brain). Since there are at least two kinds of sensors it's safer to buy a kit.
@@ -13,15 +13,16 @@ rusEFI is able to support most aftermarket wideband sensors that have a 5v analo
 We have implemented the CAN interface for the new series of AEM X-type sensors, these have been tested to work with both their analog and CAN interfaces.
 
 Sensors that have been used with rusEFI so far include:
+
 * Innovate MTX-L
-* Innovate LC-2 
+* Innovate LC-2
 * Spartan SLC Free
-* AEM X-type WBO2 
-* AEM older generation WBO2 
+* AEM X-type WBO2
+* AEM older generation WBO2
 
 ## Innovate LC-2 serial
 
-Innovate's LC-2 serial interface is supported. The Innovate sensor controller has typically two serial connectors, the one labeled *OUT* needs to be connected to the ECU. AUX Serial needs to be configured with a baud rate of 19200BPs and *Enable Innovate LC-2 Serial* needs to be set to true in the EGO sensor window. 
+Innovate's LC-2 serial interface is supported. The Innovate sensor controller has typically two serial connectors, the one labeled *OUT* needs to be connected to the ECU. AUX Serial needs to be configured with a baud rate of 19200BPs and *Enable Innovate LC-2 Serial* needs to be set to true in the EGO sensor window.
 
 ![Innovate LC-2 Settings](Fuel/innovate_lc2_settings.png)
 
@@ -35,7 +36,7 @@ AEM 30-4100 Digital Wideband UEGO Gauge (donated by AlexL)
 35-8469 35-8460 gauge
 
 replacement sensor AEM 30-2001
-alternative parts  2243, 170408, 48292001, 12575657, 213-1572, Type B, 57005	
+alternative parts  2243, 170408, 48292001, 12575657, 213-1572, Type B, 57005
 Manufacturer Part Number: 0258007206
 
 "The resistor is put into the raised portion of the Plug end and is used to set the calibration of the sensor during the testing and assembly process at Bosch. When you change the O2 sensor, the resistor stays with it."
@@ -48,9 +49,7 @@ connector body is laser trimmed with this value."
 
 [AEM Controller Installation Instructions](http://www.aemelectronics.com/files/instructions/30-4100%20Digital%20Wideband%20UEGO%20Gauge.pdf)
 
-
 ![Pinout](Fuel/Aem_UEGO_pinout.png)
-
 
 1j0973733 Bosch 4.2 6 pin connector available everywhere
 

@@ -1,4 +1,4 @@
-# Miata NB1 
+# Miata NB1
 
 Text go here
 

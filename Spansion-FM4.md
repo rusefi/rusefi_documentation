@@ -5,7 +5,6 @@
 CN3: JTAG
 CMSIS-DAP Debug Access Port
 
-
 UART programming:
 
 [broken link](http://learn.spansion.com/mcu_software_download?r=/EnglishDownloads/EDG/binary/zip/product/micom/tools/downloads/flash/PCWFM3.zip)

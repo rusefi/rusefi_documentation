@@ -15,4 +15,3 @@
 ![x](OEM-Docs/Mitsubishi/2005-lancer-2.0T-2.png)
 
 ![x](OEM-Docs/Mitsubishi/2005-lancer-2.0T-3.png)
-

@@ -20,8 +20,6 @@ REV A
 
 ![x](Hardware/Hellen/hellen_na8_96.jpeg)
 
-
-
 ## Options Port
 
 | Pin | Type | Comments |
@@ -38,7 +36,6 @@ REV A
 | 4J | WBO Ip | LSU 4.9 Pin 1 |
 | 4K | WBO Heater - | LSU 4.9 Pin 3 |
 | 4L | +12v | LSU 4.9 Pin 4 |
-
 
 **Options Port Schematic**
 
@@ -57,6 +54,3 @@ REV A
 ## rev A
 
 * good to drive, great success!
-
-
-

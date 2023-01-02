@@ -1,4 +1,4 @@
-## Master list of Sensor and Actuators pages 
+## Master list of Sensor and Actuators pages
 
 <details markdown="1"><summary><u>Throttle and ETB</u></summary>
 
@@ -9,7 +9,6 @@
 
 </details>
 
-
 <details markdown="1"><summary><u>MAP Sensors</u></summary>
 
 * [Fuel Overview](Fuel-Overview)
@@ -18,13 +17,9 @@
 
 </details>
 
-
 <details markdown="1"><summary><u>MAF Sensors</u></summary>
 
-
-
 </details>
-
 
 <details markdown="1"><summary><u>AFR measurement (Wideband)</u></summary>
 
@@ -35,20 +30,17 @@
 
 </details>
 
-
 <details markdown="1"><summary><u>Intake Air Temperature Sensors</u></summary>
 
 * List of tested Intake Air Temperature Sensors - Coming Soon
 
 </details>
 
-
 <details markdown="1"><summary><u>Coolant Temperature Sensors</u></summary>
 
 * List of tested Coolant Temperature Sensors - Coming Soon
 
 </details>
-
 
 <details markdown="1"><summary><u>Crank Sensors</u></summary>
 
@@ -59,27 +51,23 @@
 
 </details>
 
-
 <details markdown="1"><summary><u>Knock Sensors</u></summary>
 
 * [Overview](knock-sensing)
 
 </details>
 
-
 <details markdown="1"><summary><u>Camshaft Sensors</u></summary>
 
- - Coming Soon
+* Coming Soon
 
 </details>
-
 
 <details markdown="1"><summary><u>Ignition Coils</u></summary>
 
-- Coming Soon
+* Coming Soon
 
 </details>
-
 
 <details markdown="1"><summary><u>Fuel Injectors</u></summary>
 
@@ -88,13 +76,11 @@
 
 </details>
 
-
 <details markdown="1"><summary><u>Variable Valve Timing</u></summary>
 
 * [VVT Overview](VVT)
 
 </details>
-
 
 <details markdown="1"><summary><u>Vehicle Specific Oddities</u></summary>
 

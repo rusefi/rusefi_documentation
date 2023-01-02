@@ -4,9 +4,7 @@
 
 [1993-1996impreza.pdf](OEM-Docs/Subaru/1993-1996impreza.pdf)
 
-
 ![x](OEM-Docs/Subaru/subaru-ej16-or18-wiring-diagram.gif)
-
 
 This vehicle has dumb coils and igniters - rusEFI does not have to provide igniters.
 
@@ -34,7 +32,6 @@ This vehicle has dumb coils and igniters - rusEFI does not have to provide ignit
 | 21  | yellow/blue  | coil #1/#2               |                                  | blue 1T         |
 | 22  | black/red    | Ground                   | GND                              | black         |
 
-
 16 pin connector E31
 
 | pos | color        | desc                     | type                             | my color |
@@ -42,7 +39,6 @@ This vehicle has dumb coils and igniters - rusEFI does not have to provide ignit
 | **  | ************ | top line                 | ******************************** |        |
 | 1   | black/blue   | MAF signal ground        | GND                              | 3A black!   |
 |     |              |                          |                                  |          |
-
 
 26 pin connector E29
 
@@ -63,7 +59,5 @@ This vehicle has dumb coils and igniters - rusEFI does not have to provide ignit
 | 25  | Black/Brn    | GND power supply         | GND                              | 3X black    |
 | 26  | Yellow/Red   | Constant Power           |                                  |          |
 |     |              |                          |                                  |          |
-
-
 
 Thank you [http://northursalia.com/modifications/misc/wiring/wiring.html](http://northursalia.com/modifications/misc/wiring/wiring.html)

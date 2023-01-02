@@ -1,8 +1,10 @@
 ## Engine
+
 Turbocharged oposite 4 cylinder EJ20G
 
 ## Stock ECU
-A lot of useful info can be found at [http://www.alcyone.org.uk/ssm/index.html Diagnostics and Datalogging for Subaru SVX]
+
+A lot of useful info can be found at [<http://www.alcyone.org.uk/ssm/index.html> Diagnostics and Datalogging for Subaru SVX]
 
 ## ECU pinout
 

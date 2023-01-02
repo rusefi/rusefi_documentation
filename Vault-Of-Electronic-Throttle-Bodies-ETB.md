@@ -9,15 +9,15 @@ Pink<>red;
 yellow<>green;
 gray
 
-
 # GM
+
 Around 2007
 
 ![image](https://user-images.githubusercontent.com/48498823/203988451-5915b94a-0986-428f-ab9b-9b4926957af1.png)
 
-
 # VAG
-Bosch 0280750009 1.8T and hopefully many others 
+
+Bosch 0280750009 1.8T and hopefully many others
 
 5n1973206 connector
 
@@ -52,17 +52,16 @@ M6 58mm bolt, internal hex cap see [this forum post](https://rusefi.com/forum/vi
 
 8 Ohm between blue motor+ and white motor-
 
-Connector 6189-7761 
+Connector 6189-7761
 
 ![x](OEM-Docs/Nissan/Hitachi-SERA576-01-2003-Nissan-Altima.png)
 
 Alternative connector. This connector goes all the way to Nissan X-Trail T30 01-07 and Nissan Patrol.
 
 ![x](OEM-Docs/Nissan/Hitachi_60mm_ETB.jpg)
- 
- 
+
 18002 4z800 Pedal with build-in position sensor - 2004-2007 Nissan Altima Maxima
- 
+
 18919-AM810 Pedal Position Sensor (separate from pedal) - Nissan 350Z 2008, Infiniti G35 2007
 
 89281-33010 Toyota Camry Solara ES300 2002-06 (Pedal 78010-33010)  
@@ -72,7 +71,6 @@ Wire side connector 6189-0029
 WARNING GND#1<>GND#2 are mixed up on the image.
 
 ![x](OEM-Docs/Nissan/18919-AM810-pinout.jpg)
-
 
 3.2 KOhm between each pairs of GND and +5v
 

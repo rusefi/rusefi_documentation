@@ -3,5 +3,3 @@
 * 61.35-8 378 631 "General Body Control"
 * 1 095 326 Acceleration Sensor Module: interesting, is this analog output or CAN?!
 * 0130002830 little cooling blower: only three wires? Is this engine control unit cooling system?!
-
-

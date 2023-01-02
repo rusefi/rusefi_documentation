@@ -4,8 +4,6 @@ One day we will publish rusEFI Android at the google store but for now you would
 
 You would have to agree installing application not from Play Store and you would probably have to disable Google Play Protect.
 
-
-
 Q: How to disable "Google Play Protect"?
 
 A: On Android >= 8

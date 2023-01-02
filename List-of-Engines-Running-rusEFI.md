@@ -8,7 +8,7 @@ See also [Case-Studies](Case-Studies)
 1. [1999 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=467&start=33) sturovo 1999 Miata Apr 13, 2014
 1. [1995 Honda Accord](https://rusefi.com/forum/viewtopic.php?f=3&t=621) russian 1995 Honda Accord Aug 07, 2014 ! failed test mule
 1. [Mitsubishi 4G63](https://rusefi.com/forum/viewtopic.php?f=3&t=622&start=180) Mitsubishi Sep 09, 2014
-1. [1996 Mazda Miata 1.8](https://rusefi.com/forum/viewtopic.php?f=3&t=666) by tomiata 
+1. [1996 Mazda Miata 1.8](https://rusefi.com/forum/viewtopic.php?f=3&t=666) by tomiata
 1. [2002 Citroen](https://rusefi.com/forum/viewtopic.php?f=15&t=540) 2002 Citroen Berlingo
 1. [2003 Dodge Neon](https://rusefi.com/forum/viewtopic.php?f=3&t=696) 2003 Dodge Neon ! test mule
 1. [BMW 6 cylinder turbo](https://rusefi.com/forum/viewtopic.php?f=15&t=644) BMW 6 cylinder turbo ! <span style="color:#FF9000">first L6 engine</span>
@@ -17,8 +17,8 @@ See also [Case-Studies](Case-Studies)
 1. [1987 Mazda 626 Turbo](https://rusefi.com/forum/viewtopic.php?f=15&t=710) Mazda 626 turbo
 1. [2 stroke engine](https://rusefi.com/forum/viewtopic.php?f=3&t=396) ! <span style="color:#FF9000">first 2 stroke</span> Mar 29, 2015 ! 7kRPM+ !
 1. [Dodge Ram](https://rusefi.com/forum/viewtopic.php?f=3&t=864) Dodge Ram May 03, 2015 ! <span style="color:#FF9000">first V8</span>
-1. [VW Passat Supercharged](https://rusefi.com/forum/viewtopic.php?f=3&t=699) VW passat supercharged 
-1. [1999 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=987) 1999 Miata 
+1. [VW Passat Supercharged](https://rusefi.com/forum/viewtopic.php?f=3&t=699) VW passat supercharged
+1. [1999 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=987) 1999 Miata
 1. [1990 Geo Storm](https://rusefi.com/forum/viewtopic.php?t=917) 1990 Geo Storm
 1. [Mazda Miata 1.6 Turbo](https://rusefi.com/forum/viewtopic.php?f=3&t=1038) Jun 03, 2016 - Miata 1.6 Blue Smurf turbo
 1. [Mazda Miata 1.6](https://rusefi.com/forum/viewtopic.php?f=3&t=906) June 14, 2016 - Miata 1.6 Hunchback <span style="color:#FF9000">first Miata racecar</span>
@@ -28,7 +28,7 @@ See also [Case-Studies](Case-Studies)
 1. [2JZ-GTE Jeep](https://rusefi.com/forum/viewtopic.php?f=3&t=1060) 2JZ-GTE Jeep
 1. [BMW V8](https://rusefi.com/forum/viewtopic.php?f=15&t=644&p=21040#p19796) Zil v8 Aug 03, 2016
 1. [1999 Honda Civic](https://rusefi.com/forum/viewtopic.php?f=3&t=1115) 1999 Honda Civic
-1. [2003 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=1095) red 2003 VVT Miata 
+1. [2003 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=1095) red 2003 VVT Miata
 1. [2003 Mazda Miata](https://rusefi.com/forum/viewtopic.php?f=3&t=1076) blue 2003 VVT Miata
 1. [Subaru Impreza Supercharged EJ25](https://rusefi.com/forum/viewtopic.php?f=15&t=1142) supercharged Subaru Jan 12, 2017
 1. [1993 Volvo 240 Turbo](https://rusefi.com/forum/viewtopic.php?f=3&t=1162) Jan 29, 2017 ![x](rusEFI-History/10k_driven_with_rusEFI.png)
@@ -60,7 +60,7 @@ See also [Case-Studies](Case-Studies)
 1. [1993 Volvo 240 LS V8 Swap](https://rusefi.com/forum/viewtopic.php?f=3&t=1648) Volvo 240 LS Swap on Proteus board Dec 10, 2019
 1. [1986 Mercedes 190e M111 Swap](https://rusefi.com/forum/viewtopic.php?f=3&t=1692) Mercedes 190e M111 SC Swap #57 April 17, 2020
 1. [Renault KM4](https://rusefi.com/forum/viewtopic.php?f=3&t=1673) Renault KM4 May 15, 2020
-1. [1980 kz750](https://rusefi.com/forum/viewtopic.php?f=2&t=1740) 1980 kz750 motor (carbs, electronic ignition) 
+1. [1980 kz750](https://rusefi.com/forum/viewtopic.php?f=2&t=1740) 1980 kz750 motor (carbs, electronic ignition)
 1. [VW 1.8t DBW](https://rusefi.com/forum/viewtopic.php?f=3&t=1760) VW 1.8t Drive-by-wire May 31, 2020
 1. [2002 Mazda Miata FE 2.0 swap](https://rusefi.com/forum/viewtopic.php?f=3&t=1734) Miata FE swap 2.0
 1. [1973 Opel Manta BMW M42 swap](https://rusefi.com/forum/viewtopic.php?p=37351#p37351) 1973 Opel Manta - BMW M42

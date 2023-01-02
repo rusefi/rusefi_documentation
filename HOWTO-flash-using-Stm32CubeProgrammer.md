@@ -6,10 +6,8 @@ Cube is simple to use, place device in dfu
 
 Search usb, it would see chip connected to usb
 
-
 Open hex and download
-
 
 A major down side of Stm32CubeProgrammer is [this driver issue.](HOWTO-DFU#q-i-have-stm32-bootloader-in-device-manager-and-rusefi-console-does-not-update-firmware-whats-wrong)
 
-See also [HOWTO-nDBANK](HOWTO-nDBANK) 
+See also [HOWTO-nDBANK](HOWTO-nDBANK)

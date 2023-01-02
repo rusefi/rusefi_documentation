@@ -9,9 +9,7 @@ We also do not have much user feedback in general - we do not know how many rusE
 
 Another weak point of rusEFI is documentation. If you've played with rusEFI for any time chances are you have help [improve the documentation.](HOWTO-contribute-to-documentation.md)
 
-
 We are also extremely short on software developers. [HOWTO contribute to firmware](HOWTO-contribute-to-firmware.md)
-
 
 ## Please do good and do not do bad
 
@@ -27,8 +25,8 @@ A: How can you help? There are so many ways to help, quite often having a test m
 
 Since 2012 until today, this is just a hobby project with zero paid employees. Test PCBs, forum hosting, damaged hardware and etc. costs money
 
-There are two ways to help financially: 
+There are two ways to help financially:
 
 One-time or monthly [https://tinyurl.com/paypal-rusefi](https://tinyurl.com/paypal-rusefi)  
 
-One-time or monthly [rusEFI Patreon](https://www.patreon.com/rusefi)   
+One-time or monthly [rusEFI Patreon](https://www.patreon.com/rusefi)

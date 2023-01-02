@@ -2,7 +2,7 @@
 -While MREAdapter72 is still functional and supported there are very few of those in the wild
 ```
 
-Miata stuff has evolved to https://beermoneymotorsports.com/ offerings
+Miata stuff has evolved to <https://beermoneymotorsports.com/> offerings
 
 Mazda Miata MX5 NB2 2001-2005 Standalone
 
@@ -17,8 +17,6 @@ High-side jumper should be set for +12v.
 [Mazda Miata 2002](Mazda-Miata-2002)
 
 [Mazda Miata 2003](Mazda-Miata-2003)
-
-
 
 [MREAdapter72 0.2 InteractiveBOM](https://rusefi.com/docs/ibom/hw72nb_0.2.html)
 
@@ -67,17 +65,17 @@ High-side jumper should be set for +12v.
 | 4AE | EGR Boost Sensor|   | AV           | MAP                                   |
 | 4AF | Main Relay Power| #1| 12V          | +12v from Main Relay                  |
 
-
 ### x4 AUX low-side drivers ###
-There are 4 low-side drivers available. One is used for the alternator warning light on the dash. 
-The following I/O is available. A jumper wire will need to be routed between the Jx hole on the board and the appropriate pin on the car-side connector. 
+
+There are 4 low-side drivers available. One is used for the alternator warning light on the dash.
+The following I/O is available. A jumper wire will need to be routed between the Jx hole on the board and the appropriate pin on the car-side connector.
 | Board   | stm32 pin  |
 |---------|------------|
-|   J3    |    PB8     |   
-|   J1    |    PB9     |   
-|   J2    |    PC12    |   
+|   J3    |    PB8     |
+|   J1    |    PB9     |
+|   J2    |    PC12    |
 
-Extra pins for [353830-5 72 pin](OEM-connectors#72-pin): 
+Extra pins for [353830-5 72 pin](OEM-connectors#72-pin):
 
 TE 316836-1 for 20 AWG to 22 AWG
 
@@ -85,25 +83,24 @@ TE 316838-1 for 16 - 18 AWG
 
 Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_latch.jpg) plugs while installing add-on pins.
 
+### AV8
 
-
-### AV8 
-
-In order to use this output as an analogue input requires the removal of the LED. 
+In order to use this output as an analogue input requires the removal of the LED.
 
 ---
 
 ### OEM harness add-ons  
-The OEM ECU connector uses AMP Multilock .040 and .070 pins. 
+
+The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 
 | Board   | stm32 pin  |   |
 |-----|---|---|
 | 3L  | AFR | Analog signal for external wide band oxygen controller |  
-| 4U  | MAP| Manifold absolute pressure analog signal from [external sensor](GM-map-sensor) | 
+| 4U  | MAP| Manifold absolute pressure analog signal from [external sensor](GM-map-sensor) |
 | 4K  | +5v | +5v feed for MAP sensor |
-| 3Z | GND | Sensor & USB ground | 
+| 3Z | GND | Sensor & USB ground |
 
-The NB2 OEM connectors are notoriously hard to depin. The link below is for a very useful guide. 
+The NB2 OEM connectors are notoriously hard to depin. The link below is for a very useful guide.
 [How to pin and depin a subaru connector](https://www.iwireservices.com/post/2018/08/02/how-to-pin-and-depin-a-subaru-connector)
 
 ![x](installations/MazdaMiataNB2_Frankenso/NB2_Miata_ECU_Connectors_Add-Ons.png)
@@ -138,16 +135,12 @@ The NB2 OEM connectors are notoriously hard to depin. The link below is for a ve
 
 ---
 
-
-
 # Photos
+
 ![Hardware/pnp_microRusEFI_nb2/MREAdapter72_0_2_front.jpg]
 ![Hardware/pnp_microRusEFI_nb2/MREAdapter72_0_2_back.jpg]
 
-
 [MREAdapter72 rusEfi Miata NB2 pnp standalone](https://youtu.be/6IZcHCQl8yo)
-
-
 
 Case compatibility:
 

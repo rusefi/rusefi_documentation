@@ -1,8 +1,8 @@
 ## Current status
-Version 0.1 fabricated & tested, it's available @ [https://www.tindie.com/stores/russian/ our store]
 
-[http://rusefi.com/forum/viewtopic.php?f=4&t=359&p=4176 Frankenstein forum thread]
+Version 0.1 fabricated & tested, it's available @ [<https://www.tindie.com/stores/russian/> our store]
 
+[<http://rusefi.com/forum/viewtopic.php?f=4&t=359&p=4176> Frankenstein forum thread]
 
 Bare PCB
 
@@ -23,10 +23,11 @@ Let's begin with [communication module](http://rusefi.com/forum/viewtopic.php?t=
 
 I'm impatient so P352 SD card module goes on first. Together with the right 25x2 header (P51/P353/P402) this gets me a working SD card. Hurray, this board is not a total failure! Now it's time to C357 to make things right.
 
-Now USB TTL interface: it would not work if you just solder the U351 chip and the J351 miniUSB connector. 
+Now USB TTL interface: it would not work if you just solder the U351 chip and the J351 miniUSB connector.
 C355 (0.1uF same thing as 100nF)
 
 ### Step 2a: Hall sensor input
+
 While we can use the MAX9926 VR chip for Hall sensor, the small chip is a hard to solder and the chip is relatively expensive - so I'd rather use op-amp channels for Hall sensor input. I have two Hall sensors so I would build two identical channels.
 
 ![Hall Input Op Amp](Hardware/Frankenstein/hall_input_op_amp.png)
@@ -48,10 +49,9 @@ Inp2 (stm pin PA3/ADC3) would be throttle position sensor: no pull-up, R221 500K
 Inp3 (stm pin PC3/ADC13) would be intake air: R230 ??? pull-up, no pull-down, R232 10K current limiting, R233 100 smth, R234 1.5K & R235 1.5K voltage divider.
 Inp4 (stm pin PC1/ADC11) would be coolant temperature sensor: R24x ??? pull-up, no pull-down, R242 10K current limiting, R243 100 smth, R244 1.5K & R245 1.5K voltage divider.
 
-
 Inp1 (stm pin PA1/ADC1) is my MAP sensor: no pull-up, R211 1K pull-down
 
-Inp5 (stm pin PA0/ADC0) Battery voltage. Here we would need a voltage divider on the input side: 
+Inp5 (stm pin PA0/ADC0) Battery voltage. Here we would need a voltage divider on the input side:
 R252 10K current limiting, R253 100 smth, R254 1.5K & R255 1.5K voltage divider.
 
 ### High side driver
@@ -64,6 +64,7 @@ R609, R612 - 100R
 With the current issue - we've used MSOP case by mistake, this one is hard to solder. Be sure not to use too much paste. Not sure if you should even try it with soldering wire.
 
 ### Low side driver
+
 The resistors in the left row are 20R, the ones in the right row are 1K.
 The MOSFETs are mounted upside down: the notch should be on top, the part number & ST logo are upside down.
 
@@ -79,7 +80,6 @@ C472 is 4.7uF
 R472 10K something
 R473 120R CAN termination
 
-
 ### VR input
 
 ![Frankenstein VR Input circuit](Hardware/Frankenstein/vr_input.png)
@@ -91,6 +91,7 @@ R102, R103, R104, R106, R107, R108, R109 & R110 are 5K
 R113 & R114 are 10K
 
 ## Random notes
+
 We are still working on our own power supply, for now you would probably need a "12 to 5v power supply module" from eBay:
 
 ![Power Supply](Hardware/Frankenstein/power_supply_3A.jpg)
@@ -103,9 +104,8 @@ FT232 validation:
 
 pin 15: USBDP 1.5K pull-up to to 3.3 - green USB wire
 pin 16: USBDM - white USB wire
-pin 17: 3vout 
+pin 17: 3vout
 
-
-Q: 'USB Device cannot be recognized'? 
+Q: 'USB Device cannot be recognized'?
 
 A: Take a spare USB cable & cut it to check continuity between white wire and pin 16.

@@ -4,7 +4,6 @@ See also [Honda Accord 1995](Honda-Accord-1995)
 
 [94 accord ex ecu pinout](http://honda-tech.com/showthread.php?t=2377726)
 
-
 ## 26 pin
 
 |     |                                      |           |                                                         |                              |
@@ -52,6 +51,5 @@ See also [Honda Accord 1995](Honda-Accord-1995)
 | D21 | W1                                   | GRN/WHT      | SG1 MAP sensor GND                                 | Ground                                      |
 | D22 | W2                                   | GRN BLU      | SG2 - Sensors Ground                               | ground                                      |
 |     |                                      |              |                                                    |                                             |
-
 
 ![Wiring Diagram](Images/Honda_Prelude_1993.png)

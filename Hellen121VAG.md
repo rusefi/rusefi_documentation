@@ -1,7 +1,5 @@
 Hellen Plug&Play for ME7 VAG vehicles
 
-
-
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121vag.zip)
 [Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen121vag.zip)
 
@@ -10,16 +8,12 @@ Hellen Plug&Play for ME7 VAG vehicles
 
 [Schematics rev a](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-a/board/hellen121vag-a-schematic.pdf)
 
-
 [Schematics rev b](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-b/board/hellen121vag-b-schematic.pdf)
 [iBom rev b](https://rusefi.com/docs/ibom/hellen121vag-b-ibom.html)
-
-
 
 [KiCAD source files](https://github.com/rusefi/hellen121vag)
 
 Status: early phases of testing!
-
 
 ## Hardware features
 
@@ -28,14 +22,13 @@ Status: early phases of testing!
 * build-in WBO - **WARNING 4.2 software not ready while we believe that hardware is universal** (footprint, stm32f042 not in stock at JLC)
 * Baro sensor LPS25HB (footprint, not populated)
 
-
 # Vehicle Specific Jumpers
 
-Main Relay option **Never have both R2 and R3 jumpers populated!** 
+Main Relay option **Never have both R2 and R3 jumpers populated!**
 
-Voltage Input option **Never have both R8 and R9 jumpers populated!** 
+Voltage Input option **Never have both R8 and R9 jumpers populated!**
 
-Raw +12 option **Never have both F1 and F2 jumpers populated!** 
+Raw +12 option **Never have both F1 and F2 jumpers populated!**
 
 | Vehicle | R2 | R3 | R8 | R9 | F1 | F2 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -59,7 +52,6 @@ Raw +12 option **Never have both F1 and F2 jumpers populated!**
 [VAG-C5]
 
 [VAG-MK4 VR6](mk4-vr6-wiring)
-
 
 ![x](https://rusefi.com/forum/download/file.php?id=7575)
 

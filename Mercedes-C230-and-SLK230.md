@@ -26,8 +26,6 @@
 
 ![x](OEM-Docs/Mercedes/2001-slk230-3.png)
 
-
-
 # 2002 C230
 
 ![x](OEM-Docs/Mercedes/2002_c230_1.png)
@@ -35,4 +33,3 @@
 ![x](OEM-Docs/Mercedes/2002_c230_2.png)
 
 ![x](OEM-Docs/Mercedes/2002_c230_3.png)
-

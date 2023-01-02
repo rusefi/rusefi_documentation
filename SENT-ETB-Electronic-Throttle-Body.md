@@ -8,7 +8,6 @@ Smaller GM 12639457AA for instance 2012 Buick regal and Opel Insignia 2.0 turbo 
 
 All three use same pinout with different colors obviously.
 
-
 1- motor +
 
 2- motor -
@@ -23,17 +22,14 @@ All three use same pinout with different colors obviously.
 
 ![image](https://user-images.githubusercontent.com/48498823/201540621-2477aa01-176c-4e65-ba9d-a32ddd1d671a.png)
 
-
-
 # Harness
 
 harness side connector TE 1-1419168-1
 pins 1393365-2
-kit https://www.bmotorsports.com/shop/product_info.php/products_id/4479
+kit <https://www.bmotorsports.com/shop/product_info.php/products_id/4479>
 
+# See also
 
-# See also 
-
-https://github.com/rusefi/rusefi/labels/SENT-protocol for dev notes.
+<https://github.com/rusefi/rusefi/labels/SENT-protocol> for dev notes.
 
 [SAE J2716-2016.pdf](https://github.com/rusefi/rusefi_documentation/blob/master/PDFs/SAE%20J2716-2016.pdf) is the standard.

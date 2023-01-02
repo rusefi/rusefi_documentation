@@ -5,4 +5,4 @@
 
 - Russian-speaking Skype group channel - стукнитесь в arro239 в Скайпе, чтобы добавиться.
 
-- [rusEFI Facebook Page](https://www.facebook.com/rusEfiECU/) 
+- [rusEFI Facebook Page](https://www.facebook.com/rusEfiECU/)

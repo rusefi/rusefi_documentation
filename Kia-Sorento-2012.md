@@ -1,5 +1,4 @@
 
-
 ![x](OEM-Docs/Kia/2012-kia-sorento-2.4-1.png)
 
 ![x](OEM-Docs/Kia/2012-kia-sorento-2.4-2.png)

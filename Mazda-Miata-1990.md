@@ -6,8 +6,8 @@
 
 Rusefi Engine Type 41 on Frankenso
 
-
 ## Plug 1
+
 22 pin
 
 | pos | b pos | color      | desc                           | type            |
@@ -38,6 +38,7 @@ Rusefi Engine Type 41 on Frankenso
 *** "On a 1990 - 1993 Miata, there are three coolant sensors." "On the top of the thermostat housing at the front of the engine is the 'Water Thermoswitch,' a single-wire sensor that turns the fan on when coolant temperature reaches 207°F (97°C)." "At the rear of the cylinder head is the 'Water Thermosensor.' which sends temperature info to the ECU to help it set A/F ratio."
 
 ## Plug 3
+
 26 pin
 
 | pos | b pos | color            | desc                         | type                                  |
@@ -71,7 +72,6 @@ Rusefi Engine Type 41 on Frankenso
 
 ![Wiring Diagram](OEM-Docs/Mazda/1990_Miata/1990_mazda_miata_us_wiring.png)
 
-
 See also [Mazda ECU Technical Data](https://sites.google.com/site/mazdaecutechnicaldata/)
 
 See you - some notes on stock ECU schematics (TinyCAD format) - [https://drive.google.com/file/d/0B7l1FeMZcfisM3pHanlkWFRGQVU/view?usp=sharing](https://drive.google.com/file/d/0B7l1FeMZcfisM3pHanlkWFRGQVU/view?usp=sharing)
@@ -86,6 +86,5 @@ Turn signal Right G/W Green/White
 Turn signal Left G/B Green/Black
 
 ![Wiring Diagram](Images/2009-11-10_224518_tach.gif)
-
 
 See also [http://www.mellens.net/mazda/Mazda-Miata-1991-1993/1991_wiring.pdf](http://www.mellens.net/mazda/Mazda-Miata-1991-1993/1991_wiring.pdf)

@@ -7,6 +7,7 @@
 set engine_type 9
 
 ## Plug 1
+
 22 pin
 
 | pos | b pos   | color   | desc                 | type        |
@@ -35,6 +36,7 @@ set engine_type 9
 | 1V  | W22     |         | Neutral switch       |             |
 
 ## Plug 2
+
 16 pins
 
 | pos | b pos      | color | desc                      | type         |
@@ -57,6 +59,7 @@ set engine_type 9
 | 2P  |            |       |                           |              |
 
 ## Plug 3
+
 26 pin
 
 | pos | b pos    | color | desc          | type         |

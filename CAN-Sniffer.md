@@ -39,6 +39,7 @@ Hardware is ready!
 ![CAN hardware attached to Discovery](Images/CAN_hardware2.jpg)
 
 ## Step 3: software
+
 1. Download and install [STSW-LINK004 STM32 ST-LINK utility](http://www.st.com/web/en/catalog/tools/PF258168)
 
 2. Firmware: download and unzip [rusefi_can_sniffer.zip](http://rusefi.com/images/forum_posts/CAN/rusefi_can_sniffer.zip)

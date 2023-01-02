@@ -2,7 +2,6 @@
 
 Bosch 0280-155-976 injectors
 
-
 ## NGC Chrysler ECU
 
 152 pin connector (x4 38 pin)
@@ -10,6 +9,7 @@ Bosch 0280-155-976 injectors
 [2003 Dodge Neon - Forum](http://rusefi.com/forum/viewtopic.php?f=3&t=696)
 
 ## Plug 1
+
 38 pin
 
 Plug color: black
@@ -60,6 +60,7 @@ Plug color: black
 | 38  |        |       |                            |            |
 
 ## Plug 2
+
 38 pin
 
 Plug color: orange
@@ -110,6 +111,7 @@ Plug color: orange
 | 38  | green  |               | Idle Air Control solenoid               | \+12 supply           |
 
 ## Plug 3
+
 38 pin
 
 White
@@ -160,6 +162,7 @@ White
 | 38  |        |       | Starter Relay                           | Output, low side |
 
 ## Plug 4
+
 38 pin
 
 Automatic transmission control plug.
@@ -171,18 +174,23 @@ Automatic transmission control plug.
 ## Diagrams
 
 ### ECU
+
 ![Wiring Diagram](Images/Dodge_Neon_2003.png)
 
 ### Starting
+
 ![Wiring Diagram](Images/Dodge_Neon_2003_starting.png)
 
 ### Charging
+
 ![Wiring Diagram](Images/Dodge_Neon_2003_charging.png)
 
 ### Cooling
+
 ![Wiring Diagram](Images/Dodge_Neon_2003_cooling.png)
 
 ### A/C
+
 ![Wiring Diagram](Images/Dodge_Neon_2003_ac.png)
 
 ![Injector Calibration](Images/0280155868cs.jpg)

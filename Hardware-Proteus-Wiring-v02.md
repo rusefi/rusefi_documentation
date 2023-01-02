@@ -47,6 +47,7 @@
 | 35  | Ignition 1    | y     | Ignition cylinder 1                  |
 
 ## Black 23 Pin 776228-1 Middle
+
 |Pin Number|Name   | Type ID | Default function                   |
 | ---:|:---------- | ----- |:------------------------------------ |
 | 1   | DIGITAL 2  | din   | Digital trigger/switch input         |
@@ -74,6 +75,7 @@
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  |
 
 ## White 35 Pin 776231-2 Left
+
 |Pin Number|Name   | Type ID | Default function                   |
 | ---:|:---------- | ----- |:------------------------------------ |
 | 1   | **GND**    | sgnd  | Sensor GND                           |
@@ -113,5 +115,6 @@
 | 35  | KNOCK 2    |       | Not wired on v0.2                    |
 
 ## Misc notes
+
 - UB-20PMFP-LC7002 waterproof USB connector
 - Hammond 1590XXFL metal enclosure

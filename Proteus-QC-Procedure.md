@@ -20,4 +20,4 @@
 
 8) apply orange sticker if success
 
-1) flash normal non-QC firmware 
+1) flash normal non-QC firmware

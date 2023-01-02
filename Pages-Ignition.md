@@ -1,4 +1,4 @@
-## Master list of Ignition pages 
+## Master list of Ignition pages
   
 ### [Ignition FAQ](FAQ-Ignition)
 
@@ -13,7 +13,6 @@
 * [Basic Ignition Wiring](FAQ-Basic-Wiring-and-Connections)
 
 </details>
-
 
 <details markdown="1"><summary><u>Coils and ignition modules</u></summary>
 

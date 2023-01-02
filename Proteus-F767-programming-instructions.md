@@ -1,7 +1,6 @@
 Too many of Proteus 0.6 with F767 are behaving strangely in terms of SWD programming. Maybe we have a hardware design issue? Maybe we are missing something?
 
-Anyway looks like there is a working procedure, using DFU and STM32CubeProgrammer 
-
+Anyway looks like there is a working procedure, using DFU and STM32CubeProgrammer
 
 # Command line option
 
@@ -32,8 +31,6 @@ STM32_Programmer_CLI.exe -c port=usb1 -w rusefi.hex -v -s
 ```
 
 Done!
-
-
 
 # GUI option
 

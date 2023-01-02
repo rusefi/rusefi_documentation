@@ -1,4 +1,4 @@
-###List USB devices. This is useful for diagnosing driver issues.
+### List USB devices. This is useful for diagnosing driver issues
 
 ```
 lsusb

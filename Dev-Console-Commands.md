@@ -7,6 +7,7 @@
 |reset_ts|0 |Resets TunerStudio debugging counters|
 
 ## CAN
+
 |Command|Number Of Parameters|Description|
 |-|-|-|
 |caninfo|0 |Shows stats for CAN subsystem|
@@ -15,6 +16,7 @@
 |enable can_write|0 |Enable sending out gauge info via CAN according with selected CAN configuration. Also `disable can_write`|
 
 ## Knock Detection
+
 |Command|Number Of Parameters|Description|
 |-|-|-|
 |enable HIP9011|0|Enables HIP9011 driver|
@@ -26,6 +28,7 @@
 |set_hip_prescalerandsdo|1|Sets HIP prescaler and SDO. 0 for 4mHz, 6 for 8mHz|
 
 ## General
+
 |Command|Number Of Parameters|Description|
 |-|-|-|
 |adc|1 |
@@ -69,6 +72,7 @@
 |set_int, set_short, set_float|2|changes configuration value at given offset, for example set_float 102 1.23|
 
 ## Logging
+
 |Command|Number Of Parameters|Description|
 |-|-|-|
 |sdinfo|0 | Prints a report of SD/MMC usage|
@@ -76,11 +80,11 @@
 |enable sd/disable sd|0 |
 
 ## Trigger
+
 Trigger is the camshaft or/and crankshaft position sensor(s)
 
 `triggerinfo`
 shows some info regarding trigger situation
-
 
 set global_trigger_offset_angle XX
 
@@ -108,14 +112,15 @@ Prints trigger shape definition
 |mapinfo|0| prints out some debug information on MAP sensor|
 
 ## Board Control
+
 set_injection_pin: 2 parameters: index, PIN
 
-For example, 
+For example,
 set_injection_pin 1 PB7
 
 set injection_pin_mode: 1 parameter
 
-For example, 
+For example,
 
 `set injection_pin_mode 1`
 
@@ -132,15 +137,16 @@ set ignition_pin_mode: 1 parameter
 
 set idle_pin_mode: 1 parameter
 
-For example, 
+For example,
 
 set idle_pin_mode 1
 
-set fuel_pump_pin_mode: 1 parameters, 
+set fuel_pump_pin_mode: 1 parameters,
 
 set malfunction_indicator_pin_mode: 1 parameters,
 
 ## Fuel Control
+
 See also [Fuel Overview](Fuel-Overview)
 
 set_whole_fuel_map: 1 parameter: global value for the whole fuel map, in ms
@@ -155,7 +161,6 @@ set cranking_fuel: 1 parameters, for example
 
 `set cranking_fuel 5`
 
-
 set injection_offset: 1 parameter, for example
 
 `set injection_offset 80`
@@ -163,6 +168,7 @@ set injection_offset: 1 parameter, for example
 Sets global fuel injection phase to 80 degrees after TDC.
 
 ## Alternator Control
+
 `altinfo`
 Prints current alternator state
 
@@ -200,17 +206,14 @@ for example, `set engine_load_accel_len 6` Look back at MAP for period of last X
 set engine_load_accel_multiplier X
 for example, `set engine_load_accel_multiplier 2.0` This coefficient controls how much extra fuel we inject during acceleration due to MAP change
 
-
 set engine_load_accel_threshold X
 for example, `set engine_load_accel_threshold 5.0` Ignore change below X kPa
-
 
 set tps_accel_len X
 for example, `set tps_accel_len 6` Look back at TPS for period of last X injections.
 
 set tps_accel_multiplier X
 for example, `set tps_accel_multiplier 2.0` This coefficient controls how much extra fuel we inject during acceleration due to TPS change
-
 
 set tps_accel_threshold X
 for example, `set tps_accel_threshold 10` Ignore change below X % tps
@@ -252,7 +255,6 @@ set's idle duty cycle, value between 0 and 100, for example `set idle_position 5
 enable/disable stepperidle
 
 for example, `enable stepperidle`
-
 
 **blipidle X Y**
 overrides idle position to X for Y duration of time

@@ -13,7 +13,6 @@ ignition off
 key out
 wait till bus idle
 
-
 Log2.log
 door open
 key in

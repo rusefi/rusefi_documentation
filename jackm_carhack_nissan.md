@@ -181,7 +181,7 @@ When car is off (no key inserted)
   * `A.7-A.8` => 0b10=off, 0b01=any light on
 
 #### Windshield wipers
- 
+
 Wiper control stick
 
 Possible states are: off, oneshot ("MIST"), intermittent ("INT"), slow ("LO"), fast ("HI")

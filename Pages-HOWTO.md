@@ -1,4 +1,4 @@
-#Master list of HOW TO pages 
+# Master list of HOW TO pages
 
 * [Ask questions](HOWTO-ask-questions.md)
 * [Contribute to documentation](HOWTO-contribute-to-documentation.md)

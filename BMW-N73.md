@@ -26,7 +26,7 @@ x2 HDEV fuel injection module 7506280 [121 pin connector](OEM-connectors#121)
 ![p](OEM-Docs/Bmw/2003_7_Series_e65/2003_N73_engine_10.png)
 ![connector](OEM-Docs/TE/Connector_121_pinout.jpg)
 
-# HDEV 
+# HDEV
 
 Injector #1 + #118
 
@@ -37,11 +37,11 @@ These pins are pulled-up to +12v - low-side driven control.
 
 GND #1 #2
 
-Power +12v: #4 #51 
+Power +12v: #4 #51
 
 The larger chip inside 7506280 says 30429, obviously google knows nothing about this 30429. But it's probably CJ830.
 
-SAK-C505 
+SAK-C505
 
 [wikipedia](https://en.wikipedia.org/wiki/BMW_7_Series_(E65))
 
@@ -50,19 +50,19 @@ R=2.1OHm
 
 Ignition COP 12138657273 is shared with a lot of other BMW and Mini models.
 
-
 CAS 61326943828 51210030982
-CAS 61356972681 
+CAS 61356972681
 CAS 61326922329
 
 Programming keywords:
 ISTA ICON
 
 # Starting
+
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-starting.png)
 
-
 # Data Lines
+
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-obd.png)
 
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-data-buses-1.png)
@@ -70,7 +70,7 @@ ISTA ICON
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-data-buses-3.png)
 
 # Anti Theft
-![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-anti-theft-1.png)
-![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-anti-theft-1.png)
-![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-anti-theft-1.png)
 
+![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-anti-theft-1.png)
+![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-anti-theft-1.png)
+![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-anti-theft-1.png)
