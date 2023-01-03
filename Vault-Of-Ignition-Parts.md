@@ -1,6 +1,6 @@
-### This page is intended as a container for all trialed ignition components that are external to the ECU
+# Vault of Ignition Parts
 
----
+**This page is intended as a container for all trialed ignition components that are external to the ECU**---
 
 ## Ignition coils
 
@@ -22,15 +22,15 @@ Pin #3 "Negative" from igniter
 
 * OEM B-series Honda Single coil for distributor used with the OEM ignition module, 3-4ms dwell
 
-* Ford V6 wasted spark coil - PN _Unknown_ - Used sucessfully at about 4-5ms dwell in conjunction with the 4D0905351 ignition module  
+* Ford V6 wasted spark coil - PN _Unknown_ - Used successfully at about 4-5ms dwell in conjunction with the 4D0905351 ignition module  
 
 ---
 
-## Ignition Modules (aka "ignitors")
+## Ignition Modules (aka "igniters")
 
 * VW 1.8t 4 cylinder module - PN _4D0905351_  
 For igniter location see [broken link](https://www.youtube.com/watch?v=X-iyKYUeGvc)
-Tested and working with BMW Coils, uses a pair of ampseal plugs (easily available on ebay). Wiring layout available on the forum.
+Tested and working with BMW Coils, uses a pair of Ampseal plugs (easily available on ebay). Wiring layout available on the forum.
 Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9  
 Also known as: VW Audi 97- 05 - Bosch PN _0227100211_  
 
