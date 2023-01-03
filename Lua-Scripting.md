@@ -94,6 +94,10 @@ different people, also useful while Lua script editing is available only in TS.
 
 #### `stopEngine`
 
+#### `setIgnDisabled`
+
+'setIgnDisabled' function for all kinds of cranking safety systems
+
 #### `setSparkSkipRatio`
 
 setSparkSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
