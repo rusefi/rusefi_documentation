@@ -75,11 +75,11 @@ Honda K Exhaust Camshaft
 
 Also used on some Mitsubishi like 4g18 4g93 
 
-![Mazda Miata NA](Images/triggers/trigger_3.png)
+![Mazda Miata NA](Images/triggers/trigger_TT_MAZDA_MIATA_NA.png)
 
 ### Mazda Miata NB
 
-![Mazda Miata NB1](Images/triggers/trigger_4.png)
+![Mazda Miata NB1](Images/triggers/trigger_TT_MAZDA_MIATA_NB1.png)
 
 ### Mazda Protege 1993 DOHC
 
@@ -199,6 +199,9 @@ Chrysler NGC 6 cylinder
 ![Dodge Stratus](Images/triggers/trigger_22.png)
 
 ## Mitsubishi
+
+4G93
+![x](Images/triggers/trigger_TT_MITSUBISHI.png)
 
 36-2-1-1
 ![x](Images/triggers/trigger_TT_36_2_1_1.png)
