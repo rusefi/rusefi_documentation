@@ -1,4 +1,4 @@
-## Summary
+# Summary
 
 This page is a general guide and general outline of how to use the breakout module. The breakout module allows you to replace an engine control unit wire by with using fuses as jumpers.
 
@@ -23,7 +23,7 @@ Uses breakout module noted [here](http://rusefi.com/forum/viewtopic.php?f=4&t=45
 
 * Cut OEM harness for the MAP or MAF wire(s), or install a MAP sensor, then put the leads to the breakout module, use the fuse to simple pass the signal through the breakout module, and verify that the OEM engine is operational.
 * Connect rusEFI analog signal to breakout module.
-* Install 2nd fuse to connect both OEM control unit and rusEFI. Take note that the signal may be loaded and may be problematic with this appraoch. Or it may simply work. Give it a try and see what happens.
+* Install 2nd fuse to connect both OEM control unit and rusEFI. Take note that the signal may be loaded and may be problematic with this approach. Or it may simply work. Give it a try and see what happens.
 * Capture MAF or MAP signals via dev console.
 * See reliable MAF or MAP values displayed on the gauge, and noise free signals.
 
@@ -37,7 +37,7 @@ Uses breakout module noted [here](http://rusefi.com/forum/viewtopic.php?f=4&t=45
 
 ### Move one ignition channel
 
-* Cut OEM harness for one ignition channel and connect it to the breakout module. With OEM connections, verify the breakout module operates as expected on the OEM setup. Beware, ignition signals on the primary side of the coil can get in excess of 500V, you need to capture signal level signals, not the primary side of the coil. The coil primary will destroy the discovery. The discovery board needs an igntor to drive the primary side of the coil.
+* Cut OEM harness for one ignition channel and connect it to the breakout module. With OEM connections, verify the breakout module operates as expected on the OEM setup. Beware, ignition signals on the primary side of the coil can get in excess of 500V, you need to capture signal level signals, not the primary side of the coil. The coil primary will destroy the discovery. The discovery board needs an igniter to drive the primary side of the coil.
 * Connect rusEFI ignition channel to breakout module.
 * Remove fuse for OEM fuel channel and put it on rusEFI fuel channel. This should be done when the engine is off. Moving this wire when operational will likely damage the ignition system.  
 * Connect via tuner studio, and tune your ignition channel until the engine runs smoothly. (You may be able to connect the rusEFI analog signals to the  channels and measure that you are generating the same fuel pulse.)
