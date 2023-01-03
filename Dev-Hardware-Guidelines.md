@@ -1,4 +1,6 @@
-### This is a **DEVELOPERS** manual. For the user manual please see [Hardware](Hardware)
+# Dev Hardware Guidelines
+
+    **This is a **DEVELOPERS** manual. For the user manual please see [Hardware](Hardware)**
 
 ## Summary
 
@@ -32,7 +34,7 @@ Resistors should be listed like this 100R or 2k2
 - Voltage regulators that follow Maxim's suggestions here (cold cranking down to 4V for up to 40mS)  
 - Reverse polarity protection as noted in this video (P-MOSFET style)  
 - Humidity allowed up to 100% (water resistant enclosure, perhaps fully potted)  
-- Sensor inputs are capable of human body model ESD (100 pF 1.5 kohm 500V to 1kV class 1B or better)  
+- Sensor inputs are capable of human body model ESD (100 pF 1.5 k ohm 500V to 1kV class 1B or better)  
 - All sensor inputs can survive a sustained short to 12V or GND. (fused as required)  
 - All sensor inputs should float either full scale or min scale when a wire is not connected. The normal operation of the sensor should not hit the full scale or min scale. This allows for full or min scale to be an error indicator.  
 - All sensor GND references fuse protected by such a dead short to 12V can be repaired, without replacing the entire PCB.  
@@ -62,9 +64,9 @@ Resistors should be listed like this 100R or 2k2
 
 ## Links to specific hardware projects
 
-#### - [Frankenso](Hardware-Frankenso)
+### - [Frankenso](Hardware-Frankenso)
 
-#### - Brain board
+### - Brain board
 
 ![alt text](Images/Vyuqd8h.png)  
 The brain board can be the off the shelf STMDiscoveryF4. However the Discovery has several circuits like the analog microphone circuits which change how a particular pin is loaded. We have noticed that this pin loading cause the injector circuits to vary pulse widths. Because of this we have developed a stripped down version of the Discovery board without the extra circuits. Both boards have the same general specifications, same clock rates, same IO headers with the same pin outs, ect.
@@ -83,7 +85,7 @@ Frankenstein is a combination of individual modules, such that you can make sub 
 - 12 low side 1A injector driver module found  
 - 6 high / low side drive .125A capable ignition pre-drivers, for use with external ignitors.  
 - 12 channels op-amp analog input module (TPS, MAP, IAT, ect)  
-- Variable reluctor / Hall input module  
+- Variable reluctance / Hall input module  
 - SD card module  
 - USB FTDI communications module  
 - Example system schematic found here  120px-System_schematic.png

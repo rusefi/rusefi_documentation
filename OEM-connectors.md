@@ -1,5 +1,7 @@
 # Table of Contents  
 
+[24 pin](#24-pin)
+
 [30 pin](#30-pin)
 
 [60 pin superseal](#60-pin)
@@ -37,8 +39,9 @@ Here are some OEM connector part numbers. Bosch & Siemens, German and Japanese, 
 ## 24 pin
 
 Popular aftermarket connector
+Benelli TNT 1130 (todo: add photo & link)
 
-APTIV (FORMERLY DELPHI) HCCPHPE24BKA90F
+APTIV (FORMERLY DELPHI) HCCPHPE24BKA90F & HCCPHPE24GYA90F
 
 ## 30 pin
 
