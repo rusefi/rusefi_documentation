@@ -200,6 +200,9 @@ Chrysler NGC 6 cylinder
 
 ## Mitsubishi
 
+4G93
+![x](Images/triggers/trigger_TT_MITSUBISHI.png)
+
 36-2-1-1
 ![x](Images/triggers/trigger_TT_36_2_1_1.png)
 
