@@ -12,7 +12,7 @@ Check for latest version in repository.
 
 [https://github.com/rusefi/hw_microRusEfi](https://github.com/rusefi/hw_microRusEfi)
 
-[https://github.com/rusefi/hw_microRusEfi)/tree/master/gerbers](https://github.com/rusefi/hw_microRusEfi/tree/master/gerbers/)
+[https://github.com/rusefi/hw_microRusEfi/tree/master/gerbers](https://github.com/rusefi/hw_microRusEfi/tree/master/gerbers/)
 
 ## Step 2 Finish assembly
 
