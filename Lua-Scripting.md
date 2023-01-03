@@ -59,6 +59,10 @@ Use setBrakePedalState to tell rusEFI about CAN-based brake pedal.
 
 Use setAcRequestState to tell rusEFI about CAN-based A/C request.
 
+### `setEtbDisabled(value)`
+
+### `setIgnDisabled(value)`
+
 ### ``setAcDisabled(value)``
 
 Disable/supress A/C functionality regardless of what and how enables it, an override kind of deal.
