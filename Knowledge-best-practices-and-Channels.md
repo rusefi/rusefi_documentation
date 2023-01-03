@@ -1,3 +1,5 @@
+# Knowledge sharing and Channels
+
 TL,DR: are you interested in any knowledge being indexed by google and are you interested in any knowledge outliving your rusEFI involvment? Are you interested in the social aspect of the rusEFI Slack lounge?
 
 TL,DR: please post knowledge on forum and report issues at [https://github.com/rusefi/rusefi/issues](https://github.com/rusefi/rusefi/issues)
