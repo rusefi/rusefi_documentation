@@ -22,7 +22,6 @@ While troubleshooting CLT and IAT, the two most useful commands are `analoginfo`
 
 ![IAT Thermistor settings](Images/IAT_screen.png)
 
-
 MLX90621
 
 [MLX90620 / MLX90621 - 16X4 pixel IR thermal array](http://forum.arduino.cc/index.php?topic=126244.0)

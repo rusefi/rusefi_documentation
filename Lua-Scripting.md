@@ -59,6 +59,10 @@ Use setBrakePedalState to tell rusEFI about CAN-based brake pedal.
 
 Use setAcRequestState to tell rusEFI about CAN-based A/C request.
 
+### `setEtbDisabled(value)`
+
+### `setIgnDisabled(value)`
+
 ### ``setAcDisabled(value)``
 
 Disable/supress A/C functionality regardless of what and how enables it, an override kind of deal.
@@ -78,6 +82,7 @@ Sets specified calibration setting to specified value. Fires calibration change 
 For example ``setCalibration("cranking.rpm", 900, false)``
 
 ### `findSetting(name, defaultValue)`
+
 Find User Setting with specified name and returns numeric value. Useful when script developer and script consumer are
 different people, also useful while Lua script editing is available only in TS.
 
@@ -97,18 +102,23 @@ setSparkSkipRatio(0.5) would skip half of ignition events. We never skip two con
 ### `setIdleAdd`
 
 ### `setFuelAdd`
+
 Sorry not finished :(
 
 ### `setFuelMult`
+
 Sorry not finished :(
 
 ### `setBoostAdd`
+
 Additive for closed loop target boost pressure.
 
 ### `setBoostMult`
+
 Multiplier for closed loop target boost pressure.
 
 ### `setTimingAdd(angle)`
+
 todo add details but ready to test!
 
 ### `setTimingMult(coeff)`
@@ -128,18 +138,25 @@ enabled by default
 use enableCanTx(false) to suppress CAN TX
 
 ### `txCan(bus, ID, isExt, payload)`
+
 - Parameters
   - bus: hardware CAN bus index, only '1' on most rusEFI boards, '1' or '2' on Proteus
   - isExt: 0 for 11 bit mode
 
 ### `canRxAdd(id)`
+
 ### `canRxAdd(bus, id)`
+
 ### `canRxAdd(id, callback)`
+
 ### `canRxAdd(bus, id, callback)`
 
 ### `canRxAddMask(id, mask)`
+
 ### `canRxAddMask(bus, id, mask)`
+
 ### `canRxAddMask(id, mask, callback)`
+
 ### `canRxAddMask(bus, id, mask, callback)`
 
 - Parameters
@@ -168,7 +185,7 @@ Print a line of text to the ECU's log.
   - none
 
 ### `vin(index)`
- 
+
 Return VIN setting character at specified index
 
 - Parameters
@@ -177,10 +194,12 @@ Return VIN setting character at specified index
 #### Usage example
 
 Program:
+
 ```lua
 n = 5.5
 print('Hello Lua, number is: ' ..n)
 ```
+
 Output:
 `Hello Lua, number is 5.5`
 
@@ -202,6 +221,7 @@ Stops MCU.
 Interpolates `x` placing it on the line defined by (x1, y1) and (x2, y2)
 
 ### `findTableIndex(name)`
+
 Find table index by specified human-readable name.
 
 ### `table3d(tableIdx, x, y)`
@@ -216,15 +236,16 @@ Looks up a value from the specified Script Table.
   - A number representing the value looked up from the table.
 
 ### `findCurveIndex(name)`
+
 Finds curve index by specific curve name
 
 ### `curve(curveIdx, x)`
 
 Looks up a value from the specified Script Curve.
+
 - Parameters
   - `tableIdx`: Index of the script to use, starting from 1.
   - `x`: Axis value to look up in the table
-
 
 ### `setDebug(index, value)`
 
@@ -271,7 +292,7 @@ Reads the raw value from the specified sensor.  For most sensors, this means the
 
 ### `getAuxAnalog(index)`
 
-More or less like getSensorRaw but always voltage of aux analog input. 
+More or less like getSensorRaw but always voltage of aux analog input.
 
 - Parameters
   - `index`: Index of aux analog sensor to read. From 0 to 3
@@ -308,6 +329,7 @@ Valid `index` parameter values:
 ### `readPin(pinName)`
 
 Reads physical value of arbitrary MCU pin
+
 - Parameters
   - `pinName`: string name of MCU pin, for examples "PD15"
 
@@ -346,17 +368,16 @@ Set the duty cycle of the specified PWM channel.
 - Returns
   - none
 
-
 ## Misc console commands
 
 ``luamemory``
 
 ``luareset``
 
-
 ## Examples
 
 # timer
+
 ```lua
 t = Timer.new();
 timingAdd = 0;
@@ -383,9 +404,8 @@ function onTick()
 end
 ```
 
-
-
 # PWM
+
 ```lua
 -- index 0, 100Hz, zero duty inititally
 startPwm(0, 100, 0)
@@ -400,6 +420,7 @@ end
 ```
 
 # CAN transmit
+
 ```lua
 function onTick()
   tps = getSensor("CLT")
@@ -418,70 +439,73 @@ end
 ```
 
 # set sensor value
+
  [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
+
 ```lua
 vssSensor = Sensor.new("VehicleSpeed")
 -- any value would be considered valid for three seconds
 vssSensor:setTimeout(3000)
 function onTick()
-	injectedVssValue = 123.4;
-	vssSensor : set(injectedVssValue)
-	-- here we would read the value we have just injected into the sensor. 
-	valFromSensor = getSensor("VehicleSpeed")
+ injectedVssValue = 123.4;
+ vssSensor : set(injectedVssValue)
+ -- here we would read the value we have just injected into the sensor. 
+ valFromSensor = getSensor("VehicleSpeed")
         -- we expect output to be "VSS 123.4"
-	print ("VSS " .. valFromSensor)
+ print ("VSS " .. valFromSensor)
 end
 
 
 ```
 
 # CAN receive
+
 ```lua
 canRxAdd(0x500)
 canRxAdd(0x570)
 function onCanRx(bus, id, dlc, data)
-	print('got CAN id=' ..id ..' dlc=' ..dlc)
-	if id == 0x500 then
-		-- Check can state of BCM
-		canState = data[1]
-	end
-	if id == 0x570 then
-		mcu_standby()
-	end
+ print('got CAN id=' ..id ..' dlc=' ..dlc)
+ if id == 0x500 then
+  -- Check can state of BCM
+  canState = data[1]
+ end
+ if id == 0x570 then
+  mcu_standby()
+ end
 end
 ```
 
-
 ```lua
 function decimalToHex(num)
-	if num == 0 then
-		return '0'
-	end
+ if num == 0 then
+  return '0'
+ end
 
-	local hexstr = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F" }
-	local result = ""
-	while num > 0 do
-		local n = num % 16
-		result = hexstr[n + 1] ..result
-		num = math.floor(num / 16)
-	end
-	return result
+ local hexstr = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F" }
+ local result = ""
+ while num > 0 do
+  local n = num % 16
+  result = hexstr[n + 1] ..result
+  num = math.floor(num / 16)
+ end
+ return result
 end
 
 
 
 function print_array(arr)
-	local str = ""
-	local index = 1
-	while arr[index] ~= nil do
-		str = str.." "..decimalToHex(arr[index])
-		index = index + 1
-	end
-	return str
+ local str = ""
+ local index = 1
+ while arr[index] ~= nil do
+  str = str.." "..decimalToHex(arr[index])
+  index = index + 1
+ end
+ return str
 end
 ```
 
 # table
+
 ```lua
 tableIndex = findTableIndex("duty")
 
@@ -495,18 +519,16 @@ sparkCutByTorque = curve(sparkCutCurve, torque)
 
 ```
 
-
 ## See also
 
 # BMW iDrive
 
-See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/bmw-idrive.txt
+See <https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/bmw-idrive.txt>
 
-More examples at https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/
+More examples at <https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/>
 
-See also a library for CAN data manipulation https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/lua_lib.h
+See also a library for CAN data manipulation <https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/lua_lib.h>
 
-See also test driven development approach https://github.com/rusefi/rusefi/tree/master/unit_tests/tests/lua
-
+See also test driven development approach <https://github.com/rusefi/rusefi/tree/master/unit_tests/tests/lua>
 
 [Lua Ternary Operator](http://lua-users.org/wiki/TernaryOperator)

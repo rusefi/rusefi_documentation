@@ -1,18 +1,17 @@
 # WBO Overview
-[Do-i-need-wideband-oxygen-sensor](https://github.com/rusefi/rusefi/wiki/do-i-need-wideband-oxygen-sensor)
 
+[Do-i-need-wideband-oxygen-sensor](https://github.com/rusefi/rusefi/wiki/do-i-need-wideband-oxygen-sensor)
 
 # External WBO
 
 * External controller with analog output, like then AEM 30-4110 and similar products.
 * External controller with CAN interface, like the AEM X-Series wideband controller/gauge.
 
-
 # rusEFI Wide band oxygen
 
 rusEFI has two probably working implementations for Bosch wideband oxygen control:
 
-* We have cj125 integration 
+* We have cj125 integration
 * We like [https://github.com/mck1117/wideband](https://github.com/mck1117/wideband) even more. See [the forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1856)
 
 # rusEFI wideband module
@@ -21,13 +20,9 @@ See [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
 See [Hellen-WBO](Hellen-WBO)
 
-
 TODO: document it better
 
-
 # cj125 troubleshooting
-
-
 
 We have a few rusEFI console commands relevant for cj125
 
@@ -37,10 +32,7 @@ We have a few rusEFI console commands relevant for cj125
 
 ``cj125_calibrate``
 
-
-
 ![x](Overview/wbo/cj125_heating_4_9.png)
-
 
 AndreiKA says Prometheus works
 
@@ -70,11 +62,9 @@ though you could probably use D=0 since the system is already damped so hard
 
 50Hz
 
-
 [Older SOIC-24 board - double sided assembly](https://github.com/rusefi/hw_modular/tree/master/cj125_Module)
 
 [Newer LQFP-32 board - single side assembly](https://github.com/rusefi/rusefi/tree/master/hardware/CJ125_board)
-
 
 # Naming Convention
 
@@ -94,8 +84,6 @@ UN = Vs = sensor voltage output
 
 ![x](FAQ/LSU-4-9-17025hcon.gif)
 
-
-
 ![x](FAQ/LSU_42_LSU_49_Plug_Comparsion.jpg)
 
 With SOIC-24 rusEFI module W1=W10=0R means LSU 4.2
@@ -105,9 +93,6 @@ With SOIC-24 rusEFI module W1=W10=Do not populate means LSU 4.9
 ### Q: Any troubleshooting hints when things do not work?
 
 A: VM wire between CJ125 and sensor is virtual ground, should measure 2.5v when sensor is connected and when sensor is disconnected.
-
-
-
 
 # Part Numbers
 
@@ -131,4 +116,4 @@ Male connector is only needed when building extension harnesses. The connector o
 | 16 AWG    | Tin     | 1418884-1   | 1418885-1   |
 | 16 AWG    | Gold    | unavailable | unavailable |
 
-Part numbers provided by and available for purchase at corsa-technic.com individually or as a kit. https://www.corsa-technic.com/item.php?item_id=1296
+Part numbers provided by and available for purchase at corsa-technic.com individually or as a kit. <https://www.corsa-technic.com/item.php?item_id=1296>

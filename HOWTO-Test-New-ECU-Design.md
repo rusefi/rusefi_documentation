@@ -9,8 +9,6 @@
 1. let's be honest - the moment things do not work as intended you would need an oscilloscope
 1. still interested?
 
-
-
 ## HOWTO test brand new ECU design which was never fabricated before
 
 If dealing with a brand new never before tested hardware design it's recommended to gradually add wires between vehicle connector breakout board and untested ECU.
@@ -32,6 +30,5 @@ If dealing with a brand new never before tested hardware design it's recommended
 1. Test & Report, with USB physically disconnected: Attempt cranking. If equipped with on-board persistent storage, upload & link log to report.
 1. Connect ECU to laptop via serial, report type of serial.
 1. With laptop connected via serial, test & Report, with USB physically disconnected: ECU status LED blinks if powered up, ECU status LED blinks when ignition powered off.
-
 
 # TODO a bunch of more content is needed here :)

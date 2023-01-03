@@ -1,15 +1,19 @@
 # BMW-S1000RR
 
 ## Intro
+
 The [BMW S1000RR Motorcycle](https://en.wikipedia.org/wiki/BMW_S1000RR#:~:text=BMW%20S1000RR%20is%20a%20race,engine%20redlined%20at%2014%2C200%20rpm.) was originally released in 2009. It is a 999cc four cylinder engine making 180-200hp depending on the model year. There have been a few changes over the years, but the general architecture remains the same.
 
 ## Overview
+
 Model years vary in their engine configuration somewhat:
+
 * 2009-2014 models used virtually the same engine, sensors, etc.
 * 2015-2018 had some minor engine updates, put out a little more power.
 * 2019 had entirely new engine that is more compact and has dual camshaft profiles that can be switched (similar to Honda VTEC).
 
 2009-2018 Engine Configuration
+
 * 999cc four cylinder engine with 4 valves per cylinder
 * 4x individual smart coil on plug ignition
 * 8x injectors with one set at the ports, one set in the airbox firing into the trumpets
@@ -28,4 +32,3 @@ Model years vary in their engine configuration somewhat:
 ### Ignition Coils
 
 ### Quickshift Sensor
-

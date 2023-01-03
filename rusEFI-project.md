@@ -2,7 +2,7 @@
 
 ## [Base Engine](rusEFI-project-Base-Engine)
 
-[x](/Overview/TS_generated/top_level_Base_Engine.png)
+[x](Overview/TS_generated/top_level_Base_Engine.png)
 [Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)
 
 [Trigger](rusEFI-project-Base-Engine#trigger)
@@ -25,7 +25,7 @@
 
 ## [Fuel](rusEFI-project-Fuel)
 
-[x](/Overview/TS_generated/top_level_Fuel.png)
+[x](Overview/TS_generated/top_level_Fuel.png)
 [Injection settings](rusEFI-project-Fuel#injection-settings)
 
 [Injector dead time](rusEFI-project-Fuel#injector-dead-time)
@@ -52,7 +52,7 @@
 
 ## [Ignition](rusEFI-project-Ignition)
 
-[x](/Overview/TS_generated/top_level_Ignition.png)
+[x](Overview/TS_generated/top_level_Ignition.png)
 [Ignition settings](rusEFI-project-Ignition#ignition-settings)
 
 [Dwell](rusEFI-project-Ignition#dwell)
@@ -67,7 +67,7 @@
 
 ## [Cranking](rusEFI-project-Cranking)
 
-[x](/Overview/TS_generated/top_level_Cranking.png)
+[x](Overview/TS_generated/top_level_Cranking.png)
 [Cranking Settings](rusEFI-project-Cranking#cranking-settings)
 
 [Cranking Coolant Temperature Multiplier](rusEFI-project-Cranking#cranking-coolant-temperature-multiplier)
@@ -78,7 +78,7 @@
 
 ## [Idle](rusEFI-project-Idle)
 
-[x](/Overview/TS_generated/top_level_Idle.png)
+[x](Overview/TS_generated/top_level_Idle.png)
 [Idle settings](rusEFI-project-Idle#idle-settings)
 
 [Idle hardware](rusEFI-project-Idle#idle-hardware)
@@ -91,7 +91,7 @@
 
 ## [Advanced](rusEFI-project-Advanced)
 
-[x](/Overview/TS_generated/top_level_Advanced.png)
+[x](Overview/TS_generated/top_level_Advanced.png)
 [Boost Control](rusEFI-project-Advanced#boost-control)
 
 [General Purpose PWM 1](rusEFI-project-Advanced#general-purpose-pwm-1)
@@ -128,7 +128,7 @@
 
 ## [Sensors](rusEFI-project-Sensors)
 
-[x](/Overview/TS_generated/top_level_Sensors.png)
+[x](Overview/TS_generated/top_level_Sensors.png)
 [Trigger Inputs](rusEFI-project-Sensors#trigger-inputs)
 
 [Other Sensor Inputs](rusEFI-project-Sensors#other-sensor-inputs)
@@ -171,7 +171,7 @@
 
 ## [Controller](rusEFI-project-Controller)
 
-[x](/Overview/TS_generated/top_level_Controller.png)
+[x](Overview/TS_generated/top_level_Controller.png)
 [ECU stimulator](rusEFI-project-Controller#ecu-stimulator)
 
 [Data logging Settings](rusEFI-project-Controller#data-logging-settings)

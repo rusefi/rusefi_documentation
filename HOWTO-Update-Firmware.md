@@ -1,16 +1,19 @@
 <!-- this URL is hard-coded in rusEFI console splash screen MAKE SURE NOT TO RENAME -->
 
-[Download the rusEFI bundle](Download) for your hardware. 
+[Download the rusEFI bundle](Download) for your hardware.
 
-## Windows:
+## Windows
+
 Launch [rusEFI Console](Console.md). You can find it in the bundle you downloaded, in the "console" folder.
 
 Click the "Update Firmware" button once you've picked desired update mode.
 
-## Linux:
+## Linux
+
 The canonical way to update the firmware on Linux is with DFU.
 
 You will need dfu-util:
+
 ```
 # Debian/Ubuntu
 sudo apt install dfu-util

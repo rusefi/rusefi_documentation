@@ -352,7 +352,7 @@ See [http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm
 
 ![72 pin connector](Hardware/connectors/72_pin.png)
 
-Oem ECU `Todo: find [Miata 2001 - 2005](/Mazda-Miata-2001)`
+Oem ECU `Todo: find [Miata 2001 - 2005](Mazda-Miata-2001)`
 
 pins 316836?
 pins 316838
@@ -424,7 +424,7 @@ unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 
 ## 93 pin
 
-![x](/OEM-Docs/Subaru/93pins.jpeg)
+![x](OEM-Docs/Subaru/93pins.jpeg)
 
 MX7-93PL-C4
 
@@ -643,7 +643,7 @@ Terminal 175180-1
 175062-1
 175062-2
 
-See `Todo: find [Vault of Honda OEM](/Vault-Of-Honda-OEM)`
+See `Todo: find [Vault of Honda OEM](Vault-Of-Honda-OEM)`
 
 ## 126 4 row
 
@@ -659,7 +659,7 @@ See `Todo: find [Vault of Honda OEM](/Vault-Of-Honda-OEM)`
 
 Mercedes M111 [eBay](https://www.ebay.com/itm/333791544427)
 
-![x](/OEM-Docs/Mercedes/mercedes_170.png)
+![x](OEM-Docs/Mercedes/mercedes_170.png)
 
 `Todo: find [Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)`
 

@@ -4,14 +4,13 @@
 
 AS      red     +12 running
 
-AE	yellow	output speed sensor		blue
+AE yellow output speed sensor  blue
 
-AF	orange	output speed sensor		orange
+AF orange output speed sensor  orange
 
-W	    red	input speed sensor		red
+W     red input speed sensor  red
 
-
-Z	white	input speed sensor		white
+Z white input speed sensor  white
 
 ## Black 35 Pin 776231-1
 
@@ -25,12 +24,12 @@ Z	white	input speed sensor		white
 |     |               |       |                                      |              |               |
 |     |               |       |                                      |              |               |
 
-
 ## Black 23 Pin 776228-1on Black Proteus 0.2
+
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | TCU connector |
 | ---:|:------------- | ----- |:------------------------------------ |------------- | ------------- |
 | 1   | DIGITAL 2     | din   | "D" selector                         | orange       | C             |
-| 2   | DIGITAL 3     | din   | "R" selector                         | green        | D             | 
+| 2   | DIGITAL 3     | din   | "R" selector                         | green        | D             |
 | 4   | VR2 pos       | vr    | Input Shaft positive                 | red          |  W            |
 | 5   | VR1 pos       | vr    | Output Shaft positive                | orange       | AF            |
 | 10  | DIGITAL 1     | din   | Manual Up-shift                      | green        | n/a           |
@@ -43,9 +42,8 @@ Z	white	input speed sensor		white
 |     |               |       |                                      |              |               |
 |     |               |       |                                      |              |               |
 
-
-
 ## White 35 Pin 776231-2
+
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | TCU connector |
 | ---:|:------------- | ----- |:------------------------------------ |------------- | ------------- |
 |     |               |       |                                      |              |               |

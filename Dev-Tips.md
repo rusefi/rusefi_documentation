@@ -62,6 +62,7 @@ Example:
 `timeNowUs += MS2US(15);`
 
 Unit tests will run under various tools that check for memory or other violations ("Sanitizers" such as AddressSanitizer or Valgrind).  For performance reasons, some of these are only run at GitHub actions, but if you need to you can run them yourself.
+
 * Unit tests by default are built for AddressSanitizer.  You can disable this by running `make SANITIZE=no`.  This will detect memory overruns and underruns, although it won't detect overruns within a struct (for example, running off the end of an array that happens to land on some unrelated-but-valid memory after the array but is still in the struct).
 * Unit tests on GitHub are also built for AddressSanitizer, but add an additional check for stack use after free.  You can mimic this yourself by running tests as `ASAN_OPTIONS=detect_stack_use_after_return=1 build/rusefi_test`
 * Unit tests on GitHub are also run under Valgrind.  This helps detect using uninitialized memory, among other differences.  In order to run under Valgrind, you must first compile without ASAN: `make SANITIZE=no` then run as `valgrind build/rusefi_test`.  You have to scan through stderr to find the errors of interest, so you can run: `valgrind build/rusefi_test > /dev/null`.

@@ -6,7 +6,6 @@
 
 [Download Snapshot firmware](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 
-
 # microRusEFI User Documentation
 
 [microRusEFI Hardware](Hardware-microRusEFI)
@@ -17,10 +16,9 @@
 
 [See also Kit Instructions](Hardware-microRusEFI-kit-instructions)
 
-
 ## HOWTO update microRusEFI Firmware
 
-The best way to update microRusEFI firmware is using rusEFI console "Auto DFU" mode. 
+The best way to update microRusEFI firmware is using rusEFI console "Auto DFU" mode.
 In AutoDFU a few things happen once you click the "Update Firmware" button.
 
 0) AutoDFU procedure works if your Windows device manager shows "STMicroelectronics Virtual COM Port" in "Ports" category.
@@ -33,10 +31,11 @@ It is expected that microRusEFI would stop blinking the blue light and reboot. I
 would disappear from Device Manager and "STM Device in DFU Mode" device would appear in "Universal Serial Bus controllers" category.
 
 ![img](Support/stm_device_in_dfu_mode.png)
-   
+
 2) rusEFI console gives Windows 3 seconds to re-enumerate USB device from Virtual COM Port to DFU Device.
 
 Now the programming begins and the expected output is along the following lines:
+
 ```
 Giving time for USB enumeration...
 Executing .\../misc/install\DfuSe/DfuSeCommand.exe -c -d --v --fn ../firmware/deliver\rusefi.dfu

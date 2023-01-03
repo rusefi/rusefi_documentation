@@ -1,6 +1,7 @@
 # Maybe prerequisite
+
 Nathan wonders what the hell does current automation even do. Could this be clarified with minor code comments on top of key files?
-Nathan reminds that some code generation could/should be integrated into Makefile. Some documentation in https://github.com/rusefi/rusefi/blob/master/firmware/config/boards/readme.md
+Nathan reminds that some code generation could/should be integrated into Makefile. Some documentation in <https://github.com/rusefi/rusefi/blob/master/firmware/config/boards/readme.md>
 
 # Current state
 
@@ -8,7 +9,6 @@ Nathan reminds that some code generation could/should be integrated into Makefil
 * Automated master branch snapshot upload
 * Console can update to master snapshot
 * Bundle .zip has confusing folder name with timestamp
-
 
 # Desired state
 

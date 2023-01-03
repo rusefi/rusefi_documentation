@@ -2,7 +2,6 @@
 
 [Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
 
-
 [Issue Tracker](https://github.com/rusefi/hellen-NB2-issues)
 
 ## Hardware features
@@ -13,12 +12,9 @@
 * A/C toggle switch
 * A/C relay control
 
-
 # User Support
 
 [Click here for Support overview](Support)
-
-
 
 # Technical Details
 
@@ -40,13 +36,7 @@
 
 [Forum DEVELOPMENT thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1947)
 
-
-
-
-
-
 [It's Complicated](It's-complicated)
-
 
 [Mazda Miata 2003](Mazda-Miata-2003) [Mazdaspeed Miata 2005](Mazdaspeed-Miata-2005)
 
@@ -54,8 +44,8 @@
 
 ![x](Hardware/Hellen/hellen72a.jpg)
 
-
 ## Options Port (rev F)
+
 Using 28 Pin [Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/5655?osCsid=cs48b6aap1pgdvt9vgn1889sq0)
 
 ![x](https://user-images.githubusercontent.com/5051341/176225958-4747f49b-c707-49f7-b354-43b6f9bad201.png)
@@ -73,9 +63,10 @@ Using 28 Pin [Connector](https://www.bmotorsports.com/shop/product_info.php/prod
 | 5AD | WBO Heater - | LSU 4.9 Pin 3 |
 | 5AE | +12v | LSU 4.9 Pin 4 |
 
-*ETB+ and ETB- are on ECU PCB 
+*ETB+ and ETB- are on ECU PCB
 
 # Jumpers (Applies to board version 72a-72c so far)
+
  in order to run a Miata NB test vehicle:
 
 External MAP vs more ignition channels:
@@ -94,18 +85,18 @@ a) if you have a Miata 2002 (where we measure the battery voltage from 4T=altern
 b) or if you have a Miata 2003 (where we measure the battery voltage from 4S=ign.switch), then remove "R10 (2002)"
 
 ### OEM harness add-ons  
-The OEM ECU connector uses AMP Multilock .040 and .070 pins. 
+
+The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 
 | Board   | stm32 pin  |   |
 |-----|---|---|
-| 4U  | MAP| Manifold absolute pressure analog signal from [external sensor](GM-map-sensor) | 
+| 4U  | MAP| Manifold absolute pressure analog signal from [external sensor](GM-map-sensor) |
 | 4K  | +5v | +5v feed for MAP sensor |
-| 3Z | GND | Sensor & USB ground | 
-
+| 3Z | GND | Sensor & USB ground |
 
 # Proto Area Pinout
 
-|Proto   | stm32 pin  | 
+|Proto   | stm32 pin  |
 |-----|---|
 | EXT_SPI_SCK    |   |
 | UART_RX    | PD6  |
@@ -114,8 +105,6 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 | EXT_IO2    |  PB13 |
 |     |   |
 |     |   |
-
-
 
 [rev C Reference image of jumpers set for external MAP sensor on 2003 miata](https://rusefi.com/forum/download/file.php?id=7570)
 

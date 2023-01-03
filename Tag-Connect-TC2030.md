@@ -6,14 +6,11 @@ $43.00 at [https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with
 
 and STLINK-V3MINI $11 everywhere is the easiest to use combo.
 
-
 ![x](Images/tc2030-stlink-v3.jpg)
-
 
 Way more ghetto option would be based on TC2030-MCP-NL off eBay with phone jack cut off and wires soldered
 
 ![x](Hardware/microRusEFI/TC2030_SWD.jpg)
-
 
 ![x](Hardware/tc2030.png)
 

@@ -1,5 +1,4 @@
 
-
 rusEFI is known to work on these stm32 chips:
 
 | chip | Frequency | Ram | Flash | Notes | Package notes  |   |
@@ -11,12 +10,8 @@ rusEFI is known to work on these stm32 chips:
 |      |           |     |       |       |   |   |
 
 Trying to get rusEFI running on:
- 
+
 | chip | Frequency | Ram | Flash | Notes | Package notes  |   |
 |------|-----------|-----|-------|-------|---|---|
 | F746 | 216 MHz   | 320 Kb    | 1M      | .      |   | [pinout](https://os.mbed.com/platforms/ST-Nucleo-F746ZG/#board-pinout)  |
 | F767 | 400 MHz   | 1024 KB   | 2M    |  ..      |   | [pinout](https://os.mbed.com/platforms/ST-Nucleo-H743ZI/#board-pinout)  |
-
-
-
-

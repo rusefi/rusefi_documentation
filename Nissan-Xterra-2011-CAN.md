@@ -1,24 +1,29 @@
 # Nissan Xterra 2011 CAN
 
 # 2
+
 STEERING:
 
 # 216/534
 
 # 23D/573
+
 ECU: RPM CLT
 
 # 2A5/677
 
 # 2D1/721
+
 METER: VehicleSpeed
 
 # 358/856
+
 BCM:
 
 # 794/1940
 
 # Examples
+
 ```
 SID 2D1/7 0 0 0 3 31 86 1 0,
 SID 794/3 0 0 1 0 0 0 0 0,

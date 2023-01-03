@@ -5,6 +5,7 @@
 ![Pinout](Images/frankenso_connector_miata_1996.png)
 
 ## Plug 1
+
 22 pin
 
 | pos | b pos | color | desc                 | type             |
@@ -33,6 +34,7 @@
 | 1V  | \*    | \*    | Not Used             | \*               |
 
 ## Plug 2
+
 12 pin (Plug on OEM ECU is not used)
 
 |    |  |  |  |  |
@@ -41,6 +43,7 @@
 | 2B |  |  |  |  |
 
 ## Plug 3
+
 16 pin  (corresponds to Frankenso Plug 2)
 
 | pos | b pos | color   | desc                 | type      |
@@ -63,6 +66,7 @@
 | 3P  |       |         |                      |           |
 
 ## Plug 4
+
 26 pin (corresponds to Frankenso Plug 3)
 
 | pos | b pos | color   | desc                              | type                  |

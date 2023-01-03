@@ -1,17 +1,16 @@
 [TL,DR](Knowledge-best-practices-and-Channels#q-i-need-help)
 
-
-rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises including zero promises of technical support. 
+rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises including zero promises of technical support.
 
 rusEFI has zero full time staff and most of rusEFI contributors all over the globe have day jobs and other obligations.
 
-[[https://rusefi.com/forum/](https://rusefi.com/forum/)](https://rusefi.com/forum/) is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online).
+[[https://rusefi.com/forum/](https://rusefi.com/forum/)](<https://rusefi.com/forum/>) is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online).
 
 Please Read [How To Ask Technical Questions](https://opensource.com/life/16/10/how-ask-technical-questions)
 
 ## Q: What is Slack?
 
-A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on [[https://rusefi.com/forum/](https://rusefi.com/forum/)](https://rusefi.com/forum/) Slack often comes handy for follow-up discussion. Slack registration [http://rusefi.com/slack/](http://rusefi.com/slack/) and login [https://rusefi.slack.com/](https://rusefi.slack.com/)
+A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on [[https://rusefi.com/forum/](https://rusefi.com/forum/)](<https://rusefi.com/forum/>) Slack often comes handy for follow-up discussion. Slack registration [http://rusefi.com/slack/](http://rusefi.com/slack/) and login [https://rusefi.slack.com/](https://rusefi.slack.com/)
 
 ## Q: Do you guys prefer short text descriptions or long text descriptions?
 
@@ -20,7 +19,6 @@ Just a reminder that to attach a screen shot to the forum post you LITERLLY need
 
 "ctrl-print screen" or "alt-print screen" to take a screenshot into clipboard
 "ctrl-v" to attach image from clipboard into forum post.
-
 
 ## Q: What is the preferred way of posting videos?
 
@@ -56,36 +54,36 @@ A: Commercial support is available [here](https://www.ebay.com/itm/333612090037)
 Q: How do I attach logs to my forum post? Looks like forum does not allow .msl files?
 
 A: in TunerStudio, please use "Help->Create TunerStudio Debug Package" button - this would combine your tune and your logs.
-Just make sure to remove the oldest unneeded logs from your DataLogs folder :) 
+Just make sure to remove the oldest unneeded logs from your DataLogs folder :)
 
 [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
 
  Please collect the below information before requesting support in the forums. Also please include this each time you post about a problem. This can all be collected in a zip file, or done as individual files and attached to your forum support request. Please keep in mind that you are seeing this and you have allot of information which those of us in the forum do not have. Things that may seem simple to you may be complicated for those of us who have not physically seen what you have, or have not see the steps you have taken to get to the problem you are faced with.
 
-- What is the basic problem? This would be something like, engine does not start, cannot connect Tuner Studio, Magic smoke has come out, or something similar. A video on youtube can be helpful for this as well. 
+- What is the basic problem? This would be something like, engine does not start, cannot connect Tuner Studio, Magic smoke has come out, or something similar. A video on youtube can be helpful for this as well.
 
-- Please provide a picture of the rusEFI console. This tells us allot about what firmware you are using, and the status of your software. Also please include the console's border as that indicates information as well. 
+- Please provide a picture of the rusEFI console. This tells us allot about what firmware you are using, and the status of your software. Also please include the console's border as that indicates information as well.
 
-- Please provide a picture of Tuner Studio. Just like the console, this indicates allot about your setup and which pieces of software you are using. Also please include the Tuner Studio border as that indicates information as well. 
+- Please provide a picture of Tuner Studio. Just like the console, this indicates allot about your setup and which pieces of software you are using. Also please include the Tuner Studio border as that indicates information as well.
 
-- Please provide a picture of your physical setup. Seeing how the wires are connected tells us allot about how the hip bone is connected to the leg bone, etc. It also tells us if you have connected the leg bone to the shoulder bone. 
+- Please provide a picture of your physical setup. Seeing how the wires are connected tells us allot about how the hip bone is connected to the leg bone, etc. It also tells us if you have connected the leg bone to the shoulder bone.
 
-- Please provide a copy of your logs, or specify NA for this. 
+- Please provide a copy of your logs, or specify NA for this.
 
-- Please provide a copy of your tune, or specify NA for this. 
+- Please provide a copy of your tune, or specify NA for this.
 
-- Please tell us if you have updated your discovery firmware with the STLink tool. This is not the rusEFI firmware, but the discovery firmware. 
+- Please tell us if you have updated your discovery firmware with the STLink tool. This is not the rusEFI firmware, but the discovery firmware.
 
-- Please tell us if you have installed the VCP drivers. 
+- Please tell us if you have installed the VCP drivers.
 
-- Please indicate your software pieces, commonly as noted below. The most common platform and the platform used by the primary software developer is Windows, so you are most likely to get the best support with a native Windows environment. 
+- Please indicate your software pieces, commonly as noted below. The most common platform and the platform used by the primary software developer is Windows, so you are most likely to get the best support with a native Windows environment.
 
-* Windows 10, 32bit, USB cable to STM Discovery programming port (VCP), no hardware board attached. 
-* Windows 10, 32bit, USB cable to Frankenso FTDI USB, Frankenso attached to discovery board. 
-* Windows 7, 64bit, USB cable to STM Discovery programming port (VCP), no hardware board attached. 
-* Linux, 32bit, USB cable to STM Discovery programming port (VCP), no hardware board attached. 
+- Windows 10, 32bit, USB cable to STM Discovery programming port (VCP), no hardware board attached.
+- Windows 10, 32bit, USB cable to Frankenso FTDI USB, Frankenso attached to discovery board.
+- Windows 7, 64bit, USB cable to STM Discovery programming port (VCP), no hardware board attached.
+- Linux, 32bit, USB cable to STM Discovery programming port (VCP), no hardware board attached.
 
-Tell us about your engine setup. Something like the below. 
+Tell us about your engine setup. Something like the below.
 
 |Cylinder Count|Injection Configuration|Ignition|Fuel|Aspiration|
 |-|-|-|-|-|

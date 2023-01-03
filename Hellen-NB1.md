@@ -16,8 +16,6 @@
 
 ![x](Hardware/Hellen/HellenNB1_a.jpg)
 
-
-
 ## Options Port
 
 | Pin | Type | Comments |
@@ -35,7 +33,6 @@
 | 4K | WBO Heater - | LSU 4.9 Pin 3 |
 | 4L | +12v | LSU 4.9 Pin 4 |
 
-
 **Options Port Schematic**
 
 ![x](Hardware/Hellen/H76a-Options.JPG)
@@ -51,11 +48,9 @@
 # Changelog
 
 ## rev B Nov 30, 2021
+
 * [high-side outputs protection](https://github.com/rusefi/hellen-NB1-issues/issues/25)
 
 ## rev A
 
 * good to drive, great success!
-
-
-

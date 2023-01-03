@@ -2,22 +2,26 @@
 
 ## Wiki2
 
-###Setup:
+### Setup
 
 You must have a fork of the main rusefi repo as well as a fork of the rusefi_documentation repo.
 Clone your fork of the rusefi_documentation repo:  
 `git clone git@github.com:<your username>/rusefi_documentation.git`  
 From your clone, add your wiki as a remote and push to it.
+
 ```
 git remote add wiki git@github.com:<your username>/rusefi.wiki.git
 git fetch wiki
 git push wiki
 ```
+
 This will get your wiki2 up and running. Now you can make changes, and run
+
 ```
 git commit -am "your commit message"
 git push wiki
 ```
+
 to test them on wiki2.  
 You might have to use `git push --force wiki`.  
 Also, note that the changes must be in the master branch of your fork for this to work.

@@ -1,6 +1,7 @@
 # Vault Of Honda OEM Information
 
 # OBD-1
+
 [OBD1 connector part number](OEM-connectors#64)
 
 [1993 Honda Prelude](Honda-Prelude-1993)
@@ -12,6 +13,7 @@
 [https://github.com/rusefi/proteus-Honda-OBD1-adapter/](https://github.com/rusefi/proteus-Honda-OBD1-adapter/)
 
 # OBD-2
+
 [OBD2 connector part number](OEM-connectors#104)
 
 [1996 Honda Civic](Honda-Civic-1996)
@@ -19,6 +21,7 @@
 [https://github.com/rusefi/proteus-Honda-OBD2A-adapter](https://github.com/rusefi/proteus-Honda-OBD2A-adapter)
 
 # DBC K
+
 [DBC Honda K](OEM-connectors#125-pin)
 
 # K engine plug

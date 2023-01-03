@@ -1,4 +1,4 @@
-# Abbreviations and Terminology 
+# Abbreviations and Terminology
 
 ## This document contains all of the commonly used abbreviations and terminology used by rusEFI
 
@@ -9,8 +9,8 @@ Absolute Atmosphere Pressure
 
 <details markdown="1"><summary><u>AFR</u></summary>
 
-Air Fuel Ratio - See also Lambda, Stoichiometric 
-AFR is the ratio of air to fuel, often expressed as "14.7:1" 
+Air Fuel Ratio - See also Lambda, Stoichiometric
+AFR is the ratio of air to fuel, often expressed as "14.7:1"
 </details>
 
 <details markdown="1"><summary><u>AIT</u></summary>
@@ -25,7 +25,7 @@ Shorthand for Barometric pressure
 
 <details markdown="1"><summary><u>BTDC</u></summary>
 
-Before TDC, Before Top Dead Center - See also ATDC 
+Before TDC, Before Top Dead Center - See also ATDC
 </details>
 
 <details markdown="1"><summary><u>BMEP</u></summary>
@@ -34,8 +34,8 @@ Before TDC, Before Top Dead Center - See also ATDC
 </details>  
 
 <details markdown="1"><summary><u>CAS</u></summary>
- 
-Crank Angle Sensor Also See [CPS - Wikipedia]](http://en.wikipedia.org/wiki/Crankshaft_position_sensor)
+
+Crank Angle Sensor Also See [CPS - Wikipedia]](<http://en.wikipedia.org/wiki/Crankshaft_position_sensor>)
 </details>
 
 <details markdown="1"><summary><u>CLT</u></summary>
@@ -68,7 +68,6 @@ Direct injection
 BMW variable inlet manifold resonance system  
 </details>
 
-
 <details markdown="1"><summary><u>EDIS</u></summary>
 
 Electronic Distributorless Ignition System - An older Ford ignition system that combined a set of ignition IGBTs and some electronics to assist the ECU. Obsolete on modern ECUs.
@@ -76,7 +75,7 @@ Electronic Distributorless Ignition System - An older Ford ignition system that 
 
 <details markdown="1"><summary><u>EGO</u></summary>
 
-Exhaust Gases Oxygen - see also lambda sensor, WBO2, 
+Exhaust Gases Oxygen - see also lambda sensor, WBO2,
 Often used when referring to air fuel sensors like the lambda sensor.  
 Sometimes also used as HEGO or Heated Exhaust Gas Oxygen.
 </details>
@@ -108,12 +107,12 @@ Exhaust valve closing
 
 <details markdown="1"><summary><u>EVO</u></summary>
 
-Exhaust valve opening   
+Exhaust valve opening
 </details>
 
 <details markdown="1"><summary><u>GDI</u></summary>
 
-Gasoline Direct Injection   
+Gasoline Direct Injection
 </details>
 
 <details markdown="1"><summary><u>Hall</u></summary>
@@ -136,7 +135,6 @@ a pushpull or HighLow is an output that is powered "high" (12v or 5v) and switch
 High and low resistance, used in terms of fuel injectors, normally around 14 ohms for high impedance and ~4 ohms for low.
 </details>
 
-
 <details markdown="1"><summary><u>IAT</u></summary>
 
 Intake Air Temperature
@@ -149,18 +147,18 @@ Injector Flow Rate
 
 <details markdown="1"><summary><u>IGBT</u></summary>
 
-[IGBT - Wikipedia]](http://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor)  
-A common type of transistor used for switching high power devices like ignition coils with a low power/voltage output. 
+[IGBT - Wikipedia]](<http://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor>)  
+A common type of transistor used for switching high power devices like ignition coils with a low power/voltage output.
 </details>
 
 <details markdown="1"><summary><u>IMEP</u></summary>
 
-Indicated mean effective pressure 
+Indicated mean effective pressure
 </details>
 
 <details markdown="1"><summary><u>Injector Impedance</u></summary>
 
-The resistance of the fuel injectors, see high and low Z   
+The resistance of the fuel injectors, see high and low Z
 </details>
 
 <details markdown="1"><summary><u>IPW</u></summary>
@@ -185,7 +183,7 @@ A driver that is open circuit when off and grounded to earth when switched on.
 
 <details markdown="1"><summary><u>LQFP</u></summary>
 
-Low profile quad flat package 
+Low profile quad flat package
 </details>
 
 <details markdown="1"><summary><u>MAF</u></summary>
@@ -195,7 +193,7 @@ Mass Air Flow, often used in the context of air flow or load sensors.
 
 <details markdown="1"><summary><u>MAP</u></summary>
 
-Manifold Absolute Pressure or perhaps Manifold Air Pressure, often used in the context of load sensors. 
+Manifold Absolute Pressure or perhaps Manifold Air Pressure, often used in the context of load sensors.
 </details>
 
 <details markdown="1"><summary><u>MBT</u></summary>
@@ -225,7 +223,7 @@ Negative temperature coefficient, used in context of temperature sensors and ref
 
 <details markdown="1"><summary><u>PIP</u></summary>
 
-Profile ignition pickup See [Profile Ignition Pickup - Wikipedia]](http://en.wikipedia.org/wiki/Profile_ignition_pickup)
+Profile ignition pickup See [Profile Ignition Pickup - Wikipedia]](<http://en.wikipedia.org/wiki/Profile_ignition_pickup>)
 </details>
 
 <details markdown="1"><summary><u>PFI</u></summary>
@@ -247,7 +245,6 @@ Plug and play
 
 Pedal Position Sensor
 </details>
-
 
 <details markdown="1"><summary><u>Primary Coil</u></summary>
 
@@ -298,7 +295,7 @@ A type of ignition coil that has its ignition drivers (IGBT) built into the coil
 
 <details markdown="1"><summary><u>SMD</u></summary>
 
-Surface mount device, interchangeable with SMT 
+Surface mount device, interchangeable with SMT
 </details>
 
 <details markdown="1"><summary><u>SMT</u></summary>
@@ -343,7 +340,7 @@ TE connectors, they produce the ampseal connectors on the proteus and a lot of O
 
 <details markdown="1"><summary><u>TFI</u></summary>
 
-Thick Film Ignition - Ford distributor - Likely unsupported at this time. 
+Thick Film Ignition - Ford distributor - Likely unsupported at this time.
 </details>
 
 <details markdown="1"><summary><u>TFSI</u></summary>
@@ -410,6 +407,3 @@ Variable valve timing
 
 Wide Open Throttle
 </details>
-
-
-

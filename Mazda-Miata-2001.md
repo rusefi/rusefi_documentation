@@ -4,7 +4,6 @@ See also [Mazda Miata 2001 ABS](Mazda-Miata-2001-ABS)
 
 For engine wiring see [Mazda Miata 2002](Mazda-Miata-2002)
 
-
 ## Automatic Transmission
 
 SB101 9090
@@ -52,7 +51,6 @@ A42DE
 | AR  | Blue/Red     | \+12 all times           |                                  | red      |
 | AS  | Black/Yellow | \+12 running             |                                  | red      |
 
-
 R(AE,AF)==600 ohm
 
 R(W,Z)==400 ohm
@@ -60,4 +58,5 @@ R(W,Z)==400 ohm
 ![Wiring Diagram](Images/Mazda_miata_2001_at.png)
 
 ## Gear diagram
+
 ![Gear Diagram](Images/Mazda_miata_2003_gear_position.png)

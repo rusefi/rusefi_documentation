@@ -8,7 +8,7 @@ By default Tuner Studio connectivity is using pin PC10 for TX and PC11 RX, **bau
 
 See also: [TunerStudio Console Commands](Dev-Console-Commands#tuner-studio)
 
-Please be sure to use current firmware version with current rusefi.ini project from [http://rusefi.com/build_server/rusefi_firmware.zip build_server]
+Please be sure to use current firmware version with current rusefi.ini project from [<http://rusefi.com/build_server/rusefi_firmware.zip> build_server]
 
 ## Troubleshooting Tuner Studio connectivity
 
@@ -17,6 +17,7 @@ First of all make sure that you have serial port drivers installed. STMicroelect
 ![Device Manager Ports](Images/device_manager_ports.png)
 
 You can test physical connectivity with a terminal application like putty:
+
 1. connect to the TS port
 2. type 't'
 you are expected to see a response like this:
@@ -48,15 +49,14 @@ I'd like to try to connect to Tuner Studio and see what happens. I have a USB/TT
 
 2. Once the USB TTL Serial device and drivers are installed, connect GND wire to GND on the brain board
 
-  * connect RX wire of the TTL to pin PC10
+* connect RX wire of the TTL to pin PC10
 
-  * connect TX wire of the TTL to pin PC11
+* connect TX wire of the TTL to pin PC11
 
 3. Set up the new serial port @ 38400 with 8/N/1 no flow control using your favorite terminal
 
 4. Hit button 't' on the keyboard. You should get something like this:
 
  `4073 Alive`
-
 
 This UART/real serial is just another way to connect either TunerStudio or rusEFI console to the firmware. By combining both microUsb virtual serial and TTL real serial one can connect to rusEFI with both TunerStudio and rusEFI console simultaneously.

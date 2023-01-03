@@ -3,14 +3,14 @@
 
 ![Wiring Diagram](Images/92mustangEECstock.png)
 
-| Connector/ Pin Number | OEM Color | Name / Function | 
+| Connector/ Pin Number | OEM Color | Name / Function |
 | --------------------- |------- |---------------- |
 | 1 | YEL     | +12V Hot all times      |
 | 2 |      |  |
 | 3 | GRY-BLK     | VSS+ |
 | 4 | TAN-YEL     | Tach signal |
-| 5 |      |  | 
-| 6 | PNK-ORG | VSS- | 
+| 5 |      |  |
+| 6 | PNK-ORG | VSS- |
 | 7 | LT GRN-RED     | coolant temp signal      |
 | 8 |      |  |
 | 9 | TAN-LT BLU     | Signal Ground |

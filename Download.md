@@ -1,6 +1,6 @@
 rusEFI offers complete software download bundles for multiple supported microcontrollers and boards.
 
-# IMPORTANT NOTE: TunerStudio v3.1.04 or later is REQUIRED! Please double check the version before updating your firmware, or your settings could be lost when updating!
+# IMPORTANT NOTE: TunerStudio v3.1.04 or later is REQUIRED! Please double check the version before updating your firmware, or your settings could be lost when updating
 
 ### Common Boards
 
@@ -43,7 +43,6 @@ rusEFI offers complete software download bundles for multiple supported microcon
 [Choose Your Own Adventure](Try-It)
 
 [Virtual Simulator](Virtual-simulator)
-
 
 ## FAQ
 

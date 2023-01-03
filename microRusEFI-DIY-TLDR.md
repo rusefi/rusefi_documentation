@@ -1,16 +1,17 @@
-Bare minimum microRusEFI instructions: 
-
+Bare minimum microRusEFI instructions:
 
 # Step 1 80% ready microRusEFI
+
 Fabricate "pre-populated" 80% ready microRusEFI at [https://jlcpcb.com/](https://jlcpcb.com/)
 
 You would need three files to do that - gerbers archive, BOM and placement files."
 
 Current version as of April 7, 2020 is 0.4.8
- 
-[[https://github.com/rusefi/hw_microRusEfi](https://github.com/rusefi/hw_microRusEfi)/tree/master/gerbers/0.4.8](https://github.com/rusefi/hw_microRusEfi/tree/master/gerbers/0.4.8)
+
+[[https://github.com/rusefi/hw_microRusEfi](https://github.com/rusefi/hw_microRusEfi)/tree/master/gerbers/0.4.8](<https://github.com/rusefi/hw_microRusEfi/tree/master/gerbers/0.4.8>)
 
 # Step 2 Finish assembly
+
 Order the following 8 parts:
 
 | Qty | PartNumber | Comment   |
@@ -19,7 +20,6 @@ Order the following 8 parts:
 | 1  | 614105150721     | Vertical microUSB  |
 | 2  |   PTS636 SM43 SMTR LFS   | push button  |
 | 4  | CA064X103K2RACAUTO     | capacitor array  |
-
 
 [Saved Cart on Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=dacd727e05)
 

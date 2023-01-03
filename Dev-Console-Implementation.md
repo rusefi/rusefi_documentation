@@ -20,11 +20,11 @@ Pretty much same was as with data coming from rusEFI, we have a prefix `sec` and
 TODO: unify `line` and sec `one` day?
 
 ## java classes
+
 Incoming data workflow:
 
 transport layer pushes data into EngineState.processNewData() which splits the data into jeys and value, pushing this data into the primary listener for
 the specified key. The main listener is SensorCentral which keeps track of 'Sensor' values and listeners. Another interesting key-value consumer is MessagesCentral which takes care of all the human-readable messages which end up in Messages UI console..
-
 
 Outgoing data flow:
 Outgoing data flow:

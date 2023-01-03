@@ -1,6 +1,7 @@
 Remote tuning is possible over Internet using rusEFI TunerStudio plugin if rusEFI ECU is connected to the internet.
 
 There are three ways to connect rusEFI to internet:
+
 1) "Broadcast" tab of rusEFI TunerStudio plugin.
 2) rusEFI network_connector tool running for instance on Raspberry Pi or similar Single Board Computer
 3) [rusEFI Android application](rusEFI-Android.md)

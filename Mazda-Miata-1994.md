@@ -13,6 +13,7 @@ ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few except
 ![Frankenso Set up for 1994 Miata Back](http://rusefi.com/images/Frankenso/frankenso_set_for_miata_1994_back.jpg)
 
 ## Plug 1
+
 22 pin
 
 | pos | b pos   | color      | desc                                                     | type             |
@@ -41,6 +42,7 @@ ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few except
 | 1V  |         | BRN/WHT    | Powertrain Control Module (Transmission) & Clutch Switch |                  |
 
 ## Plug 2
+
 26 pin
 
 | pos | b pos    | color      | desc                        | type                |
@@ -75,7 +77,6 @@ ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few except
 == Diagram ==
 [1990-2000 Miata System Wiring Diagrams](http://www.miataforumz.com/1990-200-Miata-Wiring/94sys.pdf)
 
-
 ![Wiring Diagram](Images/1994_miata_1.8_1.png)
 ![Wiring Diagram](Images/1994_miata_1.8_2.png)
 ![Wiring Diagram](Images/1994_miata_1.8_3.png)
@@ -83,6 +84,7 @@ ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few except
 ![Wiring Diagram](Images/1994_miata_1.8_charging.png)
 
 ## CAS
+
 Source: [http://www.rivercityroad.com/garage/cas.htm](http://www.rivercityroad.com/garage/cas.htm)
 The CAS has four wires. Two are for +12 power and ground. The other two are the output signals read by the engine computer.
 

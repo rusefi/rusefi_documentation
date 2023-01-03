@@ -34,20 +34,17 @@ Individual pages for printing:
 
 see [Mazda Miata 2001 - Automatic Transmission](Mazda-Miata-2001#automatic-transmission)
 
-
-
 ![Wiring Diagram](OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003_at.png)
 
 ## Immobilizer
 
-NALDEC NC87 67 790 MAZDA MX5 EUNOS MK2 MK2.5 BURGLAR ALARM MODULE NC8767790 is not an immobilizer 
-
+NALDEC NC87 67 790 MAZDA MX5 EUNOS MK2 MK2.5 BURGLAR ALARM MODULE NC8767790 is not an immobilizer
 
 US immobilizer
 ![Wiring Diagram](Images/2001_miata_immobilizer.png)
 
-
 ## Wiper Motor
+
 ![Wiring Diagram](Images/2003_miata_wiper_motor.png)
 
 ## Charging

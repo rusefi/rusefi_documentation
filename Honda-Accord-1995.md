@@ -1,5 +1,6 @@
 ## ECU pinout
-37820-P0A-A51 
+
+37820-P0A-A51
 
 ![Connector Pinout](Images/Accord_pinout.png)
 
@@ -92,11 +93,11 @@
 
 ## Components
 
-[Honda F22B1 Engine - Wikipedia]](http://en.wikipedia.org/wiki/Honda_F_engine#F22B1)
+[Honda F22B1 Engine - Wikipedia]](<http://en.wikipedia.org/wiki/Honda_F_engine#F22B1>)
 
 Fuel Injector 06164-P0A-A00 248cc/min Low impedance
 
-MAP sensor 37830-P05-A01 
+MAP sensor 37830-P05-A01
 
 ECT sensor 37870-PJ7-003
 
@@ -109,6 +110,7 @@ DISTRIBUTOR ASSY D4T92-04
 ignition control module 30120-P0A-A01
 
 ## TCM pinout
+
 tcm 28100-P0H-A02
 
 ## TCM 26 pin
@@ -176,8 +178,8 @@ tcm 28100-P0H-A02
 ![Wiring Diagram](Images/TCM_2.png)
 
 ## trigger signal
-Measured 845 ohms between pins B15 / B16 also same for B14 / B13 and same for B12 / 11.
 
+Measured 845 ohms between pins B15 / B16 also same for B14 / B13 and same for B12 / 11.
 
 ![Scope Screenshot](Images/Distributor_timing_obd1.jpg)
 

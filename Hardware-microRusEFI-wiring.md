@@ -33,7 +33,6 @@ These tables provide technical information about the different types of pin foun
 | [#17, #21](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=21) | sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!***
 | . | 5v   | 5V sensor supply    | 5V supply for external sensors.  200mA maximum per pin.
 
-
 ## Stepper
 
 | Pin  | Name                | Notes & Limits                                                                       |
@@ -42,8 +41,6 @@ These tables provide technical information about the different types of pin foun
 | #34 | GP2 | Stepper Coil #1 |
 | #35| GP1 | Stepper Coil #1 |
 | #43 | GP4 | Stepper Coil #2 |
-
-
 
 ## Input
 
@@ -94,11 +91,8 @@ R17=2.7K pull-up to 5v
 R12=10K
 R13=0R
 
-
 ![front hall](Hardware/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_hall_setup.jpg)
 ![front lower](Hardware/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_lower.jpg)
-
-
 
 # Extra pins
 
@@ -149,7 +143,6 @@ For HW version 0.5.0 and newer some additional GPIOs are available on testpoints
 | J16 | PD0 | CAN1_RX |
 
 Please refer to STM32F407 chip documentation for full list of alternative functions of GPIOs listed above.
-
 
 FAQ
 

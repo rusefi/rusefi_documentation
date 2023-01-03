@@ -3,7 +3,6 @@ One way to preview local changes to your fork of technical repository is to push
 
 I only know how to do this from command line
 
-
 ```
 git clone https://github.com/YOURNAME/rusefi_documentation.git
 cd rusefi_documentation

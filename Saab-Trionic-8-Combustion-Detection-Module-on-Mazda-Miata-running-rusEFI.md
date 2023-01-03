@@ -10,18 +10,18 @@
 * [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#next-steps)  
 * [External links](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#external-links)
 
-
 This data would not be gathered without help from kb1gtt, stefanst, andreika, nighthunter, hankthefourth and many others.
 
-#### In this report we show how detonation on 2003 Mazda Miata MX-5 could be detected by means of ion sensing using Saab 55352173 Combustion Detection Module (CDM) and H6T60271 Individual Ignition Coils.
+#### In this report we show how detonation on 2003 Mazda Miata MX-5 could be detected by means of ion sensing using Saab 55352173 Combustion Detection Module (CDM) and H6T60271 Individual Ignition Coils
 
 # TL;DR
+
 knock and combustion detection outputs of 55352173 are digital. Knock is reported with a series of 50us pulses, more pulses
 meaning more detonation. Combustion signal seems to be just a comparator giving logical true if ion sensing wire voltage is below certain level. First wide pulse on the combustion output seems to be flame front phase while second wide output
 seems to be showing post-flame pressure, with the middle of this pulse correlating with moment of peak cylinder pressure.
 
 Knocking - note a lot of blue line pulses (1ms timebase)
-![knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png>) 
+![knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png>)
 
 Knocking (50us timebase)
 ![knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_knock_signal.png>)
@@ -77,6 +77,7 @@ Detonation is also audible while parked, revving with brakes applied in "D" gear
 [youtube: It's knocking!](https://youtu.be/FQ9ii0eXjmA)
 
 #### Detonation signals
+
 [youtube: Four signals we see on the oscilloscope](https://youtu.be/7aafaZgr2AE)
 
 [youtube: No detonation while driving - baseline](https://youtu.be/2fNrJ7NDFm8)
@@ -117,6 +118,6 @@ Inside of 55352173 Saab Ionization Detection Module
 
 [Trionic 8](https://en.wikipedia.org/wiki/Trionic_8)
 
-[Saab 9-3 wikipedia](https://en.wikipedia.org/wiki/Saab_9-3#Second_generation_(2003%E2%80%932014)) 
+[Saab 9-3 wikipedia](https://en.wikipedia.org/wiki/Saab_9-3#Second_generation_(2003%E2%80%932014))
 
 [Spark Advance Modeling and Control](http://www.fs.isy.liu.se/Publications/PhD/99_PhD_580_LE.pdf)

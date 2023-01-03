@@ -1,17 +1,16 @@
-https://github.com/rusefi/rusefi/wiki/GM-E38
+<https://github.com/rusefi/rusefi/wiki/GM-E38>
 
-https://github.com/rusefi/rusefi/wiki/GM-E67
+<https://github.com/rusefi/rusefi/wiki/GM-E67>
 
 73+80   e38 ECM, used 07-14 trucks/suv
 
-https://www.maxxecu.com/webhelp/wirings-pluginecu-chevrolet_corvette_c6_e38_ecm.html
+<https://www.maxxecu.com/webhelp/wirings-pluginecu-chevrolet_corvette_c6_e38_ecm.html>
 
-https://lt1swap.com/E38%20ECM%20Connector%20Pinouts.htm
+<https://lt1swap.com/E38%20ECM%20Connector%20Pinouts.htm>
 
 x+y+z E67 ECM used 2007+ envoy, trailblazer, saab 97x, rainier, impala ss, and others
 
-https://www.lt1swap.com/pcm_identification.htm
-
+<https://www.lt1swap.com/pcm_identification.htm>
 
 E38 and E67 are very comparable in terms of processor speed, OS design, etc.
 
@@ -21,10 +20,9 @@ All PowerPC. There are early (2006-2009) and late (2010-2013) models of each whi
 
 If I had to make an educated guess, GM used the E67 for their GMPP (GM Performance Parts) control packs because they had more of them left over. The E38 was the more popular application by far.
 
-
 # e67
-https://github.com/rusefi/rusefi/wiki/GM-E67
 
+<https://github.com/rusefi/rusefi/wiki/GM-E67>
 
 # e38 2007 Tahoe 5.3
 
@@ -37,6 +35,5 @@ https://github.com/rusefi/rusefi/wiki/GM-E67
 ![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-4.png)
 
 ![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-5.png)
-
 
 See also [Gen-5-LS](Gen-5-LS)

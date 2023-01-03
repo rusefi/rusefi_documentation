@@ -31,7 +31,6 @@ This development board is PnP for NA6 and 94-95 Miatas.
 
 ![x](Hardware/Hellen/hellen64na6-b.jpeg)
 
-
 ## Extension Pads (rev. b)
 
 | Pin | Type | Comments |
@@ -62,7 +61,7 @@ This development board is PnP for NA6 and 94-95 Miatas.
 |   | **Inputs** |   |
 | P1 | Knock | |
 | P26 | Discrete pull down | |
-| P27 | Discrete pull down | | 
+| P27 | Discrete pull down | |
 | P28 | Discrete pull down | |
 | P33 | Analog pull up | |
 | P34 | Analog pull up | |
@@ -74,15 +73,15 @@ This development board is PnP for NA6 and 94-95 Miatas.
 | P40 | Analog pull up | |
 | P41 | Analog pull up | |
 | P42 | Discrete pull up | |
-| P43 | Discrete pull down | | 
+| P43 | Discrete pull down | |
 | P44 | Discrete pull up | |
-| P45 | Discrete pull down | | 
+| P45 | Discrete pull down | |
 |   | **MCU** |   |
-| P3 | GPIO | | 
-| P4 | GPIO | | 
-| P5 | GPIO | | 
-| P6 | GPIO | | 
-| J4 | SPI, UART, I2C, GPIO | See silkscreen and schematic for details | 
+| P3 | GPIO | |
+| P4 | GPIO | |
+| P5 | GPIO | |
+| P6 | GPIO | |
+| J4 | SPI, UART, I2C, GPIO | See silkscreen and schematic for details |
 
 ## Options Port (rev. b)
 

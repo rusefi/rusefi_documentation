@@ -8,7 +8,7 @@ In order to achieve this we have based our current designs around modern high pe
 Because the chips are small and SMD they require very skilled assembly with tools that most DIY auto enthusiasts will not have. At a minimum they require an SMD rework station, a microscope, specialist flux and solder pastes and a seriously steady hand to build.  
 
 Previously, when we offered ECUs in kit form we found that the majority of issues users were having were related to the difficulty of soldering the small components and a lot of faults and failures were due to short circuits from solder bridges or IC pins that were not completely soldered down.  
-These kind of issues are not always immediately obvious and have the potential to cause unintended results when the ECU is in use. Obviously for such a safety critical part of the car it has been the cause of some concern. 
+These kind of issues are not always immediately obvious and have the potential to cause unintended results when the ECU is in use. Obviously for such a safety critical part of the car it has been the cause of some concern.
 
-As such, it is rusEFI policy to only offer fully assembled hardware from one of our team of skilled builders. 
-Our design files are still free and open source, and you are free to use them in any way you see fit (in accordance with the license), but we recommend you use an SMT assembly service such as JLCPCB or similar to build your ECU. 
+As such, it is rusEFI policy to only offer fully assembled hardware from one of our team of skilled builders.
+Our design files are still free and open source, and you are free to use them in any way you see fit (in accordance with the license), but we recommend you use an SMT assembly service such as JLCPCB or similar to build your ECU.

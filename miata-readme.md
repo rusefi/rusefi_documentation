@@ -1,4 +1,4 @@
-.sal is file extension of Saleae v2 
+.sal is file extension of Saleae v2
 
 [Downloads](https://www.saleae.com/downloads/)
 

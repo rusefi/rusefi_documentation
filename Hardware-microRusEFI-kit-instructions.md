@@ -1,4 +1,4 @@
-### Initial kit state:
+### Initial kit state
 
 All kit PCBs come pre-programmed and verified. No firmware upload required right after soldering. Actually your microRusEFI would
 communicate via USB if you solder just USB connector or feed USB via 48 pin connector.
@@ -7,15 +7,12 @@ communicate via USB if you solder just USB connector or feed USB via 48 pin conn
 
 [VIDEO testing with test fixture](https://www.youtube.com/watch?v=pAaNUaCQaz0)
 
-
 ## HOWTO microRusEFI Kit
-
 
 [microRusEFI kit](https://www.ebay.com/itm/333517397424) comes 75% assembled - while many components are already mounted, about two dozens
 still need to be added. This includes both easy to mount components like main connector and harder to solder
 TLE8888 100-pin chip. Some soldering hints and tricks [are discussed here](https://rusefi.com/forum/viewtopic.php?t=425).
-If in doubt of your SMD skills please consider fully assembled version. 
-
+If in doubt of your SMD skills please consider fully assembled version.
 
 For component placement please use interactive BOM
 
@@ -31,14 +28,9 @@ For component placement please use interactive BOM
 
 [0.4.7](https://rusefi.com/docs/ibom/microRusEfi_R0.4.7.html)
 
-
 [Some checkpoints](Hardware/microRusEFI/Hardware_microRusEFI_0_4_7_front_checks.jpg)
 
-
 All microRusEFI kits use [MRE F4 rusEFI firmware - DOWNLOAD LATEST BUNDLE HERE](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
-
-
-
 
 [Wiring Diagram](Hardware-microRusEFI-wiring)
 
@@ -47,7 +39,6 @@ All microRusEFI kits use [MRE F4 rusEFI firmware - DOWNLOAD LATEST BUNDLE HERE](
 [0.4.8 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic_0_4_8.pdf)
 
 [0.4.7 schematics PDF](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic_0_4_7.pdf)
-
 
 [rusEFI Slack channel](https://rusefi.com/forum/viewtopic.php?f=13&t=1198) is the primary support channel.
 
@@ -67,7 +58,6 @@ VR mode front - comes pre-assembled
 VR mode back
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_vr_back.jpg)
 
-
 0.4.5, 0.4.7: For Hall, you would need to REMOVE R15 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
 
 0.4.8: For Hall, you would need to REMOVE R15&R9, C12 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
@@ -81,14 +71,11 @@ VR mode back
 0.4.7 Hall mode back
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_hall_back.png)
 
-
-
 # Board Photos
 
 ![F](Hardware/microRusEFI/Hardware_microRusEFI_0.5.3_assembled_front.jpg)
 
 ![F](Hardware/microRusEFI/Hardware_microRusEFI_0.5.0_module_assembled_front.jpg)
-
 
 Kit front:
 
@@ -102,6 +89,7 @@ Kit parts on the back:
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_assembled_back.jpg)
 
 # Diodes 0.4.7
+
 Flyback diodes orientation around version 0.4.7 - horizontal facing OPPOSITE direction
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_diodes_orientation.jpg)
 
@@ -110,9 +98,9 @@ Flyback diodes orientation around version 0.4.7 - horizontal facing OPPOSITE dir
 Flyback diodes orientation around version 0.5.2 - angles, facing SAME direction
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.5.2_kit_diodes_orientation.jpg)
 
-
 # Important details
-0.4.5, 0.4.7: 
+
+0.4.5, 0.4.7:
 JP1 needs to be TBDsee
 
 see [https://github.com/rusefi/hw_microRusEfi/issues/127](https://github.com/rusefi/hw_microRusEfi/issues/127)
@@ -136,4 +124,5 @@ Tag Connect In circuit Cable "NO Legs" Version
 ![x](Hardware/microRusEFI/TC2030_SWD.jpg)
 
 ### Note - Missing wire caps  
+
 In the even of a missing wire cap on the molex plug the correct part number is 64320-1301 and these can be easily sourced online  
