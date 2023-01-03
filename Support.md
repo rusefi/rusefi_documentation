@@ -1,21 +1,23 @@
+# Support
+
 [TL,DR](Knowledge-best-practices-and-Channels#q-i-need-help)
 
 rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises including zero promises of technical support.
 
 rusEFI has zero full time staff and most of rusEFI contributors all over the globe have day jobs and other obligations.
 
-[[https://rusefi.com/forum/](https://rusefi.com/forum/)](<https://rusefi.com/forum/>) is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online).
+[https://rusefi.com/forum/](https://rusefi.com/forum/) is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online).
 
 Please Read [How To Ask Technical Questions](https://opensource.com/life/16/10/how-ask-technical-questions)
 
 ## Q: What is Slack?
 
-A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on [[https://rusefi.com/forum/](https://rusefi.com/forum/)](<https://rusefi.com/forum/>) Slack often comes handy for follow-up discussion. Slack registration [http://rusefi.com/slack/](http://rusefi.com/slack/) and login [https://rusefi.slack.com/](https://rusefi.slack.com/)
+A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on [https://rusefi.com/forum/](https://rusefi.com/forum/) Slack often comes handy for follow-up discussion. Slack registration [http://rusefi.com/slack/](http://rusefi.com/slack/) and login [https://rusefi.slack.com/](https://rusefi.slack.com/)
 
 ## Q: Do you guys prefer short text descriptions or long text descriptions?
 
 A: We prefer longer problem descriptions with as much of supporting material as possible. Screen shots, videos etc.
-Just a reminder that to attach a screen shot to the forum post you LITERLLY need to hit under 6 keys.
+Just a reminder that to attach a screen shot to the forum post you LITERALLY need to hit under 6 keys.
 
 "ctrl-print screen" or "alt-print screen" to take a screenshot into clipboard
 "ctrl-v" to attach image from clipboard into forum post.
@@ -30,7 +32,7 @@ A: rusEFI is not specific to a particular vehicle.  The people involved own and 
 
 ### Q: I have 2009 AXP with TAMTAM.  Help me.  ("AXP" and "TAMTAM" are made up to illustrate that the particulars really don't matter here.)
 
-A: You are very unlikely to get much help asking for support like this.  rusEFI helps those that are willing to help themselves.  We do not have the have time or bandwidth to provide handholding for specific setups or features.  Unless you want to become involved in the development process as a contributor, it is very unlikely that we will "just get around to it" in the next year.
+A: You are very unlikely to get much help asking for support like this.  rusEFI helps those that are willing to help themselves.  We do not have the have time or bandwidth to provide hand holding for specific setups or features.  Unless you want to become involved in the development process as a contributor, it is very unlikely that we will "just get around to it" in the next year.
 
 Please feel free to familiarize yourself with the available open source files and submit a PR to enable the functionality required to meet your needs.
 
@@ -89,7 +91,7 @@ Tell us about your engine setup. Something like the below.
 |-|-|-|-|-|
 |1|port|distributor|gasoline/petrol|turbo|
 |2|batch|COP|diesel|supercharger|
-|4|direct|CNP|propane|Natrually Aspirated|
+|4|direct|CNP|propane|Naturally Aspirated|
 |6|no fuel control|no spark control|ethanol|
 |8||wasted spark|
 |12|other|other|other|other|
