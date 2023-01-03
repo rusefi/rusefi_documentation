@@ -63,6 +63,8 @@ Use setAcRequestState to tell rusEFI about CAN-based A/C request.
 
 #### `setIgnDisabled(value)`
 
+'setIgnDisabled' function for all kinds of cranking safety systems
+
 #### ``setAcDisabled(value)``
 
 Disable/suppress A/C functionality regardless of what and how enables it, an override kind of deal.
@@ -93,10 +95,6 @@ different people, also useful while Lua script editing is available only in TS.
 ### Engine Control
 
 #### `stopEngine`
-
-#### `setIgnDisabled`
-
-'setIgnDisabled' function for all kinds of cranking safety systems
 
 #### `setSparkSkipRatio`
 
