@@ -1,6 +1,6 @@
 # Summary
 
-This page is a general guide and general outline of how to use the breakout module. The breakout module allows you to replace an engine control unit wire by with using fuses as jumpers.
+This page is a general guide and general outline of how to use the breakout module. The breakout module allows you to replace an engine control unit wire by wire using fuses as jumpers.
 
 ![Breakout](Images/breakout.png)
 
