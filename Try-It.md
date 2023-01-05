@@ -95,6 +95,6 @@ rusEFI has a virtual option. This runs same code with same RTOS in Windows, Linu
 
 You can compile the firmware, making changes and submitting bug fixes. See [HOWTO Contribute to Firmware](HOWTO-contribute-to-firmware)
 
-### Experiment with java based dev console, tuner studio, etc
+### Experiment with java based dev console, TunerStudio, etc
 
-You can develop the tunerstudio (TS) or dev console, and you can test these java programs against the virtual rusEFI.
+You can develop the TunerStudio (TS) or dev console, and you can test these java programs against the virtual rusEFI.
