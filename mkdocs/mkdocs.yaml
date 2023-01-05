@@ -88,3 +88,4 @@ nav:
   - 'Misc':
     - 'How to convert from carburetor to EFI': how-to-convert-from-carburetor-to-EFI.md
     - 'Do I need a wideband oxygen sensor?': do-i-need-wideband-oxygen-sensor.md
+  - 'Sitemap': "https://wiki.rusefi.com/sitemap.xml"
