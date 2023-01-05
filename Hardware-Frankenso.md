@@ -341,8 +341,8 @@ In order to make cheap kits available we need to use generic eBay "2000 pcs 0805
 | R617   | high-side driver limit | 20R | 20R-22R |
 | R602   | low-side LED status current limiting | 2.7K | 2.7K-3.3K |
 | R231 R241 R251 R271 | disconnected sensor detection | 500K | 500K-1M |
-| R166 TPIC Xtal something | 2M | 1M-10M |
-| C601 C602 C603 C471 C165 C355 C356 C701 C702 C357 C104 C211 251 291 |  0.1 µF (100 nF) |  0.068 µF - 0.1 µF (68 nF - 100 nF) |
+| R166   | TPIC Xtal something | 2M | 1M-10M |
+| C601 C602 C603 C471 C165 C355 C356 C701 C702 C357 C104 C211 C251 C291 | |  0.1 µF (100 nF) |  0.068 µF - 0.1 µF (68 nF - 100 nF) |
 | R102 R103 R104 R106 | VR input primary | 5K | 4.7K-5K |
 | R108 R108 R109 R110 | VR input secondary | 5K | 5K-5.6K |
 | R111 R112 | VR optional dampening | 5K | 4.7K-5.6K |
