@@ -1,4 +1,4 @@
-.wy-table-responsive table td, .wy-table-responsive table th {
+.wy-table-responsive table td, .wy-table-responsive table.mapped-screenshot th {
 	white-space: normal;
 }
 
@@ -13,9 +13,4 @@ rst-content .toctree-wrapper > p.caption, .rst-content h1, .rst-content h2, .rst
 
 .rst-content table.mapped-screenshot td {
 	padding: 0px;
-}
-
-.wy-table-responsive {
-	float: left;
-	margin: 18px;
 }
