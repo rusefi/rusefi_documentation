@@ -73,9 +73,9 @@ Disable/suppress A/C functionality regardless of what and how enables it, an ove
 
 #### `getCalibration(name)`
 
-Gets current calibration value for specified scalar setting. For example ``getCalibration("cranking.rpm")``
+Gets current calibration value for specified scalar setting ``name``. For example ``getCalibration("cranking.rpm")``
 
-See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md) for field names.
+For complete list of possible parameter values see [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md) for field names.
 
 #### `setCalibration(name, value, needEvent)`
 
