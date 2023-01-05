@@ -5,20 +5,21 @@
 rusEFI strives too offer users as much flexibility as possible, to provide a completely user-defined control strategy for both primary and auxiliary actuators. Historically, for many years rusEFI provided a mechanism called FSIO to do just that.
 
 As of 2022, rusEFI has replaced FSIO with a popular open source [Lua scripting engine](https://en.wikipedia.org/wiki/Lua_(programming_language)) to provide this mechanism.
-Since this page was last updated, rusEFI uses [Lua](https://www.lua.org/) version 5.4 ([v5.4.4](https://github.com/rusefi/lua/blob/master/lua.h#L19]).
+Since this page was last updated, rusEFI uses [Lua](https://www.lua.org/) version 5.4 ([v5.4.4](https://github.com/rusefi/lua/blob/master/lua.h#L19])).
 
 ## Basics
 
 rusEFI provides a number of hooks to interface with the firmware and to manipulate its state and read/write the current configuration.
 
-- Configurations can be accessed via the [`getCalibration()`](#getcalibrationname) hook, and manipulated via the [`setCalibration()`](#setcalibrationname) hook.
-- Outputs from the firmware can be read via the [`getOutput()`](#getoutputname) hook, and altered via correspondingly named hooks i.e. `setOutputName()` where `OutputName` is name of the output, e.g. [`setClutchUpState()`](#setclutchupsattevalue).  See also: [Outputs](#outputs).
-- Inputs from sensors can be read directly; see [Inputs](#inputs).
-- Aspects of the engine can be controled directly; see [Engine Control](#enginecontrol).
-- Hooks for CAN bus communications; see [CAN bus](#canbus).
-- Hooks to read values from SENT sensors; see [SENT protocol](#sentprotocol).
-- A set of useful routines is provided; see [Utilities](#utilities).
+- Configurations can be accessed via the [`getCalibration()`](#getcalibrationname) hook, and manipulated via the [`setCalibration()`](#setcalibrationname-value-needevent) hook.
+- Outputs from the firmware can be read via the [`getOutput()`](#getoutputname) hook, and altered via correspondingly named hooks i.e. `setOutputName()` where `OutputName` is name of the output, e.g. [`setClutchUpState()`](#setclutchupstatevalue).  See also: [Output](#output).
+- Inputs from sensors can be read directly; see [Input](#input).
+- Aspects of the engine can be controled directly; see [Engine Control](#engine-control).
+- Hooks for CAN bus communications; see [CAN bus](#can-bus).
+- Hooks to read values from SENT sensors; see [SENT protocol](#sent-protocol).
+- A set of useful routines is provided; see [Utility](#utility).
 
+Some example uses are provided in [Examples](#examples).
 
 ## Conventions
 

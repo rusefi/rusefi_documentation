@@ -336,16 +336,17 @@ SN65HVD230 sop-8
 
 In order to make cheap kits available we need to use generic eBay "2000 pcs 0805 parts". Good news most 0805 components have a wide acceptable range.
 
-Part #/system|Schematics value|Acceptable range of values
-R617 / high-side driver limit|20R|20R-22R
-R602 / low-side LED status current limiting|2.7K|2.7K-3.3K
-R231 R241 R251 R271 - disconnected sensor detection|500K|500K-1M
-R166 TPIC Xtal something|2M|1M-10M
-C601 C602 C603 C471 C165 C355 C356 C701 C702 C357 C104 C211 251 291| 0.1uf / 100nf| 0.068uF-0.1uf / 68nf 100nf
-R102 R103 R104 R106 VR input primary|5K|4.7K-5K
-R108 R108 R109 R110 VR input secondary|5K|5K-5.6K
-R111 R112 VR optional dampening|5K|4.7K-5.6K
-c103 - absorbs energy from VR|10uf 10v|10uf 10v
+| Part # | System | Schematics value | Acceptable range of values |
+| -----: | ------ | ---------------- | -------------------------- |
+| R617   | high-side driver limit | 20R | 20R-22R |
+| R602   | low-side LED status current limiting | 2.7K | 2.7K-3.3K |
+| R231 R241 R251 R271 | disconnected sensor detection | 500K | 500K-1M |
+| R166 TPIC Xtal something | 2M | 1M-10M |
+| C601 C602 C603 C471 C165 C355 C356 C701 C702 C357 C104 C211 251 291 |  0.1 µF (100 nF) |  0.068 µF - 0.1 µF (68 nF - 100 nF) |
+| R102 R103 R104 R106 | VR input primary | 5K | 4.7K-5K |
+| R108 R108 R109 R110 | VR input secondary | 5K | 5K-5.6K |
+| R111 R112 | VR optional dampening | 5K | 4.7K-5.6K |
+| C103   | absorbs energy from VR | 10 µF/10 V | 10 µF/10 V |
 
 ## Prototyping notes
 
@@ -359,8 +360,9 @@ pin PD3 = P20 connector (same pin goes to one of low-side drivers)
 
 ## Low side switch options
 
-Part #|Notes|Tested|Qualification
-[VNS14NV04 VNS14NV04PTR-E](http://datasheet.octopart.com/VNS14NV04PTR-E-STMicroelectronics-datasheet-62337870.pdf)|35mΩ 12A|Y|AEC-Q100
-[IRF7413Z](http://datasheet.octopart.com/IRF7413ZTRPBF-International-Rectifier-datasheet-5333691.pdf)|10mΩ 13A|N|
-[VNS7NV04PTR-E](http://datasheet.octopart.com/VNS7NV04PTR-E-STMicroelectronics-datasheet-62337847.pdf)|60mΩ 6A|Y|AEC-Q100
-[AUIRF7484Q AUIRF7484QTR](http://datasheet.octopart.com/AUIRF7484QTR-International-Rectifier-datasheet-10897670.pdf)|10mΩ 14A|N|AEC-Q101
+| Part # | Notes | Tested | Qualification |
+| -----: | ----- | ------ | ------------- |
+| [VNS14NV04 VNS14NV04PTR-E](http://datasheet.octopart.com/VNS14NV04PTR-E-STMicroelectronics-datasheet-62337870.pdf)  |  35 mΩ/12A | Y | AEC-Q100 |
+| [IRF7413Z](http://datasheet.octopart.com/IRF7413ZTRPBF-International-Rectifier-datasheet-5333691.pdf) | 10 mΩ/13A | N |  |
+| [VNS7NV04PTR-E](http://datasheet.octopart.com/VNS7NV04PTR-E-STMicroelectronics-datasheet-62337847.pdf) | 60 mΩ/6A | Y | AEC-Q100 |
+| [AUIRF7484Q AUIRF7484QTR](http://datasheet.octopart.com/AUIRF7484QTR-International-Rectifier-datasheet-10897670.pdf) | 10 mΩ/14A | N | AEC-Q101 |
