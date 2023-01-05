@@ -28,7 +28,8 @@
 
 ## Changelog
 
-rev E: 
+rev E:
+
 * SD card fixed
 * [CRANKs/CAMs input hookup points](https://github.com/rusefi/alphax-4chan/issues/61)
 

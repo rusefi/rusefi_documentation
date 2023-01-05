@@ -51,4 +51,3 @@ If you have "2" selector accelerate to 20 mph/32kmh and drive for hundred meters
 # 20 mph in 3st gear
 
 If you have "3" selector accelerate to 20 mph/32kmh and drive for hundred meters.
-
