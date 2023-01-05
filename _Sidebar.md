@@ -55,7 +55,6 @@
 
 - [rusEFI Hardware Overview](Hardware)
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
-- [rusEFI Assembly Completeness Chart](Completeness-Chart)
 
 ### Boards
 

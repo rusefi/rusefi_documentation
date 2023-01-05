@@ -4,7 +4,6 @@
 
 <details><summary><u>Universal Info</u></summary>
 
-* [Hardware completeness options](Completeness-Chart)
 * [Microcontroller selection](selecting-open-source-ecu-microcontroller)
 * [Hardware development guidelines](Dev-Hardware-Guidelines)
 
