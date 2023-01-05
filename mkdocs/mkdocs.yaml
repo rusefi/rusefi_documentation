@@ -59,7 +59,7 @@ nav:
     - 'Electronic Throttle': Electronic-Throttle-Body-Configuration-Guide.md
     - 'Knock Sensing': knock-sensing.md
     - 'Variable Valve Timing': VVT.md
-    - 'FSIO - Flexible Sweet Input Output': FSIO.md
+    - 'Lua': Lua-Scripting.md
     - 'GDI': GDI-status.md
     - 'Digital Dash': Digital-Dash.md
   - 'Hardware':
