@@ -65,7 +65,6 @@ nav:
   - 'Hardware':
     - 'rusEFI Hardware Overview': Hardware.md
     - 'Wiring & Connectivity Overview': FAQ-Basic-Wiring-and-Connections.md
-    - 'Kit Instructions': Pages-Kit-Instructions.md
     - 'Boards':
       - 'Hellen': Hellen-One-Platform.md
       - 'Proteus': Proteus.md
