@@ -1,11 +1,24 @@
 # Lua Scripting
 
+## Introduction
+
+rusEFI strives too offer users as much flexibility as possible, to provide a completely user-defined control strategy for both primary and auxiliary actuators. Historically, for many years rusEFI provided a mechanism called FSIO to do just that.
+
+As of 2022, rusEFI has replaced FSIO with a popular open source [Lua scripting engine](https://en.wikipedia.org/wiki/Lua_(programming_language)) to provide this mechanism.
+Since this page was last updated, rusEFI uses [Lua](https://www.lua.org/) version 5.4 ([v5.4.4](https://github.com/rusefi/lua/blob/master/lua.h#L19]).
+
 ## Basics
 
-A proper ECU has to offer users as much flexibility as possible, meaning a completely user-defined control strategy for both primary and auxiliary actuators. For many years rusEFI had FSIO to do just that.
+rusEFI provides a number of hooks to interface with the firmware and to manipulate its state and read/write the current configuration.
 
-As of 2022, rusEFI has replaced FSIO with a popular open source [Lua scripting engine](https://en.wikipedia.org/wiki/Lua_(programming_language))
-We use [Lua](https://www.lua.org/) version 5.4.3
+- Configurations can be accessed via the [`getCalibration()`](#getcalibrationname) hook, and manipulated via the [`setCalibration()`](#setcalibrationname) hook.
+- Outputs from the firmware can be read via the [`getOutput()`](#getoutputname) hook, and altered via correspondingly named hooks i.e. `setOutputName()` where `OutputName` is name of the output, e.g. [`setClutchUpState()`](#setclutchupsattevalue).  See also: [Outputs](#outputs).
+- Inputs from sensors can be read directly; see [Inputs](#inputs).
+- Aspects of the engine can be controled directly; see [Engine Control](#enginecontrol).
+- Hooks for CAN bus communications; see [CAN bus](#canbus).
+- Hooks to read values from SENT sensors; see [SENT protocol](#sentprotocol).
+- A set of useful routines is provided; see [Utilities](#utilities).
+
 
 ## Conventions
 
@@ -14,7 +27,7 @@ We use [Lua](https://www.lua.org/) version 5.4.3
 
 ## Writing Your Script
 
-The entire Lua script is read at startup, then a function called `onTick` is called periodically by rusEFI.
+The entire Lua script is read at startup, then a script function called `onTick` is called periodically by rusEFI.
 
 Here is a simple script you can run to illustrate this behavior:
 
@@ -39,7 +52,7 @@ function onTick()
 end
 ```
 
-## Function Reference
+## Hooks/Function Reference
 
 ### User Settings
 
@@ -65,11 +78,11 @@ Use setAcRequestState to tell rusEFI about CAN-based A/C request.
 
 'setIgnDisabled' function for all kinds of cranking safety systems
 
-#### ``setAcDisabled(value)``
+#### `setAcDisabled(value)`
 
 Disable/suppress A/C functionality regardless of what and how enables it, an override kind of deal.
 
-#### ``getTimeSinceAcToggleMs``
+#### `getTimeSinceAcToggleMs()`
 
 #### `getCalibration(name)`
 
@@ -81,7 +94,7 @@ For complete list of possible parameter values see [https://github.com/rusefi/ru
 
 Sets specified calibration setting to specified value. Fires calibration change event depending on needEvent parameter.
 
-For example ``setCalibration("cranking.rpm", 900, false)``
+For example `setCalibration("cranking.rpm", 900, false)`
 
 #### `findSetting(name, defaultValue)`
 
@@ -94,30 +107,40 @@ different people, also useful while Lua script editing is available only in TS.
 
 ### Engine Control
 
-#### `stopEngine`
+#### `stopEngine()`
 
-#### `setSparkSkipRatio`
+#### `setSparkSkipRatio(ratio)`
 
 setSparkSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
 setSparkSkipRatio(0.5) would skip half of ignition events. We never skip two consecutive ignitions.
 
-#### `setIdleAdd`
+#### `setIdleAdd(percent)`
 
-#### `setFuelAdd`
+Percent to add to idle (incl. open loop).
 
-Sorry not finished :(
-
-#### `setFuelMult`
+#### `setFuelAdd(amount)`
 
 Sorry not finished :(
 
-#### `setBoostAdd`
+Amount of fuel mass to add to injection, scaled by fuel multiplier ([`setFuelMult()`](#setfuelmultmultiplier)); initially 0.
+
+#### `setFuelMult(coeff)`
+
+Sorry not finished :(
+
+Amount to scale added fuel mass by; initially 1.0;
+
+#### `setBoostTargetAdd(amount)`
 
 Additive for closed loop target boost pressure.
 
-#### `setBoostMult`
+#### `setBoostTargetMult(coeff)`
 
 Multiplier for closed loop target boost pressure.
+
+#### `setBoostDutyAdd(amount)`
+
+Additive for open loop target boost pressure.
 
 #### `setTimingAdd(angle)`
 
@@ -127,9 +150,9 @@ todo add details but ready to test!
 
 todo add details but ready to test!
 
-#### `setEtbAdd(extraEtb)`
+#### `setEtbAdd(percent)`
 
-extraEtb `10` for 10%
+percent: e.g. `10` for 10%
 
 ### CAN bus
 
@@ -174,6 +197,16 @@ function onCanRx(bus, id, dlc, data)
     -- Do things with CAN data!
 end
 ```
+
+### SENT protocol
+
+#### `getSentValue(index)`
+
+TODO: document parameters, response
+
+#### `getSentValues(index)`
+
+TODO: document parameters, response
 
 ### Utility
 
