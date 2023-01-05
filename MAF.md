@@ -52,9 +52,9 @@ Using this method rusEFI is able to directly measure the air flow into an engine
 
 To tune rusEFI using the MAF is probably the quickest and easiest method provided you have a working MAF sensor and the correct information to input in the Transfer Function Table.
 
-The first thing to do is input the voltage (or current) to Kg/h information into the Transfer Function Table in tuner studio.
+The first thing to do is input the voltage (or current) to Kg/h information into the Transfer Function Table in TunerStudio.
 
-Secondly you will need to decide what Air/Fuel ratio you would like your engine to run at and input this into the AFR table in tuner studio.
+Secondly you will need to decide what Air/Fuel ratio you would like your engine to run at and input this into the AFR table in TunerStudio.
 For a first start a value of 14 is perfectly acceptable for gasoline.
 This table is the primary source of the desired fuel mixture, it will be this table that is tuned to decide the engines target AFR.
 A future update will make this fueling table dynamic so that an input % of ethanol in the main fueling dialog will change the fuel density and thus the required fuel mass injected. The result of this will be that users can leave this table tuned as though it were for pure gasoline (14.7:1 stoiciometric) and the % ethanol input will make sure the fuelling stays at the same Lambda value.

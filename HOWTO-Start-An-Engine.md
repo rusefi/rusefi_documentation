@@ -20,7 +20,7 @@ Cranking - Step one.
 ## Verify your crank sensor reads the trigger wheel  
 
 This can be done before setting anything in the ECU and should be the first test done.  
-To do this go into tuner studio and disable the fuel injection and the ignition under each of the settings tabs.  
+To do this go into TunerStudio and disable the fuel injection and the ignition under each of the settings tabs.  
 
 - Insert picture of each of the settings tabs  
 Next go into the high speed logger and simply crank the engine. I recommend the rusEFI console for this job as it has a really good logger in the "engine sniffer" tab.
