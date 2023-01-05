@@ -59,14 +59,12 @@ nav:
     - 'Electronic Throttle': Electronic-Throttle-Body-Configuration-Guide.md
     - 'Knock Sensing': knock-sensing.md
     - 'Variable Valve Timing': VVT.md
-    - 'FSIO - Flexible Sweet Input Output': FSIO.md
+    - 'Lua': Lua-Scripting.md
     - 'GDI': GDI-status.md
     - 'Digital Dash': Digital-Dash.md
   - 'Hardware':
     - 'rusEFI Hardware Overview': Hardware.md
     - 'Wiring & Connectivity Overview': FAQ-Basic-Wiring-and-Connections.md
-    - 'rusEFI Assembly Completeness Chart': Completeness-Chart.md
-    - 'Kit Instructions': Pages-Kit-Instructions.md
     - 'Boards':
       - 'Hellen': Hellen-One-Platform.md
       - 'Proteus': Proteus.md
