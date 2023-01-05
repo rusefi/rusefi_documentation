@@ -1,6 +1,6 @@
 Hellen? сложнее, надо писать в [чатик](https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB)
 
-Тут у нас русская версия [https://shop.rusefi.com/](https://shop.rusefi.com/) - Авито всё сложно
+Тут у нас русская версия [https://shop.rusefi.com/](https://shop.rusefi.com/)
 
 У нас есть собранные microRusEFI в Питере. <https://rusefi.com/index.html#microrusefi>
 
