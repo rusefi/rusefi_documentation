@@ -1,6 +1,6 @@
 # Summary
 
-This page is a general guide and general outline of how to use the breakout module. The breakout module allows you to replace an engine control unit wire by with using fuses as jumpers.
+This page is a general guide and general outline of how to use the breakout module. The breakout module allows you to replace an engine control unit wire by wire using fuses as jumpers.
 
 ![Breakout](Images/breakout.png)
 
@@ -32,7 +32,7 @@ Uses breakout module noted [here](http://rusefi.com/forum/viewtopic.php?f=4&t=45
 * Cut OEM harness for one fuel channel and connect it to the breakout module. With OEM connections, verify the breakout module operates as expected on the OEM setup.
 * Connect rusEFI fuel channel to breakout module.
 * Remove fuse for OEM fuel channel and put it on rusEFI fuel channel. This can be done with running engine, but keep in mind no fuel means no power on that cyl, it will run a bit rough.
-* Connect via tuner studio, and tune your fuel channel until the engine runs smoothly. (You may be able to connect the rusEFI analog signals to the fuel channels and measure that you are generating the same fuel pulse.)
+* Connect via TunerStudio, and tune your fuel channel until the engine runs smoothly. (You may be able to connect the rusEFI analog signals to the fuel channels and measure that you are generating the same fuel pulse.)
 * Continue until you have fuel control for one channel that matches perfectly for the entire RPM, loads, ect.
 
 ### Move one ignition channel
@@ -40,7 +40,7 @@ Uses breakout module noted [here](http://rusefi.com/forum/viewtopic.php?f=4&t=45
 * Cut OEM harness for one ignition channel and connect it to the breakout module. With OEM connections, verify the breakout module operates as expected on the OEM setup. Beware, ignition signals on the primary side of the coil can get in excess of 500V, you need to capture signal level signals, not the primary side of the coil. The coil primary will destroy the discovery. The discovery board needs an igniter to drive the primary side of the coil.
 * Connect rusEFI ignition channel to breakout module.
 * Remove fuse for OEM fuel channel and put it on rusEFI fuel channel. This should be done when the engine is off. Moving this wire when operational will likely damage the ignition system.  
-* Connect via tuner studio, and tune your ignition channel until the engine runs smoothly. (You may be able to connect the rusEFI analog signals to the  channels and measure that you are generating the same fuel pulse.)
+* Connect via TunerStudio, and tune your ignition channel until the engine runs smoothly. (You may be able to connect the rusEFI analog signals to the  channels and measure that you are generating the same fuel pulse.)
 * Continue until you have fuel control for one channel that matches perfectly for the entire RPM, loads, ect.
 
 ### Move all fuel and ignition
