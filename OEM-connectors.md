@@ -38,10 +38,13 @@ Here are some OEM connector part numbers. Bosch & Siemens, German and Japanese, 
 
 ## 24 pin
 
-Popular aftermarket connector
-Benelli TNT 1130 (todo: add photo & link)
+Popular aftermarket connector HCCPHPE24 from APTIV (FORMERLY DELPHI FCI)  
 
-APTIV (FORMERLY DELPHI) HCCPHPE24BKA90F & HCCPHPE24GYA90F
+Benelli TNT 1130 Walbro ECU (all model years)
+Black Key: A Part: HCCPHPE24BKA90F
+Grey  Key: B Part: HCCPHPE24GYB90F
+
+![24 Pin connector](Hardware/connectors/24_pin_HCCPHPE24.png)
 
 ## 30 pin
 
