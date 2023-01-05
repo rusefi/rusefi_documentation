@@ -18,6 +18,17 @@
 - [Slack](HOWTO-join-slack-channel)
 - [HOWTO-help-rusEFI](HOWTO-help-rusEFI)
 
+## Hardware
+
+- [rusEFI Hardware Overview](Hardware)
+- [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
+
+### Boards
+
+- [Proteus](Proteus)
+- [microRusEFI](Hardware-microRusEFI)
+- [Hellen](https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform)
+
 ## Setup Guides
 
 - [Trigger - Configuration](Trigger-Configuration-Guide)
@@ -25,22 +36,9 @@
 - [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)
 - [Logging](Logging-Guide)
 
-## Pages
-
-- [Fuel](Pages-Fuel)
-- [Flex Fuel](Flex-Fuel)
-- [Hardware](Pages-Hardware)
-- [Sensors and Actuators](Pages-Sensors-and-Actuators)
-- [Ignition](Pages-Ignition)
-- [Software](Pages-Software)
-- [rusEFI Project](rusEFI-project)
-- [How To](Pages-HOWTO)
-
 ## Features
 
-- [rusEFI project overview](rusEFI-project)
 - [rusEFI Online](Online)
-- [rusEFI virtual simulator](Virtual-simulator)
 - [Fueling](Fuel-Overview)
 - [Multispark](Multi-Spark)
 - [Cranking](Cranking)
@@ -49,19 +47,8 @@
 - [Variable Valve Timing](VVT)
 - [Lua Scripting](Lua-Scripting)
 - [GDI](GDI-status)
+- [rusEFI virtual simulator](Virtual-simulator)
 - [Digital Dash](Digital-Dash)
-
-## Hardware
-
-- [rusEFI Hardware Overview](Hardware)
-- [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
-- [rusEFI Assembly Completeness Chart](Completeness-Chart)
-
-### Boards
-
-- [Proteus](Proteus)
-- [microRusEFI](Hardware-microRusEFI)
-- [Hellen](https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform)
 
 ### Plug & Play Hardware
 
@@ -70,6 +57,16 @@
 - [Hellen Miata 99-00](Hellen-NB1)
 - [Hellen Miata 01-05 VVT](Hellen-NB2)
 - [Creating a PnP PCB](HOWTO-Make-a-PnP-board)
+
+## Pages
+
+- [Fuel](Pages-Fuel)
+- [Flex Fuel](Flex-Fuel)
+- [Sensors and Actuators](Pages-Sensors-and-Actuators)
+- [Ignition](Pages-Ignition)
+- [Software](Pages-Software)
+- [rusEFI Project](rusEFI-project)
+- [How To](Pages-HOWTO)
 
 ## Contributors
 
