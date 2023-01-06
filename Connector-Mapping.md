@@ -1,3 +1,5 @@
+# Connector Mapping
+
 rusEFI connector mapping is a framework which takes ECU connector photo and pinout metadata file in [YAML](https://en.wikipedia.org/wiki/YAML) format and produces [interactive pinouts](https://rusefi.com/docs/pinouts/), PDF and TunerStudio project .ini.
 
 Input files are located in "connectors" folder of corresponding board configuration folder, for example: [firmware/config/boards/microrusefi/connectors](https://github.com/rusefi/rusefi/tree/master/firmware/config/boards/microrusefi/connectors)
@@ -27,6 +29,6 @@ The 'info' section contains information which is used to generate the interactiv
 
 The generation of the interactive pinouts is invoked nightly or could be requested on demand.
 
-# Best Practices
+## Best Practices
 
 YAML is all about space indentation. [http://www.yamllint.com/](http://www.yamllint.com/) is a great online YAML validator.

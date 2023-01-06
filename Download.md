@@ -1,8 +1,11 @@
+# Download
+
 rusEFI offers complete software download bundles for multiple supported microcontrollers and boards.
 
-# IMPORTANT NOTE: TunerStudio v3.1.04 or later is REQUIRED! Please double check the version before updating your firmware, or your settings could be lost when updating
+**IMPORTANT NOTE: TunerStudio v3.1.04 or later is REQUIRED!
+Please double check the version before updating your firmware, or your settings could be lost when updating**
 
-### Common Boards
+## Common Boards
 
 [microRusEFI 0.4 and newer (STM32F4)](microRusEFI-Manual#software)
 
@@ -10,7 +13,7 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 [STM32 Discovery Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_default.zip)
 
-### Hellen Family Boards
+## Hellen Family Boards
 
 [Nissan 121 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
 
@@ -22,7 +25,7 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 [Miata NA6 64 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
 
-### Uncommon Boards
+## Uncommon Boards
 
 [Discovery stm32f407 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle.zip)
 
@@ -32,13 +35,13 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 [Proteus 0.2 and older (STM32F7)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_legacy.zip)
 
-# Advanced
+## Advanced
 
 [Older Releases](https://github.com/rusefi/rusefi/releases/)
 
 [Snapshot builds](https://rusefi.com/build_server/)
 
-# [Quick Start](HOWTO-quick-start)
+**[Quick Start](HOWTO-quick-start)**
 
 [Choose Your Own Adventure](Try-It)
 
@@ -46,6 +49,6 @@ rusEFI offers complete software download bundles for multiple supported microcon
 
 ## FAQ
 
-# Q: I see something interesting was just changed in the firmware? How do I use latest version?
+**Q: I see something interesting was just changed in the firmware? How do I use latest version?**
 
 A: Most snapshot builds take about 30 minutes to get updated on at [Snapshot builds](https://rusefi.com/build_server/)

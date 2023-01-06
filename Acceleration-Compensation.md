@@ -11,17 +11,17 @@ rusEFI has implemented several strategies that attempt to compensate for this ph
 It is important to note that the Acceleration Compensation is not intended to increase the amount of fuel in order to increase power during acceleration - that is the purpose of the AFR table or VE table, whereas this compensation is purely intended to correct for the fuel dropping out of suspension.  
 N.B. This is also why I refer to it as "Acceleration Compensation" rather than "Acceleration Enrichment", as the second term implies the wrong purpose.
 
-# TPS based
+## TPS based
 
 The simplest method, this uses the change in TPS position over time to decide on an additional quantity of fuel to inject.  
 It is most similar to a carburetors accelerator pump in operation.
 
-# Wall Wetting
+## Wall Wetting
 
 This is a more sophisticated method that was developed in the 1980s by the Ford Motor Company. It uses a simple model to estimate the amount of fuel that is dropping out of suspension and the time it takes to re-evaporate.  
 This is a more accurate method but requires a little more knowledge to tune.
 
-# Engine Load based
+## Engine Load based
 
 [//]: # "To do by someone with more understanding of this implementation"
 

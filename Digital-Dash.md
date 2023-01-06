@@ -1,3 +1,5 @@
+# Digital Dash
+
 We have 4 versions of Digital Dash currently
 
 A-- The Quickest and easiest Digital Dash is TunerStudioMS... And  is described Below
@@ -8,13 +10,13 @@ C-- Third is a Custom Digital Gauge cluster... [Link HERE](https://customgt6.com
 
 D— Fourth is Android tablet or phone running the [Real Dash](http://realdash.net/index.php) App
 
-# How to set up a Raspberry Pi with TunerStudio as a Digital Dash
+## How to set up a Raspberry Pi with TunerStudio as a Digital Dash
 
 Click the image to watch a video of a Raspberry Pi rusEFI connected display. Early "proof of concept"
 
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/5051341/125208727-ee206800-e259-11eb-9600-6cf742fba5a6.jpg)](https://www.youtube.com/watch?v=a0mdhANrIhw "PiDash rusEFI")
 
-# Hardware Needed
+## Hardware Needed
 
 Component|Link
 -------|----------
@@ -29,17 +31,17 @@ Controls|[Keyboard and Mouse](https://www.amazon.com/Logitech-Wireless-Keyboard-
 
 2. Extract to your home directory
 
-     a. Default home directory is "pi", open terminal and type: "ls /home/pi/TunerStudioMS" (if your home directory isnt "pi" change to match your home directory)
+   a. Default home directory is "pi", open terminal and type: "ls /home/pi/TunerStudioMS" (if your home directory isnt "pi" change to match your home directory)
 
-     b. Ensure that "TunerStudio.sh" shows up in the results. If it is not, re-install
+   b. Ensure that "TunerStudio.sh" shows up in the results. If it is not, re-install
 
-Note: you MAY need to install JAVA... if so, type
+      Note: you MAY need to install JAVA... if so, type
 
-`sudo apt-get install openjdk-8-jre`
+      `sudo apt-get install openjdk-8-jre`
 
-To set default Java runtime
+      To set default Java runtime
 
-`sudo update-alternatives --config java`
+      `sudo update-alternatives --config java`
 
 3. Create link to start TunerStudio:
 

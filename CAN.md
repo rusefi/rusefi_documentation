@@ -1,4 +1,4 @@
-Overview of CAN usage and IDs used by rusEFI
+# Overview of CAN usage and IDs used by rusEFI
 
 * rusEFI WBO two way communication 0xEF50000 0x190
 * rusEFI WBO bootloader
@@ -8,11 +8,11 @@ Overview of CAN usage and IDs used by rusEFI
 * rusEFI CAN GPIO
 * rusEFI [TS over CAN](TS-over-CAN) 0x100 0x102
 
-# Software
+## Software
 
 [Man-in-the-middle](Man-in-the-middle)
 
-# Hardware options
+## Hardware options
 
 [fake looking like Vasya](https://rusefi.com/forum/viewtopic.php?f=13&t=2243)
 

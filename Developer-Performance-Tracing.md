@@ -1,3 +1,5 @@
+# Performance Tracing
+
 rusEFI has build-in provisions for performance tracing
 
 Whenever certain events occur, a few things are logged to a buffer:

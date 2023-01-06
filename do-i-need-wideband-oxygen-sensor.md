@@ -1,4 +1,4 @@
-## Q: dDo i need wideband oxygen sensor?
+# Q: Do i need wideband oxygen sensor?
 
 ## The short answer is yes
 

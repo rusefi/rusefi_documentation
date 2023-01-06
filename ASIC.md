@@ -1,7 +1,8 @@
+# ASIC
 
 Overview of state of integration between rusEFI and all kinds of ASICs.
 
-# Low side+
+## Low side+
 
 ### Mostly implemented
 
@@ -20,14 +21,14 @@ Overview of state of integration between rusEFI and all kinds of ASICs.
 | PT2000 | Low impedance (fast) solenoid control: GDI | We only have dev board, no code |
 |   |   |   |
 
-# Sensors
+## Sensors
 
 | Part | Function | Notes |
 |------|----------|--------------|
 | LPS25HB | Barometric pressure sensor | Installed on Proteus v0.5+ |
 |   |   |   |
 
-# Misc
+## Misc
 
 ### Implemented but known limitations
 

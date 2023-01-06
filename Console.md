@@ -12,7 +12,7 @@ To get the console working follow the below procedure, which assumes you have lo
   * '''Linux'''
     * ''Ubuntu (11.10)'' - plug in the "console" USB cable, then check the message log with this command.
 
-      ```
+      ```shell
       $ dmesg
       ...
       [10572.620088] usb 5-1: new full speed USB device number 5 using uhci_hcd
@@ -59,11 +59,11 @@ Currently analog chart can display one of these two things
 
 1. trigger signal shape. the value consists of the trigger signal index and fall/rise type of the event
 
-`set_analog_chart_mode 1`
+   `set_analog_chart_mode 1`
 
 2. MAP sensor signal
 
-`set_analog_chart_mode 2`
+   `set_analog_chart_mode 2`
 
 ## Digital Chart
 

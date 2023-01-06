@@ -1,4 +1,4 @@
-### Install firmware on Frankenstein, Frankenso, and Discovery
+# Install firmware on Frankenstein, Frankenso, and Discovery
 
 1. Connect the stm32f4discovery ('brain board') to the IO board, place jumpers like XYZ, then connect to a PC with a mini-USB cable. Mini-USB cable is used to power and to program the brain board. See below procedure found [here](http://rusefi.com/forum/viewtopic.php?f=5&t=210&start=23)
 

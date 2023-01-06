@@ -1,3 +1,5 @@
+# Code Style Guidelines
+
 * Reduce visibility where possible
 
 * Avoid magic constants
@@ -10,7 +12,7 @@ We make with -std=c++11 see [the Makefile](https://github.com/rusefi/rusefi/blob
 
 Only the simplest, two-line if/for/while should not have the curly brackets. Anything more than two lines should have {}.
 
-```
+```c
 if (plain_condition)
    oneLineStatement();
 

@@ -1,3 +1,5 @@
+# AlphaX 8Chan
+
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-8chan/)
 
 [Issue tracker & hardware files](https://github.com/rusefi/alphax-8chan)
