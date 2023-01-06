@@ -1,6 +1,8 @@
+# HOWTO Set up Launch Control
+
 You can find this feature under Controller > Launch Control
 
-![](Images/Ts_launch_control.png)
+![launch control settings](Images/Ts_launch_control.png)
 
 Configuration Fields:
 

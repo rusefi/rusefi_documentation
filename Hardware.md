@@ -1,3 +1,5 @@
+# Hardware
+
 Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 microcontrollers.
 We also have Kinetis and Cypress prototypes.
 
@@ -12,41 +14,41 @@ As of May 2021 microRusEFI and Proteus are sold as ECU development boards. See [
 | [Frankenso](Hardware-Frankenso) retired| + Most customizable board<br/>+ larger 154x152mm 4-layer board requires a Medium Box shipping rate<br/>+ on-board power supply<br/>+ 20x4 LCD screen<br/>+ joystick<br/>+ works both with external brain boards and on-board stm32 chip<br/>+ knock sensor chip<br/>+ used Denso OEM cases available | on-board 64 pin connector<br/>SD card, USB/TTL, CAN<br/>open source hardware | 2014 | Flexible - probably 8 cylinder max recommended |
 | [Frankenstein](https://rusefi.com/forum/viewtopic.php?f=4&t=359) retired | + Simplest rusEFI board<br/>+ our smaller two-layer board<br/>+ Small Box shipping rate<br/>+ low price<br/>- external 5v power supply required<br/>- external brain board required | no on-board connector (wired)<br/>SD card, USB/TTL, CAN<br/>open source hardware | 2014 | Flexible - probably 8 cylinder max recommended. No plans to offer assembled units. |
 
-### Q: How to select a board?
+## Q: How to select a board?
 
 A: History shows that fully assembled boards are the safest way to start. History shows
 that 80% of the kits are never assembled. As of May 2022 we have microRusEFI and Proteus [in stock](https://shop.rusefi.com/). New fabrication of the assembled Frankenso board is
 currently not planned.
 
-### Q: What else matters?
+## Q: What else matters?
 
 A: Types and total count of crank and camshaft positions sensors is the next
 important question. microRusEFI unfortunately only supports one VR shaft input maximum with two inputs total.
 
 Frankenso supports up to 2 VR or 2 Hall shaft position sensors. Prometheus supports TBD. Proteus supports TBD.
 
-### Q: why stm32?
+## Q: why stm32?
 
 A: [selecting-open-source-ecu-microcontroller](selecting-open-source-ecu-microcontroller)
 
-### Q: This is all very cool but you guys do not have a Plug&Play for my Trabant. I think I will go and make a new rusEFI board just for my Trabant
+## Q: This is all very cool but you guys do not have a Plug&Play for my Trabant. I think I will go and make a new rusEFI board just for my Trabant
 
 A: At rusEFI we love cool new projects, but we are a really small team and only have so much time to work on rusEFI.  
 We already have lots of different hardware configurations and we would suggest using one of the existing wire in versions.  
 Nobody is stopping you from making your own board, but we cannot guarantee any support for that board or assistance with building it.  
 If you proceed then please consider making a P&P adapter board design based on Hellen, Proteus, or microRusEFI.
 
-### Q: What EDA are you guys using for your open source hardware?
+## Q: What EDA are you guys using for your open source hardware?
 
 A: rusEFI preference at the moment is KiCad 6. A few legacy pieces are still using KiCad 4 and 5. While many EDAs have many cool features KiCad gives rusEFI uniformity and consistency.
 
 See also [https://github.com/rusefi/rusefi/tree/master/hardware](https://github.com/rusefi/rusefi/tree/master/hardware)
 
-### Q: What pin do I use for tachometer output?
+## Q: What pin do I use for tachometer output?
 
 A: There is no single right answer. It really depends on what kind of electrical signal is your tachometer expecting. Is it low-side driven? +5v logic signal driven? +12v logic signal driven?
 
-### Q: What are these four status LEDs close to main processor?
+## Q: What are these four status LEDs close to main processor?
 
 A: Many rusEFI boards have four status LEDs. All four LEDs blink on start-up just to confirm life.
 
@@ -57,14 +59,14 @@ Red CRITICAL (previously known as FATAL) error means you have a CRITICAL error, 
 
 Green LED on many rusEFI boards is RUNNING. Off if engine is stopped, blinks if engine is cranking, solid if engine is running.
 
-### Q: what about many other LEDs which seem to be blinking in sync with injectors or coils?
+## Q: what about many other LEDs which seem to be blinking in sync with injectors or coils?
 
 A: Following Frankenso tradition, Injector LEDs are RED. Ignition LED are blue, power LED are green.
 
-### Q: Why mini/micro/type C on MRE?
+## Q: Why mini/micro/type C on MRE?
 
 A: USB choice dictated by price and availability. If it changes MRE page will note.
 
-### Q: Exiting, what soldering iron is best?
+## Q: Exiting, what soldering iron is best?
 
 A: [FAQ Why No Self Assembly](FAQ-Why-No-Self-Assembly/)

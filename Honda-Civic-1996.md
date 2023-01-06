@@ -1,3 +1,5 @@
+# 1996 Honda Civic
+
 [Pinout Spreadsheet](https://docs.google.com/spreadsheets/d/1NOu2Atvwz7war0sTAcp2MZZhsYdLY6VmwkuC-S1-yEU)
 
 [Proteus Honda OBD2A Adapter](https://github.com/rusefi/proteus-Honda-OBD2A-adapter/)

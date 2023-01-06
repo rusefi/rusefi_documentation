@@ -1,3 +1,5 @@
+# Flex Fuel
+
 ## Sensor and Wiring
 
 The following Sensors are known to work
@@ -12,7 +14,7 @@ GM part numbers
 
 The Pinout is shown below
 
-![](https://i.imgur.com/RGOmlZq.png)
+![pinout](https://i.imgur.com/RGOmlZq.png)
 
 ## Sensor Setup
 
@@ -20,7 +22,7 @@ Connect your sensor to a digital input on the ECU. Then, pick the pin in TunerSt
 
 (technical details - we expect a pull-up on the ECU, about 3K, somewhere 1K to 5K)
 
-![](https://i.imgur.com/a3NWAhn.png)
+![sensor settings](https://i.imgur.com/a3NWAhn.png)
 
 ## Fueling Setup
 
@@ -30,7 +32,7 @@ That's it! The firmware will now automatically vary the fuel's stoichiometric ra
 
 **It's recommended to switch to lambda mode (`File -> Vehicle Projects -> Project Properties -> Settings -> Lambda Display`), as the target lambda table is multiplied by the current stoichiometric ratio to get the target air/fuel ratio.**
 
-![](https://i.imgur.com/mRKFNjT.png)
+![injection settings](https://i.imgur.com/mRKFNjT.png)
 
 ## Ignition Timing
 

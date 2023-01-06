@@ -1,4 +1,6 @@
-## _WARNING: An electronic throttle, if misconfigured or damaged, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!_
+# Electronic Throttle Body
+
+***WARNING: An electronic throttle, if misconfigured or damaged, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!***
 
 See also [Vault Of Electronic Throttle Bodies ETB](Vault-Of-Electronic-Throttle-Bodies-ETB)
 
@@ -11,11 +13,11 @@ There are several benefits by allowing the ECU to control the position of the th
 - No need to route a cable to the throttle
 - Programmable throttle target curve/nonlinearity to improve drivability with a large throttle on a small engine
 
-# Configuration and Setup Guide
+## Configuration and Setup Guide
 
 [See configuration guide here.](Electronic-Throttle-Body-Configuration-Guide)
 
-# Theory of Operation
+## Theory of Operation
 
 Electronic throttles typically consist of:
 
@@ -49,7 +51,7 @@ PWM on both direction pins, one for forward another one for reverse.
 
 TLE7209 is an example of two-wire mode.
 
-# Pinouts
+## Pinouts
 
 See [broken link](https://raw.githubusercontent.com/wiki/rusefi/rusefi_documentation/oem_docs/VAG/Bosch_0280750009_pinout.jpg) for
 personal choice of colors for VAG ETB.

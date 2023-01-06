@@ -1,3 +1,4 @@
+# HOWTO DFU
 
 DFU is Device Firmware Update mode - that's a way to update firmware via the same USB cable you use for rusEFI communication. stm32 DFU is part of stm32 factory bootloader and we expect that any rusEFI board could be updated/reset via same USB connector as the one you use to communicate to your rusEFI ECU. Please let us know if that's not the case!
 

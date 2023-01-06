@@ -1,10 +1,12 @@
+# Quick Start
+
 ## What to do while you wait for your hardware
 
 1. [Download the rusEFI bundle](Download) for your hardware.
 
 2. Extract the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual Com Port and ST-Link drivers. If necessary the bundle will also help you install java run-time.
 
-![console](FAQ/images/rusEFI_console_start_screen.png)
+   ![console](FAQ/images/rusEFI_console_start_screen.png)
 
 3. **IF you have a Frankenso or Frankenstein board with the FT232 Chip, Download and install [FTDI's usb VCP driver on your PC](http://www.ftdichip.com/Drivers/VCP.htm).**
 
@@ -14,7 +16,7 @@
 
 6. Start a new project, save to a folder that you specify, and choose the rusefi.ini file from the bundle.
 
-![project](FAQ/images/TunerStudio_new_project.png)
+   ![project](FAQ/images/TunerStudio_new_project.png)
 
 ## Once you get your hardware
 
@@ -35,12 +37,12 @@ This guide is written for the firmware released August 6th 2020. The further awa
 2. Install [TunerStudio](http://www.tunerstudio.com/index.php/downloads) and [MegaLog Viewer](https://www.efianalytics.com/MegaLogViewer/download/) (the payed versions are highly recommended).
 
 3. Create a new project in TunerStudio.
-*This is not a TunerStudio manual.
-*Most PnP rusEFI units can be powered through the USB port. So you can set it up in the comfort of your living room and have it communicate with Tunerstudio before it is installed in the car. It is highly recommended to try this approach.
+   *This is not a TunerStudio manual.
+   *Most PnP rusEFI units can be powered through the USB port. So you can set it up in the comfort of your living room and have it communicate with Tunerstudio before it is installed in the car. It is highly recommended to try this approach.
 
 4. Connect TunerStudio to your ECU. You will need a USB cable to establish communication between your tuning laptop and the rusEFI unit. There will typically be only one micro-USB port on a PnP unit.
 
-*Your laptop should give you an audible notification when you plug in the ECU with the ignition turned on. That means that it "sees" a new device connected to a USB port.
+   *Your laptop should give you an audible notification when you plug in the ECU with the ignition turned on. That means that it "sees" a new device connected to a USB port.
 
 5. Under "Communications" -> "Communication Settings" [IMAGE] you should select the correct COM port for your rusEFI. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEFI COM-port. For most cases, the selected Baud rate does not matter. If you can't establish communication, try baud rate 38,400 | 57,600 or 115,200. If that doesn't work, you may need to try a different COM port.
 
@@ -48,30 +50,30 @@ This guide is written for the firmware released August 6th 2020. The further awa
 
 7. With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. Of course the values displayed miught not make a lot of sense, since your ECU is lacking a car, but at least you can see that TunerStudio and your computer are communicating.
 
-# Getting your car running
+## Getting your car running
 
-## Step 1: (Optional)
+### Step 1: (Optional)
 
 Run your car on your stock ECU to warm it up. This may make it easier to start, especially when it's cold outside
 
-## Step 2
+### Step 2
 
 Unplug your stock ECU and plug in your rusEFI PnP. You probably don't want to close the lid just yet, so you can observe blinky lights etc.
 
-## Step 3
+### Step 3
 
 Turn on the ignition. DO NOT START THE CAR
 
-## Step 4
+### Step 4
 
 Connect TunerStudio to your ECU.
 With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. If things are set up properly, you should see reasonable values for [Coolant temperature], [Air Intake temperature], [Battery Voltage], [Manifold Air Pressure] (should be near 100kpa if you're using a MAP snesor) and even your [throttle pedal position]. The values may show some jitters. Your rpms should be 0. Push your throttle pedal and see if you get a response. Congratulations- your rusEFI can "see" your car.
 
-## Step 5
+### Step 5
 
 Calibrate your throttle pedal. Go to "Tools" -> "Calibrate TPS". Don't touch the throttle and click on "Get Current" next to "Closed Throttle ADC count". Now step on the gas (full-throttle/pedal fully depressed) And do the same for no-throttle (pedal fully released). Burn to ECU.
 
-## Step 6
+### Step 6
 
 Test your outputs. Under "Controller" -> "Bench Test & Commands" you can see a lot of options for outputs you can test. Let's focus on the basic ones for now. Spark and Fuel. First, if your car's fuel pump is controlled by the ECU, test "Fuel Pump". You should hear the fuel pump running.
 
@@ -83,7 +85,7 @@ That's the basic outputs tested. With this you should be able to get the engine 
 
 Close the test window. We're getting close to starting the car.
 
-## Step 7
+### Step 7
 
 Turn the ignition off and unplug the USB cable. This removes power to the unit- (just to make sure we're in a defined state). Then reconnect the USB cable, turn on the ignition, wait for TunerStudio to come to life and then crank the engine. You should see the rpms jump to a positive value (typical would be anywhere between 200 and 600rpm) and your engine should start. It may take a few cranks for rpms to register. If you see rpms in Tunerstudio, but the engine isn't starting, keep at it. It may take quite a bit longer than the stock ECU. You are probably used to cranking taking approx. 2s or so. rusEFI takes about 2s of cranking before it can identify the position of the crankshaft. And then it will fire the injectors and ignition coils. It may take it quite a while (>10s which seems like an eternity when cranking) for the engine to catch. Don't give up. There may be coughs and sputters. Play with the throttle a little. It will start eventually. Post your findings to the [forum](https://rusefi.com/forum/) and we can help!
 

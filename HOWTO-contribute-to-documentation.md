@@ -1,4 +1,3 @@
-
 # How to contribute to documentation
 
 In order to leverage the Github pull request process for access control to the wiki, it is stored in a [Github repo](https://github.com/rusefi/rusefi_documentation).
@@ -13,7 +12,7 @@ In order to leverage the Github pull request process for access control to the w
 
 3. If you have been given write access the the rusefi_documentation previously, you can commit changes directly. If not, clicking on "Propose Changes" will fork the repository and give you the option to create a pull request.
 
-![image](https://user-images.githubusercontent.com/22799428/200407238-74b1fd66-e6b1-46cc-a7b8-398f5c5b41f6.png)
+   ![image](https://user-images.githubusercontent.com/22799428/200407238-74b1fd66-e6b1-46cc-a7b8-398f5c5b41f6.png)
 
 4. Click "Create Pull Request" and wait for your change to be reviewed.
 
@@ -22,7 +21,7 @@ In order to leverage the Github pull request process for access control to the w
 1. Sign up or sign in to [Github](https://github.com) if you aren't already
 
 2. Open [the documentation repo](https://github.com/rusefi/rusefi_documentation) and click 'Fork' - this would produce your own fork/copy of rusefi_documentation which you can now edit right in your browser!
-![editor](FAQ/github_online_editor.png)
+   ![editor](FAQ/github_online_editor.png)
 
 3. Edit your code and Commit changes using the button below the editor.
 
@@ -107,7 +106,7 @@ For example [https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/imag
 **Q:** What sort of fancy options do we have?  
 **A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example. Unfortunately, it's quite picky about how you format the markdown.
 
-```
+```html
 <details markdown="1"><summary>More...</summary>
 
 ^ Must have empty line after </summary>

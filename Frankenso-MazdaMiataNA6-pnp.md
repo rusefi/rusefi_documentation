@@ -1,3 +1,4 @@
+# Frankenso Mazda Miata NA6 PNP
 
 The [Frankenso](Hardware-Frankenso) board was designed to be used on Mazda Miata NA6 as a plug-and-play solution.
 
@@ -19,7 +20,7 @@ Stage 0 + External wide band controller, wide band oxygen sensor, external MAP s
 
 Stage 1 + TPS
 
-#### Bench testing options
+## Bench testing options
 
 On NA6 Spark #1 and Spark #3 would audibly click if you use bench Spark Test button.
 Because of wasted spark wiring Spark #2 and Spark #4 are not expected to click.
@@ -31,7 +32,7 @@ All you need is a relatively quiet surroundings and you would hear both spark an
 are louder, spark is less loud but also totally audible. Both Test buttons are expected to
 produce three clicks a second after you press the button in the software.
 
-#### Wideband O2 sensor wire WBO
+## Wideband O2 sensor wire WBO
 
 You would really need a wideband sensor. Here is the middle plug pinout to wire an external wideband controller - +12v would feed external controller and analog output signal would provide rusEFI ECU with air/fuel ratio information.
 

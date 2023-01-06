@@ -1,4 +1,4 @@
-## About Prometheus
+# About Prometheus
 
 The project is born as a lightweight alternative for a transition from SECU-3i EFI to a more powerful and innovative hardware platform.
 
@@ -14,7 +14,7 @@ The PCB is self inclusive, there is no need for STM32Discovery brain boards, ext
 
 ---
 
-### DISCLAIMER
+## DISCLAIMER
 
 1. Prometheus board is an experimental hobby project. It's an independent design, not associated with the authors of rusEFI, but using rusEFI under the license. Please use only official rusEFI boards to avoid any problems - Frankenso, Frankenstein etc.
 

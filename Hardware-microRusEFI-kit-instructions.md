@@ -1,4 +1,6 @@
-### Initial kit state
+# microRusEFI Kit Instructions
+
+## Initial kit state
 
 All kit PCBs come pre-programmed and verified. No firmware upload required right after soldering. Actually your microRusEFI would
 communicate via USB if you solder just USB connector or feed USB via 48 pin connector.
@@ -44,7 +46,7 @@ All microRusEFI kits use [MRE F4 rusEFI firmware - DOWNLOAD LATEST BUNDLE HERE](
 
 [HOWTO program rusEFI using DFU](HOWTO-DFU)
 
-# Crankshaft position sensor options: Hall or VR
+## Crankshaft position sensor options: Hall or VR
 
 Depending on your crankshaft position sensor type you would need to populate either Hall or VR option.
 
@@ -71,7 +73,7 @@ VR mode back
 0.4.7 Hall mode back
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_hall_back.png)
 
-# Board Photos
+## Board Photos
 
 ![F](Hardware/microRusEFI/Hardware_microRusEFI_0.5.3_assembled_front.jpg)
 
@@ -88,17 +90,17 @@ Kit parts on the front:
 Kit parts on the back:
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_assembled_back.jpg)
 
-# Diodes 0.4.7
+## Diodes 0.4.7
 
 Flyback diodes orientation around version 0.4.7 - horizontal facing OPPOSITE direction
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.4.7_kit_diodes_orientation.jpg)
 
-# Diodes 0.5.2
+## Diodes 0.5.2
 
 Flyback diodes orientation around version 0.5.2 - angles, facing SAME direction
 ![Back](Hardware/microRusEFI/Hardware_microRusEFI_0.5.2_kit_diodes_orientation.jpg)
 
-# Important details
+## Important details
 
 0.4.5, 0.4.7:
 JP1 needs to be TBDsee
@@ -115,7 +117,7 @@ Wake-up CAN R8
 
 [More images](https://github.com/rusefi/hw_microRusEfi/blob/master/gerbers)
 
-# Direct board programming
+## Direct board programming
 
 J7 header in bottom-left corner of microRusEFI allows direct SWD programming using TC2030-MCP-NL cable
 

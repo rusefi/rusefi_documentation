@@ -1,3 +1,4 @@
+# Hellen One Platform
 
 Hellen is a new take on a modular approach for rusEFI ECU - both **Universal** and **Plug-and-Play (PNP)**.
 
@@ -16,9 +17,9 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |[88 Pin BMW](Hellen-88-BMW)|[![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334235601464)|
 |[154 Pin Hyundai](Hellen-154-Hyundai)|soon|[open source](https://github.com/rusefi/hellen154hyundai)|
 
-### The .ini file for Hellen is loaded onto the Hellen board. When you plug the Hellen into your computer, a "virtual flashdrive" will load up. The .ini file is in there. Copy to your computer and save in your TunerStudio folder, and link your TunerStudio definition to that file. When your Hellen firmware is updated, the .ini file is also updated, so make sure you get the latest .ini from the Hellen board after you update the firmware
+**The .ini file for Hellen is loaded onto the Hellen board. When you plug the Hellen into your computer, a "virtual flashdrive" will load up. The .ini file is in there. Copy to your computer and save in your TunerStudio folder, and link your TunerStudio definition to that file. When your Hellen firmware is updated, the .ini file is also updated, so make sure you get the latest .ini from the Hellen board after you update the firmware**
 
-# FAQ
+## FAQ
 
 ### Q: Surely it would have made more sense and less effort to make one universal hardware design and produce and sell adapter looms?
 

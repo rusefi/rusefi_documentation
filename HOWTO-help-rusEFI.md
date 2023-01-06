@@ -1,4 +1,3 @@
-
 # How can I help rusEFI?
 
 The weakest point of rusEFI is lack of samples and success stories. As of Aug 2020, we _really_ need vehicle threads on the forum.
@@ -21,7 +20,7 @@ We probably would not articulate the guiding principles better than [https://git
 
 A: How can you help? There are so many ways to help, quite often having a test mule and being available to try new features is huge help!
 
-#### Last but not least
+## Last but not least
 
 Since 2012 until today, this is just a hobby project with zero paid employees. Test PCBs, forum hosting, damaged hardware and etc. costs money
 

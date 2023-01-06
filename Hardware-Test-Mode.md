@@ -1,3 +1,5 @@
+# Hardware Testing Mode
+
 rusEFI firmware has a **I/O hardware testing mode** feature - this comes handy if you've just soldered some I/O board like Frankenso.
 
 In order to activate I/O testing board you need to ground pin PB0. (You can confirm the current pin associated with this feature using `showconfig` command.)

@@ -1,6 +1,6 @@
 # FAQ: Basic Wiring and Connections
 
-# Intro
+## Intro
 
 This page contains information about how to hook up to rusEFI hardware, in general. It's not intended to be a guide to a specific hardware variant - rather, how to figure out what you're going to need to run the different kinds of hardware you'd find in an engine bay.  
 

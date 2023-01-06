@@ -1,3 +1,5 @@
+# Hellen NB1
+
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen-nb1.zip)
 
 [Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen-nb1.zip)
@@ -45,12 +47,12 @@
 
 [LSU 4.9 Wideband Sensor](https://www.bmotorsports.com/shop/product_info.php/products_id/1645) Or Similar
 
-# Changelog
+## Changelog
 
-## rev B Nov 30, 2021
+### rev B Nov 30, 2021
 
 * [high-side outputs protection](https://github.com/rusefi/hellen-NB1-issues/issues/25)
 
-## rev A
+### rev A
 
 * good to drive, great success!

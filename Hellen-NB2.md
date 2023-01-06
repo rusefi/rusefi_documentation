@@ -1,3 +1,5 @@
+# Hellen NB2
+
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
 
 [Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
@@ -12,11 +14,11 @@
 * A/C toggle switch
 * A/C relay control
 
-# User Support
+## User Support
 
 [Click here for Support overview](Support)
 
-# Technical Details
+## Technical Details
 
 [schematic rev F](Hardware/Hellen/hellen72_NB2-f-schematic.pdf)
 [Interactive iBom rev F](https://rusefi.com/docs/ibom/hellen72_NB2-f-ibom.html)
@@ -65,7 +67,7 @@ Using 28 Pin [Connector](https://www.bmotorsports.com/shop/product_info.php/prod
 
 *ETB+ and ETB- are on ECU PCB
 
-# Jumpers (Applies to board version 72a-72c so far)
+## Jumpers (Applies to board version 72a-72c so far)
 
  in order to run a Miata NB test vehicle:
 
@@ -84,7 +86,7 @@ a) if you have a Miata 2002 (where we measure the battery voltage from 4T=altern
 
 b) or if you have a Miata 2003 (where we measure the battery voltage from 4S=ign.switch), then remove "R10 (2002)"
 
-### OEM harness add-ons  
+## OEM harness add-ons  
 
 The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 
@@ -94,7 +96,7 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 | 4K  | +5v | +5v feed for MAP sensor |
 | 3Z | GND | Sensor & USB ground |
 
-# Proto Area Pinout
+## Proto Area Pinout
 
 |Proto   | stm32 pin  |
 |-----|---|

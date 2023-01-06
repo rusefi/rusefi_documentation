@@ -1,3 +1,5 @@
+# Hellen NA96
+
 [Issue tracker](https://github.com/rusefi/hellen-NA8-96-issues)
 
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA8_96.zip)
@@ -49,8 +51,8 @@ REV A
 
 [LSU 4.9 Wideband Sensor](https://www.bmotorsports.com/shop/product_info.php/products_id/1645) Or Similar
 
-# Changelog
+## Changelog
 
-## rev A
+### rev A
 
 * good to drive, great success!

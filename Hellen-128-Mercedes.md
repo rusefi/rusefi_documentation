@@ -1,20 +1,22 @@
+# Hellen 128 Mercedes
+
 Available at [rusEFI store](https://www.shop.rusefi.com/shop/p/hellen-128-mercedes)
 
 This development board is PnP for Mercedes with the 128 Pin ECU (could be used on M104, M111, M112 and M113 engines; late 90s-early 2000s. confirm your ECU _harness_)
 
-### Firmware
+## Firmware
 
 [Download Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
 
 [Download Nightly](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
 
-### Issue tracking
+## Issue tracking
 
 [HW related issues](https://github.com/rusefi/hellen128merc-issues/issues)
 
 [SW related issues](https://github.com/rusefi/rusefi/issues)
 
-### Interactive pinout
+## Interactive pinout
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen128/)
 
@@ -72,7 +74,7 @@ If you want to control the clutch on a Mercedes supercharger, some hardware modi
 Rev. A board does not have R80! for this variant, you need to remove the Fuses from the list above and solder a wire instead of placing R80:
 todo: <image>
 
-## Solenoid control
+### Solenoid control
 
 By design Rev. A and Rev. B boards are designed to drive the VVT coil. On Rev. C hardware E1, E2, E3 and E4 can all be used as solenoid control. They have the internal diodes needed for protection.
 
@@ -119,15 +121,15 @@ Connection  [Hellen WBO](Hellen-WBO)
 
 Project page [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
-# Misc
+## Misc
 
-## Pinout comparison
+### Pinout comparison
 
 [Google Sheet](https://docs.google.com/spreadsheets/d/1I-lZKRajTiEGFUXdZpXEtKF2pymlOo-lPahy3cLMnl4)
 
 [Another Google Sheet](https://docs.google.com/spreadsheets/d/1JgGFJ8AggBFiKT_CQ1D6uYhaIsqeiH9RerxuVy1kp4Y/)
 
-## 4 cylinder application (Jimmy M111 2.3 Kompressor setup on 190e)
+### 4 cylinder application (Jimmy M111 2.3 Kompressor setup on 190e)
 
 * uses E13,E14,E25,E26 for INJECTORS
 * two IGBT: Q1 & Q3
@@ -135,7 +137,7 @@ Project page [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 * E1 with fly-back for boost control solenoid
 * E3 for supercharger bypass valve
 
-## M104
+### M104
 
 * three IGBT: Q1, Q3 & Q5
 
@@ -143,9 +145,9 @@ Project page [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
 [Mercedes-C230-and-SLK230](Mercedes-C230-and-SLK230)
 
-# FAQ
+## FAQ
 
-## Would this work on my all original Mercedes?
+### Would this work on my all original Mercedes?
 
 Hellen 128 was originally designed for M111 swaps into W201. Depending on the year some W202, R170 and other models could be driven with different amount of supporting mods:
 
@@ -155,31 +157,31 @@ Hellen 128 was originally designed for M111 swaps into W201. Depending on the ye
 
 * And obviously your engine harness should use <a href="Images/mercedes-128.png">this ME 2.0 style of plug</a> not <a href="Images/mercedes-134.png">this 134 pin style of plug</a>.
 
-## Transmission Control
+### Transmission Control
 
 As of April 2022 we know nothing about m111 automatic transmission control. All successful swaps so far were using manual gearboxes. 722.6 automatic transmission
 
-# Changelog
+## Changelog
 
-## rev C
+### rev C
 
 * wastegate diode
 * USB type B
 
 ![x](Hardware/Hellen/hellen128mercedes-rev-c.jpg)
 
-## rev B Aug 27, 2021
+### rev B Aug 27, 2021
 
 * better provisions for high-current control of supercharger [clutch solenoid on M111 Q6 R80](https://github.com/rusefi/hellen128merc-issues/issues/10)
 * ignition fuse changed from 36915000000 5A to 2010-T10A0V2T11192AM5G 10A. 0697H9100-02 could be use for refitting of rev A
 
 ![x](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder.jpg)
 
-## rev A June 10, 2021
+### rev A June 10, 2021
 
 * good to drive, great success!
 
-## Spare Parts
+### Spare Parts
 
 ISL9V3040S3S is the large IGBT driver (same thing as ISL9V3040S3ST)
 

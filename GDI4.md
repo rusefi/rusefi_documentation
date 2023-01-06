@@ -15,7 +15,7 @@
 
 ![x](Hardware/GDI/rusefi-gdi4-rev-a.jpg)
 
-# Changelog
+## Changelog
 
 rev C:
 

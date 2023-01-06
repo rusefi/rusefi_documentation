@@ -9,7 +9,7 @@ Clone your fork of the rusefi_documentation repo:
 `git clone git@github.com:<your username>/rusefi_documentation.git`  
 From your clone, add your wiki as a remote and push to it.
 
-```
+```shell
 git remote add wiki git@github.com:<your username>/rusefi.wiki.git
 git fetch wiki
 git push wiki
@@ -17,7 +17,7 @@ git push wiki
 
 This will get your wiki2 up and running. Now you can make changes, and run
 
-```
+```shell
 git commit -am "your commit message"
 git push wiki
 ```

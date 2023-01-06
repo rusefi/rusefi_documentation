@@ -1,6 +1,6 @@
 # Honda 2008
 
-# 2008 Accord
+## 2008 Accord
 
 ![x](OEM-Docs/Honda/2008-accord-2.4-1.png)
 
@@ -12,7 +12,7 @@
 
 ![x](OEM-Docs/Honda/2008-accord-2.4-5.png)
 
-# 2008 Civic
+## 2008 Civic
 
 ![x](OEM-Docs/Honda/2008-civic-dx-1.png)
 
@@ -24,7 +24,7 @@
 
 ![x](OEM-Docs/Honda/2008-civic-dx-5.png)
 
-# 2010 Accord
+## 2010 Accord
 
 ![x](OEM-Docs/Honda/2010-accord-2.4-1.png)
 
@@ -36,7 +36,7 @@
 
 ![x](OEM-Docs/Honda/2010-accord-2.4-5.png)
 
-# 2010 Civic
+## 2010 Civic
 
 ![x](OEM-Docs/Honda/2010-civic-dx-1.png)
 

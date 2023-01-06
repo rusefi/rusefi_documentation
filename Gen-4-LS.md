@@ -1,3 +1,5 @@
+# Gen 4 LS
+
 <https://github.com/rusefi/rusefi/wiki/GM-E38>
 
 <https://github.com/rusefi/rusefi/wiki/GM-E67>
@@ -20,11 +22,11 @@ All PowerPC. There are early (2006-2009) and late (2010-2013) models of each whi
 
 If I had to make an educated guess, GM used the E67 for their GMPP (GM Performance Parts) control packs because they had more of them left over. The E38 was the more popular application by far.
 
-# e67
+## e67
 
 <https://github.com/rusefi/rusefi/wiki/GM-E67>
 
-# e38 2007 Tahoe 5.3
+## e38 2007 Tahoe 5.3
 
 ![x](OEM-Docs/GM/2007-tahoe-5.3-vin0-1.png)
 
