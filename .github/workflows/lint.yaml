@@ -1,4 +1,4 @@
-name: Sync Wiki3
+name: Lint
 
 on:
   pull_request
