@@ -2,26 +2,26 @@
 
 Text go here
 
-![](Images/NB1_pinout1.JPG)
+![Pinout 1](Images/NB1_pinout1.JPG)
 
 Text go here
 
-![](Images/NB1_pinout2.JPG)
+![Pinout 2](Images/NB1_pinout2.JPG)
 
 Text go here
 
-![](Images/NB1_pinout3.JPG)
+![Pinout 3](Images/NB1_pinout3.JPG)
 
 Text go here
 
-![](Images/NB1_pinout4.JPG)
+![Pinout 4](Images/NB1_pinout4.JPG)
 
 Text go here
 
-![](Images/NB1_pinout5.JPG)
+![Pinout 5](Images/NB1_pinout5.JPG)
 
 Text go here
 
-![](Images/NB1_pinout6.JPG)
+![Pinout 6](Images/NB1_pinout6.JPG)
 
 Text go here

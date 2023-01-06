@@ -1,3 +1,5 @@
+# 2002 Mazda Miata
+
 [72 pin Connector](OEM-connectors#72-pin)
 
 ![Connector Face](OEM-Docs/Mazda/Miata_NB2_ECU_Connectors_Drawing.png)

@@ -1,3 +1,5 @@
+# Open Source? It's Complicated
+
 rusEFI [_firmware_](https://github.com/rusefi/rusefi) is completely open source software see [license](https://github.com/rusefi/rusefi/blob/master/firmware/license.txt).
 
 Many of the **universal** rusEFI [boards](Hardware) are open source hardware.

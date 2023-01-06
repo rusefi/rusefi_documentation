@@ -1,3 +1,5 @@
+# Mazda PRC Valve
+
 Some Mazda engines have a solenoid valve on the vacuum line that goes to the fuel rail.
 This is used to raise the fuel pressure on a hot restart and avoid fuel vapor in the fuel rail.
 

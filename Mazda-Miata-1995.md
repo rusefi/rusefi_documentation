@@ -1,3 +1,5 @@
+# 1995 Mazda Miata
+
 48 pin case
 
 See also [1994 Mazda Miata](Mazda-Miata-1994)

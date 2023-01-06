@@ -1,3 +1,5 @@
+# 1993 Mazda Protege
+
 [Protege BG ECU pinout description](https://docs.google.com/spreadsheet/ccc?key=0Arl1FeMZcfisdElBTkFFWXFyR3NReENNSU51OXVxa0E)
 
 Engine Diagram M/T

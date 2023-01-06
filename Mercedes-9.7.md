@@ -1,6 +1,6 @@
 # Mercedes 9.7
 
-# 2007 E550
+## 2007 E550
 
 ![x](OEM-Docs/Mercedes/2007-e550-1.png)
 
@@ -12,7 +12,7 @@
 
 ![x](OEM-Docs/Mercedes/2007-e550-5.png)
 
-# 2011 E550
+## 2011 E550
 
 ![x](OEM-Docs/Mercedes/2011-e550-ecu.png)
 

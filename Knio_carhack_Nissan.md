@@ -1,5 +1,8 @@
+# knio/carhack Nissan 370Z CAN Data
+
 Copy-paste of [https://github.com/Knio/carhack/blob/master/Cars/Nissan.markdown](https://github.com/Knio/carhack/blob/master/Cars/Nissan.markdown)
 
+```md
 Nissan 370Z CAN-BUS Data
 ========================
 
@@ -708,3 +711,4 @@ IGN ACC -> ON Sequence
 20121008.191520.126 ID:580 Flags:0 Data: (1, 58, 64, 156, 69)
 
 20121008.191648.293 Stop
+```

@@ -1,6 +1,6 @@
-Below is a copy-paste of [https://github.com/jackm/carhack/blob/master/nissan.md](https://github.com/jackm/carhack/blob/master/nissan.md)
+# jackm/carhack Nissan Sentra 2010 CAN bus data
 
-# Nissan Sentra 2010 CAN bus data
+This is a copy-paste of [https://github.com/jackm/carhack/blob/master/nissan.md](https://github.com/jackm/carhack/blob/master/nissan.md)
 
 ## CAN bus frame
 

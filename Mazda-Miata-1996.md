@@ -1,3 +1,5 @@
+# 1996 Mazda Miata
+
 [Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 
 1996 US 1.8
