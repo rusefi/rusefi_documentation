@@ -1,6 +1,6 @@
-## Master list of Ignition pages
+# Master list of Ignition pages
   
-### [Ignition FAQ](FAQ-Ignition)
+**[Ignition FAQ](FAQ-Ignition)**
 
 <details markdown="1"><summary><u>rusEFI Project</u></summary>
 

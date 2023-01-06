@@ -1,3 +1,4 @@
+# PCB Design Rules
 
 * As on Jan 2016 we are still migrating from KiCad version 2013-07-07 BZR 4022 to KiCad 4.0.1+ libraries etc. If it doesn't open well in 4.01, try BZR 4022.
 * Current versions of boards are published in individual subfolders of [https://github.com/rusefi/rusefi/tree/master/hardware](https://github.com/rusefi/rusefi/tree/master/hardware)

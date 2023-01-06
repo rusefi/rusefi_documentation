@@ -1,3 +1,5 @@
+# Proteus
+
 [Proteus Manual](Proteus-Manual)
 
 Q: where can I buy a Proteus?
@@ -15,7 +17,7 @@ Source & production files [here](https://github.com/mck1117/proteus/)
 
 [Fabrication](Hardware-Proteus-Fabrication)
 
-### TE Ampseal Connectors
+## TE Ampseal Connectors
 
 [Ampseal tutorial video](https://www.youtube.com/watch?v=24bNFu7a9lc)
 
@@ -46,7 +48,7 @@ Most boards will need a debug header installed if you want to attach a debugger 
 
 Any debugger compatible with the standard 10-pin Cortex Debug Header should work, though the [STLINK-V3 Mini](https://www.st.com/en/development-tools/stlink-v3mini.html) is recommmended.  It's available for $10-12 US from normal distributors like Mouser/Digikey.  A ribbon cable is included so the connector and programmer are all that's required to debug on Proteus.
 
-# Wiring
+## Wiring
 
 20A Power GND
 
@@ -58,7 +60,7 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 0.5A 12V_IGN
 
-# Adapters DONE
+## Adapters DONE
 
 [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Honda-K-125-adapter)
 
@@ -72,7 +74,7 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 [Proteus Mitsubishi 76 adapter](https://github.com/rusefi/proteus-mitsubishi76-adapter)
 
-# Adapters WIP
+## Adapters WIP
 
 [Proteus 80pin VAG adapter](https://github.com/rusefi/proteus-80-pin-vag-adapter)
 
@@ -84,6 +86,6 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 [Proteus 68pin VAG adapter](https://github.com/rusefi/proteus-68-pin-vag-adapter)
 
-# Adapters maybe NOT
+## Adapters maybe NOT
 
 [Proteus RX8 Adapter](https://github.com/rusefi/proteus-rx8-adapter)

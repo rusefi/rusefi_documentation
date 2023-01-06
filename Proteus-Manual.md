@@ -1,8 +1,10 @@
+# Proteus Manual
+
 As of Feb 2022 please DM Andrey on the forum, Proteus is in stock just not listed on eBay!
 
 [New to rusEFI start here](Home)
 
-# Software
+## Software
 
 Proteus 0.3-0.5 and 0.7 (STM32F4) [Release F4](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [Snapshot F4](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
 

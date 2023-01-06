@@ -1,4 +1,4 @@
-## 1 Power supply block
+# Prometheus Assembly - Power supply block
 
 ## (a) - regulator circuits
 

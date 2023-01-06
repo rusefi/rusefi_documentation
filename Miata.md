@@ -1,14 +1,15 @@
+# Mazda Miata
 
 Since day one rusEFI had considerations for Plug&Play usage on Mazda Miata MX5.
 
 First and second generation Miata have used for major pinouts, this page goes into some defailts of each of four cases:
 
-# Miata NA6 and early NA8
+## Miata NA6 and early NA8
 
 1989-1995 Miata 48 pin connector has two PnP rusEFI options: [Frankenso](Frankenso) and [MREAdapter48](MREAdapter48)
 Listed for sale with early June deliveries.
 
-# Late NA8
+## Late NA8
 
 1996 and 1997 while connector looks the same, the pinout is drastically different from early NA8
 
@@ -19,7 +20,7 @@ using [breakout board](https://www.ebay.com/itm/64-pin-ECU-connector-civic-mazda
 
 One day we plan to have a microRusEFI adapter for these cars maybe in August 2020?
 
-# Early NB
+## Early NB
 
 NB1 1999-2000 while connector still looks similar that's another different pinout.
 
@@ -28,13 +29,13 @@ using [breakout board](https://www.ebay.com/itm/64-pin-ECU-connector-civic-mazda
 
 One day we plan to have a microRusEFI adapter for these cars maybe in August 2020?
 
-# Late NB
+## Late NB
 
 NB2 2001-2005
 
 [MREAdapter72](MREAdapter72) is the Plug&Play solution for Miata NB2. Listed for sale.
 
-# Other links
+## Other links
 
 See also [Frankenso NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
 

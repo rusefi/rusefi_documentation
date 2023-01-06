@@ -1,3 +1,5 @@
+# microRusEFI QC Procedure
+
 We use special QC firmware
 
 1) Download [MRE F4 Hardware QC Special Build 2020.11.27](https://github.com/rusefi/rusefi/releases/download/2020.11.27_release/rusefi_bundle_mre_f4_hardware_QC_special_build.zip) or better [2022.04.09_release QC](https://github.com/rusefi/rusefi/releases/download/2022.04.09_release/rusefi_bundle_mre_f4_hardware_QC_special_build.zip)

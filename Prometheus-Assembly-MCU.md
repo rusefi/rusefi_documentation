@@ -1,4 +1,4 @@
-## 2 MCU block
+# Prometheus Assembly - MCU block
 
 ## (a) - MCU
 
