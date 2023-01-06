@@ -1,6 +1,6 @@
 # Vault Of Miscellaneous Supplies
 
-# Harness wire
+## Harness wire
 
 Cross linked polyethylene insulation recommended.
 

@@ -1,3 +1,5 @@
+# Standalone on Demand
+
 We can develop and fabricate a Standalone PnP ECU board* for more or less any gasoline engine.
 
 TL,DR: design services start at $10K, two iterations/ten units included.
@@ -17,7 +19,7 @@ Powered by [Hellen One Platform](Hellen-One-Platform)
 
 For list of Hellen boards available for sale already see [Hellen-One-Platform](Hellen-One-Platform)
 
-# Plug In, not Plug and Play
+## Plug In, not Plug and Play
 
 * Uses OEM header (new if available, used otherwise)
 * Goes into OEM case
@@ -27,21 +29,21 @@ For list of Hellen boards available for sale already see [Hellen-One-Platform](H
 * Vehicle integration research NOT included
 * TL,DR: this is a _blank_ plug-in _board_ not a "Hook it up and drive to the race track" deal. While we can produce a great ECU, only someone with a test vehicle can make the base tune. Please do your research!
 
-# What next?
+## What next?
 
 rusEFI LLC does not have experience and resources to provide adequate support to retail customers. The ideal setup is rusEFI focusing on hardware, software and fabrication, with _product owners_ dealing with sales, marketing and user support for each of the platform specific ECUs.
 
-FAQ:
+## FAQ
 
-## Q: What do you mean not PnP?
+### Q: What do you mean not PnP?
 
 A: We cannot guarantee a turn key product without a test mule at our disposal in NJ, USA.
 
-## Q: I want a turn key solution?
+### Q: I want a turn key solution?
 
 A: A test mule would be needed in NJ, USA.
 
-## Q: Do I get all fabrication files?
+### Q: Do I get all fabrication files?
 
 A: We offer open source, per-board license and full design buy-in options.
 

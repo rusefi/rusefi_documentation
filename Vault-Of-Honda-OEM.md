@@ -1,6 +1,6 @@
 # Vault Of Honda OEM Information
 
-# OBD-1
+## OBD-1
 
 [OBD1 connector part number](OEM-connectors#64)
 
@@ -12,7 +12,7 @@
 
 [https://github.com/rusefi/proteus-Honda-OBD1-adapter/](https://github.com/rusefi/proteus-Honda-OBD1-adapter/)
 
-# OBD-2
+## OBD-2
 
 [OBD2 connector part number](OEM-connectors#104)
 
@@ -20,17 +20,17 @@
 
 [https://github.com/rusefi/proteus-Honda-OBD2A-adapter](https://github.com/rusefi/proteus-Honda-OBD2A-adapter)
 
-# DBC K
+## DBC K
 
 [DBC Honda K](OEM-connectors#125-pin)
 
-# K engine plug
+## K engine plug
 
 [https://github.com/rusefi/proteus-Honda-K-125-adapter](https://github.com/rusefi/proteus-Honda-K-125-adapter)
 
 A ![x](Images/Honda_K_plug_a.png) B ![x](Images/Honda_K_plug_b.png) C ![x](Images/Honda_K_plug_c.png) D ![x](Images/Honda_K_plug_d.png) E ![x](Images/Honda_K_plug_e.png)
 
-# Misc
+## Misc
 
 ![x](OEM-Docs/Honda/ECU_overview.jpg)
 
