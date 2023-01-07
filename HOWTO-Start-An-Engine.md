@@ -1,6 +1,6 @@
 # Performing A First Start On A New rusEFI install
 
-*This page is a work in progress and will be completed in the coming months, please bear with us*
+    **This page is a work in progress and will be completed in the coming months, please bear with us**
 
 One of the toughest aspects of any new ECU install is the first start of a new engine. It is an issue a lot of users find so hopefully this comprehensive first start guide will help but clarifying the purpose of the settings and providing some best practice procedures.  
 
@@ -70,7 +70,7 @@ To adjust running timing for your first run, use `set_whole_timing_map XXX` comm
 
 To adjust running fuel for your first run, use `set_whole_fuel_map XXX` command, where XXX is number of total fuel squirt duration in milliseconds. This value is usually between 3 and 12. See also [Console Fuel Commands](Dev-Console-Commands#fuel-control)
 
-One plain MAF workk next step is running with proper MAP sensor calibration & flow rate setting.
+One plain MAF work next step is running with proper MAP sensor calibration & flow rate setting.
 
 ## next steps & troubleshooting
 
