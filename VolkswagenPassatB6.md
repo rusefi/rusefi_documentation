@@ -1,3 +1,4 @@
+# Volkswagen Passat B6
 
 [Wikipedia](https://en.wikipedia.org/wiki/Volkswagen_Passat_%28B6%29)
 
@@ -47,7 +48,7 @@ Sensor Power:
 
 WARNING: my test mule is EARLY or LATE? TBD
 
-# 94 pin connector T94
+## 94 pin connector T94
 
 |Pin Number|Name   | Default function                         | OEM Color |
 | ---:|:---------- |:-----------------------------------------| --- |
@@ -84,7 +85,7 @@ End of 94 pin connector T94
 
 <a name="60"/>
 
-# 60 pin connector
+## 60 pin connector
 
 |Pin Number|Name   | Default function                      | OEM Color | rusEFI Color |
 | ---:|:---------- |:------------------------------------  | --- | --- |
@@ -172,7 +173,7 @@ Relay Control wire - RED/BLK
 
 [Electronically Mapped Cooling System](OEM-Docs/VW/2006_Passat/VWUSA.COM_SSP_222_Electronically_Mapped_Cooling_System.pdf)
 
-# Transmission
+## Transmission
 
 [Aisin TF-60SN Volkswagen transmission code 09G](OEM-Docs/VW/2006_Passat/automatic_transmission_09G_851503.pdf)
 
@@ -182,7 +183,7 @@ Transmission Input Speed sensor G182 and Output Speed sensor G195 are both Hall.
 
 Solenoid Valve 1 N88 and Solenoid Valve 2 N89 are on/off.
 
-# 52 pin connector
+## 52 pin connector
 
 |Pin Number|Name     | Default function                      | OEM Color  |
 | ---:|:------------ |:------------------------------------  | ---------- |

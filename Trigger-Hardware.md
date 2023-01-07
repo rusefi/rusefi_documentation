@@ -1,3 +1,5 @@
+# Trigger Hardware
+
 ## Quick links
 
 [How to handle raw VR signal with Frankenso board](Frankenso-VR-Input)

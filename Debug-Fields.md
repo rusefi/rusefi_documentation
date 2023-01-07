@@ -1,3 +1,5 @@
+# Debug Fields
+
 Debug fields is an advanced troubleshooting feature allowing one to monitor internal state of some rusEFI subsystems. In an ideal world we would be always saving all these data points, in reality we need to only save those while troubleshooting something specific.
 
 `set debug_mode CODE`

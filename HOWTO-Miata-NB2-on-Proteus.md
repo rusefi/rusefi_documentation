@@ -1,10 +1,12 @@
+# HOWTO Miata NB2 on Proteus
+
 **This page is still WIP**
 
 See also [Mazda-Miata-2003](Mazda-Miata-2003)
 
 **Disclaimer : This page has been written by a user and thus might not be objective**
 
-# PnP adapter board
+## PnP adapter board
 
 ![Isometric view of adapter boaard together with proteus](https://rusefi.com/forum/download/file.php?id=5673&sid=1df371e40697c38dca9221e44ce28b50)
 
@@ -15,7 +17,7 @@ More informations are available at this link :
 
 ![Assembled V0.3 Proteus with PnP board](https://rusefi.com/forum/download/file.php?id=6752&sid=1df371e40697c38dca9221e44ce28b50)
 
-## Introduction
+### Introduction
 
 This board is meant to run an NB2 Miata on Proteus V0.3 or above ECU. IT saves you a lot of time on crimping a custom wiring harness to accomodate OEM connector, and is overall a cheaper alternative as well.
 Leds indicators let you see which outputs are activated, and included flyback diode let you run the big inductive loads without risk for the Proteus low side drivers.
@@ -24,7 +26,7 @@ All the OEM pins are wired through a bridge closed by either a 0 ohm 0805 jumper
 
 Two 23 pins Ampseal extension connectors allows you to wire more functions like boost control, WBO2, CAN bus communication, ETB, etc.. You can use all outputs Proteus has to offer you and on a 4 cylinder with single VVT it means a lot of extra functions.
 
-## Pin mapping
+### Pin mapping
 
 The board pin mapping for OEM connector follows the tab given in the Pinning section below.
 
@@ -82,26 +84,26 @@ For the extension connectors the pinnig is the following \:
 |                 2V|             |          ETB2+|                    |
 |                 2W|             |          ETB2-|                    |
 
-## Interface with proteus
+### Interface with proteus
 
 At the moment, the interface between Proteus board and the PnP adapter is handled by hacked up Ampseal connectors. To do that you need to source the male connectors used on Proteus, and cut the plastic shroud on the connector side, flush with the watertight seal if there is any, or with the mounting flange.
 
 A better solution for that would be to source rows of headers with the correct pitch.
 
-## Pricing
+### Pricing
 
 Unit price for QTY 5 assembled and delivered to Europe is 7$.
 
-## Improvments
+### Improvments
 
 A few improvment would make this board really plug and play and easier to use
 
 * For now the MAF input doesn't work because it lacks some pullup/pulldown.
 * Altough they fit in OEM ECU location, ampseal extension connectors are a bit bulky. They were chosen because board designed had them lying around.
 
-# Pinning
+## Pinning
 
-## OEM 72 pins connector
+### OEM 72 pins connector
 
 | Pin Number | Name     | Proteus pin |  Type ID      | Default function           |
 | ----------:|:-------- | ------------ | ------------  |:---------------------------------------------------- |
@@ -147,9 +149,9 @@ A few improvment would make this board really plug and play and easier to use
 | 4AE | EGR Boost Sensor|A16| Analog Volt 7| MAP                                   |
 | 4AF | Main Relay Power|C23| 12V MR       | +12v from Main Relay                  |
 
-## Auxiliary inputs
+### Auxiliary inputs
 
-### MAP sensor
+#### MAP sensor
 
 Using an external MAP sensor allows you to get the engine running above ambiant pressure when using forced induction. Good cheap option is GM 3 bars but anything will work for you. MAP input can be mapped to Analog Volt 1 (A13 pin).
 
@@ -161,11 +163,11 @@ You can also run the engine naturally aspirated using the OEM "boost sensor". It
 
 Or you can use the OEM sensor for barometric reading and correction.
 
-### WBO2 sensor
+## WBO2 sensor
 
-### To sum up
+## To sum up
 
-# Tune config
+## Tune config
 
 ## Engine basics
 
@@ -181,7 +183,7 @@ VVT is quite picky to tune on the miata
 
 ## Useful inputs/outputs
 
-# Miscellaneous
+## Miscellaneous
 
 ## 36-1 Protege trigger wheel
 
@@ -204,6 +206,6 @@ To do that you can drill the OEM body with a 12mm drill bit, the cherry sensor s
 
 _Pictures to be added_
 
-# Running engines forum links
+## Running engines forum links
 
 * CrazyStriker's NB2 : [2004 Mazda MX5 1.8 VVT #50](https://rusefi.com/forum/viewtopic.php?f=2&t=1536&sid=2763fcb9e79e72c3cd9860a69d3620b3)

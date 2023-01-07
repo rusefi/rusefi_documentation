@@ -1,3 +1,5 @@
+# F7 Requires Full Erase
+
 While most rusEFI units support incremental firmware update while keeping settings intact we are facing unexplained issue with some F7 Proteus units. Those units require full erase prior to software update.
 
 Step 1: enter DFU

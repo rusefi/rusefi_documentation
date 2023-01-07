@@ -1,6 +1,6 @@
 # microRusEFI
 
-# Buy here: [Ebay Store](https://www.ebay.com/itm/333532119947)
+## Buy here: [Ebay Store](https://www.ebay.com/itm/333532119947)
 
 microRusEFI is a highly integrated board version of the rusEFI ECU. The microRusEFI ECU is targeted at port-injected
 gasoline engines up to 4 cylinders.
@@ -13,7 +13,7 @@ gasoline engines up to 4 cylinders.
 
 [Board Source Files](https://github.com/rusefi/hw_microRusEfi)
 
-# Capabilities
+## Capabilities
 
 * Primary VR or Hall input (configurable with few resistor changes)
 * Secondary Hall input
@@ -33,12 +33,12 @@ gasoline engines up to 4 cylinders.
 
 Main Relay Wiring:
 
-![](https://user-images.githubusercontent.com/48498823/90672739-94b7e080-e224-11ea-92fb-12a4fdc5b056.png)
+![wiring diagram](https://user-images.githubusercontent.com/48498823/90672739-94b7e080-e224-11ea-92fb-12a4fdc5b056.png)
 
 ![microRusEFI image](https://user-images.githubusercontent.com/5051341/80747087-806e9d00-8ae8-11ea-983e-330dfc6e3015.jpg)
 ![microRusEFI image](https://user-images.githubusercontent.com/5051341/80747096-849aba80-8ae8-11ea-862c-d124ef75f06a.jpg)
 
-# FAQ
+## FAQ
 
 Q: How about 6 cylinders sequential on microRusEFI?
 

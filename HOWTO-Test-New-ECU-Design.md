@@ -1,3 +1,5 @@
+# HOWOT Test New ECU Design
+
 ## Prerequisites
 
 1. rusEFI forum account (registration question answer: microRusEFI)
@@ -13,7 +15,7 @@
 
 If dealing with a brand new never before tested hardware design it's recommended to gradually add wires between vehicle connector breakout board and untested ECU.
 
-# Prerequisites for each testing session
+## Prerequisites for each testing session
 
 1. Charge battery
 1. Disconnect battery charger
@@ -21,7 +23,7 @@ If dealing with a brand new never before tested hardware design it's recommended
 1. Charge laptop battery
 1. Disconnect laptop from wall charger.
 
-# Minimal ECU Power Test
+## Minimal ECU Power Test
 
 1. Write down battery voltage measured at the battery, with charger and all ECUs physically disconnected.
 1. Hook up Power GND
@@ -31,4 +33,4 @@ If dealing with a brand new never before tested hardware design it's recommended
 1. Connect ECU to laptop via serial, report type of serial.
 1. With laptop connected via serial, test & Report, with USB physically disconnected: ECU status LED blinks if powered up, ECU status LED blinks when ignition powered off.
 
-# TODO a bunch of more content is needed here :)
+## TODO a bunch of more content is needed here :)

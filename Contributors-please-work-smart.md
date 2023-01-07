@@ -1,3 +1,5 @@
+# Contributors: Please Work Smart
+
 In our reality we have to really work smart not work hard.
 
 Any repetitive user support request has to be addresses strategically

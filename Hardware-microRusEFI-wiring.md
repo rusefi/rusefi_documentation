@@ -1,10 +1,10 @@
 # microRusEFI Wiring
 
-# Connector Pinout
+## Connector Pinout
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)
 
-## WARNING: for historical reasons microRusEFI pin numbers do not match Molex numbers on the plastic
+**WARNING: for historical reasons microRusEFI pin numbers do not match Molex numbers on the plastic**
 
 ![connector](Hardware/microRusEFI/Hardware_microRusEFI_connector.png)
 
@@ -20,11 +20,11 @@ In some cases without "main relay output +12v" both pins #1 and #5 should be con
 
 Pin #1 feeds ETB H-bridge, battery voltage sense, gp5 & gp6 high-side +12v, TLE8888 H-bridges.
 
-# Pin Types
+## Pin Types
 
 These tables provide technical information about the different types of pin found on microRusEFI.
 
-## Power
+### Power
 
 | Pin  | ID | Type | Notes & Limits |
 |------|----|-------------| ---- |
@@ -33,7 +33,7 @@ These tables provide technical information about the different types of pin foun
 | [#17, #21](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=21) | sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!***
 | . | 5v   | 5V sensor supply    | 5V supply for external sensors.  200mA maximum per pin.
 
-## Stepper
+### Stepper
 
 | Pin  | Name                | Notes & Limits                                                                       |
 |------|---------------------| ------------------------------------------------------------------------------------ |
@@ -42,7 +42,7 @@ These tables provide technical information about the different types of pin foun
 | #35| GP1 | Stepper Coil #1 |
 | #43 | GP4 | Stepper Coil #2 |
 
-## Input
+### Input
 
 | ID   | Type                | Notes & Limits                                                                       | Possible functions |
 |------|---------------------| ------------------------------------------------------------------------------------ | --- |
@@ -51,7 +51,7 @@ These tables provide technical information about the different types of pin foun
 | vr   | Variable reluctor   | VR crank input                                                                       | VR sensors including crank, cam, vehicle speed
 | hall | Hall cam/crank      | <mark>TBD pull up to 5v</mark> hall sensor for cam/crank                             | Hall sensors including crank, cam, vehicle speed
 
-## Output
+### Output
 
 | ID | Type | Notes & Limits | Possible functions |
 |----|-------------| ---- | --- |
@@ -64,7 +64,7 @@ These tables provide technical information about the different types of pin foun
 | mr   | Main relay          | Dedicated main relay output.  Low side turned on with power, 800mA maximum. | Main relay
 | etb  | Electronic throttle | Dedicated electronic throttle outputs.  Connect a brushed motor<br/>throttle body directly to these two pins.
 
-## Communication
+### Communication
 
 | ID | Type | Notes & Limits |
 |----|-------------| ---- |
@@ -81,7 +81,7 @@ USB cable black wire: ground
 
 USB cable red wire: +5v (would not work via microRusEFI connector for versions < 0.5.0)
 
-## Hall type Crank sensor
+### Hall type Crank sensor
 
 See TLE8888 datasheet figure 71
 R9=DNP
@@ -94,7 +94,7 @@ R13=0R
 ![front hall](Hardware/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_hall_setup.jpg)
 ![front lower](Hardware/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_lower.jpg)
 
-# Extra pins
+## Extra pins
 
 microRusEFI exposes the following pins in addition to the primary 48 pin connector:
 
@@ -144,7 +144,7 @@ For HW version 0.5.0 and newer some additional GPIOs are available on testpoints
 
 Please refer to STM32F407 chip documentation for full list of alternative functions of GPIOs listed above.
 
-FAQ
+## FAQ
 
 Q: Can I use temperature inputs for EGT?
 

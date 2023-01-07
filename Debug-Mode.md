@@ -1,3 +1,5 @@
+# Debug Mode
+
 THIS CONCEPT IS ON THE WAY OUT
 
 See <https://github.com/rusefi/rusefi/issues/3614>

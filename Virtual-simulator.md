@@ -1,6 +1,6 @@
 # rusEFI Virtual simulator
 
-##### You'll be able to test out the rusEFI controller on your computer
+**You'll be able to test out the rusEFI controller on your computer**
 
 rusEFI virtual firmware simulator is a way to play with the rusEFI without any hardware!
 This simulator allows you to see how the firmware reacts to different commands and configuration adjustments via Tuner Studio. The main thing one would be looking at would be the 'Engine Sniffer'.

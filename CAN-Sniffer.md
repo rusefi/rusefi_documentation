@@ -1,4 +1,4 @@
-## HOWTO use custom build of rusEFI for CAN bus sniffing
+# HOWTO use custom build of rusEFI for CAN bus sniffing
 
 In this HOWTO I will explain how to see raw CAN message flow with less than $30 in hardware & some free software.
 
@@ -6,15 +6,15 @@ In this HOWTO I will explain how to see raw CAN message flow with less than $30 
 
 1. Get an [STM32F4DISCOVERY](http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF252419) micro-controller board - there are 'Order Now' buttons at the bottom of the official page.
 
-![STM32F4Discovery](Images/2014-08-21T15-20-24.645Z-stm32f4_discovery.jpg)
+   ![STM32F4Discovery](Images/2014-08-21T15-20-24.645Z-stm32f4_discovery.jpg)
 
 2. Get an [SN65HVD230 CAN Board](http://www.wvshare.com/product/SN65HVD230-CAN-Board.htm)
 
-![SN65HVD230 CAN Board](Images/sn65hvd230-can-board_l_1_5.jpg)
+   ![SN65HVD230 CAN Board](Images/sn65hvd230-can-board_l_1_5.jpg)
 
 3. Get a "OBD2 16-Pin Male to Female Diagnostic Extension Cable" on eBay
 
-![OBD2 16 Pin Male to Female Diagnostic Extension Cable](Images/OBD2_16_Pin_Male_to_Female_Diagnostic_Extension_Cable.jpg)
+   ![OBD2 16 Pin Male to Female Diagnostic Extension Cable](Images/OBD2_16_Pin_Male_to_Female_Diagnostic_Extension_Cable.jpg)
 
 4. Get a microUSB cable (one which comes with any Android phone)
 
@@ -44,30 +44,30 @@ Hardware is ready!
 
 2. Firmware: download and unzip [rusefi_can_sniffer.zip](http://rusefi.com/images/forum_posts/CAN/rusefi_can_sniffer.zip)
 
-2. Uploading the firmware: Connect stm32f4discovery to your laptop using a mini-USB cable (one should come with the board), install driver, start St-Link Utility.
+3. Uploading the firmware: Connect stm32f4discovery to your laptop using a mini-USB cable (one should come with the board), install driver, start St-Link Utility.
 
-![ST Link Utility](Images/st_link_utility.png)
+   ![ST Link Utility](Images/st_link_utility.png)
 
-click 'Target'>'Program...'
+   click 'Target'>'Program...'
 
-![ST Link Start](Images/st_link_start.png)
+   ![ST Link Start](Images/st_link_start.png)
 
-Point the utility to the rusefi_can_sniffer.hex file and hit 'Start'
+   Point the utility to the rusefi_can_sniffer.hex file and hit 'Start'
 
-Close ST Link Utility.
+   Close ST Link Utility.
 
-3. Now it's time to connect the micro USB cable. Keep miniUSB cable connected - you should have two USB cables connected. When you do this for the first time your Windows would prompt for drivers, you should download & install [virtual COM driver](http://www.st.com/web/en/catalog/tools/PF257938)
+4. Now it's time to connect the micro USB cable. Keep miniUSB cable connected - you should have two USB cables connected. When you do this for the first time your Windows would prompt for drivers, you should download & install [virtual COM driver](http://www.st.com/web/en/catalog/tools/PF257938)
 
-Once the driver is installed, you can verify serial connectivity by opening your Device Manager - we are expecting to see a Virtual COM Port.
-![Device Manager](Images/device_manager.png)
+   Once the driver is installed, you can verify serial connectivity by opening your Device Manager - we are expecting to see a Virtual COM Port.
+   ![Device Manager](Images/device_manager.png)
 
-Remember the number of the COM port.
+   Remember the number of the COM port.
 
-4. Download and launch [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) telnet application.
+5. Download and launch [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) telnet application.
 
-![Putty](Images/putty.png)
+   ![Putty](Images/putty.png)
 
-![CAN hardware attached to laptop](Images/CAN_hardware3.jpg)
+   ![CAN hardware attached to laptop](Images/CAN_hardware3.jpg)
 
-Now connect the obd connector to your vehicle and you should see the CAN messages flowing in putty.
-![CAN messages on computer screen](Images/CAN_end_result.jpg)
+   Now connect the obd connector to your vehicle and you should see the CAN messages flowing in putty.
+   ![CAN messages on computer screen](Images/CAN_end_result.jpg)

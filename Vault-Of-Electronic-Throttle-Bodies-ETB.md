@@ -1,3 +1,5 @@
+# Vault of Electronic Throttle Bodies
+
 See [Electronic Throttle Body Configuration](Electronic-Throttle-Body-Configuration-Guide)
 
 New colour scheme:
@@ -9,13 +11,13 @@ Pink<>red;
 yellow<>green;
 gray
 
-# GM
+## GM
 
 Around 2007
 
 ![image](https://user-images.githubusercontent.com/48498823/203988451-5915b94a-0986-428f-ab9b-9b4926957af1.png)
 
-# VAG
+## VAG
 
 Bosch 0280750009 1.8T and hopefully many others
 
@@ -23,15 +25,15 @@ Bosch 0280750009 1.8T and hopefully many others
 
 ![x](OEM-Docs/VAG/Bosch_0280750009_pinout.jpg)
 
-# Mercedes
+## Mercedes
 
 Bosch 0280750074 68mm
 
-![](https://user-images.githubusercontent.com/5051341/127017817-206caa3a-10b9-41ee-999a-8efc18cbc1fb.jpg)
+![throttle body](https://user-images.githubusercontent.com/5051341/127017817-206caa3a-10b9-41ee-999a-8efc18cbc1fb.jpg)
 
-![](https://user-images.githubusercontent.com/5051341/127017376-9012525b-92cd-4bb0-8a1d-1b70946396a1.JPG)
+![wiring diagram](https://user-images.githubusercontent.com/5051341/127017376-9012525b-92cd-4bb0-8a1d-1b70946396a1.JPG)
 
-# Toyota
+## Toyota
 
 ![image](https://user-images.githubusercontent.com/48498823/204656477-c55242ef-56f5-4e48-8fa2-973816feee5e.png)
 
@@ -42,7 +44,7 @@ Bosch 0280750074 68mm
 5. Vc 5V
 6. VTA1 TPS Main
 
-# Nissan
+## Nissan
 
 Hitachi SERA576-01 60mm diameter
 
@@ -78,7 +80,7 @@ WARNING GND#1<>GND#2 are mixed up on the image.
 
 150 Ohm between green and black wires in sensor parked position.
 
-# Outside information
+## Outside information
 
 See [this forum thread](https://rusefi.com/forum/viewtopic.php?f=2&t=2077) TODO move content to here
 

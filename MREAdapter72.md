@@ -1,3 +1,5 @@
+# 72 pin microRusEFI Adapter
+
 ```diff
 -While MREAdapter72 is still functional and supported there are very few of those in the wild
 ```
@@ -65,7 +67,7 @@ High-side jumper should be set for +12v.
 | 4AE | EGR Boost Sensor|   | AV           | MAP                                   |
 | 4AF | Main Relay Power| #1| 12V          | +12v from Main Relay                  |
 
-### x4 AUX low-side drivers ###
+## x4 AUX low-side drivers
 
 There are 4 low-side drivers available. One is used for the alternator warning light on the dash.
 The following I/O is available. A jumper wire will need to be routed between the Jx hole on the board and the appropriate pin on the car-side connector.
@@ -83,13 +85,13 @@ TE 316838-1 for 16 - 18 AWG
 
 Note the [latch on OEM ECU](installations/MazdaMiataNB2_Frankenso/nb2_ecu_plugs_latch.jpg) plugs while installing add-on pins.
 
-### AV8
+## AV8
 
 In order to use this output as an analogue input requires the removal of the LED.
 
 ---
 
-### OEM harness add-ons  
+## OEM harness add-ons  
 
 The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 
@@ -107,7 +109,7 @@ The NB2 OEM connectors are notoriously hard to depin. The link below is for a ve
 
 ---
 
-### Adapter Board Wiring
+## Adapter Board Wiring
 
 | Connector   | microRusEFI |   |
 |---|---|---|
@@ -115,7 +117,7 @@ The NB2 OEM connectors are notoriously hard to depin. The link below is for a ve
 
 ---
 
-### SD card wiring
+## SD card wiring
 
 | Board   | stm32 pin  |   |
 |---|---|---|
@@ -126,7 +128,7 @@ The NB2 OEM connectors are notoriously hard to depin. The link below is for a ve
 
 ---
 
-### Bluetooth/TTL wiring
+## Bluetooth/TTL wiring
 
 | Board   | stm32 pin  |   |
 |---|---|---|
@@ -135,7 +137,7 @@ The NB2 OEM connectors are notoriously hard to depin. The link below is for a ve
 
 ---
 
-# Photos
+## Photos
 
 ![Hardware/pnp_microRusEFI_nb2/MREAdapter72_0_2_front.jpg]
 ![Hardware/pnp_microRusEFI_nb2/MREAdapter72_0_2_back.jpg]

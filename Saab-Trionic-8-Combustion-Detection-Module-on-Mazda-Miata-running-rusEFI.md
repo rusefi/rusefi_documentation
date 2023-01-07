@@ -1,6 +1,6 @@
-## Reverse Engineering Saab Trionic 8 Combustion Detection Module (CDM) output signals using rusEFI ECU
+# Reverse Engineering Saab Trionic 8 Combustion Detection Module (CDM) output signals using rusEFI ECU
 
-###### by Andrey Belomutskiy, 2018
+***by Andrey Belomutskiy, 2018***
 
 * Table of contents
   * [Overview](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#overview)
@@ -12,9 +12,9 @@
 
 This data would not be gathered without help from kb1gtt, stefanst, andreika, nighthunter, hankthefourth and many others.
 
-#### In this report we show how detonation on 2003 Mazda Miata MX-5 could be detected by means of ion sensing using Saab 55352173 Combustion Detection Module (CDM) and H6T60271 Individual Ignition Coils
+**In this report we show how detonation on 2003 Mazda Miata MX-5 could be detected by means of ion sensing using Saab 55352173 Combustion Detection Module (CDM) and H6T60271 Individual Ignition Coils**
 
-# TL;DR
+## TL;DR
 
 knock and combustion detection outputs of 55352173 are digital. Knock is reported with a series of 50us pulses, more pulses
 meaning more detonation. Combustion signal seems to be just a comparator giving logical true if ion sensing wire voltage is below certain level. First wide pulse on the combustion output seems to be flame front phase while second wide output
@@ -34,7 +34,7 @@ Combustion signal seem to be just a comparator
 
 [All the videos mentioned here](https://www.youtube.com/watch?v=1y1dXTg9iMg&list=PLwj_BUeepTNB6eddVd7_KtyqiFYOJ75jy)
 
-# Overview
+## Overview
 
 While Saab Trionic systems were using ion sense forever, only the latest eighth generation
 uses individual ignition coils and external CDM. Prior to T8, a highly integrated ignition cassette was used which would

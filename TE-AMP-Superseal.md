@@ -1,3 +1,5 @@
+# TE/AMP Superseal
+
 They are available in 26, 34, and 60-way arrangements and have an integrated latch for mating.
 
 == 26 plugs

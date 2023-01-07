@@ -2,19 +2,19 @@
 
 [Do-i-need-wideband-oxygen-sensor](https://github.com/rusefi/rusefi/wiki/do-i-need-wideband-oxygen-sensor)
 
-# External WBO
+## External WBO
 
 * External controller with analog output, like then AEM 30-4110 and similar products.
 * External controller with CAN interface, like the AEM X-Series wideband controller/gauge.
 
-# rusEFI Wide band oxygen
+## rusEFI Wide band oxygen
 
 rusEFI has two probably working implementations for Bosch wideband oxygen control:
 
 * We have cj125 integration
 * We like [https://github.com/mck1117/wideband](https://github.com/mck1117/wideband) even more. See [the forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1856)
 
-# rusEFI wideband module
+## rusEFI wideband module
 
 See [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
@@ -22,7 +22,7 @@ See [Hellen-WBO](Hellen-WBO)
 
 TODO: document it better
 
-# cj125 troubleshooting
+## cj125 troubleshooting
 
 We have a few rusEFI console commands relevant for cj125
 
@@ -66,7 +66,7 @@ though you could probably use D=0 since the system is already damped so hard
 
 [Newer LQFP-32 board - single side assembly](https://github.com/rusefi/rusefi/tree/master/hardware/CJ125_board)
 
-# Naming Convention
+## Naming Convention
 
 IP=Pump Current
 
@@ -90,11 +90,11 @@ With SOIC-24 rusEFI module W1=W10=0R means LSU 4.2
 
 With SOIC-24 rusEFI module W1=W10=Do not populate means LSU 4.9
 
-### Q: Any troubleshooting hints when things do not work?
+**Q: Any troubleshooting hints when things do not work?**
 
 A: VM wire between CJ125 and sensor is virtual ground, should measure 2.5v when sensor is connected and when sensor is disconnected.
 
-# Part Numbers
+## Part Numbers
 
 ### Connector Shells
 

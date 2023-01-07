@@ -1,3 +1,5 @@
+# Temperature Sensing
+
 See also [Measuring Temperature](http://rusefi.com/articles/measuring_temperature/)
 
 See also [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)

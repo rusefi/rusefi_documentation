@@ -1,3 +1,5 @@
+# SENT Electronic Throttle Body
+
 GM uses SENT since 2015ish and Ford uses SENT ETBs/DBW since around 2019ish.
 
 Large [Ford 0280750688](https://youtu.be/AqfWQeWSuPA) 2019 Mustang and Godzilla.
@@ -22,13 +24,13 @@ All three use same pinout with different colors obviously.
 
 ![image](https://user-images.githubusercontent.com/48498823/201540621-2477aa01-176c-4e65-ba9d-a32ddd1d671a.png)
 
-# Harness
+## Harness
 
 harness side connector TE 1-1419168-1
 pins 1393365-2
 kit <https://www.bmotorsports.com/shop/product_info.php/products_id/4479>
 
-# See also
+## See also
 
 <https://github.com/rusefi/rusefi/labels/SENT-protocol> for dev notes.
 

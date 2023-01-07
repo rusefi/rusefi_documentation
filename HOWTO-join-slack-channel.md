@@ -1,14 +1,13 @@
-
 # Joining the rusEFI slack channel
 
-#### What is slack and why should I be there?
+## What is slack and why should I be there?
 
 Slack in a group messenger that can be accessed through your browser or as an application on your PC.
 
 Before joining slack please read the section on [asking questions.](HOWTO-ask-questions.md)  
 Please also read the topic on [distraction.](D-is-for-DISTRACTION). And maybe even [Knowledge-best-practices-and-Channels](Knowledge-best-practices-and-Channels)
 
-#### Joining the channel
+## Joining the channel
 
 NEW LINK [https://join.slack.com/t/rusefi/shared_invite/zt-1jay59c0l-idseNjIRg~gU1GNQuimYQw](https://join.slack.com/t/rusefi/shared_invite/zt-1jay59c0l-idseNjIRg~gU1GNQuimYQw)
 

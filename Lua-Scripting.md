@@ -125,7 +125,7 @@ Percent to add to idle (incl. open loop).
 
 Sorry not finished :(
 
-Amount of fuel mass to add to injection, scaled by fuel multiplier ([`setFuelMult()`](#setfuelmultmultiplier)); initially 0.
+Amount of fuel mass to add to injection, scaled by fuel multiplier ([`setFuelMult()`](#setfuelmultcoeff)); initially 0.
 
 #### `setFuelMult(coeff)`
 

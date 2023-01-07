@@ -1,10 +1,12 @@
+# rusEFI Wideband Controller
+
 **NOTE: This is currently under development.  This page might be wrong or change quickly.**
 
 [WBO](WBO)
 
 [Hellen-WBO](Hellen-WBO)
 
-# FAQ
+## FAQ
 
 ### Q: dim red LED?
 
@@ -88,7 +90,7 @@ There was also an opinion voiced that the board needs to see voltage on the "vBa
 
 [https://github.com/mck1117/wideband/issues/11](https://github.com/mck1117/wideband/issues/11)
 
-# Fabrication
+## Fabrication
 
 * Power board with 5v (WBO module produces it's own 3v from supplied 5v)
 * [Tag-Connect-TC2030](Tag-Connect-TC2030) to upload [firmware](https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_image_with_bl.bin)

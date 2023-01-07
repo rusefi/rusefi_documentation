@@ -1,3 +1,5 @@
+# Hardware Quality Control
+
 Between chip shortage, quick prototyping pace and choice of semi-manual assembly we have less than 100% quality.
 
 As of July 9th we have custom FW builds and custom LED board with custom undocumented wired pigtail. Humans are to program, initiate test and evaluate LED status.
@@ -12,7 +14,7 @@ For first round the proposal is to test functional blocks as separate small PCBs
 
 We are building Stim using NUCLEO-F429ZI due to chip shortage. NUCLEO-F429ZI would be plug into [NUCLEO144 Wing](https://github.com/rusefi/hw_modular/tree/master/NUCLEO144_wing) and wires or connectors would be routed via NUCLEO144_wing.
 
-# Requirements
+## Requirements
 
 In the order of priority
 
@@ -23,7 +25,7 @@ In the order of priority
 1. Validate Hall inputs and switch inputs
 1. Validate analog inputs
 
-# Overview
+## Overview
 
 We have ECU, PC and Stim device interconnected.
 

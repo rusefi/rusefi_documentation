@@ -1,4 +1,6 @@
-# Collected Limp Mode info  
+# Vault of Smart ECU Info
+
+## Collected Limp Mode info  
 
 List of threads with existing limp info:  
 
@@ -25,7 +27,7 @@ List of threads with existing limp info:
 [https://rusefi.com/forum/viewtopic.php?f=5&t=1900&p=39412](https://rusefi.com/forum/viewtopic.php?f=5&t=1900&p=39412) - Limp Home and Engine Protection  
 [https://rusefi.com/forum/viewtopic.php?f=5&t=1469&p=39327](https://rusefi.com/forum/viewtopic.php?f=5&t=1469&p=39327) - Software knock processing  
 
-# Control methods and logic
+## Control methods and logic
 
 ### Malfunction light behavior  
 
@@ -105,5 +107,3 @@ This MUST only be the case for truly fatal errors where the consequences of keep
 ### Load sensor failure  
 
 Loss of primary load sensor (MAP, TPS or MAF) is currently a problem that will leave the engine inoperable.
-
-###

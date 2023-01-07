@@ -1,3 +1,4 @@
+# microRusEFI Connectors
 
 Harness donor:
 US: 2007+ Nissan Altima & 2007+ Nissan Sentra
@@ -37,7 +38,7 @@ Terminals
 
 J-48817-232
 
-# Lada as harness donor
+## Lada as harness donor
 
 Complete used harness for Lada could be acquired pretty cheap in some parts of the world. On same Lada vehicles ECU
 is in the cabin (unline Nissan ECU in dirty engine bay) so we get pretty clean crimped connector with about 30 wires already in

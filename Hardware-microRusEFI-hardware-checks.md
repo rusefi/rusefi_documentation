@@ -1,3 +1,5 @@
+# microRusEFI Hardware Checks
+
 v0.1/v0.2 power supply check list
 
 1. Anode of diode D1 (end towards connector): expected ~12v

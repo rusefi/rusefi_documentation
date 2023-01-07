@@ -1,3 +1,5 @@
+# HOWTO Contribute Success Stories
+
 * Please have a separate [forum](https://rusefi.com/forum) thread for each of your rusEFI vehicles. Please have at least one picture in the first forum post.
 
 * Please upload your best rusEFI tune to rusEFI Online [HOWTO-upload-tune](HOWTO-upload-tune.md)

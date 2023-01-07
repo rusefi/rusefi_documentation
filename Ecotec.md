@@ -1,4 +1,4 @@
-Ecotec
+# Ecotec
 
 [Ecotec Miata How-to](https://www.ecotecmiata.ca/how-to)
 

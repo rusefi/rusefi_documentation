@@ -1,3 +1,5 @@
+# Rotary Engines
+
 As of September 2021 rusEFI has tested trailing coil logic.
 
 A lot of sweet TODO at [https://github.com/rusefi/rusefi/issues/3247](https://github.com/rusefi/rusefi/issues/3247)

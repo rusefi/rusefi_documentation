@@ -1,3 +1,5 @@
+# Frankenso Hall Input
+
 ## Typical Hall
 
 For example, Mazda distributor sensors.

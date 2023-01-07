@@ -10,13 +10,13 @@ An example of this would be ITBs.
 It is not suggested that this method is used with rusEFI as we have implemented very good windowing and smoothing of MAP sensor signals, which allows for the speed density method to be used reliably on systems where it would not traditionally function well.  
 However we are aware that there are many users that would still prefer to use this method so it has been provided.
 
-# The detail
+## The detail
 
 fuel_squirt_duration = injector_lag_curve_lookup(V_BATT) + warm_up_curve_lookup(COOLANT_TEMPERATURE) *intake_air_correction_curve_lookup(INTAKE_AIR_TEMP)* fuel_table_lookup(RPM, TPS)
 
 Where TPS is the reading at the start of engine cycle
 
-# How to tune
+## How to tune
 
 The AlphaN system in rusEFI can be tuned in the same way as all other standalone ECUs, it is simply a case of inputting the required fuel values in the main fuel table.
 

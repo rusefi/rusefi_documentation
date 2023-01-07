@@ -1,6 +1,8 @@
+# Developer Quick Start
+
 STM32F407 firmware
 
-```
+```shell
 git clone --recurse-submodules https://github.com/rusefi/rusefi
 cd firmware
 make

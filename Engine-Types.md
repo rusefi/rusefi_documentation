@@ -1,3 +1,5 @@
+# Engine Types
+
 Update 2017: things are much more settled these days, at least 6 months without an incompatible configuration format change.
 
 The best way to configure rusEFI according to your engine setup is via Tuner Studio - there are not many settings there, it should be to some expend self-explanatory. In case of any questions your best chance at the moment is to ask questions on the forum - there are still not enough walk-troughs and articles.

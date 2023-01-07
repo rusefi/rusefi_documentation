@@ -1,3 +1,5 @@
+# Beer Money Manual
+
 Plug it in.
 Run vacuum hose.
 

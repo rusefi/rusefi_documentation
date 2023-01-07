@@ -1,4 +1,6 @@
-# Click on the image below for the latest builds and downloads
+# rusEFI Home
+
+## Click on the image below for the latest builds and downloads
 
 [![Download](Images/Latest_bundle_border.png)](Download)
 

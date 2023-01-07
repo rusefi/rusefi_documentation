@@ -1,3 +1,5 @@
+# Man in the Middle
+
 See [CAN-decoding-hints](CAN-decoding-hints)
 
 <https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/man-in-the-middle.txt>

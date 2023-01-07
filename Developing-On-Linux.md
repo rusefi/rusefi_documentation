@@ -1,6 +1,6 @@
 # Developing On Linux
 
-# Compiling
+## Compiling
 
 Download the latest ARM GCC from ARM itself: [ARM GCC toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
 
@@ -10,7 +10,7 @@ TODO: You probably need to install additional packages but I don't remember what
 
 Then to compile the firmware,
 
-```
+```shell
 cd firmware
 make PROJECT_BOARD=nucleo_h743 PROJECT_CPU=ARCH_STM32H7 -j4
 ```
@@ -19,23 +19,23 @@ Edit according to your environment.
 
 To compile the simulator,
 
-```
+```shell
 cd simulator
 ./compile.sh
 ```
 
 To compile the unit tests,
 
-```
+```shell
 cd unit_tests
 make -j4
 ```
 
-# Working with STM32 Dev/Nucleo boards
+## Working with STM32 Dev/Nucleo boards
 
 These boards are convenient as they include an ST-Link onboard which aids debugging.  I believe the main difference is a Development board includes a bunch of peripherals that you may or may not care about, while a Nucleo board is much more stripped down.  Some (all?) boards will be powered when you connect to the ST-Link USB board.  The ST-Link will include, among other things, a virtual com port, which can be used to run either the console or TunerStudio.  However, by default the ports are not accessible by regular users.  You can solve this with:
 
-```
+```shell
 sudo chmod 666 /dev/ttyACM*
 ```
 
@@ -50,7 +50,7 @@ To get started, plug the ST-Link side of the dev board into your computer.  Gene
 
 OpenOCD can be left running in the background while you develop in other windows.  It will provide a GDB server, a telnet connection for issuing commands, and a TCL interface.  We'll just ignore the last one for now.  To start OpenOCD, you need to pass in a board configuration file.  Luckily they exist for most any off the shelf board you care about.
 
-```
+```shell
 sudo ~/openocd/xpack-openocd-0.11.0-2/bin/openocd -f ~/openocd/xpack-openocd-0.11.0-2/scripts/board/st_nucleo_h743zi.cfg
 ```
 
@@ -58,7 +58,7 @@ Adjust as necessary; you may need `sudo` if you don't normally have access to US
 
 To reprogram, simply do:
 
-```
+```shell
 telnet localhost 4444
 program build/rusefi.elf reset
 exit
@@ -66,7 +66,7 @@ exit
 
 Or, if you prefer a one-liner:
 
-```
+```shell
 (echo "program build/rusefi.elf reset"; echo exit) | nc localhost 4444
 ```
 
@@ -74,7 +74,7 @@ Conveniently, OpenOCD will retain a history of commands, allowing you to use up-
 
 On a nucleo-h743, I don't seem to get much indication this worked, but if you connect via gdb:
 
-```
+```shell
 gdb build/rusefi.elf
 target remote :3333
 ```

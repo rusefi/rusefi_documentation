@@ -1,4 +1,6 @@
-### GPIO
+# Developer Tips
+
+## GPIO
 
 [efiSetPadMode()](https://rusefi.com/docs/html/io__pins_8cpp.html#a4bd76c1e23f3126d720239707dbcbaaf)  
 [efiReadPin()](https://rusefi.com/docs/html/io__pins_8cpp.html#a6df3ebf4716cb8e2a42f45f6fa7e3afe)
@@ -10,7 +12,7 @@ applyNewHardwareSettings() in hw_layer/hardware.cpp
 incrementGlobalConfigurationVersion() in controllers/algo/engine_configuration.cpp  
 unregisterPins() in controllers/system/efi_gpio.cpp
 
-### General how-do-I-do-this
+## General how-do-I-do-this
 
 most stuff is initiated in engine_controller.cpp
 
@@ -27,17 +29,17 @@ US2MS(NT2US()) will convert in the other direction.
 For logging, use [scheduleMsg()](https://rusefi.com/docs/html/loggingcentral_8h.html#a0da1724993b78c84530d681d254b59a2)  
 sharedLogger is a generally available logger object, which is passed (by reference) to scheduleMsg.
 
-### Discovery pinout with usable pins
+## Discovery pinout with usable pins
 
 [stm32f4 discovery pinout with functions](https://docs.google.com/spreadsheets/d/1pnU3Migcc7JEezvpVt3TcVCbuE5dIXXwrYFGZI97GNM/edit#gid=0)
 
-### Debugging
+## Debugging
 
 [GDB and OpenOCD](http://www.openocd.org/doc/html/GDB-and-OpenOCD.html)
 
 Using openocd and gdb on STM32F407G-DISC1 requires modifying stm32f4discovery.cfg to source stmlink-v2-1.cfg
 
-```
+```shell
 openocd -f /usr/share/openocd/scripts/board/stm32f4discovery1.cfg
 arm-none-eabi-gdb rusefi.elf
 tar ext :3333
@@ -47,13 +49,13 @@ load
 c
 ```
 
-### Errors
+## Errors
 
 `cannot move location counter backwards (from 0000000020020018 to 0000000020020000)`  
 This means that rusEFI is out of memory.  
 Down at the end of engine_controller.cpp there's a dummy array that keeps track of how much free space we have. You can shrink that to give your code room to fit.
 
-### Testing
+## Testing
 
 All tests are run in one instance, but each test gets its own EngineTestHelper, which calls commonInitEngineController, so your objects need to gracefully handle being initiated multiple times.  
 For CONFIG(...) to work in tests, you need a DECLARE_ENGINE_PTR; in the class declaration, then an INJECT_ENGINE_REFERENCE(&myObject), at some point during init.  

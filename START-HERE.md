@@ -1,3 +1,5 @@
+# Start Here
+
 _This page is intended to help ease a new user into the world of rusEFI_
 
 ## First things first

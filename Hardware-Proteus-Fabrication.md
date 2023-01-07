@@ -1,9 +1,10 @@
+# Proteus Fabrication
 
 [Proteus](https://github.com/mck1117/proteus) is a 4 layer PCB measured 135mm x 82.5mm
 
 [Interactive BOM](https://rusefi.com/docs/ibom/proteus_0_4_ibom.html)
 
-# 0.4
+## 0.4
 
 ![x](Hardware/Proteus/Hardware-Proteus-0.4-instructions1.jpg)
 
@@ -13,7 +14,7 @@
 
 ![x](Hardware/Proteus/Hardware-Proteus-0.4-jlc.jpg)
 
-# Assembly sequence
+## Assembly sequence
 
 * Buttons: paste + soldering iron
 * FB1501 Ferrite: paste + hot air
@@ -22,7 +23,7 @@
 
 At this point USB DFU should work
 
-# 0.4 Non-JLC BOM
+## 0.4 Non-JLC BOM
 
 Comment,Designator,Footprint, PN
 68u,"C17,C1001",Capacitor_SMD:CP_Elec_8x10,EEH-ZE1H680V
@@ -56,6 +57,6 @@ Acceptable 3D printed case files are not public yet.
 
 CNC files to cut holes in 1590wxxfl/1590xxfl cases are available [here](https://github.com/mck1117/proteus/blob/master/export/proteus-case.step)
 
-# 0.3
+## 0.3
 
 ![x](Hardware/Proteus/Hardware-Proteus-0.3.jpg)

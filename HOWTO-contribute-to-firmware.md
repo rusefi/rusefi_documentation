@@ -1,3 +1,5 @@
+# HOWTO Contribute to Firmware
+
 The majority of rusEFI code is written in very plain C++ ("C with classes"), with rusEFI console and some code generating
 tools written in java.
 

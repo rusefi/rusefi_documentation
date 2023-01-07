@@ -1,3 +1,4 @@
+# rusEFI Bundle
 
 `rusefi.bin` file is compiled rusEFI firmware. Sometimes you would have `rusefi_no_asserts.bin` variation of this file with fewer safety checks.
 

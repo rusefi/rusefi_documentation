@@ -1,7 +1,8 @@
+# BMW E65
 
 Production 2001 – 2008
 
-# 750 8 cylinders
+## 750 8 cylinders
 
 ![x](OEM-Docs/Bmw/7_Series_e65/2006_bmw_750_ecu.png)
 
@@ -30,11 +31,11 @@ Production 2001 – 2008
 |   |         |           |
 |   |         |           |
 
-# 760 12 cylinders
+## 760 12 cylinders
 
 See [BMW-N73](BMW-N73)
 
-##### HOWTO videos
+## HOWTO videos
 
 [Console removal](https://www.youtube.com/watch?v=pGAeodWa_i4)
 
@@ -51,7 +52,7 @@ SRS module controls fuel pump
 
 [User Manual](OEM-Docs/Bmw/2003_7_Series_e65/2004_Manual_7_Series.pdf)
 
-# Transmission
+## Transmission
 
 [6 Speed Transmission mechatronic sleeve replacement](OEM-Docs/Bmw/2003_7_Series_e65/6_speed_sleeve_replacement.pdf)
 

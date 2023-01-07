@@ -1,10 +1,12 @@
-## LEGACY CONTENT, please use BeerMoneyMotorsports Miata ECU
+# Frankenso Mazda Miata NA6 PNP Board Wiring
+
+**LEGACY CONTENT, please use BeerMoneyMotorsports Miata ECU**
 
 ![board](installations/MazdaMiataNA6_Frankenso_pnp/Frankenso_MazdaMiataNA6_pnp_053_na6_v0_1.jpg)
 
 [Frankenso Board Technical Details](Hardware-Frankenso#default-pinout)
 
-# Board Jumper Wires
+## Board Jumper Wires
 
 | # & Color | From | To | Function |   |
 |------|------|----|-------|---|

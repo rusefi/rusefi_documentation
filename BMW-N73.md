@@ -1,7 +1,6 @@
+# BMW N73
 
 [rusEFI 2004 BMW 760 forum thread](https://rusefi.com/forum/viewtopic.php?f=2&t=1845)
-
-# N73
 
 BMW 760 12 cylinders
 See [BMW-e65](BMW-e65)
@@ -26,7 +25,7 @@ x2 HDEV fuel injection module 7506280 [121 pin connector](OEM-connectors#121)
 ![p](OEM-Docs/Bmw/2003_7_Series_e65/2003_N73_engine_10.png)
 ![connector](OEM-Docs/TE/Connector_121_pinout.jpg)
 
-# HDEV
+## HDEV
 
 Injector #1 + #118
 
@@ -57,11 +56,11 @@ CAS 61326922329
 Programming keywords:
 ISTA ICON
 
-# Starting
+## Starting
 
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-starting.png)
 
-# Data Lines
+## Data Lines
 
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-obd.png)
 
@@ -69,7 +68,7 @@ ISTA ICON
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-data-buses-2.png)
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-data-buses-3.png)
 
-# Anti Theft
+## Anti Theft
 
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-anti-theft-1.png)
 ![x](OEM-Docs/Bmw/2003_7_Series_e65/2004-760-anti-theft-1.png)

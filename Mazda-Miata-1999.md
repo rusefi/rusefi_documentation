@@ -1,3 +1,5 @@
+# 1999 Mazda Miata
+
 [64 pin Connector](OEM-connectors#64-pin)
 
 [Mazda MX5 1.8 1999 AE](http://rusefi.com/forum/viewtopic.php?f=3&t=467)

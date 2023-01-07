@@ -1,3 +1,5 @@
+# AlphaX 4Chan
+
 [AlphaX](https://www.alphaxpr.com/)
 
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_alphax-4chan.zip)
@@ -28,7 +30,8 @@
 
 ## Changelog
 
-rev E: 
+rev E:
+
 * SD card fixed
 * [CRANKs/CAMs input hookup points](https://github.com/rusefi/alphax-4chan/issues/61)
 

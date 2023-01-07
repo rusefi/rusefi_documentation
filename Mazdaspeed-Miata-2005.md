@@ -1,3 +1,5 @@
+# 2005 Mazdaspeed Miata
+
 1.8 turbo
 
 [https://en.wikipedia.org/wiki/Mazda_MX-5#Mazdaspeed_MX-5_(2004%E2%80%932005)](https://en.wikipedia.org/wiki/Mazda_MX-5#Mazdaspeed_MX-5_(2004%E2%80%932005))

@@ -1,4 +1,6 @@
-### January 2021 update
+# Ion Sense
+
+## January 2021 update
 
 Early versions of our own DIY hardware has been tested on an engine with in-cylinder pressure sensing.
 The data from this has been analysed and we have had some promising results.  
@@ -10,7 +12,7 @@ The DIY hardware is undergoing a revision to provide better protection from grou
 
 Further information will become available as things progress, for now the graph below shows the corelation of the angle ATDC of the Ion sensed pressure peak (IC) vs the pressure sensor sensed peak pressure (PC).  
 
-![](Images/Ion-Angle-Graph.png)
+![Ion Angle Graph](Images/Ion-Angle-Graph.png)
 
 We like
 

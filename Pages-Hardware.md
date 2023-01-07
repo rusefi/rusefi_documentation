@@ -1,4 +1,4 @@
-## Master list of hardware (boards) pages
+# Master list of hardware (boards) pages
   
 [Hardware overview](Hardware)  
 

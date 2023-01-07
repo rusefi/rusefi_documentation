@@ -1,3 +1,5 @@
+# Unknown Trigger
+
 At the moment the only way to add a new trigger pattern is by having rusEFI developers add a little bit of code into the firmware along the lines of:
 
 s->addEvent(52.960405, T_SECONDARY, TV_RISE);

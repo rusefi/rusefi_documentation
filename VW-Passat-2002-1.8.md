@@ -1,3 +1,5 @@
+# 2002 VW Passat 1.8
+
 ![Wiring Diagram](Images/Passat_2002_1_8t.png)
 
 motor has two wires, connector pins 3 & 5

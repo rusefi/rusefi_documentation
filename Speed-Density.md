@@ -3,7 +3,7 @@
 Speed density is the most popular fuel control system employed but rusEFI users are present. This is due to its simplicity of tuning and it's suitability for turbocharged cars.  
 It is due to this widespread use that it is the most well developed fuel control method and is the primary recommendation for fuel control at present (27/4/2020).
 
-# The detail
+## The detail
 
 Speed Density is probably the most popular algorithm since with knowing MAP calibration, CLT, IAT and TPS and injector flow rate we get a good enough tune without much difficulty.
 
@@ -22,7 +22,7 @@ charge_temp is charge temperature heuristic formula: Tcharge = CLT *(1 - Tcharge
 
 [//]: # "aware this needs more detail or cleaning up, hoping it will hold for now, happy for someone to add to the detail"
 
-# How to tune
+## How to tune
 
 The Speed density strategy in rusEFI shares its basic tuning method with all other speed density systems in other aftermarket ECUs.  
 If you are familiar with the tuning of another aftermarket ECU then it is likely the tuning of speed density on rusEFI will be very easy to get into.

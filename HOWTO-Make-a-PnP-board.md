@@ -1,3 +1,5 @@
+# HOWTO Make a Plug-and-Play Board
+
 ## TL,DR
 
 We believe in 100% Plug and Play (PnP) ECUs. There are a few steps helping to make an amazing PnP ECU:
@@ -14,7 +16,7 @@ A: Please start with a wired prototype, it's a valuable development tool.  It le
 
 There is no down side.  It is both project risk management 101 and project acceleration methods 101.  It is hands down the best path, its just not what you WANT hear....but it is the right thing to do.
 
-# Longer version
+## Longer version
 
 I am going to make a Nissan76pin -> RusEFI "Proteus" adapter.  A friend asked how I was going to do it because he was interested in making a PnP PCB for his car.  These instructions are pretty general.  "Proteus" can mean any RusEFI version that has enough "stuff" to run your engine.  "Nissan76pin" can mean whatever OEM connector will work for your engine.  I'm going to assume KiCAD is being used but there's nothing stopping you from using your CAD package of choice.  
 

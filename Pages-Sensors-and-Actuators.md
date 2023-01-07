@@ -1,4 +1,4 @@
-## Master list of Sensor and Actuators pages
+# Master list of Sensor and Actuators pages
 
 <details markdown="1"><summary><u>Throttle and ETB</u></summary>
 

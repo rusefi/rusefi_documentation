@@ -1,3 +1,5 @@
+# rusEFI Mission Statement
+
 TL,DR: always looking for C/C++/PHP/Java developers!
 
 rusEFI is a group of enthusiasts developing a fundamentally _smarter_ open source ECU.

@@ -1,7 +1,8 @@
+# Knock Sensing
 
 TL,DR: We have native knock processing, with [Proteus](Proteus) and Hellen hardware support at the moment. We have very limited amount of testing on real vehicles.
 
-# Software knock sensing
+## Software knock sensing
 
 ![x](https://rusefi.com/forum/download/file.php?id=6900)
 
@@ -9,7 +10,7 @@ TL,DR: We have native knock processing, with [Proteus](Proteus) and Hellen hardw
 
 [Youtube rusEFI: Hellen knock gauge](https://youtu.be/oJKI8X4oxCs)
 
-# ASIC solution
+## ASIC solution
 
 We have some progress integrating with conventional knock sensors but it's not ready for end users.
 We use TPIC/HIP9011 IC for knock sensor integration but no conclusive data.

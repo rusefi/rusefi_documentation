@@ -6,7 +6,7 @@ The Air Fuel Ratio (AFR) is controlled by how much fuel is delivered to the cyli
 
 Most people who are installing tune-able ECU's like rusEFI are looking for more power at the track. However your fuel weight advantage is also commonly important. So it is common that an engine will be tuned for peak power when over a certain load, and peak economy when at a cruise load. OEM's are often concerned with minimal environmental impact, so they may tune to a different AFR. Once you have decided on what your AFR strategy is going to be, you'll have to tune rusEFI to deliver that strategy. As well you will probably use a wide band oxygen sensor to measure your AFR and ensure that you are meeting your desired AFR target.
 
-# Supported fuel control algorithms
+## Supported fuel control algorithms
 
 rusEFI supports mono, individual/sequential and batched fuel injection using one of the following fuel control algorithms:
 
@@ -145,14 +145,14 @@ In future more adjustments may be needed- for example at low rpms a throttle tha
 
 1. Come up with a strategy on how to deal with cumulative effects. Example: Push down on the gas pedal. What if that process takes longer than one engine rotation?
 
-**Example:**
-| Rotation in deg | Throttle Pos | Addtl. fuel current | Addtl. Fuel Taper
-| - | - | - | - |
-| 0 | 0 | 0 | 0 |
-| 360 | 2 | 13 | 0 |
-| 720 | 4 | 5 | 8 |
+   **Example:**
+   | Rotation in deg | Throttle Pos | Addtl. fuel current | Addtl. Fuel Taper
+   | - | - | - | - |
+   | 0 | 0 | 0 | 0 |
+   | 360 | 2 | 13 | 0 |
+   | 720 | 4 | 5 | 8 |
 
-Should the fuel from the current change and the previous taper be added up? Or averaged? Or should the latest change completely override the previous change?
+   Should the fuel from the current change and the previous taper be added up? Or averaged? Or should the latest change completely override the previous change?
 
 2. Deal with warming up. During warmup more additional fuel is needed. We need a setting to adjust for that.
 

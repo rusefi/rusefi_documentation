@@ -1,6 +1,6 @@
-## Fuel injector info
+# Fuel injector info
 
-### Fuel injectors
+## Fuel injectors
 
 As of May 2020, only saturated (high impedance, >8 ohms) port injectors are supported.  
 All hardware variants are built around the concept of one ECU pin controlling one fuel injector.  The use of multiple injectors on one ECU output must be very carefully evaluated to avoid overloading drivers.  One injector may also be used for all cylinders("single point").  A pair of injectors can be wired together and fired simultaneously, as in 4 pairs of injectors on a V8.  It's possible but not intuitive to configure two banks of multiple cylinders of injectors alternating fire.  It is recommended to use one injector per cylinder.  As of May 2020, staged injection with multiple injectors per cylinder is possible in hardware but the software is not yet ready.  

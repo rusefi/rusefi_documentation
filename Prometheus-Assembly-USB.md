@@ -1,4 +1,4 @@
-## 3 USB block
+# Prometheus Assembly - USB block
 
 ## (a) - driver & isolation
 

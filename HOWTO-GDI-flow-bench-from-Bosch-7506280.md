@@ -1,3 +1,5 @@
+# HOWTO GDI Flow Bench From Bosch 7506280
+
 [bosch 7506280 GDI driver - Forum](https://rusefi.com/forum/viewtopic.php?f=4&t=1564)
 
 [BMW e65](BMW-e65)
@@ -6,9 +8,9 @@
 
 [HOWTO depin Video](https://youtu.be/5nto9Sa7yKc?t=65)
 
-# Bosch 7506280 wiring
+## Bosch 7506280 wiring
 
-# 81 pin connector
+### 81 pin connector
 
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | rusEFI connector |
 | ---:|:------------- | ----- |:------------------------------------ |------------- | ------------- |
@@ -26,7 +28,7 @@
 | 53  |               |       | CAN                                  |              |               |
 |     |               |       |                                      |              |               |
 
-# 40 pin connector
+### 40 pin connector
 
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | rusEFI connector |
 | ---:|:------------- | ----- |:------------------------------------ |------------- | ------------- |

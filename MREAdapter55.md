@@ -1,9 +1,10 @@
+# 55 pin microRusEFI Adapter
 
 Looking for a motivated beta tester.
 
 [Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1668)
 
-# E30 fitment notes  
+## E30 fitment notes  
 
 pin fixes needed:-  
 Pin 6 is marked as fan but is a lowside output, this will work fine for tacho as it is a 12v grounded.  

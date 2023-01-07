@@ -1,6 +1,8 @@
+# Chip Shortage: Parts Interchange
+
 todo organize these notes better
 
-# Proteus
+## Proteus
 
 [Proteus Stock issues - Forum](https://rusefi.com/forum/viewtopic.php?p=41539#p41539)
 
@@ -10,7 +12,7 @@ BM2LC105FJ-C BM2LC120FJ are replacement for VNLD5160
 
 MCP6004T-I/ST: MCP6004T-E/ST
 
-## Proteus MCU options
+### Proteus MCU options
 
 Requirements:
 
@@ -19,7 +21,7 @@ Requirements:
 - STM32F4: Known working is any F427/F429.  256KB RAM required. 1MB or 2MB acceptable.
 - STM32F7: Known working is F767. 1MB or 2MB acceptable.
 
-# Hellen
+## Hellen
 
 See also [Hellen JLC fabrication component substitution options](https://github.com/andreika-git/hellen-one/wiki/JLC-fabrication-component-substitution-options)
 

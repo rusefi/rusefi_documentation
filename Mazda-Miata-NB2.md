@@ -1,3 +1,5 @@
+# Mazda Miata NB2
+
 [Mazda Miata 2002](Mazda-Miata-2002)
 [Mazda Miata 2003](Mazda-Miata-2003)
 

@@ -1,3 +1,5 @@
+# HOWTO M72 V12 on Proteus
+
 See also [HOWTO-Crimp-Ampseal](HOWTO-Crimp-Ampseal.md)
 
 See also [Vault-Of-Electronic-Throttle-Bodies-ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Nissan Hitachi SERA576-01 60mm throttle body recommended. In order to mount SERA576-01 you just need to drill ETB bolt passages to 10mm / 3/8".
@@ -14,7 +16,7 @@ Second set of 9+24+52+40+9=134 pins total is GREY.
 
 rusEFI uses six wire colors: black white red orange green blue.
 
-# Proteus
+## Proteus
 
 * +12 from main relay
 * x12 injectors
@@ -27,7 +29,7 @@ Total wires between Proteus and BLACK - 22
 Destination legend:
 "Black #3 40/52" means "Black set of ECU plugs, connector #3 - pin 40 of 52 total pins"
 
-## Black 35 Pin 776231-1
+### Black 35 Pin 776231-1
 
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | new color| Destination |
 | ---:|:------------- | ----- |:------------------------------------ |--------- | --- |--- |
@@ -55,7 +57,7 @@ Destination legend:
 
 Unused pins are - 1;2;13;14;25;26;27;28;29;31;32;33;34;
 
-## Black 23 Pin 776228-1 on Black Proteus 0.2
+### Black 23 Pin 776228-1 on Black Proteus 0.2
 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
@@ -72,7 +74,7 @@ Unused pins are - 1;2;13;14;25;26;27;28;29;31;32;33;34;
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
 End of Black Proteus 0.2 23 pin table
 
-## Black 23 Pin 776228-1 on Green Proteus 0.3+
+### Black 23 Pin 776228-1 on Green Proteus 0.3+
 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | new color| OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- | --- |
@@ -93,7 +95,7 @@ End of Green Proteus 0.3+ 23 pin table
 
 Unused pins are - 3;4;;9;10;11;12;14;20;21;22;
 
-## White 35 Pin 776231-2
+### White 35 Pin 776231-2
 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color|new color| OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |  --- |
@@ -187,7 +189,7 @@ ECU/OEM pigtails: 52 inches / 132cm
 
 ![x](installations/M73_v12_Proteus/134_ignition.jpg)
 
-# 9 pin plug #1
+## 9 pin plug #1
 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
@@ -195,19 +197,19 @@ ECU/OEM pigtails: 52 inches / 132cm
 |   |   |   |   |   |
 |   |   |   |   |   |
 
-# 24 pin plug #2
+## 24 pin plug #2
 
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
 |   |   |   |   |   |
 
-# 52 pin plug #3
+## 52 pin plug #3
 
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
 |   |   |   |   |   |
 
-# 40 pin plug #4
+## 40 pin plug #4
 
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
@@ -217,7 +219,7 @@ ECU/OEM pigtails: 52 inches / 132cm
 | 40| OUT |YEL/BRN |BRN starter enable
 |   |   |   |   |   |
 
-# 9 pin plug #5
+## 9 pin plug #5
 
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|

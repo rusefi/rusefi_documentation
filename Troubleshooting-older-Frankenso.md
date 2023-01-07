@@ -1,3 +1,5 @@
+# Troubleshooting Older Frankenso
+
 Over the years of developing rusEFI at least 20 of these stm32f4discovery boards were destroyed by just the primary developers. Sometimes we know we've shorted VCC to GND, sometimes the reasons are unknown. TODO: one day we would know more about it
 
 TODO: write down safest operation protocols.
