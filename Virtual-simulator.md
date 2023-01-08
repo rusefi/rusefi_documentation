@@ -1,6 +1,6 @@
 # rusEFI Virtual simulator
 
-**You'll be able to test out the rusEFI controller on your computer**
+    **You'll be able to test out the rusEFI controller on your computer**
 
 rusEFI virtual firmware simulator is a way to play with the rusEFI without any hardware!
 This simulator allows you to see how the firmware reacts to different commands and configuration adjustments via Tuner Studio. The main thing one would be looking at would be the 'Engine Sniffer'.
@@ -31,7 +31,7 @@ If you don't know how to create a Tunerstudio project go [here](HOWTO-create-tun
 
 With the paid version all you need to do is to go into the communication settings inside a created project
 
- ![Commsetings](FAQ/images/simulator/Tunerstudio_comm._settings.png)
+ ![Communication_settings](FAQ/images/simulator/Tunerstudio_comm._settings.png)
 
 choose the driver "Standard Protocols Driver" and connection type "TCP/IP - WiFi driver", enter the Port as "29002" and the IP address as "localhost" (aka 127.0.0.1)
 
@@ -56,7 +56,7 @@ Now you can create your virtual port.
 
 So now if you open the communication settings in Tunerstudio,
 
-![Commsettings](FAQ/images/simulator/Tunerstudio_comm._settings.png)
+![Communication_settings](FAQ/images/simulator/Tunerstudio_comm._settings.png)
 
 you'll be able to connect to your emulator.
 
