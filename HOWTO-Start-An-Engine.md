@@ -70,7 +70,7 @@ To adjust running timing for your first run, use `set_whole_timing_map XXX` comm
 
 To adjust running fuel for your first run, use `set_whole_fuel_map XXX` command, where XXX is number of total fuel squirt duration in milliseconds. This value is usually between 3 and 12. See also [Console Fuel Commands](Dev-Console-Commands#fuel-control)
 
-One plain MAF work next step is running with proper MAP sensor calibration & flow rate setting.
+Once plain MAF works next step is running with proper MAP sensor calibration & flow rate setting.
 
 ## next steps & troubleshooting
 
