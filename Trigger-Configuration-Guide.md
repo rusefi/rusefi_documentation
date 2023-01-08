@@ -2,7 +2,7 @@
 
 ## Hall Effect Sensors
 
-*note: the hall effect section also includes optical sensors, as they behave electrically the same as hall sensors*
+    **note: the hall effect section also includes optical sensors, as they behave electrically the same as hall sensors**
 
 ### Wiring
 
@@ -20,7 +20,7 @@ VR sensors have two wires, VR+ and VR-, usually with an additional shield that p
 
 #### ECUs with MAX992x-based VR inputs (Proteus, Frankenso)
 
-The [MAX992x series chips](https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX9924.html) provide an integrated single-chip solution for converting a VR sensor's analog signal to a digital one usable by the microcontroller on the ECU.  While these chips are very reliable, they will exhibit incorrect behavior if the VR sensor's wires are swapped.  On a negative zero crossing (ie, voltage decreasing through zero), the output will be exactly aligned with the zero crossing, but on a positive crossing, the threshold is at roughly 1/3 the peak voltage of the VR signal.
+The [MAX992x series chips](https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX9924.html) provide an integrated single-chip solution for converting a VR sensor's analog signal to a digital one usable by the micro-controller on the ECU.  While these chips are very reliable, they will exhibit incorrect behavior if the VR sensor's wires are swapped.  On a negative zero crossing (ie, voltage decreasing through zero), the output will be exactly aligned with the zero crossing, but on a positive crossing, the threshold is at roughly 1/3 the peak voltage of the VR signal.
 
 Since the zero crossing is the moment with known timing relative to the physical wheel, we want to ensure that the wiring polarity is correct.  The shape of the signal received by the ECU at the missing tooth will reveal whether the sensor is wired backwards.
 
@@ -39,7 +39,7 @@ To inspect the missing tooth signal's shape:
 
    ![wrong VR sensor missing tooth pattern](https://i.imgur.com/rJRJWP7.jpg)
 
-   > These images were collected on a Volvo 60-2 trigger wheel, the exact timing may vary, but a long period of low preceding the long high time (marked with arrow on the wrong image) is the clear indicator of a miswired sensor.  The correct pattern is equally sized low periods, with a single long high period.
+   > These images were collected on a Volvo 60-2 trigger wheel, the exact timing may vary, but a long period of low preceding the long high time (marked with arrow on the wrong image) is the clear indicator of a mis-wired sensor.  The correct pattern is equally sized low periods, with a single long high period.
 
 5. If your missing tooth looks like the wrong example, swap the VR+ and VR- wires.  Repeat steps 2-4, and double check that it now looks like the good example.
 6. In TunerStudio, ensure that "Use only rising edge" is set to `true`, and "Invert Primary" is set to `false`. (found in the menu *Base Engine* > *Trigger*).  These are the only correct combination of options for a MAX992x-based VR interface.
