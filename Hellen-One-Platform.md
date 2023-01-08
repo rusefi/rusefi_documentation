@@ -17,7 +17,12 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |[88 Pin BMW](Hellen-88-BMW)|[![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334235601464)|
 |[154 Pin Hyundai](Hellen-154-Hyundai)|soon|[open source](https://github.com/rusefi/hellen154hyundai)|
 
-**The .ini file for Hellen is loaded onto the Hellen board. When you plug the Hellen into your computer, a "virtual flashdrive" will load up. The .ini file is in there. Copy to your computer and save in your TunerStudio folder, and link your TunerStudio definition to that file. When your Hellen firmware is updated, the .ini file is also updated, so make sure you get the latest .ini from the Hellen board after you update the firmware**
+    **The .ini file for Hellen is loaded onto the Hellen board. 
+    When you plug the Hellen into your computer, a "virtual flash drive" will load up. 
+    The .ini file is in there. Copy to your computer and save in your TunerStudio folder, 
+    and link your TunerStudio definition to that file. 
+    When your Hellen firmware is updated, the .ini file is also updated, 
+    so make sure you get the latest .ini from the Hellen board after you update the firmware**
 
 ## FAQ
 
@@ -31,7 +36,7 @@ A: Part of the reasoning behind developing PnP boards at this stage is attractin
 
 ### Q: Why so many closed source boards? Ultimately, these are to be commercial products right?
 
-A: it's mostly an experiment really. As of October 2021 we have couple of open source boards with very little community interest and a some closed source boards with a very enthusiastic dealer. We are still gathering data. [It's-complicated](It's-complicated). See also [Standalone-on-Demand](Standalone-on-Demand)
+A: it's mostly an experiment really. As of October 2021 we have couple of open source boards with very little community interest and some closed source boards with a very enthusiastic dealer. We are still gathering data. [It's-complicated](It's-complicated). See also [Standalone-on-Demand](Standalone-on-Demand)
 
 [Dev Information](https://github.com/andreika-git/hellen-one/wiki)
 
