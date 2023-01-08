@@ -4,7 +4,7 @@
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)
 
-**WARNING: for historical reasons microRusEFI pin numbers do not match Molex numbers on the plastic**
+    **WARNING: for historical reasons microRusEFI pin numbers do not match Molex numbers on the plastic**
 
 ![connector](Hardware/microRusEFI/Hardware_microRusEFI_connector.png)
 
@@ -48,21 +48,21 @@ These tables provide technical information about the different types of pin foun
 |------|---------------------| ------------------------------------------------------------------------------------ | --- |
 | at   | Analog temperature  | Analog temperature (thermistor) input.  <mark>2.7k/TBD</mark> pullup resistor to 5v  | Thermistor temperature sensor, fuel level sender (variable resistor type) |
 | av   | Analog voltage      | Analog voltage input.  500k pull down to GND                                         | Analog voltage sensor (MAP, TPS, acc pedal, oil pressure, etc)
-| vr   | Variable reluctor   | VR crank input                                                                       | VR sensors including crank, cam, vehicle speed
+| vr   | Variable reluctance   | VR crank input                                                                       | VR sensors including crank, cam, vehicle speed
 | hall | Hall cam/crank      | <mark>TBD pull up to 5v</mark> hall sensor for cam/crank                             | Hall sensors including crank, cam, vehicle speed
 
 ### Output
 
 | ID | Type | Notes & Limits | Possible functions |
 |----|-------------| ---- | --- |
-| inj  | Injector output     | Low side, 2.2A maximum<br/>**Only saturated (high impedance) injectors are supported.** | Injector, general purpose low side |
+| inj  | Injector output     | Low side, 2.2A maximum **Only saturated (high impedance) injectors are supported.** | Injector, general purpose low side |
 | ign  | Ignition output     | 5V push-pull, 250mA maximum   | Ignition coil, general purpose 5V push-pull
 | ls   | High power low side | General purpose low side output, 4.5A maximum | General purpose low side, injector
 | gp_high | General purpose high side | General purpose high side push output, 5V/12V (internally selectable based on JP2 jumper) 250mA maximum | General purpose 5V/12V high side, ignition coil
 | gp_low | General purpose low side | General purpose low side pull output, 12V 500mA maximum                            | General purpose low side
 | gp_pp  | General purpose Push-Pull | General purpose push-pull (low and high side) output, 600mA | Bipolar IDLE stepper, relays, solenoids |
 | mr   | Main relay          | Dedicated main relay output.  Low side turned on with power, 800mA maximum. | Main relay
-| etb  | Electronic throttle | Dedicated electronic throttle outputs.  Connect a brushed motor<br/>throttle body directly to these two pins.
+| etb  | Electronic throttle | Dedicated electronic throttle outputs.  Connect a brushed motor throttle body directly to these two pins.
 
 ### Communication
 
@@ -83,7 +83,7 @@ USB cable red wire: +5v (would not work via microRusEFI connector for versions <
 
 ### Hall type Crank sensor
 
-See TLE8888 datasheet figure 71
+See TLE8888 data sheet figure 71
 R9=DNP
 R15=DNP
 R17=2.7K pull-up to 5v
@@ -116,7 +116,7 @@ J4:
 
 [J2 Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/main.html)
 
-Three GPIOs are available on J2 (SWD) connector. If you are not going to use debuger J2 connector can be used for other purposes.
+Three GPIOs are available on J2 (SWD) connector. If you are not going to use debugger J2 connector can be used for other purposes.
 | N | Name | Possible functions (not all listed!) |
 |----|-------------| ---- |
 | 7, 8 | GND | GND |
@@ -127,13 +127,13 @@ Three GPIOs are available on J2 (SWD) connector. If you are not going to use deb
 | 6 | SWO | SWD/JTAG data out (?) or SPI1_SCK or SPI3_SCK |
 | 10 | NRST | CPU reset input (active low) |
 
-For HW version 0.5.0 and newer some additional GPIOs are available on testpoints around STM32.
+For HW version 0.5.0 and newer some additional GPIOs are available on test points around STM32.
 
 ![x](Hardware/microRusEFI/J8_9_10.png)
 
-[Testpoint Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/pads.html)
+[Test point Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/pads.html)
 
-| Tespoint | GPIO | Possible functions (not all listed!) |
+| Test point | GPIO | Possible functions (not all listed!) |
 |----|-------------| ---- |
 | J6 | PE0 | GPIO |
 | J8 | PB7 | USART1_RX or TIM4_CH2 |
