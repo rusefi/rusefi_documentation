@@ -246,6 +246,8 @@ See also [Universal True 60/2](All-Supported-Triggers.md#602)
 
 1/12 version
 
+2JZ would use global trigger offset 65
+
 Use this with "Single Tooth First Half" VVT mode for cam input
 
 ![x](Images/triggers/trigger_TT_12_TOOTH_CRANK.png)
