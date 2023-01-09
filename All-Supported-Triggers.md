@@ -244,13 +244,19 @@ See also [Universal True 60/2](All-Supported-Triggers.md#602)
 
 ## Toyota 2JZ
 
+1/12 version
+
+Use this with "Single Tooth First Half" VVT mode for cam input
+
+![x](Images/triggers/trigger_TT_12_TOOTH_CRANK.png)
+
 3/34 version
 
-![Toyota 2JZ 3/34](Images/triggers/trigger_25.png)
+![Toyota 2JZ 3/34](Images/triggers/trigger_TT_2JZ_3_34)
 
 ## VVT 3-0 "VVT: 2JZ"
 
-![1+60/2](Images/triggers/trigger_17.png)
+![1+60/2](Images/triggers/trigger_TT_VVT_JZ.png)
 
 ## VVT 4-1
 
