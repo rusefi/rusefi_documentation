@@ -252,7 +252,7 @@ Use this with "Single Tooth First Half" VVT mode for cam input
 
 3/34 version
 
-![Toyota 2JZ 3/34](Images/triggers/trigger_TT_2JZ_3_34)
+![Toyota 2JZ 3/34](Images/triggers/trigger_TT_2JZ_3_34.png)
 
 ## VVT 3-0 "VVT: 2JZ"
 
