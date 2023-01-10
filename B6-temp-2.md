@@ -22,6 +22,7 @@ MOTOR_INFO = 0x580
 MOTOR_7 = 0x588
 
 fakeTorque = 0
+rpm = 0
 
 function xorChecksum(data, targetIndex)
  local index = 1
@@ -266,11 +267,11 @@ function onMotor7(bus, id, dlc, data)
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
-canRxAdd(ECU_BUS, MOTOR_BRE, onMotorBre)
-canRxAdd(ECU_BUS, MOTOR_2, onMotor2)
+--canRxAdd(ECU_BUS, MOTOR_BRE, onMotorBre)
+--canRxAdd(ECU_BUS, MOTOR_2, onMotor2)
 canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 --canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
-canRxAdd(ECU_BUS, MOTOR_INFO, onMotorInfo)
+--canRxAdd(ECU_BUS, MOTOR_INFO, onMotorInfo)
 --canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
 --canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
 
@@ -287,6 +288,8 @@ function onTick()
 -- print(freqValue .. " mafValue=" .. mafValue)
 -- mafSensor : set(mafValue)
 
+onMotorBre(0, 0, 0, nil)
+onMotor2(0, 0, 0, nil)
 onMotor5(0, 0, 0, nil)
 onMotor6(0, 0, 0, nil)
 onMotor7(0, 0, 0, nil)
@@ -296,6 +299,8 @@ onMotor7(0, 0, 0, nil)
   everySecondTimer : reset()
   print("Total from ECU " ..totalEcuMessages)
   motor5FuelCounter = motor5FuelCounter + 20
+  
+  onMotorInfo(0, 0, 0, nil)
  end
 end
 
