@@ -119,9 +119,15 @@ canMotorInfo1= { 0x99, 0x14, 0x00, 0x7F, 0x00, 0xF0, 0x47, 0x01 }
 canMotorInfo3= { 0x9B, 0x14, 0x00, 0x11, 0x1F, 0xE0, 0x0C, 0x46 }
 motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
+canMotorInfoTotalCounter = 0
+
 function onMotor1(bus, id, dlc, data)
     totalEcuMessages = totalEcuMessages + 1
  rpm = getBitRange(data, 16, 16) * 0.25
+ if rpm == 0 then
+   canMotorInfoTotalCounter = 0
+ end  
+ 
  tps = getBitRange(data, 40, 8) * 0.4
 
  fakeTorque = interpolate(0, 6, 100, 60, tps)
@@ -237,20 +243,22 @@ end
 
 canMotorInfoCounter = 0
 function onMotorInfo(bus, id, dlc, data)
- canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
- canMotorInfo[1] = 0x80 + (canMotorInfoCounter)
- canMotorInfo1[1] = 0x80 + (canMotorInfoCounter)
- canMotorInfo3[1] = 0x80 + (canMotorInfoCounter)
+ canMotorInfoTotalCounter = canMotorInfoTotalCounter + 1
+--  canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
+ canMotorInfoCounter = getBitRange(data, 0, 4)
+ 
+ baseByte = canMotorInfoTotalCounter < 6 and 0x80 or 0x90
+ canMotorInfo[1]  = baseByte + (canMotorInfoCounter)
+ canMotorInfo1[1] = baseByte + (canMotorInfoCounter)
+ canMotorInfo3[1] = baseByte + (canMotorInfoCounter)
  mod4 = canMotorInfoCounter % 4
  
- 
  if (mod4 == 0 or mod4 == 2) then
---     txCan(1, MOTOR_INFO, 0, canMotorInfo)
-     txCan(TCU_BUS, id, 0, data)
+     txCan(TCU_BUS, MOTOR_INFO, 0, canMotorInfo)
  elseif (mod4 == 1) then
-     txCan(1, MOTOR_INFO, 0, canMotorInfo1)
+     txCan(TCU_BUS, MOTOR_INFO, 0, canMotorInfo1)
  else
-     txCan(1, MOTOR_INFO, 0, canMotorInfo3)
+     txCan(TCU_BUS, MOTOR_INFO, 0, canMotorInfo3)
     end
 end
 
