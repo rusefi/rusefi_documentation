@@ -66,7 +66,7 @@ end
 -- https://en.wikipedia.org/wiki/Man-in-the-middle_attack
 
 -- this controls onCanRx rate as well!
-setTickRate(300)
+setTickRate(100)
 
 ECU_BUS = 1
 -- really 'not ECU'
