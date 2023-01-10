@@ -29,12 +29,17 @@ jobs:
       run: |
         git remote add technical-git https://github.com/rusefi/rusefi_documentation.git
         git fetch technical-git
+        if [ $(git diff technical-git/master | wc -l) -eq 0 ]; then
+        echo "skip=true" >> $GITHUB_ENV
+        exit 0
+        fi
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git merge technical-git/master
 
     - name: Push changes rusefi/rusefi wiki
       uses: ad-m/github-push-action@master
+      if: ${{ env.skip != 'true' }}
       with:
         repository: rusefi/rusefi.wiki
         github_token: ${{ secrets.ACCESS_TOKEN }}
