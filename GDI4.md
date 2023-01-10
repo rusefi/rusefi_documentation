@@ -12,6 +12,7 @@
 * Max hold 5A or a bit more
 * Metal case
 * open and short circuit software PENDING
+* build around [MC33PT2001](https://www.nxp.com/docs/en/data-sheet/MC33PT2001_SDS.pdf) chip
 
 ![x](Hardware/GDI/rusefi-gdi4-rev-a.jpg)
 
