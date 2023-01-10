@@ -33,15 +33,19 @@ ToDo: add picture
 
 If you also have a CAM sensor somewhere see [VVT](VVT)
 
-![60/2](Images/triggers/trigger_8.png)
+![60/2](Images/triggers/trigger_TT_TOOTHED_WHEEL_60_2.png)
+
+## 32/2
+
+![36/1](Images/triggers/trigger_TT_TOOTHED_WHEEL_32_2.png)
 
 ## 36/1
 
-![36/1](Images/triggers/trigger_9.png)
+![36/1](Images/triggers/trigger_TT_TOOTHED_WHEEL_36_1.png)
 
 ## 36/2
 
-![x](Images/triggers/trigger_48.png)
+![x](Images/triggers/trigger_TT_TOOTHED_WHEEL_36_2.png)
 
 ## Bosch Quick Start
 
