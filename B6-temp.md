@@ -183,7 +183,6 @@ function onMotor2(bus, id, dlc, data)
     index = math.floor(motor2counter / 4)
     motor2Data[1] = motor2mux[1 + index]
 
--- txCan(TCU_BUS, id, 0, data)
  txCan(TCU_BUS, id, 0, motor2Data)
 end
 
@@ -264,7 +263,6 @@ end
 
 function onMotor7(bus, id, dlc, data)
  txCan(TCU_BUS, id, 0, motor7Data)
--- txCan(TCU_BUS, id, 0, data)
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
