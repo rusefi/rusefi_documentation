@@ -283,9 +283,9 @@ mafCalibrationIndex = findCurveIndex("mafcurve")
 
 function onTick()
     freqValue = getSensor("AuxSpeed1") or 0
- mafValue = curve(mafCalibrationIndex, 5)
+-- mafValue = curve(mafCalibrationIndex, 5)
 -- print(freqValue .. " mafValue=" .. mafValue)
- mafSensor : set(mafValue)
+-- mafSensor : set(mafValue)
 
  if everySecondTimer : getElapsedSeconds() > 1 then
   everySecondTimer : reset()

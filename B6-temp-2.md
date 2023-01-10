@@ -269,9 +269,9 @@ canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 canRxAdd(ECU_BUS, MOTOR_BRE, onMotorBre)
 canRxAdd(ECU_BUS, MOTOR_2, onMotor2)
 canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
-canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
+--canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
 canRxAdd(ECU_BUS, MOTOR_INFO, onMotorInfo)
-canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
+--canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
 --canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
 
 canRxAdd(ECU_BUS, ACC_GRA, onAccGra)
@@ -287,6 +287,8 @@ function onTick()
 -- print(freqValue .. " mafValue=" .. mafValue)
 -- mafSensor : set(mafValue)
 
+onMotor5(0, 0, 0, nil)
+onMotor6(0, 0, 0, nil)
 onMotor7(0, 0, 0, nil)
 
 
