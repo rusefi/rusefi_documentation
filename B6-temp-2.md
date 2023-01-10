@@ -272,7 +272,7 @@ canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
 canRxAdd(ECU_BUS, MOTOR_INFO, onMotorInfo)
 canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
-canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
+--canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
 
 canRxAdd(ECU_BUS, ACC_GRA, onAccGra)
 
