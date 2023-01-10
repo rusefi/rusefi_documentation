@@ -155,7 +155,7 @@ function onMotor1(bus, id, dlc, data)
 
 -- print ('MOTOR_1 torqueLoss ' ..torqueLoss ..' requestedTorque ' ..requestedTorque)
 
- txCan(TCU_BUS, id, 0, motor1Data)
+ txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
 end
 
 motorBreCounter = 0
@@ -165,7 +165,7 @@ function onMotorBre(bus, id, dlc, data)
     setBitRange(motorBreData, 8, 4, motorBreCounter)
     xorChecksum(motorBreData, 1)
 
- txCan(TCU_BUS, id, 0, motorBreData)
+ txCan(TCU_BUS, MOTOR_BRE, 0, motorBreData)
 end
 
 motor2counter = 0
@@ -183,7 +183,7 @@ function onMotor2(bus, id, dlc, data)
     index = math.floor(motor2counter / 4)
     motor2Data[1] = motor2mux[1 + index]
 
- txCan(TCU_BUS, id, 0, motor2Data)
+ txCan(TCU_BUS, MOTOR_2, 0, motor2Data)
 end
 
 function onMotor3(bus, id, dlc, data)
@@ -200,14 +200,14 @@ function onMotor3(bus, id, dlc, data)
  canMotor3[5] = 0x20
  setBitRange(canMotor3, 24, 12, math.floor(desired_wheel_torque / 0.39))
  canMotor3[8] = tps / 0.4
- txCan(TCU_BUS, id, 0, canMotor3)
+ txCan(TCU_BUS, MOTOR_3, 0, canMotor3)
 end
 
 motor5FuelCounter = 0
 function onMotor5(bus, id, dlc, data)
  setBitRange(motor5Data, 5, 9, motor5FuelCounter)
  xorChecksum(motor5Data, 8)
- txCan(TCU_BUS, id, 0, motor5Data)
+ txCan(TCU_BUS, MOTOR_5, 0, motor5Data)
 end
 
 counter16 = 0
@@ -227,7 +227,7 @@ function onMotor6(bus, id, dlc, data)
  setBitRange(motor6Data, 60, 4, counter16)
 
  xorChecksum(motor6Data, 1)
- txCan(TCU_BUS, id, 0, motor6Data)
+ txCan(TCU_BUS, MOTOR_6, 0, motor6Data)
 end
 
 accGraCounter = 0
@@ -262,7 +262,7 @@ function onMotorInfo(bus, id, dlc, data)
 end
 
 function onMotor7(bus, id, dlc, data)
- txCan(TCU_BUS, id, 0, motor7Data)
+ txCan(TCU_BUS, MOTOR_7, 0, motor7Data)
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
@@ -283,9 +283,12 @@ mafCalibrationIndex = findCurveIndex("mafcurve")
 
 function onTick()
     freqValue = getSensor("AuxSpeed1") or 0
- mafValue = curve(mafCalibrationIndex, 5)
+-- mafValue = curve(mafCalibrationIndex, 5)
 -- print(freqValue .. " mafValue=" .. mafValue)
- mafSensor : set(mafValue)
+-- mafSensor : set(mafValue)
+
+onMotor7(0, 0, 0, nil)
+
 
  if everySecondTimer : getElapsedSeconds() > 1 then
   everySecondTimer : reset()
