@@ -243,8 +243,8 @@ end
 canMotorInfoCounter = 0
 function onMotorInfo(bus, id, dlc, data)
  canMotorInfoTotalCounter = canMotorInfoTotalCounter + 1
---  canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
- canMotorInfoCounter = getBitRange(data, 0, 4)
+  canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
+-- canMotorInfoCounter = getBitRange(data, 0, 4)
  
  baseByte = canMotorInfoTotalCounter < 6 and 0x80 or 0x90
  canMotorInfo[1]  = baseByte + (canMotorInfoCounter)
