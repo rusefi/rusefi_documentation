@@ -1,3 +1,11 @@
+AIRBAG = 0x050
+-- 1088
+TCU_1 = 0x440
+-- 1344
+TCU_2 = 0x540
+-- 1440
+BRAKE_2 = 0x5A0
+
 
 -- 640
 MOTOR_1 = 0x280
@@ -46,6 +54,12 @@ ECU_BUS = 1
 TCU_BUS = 2
 
 function relayFromECU(bus, id, dlc, data)
+totalEcuMessages = totalEcuMessages + 1
+--	print("Relaying to TCU " .. id)
+txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+end
+
+function relayFromECUAndEcho(bus, id, dlc, data)
 	totalEcuMessages = totalEcuMessages + 1
 --	print("Relaying to TCU " .. id)
 	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
@@ -104,17 +118,6 @@ function onMotor7(bus, id, dlc, data)
 txCan(TCU_BUS, MOTOR_7, 0, motor7Data)
 end
 
-canRxAdd(ECU_BUS, MOTOR_7, drop)
-
-
---canRxAdd(ECU_BUS, ACC_GRA, drop)
-
---canRxAdd(ECU_BUS, VWTP_OUT, relayFromECU)
---canRxAdd(ECU_BUS, 0x760, relayFromECU)
-
---canRxAdd(TCU_BUS, VWTP_IN, relayFromTCU)
-canRxAdd(TCU_BUS, VWTP_TESTER, relayTpPayloadFromTCU)
-
 hexstr = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F" }
 
 function toHexString(num)
@@ -143,7 +146,26 @@ end
 
 totalEcuMessages = 0
 
-canRxAddMask(ECU_BUS, 0, 0, relayFromECU)
+canRxAdd(ECU_BUS, MOTOR_7, drop)
+--canRxAdd(ECU_BUS, ACC_GRA, drop)
+
+canRxAdd(ECU_BUS, MOTOR_1, relayFromECU)
+canRxAdd(ECU_BUS, MOTOR_BRE, relayFromECU)
+canRxAdd(ECU_BUS, MOTOR_2, relayFromECU)
+canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
+canRxAdd(ECU_BUS, MOTOR_6, relayFromECU)
+canRxAdd(ECU_BUS, MOTOR_7, relayFromECU)
+canRxAdd(ECU_BUS, ACC_GRA, relayFromECU)
+canRxAdd(ECU_BUS, MOTOR_INFO, relayFromECU)
+
+canRxAdd(ECU_BUS, VWTP_OUT, relayFromECU)
+canRxAdd(ECU_BUS, 0x760, relayFromECU)
+
+canRxAdd(TCU_BUS, VWTP_IN, relayFromTCU)
+canRxAdd(TCU_BUS, VWTP_TESTER, relayTpPayloadFromTCU)
+
+canRxAddMask(ECU_BUS, 0, 0, relayFromECUAndEcho)
+--canRxAddMask(ECU_BUS, 0, 0, relayFromECU)
 canRxAddMask(TCU_BUS, 0, 0, relayFromTCU)
 
 function onTick()
