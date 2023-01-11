@@ -174,6 +174,7 @@ function onMotor2(bus, id, dlc, data)
  motor2counter = (motor2counter + 1) % 16
 
     minTorque = fakeTorque / 2
+    -- todo: add CLT
     motor2Data[7] = math.floor(minTorque / 0.39)
 
 --print ( "brake " .. getBitRange(data, 16, 2) .. " " .. rpm) 
