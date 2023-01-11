@@ -301,21 +301,23 @@ function onMotor7(bus, id, dlc, data)
  txCan(TCU_BUS, MOTOR_7, 0, motor7Data)
 end
 
-canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
+--canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 --canRxAdd(ECU_BUS, MOTOR_BRE, onMotorBre)
 --canRxAdd(ECU_BUS, MOTOR_2, onMotor2)
-canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
+--canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 --canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
 --canRxAdd(ECU_BUS, MOTOR_INFO, onMotorInfo)
 --canRxAdd(ECU_BUS, MOTOR_6, onMotor6)
 --canRxAdd(ECU_BUS, MOTOR_7, onMotor7)
-
-canRxAdd(ECU_BUS, ACC_GRA, onAccGra)
+--canRxAdd(ECU_BUS, ACC_GRA, onAccGra)
 
 everySecondTimer = Timer.new()
 
 mafSensor = Sensor.new("maf")
 mafCalibrationIndex = findCurveIndex("mafcurve")
+
+canRxAddMask(ECU_BUS, 0, 0, relayFromECU)
+canRxAddMask(TCU_BUS, 0, 0, relayFromTCU)
 
 function onTick()
     freqValue = getSensor("AuxSpeed1") or 0
@@ -323,11 +325,11 @@ function onTick()
 -- print(freqValue .. " mafValue=" .. mafValue)
 -- mafSensor : set(mafValue)
 
-onMotorBre(0, 0, 0, nil)
-onMotor2(0, 0, 0, nil)
-onMotor5(0, 0, 0, nil)
-onMotor6(0, 0, 0, nil)
-onMotor7(0, 0, 0, nil)
+--onMotorBre(0, 0, 0, nil)
+--onMotor2(0, 0, 0, nil)
+--onMotor5(0, 0, 0, nil)
+--onMotor6(0, 0, 0, nil)
+--onMotor7(0, 0, 0, nil)
 
 
  if everySecondTimer : getElapsedSeconds() > 1 then
@@ -335,7 +337,7 @@ onMotor7(0, 0, 0, nil)
   print("Total from ECU " ..totalEcuMessages)
   motor5FuelCounter = motor5FuelCounter + 20
   
-  onMotorInfo(0, 0, 0, nil)
+  --onMotorInfo(0, 0, 0, nil)
  end
 end
 
