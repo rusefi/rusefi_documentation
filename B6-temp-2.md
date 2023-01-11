@@ -21,6 +21,10 @@ MOTOR_INFO = 0x580
 -- 1416
 MOTOR_7 = 0x588
 
+VWTP_OUT = 0x200
+VWTP_IN = 0x202
+VWTP_TESTER = 0x300
+
 fakeTorque = 0
 rpm = 0
 
@@ -73,6 +77,24 @@ ECU_BUS = 1
 -- really 'not ECU'
 TCU_BUS = 2
 
+function relayFromECU(bus, id, dlc, data)
+	totalEcuMessages = totalEcuMessages + 1
+	print("Relaying to TCU " .. id)
+	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+end
+
+function relayFromTCU(bus, id, dlc, data)
+	totalTcuMessages = totalTcuMessages + 1
+	print("Relaying to ECU " .. id)
+	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+end
+
+canRxAdd(ECU_BUS, VWTP_OUT, relayFromECU)
+canRxAdd(ECU_BUS, 0x760, relayFromECU)
+
+canRxAdd(TCU_BUS, VWTP_IN, relayFromTCU)
+canRxAdd(TCU_BUS, VWTP_TESTER, relayFromTCU)
+
 function setTwoBytes(data, offset, value)
  value = math.floor(value)
  data[offset + 2] = value >> 8
@@ -122,22 +144,7 @@ motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 canMotorInfoTotalCounter = 0
 
-function onMotor1(bus, id, dlc, data)
-    totalEcuMessages = totalEcuMessages + 1
- rpm = getBitRange(data, 16, 16) * 0.25
- if rpm == 0 then
-   canMotorInfoTotalCounter = 0
- end  
- 
- tps = getBitRange(data, 40, 8) * 0.4
-
- fakeTorque = interpolate(0, 6, 100, 60, tps)
-
- -- engineTorque = getBitRange(data, 8, 8) * 0.39
- -- innerTorqWithoutExt = getBitRange(data, 32, 8) * 0.4
- -- torqueLoss = getBitRange(data, 48, 8) * 0.39
- -- requestedTorque = getBitRange(data, 56, 8) * 0.39
-
+function sendMotor1()
  engineTorque = fakeTorque * 0.9
  innerTorqWithoutExt = fakeTorque
  torqueLoss = 20
@@ -157,6 +164,24 @@ function onMotor1(bus, id, dlc, data)
 -- print ('MOTOR_1 torqueLoss ' ..torqueLoss ..' requestedTorque ' ..requestedTorque)
 
  txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
+end
+
+function onMotor1(bus, id, dlc, data)
+    totalEcuMessages = totalEcuMessages + 1
+ rpm = getBitRange(data, 16, 16) * 0.25
+ if rpm == 0 then
+   canMotorInfoTotalCounter = 0
+ end  
+ 
+ tps = getBitRange(data, 40, 8) * 0.4
+
+ fakeTorque = interpolate(0, 6, 100, 60, tps)
+
+ -- engineTorque = getBitRange(data, 8, 8) * 0.39
+ -- innerTorqWithoutExt = getBitRange(data, 32, 8) * 0.4
+ -- torqueLoss = getBitRange(data, 48, 8) * 0.39
+ -- requestedTorque = getBitRange(data, 56, 8) * 0.39
+ sendMotor1()
 end
 
 motorBreCounter = 0
@@ -188,14 +213,11 @@ function onMotor2(bus, id, dlc, data)
  txCan(TCU_BUS, MOTOR_2, 0, motor2Data)
 end
 
-function onMotor3(bus, id, dlc, data)
-    totalEcuMessages = totalEcuMessages + 1
- iat = getBitRange(data, 8, 8) * 0.75 - 48
- pps = getBitRange(data, 16, 8) * 0.40
- tps = getBitRange(data, 56, 8) * 0.40
--- print ('MOTOR_1 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
+iat = 0
+pps = 0
+tps = 0
 
-
+function sendMotor3()
  desired_wheel_torque = fakeTorque
  canMotor3[2] = (iat + 48) / 0.75
  canMotor3[3] = tps / 0.4
@@ -203,6 +225,16 @@ function onMotor3(bus, id, dlc, data)
  setBitRange(canMotor3, 24, 12, math.floor(desired_wheel_torque / 0.39))
  canMotor3[8] = tps / 0.4
  txCan(TCU_BUS, MOTOR_3, 0, canMotor3)
+end
+
+function onMotor3(bus, id, dlc, data)
+    totalEcuMessages = totalEcuMessages + 1
+ iat = getBitRange(data, 8, 8) * 0.75 - 48
+ pps = getBitRange(data, 16, 8) * 0.40
+ tps = getBitRange(data, 56, 8) * 0.40
+-- print ('MOTOR_1 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
+
+ sendMotor3()
 end
 
 motor5FuelCounter = 0
