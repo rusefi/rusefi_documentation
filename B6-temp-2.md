@@ -83,6 +83,8 @@ function relayFromECU(bus, id, dlc, data)
 	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
 end
 
+totalTcuMessages = 0
+
 function relayFromTCU(bus, id, dlc, data)
 	totalTcuMessages = totalTcuMessages + 1
 	print("Relaying to ECU " .. id)
