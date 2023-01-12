@@ -1,6 +1,6 @@
 # Start Here
 
-    _This page is intended to help ease a new user into the world of rusEFI_
+    **This page is intended to help ease a new user into the world of rusEFI**
 
 ## First things first
 
@@ -17,23 +17,78 @@ RusEFI is also still very much in development, the dev team provide no guarantee
 
 ## Identifying your hardware requirements
 
-You are going to need to know
+You are going to need to know technical details about below referenced items.
 
-Hall or VR
+### Camshaft position sensor (optional)
 
-High or low impedance injectors and flow rate
+- VVT
 
-Trigger style
+### Crankshaft position sensor
 
-NTC sensor curves
+- is it Hall or Variable Reluctance (VR) sensor?
+To answer look at [Vault of Sensors](Vault-Of-Sensors)
 
-MAF
+#### Trigger style
 
-MAP
+Is the trigger wheel of your engine contained in [All-Supported-triggers](All-Supported-Triggers)
 
-Ignition coils
+### injectors and flow rate
+
+- is a High or low impedance injector?
+- what is the flow rate?
+
+To answer look at Fuel-Injectors](Fuel-Injectors.md)
+
+### Temperature sensors
+
+- Oil temperature
+- Cooling fluid temperature
+- air intake temperature
+
+- NTC sensor curves
+
+To answer look at [Temperature-Sensing](Temperature-Sensing)
+
+### Air Intake sensor
+
+- MAF please see [MAF](MAF)
+- MAP
+
+### Idle Air Control Valve (IACV)
+
+To answer look at [Idle Control](Idle-Control)
+
+### Lambda sensor
+
+- **wide band oxygen sensor required**
+
+please see [Wide-Band-Sensors](Wide-Band-Sensors.md)
+
+### Speed sensor
+
+### Throttle control
+
+### Ignition coils
+
+### Engine characteristics
+
+- total number of sensors
+- number of cylinders
+- turbocharged or natural aspiration
+- single or dual spark
+
+### ECU connector(s)
+
+- number of pins
+- shape of connector
 
 ## What rusEFI board is correct for your engine?
+
+- Select from available Plug-andPlay ECUs
+
+OR
+
+- build your own custom ECU from a [supported MCU kit](stm32-readme)
 
 ## Getting help
 
