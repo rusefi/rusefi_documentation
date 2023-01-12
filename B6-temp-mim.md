@@ -53,10 +53,73 @@ ECU_BUS = 1
 -- really 'not ECU'
 TCU_BUS = 2
 
+fakeTorque = 0
+rpm = 0
+tps = 0
+
+function xorChecksum(data, targetIndex)
+ local index = 1
+ local result = 0
+ while data[index] ~= nil do
+  if index ~= targetIndex then
+   result = result ~ data[index]
+  end
+  index = index + 1
+ end
+ data[targetIndex] = result
+ return result
+end
+
+function setBitRange(data, totalBitIndex, bitWidth, value)
+ local byteIndex = totalBitIndex >> 3
+ local bitInByteIndex = totalBitIndex - byteIndex * 8
+ if (bitInByteIndex + bitWidth > 8) then
+  bitsToHandleNow = 8 - bitInByteIndex
+  setBitRange(data, totalBitIndex + bitsToHandleNow, bitWidth - bitsToHandleNow, value >> bitsToHandleNow)
+  bitWidth = bitsToHandleNow
+ end
+ mask = (1 << bitWidth) - 1
+ data[1 + byteIndex] = data[1 + byteIndex] & (~(mask << bitInByteIndex))
+ maskedValue = value & mask
+ shiftedValue = maskedValue << bitInByteIndex
+ data[1 + byteIndex] = data[1 + byteIndex] | shiftedValue
+end
+
 function relayFromECU(bus, id, dlc, data)
 totalEcuMessages = totalEcuMessages + 1
 --	print("Relaying to TCU " .. id)
 txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+end
+
+function sendMotor1()
+engineTorque = fakeTorque * 0.9
+innerTorqWithoutExt = fakeTorque
+torqueLoss = 20
+requestedTorque = fakeTorque
+
+motor1Data[2] = engineTorque / 0.39
+setTwoBytes(motor1Data, 2, rpm / 0.25)
+motor1Data[5] = innerTorqWithoutExt / 0.4
+motor1Data[6] = tps / 0.4
+motor1Data[7] = torqueLoss / 0.39
+motor1Data[8] = requestedTorque / 0.39
+
+txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
+end
+
+function onMotor1(bus, id, dlc, data)
+    totalEcuMessages = totalEcuMessages + 1
+ rpm = getBitRange(data, 16, 16) * 0.25
+ if rpm == 0 then
+   canMotorInfoTotalCounter = 0
+ end  
+ 
+ tps = getBitRange(data, 40, 8) * 0.4
+
+ fakeTorque = interpolate(0, 6, 100, 60, tps)
+
+-- sendMotor1()
+relayFromECU(bus, id, dlc, data)
 end
 
 function relayFromECUAndEcho(bus, id, dlc, data)
@@ -138,8 +201,68 @@ end
 function drop(bus, id, dlc, data)
 end
 
+motorBreCounter = 0
+function onMotorBre(bus, id, dlc, data)
+motorBreCounter = (motorBreCounter + 1) % 16
+
+    setBitRange(motorBreData, 8, 4, motorBreCounter)
+    xorChecksum(motorBreData, 1)
+
+txCan(TCU_BUS, MOTOR_BRE, 0, motorBreData)
+end
+
+
+motor5FuelCounter = 0
+function onMotor5(bus, id, dlc, data)
+ setBitRange(motor5Data, 5, 9, motor5FuelCounter)
+ xorChecksum(motor5Data, 8)
+ txCan(TCU_BUS, MOTOR_5, 0, motor5Data)
+end
+
+counter16 = 0
+function onMotor6(bus, id, dlc, data)
+ counter16 = (counter16 + 1) % 16
+
+ -- engineTorque = getBitRange(data, 8, 8) * 0.39
+ -- actualTorque = getBitRange(data, 16, 8) * 0.39
+ -- feedbackGearbox = getBitRange(data, 40, 8) * 0.39
+ engineTorque = fakeTorque * 0.9
+ actualTorque = fakeTorque
+ feedbackGearbox = 255
+
+ motor6Data[2] = math.floor(engineTorque / 0.39)
+ motor6Data[3] = math.floor(actualTorque / 0.39)
+ motor6Data[6] = math.floor(feedbackGearbox / 0.39)
+ setBitRange(motor6Data, 60, 4, counter16)
+
+ xorChecksum(motor6Data, 1)
+ txCan(TCU_BUS, MOTOR_6, 0, motor6Data)
+end
+
 function onMotor7(bus, id, dlc, data)
 txCan(TCU_BUS, MOTOR_7, 0, motor7Data)
+end
+
+
+canMotorInfoCounter = 0
+function onMotorInfo(bus, id, dlc, data)
+ canMotorInfoTotalCounter = canMotorInfoTotalCounter + 1
+  canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
+-- canMotorInfoCounter = getBitRange(data, 0, 4)
+ 
+ baseByte = canMotorInfoTotalCounter < 6 and 0x80 or 0x90
+ canMotorInfo[1]  = baseByte + (canMotorInfoCounter)
+ canMotorInfo1[1] = baseByte + (canMotorInfoCounter)
+ canMotorInfo3[1] = baseByte + (canMotorInfoCounter)
+ mod4 = canMotorInfoCounter % 4
+ 
+ if (mod4 == 0 or mod4 == 2) then
+     txCan(TCU_BUS, MOTOR_INFO, 0, canMotorInfo)
+ elseif (mod4 == 1) then
+     txCan(TCU_BUS, MOTOR_INFO, 0, canMotorInfo1)
+ else
+     txCan(TCU_BUS, MOTOR_INFO, 0, canMotorInfo3)
+    end
 end
 
 hexstr = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F" }
@@ -170,7 +293,7 @@ end
 
 totalEcuMessages = 0
 
---canRxAdd(ECU_BUS, MOTOR_7, drop)
+canRxAdd(ECU_BUS, MOTOR_7, drop)
 --canRxAdd(ECU_BUS, ACC_GRA, drop)
 
 -- kombi 3
@@ -228,7 +351,7 @@ canRxAdd(ECU_BUS, MOTOR_2, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_5, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_6, relayFromECU)
-canRxAdd(ECU_BUS, MOTOR_7, relayFromECU)
+--canRxAdd(ECU_BUS, MOTOR_7, relayFromECU)
 canRxAdd(ECU_BUS, ACC_GRA, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_INFO, relayFromECU)
 
@@ -242,7 +365,18 @@ canRxAddMask(ECU_BUS, 0, 0, drop)
 --canRxAddMask(ECU_BUS, 0, 0, relayFromECU)
 canRxAddMask(TCU_BUS, 0, 0, relayFromTCU)
 
+everySecondTimer = Timer.new()
+
 function onTick()
 onMotor7(0, 0, 0, nil)
+
+ if everySecondTimer : getElapsedSeconds() > 1 then
+  everySecondTimer : reset()
+  print("Total from ECU " ..totalEcuMessages)
+  motor5FuelCounter = motor5FuelCounter + 20
+  
+  --onMotorInfo(0, 0, 0, nil)
+ end
+
 
 end
