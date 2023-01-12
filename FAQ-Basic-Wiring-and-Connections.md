@@ -51,7 +51,7 @@ Unipolar stepper valves are not supported by any hardware variants at this time.
 
 ### Drive by Wire support
 
-Logic exists in the firmware to control a drive by wire throttle body, including using it to idle. A single H-bridge is required to control a single DBW throttle body. Multiple DBW throttle bodies can be simultaneously controlled as long as sufficient H-bridge drivers exist to control them. A drive by wire pedal (Accelerator Pedal Position / APP) is generally used to provide input from the driver. Want to know more?  here is a [HOWTO](HOWTO-electronic-throttle-body) you should read.
+Logic exists in the firmware to control a drive by wire throttle body, including using it to idle. A single H-bridge is required to control a single DBW throttle body. Multiple DBW throttle bodies can be simultaneously controlled as long as sufficient H-bridge drivers exist to control them. A drive by wire pedal (Accelerator Pedal Position / APP) is generally used to provide input from the driver. Want to know more?  here is a [guide](Electronic-Throttle-Body-Configuration-Guide) you should read.
 
 ### Main Relay support
 
