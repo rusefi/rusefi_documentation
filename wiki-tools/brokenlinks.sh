@@ -33,7 +33,7 @@ searchfile() {
     # At some point in this scripts development, fixed links to files/images were given the './' prefix.
     # This didn't really hurt anything, but it's not idiomatic.
     # I added this to fix the problems I caused, and decided it was worth keeping around.
-    if echo $link | grep -E '^\.\/' >/dev/null; then
+    if echo $link | grep -E '^\./' >/dev/null; then
       # NEWLINK is the corrected link
       NEWLINK=$(echo $link | sed 's/^\.\///')
       # Print the file and the old link
