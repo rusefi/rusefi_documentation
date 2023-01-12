@@ -17,4 +17,4 @@ jobs:
 
     - name: Lint
       run: |
-        markdownlint -i _* --disable MD033 MD034 MD013 MD024 MD036 -- .
+        bash ./wiki-tools/lint.sh
