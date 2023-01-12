@@ -2,11 +2,11 @@
 
 Before getting in touch for some assistance there are a couple of things to know that will make it easy for us to help you.
 
-First off before asking for help, please check the rest of the [wiki,](HOWTO-Search-on-rusEFI-wiki.md) Take a look through the [forum](https://rusefi.com/forum)/search.php) or read through the [FAQs.](Pages-FAQ-and-HOWTO)
+First off before asking for help, please check the rest of the [wiki,](HOWTO-Search-on-rusEFI-wiki) Take a look through the [forum](https://rusefi.com/forum)/search.php) or read through the [FAQs.](Pages-FAQ-and-HOWTO)
 
 If after that you still need direct help then please have a read of the information below and help us to help you.
 
-## Please post your tune & log files at [rusEFI Online](Online.md). More on that in [Support](Support)
+## Please post your tune & log files at [rusEFI Online](Online). More on that in [Support](Support)
 
 ---
 

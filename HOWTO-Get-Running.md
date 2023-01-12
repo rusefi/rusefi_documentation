@@ -1,6 +1,6 @@
 # HOWTO Get Running
 
-[HOWTO create TunerStudio project](HOWTO-create-tunerstudio-project.md)
+[HOWTO create TunerStudio project](HOWTO-create-tunerstudio-project)
 
 ## Summary
 
@@ -74,7 +74,7 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
 * Wire rusEFI like Frankenstein as shown below
 ![Frankenstein wired with connector breakout](Images/Aspire_20140306_state.jpg)
 ![Frankenstein wired in enclosure](Images/P1050839_zpsfdbdbd97.jpg)
-* It will likely be helpful to get a partial harness from a junk yard, and switch to rusEFI circuit-by-circuit using a [breakout module.](Breakout-Module.md)
+* It will likely be helpful to get a partial harness from a junk yard, and switch to rusEFI circuit-by-circuit using a [breakout module.](Breakout-Module)
 * Use junk hard harness to make extension harness. Use the junk yard ECU connector to break out the wire harness to the breakout board. Then from the far side of the breakout board, install the junk yard harness connector. Then connect the original ECU. This should allow you to start and run then engine as normal.
 
 #### Prepare engine wiring
@@ -152,7 +152,7 @@ See also [https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/o
 
 See also [Error Codes](Error-Codes)
 
-See also [Debug Fields](Debug-Fields.md)
+See also [Debug Fields](Debug-Fields)
 
 ### External links
 

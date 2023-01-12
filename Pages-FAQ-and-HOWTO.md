@@ -2,8 +2,8 @@
 
 ## FAQs
 
-* [Ignition](FAQ-Ignition.md)
-* [Basic Wiring and Connections](FAQ-Basic-Wiring-and-Connections.md)
+* [Ignition](FAQ-Ignition)
+* [Basic Wiring and Connections](FAQ-Basic-Wiring-and-Connections)
 
 ## HOWTOs
 

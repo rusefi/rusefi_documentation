@@ -64,7 +64,7 @@ node .\node_modules\markdown-link-validator\dist\src\bin\markdown-link-validator
 
 VS Code Extensions "markdownlint" and "Code Spell Checker" have to be installed
 
-![show all rule violations](Images/DevTools/VS Code - show all violations)
+![show all rule violations](Images/DevTools/VS Code - show all violations.png)
 
 ![fix all rule violations](Images/DevTools/VS Code - fix all violations.png)
 

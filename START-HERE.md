@@ -19,8 +19,8 @@ RusEFI is also still very much in development, the dev team provide no guarantee
 
 You are going to need to know technical details about below referenced items.
 
-To get an idea of [tested  sensors and actuators](rusEFI-project-Sensors.md)
-and [available sensors and actuators](Pages-Sensors-and-Actuators.md)
+To get an idea of [tested  sensors and actuators](rusEFI-project-Sensors)
+and [available sensors and actuators](Pages-Sensors-and-Actuators)
 
 ### Camshaft position sensor (optional)
 
@@ -40,7 +40,7 @@ Is the trigger wheel of your engine contained in [All-Supported-triggers](All-Su
 - is a High or low impedance injector?
 - what is the flow rate?
 
-To answer look at [Fuel-Injectors](Fuel-Injectors.md)
+To answer look at [Fuel-Injectors](Fuel-Injectors)
 
 ### Temperature sensors
 
@@ -65,7 +65,7 @@ To answer look at [Idle Control](Idle-Control)
 
 - **wide band oxygen sensor required**
 
-please see [Wide-Band-Sensors](Wide-Band-Sensors.md)
+please see [Wide-Band-Sensors](Wide-Band-Sensors)
 
 ### Speed sensor
 
@@ -73,11 +73,11 @@ ToDo:
 
 ### Throttle control
 
-[ETB](Electronic-Throttle-Body.md)
+[ETB](Electronic-Throttle-Body)
 
 ### Ignition coils
 
-[Vault-Of-Ignition-Parts](Vault-Of-Ignition-Parts.md)
+[Vault-Of-Ignition-Parts](Vault-Of-Ignition-Parts)
 
 ### Engine characteristics
 
@@ -90,11 +90,11 @@ ToDo:
 
 - number of pins
 - shape of connector
-[OEM connectors](OEM-connectors.md)
+[OEM connectors](OEM-connectors)
 
 ## What rusEFI board is correct for your engine?
 
-- Select from available Plug-and-Play ECUs [see](Vault-of-Pnp-Vehicle-Pages.md)
+- Select from available Plug-and-Play ECUs [see](Vault-of-Pnp-Vehicle-Pages)
 
 OR
 
