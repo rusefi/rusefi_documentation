@@ -61,7 +61,7 @@ end
 
 function relayFromECUAndEcho(bus, id, dlc, data)
 	totalEcuMessages = totalEcuMessages + 1
---	print("Relaying to TCU " .. id)
+	print("Relaying to TCU " .. id)
 	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
 end
 
@@ -203,11 +203,22 @@ canRxAdd(ECU_BUS, 800, relayFromECU)
 -- steering
 --canRxAdd(ECU_BUS, 194, relayFromECU)
 -- klima
-canRxAdd(ECU_BUS, 1504, relayFromECU)
+canRxAdd(ECU_BUS, 1504, drop)
 -- EPB_1
---canRxAdd(ECU_BUS, 1472, relayFromECU)
+--canRxAdd(ECU_BUS, 1472, drop)
 canRxAdd(ECU_BUS, 1478, relayFromECU)
-
+canRxAdd(ECU_BUS, 208, relayFromECU)
+canRxAdd(ECU_BUS, 976, relayFromECU)
+canRxAdd(ECU_BUS, 978, relayFromECU)
+canRxAdd(ECU_BUS, 912, relayFromECU)
+canRxAdd(ECU_BUS, 1488, relayFromECU)
+canRxAdd(ECU_BUS, 1472, relayFromECU)
+canRxAdd(ECU_BUS, 1056, relayFromECU)
+canRxAdd(ECU_BUS, 1392, relayFromECU)
+canRxAdd(ECU_BUS, 1360, relayFromECU)
+canRxAdd(ECU_BUS, 1394, relayFromECU)
+canRxAdd(ECU_BUS, 1490, relayFromECU)
+canRxAdd(ECU_BUS, 2000, relayFromECU)
 
 canRxAdd(ECU_BUS, MOTOR_1, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_BRE, relayFromECU)
