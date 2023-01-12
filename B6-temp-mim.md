@@ -178,10 +178,10 @@ canRxAdd(ECU_BUS, 1312, relayFromECU)
 -- Soll_Verbauliste_neu
 canRxAdd(ECU_BUS, 1500, relayFromECU)
 -- power steering
-canRxAdd(ECU_BUS, 208, relayFromECU)
+--canRxAdd(ECU_BUS, 208, relayFromECU)
 -- GRA_Neu
-canRxAdd(ECU_BUS, 906, relayFromECU)
-canRxAdd(ECU_BUS, 80, relayFromECU)
+--canRxAdd(ECU_BUS, 906, relayFromECU)
+--canRxAdd(ECU_BUS, 80, relayFromECU)
 -- brake 1
 canRxAdd(ECU_BUS, 416, relayFromECU)
 -- brake 8
