@@ -24,9 +24,9 @@
 
 Your board comes with rusEFI firmware installed on it, but it should be updated.
 
-[How to update your firmware](HOWTO-Update-Firmware.md)
+[How to update your firmware](HOWTO-Update-Firmware)
 
-If you have a Frankenso, Frankenstein, or are just messing with a Discovery, you will need to install firmware first. See [these instructions.](Discovery-Based-Board-Setup.md)
+If you have a Frankenso, Frankenstein, or are just messing with a Discovery, you will need to install firmware first. See [these instructions.](Discovery-Based-Board-Setup)
 
 ## Plug and Play (PNP) Initial Setup
 
@@ -95,7 +95,7 @@ And we're done with the initial startup. Congratulations- you have your car runn
 
 Q: How do I change settings?
 
-A: You can change settings and your engine tune using [TunerStudio](HOWTO-create-tunerstudio-project.md).
+A: You can change settings and your engine tune using [TunerStudio](HOWTO-create-tunerstudio-project).
 
 Q: Is there anything special I need to do to wire USB from ECU harness?
 
@@ -119,20 +119,20 @@ A: For most of the pinout changes to be applied you need to reset rusEFI. Do not
 
 ## rusEFI Console
 
-[rusEFI Console](Console.md) is a handy development and debugging tool. Try it out and learn what it is capable of.
+[rusEFI Console](Console) is a handy development and debugging tool. Try it out and learn what it is capable of.
 
 ## Tuner Studio
 
 rusEFI uses TunerStudio to allow you to configure and tune your ECU.
 
-[HOWTO create TunerStudio project](HOWTO-create-tunerstudio-project.md)
+[HOWTO create TunerStudio project](HOWTO-create-tunerstudio-project)
 
-See also [Tunerstudio Connectivity](Tunerstudio-Connectivity.md)
+See also [Tunerstudio Connectivity](Tunerstudio-Connectivity)
 
 ## Tuning the engine
 
-[Get Running](HOWTO-Get-Running.md)
+[Get Running](HOWTO-Get-Running)
 
-[Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI.md)
+[Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
 
 [Error Codes](Error-Codes)

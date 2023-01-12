@@ -6,13 +6,13 @@
 - share your tune
 - checkout other's tunes
 
-See [HOWTO set rusEFI Online authentication token](HOWTO-set-rusEFI-Online-authentication-token.md)
+See [HOWTO set rusEFI Online authentication token](HOWTO-set-rusEFI-Online-authentication-token)
 
-See [HOWTO upload tune](HOWTO-upload-tune.md)
+See [HOWTO upload tune](HOWTO-upload-tune)
 
-See [HOWTO upload log](HOWTO-upload-log.md)
+See [HOWTO upload log](HOWTO-upload-log)
 
-See [HOWTO Remote Tuning](HOWTO-Remote-Tuning.md)
+See [HOWTO Remote Tuning](HOWTO-Remote-Tuning)
 
 ![x](https://github.com/rusefi/web_backend/blob/master/documentation/rusEFI%20remote.png)
 

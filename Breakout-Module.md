@@ -13,7 +13,7 @@ Uses breakout module noted [here](http://rusefi.com/forum/viewtopic.php?f=4&t=45
 * Cut OEM harness for the crank angle wire(s), put the leads to the breakout module, use the fuse to simple pass the signal through the breakout module, and verify that the OEM engine is operational.
 * Connect rusEFI cam and/or crank to breakout module.
 * Install 2nd fuse to connect both OEM control unit and rusEFI. Take note that VR signals may be loaded and may be problematic at low RPM with this approach. Or it may simply work. Give it a try and see what happens. If it doesn't start with both connected, try starting the engine with rusEFI jumper removed, then after started install rusEFI jumper.
-* Capture crank signals via [dev console](Console.md).
+* Capture crank signals via [dev console](Console).
 * Either configure rusEFI to use the proper crank decoder, or get a decoder developed from the dev console logs, then configure rusEFI to use the proper decoder.
 * See reliable RPM values displayed on the gauge, and noise free crank signals.
 
