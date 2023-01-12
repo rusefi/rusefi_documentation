@@ -236,7 +236,7 @@ canRxAdd(ECU_BUS, 0x760, relayFromECU)
 canRxAdd(TCU_BUS, VWTP_IN, relayFromTCU)
 canRxAdd(TCU_BUS, VWTP_TESTER, relayTpPayloadFromTCU)
 
-canRxAddMask(ECU_BUS, 0, 0, relayFromECUAndEcho)
+canRxAddMask(ECU_BUS, 0, 0, drop)
 --canRxAddMask(ECU_BUS, 0, 0, relayFromECU)
 canRxAddMask(TCU_BUS, 0, 0, relayFromTCU)
 
