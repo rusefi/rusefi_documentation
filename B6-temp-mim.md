@@ -180,8 +180,8 @@ canRxAdd(ECU_BUS, 1500, relayFromECU)
 -- power steering
 --canRxAdd(ECU_BUS, 208, relayFromECU)
 -- GRA_Neu
---canRxAdd(ECU_BUS, 906, relayFromECU)
---canRxAdd(ECU_BUS, 80, relayFromECU)
+canRxAdd(ECU_BUS, 906, drop)
+canRxAdd(ECU_BUS, 80, drop)
 -- brake 1
 canRxAdd(ECU_BUS, 416, relayFromECU)
 -- brake 8
