@@ -180,8 +180,8 @@ canRxAdd(ECU_BUS, 1500, relayFromECU)
 -- power steering
 --canRxAdd(ECU_BUS, 208, relayFromECU)
 -- GRA_Neu
-canRxAdd(ECU_BUS, 906, drop)
-canRxAdd(ECU_BUS, 80, drop)
+canRxAdd(ECU_BUS, 906, relayFromECU)
+canRxAdd(ECU_BUS, 80, relayFromECU)
 -- brake 1
 canRxAdd(ECU_BUS, 416, relayFromECU)
 -- brake 8
@@ -193,7 +193,7 @@ canRxAdd(ECU_BUS, 1192, relayFromECU)
 -- brake 2
 canRxAdd(ECU_BUS, 1440, relayFromECU)
 -- steering
-canRxAdd(ECU_BUS, 194, relayFromECU)
+canRxAdd(ECU_BUS, 194, drop)
 -- kombi
 canRxAdd(ECU_BUS, 800, relayFromECU)
 -- ps
