@@ -181,7 +181,7 @@ canRxAdd(ECU_BUS, 1500, relayFromECU)
 canRxAdd(ECU_BUS, 208, relayFromECU)
 -- REQUIRED GRA_Neu
 canRxAdd(ECU_BUS, 906, relayFromECU)
-canRxAdd(ECU_BUS, 80, relayFromECU)
+canRxAdd(ECU_BUS, AIRBAG, relayFromECU)
 -- brake 1
 canRxAdd(ECU_BUS, 416, relayFromECU)
 -- brake 8
@@ -205,13 +205,21 @@ canRxAdd(ECU_BUS, 1504, drop)
 -- EPB_1
 canRxAdd(ECU_BUS, 1472, drop)
 canRxAdd(ECU_BUS, 1478, relayFromECU)
+-- Gate_Komf_1
 canRxAdd(ECU_BUS, 912, relayFromECU)
+-- Systeminfo_1
 canRxAdd(ECU_BUS, 1488, relayFromECU)
+-- Kombi_2
 canRxAdd(ECU_BUS, 1056, relayFromECU)
+-- BSG_Last
 canRxAdd(ECU_BUS, 1392, relayFromECU)
+-- Airbag_2
 canRxAdd(ECU_BUS, 1360, relayFromECU)
+-- ZAS_1
 canRxAdd(ECU_BUS, 1394, relayFromECU)
+-- Ident
 canRxAdd(ECU_BUS, 1490, relayFromECU)
+-- Diagnose_1
 canRxAdd(ECU_BUS, 2000, relayFromECU)
 
 canRxAdd(ECU_BUS, MOTOR_1, relayFromECU)
