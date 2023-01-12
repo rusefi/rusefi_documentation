@@ -179,7 +179,7 @@ canRxAdd(ECU_BUS, 1312, relayFromECU)
 canRxAdd(ECU_BUS, 1500, relayFromECU)
 -- power steering
 canRxAdd(ECU_BUS, 208, relayFromECU)
--- GRA_Neu
+-- REQUIRED GRA_Neu
 canRxAdd(ECU_BUS, 906, relayFromECU)
 canRxAdd(ECU_BUS, 80, relayFromECU)
 -- brake 1
@@ -197,9 +197,9 @@ canRxAdd(ECU_BUS, 194, drop)
 -- kombi
 canRxAdd(ECU_BUS, 800, relayFromECU)
 -- ps
-canRxAdd(ECU_BUS, 976, relayFromECU)
+canRxAdd(ECU_BUS, 976, drop)
 -- ps
-canRxAdd(ECU_BUS, 978, relayFromECU)
+canRxAdd(ECU_BUS, 978, drop)
 -- klima
 canRxAdd(ECU_BUS, 1504, drop)
 -- EPB_1
