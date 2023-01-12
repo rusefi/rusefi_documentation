@@ -178,7 +178,7 @@ canRxAdd(ECU_BUS, 1312, relayFromECU)
 -- Soll_Verbauliste_neu
 canRxAdd(ECU_BUS, 1500, relayFromECU)
 -- power steering
---canRxAdd(ECU_BUS, 208, relayFromECU)
+canRxAdd(ECU_BUS, 208, relayFromECU)
 -- GRA_Neu
 canRxAdd(ECU_BUS, 906, relayFromECU)
 canRxAdd(ECU_BUS, 80, relayFromECU)
@@ -197,22 +197,16 @@ canRxAdd(ECU_BUS, 194, drop)
 -- kombi
 canRxAdd(ECU_BUS, 800, relayFromECU)
 -- ps
---canRxAdd(ECU_BUS, 976, relayFromECU)
+canRxAdd(ECU_BUS, 976, relayFromECU)
 -- ps
---canRxAdd(ECU_BUS, 978, relayFromECU)
--- steering
---canRxAdd(ECU_BUS, 194, relayFromECU)
+canRxAdd(ECU_BUS, 978, relayFromECU)
 -- klima
 canRxAdd(ECU_BUS, 1504, drop)
 -- EPB_1
---canRxAdd(ECU_BUS, 1472, drop)
+canRxAdd(ECU_BUS, 1472, drop)
 canRxAdd(ECU_BUS, 1478, relayFromECU)
-canRxAdd(ECU_BUS, 208, relayFromECU)
-canRxAdd(ECU_BUS, 976, relayFromECU)
-canRxAdd(ECU_BUS, 978, relayFromECU)
 canRxAdd(ECU_BUS, 912, relayFromECU)
 canRxAdd(ECU_BUS, 1488, relayFromECU)
-canRxAdd(ECU_BUS, 1472, relayFromECU)
 canRxAdd(ECU_BUS, 1056, relayFromECU)
 canRxAdd(ECU_BUS, 1392, relayFromECU)
 canRxAdd(ECU_BUS, 1360, relayFromECU)
