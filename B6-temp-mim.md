@@ -76,8 +76,34 @@ end
 local payLoadIndex = 0
 
 function relayTpPayloadFromTCU(bus, id, dlc, data)
+    totalTcuMessages = totalTcuMessages + 1
+-- 	print("Relaying to ECU " ..id ..arrayToString(data))
+    txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+
+
+    if data[1] == 0xA3 then
+-- 		print ("Keep-alive")
+        return
+    end
+
+	if data[1] == 0xA1 then
+		print ("Happy 300 packet")
+		return
+	end
+
+	if data[1] == 0xA8 then
+		print ("They said Bye-Bye")
+		return
+	end
+
+	if data[1] == 0x10 and dlc == 5 then
+--		print ("Sending ACK B1 ")
+		return
+	end
+
 	top4 = math.floor(data[1] / 16)
 	if top4 == 0xB then
+        -- ACK
 		return
 	end
 
@@ -103,12 +129,10 @@ function relayTpPayloadFromTCU(bus, id, dlc, data)
 		if top4 == 1 then
 			payLoadIndex = 0
 		end
-
+        return
 	end
 
-	totalTcuMessages = totalTcuMessages + 1
-	-- 	print("Relaying to ECU " ..id ..arrayToString(data))
-	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+    print('Got unexpected ' ..arrayToString(data))
 end
 
 function drop(bus, id, dlc, data)
@@ -146,13 +170,50 @@ end
 
 totalEcuMessages = 0
 
-canRxAdd(ECU_BUS, MOTOR_7, drop)
+--canRxAdd(ECU_BUS, MOTOR_7, drop)
 --canRxAdd(ECU_BUS, ACC_GRA, drop)
+
+-- kombi 3
+canRxAdd(ECU_BUS, 1312, relayFromECU)
+-- Soll_Verbauliste_neu
+canRxAdd(ECU_BUS, 1500, relayFromECU)
+-- power steering
+canRxAdd(ECU_BUS, 208, relayFromECU)
+-- GRA_Neu
+canRxAdd(ECU_BUS, 906, relayFromECU)
+canRxAdd(ECU_BUS, 80, relayFromECU)
+-- brake 1
+canRxAdd(ECU_BUS, 416, relayFromECU)
+-- brake 8
+canRxAdd(ECU_BUS, 428, relayFromECU)
+-- brake 3
+canRxAdd(ECU_BUS, 1184, relayFromECU)
+-- brake 5
+canRxAdd(ECU_BUS, 1192, relayFromECU)
+-- brake 2
+canRxAdd(ECU_BUS, 1440, relayFromECU)
+-- steering
+canRxAdd(ECU_BUS, 194, relayFromECU)
+-- kombi
+canRxAdd(ECU_BUS, 800, relayFromECU)
+-- ps
+canRxAdd(ECU_BUS, 976, relayFromECU)
+-- ps
+canRxAdd(ECU_BUS, 978, relayFromECU)
+-- steering
+canRxAdd(ECU_BUS, 194, relayFromECU)
+-- klima
+canRxAdd(ECU_BUS, 1504, relayFromECU)
+-- EPB_1
+canRxAdd(ECU_BUS, 1472, relayFromECU)
+canRxAdd(ECU_BUS, 1478, relayFromECU)
+
 
 canRxAdd(ECU_BUS, MOTOR_1, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_BRE, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_2, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
+canRxAdd(ECU_BUS, MOTOR_5, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_6, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_7, relayFromECU)
 canRxAdd(ECU_BUS, ACC_GRA, relayFromECU)
