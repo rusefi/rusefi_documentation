@@ -10,6 +10,8 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 2
 
     - name: Install Markdownlint-cli
       run: |
@@ -17,4 +19,4 @@ jobs:
 
     - name: Lint
       run: |
-        markdownlint -i _* --disable MD033 MD034 MD013 MD024 MD036 -- .
+        bash ./wiki-tools/lint.sh
