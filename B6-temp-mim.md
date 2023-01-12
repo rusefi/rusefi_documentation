@@ -197,15 +197,15 @@ canRxAdd(ECU_BUS, 194, relayFromECU)
 -- kombi
 canRxAdd(ECU_BUS, 800, relayFromECU)
 -- ps
-canRxAdd(ECU_BUS, 976, relayFromECU)
+--canRxAdd(ECU_BUS, 976, relayFromECU)
 -- ps
-canRxAdd(ECU_BUS, 978, relayFromECU)
+--canRxAdd(ECU_BUS, 978, relayFromECU)
 -- steering
-canRxAdd(ECU_BUS, 194, relayFromECU)
+--canRxAdd(ECU_BUS, 194, relayFromECU)
 -- klima
 canRxAdd(ECU_BUS, 1504, relayFromECU)
 -- EPB_1
-canRxAdd(ECU_BUS, 1472, relayFromECU)
+--canRxAdd(ECU_BUS, 1472, relayFromECU)
 canRxAdd(ECU_BUS, 1478, relayFromECU)
 
 
