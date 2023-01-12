@@ -1,5 +1,9 @@
 # Temperature Sensing
 
+In order to configure coolant temperature sensor or intake air sensor you would need to know it's resistance at three temperatures - lowest, highest and somewhere in between. You would also need to know the value of pull-up 'bias' resistor, which together with your sensor would make a voltage divider.
+
+While troubleshooting CLT and IAT, the two most useful console commands are `analoginfo` and `tempinfo` - these show you the voltage registered by rusEFI alongside with input pins and resistance processing values.
+
 See also [Measuring Temperature](http://rusefi.com/articles/measuring_temperature/)
 
 See also [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
@@ -8,17 +12,13 @@ See also [Frankenso Analog Inputs](Hardware-Frankenso#analog-inputs)
 
 See also [Troubleshooting](Troubleshooting)
 
-In order to configure coolant temperature sensor or intake air sensor you would need to know it's resistance at three temperatures - lowest, highest and somewhere in between. You would also need to know the value of pull-up 'bias' resistor, which together with your sensor would make a voltage divider.
-
-While troubleshooting CLT and IAT, the two most useful commands are `analoginfo` and `tempinfo` - these show you the voltage registered by rusEFI alongside with input pins and resistance processing values.
-
 ![analoginfo Output](Images/analoginfo2.png)
 
 ![tempinfo Output](Images/tempinfo.png)
 
 ![CLT Thermistor Settings](Images/thermistor_settings.png)
 
-## Some datapoints
+## Some data points
 
 [1996 Dodge RAM 1500 V8 Temp spreadsheet from FSM - Forum](http://rusefi.com/forum/viewtopic.php?f=3&t=864&start=60#p15344)
 
