@@ -1,7 +1,7 @@
 # HOWTO Contribute to Firmware
 
-The majority of rusEFI code is written in very plain C++ ("C with classes"), with rusEFI console and some code generating
-tools written in java.
+The majority of rusEFI code is written in very plain C++ ("C with classes"),
+with rusEFI console and some code generating tools written in java.
 
 Most of the needs are within the C/C++ firmware and automated testing.
 
@@ -11,7 +11,10 @@ For current coverage report see [https://rusefi.com/docs/unit_tests_coverage/](h
 
 Doxygen source code documentation is found [here.](https://rusefi.com/docs/html/)
 
-Our primary tool-chain is GCC+Eclipse but we also support IAR.
+Primary tool-chain is GCC+Eclipse but IAR is also supported.
+
+Linux is the preferred build environment, Windows Subsystem for Linux (WSL) works fine.
+To setup development environment use [setup_linux_environment.sh](https://github.com/rusefi/rusefi/blob/master/firmware/setup_linux_environment.sh)
 
 Testing coverage open tickets: [https://github.com/rusefi/rusefi/labels/automated_testing](https://github.com/rusefi/rusefi/labels/automated_testing)
 
