@@ -109,6 +109,17 @@ motor1Data[8] = requestedTorque / 0.39
 txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
 end
 
+function getBitRange(data, bitIndex, bitWidth)
+ byteIndex = bitIndex >> 3
+ shift = bitIndex - byteIndex * 8
+ value = data[1 + byteIndex]
+ if (shift + bitWidth > 8) then
+  value = value + data[2 + byteIndex] * 256
+ end
+ mask = (1 << bitWidth) - 1
+ return (value >> shift) & mask
+end
+
 function onMotor1(bus, id, dlc, data)
     totalEcuMessages = totalEcuMessages + 1
  rpm = getBitRange(data, 16, 16) * 0.25
@@ -347,7 +358,7 @@ canRxAdd(ECU_BUS, 1490, relayFromECU)
 -- Diagnose_1
 canRxAdd(ECU_BUS, 2000, relayFromECU)
 
-canRxAdd(ECU_BUS, MOTOR_1, relayFromECU)
+canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 canRxAdd(ECU_BUS, MOTOR_BRE, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_2, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
