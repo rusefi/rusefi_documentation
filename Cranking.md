@@ -13,8 +13,8 @@ In order to get an engine running, it first needs to be rotated at sufficient sp
 
 You can control the starter using several rusEFI firmware features:  
 
-- [Start-Stop Button Control](Start_Stop_Button)  
-- [Starter Disable Relay Control](Starter_Block_Relay)
+- Start-Stop Button Control  
+- Starter Disable Relay Control
 
 </td></tr></table>
 
