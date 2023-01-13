@@ -39,6 +39,8 @@ canMotorInfo1= { 0x99, 0x14, 0x00, 0x7F, 0x00, 0xF0, 0x47, 0x01 }
 canMotorInfo3= { 0x9B, 0x14, 0x00, 0x11, 0x1F, 0xE0, 0x0C, 0x46 }
 motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
+canMotorInfoTotalCounter = 0
+
 VWTP_OUT = 0x200
 VWTP_IN = 0x202
 VWTP_TESTER = 0x300
@@ -140,7 +142,7 @@ local payLoadIndex = 0
 
 function relayTpPayloadFromTCU(bus, id, dlc, data)
     totalTcuMessages = totalTcuMessages + 1
--- 	print("Relaying to ECU " ..id ..arrayToString(data))
+-- print("Relaying TP ECU " ..id ..arrayToString(data))
     txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
 
 
