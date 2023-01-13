@@ -47,7 +47,7 @@ searchfile() {
         # Replace the old link with the new one.
         # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
         #   and not some other place in the file that happens to use the same words.
-        REPLACE=$(escape '('$link')')
+        REPLACE=$(escape '('"$link"')')
         REPLACEWITH=$(escapeReplace "$NEWLINK")
         sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
       fi
@@ -97,7 +97,7 @@ searchfile() {
       # Replace the old link with the new one.
       # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
       #   and not some other place in the file that happens to use the same words.
-      REPLACE=$(escape '('$link')')
+      REPLACE=$(escape '('"$link"')')
       REPLACEWITH=$(escapeReplace "$(basename "$FILE" .md)")
       sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
       continue
