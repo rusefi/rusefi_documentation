@@ -12,4 +12,4 @@ white wire: signal negative
 
 blue wire: signal positive
 
-two black: heater, does not matter which one is which one
+two black: heater, does not matter which one is which one. +12v, 3A
