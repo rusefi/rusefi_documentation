@@ -66,7 +66,7 @@ There is some information on known smart coils and how to work out if you have a
 
 Great - same as the smart coils, please double check your coils are actually simple coils without built in ignition modules.
 You will need to source an external ignition module to go between the ECU and the coils.
-These are generally quite cheap and can be found on some cars in the junk yard. We also made our own simple module [here](fix link)
+These are generally quite cheap and can be found on some cars in the junk yard. We also made our own simple module [here](https://rusefi.com/forum/viewtopic.php?t=286)
 
 There are some tested Ignition modules on the Ignition components list and some can be found by [**searching the forum.**](https://rusefi.com/forum/search.php)  
 [List of ignition components](Vault-Of-Ignition-Parts)

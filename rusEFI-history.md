@@ -12,7 +12,7 @@ Mary Shelley has a novel named "Frankenstein, or The Modern Prometheus" and that
 
 That's when Nick has joined the party.
 
-[List of Engines Running rusEFI](List-of-Engines-Running-rusEFI/)
+[List of Engines Running rusEFI](List-of-Engines-Running-rusEFI)
 
 ## 2013
 

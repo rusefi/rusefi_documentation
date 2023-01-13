@@ -37,7 +37,7 @@ orange LED: warning: blinking in case of trigger input decoding warning or other
 
 microUSB channel is more sensitive to noise but it's faster
 
-See also [Tunerstudio Connectivity](Tunerstudio-Connectivity.md)
+See also [Tunerstudio Connectivity](Tunerstudio-Connectivity)
 
 ### Configuration reset
 
@@ -45,4 +45,4 @@ Grounding PD6 resets saved configuration to default state - see [this forum post
 
 ### Board Testing mode
 
-Grounding PB0 enables board testing mode. See [Hardware Test Mode](Hardware-Test-Mode.md)
+Grounding PB0 enables board testing mode. See [Hardware Test Mode](Hardware-Test-Mode)

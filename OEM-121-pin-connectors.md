@@ -12,7 +12,7 @@ There are two kinds of 121 connectors which look pretty much the same but do not
 
 This one is used on Asian vehicles - Kia Hyundai etc.
 
-See also [Kia Spectra 2005](Vehicles/Kia-Spectra-2005)
+See also [Kia Spectra 2005](Kia-Spectra-2005)
 
 ![368255 Asian render](Hardware/connectors/368255_render.png)
 
@@ -58,8 +58,8 @@ There is also a 115 pin version - 6 pins are left out (14, 15, 16, 33, 34, 35)
 
 ## pinouts
 
-[Kia Spectra 2005](Vehicles/Kia-Spectra-2005)
+[Kia Spectra 2005](Kia-Spectra-2005)
 
-[Mini-Cooper-2003](Vehicles/Mini-Cooper-2003)
+[Mini-Cooper-2003](Mini-Cooper-2003)
 
-[Nissan Xterra 2011](Vehicles/Nissan-Xterra-2011)
+[Nissan Xterra 2011](Nissan-Xterra-2011)

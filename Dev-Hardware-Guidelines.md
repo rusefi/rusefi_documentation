@@ -58,7 +58,7 @@ Resistors should be listed like this 100R or 2k2
 
 ## PCB design rules
 
-- See [PCB Design Rules](PCB-Design-Rules.md)
+- See [PCB Design Rules](PCB-Design-Rules)
 
 ---
 
