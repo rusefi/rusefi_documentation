@@ -13,12 +13,7 @@ A large number of tested MAF sensors can be found [here](https://rusefi.com/foru
 
 ## Oil Pressure and Temperature Sensor
 
-Mazda SH0118541
-Bosch PY8V18541B
-Bosch 0261230340
-Bosch 0261230483
-Standard Motor Products PS661
-Ballenger Motorsports PST-F1
+[Forum Thread with specs](https://rusefi.com/forum/viewtopic.php?f=4&t=2044&p=41264)
 
 ## Other Sensors
 
