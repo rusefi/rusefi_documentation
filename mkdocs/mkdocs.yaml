@@ -48,7 +48,6 @@ nav:
     - 'Sensors and Actuators': Pages-Sensors-and-Actuators.md
     - 'Ignition': Pages-Ignition.md
     - 'Software': Pages-Software.md
-    - 'TunerStudio Views': rusEFI-project.md
     - 'How To': Pages-HOWTO.md
   - 'Features':
     - 'rusEFI Online': Online.md
