@@ -39,6 +39,6 @@ The generation of the interactive pinouts is invoked by nightly build or could b
 
 ## Best Practices
 
-YAML is all about space indentation. 
-Use an editor with built-in linter for YAML (i.e. VSCode) or use an online YAML validator (i.e. 
-[http://www.yamllint.com/](http://www.yamllint.com/) ).
+YAML is all about space indentation.
+Use an editor with built-in linter for YAML (i.e. VSCode) or use an online YAML validator
+(i.e. [http://www.yamllint.com/](http://www.yamllint.com/) ).
