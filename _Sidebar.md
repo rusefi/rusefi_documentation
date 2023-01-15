@@ -65,7 +65,6 @@
 - [Sensors and Actuators](Pages-Sensors-and-Actuators)
 - [Ignition](Pages-Ignition)
 - [Software](Pages-Software)
-- [rusEFI Project](rusEFI-project)
 - [How To](Pages-HOWTO)
 
 ## Contributors
