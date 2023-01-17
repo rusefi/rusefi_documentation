@@ -4,7 +4,7 @@
 
 [Issue tracker & hardware files](https://github.com/rusefi/alphax-8chan)
 
-[Schematics rev a](https://github.com/rusefi/hellen121vag/raw/main/boards/alphax_8ch-a/board/alphax_8ch-a-schematic.pdf)
+[Schematics rev a](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-a-schematic.pdf)
 
 * 8 HighZ injector channels
 * 8 logic level coil control
