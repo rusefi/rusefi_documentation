@@ -29,11 +29,9 @@ Color code meanings:-
 
 ## Base Engine
 
-[Base Engine](rusEFI-project-Base-Engine)
-
 52% complete (11/21)
 
-[Base Engine Settings](rusEFI-project-Base-Engine#base-engine-settings)  
+Base Engine Settings  
 (&#x1F536;): AlphaN fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299) [**1455**](https://github.com/rusefi/rusefi/issues/1455)  
 (&#x1F49A;): Speed Density fuel strategy  
 (&#x1F536;): MAF fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299)  [**1472**](https://github.com/rusefi/rusefi/issues/1472)  
@@ -41,48 +39,48 @@ Color code meanings:-
 (&#x1F49A;): RPM limit  
 (&#x1F49A;): Boost Limit  
 
-[Trigger](rusEFI-project-Base-Engine#trigger)  [**974**](https://github.com/rusefi/rusefi/issues/988)  
+Trigger [**974**](https://github.com/rusefi/rusefi/issues/988)  
 (&#x1F49A;): Trigger Patterns  
 (&#x1F49A;): VR and Hall support  
 (&#x1F536;): Basic VVT support [**607**](https://github.com/rusefi/rusefi/issues/606)  [**707**](https://github.com/rusefi/rusefi/issues/707)  [**844**](https://github.com/rusefi/rusefi/issues/844)  [**883**](https://github.com/rusefi/rusefi/issues/883)  [**1368**](https://github.com/rusefi/rusefi/issues/1368)  
 
-[Battery and Alternator Settings](rusEFI-project-Base-Engine#battery-and-alternator-settings)  
+Battery and Alternator Settings  
 (&#x1F49A;): Vbatt display and logging  
 (&#x1F536;): Alternator Control  [**262**](https://github.com/rusefi/rusefi/issues/262)  [**272**](https://github.com/rusefi/rusefi/issues/277)  
 (&#x1F536;): Button engine start
 
-[Main relay output](rusEFI-project-Base-Engine#main-relay-output)  
+Main relay output  
 (&#x1F49A;): Main Relay control
 
-[Starter relay output](rusEFI-project-Base-Engine#starter-relay-output)  
+Starter relay output  
 (&#x1F49A;): Starter Relay control
 
-[Fuel pump  rail](rusEFI-project-Base-Engine#fuel-pump-rail)  
+Fuel pump  rail  
 (&#x1F536;): Fuel Pump control  
 (&#x1F49A;): Fuel Priming pulse  
 (&#x1F536;): Fuel Rail pressure control (Absolute and MAP referenced)   [**954**](https://github.com/rusefi/rusefi/issues/954)  
 
-[Fan Settings](rusEFI-project-Base-Engine#fan-settings)  
+Fan Settings  
 (&#x1F536;): Cooling fan control  [**967**](https://github.com/rusefi/rusefi/issues/967)  
 
-[Tachometer output](rusEFI-project-Base-Engine#tachometer-output)  
+Tachometer output  
 (&#x1F536;): Tachometer (Rev counter) output with configurable pulses per revolution  [**476**](https://github.com/rusefi/rusefi/issues/476)  
 
-[Check Engine Settings](rusEFI-project-Base-Engine#check-engine-settings)  
+Check Engine Settings  
 (&#x1F536;): Check engine light (MIL) light  
 
-[Status LEDs](rusEFI-project-Base-Engine#status-leds)  
+Status LEDs  
 (&#x1F49A;): Status LED for diagnostic
 
 ---
 
 ## Fuel
 
-[Fuel](rusEFI-project-Fuel)
+Fuel
 
 37.5% complete (9/24)
 
-[Injection settings](rusEFI-project-Fuel#injection-settings)  [**1041**](https://github.com/rusefi/rusefi/issues/1041)  
+Injection settings [**1041**](https://github.com/rusefi/rusefi/issues/1041)  
 (&#x1F49A;): Ability to enable/disable injection  
 (&#x1F49A;): Batch fuel mode  
 (&#x1F49A;): Two wire batch emulation  
@@ -91,62 +89,60 @@ Color code meanings:-
 (&#x1F536;): Single point fuel mode  
 (&#x1F49A;): Configurable Injector output pins
 
-[Injector dead time](rusEFI-project-Fuel#injector-dead-time)  
+Injector dead time  
 (&#x1F536;): Injection dead time (latency) compensation [**275**](https://github.com/rusefi/rusefi/issues/275)  
 
-[Fuel short-term closed-loop correction](rusEFI-project-Fuel#fuel-short-term-closed-loop-correction)  
+Fuel short-term closed-loop correction  
 (&#x1F536;): Short term fuel trim enable/disable [**384**](https://github.com/rusefi/rusefi/issues/384)  
 CLT thresholds  
 RPM thresholds  
 EGO thresholds  
 TPS thresholds  
 
-[Coasting Fuel Cutoff Settings](rusEFI-project-Fuel#coasting-fuel-cutoff-settings)  
+Coasting Fuel Cutoff Settings  
 (&#x1F536;): Overrun fuel cut enable/disable  
 CLT thresholds  
 RPM thresholds  
 MAP thresholds  
 TPS thresholds  
 
-[Fuel Table](rusEFI-project-Fuel#fuel-table)  
+Fuel Table  
 (&#x1F536;): 16x16 VE based Fuel Table with 0.01% resolution [**868**](https://github.com/rusefi/rusefi/issues/868)  
 (&#x1F536;): 16x16 Fuel pulse width table [**1299**](https://github.com/rusefi/rusefi/issues/1299)  
 
-[Injection Phase](rusEFI-project-Fuel#injection-phase)  
+Injection Phase  
 (&#x1F536;): 16x16 injection timing table for sequential or DI applications  [**868**](https://github.com/rusefi/rusefi/issues/868)  
 
-[Warmup fuel manual Multiplier](rusEFI-project-Fuel#warmup-fuel-manual-multiplier)  
+Warmup fuel manual Multiplier  
 (&#x1F49A;): Warmup fuel compensation  
 
-[Intake air temperature fuel Multiplier](rusEFI-project-Fuel#intake-air-temperature-fuel-multiplier)  
+Intake air temperature fuel Multiplier  
 (&#x1F49A;): Intake air temperature fuel compensation  
 
-[tCharge Settings](rusEFI-project-Fuel#tcharge-settings)  
+tCharge Settings  
 (&#x1F536;): tCharge fuel compensation with 2 modes  
 (&#x1F536;): RPM+TPS mode  
 (&#x1F536;): Air Interpolation Mode  
 
-[Acceleration or Deceleration Enrichment](rusEFI-project-Fuel#acceleration-or-deceleration-enrichment)  
+Acceleration or Deceleration Enrichment  
 (&#x1F536;): Acceleration enrichment disable upon triggering RPM limit with configurable duration  [**187**](https://github.com/rusefi/rusefi/issues/187)  
 (&#x1F536;): TPS based acceleration enrichment  [**320**](https://github.com/rusefi/rusefi/issues/320)  
 (&#x1F49A;): Wall Wetting based acceleration enrichment  
 (&#x1F536;): Engine Load based acceleration enrichment  [**321**](https://github.com/rusefi/rusefi/issues/321)  
 
-[TPS Acceleration Extra Fuel](rusEFI-project-Fuel#tps-acceleration-extra-fuel)  
+TPS Acceleration Extra Fuel  
 (&#x1F536;): Configurable table of extra injected fuel on TPS change
 
-[Engine Load Acceleration Enrichment Taper](rusEFI-project-Fuel#engine-load-acceleration-enrichment-taper)  
+Engine Load Acceleration Enrichment Taper  
 (&#x1F536;): Configurable table of Engine load based enrichment taper
 
 ---
 
 ## Ignition
 
-[Ignition](rusEFI-project-Ignition)
-
 61.5% complete (8/13)
 
-[Ignition settings](rusEFI-project-Ignition#ignition-settings)  
+Ignition settings  
 (&#x1F49A;): Ignition enable/disable  
 (&#x1F49A;): Single coil mode  
 (&#x1F49A;): Wasted spark mode  
@@ -156,30 +152,30 @@ TPS thresholds
 (&#x1F49A;): Configurable ignition output pins  
 (&#x1F49A;): Distributor pulse output  
 
-[Dwell](rusEFI-project-Ignition#dwell)  
+Dwell  
 (&#x1F49A;): RPM based ignition coil dwell  
 
-[Ignition Cylinder Extra Timing](rusEFI-project-Ignition#ignition-cylinder-extra-timing)  
+Ignition Cylinder Extra Timing  
 (&#x1F536;): Individual cylinder additional ignition trim  
 
-[Ignition Table](rusEFI-project-Ignition#ignition-table)  
+Ignition Table  
 (&#x1F536;): 16x16 ignition table with 0.01 degree resolution [**868**](https://github.com/rusefi/rusefi/issues/868)  
 
-[Warmup timing correction](rusEFI-project-Ignition#warmup-timing-correction)  
+Warmup timing correction  
 (&#x1F536;): Warmup ignition timing correction  
 
-[Ignition Intake Air Temp correction](rusEFI-project-Ignition#ignition-intake-air-temp-correction)  
+Ignition Intake Air Temp correction  
 (&#x1F536;): 16x16 Intake air temperature ignition correction [**467**](https://github.com/rusefi/rusefi/issues/467)  
 
 ---
 
 ## Cranking
 
-[Cranking](rusEFI-project-Cranking)
+Cranking
 
 87.5% complete (14/16)
 
-[Cranking Settings](rusEFI-project-Cranking#cranking-settings)  [**285**](https://github.com/rusefi/rusefi/issues/285)  [**314**](https://github.com/rusefi/rusefi/issues/314)  
+Cranking Settings  [**285**](https://github.com/rusefi/rusefi/issues/285)  [**314**](https://github.com/rusefi/rusefi/issues/314)  
 (&#x1F49A;): Configurable cranking speed limit  
 (&#x1F49A;): Flood clear  
 (&#x1F49A;): Faster engine start mode (a smarter cranking logic)  
@@ -194,24 +190,22 @@ TPS thresholds
 (&#x1F49A;): Enable/disable IAC multipliers during cranking  
 (&#x1F49A;): After start (warm up) enrichment  
 
-[Cranking Coolant Temperature Multiplier](rusEFI-project-Cranking#cranking-coolant-temperature-multiplier)  
+Cranking Coolant Temperature Multiplier  
 (&#x1F49A;): Cranking fuel coolant multiplier  
 
-[Cranking Duration Multiplier](rusEFI-project-Cranking#cranking-duration-multiplier)
+Cranking Duration Multiplier
 (&#x1F49A;): Cranking duration based fuel multiplier  
 
-[Cranking TPS Multiplier](rusEFI-project-Cranking#cranking-tps-multiplier)  
+Cranking TPS Multiplier  
 (&#x1F49A;): Cranking TPS based fuel multiplier  
 
 ---
 
 ## Idle
 
-[Idle](rusEFI-project-Idle)
-
 52.5% complete (10/19)
 
-[Idle settings](rusEFI-project-Idle#idle-settings)
+Idle settings
 (&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  [**599**](https://github.com/rusefi/rusefi/issues/599)  [**975**](https://github.com/rusefi/rusefi/issues/975)  [**1263**](https://github.com/rusefi/rusefi/issues/1263)  
 (&#x1F534;): Instant RPM measurement for smoother idle  
 (&#x1F536;): ETB for idle control  
@@ -223,7 +217,7 @@ TPS thresholds
 (&#x1F49A;): Manual IAC position (open loop)  
 (&#x1F536;): Idle PID controller  [**501**](https://github.com/rusefi/rusefi/issues/501)  
 
-[Idle hardware](rusEFI-project-Idle#idle-hardware)  
+Idle hardware  
 (&#x1F536;): Stepper Idle  [**351**](https://github.com/rusefi/rusefi/issues/351)  [**1088**](https://github.com/rusefi/rusefi/issues/1088)  [**1395**](https://github.com/rusefi/rusefi/issues/1391)  
 (&#x1F49A;): Dual solenoid IAC (Bosch 3 wire)  
 (&#x1F49A;): Configurable IAC pins  
@@ -231,107 +225,103 @@ TPS thresholds
 (&#x1F536;): Stepper configuration  
 (&#x1F536;): H-bridge configuration  
 
-[Idle Target RPM](rusEFI-project-Idle#idle-target-rpm)  
+Idle Target RPM  
 (&#x1F536;): Coolant temperature based idle speed  
 
-[Closed-loop idle timing](rusEFI-project-Idle#closed-loop-idle-timing)  
+Closed-loop idle timing  
 (&#x1F536;): Closed loop ignition timing based idle speed control  
 
-[Warmup Idle multiplier](rusEFI-project-Idle#warmup-idle-multiplier)  
+Warmup Idle multiplier  
 (&#x1F49A;): Warmup idle fuel multiplier  
 
 ---
 
 ## Advanced
 
-[Advanced](rusEFI-project-Advanced)
-
 0% complete (0/17)
 
-[Boost Control](rusEFI-project-Advanced#boost-control)  
+Boost Control  
 (&#x1F534;): Boost control enable/disable  [**815**](https://github.com/rusefi/rusefi/issues/815)  [**1153**](https://github.com/rusefi/rusefi/issues/1153)  
 (&#x1F534;): Open and closed loop boost control  [**815**](https://github.com/rusefi/rusefi/issues/815)  
 (&#x1F534;): Configurable output pin [**815**](https://github.com/rusefi/rusefi/issues/815)  
 (&#x1F534;): Configurable PWM frequency  [**815**](https://github.com/rusefi/rusefi/issues/815)  
 (&#x1F534;): 8x8 boost target table  [**815**](https://github.com/rusefi/rusefi/issues/815)  
 
-[General Purpose PWM](rusEFI-project-Advanced#general-purpose-pwm-1)  
+General Purpose PWM  
 (&#x1F536;): Configurable GP PWM output pin  [**397**](https://github.com/rusefi/rusefi/issues/397)  
 (&#x1F536;): 8x8 target table  
 (&#x1F536;): Configurable thresholds  
 
-[FSIO inputs](rusEFI-project-Advanced#fsio-inputs)  
+FSIO inputs  
 (&#x1F536;): 4 Selectable FSIO inputs [**369**](https://github.com/rusefi/rusefi/issues/369)  
 
-[Aux PID](rusEFI-project-Advanced#aux-pid)  
+Aux PID  
 (&#x1F536;): Enable/disable Auxiliary PID  [**866**](https://github.com/rusefi/rusefi/issues/866)  
 (&#x1F536;): Configurable FSIO pins  
 (&#x1F536;): Configurable PID PWM frequency  
 (&#x1F536;): Configurable PID settings  
 
-[FSIO outputs](rusEFI-project-Advanced#fsio-outputs)  
+FSIO outputs  
 (&#x1F536;): Massively configurable FSIO outputs  [**111**](https://github.com/rusefi/rusefi/issues/111)  
 
-[FSIO Table](rusEFI-project-Advanced#fsio-table-#1)  
+FSIO Table  
 (&#x1F536;): 4x FSIO target tables  [**111**](https://github.com/rusefi/rusefi/issues/111)  
 
-[FSIO Formulas](rusEFI-project-Advanced#fsio-formulas)  
+FSIO Formulas  
 (&#x1F536;): Pre-configured FSIO formulas  [**111**](https://github.com/rusefi/rusefi/issues/111) [**680**](https://github.com/rusefi/rusefi/issues/680)
 
-[FSIO Curve](rusEFI-project-Advanced#fsio-curve-#1)  
+FSIO Curve  
 (&#x1F536;): 4x FSIO target curves  [**111**](https://github.com/rusefi/rusefi/issues/111)  
 
 ---
 
 ## Sensors
 
-[Sensors](rusEFI-project-Sensors)
-
 55% complete (32/58)  
 
-[Trigger Inputs](rusEFI-project-Sensors#trigger-inputs)  
+Trigger Inputs  
 (&#x1F49A;): Selectable cam and crank trigger inputs  
 (&#x1F49A;): Option to invert the inputs  
 
-[Other Sensor Inputs](rusEFI-project-Sensors#other-sensor-inputs)  
+Other Sensor Inputs  
 (&#x1F534;): Fuel level input  [**219**](https://github.com/rusefi/rusefi/issues/219)  
 (&#x1F536;): Clutch position Switch  
 (&#x1F536;): Throttle up switch  
 (&#x1F536;): Brake pedal pressure  [**415**](https://github.com/rusefi/rusefi/issues/415)  
 (&#x1F536;): A/C active input  
 
-[Analog Input Settings](rusEFI-project-Sensors#analog-input-settings)  
+Analog Input Settings  
 (&#x1F536;): Fixed Baro correction from MAP on startup  [**201**](https://github.com/rusefi/rusefi/issues/201)  
 (&#x1F49A;): Analogue sensor input divider ratio correction  
 (&#x1F536;): Adjustable sensor smoothing factor
 
-[CLT sensor](rusEFI-project-Sensors#clt-sensor)  
+CLT sensor  
 (&#x1F49A;): Enable/Disable Coolant temperature sensor  
 (&#x1F49A;): Configurable sensor bias resistor  
 (&#x1F49A;): 3 point curve configuration using correct Steinhart–Hart math  
 (&#x1F536;): Linear CLT sensor option  
 
-[IAT sensor](rusEFI-project-Sensors#iat-sensor)  
+IAT sensor  
 (&#x1F49A;): Enable/Disable Air temperature sensor  
 (&#x1F49A;): Configurable sensor bias resistor  
 (&#x1F49A;): 3 point curve configuration using correct Steinhart–Hart math  
 (&#x1F536;): Linear IAT sensor option  
 
-[aux Thermistor Settings](rusEFI-project-Sensors#aux1-thermistor-settings)  
+aux Thermistor Settings  
 (&#x1F49A;): 2x auxillary sensor input channels  
 (&#x1F49A;): Configurable sensor bias resistor  
 (&#x1F49A;): 3 point curve configuration using correct Steinhart–Hart math  
 
-[TPS](rusEFI-project-Sensors#tps)  
+TPS  
 (&#x1F49A;): 2x Configurable TPS input pin  
 (&#x1F49A;): User adjustable TPS max and min values  
 (&#x1F49A;): Configurable high and low TPS threshold  
 
-[Accelerator pedal](rusEFI-project-Sensors#accelerator-pedal)  
+Accelerator pedal  
 (&#x1F49A;): 2x Configurable Pedal input pin  
 (&#x1F49A;): Configurable linear voltage slope for redundant sensor  
 
-[MAP sensor](rusEFI-project-Sensors#map-sensor)  
+MAP sensor  
 (&#x1F536;): Frequency based MAP support  
 (&#x1F49A;): Configurable high and low pressures  
 (&#x1F49A;): Single cylinder MAP sampling mode  
@@ -340,18 +330,18 @@ TPS thresholds
 (&#x1F536;): Preset MAP configs  
 (&#x1F49A;): 2 point MAP sensor calibration  
 
-[MAP sampling](rusEFI-project-Sensors#map-sampling)  
+MAP sampling  
 (&#x1F49A;): Table to configure MAP sampling angle  
 (&#x1F49A;): Table to configure the sample length in degrees  
 
-[Baro sensor](rusEFI-project-Sensors#baro-sensor)  
+Baro sensor  
 (&#x1F536;): Configurable baro sensor pin  [**201**](https://github.com/rusefi/rusefi/issues/201)  
 (&#x1F536;): 2 point baro sensor calibration  [**201**](https://github.com/rusefi/rusefi/issues/201)  
 
-[MAF sensor](rusEFI-project-Sensors#maf-sensor)  
+MAF sensor  
 (&#x1F49A;): 512 cell MAF transfer function  
 
-[EGO sensor](rusEFI-project-Sensors#ego-sensor)  
+EGO sensor  
 (&#x1F49A;): CAN communication for AEM X-type wideband sensors  
 (&#x1F49A;): Serial communication for Innovate wideband sensors  
 (&#x1F49A;): Configurable analogue input channel  
@@ -360,27 +350,27 @@ TPS thresholds
 (&#x1F49A;): 2 point wideband sensor calibration  
 (&#x1F49A;): Calibration drift correction value  
 
-[Narrow to Wideband approximation](rusEFI-project-Sensors#narrow-to-wideband-approximation)  
+Narrow to Wideband approximation  
 (&#x1F534;): Narrow to wideband approximation table  
 
-[CJ125 Settings (wbo decoder)](rusEFI-project-Sensors#cj125-settings-(wbo-decoder))  
+CJ125 Settings (wbo decoder)  
 (&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  [**603**](https://github.com/rusefi/rusefi/issues/603)  [**617**](https://github.com/rusefi/rusefi/issues/617)  
 (&#x1F534;): LSU4.9 sensor select  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select pin  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select mode  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): SPI settings  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  [**109**](https://github.com/rusefi/rusefi/issues/1109)  
 
-[Speed sensor](rusEFI-project-Sensors#speed-sensor)  
+Speed sensor  
 (&#x1F49A;): Vehicle speed sensor configuration  
 (&#x1F536;): CANBUS vehicle speed option  
 (&#x1F536;): VSS input pin select  
 (&#x1F536;): VSS calibration coefficient  
 
-[Oil pressure](rusEFI-project-Sensors#oil-pressure)  
+Oil pressure  
 (&#x1F536;): Configurable oil pressure input pin  
 (&#x1F536;): 2 point oil pressure sensor calibration  
 
-[EGT inputs](rusEFI-project-Sensors#egt-inputs)  
+EGT inputs  
 (&#x1F534;): SPI select for EGT via SPI  
 (&#x1F534;): 8x EGT inputs  [**149**](https://github.com/rusefi/rusefi/issues/149)  
 
@@ -388,11 +378,9 @@ TPS thresholds
 
 ## Controller
 
-[Controller](rusEFI-project-Controller)
-
 45% complete (24/53)  
 
-[ECU stimulator](rusEFI-project-Controller#ecu-stimulator)  
+ECU stimulator  
 (&#x1F49A;): Self stimulation RPM setting  
 (&#x1F49A;): Enable switch for internal MCU self trigger stimulation  
 Digipot SPI input stimulation settings  
@@ -400,11 +388,11 @@ Digipot SPI input stimulation settings
 4 configurable logic input channels  
 Engine chart size  
 
-[Data logging Settings](rusEFI-project-Controller#data-logging-settings)  
+Data logging Settings  
 (&#x1F49A;): Debug logging enable setting  
 (&#x1F49A;): Error logging enable setting  
 
-[Bench Test and Commands](rusEFI-project-Controller#bench-test-and-commands)  
+Bench Test and Commands  
 (&#x1F49A;): 8 coil spark bench test  
 (&#x1F49A;): 8 injector bench test  
 (&#x1F49A;): Fuel pump bench test  
@@ -418,7 +406,7 @@ Engine chart size
 (&#x1F49A;): Reset ECU test  
 (&#x1F49A;): Reset to DFU test  
 
-[Popular vehicles](rusEFI-project-Controller#popular-vehicles)  
+Popular vehicles  
 (&#x1F536;): Popular setting presets  
 (&#x1F536;): Miata NA6 0  
 (&#x1F536;): Miata NA6 1  
@@ -428,19 +416,19 @@ Engine chart size
 (&#x1F536;): TLE8888 bench test  
 (&#x1F49A;): Reset firmware to default  
 
-[LCD screen](rusEFI-project-Controller#lcd-screen)  
+LCD screen  
 (&#x1F49A;): LCD screen output configuration  
 
-[Joystick](rusEFI-project-Controller#joystick)  
+Joystick  
 (&#x1F49A;): Discovery brain board joystick configuration  
 
-[SPI settings](rusEFI-project-Controller#spi-settings)  
+SPI settings  
 (&#x1F536;): SPI communication configuration  
 
-[rusEFI Console Settings](rusEFI-project-Controller#rusefi-console-settings)  
+rusEFI Console Settings  
 (&#x1F49A;): rusEFI console configuration  
 
-[Connection](rusEFI-project-Controller#connection)  
+Connection  
 (&#x1F49A;): ADC Vref configuration  
 (&#x1F49A;): TunerStudio communication configuration  
 (&#x1F49A;): CANBUS communication configuration  
@@ -448,10 +436,10 @@ Engine chart size
 (&#x1F536;): SD card logging configuration  [**942**](https://github.com/rusefi/rusefi/issues/942)  [**1444**](https://github.com/rusefi/rusefi/issues/1444)  [**1463**](https://github.com/rusefi/rusefi/issues/1463)  
 (&#x1F534;): GPS module communication configuration  [**21**](https://github.com/rusefi/rusefi/issues/21)  
 
-[TLE8888](rusEFI-project-Controller#tle8888)  
+TLE8888  
 (&#x1F536;): TLE8888 configuration  [**1426**](https://github.com/rusefi/rusefi/issues/1426)  
 
-[All Pins 1 of 3](rusEFI-project-Controller#all-pins-1-of-3)  - Not marking these as they are duplicates
+All Pins 1 of 3  - Not marking these as they are duplicates
 Trigger stimulation pin config  
 High pressure fuel rail pin config  
 Warning LED pin config  
@@ -480,7 +468,7 @@ Saab CDM Knock pin config  [**647**](https://github.com/rusefi/rusefi/issues/647
 Comm status light pin config  
 Running status light pin config  
 
-[All Pins 2 of 3](rusEFI-project-Controller#all-pins-2-of-3)  - Not marking these as they are duplicates
+All Pins 2 of 3  - Not marking these as they are duplicates
 Injection pin config  
 FSIO digital input pin config  
 Ignition pin config  
@@ -489,7 +477,7 @@ LCD pin config
 Debug trigger sync pin config  
 MC33816 pin config  
 
-[All Pins 3 of 3](rusEFI-project-Controller#all-pins-3-of-3)  - Not marking these as they are duplicates
+All Pins 3 of 3  - Not marking these as they are duplicates
 Throttle pedal position pin config  
 Crank/primary input pin config  
 Cam/Secondary input pin config  
@@ -514,23 +502,23 @@ Aux pin config
 TLE8888 pin config  
 Aux serial pin config  
 
-[Experimental or Broken](rusEFI-project-Controller#experimental-or-broken)  
+Experimental or Broken  
 (&#x1F534;): Global fuel correction coefficient  
 (&#x1F534;): Ignition math logic  
 (&#x1F536;): MAP averaging logic  
 
-[Multispark](rusEFI-project-Controller#multispark)  
+Multispark  
 (&#x1F536;): Enable/disable multi spark  [**327**](https://github.com/rusefi/rusefi/issues/327)  
 (&#x1F536;): Multi spark config  
 
-[GDI Dreams](rusEFI-project-Controller#gdi-dreams)  
+GDI Dreams  
 (&#x1F534;): MC33816_cs GDI config  [**784**](https://github.com/rusefi/rusefi/issues/784)  [**1448**](https://github.com/rusefi/rusefi/issues/1448)  [**1450**](https://github.com/rusefi/rusefi/issues/1450)  
 
-[HIP9011 Settings (knock decoder)](rusEFI-project-Controller#hip9011-settings-(knock-decoder))  
+HIP9011 Settings (knock decoder)  
 (&#x1F534;): HIP9011 Knock control enable/disable  [**35**](https://github.com/rusefi/rusefi/issues/35)  [**603**](https://github.com/rusefi/rusefi/issues/603)  
 (&#x1F534;): Knock control settings  [**202**](https://github.com/rusefi/rusefi/issues/202)  
 
-[Electronic Throttle Body (beta)](rusEFI-project-Controller#electronic-throttle-body-(beta))  
+Electronic Throttle Body (beta)  
 (&#x1F536;): Enable ETB status in console [**494**](https://github.com/rusefi/rusefi/issues/494)  [**1336**](https://github.com/rusefi/rusefi/issues/1336)  
 (&#x1F536;): Disable ETB drive motor  
 (&#x1F536;): H-bridge configuration  
@@ -539,19 +527,19 @@ Aux serial pin config
 (&#x1F536;): ETB autotune  
 (&#x1F536;): TPS auto calibrate  
 
-[Electronic TB Bias Curve](rusEFI-project-Controller#electronic-tb-bias-curve)  
+Electronic TB Bias Curve  
 (&#x1F536;): ETB feed forward curve  [**842**](https://github.com/rusefi/rusefi/issues/842)  
 
-[ETB Pedal to TPS](rusEFI-project-Controller#etb-pedal-to-tps)  
+ETB Pedal to TPS  
 (&#x1F536;): 8x8 ETB pedal transfer map  
 
-[Launch Control Settings NOT WORKING](rusEFI-project-Controller#launch-control-settings-not-working)  
+Launch Control Settings NOT WORKING  
 (&#x1F534;): Launch control [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
-[Rolling Launch Settings NOT WORKING](rusEFI-project-Controller#rolling-launch-settings-not-working)  
+Rolling Launch Settings NOT WORKING  
 (&#x1F534;): Rolling launch [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
-[AntiLag Settings NOT WORKING](rusEFI-project-Controller#antilag-settings-not-working)  
+AntiLag Settings NOT WORKING  
 (&#x1F534;): Anti lag  
 
 ---

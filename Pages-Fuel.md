@@ -1,11 +1,5 @@
 # Master list of fuel pages
 
-<details markdown="1"><summary><u>rusEFI Project</u></summary>
-
-* [rusEFI Project Fuel](rusEFI-project-Fuel)
-
-</details>
-
 <details markdown="1"><summary><u>Fuel Algorithms</u></summary>
 
 * [Fuel Overview](Fuel-Overview)

@@ -9,6 +9,6 @@ If you are looking to change rusEFI documentation you are in the right place!
 
 See the following documents for more information
 
-- [HOWTO contribute to documentation](HOWTO-contribute-to-documentation.md)
+- [HOWTO contribute to documentation](https://github.com/rusefi/rusefi_documentation/blob/master/HOWTO-contribute-to-documentation.md)
 
-- [Documentation Strategy](Documentation-Strategy.md)
+- [Documentation Strategy](https://github.com/rusefi/rusefi_documentation/blob/master/Documentation-Strategy.md)
