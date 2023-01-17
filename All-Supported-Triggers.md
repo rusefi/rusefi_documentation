@@ -2,7 +2,12 @@
 
 See also [Trigger](Trigger)
 
-To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
+To change your trigger settings, open TunerStudio, Engine->Trigger Configuration.
+
+# Norman Note
+
+Cam always goes before crank. For shapes with two wheels, left wheel is top in tuner studio.
+Also order of channels on engine sniffer should match order of channels on the bottom part of corresponding image.
 
 [Universal](#universal)
 
@@ -176,11 +181,11 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ### Dodge Neon 1995
 
-![Dodge Neon 1995](Images/triggers/trigger_2.png)
+![Dodge Neon 1995](Images/triggers/trigger_TT_DODGE_NEON_1995.png)
 
 ### Dodge Neon 1995 only crankshaft sensor
 
-![Dodge Neon 1995 crank only](Images/triggers/trigger_39.png)
+![Dodge Neon 1995 crank only](Images/triggers/trigger_TT_DODGE_NEON_1995_ONLY_CRANK.png)
 
 ### Dodge Hemi and SRT4
 
