@@ -50,7 +50,7 @@ Achievement| Results
 Hundreds of rusEFI units produced|✓
 We've lost track of how many vehicles are running on rusEFI|✓
 
-And many more! See [rusEFI-project](rusEFI-project) for more details.
+And many more!
 The unsupported features listed here are all things that would be amazing to see! IF YOU have a project that includes any of those configurations or anything else, please jump in on the forums and we can work together to make it happen! 👍
 
 ## Get Started

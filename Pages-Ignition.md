@@ -2,12 +2,6 @@
   
 **[Ignition FAQ](FAQ-Ignition)**
 
-<details markdown="1"><summary><u>rusEFI Project</u></summary>
-
-* [rusEFI Project Ignition](rusEFI-project-Ignition)
-
-</details>
-
 <details markdown="1"><summary><u>Ignition Wiring</u></summary>
 
 * [Basic Ignition Wiring](FAQ-Basic-Wiring-and-Connections)
