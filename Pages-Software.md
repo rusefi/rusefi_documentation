@@ -1,11 +1,5 @@
 # Master list of software pages
 
-<details markdown="1"><summary><u>rusEFI Project</u></summary>
-
-* [rusEFI Project Overview](rusEFI-project)
-
-</details>
-
 <details markdown="1"><summary><u>General Firmware info</u></summary>
 
 * [Preferred Code Style](Code-Style)
@@ -24,7 +18,6 @@
 
 <details markdown="1"><summary><u>Firmware Features</u></summary>
 
-* See also -> [rusEFI Project Overview](rusEFI-project)
 * [FSIO](FSIO)
 * [Virtual Simulator](Virtual-simulator)
 

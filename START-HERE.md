@@ -19,8 +19,7 @@ RusEFI is also still very much in development, the dev team provide no guarantee
 
 You are going to need to know technical details about below referenced items.
 
-To get an idea of [tested  sensors and actuators](rusEFI-project-Sensors)
-and [available sensors and actuators](Pages-Sensors-and-Actuators)
+To get an idea of tested and [available sensors and actuators](Pages-Sensors-and-Actuators)
 
 ### Camshaft position sensor (optional)
 
