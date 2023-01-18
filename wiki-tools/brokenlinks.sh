@@ -126,7 +126,6 @@ checkurl() {
     fi
     # Get the selected file path, without the preceding ./
     FILE=$(basename "$(echo "$FILES" | head -n "$PICK" | tail -n 1)" .md)
-    echo "foo $FILE" >&2
     # Replace the old link with the new one.
     # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
     #   and not some other place in the file that happens to use the same words.
