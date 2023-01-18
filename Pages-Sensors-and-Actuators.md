@@ -13,11 +13,13 @@
 
 * [Fuel Overview](Fuel-Overview)
 * [GM Map sensor](GM-map-sensor)
-* [List of tested sensors](Vault-Of-Sensors)
 
 </details>
 
 <details markdown="1"><summary><u>MAF Sensors</u></summary>
+
+* [Ford Slot Type](Vault-Of-Sensors#ford-slot-type-maf-sensor)
+* [List of tested sensors](Vault-Of-Sensors#tested-sensors)
 
 </details>
 
@@ -39,6 +41,12 @@
 <details markdown="1"><summary><u>Coolant Temperature Sensors</u></summary>
 
 * List of tested Coolant Temperature Sensors - Coming Soon
+
+</details>
+
+<details markdown="1"><summary><u>Oil Pressure Sensors</u></summary>
+
+* [Combo Pressure/Temp Sensor](Vault-Of-Sensors#liquid-temperature-and-pressure-sensor)
 
 </details>
 
