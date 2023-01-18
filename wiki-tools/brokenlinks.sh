@@ -116,7 +116,7 @@ checkurl() {
     return 1
   fi
   # List the potential files, with numbers.
-  echo "$FILES" | cat --number
+  echo "$FILES" | cat --number >&2
   if [ "$SCRIPT" -lt 1 ]; then
     # Read the user input
     read -r PICK
