@@ -23,18 +23,18 @@ export -f escapeReplace
 checkurl() {
   # If it's an internet link, ignore it.
   # That's beyond the scope of this tool.
-  if echo "$URL" | grep -E '^[http|\/]' >/dev/null; then
+  if echo "$1" | grep -E '^[http|\/]' >/dev/null; then
     return 1
   fi
   # At some point in this scripts development, fixed links to files/images were given the './' prefix.
   # This didn't really hurt anything, but it's not idiomatic.
   # I added this to fix the problems I caused, and decided it was worth keeping around.
-  if echo "$URL" | grep -E '^\./' >/dev/null; then
+  if echo "$1" | grep -E '^\./' >/dev/null; then
     # NEWLINK is the corrected link
-    NEWLINK=$(echo "$URL" | sed 's/^\.\///')
+    NEWLINK=$(echo "$1" | sed 's/^\.\///')
     # Print the file and the old link
     echo "In $1:" >&2
-    echo "$URL" >&2
+    echo "$1" >&2
     # Print the options as though they are a list in order to have the same UI as other types of correction
     echo "$NEWLINK" | cat --number >&2
     if [ "$SCRIPT" -lt 1 ]; then
@@ -44,7 +44,7 @@ checkurl() {
         # Replace the old link with the new one.
         # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
         #   and not some other place in the file that happens to use the same words.
-        REPLACE=$(escape '('"$URL"')')
+        REPLACE=$(escape '('"$1"')')
         REPLACEWITH=$(escapeReplace "$NEWLINK")
         sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
         # print the new URL for use in checkhash
@@ -54,27 +54,27 @@ checkurl() {
     fi
   fi
   # Skip links that are to an .md file and aren't broken.
-  if [ "$(find . -name "$URL"".md" 2>/dev/null | wc -l)" -gt 0 ]; then
+  if [ "$(find . -name "$1"".md" 2>/dev/null | wc -l)" -gt 0 ]; then
     # print the URL for use in checkhash
-    echo "$URL"
+    echo "$1"
     return 0
   fi
   # Process links that are not to an .md file.
   # We need to do this separately because Github/gollum behave differently with different kinds of links.
   # .md files need the name of the file, without the .md extension.
   # Everything else needs the path relative to the repo root.
-  if echo "$URL" | grep -Ev ".md$" >/dev/null; then
+  if echo "$1" | grep -Ev ".md$" >/dev/null; then
     # Skip the link if it's not broken.
-    if ls "$URL" 2>/dev/null >/dev/null; then
+    if ls "$1" 2>/dev/null >/dev/null; then
       return 1
     fi
     # Print the filename and the broken link.
     echo "In $1:" >&2
-    echo "$URL" >&2
+    echo "$1" >&2
     # Build the search term we will look for.
     # All hyphens and underscores are replaced with asterisks, so we
     #   can find files with mismatched hyphens or underscores.
-    SEARCH='*'$(basename "$URL" | sed 's/[-_ ]/*/g')'*'
+    SEARCH='*'$(basename "$1" | sed 's/[-_ ]/*/g')'*'
     # Search for matching files.
     FILES=$(find . -iname "$SEARCH")
     # If there are no files, skip to next link.
@@ -96,18 +96,18 @@ checkurl() {
       # Replace the old link with the new one.
       # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
       #   and not some other place in the file that happens to use the same words.
-      REPLACE=$(escape '('"$URL"')')
+      REPLACE=$(escape '('"$1"')')
       REPLACEWITH=$(escapeReplace "$(basename "$FILE" .md)")
       sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
     fi
     return 1
   fi
   echo "In $1:" >&2
-  echo "$URL" >&2
+  echo "$1" >&2
   # Build the search term we will look for.
   # All hyphens and underscores are replaced with asterisks, so we
   #   can find files with mismatched hyphens or underscores.
-  SEARCH='*'$(basename "$URL" | sed 's/[-_ ]/*/g')'*'
+  SEARCH='*'$(basename "$1" | sed 's/[-_ ]/*/g')'*'
   # Search for matching files.
   FILES=$(find . -iname "$SEARCH")
   # If there are no files, skip to next link.
@@ -129,7 +129,7 @@ checkurl() {
     # Replace the old link with the new one.
     # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
     #   and not some other place in the file that happens to use the same words.
-    REPLACE=$(escape '('"$URL"')')
+    REPLACE=$(escape '('"$1"')')
     REPLACEWITH=$(escapeReplace "$FILE")
     sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
     echo "$FILE"
@@ -137,11 +137,13 @@ checkurl() {
   fi
   return 1
 }
+export -f checkurl
 
 checkhash() {
   # TODO check hash fragment validity
   return 0
 }
+export -f checkhash
 
 # Main processing function
 # Passed the path to a .md file
@@ -155,11 +157,11 @@ searchfile() {
     HASH=$(echo "$LINK" | cut -d '#' -f 2)
     URLSTATUS=0
     if [ -n "$URL" ]; then
-      URL=$(checkurl("$URL", "$HASH"))
+      URL=$(checkurl "$URL" "$HASH")
       URLSTATUS=$?
     fi
     if [ -n "$HASH" ] && [ "$URLSTATUS" -eq 0 ]; then
-      checkhash("$HASH", "$URL")
+      checkhash "$HASH" "$URL"
     fi
   # This regex finds links in the file that is passed to searchfile
   # Results are fed to file descriptor 3 for the reasons previously explained.
