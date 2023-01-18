@@ -13,10 +13,6 @@ A large number of tested MAF sensors can be found [here](https://rusefi.com/foru
 
 ## Liquid Pressure and Temperature Sensor
 
-10 bar & 140 deg C
-
-### Description
-
 - Combined Temperature and Pressure sensor. 2x Sensors in one..!!
 - 0 - 10.0 bar (145psi) Pressure Sensor for liquid
 - -40 - 140 deg C Temperature sensor for liquid
@@ -50,6 +46,9 @@ Ballenger Motorsports PST-F1
 
 For temperature measurement please use a pull-up resistor with an optimal value of 4.6 kOhm.  
 The sensor has a protection for overvoltage, reverse polarity and short-circuit.  
+
+[Data Sheet](PDFs/Data Sheet_70496907_Pressure_Sensor_Combined_PST-F_1.pdf)
+[Drawing](PDFs/Offer Drawing_254101899_Pressure_Sensor_Combined_PST-F_1.pdf)
 
 ![oil sensor specs](Images/oilsensespecs1.jpg)
 ![oil sensor specs](Images/oilsensespecs2.jpg)
