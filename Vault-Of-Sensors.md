@@ -47,7 +47,7 @@ Ballenger Motorsports PST-F1
 For temperature measurement please use a pull-up resistor with an optimal value of 4.6 kOhm.  
 The sensor has a protection for overvoltage, reverse polarity and short-circuit.  
 
-[Data Sheet](PDFs/Data Sheet_70496907_Pressure_Sensor_Combined_PST-F_1.pdf)
+[Data Sheet](PDFs/Data Sheet_70496907_Pressure_Sensor_Combined_PST-F_1.pdf)  
 [Drawing](PDFs/Offer Drawing_254101899_Pressure_Sensor_Combined_PST-F_1.pdf)
 
 ![oil sensor specs](Images/oilsensespecs1.jpg)
