@@ -44,8 +44,8 @@ checkurl() {
         # Replace the old link with the new one.
         # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
         #   and not some other place in the file that happens to use the same words.
-        REPLACE=$(escape '('"$2"')')
-        REPLACEWITH=$(escapeReplace "$NEWLINK")
+        REPLACE=$(escape '('"$2"'#'"$3"')')
+        REPLACEWITH=$(escapeReplace "$NEWLINK"'#'"$3")
         sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
         # print the new URL for use in checkhash
         echo "$NEWLINK"
@@ -129,9 +129,9 @@ checkurl() {
     # Replace the old link with the new one.
     # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
     #   and not some other place in the file that happens to use the same words.
-    REPLACE=$(escape '('"$2"')')
-    REPLACEWITH=$(escapeReplace "$FILE")
-    sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
+    REPLACE=$(escape '('"$2"'#'"$3"')')
+    REPLACEWITH=$(escapeReplace "$FILE"'#'"$3")
+    sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1" >&2
     echo "$FILE"
     return 0
   fi
