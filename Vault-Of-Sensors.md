@@ -3,13 +3,13 @@
 ## MAF sensors
 
 ### Ford Slot type MAF sensor
+
 PN - Hitachi MAF0012
 plug TE 1-1419168-2
 
-
 ### Tested Sensors
-A large number of tested MAF sensors can be found [here](https://rusefi.com/forum/viewtopic.php?f=4&t=1726&p=36419)
 
+A large number of tested MAF sensors can be found [here](https://rusefi.com/forum/viewtopic.php?f=4&t=1726&p=36419)
 
 ## Liquid Pressure and Temperature Sensor
 
@@ -18,7 +18,7 @@ A large number of tested MAF sensors can be found [here](https://rusefi.com/foru
 - -40 - 140 deg C Temperature sensor for liquid
 - Bosch Trapez 4-pin connector
 - 45degree cone seat, M10x1 fitting
-- Suitable for Diesel, gasoline, water, engine oil, transmission oil 
+- Suitable for Diesel, gasoline, water, engine oil, transmission oil
 
 ![oil sensor end](Images/oilsense1.jpg)
 ![oil sensor connector](Images/oilsense2.jpg)
@@ -73,6 +73,7 @@ Pin 4 Ground
 Pin 5 Temperature Signal
 
 #### Connector
+
 VW Audi 1 928 405 159 (Inject Sensor)
 Ford 1928405159
 
