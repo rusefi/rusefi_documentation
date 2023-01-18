@@ -46,7 +46,7 @@
 
 <details markdown="1"><summary><u>Oil Pressure Sensors</u></summary>
 
-* [Combo Pressure/Temp Sensor](Vault-Of-Sensors#oil-temperature-and-pressure-sensor)
+* [Combo Pressure/Temp Sensor](Vault-Of-Sensors#liquid-temperature-and-pressure-sensor)
 
 </details>
 
