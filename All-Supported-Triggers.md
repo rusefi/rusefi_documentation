@@ -4,7 +4,7 @@ See also [Trigger](Trigger)
 
 To change your trigger settings, open TunerStudio, Engine->Trigger Configuration.
 
-# Norman Note
+## Norman Note
 
 Cam always goes before crank. For shapes with two wheels, left wheel is top in tuner studio.
 Also order of channels on engine sniffer should match order of channels on the bottom part of corresponding image.
@@ -245,7 +245,7 @@ VQ30
 
 VW special understanding of 60/2 with a wide tooth instead of of just missing tooth.
 
-See also [Universal True 60/2](All-Supported-Triggers.md#602)
+See also [Universal True 60/2](All-Supported-Triggers#602)
 
 ![VW 60/2](Images/triggers/trigger_20.png)
 

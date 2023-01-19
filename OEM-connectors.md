@@ -126,7 +126,7 @@ See also [Pulse Lock Connector Product Specification](https://www.te.com/commerc
 [TE 174917-6](http://www.te.com/catalog/pn/en/174917-6)
 Escort GT, Ford Festiva, Miata NA6 manual
 
-The larger plugs are the same as on [the 64 pin](OEM-connectors.md#64-pin).
+The larger plugs are the same as on [the 64 pin](OEM-connectors#64-pin).
 
 ## 52 pin
 
@@ -318,7 +318,7 @@ terminal 173681
 
 mitsubishi colt/mirage 1991-1995 year for 1.3, 1.6 and 1.8 engine
 
-See also [the 48 pin](OEM-connectors.md#48-pin).
+See also [the 48 pin](OEM-connectors#48-pin).
 
 For sale @ [eBay Store](http://www.ebay.com/usr/rusefi)
 
@@ -388,7 +388,7 @@ And terminals 173716-1 or 173716-2 and 173630-1 or 173630-2
 
 ## 76 pin center lock
 
-See also [64 pin nissan center lock](OEM-connectors.md#64-pin-nissan-center-lock)
+See also [64 pin nissan center lock](OEM-connectors#64-pin-nissan-center-lock)
 
 [TE 5-174385-5](https://www.te.com/usa-en/product-5-174385-5.html)
 
