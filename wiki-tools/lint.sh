@@ -18,5 +18,4 @@ else
   bash wiki-tools/brokenlinks.sh -s $CHANGED
 fi
 
-
-return "$STATUS"
+exit "$STATUS"
