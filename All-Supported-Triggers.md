@@ -4,7 +4,7 @@ See also [Trigger](Trigger)
 
 To change your trigger settings, open TunerStudio, Engine->Trigger Configuration.
 
-# Norman Note
+## Norman Note
 
 Cam always goes before crank. For shapes with two wheels, left wheel is top in tuner studio.
 Also order of channels on engine sniffer should match order of channels on the bottom part of corresponding image.
