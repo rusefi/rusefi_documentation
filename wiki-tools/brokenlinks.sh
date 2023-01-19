@@ -4,6 +4,7 @@
 #                                           02/18/2021                                           #
 #                                   Written By David Holdeman                                    #
 #     Searches for broken links in a Github Wiki repo, and suggests and applies corrections.     #
+#          Usage: brokenlinks.sh [-s non-interactive] [-d debug] <optional file(s)> ...          #
 ##################################################################################################
 
 # These two functions are used to escape variables for use in a sed command
@@ -174,6 +175,9 @@ searchfile() {
     if [ -n "$HASH" ] && [ "$URLSTATUS" -eq 0 ]; then
       checkhash "$1" "$HASH" "$URL"
     fi
+    if [ "$DEBUG" -eq 1 ]; then
+      echo "$(date +%T.%N)	$1	$URL	$HASH"
+    fi
   # This regex finds links in the file that is passed to searchfile
   # Results are fed to file descriptor 3 for the reasons previously explained.
   done 3< <(grep -oP '(?<=\]\().*?(?=[\)])' "$1" | sed -e "s/^<//g" -e "s/>$//g" | cut -d '"' -f1 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
@@ -183,9 +187,12 @@ export -f searchfile
 FILES=()
 
 export SCRIPT=0
+export DEBUG=0
 for i in $@; do
   if [ "$i" == "-s" ]; then
     export SCRIPT=1
+  elif [ "$i" == "-d" ]; then
+    export DEBUG=1
   else
     FILES+=("${i}")
   fi
