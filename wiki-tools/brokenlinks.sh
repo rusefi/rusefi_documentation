@@ -32,6 +32,8 @@ checkurl() {
   if echo "$2" | grep -E '^\./' >/dev/null; then
     # NEWLINK is the corrected link
     NEWLINK=$(echo "$2" | sed 's/^\.\///')
+    (
+    flock -x 200
     # Print the file and the old link
     echo "In $1:" >&2
     echo "$2" >&2
@@ -52,6 +54,7 @@ checkurl() {
       fi
       # We don't continue here because the link we fixed might be broken.
     fi
+    ) 200>brokenlinks.lock
   fi
   # Skip links that are to an .md file and aren't broken.
   if [ "$(find . -name "$2"".md" 2>/dev/null | wc -l)" -gt 0 ]; then
@@ -68,15 +71,17 @@ checkurl() {
     if ls "$2" 2>/dev/null >/dev/null; then
       return 1
     fi
-    # Print the filename and the broken link.
-    echo "In $1:" >&2
-    echo "$2" >&2
     # Build the search term we will look for.
     # All hyphens and underscores are replaced with asterisks, so we
     #   can find files with mismatched hyphens or underscores.
     SEARCH='*'$(basename "$2" | sed 's/[-_ ]/*/g')'*'
     # Search for matching files.
     FILES=$(find . -iname "$SEARCH")
+    (
+    flock -x 200
+    # Print the filename and the broken link.
+    echo "In $1:" >&2
+    echo "$2" >&2
     # If there are no files, skip to next link.
     if [ "$(echo -n "$FILES" | wc -c)" -lt 1 ]; then
       echo "Could not find" >&2
@@ -101,15 +106,19 @@ checkurl() {
       sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
     fi
     return 1
+    ) 200>brokenlinks.lock
+    return $?
   fi
-  echo "In $1:" >&2
-  echo "$2" >&2
   # Build the search term we will look for.
   # All hyphens and underscores are replaced with asterisks, so we
   #   can find files with mismatched hyphens or underscores.
   SEARCH='*'$(basename "$2" | sed 's/[-_ ]/*/g')'*'
   # Search for matching files.
   FILES=$(find . -iname "$SEARCH")
+  (
+  flock -x 200
+  echo "In $1:" >&2
+  echo "$2" >&2
   # If there are no files, skip to next link.
   if [ "$(echo -n "$FILES" | wc -c)" -lt 1 ]; then
     echo "Could not find" >&2
@@ -136,6 +145,8 @@ checkurl() {
     return 0
   fi
   return 1
+  ) 200>brokenlinks.lock
+  return $?
 }
 export -f checkurl
 
@@ -186,5 +197,5 @@ if [ "${#FILES[@]}" -gt 0 ]; then
   done
 else
   # run searchfile on every .md file in the repo
-  find . -iname "*.md" -exec bash -c 'searchfile "$0"' {} \;
+  xargs -0 -P $(nproc --all) -a <(find . -iname "*.md" -print0) -I {} bash -c 'searchfile "$@"' _ {}
 fi
