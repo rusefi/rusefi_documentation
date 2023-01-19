@@ -9,9 +9,14 @@ if [ "$?" -gt 0 ]; then
   STATUS=1
 fi
 
-bash wiki-tools/brokenlinks.sh -s
-if [ "$?" -gt 0 ]; then
-  STATUS=1
+if git diff --compact-summary HEAD~1 HEAD | grep -E "=>|\(new\)" >/dev/null; then
+  bash wiki-tools/brokenlinks.sh -s
+  if [ "$?" -gt 0 ]; then
+    STATUS=1
+  fi
+else
+  bash wiki-tools/brokenlinks.sh -s $CHANGED
 fi
+
 
 return "$STATUS"
