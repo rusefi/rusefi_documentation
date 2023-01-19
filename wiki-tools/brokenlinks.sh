@@ -74,9 +74,9 @@ checkurl() {
     # Build the search term we will look for.
     # All hyphens and underscores are replaced with asterisks, so we
     #   can find files with mismatched hyphens or underscores.
-    SEARCH='*'$(basename "$2" | sed 's/[-_ ]/*/g')'*'
+    SEARCH='.*'$(basename "$2" | sed 's/[-_ ]/.*/g')'.*'
     # Search for matching files.
-    FILES=$(find . -iname "$SEARCH")
+    FILES=$(echo "$LIST" | grep -i "$SEARCH")
     (
     flock -x 200
     # Print the filename and the broken link.
@@ -112,9 +112,9 @@ checkurl() {
   # Build the search term we will look for.
   # All hyphens and underscores are replaced with asterisks, so we
   #   can find files with mismatched hyphens or underscores.
-  SEARCH='*'$(basename "$2" | sed 's/[-_ ]/*/g')'*'
+  SEARCH='.*'$(basename "$2" | sed 's/[-_ ]/.*/g')'.*'
   # Search for matching files.
-  FILES=$(find . -iname "$SEARCH")
+  FILES=$(echo "$LIST" | grep -i "$SEARCH")
   (
   flock -x 200
   echo "In $1:" >&2
