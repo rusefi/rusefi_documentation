@@ -2,7 +2,7 @@
 
 Disclaimer: the following observations could be really wrong, please let me know if you have better information.
 
-See also [OEM Connectors - 121 pin](OEM-connectors.md#121-pin)
+See also [OEM Connectors - 121 pin](OEM-connectors#121-pin)
 
 There are two kinds of 121 connectors which look pretty much the same but do not mate together unless you use a grinder to massage them a bit.
 
