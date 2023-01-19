@@ -33,7 +33,7 @@ checkurl() {
     # NEWLINK is the corrected link
     NEWLINK=$(echo "$2" | sed 's/^\.\///')
     # Print the file and the old link
-    echo "In $2:" >&2
+    echo "In $1:" >&2
     echo "$2" >&2
     # Print the options as though they are a list in order to have the same UI as other types of correction
     echo "$NEWLINK" | cat --number >&2
@@ -69,7 +69,7 @@ checkurl() {
       return 1
     fi
     # Print the filename and the broken link.
-    echo "In $2:" >&2
+    echo "In $1:" >&2
     echo "$2" >&2
     # Build the search term we will look for.
     # All hyphens and underscores are replaced with asterisks, so we
@@ -102,7 +102,7 @@ checkurl() {
     fi
     return 1
   fi
-  echo "In $2:" >&2
+  echo "In $1:" >&2
   echo "$2" >&2
   # Build the search term we will look for.
   # All hyphens and underscores are replaced with asterisks, so we
