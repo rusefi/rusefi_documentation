@@ -57,7 +57,7 @@ checkurl() {
     ) 200>brokenlinks.lock
   fi
   # Skip links that are to an .md file and aren't broken.
-  if [ "$(find . -name "$2"".md" 2>/dev/null | wc -l)" -gt 0 ]; then
+  if [ "$(echo "$LIST" | grep "$2"".md" 2>/dev/null | wc -l)" -gt 0 ]; then
     # print the URL for use in checkhash
     echo "$2"
     return 0
@@ -191,11 +191,13 @@ for i in $@; do
   fi
 done
 
+export LIST=$(find . -iname "*.md")
+
 if [ "${#FILES[@]}" -gt 0 ]; then
   for f in "${FILES[@]}"; do
     searchfile "$f"
   done
 else
   # run searchfile on every .md file in the repo
-  xargs -0 -P $(nproc --all) -a <(find . -iname "*.md" -print0) -I {} bash -c 'searchfile "$@"' _ {}
+  xargs -0 -P $(nproc --all) -a <(echo "$LIST" | tr '\n' '\0') -I {} bash -c 'searchfile "$@"' _ {}
 fi
