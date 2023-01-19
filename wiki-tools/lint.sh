@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 STATUS=0
-CHANGED=$(git diff --name-only HEAD HEAD~1 | grep -v '^_' | grep '.md$')
+CHANGED=$(git diff --name-only HEAD~1 HEAD | grep -v '^_' | grep '.md$')
 if [ -n "$CHANGED" ]; then
   markdownlint -i '_*' --disable MD033 MD034 MD013 MD024 MD036 -- $CHANGED
 fi
