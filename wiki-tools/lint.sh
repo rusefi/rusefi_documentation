@@ -15,6 +15,9 @@ if git diff --compact-summary HEAD~1 HEAD | grep -E "=>|\(new\)" >/dev/null; the
   fi
 else
   bash wiki-tools/brokenlinks.sh -s $CHANGED
+  if [ "$?" -gt 0 ]; then
+    STATUS=1
+  fi
 fi
 
 exit "$STATUS"
