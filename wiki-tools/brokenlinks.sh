@@ -205,11 +205,15 @@ done
 export LIST=$(find . -iname "*.md" ! -name '_*')
 
 if [ "${#FILES[@]}" -gt 0 ]; then
+  STATUS=0
   # Only run `searchfile` on passed-in file names.
   for f in "${FILES[@]}"; do
     searchfile "$f"
-    exit $?
+    if [ "$?" -ne 0 ]; then
+      STATUS=1
+    fi
   done
+  exit $STATUS
 else
   # run `searchfile` on every .md file in the repo
   xargs -0 -P $(nproc --all) -a <(echo "$LIST" | tr '\n' '\0') -I {} bash -c 'searchfile "$@"' _ {}
