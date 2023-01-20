@@ -42,7 +42,8 @@ motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 canMotorInfoTotalCounter = 0
 
 VWTP_OUT = 0x200
-VWTP_IN = 0x202
+cuType = 0x02 -- TCU
+VWTP_IN = 0x200 + cuType
 VWTP_TESTER = 0x300
 
 -- sometimes we want to cut a CAN bus and install rusEFI into that cut
@@ -120,6 +121,26 @@ function getBitRange(data, bitIndex, bitWidth)
  return (value >> shift) & mask
 end
 
+function sendMotor3()
+ desired_wheel_torque = fakeTorque
+ canMotor3[2] = (iat + 48) / 0.75
+ canMotor3[3] = tps / 0.4
+ canMotor3[5] = 0x20
+ setBitRange(canMotor3, 24, 12, math.floor(desired_wheel_torque / 0.39))
+ canMotor3[8] = tps / 0.4
+ txCan(TCU_BUS, MOTOR_3, 0, canMotor3)
+end
+
+function onMotor3(bus, id, dlc, data)
+    totalEcuMessages = totalEcuMessages + 1
+ iat = getBitRange(data, 8, 8) * 0.75 - 48
+ pps = getBitRange(data, 16, 8) * 0.40
+ tps = getBitRange(data, 56, 8) * 0.40
+-- print ('MOTOR_1 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
+
+ sendMotor3()
+end
+
 function onMotor1(bus, id, dlc, data)
     totalEcuMessages = totalEcuMessages + 1
  rpm = getBitRange(data, 16, 16) * 0.25
@@ -148,6 +169,13 @@ function relayFromTCU(bus, id, dlc, data)
 --	print("Relaying to ECU " .. id)
 	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
 end
+
+function relayTcuDiagHelloFromTCU(bus, id, dlc, data)
+totalTcuMessages = totalTcuMessages + 1
+	print("Relaying TcuDiagHello to ECU " .. id .. arrayToString(data))
+txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+end
+
 
 local payLoadIndex = 0
 
@@ -204,6 +232,10 @@ function relayTpPayloadFromTCU(bus, id, dlc, data)
 
 		if top4 == 1 then
 			payLoadIndex = 0
+if data[2] == 0 and data[3] == 2 and data[4] == 0x58
+print("NO CODES")
+end
+
 		end
         return
 	end
@@ -371,7 +403,7 @@ canRxAdd(ECU_BUS, MOTOR_INFO, relayFromECU)
 canRxAdd(ECU_BUS, VWTP_OUT, relayFromECU)
 canRxAdd(ECU_BUS, 0x760, relayFromECU)
 
-canRxAdd(TCU_BUS, VWTP_IN, relayFromTCU)
+canRxAdd(TCU_BUS, VWTP_IN, relayTcuDiagHelloFromTCU)
 canRxAdd(TCU_BUS, VWTP_TESTER, relayTpPayloadFromTCU)
 
 canRxAddMask(ECU_BUS, 0, 0, drop)
