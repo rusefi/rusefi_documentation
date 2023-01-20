@@ -175,7 +175,7 @@ for i in $@; do
   fi
 done
 
-export LIST=$(find . -iname "*.md")
+export LIST=$(find . -iname "*.md" ! -name '_*')
 
 if [ "${#FILES[@]}" -gt 0 ]; then
   for f in "${FILES[@]}"; do
