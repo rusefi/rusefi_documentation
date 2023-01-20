@@ -50,7 +50,7 @@ checkurl() {
       echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
       # Read the user input
       read -r PICK
-      if [ "$PICK" -eq 1 ]; then
+      if [[ $PICK =~ ^[0-9]+$ ]] && [ "$PICK" -eq 1 ]; then
         # Replace the old link with the new one.
         # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
         #   and not some other place in the file that happens to use the same words.
