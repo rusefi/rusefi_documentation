@@ -1,6 +1,6 @@
 # How to contribute to documentation
 
-In order to leverage the Github pull request process for access control to the wiki, it is stored in a [Github repo](https://github.com/rusefi/rusefi_documentation).
+In order to leverage the Github pull request process for access control to the wiki, it is stored in a separate [Github repo](https://github.com/rusefi/rusefi_documentation).
 
 ## Editing
 
@@ -8,9 +8,9 @@ In order to leverage the Github pull request process for access control to the w
 
 1. From the wiki page you wish to edit on [https://wiki.rusefi.com](https://wiki.rusefi.com), click on the "Edit on GitHub" link in the upper right hand corner.
 
-2. Sign up or sign in to [Github](https://github.com) if you aren't already
+2. Sign in to [Github](https://github.com) or sign up if you aren't already
 
-3. If you have been given write access the the rusefi_documentation previously, you can commit changes directly. If not, clicking on "Propose Changes" will fork the repository and give you the option to create a pull request.
+3. Edit the page, scroll to bottom of page and enter a "change title" and clicking on "Propose Changes". This will fork the repository (if not created already), create a branch and give you the option to create a pull request.
 
    ![image](https://user-images.githubusercontent.com/22799428/200407238-74b1fd66-e6b1-46cc-a7b8-398f5c5b41f6.png)
 
