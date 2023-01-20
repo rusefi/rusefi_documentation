@@ -30,13 +30,14 @@ checkurl() {
   if echo "$LINK" | grep -E '^http' >/dev/null; then
     return 2
   fi
-  # At some point in this scripts development, fixed links to files/images were given the './' prefix.
-  # This didn't really hurt anything, but it's not idiomatic.
-  # I added this to fix the problems I caused, and decided it was worth keeping around.
+  # Check for links that begin in ./ or /, as they won't function as expected everywhere.
   if echo "$LINK" | grep -E '^[.]?/' >/dev/null; then
+    # Save the link for replacement
     OLDLINK="$LINK"
-    # Correct the link
+    # Correct the link.
+    # We save this to $LINK because the next check in this function need the corrected version.
     LINK=$(echo "$LINK" | sed 's/^.\{0,1\}\///')
+    # Lock user-facing input/output so that the user is presented with one fix at a time.
     (
     flock -x 200
     # Print the file and the old link
@@ -44,6 +45,7 @@ checkurl() {
     echo "$OLDLINK" >&2
     # Print the options as though they are a list in order to have the same UI as other types of correction
     echo "$LINK" | cat --number >&2
+    # Make sure we aren't in non-interactive mode.
     if [ "$SCRIPT" -lt 1 ]; then
       echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
       # Read the user input
@@ -58,11 +60,12 @@ checkurl() {
       fi
       # We don't continue here because the link we fixed might be broken.
     fi
+    # File descriptor for the lock.
     ) 200>brokenlinks.lock
   fi
   # Skip links that are to an .md file and aren't broken.
   if [ "$(echo "$LIST" | grep "$LINK"".md" 2>/dev/null | wc -l)" -gt 0 ]; then
-    # print the URL for use in checkhash
+    # print the URL for use in `checkhash`
     echo "$LINK"
     return 0
   fi
@@ -75,19 +78,22 @@ checkurl() {
   #   can find files with mismatched hyphens or underscores.
   SEARCH='*'$(basename "$LINK" | sed 's/[-_ ]/*/g')'*'
   # Search for matching files.
+  # We are using `find` here because we need to search for all files, while $LIST has only .md files
   FILES=$(find . -iname "$SEARCH")
+  # Lock user-facing input/output so that the user is presented with one fix at a time.
   (
   flock -x 200
   # Print the filename and the broken link.
   echo "In $1:" >&2
   echo "$LINK" >&2
   # If there are no files, skip to next link.
-  if [ "$(echo -n "$FILES" | wc -c)" -lt 1 ]; then
+  if [ -z "$FILES" ]; then
     echo "Could not find" >&2
     return 1
   fi
   # List the potential files, with numbers.
   echo "$FILES" | cat --number >&2
+  # Make sure we aren't in non-interactive mode.
   if [ "$SCRIPT" -lt 1 ]; then
     echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
     # Read the user input
@@ -98,9 +104,11 @@ checkurl() {
     fi
     # Get the selected file path, without the preceding ./
     FILE=$(echo "$FILES" | head -n "$PICK" | tail -n 1 | sed 's/^\.\///')
+    # Track if the linked file is a .md file
     MD=0
     if echo "$FILE" | grep ".md$" >/dev/null; then
       MD=1
+      # Drop the .md from the link
       FILE=$(basename "$FILE" .md)
     fi
     # Replace the old link with the new one.
@@ -109,7 +117,7 @@ checkurl() {
     REPLACE=$(escape '('"$LINK""$HASH"')')
     REPLACEWITH=$(escapeReplace "$FILE""$HASH")
     sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
-    # print the URL for use in checkhash
+    # print the URL for use in `checkhash`
     echo "$LINK"
     if [ "$MD" -eq 1 ]; then
       return 0
@@ -118,12 +126,17 @@ checkurl() {
     fi
   fi
   return 1
+  # File descriptor for the lock.
   ) 200>brokenlinks.lock
+  # The returns within the lock closure don't return from the function, only from the closure.
   return $?
 }
 export -f checkurl
 
 checkhash() {
+  # $1: file
+  # $2: hash
+  # $3: url - won't always be present
   # TODO check hash fragment validity
   return 0
 }
@@ -138,6 +151,7 @@ searchfile() {
   # We use file descriptor 3, because if we used stdin, the read calls inside this loop would read from that instead of
   #  reading the user's input.
   while IFS= read -r -u 3 LINK; do
+    # Break the link into URL and hash fragment, if one is present
     if echo "$LINK" | grep '#' >/dev/null; then
       URL=$(echo "$LINK" | cut -d '#' -f 1)
       HASH="#"$(echo "$LINK" | cut -d '#' -f 2)
@@ -145,15 +159,20 @@ searchfile() {
       URL="$LINK"
       HASH=""
     fi
+    # We need to store the return status of `checkurl` to know whether we need to check the hash
     URLSTATUS=0
     if [ -n "$URL" ]; then
+      # `checkurl` returns the URL if it is good,
+      #   so that if it was fixed, we have the update version to use in `checkhash`.
       URL=$(checkurl "$1" "$URL" "$HASH")
       URLSTATUS=$?
       if [ "$URLSTATUS" -eq 1 ]; then
         STATUS=1
       fi
     fi
+    # Only check the hash if it exists and the URL was good.
     if [ -n "$HASH" ] && [ "$URLSTATUS" -eq 0 ]; then
+      # Parameters are reversed because we won't always have a URL - we might only have a hash fragment.
       checkhash "$1" "$HASH" "$URL"
       if [ "$?" -gt 0 ]; then
         STATUS=1
@@ -186,11 +205,12 @@ done
 export LIST=$(find . -iname "*.md" ! -name '_*')
 
 if [ "${#FILES[@]}" -gt 0 ]; then
+  # Only run `searchfile` on passed-in file names.
   for f in "${FILES[@]}"; do
     searchfile "$f"
     exit $?
   done
 else
-  # run searchfile on every .md file in the repo
+  # run `searchfile` on every .md file in the repo
   xargs -0 -P $(nproc --all) -a <(echo "$LIST" | tr '\n' '\0') -I {} bash -c 'searchfile "$@"' _ {}
 fi
