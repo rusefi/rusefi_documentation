@@ -98,7 +98,9 @@ checkurl() {
     fi
     # Get the selected file path, without the preceding ./
     FILE=$(echo "$FILES" | head -n "$PICK" | tail -n 1 | sed 's/^\.\///')
+    MD=0
     if echo "$FILE" | grep ".md$" >/dev/null; then
+      MD=1
       FILE=$(basename "$FILE" .md)
     fi
     # Replace the old link with the new one.
@@ -109,7 +111,11 @@ checkurl() {
     sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
     # print the URL for use in checkhash
     echo "$LINK"
-    return 0
+    if [ "$MD" -eq 1 ]; then
+      return 0
+    else
+      return 2
+    fi
   fi
   return 1
   ) 200>brokenlinks.lock
