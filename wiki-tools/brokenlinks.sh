@@ -72,9 +72,9 @@ checkurl() {
   # Build the search term we will look for.
   # All hyphens and underscores are replaced with asterisks, so we
   #   can find files with mismatched hyphens or underscores.
-  SEARCH='.*'$(basename "$LINK" | sed 's/[-_ ]/.*/g')'.*'
+  SEARCH='*'$(basename "$LINK" | sed 's/[-_ ]/*/g')'*'
   # Search for matching files.
-  FILES=$(echo "$LIST" | grep -i "$SEARCH")
+  FILES=$(find . -iname "$SEARCH")
   (
   flock -x 200
   # Print the filename and the broken link.
@@ -103,7 +103,7 @@ checkurl() {
     # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
     #   and not some other place in the file that happens to use the same words.
     REPLACE=$(escape '('"$LINK""$HASH"')')
-    REPLACEWITH=$(escapeReplace "$(basename "$FILE" .md)$HASH")
+    REPLACEWITH=$(escapeReplace "$FILE""$HASH")
     sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
     # print the URL for use in checkhash
     echo "$LINK"
