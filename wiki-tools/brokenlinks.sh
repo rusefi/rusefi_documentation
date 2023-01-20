@@ -45,6 +45,7 @@ checkurl() {
     # Print the options as though they are a list in order to have the same UI as other types of correction
     echo "$LINK" | cat --number >&2
     if [ "$SCRIPT" -lt 1 ]; then
+      echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
       # Read the user input
       read -r PICK
       if [ "$PICK" -eq 1 ]; then
@@ -88,6 +89,7 @@ checkurl() {
   # List the potential files, with numbers.
   echo "$FILES" | cat --number >&2
   if [ "$SCRIPT" -lt 1 ]; then
+    echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
     # Read the user input
     read -r PICK
     # If the selection isn't a number, skip to the next link.
