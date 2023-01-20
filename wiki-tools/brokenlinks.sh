@@ -27,22 +27,23 @@ checkurl() {
   HASH="$3"
   # If it's an internet link, ignore it.
   # That's beyond the scope of this tool.
-  if echo "$LINK" | grep -E '^[http|\/]' >/dev/null; then
+  if echo "$LINK" | grep -E '^http' >/dev/null; then
     return 2
   fi
   # At some point in this scripts development, fixed links to files/images were given the './' prefix.
   # This didn't really hurt anything, but it's not idiomatic.
   # I added this to fix the problems I caused, and decided it was worth keeping around.
-  if echo "$LINK" | grep -E '^\./' >/dev/null; then
-    # NEWLINK is the corrected link
-    NEWLINK=$(echo "$LINK" | sed 's/^\.\///')
+  if echo "$LINK" | grep -E '^[.]?/' >/dev/null; then
+    OLDLINK="$LINK"
+    # Correct the link
+    LINK=$(echo "$LINK" | sed 's/^.\{0,1\}\///')
     (
     flock -x 200
     # Print the file and the old link
     echo "In $1:" >&2
-    echo "$LINK" >&2
+    echo "$OLDLINK" >&2
     # Print the options as though they are a list in order to have the same UI as other types of correction
-    echo "$NEWLINK" | cat --number >&2
+    echo "$LINK" | cat --number >&2
     if [ "$SCRIPT" -lt 1 ]; then
       # Read the user input
       read -r PICK
@@ -50,12 +51,11 @@ checkurl() {
         # Replace the old link with the new one.
         # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
         #   and not some other place in the file that happens to use the same words.
-        REPLACE=$(escape '('"$LINK""$HASH"')')
-        REPLACEWITH=$(escapeReplace "$NEWLINK""$HASH")
+        REPLACE=$(escape '('"$OLDLINK""$HASH"')')
+        REPLACEWITH=$(escapeReplace "$LINK""$HASH")
         sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
       fi
       # We don't continue here because the link we fixed might be broken.
-      LINK="$NEWLINK"
     fi
     ) 200>brokenlinks.lock
   fi
@@ -65,8 +65,8 @@ checkurl() {
     echo "$LINK"
     return 0
   fi
-  # Skip the link if it's not broken. (This catches non-broken non-md files)
-  if ls "$LINK" 2>/dev/null >/dev/null; then
+  # Skip non-md links if they're not broken.
+  if echo "$LINK" | grep -v '.md$' >/dev/null && ls "$LINK" 2>/dev/null >/dev/null; then
     return 2
   fi
   # Build the search term we will look for.
