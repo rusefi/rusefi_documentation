@@ -4,6 +4,8 @@ Designed for 2002 RSX wiring
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-honda-k/)
 
+[Snapshot Bundle](https://rusefi.com/build_server/rusefi_bundle_hellen-honda-k.zip)
+
 [Schematics rev a](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-a-schematic.pdf)
 
 
