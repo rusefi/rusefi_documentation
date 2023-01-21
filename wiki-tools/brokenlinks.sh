@@ -50,7 +50,7 @@ checkurl() {
       echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
       # Read the user input
       read -r PICK
-      if [ "$PICK" -eq 1 ]; then
+      if [[ $PICK =~ ^[0-9]+$ ]] && [ "$PICK" -eq 1 ]; then
         # Replace the old link with the new one.
         # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
         #   and not some other place in the file that happens to use the same words.
@@ -205,11 +205,15 @@ done
 export LIST=$(find . -iname "*.md" ! -name '_*')
 
 if [ "${#FILES[@]}" -gt 0 ]; then
+  STATUS=0
   # Only run `searchfile` on passed-in file names.
   for f in "${FILES[@]}"; do
     searchfile "$f"
-    exit $?
+    if [ "$?" -ne 0 ]; then
+      STATUS=1
+    fi
   done
+  exit $STATUS
 else
   # run `searchfile` on every .md file in the repo
   xargs -0 -P $(nproc --all) -a <(echo "$LIST" | tr '\n' '\0') -I {} bash -c 'searchfile "$@"' _ {}
