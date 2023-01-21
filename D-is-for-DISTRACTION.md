@@ -1,3 +1,5 @@
+``there is a fine line between distraction and help``
+
 # D is for... **DISTRACTION**
 
 One of the major things rusEFI struggles with is the developers and contributors getting sidetracked by interesting shiny things.
