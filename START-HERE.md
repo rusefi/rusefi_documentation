@@ -66,10 +66,6 @@ To answer look at [Idle Control](Idle-Control)
 
 please see [Wide-Band-Sensors](Wide-Band-Sensors)
 
-### Speed sensor
-
-ToDo:
-
 ### Throttle control
 
 [ETB](Electronic-Throttle-Body)
