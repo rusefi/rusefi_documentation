@@ -89,11 +89,11 @@ please see [Wide-Band-Sensors](Wide-Band-Sensors)
 
 ## What rusEFI board is correct for your engine?
 
-- Select from available Plug-and-Play ECUs [see](Vault-of-Pnp-Vehicle-Pages)
+- Select from [available Plug-and-Play ECUs](Vault-of-Pnp-Vehicle-Pages)
 
 OR
 
-- build your own custom ECU from a [supported MCU kit](stm32-readme)
+- Build your own custom ECU from a [supported MCU kit](stm32-readme)
 
 ## Getting help
 
