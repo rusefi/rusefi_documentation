@@ -1,3 +1,5 @@
+[HOWTO-Make-a-PnP-board](HOWTO-Make-a-PnP-board)
+
 # Plug In Board Process
 
 ## Step 1 Research
