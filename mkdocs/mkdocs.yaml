@@ -73,8 +73,6 @@ nav:
     - 'Plug & Play Hardware':
       - 'Hellen Miata 90-95': Hellen64-Miata-NA6-94.md
       - 'Hellen Miata 01-05 VVT': Hellen-NB2.md
-      - 'MRE Adapter55: from Lada to e30': MREAdapter55.md
-      - 'Frankenso Mazda Miata NA6 PnP': Frankenso-MazdaMiataNA6-pnp.md
       - 'Creating a PnP PCB': HOWTO-Make-a-PnP-board.md
   - 'Contributors':
     - 'Documentation Strategy': Documentation-Strategy.md

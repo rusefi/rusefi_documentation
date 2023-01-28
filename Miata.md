@@ -6,8 +6,7 @@ First and second generation Miata have used for major pinouts, this page goes in
 
 ## Miata NA6 and early NA8
 
-1989-1995 Miata 48 pin connector has two PnP rusEFI options: [Frankenso](Frankenso) and [MREAdapter48](MREAdapter48)
-Listed for sale with early June deliveries.
+[Hellen-One-Platform](Hellen-One-Platform)
 
 ## Late NA8
 
