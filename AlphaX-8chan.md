@@ -15,6 +15,9 @@
 * Dual on-board WBO controller
 * Bluetooth
 
+![x](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax-8chan-rev-a.jpg)
+
+
 ## Parts
 
 |   |  TE |  
