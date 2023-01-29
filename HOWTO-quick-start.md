@@ -44,6 +44,8 @@ This guide is written for the firmware released August 6th 2020. The further awa
 
    *Your laptop should give you an audible notification when you plug in the ECU with the ignition turned on. That means that it "sees" a new device connected to a USB port.
 
+   If you're running Linux, you might have [some issues with ModemManager](Linux-Connectivity).
+
 5. Under "Communications" -> "Communication Settings" [IMAGE] you should select the correct COM port for your rusEFI. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEFI COM-port. For most cases, the selected Baud rate does not matter. If you can't establish communication, try baud rate 38,400 | 57,600 or 115,200. If that doesn't work, you may need to try a different COM port.
 
 6. After selecting the COM-port (and baud rate), click on "Test Port". This should result in a "successful!" message. If you get a failed message, you need to adjust your settings. After a successful test of the port click "Accept".
