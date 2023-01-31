@@ -3,12 +3,12 @@
 ***by Andrey Belomutskiy, 2018***
 
 * Table of contents
-  * [Overview](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#overview)
-  * [Hardware](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#hardware)
-  * [Detonation test scenario](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#detonation-test-scenario)
-  * [Detonation signals](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#detonation-signals)
-* [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#next-steps)  
-* [External links](https://github.com/rusefi/rusefi_documentation/tree/master/misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#external-links)
+  * [Overview](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#overview)
+  * [Hardware](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#hardware)
+  * [Detonation test scenario](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#detonation-test-scenario)
+  * [Detonation signals](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#detonation-signals)
+* [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#next-steps)  
+* [External links](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#external-links)
 
 This data would not be gathered without help from kb1gtt, stefanst, andreika, nighthunter, hankthefourth and many others.
 
@@ -20,13 +20,13 @@ knock and combustion detection outputs of 55352173 are digital. Knock is reporte
 meaning more detonation. Combustion signal seems to be just a comparator giving logical true if ion sensing wire voltage is below certain level. First wide pulse on the combustion output seems to be flame front phase while second wide output
 seems to be showing post-flame pressure, with the middle of this pulse correlating with moment of peak cylinder pressure.
 
-Knocking - note a lot of blue line pulses (1ms timebase)
+Knocking - note a lot of blue line pulses (1ms time base)
 ![knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png>)
 
-Knocking (50us timebase)
+Knocking (50us time base)
 ![knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_knock_signal.png>)
 
-Not knocking or knocking way less - note lack of blue line low level pulses (5ms timebase)
+Not knocking or knocking way less - note lack of blue line low level pulses (5ms time base)
 ![no knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_not_knocking.png>)
 
 Combustion signal seem to be just a comparator
@@ -84,13 +84,13 @@ Detonation is also audible while parked, revving with brakes applied in "D" gear
 
 [youtube: Knocking while driving](https://youtu.be/eehx5zH8igI)
 
-[youtune: Knocking while driving zoomed in](https://youtu.be/QXTaa1mGbwE)
+[youtube: Knocking while driving zoomed in](https://youtu.be/QXTaa1mGbwE)
 
-[youtune: Knocking while standing on brakes 40 degrees timing](https://youtu.be/ylvMqOD50bY)
+[youtube: Knocking while standing on brakes 40 degrees timing](https://youtu.be/ylvMqOD50bY)
 
 [youtube: No knocking while standing on brakes 25 degrees timing](https://youtu.be/jS3LXw_v9ls)
 
-And that's it! We have seen enough to get some code for the rusEFI firmware to start consuming this knock singal data!
+And that's it! We have seen enough to get some code for the rusEFI firmware to start consuming this knock signal data!
 
 ### Next Steps
 
