@@ -416,6 +416,10 @@ Passat B6 TCU uses 52 pin portion
 48+32
 Nissan
 
+A lot of Russian cars
+
+502225-0801 
+
 ## 81 pin
 
 unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
