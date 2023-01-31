@@ -416,7 +416,7 @@ Passat B6 TCU uses 52 pin portion
 48+32
 Nissan
 
-A lot of Russian cars
+A lot of Russian cars  М74 11186-1411020-22
 
 502225-0801 
 
