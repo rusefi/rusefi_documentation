@@ -204,7 +204,7 @@ Lada Samara
 
 ![55 pin connector](Hardware/connectors/55_pin.png)
 
-For sale @ [eBay Store](http://www.ebay.com/usr/rusefi)
+For sale @ [eBay breakout board Store](http://www.ebay.com/usr/rusefi)
 
 ## 2 row 55 pin
 
@@ -320,7 +320,7 @@ mitsubishi colt/mirage 1991-1995 year for 1.3, 1.6 and 1.8 engine
 
 See also [the 48 pin](OEM-connectors#48-pin).
 
-For sale @ [eBay Store](http://www.ebay.com/usr/rusefi)
+For sale @ [eBay breakout board Store](http://www.ebay.com/usr/rusefi)
 
 ## 4 row 64 pin
 

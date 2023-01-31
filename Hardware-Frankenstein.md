@@ -2,9 +2,9 @@
 
 ## Current status
 
-Version 0.1 fabricated & tested, it's available @ [<https://www.tindie.com/stores/russian/> our store]
+it's available @ [rusEFI store](https://www.shop.rusefi.com/shop)
 
-[<http://rusefi.com/forum/viewtopic.php?f=4&t=359&p=4176> Frankenstein forum thread]
+[Frankenstein forum thread](http://rusefi.com/forum/viewtopic.php?f=4&t=359&p=4176)
 
 Bare PCB
 
