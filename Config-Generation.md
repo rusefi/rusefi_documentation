@@ -13,23 +13,7 @@ Defines the template to generate the TunerStudio ini file. This defines the UI l
 
 One yaml file per physical connector on a board defines the mapping between MCU pins and the corresponding name and function that pin serves on the outside world. Tool will read all yaml files in the directory and combine them to generate files for the ECU.
 
-For example, this section from `config/boards/proteus/connectors/white35.yaml`:
-
-```yaml
-- pin: 18
-  id: [A6, EFI_ADC_6]
-  class: [switch_inputs, analog_inputs]
-  ts_name: Analog Volt 11
-  function: "Analog Voltage Input #11"
-  type: av
-```
-
-This means:
-
-- Pin 18 on the connector (any string, not just numbers is possible)
-- `id` and `class` are paired arrays that list things this pin can do. When acting as the type `switch_input`, use CPU pin `A6`. When acting as type `analog_inputs`, use `EFI_ADC_6` (adc channel 6).
-- In TunerStudio, this pin will appear as "Analog Volt 11"
-- The type of the pin is `av`, which means "analog voltage input"
+For more information on the connector mapping format, [see this page](Connector-Mapping).
 
 ## `config/boards/<board>/prepend.txt`
 
