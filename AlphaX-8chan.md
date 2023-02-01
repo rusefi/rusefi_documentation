@@ -6,6 +6,8 @@
 
 [Schematics rev a](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-a-schematic.pdf)
 
+[iBom rev A](https://rusefi.com/docs/ibom/alphax_8ch-a-ibom.html)
+
 * 8 HighZ injector channels
 * 8 logic level coil control
 * 4 H-bridges
