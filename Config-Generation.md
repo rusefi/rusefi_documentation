@@ -35,7 +35,6 @@ This means:
 
 Parsed before `rusefi_config.txt`, to set any definitions that should be different for this board. For example, Proteus uses this file to allocate more configuration space to the Lua script than other boards.
 
-
 # Output Files
 
 These inputs generate various files:
