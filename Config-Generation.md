@@ -11,7 +11,7 @@ Defines the template to generate the TunerStudio ini file. This defines the UI l
 
 ## `config/boards/<board>/connectors/*.yaml`
 
-One yaml file per physical connector on a board defines the mapping between MCU pins and the corresponding name and function that pin serves on the outside world.
+One yaml file per physical connector on a board defines the mapping between MCU pins and the corresponding name and function that pin serves on the outside world. Tool will read all yaml files in the directory and combine them to generate files for the ECU.
 
 For example, this section from `config/boards/proteus/connectors/white35.yaml`:
 
@@ -42,6 +42,7 @@ These inputs generate various files:
 - `signature_<board>.h`: Tells the firmware what signature to report to TunerStudio (et al) so that it can select a matching ini file for this exact firmware.
 - `rusefi_<board>.ini`: The ini file used to describe to TunerStudio both the layout of configuration parameters and the layout of the UI presenting those parameters to the user.
 - `ramdisk_image.h`, `ramdisk_image_compressed.h`: Generated to create the read-only USB drive presented by the ECU that contains the ini file and some links. Means you don't need internet to connect TunerStudio to the ECU.
+- `generated_ts_by_name_by_pin.cpp`: Lets the ECU report errors/warnings using the "friendly name" of each pin, instead of the hardware name.
 
 # Usage
 
