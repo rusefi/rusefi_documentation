@@ -114,7 +114,7 @@ Inside of 55352173 Saab Ionization Detection Module
 
 [rusEFI forum](https://www.rusefi.com/forum/)
 
-[rusEFI store](https://www.tindie.com/stores/russian/)
+[rusEFI store](https://www.shop.rusefi.com/shop)
 
 [Trionic 8](https://en.wikipedia.org/wiki/Trionic_8)
 

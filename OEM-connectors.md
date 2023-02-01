@@ -48,6 +48,8 @@ Color: Grey  Key: B Part: HCCPHPE24GYB90F
 
 ![24 Pin connector](Hardware/connectors/24_pin_HCCPHPE24.png)
 
+[Speeduino - ECU Connectors](https://speeduino.com/wiki/index.php/ECU_Connectors)
+
 ## 30 pin
 
 [TE 172491-1](https://www.te.com/global-en/product-172491-1.html)
@@ -204,7 +206,7 @@ Lada Samara
 
 ![55 pin connector](Hardware/connectors/55_pin.png)
 
-For sale @ [eBay Store](http://www.ebay.com/usr/rusefi)
+For sale @ [eBay breakout board Store](http://www.ebay.com/usr/rusefi)
 
 ## 2 row 55 pin
 
@@ -320,7 +322,7 @@ mitsubishi colt/mirage 1991-1995 year for 1.3, 1.6 and 1.8 engine
 
 See also [the 48 pin](OEM-connectors#48-pin).
 
-For sale @ [eBay Store](http://www.ebay.com/usr/rusefi)
+For sale @ [eBay breakout board Store](http://www.ebay.com/usr/rusefi)
 
 ## 4 row 64 pin
 
@@ -878,5 +880,3 @@ Toyota
 ## Random links
 
 [broken link](http://www.autosoftsys.com/supra/ecuext/)
-
-[Speeduino - ECU Connectors](https://speeduino.com/wiki/index.php/ECU_Connectors)
