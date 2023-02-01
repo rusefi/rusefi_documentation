@@ -420,7 +420,7 @@ Nissan
 
 A lot of Russian cars  [М74 11186-1411020-22](https://www.rambase.ru/2014/09/lada-M74-connector.html)
 
-502225-0801 
+502225-0801
 
 ## 81 pin
 
