@@ -25,6 +25,7 @@ For example, this section from `config/boards/proteus/connectors/white35.yaml`:
 ```
 
 This means:
+
 - Pin 18 on the connector (any string, not just numbers is possible)
 - `id` and `class` are paired arrays that list things this pin can do. When acting as the type `switch_input`, use CPU pin `A6`. When acting as type `analog_inputs`, use `EFI_ADC_6` (adc channel 6).
 - In TunerStudio, this pin will appear as "Analog Volt 11"
@@ -38,6 +39,7 @@ Parsed before `rusefi_config.txt`, to set any definitions that should be differe
 # Output Files
 
 These inputs generate various files:
+
 - `engine_configuration_generated_structures.h`, `rusefi_generated.h`, etc: these generated headers tell the firmware build where various configuration parameters are, and the values of various definitions.
 - `signature_<board>.h`: Tells the firmware what signature to report to TunerStudio (et al) so that it can select a matching ini file for this exact firmware.
 - `rusefi_<board>.ini`: The ini file used to describe to TunerStudio both the layout of configuration parameters and the layout of the UI presenting those parameters to the user.
