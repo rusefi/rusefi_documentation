@@ -48,6 +48,8 @@ Color: Grey  Key: B Part: HCCPHPE24GYB90F
 
 ![24 Pin connector](Hardware/connectors/24_pin_HCCPHPE24.png)
 
+[Speeduino - ECU Connectors](https://speeduino.com/wiki/index.php/ECU_Connectors)
+
 ## 30 pin
 
 [TE 172491-1](https://www.te.com/global-en/product-172491-1.html)
@@ -874,5 +876,3 @@ Toyota
 ## Random links
 
 [broken link](http://www.autosoftsys.com/supra/ecuext/)
-
-[Speeduino - ECU Connectors](https://speeduino.com/wiki/index.php/ECU_Connectors)
