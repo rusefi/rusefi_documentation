@@ -1,8 +1,6 @@
 # Frankenstein
 
-## Current status
-
-it's available @ [rusEFI store](https://www.shop.rusefi.com/shop)
+## EFFECTIVELY RETIRED BOARD as of Dec 2021
 
 [Frankenstein forum thread](http://rusefi.com/forum/viewtopic.php?f=4&t=359&p=4176)
 
