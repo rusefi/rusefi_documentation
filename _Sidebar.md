@@ -75,6 +75,7 @@
 - [Firmware Code Automated Test Coverage](https://rusefi.com/docs/unit_tests_coverage)
 - [HOWTO Contribute To Firmware](HOWTO-contribute-to-firmware)
 - [Firmware performance tracing](Developer-Performance-Tracing)
+- [Config generation](Config-Generation)
 
 ## Misc
 
