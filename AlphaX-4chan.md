@@ -30,6 +30,14 @@
 
 ## Changelog
 
+[rev F](https://github.com/rusefi/alphax-4chan/issues?q=is%3Aissue+label%3Arev-F):
+* VR fix
+* tach LED fix
+* case touching traces on PCB fix
+* MAP mechanical and silk improvement
+
+
+
 rev E:
 
 * SD card fixed

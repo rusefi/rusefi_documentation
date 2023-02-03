@@ -8,6 +8,8 @@ Designed for 2002 RSX wiring
 
 [Schematics rev a](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-a-schematic.pdf)
 
+[iBom rev A](https://rusefi.com/docs/ibom/hellen125honda-a-ibom.html)
+
 
 For now see [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Honda-K-125-adapter)
 
