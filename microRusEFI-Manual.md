@@ -6,6 +6,8 @@
 
 [Download Snapshot firmware](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 
+[Release vs Snapshot](https://github.com/rusefi/rusefi/wiki/Release-Snapshot-Latest-firmware)
+
 ## microRusEFI User Documentation
 
 [microRusEFI Hardware](Hardware-microRusEFI)
