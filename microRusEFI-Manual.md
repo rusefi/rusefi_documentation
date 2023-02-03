@@ -2,7 +2,7 @@
 
 ## Software
 
-[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
+[Download Release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
 
 [Download Snapshot firmware](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 
