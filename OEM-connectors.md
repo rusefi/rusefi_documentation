@@ -519,6 +519,10 @@ OBD2A
 
 `Todo: find [Vault-Of-Honda-OEM](Vault-Of-Honda-OEM)`
 
+## 104 pin nissan
+
+5178079-1
+
 ## 105 pin
 
 31+24+gap+28+22
