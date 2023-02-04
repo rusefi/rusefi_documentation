@@ -523,6 +523,8 @@ OBD2A
 
 5178079-1
 
+JA18C50 1995 Nissan Altima
+
 ## 105 pin
 
 31+24+gap+28+22
