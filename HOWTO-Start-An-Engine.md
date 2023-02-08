@@ -1,6 +1,6 @@
 # Performing A First Start On A New rusEFI install
 
-    **This page is a work in progress and will be completed in the coming months, please bear with us**
+    **This page is a work in progress and will be completed as time allows, please bear with us**
 
 One of the toughest aspects of any new ECU install is the first start of a new engine. It is an issue a lot of users find so hopefully this comprehensive first start guide will help but clarifying the purpose of the settings and providing some best practice procedures.  
 
@@ -36,7 +36,7 @@ See also [Trigger](Trigger)
 
 See also [Trigger Hardware](Trigger-Hardware)
 
-## Confirm TDC position
+## Confirm Top Dead Center (TDC) position
 
 Assuming you have the hardware ready to spark we now need to find your TDC position - we know trigger shape but we do not know the trigger wheel position in relation to TDC#1 (Top Dead Center, cylinder #1).
 
@@ -98,7 +98,7 @@ List basic tests here, like is LED on, are jumpers installed correctly if applic
 
 ### Test equipment tests
 
-List tests that can be done with O-Scopes, multimeters, scan tools, and other such options for diagnosing a problem.
+(:ToDo) List tests that can be done with O-Scopes, multimeters, scan tools, and other such options for diagnosing a problem.
 
 ### Get help from a local
 
@@ -106,4 +106,4 @@ We provide much more info than most OEM options. If you are stuck, you may be ab
 
 ### On board hardware diagnostics
 
-Don't have a scope, no problem, the IO board has basic scope built inside. You can connect pin blah to nearly any point on the board and you can measure a variety of points synchronized with the logging software.
+Don't have a scope, no problem, the IO board has basic scope built inside. You can connect pin (:ToDo) to nearly any point on the board and you can measure a variety of points synchronized with the logging software.

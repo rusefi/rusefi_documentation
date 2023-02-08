@@ -1,18 +1,24 @@
 # TunerStudio Connectivity
 
-## Communications
+## Communications Parameters
 
-## Parameters
-
-By default Tuner Studio connectivity is using pin PC10 for TX and PC11 RX, **baud rate 38400**. Do not forget about GND wire.
+### COM-port and baud rate
 
 ![Communication Settings](Images/communication_settings.png)
 
+Select the correct COM port for your rusEFI. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEFI COM-port. For most cases, the selected Baud rate does not matter. 
+
+If you can't establish communication, try baud rate 38,400 | 57,600 or 115,200. If that doesn't work, you may need to try a different COM port.
+
+After selecting the COM-port (and baud rate), click on "Test Port". This should result in a "successful!" message. If you get a failed message, you need to adjust your settings. After a successful test of the port click "Accept".
+
 See also: [TunerStudio Console Commands](Dev-Console-Commands#tuner-studio)
 
-Please be sure to use current firmware version with current rusefi.ini project from [<http://rusefi.com/build_server/rusefi_firmware.zip> build_server]
-
 ## Troubleshooting Tuner Studio connectivity
+
+By default Tuner Studio connectivity is using pin PC10 for TX and PC11 RX. Do not forget about GND wire.
+
+Please be sure to use current firmware version with current rusefi.ini project from [build server](http://rusefi.com/build_server/rusefi_firmware.zip)
 
 First of all make sure that you have serial port drivers installed. STMicroelectronics Virtual for microUSB or USB serial for PC10/PC11
 
@@ -26,8 +32,12 @@ you are expected to see a response like this:
 
 ![Expected Response](Images/response.png)
 
-Q: I try to connect with Tuner Studio and it says "line:532:rusEfiVersion,20140822@4388 Ford
+Q: I try to connect with Tuner Studio and it says 
+
+```text
+line:532:rusEfiVersion,20140822@4388 Ford
 Aspire,outpin,c1@PC6,outpin,c2@PA5,ou"?
+```
 
 A: what you have is a piece of rusEFI own console text-based protocol, you need to connect TS to the other port.
 
