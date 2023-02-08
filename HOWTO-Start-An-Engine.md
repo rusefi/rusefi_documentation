@@ -6,10 +6,18 @@ One of the toughest aspects of any new ECU install is the first start of a new e
 
 Before you can even try to start the engine you have to get some of the basics right:
 
-- You have to have the engine cranking well with the starter, if the engine cranks lazily then fix that first. You need a good strong consistent cranking speed.
+## sensor requirements
+
 - You must have known, good sensors with a correct calibration. Without this you have no hope of getting things to work in the long run so be sure you have a correct working MAP/MAF, CLT, IAT, TPS and Fuel pressure sensor if you have it.  
-- You must be sure you have fuel pressure, without a working fuel pump and functional fuel pressure regulator you are not going to get a good start up, if the engine is a dead head fuel line or has a fuel pressure sensor then the same applies and I will address that in the correct section as they are special cases.  
+
+## cranking requirements
+
+- You have to have the engine cranking well with the starter, if the engine cranks lazily then fix that first. You need a good strong consistent cranking speed.
 - Idle air: check that your throttle is correctly adjusted with its idle stop, your IAC works or your ETB config is correct for idling the engine.  
+
+## ignition and fuel & injection system requirements
+
+- You must be sure you have fuel pressure, without a working fuel pump and functional fuel pressure regulator you are not going to get a good start up, if the engine is a dead head fuel line or has a fuel pressure sensor then the same applies and I will address that in the correct section as they are special cases.  
 - Injectors and ignition coils: Again you need to be sure you have the correct information on your injectors and coils, without this you wont be able to set the dead times, flow rate or dwell correctly.  
 - Injectors and ignition coils need to be bench tested to check that each one is wired and set to the correct ECU channel. This is critical, incorrect wiring or channel setting is like having the HT leads in the wrong order. You will fuel and spark the wrong cylinders.  
 - Information on your crank trigger wheel is really really important, knowing the number of teeth on the trigger wheel and where the TDC offset is positioned is half the battle, if these are unknown then you will have to get that information before you can start up.  

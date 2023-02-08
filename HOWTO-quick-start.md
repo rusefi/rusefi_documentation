@@ -66,12 +66,20 @@ Turn on the ignition. DO NOT START THE CAR
 ### Step 4
 
 Connect TunerStudio to your ECU.
-Assuming the pre-requisites for sensors as [outlined here](First-Engine-Start.md) are met
+Assuming the pre-requisites for sensors as [outlined here](HOWTO-Start-An-Engine#sensor-requirements) are met,
 your TunerStudio screen should come to life!
 
 You should see sensor inputs and some output values like ignition timing and dwell.
 
-If things are set up properly, you should see reasonable values for [Coolant temperature (CLT)], [Intake Air temperature (IAT)], [Battery Voltage], [Manifold Air Pressure (MAP/MAF)] (should be near 100kpa if you're using a MAP sensor) and even your [throttle position sensor (TPS)]. The values may show some jitters. [RPMs] should be 0. Push your throttle pedal and see if you get a response. Congratulations- your rusEFI can "see" your car.
+If things are set up properly, you should see reasonable values for:
+
+* Coolant temperature (CLT)
+* Intake Air temperature (IAT)
+* Battery Voltage
+* Manifold Air Pressure (MAP/MAF) (should be near 100kpa if you're using a MAP sensor)
+* Throttle Position Sensor (TPS)
+
+ The values may show some jitters. RPMs should be 0. Push your throttle pedal and see if you get a response. Congratulations- your rusEFI can "see" your car.
 
 ### Step 5
 
