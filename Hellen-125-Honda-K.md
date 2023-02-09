@@ -17,5 +17,7 @@ For now see [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Hond
 
 [Acura TSX Engine - Wikipedia](https://en.wikipedia.org/wiki/Acura_TSX#Engine)
 
+![x](Hardware/Hellen/hellen125honda-front-rev-a.jpg)
 
-Private [https://github.com/rusefi/hellen125honda](https://github.com/rusefi/hellen125honda)
+
+[Issue Tracker](https://github.com/rusefi/hellen125honda-issues)
