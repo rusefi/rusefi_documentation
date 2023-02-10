@@ -57,7 +57,7 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
 
 * For Frankenso it can typically use a typical automotive blade style fuse. From page 9 of the Frankenso schematic it suggests to use a 1.5A fuse. However that was for the one mounted on the PCB, which generally has a small wire installed. The below 2A would work for an external fuse.
 
-[Littelfuse Mini Datasheet](http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_mini_datasheet.pdf)
+[Littelfuse Mini Data sheet](http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_mini_datasheet.pdf)
 
 * Check in the forums for additional information. Often members can identify bumps in the road before you hit them. Forum members can also make suggestions that could make things go smoothly.
 
@@ -75,7 +75,7 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
 ![Frankenstein wired with connector breakout](Images/Aspire_20140306_state.jpg)
 ![Frankenstein wired in enclosure](Images/P1050839_zpsfdbdbd97.jpg)
 * It will likely be helpful to get a partial harness from a junk yard, and switch to rusEFI circuit-by-circuit using a [breakout module.](Breakout-Module)
-* Use junk hard harness to make extension harness. Use the junk yard ECU connector to break out the wire harness to the breakout board. Then from the far side of the breakout board, install the junk yard harness connector. Then connect the original ECU. This should allow you to start and run then engine as normal.
+* Use junk yard harness to make extension harness. Use the junk yard ECU connector to break out the wire harness to the breakout board. Then from the far side of the breakout board, install the junk yard harness connector. Then connect the original ECU. This should allow you to start and run then engine as normal.
 
 #### Prepare engine wiring
 
@@ -138,7 +138,7 @@ To adjust running timing for your first run, use `set_whole_timing_map XXX` comm
 
 To adjust running fuel for your first run, use `set_whole_fuel_map XXX` command, where XXX is number of total fuel squirt duration in milliseconds. This value is usually between 3 and 12. See also [Console Fuel Commands](Dev-Console-Commands#fuel-control)
 
-One plain MAF workk next step is running with proper MAP sensor calibration & flow rate setting.
+Once plain MAF works next step is running with proper MAP sensor calibration & flow rate setting.
 
 ### next steps & troubleshooting
 
