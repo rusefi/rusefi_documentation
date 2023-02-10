@@ -75,7 +75,7 @@ If things are set up properly, you should see reasonable values for:
 
 * Coolant temperature (CLT)
 * Intake Air temperature (IAT)
-* Battery Voltage
+* Battery Voltage (BV)
 * Manifold Air Pressure (MAP/MAF) (should be near 100kpa if you're using a MAP sensor)
 * Throttle Position Sensor (TPS)
 
