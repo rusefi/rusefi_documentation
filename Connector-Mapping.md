@@ -36,6 +36,7 @@ The 'info' section contains information which is used to generate the interactiv
 |id       |contains a short name for the connector, to be used in the URL when linking to a particular pin|pinouts|
 |image    |subsection which contains a single field, 'file', which contains the filename of the image, which is stored in the same directory as the YAML|pinouts|
 |pins     |subsection with a list of the pins' locations on the image. Its fields are 'pin', which matches to an 'id' in the main 'pins' section, 'x' and 'y', which are the coordinates on the image|pinouts|
+|directory|contains the target directory for the page. Only one connector for a particular board needs this field|pinouts|
 |title    |contains the title for the page. Only one connector for a particular board needs this field|informational|
 |board_url|contains a URL for documentation, which will be placed as a link on the top of the page. Only one connector for a particular board needs this field|informational|
 |name     |contains a human-readable name for the connector|informational|
