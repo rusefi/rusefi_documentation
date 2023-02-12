@@ -24,23 +24,23 @@ A large number of tested MAF sensors can be found [here](https://rusefi.com/foru
 ![oil sensor connector](Images/oilsense2.jpg)
 ![oil sensor side](Images/oilsense3.jpg)
 
-Aston Martin HY539G756AA
-Bosch 0 261 230 340
-Bosch 0 261 230 483
-Bosch DS M1 TF
-FISPA 84.387
-SIDAT 84.387
-HOFFER 7472385
-Mazda PY8V-18-541B
-Mazda SH0118541
-McLaren 13F0517CP
-Meat & Doria 82385
-Metzger 0906191
-Porsche 9A1 606 203 00
-WEPARTS 410590179
-Wilmink GROUP WG1409271
-Standard Motor Products PS661
-Ballenger Motorsports PST-F1
+| Aston Martin | HY539G756AA |
+| Bosch | 0 261 230 340 |
+| Bosch | 0 261 230 483 |
+| Bosch | DS M1 TF |
+| FISPA | 84.387 |
+| SIDAT | 84.387 |
+| HOFFER | 7472385 |
+| Mazda | PY8V-18-541B |
+| Mazda | SH0118541 |
+| McLaren | 13F0517CP |
+| Meat & Doria | 82385 |
+| Metzger | 0906191 |
+| Porsche 9A1 | 606 203 00 |
+| WEPARTS | 410590179 |
+| Wilmink Group | WG1409271 |
+| Standard Motor Products | PS661 |
+| Ballenger Motorsports | PST-F1 |
 
 ### Technical Specifications
 
