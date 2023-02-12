@@ -517,7 +517,7 @@ OBD2A
 • 1996-2001 Honda Prelude
 • 1996-1997 Honda Accord
 
-`Todo: find [Vault-Of-Honda-OEM](Vault-Of-Honda-OEM)`
+[Vault-Of-Honda-OEM](Vault-Of-Honda-OEM)
 
 ## 104 pin nissan
 
