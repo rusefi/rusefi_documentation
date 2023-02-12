@@ -24,6 +24,8 @@ A large number of tested MAF sensors can be found [here](https://rusefi.com/foru
 ![oil sensor connector](Images/oilsense2.jpg)
 ![oil sensor side](Images/oilsense3.jpg)
 
+| Mfgr/App | Part Number |
+| -------- | ----------- |
 | Aston Martin | HY539G756AA |
 | Bosch | 0 261 230 340 |
 | Bosch | 0 261 230 483 |
