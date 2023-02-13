@@ -79,6 +79,10 @@ todo Matt
 
 <https://www.youtube.com/watch?v=3fbXCgkIJoM>
 
+## ETB Electronic Throttle Body
+
+[tune](https://rusefi.com/online/view.php?msq=1394) [log](https://rusefi.com/online/view.php?log=1165)
+
 ## Boost Control
 
 <https://rusefi.com/online/view.php?msq=969>
