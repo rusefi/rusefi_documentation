@@ -10,6 +10,8 @@
 
 ## microRusEFI User Documentation
 
+[Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)
+
 [microRusEFI Hardware](Hardware-microRusEFI)
 
 [microRusEFI wiring](Hardware-microRusEFI-wiring)
