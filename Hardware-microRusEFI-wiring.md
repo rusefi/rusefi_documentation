@@ -6,10 +6,6 @@
 
     **WARNING: for historical reasons microRusEFI pin numbers do not match Molex numbers on the plastic**
 
-![connector](Hardware/microRusEFI/Hardware_microRusEFI_connector.png)
-
-![microRusEFI photo](Hardware/microRusEFI/Hardware_microRusEFI_connector.jpg)
-
 Rear side of PCB
 
 ![microRusEFI image](Hardware/microRusEFI/Hardware_microRusEFI_0_3_PCB_pinout.png)
@@ -149,3 +145,8 @@ Please refer to STM32F407 chip documentation for full list of alternative functi
 Q: Can I use temperature inputs for EGT?
 
 A: "temperature input" is a just an analog 0-5v input with a strong pull-up implied to use with a thermistor. Your EGT sensor is probably not a thermistor, your 0-5v output out of a conditioner would probably not be happy about the pull-up.
+
+
+[old not great static pinout](Hardware/microRusEFI/Hardware_microRusEFI_connector.png)
+
+[microRusEFI photo](Hardware/microRusEFI/Hardware_microRusEFI_connector.jpg)
