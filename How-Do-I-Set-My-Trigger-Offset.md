@@ -27,3 +27,5 @@ To set your trigger offset setting, you must determine how far your ECU is from 
 5. Connect a timing light and spark plug to the #1 spark plug wire. In engines with individual coils, you may need to get creative here, such as extending the coil with a spare plug wire to give somewhere to attach the timing light. Ground the threads on this spark plug somewhere on the engine.
 6. Crank the engine, watching the position of your engine's timing marks. Adjust the trigger offset value up or down (negative values are allowed) until the marks are properly aligned. This is now your trigger offset.
 7. Reinstall your spark plugs, re-enable fuel, set your timing to something sensible (manufacturer recommendations) and try to start your engine. Verify the timing again with a timing light once the engine runs, and adjust the offset if needed.
+
+See also [Trigger-Configuration-Guide](Trigger-Configuration-Guide)
