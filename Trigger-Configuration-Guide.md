@@ -75,3 +75,5 @@ And here's the correct polarity
 < correct polarity scope image >
 
 Now the "bad edge" of the missing tooth is a rising edge, and the good tooth centers are falling edges, which output a digital rising edge to the ECU.
+
+See also [How-Do-I-Set-My-Trigger-Offset](How-Do-I-Set-My-Trigger-Offset)
