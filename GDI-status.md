@@ -1,3 +1,9 @@
+## FAQ
+
+# Q: What are key differences between port and GDI?
+
+# A: high voltage control of injectors, high pressure pump control logic and target fuel pressure control logic.
+
 # GDI Status
 
 TL,DR: we had car [starting/idling - Video](https://youtu.be/JB2RnAJJSOk) using a [plywood board - Forum](https://rusefi.com/forum/download/file.php?id=6429) we have postponed GDI progress until funding or qualified contributor joins the game.
@@ -12,7 +18,7 @@ Gasoline Direct Injection requires a few additional components on top of port in
 
 1) High voltage injection control - we have [rusEFI GDI dev board](MC33816-PT2001-dev-board) which [has clicked injector on a bench - Video](https://www.youtube.com/watch?v=MI0gJ4th9Tg).
 
-2) High pressure fuel pump solenoid control - we have a basic implementation
+2) High pressure fuel pump solenoid control - we have a working implementation!
 
 3) Target fuel pressure logic - we have nothing, but could be as easy as adding a simple table?
 
