@@ -21,3 +21,7 @@ For now see [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Hond
 
 
 [Issue Tracker](https://github.com/rusefi/hellen125honda-issues)
+
+
+
+[Aux Plug parts](https://github.com/rusefi/hellen125honda-issues/issues/1)
