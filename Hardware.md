@@ -36,7 +36,7 @@ A: [selecting-open-source-ecu-microcontroller](selecting-open-source-ecu-microco
 A: At rusEFI we love cool new projects, but we are a really small team and only have so much time to work on rusEFI.  
 We already have lots of different hardware configurations and we would suggest using one of the existing wire in versions.  
 Nobody is stopping you from making your own board, but we cannot guarantee any support for that board or assistance with building it.  
-If you proceed then please consider making a P&P adapter board design based on Hellen, Proteus, or microRusEFI.
+If you proceed then please consider making a P&P adapter board design based on Hellen, [Proteus](https://github.com/mck1117/proteus/), or microRusEFI.
 
 ## Q: What EDA are you guys using for your open source hardware?
 
