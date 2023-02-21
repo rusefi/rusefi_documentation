@@ -155,7 +155,8 @@ todo add details but ready to test!
 
 #### `setEtbAdd(percent)`
 
-percent: e.g. `10` for 10%
+Amount of ETB to add, as a percent of the wide-open value: e.g. `10` for +10%.  The value is a static amount to add to
+the determined value, e.g. TPS of 5% w/ `10` results in 15% ETB.
 
 ### CAN bus
 
