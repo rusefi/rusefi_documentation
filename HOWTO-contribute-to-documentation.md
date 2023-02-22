@@ -80,7 +80,7 @@ Synchronization between wiki2 and wiki-source is automated via [Github Action](h
 If the first line with content is a top-level header, e.g. `# rusEFI Documentation`, that will be used as the page title.
 If not, the file name will be used as the page title, only without the hyphens.
 
-## How URLs work
+## How URL links work in markdown documents
 
 Links to page names use only the name of the page.
 Example:
@@ -96,6 +96,12 @@ Example:
 `![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)`  
 Result:  
 ![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)
+
+## Using URL link shortcuts
+
+Link shortcuts are maintained in https://github.com/rusefi/web_backend/tree/master/www/s#readme
+
+ToDo: explain rules when to use link shortcuts
 
 ## Technical FAQ
 
