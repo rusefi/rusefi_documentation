@@ -281,7 +281,7 @@ Some older German vehicles
 
 ## Skoda Favorit
 
-![x](Images/triggers/trigger_55.png)
+![x](Images/triggers/trigger_TT_SKODA_FAVORIT.png)
 
 ## Ford PIP
 
