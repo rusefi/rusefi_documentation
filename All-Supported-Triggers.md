@@ -4,7 +4,7 @@ See also [Trigger](Trigger)
 
 To change your trigger settings, open TunerStudio, Engine->Trigger Configuration.
 
-## Norman Note
+## Important Note
 
 Cam always goes before crank. For shapes with two wheels, left wheel is top in tuner studio.
 Also order of channels on engine sniffer should match order of channels on the bottom part of corresponding image.
@@ -54,31 +54,31 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 
 ## Bosch Quick Start
 
-![x](Images/triggers/trigger_47.png)
-
-[temporary link for Honda 12](https://github.com/rusefi/rusefi_documentation/issues/227)
+![x](Images/triggers/trigger_TT_VVT_BOSCH_QUICK_START.png)
 
 ## Honda
 
+[temporary link for Honda 12](https://github.com/rusefi/rusefi_documentation/issues/227)
+
 ### Honda K 1/12 Crankshaft
 
-![x](Images/triggers/trigger_46.png)
+![x](Images/triggers/trigger_TT_HONDA_K_12_1.png)
 
 ### Honda K 4+1
 
 Honda K Exhaust Camshaft
 
-![x](Images/triggers/trigger_67.png)
+![x](Images/triggers/trigger_TT_HONDA_K_CAM_4_1.png)
 
 ### Honda CBR600
 
-![Honda CBR600](Images/triggers/trigger_28.png)
+![Honda CBR600](Images/triggers/trigger_TT_HONDA_CBR_600.png)
 
 ## Mazda
 
 ### Mazda Protege SOHC
 
-![Mazda Protege SOHC](Images/triggers/trigger_7.png)
+![Mazda Protege SOHC](Images/triggers/trigger_TT_MAZDA_SOHC_4.png)
 
 ### Mazda Miata NA
 
@@ -92,47 +92,47 @@ Also used on some Mitsubishi like 4g18 4g93
 
 ### Mazda Protege 1993 DOHC
 
-![Mazda Protege 1993 DOHC](Images/triggers/trigger_15.png)
+![Mazda Protege 1993 DOHC](Images/triggers/trigger_TT_MAZDA_DOHC_1_4.png)
 
 ### Mazda 121/Ford Aspire
 
-![Ford Aspire](Images/triggers/trigger_1.png)
+![Ford Aspire](Images/triggers/trigger_TT_FORD_ASPIRE.png)
 
 ## GM
 
 ### GM 7x
 
-![GM 7x](Images/triggers/trigger_5.png)
+![GM 7x](Images/triggers/trigger_TT_GM_7X.png)
 
 ### GM LS 24x
 
-![x](Images/triggers/trigger_27.png)
+![x](Images/triggers/trigger_TT_GM_24x.png)
 
 ### GM 60/2/2/2
 
 GM/Daewoo Distributor F8CV
 
-![x](Images/triggers/trigger_54.png)
+![x](Images/triggers/trigger_TT_GM_60_2_2_2.png)
 
 ## Jeep
 
 ### Jeep 18-2-2-2
 
-![Jeep 18-2-2-2](Images/triggers/trigger_37.png)
+![Jeep 18-2-2-2](Images/triggers/trigger_TT_JEEP_18_2_2_2.png)
 
 ### Renix 44/2/2
 
-![x](Images/triggers/trigger_44.png)
+![x](Images/triggers/trigger_TT_RENIX_44_2_2.png)
 
 ### Renix 66/2/2/2
 
-![x](Images/triggers/trigger_45.png)
+![x](Images/triggers/trigger_TT_RENIX_66_2_2_2.png)
 
 ## Subaru
 
 ### Subaru 7+6 tooth
 
-![Subaru 7+6](Images/triggers/trigger_36.png)
+![Subaru 7+6](Images/triggers/trigger_TT_SUBARU_7_6.png)
 
 ### Subaru EZ30 variation of 36/2/2/2
 
@@ -140,19 +140,19 @@ GM/Daewoo Distributor F8CV
 
 ### Subaru SVX
 
-![x](Images/triggers/trigger_49.png)
+![x](Images/triggers/trigger_TT_SUBARU_EZ30.png)
 
 ## Miscellaneous
 
 ### Suzuki G13B
 
-![x](Images/triggers/trigger_66.png)
+![x](Images/triggers/trigger_TT_SUZUKI_G13B.png)
 
 ### 36/2/2/2
 
 Might also be used on some Daihatsu, Nissan and Miata
 
-![36/2/2](Images/triggers/trigger_23.png)
+![36/2/2](Images/triggers/trigger_TT_36_2_2_2.png)
 
 ### Universal skipped wheel
 
@@ -161,11 +161,11 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ### Ford Barra VVT
 
-![x](Images/triggers/trigger_56.png)
+![x](Images/triggers/trigger_TT_VVT_BARRA_3_PLUS_1.png)
 
 ### Daihatsu
 
-![x](Images/triggers/trigger_6.png)
+![x](Images/triggers/trigger_TT_DAIHATSU.png)
 
 ### Benelli Tre
 
@@ -173,11 +173,11 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ### Ford ST170
 
-![x](Images/triggers/trigger_42.png)
+![x](Images/triggers/trigger_TT_FORD_ST170.png)
 
 ### One tooth
 
-![One Tooth](Images/triggers/trigger_18.png)
+![One Tooth](Images/triggers/trigger_TT_ONE.png)
 
 ### Dodge Neon 1995
 
@@ -189,23 +189,23 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ### Dodge Hemi and SRT4
 
-![x](Images/triggers/trigger_30.png)
+![x](Images/triggers/trigger_TT_CHRYSLER_NGC_36_2_2.png)
 
 ### Dodge Ram
 
-![Dodge Ram](Images/triggers/trigger_19.png)
+![Dodge Ram](Images/triggers/trigger_TT_DODGE_RAM.png)
 
 ### Dodge Neon 2003
 
 Chrysler NGC 4 cylinder
 
-![Dodge Neon 2003](Images/triggers/trigger_14.png)
+![Dodge Neon 2003](Images/triggers/trigger_TT_DODGE_NEON_2003_CAM.png)
 
 ### Dodge Stratus
 
 Chrysler NGC 6 cylinder
 
-![Dodge Stratus](Images/triggers/trigger_22.png)
+![Dodge Stratus](Images/triggers/trigger_TT_DODGE_STRATUS.png)
 
 ## Mitsubishi
 
@@ -235,11 +235,11 @@ VQ cam
 ![x](Images/triggers/trigger_TT_VVT_NISSAN_VQ35.png)
 
 VQ30
-![x](Images/triggers/trigger_60.png)
+![x](Images/triggers/trigger_TT_NISSAN_VQ30.png)
 
 360 slot trigger not ready yet, no test vehicles :(
 
-![Nissan](Images/triggers/trigger_24.png)
+![Nissan](Images/triggers/trigger_TT_NISSAN_SR20VE.png)
 
 ## VW 60/2
 
@@ -247,7 +247,7 @@ VW special understanding of 60/2 with a wide tooth instead of of just missing to
 
 See also [Universal True 60/2](All-Supported-Triggers#602)
 
-![VW 60/2](Images/triggers/trigger_20.png)
+![VW 60/2](Images/triggers/trigger_TT_60_2_VW.png)
 
 ### Toyota
 
@@ -277,7 +277,7 @@ Use this with "Single Tooth First Half" VVT mode for cam input
 
 Some older German vehicles
 
-![x](Images/triggers/trigger_53.png)
+![x](Images/triggers/trigger_TT_TRI_TACH.png)
 
 ## Skoda Favorit
 
