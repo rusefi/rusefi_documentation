@@ -90,33 +90,6 @@ Pressing down on the gas pedal increases the pressure in the intake manifold whi
 
 Of course the opposite is true as well: When lifting off the gas pedal, suddenly the pressure in the intake drops and the air can hold more fuel vapor which it will suck off the intake walls. This creates a temporary rich condition. This usually isn't harmful to how the engine is running, but it's detrimental to fuel efficiency and the environment.
 
-### Engine Load Delta Strategy
-
-The obvious way to deal with the effects is to adjust the amount of fuel injected based on the increase or decrease in pressure in the intake. When using the speed-density algorithm for fueling, this is fairly easy, as we have the pressure right from the MAP sensor. So basically you take a multiplier to the fuel you would ordinarily inject and base it on the delta in pressure. Small delta means small multiplier and big delta means big multiplier.
-
-#### Explanation of parameters
-
-![Engine Load Parameters](Images/EL_based_parameters.png)
-
-The *Length(cycles)* specifies how many previous ignition events will be considered by the enrichment. This should probably be at least the number of cylinders in the engine.
-
-**Note: This parameter may not be needed anymore, there seems to be overlap with the taper-curve. Once the curve tapers to '0' we're done with this enrichment cycle.**
-
-The **Accel Threshold(roc)** specifies how much of a change is needed in order to trigger the enrichment algorithm- this essentially filters out sensor noise and quasi-static conditions
-
-The **Accel Multipier(coeff)** determines how much additional fuel is given. The current firmware (status Nov. 5th 2016 and earlier) calculates a virtual increase in MAP/ Engine Load, based on this factor. It then looks up the VE value in the fueling table based on this value. This will be replaced in future versions by just multiplying the amount of fuel injected and not changing the looked-up VE value.
-
-**Decel Threshold(roc)** and **Decel Multiplier(coeff)** are the same as the corresponding parameters, but for deceleration enleanment calculation.
-
-#### Taper
-
-After an increase in MAP there is an immediate need for more fuel. So at least until all cylinders fired once we need to add fuel. But even after that, things usually haven’t quieted down completely, so for the next events we still need a little more additional fuel and so on. That’s where the taper multiplier comes in.
-
-![Engine Load Enrichment Taper](Images/EL_based_enrichment_taper.png)
-
-Other corrective factors may be needed in future. For example, at high air-velocities in the intake, meaning high rpm, the effects are not as pronounced, so less enrichment may be needed based on rpm.
-Load based enrichment has a few disadvantages. One major disadvantage is that it is just a hair slow. Especially with small throttle movements at high vacuum, the reaction of load based enrichment is not fast enough and can’t easily be tuned fine enough. For this we use a different strategy.
-
 ### TPS Delta Strategy
 
 TPS-movement can be used as a predictor of change in MAP. This is equivalent to the accelerator pump on carbureted engines. A slow push on the pedal (small delta) causes very little or no enrichment (dumped fuel), whereas a hefty stomp on the pedal and rapid movement result in a big additional shot of fuel.
