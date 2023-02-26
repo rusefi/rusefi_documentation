@@ -2,7 +2,7 @@
 
 We love our engines and we want them to live a long & happy life. That's why we have a three-tier quality assurance process:
 
-* Continuous Integration: Unit testing with Github Actions
+* Continuous Integration: Unit testing with Github Actions with [ASan](https://github.com/google/sanitizers/wiki/AddressSanitizer)
 * built-in trigger signal simulation
 * [Simulator](Virtual-simulator)
 
