@@ -8,6 +8,8 @@
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-2chan/)
 
+[iBom rev F](https://rusefi.com/docs/ibom/alphax_2ch-f-ibom.html)
+
 [iBom rev C](https://rusefi.com/docs/ibom/alphax_2ch-c-ibom.html)
 
 [iBom rev B](https://rusefi.com/docs/ibom/alphax_2ch-b-ibom.html)
