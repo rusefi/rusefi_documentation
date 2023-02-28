@@ -31,6 +31,7 @@ the thing is, the harness changes slightly between the years
 * x4 aux high current low side outputs
 * x2 aux high current H-bridge
 
+![x](Hardware/Hellen/hellen154hyundai-rev-c.jpg)
 ![x](Hardware/Hellen/hellen154hyundai-rev-b.jpg)
 
 ## Changelog
