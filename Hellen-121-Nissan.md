@@ -80,6 +80,8 @@
 
 ## Vehicle Specific Jumpers
 
+Rev B, ECU pin 68 considerations
+
 | Vehicle | R7 | R8 |
 | --- | --- | --- |
 | 2005 Sentra, 2005 Maxima | ✔️ | ❌ |
