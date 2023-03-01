@@ -84,7 +84,4 @@ Rev B, ECU pin 68 considerations
 
 | Vehicle | R7 | R8 |
 | --- | --- | --- |
-| 2005 Sentra, 2005 Maxima | ✔️ | ❌ |
-| 2003 350z, 2005 350z | ❌ | ✔️ |
-| 2011 Nissan Xterra | ❌ | ❌ |
-| Other model | ? | ? |
+| [All vehicles](https://github.com/rusefi/hellen121nissan-issues/issues/3) | ✔️ | ❌ |
