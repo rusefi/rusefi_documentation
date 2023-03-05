@@ -289,17 +289,16 @@ function onMotor6(bus, id, dlc, data)
  txCan(TCU_BUS, MOTOR_6, 0, motor6Data)
 end
 
-function onMotor7(bus, id, dlc, data)
-txCan(TCU_BUS, MOTOR_7, 0, motor7Data)
+function sendMotor7()
+ txCan(TCU_BUS, MOTOR_7, 0, motor7Data)
 end
 
 
 canMotorInfoCounter = 0
-function onMotorInfo(bus, id, dlc, data)
+function sendMotorInfo()
  canMotorInfoTotalCounter = canMotorInfoTotalCounter + 1
-  canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
--- canMotorInfoCounter = getBitRange(data, 0, 4)
- 
+ canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
+
  baseByte = canMotorInfoTotalCounter < 6 and 0x80 or 0x90
  canMotorInfo[1]  = baseByte + (canMotorInfoCounter)
  canMotorInfo1[1] = baseByte + (canMotorInfoCounter)
@@ -312,7 +311,7 @@ function onMotorInfo(bus, id, dlc, data)
      txCan(TCU_BUS, MOTOR_INFO, 0, canMotorInfo1)
  else
      txCan(TCU_BUS, MOTOR_INFO, 0, canMotorInfo3)
-    end
+ end
 end
 
 hexstr = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F" }
@@ -375,9 +374,8 @@ canRxAdd(ECU_BUS, MOTOR_2, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_5, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_6, relayFromECU)
---canRxAdd(ECU_BUS, MOTOR_7, relayFromECU)
 canRxAdd(ECU_BUS, ACC_GRA, relayFromECU)
-canRxAdd(ECU_BUS, MOTOR_INFO, relayFromECU)
+--canRxAdd(ECU_BUS, MOTOR_INFO, relayFromECU)
 
 canRxAdd(ECU_BUS, VWTP_OUT, relayFromECU)
 canRxAdd(ECU_BUS, 0x760, relayFromECU)
@@ -392,14 +390,14 @@ canRxAddMask(TCU_BUS, 0, 0, relayFromTCU)
 everySecondTimer = Timer.new()
 
 function onTick()
-onMotor7(0, 0, 0, nil)
+ sendMotor7()
 
  if everySecondTimer : getElapsedSeconds() > 1 then
   everySecondTimer : reset()
   print("Total from ECU " ..totalEcuMessages)
   motor5FuelCounter = motor5FuelCounter + 20
   
-  --onMotorInfo(0, 0, 0, nil)
+  sendMotorInfo()
  end
 
 
