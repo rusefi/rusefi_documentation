@@ -270,12 +270,9 @@ function onMotor5(bus, id, dlc, data)
 end
 
 counter16 = 0
-function onMotor6(bus, id, dlc, data)
+function sendMotor6()
  counter16 = (counter16 + 1) % 16
 
- -- engineTorque = getBitRange(data, 8, 8) * 0.39
- -- actualTorque = getBitRange(data, 16, 8) * 0.39
- -- feedbackGearbox = getBitRange(data, 40, 8) * 0.39
  engineTorque = fakeTorque * 0.9
  actualTorque = fakeTorque
  feedbackGearbox = 255
@@ -371,9 +368,16 @@ canRxAdd(ECU_BUS, 2000, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 --canRxAdd(ECU_BUS, MOTOR_BRE, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_2, relayFromECU)
-canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
-canRxAdd(ECU_BUS, MOTOR_5, relayFromECU)
-canRxAdd(ECU_BUS, MOTOR_6, relayFromECU)
+
+canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
+--canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
+
+canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
+--canRxAdd(ECU_BUS, MOTOR_5, relayFromECU)
+
+canRxAdd(ECU_BUS, MOTOR_6, sendMotor6)
+--canRxAdd(ECU_BUS, MOTOR_6, relayFromECU)
+
 canRxAdd(ECU_BUS, ACC_GRA, relayFromECU)
 --canRxAdd(ECU_BUS, MOTOR_INFO, relayFromECU)
 
