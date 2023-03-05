@@ -383,13 +383,9 @@ canRxAdd(ECU_BUS, 912, relayFromECU)
 -- Systeminfo_1
 canRxAdd(ECU_BUS, 1488, relayFromECU)
 -- Kombi_2
-canRxAdd(ECU_BUS, 1056, relayFromECU)
+--canRxAdd(ECU_BUS, 1056, relayFromECU)
 -- BSG_Last
 canRxAdd(ECU_BUS, 1392, relayFromECU)
--- Airbag_2
---canRxAdd(ECU_BUS, 1360, relayFromECU)
--- ZAS_1
---canRxAdd(ECU_BUS, 1394, relayFromECU)
 -- Ident
 canRxAdd(ECU_BUS, 1490, relayFromECU)
 -- Diagnose_1
