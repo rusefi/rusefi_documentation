@@ -94,6 +94,11 @@ function relayFromECU(bus, id, dlc, data)
 	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
 end
 
+function setTwoBytes(data, offset, value)
+	data[offset + 1] = value % 255
+	data[offset + 2] = (value >> 8) % 255
+end
+
 function sendMotor1()
 	engineTorque = fakeTorque * 0.9
 	innerTorqWithoutExt = fakeTorque
@@ -169,8 +174,8 @@ function onMotor1(bus, id, dlc, data)
 
 	fakeTorque = interpolate(0, 6, 100, 60, tps)
 
-	-- sendMotor1()
-	relayFromECU(bus, id, dlc, data)
+	sendMotor1()
+	-- relayFromECU(bus, id, dlc, data)
 end
 
 function relayFromECUAndEcho(bus, id, dlc, data)
