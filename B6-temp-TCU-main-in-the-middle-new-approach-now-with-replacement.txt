@@ -121,6 +121,25 @@ function getBitRange(data, bitIndex, bitWidth)
 	return (value >> shift) & mask
 end
 
+motor2counter = 0
+function sendMotor2()
+ motor2counter = (motor2counter + 1) % 16
+
+    minTorque = fakeTorque / 2
+    -- todo: add CLT
+    motor2Data[7] = math.floor(minTorque / 0.39)
+
+--print ( "brake " .. getBitRange(data, 16, 2) .. " " .. rpm)
+
+    brakeBit = rpm < 2000 and 1 or 0
+    setBitRange(motor2Data, 16, 1, brakeBit)
+
+    index = math.floor(motor2counter / 4)
+    motor2Data[1] = motor2mux[1 + index]
+
+ txCan(TCU_BUS, MOTOR_2, 0, motor2Data)
+end
+
 function sendMotor3()
 	desired_wheel_torque = fakeTorque
 	canMotor3[2] = (iat + 48) / 0.75
@@ -367,7 +386,7 @@ canRxAdd(ECU_BUS, 2000, relayFromECU)
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 -- canRxAdd(ECU_BUS, MOTOR_BRE, relayFromECU)
-canRxAdd(ECU_BUS, MOTOR_2, relayFromECU)
+-- canRxAdd(ECU_BUS, MOTOR_2, relayFromECU)
 
 canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 -- canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
@@ -394,6 +413,7 @@ canRxAddMask(TCU_BUS, 0, 0, relayFromTCU)
 everySecondTimer = Timer.new()
 
 function onTick()
+	sendMotor2()
 	sendMotor7()
 	sendMotorBre()
 
