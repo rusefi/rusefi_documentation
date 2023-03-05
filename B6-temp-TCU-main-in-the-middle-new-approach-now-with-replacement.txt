@@ -282,7 +282,7 @@ end
 
 
 motor5FuelCounter = 0
-function onMotor5(bus, id, dlc, data)
+function sendMotor5()
 	setBitRange(motor5Data, 5, 9, motor5FuelCounter)
 	xorChecksum(motor5Data, 8)
 	txCan(TCU_BUS, MOTOR_5, 0, motor5Data)
@@ -391,7 +391,7 @@ canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 -- canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
 
-canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
+-- canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
 -- canRxAdd(ECU_BUS, MOTOR_5, relayFromECU)
 
 canRxAdd(ECU_BUS, MOTOR_6, sendMotor6)
@@ -414,6 +414,7 @@ everySecondTimer = Timer.new()
 
 function onTick()
 	sendMotor2()
+	sendMotor5()
 	sendMotor7()
 	sendMotorBre()
 
