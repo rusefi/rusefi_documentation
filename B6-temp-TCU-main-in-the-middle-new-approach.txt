@@ -211,7 +211,7 @@ function relayTpPayloadFromTCU(bus, id, dlc, data)
 	end
 
 	if top4 == 2 or top4 == 1 then
-		-- 		print ("Looks like payload index " ..payLoadIndex ..": " ..arrayToString(data))
+		print ("Looks like payload index " ..payLoadIndex ..": " ..arrayToString(data))
 
 		if payLoadIndex == 1 then
 			H4 = data[4]
@@ -231,9 +231,15 @@ function relayTpPayloadFromTCU(bus, id, dlc, data)
 
 		if top4 == 1 then
 			payLoadIndex = 0
-if data[2] == 0 and data[3] == 2 and data[4] == 0x58 then
-print("NO CODES")
-end
+			len = data[3]
+
+            if data[2] == 0 and data[4] == 0x58 then
+                if len == 2 then
+                    print("I sniff TCU NO CODES")
+                else
+                    print("I sniff TCU NO CODES")
+                end
+            end
 
 		end
         return
