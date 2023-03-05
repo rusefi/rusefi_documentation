@@ -346,13 +346,12 @@ totalEcuMessages = 0
 canRxAdd(ECU_BUS, MOTOR_7, drop)
 --canRxAdd(ECU_BUS, ACC_GRA, drop)
 
--- kombi 3
+-- REQUIRED kombi 3
 canRxAdd(ECU_BUS, 1312, relayFromECU)
--- Soll_Verbauliste_neu
+-- REQUIRED Soll_Verbauliste_neu
 canRxAdd(ECU_BUS, 1500, relayFromECU)
 -- REQUIRED GRA_Neu
 canRxAdd(ECU_BUS, 906, relayFromECU)
---canRxAdd(ECU_BUS, AIRBAG, relayFromECU)
 -- brake 1
 canRxAdd(ECU_BUS, 416, relayFromECU)
 -- brake 8
@@ -363,14 +362,11 @@ canRxAdd(ECU_BUS, 1184, relayFromECU)
 canRxAdd(ECU_BUS, 1192, relayFromECU)
 -- brake 2
 canRxAdd(ECU_BUS, 1440, relayFromECU)
--- EPB_1
---canRxAdd(ECU_BUS, 1472, drop)
---canRxAdd(ECU_BUS, 1478, relayFromECU)
 -- REQUIRED?! Gate_Komf_1
 canRxAdd(ECU_BUS, 912, relayFromECU)
 -- Systeminfo_1
 canRxAdd(ECU_BUS, 1488, relayFromECU)
--- Diagnose_1
+-- REQUIRED? Diagnose_1
 canRxAdd(ECU_BUS, 2000, relayFromECU)
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
