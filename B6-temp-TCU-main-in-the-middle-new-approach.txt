@@ -365,21 +365,15 @@ canRxAdd(ECU_BUS, 1184, relayFromECU)
 canRxAdd(ECU_BUS, 1192, relayFromECU)
 -- brake 2
 canRxAdd(ECU_BUS, 1440, relayFromECU)
--- steering
---canRxAdd(ECU_BUS, 194, drop)
--- kombi
---canRxAdd(ECU_BUS, 800, relayFromECU)
--- ps
---canRxAdd(ECU_BUS, 976, drop)
 -- EPB_1
 canRxAdd(ECU_BUS, 1472, drop)
 canRxAdd(ECU_BUS, 1478, relayFromECU)
--- Gate_Komf_1
+-- REQUIRED?! Gate_Komf_1
 canRxAdd(ECU_BUS, 912, relayFromECU)
 -- Systeminfo_1
 canRxAdd(ECU_BUS, 1488, relayFromECU)
 -- BSG_Last
-canRxAdd(ECU_BUS, 1392, relayFromECU)
+--canRxAdd(ECU_BUS, 1392, relayFromECU)
 -- Ident
 canRxAdd(ECU_BUS, 1490, relayFromECU)
 -- Diagnose_1
