@@ -351,7 +351,7 @@ canRxAdd(ECU_BUS, 1312, relayFromECU)
 -- Soll_Verbauliste_neu
 canRxAdd(ECU_BUS, 1500, relayFromECU)
 -- power steering
-canRxAdd(ECU_BUS, 208, relayFromECU)
+--canRxAdd(ECU_BUS, 208, relayFromECU)
 -- REQUIRED GRA_Neu
 canRxAdd(ECU_BUS, 906, relayFromECU)
 canRxAdd(ECU_BUS, AIRBAG, relayFromECU)
@@ -367,7 +367,7 @@ canRxAdd(ECU_BUS, 1192, relayFromECU)
 canRxAdd(ECU_BUS, 1440, relayFromECU)
 -- EPB_1
 canRxAdd(ECU_BUS, 1472, drop)
-canRxAdd(ECU_BUS, 1478, relayFromECU)
+--canRxAdd(ECU_BUS, 1478, relayFromECU)
 -- REQUIRED?! Gate_Komf_1
 canRxAdd(ECU_BUS, 912, relayFromECU)
 -- Systeminfo_1
@@ -375,7 +375,7 @@ canRxAdd(ECU_BUS, 1488, relayFromECU)
 -- BSG_Last
 --canRxAdd(ECU_BUS, 1392, relayFromECU)
 -- Ident
-canRxAdd(ECU_BUS, 1490, relayFromECU)
+--canRxAdd(ECU_BUS, 1490, relayFromECU)
 -- Diagnose_1
 canRxAdd(ECU_BUS, 2000, relayFromECU)
 
