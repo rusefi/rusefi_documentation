@@ -232,7 +232,7 @@ function relayTpPayloadFromTCU(bus, id, dlc, data)
 
 		if top4 == 1 then
 			payLoadIndex = 0
-if data[2] == 0 and data[3] == 2 and data[4] == 0x58
+if data[2] == 0 and data[3] == 2 and data[4] == 0x58 then
 print("NO CODES")
 end
 
