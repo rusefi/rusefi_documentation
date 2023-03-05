@@ -191,17 +191,16 @@ function relayTpPayloadFromTCU(bus, id, dlc, data)
     end
 
 	if data[1] == 0xA1 then
-		print ("Happy 300 packet")
+		print ("I sniff Happy 300 packet")
 		return
 	end
 
 	if data[1] == 0xA8 then
-		print ("They said Bye-Bye")
+		print ("I sniff They said Bye-Bye")
 		return
 	end
 
 	if data[1] == 0x10 and dlc == 5 then
---		print ("Sending ACK B1 ")
 		return
 	end
 
@@ -221,9 +220,9 @@ function relayTpPayloadFromTCU(bus, id, dlc, data)
 --			print("h5/h7 " ..H4 .." " ..H7)
 
 			if H7 == 0 then
-				print("No error")
+				print("I sniff diag: TCU is happy!")
 			else
-				print("ERROR")
+				print("I sniff diag: TCU has ERROR ERROR ERROR")
 			end
 
 		end
