@@ -252,7 +252,7 @@ function drop(bus, id, dlc, data)
 end
 
 motorBreCounter = 0
-function onMotorBre(bus, id, dlc, data)
+function sendMotorBre()
 motorBreCounter = (motorBreCounter + 1) % 16
 
     setBitRange(motorBreData, 8, 4, motorBreCounter)
@@ -369,7 +369,7 @@ canRxAdd(ECU_BUS, 1488, relayFromECU)
 canRxAdd(ECU_BUS, 2000, relayFromECU)
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
-canRxAdd(ECU_BUS, MOTOR_BRE, relayFromECU)
+--canRxAdd(ECU_BUS, MOTOR_BRE, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_2, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_3, relayFromECU)
 canRxAdd(ECU_BUS, MOTOR_5, relayFromECU)
@@ -391,6 +391,7 @@ everySecondTimer = Timer.new()
 
 function onTick()
  sendMotor7()
+ sendMotorBre()
 
  if everySecondTimer : getElapsedSeconds() > 1 then
   everySecondTimer : reset()
