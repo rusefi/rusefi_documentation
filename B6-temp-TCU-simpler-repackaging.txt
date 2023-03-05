@@ -1,6 +1,3 @@
-# B6 Temp
-
-```lua
 
 -- 640
 MOTOR_1 = 0x280
@@ -294,6 +291,3 @@ function onTick()
   motor5FuelCounter = motor5FuelCounter + 20
  end
 end
-
-
-```
