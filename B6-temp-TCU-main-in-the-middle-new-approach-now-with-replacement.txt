@@ -156,8 +156,6 @@ function onMotor3(bus, id, dlc, data)
 	pps = getBitRange(data, 16, 8) * 0.40
 	tps = getBitRange(data, 56, 8) * 0.40
 	-- print ('MOTOR_1 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
-
-	sendMotor3()
 end
 
 function onMotor1(bus, id, dlc, data)
@@ -309,6 +307,14 @@ function sendMotor7()
 	txCan(TCU_BUS, MOTOR_7, 0, motor7Data)
 end
 
+accGraCounter = 0
+function sendAccGra()
+ accGraCounter = (accGraCounter + 1) % 16
+ setBitRange(accGraData, 60, 4, accGraCounter)
+    xorChecksum(accGraData, 1)
+
+ txCan(TCU_BUS, ACC_GRA, 0, accGraData)
+end
 
 canMotorInfoCounter = 0
 function sendMotorInfo()
@@ -358,9 +364,6 @@ end
 
 totalEcuMessages = 0
 
-canRxAdd(ECU_BUS, MOTOR_7, drop)
--- canRxAdd(ECU_BUS, ACC_GRA, drop)
-
 -- REQUIRED kombi 3
 canRxAdd(ECU_BUS, 1312, relayFromECU)
 -- REQUIRED Soll_Verbauliste_neu
@@ -394,10 +397,10 @@ canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 -- canRxAdd(ECU_BUS, MOTOR_5, onMotor5)
 -- canRxAdd(ECU_BUS, MOTOR_5, relayFromECU)
 
-canRxAdd(ECU_BUS, MOTOR_6, sendMotor6)
+--canRxAdd(ECU_BUS, MOTOR_6, sendMotor6)
 -- canRxAdd(ECU_BUS, MOTOR_6, relayFromECU)
 
-canRxAdd(ECU_BUS, ACC_GRA, relayFromECU)
+--canRxAdd(ECU_BUS, ACC_GRA, relayFromECU)
 -- canRxAdd(ECU_BUS, MOTOR_INFO, relayFromECU)
 
 canRxAdd(ECU_BUS, VWTP_OUT, relayFromECU)
@@ -414,9 +417,12 @@ everySecondTimer = Timer.new()
 
 function onTick()
 	sendMotor2()
+	sendMotor3()
 	sendMotor5()
+	sendMotor6()
 	sendMotor7()
 	sendMotorBre()
+	sendAccGra()
 
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
