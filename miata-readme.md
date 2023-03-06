@@ -6,11 +6,11 @@
 
 First channel is CRANK shaft - see RIGHT 4 tooth per revolution shape
 
-![x](Images/triggers/trigger_4.png)
+![x](Images/triggers/trigger_TT_MAZDA_MIATA_NA.png)
 
 Second channel is CAM shaft (half speed of CRANK shaft) - three tooth per revolution see left
 
-![x](Images/triggers/trigger_4.png)
+![x](Images/triggers/trigger_TT_MAZDA_MIATA_NA.png)
 
 ## July dataset
 
