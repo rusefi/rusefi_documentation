@@ -37,4 +37,4 @@ Once you solder 8 parts to your 80% ready microRusEFI upload firmware into micro
 
 More info like connector & case see [https://github.com/rusefi/hw_microRusEfi](https://github.com/rusefi/hw_microRusEfi)
 
-For quicker results kits and fully assembled units are available at [https://rusefi.com/shop/](https://rusefi.com/shop/)
+For quicker results kits and fully assembled units are available at [https://shop.rusefi.com/](https://rusefi.com/shop/)
