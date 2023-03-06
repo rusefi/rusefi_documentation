@@ -727,6 +727,8 @@ Also known as 965497-1
 
 9+24+52+40+9
 
+Female 52 [2209477-1](https://www.te.com/usa-en/product-2209477-1.html)
+
 `Todo: find [Vault-BMW-Info](Vault-BMW-Info)`
 
 bmw e38 e46 e65 e66
