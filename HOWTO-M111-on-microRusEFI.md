@@ -2,6 +2,8 @@
 
 See also [Mercedes-OEM-ECU](Mercedes-OEM-ECU)
 
+See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
+
 
 [Making my 190e More Fun (M111 SC Swap) - Forum](https://rusefi.com/forum/viewtopic.php?t=1692)
 
