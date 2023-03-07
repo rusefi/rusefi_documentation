@@ -1,3 +1,5 @@
+ECU headers here. For misc smaller connectors see [OEM-harness-connectors](OEM-harness-connectors)
+
 # Table of Contents  
 
 [24 pin](#24-pin)
