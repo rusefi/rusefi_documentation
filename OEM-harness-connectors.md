@@ -27,3 +27,5 @@ aptiv 12185025
 https://www.bwdbrand.com/media/2827/bw11211-illustrated-connector-guide.pdf
 
 https://www.michiganmotorsports.com/fuel-injector-connectors-and-adapters/fuel-injector-connector-adapters/delphi-engine-harness/
+
+https://eficonversions.com/collections/big-block-chevy-gen-vi
