@@ -186,3 +186,6 @@ As of April 2022 we know nothing about m111 automatic transmission control. All 
 ISL9V3040S3S is the large IGBT driver (same thing as ISL9V3040S3ST)
 
 Smaller NGD8201AN or ISL9V3040D3ST could probably be used as well.
+
+
+See also [HOWTO-M111-on-microRusEFI](HOWTO-M111-on-microRusEFI)
