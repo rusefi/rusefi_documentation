@@ -1,5 +1,10 @@
 # HOWTO M111 on microRusEFI
 
+See also [Mercedes-OEM-ECU](Mercedes-OEM-ECU)
+
+See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
+
+
 [Making my 190e More Fun (M111 SC Swap) - Forum](https://rusefi.com/forum/viewtopic.php?t=1692)
 
 [Case info - Forum](https://rusefi.com/forum/viewtopic.php?p=39163#p39163)
