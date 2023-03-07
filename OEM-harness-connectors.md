@@ -9,7 +9,7 @@ https://www.fcpeuro.com/products/mercedes-plug-contact-female-genuine-mercedes-0
 
 # Volkswagen
 
-VAG COP
+VAG COP 1J0973724
 
 [replica](https://www.hdconnectorstore.com/productdetail/9236.html)
 
