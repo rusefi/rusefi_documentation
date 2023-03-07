@@ -727,7 +727,15 @@ Also known as 965497-1
 
 9+24+52+40+9
 
+Female 9 [replica](https://hdconnectorstore.com/productdetail/3544.html)
+
+Female 24 [replica](https://hdconnectorstore.com/productdetail/3285.html)
+
+Female 40 [replica](https://hdconnectorstore.com/productdetail/4185.html)
+
 Female 52 [2209477-1](https://www.te.com/usa-en/product-2209477-1.html)
+[967287-1](https://www.te.com/usa-en/product-967287-1.html)
+[replica](https://www.hdconnectorstore.com/productdetail/4055.html)
 
 `Todo: find [Vault-BMW-Info](Vault-BMW-Info)`
 
