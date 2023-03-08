@@ -1,6 +1,6 @@
 # Shadow Dash
 
-** Is Shadow Dash on Google Play? What's going on?! **
+**Is Shadow Dash on Google Play? What's going on?!**
 
 In order to use Shadow Dash with rusEFI, you would need to copy rusefi.ini file into .efiAnalytics\config\ecuDef folder on your Android device and rename it to 'unknown.ini'
 
