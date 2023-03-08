@@ -4,6 +4,12 @@ See also [Mercedes-OEM-ECU](Mercedes-OEM-ECU)
 
 See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
+* Important suggestion: use Honda cable position sensor not Mercedes cable position sensor *
+
+* Less important trick: 4 wire GM MAP+IAT *
+
+* Less important trick: fuel pressure mod *
+
 
 [Making my 190e More Fun (M111 SC Swap) - Forum](https://rusefi.com/forum/viewtopic.php?t=1692)
 
