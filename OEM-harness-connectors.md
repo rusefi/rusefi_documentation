@@ -14,10 +14,6 @@ Camshaft position sensor
 368161-1 [replica](https://www.hdconnectorstore.com/productdetail/1923.html)
 
 
-Map+IAT
-
-1928404627 [replica](https://www.hdconnectorstore.com/productdetail/4035.html)
-
 033-545-11-28
 https://www.mboemparts.com/oem-parts/mercedes-benz-plug-335451128
 Accelerator Pedal Socket Benz BMW
@@ -30,6 +26,21 @@ VAG COP 1J0973724
 
 [replica](https://www.hdconnectorstore.com/productdetail/9236.html)
 
+# GM
+
+Map+IAT
+
+1928404627 [replica](https://www.hdconnectorstore.com/productdetail/4035.html)
+
+
+# Mazda
+
+22 pin ECU
+174515-6 368135-6 https://www.hdconnectorstore.com/productdetail/10019.html
+
+26 pin ECU
+
+368136-6 174516-6 https://www.hdconnectorstore.com/productdetail/3415.html
 
 # Injectors
 
