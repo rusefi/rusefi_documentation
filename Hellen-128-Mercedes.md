@@ -4,6 +4,21 @@ Available at [rusEFI store](https://www.shop.rusefi.com/shop/p/hellen-128-merced
 
 This development board is PnP for Mercedes with the 128 Pin ECU (could be used on M104, M111, M112 and M113 engines; late 90s-early 2000s. confirm your ECU _harness_)
 
+## Hardware features
+
+* ME 2.0/2.1 pinout
+* Up to 8 Injectors.
+* Up to 8 Coils (Low impedance or Smart coils)
+* On board WBO controller
+* ETB support
+* VR Crank and HAll Cam sensor support
+* 1/2 channel Knock input
+* Factory Engine Sensor input support
+* CAN communication
+* Possibility to extend IOs (Inputs/Outputs)
+* USB connection
+* SD-CARD logging
+
 ## Firmware
 
 [Download Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
@@ -25,21 +40,6 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 [Schematics rev b](Hardware/Hellen/hellen128mercedes-b-schematic.pdf) [iBom rev b](https://rusefi.com/docs/ibom/hellen128mercedes-b-ibom.html)
 
 [Test points](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder-test-points.png)
-
-## Hardware features
-
-* ME 2.0/2.1 pinout
-* Up to 8 Injectors.
-* Up to 8 Coils (Low impedance or Smart coils)
-* On board WBO controller
-* ETB support
-* VR Crank and HAll Cam sensor support
-* 1/2 channel Knock input
-* Factory Engine Sensor input support
-* CAN communication
-* Possibility to extend IOs (Inputs/Outputs)
-* USB connection
-* SD-CARD logging
 
 ## Hardware extension/ configuration
 
@@ -186,6 +186,5 @@ As of April 2022 we know nothing about m111 automatic transmission control. All 
 ISL9V3040S3S is the large IGBT driver (same thing as ISL9V3040S3ST)
 
 Smaller NGD8201AN or ISL9V3040D3ST could probably be used as well.
-
 
 See also [HOWTO-M111-on-microRusEFI](HOWTO-M111-on-microRusEFI)
