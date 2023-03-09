@@ -39,6 +39,9 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 
 [Schematics rev b](Hardware/Hellen/hellen128mercedes-b-schematic.pdf) [iBom rev b](https://rusefi.com/docs/ibom/hellen128mercedes-b-ibom.html)
 
+todo: create "[Schematics rev c](Hardware/Hellen/hellen128mercedes-c-schematic.pdf) "
+[iBom rev c](https://rusefi.com/docs/ibom/hellen128mercedes-c-ibom.html)
+
 [Test points](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder-test-points.png)
 
 ## Hardware extension/ configuration
