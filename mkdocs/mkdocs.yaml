@@ -65,11 +65,9 @@ nav:
     - 'rusEFI Hardware Overview': Hardware.md
     - 'Wiring & Connectivity Overview': FAQ-Basic-Wiring-and-Connections.md
     - 'Boards':
-      - 'Hellen': Hellen-One-Platform.md
       - 'Proteus': Proteus.md
       - 'MicroRusEFI (MRE)': Hardware-microRusEFI.md
-      - 'Frankenso': Hardware-Frankenso.md
-      - 'Frankenstein': Hardware-Frankenstein.md
+      - 'Hellen': Hellen-One-Platform.md
     - 'Plug & Play Hardware':
       - 'Hellen Miata 90-95': Hellen64-Miata-NA6-94.md
       - 'Hellen Miata 01-05 VVT': Hellen-NB2.md
