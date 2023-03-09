@@ -16,10 +16,8 @@ Github Actions is currently in charge of:
 * Generating Hardware PCB visual diffs
 * Updating date stamps for builds
 * Synchronizing between rusefi/rusefi/wiki to rusefi_documentation repo
+  * TL,DR see https://github.com/rusefi/rusefi/tree/master/.github/workflows
 
-TL,DR see https://github.com/rusefi/rusefi/tree/master/.github/workflows
-
-See also [Software-Development-Life-Cycle](%5BProcess%5D-Software-Development-Life-Cycle-SDLC) 
-
+See also [Software-Development-Life-Cycle](Process-Software-Development-Life-Cycle-SDLC)
 
 [Build-Server-and-Automation-Legacy-Jenkins-notes](Build-Server-and-Automation-Legacy-Jenkins-notes)
