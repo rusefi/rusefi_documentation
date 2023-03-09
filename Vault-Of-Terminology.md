@@ -1,6 +1,6 @@
-# Abbreviations and Terminology
+# Acronyms, Abbreviations and Terminology
 
-## This document contains all of the commonly used abbreviations and terminology used by rusEFI
+## This document contains all of the commonly used acronyms, abbreviations and terminology used by rusEFI
 
 <details markdown="1"><summary><u>AAP</u></summary>
 
@@ -199,6 +199,11 @@ Manifold Absolute Pressure or perhaps Manifold Air Pressure, often used in the c
 <details markdown="1"><summary><u>MBT</u></summary>
 
 Mean best timing, used in context of spark timing, it is the spark timing that results in the best torque  
+</details>
+
+<details markdown="1"><summary><u>MLV</u></summary>
+
+Mean the tool MegaLogViewer
 </details>
 
 <details markdown="1"><summary><u>MFB</u></summary>
