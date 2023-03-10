@@ -4,7 +4,7 @@ See also [Mercedes-OEM-ECU](Mercedes-OEM-ECU)
 
 See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
-* Important suggestion: use Honda cable position sensor not Mercedes cable position sensor *
+* Important suggestion: use Honda gas pedal position sensor (PPS) in the engine bay not Mercedes pedal position sensor *
 
 * Less important trick: 4 wire GM MAP+IAT *
 
