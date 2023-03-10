@@ -10,7 +10,6 @@ See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
 * Less important trick: fuel pressure mod *
 
-
 [Making my 190e More Fun (M111 SC Swap) - Forum](https://rusefi.com/forum/viewtopic.php?t=1692)
 
 [Case info - Forum](https://rusefi.com/forum/viewtopic.php?p=39163#p39163)
@@ -21,7 +20,7 @@ See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
 Getting started with the W202 ME2.1 ECU connector
 
-This ECU has a CAR connector with 145 pins that you can find it [here](Images/MB_ME2.1.jpeg)
+This ECU has a CAR connector with 145 pins. Diagram with diagnostic pin assignment can be found [here](Images/MB_ME2.1.jpeg)
 
 How to read the following table:
 
@@ -31,13 +30,13 @@ Pin: Pin number of the connector.
 
 Name: this field was filled from the M111.921 wiring diagram.
 
-Function: some human readbale text.
+Function: some human readable text.
 
-ME2.1 Description: Based on me2.1 documenation what i have found for Alfa Rome.
+ME2.1 Description: Based on me2.1 documenation what I have found for Alfa Rome.
 
 MRE pin: Where to connect the pin (wiring example).
 
-Comments: extra info that i learned during wiring in the ECU.
+Comments: extra info that I learned during wiring in the ECU.
 
 | Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
 | --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
