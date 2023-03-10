@@ -31,13 +31,13 @@ Pin: Pin number of the connector.
 
 Name: this field was filled from the M111.921 wiring diagram.
 
-Function: some human readbale text.
+Function: some human readable text.
 
-ME2.1 Description: Based on me2.1 documenation what i have found for Alfa Rome.
+ME2.1 Description: Based on me2.1 documenation what I have found for Alfa Rome.
 
 MRE pin: Where to connect the pin (wiring example).
 
-Comments: extra info that i learned during wiring in the ECU.
+Comments: extra info that I learned during wiring in the ECU.
 
 | Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
 | --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
