@@ -20,7 +20,7 @@ See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
 Getting started with the W202 ME2.1 ECU connector
 
-This ECU has a CAR connector with 145 pins. Diagram with diagnostic pin assignment cab found [here](Images/MB_ME2.1.jpeg)
+This ECU has a CAR connector with 145 pins. Diagram with diagnostic pin assignment can be found [here](Images/MB_ME2.1.jpeg)
 
 How to read the following table:
 
