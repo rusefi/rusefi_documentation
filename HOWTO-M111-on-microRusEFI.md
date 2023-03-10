@@ -10,7 +10,6 @@ See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
 * Less important trick: fuel pressure mod *
 
-
 [Making my 190e More Fun (M111 SC Swap) - Forum](https://rusefi.com/forum/viewtopic.php?t=1692)
 
 [Case info - Forum](https://rusefi.com/forum/viewtopic.php?p=39163#p39163)
