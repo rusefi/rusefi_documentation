@@ -620,7 +620,7 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 ![122 Pin Connector](Hardware/connectors/122_render.png)
 
-[122 pin ECU connector Toyota Mazda harness breakout PCB board](https://www.ebay.com/itm/334058887716)
+[122 pin ECU connector header breakout board Mazda Toyota Subaru](https://www.ebay.com/itm/334140404909)
 
 [TE 8-5353015-1](http://www.te.com/catalog/pn/en/8-5353015-1)
 
@@ -742,6 +742,9 @@ Female 40 [replica](https://hdconnectorstore.com/productdetail/4185.html)
 Female 52 [2209477-1](https://www.te.com/usa-en/product-2209477-1.html)
 [967287-1](https://www.te.com/usa-en/product-967287-1.html)
 [replica](https://www.hdconnectorstore.com/productdetail/4055.html)
+
+
+Female 9 1-965487-1
 
 `Todo: find [Vault-BMW-Info](Vault-BMW-Info)`
 
