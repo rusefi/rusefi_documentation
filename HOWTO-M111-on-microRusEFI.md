@@ -4,11 +4,14 @@ See also [Mercedes-OEM-ECU](Mercedes-OEM-ECU)
 
 See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
-* Important suggestion: use Honda cable position sensor not Mercedes cable position sensor *
+* Important suggestion: use Honda accelerator pedal position sensor (PPS) in the engine bay not Mercedes pedal position sensor
+  * Honda OE part number: 37971-RBB-003, 37971-PZX-003, 37971-RCA-A01, 37971-RDA-A01
+  * Replace Part Number: 5S8776, APS147, PPS1046, 72-7080, 1802-300281, 2-80046, SU10238, 699-199, 699199.
+  * Connector: 6-way Pigtail for Honda Acura Throttle pedal sensor
 
-* Less important trick: 4 wire GM MAP+IAT *
+* Less important trick: 4 wire GM MAP+IAT
 
-* Less important trick: fuel pressure mod *
+* Less important trick: fuel pressure mod
 
 [Making my 190e More Fun (M111 SC Swap) - Forum](https://rusefi.com/forum/viewtopic.php?t=1692)
 
@@ -177,6 +180,8 @@ D |  1  | NC              | function    | MRE pin                          | Com
  E |  47 | MAF Pin 5       | MAF Signal  | Output voltage (signal) - flow meter |MRE pin 24 (AT3) |
  E |  48 | MAF Pin 3       | Signal GND  | Earth - flow meter | MRE pin 21 |
 
+ToDo: add MRE pin assignment for IGN
+
 | Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
 | --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
  F |  1  | ETB-            | | Butterfly casing motor integrated with D.V.L. (-) |MRE pin 8 (ETB-)|
@@ -191,12 +196,12 @@ D |  1  | NC              | function    | MRE pin                          | Com
  F |  10 | NC              | | NC | |
  F |  11 | NC              | | NC | |
  F |  12 | NC              | | NC | |
- F |  13 | IGN1            | | Ignition coil for cyl. 4|| OEM coils cannot be used without external igniter!!
+ F |  13 | IGN1            | | Ignition coil for cyl. 4|| OEM coils require external igniter!!
  F |  14 | NC              | | NC | |
  F |  15 | KL31 (GND)      | | NC | |
  F |  16 | NC              | | NC | |
  F |  17 | NC              | | Ignition coil for cyl. 3 | |
  F |  18 | NC              | | NC | |
  F |  19 | NC              | |Ignition coil for cyl. 5| |
- F |  20 | IGN2            | |Ignition coil for cyl. 1| |  
+ F |  20 | IGN2            | |Ignition coil for cyl. 1| |  OEM coils require external igniter!!
  F |  21 | NC              | |Operation of injection warning light| |
