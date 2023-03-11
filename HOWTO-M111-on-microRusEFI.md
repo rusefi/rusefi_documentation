@@ -5,7 +5,7 @@ See also [Mercedes-OEM-ECU](Mercedes-OEM-ECU)
 See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
 * Important suggestion: use Honda accelerator pedal position sensor (PPS) in the engine bay not Mercedes pedal position sensor
-  * Honda OE part number: 37971-RBB-003,37971-PZX-003,37971-RCA-A01,37971-RDA-A01 
+  * Honda OE part number: 37971-RBB-003, 37971-PZX-003, 37971-RCA-A01, 37971-RDA-A01
   * Replace Part Number: 5S8776, APS147, PPS1046, 72-7080, 1802-300281, 2-80046, SU10238, 699-199, 699199.
   * Connector: 6-way Pigtail for Honda Acura Throttle pedal sensor
 
