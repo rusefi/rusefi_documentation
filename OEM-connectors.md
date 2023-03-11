@@ -1,4 +1,4 @@
-ECU headers here. For misc smaller connectors see [OEM-harness-connectors](OEM-harness-connectors)
+# ECU headers here. For misc smaller connectors see [OEM-harness-connectors](OEM-harness-connectors)
 
 # Table of Contents  
 
@@ -729,7 +729,7 @@ Also known as 965497-1
 
 9+24+52+40+9
 
-Female 9 1-968886-1 Mercedes 220 545 9428 
+Female 9 1-968886-1 Mercedes 220 545 9428
 
 Female 9 965487
 
@@ -742,7 +742,6 @@ Female 40 [replica](https://hdconnectorstore.com/productdetail/4185.html)
 Female 52 [2209477-1](https://www.te.com/usa-en/product-2209477-1.html)
 [967287-1](https://www.te.com/usa-en/product-967287-1.html)
 [replica](https://www.hdconnectorstore.com/productdetail/4055.html)
-
 
 Female 9 1-965487-1
 
