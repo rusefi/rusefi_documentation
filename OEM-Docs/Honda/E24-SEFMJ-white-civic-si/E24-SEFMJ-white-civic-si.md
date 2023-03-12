@@ -1,9 +1,9 @@
 
 # General Context
 
-SEFMJ Honda protocol running 9600 K-line communication between 2004 Honda ECU and multiplex module within body control unit / cabin fuse box.
+SEFMJ Honda protocol running 9600 K-line (effectively 12v serial port) communication between 2004 Honda ECU and multiplex module within body control unit (BCM) / cabin fuse box.
 
-Some packets are sent my BCM some packets are sent by ECU. Assumption is that BCM is master thus first packet in the cycle is coming from BCM.
+Some packets are sent my BCM, some packets are sent by ECU. Assumption is that BCM is master thus first packet in the cycle is coming from BCM.
 
 ![image](https://user-images.githubusercontent.com/48498823/224524802-0bbde452-66a4-43b7-95c5-b523dc23cb63.png)
 
@@ -13,14 +13,25 @@ Byte packets are clearly CRC-terminated, for instance 0x140 is crc of 1,0,0 pack
 
 ![image](https://user-images.githubusercontent.com/48498823/224524734-9c9ed54d-0ecd-4aa1-a46e-3e1f9ce53acb.png)
 
+# Available data
+
+Schematics: A bunch of 2003-acura-rsx PDF files at https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/Honda
+
+* Bench setup in NJ: just BCM sending out same five byte packet see https://rusefi.com/forum/viewtopic.php?p=47371#p47371
+* a bunch of logic analyzer recordings of real while honda civic, see below
+
 
 # Problem statement
 
-* ECU seem to be reporting CLT temperature to BDM and eventually for dash board / instrument cluster
+* ECU seem to be reporting CLT temperature to BDM and eventually for dash board / instrument cluster. 
 
-* BDM seem to be reporting state of A/C request button to ECU
+* BCM seem to be reporting state of A/C request button to ECU.
 
+Open question: which packets are sent by which of the two devices?
 
+Open question: how is A/C request encoded? Partial answer: looks like third byte 0x80 see https://github.com/rusefi/hellen125honda-issues/issues/26#issuecomment-1464826791
+
+Open question: how is CLT encided in what packets?
 
 
 # What we have
