@@ -20,7 +20,7 @@ Schematics: A bunch of 2003-acura-rsx PDF files at https://github.com/rusefi/rus
 
 # Problem statement
 
-* ECU seem to be reporting CLT temperature to BDM and eventually for dash board / instrument cluster. 
+* ECU seem to be reporting CLT temperature to BDM and eventually for dash board / instrument cluster.
 
 * BCM seem to be reporting state of A/C request button to ECU.
 
@@ -43,4 +43,3 @@ E24-SEFMJ-white-civic-si-csv.zip has same data exported as timestamp,byte value 
 7-ac-on-off pressing/depressing A/C button a few times
 
 ![image](https://user-images.githubusercontent.com/48498823/224524984-d926c878-4eca-4196-8265-8a69c9910193.png)
-
