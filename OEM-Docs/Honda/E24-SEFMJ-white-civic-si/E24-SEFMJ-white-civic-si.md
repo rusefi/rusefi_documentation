@@ -7,7 +7,7 @@ Some packets are sent my BCM, some packets are sent by ECU. Assumption is that B
 
 ![image](https://user-images.githubusercontent.com/48498823/224524802-0bbde452-66a4-43b7-95c5-b523dc23cb63.png)
 
-Byte packets are clearly CRC-terminated, for instance 0x140 is crc of 1,0,0 packet
+Byte packets are clearly CRC-terminated, for instance 0x8C is crc of 1,0,0 packet
 
 ![image](https://user-images.githubusercontent.com/48498823/224524734-9c9ed54d-0ecd-4aa1-a46e-3e1f9ce53acb.png)
 
