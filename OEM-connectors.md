@@ -890,7 +890,15 @@ HYUNDAI SONATA 2011 2012 2013 2014 39111-2G667 2.4L ECM PCM OEM
 
 Maybe Mercedes M157 1779007904
 
-<https://www.ebay.com/itm/334192244682>
+<https://www.ebay.com/itm/334690738698>
+
+## 196 pin
+
+1034486000 variation (different PCB footprint - minor difference from above)
+
+## 196 pin
+
+A2C93685800 variation (third PCB footprint - minor difference from above)
 
 ## 198 pin
 
