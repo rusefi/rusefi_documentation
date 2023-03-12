@@ -7,8 +7,6 @@ Some packets are sent my BCM, some packets are sent by ECU. Assumption is that B
 
 ![image](https://user-images.githubusercontent.com/48498823/224524802-0bbde452-66a4-43b7-95c5-b523dc23cb63.png)
 
-
-
 Byte packets are clearly CRC-terminated, for instance 0x140 is crc of 1,0,0 packet
 
 ![image](https://user-images.githubusercontent.com/48498823/224524734-9c9ed54d-0ecd-4aa1-a46e-3e1f9ce53acb.png)
@@ -20,7 +18,6 @@ Schematics: A bunch of 2003-acura-rsx PDF files at https://github.com/rusefi/rus
 * Bench setup in NJ: just BCM sending out same five byte packet see https://rusefi.com/forum/viewtopic.php?p=47371#p47371
 * a bunch of logic analyzer recordings of real while honda civic, see below
 
-
 # Problem statement
 
 * ECU seem to be reporting CLT temperature to BDM and eventually for dash board / instrument cluster. 
@@ -31,20 +28,16 @@ Open question: which packets are sent by which of the two devices?
 
 Open question: how is A/C request encoded? Partial answer: looks like third byte 0x80 see https://github.com/rusefi/hellen125honda-issues/issues/26#issuecomment-1464826791
 
-Open question: how is CLT encided in what packets?
-
+Open question: how is CLT encoded in what packets?
 
 # What we have
 
 E24-SEFMJ-white-civic-si-logicdata.zip has all the raw data as saleae https://support.saleae.com/logic-software/legacy-software/older-software-releases files
 
-
 E24-SEFMJ-white-civic-si-csv.zip has same data exported as timestamp,byte value pairs
 
 3-door-open-wakes-bus-up opening door waking up SEFMJ
 
-
 6-high-rpm idle at around 2K RPM hoping for CLT to go up
-
 
 7-ac-on-off pressing/depressing A/C button a few times
