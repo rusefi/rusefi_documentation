@@ -14,6 +14,8 @@
 
 ## OBD-2
 
+[2a pinout](https://technet.ff-squad.com/wiring.obd2a.htm)
+
 [OBD2 connector part number](OEM-connectors#104)
 
 [1996 Honda Civic](Honda-Civic-1996)
