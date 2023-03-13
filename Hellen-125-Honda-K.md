@@ -6,8 +6,10 @@ Designed for 2002 RSX wiring
 
 [Snapshot Bundle](https://rusefi.com/build_server/rusefi_bundle_hellen-honda-k.zip)
 
-[Schematics rev a](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-a-schematic.pdf)
+[Schematics rev B](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-b-schematic.pdf)
+[Schematics rev A](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-a-schematic.pdf)
 
+[iBom rev B](https://rusefi.com/docs/ibom/hellen125honda-b-ibom.html)
 [iBom rev A](https://rusefi.com/docs/ibom/hellen125honda-a-ibom.html)
 
 
