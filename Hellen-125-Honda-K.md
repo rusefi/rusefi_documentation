@@ -1,6 +1,6 @@
-# Designed for 2002 RSX wiring
-
 # Hellen 125 Honda K-Series
+
+## Designed for 2002 RSX wiring
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-honda-k/)
 
