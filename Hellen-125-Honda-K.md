@@ -1,4 +1,4 @@
-Designed for 2002 RSX wiring
+# Designed for 2002 RSX wiring
 
 # Hellen 125 Honda K-Series
 
@@ -12,7 +12,6 @@ Designed for 2002 RSX wiring
 [iBom rev B](https://rusefi.com/docs/ibom/hellen125honda-b-ibom.html)
 [iBom rev A](https://rusefi.com/docs/ibom/hellen125honda-a-ibom.html)
 
-
 For now see [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Honda-K-125-adapter)
 
 [125 Pin Connector](OEM-connectors#125)
@@ -21,10 +20,7 @@ For now see [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Hond
 
 ![x](Hardware/Hellen/hellen125honda-front-rev-a.jpg)
 
-
 [Issue Tracker](https://github.com/rusefi/hellen125honda-issues)
-
-
 
 [Aux Plug parts](https://github.com/rusefi/hellen125honda-issues/issues/1)
 
