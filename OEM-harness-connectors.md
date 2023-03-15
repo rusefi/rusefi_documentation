@@ -14,6 +14,8 @@ BC3041A 094304
 
 CLT 968405-1/1-967644-1/8K0973202
 
+1-967081-1
+
 ### Camshaft position sensor
 
 368161-1 [replica](https://www.hdconnectorstore.com/productdetail/1923.html)
