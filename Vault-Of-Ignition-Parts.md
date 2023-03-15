@@ -8,6 +8,14 @@
 
 * LSx ignition coils - Considered the cheap goto for US users. Can be purchased cheaply from junkyards and Ebay.
 
+* VAG Normal/Long
+
+![image](https://user-images.githubusercontent.com/48498823/225203719-d92edd9a-fe02-4af6-ba76-acded2d7b1b9.png)
+
+See also [OEM-harness-connectors#volkswagen](OEM-harness-connectors#volkswagen)
+
+* VAG Short is different
+
 ### Dumb coils
 
 * BMW M50 coils - Tested and working with 4D0905351 ignition module
