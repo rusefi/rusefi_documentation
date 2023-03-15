@@ -1,4 +1,6 @@
-# Mercedes
+# Misc harness connectors
+
+## Mercedes
 
 VVT actuator
 
@@ -8,11 +10,9 @@ Terminal 0035452626
 
 https://www.fcpeuro.com/products/mercedes-plug-contact-female-genuine-mercedes-0035452626
 
-
 Camshaft position sensor
 
 368161-1 [replica](https://www.hdconnectorstore.com/productdetail/1923.html)
-
 
 033-545-11-28
 https://www.mboemparts.com/oem-parts/mercedes-benz-plug-335451128
@@ -20,7 +20,7 @@ Accelerator Pedal Socket Benz BMW
 
 9-967081-1
 
-# Volkswagen
+## Volkswagen
 
 VAG COP 1J0973724 4B0973724
 
@@ -28,14 +28,13 @@ VAG COP 1J0973724 4B0973724
 
 [NOT replica NOT COP](https://www.hdconnectorstore.com/productdetail/9236.html)
 
-# GM
+## GM
 
 Map+IAT
 
 1928404627 [replica](https://www.hdconnectorstore.com/productdetail/4035.html)
 
-
-# Mazda
+## Mazda
 
 22 pin ECU
 174515-6 368135-6 https://www.hdconnectorstore.com/productdetail/10019.html
@@ -44,15 +43,13 @@ Map+IAT
 
 368136-6 174516-6 https://www.hdconnectorstore.com/productdetail/3415.html
 
-# Injectors
-
+## Injectors
 
 https://www.hdconnectorstore.com/productdetail/459.html
 
 aptiv 12185025
 
-
-# Catalogs
+## Catalogs
 
 https://www.bwdbrand.com/media/2827/bw11211-illustrated-connector-guide.pdf
 
