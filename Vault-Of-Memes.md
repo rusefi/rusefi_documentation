@@ -1,4 +1,4 @@
-# Memes are important.
+# Memes are important
 
 ## GitHub process for issue tracking
 
