@@ -43,6 +43,10 @@ Map+IAT
 
 368136-6 174516-6 https://www.hdconnectorstore.com/productdetail/3415.html
 
+## Hyundai
+
+ETB 1-967616-1 [replica](https://www.hdconnectorstore.com/productdetail/9515.html)
+
 ## Injectors
 
 https://www.hdconnectorstore.com/productdetail/459.html
