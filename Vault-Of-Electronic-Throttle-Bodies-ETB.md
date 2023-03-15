@@ -37,6 +37,10 @@ Bosch 0280750074 68mm
 
 ![wiring diagram](https://user-images.githubusercontent.com/5051341/127017376-9012525b-92cd-4bb0-8a1d-1b70946396a1.JPG)
 
+## Honda
+
+Throttle cable position sensor 37971-RBB-003
+
 ## Toyota
 
 ![image](https://user-images.githubusercontent.com/48498823/204656477-c55242ef-56f5-4e48-8fa2-973816feee5e.png)
