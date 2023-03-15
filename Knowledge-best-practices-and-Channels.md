@@ -9,7 +9,7 @@ TL,DR: please post knowledge on forum and report issues at [https://github.com/r
 We have too many channels.
 
 * wiki
-* github tickets
+* github tickets [Vault-Of-Memes](Vault-Of-Memes)
 * forum
 * facebook
 * slack
