@@ -22,9 +22,11 @@ Accelerator Pedal Socket Benz BMW
 
 # Volkswagen
 
-VAG COP 1J0973724
+VAG COP 1J0973724 4B0973724
 
-[replica](https://www.hdconnectorstore.com/productdetail/9236.html)
+[replica](https://www.hdconnectorstore.com/productdetail/9276.html)
+
+[NOT replica NOT COP](https://www.hdconnectorstore.com/productdetail/9236.html)
 
 # GM
 
