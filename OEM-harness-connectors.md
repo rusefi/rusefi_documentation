@@ -10,7 +10,11 @@ Terminal 0035452626
 
 https://www.fcpeuro.com/products/mercedes-plug-contact-female-genuine-mercedes-0035452626
 
-Camshaft position sensor
+BC3041A 094304
+
+CLT 968405-1/1-967644-1/8K0973202
+
+### Camshaft position sensor
 
 368161-1 [replica](https://www.hdconnectorstore.com/productdetail/1923.html)
 
@@ -52,6 +56,8 @@ ETB 1-967616-1 [replica](https://www.hdconnectorstore.com/productdetail/9515.htm
 https://www.hdconnectorstore.com/productdetail/459.html
 
 aptiv 12185025
+
+amp 928516 [re](https://www.hdconnectorstore.com/productdetail/1067.html)
 
 ## Catalogs
 
