@@ -1,5 +1,7 @@
 # SENT Electronic Throttle Body
 
+See also [Vault-Of-Electronic-Throttle-Bodies-ETB](Vault-Of-Electronic-Throttle-Bodies-ETB)
+
 GM uses SENT since 2015ish and Ford uses SENT ETBs/DBW since around 2019ish.
 
 Large [Ford 0280750688](https://youtu.be/AqfWQeWSuPA) 2019 Mustang and Godzilla.
