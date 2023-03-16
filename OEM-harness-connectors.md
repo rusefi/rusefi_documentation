@@ -20,6 +20,9 @@ CLT 968405-1/1-967644-1/8K0973202
 
 368161-1 [replica](https://www.hdconnectorstore.com/productdetail/1923.html)
 
+	
+Inboard cable harness plug-connection. 13-pin LKS1.5
+
 033-545-11-28
 https://www.mboemparts.com/oem-parts/mercedes-benz-plug-335451128
 Accelerator Pedal Socket Benz BMW
