@@ -45,6 +45,8 @@ Throttle cable position sensor 37971-RBB-003
 
 ![image](https://user-images.githubusercontent.com/48498823/204656477-c55242ef-56f5-4e48-8fa2-973816feee5e.png)
 
+Connector 6189-1012 [replica](https://www.hdconnectorstore.com/productdetail/2220.html)
+
 1. Motor-
 2. Motor+
 3. E2 Sensor ground
