@@ -24,6 +24,8 @@ CLT 968405-1/1-967644-1/8K0973202
 
 09441212/1685453028 [replica](https://www.hdconnectorstore.com/productdetail/541.html)
 
+Also used as 09441212 on Ford
+
 Inboard cable harness plug-connection. 13-pin LKS1.5
 
 033-545-11-28
