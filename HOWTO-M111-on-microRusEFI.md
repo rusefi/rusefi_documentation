@@ -161,7 +161,7 @@ D |  1  | NC              | function    | MRE pin                          | Com
  E |  28 | CLT GND         | Signal GND  | Coolant temperature sensor earth | MRE pin 21 |
  E |  29 | CLT Signal      | CLT Signal  | Coolant temperature sensor signal| MRE pin 18 (AT1)|
  E |  30 | NC              | | NC | |
- E |  31 | TPS1            | TPS1 signal |Potentiometer - 1 butterfly casing| MRE pin 26 (AV2)|
+ E |  31 | TPS1            | TPS1 signal |Potentiometer - 1 butterfly casing| MRE pin 26 (AV2) or MRE20 |
  E |  32 | TPS GND         | TPS GND     |Earth for potentiometer 1-2 butterfly casing | MRE pin 21 |
  E |  33 | TPS Supply      | 5V TPS supply | Supply for potentiometer 1-2 butterfly casing|MRE pin 44 (5V)|
  E |  34 | TPS2            | TPS2 signal | Potentiometer - 2 butterfly casing | MRE pin 28 (AV10) |
