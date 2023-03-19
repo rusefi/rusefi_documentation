@@ -48,6 +48,8 @@ Map+IAT
 
 1928404627 [replica](https://www.hdconnectorstore.com/productdetail/4035.html)
 
+3 bar 12015793 [replica](https://www.hdconnectorstore.com/productdetail/10602.html)
+
 ## Mazda
 
 22 pin ECU
