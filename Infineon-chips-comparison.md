@@ -18,7 +18,7 @@
 | mc33810 MCZ33810      |      |            |   |   |
 |  TLE8209     |      |            |   |  H-Bridge |
 | L9651        |      |            |   |   |
-|  MC33800     |      |            |   |   |
+|  MC33800     |      |  6 injectors + 2 higher current low sides          |   |  2 current drivers, 8 low side drivers, 6 pre-drivers, SPI, SOIC 54, Reel |
 |       |      |            |   |   |
 |       |      |            |   |   |
 |       |      |            |   |   |
