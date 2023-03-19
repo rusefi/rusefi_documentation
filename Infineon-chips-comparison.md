@@ -6,6 +6,7 @@
 |-------|------|------------|------|---|---|
 |       |      |            |   |   |
 | TLE8888QK      | 2014-2017     | 7+7           | n/a  | [Used on M86](http://chiptuner.ru/content/ctpro_m86/)  |
+|  tle9104     |   2018   | 4 injectors           |   |   |
 | mc33810 MCZ33810      |  2014    |  4 injectors + 4 pre-drivers          |   |   |
 | TLE6240GP      |  2010    |      8+8      | $3  | used as x4 injector driver by January Yanvar 7.2  |
 | TLE6244      |  2005 |      18+0      |   | a lot of Bosch  |
@@ -19,7 +20,6 @@
 |  MC33800     |      |  6 injectors + 2 higher current low sides          |   |  2 current drivers, 8 low side drivers, 6 pre-drivers, SPI, SOIC 54, Reel |
 |  TLE8209     |      |            |   |  H-Bridge |
 | L9651        |      |            |   |   |
-|       |      |            |   |   |
 |       |      |            |   |   |
 |       |      |            |   |   |
 
