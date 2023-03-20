@@ -33,11 +33,11 @@ To inspect the missing tooth signal's shape:
 
    **This is the correct missing tooth shape**
 
-   ![correct VR missing tooth pattern](Images/trigger_VR_sensor_correct_polarity)
+   ![correct VR missing tooth pattern](Images/trigger_VR_sensor_correct_polarity.png)
 
    **This is the wrong missing tooth shape - swap your wires**
 
-   ![wrong VR sensor missing tooth pattern](Images/trigger_VR_sensor_wrong_polarity)
+   ![wrong VR sensor missing tooth pattern](Images/trigger_VR_sensor_wrong_polarity.png)
 
    > These images were collected on a Volvo 60-2 trigger wheel, the exact timing may vary, but a long period of low preceding the long high time (marked with arrow on the wrong image) is the clear indicator of a mis-wired sensor.  The correct pattern is equally sized low periods, with a single long high period.
 
