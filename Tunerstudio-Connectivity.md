@@ -6,7 +6,7 @@
 
 ![Communication Settings](Images/communication_settings.png)
 
-Select the correct COM port for your rusEFI. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEFI COM-port. For most cases, the selected Baud rate does not matter. 
+Select the correct COM port for your rusEFI. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEFI COM-port. For most cases, the selected Baud rate does not matter.
 
 If you can't establish communication, try baud rate 38,400 | 57,600 or 115,200. If that doesn't work, you may need to try a different COM port.
 
@@ -32,7 +32,7 @@ you are expected to see a response like this:
 
 ![Expected Response](Images/response.png)
 
-Q: I try to connect with Tuner Studio and it says 
+Q: I try to connect with Tuner Studio and it says
 
 ```text
 line:532:rusEfiVersion,20140822@4388 Ford

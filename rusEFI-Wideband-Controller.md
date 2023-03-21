@@ -20,7 +20,7 @@ A: We control heater based on RPM, also WBO compensate for battery voltage based
 
 [connector info](https://rusefi.com/forum/viewtopic.php?p=43705#p43705)
 
-![connector pinout image](https://imgur.com/LvCaQ1o.jpg)
+![Bosch LSU 4.9 connector pinout](Images/Bosch_LSU_4.9_connector_pinout.png)
 
 F042 module pinout
 
