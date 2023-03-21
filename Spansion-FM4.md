@@ -11,6 +11,6 @@ UART programming:
 
 [broken link](http://learn.spansion.com/mcu_software_download?r=/EnglishDownloads/EDG/binary/zip/product/micom/tools/downloads/flash/PCWFM3.zip)
 
-![FM3/FM4 UART pins](http://i.imgur.com/vkNxRjq.png)
+![FM3/FM4 UART pins](Images/Spansion_FM4_UART_pins.png)
 
 [OpenOCD FM4 - Japanese](http://jujurou.blog34.fc2.com/blog-entry-394.html)
