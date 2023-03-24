@@ -40,7 +40,7 @@ Crank Angle Sensor Also See [CPS - Wikipedia]](<http://en.wikipedia.org/wiki/Cra
 
 <details markdown="1"><summary><u>CLT</u></summary>
 
-Coolant Temperature, same as ECT 
+Coolant Temperature, same as ECT
 </details>
 
 <details markdown="1"><summary><u>CoV</u></summary>
@@ -342,7 +342,6 @@ Throttle Position Sensor
 
 A sensor combining IAT ("Temperature") and MAP
 </details>
-
 
 <details markdown="1"><summary><u>TE</u></summary>
 
