@@ -12,3 +12,5 @@ Strip Length for 16-14
 
 
 Heatsink 3mm cut length = ? 
+
+Heatsink 6mm cut length = ? 
