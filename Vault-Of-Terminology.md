@@ -338,6 +338,12 @@ Top Dead Center
 Throttle Position Sensor
 </details>
 
+<details markdown="1"><summary><u>TMAP</u></summary>
+
+A sensor combining IAT ("Temperature") and MAP
+</details>
+
+
 <details markdown="1"><summary><u>TE</u></summary>
 
 TE connectors, they produce the ampseal connectors on the proteus and a lot of OEM ECUs.  
