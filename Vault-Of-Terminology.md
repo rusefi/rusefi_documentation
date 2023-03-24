@@ -40,7 +40,7 @@ Crank Angle Sensor Also See [CPS - Wikipedia]](<http://en.wikipedia.org/wiki/Cra
 
 <details markdown="1"><summary><u>CLT</u></summary>
 
-Coolant Temperature
+Coolant Temperature, same as ECT 
 </details>
 
 <details markdown="1"><summary><u>CoV</u></summary>
