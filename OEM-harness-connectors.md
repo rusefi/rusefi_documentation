@@ -56,6 +56,8 @@ GM DISTRIBUTOR MODULE AND IDLE AIR CONTROL
 
 HEI Ignition Coil
 
+GM 12102748 Throttle Position Sensor
+
 ## Mazda
 
 22 pin ECU
