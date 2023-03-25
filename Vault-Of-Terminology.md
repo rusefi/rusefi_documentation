@@ -18,6 +18,11 @@ AFR is the ratio of air to fuel, often expressed as "14.7:1"
 Air Intake Temperature
 </details>
 
+<details markdown="1"><summary><u>AWG</u></summary>
+
+https://en.wikipedia.org/wiki/American_wire_gauge
+</details>
+
 <details markdown="1"><summary><u>Baro</u></summary>
 
 Shorthand for Barometric pressure
@@ -281,6 +286,11 @@ The secondary winding of an ignition coil.
 Often this refers to Sequential injection, which means the injectors fire individually for each cylinder and often at a specific crank angle.  
 This can be handy for engines direct injection or to try to spray the injector into the cyl while the intake valve is open. If an engine can inject onto an open inlet valve it will reduce the amount of fuel wetting the port walls and help reduce low load emissions.  
 Sequential is required for direct injection engines like common rail diesel.
+</details>
+
+<details markdown="1"><summary><u>SBC</u></summary>
+
+Small Block Chevy
 </details>
 
 <details markdown="1"><summary><u>SD</u></summary>
