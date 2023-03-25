@@ -54,7 +54,9 @@ Map+IAT
 
 GM DISTRIBUTOR MODULE AND IDLE AIR CONTROL
 
-HEI Ignition Coil
+HEI Ignition Coil 23079 grey
+
+HEI Ignition Coil 23080 black
 
 GM 12102748 Throttle Position Sensor
 
