@@ -52,6 +52,10 @@ Map+IAT
 
 3 bar 12015793 [replica](https://www.hdconnectorstore.com/productdetail/10602.html)
 
+GM DISTRIBUTOR MODULE AND IDLE AIR CONTROL
+
+HEI Ignition Coil
+
 ## Mazda
 
 22 pin ECU
