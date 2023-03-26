@@ -539,8 +539,8 @@ Launch Control Settings NOT WORKING
 Rolling Launch Settings NOT WORKING  
 (&#x1F534;): Rolling launch [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
-AntiLag Settings NOT WORKING  
-(&#x1F534;): Anti lag  
+AntiLag Settings 
+(&#x1F536;): Anti lag  [**2403**](https://github.com/rusefi/rusefi/issues/2403)
 
 ---
 
