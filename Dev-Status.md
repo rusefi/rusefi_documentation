@@ -284,7 +284,7 @@ Trigger Inputs
 (&#x1F49A;): Option to invert the inputs  
 
 Other Sensor Inputs  
-(&#x1F534;): Fuel level input  [**219**](https://github.com/rusefi/rusefi/issues/219)  
+(&#x1F536;): Fuel level input  [**219**](https://github.com/rusefi/rusefi/issues/219)  
 (&#x1F536;): Clutch position Switch  
 (&#x1F536;): Throttle up switch  
 (&#x1F536;): Brake pedal pressure  [**415**](https://github.com/rusefi/rusefi/issues/415)  
