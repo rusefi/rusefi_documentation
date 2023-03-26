@@ -17,8 +17,8 @@ Color code meanings:-
 
 [Base Engine](#base-engine)  
 [Fuel](#fuel)  
-[Ignition](#ignition)  
-[Cranking](#cranking)  
+[Ignition](#ignition)
+[Cranking](#cranking)
 [Idle](#idle)  
 [Advanced](#advanced)  
 [Sensors](#sensors)  
@@ -533,14 +533,14 @@ Electronic TB Bias Curve
 ETB Pedal to TPS  
 (&#x1F536;): 8x8 ETB pedal transfer map  
 
-Launch Control Settings NOT WORKING  
+Launch Control Settings NOT WORKING
 (&#x1F534;): Launch control [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
-Rolling Launch Settings NOT WORKING  
+Rolling Launch Settings NOT WORKING
 (&#x1F534;): Rolling launch [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
-AntiLag Settings NOT WORKING  
-(&#x1F534;): Anti lag  
+AntiLag Settings
+(&#x1F536;): Anti lag  [**2403**](https://github.com/rusefi/rusefi/issues/2403)
 
 ---
 
