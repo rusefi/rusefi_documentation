@@ -2,6 +2,10 @@
 
 See also [Vault-Of-Misc-Supplies](Vault-Of-Misc-Supplies)
 
+## BMW
+
+3 pin male 962581 female 282191
+
 ## Mercedes
 
 VVT actuator
