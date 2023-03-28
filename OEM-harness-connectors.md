@@ -6,7 +6,7 @@ See also [Vault-Of-Misc-Supplies](Vault-Of-Misc-Supplies)
 
 3 pin male 962581 female 282191
 
-10 pole round 12521740615
+10 pole round 12521740615 50290743 [replica](https://www.hdconnectorstore.com/productdetail/7415.html)
 
 ## Mercedes
 
