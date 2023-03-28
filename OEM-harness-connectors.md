@@ -2,6 +2,10 @@
 
 See also [Vault-Of-Misc-Supplies](Vault-Of-Misc-Supplies)
 
+## Denso
+
+Coils 7282-8120-40
+
 ## BMW
 
 3 pin male 962581 female 282191
