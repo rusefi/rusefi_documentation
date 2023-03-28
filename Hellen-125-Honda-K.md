@@ -25,3 +25,7 @@ For now see [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Hond
 [Aux Plug parts](https://github.com/rusefi/hellen125honda-issues/issues/1)
 
 https://github.com/rusefi/rusefi_documentation/raw/master/OEM-Docs/Honda/2003-acura-rsx-type-R.pdf
+
+## Status
+
+2023-03-03 tune https://rusefi.com/online/view.php?msq=1435
