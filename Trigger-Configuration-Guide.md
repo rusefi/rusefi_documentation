@@ -33,11 +33,11 @@ To inspect the missing tooth signal's shape:
 
    **This is the correct missing tooth shape**
 
-   ![correct VR missing tooth pattern](https://i.imgur.com/x3AK5sU.jpg)
+   ![correct VR missing tooth pattern](Images/trigger_VR_sensor_correct_polarity.png)
 
    **This is the wrong missing tooth shape - swap your wires**
 
-   ![wrong VR sensor missing tooth pattern](https://i.imgur.com/rJRJWP7.jpg)
+   ![wrong VR sensor missing tooth pattern](Images/trigger_VR_sensor_wrong_polarity.png)
 
    > These images were collected on a Volvo 60-2 trigger wheel, the exact timing may vary, but a long period of low preceding the long high time (marked with arrow on the wrong image) is the clear indicator of a mis-wired sensor.  The correct pattern is equally sized low periods, with a single long high period.
 
@@ -66,13 +66,13 @@ The green trace is the analog input to the MAX9924, and pink is the digital outp
 
 First, here's the wrong polarity:
 
-< wrong polarity scope image >
+ToDo: add wrong polarity scope image
 
 The output rising edge is well aligned to the falling edge zero crossing of the input, but that's the poorly-defined center of the missing tooth, not the sharp edges of the teeth.
 
 And here's the correct polarity
 
-< correct polarity scope image >
+ToDo: add correct polarity scope image
 
 Now the "bad edge" of the missing tooth is a rising edge, and the good tooth centers are falling edges, which output a digital rising edge to the ECU.
 

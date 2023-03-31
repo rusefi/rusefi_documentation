@@ -44,7 +44,7 @@ This guide is written for the firmware released August 6th 2020. The further awa
 
    **Your laptop should give you an audible notification when you plug in the ECU with the ignition turned on. That means that it "sees" a new device connected to a USB port.**
 
-5. In TunerStudio apply correct "Communication Settings" [for detailed instructions see here.](Tunerstudio-Connectivity.md)
+5. In TunerStudio apply correct "Communication Settings" [for detailed instructions see here.](Tunerstudio-Connectivity)
    **Note: If your computer is running Linux, you might have to [fix issues with ModemManager](Linux-Connectivity).**
 
 6. With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. Of course the values displayed might not make a lot of sense, since your ECU is lacking a car, but at least you can see that TunerStudio and your computer are communicating.

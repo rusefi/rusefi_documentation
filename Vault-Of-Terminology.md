@@ -1,6 +1,6 @@
-# Abbreviations and Terminology
+# Acronyms, Abbreviations and Terminology
 
-## This document contains all of the commonly used abbreviations and terminology used by rusEFI
+## This document contains all of the commonly used acronyms, abbreviations and terminology used by rusEFI
 
 <details markdown="1"><summary><u>AAP</u></summary>
 
@@ -16,6 +16,11 @@ AFR is the ratio of air to fuel, often expressed as "14.7:1"
 <details markdown="1"><summary><u>AIT</u></summary>
 
 Air Intake Temperature
+</details>
+
+<details markdown="1"><summary><u>AWG</u></summary>
+
+https://en.wikipedia.org/wiki/American_wire_gauge
 </details>
 
 <details markdown="1"><summary><u>Baro</u></summary>
@@ -40,7 +45,7 @@ Crank Angle Sensor Also See [CPS - Wikipedia]](<http://en.wikipedia.org/wiki/Cra
 
 <details markdown="1"><summary><u>CLT</u></summary>
 
-Coolant Temperature
+Coolant Temperature, same as ECT
 </details>
 
 <details markdown="1"><summary><u>CoV</u></summary>
@@ -201,6 +206,11 @@ Manifold Absolute Pressure or perhaps Manifold Air Pressure, often used in the c
 Mean best timing, used in context of spark timing, it is the spark timing that results in the best torque  
 </details>
 
+<details markdown="1"><summary><u>MLV</u></summary>
+
+Mean the tool MegaLogViewer
+</details>
+
 <details markdown="1"><summary><u>MFB</u></summary>
 
 Mass fraction burned, often stated with a number after i.e. MFB10/MFB50/MFB90 and refers to the fraction of the fuel burned by mass.  
@@ -278,6 +288,11 @@ This can be handy for engines direct injection or to try to spray the injector i
 Sequential is required for direct injection engines like common rail diesel.
 </details>
 
+<details markdown="1"><summary><u>SBC</u></summary>
+
+Small Block Chevy
+</details>
+
 <details markdown="1"><summary><u>SD</u></summary>
 
 Speed Density this is a method of predicting how much fuel should be delivered to an engine. This is a MAP based system which uses pressure to make a prediction of how much O2 is entering the cyl.
@@ -331,6 +346,11 @@ Top Dead Center
 <details markdown="1"><summary><u>TPS</u></summary>
 
 Throttle Position Sensor
+</details>
+
+<details markdown="1"><summary><u>TMAP</u></summary>
+
+A sensor combining IAT ("Temperature") and MAP
 </details>
 
 <details markdown="1"><summary><u>TE</u></summary>

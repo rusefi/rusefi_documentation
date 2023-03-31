@@ -13,7 +13,7 @@ rusEFI provides a number of hooks to interface with the firmware and to manipula
 
 - Configurations can be accessed via the [`getCalibration()`](#getcalibrationname) hook, and manipulated via the [`setCalibration()`](#setcalibrationname-value-needevent) hook.
   - Configuration names are dynamically updated to match the current firmware; see here for the current list: [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md).
-- Outputs from the firmware can be read via the [`getOutput()`](#getoutputname) hook, and altered via correspondingly named hooks i.e. `setOutputName()` where `OutputName` is name of the output, e.g. [`setClutchUpState()`](#setclutchupstatevalue).  See also: [Output](#output).
+- All outputs from the firmware can be read via the universal [`getOutput()`](#getoutputname) hook, and some can be altered via correspondingly named hooks i.e. `setOutputName()` where `OutputName` is name of the output, e.g. [`setClutchUpState()`](#setclutchupstatevalue).  See also: [Output](#output).
   - Output names are dynamically updated to match the current firmware; see here for the current list: [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp).
 - Inputs from sensors can be read directly; see [Input](#input).
 - Aspects of the engine can be controled directly; see [Engine Control](#engine-control).
@@ -157,6 +157,18 @@ todo add details but ready to test!
 
 Amount of ETB to add, as a percent of the wide-open value: e.g. `10` for +10%.  The value is a static amount to add to
 the determined value, e.g. TPS of 5% w/ `10` results in 15% ETB.
+
+### Timer
+
+``yourTimer = Timer.new();`` to have a new variable of Timer type
+
+#### reset
+
+``yourTimer:reset();`` to reset timer
+
+#### getElapsedSeconds
+
+``yourTimer:getElapsedSeconds();`` to get number of seconds since timer was reset
 
 ### CAN bus
 

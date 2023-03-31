@@ -17,6 +17,10 @@ Around 2007
 
 ![image](https://user-images.githubusercontent.com/48498823/203988451-5915b94a-0986-428f-ab9b-9b4926957af1.png)
 
+## Older GM
+
+![image](https://user-images.githubusercontent.com/48498823/227782651-64af4e90-d5d8-4b10-88fa-7670896c4552.png)
+
 ## VAG
 
 Bosch 0280750009 1.8T and hopefully many others
@@ -31,7 +35,17 @@ Bosch 0280750074 68mm
 
 ![throttle body](https://user-images.githubusercontent.com/5051341/127017817-206caa3a-10b9-41ee-999a-8efc18cbc1fb.jpg)
 
+![image](https://user-images.githubusercontent.com/48498823/225196895-e42d53c8-6229-4471-a1b0-aced7143f05b.png)
+
+![image](https://user-images.githubusercontent.com/48498823/225197082-8bf94cc0-f065-408b-a0c3-24de39d2d0ea.png)
+
 ![wiring diagram](https://user-images.githubusercontent.com/5051341/127017376-9012525b-92cd-4bb0-8a1d-1b70946396a1.JPG)
+
+## Honda
+
+Throttle cable position sensor 37971-RBB-003
+
+Connector 6189-1012 [replica](https://www.hdconnectorstore.com/productdetail/2220.html)
 
 ## Toyota
 

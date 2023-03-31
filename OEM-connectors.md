@@ -1,4 +1,7 @@
+
 # Table of Contents  
+
+ECU headers here. For misc smaller connectors see [OEM-harness-connectors](OEM-harness-connectors)
 
 [24 pin](#24-pin)
 
@@ -134,9 +137,9 @@ The larger plugs are the same as on [the 64 pin](OEM-connectors#64-pin).
 
 [TE 172319-1](http://www.te.com/usa-en/product-172319-1.html)
 
-[52 pin ECU connector ONLY breakout PCB toyota mitsubishi galant eclipse](https://www.ebay.com/itm/334285307897)
+[52 pin ECU connector ONLY breakout PCB toyota mitsubishi galant eclipse](https://rusefi.com/#shop)
 
-[52 pin 52 ECU connector - Toyota Mitsubishi Galant Eclipse DSM](https://www.ebay.com/itm/333848385837)
+[52 pin 52 ECU connector - Toyota Mitsubishi Galant Eclipse DSM](https://rusefi.com/#shop)
 
 10+18+24
 18 pin housing 172316-7
@@ -259,7 +262,7 @@ Center bolt
 
 [TE 174836-5](https://www.te.com/usa-en/product-174836-5.html)
 
-[64 pin ECU connector nissan breakout](https://www.ebay.com/itm/334139955900)
+[64 pin ECU connector nissan breakout](https://rusefi.com/#shop)
 
 90-94
 
@@ -618,7 +621,7 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 ![122 Pin Connector](Hardware/connectors/122_render.png)
 
-[122 pin ECU connector Toyota Mazda harness breakout PCB board](https://www.ebay.com/itm/334058887716)
+[122 pin ECU connector header breakout board Mazda Toyota Subaru](https://rusefi.com/#shop)
 
 [TE 8-5353015-1](http://www.te.com/catalog/pn/en/8-5353015-1)
 
@@ -638,7 +641,7 @@ Subaru Legacy 2002
 
 ![125 Pin Connector](Hardware/connectors/125_5_render.png)
 
-[125 pin ECU connector Honda harness breakout PCB board](https://www.ebay.com/itm/333855911372)
+[125 pin ECU connector Honda harness breakout PCB board](https://rusefi.com/#shop)
 
 [TE 1318612-1](https://www.te.com/usa-en/product-1318612-1.html)
 
@@ -677,7 +680,7 @@ See `Todo: find [Vault of Honda OEM](Vault-Of-Honda-OEM)`
 
 ## 128/145 pin
 
-Mercedes M111 [eBay](https://www.ebay.com/itm/333791544427)
+[Mercedes M111](https://rusefi.com/#shop)
 
 ![x](OEM-Docs/Mercedes/mercedes_170.png)
 
@@ -726,6 +729,22 @@ Wire Cover V Type: 1746089-1
 Also known as 965497-1
 
 9+24+52+40+9
+
+Female 9 1-968886-1 Mercedes 220 545 9428
+
+Female 9 965487
+
+Female 9 [replica](https://hdconnectorstore.com/productdetail/3544.html)
+
+Female 24 [replica](https://hdconnectorstore.com/productdetail/3285.html)
+
+Female 40 [replica](https://hdconnectorstore.com/productdetail/4185.html)
+
+Female 52 [2209477-1](https://www.te.com/usa-en/product-2209477-1.html)
+[967287-1](https://www.te.com/usa-en/product-967287-1.html)
+[replica](https://www.hdconnectorstore.com/productdetail/4055.html)
+
+Female 9 1-965487-1
 
 `Todo: find [Vault-BMW-Info](Vault-BMW-Info)`
 
@@ -871,13 +890,21 @@ HYUNDAI SONATA 2011 2012 2013 2014 39111-2G667 2.4L ECM PCM OEM
 
 Maybe Mercedes M157 1779007904
 
-<https://www.ebay.com/itm/334192244682>
+<https://rusefi.com/#shop>
+
+## 196 pin
+
+1034486000 variation (different PCB footprint - minor difference from above)
+
+## 196 pin
+
+A2C93685800 variation (third PCB footprint - minor difference from above)
 
 ## 198 pin
 
 Ford 2014-2017, Volvo V90 T5 2.0T
 
-<https://www.ebay.com/itm/334331453305>
+<https://rusefi.com/#shop>
 
 ## 200 pin
 

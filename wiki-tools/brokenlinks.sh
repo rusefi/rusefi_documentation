@@ -174,7 +174,8 @@ searchfile() {
     if [ -n "$HASH" ] && [ "$URLSTATUS" -eq 0 ]; then
       # Parameters are reversed because we won't always have a URL - we might only have a hash fragment.
       checkhash "$1" "$HASH" "$URL"
-      if [ "$?" -gt 0 ]; then
+	    # Check exit code directly https://www.shellcheck.net/wiki/SC2181
+      if ! checkhash "$1" "$HASH" "$URL"; then
         STATUS=1
       fi
     fi
@@ -202,14 +203,16 @@ for i in $@; do
   fi
 done
 
-export LIST=$(find . -iname "*.md" ! -name '_*')
+# split into 2 commands to avoid masking of return values https://www.shellcheck.net/wiki/SC2155
+LIST=$(find . -iname "*.md" ! -name '_*')
+export LIST
 
 if [ "${#FILES[@]}" -gt 0 ]; then
   STATUS=0
   # Only run `searchfile` on passed-in file names.
   for f in "${FILES[@]}"; do
-    searchfile "$f"
-    if [ "$?" -ne 0 ]; then
+	  # Check exit code directly https://www.shellcheck.net/wiki/SC2181
+    if ! searchfile "$f"; then
       STATUS=1
     fi
   done

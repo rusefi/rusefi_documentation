@@ -22,7 +22,7 @@ Also planning on cross-referencing from the [commaai/opendbc PR #72](https://git
 
 A preliminary list of human vehicle controls to sniff the CAN bus for
 
-* Accelorator pedal
+* Accelerator pedal
 * Brake pedal
 * Steering wheel angle
 * Vehicle headlights

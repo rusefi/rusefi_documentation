@@ -1,14 +1,16 @@
 # Digital Dash
 
+TL,DR: dash situation is not ideal. Open question what is acceptable boot time and what is boot time for each of the options.
+
 We have 4 versions of Digital Dash currently
 
 A-- The Quickest and easiest Digital Dash is TunerStudioMS... And  is described Below
 
-B-- Second  is a PowerTune IMG that is just copied onto a SDcard -- and will boot up PowerTune on a raspberry Pi 3 ... Link [here](https://drive.google.com/file/d/1Mr9GsCZhoa8WZ2HCqsjXC0b3KFDa_3Yp/view?usp=sharing)
+B-- Second  is a PowerTune IMG that is just copied onto a SDcard -- and will boot up PowerTune on a raspberry Pi 3 ... [More details](https://rusefi.com/forum/viewtopic.php?p=41535)
 
 C-- Third is a Custom Digital Gauge cluster... [Link HERE](https://customgt6.com/2021/03/28/custom-digital-gauge-cluster/) ... And here is the [GitHub link for Code](https://github.com/joshellissh/pi-dgc)
 
-D— Fourth is Android tablet or phone running the [Real Dash](http://realdash.net/index.php) App
+D-- Fourth is Android tablet or phone running the [Real Dash](http://realdash.net/index.php) App
 
 ## How to set up a Raspberry Pi with TunerStudio as a Digital Dash
 
@@ -16,7 +18,7 @@ Click the image to watch a video of a Raspberry Pi rusEFI connected display. Ear
 
 [![IMAGE ALT TEXT](https://user-images.githubusercontent.com/5051341/125208727-ee206800-e259-11eb-9600-6cf742fba5a6.jpg)](https://www.youtube.com/watch?v=a0mdhANrIhw "PiDash rusEFI")
 
-## Hardware Needed
+## Hardware Needed to run TunerStudioMS on Pi
 
 Component|Link
 -------|----------

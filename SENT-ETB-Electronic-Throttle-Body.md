@@ -1,5 +1,7 @@
 # SENT Electronic Throttle Body
 
+See also [Vault-Of-Electronic-Throttle-Bodies-ETB](Vault-Of-Electronic-Throttle-Bodies-ETB)
+
 GM uses SENT since 2015ish and Ford uses SENT ETBs/DBW since around 2019ish.
 
 Large [Ford 0280750688](https://youtu.be/AqfWQeWSuPA) 2019 Mustang and Godzilla.
@@ -35,3 +37,9 @@ kit <https://www.bmotorsports.com/shop/product_info.php/products_id/4479>
 <https://github.com/rusefi/rusefi/labels/SENT-protocol> for dev notes.
 
 [SAE J2716-2016.pdf](https://github.com/rusefi/rusefi_documentation/blob/master/PDFs/SAE%20J2716-2016.pdf) is the standard.
+
+## Hardware
+
+At the moment only microRusEFI has SENT capable pins
+
+See https://github.com/rusefi/rusefi/tree/master/firmware/hw_layer/drivers/sent

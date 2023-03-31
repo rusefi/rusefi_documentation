@@ -1,6 +1,9 @@
 # Development Status
 
 WARNING this page is ABANDONED and NOT up to date!!! <https://github.com/rusefi/rusefi_documentation/issues/261>
+
+**Update: 26Mar2023 changes are WIP with the goal to have current features correcly represented!**
+
 This page documents the current development status of rusEFI
 
 The layout here is based on the rusEFI project layout as of 2020/05/31
@@ -17,8 +20,8 @@ Color code meanings:-
 
 [Base Engine](#base-engine)  
 [Fuel](#fuel)  
-[Ignition](#ignition)  
-[Cranking](#cranking)  
+[Ignition](#ignition)
+[Cranking](#cranking)
 [Idle](#idle)  
 [Advanced](#advanced)  
 [Sensors](#sensors)  
@@ -203,11 +206,15 @@ Cranking TPS Multiplier
 
 ## Idle
 
-52.5% complete (10/19)
+complete (11/19)
 
 Idle settings
-(&#x1F536;): Open or closed loop idle  [**4**](https://github.com/rusefi/rusefi/issues/4)  [**599**](https://github.com/rusefi/rusefi/issues/599)  [**975**](https://github.com/rusefi/rusefi/issues/975)  [**1263**](https://github.com/rusefi/rusefi/issues/1263)  
-(&#x1F534;): Instant RPM measurement for smoother idle  
+(&#x1F536;): Open or closed loop idle  
+[**4**](https://github.com/rusefi/rusefi/issues/4)  
+[**599**](https://github.com/rusefi/rusefi/issues/599)  
+[**975**](https://github.com/rusefi/rusefi/issues/975)  
+[**1263**](https://github.com/rusefi/rusefi/issues/1263)  
+(&#x1F49A;): Instant RPM measurement for smoother idle  
 (&#x1F536;): ETB for idle control  
 (&#x1F49A;): Enable/disable idle ignition table  
 (&#x1F49A;): Enable/disable idle fuel table  
@@ -284,7 +291,7 @@ Trigger Inputs
 (&#x1F49A;): Option to invert the inputs  
 
 Other Sensor Inputs  
-(&#x1F534;): Fuel level input  [**219**](https://github.com/rusefi/rusefi/issues/219)  
+(&#x1F536;): Fuel level input  [**219**](https://github.com/rusefi/rusefi/issues/219)  
 (&#x1F536;): Clutch position Switch  
 (&#x1F536;): Throttle up switch  
 (&#x1F536;): Brake pedal pressure  [**415**](https://github.com/rusefi/rusefi/issues/415)  
@@ -533,14 +540,14 @@ Electronic TB Bias Curve
 ETB Pedal to TPS  
 (&#x1F536;): 8x8 ETB pedal transfer map  
 
-Launch Control Settings NOT WORKING  
+Launch Control Settings NOT WORKING
 (&#x1F534;): Launch control [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
-Rolling Launch Settings NOT WORKING  
+Rolling Launch Settings NOT WORKING
 (&#x1F534;): Rolling launch [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
-AntiLag Settings NOT WORKING  
-(&#x1F534;): Anti lag  
+AntiLag Settings
+(&#x1F536;): Anti lag  [**2403**](https://github.com/rusefi/rusefi/issues/2403)
 
 ---
 

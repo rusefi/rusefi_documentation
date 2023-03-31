@@ -1,5 +1,18 @@
 # HOWTO M111 on microRusEFI
 
+See also [Mercedes-OEM-ECU](Mercedes-OEM-ECU)
+
+See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
+
+* Important suggestion: use Honda accelerator pedal position sensor (PPS) in the engine bay not Mercedes pedal position sensor
+  * Honda OE part number: 37971-RBB-003, 37971-PZX-003, 37971-RCA-A01, 37971-RDA-A01
+  * Replace Part Number: 5S8776, APS147, PPS1046, 72-7080, 1802-300281, 2-80046, SU10238, 699-199, 699199.
+  * Connector: 6-way Pigtail for Honda Acura Throttle pedal sensor
+
+* Less important trick: 4 wire GM MAP+IAT
+
+* Less important trick: fuel pressure mod
+
 [Making my 190e More Fun (M111 SC Swap) - Forum](https://rusefi.com/forum/viewtopic.php?t=1692)
 
 [Case info - Forum](https://rusefi.com/forum/viewtopic.php?p=39163#p39163)
@@ -10,7 +23,7 @@
 
 Getting started with the W202 ME2.1 ECU connector
 
-This ECU has a CAR connector with 145 pins that you can find it [here](Images/MB_ME2.1.jpeg)
+This ECU has a CAR connector with 145 pins. Diagram with diagnostic pin assignment can be found [here](Images/MB_ME2.1.jpeg)
 
 How to read the following table:
 
@@ -20,13 +33,13 @@ Pin: Pin number of the connector.
 
 Name: this field was filled from the M111.921 wiring diagram.
 
-Function: some human readbale text.
+Function: some human readable text.
 
-ME2.1 Description: Based on me2.1 documenation what i have found for Alfa Rome.
+ME2.1 Description: Based on me2.1 documenation what I have found for Alfa Rome.
 
 MRE pin: Where to connect the pin (wiring example).
 
-Comments: extra info that i learned during wiring in the ECU.
+Comments: extra info that I learned during wiring in the ECU.
 
 | Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
 | --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
@@ -148,7 +161,7 @@ D |  1  | NC              | function    | MRE pin                          | Com
  E |  28 | CLT GND         | Signal GND  | Coolant temperature sensor earth | MRE pin 21 |
  E |  29 | CLT Signal      | CLT Signal  | Coolant temperature sensor signal| MRE pin 18 (AT1)|
  E |  30 | NC              | | NC | |
- E |  31 | TPS1            | TPS1 signal |Potentiometer - 1 butterfly casing| MRE pin 26 (AV2)|
+ E |  31 | TPS1            | TPS1 signal |Potentiometer - 1 butterfly casing| MRE pin 26 (AV2) or MRE20 |
  E |  32 | TPS GND         | TPS GND     |Earth for potentiometer 1-2 butterfly casing | MRE pin 21 |
  E |  33 | TPS Supply      | 5V TPS supply | Supply for potentiometer 1-2 butterfly casing|MRE pin 44 (5V)|
  E |  34 | TPS2            | TPS2 signal | Potentiometer - 2 butterfly casing | MRE pin 28 (AV10) |
@@ -167,6 +180,8 @@ D |  1  | NC              | function    | MRE pin                          | Com
  E |  47 | MAF Pin 5       | MAF Signal  | Output voltage (signal) - flow meter |MRE pin 24 (AT3) |
  E |  48 | MAF Pin 3       | Signal GND  | Earth - flow meter | MRE pin 21 |
 
+ToDo: add MRE pin assignment for IGN
+
 | Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
 | --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
  F |  1  | ETB-            | | Butterfly casing motor integrated with D.V.L. (-) |MRE pin 8 (ETB-)|
@@ -181,12 +196,12 @@ D |  1  | NC              | function    | MRE pin                          | Com
  F |  10 | NC              | | NC | |
  F |  11 | NC              | | NC | |
  F |  12 | NC              | | NC | |
- F |  13 | IGN1            | | Ignition coil for cyl. 4|| OEM coils cannot be used without external igniter!!
+ F |  13 | IGN1            | | Ignition coil for cyl. 4|| OEM coils require external igniter!!
  F |  14 | NC              | | NC | |
  F |  15 | KL31 (GND)      | | NC | |
  F |  16 | NC              | | NC | |
  F |  17 | NC              | | Ignition coil for cyl. 3 | |
  F |  18 | NC              | | NC | |
  F |  19 | NC              | |Ignition coil for cyl. 5| |
- F |  20 | IGN2            | |Ignition coil for cyl. 1| |  
+ F |  20 | IGN2            | |Ignition coil for cyl. 1| |  OEM coils require external igniter!!
  F |  21 | NC              | |Operation of injection warning light| |
