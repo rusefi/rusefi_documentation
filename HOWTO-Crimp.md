@@ -8,9 +8,8 @@ Strip Length for AWG 22-18 = 6mm
 
 Strip Length for 12-10
 
-Strip Length for 16-14 
+Strip Length for 16-14
 
+Heatsink 3mm cut length = 20mm
 
-Heatsink 3mm cut length = 20mm 
-
-Heatsink 6mm cut length = 30mm 
+Heatsink 6mm cut length = 30mm
