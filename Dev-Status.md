@@ -1,13 +1,12 @@
-# Development Status
+# rusEFI Feature Status
 
-WARNING this page is ABANDONED and NOT up to date!!! <https://github.com/rusefi/rusefi_documentation/issues/261>
+WARNING this page is PARTIALLY out-of-date!!! <https://github.com/rusefi/rusefi_documentation/issues/261>
 
 **Update: 26Mar2023 changes are WIP with the goal to have current features correcly represented!**
+This document should evolve into a table-of-contents (TOC) for rusEFI features (see <https://github.com/rusefi/rusefi_documentation/issues/459>
 
-This page documents the current development status of rusEFI
-
-The layout here is based on the rusEFI project layout as of 2020/05/31
-Links to the overall rusEFI project pages have been retained for ease of quick access to the relevant TS view.
+The layout here is based on the rusEFI Online (REO) navigation menu.
+Links to the overall rusEFI project pages have been retained for ease of quick access to the relevant TunerStudio view.
 
 Color code meanings:-  
 (&#x1F49A;): **_OK to use_** - Working, tested and no ongoing work  
@@ -31,8 +30,6 @@ Color code meanings:-
 ---
 
 ## Base Engine
-
-52% complete (11/21)
 
 Base Engine Settings  
 (&#x1F536;): AlphaN fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299) [**1455**](https://github.com/rusefi/rusefi/issues/1455)  
@@ -80,8 +77,6 @@ Status LEDs
 ## Fuel
 
 Fuel
-
-37.5% complete (9/24)
 
 Injection settings [**1041**](https://github.com/rusefi/rusefi/issues/1041)  
 (&#x1F49A;): Ability to enable/disable injection  
@@ -143,8 +138,6 @@ Engine Load Acceleration Enrichment Taper
 
 ## Ignition
 
-61.5% complete (8/13)
-
 Ignition settings  
 (&#x1F49A;): Ignition enable/disable  
 (&#x1F49A;): Single coil mode  
@@ -176,8 +169,6 @@ Ignition Intake Air Temp correction
 
 Cranking
 
-87.5% complete (14/16)
-
 Cranking Settings  [**285**](https://github.com/rusefi/rusefi/issues/285)  [**314**](https://github.com/rusefi/rusefi/issues/314)  
 (&#x1F49A;): Configurable cranking speed limit  
 (&#x1F49A;): Flood clear  
@@ -205,8 +196,6 @@ Cranking TPS Multiplier
 ---
 
 ## Idle
-
-complete (11/19)
 
 Idle settings
 (&#x1F536;): Open or closed loop idle  
@@ -245,23 +234,21 @@ Warmup Idle multiplier
 
 ## Advanced
 
-0% complete (0/17)
-
 Boost Control  
 (&#x1F536;): Boost control enable/disable
 (&#x1F536;): Open and closed loop boost control
 (&#x1F536;): 8x8 boost target table
 
-(&#x1F534;): Configurable output pin [**815**](https://github.com/rusefi/rusefi/issues/815)
-(&#x1F534;): Configurable PWM frequency  [**815**](https://github.com/rusefi/rusefi/issues/815)  
+(&#x1F534;): Configurable PWM frequency via LUA
 
 General Purpose PWM  
 (&#x1F536;): Configurable GP PWM output pin  [**397**](https://github.com/rusefi/rusefi/issues/397)  
 (&#x1F536;): 8x8 target table  
 (&#x1F536;): Configurable thresholds  
 
-FSIO inputs  
-(&#x1F536;): 4 Selectable FSIO inputs [**369**](https://github.com/rusefi/rusefi/issues/369)  
+Configurable input and output pins
+(&#x1F534;): 4 Selectable inputs
+(&#x1F534;): Configurable output pin
 
 Aux PID  
 (&#x1F536;): Enable/disable Auxiliary PID  [**866**](https://github.com/rusefi/rusefi/issues/866)  
@@ -269,23 +256,12 @@ Aux PID
 (&#x1F536;): Configurable PID PWM frequency  
 (&#x1F536;): Configurable PID settings  
 
-FSIO outputs  
-(&#x1F536;): Massively configurable FSIO outputs  [**111**](https://github.com/rusefi/rusefi/issues/111)  
-
-FSIO Table  
-(&#x1F536;): 4x FSIO target tables  [**111**](https://github.com/rusefi/rusefi/issues/111)  
-
-FSIO Formulas  
-(&#x1F536;): Pre-configured FSIO formulas  [**111**](https://github.com/rusefi/rusefi/issues/111) [**680**](https://github.com/rusefi/rusefi/issues/680)
-
-FSIO Curve  
-(&#x1F536;): 4x FSIO target curves  [**111**](https://github.com/rusefi/rusefi/issues/111)  
+LUA Script
+(&#x1F49A;): Customize or add new funtions via LUA scripting
 
 ---
 
 ## Sensors
-
-55% complete (32/58)  
 
 Trigger Inputs  
 (&#x1F49A;): Selectable cam and crank trigger inputs  
@@ -386,8 +362,6 @@ EGT inputs
 
 ## Controller
 
-45% complete (24/53)  
-
 ECU stimulator  
 (&#x1F49A;): Self stimulation RPM setting  
 (&#x1F49A;): Enable switch for internal MCU self trigger stimulation  
@@ -441,7 +415,7 @@ Connection
 (&#x1F49A;): TunerStudio communication configuration  
 (&#x1F49A;): CANBUS communication configuration  
 (&#x1F49A;): Aux serial communication configuration  
-(&#x1F536;): SD card logging configuration  [**942**](https://github.com/rusefi/rusefi/issues/942)  [**1444**](https://github.com/rusefi/rusefi/issues/1444)  [**1463**](https://github.com/rusefi/rusefi/issues/1463)  
+(&#x1F536;): SD card logging configuration
 (&#x1F534;): GPS module communication configuration  [**21**](https://github.com/rusefi/rusefi/issues/21)  
 
 TLE8888  
