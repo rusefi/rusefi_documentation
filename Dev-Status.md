@@ -248,11 +248,12 @@ Warmup Idle multiplier
 0% complete (0/17)
 
 Boost Control  
-(&#x1F534;): Boost control enable/disable  [**815**](https://github.com/rusefi/rusefi/issues/815)  [**1153**](https://github.com/rusefi/rusefi/issues/1153)  
-(&#x1F534;): Open and closed loop boost control  [**815**](https://github.com/rusefi/rusefi/issues/815)  
-(&#x1F534;): Configurable output pin [**815**](https://github.com/rusefi/rusefi/issues/815)  
+(&#x1F536;): Boost control enable/disable
+(&#x1F536;): Open and closed loop boost control
+(&#x1F536;): 8x8 boost target table
+
+(&#x1F534;): Configurable output pin [**815**](https://github.com/rusefi/rusefi/issues/815)
 (&#x1F534;): Configurable PWM frequency  [**815**](https://github.com/rusefi/rusefi/issues/815)  
-(&#x1F534;): 8x8 boost target table  [**815**](https://github.com/rusefi/rusefi/issues/815)  
 
 General Purpose PWM  
 (&#x1F536;): Configurable GP PWM output pin  [**397**](https://github.com/rusefi/rusefi/issues/397)  
