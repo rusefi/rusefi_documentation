@@ -12,7 +12,7 @@ Please double check the version before updating your firmware, or your settings 
 
 [Proteus](Proteus-Manual#software)
 
-[STM32 Discovery Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_default.zip)
+[STM32 Discovery Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_f407-discovery.zip)
 
 ## Hellen Family Boards
 
