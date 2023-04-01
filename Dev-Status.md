@@ -86,6 +86,7 @@ Injection settings [**1041**](https://github.com/rusefi/rusefi/issues/1041)
 (&#x1F49A;): Simultaneous fuel mode  
 (&#x1F536;): Single point fuel mode  
 (&#x1F49A;): Configurable Injector output pins
+(&#x1F534;): Per cylinder fuel trim
 
 Injector dead time  
 (&#x1F536;): Injection dead time (latency) compensation [**275**](https://github.com/rusefi/rusefi/issues/275)  
@@ -537,8 +538,6 @@ The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/L
 (&#x1F534;): Trigger pattern auto detect  [**418**](https://github.com/rusefi/rusefi/issues/418)  
 (&#x1F534;): Flex fuel sensor  [**540**](https://github.com/rusefi/rusefi/issues/540)  
 (&#x1F534;): Multiple crank pattern sync [**679**](https://github.com/rusefi/rusefi/issues/679)  
-(&#x1F534;): Per cylinder fuel trim [**342**](https://github.com/rusefi/rusefi/issues/342)  
-(&#x1F534;): Per cylinder fuel trim [**342**](https://github.com/rusefi/rusefi/issues/342)  
 (&#x1F534;): Fuel consumption [**45**](https://github.com/rusefi/rusefi/issues/45)  
 (&#x1F534;): Per injector performance correction [**95**](https://github.com/rusefi/rusefi/issues/95)  
 (&#x1F534;): Instant crank speed [**135**](https://github.com/rusefi/rusefi/issues/135)  [**343**](https://github.com/rusefi/rusefi/issues/343)  [**329**](https://github.com/rusefi/rusefi/issues/329)  [**936**](https://github.com/rusefi/rusefi/issues/936)  
