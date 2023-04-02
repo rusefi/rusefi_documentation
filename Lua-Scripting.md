@@ -55,6 +55,11 @@ function onTick()
 end
 ```
 
+### Editing Scripts
+
+To ease editing a LUA script an editor that supports Language Server Protocol (LSP) is highly recommended.
+For an option see [LuaLS/lua-language-server](https://github.com/LuaLS/lua-language-server#install)
+
 ## Hooks/Function Reference
 
 ### User Settings
