@@ -32,21 +32,21 @@ Color code meanings:-
 ## Base Engine
 
 Base Engine Settings  
-(&#x1F536;): AlphaN fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299) [**1455**](https://github.com/rusefi/rusefi/issues/1455)  
+(&#x1F536;): AlphaN fuel strategy  
 (&#x1F49A;): Speed Density fuel strategy  
-(&#x1F536;): MAF fuel strategy  [**1299**](https://github.com/rusefi/rusefi/issues/1299)  [**1472**](https://github.com/rusefi/rusefi/issues/1472)  
+(&#x1F536;): MAF fuel strategy  
 (&#x1F49A;): Firing orders  
 (&#x1F49A;): RPM limit  
 (&#x1F49A;): Boost Limit  
 
-Trigger [**974**](https://github.com/rusefi/rusefi/issues/988)  
+Trigger [**988** documentation issue](https://github.com/rusefi/rusefi/issues/988)  
 (&#x1F49A;): Trigger Patterns  
 (&#x1F49A;): VR and Hall support  
-(&#x1F536;): Basic VVT support [**607**](https://github.com/rusefi/rusefi/issues/606)  [**707**](https://github.com/rusefi/rusefi/issues/707)  [**844**](https://github.com/rusefi/rusefi/issues/844)  [**883**](https://github.com/rusefi/rusefi/issues/883)  [**1368**](https://github.com/rusefi/rusefi/issues/1368)  
+(&#x1F536;): Basic VVT support  
 
 Battery and Alternator Settings  
 (&#x1F49A;): Vbatt display and logging  
-(&#x1F536;): Alternator Control  [**262**](https://github.com/rusefi/rusefi/issues/262)  [**272**](https://github.com/rusefi/rusefi/issues/277)  
+(&#x1F536;): Alternator Control  [**262**](https://github.com/rusefi/rusefi/issues/262)  
 (&#x1F536;): Button engine start
 
 Main relay output  
