@@ -247,9 +247,9 @@ General Purpose PWM
 (&#x1F536;): 8x8 target table  
 (&#x1F536;): Configurable thresholds  
 
-Configurable input and output pins
-(&#x1F534;): 4 Selectable inputs
-(&#x1F534;): Configurable output pin
+Configurable input and output pins  
+(&#x1F534;): 4 Selectable inputs  
+(&#x1F534;): Configurable output pin  
 
 Aux PID  
 (&#x1F536;): Enable/disable Auxiliary PID  [**866**](https://github.com/rusefi/rusefi/issues/866)  
