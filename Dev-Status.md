@@ -253,7 +253,6 @@ Configurable input and output pins
 
 Aux PID  
 (&#x1F536;): Enable/disable Auxiliary PID  [**866**](https://github.com/rusefi/rusefi/issues/866)  
-(&#x1F536;): Configurable FSIO pins  
 (&#x1F536;): Configurable PID PWM frequency  
 (&#x1F536;): Configurable PID settings  
 
@@ -440,7 +439,6 @@ MIL pin config
 Fan pin config  
 Main relay pin config  
 Starter relay pin config  
-FSIO pin config  
 GPS pin config  
 CAN pin config  
 MOSI pin config  
@@ -453,7 +451,6 @@ Running status light pin config
 
 All Pins 2 of 3  - Not marking these as they are duplicates
 Injection pin config  
-FSIO digital input pin config  
 Ignition pin config  
 Output pin config  
 LCD pin config  
