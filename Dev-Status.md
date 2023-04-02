@@ -491,8 +491,8 @@ Multispark
 (&#x1F536;): Enable/disable multi spark  [**327**](https://github.com/rusefi/rusefi/issues/327)  
 (&#x1F536;): Multi spark config  
 
-GDI Dreams  
-(&#x1F534;): MC33816_cs GDI config  [**784**](https://github.com/rusefi/rusefi/issues/784)  [**1448**](https://github.com/rusefi/rusefi/issues/1448)  [**1450**](https://github.com/rusefi/rusefi/issues/1450)  
+GDI Dreams  see [GDI-status](GDI-status)
+(&#x1F534;): MC33816_cs GDI config  [**1448**](https://github.com/rusefi/rusefi/issues/1448)  
 
 HIP9011 Settings (knock decoder)  
 (&#x1F534;): HIP9011 Knock control enable/disable  [**35**](https://github.com/rusefi/rusefi/issues/35)  [**603**](https://github.com/rusefi/rusefi/issues/603)  
@@ -529,7 +529,6 @@ AntiLag Settings
 Everything in this section is implied to be non functional as they are all upcoming features with little or no implementation in the code yet.  
 The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/List_of_vaporware)
 
-(&#x1F534;): GDI ```[Tickets held with the GDI settings]()```  
 (&#x1F534;): Infinite variable VVT  ```[Tickets held with the simple VVT entry]()```  
 (&#x1F534;): Auto tune injector dead times  [**492**](https://github.com/rusefi/rusefi/issues/492)  
 (&#x1F534;): Trigger pattern auto detect  [**418**](https://github.com/rusefi/rusefi/issues/418)  
