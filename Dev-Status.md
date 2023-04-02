@@ -84,9 +84,9 @@ Injection settings [**1041**](https://github.com/rusefi/rusefi/issues/1041)
 (&#x1F49A;): Two wire batch emulation  
 (&#x1F49A;): Sequential fuel mode  
 (&#x1F49A;): Simultaneous fuel mode  
+(&#x1F49A;): Configurable Injector output pins  
 (&#x1F536;): Single point fuel mode  
-(&#x1F49A;): Configurable Injector output pins
-(&#x1F534;): Per cylinder fuel trim
+(&#x1F536;): Per cylinder fuel trim
 
 Injector dead time  
 (&#x1F536;): Injection dead time (latency) compensation [**275**](https://github.com/rusefi/rusefi/issues/275)  
@@ -188,7 +188,7 @@ Cranking Settings  [**285**](https://github.com/rusefi/rusefi/issues/285)  [**31
 Cranking Coolant Temperature Multiplier  
 (&#x1F49A;): Cranking fuel coolant multiplier  
 
-Cranking Duration Multiplier
+Cranking Duration Multiplier  
 (&#x1F49A;): Cranking duration based fuel multiplier  
 
 Cranking TPS Multiplier  
@@ -198,7 +198,7 @@ Cranking TPS Multiplier
 
 ## Idle
 
-Idle settings
+Idle settings  
 (&#x1F536;): Open or closed loop idle  
 [**4**](https://github.com/rusefi/rusefi/issues/4)  
 [**599**](https://github.com/rusefi/rusefi/issues/599)  
@@ -236,9 +236,9 @@ Warmup Idle multiplier
 ## Advanced
 
 Boost Control  
-(&#x1F536;): Boost control enable/disable
-(&#x1F536;): Open and closed loop boost control
-(&#x1F536;): 8x8 boost target table
+(&#x1F536;): Boost control enable/disable  
+(&#x1F536;): Open and closed loop boost control  
+(&#x1F536;): 8x8 boost target table  
 
 (&#x1F534;): Configurable PWM frequency via LUA
 
@@ -256,7 +256,7 @@ Aux PID
 (&#x1F536;): Configurable PID PWM frequency  
 (&#x1F536;): Configurable PID settings  
 
-LUA Script
+LUA Script  
 (&#x1F49A;): Customize or add new funtions via LUA scripting
 
 ---
@@ -415,7 +415,7 @@ Connection
 (&#x1F49A;): TunerStudio communication configuration  
 (&#x1F49A;): CANBUS communication configuration  
 (&#x1F49A;): Aux serial communication configuration  
-(&#x1F536;): SD card logging configuration
+(&#x1F536;): SD card logging configuration  
 (&#x1F534;): GPS module communication configuration  [**21**](https://github.com/rusefi/rusefi/issues/21)  
 
 TLE8888  
@@ -513,14 +513,14 @@ Electronic TB Bias Curve
 ETB Pedal to TPS  
 (&#x1F536;): 8x8 ETB pedal transfer map  
 
-Launch Control Settings NOT WORKING
+Launch Control Settings  
 (&#x1F534;): Launch control [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
-Rolling Launch Settings NOT WORKING
+Rolling Launch Settings  
 (&#x1F534;): Rolling launch [**203**](https://github.com/rusefi/rusefi/issues/203)  
 
-AntiLag Settings
-(&#x1F536;): Anti lag  [**2403**](https://github.com/rusefi/rusefi/issues/2403)
+AntiLag Settings  
+(&#x1F536;): Anti lag  
 
 ---
 
