@@ -529,8 +529,8 @@ AntiLag Settings
 Everything in this section is implied to be non functional as they are all upcoming features with little or no implementation in the code yet.  
 The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/List_of_vaporware)
 
-(&#x1F534;): GDI ```[Tickets held with the GDI settings]()```
-(&#x1F534;): Infinite variable VVT  ```[Tickets held with the simple VVT entry]()```
+(&#x1F534;): GDI ```[Tickets held with the GDI settings]()```  
+(&#x1F534;): Infinite variable VVT  ```[Tickets held with the simple VVT entry]()```  
 (&#x1F534;): Auto tune injector dead times  [**492**](https://github.com/rusefi/rusefi/issues/492)  
 (&#x1F534;): Trigger pattern auto detect  [**418**](https://github.com/rusefi/rusefi/issues/418)  
 (&#x1F534;): Flex fuel sensor  [**540**](https://github.com/rusefi/rusefi/issues/540)  
