@@ -10,6 +10,8 @@ Coils 7282-8120-40
 
 88 pin female cover 1928402028 housing 1928401587
 
+25 pin 61131387108
+
 3 pin coil female 1724478 12521724478
 
 ![image](https://user-images.githubusercontent.com/48498823/229413007-822db5fc-97bb-487f-8a08-13588a20236b.png)
