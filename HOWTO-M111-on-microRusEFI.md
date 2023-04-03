@@ -129,56 +129,56 @@ D |  1  | NC              | function    | MRE pin                          | Com
  D |  23 | NC              | | Break Sw             | |
  D |  24 | NC              | | Cruise Control deactivation | |
 
-| Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin                        | Comments |
-| --------- | ---------- |----- | -------- | ----------------- | ----------------------------- | --------- |
- E |  1  | NC              | | Injector cyl. 3 | |
- E |  2  | NC              | | Injector cyl. 6 | |
- E |  3  | NC              | | NC | |
- E |  4  | VVT LSS         | VVT coil LSS | Air conditioning compressore relay feed   | MRE pin 7 (LS1)| On My variant this is VVT, on other OEMs it is compressore clutch.
- E |  5  | NC              | | NC | |
- E |  6  | NC              | | NC | |
- E |  7  | NC              | | NC | |
- E |  8  | NC              | | NC | |
- E |  9  | NC              | | NC | |
- E |  10 | NC              | | Cruise control on warning light| |
- E |  11 | NC              | | NC | |
- E |  12 | NC              | | NC | |
- E |  13 | Injector 4      | Injector 4  | Injector cyl. 2 |MRE pin 42 (INJ4) |
- E |  14 | Injector 2      | Injector 2  | Injector cyl. 5 |MRE pin 38 (INJ2) |
- E |  15 | NC              | | Air conditioning pressure switch 1st stage | |
- E |  16 | NC              | | NC | |
- E |  17 | Oil Switch      | Oil Level Switch | Air conditioning pressure switch 2nd stage | MRE pin | In case this is used, it must be connected to a temperature input. This way we have a pull up inside MRE and this switch would drive the line low.
- E |  18 | NC              | | NC | |
- E |  19 | NC              | | NC | |
- E |  20 | NC              | | NC | |
- E |  21 | NC              | | Air conditioning request switch | |
- E |  22 | NC              | | NC | |
- E |  23 | NC              | | Sport throttle response switch | |
- E |  24 | NC              | | Sport throttle response switch earth | |
- E |  25 | Injector 1      | Injector 1  | Injector cyl. 1 | MRE pin 37 (INJ1)|
- E |  26 | Injector 3      | Injector 3  | Injector cyl. 4 | MRE pin 41 (INJ3)|
- E |  27 | NC              | | NC | |
- E |  28 | CLT GND         | Signal GND  | Coolant temperature sensor earth | MRE pin 21 |
- E |  29 | CLT Signal      | CLT Signal  | Coolant temperature sensor signal| MRE pin 18 (AT1)|
- E |  30 | NC              | | NC | |
- E |  31 | TPS1            | TPS1 signal |Potentiometer - 1 butterfly casing| MRE pin 26 (AV2) or MRE20 |
- E |  32 | TPS GND         | TPS GND     |Earth for potentiometer 1-2 butterfly casing | MRE pin 21 |
- E |  33 | TPS Supply      | 5V TPS supply | Supply for potentiometer 1-2 butterfly casing|MRE pin 44 (5V)|
- E |  34 | TPS2            | TPS2 signal | Potentiometer - 2 butterfly casing | MRE pin 28 (AV10) |
- E |  35 | NC              | | NC | |
- E |  36 | NC              | | NC | |
- E |  37 | CKP-            | VR-         | Rpm sensor (-) | MRE pin 46 (VR-)|
- E |  38 | CKP+            | VR+         | Rpm sensor (+) | MRE pin 45 (VR+)|
- E |  39 | CAM-            | CAM Sensor GND | Timing sensor earths| MRE pin 21 | CAM supply in factory harness 12V
- E |  40 | CAM+            | CAM Signal  | Timing sensor signal | MRE pin 25 (CAM) |
- E |  41 | KNOCK-          | |Earth for detonation sensor 1 (cylinders 1-4-5)| MRE pin |  
- E |  42 | KNOCK+          | |Signal for detonation sensor 1| MRE pin | Usable with diy external circuit.
- E |  43 | NC              | |Earth for detonation sensor 2 (cylinders 2-3-6)| |
- E |  44 | NC              | |Signal for detonation sensor 2 | |
- E |  45 | MAF Pin 1       | IAT Signal  | Air temperature sensor | MRE pin 23 (AT2)|  
- E |  46 | MAF Pin 4       | 5V Supply   | Flow meter - reference voltage 5V | MRE pin 39|  
- E |  47 | MAF Pin 5       | MAF Signal  | Output voltage (signal) - flow meter |MRE pin 24 (AT3) |
- E |  48 | MAF Pin 3       | Signal GND  | Earth - flow meter | MRE pin 21 |
+| Connector | Pin Number | Name | Function | ME2.1 Description | MRE pin            | Comments |
+| --------- | ---------- |----- | -------- | ----------------- |--------------------| --------- |
+ E |  1  | NC              | | Injector cyl. 3 |                    |
+ E |  2  | NC              | | Injector cyl. 6 |                    |
+ E |  3  | NC              | | NC |                    |
+ E |  4  | VVT LSS         | VVT coil LSS | Air conditioning compressore relay feed   | MRE pin 7 (LS1)    | On My variant this is VVT, on other OEMs it is compressore clutch.
+ E |  5  | NC              | | NC |                    |
+ E |  6  | NC              | | NC |                    |
+ E |  7  | NC              | | NC |                    |
+ E |  8  | NC              | | NC |                    |
+ E |  9  | NC              | | NC |                    |
+ E |  10 | NC              | | Cruise control on warning light|                    |
+ E |  11 | NC              | | NC |                    |
+ E |  12 | NC              | | NC |                    |
+ E |  13 | Injector 4      | Injector 4  | Injector cyl. 2 | MRE pin 42 (INJ4)  |
+ E |  14 | Injector 2      | Injector 2  | Injector cyl. 5 | MRE pin 38 (INJ2)  |
+ E |  15 | NC              | | Air conditioning pressure switch 1st stage |                    |
+ E |  16 | NC              | | NC |                    |
+ E |  17 | Oil Switch      | Oil Level Switch | Air conditioning pressure switch 2nd stage | MRE pin            | In case this is used, it must be connected to a temperature input. This way we have a pull up inside MRE and this switch would drive the line low.
+ E |  18 | NC              | | NC |                    |
+ E |  19 | NC              | | NC |                    |
+ E |  20 | NC              | | NC |                    |
+ E |  21 | NC              | | Air conditioning request switch |                    |
+ E |  22 | NC              | | NC |                    |
+ E |  23 | NC              | | Sport throttle response switch |                    |
+ E |  24 | NC              | | Sport throttle response switch earth |                    |
+ E |  25 | Injector 1      | Injector 1  | Injector cyl. 1 | MRE pin 37 (INJ1)  |
+ E |  26 | Injector 3      | Injector 3  | Injector cyl. 4 | MRE pin 41 (INJ3)  |
+ E |  27 | NC              | | NC |                    |
+ E |  28 | CLT GND         | Signal GND  | Coolant temperature sensor earth | MRE pin 21         |
+ E |  29 | CLT Signal      | CLT Signal  | Coolant temperature sensor signal| MRE pin 18 (AT1)   |
+ E |  30 | NC              | | NC |                    |
+ E |  31 | TPS1            | TPS1 signal |Potentiometer - 1 butterfly casing| MRE pin 20 (AV5)   |
+ E |  32 | TPS GND         | TPS GND     |Earth for potentiometer 1-2 butterfly casing | MRE pin 21         |
+ E |  33 | TPS Supply      | 5V TPS supply | Supply for potentiometer 1-2 butterfly casing| MRE pin 44 (5V)    |
+ E |  34 | TPS2            | TPS2 signal | Potentiometer - 2 butterfly casing | MRE pin 25 (AV2) |
+ E |  35 | NC              | | NC |                    |
+ E |  36 | NC              | | NC |                    |
+ E |  37 | CKP-            | VR-         | Rpm sensor (-) | MRE pin 46 (VR-)   |
+ E |  38 | CKP+            | VR+         | Rpm sensor (+) | MRE pin 45 (VR+)   |
+ E |  39 | CAM-            | CAM Sensor GND | Timing sensor earths| MRE pin 21         | CAM supply in factory harness 12V
+ E |  40 | CAM+            | CAM Signal  | Timing sensor signal | MRE pin 25 (CAM)   |
+ E |  41 | KNOCK-          | |Earth for detonation sensor 1 (cylinders 1-4-5)| MRE pin            |  
+ E |  42 | KNOCK+          | |Signal for detonation sensor 1| MRE pin            | Usable with diy external circuit.
+ E |  43 | NC              | |Earth for detonation sensor 2 (cylinders 2-3-6)|                    |
+ E |  44 | NC              | |Signal for detonation sensor 2 |                    |
+ E |  45 | MAF Pin 1       | IAT Signal  | Air temperature sensor | MRE pin 23 (AT2)   |  
+ E |  46 | MAF Pin 4       | 5V Supply   | Flow meter - reference voltage 5V | MRE pin 39         |  
+ E |  47 | MAF Pin 5       | MAF Signal  | Output voltage (signal) - flow meter | MRE pin 24 (AT3)   |
+ E |  48 | MAF Pin 3       | Signal GND  | Earth - flow meter | MRE pin 21         |
 
 ToDo: add MRE pin assignment for IGN
 
