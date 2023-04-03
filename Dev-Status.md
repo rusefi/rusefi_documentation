@@ -200,10 +200,6 @@ Cranking TPS Multiplier
 
 Idle settings  
 (&#x1F536;): Open or closed loop idle  
-[**4**](https://github.com/rusefi/rusefi/issues/4)  
-[**599**](https://github.com/rusefi/rusefi/issues/599)  
-[**975**](https://github.com/rusefi/rusefi/issues/975)  
-[**1263**](https://github.com/rusefi/rusefi/issues/1263)  
 (&#x1F49A;): Instant RPM measurement for smoother idle  
 (&#x1F536;): ETB for idle control  
 (&#x1F49A;): Enable/disable idle ignition table  
@@ -240,7 +236,7 @@ Boost Control
 (&#x1F536;): Open and closed loop boost control  
 (&#x1F536;): 8x8 boost target table  
 
-(&#x1F534;): Configurable PWM frequency via LUA
+(&#x1F536;): Configurable PWM frequency via LUA
 
 General Purpose PWM  
 (&#x1F536;): Configurable GP PWM output pin  [**397**](https://github.com/rusefi/rusefi/issues/397)  
@@ -248,8 +244,8 @@ General Purpose PWM
 (&#x1F536;): Configurable thresholds  
 
 Configurable input and output pins  
-(&#x1F534;): 4 Selectable inputs  
-(&#x1F534;): Configurable output pin  
+(&#x1F536;): 4 Selectable inputs  
+(&#x1F536;): Configurable output pin  
 
 Aux PID  
 (&#x1F536;): Enable/disable Auxiliary PID  [**866**](https://github.com/rusefi/rusefi/issues/866)  
@@ -338,11 +334,11 @@ Narrow to Wideband approximation
 (&#x1F534;): Narrow to wideband approximation table  
 
 CJ125 Settings (wbo decoder)  
-(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  [**603**](https://github.com/rusefi/rusefi/issues/603)  [**617**](https://github.com/rusefi/rusefi/issues/617)  
+(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)   
 (&#x1F534;): LSU4.9 sensor select  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select pin  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select mode  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
-(&#x1F534;): SPI settings  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  [**109**](https://github.com/rusefi/rusefi/issues/1109)  
+(&#x1F534;): SPI settings  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 
 Speed sensor  
 (&#x1F49A;): Vehicle speed sensor configuration  
