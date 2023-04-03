@@ -1,6 +1,6 @@
 # rusEFI Firmware Release Process
 
-We have two three of firmware in rusEFI:
+We have three types of firmware builds in rusEFI:
 
 * Release builds more tested monthly-ish. Those do not change often. You can find them on [the download page](Download).
 * Nightly builds are available at [https://github.com/rusefi/rusefi/releases](https://github.com/rusefi/rusefi/releases) along with previous releases.
