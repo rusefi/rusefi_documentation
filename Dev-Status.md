@@ -37,6 +37,8 @@ Base Engine Settings
 (&#x1F536;): MAF fuel strategy  
 (&#x1F49A;): Firing orders  
 (&#x1F49A;): RPM limit  
+(&#x1F536;): Configurable hard cut RPM limit  
+(&#x1F536;): Variable RPM limit based on CLT 
 (&#x1F49A;): Boost Limit  
 
 Trigger [**988** documentation issue](https://github.com/rusefi/rusefi/issues/988)  
@@ -86,13 +88,15 @@ Injection settings [**1041**](https://github.com/rusefi/rusefi/issues/1041)
 (&#x1F49A;): Simultaneous fuel mode  
 (&#x1F49A;): Configurable Injector output pins  
 (&#x1F536;): Single point fuel mode  
-(&#x1F536;): Per cylinder fuel trim
+(&#x1F536;): Per cylinder fuel trim  
+(&#x1F536;): Flex fuel sensor  
 
 Injector dead time  
 (&#x1F536;): Injection dead time (latency) compensation [**275**](https://github.com/rusefi/rusefi/issues/275)  
 
 Fuel short-term closed-loop correction  
 (&#x1F536;): Short term fuel trim enable/disable [**384**](https://github.com/rusefi/rusefi/issues/384)  
+(&#x1F536;): Closed loop fueling  
 CLT thresholds  
 RPM thresholds  
 EGO thresholds  
@@ -172,6 +176,7 @@ Cranking
 
 Cranking Settings  [**285**](https://github.com/rusefi/rusefi/issues/285)  [**314**](https://github.com/rusefi/rusefi/issues/314)  
 (&#x1F49A;): Configurable cranking speed limit  
+(&#x1F534;): Instant crank speed 
 (&#x1F49A;): Flood clear  
 (&#x1F49A;): Faster engine start mode (a smarter cranking logic)  
 (&#x1F49A;): Temperature configurable fuel priming pulse  
@@ -209,6 +214,7 @@ Idle settings
 (&#x1F536;): Extra IAC demand above x% throttle at idle  
 (&#x1F49A;): Manual IAC position (open loop)  
 (&#x1F536;): Idle PID controller  [**501**](https://github.com/rusefi/rusefi/issues/501)  
+(&#x1F536;): Idle switch style TPS support  
 
 Idle hardware  
 (&#x1F536;): Stepper Idle  [**351**](https://github.com/rusefi/rusefi/issues/351)  [**1088**](https://github.com/rusefi/rusefi/issues/1088)  [**1395**](https://github.com/rusefi/rusefi/issues/1391)  
@@ -331,10 +337,10 @@ EGO sensor
 (&#x1F49A;): Calibration drift correction value  
 
 Narrow to Wideband approximation  
-(&#x1F534;): Narrow to wideband approximation table  
+(&#x1F536;): Narrow to wideband approximation table  
 
 CJ125 Settings (wbo decoder)  
-(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)   
+(&#x1F534;): CJ125 (Bosch wide band controller) enable/disable  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): LSU4.9 sensor select  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select pin  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
 (&#x1F534;): CJ125 chip select mode  [**1460**](https://github.com/rusefi/rusefi/issues/1460)  
@@ -351,7 +357,7 @@ Oil pressure
 (&#x1F536;): 2 point oil pressure sensor calibration  
 
 EGT inputs  
-(&#x1F534;): SPI select for EGT via SPI  
+(&#x1F536;): SPI select for EGT via SPI  
 (&#x1F534;): 8x EGT inputs  [**149**](https://github.com/rusefi/rusefi/issues/149)  
 
 ---
@@ -369,6 +375,7 @@ Engine chart size
 Data logging Settings  
 (&#x1F49A;): Debug logging enable setting  
 (&#x1F49A;): Error logging enable setting  
+(&#x1F536;): Race capture integration  
 
 Bench Test and Commands  
 (&#x1F49A;): 8 coil spark bench test  
@@ -479,15 +486,15 @@ TLE8888 pin config
 Aux serial pin config  
 
 Experimental or Broken  
-(&#x1F534;): Global fuel correction coefficient  
-(&#x1F534;): Ignition math logic  
+(&#x1F536;): Global fuel correction coefficient  
+(&#x1F536;): Ignition math logic  
 (&#x1F536;): MAP averaging logic  
 
 Multispark  
 (&#x1F536;): Enable/disable multi spark  [**327**](https://github.com/rusefi/rusefi/issues/327)  
 (&#x1F536;): Multi spark config  
 
-GDI Dreams  see [GDI-status](GDI-status)
+GDI Dreams  see [GDI-status](GDI-status)  
 (&#x1F534;): MC33816_cs GDI config  [**1448**](https://github.com/rusefi/rusefi/issues/1448)  
 
 HIP9011 Settings (knock decoder)  
@@ -499,7 +506,7 @@ Electronic Throttle Body (beta)
 (&#x1F536;): Disable ETB drive motor  
 (&#x1F536;): H-bridge configuration  
 (&#x1F536;): ETB idle settings  
-(&#x1F536;): ETB PID settings
+(&#x1F536;): ETB PID settings  
 (&#x1F536;): ETB autotune  
 (&#x1F536;): TPS auto calibrate  
 
@@ -510,10 +517,10 @@ ETB Pedal to TPS
 (&#x1F536;): 8x8 ETB pedal transfer map  
 
 Launch Control Settings  
-(&#x1F534;): Launch control [**203**](https://github.com/rusefi/rusefi/issues/203)  
+(&#x1F534;): Launch control 
 
 Rolling Launch Settings  
-(&#x1F534;): Rolling launch [**203**](https://github.com/rusefi/rusefi/issues/203)  
+(&#x1F534;): Rolling launch 
 
 AntiLag Settings  
 (&#x1F536;): Anti lag  
@@ -528,22 +535,16 @@ The title is a little developer joke, see [here](https://en.wikipedia.org/wiki/L
 (&#x1F534;): Infinite variable VVT  ```[Tickets held with the simple VVT entry]()```  
 (&#x1F534;): Auto tune injector dead times  [**492**](https://github.com/rusefi/rusefi/issues/492)  
 (&#x1F534;): Trigger pattern auto detect  [**418**](https://github.com/rusefi/rusefi/issues/418)  
-(&#x1F534;): Flex fuel sensor  [**540**](https://github.com/rusefi/rusefi/issues/540)  
 (&#x1F534;): Multiple crank pattern sync [**679**](https://github.com/rusefi/rusefi/issues/679)  
 (&#x1F534;): Fuel consumption [**45**](https://github.com/rusefi/rusefi/issues/45)  
-(&#x1F534;): Per injector performance correction [**95**](https://github.com/rusefi/rusefi/issues/95)  
-(&#x1F534;): Instant crank speed [**135**](https://github.com/rusefi/rusefi/issues/135)  [**343**](https://github.com/rusefi/rusefi/issues/343)  [**329**](https://github.com/rusefi/rusefi/issues/329)  [**936**](https://github.com/rusefi/rusefi/issues/936)  
-(&#x1F534;): Configurable hard cut RPM limit [**192**](https://github.com/rusefi/rusefi/issues/192)  
-(&#x1F534;): Idle switch style TPS support [**209**](https://github.com/rusefi/rusefi/issues/209)  
+(&#x1F534;): Smart ECU: misfire detection on running engine  [**936**](https://github.com/rusefi/rusefi/issues/936)  
+(&#x1F536;): Configurable hard cut RPM limit  
 (&#x1F534;): On ECU autotune [**247**](https://github.com/rusefi/rusefi/issues/247)  
 (&#x1F534;): Dual fuel maps [**289**](https://github.com/rusefi/rusefi/issues/289)  
 (&#x1F534;): Built in Timing Light [**297**](https://github.com/rusefi/rusefi/issues/297)  
 (&#x1F534;): Fan control RPM limit [**310**](https://github.com/rusefi/rusefi/issues/310)  
-(&#x1F534;): Closed loop fueling [**357**](https://github.com/rusefi/rusefi/issues/355)  [**384**](https://github.com/rusefi/rusefi/issues/369)  
 (&#x1F534;): Trigger pattern auto detect [**418**](https://github.com/rusefi/rusefi/issues/418)  
-(&#x1F534;): Variable RPM limit based on CLT [**455**](https://github.com/rusefi/rusefi/issues/455)  
 (&#x1F534;): Limp mode [**468**](https://github.com/rusefi/rusefi/issues/468)  
 (&#x1F534;): Yaw rate sensor support [**613**](https://github.com/rusefi/rusefi/issues/613)  [**932**](https://github.com/rusefi/rusefi/issues/932)  
-(&#x1F534;): Race capture integration [**1163**](https://github.com/rusefi/rusefi/issues/1163)  
 (&#x1F534;): Transmission control [**1454**](https://github.com/rusefi/rusefi/issues/1454)  
 (&#x1F534;):
