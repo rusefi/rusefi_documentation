@@ -18,13 +18,12 @@ GAS_R is gas constant
 
 [MAP sensor processing](http://rusefi.com/docs/html/map__averaging_8cpp.html)
 
-charge_temp is charge temperature heuristic formula: Tcharge = CLT *(1 - Tcharge_coff) + IAT* Tcharge_coff Where Tcharge_coff is interpolated between 0.25 if RPMs are low or throttle is closed to 0.9 if RPMs are high and wide open throttle. See [http://rusefi.com/math/t_charge.html](http://rusefi.com/math/t_charge.html)
+charge_temp (Tcharge) is charge temperature heuristic formula: Tcharge = CLT *(1 - Tcharge_coff) + IAT* Tcharge_coff  
+Where Tcharge_coff is interpolated between 0.25 if RPMs are low or throttle is closed to 0.9 if RPMs are high and wide open throttle. See [http://rusefi.com/math/t_charge.html](http://rusefi.com/math/t_charge.html)
 
-[//]: # "aware this needs more detail or cleaning up, hoping it will hold for now, happy for someone to add to the detail"
+[//]: # "ToDo: aware this needs more detail or cleaning up, hoping it will hold for now, happy for someone to add to the detail"
 
 ## How to tune
 
 The Speed density strategy in rusEFI shares its basic tuning method with all other speed density systems in other aftermarket ECUs.  
 If you are familiar with the tuning of another aftermarket ECU then it is likely the tuning of speed density on rusEFI will be very easy to get into.
-
-[//]: # "OrchardPerformance"
