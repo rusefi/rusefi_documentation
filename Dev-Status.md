@@ -38,7 +38,7 @@ Base Engine Settings
 (&#x1F49A;): Firing orders  
 (&#x1F49A;): RPM limit  
 (&#x1F536;): Configurable hard cut RPM limit  
-(&#x1F536;): Variable RPM limit based on CLT 
+(&#x1F536;): Variable RPM limit based on CLT  
 (&#x1F49A;): Boost Limit  
 
 Trigger [**988** documentation issue](https://github.com/rusefi/rusefi/issues/988)  
@@ -176,7 +176,7 @@ Cranking
 
 Cranking Settings  [**285**](https://github.com/rusefi/rusefi/issues/285)  [**314**](https://github.com/rusefi/rusefi/issues/314)  
 (&#x1F49A;): Configurable cranking speed limit  
-(&#x1F534;): Instant crank speed 
+(&#x1F534;): Instant crank speed  
 (&#x1F49A;): Flood clear  
 (&#x1F49A;): Faster engine start mode (a smarter cranking logic)  
 (&#x1F49A;): Temperature configurable fuel priming pulse  
@@ -517,10 +517,10 @@ ETB Pedal to TPS
 (&#x1F536;): 8x8 ETB pedal transfer map  
 
 Launch Control Settings  
-(&#x1F534;): Launch control 
+(&#x1F534;): Launch control  
 
 Rolling Launch Settings  
-(&#x1F534;): Rolling launch 
+(&#x1F534;): Rolling launch  
 
 AntiLag Settings  
 (&#x1F536;): Anti lag  
