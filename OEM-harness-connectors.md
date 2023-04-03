@@ -26,7 +26,7 @@ Terminal 0035452626
 
 https://www.fcpeuro.com/products/mercedes-plug-contact-female-genuine-mercedes-0035452626
 
-BC3041A 094304
+KOSTAL 9430403 BC3041A 094304
 
 CLT 968405-1/1-967644-1/8K0973202
 
