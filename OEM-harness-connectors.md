@@ -8,6 +8,8 @@ Coils 7282-8120-40
 
 ## BMW
 
+88 pin female cover 1928402028 housing 1928401587
+
 3 pin male 962581 female 282191
 
 ![image](https://user-images.githubusercontent.com/48498823/229411637-5d5e2711-4b9c-4b18-aad4-f319e036c845.png)
