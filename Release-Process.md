@@ -2,7 +2,7 @@
 
 We have two three of firmware in rusEFI:
 
-* Release builds more tested monthly-ish. Those do not change often. You can find them on [the download page](Downloads).
+* Release builds more tested monthly-ish. Those do not change often. You can find them on [the download page](Download).
 * Nightly builds are available at [https://github.com/rusefi/rusefi/releases](https://github.com/rusefi/rusefi/releases) along with previous releases.
 * Snapshot builds available roughly 20 minutes after developers make changes, sometimes more broken. Anything "I've just changed XXX" is a snapshot build.
   The current snapshots are at [https://rusefi.com/build_server/](https://rusefi.com/build_server/).
