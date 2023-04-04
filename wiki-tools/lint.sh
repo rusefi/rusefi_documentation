@@ -8,7 +8,7 @@ if [ "$?" -gt 0 ]; then
   STATUS=1
 fi
 
-if git diff --compact-summary HEAD~1 HEAD | grep -E "=>|\(new\)" >/dev/null; then
+if git diff --compact-summary HEAD~1 HEAD | grep -E "=>|\(new\)|\(gone\)" >/dev/null; then
   bash wiki-tools/brokenlinks.sh -s
   if [ "$?" -gt 0 ]; then
     STATUS=1
