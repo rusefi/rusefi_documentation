@@ -1,10 +1,20 @@
-# VVT
+# VVT: Variable Valve Timing
 
-rusEFI has proper closed-loop VVT valve control. VVT valve closed-loop is implemented via FSIO which is
-not the best usability experience.
-
-At the moment VVT trigger options are one-tooth or Miata NB2. Some software clean-up needs to happen
-to start supporting more trigger options.
+rusEFI has proper closed-loop VVT control, supporting multiple trigger options including:
+ - "one-tooth"
+ - Mazda Miata NB (2nd generation)
+ - Mazda Skyactive
+ - Toyota 2JZ family
+ - Bosch Quick Start
+ - Ford Focus ST 170
+ - Ford Barra: 3+1
+ - Nissan VQ family
+ - Nissan MR18
+ - Honda K family
+ - Mitsubishi 3A92
+ - Mitsubishi 4G92/93/94
+ - Mitsubishi 4G63
+ - Mitsubishi 6G75
 
 At the moment rusEFI has only one channel of VVT position input.
 
