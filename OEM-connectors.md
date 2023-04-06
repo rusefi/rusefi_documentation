@@ -365,7 +365,7 @@ See [http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm
 
 ![72 pin connector](Hardware/connectors/72_pin.png)
 
-Oem ECU `Todo: find [Miata 2001 - 2005](Mazda-Miata-2001)`
+See [Miata 2001 - 2005](Mazda-Miata-2001)
 
 pins 316836?
 pins 316838
@@ -666,7 +666,7 @@ Terminal 175180-1
 175062-1
 175062-2
 
-See `Todo: find [Vault of Honda OEM](Vault-Of-Honda-OEM)`
+See [Vault of Honda OEM](Vault-Of-Honda-OEM)
 
 ## 126 4 row
 
@@ -684,7 +684,7 @@ See `Todo: find [Vault of Honda OEM](Vault-Of-Honda-OEM)`
 
 ![x](OEM-Docs/Mercedes/mercedes_170.png)
 
-`Todo: find [Vault-Of-Mercedes-OEM](Vault-Of-Mercedes-OEM)`
+See [Vault of Mercedes OEM connectors](Vault-Of-Mercedes-OEM)
 
 Bosch 1264486241 1 264 486 241
 
@@ -746,7 +746,7 @@ Female 52 [2209477-1](https://www.te.com/usa-en/product-2209477-1.html)
 
 Female 9 1-965487-1
 
-`Todo: find [Vault-BMW-Info](Vault-BMW-Info)`
+See [Vault-BMW-Info](Vault-BMW-Info)
 
 bmw e38 e46 e65 e66
 
