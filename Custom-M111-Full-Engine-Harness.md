@@ -6,7 +6,7 @@ While harness design is work in progress we use reference point R. R is currentl
 
 R+5 would mean "5cm further away from ECU from point R", "R-5" would mean "5cm closer to ECU"
 
-## Low current subassembly
+## Sensors subassembly
 
 x4 sensor gnd crimp, R+40cm
 x3 sensor +5v crimp, R+40cm
@@ -18,3 +18,17 @@ x3 sensor +5v crimp, R+40cm
 ![x](Images/harness-connectors/mercedes/sensors-assembly-tmap.png)
 
 ![x](Images/harness-connectors/mercedes/sensors-assembly-fuel-pressure.png)
+
+## Actuators subassembly
+
+x4 power gnd crimp, R+45cm
+
+x4 power from main relay +12v crimp, R+45cm
+
+![x](Images/harness-connectors/mercedes/secondary-flap.png)
+
+![x](Images/harness-connectors/mercedes/secondary-vvt.png)
+
+![x](Images/harness-connectors/mercedes/secondary-boost-control.png)
+
+TODO supercharger clutch 200cm green 55cm red
