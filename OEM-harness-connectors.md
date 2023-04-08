@@ -14,9 +14,11 @@ Coils 7282-8120-40
 
 25 pin 61131387108
 
-3 pin coil female 1724478 12521724478
+flat 3 pin coil female 1724478 12521724478
 
 ![image](https://user-images.githubusercontent.com/48498823/229413007-822db5fc-97bb-487f-8a08-13588a20236b.png)
+
+triangle 3 pin coil female [depin](https://www.youtube.com/watch?v=jhwKWWc7YvM)
 
 3 pin male 962581 female 282191
 
