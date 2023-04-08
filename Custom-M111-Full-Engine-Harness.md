@@ -10,3 +10,11 @@ R+5 would mean "5cm further away from ECU from point R", "R-5" would mean "5cm c
 
 x4 sensor gnd crimp, R+40cm
 x3 sensor +5v crimp, R+40cm
+
+![x](Images/harness-connectors/mercedes/sensors-assembly-clt.png)
+
+![x](Images/harness-connectors/mercedes/sensors-assembly-cam.png)
+
+![x](Images/harness-connectors/mercedes/sensors-assembly-tmap.png)
+
+![x](Images/harness-connectors/mercedes/sensors-assembly-fuel-pressure.png)
