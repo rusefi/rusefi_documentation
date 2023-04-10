@@ -1,5 +1,7 @@
 # Notes on fully custom M111 Engine Harness
 
+See also [HOWTO-M111-on-microRusEFI](HOWTO-M111-on-microRusEFI)
+
 ## Reference point
 
 While harness design is work in progress we use reference point R. R is currently 100cm from ECU.
