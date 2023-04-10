@@ -2,6 +2,8 @@
 
 See also [Mercedes-OEM-ECU](Mercedes-OEM-ECU)
 
+See also [Custom-M111-Full-Engine-Harness](Custom-M111-Full-Engine-Harness)
+
 See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
 * Important suggestion: use Honda accelerator pedal position sensor (PPS) in the engine bay not Mercedes pedal position sensor
