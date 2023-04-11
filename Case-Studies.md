@@ -23,7 +23,7 @@ Miata NA
 
 ## Cold start on a Winter day
 
-[Beer Money's Lemon cold start(0c ambient) on E85 - Video](https://youtu.be/wx5dU16RtPU)
+[Lemon cold start(0c ambient) on E85 - Video](https://youtu.be/wx5dU16RtPU)
 
 [Tune](https://rusefi.com/online/view.php?msq=808)
 

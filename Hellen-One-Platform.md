@@ -6,16 +6,16 @@ A number of functional building modules were developed with the intention of eas
 
 Hellen One framework merges modules so that we do not have to sandwich separate PCBs.
 
-|Platform|Purchase| |
-|--------|--------|--|
-|[Miata 90-95](Hellen64-Miata-NA6-94)|[Buy Here](https://www.beermoneymotorsports.com/)|
-|[Miata NB1](Hellen-NB1)|[Buy Here](https://www.beermoneymotorsports.com/)|
-|[72 Pin Miata 01-05](Hellen-NB2)|[Buy Here](https://www.beermoneymotorsports.com/)|
-|[121 Pin VAG](Hellen121VAG)|[![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334048095704)|[open source](https://github.com/rusefi/hellen121vag)|
-|[121 Pin Nissan](Hellen-121-Nissan)|[![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334061645783)|
-|[128 Pin Mercedes](Hellen-128-Mercedes)|[![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334094173341)|
-|[88 Pin BMW](Hellen-88-BMW)|[![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334235601464)|
-|[154 Pin Hyundai](Hellen-154-Hyundai)|soon|[open source](https://github.com/rusefi/hellen154hyundai)|
+|Platform| Purchase                                                                      | |
+|--------|-------------------------------------------------------------------------------|--|
+|[Miata 90-95](Hellen64-Miata-NA6-94)| .                                                                             |
+|[Miata NB1](Hellen-NB1)| .                                                                             |
+|[72 Pin Miata 01-05](Hellen-NB2)| .                                                                             |
+|[121 Pin VAG](Hellen121VAG)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334048095704) |[open source](https://github.com/rusefi/hellen121vag)|
+|[121 Pin Nissan](Hellen-121-Nissan)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334061645783) |
+|[128 Pin Mercedes](Hellen-128-Mercedes)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334094173341) |
+|[88 Pin BMW](Hellen-88-BMW)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334235601464) |
+|[154 Pin Hyundai](Hellen-154-Hyundai)| soon                                                                          |[open source](https://github.com/rusefi/hellen154hyundai)|
 
     **The .ini file for Hellen is loaded onto the Hellen board. 
     When you plug the Hellen into your computer, a "virtual flash drive" will load up. 
