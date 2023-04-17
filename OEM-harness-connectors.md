@@ -107,6 +107,8 @@ GM 12102748 Throttle Position Sensor
 
 ETB 1-967616-1 [replica](https://www.hdconnectorstore.com/productdetail/9515.html)
 
+battery negative terminal sensor MG644146
+
 ## Injectors
 
 https://www.hdconnectorstore.com/productdetail/459.html
