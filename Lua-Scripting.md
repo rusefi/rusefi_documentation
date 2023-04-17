@@ -120,7 +120,7 @@ different people, also useful while Lua script editing is available only in TS.
 #### `setSparkSkipRatio(ratio)`
 
 setSparkSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
-setSparkSkipRatio(0.5) would skip half of ignition events. We never skip two consecutive ignitions.
+setSparkSkipRatio(0.5) would skip half of ignition events. We never skip two consecutive ignitions. #torque
 
 #### `setIdleAdd(percent)`
 
@@ -156,12 +156,12 @@ todo add details but ready to test!
 
 #### `setTimingMult(coeff)`
 
-todo add details but ready to test!
+todo add details but ready to test! #torque
 
 #### `setEtbAdd(percent)`
 
 Amount of ETB to add, as a percent of the wide-open value: e.g. `10` for +10%.  The value is a static amount to add to
-the determined value, e.g. TPS of 5% w/ `10` results in 15% ETB.
+the determined value, e.g. TPS of 5% w/ `10` results in 15% ETB. #torque
 
 ### Timer
 
