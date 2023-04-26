@@ -57,6 +57,10 @@ todo Dron
 
 todo Matt
 
+## Racing
+
+https://www.youtube.com/watch?v=aCy8HEw0FJg
+
 ## Misc Marketing
 
 [NB1 first drive - Video](https://www.youtube.com/watch?v=rxwOemGg5F4)
