@@ -117,3 +117,7 @@ Male connector is only needed when building extension harnesses. The connector o
 | 16 AWG    | Gold    | unavailable | unavailable |
 
 Part numbers provided by and available for purchase at corsa-technic.com individually or as a kit. <https://www.corsa-technic.com/item.php?item_id=1296>
+
+## ADV
+
+TBD?
