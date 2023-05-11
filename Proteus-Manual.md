@@ -1,6 +1,6 @@
 # Proteus Manual
 
-As of Feb 2022 please DM Andrey on the forum, Proteus is in stock just not listed on eBay!
+[in stock at rusEFI store](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)
 
 [New to rusEFI start here](Home)
 
