@@ -130,3 +130,9 @@ At this point you need to power rusEFI device off/on and new firmware version wo
 New firmware version could be confirmed in rusEFI window title - both console and firmware versions are displayed there.
 
 ![img](Support/console_showing_firmware_version.png)
+
+## Pin Reuse
+
+AV6, AV8, AV9 and AV10 are either analog inputs or digital outputs depending on hardware configurations. Corresponding resistors on the board are R86, R84, R30 and R86 respectively.
+
+See https://www.rusefi.com/forum/viewtopic.php?p=47715#p47715
