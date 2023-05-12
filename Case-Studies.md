@@ -93,4 +93,14 @@ Bench setup: VAG ETB on Proteus F7
 
 <https://rusefi.com/online/view.php?msq=969>
 
+## 4chan
+
+4G63
+
+<https://www.youtube.com/watch?v=4byedNVjCFk>
+
+## PnP
+
+<https://youtu.be/NtU9lQqCJ80>
+
 ## GDI
