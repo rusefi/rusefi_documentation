@@ -103,4 +103,8 @@ Bench setup: VAG ETB on Proteus F7
 
 <https://youtu.be/NtU9lQqCJ80>
 
+## e38
+
+<https://www.youtube.com/watch?v=DDtSVctdTf8>
+
 ## GDI
