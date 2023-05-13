@@ -1,6 +1,6 @@
 # Misc harness connectors
 
-See also [Vault-Of-Misc-Supplies](Vault-Of-Misc-Supplies)
+See also [Vault-Of-Misc-Supplies](Vault-Of-Misc-Supplies) ECU headers see [OEM-connectors](OEM-connectors)
 
 ## Denso
 
