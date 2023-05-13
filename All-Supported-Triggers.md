@@ -163,6 +163,10 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ![x](Images/triggers/trigger_TT_VVT_BARRA_3_PLUS_1.png)
 
+### Ford Coyote VVT
+
+![x](Images/triggers/trigger_TT_VVT_FORD_COYOTE.png)
+
 ### Daihatsu
 
 ![x](Images/triggers/trigger_TT_DAIHATSU.png)
