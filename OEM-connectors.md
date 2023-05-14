@@ -609,6 +609,10 @@ JZ
 
 [121 pin connector 368255-2 (same as 1241434-1) - Forum](http://rusefi.com/forum/viewtopic.php?t=208)
 
+81 female plug 1355171-1/368389-1/368382-1/1J0906385C
+
+40 female plug 0-1355172-1/038906379B
+
 Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 2005 Altima 2.5
