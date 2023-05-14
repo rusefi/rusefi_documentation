@@ -2,6 +2,8 @@
 
 ## Designed for 2002 RSX wiring
 
+[buy at rusEFI store](https://www.shop.rusefi.com/shop/p/honda-k-2002-pinout)
+
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-honda-k/)
 
 [Snapshot Bundle](https://rusefi.com/build_server/rusefi_bundle_hellen-honda-k.zip)
