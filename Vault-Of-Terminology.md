@@ -423,6 +423,11 @@ Vehicle speed sensor
 Variable valve timing  
 </details>
 
+<details markdown="1"><summary><u>WBO</u></summary>
+
+Wide Band Oxygen, same as EGO
+</details>
+
 <details markdown="1"><summary><u>WOT</u></summary>
 
 Wide Open Throttle
