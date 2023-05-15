@@ -133,6 +133,6 @@ New firmware version could be confirmed in rusEFI window title - both console an
 
 ## Pin Reuse
 
-AV6, AV8, AV9 and AV10 are either analog inputs or digital outputs depending on hardware configurations. Corresponding resistors on the board are R86, R84, R30 and R86 respectively.
+AV6, AV8, AV9 and AV10 are either analog inputs or digital outputs depending on hardware configurations. Corresponding resistors on the board are R86, R84, R30 and R86 respectively. See [iBom 0.6.0](https://rusefi.com/docs/ibom/micro_rusEFI_R0.6.0.html)
 
 See https://www.rusefi.com/forum/viewtopic.php?p=47715#p47715
