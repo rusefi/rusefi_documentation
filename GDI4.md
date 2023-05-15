@@ -13,6 +13,8 @@
 * Metal case
 * open and short circuit software PENDING
 * build around [MC33PT2001](https://www.nxp.com/docs/en/data-sheet/MC33PT2001_SDS.pdf) chip
+* TC2030 and 0.1" SWD pinout
+* UART
 
 ![x](Hardware/GDI/rusefi-gdi4-rev-a.jpg)
 
