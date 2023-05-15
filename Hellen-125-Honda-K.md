@@ -10,10 +10,9 @@
 
 [Schematics rev C](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-c-schematic.pdf)
 [Schematics rev B](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-b-schematic.pdf)
-[Schematics rev A](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-a-schematic.pdf)
 
+[iBom rev C](https://rusefi.com/docs/ibom/hellen125honda-c-ibom.html)
 [iBom rev B](https://rusefi.com/docs/ibom/hellen125honda-b-ibom.html)
-[iBom rev A](https://rusefi.com/docs/ibom/hellen125honda-a-ibom.html)
 
 For now see [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Honda-K-125-adapter)
 
