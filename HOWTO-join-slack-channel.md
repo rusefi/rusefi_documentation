@@ -9,7 +9,9 @@ Please also read the topic on [distraction.](D-is-for-DISTRACTION). And maybe ev
 
 ## Joining the channel
 
-NEW LINK [https://join.slack.com/t/rusefi/shared_invite/zt-1jay59c0l-idseNjIRg~gU1GNQuimYQw](https://join.slack.com/t/rusefi/shared_invite/zt-1jay59c0l-idseNjIRg~gU1GNQuimYQw)
+Magic link [https://join.slack.com/t/rusefi/shared_invite/zt-1vlv7fm6a-_sAO4Qhjr1FH_Zk_kx9Nzw](https://join.slack.com/t/rusefi/shared_invite/zt-1vlv7fm6a-_sAO4Qhjr1FH_Zk_kx9Nzw)
+
+(Please post on the forum if the link expires, we have to manually update every month)
 
 To get started you'll have to get the invite to our channel, you can do that using the link above.
 
