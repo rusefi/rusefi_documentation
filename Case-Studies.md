@@ -112,3 +112,10 @@ Bench setup: VAG ETB on Proteus F7
 <https://www.youtube.com/watch?v=DDtSVctdTf8>
 
 ## GDI
+
+TBD
+
+## 2 stroke
+
+<https://www.youtube.com/watch?v=QTKHlRsIBIA>
+
