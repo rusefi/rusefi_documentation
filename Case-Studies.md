@@ -103,7 +103,7 @@ Bench setup: VAG ETB on Proteus F7
 
 <https://www.youtube.com/watch?v=4byedNVjCFk>
 
-## PnP
+## 350z 121 Nissan PnP
 
 <https://youtu.be/NtU9lQqCJ80>
 
