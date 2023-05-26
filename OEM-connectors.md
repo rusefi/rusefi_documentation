@@ -585,6 +585,14 @@ me17.3.0
 harness side 1928405160
              1928405161
 
+## 119 pin
+
+35+26+30+28
+
+MX7-119PL
+
+2014 Mitsubishi Mirage
+
 ## 120 pin
 
 [TE 1-178405-6](http://www.te.com/usa-en/product-1-178405-6.html)
