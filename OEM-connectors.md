@@ -61,6 +61,16 @@ Color: Grey  Key: B Part: HCCPHPE24GYB90F
 
 ADM 22RE
 
+## 32 pin
+
+MEFI 1/2/3/4, some 6.0 Ford, EMS4
+
+Activ Micro Pack 100w
+
+Aptiv 12129231
+
+12084912 terminal 
+
 ## 34 pin
 
 Superseal 6437288-1 and 6437288-2 male
