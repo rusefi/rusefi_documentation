@@ -69,7 +69,7 @@ Activ Micro Pack 100w
 
 Aptiv 12129231
 
-12084912 terminal 
+12084912 terminal
 
 ## 34 pin
 
