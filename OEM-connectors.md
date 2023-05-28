@@ -572,7 +572,7 @@ Molex 64333-0100
 
 F01R 20D 067 2050900-1
 
-## 112 pin Mitsu 64+48 
+## 112 pin Mitsu 64+48
 
 Lancer Evolution X, Outlander
 
