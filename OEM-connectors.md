@@ -496,6 +496,8 @@ header
 
 harness side 1924939-1 [3-1924939-5](https://www.te.com/usa-en/product-3-1924939-5.html) [1924941-2](https://www.te.com/usa-en/product-1924941-2.html)
 
+Maybe relevant maybe not? 13964572 15494614 13627884 13627887 13627886
+
 ## 100 pin
 
 34-22-16-28 pins
