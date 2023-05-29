@@ -37,9 +37,11 @@ Please double check the version before updating your firmware, or your settings 
 
 ## Advanced
 
-[Older Releases](https://github.com/rusefi/rusefi/releases/)
+[Older Releases](https://github.com/rusefi/rusefi/releases?q=prerelease%3Afalse)
 
-[Snapshot builds](https://rusefi.com/build_server/)
+[Nightly Builds](https://github.com/rusefi/rusefi/releases?q=prerelease%3Atrue)
+
+[Snapshot Builds](https://rusefi.com/build_server/)
 
 **[Quick Start](HOWTO-quick-start)**
 
