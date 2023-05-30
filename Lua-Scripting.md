@@ -122,6 +122,11 @@ different people, also useful while Lua script editing is available only in TS.
 setSparkSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
 setSparkSkipRatio(0.5) would skip half of ignition events. We never skip two consecutive ignitions. #torque
 
+#### `setSparkHardSkipRatio(ratio)`
+
+setSparkHardSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
+setSparkHardSkipRatio(0.75) would skip 75% of ignition events. #torque
+
 #### `setIdleAdd(percent)`
 
 Percent to add to idle (incl. open loop).
