@@ -33,12 +33,6 @@
 
 ## Hardware features
 
-*
-*
-*
-*
-*
-*
 ![x](Hardware/Hellen/hellen121nissan-rev-D-with-connector.jpg)
 ![x](Hardware/Hellen/hellen121nissan-rev-B-with-connector.jpg)
 
