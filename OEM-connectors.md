@@ -891,6 +891,8 @@ TE 1717313-8
 
 Toyota Camry 2008 Yaris 2008
 
+[Breakout Available](https://rusefi.com/#shop)
+
 ## 186 pin
 
 Toyota/Lexus 2013
