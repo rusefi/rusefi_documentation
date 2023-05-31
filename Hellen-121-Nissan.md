@@ -74,9 +74,9 @@
 | P67 | Analog pull down | |
 | P68 | Analog pull down | |
 | P69 | Analog pull down | |
-| P70 | Discrete pull up | |
-| P71 | Discrete pull up | |
-| P72 | Discrete pull down | |
+| DIN1 | Discrete input  | |
+| DIN2 | Discrete input  | |
+| DIN3 | Discrete input  | |
 
 ## Vehicle Specific Jumpers
 
