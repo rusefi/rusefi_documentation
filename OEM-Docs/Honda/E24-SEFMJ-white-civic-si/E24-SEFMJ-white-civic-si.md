@@ -36,6 +36,8 @@ E24-SEFMJ-white-civic-si-logicdata.zip has all the raw data as saleae https://su
 
 E24-SEFMJ-white-civic-si-csv.zip has same data exported as timestamp,byte value pairs
 
+SEFMJ traces.xlsx same data in Excel spreadsheet, but combined into packets based on inter-byte delays.
+
 3-door-open-wakes-bus-up opening door waking up SEFMJ
 
 6-high-rpm idle at around 2K RPM hoping for CLT to go up
@@ -43,3 +45,14 @@ E24-SEFMJ-white-civic-si-csv.zip has same data exported as timestamp,byte value 
 7-ac-on-off pressing/depressing A/C button a few times
 
 ![image](https://user-images.githubusercontent.com/48498823/224524984-d926c878-4eca-4196-8265-8a69c9910193.png)
+
+# Data analysis
+
+* This data contains three packet types. Probably, two of them belongs to BCM (type 0 and 1) and one to ECU (type 2).
+* Packet type encoded in lower nibble of first byte (now I have no ideas, what is encoded in second one).
+* Packet size is fixed and depends on it type (there is no any 'packet length' field).
+* All packets contains CRC with a such parameters: `width=8  poly=0x1d  init=0xff  refin=true  refout=true  xorout=0xff` (according to RevEng tool).
+* Packet type 1 always presents in bus (if it not in a sleep mode), packet 0 appears only on some events (?), packet 2 depends on ignition state.
+* Looks like BCM starts communication with a packet 1 or pair of packets 0 and 1 and after small delay (about 2 ms) ECU sends packet type 2, after 5 ms this cycle repeats.
+* Probably, engine temperature encoded in byte 3 (starting from 0) in packet 2. Calculation formula is not clear (probably, it presens as is, in celsius degrees).
+* Maybe AC button press cause sending several packets 0. Behavior in a real car is a definitely different from experiments 'on a table'.
