@@ -5,3 +5,7 @@
 https://www.arterychip.com/en/product/AT32F435.jsp for ICP tool
 
 https://github.com/rusefi/ChibiOS/commits/stable_20.3.x.rusefi for demo binaries
+
+## OpenOCD
+
+https://github.com/ArteryTek/openocd or https://github.com/dron0gus/openocd?
