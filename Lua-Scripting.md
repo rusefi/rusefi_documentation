@@ -326,7 +326,7 @@ Puts MCU into standby low current consumption mode.
 
 #### `getSensor(name)`
 
-Reads the specified sensor.
+Reads the specified sensor. For instance ``getSensor("AcceleratorPedal")``
 
 - Parameters
   - `name`: Name of the sensor to read.  [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
