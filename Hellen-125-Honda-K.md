@@ -8,9 +8,11 @@
 
 [Snapshot Bundle](https://rusefi.com/build_server/rusefi_bundle_hellen-honda-k.zip)
 
+[Schematics rev D](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-d-schematic.pdf)
 [Schematics rev C](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-c-schematic.pdf)
 [Schematics rev B](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-b-schematic.pdf)
 
+[iBom rev C](https://rusefi.com/docs/ibom/hellen125honda-d-ibom.html)
 [iBom rev C](https://rusefi.com/docs/ibom/hellen125honda-c-ibom.html)
 [iBom rev B](https://rusefi.com/docs/ibom/hellen125honda-b-ibom.html)
 
