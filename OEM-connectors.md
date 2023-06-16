@@ -937,6 +937,8 @@ A2C93685800 variation (third PCB footprint - minor difference from above)
 
 ## 198 pin
 
+103+95
+
 Ford 2014-2017, Volvo V90 T5 2.0T
 
 <https://rusefi.com/#shop>
