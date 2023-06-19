@@ -1,4 +1,4 @@
-# Scion 1NZ-FE
+# Scion-1NZ-FE
 
 Tune https://rusefi.com/online/view.php?msq=1448
 
