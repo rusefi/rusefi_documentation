@@ -8,4 +8,6 @@
 * x3 analog inputs
 * x3 digital inputs
 
+[Interactive pinout](https://rusefi.com/docs/pinouts/hellen/small-can-board/)
+
 [Schematics rev A](https://rusefi.com/docs/ibom/small-can-board-a-ibom.html)
