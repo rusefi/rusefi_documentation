@@ -3,11 +3,15 @@
 * Two CAN buses
 * CANbus wake-up
 * LIN/K-line
+* Bluetooth
+* SD card
 * SENT input
 * x4 high current low side outputs
 * x3 analog inputs
 * x3 digital inputs
+* TC2030 debugging header
+* aux USB header
 
-[Interactive pinout](https://rusefi.com/docs/pinouts/hellen/small-can-board/)
+[Schematics rev A](https://rusefi.com/docs/ibom/small-can-board-a-ibom.html)
 
 [Schematics rev A](https://rusefi.com/docs/ibom/small-can-board-a-ibom.html)
