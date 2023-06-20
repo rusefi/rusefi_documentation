@@ -6,6 +6,7 @@
 * CANbus wake-up
 * LIN/K-line
 * Bluetooth
+* USB-C
 * SD card
 * SENT input
 * x4 high current low side outputs
@@ -13,6 +14,7 @@
 * x3 digital inputs
 * TC2030 debugging header
 * aux USB header
+* PROG button to enter DFU mode
 
 [Schematics rev A](https://rusefi.com/docs/ibom/small-can-board-a-ibom.html)
 
