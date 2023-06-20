@@ -6,6 +6,7 @@
 * CANbus wake-up
 * LIN/K-line
 * Bluetooth
+* USB-C
 * SD card
 * SENT input
 * x4 high current low side outputs
