@@ -1,6 +1,6 @@
 # Small CAN Board
 
-* Full rusEFI firmware with Lua running stm32f405
+* Full rusEFI firmware with Lua running stm32f405 LQFP-64
 * Two CAN buses
 * Low standby power consumption below 0.003A
 * CANbus wake-up
