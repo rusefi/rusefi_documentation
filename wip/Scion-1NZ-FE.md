@@ -2,7 +2,7 @@
 
 Tune https://rusefi.com/online/view.php?msq=1448
 
-``
+```
     // default "false"
     engineConfiguration->twoWireBatchInjection = true;
     // default "Single Coil"
@@ -70,13 +70,13 @@ Tune https://rusefi.com/online/view.php?msq=1448
     // default 0.0
     engineConfiguration->tps2SecondaryMax = 1000.0;
     // default 0.0
-    engineConfiguration->throttlePedalUpVoltage = 0.75978154;
+x    engineConfiguration->throttlePedalUpVoltage = 0.759782;
     // default 5.0
-    engineConfiguration->throttlePedalWOTVoltage = 4.0729127;
+    engineConfiguration->throttlePedalWOTVoltage = 4.072913;
     // default 5.0
-    engineConfiguration->throttlePedalSecondaryUpVoltage = 0.36727503;
+    engineConfiguration->throttlePedalSecondaryUpVoltage = 0.367275;
     // default 0.0
-    engineConfiguration->throttlePedalSecondaryWOTVoltage = 1.9721794;
+    engineConfiguration->throttlePedalSecondaryWOTVoltage = 1.972179;
     // default 400.0
     engineConfiguration->mc33_t_max_boost = 470.0;
     // default 10.0
@@ -131,7 +131,7 @@ Tune https://rusefi.com/online/view.php?msq=1448
     engineConfiguration->is_enabled_spi_2 = true;
     // default 6000.0
     engineConfiguration->vvtActivationDelayMs = 500.0;
-    // default 0.0
+    // default 500.0
     engineConfiguration->vvtControlMinRpm = 1300.0;
     // default 5.333333
     engineConfiguration->vbattDividerCoeff = 5.852941;
@@ -225,4 +225,4 @@ Tune https://rusefi.com/online/view.php?msq=1448
     engineConfiguration->antiLagActivationMode = ALWAYS_ON_ANTILAG;
     // default 10400.0
     engineConfiguration->kLineBaudRate = 0.0;
-``
+```

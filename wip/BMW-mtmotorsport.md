@@ -62,13 +62,13 @@ Tune https://rusefi.com/online/view.php?msq=1479
     // default 0.0
     engineConfiguration->tps1SecondaryMax = 614.0;
     // default 0.0
-    engineConfiguration->throttlePedalUpVoltage = 0.32861543;
+    engineConfiguration->throttlePedalUpVoltage = 0.328615;
     // default 5.0
     engineConfiguration->throttlePedalWOTVoltage = 4.591681;
     // default 5.0
-    engineConfiguration->throttlePedalSecondaryUpVoltage = 0.15209468;
+    engineConfiguration->throttlePedalSecondaryUpVoltage = 0.152095;
     // default 0.0
-    engineConfiguration->throttlePedalSecondaryWOTVoltage = 2.3099391;
+    engineConfiguration->throttlePedalSecondaryWOTVoltage = 2.309939;
     // default 410.0
     engineConfiguration->mapErrorDetectionTooHigh = 200.0;
     // default "false"
@@ -127,7 +127,7 @@ Tune https://rusefi.com/online/view.php?msq=1479
     engineConfiguration->is_enabled_spi_3 = true;
     // default "false"
     engineConfiguration->fuelClosedLoopCorrectionEnabled = true;
-    // default 0.0
+    // default 500.0
     engineConfiguration->vvtControlMinRpm = 650.0;
     // default 5.333333
     engineConfiguration->vbattDividerCoeff = 9.2;

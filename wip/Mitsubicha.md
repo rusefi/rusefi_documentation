@@ -68,11 +68,11 @@ Tune https://rusefi.com/online/view.php?msq=1258
     // default 0.0
     engineConfiguration->throttlePedalUpVoltage = 1.001939;
     // default 5.0
-    engineConfiguration->throttlePedalWOTVoltage = 4.5324006;
+    engineConfiguration->throttlePedalWOTVoltage = 4.532401;
     // default 5.0
-    engineConfiguration->throttlePedalSecondaryUpVoltage = 0.46568415;
+    engineConfiguration->throttlePedalSecondaryUpVoltage = 0.465684;
     // default 0.0
-    engineConfiguration->throttlePedalSecondaryWOTVoltage = 2.1384854;
+    engineConfiguration->throttlePedalSecondaryWOTVoltage = 2.138485;
     // default 400.0
     engineConfiguration->mc33_t_max_boost = 470.0;
     // default 10.0
@@ -115,7 +115,7 @@ Tune https://rusefi.com/online/view.php?msq=1258
     engineConfiguration->warningPeriod = 10.0;
     // default "false"
     engineConfiguration->is_enabled_spi_2 = true;
-    // default 0.0
+    // default 500.0
     engineConfiguration->vvtControlMinRpm = 350.0;
     // default 5.333333
     engineConfiguration->vbattDividerCoeff = 5.852941;
