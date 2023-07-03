@@ -27,3 +27,7 @@ A: Please start on the forum, please go to slack after first back and forth, ple
 ## Q: I have exciting valuable data I really want to dump it into slack RIGHT NOW
 
 A: Please do not. Please help by not offloading data preservation on someone else. Please start on the forum or github. Slack communications are only good for clarification and discussion *AFTER* context is nicely established on forum or github.
+
+## Q: Should I pile everything together?
+
+A: Please do not mix unrelated things together. For instance, let's not troubleshoot Mercedes vehicles on BMW build threads :)
