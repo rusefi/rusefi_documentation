@@ -1,0 +1,1 @@
+[Eclipse Temurin](https://adoptium.net/temurin/releases/) is one of the options for Java Runtime Environment these days.
