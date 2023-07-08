@@ -118,3 +118,7 @@ TBD
 ## 2 stroke
 
 <https://www.youtube.com/watch?v=QTKHlRsIBIA>
+
+## AlphaX reference tunes
+
+Genesis Coupe Theta II https://rusefi.com/online/view.php?msq=1498
