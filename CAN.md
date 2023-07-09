@@ -2,7 +2,7 @@
 
 Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not real diagnosis!
 
-* rusEFI WBO two way communication 0xEF50000 0x190
+* rusEFI WBO two way communication [0xEF50000](https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_can.h) 0x190
 * rusEFI WBO bootloader
 * rusEFI gauge broadcast 0x200 default base see [DBC](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/can/rusEFI_CAN_verbose.dbc)
 * rusEFI vehicle specific communication
