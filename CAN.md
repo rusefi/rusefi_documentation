@@ -9,6 +9,7 @@ Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not re
 * rusEFI ECU bootloader OpenBLT TX 667h, RX 7E1h
 * rusEFI CAN GPIO
 * rusEFI [TS over CAN](TS-over-CAN) 0x100 0x102
+* rusEFI GDI comms [0xBB20 0xBB30](https://github.com/rusefi/libfirmware/blob/master/can/can_common.h)
 
 ## Software
 
