@@ -437,6 +437,8 @@ Set the duty cycle of the specified PWM channel.
 
 ## Examples
 
+Read VSS from CANbus for gear detection see [honda-bcm.txt](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/honda-bcm.txt)
+
 ### timer
 
 ```lua
