@@ -387,6 +387,15 @@ Valid `index` parameter values:
 | 2 | Brake switch |
 | 3 | AC switch |
 
+#### `getAuxDigital(index)`
+
+Reads a digital input from the configurable list.
+
+- Parameters
+  - `index`: The index of the digital pin to read.  Valid values are 0 through 7, one for each of the 8 user-defined digital pins. See "Lua Digital Aux Inputs" table under "Advanced" settings tab.
+- Returns
+  - A boolean value representing the state of the input pin.  `true` = high voltage (above ~2 volts), `false` = low voltage (below ~3 volts)
+
 #### `readPin(pinName)`
 
 Reads physical value of arbitrary MCU pin
