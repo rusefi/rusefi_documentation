@@ -1,10 +1,10 @@
 # FAQ
 
-# Q: What are key differences between port and GDI?
+## Q: What are key differences between port and GDI?
 
-# A: high voltage control of injectors, high pressure pump control logic and target fuel pressure control logic
+## A: high voltage control of injectors, high pressure pump control logic and target fuel pressure control logic
 
-# GDI Status
+## GDI Status
 
 TL,DR: Summer 2023 progress is happening, GDI4 rev D board is ready for prime time and Kia has driver around the block!
 
