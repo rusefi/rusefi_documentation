@@ -6,7 +6,7 @@
 
 # GDI Status
 
-TL,DR: we had car [starting/idling - Video](https://youtu.be/JB2RnAJJSOk) using a [plywood board - Forum](https://rusefi.com/forum/download/file.php?id=6429) we have postponed GDI progress until funding or qualified contributor joins the game.
+TL,DR: Summer 2023 progress is happening, GDI4 rev D board is ready for prime time and Kia has driver around the block!
 
 [Forum thread for test mule](https://rusefi.com/forum/viewtopic.php?f=3&t=1631)
 
