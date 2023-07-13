@@ -1,8 +1,8 @@
-## FAQ
+# FAQ
 
 # Q: What are key differences between port and GDI?
 
-# A: high voltage control of injectors, high pressure pump control logic and target fuel pressure control logic.
+# A: high voltage control of injectors, high pressure pump control logic and target fuel pressure control logic
 
 # GDI Status
 
