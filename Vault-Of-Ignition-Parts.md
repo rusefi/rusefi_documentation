@@ -18,6 +18,10 @@ See also [OEM-harness-connectors#volkswagen](OEM-harness-connectors#volkswagen)
 
 ### Dumb coils
 
+## Toyota Two Wire
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/301a4ebf-6319-4cbc-8242-c2fe8d9fa005)
+
 * BMW M50 coils - Tested and working with 4D0905351 ignition module
 
 ![x](OEM-Docs/Bmw/bmw_dumb_coil.png)
