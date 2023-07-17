@@ -10,9 +10,9 @@ rusEFI has zero full time staff and most of rusEFI contributors all over the glo
 
 Please Read [How To Ask Technical Questions](https://opensource.com/life/16/10/how-ask-technical-questions)
 
-## Q: What is Slack?
+## Q: What is Discord?
 
-A: Slack is a group chat available via browser and phone app. After initial problem statement is defined on [https://rusefi.com/forum/](https://rusefi.com/forum/) Slack often comes handy for follow-up discussion. Slack registration [http://rusefi.com/slack/](http://rusefi.com/slack/) and login [https://rusefi.slack.com/](https://rusefi.slack.com/)
+A: Discord is a group chat available via browser and phone app. After initial problem statement is defined on [https://rusefi.com/forum/](https://rusefi.com/forum/) Discord often comes handy for follow-up discussion. Slack registration & login see [Discord](Discord)
 
 ## Q: Do you guys prefer short text descriptions or long text descriptions?
 
