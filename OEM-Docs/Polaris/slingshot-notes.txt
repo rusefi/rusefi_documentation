@@ -1,0 +1,38 @@
+102 DRAMA fuel PWM
+103 pedal
+104 TMAP GND
+105 TPS GND
+106 DRAMA PPS
+107 DRAMA start command
+110 ambient pressure
+111 pedal
+112 fuel sender
+========================================
+113 brake light
+115 main relay control
+116 KEYON position
+119 DRAMA UNKNOWN
+121 pedal position
+========================================
+125 pps
+26 +5v
+31 DRAMA UNKNOWN
+32 CAN H
+33 DRAMA UNKNOWN
+34 DRAMA UNKNOWN
+135 DRAMA break pressure
+136 DRAMA UNKNOWN
+========================================
+137 5v ambient
+138 DRAMA TPS power
+140 drama light relay
+141 fan PWM
+144 CAN Low
+145 DRAMA UNKNOWN
+147 DRAMA UNKNOWN
+========================================
+
+
+
+
+247
