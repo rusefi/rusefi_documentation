@@ -1,0 +1,1 @@
+Task.BeginTask.Message.Channel=1Task.Message.Proto=CANTask.Message.ExtMsgID=falseTask.Message.MsgID=000Task.Message.DLC=8Task.Message.Data=0000000000000000Task.Message.RTR=falseTask.Trigger.Trigger=NoneTask.Trigger.Delay=0Task.Delay=10Task.End
