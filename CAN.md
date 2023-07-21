@@ -10,6 +10,7 @@ Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not re
 * rusEFI CAN GPIO
 * rusEFI [TS over CAN](TS-over-CAN) 0x100 0x102
 * rusEFI GDI comms [0xBB20 0xBB30](https://github.com/rusefi/libfirmware/blob/master/can/can_common.h)
+* rusEFI bench test protocol 0x770000
 
 ## Software
 
