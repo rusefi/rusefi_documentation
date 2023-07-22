@@ -841,6 +841,8 @@ Chrysler NGC ECU connector
 
 60+94
 
+60 pin female 1-1355114-1
+
 EDC16 EDC17
 
 09 10 11 12 HYUNDAI ELANTRA 2.0L
