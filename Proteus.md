@@ -4,10 +4,9 @@
 
 Q: where can I buy a Proteus?
 
-A: As of Feb 2022 please DM Andrey on the forum, Proteus is in stock just not listed on eBay!
+A: [As of Feb 2022 please DM Andrey on the forum, Proteus is in stock just not listed on eBay!](http://shop.rusefi.com/)
 
-With fabrication files for Proteus you can get a 80% assembled unit from JLCPCB. QTY 2 price XXX, QTY 10 price YYY.
-While the most complicated main chip is soldered you would still solder a few dozens of surface mount components.
+With fabrication files for Proteus you can get a 80% assembled unit from JLCPCB.
 
 ![x](Hardware/Proteus/Hardware-Proteus-0.6-top.jpg)  
 
