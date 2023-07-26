@@ -6,4 +6,6 @@
 
 [Schematics 0.1](https://github.com/rusefi/rusefi-hardware/blob/main/breakout-boards/Breakout_154_kia_pb/hellen-hyundai-pb-154-adapter-0.1.pdf)
 
+[some photos](https://github.com/rusefi/rusefi-hardware/tree/main/breakout-boards/Breakout_154_kia_pb/photos)
+
 [GDI4 box pinout](https://rusefi.com/docs/pinouts/GDI4)
