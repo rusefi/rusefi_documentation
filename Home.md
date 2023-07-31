@@ -45,7 +45,6 @@ Dual AFR signal logging|✓
 Flat Shifting|✗
 [Automatic Transmission Control](TCU-status)|✗
 
-
 Achievement| Results
 -------|-------------
 Hundreds of rusEFI units produced|✓
