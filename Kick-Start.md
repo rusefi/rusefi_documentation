@@ -1,5 +1,3 @@
 # Kick Start
 
-As of March 2021 we are not aware of anyone using rusEFI with kick start.
-
-rusEFI trigger decoder is optimized for engines with a starter.
+rusEFI trigger decoder is optimized for engines with a starter but see https://rusefi.com/forum/viewtopic.php?p=44340#p44340

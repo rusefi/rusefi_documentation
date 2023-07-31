@@ -36,14 +36,15 @@ Dual AFR signal logging|✓
 [Knock Sensing](knock-sensing)|✓
 [Multi-Spark](Multi-Spark)|✓
 [Lua Scripting](Lua-Scripting)|✓
+[Direct Injection](GDI-status)|✓
+[Kick start](Kick-Start)|✓
 [Rotary Engines](Rotary)|?
 [Knock response](https://github.com/rusefi/rusefi/issues/202)|✗
 [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)|✗
 [Antilag](https://github.com/rusefi/rusefi/issues/2403)|✗
 Flat Shifting|✗
-Automatic Transmission Control|✗
-[Direct Injection](GDI-status)|✗
-[Kick start](Kick-Start)|✗
+[Automatic Transmission Control](TCU-status)|✗
+
 
 Achievement| Results
 -------|-------------
