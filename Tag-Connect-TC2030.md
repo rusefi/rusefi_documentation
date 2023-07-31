@@ -2,11 +2,13 @@
 
 rusEFI likes Tag Connect so many boards have that small TC2030 footprint - microRusEFI, Hellen, Proteus and wideband etc.
 
-TC2030-CTX-NL-STDC14 cable (old part number: TC2030-CTX-NL-STDC14)
+* STLINK-V3MINI $11 everywhere
+* TC2030-CTX-NL-STDC14 cable (old part number: TC2030-CTX-NL-STDC14)
+* TC2030-CLIP-3PACK
 
 $43.00 at [https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3](https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3)
 
-and STLINK-V3MINI $11 everywhere is the easiest to use combo.
+
 
 ![x](Images/tc2030-stlink-v3.jpg)
 
