@@ -1,6 +1,14 @@
 # HOWTO Create a TunerStudio Project
 
-Tunerstudio is a tuning application needed while working with rusEFI. Here is how you create your first project in Tunerstudio:
+[EFI Analytics TunerStudio](https://www.tunerstudio.com/index.php/tuner-studio) is a third party commercial tuning application needed while working with rusEFI. TunerStudio is available on Windows, Mac and Linux. TunerStudio needs "ECU Definition file" (usually with .ini extension) in order to start communicating with rusEFI.
+
+## Detect mode
+
+All official rusEFI boards support automatic ECU definition file download if connected via USB, serial port or Bluetooth. Just hit 'Detect' and wait for the name of your ECU to appear.
+
+## Manual procedure
+
+Here is how you create your first project in Tunerstudio:
 
 ![First project](FAQ/images/simulator/TCP_first_project.png)
 
