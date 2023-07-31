@@ -1,6 +1,6 @@
 # HOWTO Create a TunerStudio Project
 
-[EFI Analytics TunerStudio](https://www.tunerstudio.com/index.php/tuner-studio) is a third party commercial tuning application needed while working with rusEFI. TunerStudio needs "ECU Definition file" (usually with .ini extension) in order to start communicating with rusEFI.
+[EFI Analytics TunerStudio](https://www.tunerstudio.com/index.php/tuner-studio) is a third party commercial tuning application needed while working with rusEFI. TunerStudio is available on Windows, Mac and Linux. TunerStudio needs "ECU Definition file" (usually with .ini extension) in order to start communicating with rusEFI.
 
 ## Detect mode
 
