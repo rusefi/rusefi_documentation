@@ -6,7 +6,6 @@ rusEFI likes Tag Connect so many boards have that small TC2030 footprint - micro
 * [https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3](https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3) cable (old part number: TC2030-CTX-NL-STDC14)
 * TC2030-CLIP-3PACK
 
-
 ![x](Images/tc2030-stlink-v3.jpg)
 
 Way more ghetto option would be based on TC2030-MCP-NL off eBay with phone jack cut off and wires soldered
