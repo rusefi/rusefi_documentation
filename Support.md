@@ -51,7 +51,7 @@ Same about forum private messages. Please use public channels to have a higher c
 
 Q: Is there an option for priority support?
 
-A: Commercial support is available [here](https://www.ebay.com/itm/333612090037)
+A: Commercial support is available [here](https://www.ebay.com/itm/334964766467)
 
 Q: How do I attach logs to my forum post? Looks like forum does not allow .msl files?
 
