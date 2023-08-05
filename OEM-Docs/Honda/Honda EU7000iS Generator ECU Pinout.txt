@@ -1,3 +1,5 @@
+See page 68
+
 1 Red
 Fuel Pump +
 
@@ -27,3 +29,6 @@ Ground
 21 Yellow
 Injector -
 
+
+33 Y/Bu
+PC+ CKP sensor
