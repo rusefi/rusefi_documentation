@@ -1,0 +1,29 @@
+1 Red
+Fuel Pump +
+
+3 Green
+Ground
+
+4 Blue
+Fuel Pump -
+
+7
+Starter Page 8
+
+11 White/Blue
+Switch -
+
+12 Brown/Blue
+Switch +
+
+18 White
+Injector +
+
+20 Green
+Ground
+
+
+
+21 Yellow
+Injector -
+
