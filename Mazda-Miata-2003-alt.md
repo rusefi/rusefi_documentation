@@ -65,7 +65,7 @@ In RusEFI console, set engine_type 47 loads base settings.
 | PA2       | Input            | W51        | 3M          | 4V                | TPS                       |
 | PC3       | Input            | W52        | 3N          |                   | Spare input               |
 | PA0       | Input            | W53        | 3O          | MAP SENSOR IN     | MAP                       |
-| PC1       | Input            | W54        | 3P          | 4O                | IAT                       |
+| PC1       | Input            | W54        | 3P          | 4N                | IAT                       |
 | PC2       | Input            | W55        | 3Q          | 4P                | CLT                       |
 |           | Spare            | W56        | 3R          |                   |                           |
 | PE3       | Low side driver  | W57        | 3S          | 4R                | VVT                       |
