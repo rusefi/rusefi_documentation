@@ -27,6 +27,13 @@ A: VND14NV04TR-E 93mJ 18A. In terms of current and switching energy those could 
 
 ## Changelog
 
+### rev G
+ - MAX9924 for VR
+
+### rev F
+ - [MAP sensor moved to safer location](https://github.com/rusefi/alphax-2chan/issues/94)
+ - [auxiliary 10 pin molex](https://github.com/rusefi/alphax-2chan/issues/93)
+
 rev E:
 December 2022
 
