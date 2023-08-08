@@ -29,7 +29,7 @@ A: VND14NV04TR-E 93mJ 18A. In terms of current and switching energy those could 
 
 ### rev G
 
-- MAX9924 for VR
+- [MAX9924 for VR](https://github.com/rusefi/alphax-2chan/issues/100)
 
 ### rev F
 
