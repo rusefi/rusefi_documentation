@@ -1,6 +1,6 @@
 # 4chan F7 initial programming
 
-### One time Setup
+## One time Setup
 
 * download & uncompress https://github.com/rusefi/rusefi/releases/download/20230726_2_release/rusefi_bundle_alphax-4chan_f7.zip
 
@@ -8,7 +8,7 @@
 
 * hit 'install drivers' button on top of the splash screen
 
-### For each board
+## For each board
 
 * power 4chanF7 board while holding PROG button on 4chanF7. Windows would show "STM32 BOOTLOADER" device in device manager.
 
