@@ -2,6 +2,6 @@
 
 [Vehicle Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-112-mg1/)
 
-[Adapter Pinout](https://rusefi.com/docs/pinouts/hellen-112-mg1-adapter/)
+[Adapter Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-112-mg1-adapter/)
 
 https://ecu.design/ecu-pinout/pinout-bosch-mg1ca920-can-egpt-rotax-can-am/
