@@ -32,6 +32,10 @@
 
 ## Changelog
 
+rev H
+
+* routing defect fixed
+
 [rev G](https://github.com/rusefi/alphax-4chan/issues?q=is%3Aissue+label%3Arev-g):
 
 * full layout rework
