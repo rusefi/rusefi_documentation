@@ -144,6 +144,12 @@ GM/Daewoo Distributor F8CV
 
 ## Miscellaneous
 
+### Renault F
+
+A bit of a 60/2/2
+
+![x](Images/triggers/trigger_TT_60_2_2_F3R.png)
+
 ### Suzuki G13B
 
 ![x](Images/triggers/trigger_TT_SUZUKI_G13B.png)
