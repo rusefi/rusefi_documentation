@@ -18,4 +18,6 @@
 
 * in ``console\STM32_Programmer_CLI\bin`` folder invoke stm32-flash-dfu.bat
 
-Expected result: BLUE LED close to stm32f4 MCU is constantly blinking, RED led next to blinking BLUE is NOT off.
+Expected result: BLUE LED close to stm32 MCU is constantly blinking.
+
+Expected result: no RED LED next to blinking BLUE.
