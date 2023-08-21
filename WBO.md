@@ -68,17 +68,17 @@ though you could probably use D=0 since the system is already damped so hard
 
 ## Naming Convention
 
-IP=Pump Current
+pin 1: IP=Pump Current
 
-VS/IP=VM=common virtual ground for VS and IP
+pin 2: VS/IP=VM=common virtual ground for VS and IP
 
-R Trim=Calibration resistor
+pin 3: H- Heater control, low-side
 
-H+ Constant +12v
+pin 4: H+ Constant +12v
 
-H- Heater control, low-side
+pin 5: R Trim=Calibration resistor
 
-UN = Vs = sensor voltage output
+pin 6: UN = Vs = sensor voltage output = INRC
 
 4.9 pinout courtesy of [https://www.wbo2.com/cable/lsuconns.htm](https://www.wbo2.com/cable/lsuconns.htm)
 
