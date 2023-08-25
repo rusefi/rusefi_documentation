@@ -235,6 +235,10 @@ Chrysler NGC 6 cylinder
 
 ![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_3A92.png)
 
+### 4G69 VVT
+
+![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_4G69.png)
+
 ## Nissan
 
 QR25 crank
