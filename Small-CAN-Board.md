@@ -9,7 +9,7 @@
 * USB-C
 * SD card
 * SENT input
-* x4 high current low side outputs
+* x4 high current low side outputs (5A-ish)
 * x3 analog inputs
 * x3 digital inputs
 * TC2030 debugging header
