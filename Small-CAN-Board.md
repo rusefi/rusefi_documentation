@@ -1,5 +1,7 @@
 # Small CAN Board
 
+[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/small-can-board/)
+
 * Full rusEFI firmware with Lua running stm32f405 LQFP-64
 * Two CAN buses
 * Low standby power consumption below 0.003A
