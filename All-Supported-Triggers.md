@@ -27,6 +27,8 @@ Also order of channels on engine sniffer should match order of channels on the b
 
 [Jeep & Renix](#jeep)
 
+[Chrysler](#chrysler)
+
 [Miscellaneous](#miscellaneous)
 
 ## Universal
@@ -148,6 +150,36 @@ Might also be used on some Daihatsu, Nissan and Miata
 
 ![x](Images/triggers/trigger_TT_SUBARU_SVX.png)
 
+## Chrysler
+
+### Dodge Neon 1995
+
+![Dodge Neon 1995](Images/triggers/trigger_TT_DODGE_NEON_1995.png)
+
+### Dodge Neon 1995 only crankshaft sensor
+
+![Dodge Neon 1995 crank only](Images/triggers/trigger_TT_DODGE_NEON_1995_ONLY_CRANK.png)
+
+### Dodge Hemi and SRT4
+
+![x](Images/triggers/trigger_TT_CHRYSLER_NGC_36_2_2.png)
+
+### Dodge Ram
+
+![Dodge Ram](Images/triggers/trigger_TT_DODGE_RAM.png)
+
+### Dodge Neon 2003
+
+Chrysler NGC 4 cylinder
+
+![Dodge Neon 2003](Images/triggers/trigger_TT_DODGE_NEON_2003_CAM.png)
+
+### Dodge Stratus
+
+Chrysler NGC 6 cylinder
+
+![Dodge Stratus](Images/triggers/trigger_TT_DODGE_STRATUS.png)
+
 ## Miscellaneous
 
 ### Renault F
@@ -188,34 +220,6 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 ### One tooth
 
 ![One Tooth](Images/triggers/trigger_TT_ONE.png)
-
-### Dodge Neon 1995
-
-![Dodge Neon 1995](Images/triggers/trigger_TT_DODGE_NEON_1995.png)
-
-### Dodge Neon 1995 only crankshaft sensor
-
-![Dodge Neon 1995 crank only](Images/triggers/trigger_TT_DODGE_NEON_1995_ONLY_CRANK.png)
-
-### Dodge Hemi and SRT4
-
-![x](Images/triggers/trigger_TT_CHRYSLER_NGC_36_2_2.png)
-
-### Dodge Ram
-
-![Dodge Ram](Images/triggers/trigger_TT_DODGE_RAM.png)
-
-### Dodge Neon 2003
-
-Chrysler NGC 4 cylinder
-
-![Dodge Neon 2003](Images/triggers/trigger_TT_DODGE_NEON_2003_CAM.png)
-
-### Dodge Stratus
-
-Chrysler NGC 6 cylinder
-
-![Dodge Stratus](Images/triggers/trigger_TT_DODGE_STRATUS.png)
 
 ## Mitsubishi
 
