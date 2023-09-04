@@ -134,13 +134,19 @@ GM/Daewoo Distributor F8CV
 
 ![Subaru 7+6](Images/triggers/trigger_TT_SUBARU_7_6.png)
 
+### 36/2/2/2
+
+Might also be used on some Daihatsu, Nissan and Miata
+
+![36/2/2](Images/triggers/trigger_TT_36_2_2_2.png)
+
 ### Subaru EZ30 variation of 36/2/2/2
 
 ![!](Images/triggers/trigger_TT_SUBARU_EZ30.png)
 
 ### Subaru SVX
 
-![x](Images/triggers/trigger_TT_SUBARU_EZ30.png)
+![x](Images/triggers/trigger_TT_SUBARU_SVX.png)
 
 ## Miscellaneous
 
@@ -153,12 +159,6 @@ A bit of a 60/2/2
 ### Suzuki G13B
 
 ![x](Images/triggers/trigger_TT_SUZUKI_G13B.png)
-
-### 36/2/2/2
-
-Might also be used on some Daihatsu, Nissan and Miata
-
-![36/2/2](Images/triggers/trigger_TT_36_2_2_2.png)
 
 ### Universal skipped wheel
 
