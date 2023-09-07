@@ -18,8 +18,8 @@
 * aux USB header
 * PROG button to enter DFU mode
 
-[Schematics rev A](https://rusefi.com/docs/ibom/small-can-board-a-ibom.html)
+[iBom rev A](https://rusefi.com/docs/ibom/small-can-board-a-ibom.html)
 
-[Schematics rev A](https://rusefi.com/docs/ibom/small-can-board-a-ibom.html)
+[Schematics rev A](small-can-board-a-schematic.pdf)
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/bc9f33da-46a9-48fe-ba04-6eb8e0269bbf)
