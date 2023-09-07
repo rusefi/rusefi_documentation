@@ -20,6 +20,6 @@
 
 [iBom rev A](https://rusefi.com/docs/ibom/small-can-board-a-ibom.html)
 
-[Schematics rev A](small-can-board-a-schematic.pdf)
+[Schematics rev A](Hardware/Hellen/small-can-board-a-schematic.pdf)
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/bc9f33da-46a9-48fe-ba04-6eb8e0269bbf)
