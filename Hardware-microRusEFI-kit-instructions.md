@@ -4,8 +4,8 @@
 
 ## Initial kit state
 
-{{strikethrough|All kit PCBs come pre-programmed and verified. No firmware upload required right after soldering. Actually your microRusEFI would
-communicate via USB if you solder just USB connector or feed USB via 48 pin connector.}}
+All kit PCBs come pre-programmed and verified. No firmware upload required right after soldering. Actually your microRusEFI would
+communicate via USB if you solder just USB connector or feed USB via 48 pin connector.
 
 [VIDEO Initial state](https://www.youtube.com/watch?v=3vWbIECoLg8)
 
