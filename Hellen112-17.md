@@ -1,5 +1,7 @@
 # 112-17
 
+[Issue tracker & Repository](https://github.com/rusefi/hellen-112-17)
+
 https://rusefi.com/docs/pinouts/hellen/hellen-112-17/
 
 https://rusefi.com/docs/pinouts/me17-112-adapter/
