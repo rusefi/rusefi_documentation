@@ -889,7 +889,7 @@ Sibling of 135 pin
 
 Toyota Vios NCP150 Engine 2NR-FBE
 
-[Toyota Tacoma 2015-2018](https://wiki.ecubear.com/index.php?title=ECU_Pinout)
+[Toyota Tacoma 2015-2018](https://wiki.ecubear.com/index.php?title=ECU_Pinout) HILUX
 
 [not exactly 1318813](https://www.te.com/usa-en/product-1318813-7.html)
 
