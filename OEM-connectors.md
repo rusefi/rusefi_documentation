@@ -789,6 +789,8 @@ bmw e38 e46 e65 e66
 
 ## 135 pin
 
+Sibling of 167 pin
+
 [TE 1-1376430-0](http://www.te.com/catalog/pn/en/1-1376430-0)
 
 ![135 Pin Connector](Hardware/connectors/135_render.png)
@@ -881,9 +883,15 @@ Aptiv Delphi 13830808
 
 ## 167
 
+Sibling of 135 pin
+
 4 row
 
-1318813
+Toyota Vios NCP150 Engine 2NR-FBE
+
+[Toyota Tacoma 2015-2018](https://wiki.ecubear.com/index.php?title=ECU_Pinout)
+
+[not exactly 1318813](https://www.te.com/usa-en/product-1318813-7.html)
 
 ## 170
 
