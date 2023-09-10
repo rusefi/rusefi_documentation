@@ -891,7 +891,15 @@ Toyota Vios NCP150 Engine 2NR-FBE
 
 [Toyota Tacoma 2015-2018](https://wiki.ecubear.com/index.php?title=ECU_Pinout) HILUX
 
-[not exactly 1318813](https://www.te.com/usa-en/product-1318813-7.html)
+[1612435-4 167 without gap](https://www.te.com/usa-en/product-1612435-4.html)
+
+## 167 with gap
+
+Similar to above but with a gap
+
+2005 Scion TC
+
+[1318813-7 167 with gap](https://www.te.com/usa-en/product-1318813-7.html)
 
 ## 170
 
