@@ -1,6 +1,6 @@
 # GDI4
 
-[interactive pinout](https://rusefi.com/docs/pinouts/GDI4/)
+[[Get yours at rusEFI store]](https://www.shop.rusefi.com/shop/p/gdi4) [[Interactive Pinout]](https://rusefi.com/docs/pinouts/GDI4/)
 
 [Issue Tracker](https://github.com/rusefi/rusefi-hardware/labels/GDI)  [Hardware & Firmware](https://github.com/rusefi/rusefi-hardware/tree/main/GDI-4ch/)
 
