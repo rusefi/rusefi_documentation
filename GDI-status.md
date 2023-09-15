@@ -1,5 +1,7 @@
 # FAQ
 
+TL,DR: [Hellen-Hyundai-PB](Hellen-Hyundai-PB) and [rusefi GDI pinout](GDI4)
+
 ## Q: What are key differences between port and GDI?
 
 ## A: high voltage control of injectors, high pressure pump control logic and target fuel pressure control logic
