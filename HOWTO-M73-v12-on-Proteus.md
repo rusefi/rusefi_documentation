@@ -2,6 +2,8 @@
 
 See also [HOWTO-Crimp-Ampseal](HOWTO-Crimp-Ampseal)
 
+[Adapter board](https://github.com/rusefi/proteus-M73tu-adapter/)
+
 See also [Vault-Of-Electronic-Throttle-Bodies-ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Nissan Hitachi SERA576-01 60mm throttle body recommended. In order to mount SERA576-01 you just need to drill ETB bolt passages to 10mm / 3/8".
 
 [M73 wiring diagram](BMW-e38-750)
