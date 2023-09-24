@@ -6,6 +6,6 @@
 
 ## TunerStudio cacerts work-around
 
-Until TunerStudio updates embedded JRE please download https://rusefi.com/s/j/cacerts
+Until TunerStudio updates embedded JRE please download https://rusefi.com/s/j/cacerts (that file is what comes with fresh zulu-8 JDK, you can manually install zulu-8 and copy same file from there)
 
 Please place that file into ``C:\Program Files (x86)\EFIAnalytics\TunerStudioMS\runtime\lib\security`` folder
