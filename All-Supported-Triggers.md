@@ -275,7 +275,7 @@ See also [Universal True 60/2](All-Supported-Triggers#602)
 
 ## Toyota 2JZ
 
-1/12 version
+### 1/12 version
 
 2JZ would use global trigger offset 65
 
@@ -283,11 +283,11 @@ Use this with "Single Tooth First Half" VVT mode for cam input
 
 ![x](Images/triggers/trigger_TT_12_TOOTH_CRANK.png)
 
-3/34 version
+### 3/34 version
 
-![Toyota 2JZ 3/34](Images/triggers/trigger_TT_2JZ_3_34.png)
+Use skipped wheel for crank and "Toyota 3 Tooth" previously known as "VVT: 2JZ" for cam.
 
-## VVT 3-0 "VVT: 2JZ"
+## VVT 3-0 "Toyota 3 Tooth" previously known as "VVT: 2JZ"
 
 ![1+60/2](Images/triggers/trigger_TT_VVT_JZ.png)
 
