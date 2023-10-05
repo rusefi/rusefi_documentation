@@ -8,7 +8,7 @@ This simulator allows you to see how the firmware reacts to different commands a
 All you need is a Windows computer. This virtual simulator is built from the same source code as rusEFI controllers firmware.
 
 The rusEFI console runs on Java, so if you don't have that installed on your PC you'll need to download it.
-If you don't have the rusEFI console you can download it [here](http://rusefi.com/build_server/rusefi_bundle.zip).  
+If you don't have the rusEFI console you can download it [here](https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip).  
 You'll have to unzip the file and go into the console folder.
 
  ![Directory](FAQ/images/simulator/rusEFI_console_directory.png)
