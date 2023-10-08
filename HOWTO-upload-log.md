@@ -1,6 +1,10 @@
 # HOWTO Upload Log
 
-Licensed TunerStudio would you give you faster data rate.
+## Data Rate
+
+Licensed TunerStudio would you give you faster data rate which is *very* important while troubleshooting trigger/vvt issues. Go "Communications->Data Rate->Max Rate Per Second". We pride for having above 500Hz data rate via USB!
+
+## HOWTO
 
 In TunerStudio hit "Data Logging" -> "Start Logging".
 Once you've done something interesting, hit "Data Logging" -> "Stop"
