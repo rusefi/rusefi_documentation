@@ -242,16 +242,16 @@ function relayTpPayloadFromTCU(bus, id, dlc, data)
 			-- 			print("h5/h7 " ..H4 .." " ..H7)
 
 			if H7 == 0 then
-				print("I sniff diag: TCU is happy!")
+--				print("I sniff diag: TCU is happy!")
 			else
-				print("I sniff diag: TCU has ERROR ERROR ERROR")
+--				print("I sniff diag: TCU has ERROR ERROR ERROR")
 			end
 
 		end
 
 		payLoadIndex = payLoadIndex + 1
 
-		if top4 == 1 then
+		if top4 == 1 or top4 == 2 then
 			payLoadIndex = 0
 			len = data[3]
 
@@ -259,7 +259,7 @@ function relayTpPayloadFromTCU(bus, id, dlc, data)
 				if len == 2 then
 					print("I sniff TCU NO CODES")
 				else
-					print("I sniff TCU NO CODES")
+					print("****************                     I sniff ERROR ERROR                " .. data[5])
 				end
 			end
 
