@@ -1,8 +1,8 @@
 AIRBAG = 0x050
--- 1088
-TCU_1 = 0x440
--- 1344
-TCU_2 = 0x540
+
+TCU_1088_440 = 0x440
+TCU_1344_540 = 0x540
+
 -- 1440
 BRAKE_2 = 0x5A0
 
@@ -185,6 +185,20 @@ function relayFromECUAndEcho(bus, id, dlc, data)
 end
 
 totalTcuMessages = 0
+counter440 = 0
+function onTcu440(bus, id, dlc, data)
+	totalTcuMessages = totalTcuMessages + 1
+	-- 	print("Relaying onTcu440 to ECU " .. id)
+
+	    isShiftActive = getBitRange(data, 0, 1)
+        tcuStatus = getBitRange(data, 1, 1)
+        EGSRequirement = getBitRange(data, 7, 1)
+    counter440 = counter440 + 1
+    if counter440 % 70 == 0 then
+        print("TCU " .. isShiftActive .. " " .. tcuStatus .. " " .. EGSRequirement)
+    end
+	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+end
 
 function relayFromTCU(bus, id, dlc, data)
 	totalTcuMessages = totalTcuMessages + 1
@@ -416,6 +430,7 @@ canRxAdd(TCU_BUS, VWTP_TESTER, relayTpPayloadFromTCU)
 
 canRxAddMask(ECU_BUS, 0, 0, drop)
 -- canRxAddMask(ECU_BUS, 0, 0, relayFromECU)
+canRxAdd(TCU_1088_440, onTcu440)
 canRxAddMask(TCU_BUS, 0, 0, relayFromTCU)
 
 everySecondTimer = Timer.new()
