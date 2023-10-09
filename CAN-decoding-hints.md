@@ -1,6 +1,6 @@
 # CAN Decoding Hints
 
-Text format CAN traces preferred. Please name files according to scenarios - each scenario separate file name. 
+Text format CAN traces preferred. Please name files according to scenarios - each scenario separate file name.
 
 For inspiration look at https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/CanAm/maverick-x3-xrs-turbo-rr-max-2021 and https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/CanAm/maverick-x3-xrs-turbo-rr-max-2021-day-2
 
