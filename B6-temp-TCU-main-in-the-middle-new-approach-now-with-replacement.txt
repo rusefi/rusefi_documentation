@@ -417,7 +417,7 @@ canRxAdd(ECU_BUS, BRAKE_3_1184, relayFromECU)
 canRxAdd(ECU_BUS, BRAKE_5_1192, relayFromECU)
 
 
-canRxAdd(ECU_BUS, Komf_1_912, relayFromECU)
+--canRxAdd(ECU_BUS, Komf_1_912, relayFromECU)
 -- Systeminfo_1
 canRxAdd(ECU_BUS, 1488, relayFromECU)
 -- REQUIRED? Diagnose_1
@@ -470,7 +470,7 @@ function onTick()
 --    txCan(TCU_BUS, BRAKE_8_428, 0, payload428)
     txCan(TCU_BUS, BRAKE_2_1440, 0, payload1440)
 
---    txCan(TCU_BUS, Komf_1_912, 0, payload912)
+    txCan(TCU_BUS, Komf_1_912, 0, payload912)
 
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
