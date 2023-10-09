@@ -1,6 +1,8 @@
 # CAN Decoding Hints
 
-Text format CAN traces preferred. Please name files according to scenarios.
+Text format CAN traces preferred. Please name files according to scenarios - each scenario separate file name. 
+
+For inspiration look at https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/CanAm/maverick-x3-xrs-turbo-rr-max-2021 and https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/CanAm/maverick-x3-xrs-turbo-rr-max-2021-day-2
 
 ## Ignition on
 
@@ -9,6 +11,18 @@ Start trace recording, turn ignition key/wake up car, turn key off, record until
 ## Brake Pedal
 
 Ignition key ON, engine OFF. Tap and hold breaks five times.
+
+## Headlight
+
+Same as above, just use headlight switch instead of brake pedal
+
+## Battery Voltage
+
+Ignition key ON, engine OFF. Hook up battery charger to change voltage.
+
+## Fuel Level
+
+Ignition key ON, engine OFF. Add fuel, name file according to before and after fuel amount.
 
 ## TPS/PPS sweep
 
@@ -20,11 +34,15 @@ Open hood, unhook TPS sensor plug. Repeat "TPS/PPS sweep"
 
 ## 30 seconds of idle
 
-Record 30 seconds of car idling
+Record 30 seconds of vehicle idling
 
 ## Idle with CLT removed
 
-Idle, Unplug and plug coolant sensor
+Idle, Unplug and plug coolant sensor if easy to reach
+
+## High RPM Idle to warm engine up
+
+Start cold-ish engine, warm up engine.
 
 ## Wheels in the air
 
