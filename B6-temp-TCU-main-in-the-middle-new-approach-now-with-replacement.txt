@@ -1,5 +1,8 @@
 AIRBAG = 0x050
 
+onEcuTimer = Timer.new()
+onEcuTimer : reset ()
+
 TCU_1088_440 = 0x440
 TCU_1344_540 = 0x540
 
@@ -31,6 +34,7 @@ motorBreData = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor2Data = { 0x8A, 0x8D, 0x10, 0x04, 0x00, 0x4C, 0xDC, 0x87 }
 motor2mux = { 0x8A, 0xE8, 0x2C, 0x64 }
 canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor5mux = {0x1c, 0x54, 0x84, 0xc2}
 motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
 motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
 accGraData = { 0x00, 0x00, 0x08, 0x00, 0x1A, 0x00, 0x02, 0x01 }
@@ -89,6 +93,7 @@ function setBitRange(data, totalBitIndex, bitWidth, value)
 end
 
 function relayFromECU(bus, id, dlc, data)
+    onEcuTimer : reset ()
 	totalEcuMessages = totalEcuMessages + 1
 	-- 	print("Relaying to TCU " .. id)
 	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
@@ -147,6 +152,7 @@ end
 
 function sendMotor3()
 	desired_wheel_torque = fakeTorque
+	iat = iat or 30
 	canMotor3[2] = (iat + 48) / 0.75
 	canMotor3[3] = tps / 0.4
 	canMotor3[5] = 0x20
@@ -297,9 +303,12 @@ function sendMotorBre()
 	txCan(TCU_BUS, MOTOR_BRE, 0, motorBreData)
 end
 
-
+motor5counter = 0
 motor5FuelCounter = 0
 function sendMotor5()
+--    motor5counter = (motor5counter + 1) % 16
+-- todo	index = math.floor(motor5counter / 4)
+
 	setBitRange(motor5Data, 5, 9, motor5FuelCounter)
 	xorChecksum(motor5Data, 8)
 	txCan(TCU_BUS, MOTOR_5, 0, motor5Data)
@@ -436,6 +445,11 @@ canRxAddMask(TCU_BUS, 0, 0, relayFromTCU)
 everySecondTimer = Timer.new()
 
 function onTick()
+    if onEcuTimer : getElapsedSeconds() > 1 then
+        -- do not spam if ECU is silent
+        return
+    end
+
 	sendMotor2()
 	sendMotor3()
 	sendMotor5()
