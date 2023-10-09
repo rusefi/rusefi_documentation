@@ -6,8 +6,15 @@ onEcuTimer : reset ()
 TCU_1088_440 = 0x440
 TCU_1344_540 = 0x540
 
+
+BRAKE_1_416 = 0x1A0
+BRAKE_8_428 = 0x1AC
+BRAKE_3_1184 = 0x4a0
+BRAKE_5_1192 = 0x4a8
 -- 1440
-BRAKE_2 = 0x5A0
+BRAKE_2_1440 = 0x5A0
+
+
 
 
 -- 640
@@ -42,6 +49,10 @@ canMotorInfo = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotorInfo1 = { 0x99, 0x14, 0x00, 0x7F, 0x00, 0xF0, 0x47, 0x01 }
 canMotorInfo3 = { 0x9B, 0x14, 0x00, 0x11, 0x1F, 0xE0, 0x0C, 0x46 }
 motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
+
+payload416 = {0x00, 0x43, 0x00, 0x00, 0x00, 0xfe, 0x00, 0x5d}
+payload428 = {0xff, 0x0e, 0x00, 0x00, 0x69, 0x01, 0x0b, 0x92}
+payload1440 = {0x7e, 0x00, 0x00, 0x83, 0x33, 0x00, 0x10, 0xab}
 
 canMotorInfoTotalCounter = 0
 
@@ -163,20 +174,20 @@ end
 
 function onMotor3(bus, id, dlc, data)
 	totalEcuMessages = totalEcuMessages + 1
-	iat = getBitRange(data, 8, 8) * 0.75 - 48
-	pps = getBitRange(data, 16, 8) * 0.40
-	tps = getBitRange(data, 56, 8) * 0.40
-	-- print ('MOTOR_3 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
+	iat = 30 -- getBitRange(data, 8, 8) * 0.75 - 48
+	pps = 7 -- getBitRange(data, 16, 8) * 0.40
+	tps = 7 -- getBitRange(data, 56, 8) * 0.40
+--	print ('MOTOR_3 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
 end
 
 function onMotor1(bus, id, dlc, data)
 	totalEcuMessages = totalEcuMessages + 1
-	rpm = getBitRange(data, 16, 16) * 0.25
+	rpm = 0 -- getBitRange(data, 16, 16) * 0.25
 	if rpm == 0 then
 		canMotorInfoTotalCounter = 0
 	end
 
-	tps = getBitRange(data, 40, 8) * 0.4
+	tps = 0 -- getBitRange(data, 40, 8) * 0.4
 
 	fakeTorque = interpolate(0, 6, 100, 60, tps)
 
@@ -399,15 +410,17 @@ canRxAdd(ECU_BUS, 1500, relayFromECU)
 -- REQUIRED GRA_Neu
 canRxAdd(ECU_BUS, 906, relayFromECU)
 -- brake 1
-canRxAdd(ECU_BUS, 416, relayFromECU)
+canRxAdd(ECU_BUS, BRAKE_1_416, relayFromECU)
 -- brake 8
-canRxAdd(ECU_BUS, 428, relayFromECU)
+canRxAdd(ECU_BUS, BRAKE_8_428, relayFromECU)
 -- brake 3
-canRxAdd(ECU_BUS, 1184, relayFromECU)
+canRxAdd(ECU_BUS, BRAKE_3_1184, relayFromECU)
 -- brake 5
-canRxAdd(ECU_BUS, 1192, relayFromECU)
+canRxAdd(ECU_BUS, BRAKE_5_1192, relayFromECU)
+
 -- brake 2
-canRxAdd(ECU_BUS, 1440, relayFromECU)
+canRxAdd(ECU_BUS, BRAKE_2_1440, relayFromECU)
+
 -- REQUIRED?! Gate_Komf_1
 canRxAdd(ECU_BUS, 912, relayFromECU)
 -- Systeminfo_1
@@ -457,6 +470,10 @@ function onTick()
 	sendMotor7()
 	sendMotorBre()
 	sendAccGra()
+
+--    txCan(TCU_BUS, BRAKE_1_416, 0, payload416)
+--    txCan(TCU_BUS, BRAKE_8_428, 0, payload428)
+--    txCan(TCU_BUS, BRAKE_2_1440, 0, payload1440)
 
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
