@@ -9,12 +9,12 @@ TCU_1344_540 = 0x540
 
 BRAKE_1_416 = 0x1A0
 BRAKE_8_428 = 0x1AC
+
+Komf_1_912 = 0x390
+
 BRAKE_3_1184 = 0x4a0
 BRAKE_5_1192 = 0x4a8
--- 1440
 BRAKE_2_1440 = 0x5A0
-
-
 
 
 -- 640
@@ -52,6 +52,7 @@ motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 payload416 = {0x00, 0x43, 0x00, 0x00, 0x00, 0xfe, 0x00, 0x5d}
 payload428 = {0xff, 0x0e, 0x00, 0x00, 0x69, 0x01, 0x0b, 0x92}
+payload912 = {0x6a, 0x40, 0x50, 0x00, 0x00, 0x00, 0x20, 0x00}
 payload1440 = {0x7e, 0x00, 0x00, 0x83, 0x33, 0x00, 0x10, 0xab}
 
 canMotorInfoTotalCounter = 0
@@ -68,7 +69,6 @@ VWTP_TESTER = 0x300
 setTickRate(100)
 
 ECU_BUS = 1
--- really 'not ECU'
 TCU_BUS = 2
 
 fakeTorque = 0
@@ -107,7 +107,7 @@ function relayFromECU(bus, id, dlc, data)
     onEcuTimer : reset ()
 	totalEcuMessages = totalEcuMessages + 1
 	-- 	print("Relaying to TCU " .. id)
-	txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+	txCan(TCU_BUS, id, 0, data)
 end
 
 function setTwoBytes(data, offset, value)
@@ -192,7 +192,6 @@ function onMotor1(bus, id, dlc, data)
 	fakeTorque = interpolate(0, 6, 100, 60, tps)
 
 	sendMotor1()
-	-- relayFromECU(bus, id, dlc, data)
 end
 
 function relayFromECUAndEcho(bus, id, dlc, data)
@@ -214,21 +213,20 @@ function onTcu440(bus, id, dlc, data)
     if counter440 % 70 == 0 then
         print("TCU " .. isShiftActive .. " " .. tcuStatus .. " " .. EGSRequirement)
     end
-	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+	txCan(ECU_BUS, id, 0, data)
 end
 
 function relayFromTCU(bus, id, dlc, data)
 	totalTcuMessages = totalTcuMessages + 1
 	-- 	print("Relaying to ECU " .. id)
-	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+	txCan(ECU_BUS, id, 0, data)
 end
 
 function relayTcuDiagHelloFromTCU(bus, id, dlc, data)
 	totalTcuMessages = totalTcuMessages + 1
 	print("Relaying TcuDiagHello to ECU " ..id ..arrayToString(data))
-	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+	txCan(ECU_BUS, id, 0, data)
 end
-
 
 local payLoadIndex = 0
 
@@ -409,20 +407,17 @@ canRxAdd(ECU_BUS, 1312, relayFromECU)
 canRxAdd(ECU_BUS, 1500, relayFromECU)
 -- REQUIRED GRA_Neu
 canRxAdd(ECU_BUS, 906, relayFromECU)
--- brake 1
+
 canRxAdd(ECU_BUS, BRAKE_1_416, relayFromECU)
--- brake 8
+canRxAdd(ECU_BUS, BRAKE_2_1440, relayFromECU)
 canRxAdd(ECU_BUS, BRAKE_8_428, relayFromECU)
--- brake 3
+
 canRxAdd(ECU_BUS, BRAKE_3_1184, relayFromECU)
--- brake 5
+
 canRxAdd(ECU_BUS, BRAKE_5_1192, relayFromECU)
 
--- brake 2
-canRxAdd(ECU_BUS, BRAKE_2_1440, relayFromECU)
 
--- REQUIRED?! Gate_Komf_1
-canRxAdd(ECU_BUS, 912, relayFromECU)
+canRxAdd(ECU_BUS, Komf_1_912, relayFromECU)
 -- Systeminfo_1
 canRxAdd(ECU_BUS, 1488, relayFromECU)
 -- REQUIRED? Diagnose_1
@@ -474,6 +469,8 @@ function onTick()
 --    txCan(TCU_BUS, BRAKE_1_416, 0, payload416)
 --    txCan(TCU_BUS, BRAKE_8_428, 0, payload428)
 --    txCan(TCU_BUS, BRAKE_2_1440, 0, payload1440)
+
+--    txCan(TCU_BUS, Komf_1_912, 0, payload912)
 
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
