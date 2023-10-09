@@ -409,7 +409,7 @@ canRxAdd(ECU_BUS, 1500, relayFromECU)
 canRxAdd(ECU_BUS, 906, relayFromECU)
 
 canRxAdd(ECU_BUS, BRAKE_1_416, relayFromECU)
-canRxAdd(ECU_BUS, BRAKE_2_1440, relayFromECU)
+--canRxAdd(ECU_BUS, BRAKE_2_1440, relayFromECU)
 canRxAdd(ECU_BUS, BRAKE_8_428, relayFromECU)
 
 canRxAdd(ECU_BUS, BRAKE_3_1184, relayFromECU)
@@ -468,7 +468,7 @@ function onTick()
 
 --    txCan(TCU_BUS, BRAKE_1_416, 0, payload416)
 --    txCan(TCU_BUS, BRAKE_8_428, 0, payload428)
---    txCan(TCU_BUS, BRAKE_2_1440, 0, payload1440)
+    txCan(TCU_BUS, BRAKE_2_1440, 0, payload1440)
 
 --    txCan(TCU_BUS, Komf_1_912, 0, payload912)
 
