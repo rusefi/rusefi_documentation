@@ -39,6 +39,12 @@ Do you know part numbers for any other OEM connectors? Please let us know!
 
 Here are some OEM connector part numbers. Bosch & Siemens, German and Japanese, Mazda Toyota BMW Volkswagen:
 
+## 18 pin
+
+TE 1-1488533-6 2203663-6
+
+harley 72664-12
+
 ## 24 pin
 
 Popular aftermarket connector HCCPHPE24 from APTIV (FORMERLY DELPHI FCI)  
