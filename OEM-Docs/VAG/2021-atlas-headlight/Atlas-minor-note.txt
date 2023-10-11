@@ -1,1 +1,49 @@
 MQB
+
+off
+15F
+ID=351,Type=D,Length=8,Data=xx 0A 0A AA
+19D
+ID=413,Type=D,Length=8,Data=xx xx 00 00
+Licht_Anf_01
+3D5
+ID=981,Type=D,Length=8,Data=xx xx 00 02 04
+
+==========================================
+marking/running lights
+ID=351,Type=D,Length=8,Data=xx 0A 0A AA
+ID=413,Type=D,Length=8,Data=xx xx 18
+ID=981,Type=D,Length=8,Data=xx xx 40 06 04
+==========================================
+marking/running lights
+
+ID=981,Type=D,Length=8,Data=xx xx 40 04 04
+==========================================
+
+if (413.3==0x18)
+  marking lights
+elseif 981.3==0x42
+  fog lights
+elseif 981.3==0x41
+  high bean
+elseif 981.3==0x40
+  low beans
+
+
+
+
+
+low beams
+ID=351,Type=D,Length=8,Data=xx 5F 0A AA
+ID=413,Type=D,Length=8,Data=xx xx 0A 00
+ID=981,Type=D,Length=8,Data=E9CF 40 02 04
+==========================================
+high beams
+ID=351,Type=D,Length=8,Data=685A0FFA
+ID=413,Type=D,Length=8,Data=xx xx 0A
+ID=981,Type=D,Length=8,Data=0DC7 41 02 06
+==========================================
+fog lights
+ID=351,Type=D,Length=8,Data=4C5B5AAA
+ID=413,Type=D,Length=8,Data=xx xx 0A
+ID=981,Type=D,Length=8,Data=D8 C9 42 00 04
