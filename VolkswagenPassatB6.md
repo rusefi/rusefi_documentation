@@ -1,5 +1,7 @@
 # Volkswagen Passat B6
 
+[interactive pinout](https://rusefi.com/docs/pinouts/hellen/Passat-2.0-MED9.1/)
+
 [Wikipedia](https://en.wikipedia.org/wiki/Volkswagen_Passat_%28B6%29)
 
 BOSCH MED9.1 ECU P/N 3C0 907 115 F
