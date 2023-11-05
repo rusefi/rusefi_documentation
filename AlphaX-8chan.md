@@ -19,6 +19,7 @@
 
 ![x](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax-8chan-rev-a.jpg)
 
+``bluetooth_jdy 115200 alpha8 1234``
 
 ## Parts
 
