@@ -5,7 +5,9 @@
 [Issue tracker & hardware files](https://github.com/rusefi/alphax-8chan)
 
 [Schematics rev a](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-a-schematic.pdf)
+[Schematics rev c](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-c-schematic.pdf)
 
+[iBom rev C](https://rusefi.com/docs/ibom/alphax_8ch-c-ibom.html)
 [iBom rev A](https://rusefi.com/docs/ibom/alphax_8ch-a-ibom.html)
 
 * 8 HighZ injector channels
@@ -19,6 +21,7 @@
 
 ![x](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax-8chan-rev-a.jpg)
 
+``bluetooth_jdy 115200 alpha8 1234``
 
 ## Parts
 
