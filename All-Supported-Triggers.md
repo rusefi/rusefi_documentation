@@ -247,6 +247,10 @@ Same as 4G15
 
 ![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_4G69.png)
 
+### 6G72 Cam
+
+![x](Images/triggers/trigger_TT_VVT_MITSU_6G72.png)
+
 ## Nissan
 
 QR25 crank
