@@ -233,7 +233,7 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ### 36-2-1
 
-For example 4B11 4G15
+For example 4B11 4G15 4G69
 
 ![x](Images/triggers/trigger_TT_36_2_1.png)
 
@@ -242,6 +242,8 @@ For example 4B11 4G15
 ![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_3A92.png)
 
 ### 4G69 VVT
+
+Same as 4G15
 
 ![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_4G69.png)
 
