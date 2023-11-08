@@ -233,6 +233,8 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ### 36-2-1
 
+For example 4B11 4G15
+
 ![x](Images/triggers/trigger_TT_36_2_1.png)
 
 ### 3A92 VVT
