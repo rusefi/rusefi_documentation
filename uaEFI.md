@@ -19,4 +19,3 @@ https://github.com/rusefi/uaefi
 * on-board EGT input
 * proto area
 * 100x100mm 4 layer PCB
-* 
