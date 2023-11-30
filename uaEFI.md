@@ -10,9 +10,12 @@ https://github.com/rusefi/uaefi
 * two hall inputs
 * dual DC motor to drive ETB/wastegate or stepper idle
 * on-board 4.9 LSU WBO controller
+* on-board SD card
+* up to two CAN buses
+* on-board baro sensor
 * four above 1A current low side outputs
 * a couple of lower current low side outputs
-* Flex fuel input
+* flex fuel input
 * knock sensor input
 * on-board real time clock battery
 * on-board MAP sensor footprints
