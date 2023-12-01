@@ -32,6 +32,9 @@
 
 ## Changelog
 
+[rev I](https://github.com/rusefi/alphax-4chan/issues?q=is%3Aissue+label%3Arev-i):
+* max9924
+
 rev H
 
 * routing defect fixed
