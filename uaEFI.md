@@ -2,6 +2,8 @@
 
 https://github.com/rusefi/uaefi
 
+[firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
+
 ## Features
 
 * sequential six smart coils with option of on-board igniters
