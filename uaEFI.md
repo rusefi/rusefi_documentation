@@ -1,6 +1,8 @@
 # Ultra Affordable EFI
 
-https://github.com/rusefi/uaefi
+[schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
+
+[firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
 
 ## Features
 
