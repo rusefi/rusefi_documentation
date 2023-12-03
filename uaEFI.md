@@ -25,7 +25,6 @@
 * proto area
 * 100x100mm 4 layer PCB
 
-
 ## Harness Connectors
 
 * 39012060 or 39012065
