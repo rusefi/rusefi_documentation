@@ -24,3 +24,12 @@
 * on-board EGT input
 * proto area
 * 100x100mm 4 layer PCB
+
+
+## Harness Connectors
+
+* 39012060 or 39012065
+* 39012080 or 39012085
+* 39012160 or 39012165
+* 39012180 or 39012185
+* 39012200 or 39012205
