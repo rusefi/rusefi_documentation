@@ -17,7 +17,7 @@ rusEFI has proper closed-loop VVT control, supporting multiple trigger options i
 - Mitsubishi 4G63
 - Mitsubishi 6G75
 
-At the moment rusEFI has only one channel of VVT position input.
+rusEFI supports up to quad VVT input/output.
 
 rusEFI trigger configuration is the most confusing part of rusEFI configuration unfortunately.
 
@@ -31,10 +31,6 @@ For example, 3/1 skipped wheel with cam sensor in the first half of the 720 cycl
 
 ![VVT First half](Images/VVT_first_half.png)
 
-## VVT mode 'second half'
-
-Same as the above, but with CAM sensor indicating the second phase of 720 degree engine cycle.
-
-![VVT Second half](Images/VVT_second_half.png)
-
 ![VVT Config](Images/VVT_config.png)
+
+Full list see https://github.com/rusefi/rusefi/wiki/All-Supported-Triggers
