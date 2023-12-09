@@ -14,4 +14,3 @@
 
 [some photos](https://github.com/rusefi/rusefi-hardware/tree/main/breakout-boards/Breakout_154_kia_pb/photos)
 
-
