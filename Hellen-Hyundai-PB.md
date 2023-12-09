@@ -14,3 +14,9 @@
 
 [some photos](https://github.com/rusefi/rusefi-hardware/tree/main/breakout-boards/Breakout_154_kia_pb/photos)
 
+same pinout for
+2012-2017 Hyundai Accent
+2012-2017 Kia Rio
+2012-2017 Kia Soul 1.6
+2013-2017 Hyundai Veloster Turbo
+2014-2017 Kia Forte 1.6t
