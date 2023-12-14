@@ -438,6 +438,16 @@ Set the duty cycle of the specified PWM channel.
 - Returns
   - none
 
+#### `setLuaGauge(index, value)`
+
+In an ideal world one would be using Sensor.new("LuaGauge1") but looks like that's not the way at the moment :(
+
+- Parameters
+  - `index`: The index of the Lua gauge to set.
+  - `value`: Desired gauge value.
+- Returns
+  - none
+
 ## Misc console commands
 
 ``luamemory``
