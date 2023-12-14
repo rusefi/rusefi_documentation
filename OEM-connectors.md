@@ -441,6 +441,10 @@ A lot of Russian cars  [М74 11186-1411020-22](https://www.rambase.ru/2014/09/la
 
 502225-0801
 
+## newer 80 pin
+
+8-1393476-0 Lamborghini Gallardo, Murcielago
+
 ## 81 pin
 
 unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
