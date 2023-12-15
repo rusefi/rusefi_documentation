@@ -443,7 +443,7 @@ A lot of Russian cars  [М74 11186-1411020-22](https://www.rambase.ru/2014/09/la
 
 ## newer 80 pin
 
-8-1393476-0 Lamborghini Gallardo, Murcielago
+[8-1393476-0](https://www.te.com/usa-en/product-8-1393476-0.html) Lamborghini Gallardo, Murcielago
 
 ## 81 pin
 
