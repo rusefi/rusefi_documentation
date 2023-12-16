@@ -29,7 +29,6 @@
 
 ![x](https://raw.githubusercontent.com/rusefi/uaefi/master/docs/uaefi-a-back.png)
 
-
 ## Harness Connectors
 
 * A 39012080 or 39012085
