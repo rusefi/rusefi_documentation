@@ -65,4 +65,4 @@ Part numbers provided by and available for purchase at corsa-technic.com individ
 
 ## CJ125
 
-* CJ125 is an unavailable older old chip replaced by CJ135. CJ125 is not available from legit distributors for many years now. There is no documentation for CJ135. Some time ago we chose to no longer spend resources on CJ125.
+* CJ125 is an unavailable old chip replaced by CJ135. CJ125 is not available from legit distributors for many years now. There is no documentation for CJ135. Some time ago we chose to no longer spend resources on CJ125.
