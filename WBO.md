@@ -9,62 +9,12 @@
 
 ## rusEFI Wide band oxygen
 
-rusEFI has two probably working implementations for Bosch wideband oxygen control:
 
-* We have cj125 integration
-* We like [https://github.com/mck1117/wideband](https://github.com/mck1117/wideband) even more. See [the forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1856)
-
-## rusEFI wideband module
+* [https://github.com/mck1117/wideband](https://github.com/mck1117/wideband) is what we use [the forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1856)
 
 See [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
 See [Hellen-WBO](Hellen-WBO)
-
-TODO: document it better
-
-## cj125 troubleshooting
-
-We have a few rusEFI console commands relevant for cj125
-
-``cj125_info``
-
-``cj125_restart``
-
-``cj125_calibrate``
-
-![x](Overview/wbo/cj125_heating_4_9.png)
-
-AndreiKA says Prometheus works
-
-Matthew says 0.3 SOIC-24 boards works
-
-Wideband controller based on Bosch CJ125 chip
-
-green is vUr, temperature feedback
-
-red is duty cycle
-
-yellow is vUa, the lambda current measurement
-
-white is converted AFR
-
-fully operating in <30 seconds
-
-in to closed loop in ~18 seconds
-
-P=30
-
-I=5
-
-D=0.3
-
-though you could probably use D=0 since the system is already damped so hard
-
-50Hz
-
-[Older SOIC-24 board - double sided assembly](https://github.com/rusefi/hw_modular/tree/master/cj125_Module)
-
-[Newer LQFP-32 board - single side assembly](https://github.com/rusefi/rusefi/tree/master/hardware/CJ125_board)
 
 ## Naming Convention
 
@@ -121,3 +71,7 @@ Part numbers provided by and available for purchase at corsa-technic.com individ
 ## ADV
 
 1J0973705 8R0906262E
+
+## CJ125
+
+* CJ125 is an unavailable older old chip replaced by CJ135. CJ125 is not available from legit distributors for many years now. There is no documentation for CJ135. Some time ago we chose to no longer spend resources on CJ125.
