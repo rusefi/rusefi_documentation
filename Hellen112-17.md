@@ -8,6 +8,9 @@ https://rusefi.com/docs/pinouts/me17-112-adapter/
 
 Not compatible with https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Indian/2020-2022%20Indian_Challenger_Pursuit_service_manual.pdf page 223
 
+[ibom a](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
+
+
 SUZUKI Alto 2009-2014 1.0 Petrol Engine Ecu - 33920-71M00
 
 SUZUKI SWIFT 2011-2016 1.2 PETROL MANUAL ENGINE ECU CONTROL UNIT 33910-69L01
