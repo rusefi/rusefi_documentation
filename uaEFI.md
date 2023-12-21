@@ -20,10 +20,11 @@
 * flex fuel input
 * knock sensor input
 * on-board real time clock battery
-* on-board MAP sensor footprints
-* on-board EGT input
 * proto area
 * 100x100mm 4 layer PCB
+* expandable with on-board IGBT igniters
+* expandable with on-board MAP sensor
+* expandable with on-board EGT input
 
 ![x](https://raw.githubusercontent.com/rusefi/uaefi/master/docs/uaefi-a-top.png)
 
