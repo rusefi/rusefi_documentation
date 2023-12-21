@@ -1,6 +1,6 @@
 # Knowledge sharing and Channels
 
-TL,DR: are you interested in any knowledge being indexed by google and are you interested in any knowledge outliving your rusEFI involvement? Are you interested in the social aspect of the rusEFI Slack/Discord lounge?
+TL,DR: are you interested in any knowledge being indexed by google and are you interested in any knowledge outliving your rusEFI involvement? Are you interested in the social aspect of the rusEFI Discord lounge?
 
 TL,DR: please post knowledge on forum and report issues at [https://github.com/rusefi/rusefi/issues](https://github.com/rusefi/rusefi/issues)
 
@@ -12,9 +12,8 @@ We have too many channels.
 * github tickets [Vault-Of-Memes](Vault-Of-Memes)
 * forum
 * facebook
+* discord
 * slack
-
-We do not pay for Slack history - Slack history is purged.
 
 Universal long term car knowledge? probably wiki
 
