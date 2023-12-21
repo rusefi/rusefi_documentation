@@ -15,7 +15,7 @@
 
 - [Forum](https://rusefi.com/forum/)
 - [Facebook Users Group](https://www.facebook.com/groups/rusEfi/)
-- [Slack](HOWTO-join-slack-channel)
+- [Discord](Discord)
 - [HOWTO-help-rusEFI](HOWTO-help-rusEFI)
 
 ## Hardware
