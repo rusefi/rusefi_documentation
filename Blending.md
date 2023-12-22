@@ -1,3 +1,3 @@
 # Blending
 
-There is boost blend! Auxanalog as input.
+There is boost blend! Auxanalog as input.
