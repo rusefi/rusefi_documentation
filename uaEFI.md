@@ -2,7 +2,7 @@
 
 ## Community Support
 
-<span style="color:red">Community support ONLY: https://www.facebook.com/groups/rusEfi and [Discord](https://github.com/rusefi/rusefi/wiki/Discord)</span>.
+🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
 
 ## Technical Details
 
