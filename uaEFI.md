@@ -1,10 +1,12 @@
 # Ultra Affordable EFI
 
-[interactive pinout](https://rusefi.com/docs/pinouts/hellen/uaefi/)
+[General rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Support)
 
-[schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
+[uaEFI interactive pinout](https://rusefi.com/docs/pinouts/hellen/uaefi/)
 
-[firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
+[uaEFI schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
+
+[uaEFI firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
 
 ## Features
 
