@@ -32,6 +32,7 @@ Dual AFR signal logging|✓
 [Launch Control](Launch-Control)|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
 [Digital Dash](Digital-Dash)|✓
+[Blending](Blending)|✓
 [on board wideband controller](WBO)|✓
 [Knock Sensing](knock-sensing)|✓
 [Multi-Spark](Multi-Spark)|✓
