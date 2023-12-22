@@ -2,7 +2,7 @@
 
 We can develop and fabricate a Standalone PnP ECU board* for more or less any gasoline engine.
 
-TL,DR: design services start at $10K, two iterations/ten units included.
+TL,DR: design services start at $6K, two iterations/ten units included. CANbus decoding brings base price to $10K.
 
 * up to dual ETB
 * up to 16 injectors
