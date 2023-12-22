@@ -1,5 +1,11 @@
 # Ultra Affordable EFI
 
+## Community Support
+
+<span style="color:red">Community support ONLY: https://www.facebook.com/groups/rusEfi and [Discord](https://github.com/rusefi/rusefi/wiki/Discord)</span>.
+
+## Technical Details
+
 [General rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Support)
 
 [uaEFI interactive pinout](https://rusefi.com/docs/pinouts/hellen/uaefi/)
