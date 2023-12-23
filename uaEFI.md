@@ -16,6 +16,8 @@
 
 [uaEFI interactive BOM](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
 
+[WBO documentation](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
+
 ## Features
 
 * sequential six smart coils with option of on-board igniters
