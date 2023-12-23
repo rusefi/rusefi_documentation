@@ -32,7 +32,10 @@ https://github.com/rusefi/rusefi_documentation/raw/master/OEM-Docs/Honda/2003-ac
 
 ## Status
 
+https://youtu.be/y9GVBKPL5Vw
+
 2023-03-03 tune https://rusefi.com/online/view.php?msq=1435
+
 https://rusefi.com/online/view.php?msq=1437
 
 [Honda K depinning video](https://www.youtube.com/watch?v=_kN83h54XDg)
