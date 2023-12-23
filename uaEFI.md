@@ -14,6 +14,8 @@
 
 [uaEFI firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
 
+[uaEFI interactive BOM](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
+
 ## Features
 
 * sequential six smart coils with option of on-board igniters
