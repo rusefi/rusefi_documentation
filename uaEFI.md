@@ -46,6 +46,8 @@
 
 ## Harness Connectors
 
+Molex Mini Fit Jr
+
 * A 39012080 or 39012085
 * B 39012180 or 39012185
 * C 39012200 or 39012205
