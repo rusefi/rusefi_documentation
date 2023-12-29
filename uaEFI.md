@@ -16,6 +16,8 @@
 
 [uaEFI interactive BOM](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
 
+[rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)
+
 [WBO documentation](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
 
 ## Features
