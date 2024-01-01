@@ -104,6 +104,10 @@ Sets specified calibration setting to specified value. Fires calibration change 
 
 For example `setCalibration("cranking.rpm", 900, false)`
 
+#### `burnconfig` 
+
+Schedule write to flash once the engine is stopped.
+
 #### `findSetting(name, defaultValue)`
 
 Find User Setting with specified name and returns numeric value. Useful when script developer and script consumer are
