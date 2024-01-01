@@ -104,7 +104,7 @@ Sets specified calibration setting to specified value. Fires calibration change 
 
 For example `setCalibration("cranking.rpm", 900, false)`
 
-#### `burnconfig` 
+#### `burnconfig`
 
 Schedule write to flash once the engine is stopped.
 
