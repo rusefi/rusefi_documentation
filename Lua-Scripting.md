@@ -452,6 +452,10 @@ In an ideal world one would be using Sensor.new("LuaGauge1") but looks like that
 - Returns
   - none
 
+#### `setDacVoltage(index, value`
+
+Not enabled on most boards since most boards were not developer with DAC in mind! See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/dac.txt for more info.
+
 ## Misc console commands
 
 ``luamemory``
