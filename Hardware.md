@@ -36,11 +36,11 @@ A: [selecting-open-source-ecu-microcontroller](selecting-open-source-ecu-microco
 A: At rusEFI we love cool new projects, but we are a really small team and only have so much time to work on rusEFI.  
 We already have lots of different hardware configurations and we would suggest using one of the existing wire in versions.  
 Nobody is stopping you from making your own board, but we cannot guarantee any support for that board or assistance with building it.  
-If you proceed then please consider making a P&P adapter board design based on Hellen, [Proteus](https://github.com/mck1117/proteus/), or microRusEFI.
+If you proceed then please consider making a P&P adapter board design based on Hellen, [Proteus](https://github.com/mck1117/proteus/), or microRusEFI. See also https://github.com/rusefi/rusefi/wiki/Custom-Firmware
 
 ## Q: What EDA are you guys using for your open source hardware?
 
-A: rusEFI preference at the moment is KiCad 6. A few legacy pieces are still using KiCad 4 and 5. While many EDAs have many cool features KiCad gives rusEFI uniformity and consistency.
+A: rusEFI preference at the moment is KiCad 7. A few legacy pieces are still using KiCad 4 and 5. While many EDAs have many cool features KiCad gives rusEFI uniformity and consistency.
 
 See also [https://github.com/rusefi/rusefi/tree/master/hardware](https://github.com/rusefi/rusefi/tree/master/hardware)
 
