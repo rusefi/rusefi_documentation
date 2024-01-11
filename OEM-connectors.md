@@ -627,6 +627,12 @@ Toyota Supra ECU connector 120 pin
 
 JZ
 
+## 120 pin Mazda
+
+60 + 60
+
+Miata NC, 2010 Mazda 3
+
 ## 121 pin
 
 [TE 1241434-1](http://www.te.com/catalog/pn/en/1241434-1)
