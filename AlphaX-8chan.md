@@ -2,8 +2,6 @@
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-8chan/)
 
-[Issue tracker & hardware files](https://github.com/rusefi/alphax-8chan)
-
 [Schematics rev a](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-a-schematic.pdf)
 [Schematics rev c](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-c-schematic.pdf)
 
