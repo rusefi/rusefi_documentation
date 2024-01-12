@@ -1,6 +1,6 @@
 # Vault Of Mercedes-Benz OEM Information
 
-Diagnostic Manual, for all Engines (Volume 1 to 3) see [http://manual.startekinfo.com/manual/JSP/c_d.jsp]
+Diagnostic Manuals, for all Engines (Volume 1 to 3) see [http://manual.startekinfo.com/manual/JSP/engines.jsp](http://manual.startekinfo.com/manual/JSP/engines.jsp)
 
 ## M111 - I4
 
