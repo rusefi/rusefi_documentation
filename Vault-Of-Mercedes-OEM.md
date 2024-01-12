@@ -1,5 +1,7 @@
 # Vault Of Mercedes-Benz OEM Information
 
+Diagnostic Manual, for all Engines (Volume 1 to 3) see [http://manual.startekinfo.com/manual/JSP/c_d.jsp]
+
 ## M111 - I4
 
 99 SLK230 See [Mercedes-C230-and-SLK230](Mercedes-C230-and-SLK230)
