@@ -13,3 +13,7 @@ JDY-33 seems to be the way to go Bluetooth in 2023. Yes, rusEFI supports JDY-33 
 On start, HC-06 accepts AT commands @ 9600.
 
 the default pin is 1234
+
+## BluetoothView
+
+A cool relevant Windows utility http://www.nirsoft.net
