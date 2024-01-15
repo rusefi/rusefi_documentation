@@ -309,6 +309,8 @@ Terrano YD21
 
 [TE 4-174518-7](http://www.te.com/usa-en/product-4-174518-7.html)
 
+Is this same as Mg643909?
+
 -1, -6 and -7 are color options
 
 ![64 pin connector](Hardware/connectors/64_pin.png)
@@ -630,6 +632,8 @@ JZ
 ## 120 pin Mazda
 
 60 + 60
+
+harness side 7283-9908-10 grey 7283-4988
 
 Miata NC, 2010 Mazda 3
 
