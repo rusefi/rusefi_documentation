@@ -132,4 +132,3 @@ Genesis Coupe Theta II https://rusefi.com/online/view.php?msq=1498
 ## 700 hp
 
 https://fb.watch/oreZ9_pX27/
-
