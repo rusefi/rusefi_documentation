@@ -97,6 +97,12 @@ Bench setup: VAG ETB on Proteus F7
 
 <https://rusefi.com/online/view.php?msq=969>
 
+## Coyote
+
+https://youtube.com/shorts/z1Yweyj2Nuc
+
+[Tunes & logs](https://rusefi.com/online/?vehicleName=Genestang&user_id=675)
+
 ## 4chan
 
 4G63
