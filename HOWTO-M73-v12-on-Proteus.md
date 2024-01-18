@@ -1,4 +1,8 @@
-# HOWTO M72 V12 on Proteus
+# HOWTO M73 V12 on Proteus
+
+* [rusEFI Proteus](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n) can run M70/M73 port injected v12
+* we do not support unusual M73 throttle bodies, we also only support 6 wire pedal position sensors. Nissan throttle bodies are the best fit we found for M73
+* MAP sensor fuel control strategy is recommended that would require MAP sensor to be fitted on the engine
 
 See also [HOWTO-Crimp-Ampseal](HOWTO-Crimp-Ampseal)
 
