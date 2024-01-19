@@ -11,13 +11,14 @@ Since this page was last updated, rusEFI uses [Lua](https://www.lua.org/) versio
 
 rusEFI provides a number of hooks to interface with the firmware and to manipulate its state and read/write the current configuration.
 
-- Configurations can be accessed via the [`getCalibration()`](#getcalibrationname) hook, and manipulated via the [`setCalibration()`](#setcalibrationname-value-needevent) hook.
-  - Configuration names are dynamically updated to match the current firmware; see here for the current list: [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md).
-- All outputs from the firmware can be read via the universal [`getOutput()`](#getoutputname) hook, and some can be altered via correspondingly named hooks i.e. `setOutputName()` where `OutputName` is name of the output, e.g. [`setClutchUpState()`](#setclutchupstatevalue).  See also: [Output](#output).
-  - Output names are dynamically updated to match the current firmware; see here for the current list: [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp).
-- Inputs from sensors can be read directly; see [Input](#input).
-- Aspects of the engine can be controled directly; see [Engine Control](#engine-control).
 - Hooks for CAN bus communications; see [CAN bus](#can-bus).
+- Inputs from sensors can be read directly; see [Input](#input).
+- ECU general purpose outputs see [Output](#output).
+- Aspects of the engine can be controlled directly; see [Engine Control](#engine-control).
+- ECU Configurations can be accessed via the [`getCalibration()`](#getcalibrationname) hook, and manipulated via the [`setCalibration()`](#setcalibrationname-value-needevent) hook.
+  - Configuration names are dynamically updated to match the current firmware; see here for the current list: [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md).
+- ECU internal state, i.e. logic outputs from the firmware can be read via the universal [`getOutput()`](#getoutputname) hook, and some can be altered via correspondingly named hooks i.e. `setOutputName()` where `OutputName` is name of the output, e.g. [`setClutchUpState()`](#setclutchupstatevalue).  See also: [Output](#output).
+  - Output names are dynamically updated to match the current firmware; see here for the current list: [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp).
 - Hooks to read values from SENT sensors; see [SENT protocol](#sent-protocol).
 - A set of useful routines is provided; see [Utility](#utility).
 
@@ -408,6 +409,8 @@ Reads physical value of arbitrary MCU pin
   - `pinName`: string name of MCU pin, for examples "PD15"
 
 ### Output
+
+Not to be confused with internal logic 'Live View'/Log data points/gauges 'outputs'. Not to be confused with GPPWM feature.
 
 #### `selfStimulateRPM(rpm)`
 
