@@ -11,3 +11,8 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 [pinout](https://rusefi.com/docs/pinouts/uaefi/honda-obd1/)
 
 See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM#obd-1
+
+
+## OEM Cases
+
+37820-p2e OBD2 case looks very similar to P28 OBD1 case
