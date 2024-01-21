@@ -239,6 +239,25 @@ TODO: document parameters, response
 
 TODO: document parameters, response
 
+### PID
+
+```
+-- p, i, d, min, max
+pid = Pid.new(2, 0, 0, -100, 100)
+pid:setOffset(0.3)
+pid:get(target, input)
+pid:reset()
+
+-- p, i, d, min, max
+industrialPid = IndustrialPid.new(2, 0, 0, -100, 100)
+industrialPid:setOffset(0.3)
+industrialPid:setDerivativeFilterLoss(0.3)
+industrialPid:setAntiwindupFreq(0.3)
+industrialPid:get(target, input)
+industrialPid:reset()
+
+```
+
 ### Utility
 
 #### `print(msg)`
