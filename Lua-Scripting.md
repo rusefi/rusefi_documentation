@@ -241,7 +241,7 @@ TODO: document parameters, response
 
 ### PID
 
-```
+```language=lua
 -- p, i, d, min, max
 pid = Pid.new(2, 0, 0, -100, 100)
 pid:setOffset(0.3)
