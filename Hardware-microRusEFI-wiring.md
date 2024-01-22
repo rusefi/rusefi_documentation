@@ -4,7 +4,7 @@
 
 [***>>>Interactive Pinout<<<***](https://rusefi.com/docs/pinouts/microrusefi/)
 
-    **WARNING: for historical reasons microRusEFI pin numbers do not match Molex numbers on the plastic**
+**WARNING: for historical reasons microRusEFI pin numbers do not match Molex numbers on the plastic**
 
 In some cases without "main relay output +12v" both pins #1 and #5 should be connected to the single source of +12v.
 
@@ -140,10 +140,8 @@ Q: Can I use temperature inputs for EGT?
 
 A: "temperature input" is a just an analog 0-5v input with a strong pull-up implied to use with a thermistor. Your EGT sensor is probably not a thermistor, your 0-5v output out of a conditioner would probably not be happy about the pull-up.
 
-[old not great static pinout](Hardware/microRusEFI/Hardware_microRusEFI_connector.png)
-
 [microRusEFI photo](Hardware/microRusEFI/Hardware_microRusEFI_connector.jpg)
 
-[microRusEFI image](Hardware/microRusEFI/Hardware_microRusEFI_0_3_PCB_pinout.png)
+[microRusEFI connector PCB image](Hardware/microRusEFI/Hardware_microRusEFI_0_3_PCB_pinout.png)
 
 [reality](Hardware/microRusEFI/microRusEFI_connectors/MRE_reality.jpg)
