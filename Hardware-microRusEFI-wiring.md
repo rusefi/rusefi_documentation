@@ -36,7 +36,7 @@ These tables provide technical information about the different types of pin foun
 
 | ID   | Type                | Notes & Limits                                                                       | Possible functions |
 |------|---------------------| ------------------------------------------------------------------------------------ | --- |
-| at   | Analog temperature  | Analog temperature (thermistor) input.  <mark>2.7k/TBD</mark> pullup resistor to 5v  | Thermistor temperature sensor, fuel level sender (variable resistor type) |
+| at   | Analog temperature  | Analog temperature (thermistor) input.  2.7k(+-1%) pullup resistor to 5v  | Thermistor temperature sensor, fuel level sender (variable resistor type) |
 | av   | Analog voltage      | Analog voltage input.  500k pull down to GND                                         | Analog voltage sensor (MAP, TPS, acc pedal, oil pressure, etc)
 | vr   | Variable reluctance   | VR crank input                                                                       | VR sensors including crank, cam, vehicle speed
 | hall | Hall cam/crank      | <mark>TBD pull up to 5v</mark> hall sensor for cam/crank                             | Hall sensors including crank, cam, vehicle speed
