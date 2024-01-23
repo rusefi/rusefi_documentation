@@ -1,6 +1,6 @@
 # Custom rusEFI firmware for your custom board
 
-Historically many custom hardware ECUs were running _default_ rusEFI firmware which takes it roots at ancient Frankenso times. For best user experience around default pinout and connector mapping a custom firmware is recommended.
+Historically many custom rusEFI ECUs were running _default_ firmware which takes it roots at ancient Frankenso times. For best user experience around default pinout and connector mapping a custom firmware is recommended.
 
 https://github.com/rusefi/fw-custom-example is an example of a custom rusEFI firmware repository. Just fork it, edit ``meta-info.env`` with name of your board and let GitHub Actions do the rest!
 
