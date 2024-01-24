@@ -2,14 +2,13 @@
 
 rusEFI offers complete software download bundles for multiple supported microcontrollers and boards.
 
-**IMPORTANT NOTE: TunerStudio v3.1.04 or later is REQUIRED!
-Please double check the version before updating your firmware, or your settings could be lost when updating**
-
 ## Common Boards
 
 [microRusEFI 0.4 and newer (STM32F4)](microRusEFI-Manual#software)
 
 [Proteus](Proteus-Manual#software)
+
+[uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
 
 [STM32 Discovery Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_f407-discovery.zip)
 
