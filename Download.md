@@ -1,6 +1,8 @@
 # Download
 
-rusEFI offers complete software download bundles for multiple supported microcontrollers and boards.
+Very similar but slightly different versions of rusEFI bundle are needed depending on which specific rusEFI ECU you are using.
+
+[Click here for TunerStudio download](http://www.tunerstudio.com/index.php/downloads)
 
 ## Common Boards
 
@@ -25,8 +27,6 @@ rusEFI offers complete software download bundles for multiple supported microcon
 [Miata NA6 64 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
 
 ## Uncommon Boards
-
-[Discovery stm32f407 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle.zip)
 
 [Frankenso PnP Miata NA6 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_frankenso_na6.zip)
 
