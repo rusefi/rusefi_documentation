@@ -2,7 +2,7 @@
 
 Very similar but slightly different versions of rusEFI bundle are needed depending on which specific rusEFI ECU you are using.
 
-[Click here for TunerStudio download](HOWTO-create-tunerstudio-project)
+[Click here for TunerStudio download](HOWTO-create-tunerstudio-project#download-and-install)
 
 ## Common Boards
 
