@@ -10,7 +10,7 @@
 
 3. Get friendly on the [rusEFI forums](https://rusefi.com/forum) Introduce yourself, start a build thread, and ask questions.
 
-4. [Install TunerStudio (version 3.1.04 or newer is needed)](http://www.tunerstudio.com/index.php/downloads)
+4. [Download and Install TunerStudio ](http://www.tunerstudio.com/index.php/downloads)
 
 5. Start a new project, save to a folder that you specify, and choose the rusefi.ini file from the bundle.
 
