@@ -1,6 +1,8 @@
 # Download
 
-rusEFI offers complete software download bundles for multiple supported microcontrollers and boards.
+Very similar but slightly different versions of rusEFI bundle are needed depending on which specific rusEFI ECU you are using.
+
+[Click here for TunerStudio download](http://www.tunerstudio.com/index.php/downloads)
 
 ## Common Boards
 
