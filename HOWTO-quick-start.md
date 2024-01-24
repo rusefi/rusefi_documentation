@@ -8,13 +8,11 @@
 
    ![console](FAQ/images/rusEFI_console_start_screen.png)
 
-3. **IF you have a Frankenso or Frankenstein board with the FT232 Chip, Download and install [FTDI's usb VCP driver on your PC](http://www.ftdichip.com/Drivers/VCP.htm).**
+3. Get friendly on the [rusEFI forums](https://rusefi.com/forum) Introduce yourself, start a build thread, and ask questions.
 
-4. Get friendly on the [rusEFI forums](https://rusefi.com/forum) Introduce yourself, start a build thread, and ask questions.
+4. [Download and Install TunerStudio ](http://www.tunerstudio.com/index.php/downloads)
 
-5. [Install TunerStudio (version 3.1.04 or newer is needed)](http://www.tunerstudio.com/index.php/downloads)
-
-6. Start a new project, save to a folder that you specify, and choose the rusefi.ini file from the bundle.
+5. Start a new project, save to a folder that you specify, and choose the rusefi.ini file from the bundle.
 
    ![project](FAQ/images/TunerStudio_new_project.png)
 
@@ -26,13 +24,11 @@ Your board comes with rusEFI firmware installed on it, but it should be updated.
 
 [How to update your firmware](HOWTO-Update-Firmware)
 
-If you have a Frankenso, Frankenstein, or are just messing with a Discovery, you will need to install firmware first. See [these instructions.](Discovery-Based-Board-Setup)
-
 ## Plug and Play (PNP) Initial Setup
 
 This guide is written for the firmware released August 6th 2020. The further away from this date your FW is, the less agreement you will have in specific locations of items in TunerStudio and terms used etc. HOWEVER, the basic principles should still apply.
 
-1. [Download the rusEFI Bundle](Download) to get your rusefiXXX.ini (:ToDo) file and serial port drivers.
+1. [Download the rusEFI Bundle](Download) to get your rusefi_XXX.ini (:ToDo) file and serial port drivers.
 
 2. Install [TunerStudio](http://www.tunerstudio.com/index.php/downloads) and [MegaLog Viewer](https://www.efianalytics.com/MegaLogViewer/download/) (the payed versions are highly recommended).
 
