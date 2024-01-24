@@ -28,8 +28,6 @@ Very similar but slightly different versions of rusEFI bundle are needed dependi
 
 ## Uncommon Boards
 
-[Discovery stm32f407 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle.zip)
-
 [Frankenso PnP Miata NA6 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_frankenso_na6.zip)
 
 [microRusEFI 0.3 and older (STM32F7)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f7.zip)
