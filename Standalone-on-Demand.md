@@ -25,8 +25,7 @@ For list of Hellen boards available for sale already see [Hellen-One-Platform](H
 * Goes into OEM case
 * Basic CAN programming included according to provided CAN message format
 * Tuning NOT included
-* K-line NOT supported
-* Vehicle integration research NOT included
+* Basic vehicle integration included
 * TL,DR: this is a _blank_ plug-in _board_ not a "Hook it up and drive to the race track" deal. While we can produce a great ECU, only someone with a test vehicle can make the base tune. Please do your research!
 
 ## What next?
