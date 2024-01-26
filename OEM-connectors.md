@@ -829,6 +829,12 @@ E 5 Engine Control Module Toyota 90980-12529
 
 E 6 Engine Control Module Toyota 90980-12525
 
+## 136 pin
+
+64+72, 5 row, feels so CMC
+
+Kawasaki Ninja ZX4RR 2023
+
 ## 145 pin
 
 Mercedes 145 pin
