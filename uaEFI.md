@@ -1,5 +1,9 @@
 # Ultra Affordable EFI
 
+## Shop
+
+🟢[$100 base model rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)🟢
+
 ## Community Support
 
 🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
@@ -15,8 +19,6 @@
 [uaEFI firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
 
 [uaEFI interactive BOM](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
-
-[rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)
 
 [WBO documentation](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
 
