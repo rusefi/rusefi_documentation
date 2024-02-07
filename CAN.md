@@ -18,6 +18,8 @@ Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not re
 
 ## Hardware options
 
+[PCAN-USB](https://www.peak-system.com/PCAN-USB.199.0.html) with some cable [https://www.peak-system.com/PCAN-Kabel-OBD-2.273.0.html](https://www.peak-system.com/PCAN-Cable-OBD-2.273.0.html) or [PCAN-Cable 3](https://www.peak-system.com/PCAN-Cable-3.290.0.html)
+
 [fake looking like Vasya](https://rusefi.com/forum/viewtopic.php?f=13&t=2243)
 
 [custom China](https://rusefi.com/forum/viewtopic.php?f=13&t=2209)
