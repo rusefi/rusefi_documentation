@@ -207,7 +207,13 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ### Daihatsu
 
-![x](Images/triggers/trigger_TT_DAIHATSU.png)
+3 cylinder
+
+![x](Images/triggers/trigger_TT_DAIHATSU_3_CYL.png)
+
+4 cylinder
+
+![x](Images/triggers/trigger_TT_DAIHATSU_4_CYL.png)
 
 ### Benelli Tre
 
