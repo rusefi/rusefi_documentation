@@ -17,3 +17,11 @@ I have PCAN USB dongle to record CANbus traces and a few Proteus units for Man-i
 First let's grab a trace and a snapshot of CANbus traffic while engine is not running, both with OEM ECU and with OEM ECU disconnected. We get https://github.com/rusefi/rusefi_documentation/commit/722e81d2b0dd2b1f9661a3e9fd6383087ba4418a#diff-457155f3530fe11dbca1083aa1860f4e3cccc8f2d8b78d81634def58fbc38d9f
 
 Comparing these two files we confirm which packets are clearly originating from the now disconnected OEM ECU https://github.com/rusefi/rusefi_documentation/commit/8575c7292d975c2477ccf070634883f5a9423c7e
+
+## Now let's cut the wires
+
+```
+2024-02-10_18_43_23_440: EngineState: LUA: TCU isShiftActive=0 tcuStatus=0 EGSRequirement=0
+2024-02-10_18_43_23_440: EngineState: LUA: Total from vehicle 125658 from TCU 15593 dropped=0 replaced 0
+2024-02-10_18_43_23_839: EngineState: LUA: TCU isShiftActive=1 tcuStatus=0 EGSRequirement=0
+```
