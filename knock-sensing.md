@@ -1,6 +1,6 @@
 # Knock Sensing
 
-TL,DR: We have native knock processing, with [Proteus](Proteus) and Hellen hardware support at the moment. We have very limited amount of testing on real vehicles.
+TL,DR: We have native knock processing, with [Proteus](Proteus) and Hellen hardware support at the moment. We have very limited amount of testing on real vehicles: we know that knock is being detected, we know timing is being retarded, we do not have the body of best practices yet. See bits and pieces on the forum!
 
 ## Software knock sensing
 
