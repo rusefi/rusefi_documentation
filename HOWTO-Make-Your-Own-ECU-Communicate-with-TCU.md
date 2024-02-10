@@ -6,6 +6,8 @@ As of Feb 2024 it has been _years_ since I've on and off started to work on gett
 
 I have a [2006 Volkswagen Passat 2.0 Turbo GDI PG35 non-DSG automatic complete running and driving test mule](https://rusefi.com/forum/viewtopic.php?f=2&t=1631) idling on rusEFI open source ECU. Attempting to engage transmission while posting only minimal dashboard CANbus messages causes something violent to happen and the engine would usually stall see https://youtu.be/rTobt4l-iEs
 
-Original ECU which I am looking to replace for no good reason is BOSCH MED9.1. Conveniently the relevant Bosch Funktionsrahmen Ea827 TSI is available on the internet. CANbus traffic seems to mostly align with https://github.com/commaai/opendbc/blob/master/vw_golf_mk4.dbc DBC file.
+Original ECU which I am looking to replace for no good reason is BOSCH MED9.1. Conveniently the relevant Bosch Funktionsrahmen Ea827 TSI is available on the internet. CANbus traffic seems to mostly align with https://github.com/commaai/opendbc/blob/master/vw_golf_mk4.dbc DBC file. I've used google translate to translate some of interesting field descriptions those are already merged into the file.
 
-I've used google translate to translate some of interesting field description those are already merged into the file like https://github.com/commaai/opendbc/commit/951ab07fdcbce023a5c927f56bbf94e0f2322366
+## Toolset
+
+I have PCAN USB dongle to record CANbus traces and a few Proteus units for Man-in-the-middle research. I've also created my own suite of CANbus trace processing utilities https://github.com/rusefi/can-log-tools/
