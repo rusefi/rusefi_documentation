@@ -11,3 +11,9 @@ Original ECU which I am looking to replace for no good reason is BOSCH MED9.1. C
 ## Toolset
 
 I have PCAN USB dongle to record CANbus traces and a few Proteus units for Man-in-the-middle research. I've also created my own suite of CANbus trace processing utilities https://github.com/rusefi/can-log-tools/
+
+## First experiments
+
+First let's grab a trace and a snapshot of CANbus traffic while engine is not running, both with OEM ECU and with OEM ECU disconnected. We get https://github.com/rusefi/rusefi_documentation/commit/722e81d2b0dd2b1f9661a3e9fd6383087ba4418a#diff-457155f3530fe11dbca1083aa1860f4e3cccc8f2d8b78d81634def58fbc38d9f
+
+Comparing these two files we confirm which packets are clearly originating from the now disconnected OEM ECU https://github.com/rusefi/rusefi_documentation/commit/8575c7292d975c2477ccf070634883f5a9423c7e
