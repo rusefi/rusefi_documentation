@@ -47,30 +47,28 @@ function onTcu440(bus, id, dlc, data)
 	relayFromTcuToVehicle(bus, id, dlc, data)
 end
 
+canRxAdd(VEHICLE_BUS, Komf_1_912, relayFromVehicleToTcu)
+canRxAdd(VEHICLE_BUS, ACC_GRA_Anzeige, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, GRA_Neu, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, Kombi_3, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, Soll_Verbauliste_neu, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, Systeminfo_1, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, Diagnose_1, relayFromVehicleToTcu) -- ?
 canRxAdd(VEHICLE_BUS, BRAKE_1_416, relayFromVehicleToTcu)
+canRxAdd(VEHICLE_BUS, BRAKE_2_1440, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, BRAKE_3_1184, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, BRAKE_5_1192, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, BRAKE_8_428, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, VWTP_OUT, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, VPTP_TCU, relayFromVehicleToTcu)
 
-
-canRxAdd(VEHICLE_BUS, Komf_1_912, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, 1386, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, Motor_Flexia, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, MOTOR_7, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, BRAKE_2_1440, relayFromVehicleToTcu)
-
 canRxAdd(VEHICLE_BUS, MOTOR_1, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_3, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_5, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_6, relayFromVehicleToTcu)
+canRxAdd(VEHICLE_BUS, MOTOR_7, relayFromVehicleToTcu)
+canRxAdd(VEHICLE_BUS, Motor_Flexia, relayFromVehicleToTcu)
 
 canRxAdd(TCU_BUS, VWTP_IN, relayFromTcuToVehicle)
 canRxAdd(TCU_BUS, VWTP_TESTER, relayFromTcuToVehicle)
