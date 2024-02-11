@@ -1,4 +1,4 @@
--- scriptname script_5_modified_payload.lua
+-- scriptname script_5_fake_torque_motor1.lua
 
 -- sometimes we want to cut a CAN bus and install rusEFI into that cut
 -- https://en.wikipedia.org/wiki/Man-in-the-middle_attack
@@ -14,6 +14,8 @@ setTickRate(100)
 
 VEHICLE_BUS = 1
 TCU_BUS = 2
+
+motor1Data = { 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 totalVehicleMessages = 0
 totalTcuMessages = 0
@@ -47,6 +49,22 @@ function onTcu440(bus, id, dlc, data)
 	relayFromTcuToVehicle(bus, id, dlc, data)
 end
 
+function sendMotor1()
+	engineTorque = fakeTorque * 0.9
+	innerTorqWithoutExt = fakeTorque
+	torqueLoss = 20
+	requestedTorque = fakeTorque
+
+	motor1Data[2] = engineTorque / 0.39
+	setTwoBytes(motor1Data, 2, rpm / 0.25)
+	motor1Data[5] = innerTorqWithoutExt / 0.4
+	motor1Data[6] = tps / 0.4
+	motor1Data[7] = torqueLoss / 0.39
+	motor1Data[8] = requestedTorque / 0.39
+
+	txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
+end
+
 motor1counter = 0
 function onMotor1(bus, id, dlc, data)
 	rpm = getBitRange(data, 16, 16) * 0.25
@@ -63,8 +81,7 @@ function onMotor1(bus, id, dlc, data)
 	    print('RPM=' .. rpm .. ' TPS=' .. tps)
     end
 
-	-- sendMotor1()
-	relayFromVehicleToTcu(bus, id, dlc, data)
+	sendMotor1()
 end
 
 canRxAdd(VEHICLE_BUS, Komf_1_912, relayFromVehicleToTcu)
