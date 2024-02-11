@@ -62,6 +62,10 @@ function onTcu440(bus, id, dlc, data)
 	relayFromTcuToVehicle(bus, id, dlc, data)
 end
 
+fakeTorque = 0
+rpm = 0
+tps = 0
+
 realEngineTorque = 0
 realInnerTorqWithoutExt = 0
 realTorqueLoss = 0
@@ -146,6 +150,7 @@ function sendMotor7()
 end
 
 canMotorInfoCounter = 0
+canMotorInfoTotalCounter = 0
 function sendMotorInfo()
 	canMotorInfoTotalCounter = canMotorInfoTotalCounter + 1
 	canMotorInfoCounter = (canMotorInfoCounter + 1) % 16

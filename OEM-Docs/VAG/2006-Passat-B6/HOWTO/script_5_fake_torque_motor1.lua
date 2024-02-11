@@ -49,6 +49,10 @@ function onTcu440(bus, id, dlc, data)
 	relayFromTcuToVehicle(bus, id, dlc, data)
 end
 
+fakeTorque = 0
+rpm = 0
+tps = 0
+
 function sendMotor1()
 	engineTorque = fakeTorque * 0.9
 	innerTorqWithoutExt = fakeTorque
