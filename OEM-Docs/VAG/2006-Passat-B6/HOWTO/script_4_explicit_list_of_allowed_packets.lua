@@ -61,10 +61,7 @@ canRxAdd(VEHICLE_BUS, VPTP_TCU, relayFromVehicleToTcu)
 
 
 canRxAdd(VEHICLE_BUS, 912, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, 976, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, 978, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, 1056, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, 1152, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, 1360, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, 1386, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, Motor_Flexia, relayFromVehicleToTcu)
@@ -78,6 +75,7 @@ canRxAdd(VEHICLE_BUS, 1504, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_1, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_3, relayFromVehicleToTcu)
+canRxAdd(VEHICLE_BUS, MOTOR_5, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_6, relayFromVehicleToTcu)
 
 canRxAdd(TCU_BUS, VWTP_IN, relayFromTcuToVehicle)
