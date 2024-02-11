@@ -70,6 +70,7 @@ realEngineTorque = 0
 realInnerTorqWithoutExt = 0
 realTorqueLoss = 0
 realRequestedTorque = 0
+realDesired_wheel_torque = 0
 
 function sendMotor1()
 	engineTorque = fakeTorque * 0.9
@@ -199,6 +200,9 @@ function onMotor3(bus, id, dlc, data)
 	iat = 30 -- getBitRange(data, 8, 8) * 0.75 - 48
 	pps = 7 -- getBitRange(data, 16, 8) * 0.40
 	tps = 7 -- getBitRange(data, 56, 8) * 0.40
+
+    realDesired_wheel_torque = getBitRange(data, 24, 12) * 0.39
+
     if motor3counter % 70 == 0 then
 --    	print ('MOTOR_3 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
     end
