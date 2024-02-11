@@ -16,7 +16,7 @@ c) DONE, you are ready to go control boost!
 
 1. [Download the rusEFI bundle](Download) for your hardware.
 
-2. Extract the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual Com Port and ST-Link drivers. If necessary the bundle will also help you install java run-time.
+2. Extract the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual Com Port and DFU drivers. If necessary the bundle will also help you install java run-time.
 
    ![console](FAQ/images/rusEFI_console_start_screen.png)
 
@@ -24,7 +24,7 @@ c) DONE, you are ready to go control boost!
 
 4. [Download and Install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install)
 
-5. Start a new project, save to a folder that you specify, and choose the rusefi.ini file from the bundle.
+5. Start a new project, save to a folder that you specify, and choose the rusefi.ini file from the bundle. Or, even simpler, use 'Detect' button and let TunerStudio download .ini from the internet!
 
    ![project](FAQ/images/TunerStudio_new_project.png)
 
@@ -42,7 +42,7 @@ This guide is written for the firmware released August 6th 2020. The further awa
 
 1. [Download the rusEFI Bundle](Download) to get your rusefi_XXX.ini (:ToDo) file and serial port drivers.
 
-2. Install [TunerStudio](http://www.tunerstudio.com/index.php/downloads) and [MegaLog Viewer](https://www.efianalytics.com/MegaLogViewer/download/) (the payed versions are highly recommended).
+2. Install [TunerStudio](HOWTO-create-tunerstudio-project#download-and-install) and [MegaLog Viewer](https://www.efianalytics.com/MegaLogViewer/download/) (the payed versions are highly recommended).
 
 3. Create a new project in TunerStudio.
    *This is not a TunerStudio manual.
