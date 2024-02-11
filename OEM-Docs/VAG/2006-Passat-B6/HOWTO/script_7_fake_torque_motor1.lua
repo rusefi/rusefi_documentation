@@ -16,9 +16,13 @@ VEHICLE_BUS = 1
 TCU_BUS = 2
 
 motor1Data = { 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+motor2Data = { 0x8A, 0x8D, 0x10, 0x04, 0x00, 0x4C, 0xDC, 0x87 }
+motor2mux = { 0x8A, 0xE8, 0x2C, 0x64 }
+
 canMotorInfo02 = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotorInfo1 = { 0x99, 0x14, 0x00, 0x7F, 0x00, 0xF0, 0x47, 0x01 }
 canMotorInfo3 = { 0x9B, 0x14, 0x00, 0x11, 0x1F, 0xE0, 0x0C, 0x46 }
+
 motor3Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor5Data = { 0x1C, 0x08, 0xF3, 0x55, 0x19, 0x00, 0x00, 0xAD }
 motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
@@ -72,6 +76,25 @@ function sendMotor1()
 	motor1Data[8] = requestedTorque / 0.39
 
 	txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
+end
+
+motor2counter = 0
+function sendMotor2()
+	motor2counter = (motor2counter + 1) % 16
+
+	minTorque = fakeTorque / 2
+	-- todo: add CLT
+	motor2Data[7] = math.floor(minTorque / 0.39)
+
+	-- print ( "brake " .. getBitRange(data, 16, 2) .. " " .. rpm)
+
+	brakeBit = rpm < 2000 and 1 or 0
+	setBitRange(motor2Data, 16, 1, brakeBit)
+
+	index = math.floor(motor2counter / 4)
+	motor2Data[1] = motor2mux[1 + index]
+
+	txCan(TCU_BUS, MOTOR_2, 0, motor2Data)
 end
 
 function sendMotor3()
@@ -182,7 +205,7 @@ canRxAdd(VEHICLE_BUS, VWTP_OUT, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, VPTP_TCU, relayFromVehicleToTcu)
 
 canRxAdd(VEHICLE_BUS, MOTOR_1, onMotor1)
-canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
+--canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_3, onMotor3)
 
 canRxAdd(TCU_BUS, VWTP_IN, relayFromTcuToVehicle)
@@ -199,6 +222,7 @@ everySecondTimer = Timer.new()
 
 function onTick()
 	sendMotor1()
+	sendMotor2()
 	sendMotor3()
 	sendMotor5()
 	sendMotor6()
