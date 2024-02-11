@@ -18,7 +18,6 @@ ACC_GRA = 0x56A
 MOTOR_INFO = 0x580
 -- 1416
 MOTOR_7 = 0x588
-ACC_GRA_Anzeige=1386
 Motor_Flexia=1408
 
 

@@ -48,7 +48,7 @@ function onTcu440(bus, id, dlc, data)
 end
 
 canRxAdd(VEHICLE_BUS, Komf_1_912, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, ACC_GRA_Anzeige, relayFromVehicleToTcu)
+canRxAdd(VEHICLE_BUS, ACC_GRA, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, GRA_Neu, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, Kombi_3, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, Soll_Verbauliste_neu, relayFromVehicleToTcu)
