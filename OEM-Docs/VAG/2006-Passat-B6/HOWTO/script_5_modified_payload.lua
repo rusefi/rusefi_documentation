@@ -47,6 +47,26 @@ function onTcu440(bus, id, dlc, data)
 	relayFromTcuToVehicle(bus, id, dlc, data)
 end
 
+motor1counter = 0
+function onMotor1(bus, id, dlc, data)
+	rpm = getBitRange(data, 16, 16) * 0.25
+	if rpm == 0 then
+		canMotorInfoTotalCounter = 0
+	end
+
+	tps = getBitRange(data, 40, 8) * 0.4
+
+	fakeTorque = interpolate(0, 6, 100, 60, tps)
+
+	motor1counter = motor1counter + 1
+	if motor1counter % 40 == 0 then
+	    print('RPM=' .. rpm .. ' TPS=' .. tps)
+    end
+
+	-- sendMotor1()
+	relayFromVehicleToTcu(bus, id, dlc, data)
+end
+
 canRxAdd(VEHICLE_BUS, Komf_1_912, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, ACC_GRA_Anzeige, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, GRA_Neu, relayFromVehicleToTcu)
@@ -62,7 +82,7 @@ canRxAdd(VEHICLE_BUS, BRAKE_8_428, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, VWTP_OUT, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, VPTP_TCU, relayFromVehicleToTcu)
 
-canRxAdd(VEHICLE_BUS, MOTOR_1, relayFromVehicleToTcu)
+canRxAdd(VEHICLE_BUS, MOTOR_1, onMotor1)
 canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_3, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_5, relayFromVehicleToTcu)
