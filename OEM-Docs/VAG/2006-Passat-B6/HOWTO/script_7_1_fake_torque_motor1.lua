@@ -1,4 +1,4 @@
--- scriptname script_7_fake_torque_motor1.lua
+-- scriptname script_7_1_fake_torque_motor1.lua
 
 -- sometimes we want to cut a CAN bus and install rusEFI into that cut
 -- https://en.wikipedia.org/wiki/Man-in-the-middle_attack
