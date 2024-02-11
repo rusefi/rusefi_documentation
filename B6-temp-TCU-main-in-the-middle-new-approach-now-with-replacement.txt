@@ -172,12 +172,16 @@ function sendMotor3()
 	txCan(TCU_BUS, MOTOR_3, 0, canMotor3)
 end
 
+motor3counter = 0
 function onMotor3(bus, id, dlc, data)
+ motor3counter = (motor3counter + 1) % 16
 	totalEcuMessages = totalEcuMessages + 1
 	iat = 30 -- getBitRange(data, 8, 8) * 0.75 - 48
 	pps = 7 -- getBitRange(data, 16, 8) * 0.40
 	tps = 7 -- getBitRange(data, 56, 8) * 0.40
---	print ('MOTOR_3 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
+    if motor3counter % 70 == 0 then
+    	print ('MOTOR_3 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
+    end
 end
 
 function onMotor1(bus, id, dlc, data)
@@ -323,9 +327,9 @@ function sendMotor5()
 	txCan(TCU_BUS, MOTOR_5, 0, motor5Data)
 end
 
-counter16 = 0
+motor6Counter = 0
 function sendMotor6()
-	counter16 = (counter16 + 1) % 16
+	motor6Counter = (motor6Counter + 1) % 16
 
 	engineTorque = fakeTorque * 0.9
 	actualTorque = fakeTorque
@@ -334,7 +338,7 @@ function sendMotor6()
 	motor6Data[2] = math.floor(engineTorque / 0.39)
 	motor6Data[3] = math.floor(actualTorque / 0.39)
 	motor6Data[6] = math.floor(feedbackGearbox / 0.39)
-	setBitRange(motor6Data, 60, 4, counter16)
+	setBitRange(motor6Data, 60, 4, motor6Counter)
 
 	xorChecksum(motor6Data, 1)
 	txCan(TCU_BUS, MOTOR_6, 0, motor6Data)
