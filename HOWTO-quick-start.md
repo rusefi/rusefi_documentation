@@ -4,7 +4,8 @@
 
 Obviously all official units are shipped with firmware installed. Modern Windows comes with USB CDC drivers.
 
-Minimal steps on your end
+Minimal steps on your end:
+
 a) [Download and Install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install) note that we recommend Beta version
 
 b) hit 'Detect' button and let TunerStudio download .ini from the internet
