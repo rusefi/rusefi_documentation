@@ -75,14 +75,10 @@ canRxAdd(TCU_BUS, VWTP_TESTER, relayFromTcuToVehicle)
 canRxAdd(TCU_BUS, TCU_1344_540, relayFromTcuToVehicle)
 canRxAdd(TCU_BUS, TCU_1352_548, relayFromTcuToVehicle)
 canRxAdd(TCU_BUS, TCU_1088_440, onTcu440)
-canRxAdd(TCU_BUS, Diagnose_1, relayFromTcuToVehicle)
 
 -- count what do we drop
---canRxAddMask(VEHICLE_BUS, 0, 0, printAndDrop)
---canRxAddMask(TCU_BUS, 0, 0, silentDrop)
-
---canRxAddMask(VEHICLE_BUS, 0, 0, relayFromVehicleToTcu)
-canRxAddMask(TCU_BUS, 0, 0, relayFromTcuToVehicle)
+canRxAddMask(VEHICLE_BUS, 0, 0, silentDrop)
+canRxAddMask(TCU_BUS, 0, 0, printAndDrop)
 
 everySecondTimer = Timer.new()
 
