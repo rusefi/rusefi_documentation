@@ -1,5 +1,16 @@
 # Quick Start
 
+## TL,DR: a unit has just showed up
+
+Obviously all official units are shipped with firmware installed. Modern Windows comes with USB CDC drivers.
+
+Minimal steps on your end
+a) [Download and Install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install) note that we recommend Beta version
+
+b) hit 'Detect' button and let TunerStudio download .ini from the internet
+
+c) DONE, you are ready to go control boost!
+
 ## What to do while you wait for your hardware
 
 1. [Download the rusEFI bundle](Download) for your hardware.
