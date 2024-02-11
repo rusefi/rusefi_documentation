@@ -19,6 +19,7 @@ motor1Data = { 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 canMotorInfo02 = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
 canMotorInfo1 = { 0x99, 0x14, 0x00, 0x7F, 0x00, 0xF0, 0x47, 0x01 }
 canMotorInfo3 = { 0x9B, 0x14, 0x00, 0x11, 0x1F, 0xE0, 0x0C, 0x46 }
+motor3Data = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
 motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
 motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
@@ -70,6 +71,17 @@ function sendMotor1()
 	motor1Data[8] = requestedTorque / 0.39
 
 	txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
+end
+
+function sendMotor3()
+	desired_wheel_torque = fakeTorque
+	iat = iat or 30
+	motor3Data[2] = (iat + 48) / 0.75
+	motor3Data[3] = tps / 0.4
+	motor3Data[5] = 0x20
+	setBitRange(motor3Data, 24, 12, math.floor(desired_wheel_torque / 0.39))
+	motor3Data[8] = tps / 0.4
+	txCan(TCU_BUS, MOTOR_3, 0, motor3Data)
 end
 
 --motor5counter = 0
@@ -137,10 +149,9 @@ function onMotor1(bus, id, dlc, data)
 
 	motor1counter = motor1counter + 1
 	if motor1counter % 40 == 0 then
-		print('RPM=' ..rpm ..' TPS=' ..tps)
+--		print('RPM=' ..rpm ..' TPS=' ..tps)
 	end
 
-	sendMotor1()
 end
 
 motor3counter = 0
@@ -150,9 +161,8 @@ function onMotor3(bus, id, dlc, data)
 	pps = 7 -- getBitRange(data, 16, 8) * 0.40
 	tps = 7 -- getBitRange(data, 56, 8) * 0.40
     if motor3counter % 70 == 0 then
-    	print ('MOTOR_3 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
+--    	print ('MOTOR_3 pps ' ..pps ..' tps ' ..tps ..' iat ' ..iat)
     end
-    relayFromVehicleToTcu(bus, id, dlc, data)
 end
 
 canRxAdd(VEHICLE_BUS, Komf_1_912, relayFromVehicleToTcu)
@@ -174,7 +184,6 @@ canRxAdd(VEHICLE_BUS, MOTOR_1, onMotor1)
 canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_3, onMotor3)
 canRxAdd(VEHICLE_BUS, MOTOR_5, relayFromVehicleToTcu)
---canRxAdd(VEHICLE_BUS, MOTOR_5, relayFromVehicleToTcu)
 
 canRxAdd(TCU_BUS, VWTP_IN, relayFromTcuToVehicle)
 canRxAdd(TCU_BUS, VWTP_TESTER, relayFromTcuToVehicle)
@@ -189,9 +198,11 @@ canRxAddMask(TCU_BUS, 0, 0, printAndDrop)
 everySecondTimer = Timer.new()
 
 function onTick()
---    sendMotor5()
+	sendMotor1()
+	sendMotor3()
+	--    sendMotor5()
 	sendMotor6()
-    sendMotor7()
+	sendMotor7()
 
     if everySecondTimer:getElapsedSeconds() > 1 then
         everySecondTimer:reset()
