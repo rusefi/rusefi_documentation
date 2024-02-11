@@ -4,6 +4,10 @@
 
 TL,DR: notes on PG35 TCU Man-in-the-middle research.
 
+Saturday Feb 10 2024 status: stock ECU, man in the middle, I substitute all torque numbers from ECU with TPS-based approximation (and TPS does not really mean thus torque does not really mean)
+In the end with me producing all nine MOTOR_xxx packets TCU engages reasonably well while on jack stands but TCU outputs are really confused.
+Tomorrow I will take steps back and record traces of same exact experiments with more different versions of the script, not just 'no substitution' and 'full substitution'. 
+
 As of Feb 2024 it has been _years_ since I've on and off started to work on getting an open source ECU to communicate with a transmission control unit via CANbus. So far I have not accomplished the goal which makes it a great point to write an article on the subject!
 
 I have a [2006 Volkswagen Passat 2.0 Turbo GDI PG35 non-DSG automatic complete running and driving test mule](https://rusefi.com/forum/viewtopic.php?f=2&t=1631) idling on rusEFI open source ECU. Attempting to engage transmission while posting only minimal dashboard CANbus messages causes something violent to happen and the engine would usually stall see https://youtu.be/rTobt4l-iEs
@@ -64,3 +68,35 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Pas
 Nice! TCU reports an error now! We've learned that MOTOR_5 0x480 is required.
 
 Manually resetting codes gets old really quickly so I have a second Proteus constantly checking if there are error codes to reset https://github.com/rusefi/rusefi/blob/0bcf342976951a24c9e81a3524e0c897b29e5440/firmware/controllers/lua/examples/vw-tp-tcu.txt
+
+Repeating same procedure while dropping each packet ID one by one we get to https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_4_explicit_list_of_allowed_packets.lua which
+explicitly mentions all the IDs allowed to pass, and drops everything else.
+
+## Let's produce our own packet!
+
+MOTOR_1 packet contains 🔴 a few torques which I do not know how to approximate 🔴
+
+Let's start with very poor approximation
+
+```language=lua
+    fakeTorque = interpolate(0, 6, 100, 60, tps)
+	engineTorque = fakeTorque * 0.9
+	innerTorqWithoutExt = fakeTorque
+	torqueLoss = 20
+	requestedTorque = fakeTorque
+```
+
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_5_fake_torque_motor1.lua
+
+## Let's produce _all_ MOTOR_xxx packets
+
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_7_fake_torque_motor1.lua
+
+🔴 I've made a mistake of not running same wheel spinning scenario on each iteration and not recording CANbus traces and not looking at those traces. I was just focusing on "IS_ERROR" not on actual TCU outputs 🔴
+
+Test scenario: engine is running in P, engage R, engage P, engage R, engage P end test.
+
+https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/VAG/2006-Passat-B6/2024.02 has script-1-stock-ecu-reverse-twice.trc and script-7-stock-ecu-reverse-twice.trc 
+
+``java -jar reader/build/libs/reader-all.jar "C:\stuff\rusefi_documentation\OEM-Docs\VAG\2006-Passat-B6\2024.02" -filter reverse -dbc opendbc/vw_golf_mk4.dbc``
+
