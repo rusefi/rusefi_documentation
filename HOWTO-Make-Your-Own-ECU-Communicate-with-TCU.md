@@ -42,7 +42,7 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Pas
 
 ## Let's drop a packet or two
 
-Next step: let's drop MOTOR_BRE 0x284, i.e. not let it through. 
+Next step: let's drop MOTOR_BRE 0x284, i.e. not let it through.
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_2_drop_motor_bre.lua
 
