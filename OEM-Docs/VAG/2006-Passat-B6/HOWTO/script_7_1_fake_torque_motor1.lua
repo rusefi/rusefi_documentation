@@ -62,6 +62,11 @@ function onTcu440(bus, id, dlc, data)
 	relayFromTcuToVehicle(bus, id, dlc, data)
 end
 
+realEngineTorque = 0
+realInnerTorqWithoutExt = 0
+realTorqueLoss = 0
+realRequestedTorque = 0
+
 function sendMotor1()
 	engineTorque = fakeTorque * 0.9
 	innerTorqWithoutExt = fakeTorque
@@ -166,6 +171,11 @@ function onMotor1(bus, id, dlc, data)
 	if rpm == 0 then
 		canMotorInfoTotalCounter = 0
 	end
+
+    realEngineTorque = data[2] * 0.39
+    realInnerTorqWithoutExt = data[5] * 0.4
+    realTorqueLoss = data[7] * 0.39
+    realRequestedTorque = data[8] * 0.39
 
 	tps = getBitRange(data, 40, 8) * 0.4
 
