@@ -2,6 +2,8 @@
 
 ## What is this about
 
+TL,DR: notes on PG35 TCU Man-in-the-middle research.
+
 As of Feb 2024 it has been _years_ since I've on and off started to work on getting an open source ECU to communicate with a transmission control unit via CANbus. So far I have not accomplished the goal which makes it a great point to write an article on the subject!
 
 I have a [2006 Volkswagen Passat 2.0 Turbo GDI PG35 non-DSG automatic complete running and driving test mule](https://rusefi.com/forum/viewtopic.php?f=2&t=1631) idling on rusEFI open source ECU. Attempting to engage transmission while posting only minimal dashboard CANbus messages causes something violent to happen and the engine would usually stall see https://youtu.be/rTobt4l-iEs
@@ -20,8 +22,17 @@ Comparing these two files we confirm which packets are clearly originating from 
 
 ## Now let's cut the wires
 
+
+
 ```
-2024-02-10_18_43_23_440: EngineState: LUA: TCU isShiftActive=0 tcuStatus=0 EGSRequirement=0
+2024-02-10_18_43_23_440: EngineState: LUA: TCU isShiftActive=0 tcuError=0 EGSRequirement=0
 2024-02-10_18_43_23_440: EngineState: LUA: Total from vehicle 125658 from TCU 15593 dropped=0 replaced 0
-2024-02-10_18_43_23_839: EngineState: LUA: TCU isShiftActive=1 tcuStatus=0 EGSRequirement=0
+2024-02-10_18_43_23_839: EngineState: LUA: TCU isShiftActive=1 tcuError=0 EGSRequirement=0
+```
+
+
+```
+2024-02-10_18_54_03_328: EngineState: LUA: TCU isShiftActive=0 tcuError=0 EGSRequirement=0
+2024-02-10_18_54_03_517: EngineState: LUA: Total from vehicle 123015 from TCU 15380 dropped=3796 replaced 0
+2024-02-10_18_54_03_718: EngineState: LUA: TCU isShiftActive=0 tcuError=0 EGSRequirement=0
 ```

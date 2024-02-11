@@ -1,4 +1,4 @@
--- scriptname script_1_mim.lua
+-- scriptname script_2_drop_motor_5.lua
 
 -- sometimes we want to cut a CAN bus and install rusEFI into that cut
 -- https://en.wikipedia.org/wiki/Man-in-the-middle_attack
@@ -49,6 +49,10 @@ end
 
 -- special handling for TCU 440
 canRxAdd(TCU_1088_440, onTcu440)
+-- drop MOTOR_BRE whatever it is
+canRxAdd(MOTOR_BRE, silentDrop)
+-- also drop MOTOR_5
+canRxAdd(MOTOR_5, silentDrop)
 
 -- last not least everything else
 canRxAddMask(VEHICLE_BUS, 0, 0, relayFromVehicleToTcu)
