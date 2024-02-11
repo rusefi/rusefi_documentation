@@ -54,6 +54,11 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Pas
 
 Well, TCU did care. Let's drop something else, let's drop MOTOR_5 0x480.
 
+```language=text
+2024-02-10_20_42_36_107: EngineState: LUA: Total from vehicle 7833 from TCU 1041 dropped=528 replaced 0
+2024-02-10_20_42_36_107: EngineState: LUA: TCU isShiftActive=0 tcuError=1 EGSRequirement=1
+```
+
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_3_drop_motor_5.lua
 
 Nice! TCU reports an error now! We've learned that MOTOR_5 0x480 is required.

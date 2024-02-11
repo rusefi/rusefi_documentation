@@ -73,7 +73,9 @@ function silentDrop(bus, id, dlc, data)
 end
 
 function printAndDrop(bus, id, dlc, data)
-    print('Dropping ' ..arrayToString(data))
+    if id < 0x800 then
+        print('Dropping ID=' .. id .. ' payload ' ..arrayToString(data))
+    end
     totalDropped = totalDropped + 1
 end
 

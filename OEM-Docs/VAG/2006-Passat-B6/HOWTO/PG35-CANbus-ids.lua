@@ -36,7 +36,7 @@ Systeminfo_1 = 0x5D0
 -- 1500
 Soll_Verbauliste_neu = 0x5DC
 -- 2000
-Diagnose_1 = 5D0
+Diagnose_1 = 0x7D0
 
 BRAKE_1_416 = 0x1A0
 BRAKE_2_1440 = 0x5A0
