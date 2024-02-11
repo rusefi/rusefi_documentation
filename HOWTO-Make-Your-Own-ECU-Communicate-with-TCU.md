@@ -34,7 +34,7 @@ First script would just pass all messages and just print ``isShiftActive``
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_1_mim.lua
 
-```
+```language=text
 2024-02-10_18_43_23_440: EngineState: LUA: TCU isShiftActive=0 tcuError=0 EGSRequirement=0
 2024-02-10_18_43_23_440: EngineState: LUA: Total from vehicle 125658 from TCU 15593 dropped=0 replaced 0
 2024-02-10_18_43_23_839: EngineState: LUA: TCU isShiftActive=1 tcuError=0 EGSRequirement=0
@@ -46,7 +46,7 @@ Next step: let's drop MOTOR_BRE 0x284, i.e. not let it through.
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_2_drop_motor_bre.lua
 
-```
+```language=text
 2024-02-10_18_54_03_328: EngineState: LUA: TCU isShiftActive=0 tcuError=0 EGSRequirement=0
 2024-02-10_18_54_03_517: EngineState: LUA: Total from vehicle 123015 from TCU 15380 dropped=3796 replaced 0
 2024-02-10_18_54_03_718: EngineState: LUA: TCU isShiftActive=0 tcuError=0 EGSRequirement=0
