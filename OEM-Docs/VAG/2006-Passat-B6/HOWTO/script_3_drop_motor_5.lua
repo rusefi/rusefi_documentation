@@ -1,4 +1,4 @@
--- scriptname script_2_drop_motor_5.lua
+-- scriptname script_3_drop_motor_5.lua
 
 -- sometimes we want to cut a CAN bus and install rusEFI into that cut
 -- https://en.wikipedia.org/wiki/Man-in-the-middle_attack
