@@ -99,3 +99,8 @@ Test scenario: engine is running in P, engage R, engage P, engage R, engage P en
 https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/VAG/2006-Passat-B6/2024.02 has script-1-stock-ecu-reverse-twice.trc and script-7-stock-ecu-reverse-twice.trc
 
 ``java -jar reader/build/libs/reader-all.jar "C:\stuff\rusefi_documentation\OEM-Docs\VAG\2006-Passat-B6\2024.02" -filter reverse -dbc opendbc/vw_golf_mk4.dbc``
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/1c53f607-973f-41bf-8c11-ea0a43e07cb0)
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/8292c230-bdc7-41ba-b66e-c47ca53f8ec1)
+
