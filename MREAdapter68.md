@@ -1,9 +1,0 @@
-# 68 pin microRusEFI Adapter
-
-WIP
-
-Case compatibility:
-
-0261204281/282 037906259E
-
-0261203214/215 021 906 258 BM
