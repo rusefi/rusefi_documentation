@@ -16,6 +16,10 @@ VEHICLE_BUS = 1
 TCU_BUS = 2
 
 motor1Data = { 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+canMotorInfo02 = { 0x00, 0x00, 0x00, 0x14, 0x1C, 0x93, 0x48, 0x14 }
+canMotorInfo1 = { 0x99, 0x14, 0x00, 0x7F, 0x00, 0xF0, 0x47, 0x01 }
+canMotorInfo3 = { 0x9B, 0x14, 0x00, 0x11, 0x1F, 0xE0, 0x0C, 0x46 }
+motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 totalVehicleMessages = 0
 totalTcuMessages = 0
@@ -65,6 +69,30 @@ function sendMotor1()
 	txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
 end
 
+function sendMotor7()
+	txCan(TCU_BUS, MOTOR_7, 0, motor7Data)
+end
+
+canMotorInfoCounter = 0
+function sendMotorInfo()
+	canMotorInfoTotalCounter = canMotorInfoTotalCounter + 1
+	canMotorInfoCounter = (canMotorInfoCounter + 1) % 16
+
+	baseByte = canMotorInfoTotalCounter < 6 and 0x80 or 0x90
+	canMotorInfo02[1] = baseByte + (canMotorInfoCounter)
+	canMotorInfo1[1] = baseByte + (canMotorInfoCounter)
+	canMotorInfo3[1] = baseByte + (canMotorInfoCounter)
+	mod4 = canMotorInfoCounter % 4
+
+	if (mod4 == 0 or mod4 == 2) then
+		txCan(TCU_BUS, Motor_Flexia, 0, canMotorInfo02)
+	elseif (mod4 == 1) then
+		txCan(TCU_BUS, Motor_Flexia, 0, canMotorInfo1)
+	else
+		txCan(TCU_BUS, Motor_Flexia, 0, canMotorInfo3)
+	end
+end
+
 motor1counter = 0
 function onMotor1(bus, id, dlc, data)
 	rpm = getBitRange(data, 16, 16) * 0.25
@@ -85,7 +113,7 @@ function onMotor1(bus, id, dlc, data)
 end
 
 canRxAdd(VEHICLE_BUS, Komf_1_912, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, ACC_GRA_Anzeige, relayFromVehicleToTcu)
+canRxAdd(VEHICLE_BUS, ACC_GRA, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, GRA_Neu, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, Kombi_3, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, Soll_Verbauliste_neu, relayFromVehicleToTcu)
@@ -104,8 +132,8 @@ canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_3, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_5, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_6, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, MOTOR_7, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, Motor_Flexia, relayFromVehicleToTcu)
+--canRxAdd(VEHICLE_BUS, MOTOR_7, relayFromVehicleToTcu)
+--canRxAdd(VEHICLE_BUS, Motor_Flexia, relayFromVehicleToTcu)
 
 canRxAdd(TCU_BUS, VWTP_IN, relayFromTcuToVehicle)
 canRxAdd(TCU_BUS, VWTP_TESTER, relayFromTcuToVehicle)
@@ -120,8 +148,13 @@ canRxAddMask(TCU_BUS, 0, 0, printAndDrop)
 everySecondTimer = Timer.new()
 
 function onTick()
+    sendMotor7()
+
     if everySecondTimer:getElapsedSeconds() > 1 then
         everySecondTimer:reset()
         print("Total from vehicle " .. totalVehicleMessages .. " from TCU " .. totalTcuMessages .. " dropped=" .. totalDropped .. " replaced " .. totalReplaced)
+
+ 		motor5FuelCounter = motor5FuelCounter + 20
+ 		sendMotorInfo()
     end
 end
