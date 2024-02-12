@@ -241,6 +241,8 @@ TODO: document parameters, response
 
 ### PID
 
+deltaTime is measured automatically between current and previous "pid:get" invocation.
+
 ```language=lua
 -- p, i, d, min, max
 pid = Pid.new(2, 0, 0, -100, 100)
