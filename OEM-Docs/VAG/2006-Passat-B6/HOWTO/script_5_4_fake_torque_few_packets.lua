@@ -89,38 +89,6 @@ function sendMotor3()
 	txCan(TCU_BUS, MOTOR_3, 0, motor3Data)
 end
 
---motor5counter = 0
-motor5FuelCounter = 0
-function sendMotor5()
---    motor5counter = (motor5counter + 1) % 16
--- todo	index = math.floor(motor5counter / 4)
-
-	setBitRange(motor5Data, 5, 9, motor5FuelCounter)
-	vagXorChecksum(motor5Data, 8)
-	txCan(TCU_BUS, MOTOR_5, 0, motor5Data)
-end
-
-motor6Counter = 0
-function sendMotor6()
-	motor6Counter = (motor6Counter + 1) % 16
-
-	engineTorque = fakeTorque * 0.9
-	actualTorque = fakeTorque
-	feedbackGearbox = 255
-
-	motor6Data[2] = math.floor(engineTorque / 0.39)
-	motor6Data[3] = math.floor(actualTorque / 0.39)
-	motor6Data[6] = math.floor(feedbackGearbox / 0.39)
-	setBitRange(motor6Data, 60, 4, motor6Counter)
-
-	vagXorChecksum(motor6Data, 1)
-	txCan(TCU_BUS, MOTOR_6, 0, motor6Data)
-end
-
-function sendMotor7()
-	txCan(TCU_BUS, MOTOR_7, 0, motor7Data)
-end
-
 canMotorInfoCounter = 0
 canMotorInfoTotalCounter = 0
 function sendMotorInfo()
@@ -189,6 +157,7 @@ canRxAdd(VEHICLE_BUS, VPTP_TCU, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_1, onMotor1)
 canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_3, onMotor3)
+canRxAdd(VEHICLE_BUS, MOTOR_5, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_6, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_7, relayFromVehicleToTcu)
 
@@ -207,7 +176,6 @@ everySecondTimer = Timer.new()
 function onTick()
 	sendMotor1()
 	sendMotor3()
-	sendMotor5()
 
     if everySecondTimer:getElapsedSeconds() > 1 then
         everySecondTimer:reset()

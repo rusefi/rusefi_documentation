@@ -189,6 +189,8 @@ canRxAdd(VEHICLE_BUS, VPTP_TCU, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_1, onMotor1)
 canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_3, onMotor3)
+canRxAdd(VEHICLE_BUS, MOTOR_6, relayFromVehicleToTcu)
+canRxAdd(VEHICLE_BUS, MOTOR_7, relayFromVehicleToTcu)
 
 canRxAdd(TCU_BUS, VWTP_IN, relayFromTcuToVehicle)
 canRxAdd(TCU_BUS, VWTP_TESTER, relayFromTcuToVehicle)
@@ -206,8 +208,6 @@ function onTick()
 	sendMotor1()
 	sendMotor3()
 	sendMotor5()
-	sendMotor6()
-	sendMotor7()
 
     if everySecondTimer:getElapsedSeconds() > 1 then
         everySecondTimer:reset()
