@@ -105,4 +105,3 @@ https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/VAG/2006-Pas
 ![image](https://github.com/rusefi/rusefi/assets/48498823/8292c230-bdc7-41ba-b66e-c47ca53f8ec1)
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/743063ca-85dc-408e-a171-86f446bb6907)
-
