@@ -115,6 +115,7 @@ function onMotor1(bus, id, dlc, data)
 	if motor1counter % 40 == 0 then
 --		print('RPM=' ..rpm ..' TPS=' ..tps)
 	end
+	sendMotor1()
 
 end
 
@@ -130,11 +131,13 @@ function onMotor3(bus, id, dlc, data)
 
    	desired_wheel_torque = fakeTorque
    	iat = iat or 30
-   	data[2] = (iat + 48) / 0.75
-   	data[3] = tps / 0.4
-   	data[5] = 0x20
-   	setBitRange(motor3Data, 24, 12, math.floor(desired_wheel_torque / 0.39))
-   	data[8] = tps / 0.4
+--   	data[1] = 0
+ --  	data[2] = (iat + 48) / 0.75
+--   	data[3] = tps / 0.4
+--   	data[5] = 0x20
+--   	desired_wheel_torque = getBitRange(data, 24, 12)
+--   	setBitRange(data, 24, 12, math.floor(desired_wheel_torque / 0.39))
+--   	data[8] = tps / 0.4
    	txCan(TCU_BUS, MOTOR_3, 0, data)
 end
 
@@ -155,7 +158,8 @@ canRxAdd(VEHICLE_BUS, VPTP_TCU, relayFromVehicleToTcu)
 
 canRxAdd(VEHICLE_BUS, MOTOR_1, onMotor1)
 canRxAdd(VEHICLE_BUS, MOTOR_2, relayFromVehicleToTcu)
-canRxAdd(VEHICLE_BUS, MOTOR_3, onMotor3)
+--canRxAdd(VEHICLE_BUS, MOTOR_3, onMotor3)
+canRxAdd(VEHICLE_BUS, MOTOR_3, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_5, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_6, relayFromVehicleToTcu)
 canRxAdd(VEHICLE_BUS, MOTOR_7, relayFromVehicleToTcu)
@@ -173,7 +177,6 @@ canRxAddMask(TCU_BUS, 0, 0, printAndDrop)
 everySecondTimer = Timer.new()
 
 function onTick()
-	sendMotor1()
 	--sendMotor3()
 
     if everySecondTimer:getElapsedSeconds() > 1 then
