@@ -10,6 +10,8 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 
 [pinout](https://rusefi.com/docs/pinouts/uaefi/honda-obd1/)
 
+[Schematics rev a](Hardware/Hellen/uaefi-Honda-OBD1-adapter-a-schematic.pdf)
+
 See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM#obd-1
 
 ## OEM Cases
