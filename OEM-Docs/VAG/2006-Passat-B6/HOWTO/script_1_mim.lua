@@ -37,9 +37,9 @@ end
 
 counter440 = 0
 function onTcu440(bus, id, dlc, data)
-	isShiftActive = getBitRange(data, 0, 1)
-	tcuError = getBitRange(data, 1, 1)
-	EGSRequirement = getBitRange(data, 7, 1)
+	local isShiftActive = getBitRange(data, 0, 1)
+	local tcuError = getBitRange(data, 1, 1)
+	local EGSRequirement = getBitRange(data, 7, 1)
 	counter440 = counter440 + 1
 	if counter440 % 40 == 0 then
 		print("TCU isShiftActive=" ..isShiftActive .." tcuError=" ..tcuError .." EGSRequirement=" ..EGSRequirement)

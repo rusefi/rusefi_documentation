@@ -24,21 +24,21 @@ function setBitRange(data, totalBitIndex, bitWidth, value)
 		setBitRange(data, totalBitIndex + bitsToHandleNow, bitWidth - bitsToHandleNow, value >> bitsToHandleNow)
 		bitWidth = bitsToHandleNow
 	end
-	mask = (1 << bitWidth) - 1
+	local mask = (1 << bitWidth) - 1
 	data[1 + byteIndex] = data[1 + byteIndex] & (~(mask << bitInByteIndex))
-	maskedValue = value & mask
-	shiftedValue = maskedValue << bitInByteIndex
+	local maskedValue = value & mask
+	local shiftedValue = maskedValue << bitInByteIndex
 	data[1 + byteIndex] = data[1 + byteIndex] | shiftedValue
 end
 
 function getBitRange(data, bitIndex, bitWidth)
-	byteIndex = bitIndex >> 3
-	shift = bitIndex - byteIndex * 8
+	local byteIndex = bitIndex >> 3
+	local shift = bitIndex - byteIndex * 8
 	value = data[1 + byteIndex]
 	if (shift + bitWidth > 8) then
 		value = value + data[2 + byteIndex] * 256
 	end
-	mask = (1 << bitWidth) - 1
+	local mask = (1 << bitWidth) - 1
 	return (value >> shift) & mask
 end
 
