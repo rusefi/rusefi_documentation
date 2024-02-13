@@ -115,7 +115,6 @@ function onMotor1(bus, id, dlc, data)
 	if motor1counter % 40 == 0 then
 --		print('RPM=' ..rpm ..' TPS=' ..tps)
 	end
-	sendMotor1()
 
 end
 
@@ -177,6 +176,7 @@ canRxAddMask(TCU_BUS, 0, 0, printAndDrop)
 everySecondTimer = Timer.new()
 
 function onTick()
+	sendMotor1()
 	--sendMotor3()
 
     if everySecondTimer:getElapsedSeconds() > 1 then
