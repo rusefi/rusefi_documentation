@@ -24,14 +24,14 @@ function relayFromVehicleToTcu(bus, id, dlc, data)
     totalVehicleMessages = totalVehicleMessages + 1
 --    print('from ECU ' .. id .. " " .. arrayToString(data) .. " dropped=" .. totalDropped .. " replaced " .. totalReplaced)
     if id < 0x7FF then
-        txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
+--        txCan(TCU_BUS, id, 0, data) -- relay non-TCU message to TCU
     end
 end
 
 function relayFromTcuToVehicle(bus, id, dlc, data)
     totalTcuMessages = totalTcuMessages + 1
     if id < 0x7FF then
-        txCan(VEHICLE_BUS, id, 0, data) -- relay non-ECU message to ECU
+--        txCan(VEHICLE_BUS, id, 0, data) -- relay non-ECU message to ECU
     end
 end
 
