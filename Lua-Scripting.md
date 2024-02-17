@@ -162,7 +162,7 @@ Additive for open loop target boost pressure.
 
 #### `setTimingAdd(angle)`
 
-todo add details but ready to test!
+Use negative values to retard timing.
 
 #### `setTimingMult(coeff)`
 
