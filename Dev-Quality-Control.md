@@ -10,6 +10,8 @@ For current coverage report see [the coverage page](https://rusefi.com/docs/unit
 
 ## Hardware Continuous Integration
 
+### STM32F407G-DISC1
+
 Since 2015 there is always a stm32f4 board listening for VCS updates running rusEFI hardware continues integration, "HW CI" for short.
 
 Anyone can execute real hardware test suite by invoking. This command would detect rusEFI hardware automatically and invoke
@@ -21,3 +23,7 @@ The following jumper wires are used to test some subsystems as realistically as 
 
 * PD1 <=> PC6
 * PD2 <=> PA5
+
+### Proteus F4
+
+tbd
