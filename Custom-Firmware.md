@@ -9,6 +9,7 @@ https://github.com/rusefi/fw-custom-paralela and https://github.com/rusefi/fw-cu
 If you have a more complex situation, with several different board variants you need to build, you can still achieve this with one repo.  
 If, for example, your variants only need different compile flags, having multiple meta-info files within the same repository would be a good way to achieve it.  
 For example:
+
 - meta-info-brainboard.env
 - meta-info-brainboard-debug.env
 
