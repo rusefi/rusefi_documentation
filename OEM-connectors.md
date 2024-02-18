@@ -627,6 +627,8 @@ MX7-119PL
 
 Toyota Supra ECU connector 120 pin
 
+A80 Gen 4 Supra
+
 JZ
 
 ## 120 pin Mazda
