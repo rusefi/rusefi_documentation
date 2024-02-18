@@ -14,6 +14,7 @@ For example:
 - meta-info-brainboard-debug.env
 
 Now, in `.github/workflows/build-firmware.yaml`, you need a [matrix](https://docs.github.com/en/actions/learn-github-actions/contexts#example-usage-of-the-matrix-context) to run the build firmware action for two different targets. It should look something like this:
+
 ```yaml
 name: Create Board Firmware
 
