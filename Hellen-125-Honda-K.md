@@ -39,3 +39,9 @@ https://github.com/rusefi/rusefi_documentation/raw/master/OEM-Docs/Honda/2003-ac
 https://rusefi.com/online/view.php?msq=1437
 
 [Honda K depinning video](https://www.youtube.com/watch?v=_kN83h54XDg)
+
+# FAQ
+
+Q: How to I calibrate VTS/VTEC?
+
+A: At the moment VTS/VTEC is configured using General Purpose PWM 1. TODO https://github.com/rusefi/rusefi/issues/5999
