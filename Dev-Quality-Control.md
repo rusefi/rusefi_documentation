@@ -30,7 +30,7 @@ tbd
 
 ### On setting new MXLinux runners
 
-https://github.com/rusefi/rusefi/settings/actions/runners
+https://github.com/rusefi/rusefi/settings/actions/runners use ``hw-ci-f4-discovery`` or ``hw-ci-proteus-f7`` group name while adding runner.
 
 ``sudo mx-boot-options`` to set systemd as default
 
