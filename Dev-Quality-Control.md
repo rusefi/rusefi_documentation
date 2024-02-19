@@ -28,7 +28,9 @@ The following jumper wires are used to test some subsystems as realistically as 
 
 tbd
 
-##
+## On setting new MXLinux runners
+
+https://github.com/rusefi/rusefi/settings/actions/runners
 
 ``sudo mx-boot-options`` to set systemd as default
 
