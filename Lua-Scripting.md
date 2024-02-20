@@ -2,10 +2,7 @@
 
 ## Introduction
 
-rusEFI strives too offer users as much flexibility as possible, to provide a completely user-defined control strategy for both primary and auxiliary actuators. Historically, for many years rusEFI provided a mechanism called FSIO to do just that.
-
-As of 2022, rusEFI has replaced FSIO with a popular open source [Lua scripting engine](https://en.wikipedia.org/wiki/Lua_(programming_language)) to provide this mechanism.
-Since this page was last updated, rusEFI uses [Lua](https://www.lua.org/) version 5.4 ([v5.4.4](https://github.com/rusefi/lua/blob/master/lua.h#L19])).
+rusEFI strives to offer users as much flexibility as possible, to provide a completely user-defined control strategy for both primary and auxiliary actuators.
 
 ## Basics
 
