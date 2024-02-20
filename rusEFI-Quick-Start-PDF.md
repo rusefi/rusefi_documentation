@@ -16,7 +16,7 @@ Lite edition would get the job done, but registered version comes with tons of b
 
 Hook up your rusEFI to your desktop with a cable. USB power is sufficient to get your unit running on your bench!
 
-Launch Tuner Studio Beta and hit 'Create New Project'. Pick a name and hit 'Detect'.
+Launch Tuner Studio Beta and hit 'Create New Project'. Pick a name and hit 'Detect' for TunerStudio to download the .ini project template matching for your unit from the Internet.
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/1612a0d2-182f-4093-b6b0-31f02ec3cfdf)
 
