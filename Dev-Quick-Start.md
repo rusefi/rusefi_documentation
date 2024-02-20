@@ -18,7 +18,7 @@ See also <https://github.com/rusefi/rusefi/blob/master/firmware/setup_linux_envi
 
 ## GitHub Actions
 
-We rely on github actions heavily. We commit manual changes while github actions are commiting auto-generated stuff if needed. 
+We rely on github actions heavily. We commit manual changes while github actions are commiting auto-generated stuff if needed.
 
 Note the green icon for happy continues integration, note commits by actions-user.
 
@@ -27,5 +27,3 @@ Note the green icon for happy continues integration, note commits by actions-use
 Make sure that your fork has Actions enabled:
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/c7752a3f-3278-45d7-86d3-1439e5571e56)
-
-
