@@ -8,7 +8,7 @@ Congratulations, your fully assembled rusEFI unit has arrived! This document wou
 
 We recommend that you use EFI Analytics Tuner Studio desktop application to tune your rusEFI Engine Control Unit.
 
-As of February 2024 we recommend Tuner Studio BETA. Please download and install from https://www.efianalytics.com/TunerStudio/beta/ 
+As of February 2024 we recommend Tuner Studio BETA. Please download and install from https://www.efianalytics.com/TunerStudio/beta/
 
 Lite edition would get the job done, but registered version comes with tons of benefits like search, higher logging rate etc etc.
 
@@ -24,7 +24,7 @@ Tuner Studio would scan through your connections and detect your unit! Hit 'Acce
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/5553b63b-8d66-4118-9fd1-07b192dd3b83)
 
-## Tune it!
+## Tune it
 
 TunerStudio project is the tuning documentation. Please glance over all the available dialogs. Many settings have a blue "?" icon - click on these, those tooltip are the most complete rusEFI documnetation.
 
@@ -34,11 +34,10 @@ TunerStudio project is the tuning documentation. Please glance over all the avai
 
 All official rusEFI units come with detailed hardware documentation including schematics and interactive pinout. Each unit has it's own web page with all those details for instance https://rusefi.com/s/uaefu https://rusefi.com/s/proteus https://rusefi.com/s/microrusefi
 
-
 ## Updating Firmware
 
-rusEFI firmware is still being actively improved! We recommend that you update your unit every six months. 
+rusEFI firmware is still being actively improved! We recommend that you update your unit every six months.
 
 ## Further Reading
 
-https://rusefi.com/s/lua 
+https://rusefi.com/s/lua
