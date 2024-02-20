@@ -28,7 +28,7 @@ Tuner Studio would scan through your connections and detect your unit! Hit 'Acce
 
 rusEFI fuel control strategy needs your actual engine displacement to calculate fuel. A bit later engine make/model/name would be useful so make it yours!
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/4704f2cd-9165-45dd-8b48-f7bd2c7e00ee)
+![image](https://github.com/rusefi/rusefi/assets/48498823/1c5ea0cf-90d5-448c-8267-c7ca619c3ef2)
 
 ## Tune it
 
