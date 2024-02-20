@@ -20,7 +20,7 @@ Launch Tuner Studio Beta and hit 'Create New Project'. Pick a name and hit 'Dete
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/1612a0d2-182f-4093-b6b0-31f02ec3cfdf)
 
-Tuner Studio would scan through your connections and detect your unit! Hit 'Accept'. Hit 'Next' a few times, hit 'Finish'.
+Tuner Studio would scan through your connections and detect your unit! Hit 'Accept' in the bottom-right corner. Hit 'Next' a few times, hit 'Finish'. You are ready to calibrate your unit!
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/5553b63b-8d66-4118-9fd1-07b192dd3b83)
 
