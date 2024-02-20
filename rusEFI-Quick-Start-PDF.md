@@ -24,13 +24,20 @@ Tuner Studio would scan through your connections and detect your unit! Hit 'Acce
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/5553b63b-8d66-4118-9fd1-07b192dd3b83)
 
-## Updating Firmware
+## Tune it!
 
-rusEFI firmware is still being actively improved! We recommend that you update your unit every six months. 
+TunerStudio project is the tuning documentation. Please glance over all the available dialogs. Many settings have a blue "?" icon - click on these, those tooltip are the most complete rusEFI documnetation.
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/03321c1f-2ab6-4567-b11c-896ec8777792)
 
 ## Detailed Hardware information
 
 All official rusEFI units come with detailed hardware documentation including schematics and interactive pinout. Each unit has it's own web page with all those details for instance https://rusefi.com/s/uaefu https://rusefi.com/s/proteus https://rusefi.com/s/microrusefi
+
+
+## Updating Firmware
+
+rusEFI firmware is still being actively improved! We recommend that you update your unit every six months. 
 
 ## Further Reading
 
