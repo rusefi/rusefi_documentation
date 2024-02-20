@@ -38,24 +38,20 @@ Your board comes with rusEFI firmware installed on it, but it should be updated.
 
 ## Plug and Play (PNP) Initial Setup
 
-This guide is written for the firmware released August 6th 2020. The further away from this date your FW is, the less agreement you will have in specific locations of items in TunerStudio and terms used etc. HOWEVER, the basic principles should still apply.
+1. Install [TunerStudio](HOWTO-create-tunerstudio-project#download-and-install) and [MegaLog Viewer](https://www.efianalytics.com/MegaLogViewer/download/) (the payed versions are highly recommended).
 
-1. [Download the rusEFI Bundle](Download) to get your rusefi_XXX.ini (:ToDo) file and serial port drivers.
-
-2. Install [TunerStudio](HOWTO-create-tunerstudio-project#download-and-install) and [MegaLog Viewer](https://www.efianalytics.com/MegaLogViewer/download/) (the payed versions are highly recommended).
-
-3. Create a new project in TunerStudio.
+2. Create a new project in TunerStudio.
    *This is not a TunerStudio manual.
    *Most PnP rusEFI units can be powered through the USB port. So you can set it up in the comfort of your living room and have it communicate with Tunerstudio before it is installed in the car. It is highly recommended to try this approach.
 
-4. Connect TunerStudio to your ECU. You will need a USB cable to establish communication between your tuning laptop and the rusEFI unit. There will typically be only one micro-USB port on a PnP unit.
+3. Connect TunerStudio to your ECU. You will need a USB cable to establish communication between your tuning laptop and the rusEFI unit. There will be a USB port on a PnP unit.
 
    **Your laptop should give you an audible notification when you plug in the ECU with the ignition turned on. That means that it "sees" a new device connected to a USB port.**
 
-5. In TunerStudio apply correct "Communication Settings" [for detailed instructions see here.](Tunerstudio-Connectivity)
+4. In TunerStudio apply correct "Communication Settings" [for detailed instructions see here.](Tunerstudio-Connectivity)
    **Note: If your computer is running Linux, you might have to [fix issues with ModemManager](Linux-Connectivity).**
 
-6. With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. Of course the values displayed might not make a lot of sense, since your ECU is lacking a car, but at least you can see that TunerStudio and your computer are communicating.
+5. With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. Of course the values displayed might not make a lot of sense, since your ECU is lacking a car, but at least you can see that TunerStudio and your computer are communicating.
 
 ## Getting your car running
 
