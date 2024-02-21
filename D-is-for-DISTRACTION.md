@@ -1,6 +1,6 @@
-``there is a fine line between distraction and help``
+# there is a fine line between distraction and help
 
-# D is for... **DISTRACTION**
+## D is for... DISTRACTION
 
 One of the major things rusEFI struggles with is the developers and contributors getting sidetracked by interesting shiny things.
 When this happens we can loose a Dev for several days while he plays with a quantum capacitor or tries to implement crypto mining on the spare CPU cycles.
