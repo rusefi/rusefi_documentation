@@ -24,7 +24,6 @@ See also <https://github.com/rusefi/rusefi/blob/master/firmware/setup_linux_envi
 
 We are heavy in CI/CD so https://github.com/rusefi/rusefi/wiki/Dev-Quality-Control and https://github.com/rusefi/rusefi/blob/master/unit_tests/readme.md
 
-
 ## GitHub Actions
 
 We rely on github actions heavily. We commit manual changes while github actions are commiting auto-generated stuff if needed.
