@@ -1,6 +1,6 @@
 # TunerStudio Over CAN
 
-rusEFI TS communication could go over CAN wires
+rusEFI TS communication could go over CAN wires. Definitely much slower than USB but should be much more noise tolerant!
 
 As of today TunerStudio does not communicate with CAN dongles directly - so, we have a rusEFI own proxy software with ISO/TP on CAN dongle side, and TCP/IP for TunerStudio .
 
