@@ -1,6 +1,10 @@
 # Developer Quick Start
 
-STM32F407 firmware
+TL,DR: github process, github actions, GCC, gtest, java.
+
+rusEFI is an open source internal combustion engine control unit primarily running on stm32f4/f7 microcontrollers.
+
+Well, really the first step is to fork https://github.com/rusefi/rusefi and then make sure you have github actions enabled (see below)
 
 ```shell
 git clone --recurse-submodules https://github.com/rusefi/rusefi
@@ -8,13 +12,18 @@ cd firmware
 make
 ```
 
-virtual serial port
+## Embedded firmware
 
-PC application to send commands: [rusEFI Firmware bundle](https://rusefi.com/build_server/rusefi_bundle.zip)
+See https://github.com/rusefi/rusefi/blob/master/firmware/readme.md
+
+STM32F407 firmware including pre-compiled PC application to send commands: [rusEFI Firmware bundle](https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip)
 
 See also <https://github.com/rusefi/rusefi/blob/master/firmware/setup_linux_environment.sh>
 
-[ChibiOS](https://www.chibios.org/)
+## Unit Tests
+
+We are heavy in CI/CD so https://github.com/rusefi/rusefi/wiki/Dev-Quality-Control and https://github.com/rusefi/rusefi/blob/master/unit_tests/readme.md
+
 
 ## GitHub Actions
 
