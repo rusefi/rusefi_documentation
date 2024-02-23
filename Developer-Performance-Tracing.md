@@ -19,15 +19,16 @@ Uses:
 
 ## Capturing a Trace
 
-Use "Grab PTrace" button in rusEFI console, this would request a 500ms performance trace from ECU and write it into a .json file.
+Use "Grab PTrace" button in rusEFI console, this would request a 500ms performance trace from ECU and write it into a .json file. 
+Use the W/A/S/D keys to move left, right, or zoom in and out.
 
 Open Google Chrome browser, open chrome://tracing/, load generated .json file.
 
 ## Interpreting a Trace
 
-Here is an example of a trace that spans 500 microseconds - 1/2000 of a second:
+Here is an example of a trace:
 
-< image 1 here >
+![image](https://github.com/rusefi/rusefi/assets/48498823/786beb42-e733-4cb8-9609-ab3d692fb9ec)
 
 Across the top of the frame are the timestamp in microseconds - this view shows 4700-5200us.
 
