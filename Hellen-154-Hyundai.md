@@ -26,7 +26,6 @@ the thing is, the harness changes slightly between the years
 
 2009-2013 Kia Forte 2.0
 
-
 [wiring diagram](Hyundai-Genesis-Coupe)
 
 [Hellen 154 Hyundai pinout spreadsheet](https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUdvyo)
