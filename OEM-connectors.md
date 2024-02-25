@@ -517,7 +517,7 @@ Maybe relevant maybe not? 13964572 15494614 13627884 13627887 13627886
 Toyota 1MZ-FE 3RZ-FE 5VZ
 1-5178203-6
 
-1-178203-6
+[1-178203-6](https://www.te.com/usa-en/product-1-178203-6.html)
 
 ## 104 pin Ford
 
