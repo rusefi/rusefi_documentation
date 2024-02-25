@@ -2,7 +2,7 @@
 
 By default Lua CAN RX is easy but has a performance limitation.
 
-If 300hz and above Lua CAN RX is needed until a more elegant solution is implemented https://github.com/rusefi/rusefi/issues/6041 we have magic 
+If 300hz and above Lua CAN RX is needed until a more elegant solution is implemented https://github.com/rusefi/rusefi/issues/6041 we have **luaCanRxWorkaround** magic option.
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/fe140c28-b832-4831-9282-d0692dca9269)
 
