@@ -512,12 +512,15 @@ Maybe relevant maybe not? 13964572 15494614 13627884 13627887 13627886
 
 ## 100 pin
 
-34-22-16-28 pins
+[1-178203-6](https://www.te.com/usa-en/product-1-178203-6.html)
 
-Toyota 1MZ-FE 3RZ-FE 5VZ
 1-5178203-6
 
-[1-178203-6](https://www.te.com/usa-en/product-1-178203-6.html)
+34-22-16-28 pins
+
+Jzx30/Jzx90/Jzx100
+
+Toyota 1MZ-FE 3RZ-FE 5VZ
 
 ## 104 pin Ford
 
