@@ -16,7 +16,7 @@
 
 [uaEFI schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
 
-[uaEFI firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
+[uaEFI Stable Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip) [uaEFI Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
 
 [uaEFI interactive BOM](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
 
