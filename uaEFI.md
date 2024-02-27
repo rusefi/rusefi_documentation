@@ -66,3 +66,9 @@ Molex Mini Fit Jr
 * C 5569-20A2 39301200
 * D 5569-16A2 39301160
 * E 5569-06A2 39301060
+
+## FAQ
+
+Q: Can it do 8x8?
+
+A: You would have to remove two flyback diodes to have 8 similar injector outputs. You would have to figure out a way to have 8 equal coil outputs, maybe settle on wasted spark?
