@@ -12,9 +12,11 @@ Very similar but slightly different versions of rusEFI bundle are needed dependi
 
 [uaEFI](uaEFI#software)
 
-[STM32 Discovery Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_f407-discovery.zip)
+[STM32 Community Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_f407-discovery.zip)
 
 ## Hellen Family Boards
+
+[Honda K](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen-honda-k.zip)
 
 [Nissan 121 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
 
