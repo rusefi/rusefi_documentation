@@ -10,7 +10,7 @@ Very similar but slightly different versions of rusEFI bundle are needed dependi
 
 [Proteus](Proteus-Manual#software)
 
-[uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
+[uaEFI](uaEFI#software)
 
 [STM32 Discovery Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_f407-discovery.zip)
 
