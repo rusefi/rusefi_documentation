@@ -8,7 +8,7 @@
 | TLE8888QK      | 2014-2017     | 7+7           | n/a  | [Used on M86](http://chiptuner.ru/content/ctpro_m86/)  |
 |  tle9104     |   2018   | 4 injectors           |   |   |
 | mc33810 MCZ33810      |  2014    |  4 injectors + 4 pre-drivers          |   |   |
-| TLE6240GP      |  2010    |      8+8      | $3  | used as x4 injector driver by January Yanvar 7.2  |
+| TLE6240GP      |  2010    |      8+8      | $3  | used as x4 injector driver by January Yanvar 7.2 End of Life  |
 | TLE6244      |  2005 |      18+0      |   | a lot of Bosch  |
 | TLE8104E      | 2007-2010     |  4+0          | $2.4  |   |
 | TLE8110EE      | 2009-2013     |       6+4     | $2.4  |   |
