@@ -8,6 +8,10 @@
 
 🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
 
+## Software
+
+[uaEFI Stable Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip) [uaEFI Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
+
 ## Technical Details
 
 [General rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Support)
@@ -15,8 +19,6 @@
 [uaEFI interactive pinout](https://rusefi.com/docs/pinouts/hellen/uaefi/)
 
 [uaEFI schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
-
-[uaEFI firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
 
 [uaEFI interactive BOM](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
 
