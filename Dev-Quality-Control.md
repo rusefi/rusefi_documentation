@@ -35,3 +35,11 @@ https://github.com/rusefi/rusefi/settings/actions/runners use ``hw-ci-f4-discove
 ``sudo mx-boot-options`` to set systemd as default
 
 https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/configuring-the-self-hosted-runner-application-as-a-service
+
+https://elinux.org/Accessing_Devices_without_Sudo
+
+``sudo useradd -G plugdev USERNAME``
+
+``echo 'ATTRS{idProduct}=="374b", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"' > /etc/udev/rules.d/10-my-openocd.rules``
+
+``sudo udevadm trigger``
