@@ -1,5 +1,15 @@
 # Developer Tips
 
+## github gives us artifacts for many recent commits
+
+We are addicted to github actions!
+
+Open https://github.com/rusefi/rusefi/actions or maybe even https://github.com/rusefi/rusefi/actions/workflows/build-firmware.yaml
+
+Locate "Firmware at GHA" for commit you are interested in. Scroll down. Note a bunch of artifacts!
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/d02845c0-bfb2-41b3-9d3e-809ac14aa1b6)
+
 ## GPIO
 
 [efiSetPadMode()](https://rusefi.com/docs/html/io__pins_8cpp.html#a4bd76c1e23f3126d720239707dbcbaaf)  
