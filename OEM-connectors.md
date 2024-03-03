@@ -522,6 +522,8 @@ Jzx30/Jzx90/Jzx100
 
 Toyota 1MZ-FE 3RZ-FE 5VZ
 
+1996 Toyota Avalon Engine Computer Ecu 89661-07050
+
 ## 104 pin Ford
 
 ToDo: add reference
