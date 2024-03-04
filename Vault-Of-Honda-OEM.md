@@ -2,6 +2,8 @@
 
 ## OBD-1
 
+Civic EG gen5 1992-1995
+
 [OBD1 connector part number](OEM-connectors#64)
 
 [1993 Honda Prelude](Honda-Prelude-1993)
@@ -13,6 +15,8 @@
 [https://github.com/rusefi/proteus-Honda-OBD1-adapter/](https://github.com/rusefi/proteus-Honda-OBD1-adapter/)
 
 ## OBD-2
+
+Civic EK gen6 1996-2000
 
 [2a pinout](https://technet.ff-squad.com/wiring.obd2a.htm)
 
