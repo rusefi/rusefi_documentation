@@ -962,6 +962,10 @@ GR86
 
 Molex 5601381861 560138-1861
 
+## 190 pin
+
+Ford gen1 11-14
+
 ## 196 pin
 
 Delphi 35043766
@@ -1007,6 +1011,10 @@ Ford 2014-2017, Volvo V90 T5 2.0T
 31+35+33+32+35+34
 
 Toyota
+
+## 306 pin
+
+gen3 17+
 
 ## Random links
 
