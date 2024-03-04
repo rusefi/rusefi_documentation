@@ -966,6 +966,8 @@ Molex 5601381861 560138-1861
 
 Ford gen1 11-14
 
+three sections
+
 ## 196 pin
 
 Delphi 35043766
@@ -1015,6 +1017,8 @@ Toyota
 ## 306 pin
 
 gen3 17+
+
+three sections
 
 ## Random links
 
