@@ -30,7 +30,7 @@
 * sequential six injector outputs
 * two VRs: one MAX9924 one vr-discrete, both with solder-blob jumper to modify into hall input
 * two hall inputs
-* dual DC motor to drive dual DWB or ETB+wastegate or stepper idle
+* dual DC motor to drive dual DBW or ETB+wastegate or stepper idle
 * on-board 4.9 LSU WBO controller
 * on-board SD card
 * up to two CAN buses
