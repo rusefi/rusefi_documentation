@@ -182,6 +182,12 @@ Chrysler NGC 6 cylinder
 
 ## Miscellaneous
 
+### 60 degree tooth
+
+Sovek, Saruman ignition blind type
+
+![x](Images/triggers/trigger_TT_60DEG_TOOTH.png)
+
 ### Renault F
 
 A bit of a 60/2/2
