@@ -26,6 +26,7 @@
 ### Boards
 
 - [Proteus](Proteus)
+- [uaEFI](uaEFI)
 - [microRusEFI](Hardware-microRusEFI)
 - [Hellen](https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform)
 
