@@ -14,6 +14,14 @@ https://github.com/rusefi/fw-custom-example is an example of a custom rusEFI fir
 
 https://github.com/rusefi/fw-custom-paralela and https://github.com/rusefi/fw-custom-core8/ are the best example as of right now. https://github.com/rusefi/rusefi/tree/master/firmware/config/boards should be another source of inspiration.
 
+## Update rusEFI Reference
+
+Happens daily.
+
+Alternatively open "Actions" in your repo similar to https://github.com/rusefi/fw-custom-example/actions/workflows/update-rusefi-reference.yaml click "Run Workflow"->"Run Workflow"
+
+## Really advanced use-case you would probably need it
+
 If you have a more complex situation, with several different board variants you need to build, you can still achieve this with one repo.  
 If, for example, your variants only need different compile flags, having multiple meta-info files within the same repository would be a good way to achieve it.  
 For example:
@@ -51,9 +59,3 @@ jobs:
 If you want to have several different boards in the same repo, you should put them in different sub-directories, then pass a `board-dir` to the workflow.
 
 There is also a `rusefi-dir` option you can use if you want to put your rusefi submodule somewhere other than `ext/rusefi`.
-
-## Update rusEFI Reference
-
-Happens daily.
-
-Alternatively open "Actions" in your repo similar to https://github.com/rusefi/fw-custom-example/actions/workflows/update-rusefi-reference.yaml click "Run Workflow"->"Run Workflow"
