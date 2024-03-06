@@ -2,6 +2,14 @@
 
 Historically many custom rusEFI ECUs were running _default_ firmware which takes it roots at ancient Frankenso times. For best user experience around  connector mapping a custom firmware is recommended.
 
+🟢No more fragile local compilation - these days it GitHub compiles for you, you download provided binaries!🟢
+
+## Where are the binaries?
+
+See Actions pane on your fork similar to https://github.com/rusefi/fw-custom-example/actions click recent "Create Board Firmware" and see artifacts on the bottom of the page!
+
+## OK I am onboard
+
 https://github.com/rusefi/fw-custom-example is an example of a custom rusEFI firmware repository. Just fork it, edit ``meta-info.env`` with name of your board and let GitHub Actions do the rest!
 
 https://github.com/rusefi/fw-custom-paralela and https://github.com/rusefi/fw-custom-core8/ are the best example as of right now. https://github.com/rusefi/rusefi/tree/master/firmware/config/boards should be another source of inspiration.
