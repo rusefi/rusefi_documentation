@@ -2,6 +2,8 @@
 
 Current global default tune available at https://github.com/rusefi/rusefi/blob/master/simulator/generated/simulator_tune.msq
 
+Current vehicle defaults for a few selected vehicles are available at https://github.com/rusefi/rusefi/tree/master/simulator/generated/canned-tunes
+
 ## Two way street
 
 Problem: reference custom tunes have a birthday somewhere in the past. We keep adding features with defaults for those features, we keep improving global default. While useful custom values go into canned vehicle defaults, at the same time reference tune should take reasonable defaults from current defaults.
