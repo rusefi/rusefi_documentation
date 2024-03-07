@@ -59,6 +59,14 @@ Male connector is only needed when building extension harnesses. The connector o
 
 Part numbers provided by and available for purchase at corsa-technic.com individually or as a kit. <https://www.corsa-technic.com/item.php?item_id=1296>
 
+## Sensor Part Numbers
+
+BOSCH 17011 '2013 kia rio 1.6l l4 oxygen (o2) sensor Upstream`
+
+BOSCH 17321 `2012 ford focus Upstream`
+
+See also https://rusefi.com/forum/viewtopic.php?p=43513
+
 ## ADV
 
 1J0973705 8R0906262E
