@@ -22,6 +22,10 @@ See also [OEM-harness-connectors#volkswagen](OEM-harness-connectors#volkswagen)
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/316ba747-708b-487e-99b0-2f411def2a0d)
 
+## LS2/LS9
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/f2e1e7e2-93b5-4d4c-8f28-c7b6aa2d397c)
+
 ## Toyota Two Wire
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/301a4ebf-6319-4cbc-8242-c2fe8d9fa005)
