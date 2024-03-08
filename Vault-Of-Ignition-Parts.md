@@ -18,6 +18,10 @@ See also [OEM-harness-connectors#volkswagen](OEM-harness-connectors#volkswagen)
 
 ### Dumb coils
 
+## LS1
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/316ba747-708b-487e-99b0-2f411def2a0d)
+
 ## Toyota Two Wire
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/301a4ebf-6319-4cbc-8242-c2fe8d9fa005)
