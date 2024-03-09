@@ -12,6 +12,15 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 
 [Schematics rev a](Hardware/Hellen/uaefi-Honda-OBD1-adapter-a-schematic.pdf)
 
+## Features
+
+* on-board LSU 4.9 controller exposed on extra ECU plug
+* flex fuel sensor input exposed on extra ECU plug
+* option to use coil on plugs see J4
+* option to convert to hall position sensors see J5
+* option to upgrade to electronic throttle body J1+J2
+
+
 See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM#obd-1
 
 ## OEM Cases
