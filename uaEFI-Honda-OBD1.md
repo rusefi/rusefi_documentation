@@ -14,9 +14,12 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 
 ## Features
 
-* On-board WBO
-* option to convert to hall position sensors
-* option to use coil on plugs
+* on-board LSU 4.9 controller exposed on extra ECU plug
+* flex fuel sensor input exposed on extra ECU plug
+* option to use coil on plugs see J4
+* option to convert to hall position sensors see J5
+* option to upgrade to electronic throttle body J1+J2
+
 
 See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM#obd-1
 
