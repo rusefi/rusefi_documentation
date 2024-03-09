@@ -20,6 +20,12 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 * option to convert to hall position sensors see J5
 * option to upgrade to electronic throttle body J1+J2
 
+## Micro Fit
+
+* harness side 2x3 0430250600
+* harness side 2x4 0430250808
+* harness side terminal 0430300001
+* PCB side 2x3 0430450612
 
 See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM#obd-1
 
