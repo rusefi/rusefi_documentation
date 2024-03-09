@@ -6,29 +6,45 @@ Download the latest ARM GCC from ARM itself: [ARM GCC toolchain](https://develop
 
 These can be extracted under your home directory; just add the `bin` directory to your path.
 
-TODO: You probably need to install additional packages but I don't remember what they are.
+There is also a script that you can run to install the above and also other prerequisites for Ubuntu or Debian:
+
+```shell
+./setup_linux_environment.sh
+```
 
 Then to compile the firmware,
 
 ```shell
-cd firmware
-make PROJECT_BOARD=nucleo_h743 PROJECT_CPU=ARCH_STM32H7 -j4
+./firmware/bin/compile.sh
 ```
 
-Edit according to your environment.
+It will give you a list of boards to choose from.  
+You can also pass it the path to a meta-info file to build for that board instead of being prompted:
+
+```shell
+./firmware/bin/compile.sh config/boards/microrusefi/meta-info-mre_f4.env
+```
+
+You can also pass it `-b` as the first parameter to build bundle .zip files.
+
+```shell
+./firmware/bin/compile.sh -b config/boards/microrusefi/meta-info-mre_f4.env
+```
+
+The .zip bundles will be located at ./artifacts.
 
 To compile the simulator,
 
 ```shell
 cd simulator
-./compile.sh
+make -j$(nproc)
 ```
 
 To compile the unit tests,
 
 ```shell
 cd unit_tests
-make -j4
+make -j$(nproc)
 ```
 
 ## Working with STM32 Dev/Nucleo boards
