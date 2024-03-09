@@ -44,20 +44,24 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        bundle-name:
-        - brainboard
-        - brainboard-debug
+        meta-info:
+        - meta-info-brainboard.env
+        - meta-info-brainboard-debug.env
 
     steps:
-      call-workflow-passing-data:
-        uses: rusefi/rusefi/.github/workflows/custom-board-build.yaml@master
-        secrets: inherit
-        permissions:
-          contents: write
-        with:
-          bundle-name: ${{matrix.bundle-name}}
+    - uses: ./ext/rusefi/.github/workflows/custom-board-build
+      with:
+        meta-info: ${{matrix.meta-info}}
+        MY_REPO_PAT: ${{secrets.MY_REPO_PAT}}
+        RUSEFI_ONLINE_FTP_USER: ${{secrets.RUSEFI_ONLINE_FTP_USER}}
+        RUSEFI_ONLINE_FTP_PASS: ${{secrets.RUSEFI_ONLINE_FTP_PASS}}
+        RUSEFI_FTP_SERVER: ${{secrets.RUSEFI_FTP_SERVER}}
+        RUSEFI_SSH_SERVER: ${{secrets.RUSEFI_SSH_SERVER}}
+        RUSEFI_SSH_USER: ${{secrets.RUSEFI_SSH_USER}}
+        RUSEFI_SSH_PASS: ${{secrets.RUSEFI_SSH_PASS}}
+        ADDITIONAL_ENV: ${{secrets.ADDITIONAL_ENV}}
 ```
 
-If you want to have several different boards in the same repo, you should put them in different sub-directories, then pass a `board-dir` to the workflow.
+If you want to have several different boards in the same repo, you should put them in different sub-directories, so they can have their own board.mk, board_configuration.cpp, and prepend.txt.
 
-There is also a `rusefi-dir` option you can use if you want to put your rusefi submodule somewhere other than `ext/rusefi`.
+There is also a `rusefi-dir` option you can use if you want to put your rusefi submodule somewhere other than `ext/rusefi`. You will also need to change the path in the `uses:` field.

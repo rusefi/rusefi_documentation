@@ -93,7 +93,7 @@ rusEFI has a virtual option. This runs same code with same RTOS in Windows, Linu
 
 ### Compile firmware
 
-You can compile the firmware, making changes and submitting bug fixes. See [HOWTO Contribute to Firmware](HOWTO-contribute-to-firmware)
+You can compile the firmware, making changes and submitting bug fixes. See [HOW TO Build Firmware From Source](HOW-TO-Build-Firmware-From-Source)
 
 ### Experiment with java based dev console, TunerStudio, etc
 
