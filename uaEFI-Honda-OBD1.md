@@ -12,6 +12,12 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 
 [Schematics rev a](Hardware/Hellen/uaefi-Honda-OBD1-adapter-a-schematic.pdf)
 
+## Features
+
+* On-board WBO
+* option to convert to hall position sensors
+* option to use coil on plugs
+
 See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM#obd-1
 
 ## OEM Cases
