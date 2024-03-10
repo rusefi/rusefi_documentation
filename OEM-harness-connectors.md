@@ -126,3 +126,18 @@ https://www.bwdbrand.com/media/2827/bw11211-illustrated-connector-guide.pdf
 https://www.michiganmotorsports.com/fuel-injector-connectors-and-adapters/fuel-injector-connector-adapters/delphi-engine-harness/
 
 https://eficonversions.com/collections/big-block-chevy-gen-vi
+
+## rusEFI channel color convention
+
+injector/coil/etc 1: green
+
+2: white
+
+3: blue
+
+4: orange/brown
+
+5: grey
+
+6: yellow
+
