@@ -14,6 +14,10 @@ On start, HC-06 accepts AT commands @ 9600.
 
 the default pin is 1234
 
+## JDY
+
+``bluetooth_jdy 115200 alphax 1234``
+
 ## BluetoothView
 
 A cool relevant Windows utility http://www.nirsoft.net
