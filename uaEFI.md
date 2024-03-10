@@ -28,7 +28,7 @@
 
 * sequential six smart coils with option of on-board igniters
 * sequential six injector outputs
-* two VRs: one MAX9924 one vr-discrete, both with solder-blob jumper to modify into hall input
+* two VRs: one MAX9924 one vr-discrete (Add R1 to switch MAX9924 into Hall mode)
 * two hall inputs
 * dual DC motor to drive dual DBW or ETB+wastegate or stepper idle
 * on-board 4.9 LSU WBO controller
