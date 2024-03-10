@@ -18,6 +18,16 @@ the default pin is 1234
 
 ``bluetooth_jdy 115200 alphax 1234``
 
+Which is just one the possibilities
+
+```
+	// Usage:   "bluetooth_hc06 <baud> <name> <pincode>"
+	// Example: "bluetooth_hc06 38400 rusefi 1234"
+
+bluetooth_hc05 bluetooth_hc06 bluetooth_bk bluetooth_jdy
+
+```
+
 ## BluetoothView
 
 A cool relevant Windows utility http://www.nirsoft.net
