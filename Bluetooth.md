@@ -28,6 +28,8 @@ bluetooth_hc05 bluetooth_hc06 bluetooth_bk bluetooth_jdy
 
 ```
 
+https://rusefi.com/forum/viewtopic.php?f=13&t=1999
+
 ## BluetoothView
 
 A cool relevant Windows utility http://www.nirsoft.net
