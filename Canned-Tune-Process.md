@@ -16,6 +16,8 @@ See ``[CannedTunes]`` tag in all below mentioned files.
 
 ``simulator\Makefile`` makes sure simulator has all needed compilation guards.
 
-rusEfiFunctionalTest.cpp exports tunes as .bin files
+rusEfiFunctionalTest.cpp exports tunes into simulator/generated folder as .bin files - key point here is invoking firmware global default and engine-specific defaults logic in order to create a dump of that.
 
-WriteSimulatorConfiguration.java exports tunes as .xml
+WriteSimulatorConfiguration.java exports tunes as .msq and github action persists those.
+
+TuneCanToolRunner.java compares current vehicle-specific default to provided reference tune.
