@@ -60,6 +60,12 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 
 ## Honda
 
+### 12 crank/24 crank
+
+Similar but different from "Custom 12/0":
+* "Custom 12/0" synchronizes on any tooth relying on a distributor
+* "12crank/24cam" is a special popular trigger which depends on cam sensor for engine phase detection. 
+
 [temporary link for Honda 12](https://github.com/rusefi/rusefi_documentation/issues/227)
 
 ### Honda K 1/12 Crankshaft
