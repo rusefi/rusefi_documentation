@@ -26,7 +26,7 @@ The following jumper wires are used to test some subsystems as realistically as 
 
 ### Proteus F4
 
-tbd
+See https://github.com/rusefi/rusefi/blob/c309174fdbb6b082113ac320294066c37922f2ce/java_console/autotest/src/main/java/com/rusefi/proteus/ProteusAnalogTest.java#L22
 
 ### On setting new MXLinux runners
 
