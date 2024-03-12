@@ -1,12 +1,16 @@
 # Obviously rusEFI supports Bluetooth
 
+rusEFI console has commands for Bluetooth module initialization (see below), at the moment we do not have TunerStudio interface for Bluetooth module initialization.
+
 ## Reference Design
 
 https://github.com/rusefi/alphax-4chan is the most popular open source board with on-board bluetooth.
 
 ## Isn't HC-06 Dead?
 
-JDY-33 seems to be the way to go Bluetooth in 2023. Yes, rusEFI supports JDY-33 initialization. Yes, 4chan comes with JDY-33.
+That's an open question see https://github.com/rusefi/rusefi/issues/6197
+
+JDY-33 seems to be the way to go Bluetooth in 2023. Yes, rusEFI supports JDY-33 initialization. Yes, 4chan comes with JDY-33. 2024 update https://github.com/rusefi/rusefi/issues/5918 what a mess
 
 ## HC-06 Bluetooth Module serial RS232 TTL
 
