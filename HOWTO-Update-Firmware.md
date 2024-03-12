@@ -1,5 +1,7 @@
 # HOWTO Update Firmware
 
+Disconnect it from the vehicle. Use caution.
+
 <!-- this URL is hard-coded in rusEFI console splash screen MAKE SURE NOT TO RENAME -->
 
 [Download the rusEFI bundle](Download) for your hardware.
@@ -54,6 +56,6 @@ ST-LINK is an advanced mode of firmware update which requires ST-LINK device, ei
 
 ## Update TunerStudio Definition
 
-Once you have updated your firmware, you also need to update your TunerStudio definition so it is able to communicate properly.
+Once you have updated your firmware, you also need to update your TunerStudio definition so it is able to communicate properly. Happy installation of TunerStudio would download current .ini file automatically!
 
-You can find the .ini file in the USB storage device that rusEFI board presents to your computer, or in the [rusEFI bundle](Download). The former is preferable, as it ensures that you have the correct version for the firmware that is installed on your board.
+If you chose to go more manually you can find the .ini file in the USB storage device that rusEFI board presents to your computer, or in the [rusEFI bundle](Download).
