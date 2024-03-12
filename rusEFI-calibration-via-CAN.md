@@ -2,6 +2,8 @@
 
 [youtube: It works](https://youtu.be/Mwgq26M5-JY)
 
+![image](https://github.com/rusefi/rusefi/assets/48498823/0b210af4-4f56-49b6-b8ac-87b1af0384fd)
+
 ## TL,DR
 
 With all the electromagnetic interference around the gasoline engine due to sparking CAN physical layer provides the level of reliability above RS232 and USB physical layers.
