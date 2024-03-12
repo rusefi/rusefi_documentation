@@ -1,6 +1,6 @@
 # rusEFI Calibration Via CAN
 
-[It works](https://youtu.be/Mwgq26M5-JY)
+[youtube: It works](https://youtu.be/Mwgq26M5-JY)
 
 ## TL,DR
 
