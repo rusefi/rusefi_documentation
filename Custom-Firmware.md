@@ -22,7 +22,7 @@ Happens daily.
 
 Alternatively open "Actions" in your repo similar to https://github.com/rusefi/fw-custom-example/actions/workflows/update-rusefi-reference.yaml click "Run Workflow"->"Run Workflow"
 
-## Really advanced use-case you would probably need it
+## Really advanced use-case you would probably not need it
 
 If you have a more complex situation, with several different board variants you need to build, you can still achieve this with one repo.  
 If, for example, your variants only need different compile flags, having multiple meta-info files within the same repository would be a good way to achieve it.  
