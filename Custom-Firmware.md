@@ -65,3 +65,10 @@ jobs:
 If you want to have several different boards in the same repo, you should put them in different sub-directories, so they can have their own board.mk, board_configuration.cpp, and prepend.txt.
 
 There is also a `rusefi-dir` option you can use if you want to put your rusefi submodule somewhere other than `ext/rusefi`. You will also need to change the path in the `uses:` field.
+
+## FAQ
+
+### Q: I get "exti index already used" error?
+
+A: stm32 has a limitation: you can only have 16 digital inputs. Also each input has to be on a pin with unique numeric part: for example, you can have digital input on pins PA1 PB2 PC3 but you cannot have PA1 and PB1 since those are both "something-1" pins.
+
