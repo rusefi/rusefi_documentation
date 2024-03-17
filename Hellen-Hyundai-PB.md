@@ -14,7 +14,9 @@
 
 [some photos](https://github.com/rusefi/rusefi-hardware/tree/main/breakout-boards/Breakout_154_kia_pb/photos)
 
-same pinout for
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Kia/2013-rio.pdf
+
+mostly same pinout for
 
 * 2012-2017 Hyundai Accent
 * 2012-2017 Kia Rio
