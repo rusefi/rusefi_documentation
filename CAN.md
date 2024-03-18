@@ -12,6 +12,12 @@ Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not re
 * rusEFI GDI comms [0xBB20 0xBB30](https://github.com/rusefi/libfirmware/blob/master/can/can_common.h)
 * rusEFI bench test protocol 0x770000
 
+## 3rd party dashboards
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/65b93709-d959-473e-b406-a9dcbde64b3a)
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/56fba35f-44a1-4982-9242-762ee98e3590)
+
 ## Software
 
 [Man-in-the-middle](Man-in-the-middle)
