@@ -15,3 +15,7 @@ Now you are ready to hit "Upload" button on [https://rusefi.com/online/](https:/
 ### A: If you want to mention a tune please provide exact URL. It's not very useful to just say "I've uploaded my tune" without full URL. Please help us help you by pointing at what _exactly_ we are looking to discuss :)
 
 See also <https://github.com/rusefi/rusefi/wiki/HOWTO-upload-log>
+
+## Q: Why bother?
+
+### A: to make everyone's life easier. There is not much fun in looking at low-resolution videos of the screen. There is not much fun in reading a wall of text when full tune would be so much more helpful. There is little fun in looking at amazing high resolution screenshot of five dialogs if you need some other dialog.
