@@ -2,6 +2,7 @@
 
 TL,DR: We have native knock processing, with [Proteus](Proteus) and Hellen hardware support at the moment. We have very limited amount of testing on real vehicles: we know that knock is being detected, we know timing is being retarded, we do not have the body of best practices yet. See bits and pieces on the forum!
 
+Reference tune https://rusefi.com/online/view.php?msq=1626 reference tune https://rusefi.com/online/view.php?log=1359
 ## Software knock sensing
 
 ![x](https://rusefi.com/forum/download/file.php?id=6900)
