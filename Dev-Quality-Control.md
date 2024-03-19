@@ -34,6 +34,8 @@ https://github.com/rusefi/rusefi/settings/actions/runners use ``hw-ci-f4-discove
 
 ``sudo mx-boot-options`` to set systemd as default
 
+``ufw allow 22``
+
 https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/configuring-the-self-hosted-runner-application-as-a-service
 
 https://elinux.org/Accessing_Devices_without_Sudo
