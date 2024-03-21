@@ -74,3 +74,8 @@ Molex Mini Fit Jr
 Q: Can it do 8x8?
 
 A: You would have to remove two flyback diodes to have 8 similar injector outputs. You would have to figure out a way to have 8 equal coil outputs, maybe settle on wasted spark?
+
+Q: Do you have any dealer prices or discount for companies?
+
+A: There is too little profit margin on these to offer discounts sorry.
+PCB files are available for free you should be able to order your own, paid consulting is available on how to set things up with JLCPCB if you need help.
