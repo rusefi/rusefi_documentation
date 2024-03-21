@@ -1,9 +1,10 @@
 # Long Term Support Project
 
-## Maybe prerequisite
+## Terminology
 
-Nathan wonders what the hell does current automation even do. Could this be clarified with minor code comments on top of key files?
-Nathan reminds that some code generation could/should be integrated into Makefile. Some documentation in <https://github.com/rusefi/rusefi/blob/master/firmware/config/boards/readme.md>
+`master` latest, most experimental and least reliable
+
+`Long Term Support` a branch of code only with critical most reliable changes.
 
 ## Current state
 
