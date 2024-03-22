@@ -114,6 +114,8 @@ Also used on some Mitsubishi like 4g18 4g93
 
 ### GM LS 24x
 
+See https://github.com/rusefi/rusefi/pull/4140
+
 ![x](Images/triggers/trigger_TT_GM_24x.png)
 
 ### GM 60/2/2/2
