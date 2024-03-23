@@ -69,6 +69,10 @@ Molex Mini Fit Jr
 * D 5569-16A2 39301160
 * E 5569-06A2 39301060
 
+## External USB connector
+
+USBBF7
+
 ## FAQ
 
 Q: Can it do 8x8?
