@@ -18,6 +18,8 @@
 
 [uaEFI interactive pinout](https://rusefi.com/docs/pinouts/hellen/uaefi/)
 
+[Schematics rev b](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-b/board/uaefi-b-schematic.pdf)
+
 [uaEFI schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
 
 [uaEFI interactive BOM](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
