@@ -85,3 +85,7 @@ Q: Do you have any dealer prices or discount for companies?
 
 A: There is too little profit margin on these to offer discounts sorry.
 PCB files are available for free you should be able to order your own, paid consulting is available on how to set things up with JLCPCB if you need help.
+
+Q: How do I use uaEFI with dumb coils?
+
+A: See notes on the schematics, it has part numbers to add and reference numbers to remove!
