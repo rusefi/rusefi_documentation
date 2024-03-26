@@ -104,7 +104,7 @@ For example `setCalibration("cranking.rpm", 900, false)`
 
 #### `burnconfig`
 
-Schedule write to flash once the engine is stopped.
+Schedule calibration write to flash once the engine is stopped.
 
 #### `findSetting(name, defaultValue)`
 
