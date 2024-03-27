@@ -2,6 +2,8 @@
 
 This harness is designed for M111 engines _swaps_ it has custom body integration plugs!
 
+This harness is designed 🟢specifically for rusEFI microRusEFI🟢 ECU 
+
 * Converted to VAG coil-on-plug (red or black your choice)
 * Converted to Honda pedal cable position sensor (more reliable choice)
 * Added 3 pin fuel pressure sensor
