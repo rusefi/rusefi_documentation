@@ -130,6 +130,10 @@ GM/Daewoo Distributor F8CV
 
 ![Jeep 18-2-2-2](Images/triggers/trigger_TT_JEEP_18_2_2_2.png)
 
+### Jeep 4 cyl
+
+![Jeep 4-cyl](Images/triggers/trigger_TT_JEEP_4_CYL.png)
+
 ### Renix 44/2/2
 
 ![x](Images/triggers/trigger_TT_RENIX_44_2_2.png)
