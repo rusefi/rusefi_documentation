@@ -17,6 +17,8 @@
 * Dual on-board WBO controller
 * Bluetooth
 
+![WhatsApp Image 2024-01-11 at 12 50 21_711b3236](https://github.com/rusefi/rusefi/assets/48498823/5ddf9953-7b37-43dc-b920-24e7b9515a97)
+
 ![x](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax-8chan-rev-a.jpg)
 
 ``bluetooth_jdy 115200 alpha8 1234``
