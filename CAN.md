@@ -20,7 +20,13 @@ Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not re
 
 ## OpenBLT
 
-``BootCommander.exe``
+USB
+
+``BootCommander.exe -s=xcp -t=xcp_rs232 -d=COM15 -b=19200 rusefi_update.srec``
+
+PCAN
+
+``BootCommander.exe -t=xcp_can -d=peak_pcanusb -c=0 -b=5000000 -tid=667h -rid=7E1h rusefi_update.srec``
 
 ## Software
 
