@@ -37,3 +37,7 @@ BOSCH 0261230217
 # Fuel Pressure Sensor
 
 100 psi https://www.amazon.com/gp/product/B09FXDNHPG/
+
+# WBO
+
+https://github.com/rusefi/rusefi/wiki/WBO#sensor-part-numbers
