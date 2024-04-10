@@ -14,12 +14,12 @@ https://rusefi.com/docs/pinouts/proteus/?connector=black23&pin=6
 
 First ETB cable has orange mark.
 
-https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=24
+green https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=24
 
-https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=14
+yellow https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=14
 
 TPS #2
 
-https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=25
+green https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=25
 
-https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=15
+yellow https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=15
