@@ -30,6 +30,10 @@ green https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=25
 
 yellow https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=15
 
+# Cam
+
+Uses +12v power
+
 # TMAP
 
 BOSCH 0261230217
