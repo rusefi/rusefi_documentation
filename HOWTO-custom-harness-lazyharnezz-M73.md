@@ -1,5 +1,7 @@
 # BMW M73 full PnP harness
 
+https://youtube.com/shorts/lppFagGm2OU
+
 ## Main Relay
 
 https://rusefi.com/docs/pinouts/proteus/?connector=black35&pin=10
