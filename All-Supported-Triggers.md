@@ -327,12 +327,6 @@ Use skipped wheel for crank and "Toyota 3 Tooth" previously known as "VVT: 2JZ" 
 
 ![x](Images/triggers/trigger_TT_VVT_TOYOTA_4_1.png)
 
-## TriTach
-
-Some older German vehicles
-
-![x](Images/triggers/trigger_TT_TRI_TACH.png)
-
 ## Skoda Favorit
 
 ![x](Images/triggers/trigger_TT_SKODA_FAVORIT.png)
