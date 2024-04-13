@@ -98,13 +98,23 @@ Also used on some Mitsubishi like 4g18 4g93
 
 ![Mazda Miata NB1](Images/triggers/trigger_TT_MAZDA_MIATA_NB1.png)
 
+## Mazda Miata NC
+
+See 36-2-2-2
+
 ### Mazda Protege 1993 DOHC
 
-![Mazda Protege 1993 DOHC](Images/triggers/trigger_TT_MAZDA_DOHC_1_4.png)
+![x](Images/triggers/trigger_TT_MAZDA_DOHC_1_4.png)
 
 ### Mazda 121/Ford Aspire
 
 ![Ford Aspire](Images/triggers/trigger_TT_FORD_ASPIRE.png)
+
+### Mazda SKYACTIV
+
+TODO maybe make it a bit more straight, maybe it's good enough
+
+![x](Images/triggers/trigger_TT_VVT_MAZDA_SKYACTIV.png)
 
 ## GM
 
