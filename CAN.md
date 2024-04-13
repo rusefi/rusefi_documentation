@@ -26,7 +26,7 @@ USB
 
 PCAN
 
-``BootCommander.exe -t=xcp_can -d=peak_pcanusb -c=0 -b=5000000 -tid=667h -rid=7E1h rusefi_update.srec``
+``BootCommander.exe -t=xcp_can -d=peak_pcanusb -c=0 -b=5000000 -tid=1667h -rid=17E1h rusefi_update.srec``
 
 ## Software
 
