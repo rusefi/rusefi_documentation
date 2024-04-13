@@ -150,7 +150,7 @@ GM/Daewoo Distributor F8CV
 
 ### 36/2/2/2
 
-Might also be used on some Daihatsu, Nissan and Miata
+Might also be used on some Daihatsu, Nissan and Mazda RX8/MZR/Miata NC
 
 ![36/2/2](Images/triggers/trigger_TT_36_2_2_2.png)
 
