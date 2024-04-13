@@ -63,7 +63,7 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 ### 12 crank/24 crank
 
 Similar but different from "Custom 12/0":
- 
+
 * "Custom 12/0" synchronizes on any tooth relying on a distributor
 * "12crank/24cam" is a special popular trigger which depends on cam sensor for engine phase detection.
 
