@@ -1,5 +1,7 @@
 # Adaptive Suspension
 
+https://iopscience.iop.org/article/10.1088/1742-6596/2216/1/012018/pdf
+
 [Shock Dyno](Shock-Dyno)
 
 [ArsTechnica: DSC Sport’s active shocks in action](https://arstechnica.com/cars/2015/07/the-future-of-car-suspension-is-here-dsc-sports-active-shocks-in-action/)
