@@ -32,18 +32,18 @@ green https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=25
 
 yellow https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=15
 
-# Cam
+## Cam
 
 Uses +12v power
 
-# TMAP
+## TMAP
 
 BOSCH 0261230217
 
-# Fuel Pressure Sensor
+## Fuel Pressure Sensor
 
 100 psi https://www.amazon.com/gp/product/B09FXDNHPG/
 
-# WBO
+## WBO
 
 https://github.com/rusefi/rusefi/wiki/WBO#sensor-part-numbers
