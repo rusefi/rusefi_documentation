@@ -16,6 +16,8 @@ https://rusefi.com/docs/pinouts/proteus/?connector=black35&pin=23
 
 ## Nissan ETBs
 
+Hitachi SERA576-01 60mm diameter for instance 2003 infinity g35
+
 https://rusefi.com/docs/pinouts/proteus/?connector=black23&pin=6
 
 First ETB cable has orange mark.
