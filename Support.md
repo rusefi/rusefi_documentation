@@ -96,6 +96,6 @@ Tell us about your engine setup. Something like the below.
 |1|port|distributor|gasoline/petrol|turbo|
 |2|batch|COP|diesel|supercharger|
 |4|direct|CNP|propane|Naturally Aspirated|
-|6|no fuel control|no spark control|ethanol|
-|8||wasted spark|
+|6|no fuel control|no spark control|ethanol|other|
+|8|wasted spark|other|other|
 |12|other|other|other|other|
