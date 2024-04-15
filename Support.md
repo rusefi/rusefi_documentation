@@ -97,5 +97,5 @@ Tell us about your engine setup. Something like the below.
 |2|batch|COP|diesel|supercharger|
 |4|direct|CNP|propane|Naturally Aspirated|
 |6|no fuel control|no spark control|ethanol|other|
-|8|wasted spark|other|other|
+|8|wasted spark|other|other|other|
 |12|other|other|other|other|
