@@ -22,6 +22,10 @@ Just a reminder that to attach a screen shot to the forum post you LITERALLY nee
 "ctrl-print screen" or "alt-print screen" to take a screenshot into clipboard
 "ctrl-v" to attach image from clipboard into forum post.
 
+## Q: I would like to get individual technical support via email
+
+A: We have commercial technical support see https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support
+
 ## Q: What is the preferred way of posting videos?
 
 A: Please use youtube to post videos.
