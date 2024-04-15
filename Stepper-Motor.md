@@ -1,5 +1,9 @@
 # Stepper Motor
 
+microRusEFI can control 4 wire using on-board TLE8888 see https://github.com/rusefi/rusefi/pull/3749
+
+uaEFI and Proteus can control 4 wire using two h-bridges/DC motor drivers
+
 [Pololu A4988 Stepper Motor Driver Carrier](http://www.pololu.com/product/1182)
 
 [A4988 DMOS Microstepping Driver With Translator datasheet](http://www.pololu.com/file/download/a4988_DMOS_microstepping_driver_with_translator.pdf?file_id=0J450)
