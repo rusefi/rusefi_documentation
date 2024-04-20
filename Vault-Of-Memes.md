@@ -2,7 +2,7 @@
 
 ## Is it possible
 
-placeholder for smart Moon Landing reference
+placeholder for smart Moon Landing reference see also [I have an idea](I-have-an-idea)
 
 ## GitHub process for issue tracking
 
