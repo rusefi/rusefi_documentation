@@ -1,6 +1,8 @@
 # BMW M73 full PnP harness
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/d0b92539-cc39-4342-9df4-6a2e2f2b568e)
+Expected VR shape
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/fcecf4e4-6657-436b-a4f3-3af9ee59a375)
 
 https://youtube.com/shorts/lppFagGm2OU
 
