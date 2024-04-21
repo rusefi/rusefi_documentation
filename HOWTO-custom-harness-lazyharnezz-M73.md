@@ -4,6 +4,10 @@ Expected VR shape see [Trigger-Configuration-Guide](Trigger-Configuration-Guide#
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/fcecf4e4-6657-436b-a4f3-3af9ee59a375)
 
+[Reference cranking trigger decoding log](https://github.com/rusefi/rusefi/files/15050786/M73-lazyharness.zip)
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/7f430111-e7c0-4411-b955-136113df577d)
+
 https://youtube.com/shorts/lppFagGm2OU
 
 ## Main Relay
