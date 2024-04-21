@@ -308,9 +308,9 @@ VQ30
 
 ![Nissan](Images/triggers/trigger_TT_NISSAN_SR20VE.png)
 
-## VW 60/2
+## 60-2 with flipped wires
 
-VW special understanding of 60/2 with a wide tooth instead of of just missing tooth.
+For historical reasons we support wrongfully wired 60-2
 
 See also [Universal True 60/2](All-Supported-Triggers#602)
 
