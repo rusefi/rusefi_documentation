@@ -22,6 +22,8 @@ Happens daily.
 
 Alternatively open "Actions" in your repo similar to https://github.com/rusefi/fw-custom-example/actions/workflows/update-rusefi-reference.yaml click "Run Workflow"->"Run Workflow"
 
+To to stop it from happening daily you would have to remove two lines from ``.github/workflows/build-firmware.yaml`` - the ones with ``cron`` and ``schedule``.
+
 ## Really advanced use-case you would probably not need it
 
 If you have a more complex situation, with several different board variants you need to build, you can still achieve this with one repo.  
