@@ -1,5 +1,7 @@
 # BMW M73 full PnP harness
 
+![image](https://github.com/rusefi/rusefi/assets/48498823/d0b92539-cc39-4342-9df4-6a2e2f2b568e)
+
 https://youtube.com/shorts/lppFagGm2OU
 
 ## Main Relay
