@@ -2,6 +2,8 @@
 
 See [list of all supported triggers](All-Supported-Triggers)
 
+See also [Trigger-Configuration-Guide](Trigger-Configuration-Guide)
+
 ## Time to document trigger gap override
 
 https://github.com/rusefi/rusefi_documentation/issues/498
