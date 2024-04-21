@@ -24,6 +24,10 @@ Alternatively open "Actions" in your repo similar to https://github.com/rusefi/f
 
 To to stop it from happening daily you would have to remove two lines from ``.github/workflows/build-firmware.yaml`` - the ones with ``cron`` and ``schedule``.
 
+## Default Board Configuration
+
+Adjust [setBoardDefaultConfiguration@board_configuration.cpp](https://github.com/rusefi/fw-custom-example/blob/main/board_configuration.cpp) method, see other setBoardDefaultConfiguration method examples.
+
 ## Really advanced use-case you would probably not need it
 
 If you have a more complex situation, with several different board variants you need to build, you can still achieve this with one repo.  
