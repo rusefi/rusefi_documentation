@@ -10,6 +10,7 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |--------|-------------------------------------------------------------------------------|--|
 |[Miata 90-95](Hellen64-Miata-NA6-94)| .                                                                             |
 |[Miata NB1](Hellen-NB1)| .                                                                             |
+|[Miata NB2](Hellen-NB2)| .                                                                             |
 |[72 Pin Miata 01-05](Hellen-NB2)| .                                                                             |
 |[121 Pin VAG](Hellen121VAG)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334048095704) |[open source](https://github.com/rusefi/hellen121vag)|
 |[121 Pin Nissan](Hellen-121-Nissan)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334061645783) |
