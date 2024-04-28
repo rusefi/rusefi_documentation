@@ -47,4 +47,8 @@ Q: How about 6 cylinders sequential on microRusEFI?
 A: The microRusEFI ECU is primarily a 4 cylinder ECU. At this time the testing for safety, reliable control, and consistency have not been completed for running the microRusEFI ECU on a 6 cylinder engine. This is something that we are working on and could be added at a future point.
 See [https://github.com/rusefi/hw_microRusEfi/issues/203](https://github.com/rusefi/hw_microRusEfi/issues/203)
 
+Q: what about stepper idle?
+
+A: yes microRusEFI can drive 4 wire idle air valves see setting at https://github.com/rusefi/rusefi/pull/3749
+
 [See also Kit Instructions](Hardware-microRusEFI-kit-instructions)
