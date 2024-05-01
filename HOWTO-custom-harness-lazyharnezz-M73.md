@@ -48,6 +48,10 @@ Uses +12v power
 
 BOSCH 0261230217
 
+![image](https://github.com/rusefi/rusefi/assets/48498823/71d91df0-37b4-49f7-b585-eced9c356b1e)
+
+IAT white, MAP blue
+
 ## Fuel Pressure Sensor
 
 100 psi https://www.amazon.com/gp/product/B09FXDNHPG/
