@@ -91,3 +91,7 @@ PCB files are available for free you should be able to order your own, paid cons
 Q: How do I use uaEFI with dumb coils?
 
 A: See notes on the schematics, it has part numbers to add and reference numbers to remove!
+
+Q: How do I add bluetooth?
+
+A: See https://github.com/rusefi/rusefi/wiki/Bluetooth#jdy
