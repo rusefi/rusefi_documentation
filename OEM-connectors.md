@@ -467,6 +467,8 @@ FCI connetor
 
 CKKB90-1-A
 
+Siemens AS90-1 211PC902S0008
+
 Pins are Delphi sicma
 
 ## 93 pin
