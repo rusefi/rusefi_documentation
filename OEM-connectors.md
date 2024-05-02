@@ -461,6 +461,14 @@ unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 
 98-01 KIA SEPHIA
 
+## 90 pin
+
+FCI connetor
+
+CKKB90-1-A
+
+Pins are Delphi sicma
+
 ## 93 pin
 
 ![x](OEM-Docs/Subaru/93pins.jpeg)
