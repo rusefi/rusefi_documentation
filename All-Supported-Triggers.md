@@ -290,7 +290,7 @@ Same as 4G15
 
 ![x](Images/triggers/trigger_TT_VVT_MITSU_6G72.png)
 
-Use it with special 3+0 symmetrical crank trigger
+Use this cam trigger with special 3+0 symmetrical crank trigger.
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/0ab0ab6e-c65f-4a41-bc7f-0334df27d67f)
 
