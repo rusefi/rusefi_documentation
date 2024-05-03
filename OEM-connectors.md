@@ -467,7 +467,7 @@ FCI connetor
 
 CKKB90-1-A
 
-Siemens AS90-1 211PC902S0008
+Siemens AS90-1 211PC902S0008, Chevrolet SPARK 1.2 5WY5983B/C/D 24518146
 
 Pins are Delphi sicma
 
