@@ -2,7 +2,7 @@
 
 ## Shop
 
-🟢[$100 base model rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)🟢
+🟢[$175 base model rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)🟢
 
 ## Community Support
 
