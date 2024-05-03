@@ -644,7 +644,7 @@ Toyota Supra ECU connector 120 pin
 
 harness side [178411-6](https://www.te.com/usa-en/product-178411-6.html)
 
-harness side 178409-6 
+harness side 178409-6
 
 A80 Gen 4 Supra
 
