@@ -52,6 +52,16 @@ BOSCH 0261230217
 
 IAT white, MAP blue
 
+## Crank
+
+M70 style three pin
+
+![WhatsApp Image 2024-05-03 at 11 17 05_9c9418e3](https://github.com/rusefi/rusefi/assets/48498823/551a22bd-90e0-481d-a151-d2c820c2b48d)
+
+## CLT
+
+![WhatsApp Image 2024-05-03 at 11 14 42_78abb761](https://github.com/rusefi/rusefi/assets/48498823/f33314a0-8396-4a6a-b814-197cd0d9dc1b)
+
 ## Fuel Pressure Sensor
 
 100 psi https://www.amazon.com/gp/product/B09FXDNHPG/
