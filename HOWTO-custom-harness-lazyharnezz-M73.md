@@ -69,3 +69,13 @@ M70 style three pin
 ## WBO
 
 https://github.com/rusefi/rusefi/wiki/WBO#sensor-part-numbers
+
+## Integration
+
+Green: Fan Relay
+
+White: auxiliary low side
+
+Yellow: tachometer 
+
+![image](https://github.com/rusefi/rusefi/assets/48498823/dde303e9-737d-4b4c-ba3d-a346ec9146fd)
