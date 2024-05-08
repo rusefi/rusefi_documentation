@@ -8,7 +8,7 @@ Congratulations, your fully assembled rusEFI unit has arrived! This document wou
 
 We recommend that you use EFI Analytics Tuner Studio desktop application to tune your rusEFI Engine Control Unit.
 
-As of February 2024 we recommend Tuner Studio BETA. Please download and install from https://www.efianalytics.com/TunerStudio/beta/
+Please download and install from https://www.efianalytics.com/TunerStudio/
 
 Lite edition would get the job done, but registered version comes with tons of benefits like search, higher logging rate etc etc.
 
