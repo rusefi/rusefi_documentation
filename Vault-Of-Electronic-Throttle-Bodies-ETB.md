@@ -76,6 +76,8 @@ Alternative connector. This connector goes all the way to Nissan X-Trail T30 01-
 
 ![x](OEM-Docs/Nissan/Hitachi_60mm_ETB.jpg)
 
+## Nissan Pedal
+
 18002 4z800 Pedal with build-in position sensor - 2004-2007 Nissan Altima Maxima
 
 18919-AM810 Pedal Position Sensor (separate from pedal) - Nissan 350Z 2008, Infiniti G35 2007
