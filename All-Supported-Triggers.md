@@ -225,6 +225,10 @@ A bit of a 60/2/2
 
 ![x](Images/triggers/trigger_TT_SUZUKI_G13B.png)
 
+### Suzuki K6A
+
+![x](Images/triggers/trigger_TT_SUZUKI_K6A.png)
+
 ### Universal skipped wheel
 
 A basic wheel - assumes equally spaced teeth with a number of missing teeth.
