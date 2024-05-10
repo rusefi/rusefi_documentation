@@ -72,6 +72,10 @@ M70 style three pin
 
 https://github.com/rusefi/rusefi/wiki/WBO#sensor-part-numbers
 
+## Pedal
+
+Many pedals would work if you wire, one popular sensor mounted on many different Toyota and Nissan vehicles see https://github.com/rusefi/rusefi/wiki/Vault-Of-Electronic-Throttle-Bodies-ETB#nissan-pedal
+
 ## Integration
 
 Green: Fan Relay
