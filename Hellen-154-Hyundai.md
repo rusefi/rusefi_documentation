@@ -4,7 +4,9 @@
 
 [Issue tracker & Repository](https://github.com/rusefi/hellen154hyundai)
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
+[newer F7 boards Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai_revD/)
+
+[older F4 boards Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
 
 [Schematics rev c](Hardware/Hellen/hellen154hyundai-c-schematic.pdf)
 
