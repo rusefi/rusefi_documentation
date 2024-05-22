@@ -1,5 +1,9 @@
 # Memes are important
 
+## I will share my tune once it's decent
+
+placeholder for something polite suggesting to be real
+
 ## Is it possible
 
 placeholder for smart Moon Landing reference see also [I have an idea](I-have-an-idea)
