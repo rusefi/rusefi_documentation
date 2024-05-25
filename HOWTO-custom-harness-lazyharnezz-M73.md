@@ -72,6 +72,14 @@ M70 style three pin
 
 https://github.com/rusefi/rusefi/wiki/WBO#sensor-part-numbers
 
+## 8 pin plug
+
+Yellow Tachometer Output HS2
+
+White Aux Low Side LS14
+
+Green Fan LS15
+
 ## Pedal
 
 Many pedals would work if you wire, one popular sensor mounted on many different Toyota and Nissan vehicles see https://github.com/rusefi/rusefi/wiki/Vault-Of-Electronic-Throttle-Bodies-ETB#nissan-pedal
