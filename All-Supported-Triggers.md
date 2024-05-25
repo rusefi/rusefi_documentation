@@ -274,11 +274,11 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 Crank
 
-![x](Images/trigger_TT_MITSU_4G63_CRANK.png)
+![x](Images/triggers/trigger_TT_MITSU_4G63_CRANK.png)
 
 Cam
 
-![x](Images/trigger_TT_MITSU_4G63_CAM.png)
+![x](Images/triggers/trigger_TT_MITSU_4G63_CAM.png)
 
 ### 36-2-1-1
 
