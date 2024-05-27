@@ -1,0 +1,1 @@
+https://rusefi.com/docs/pinouts/hellen/uaefi121/
