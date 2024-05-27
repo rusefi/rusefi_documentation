@@ -12,7 +12,7 @@
 
 The hardware takes funky cam / crank signals from VR, Hall, optical and or other sensors, and converts them into clean digital pulses that can be used by the MCU.
 
-This page contains information about the Variable Reluctor (VR) style sensor, commonly used for detecting angular rotation (RPM). This includes links to show how to configure the Frankenso / Frankenstein board, as well as formulas, equations, application notes, and other such information related to how VR's work and how you get them working with rusEFI. TODO: actually, this page does not really focus on just VR
+This page contains information about the Variable Reluctor (VR) style sensor, commonly used for detecting angular rotation (RPM). This includes links to show how to configure the Frankenso board, as well as formulas, equations, application notes, and other such information related to how VR's work and how you get them working with rusEFI. TODO: actually, this page does not really focus on just VR
 
 ## rusEFI specific information
 

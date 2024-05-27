@@ -74,23 +74,6 @@ The brain board can be the off the shelf STMDiscoveryF4. However the Discovery h
 Forum thread about this PCB found [here](http://rusefi.com/forum/viewtopic.php?f=4&t=381), also see:
 [Current pin out](https://docs.google.com/spreadsheet/ccc?key=0Arl1FeMZcfisdGpIZVBGMWFIQXdycnVNOWRjRG5YNnc)
 
----
-
-#### - Frankenstein
-
-![alt text](Images/20140224_state.jpg)  
-Frankenstein is a combination of individual modules, such that you can make sub modules, then combine them with a script. The end result allows you to prototype a small board, then once you have verified the small board, you can combine it with the larger module. If you don't want all the features of Frankenstein, you can mix and match as you so choose. Frankenstein is a combination of the below.
-
-- Forum thread about this PCB found [here](http://rusefi.com/forum/viewtopic.php?f=4&t=359)  
-- 12 low side 1A injector driver module found  
-- 6 high / low side drive .125A capable ignition pre-drivers, for use with external ignitors.  
-- 12 channels op-amp analog input module (TPS, MAP, IAT, ect)  
-- Variable reluctance / Hall input module  
-- SD card module  
-- USB FTDI communications module  
-- Example system schematic found here  120px-System_schematic.png
-
-Source file for the schematic found [here](https://sourceforge.net/p/daecu/code/HEAD/tree/Hardware/trunk/rusefi.com/frankenstein/system_schematics/system_schematic.png?format=raw)  
 
 ---
 
