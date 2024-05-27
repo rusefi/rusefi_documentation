@@ -20,17 +20,13 @@ Bottom line: as long as the hardware variant has at least as many injector outpu
 As of May 2020, most hardware variants support only logic level drive for coils. This means GM LSx, IGN1A, Denso coil stick, etc. (others may too - these are just examples) that have built in ignitors will work. You should consult the documentation for both the coils and the rusEFI hardware you are using to determine whether you can directly wire the coils or an external ignitor/something else is required. Note: coil outputs are among the **least** robust (in terms of tolerating shorts, excessive voltages, etc.) on many hardware variants, including Proteus. Double check your wiring! uaEFI supports IGBT expansion for dumb coils , kindly read the manual of uaefi for more information.
 
 Like injectors, all coil outputs are interchangeable. Coil outputs do not need to be used sequentially and order of firing / phasing can be adjusted in software. Waste fire (one coil fires two cylinders) and distributor (one coil mechanically multiplexed among all cylinders) modes are supported in addition to coil-per-cylinder direct fire. Rare "dual distributor" mode is also supported for engines like older BMW V12 and Toyota 1UZ.
-
 Bottom line: as long as the hardware variant has at least as many coil outputs as your engine has cylinders, you will be able to run one coil per cylinder.  
 
 ## General purpose outputs
 
 The two main types of output are "low side" and "high side."
-
 Low side outputs are used to control things in the engine bay that have one terminal permanently connected to battery voltage. The ECU supplies the ground side of the circuit to turn things on.
-
 High side outputs are used to control things in the engine bay that have one terminal permanently connected to ground. The ECU supplies battery voltage to the circuit to turn things on.
-
 All general purpose outputs are available for conditional on/off control via basic conditions. (insert more details here)
 
 All general purpose outputs can be used by the software-PWM system. The software PWM system can provide approximately 1% duty steps at up to 1Khz.  (10uS steps, 1ms cycle)  Software PWM can operate at different speeds for different outputs - there is a lot of flexibility.  (link to more information) please note the max AMPs for your specific ECU outputs!
@@ -96,34 +92,31 @@ Switch goes (ON) Position > ECU Gets power > ECU sends a ground Signal to EFI Re
 
 Engine position (crank, cam) are specific inputs required. Hall Effect (square wave / magnetic or optical) and Variable Reluctance (VR / inductive) sensors are supported.
 
-VR(Reluctance) is typically 2 wire and has this type of waveform 
+### VR(Reluctance) is typically 2 wire and has this type of waveform 
 
 <img width="306" alt="Screen Shot 2024-05-27 at 11 05 02 PM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/9d82b48b-54bb-4207-9160-485ea3346552">
 
 those Should go to your RusEFI VR+ , VR- 
 Some ECU Brands Call them "NE+" "NE-" it's practically the same deal
 
-HALL EFFECT SENSOR
+### HALL EFFECT SENSOR
 they have a Square shaped wave and typically a 3 wire system 
 powered by Either 5v or 12v power and ground and has a signal as a third pin 
 
 <img width="270" alt="Screen Shot 2024-05-27 at 11 08 32 PM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/46e6a5a2-526e-42a6-9b7d-27da88775580">
 
-OPTICAL SENSORS 
+### OPTICAL SENSORS 
 Typically Found in Nissans and they have a 360deg wheel as secondary trigger and small slits in the number of cylinders 
 wiring is very simple on those typically : (Trigger Second , Trigger Main , 12v+ , GND)
 they're powered by 12v and output 5V Signals
 
 As of 2024 May 27 RusEFI doesn't Support Nissan 360 Trigger 
-
 I suggest getting an aftermarket trigger wheel ("Optical DISC") If you plan on installation on a nissan
-
 Some hardware variants have a provision for knock sensors.
 
 In regards of Knock Sensor quality of Signal I suggest a shielded cable (2 core)
 KNOCK goes to (KNOCK_IN_RAW) signal IN
 Shield and GND of sensor Goes to Sensor GND 
-
 it's prefered to do it this way to get the best perfomance of your ECU input and sensor.
 
 ## General Sensor Inputs
