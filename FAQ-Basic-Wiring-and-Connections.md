@@ -54,18 +54,19 @@ Unipolar stepper valves are not supported by any hardware variants at this time.
 Logic exists in the firmware to control a drive by wire throttle body, including using it to idle. A single H-bridge is required to control a single DBW throttle body. Multiple DBW throttle bodies can be simultaneously controlled as long as sufficient H-bridge drivers exist to control them. A drive by wire pedal (Accelerator Pedal Position / APP) is generally used to provide input from the driver. Want to know more?  here is a [guide](Electronic-Throttle-Body-Configuration-Guide) you should read.
 
 ### Main Relay support ("ECM RELAY")
+
 The Main relay is a secondary power switch usually used to power INJECTORS/IGNITION/IDLE VALVES components that use 12v+ and comes on After ACC signals
 
 Most hardware variants are set up to provide control over a main relay or auto-shutdown relay. The rusEFI ECU typically has two power feeds. Key-on power is supplied to the ECU in order to power the CPU and logic core of the ECU. High side drivers, H Bridges and other power switches are then powered by a "main relay" that is energized under the control of the ECU. Battery / continuous power is not required for setting retention.
 
-some older car models have the main "EFI" or "ECU Relay" or "ECCS" as Nissan calls it those are the usual Terminology used to describe it 
-Usually works in this order 
-| 12V IN PIN               | RELAY 12V OUT                     | EARTH (GND)     |               ECU (ON SIGNAL)  | 
+some older car models have the main "EFI" or "ECU Relay" or "ECCS" as Nissan calls it those are the usual Terminology used to describe it
+Usually works in this order
+| 12V IN PIN               | RELAY 12V OUT                     | EARTH (GND)     |               ECU (ON SIGNAL)  |
 | -------------            | -------------                     |  -------------  |                  ------------- |
 | POWER FROM B+ (battery)|  POWER TO ECU (after switching IGN) |  GROUND PIN     |       SIGNAL TO OPERATE RELAY  |
 
-Technically Speaking while wiring ur new RusEFI ECU Unit you should see if your car starts the relay VIA "ECU PIN" from ur oem unit 
-or switched Externally VIA Ignition Key Switch 
+Technically Speaking while wiring ur new RusEFI ECU Unit you should see if your car starts the relay VIA "ECU PIN" from ur oem unit
+or switched Externally VIA Ignition Key Switch
 
 (**IF**) your car is "IGNITION SWITCH OPERATED RELAY" (NO ECM CONTROL) link VIGN and 12V(Switched B+ from ur old ecu wire) inputs together for BATT voltage to display correctly
 
@@ -84,24 +85,12 @@ Relay Should tick even when ur ECU is out!
 feedback VIGN with power returning from MAIN RELAY They're usually labeled in manuals as "ECU POWER" "ECU 12V" 
 <img width="631" alt="Screen Shot 2024-05-27 at 1 35 14 AM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/1e83bf27-a440-41db-8186-6b0367cbd5e0">
 
-as you can see in the ECCS example pin 16 here should be RusEFI lowside 
+as you can see in the ECCS example pin 16 here should be RusEFI lowside
 and pin 49 should be your relay power IN (VIGN)
 
-
-
-so a quick way to explain all of this is  
+so a quick way to explain all of this is
 
 Switch goes (ON) Position > ECU Gets power > ECU sends a ground Signal to EFI Relay > you get powers to EFI components!
-
-
-
-
-
-
-
-
-
-
 
 ## Specific Function Inputs
 
