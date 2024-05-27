@@ -17,9 +17,7 @@ Bottom line: as long as the hardware variant has at least as many injector outpu
 
 ## Coils
 
-As of May 2020, most hardware variants support only logic level drive for coils. This means GM LSx, IGN1A, Denso coil stick, etc. (others may too - these are just examples) that have built in ignitors will work. You should consult the documentation for both the coils and the rusEFI hardware you are using to determine whether you can directly wire the coils or an external ignitor/something else is required. Note: coil outputs are among the **least** robust (in terms of tolerating shorts, excessive voltages, etc.) on many hardware variants, including Proteus. Double check your wiring!
-
-uaEFI supports IGBT expansion for dumb coils , kindly read the manual of uaefi for more information.
+As of May 2020, most hardware variants support only logic level drive for coils. This means GM LSx, IGN1A, Denso coil stick, etc. (others may too - these are just examples) that have built in ignitors will work. You should consult the documentation for both the coils and the rusEFI hardware you are using to determine whether you can directly wire the coils or an external ignitor/something else is required. Note: coil outputs are among the **least** robust (in terms of tolerating shorts, excessive voltages, etc.) on many hardware variants, including Proteus. Double check your wiring! uaEFI supports IGBT expansion for dumb coils , kindly read the manual of uaefi for more information.
 
 Like injectors, all coil outputs are interchangeable. Coil outputs do not need to be used sequentially and order of firing / phasing can be adjusted in software. Waste fire (one coil fires two cylinders) and distributor (one coil mechanically multiplexed among all cylinders) modes are supported in addition to coil-per-cylinder direct fire. Rare "dual distributor" mode is also supported for engines like older BMW V12 and Toyota 1UZ.
 
@@ -35,9 +33,7 @@ High side outputs are used to control things in the engine bay that have one ter
 
 All general purpose outputs are available for conditional on/off control via basic conditions. (insert more details here)
 
-All general purpose outputs can be used by the software-PWM system. The software PWM system can provide approximately 1% duty steps at up to 1Khz.  (10uS steps, 1ms cycle)  Software PWM can operate at different speeds for different outputs - there is a lot of flexibility.  (link to more information)
-
-please note the max AMPs for your specific ECU outputs!
+All general purpose outputs can be used by the software-PWM system. The software PWM system can provide approximately 1% duty steps at up to 1Khz.  (10uS steps, 1ms cycle)  Software PWM can operate at different speeds for different outputs - there is a lot of flexibility.  (link to more information) please note the max AMPs for your specific ECU outputs!
 
 ## Specific Outputs
 
