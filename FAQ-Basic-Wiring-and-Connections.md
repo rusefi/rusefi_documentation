@@ -98,12 +98,14 @@ those Should go to your RusEFI VR+, VR-
 Some ECU Brands Call them "NE+" "NE-" it's practically the same deal
 
 ### HALL EFFECT SENSOR
+
 they have a Square shaped wave and typically a 3 wire system
 powered by Either 5v or 12v power and ground and has a signal as a third pin
 
 <img width="270" alt="Screen Shot 2024-05-27 at 11 08 32 PM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/46e6a5a2-526e-42a6-9b7d-27da88775580">
 
 ### OPTICAL SENSORS
+
 Typically Found in Nissans and they have a 360deg wheel as secondary trigger and small slits in the number of cylinders
 wiring is very simple on those typically: (Trigger Second, Trigger Main, 12v+, GND)
 they're powered by 12v and output 5V Signals
