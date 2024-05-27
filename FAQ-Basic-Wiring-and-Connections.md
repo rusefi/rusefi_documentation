@@ -88,21 +88,9 @@ feedback VIGN with power returning from MAIN RELAY They're usually labeled in ma
 as you can see in the ECCS example pin 16 here should be RusEFI lowside 
 and pin 49 should be your relay power IN (VIGN)
 
-
-
 so a quick way to explain all of this is  
 
 Switch goes (ON) Position > ECU Gets power > ECU sends a ground Signal to EFI Relay > you get powers to EFI components!
-
-
-
-
-
-
-
-
-
-
 
 ## Specific Function Inputs
 
@@ -130,9 +118,6 @@ As of 2024 May 27 RusEFI doesn't Support Nissan 360 Trigger
 
 I suggest getting an aftermarket trigger wheel ("Optical DISC") If you plan on installation on a nissan
 
-
-
-
 Some hardware variants have a provision for knock sensors.
 
 In regards of Knock Sensor quality of Signal I suggest a shielded cable (2 core)
@@ -140,7 +125,6 @@ KNOCK goes to (KNOCK_IN_RAW) signal IN
 Shield and GND of sensor Goes to Sensor GND 
 
 it's prefered to do it this way to get the best perfomance of your ECU input and sensor.
-
 
 ## General Sensor Inputs
 
