@@ -46,8 +46,6 @@ Very similar but slightly different versions of rusEFI bundle are needed dependi
 
 **[Quick Start](HOWTO-quick-start)**
 
-[Choose Your Own Adventure](Try-It)
-
 [Virtual Simulator](Virtual-simulator)
 
 ## FAQ

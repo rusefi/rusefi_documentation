@@ -18,14 +18,6 @@ We suggest that before you purchase hardware, that you create a plan with a sche
 
 Once you have a plan, you can start making a bill of materials. You'll likely be purchasing harnesses, wires, connectors, and all sorts of things. You may have to do junk yard runs to get certain hard to obtain items, ect. If you have your rough schematic at arms length, it will really help you know what you need and when you'll need it.
 
-#### Assembling components
-
-We should offer some notes about crimps, how to verify a good crimp, things like that.
-
-[Frankenso](Hardware-Frankenso)
-
-[Frankenstein](Hardware-Frankenstein)
-
 ### Preparing your engine
 
 #### Physically locating the controller
@@ -71,9 +63,6 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
 * If you have a connector that has a break out PCB board for it, you probably want to obtain the break out PCB for that harness connector. If not you can simply solder wires direct to the connector. Similar to [this - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 ![Breakout Render](Images/176122-6_front.jpg)
 ![Breakout PCB](Images/64p_connector.jpg)
-* Wire rusEFI like Frankenstein as shown below
-![Frankenstein wired with connector breakout](Images/Aspire_20140306_state.jpg)
-![Frankenstein wired in enclosure](Images/P1050839_zpsfdbdbd97.jpg)
 * It will likely be helpful to get a partial harness from a junk yard, and switch to rusEFI circuit-by-circuit using a [breakout module.](Breakout-Module)
 * Use junk yard harness to make extension harness. Use the junk yard ECU connector to break out the wire harness to the breakout board. Then from the far side of the breakout board, install the junk yard harness connector. Then connect the original ECU. This should allow you to start and run then engine as normal.
 

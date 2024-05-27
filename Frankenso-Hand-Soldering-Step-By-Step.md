@@ -8,7 +8,6 @@ Mandatory links:
 [Frankenso Hardware](Hardware-Frankenso)
 [Hardware Test Mode](Hardware-Test-Mode)
 [TunerStudio Connectivity](Tunerstudio-Connectivity)
-[Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
 [Trigger Hardware](Trigger-Hardware)
 [Temperature Sensing](Temperature-Sensing)
 [1994 Miata Frankenso pinout spreadsheet](https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk/edit#gid=0)

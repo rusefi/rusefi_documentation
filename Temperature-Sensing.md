@@ -6,10 +6,6 @@ While troubleshooting CLT and IAT, the two most useful console commands are `ana
 
 See also [Measuring Temperature](http://rusefi.com/articles/measuring_temperature/)
 
-See also [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
-
-See also [Frankenso Analog Inputs](Hardware-Frankenso#analog-inputs)
-
 See also [Troubleshooting](Troubleshooting)
 
 ![analoginfo Output](Images/analoginfo2.png)

@@ -192,8 +192,6 @@ These chips could be configured to run 5v, 12v or GND output:
 
 ## Analog Inputs
 
-See [Frankenstein Analog Inputs](Hardware-Frankenstein#step-3-analog-inputs)
-
 See [Temperature Sensing](Temperature-Sensing)
 
 [1994 Miata Frankenso pinout spreadsheet](https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk)
