@@ -93,7 +93,7 @@ please see [Wide-Band-Sensors](Wide-Band-Sensors)
 
 OR
 
-- Build your own custom ECU from a [supported MCU kit](stm32-readme)
+- Build your own custom ECU from a supported MCU kit
 
 ## Getting help
 

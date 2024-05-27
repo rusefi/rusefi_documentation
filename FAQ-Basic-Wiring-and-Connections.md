@@ -43,7 +43,7 @@ Logic exists in the firmware to use several types of idle control valves to regu
 
 PWM valves (generally 2 wire) accept a variable duty-cycle square wave to control their position. Any general-purpose output hardware that can handle the electrical load can be configured to control a PWM-style idle valve. Dedicated pins do not need to be allocated for these style valves. Honda, Nissan, Mitsubishi, Subaru, Ford valves are commonly this type.
 
-Bipolar stepper motors (generally 4 wire) have two coils that are energized in different patterns in order to move the valve open or closed, one step at a time. Bipolar stepper motors require **two H-Bridges** (Proteus) to control one bipolar stepper idle valve. Alternatively, a dedicated stepper driver IC can be used(Prometheus?) or added via a drop-in adapter board. GM, Toyota commonly use these.
+Bipolar stepper motors (generally 4 wire) have two coils that are energized in different patterns in order to move the valve open or closed, one step at a time. Bipolar stepper motors require **two H-Bridges** (Proteus) to control one bipolar stepper idle valve. Alternatively, a dedicated stepper driver IC can be used or added via a drop-in adapter board. GM, Toyota commonly use these.
 
 [Jeep idle stepper motor - Video](https://youtu.be/z0rFOkAbKDQ) [Stepper motor idle - Video](https://youtu.be/SYNUcmNIgPo)
 

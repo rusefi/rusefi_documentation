@@ -90,7 +90,7 @@ There are several available modules some are listed on the Ignition components l
 
 ## What about adding IGBTs on the board to drive coils directly?
 
-Actually we already have this in the form of the Prometheus and Hellen boards.  
+Actually we already have this in the form of the uaEFI and other Hellen boards.  
 These boards are intended as all in one solutions.
 
 ---
