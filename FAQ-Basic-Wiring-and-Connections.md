@@ -72,17 +72,16 @@ or switched Externally VIA Ignition Key Switch
 
 <img width="561" alt="Screen Shot 2024-05-27 at 1 27 46 AM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/6c4891b7-fcf6-4978-8fe2-e06fe1ee0c98">
 
-
 and the regular switched power Relay is refered as "12v+" "B+" in diagrams when connecting refrence power to ECU it's prefered to USE "RELAY 12V OUT" for Voltage Reading ("VIGN") in your case it's usually the only power Input pin in the ECU so it's your Voltage Refrence Signal(relay) and your 12V+ power to ECU
 
 so a quick way to explain all of this is  
 
-Switch goes (ON) Position > EFI RELAY ON > ECU Gets power and EFI components in the same time 
+Switch goes (ON) Position > EFI RELAY ON > ECU Gets power and EFI components in the same time
 
 Relay Should tick even when ur ECU is out!
 
-(**HOWEVER**) if your car is switched by a ECM pin take a free "LS" low side output and replace ur old relay operation signal with it 
-feedback VIGN with power returning from MAIN RELAY They're usually labeled in manuals as "ECU POWER" "ECU 12V" 
+(**HOWEVER**) if your car is switched by a ECM pin take a free "LS" low side output and replace ur old relay operation signal with it
+feedback VIGN with power returning from MAIN RELAY They're usually labeled in manuals as "ECU POWER" "ECU 12V"
 <img width="631" alt="Screen Shot 2024-05-27 at 1 35 14 AM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/1e83bf27-a440-41db-8186-6b0367cbd5e0">
 
 as you can see in the ECCS example pin 16 here should be RusEFI lowside
