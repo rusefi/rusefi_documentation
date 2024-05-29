@@ -17,4 +17,8 @@
 
 * How does github fit with non-linear release flow?
 * More automated github release process?
-* Smarter console autoupdate options - update within relese VS update to snapshot? Rollback?
+* Smarter console autoupdate options - update within release VS update to snapshot? Rollback?
+
+## Branch naming convention
+
+Branch names are not allowed to have dots (That's because current autoupdater uses dots to split tokens in parent folder name.)
