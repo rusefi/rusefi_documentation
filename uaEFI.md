@@ -80,7 +80,6 @@ USBBF7
 ## WBO Connector 
 ![wideband_for_dummies](https://github.com/rusefi/rusefi_documentation/assets/82368250/3e5aca8a-62cf-4636-905c-cf79b18deef0)
 
-
 ## FAQ
 
 Q: Can it do 8x8?
