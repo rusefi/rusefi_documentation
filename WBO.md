@@ -38,7 +38,6 @@ pin 6 black: UN = Vs = sensor voltage output = INRC
 ## uaEFI Connector Pinout
 ![wideband_for_dummies](https://github.com/rusefi/rusefi_documentation/assets/82368250/1d64e5ad-2a62-4346-b2d5-a6cefde14595)
 
-
 ## Part Numbers
 
 ### Connector Shells
