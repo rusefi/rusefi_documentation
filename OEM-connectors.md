@@ -509,16 +509,21 @@ header
 
 brown tyco 2035160-2
 
-header
 13784962 grey Micro HVT
 
 13784963 brown
 
 13784964 green
 
-harness side 1924939-1 [3-1924939-5](https://www.te.com/usa-en/product-3-1924939-5.html) [1924941-2](https://www.te.com/usa-en/product-1924941-2.html)
+harness side 1924939-1 [3-1924939-5](https://www.te.com/usa-en/product-3-1924939-5.html)
+
+[1924941-2](https://www.te.com/usa-en/product-1924941-2.html)
 
 Maybe relevant maybe not? 13964572 15494614 13627884 13627887 13627886
+
+terminal 1924879-1 thin wires
+
+1924880-1 1 AWG wires
 
 ## 100 pin
 
