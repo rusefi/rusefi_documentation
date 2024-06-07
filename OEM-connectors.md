@@ -503,6 +503,8 @@ maybe not used by OEM but relayed to 72 pin NB2
 
 Dodge Hemi
 
+2018 Durango grey + tan
+
 Chrysler
 
 header
