@@ -119,6 +119,10 @@ different people, also useful while Lua script editing is available only in TS.
 
 #### `stopEngine()`
 
+#### `isEngineStopRequested()`
+
+returns true if engine stop was requested by either Lua or start/stop button within the last five seconds
+
 #### `setSparkSkipRatio(ratio)`
 
 setSparkSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
