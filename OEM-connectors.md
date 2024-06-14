@@ -388,6 +388,10 @@ See [Miata 2001 - 2005](Mazda-Miata-2001)
 pins 316836?
 pins 316838
 
+## 73 pin
+
+black 313872014 GM e38
+
 ## 76 pin
 
 [TE 3-178780-6](http://www.te.com/usa-en/product-3-178780-6.html)
@@ -433,6 +437,10 @@ VW Jetta Golf VR6 Turbo
 1997 1998 Audi 4D0 907 551 A
 
 Passat B6 TCU uses 52 pin portion
+
+## 80 pin GM
+
+grey 313874018 GM e38
 
 ## 80 pin molex
 
