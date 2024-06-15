@@ -115,6 +115,10 @@ different people, also useful while Lua script editing is available only in TS.
   - `name`: Variable name, as in corresponding 'name' field in configuration
   - `defaultValue`: value to use if specified setting not located by name
 
+### `isFirmwareError`
+
+Returns true if ECU is in state of critical/fatal error.
+
 ### Engine Control
 
 #### `stopEngine()`
