@@ -562,6 +562,7 @@ end
  [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 
 ```lua
+-- make sure physical input is NOT configured to avoid 'one was already registered' conflict
 vssSensor = Sensor.new("VehicleSpeed")
 -- any value would be considered valid for three seconds
 vssSensor:setTimeout(3000)
