@@ -6,6 +6,9 @@
 -- include utils.lua
 -- endinclude
 
+-- include send-methods.lua
+-- endinclude
+
 setTickRate(100)
 
 canRxAdd(ECU_BUS, MOTOR_1, silentlyRelayFromECU)
@@ -16,7 +19,7 @@ canRxAdd(ECU_BUS, MOTOR_5, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, MOTOR_6, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, MOTOR_7, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, ACC_GRA, silentlyRelayFromECU)
-canRxAdd(ECU_BUS, MOTOR_INFO, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_INFO, drop)
 
 canRxAdd(ECU_BUS, Gate_Komf_1, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, Kombi_1, silentlyRelayFromECU)
@@ -72,6 +75,10 @@ function onTick()
 	if everySecondTimer : getElapsedSeconds() > 1 then
 		everySecondTimer : reset()
 		print("Total from ECU " ..totalEcuMessages .. " totalTcuMessages " .. totalTcuMessages)
+
+		motor5FuelCounter = motor5FuelCounter + 20
+
+		sendMotorInfo()
 	end
 end
 
