@@ -18,12 +18,21 @@ canRxAdd(ECU_BUS, MOTOR_7, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, ACC_GRA, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, MOTOR_INFO, silentlyRelayFromECU)
 
+canRxAdd(ECU_BUS, Gate_Komf_1, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, Kombi_3, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, Soll_Verbauliste_neu, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, GRA_Neu, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, Systeminfo_1, silentlyRelayFromECU)
+
+canRxAdd(ECU_BUS, VWTP_OUT, silentlyRelayFromECU)
+
 canRxAdd(ECU_BUS, Bremse_1, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, Bremse_2, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, Bremse_3, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, Bremse_4, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, Bremse_5, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, Bremse_6, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, BRAKE_8_428, silentlyRelayFromECU)
 
 canRxAdd(ECU_BUS, Diagnose_1, silentlyRelayFromECU)
 

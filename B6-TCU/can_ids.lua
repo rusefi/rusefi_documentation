@@ -24,6 +24,7 @@ MOTOR_INFO = 0x580
 -- 1416
 MOTOR_7 = 0x588
 
+BRAKE_8_428 = 0x1AC
  Bremse_6=424
  Bremse_5=1192
 
@@ -36,6 +37,8 @@ MOTOR_7 = 0x588
 
 Gate_Komf_1 = 912
 Kombi_3 = 1312
+Soll_Verbauliste_neu=1500
+GRA_Neu=906
 
 Systeminfo_1 = 1488
 
