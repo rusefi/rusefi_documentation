@@ -41,10 +41,7 @@ motor7Data = { 0x1A, 0x66, 0x7E, 0x00, 0x00, 0x00, 0x00, 0x00 }
 
 canMotorInfoTotalCounter = 0
 
-VWTP_OUT = 0x200
-cuType = 0x02 -- TCU
-VWTP_IN = 0x200 + cuType
-VWTP_TESTER = 0x300
+
 
 -- sometimes we want to cut a CAN bus and install rusEFI into that cut
 -- https://en.wikipedia.org/wiki/Man-in-the-middle_attack

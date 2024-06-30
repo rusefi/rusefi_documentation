@@ -8,6 +8,23 @@
 
 setTickRate(100)
 
+canRxAdd(ECU_BUS, MOTOR_1, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_BRE, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_2, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_3, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_5, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_6, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_7, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, ACC_GRA, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_INFO, silentlyRelayFromECU)
+
+canRxAdd(ECU_BUS, Bremse_1, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, Bremse_2, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, Bremse_3, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, Bremse_4, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, Bremse_5, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, Bremse_6, silentlyRelayFromECU)
+
 canRxAdd(ECU_BUS, Diagnose_1, silentlyRelayFromECU)
 
 
