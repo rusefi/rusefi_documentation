@@ -1,4 +1,9 @@
-AIRBAG = 0x050
+-- scriptname B6-temp-TCU-main-in-the-middle-new-approach-now-with-replacement.txt
+
+
+
+-- include can_ids.lua
+-- endinclude
 
 onEcuTimer = Timer.new()
 onEcuTimer : reset ()
