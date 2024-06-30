@@ -45,3 +45,10 @@ Systeminfo_1 = 1488
 
 Diagnose_1 = 2000
 
+Lenkhilfe_1=976
+Lenkwinkel_1 =194
+Lenkhilfe_3=208
+Lenkhilfe_2=978
+Klima_1=1504
+BSG_Last=1392
+EPB_1=1472

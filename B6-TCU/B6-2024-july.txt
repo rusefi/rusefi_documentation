@@ -37,14 +37,33 @@ canRxAdd(ECU_BUS, BRAKE_8_428, silentlyRelayFromECU)
 
 canRxAdd(ECU_BUS, Diagnose_1, silentlyRelayFromECU)
 
+canRxAdd(ECU_BUS, Lenkwinkel_1, drop)
+canRxAdd(ECU_BUS, Lenkhilfe_3, drop)
+canRxAdd(ECU_BUS, Lenkhilfe_2, drop)
+canRxAdd(ECU_BUS, Klima_1, drop)
+canRxAdd(ECU_BUS, BSG_Last, drop)
+canRxAdd(ECU_BUS, AIRBAG, drop)
+
+canRxAdd(ECU_BUS, Lenkhilfe_1, drop)
+canRxAdd(ECU_BUS, EPB_1, drop)
+
+canRxAdd(ECU_BUS, 1394, drop)
+canRxAdd(ECU_BUS, 1056, drop)
+
+canRxAdd(ECU_BUS, 1478, drop)
+--canRxAdd(ECU_BUS, 1490, drop)
+--canRxAdd(ECU_BUS, 1888, drop)
+--canRxAdd(ECU_BUS, 1360, drop)
+
+
 function verboseRelayFromECU(bus, id, dlc, data)
     onEcuTimer : reset ()
-    print("Relaying to TCU " .. id)
+--    print("Relaying to TCU " .. id)
 	totalEcuMessages = totalEcuMessages + 1
 	txCan(TCU_BUS, id, 0, data)
 end
 
-canRxAddMask(ECU_BUS, 0, 0, silentlyRelayFromECU)
+canRxAddMask(ECU_BUS, 0, 0, verboseRelayFromECU)
 canRxAddMask(TCU_BUS, 0, 0, silentlyRelayFromTCU)
 
 everySecondTimer = Timer.new()
