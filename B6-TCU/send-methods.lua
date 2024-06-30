@@ -95,3 +95,15 @@ function sendMotor1()
 
 	txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
 end
+
+canMotor3 = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+function sendMotor3()
+	desired_wheel_torque = fakeTorque
+	iat = iat or 30
+	canMotor3[2] = (iat + 48) / 0.75
+	canMotor3[3] = tps / 0.4
+	canMotor3[5] = 0x20
+	setBitRange(canMotor3, 24, 12, math.floor(desired_wheel_torque / 0.39))
+	canMotor3[8] = tps / 0.4
+	txCan(TCU_BUS, MOTOR_3, 0, canMotor3)
+end
