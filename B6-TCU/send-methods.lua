@@ -78,3 +78,20 @@ function sendMotor2()
 
  txCan(TCU_BUS, MOTOR_2_648, 0, motor2Data)
 end
+
+motor1Data = { 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 }
+function sendMotor1()
+	engineTorque = fakeTorque * 0.9
+	innerTorqWithoutExt = fakeTorque
+	torqueLoss = 20
+	requestedTorque = fakeTorque
+
+	motor1Data[2] = engineTorque / 0.39
+	setTwoBytesLsb(motor1Data, 2, rpm / 0.25)
+	motor1Data[5] = innerTorqWithoutExt / 0.4
+	motor1Data[6] = tps / 0.4
+	motor1Data[7] = torqueLoss / 0.39
+	motor1Data[8] = requestedTorque / 0.39
+
+	txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
+end

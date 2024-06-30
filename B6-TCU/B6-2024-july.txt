@@ -25,7 +25,8 @@ function onMotor1(bus, id, dlc, data)
 
 	fakeTorque = interpolate(0, 6, 100, 60, tps)
 
-	txCan(TCU_BUS, MOTOR_1, 0, data)
+--	txCan(TCU_BUS, MOTOR_1, 0, motor1Data)
+    sendMotor1()
 end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)

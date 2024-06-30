@@ -53,6 +53,12 @@ function getBitRange(data, bitIndex, bitWidth)
  return (value >> shift) & mask
 end
 
+function setTwoBytesLsb(data, offset, value)
+	value = math.floor(value)
+	data[offset + 2] = value >> 8
+	data[offset + 1] = value & 0xff
+end
+
 function setTwoBytesMsb(data, offset, value)
 	value = math.floor(value)
 	data[offset + 1] = value >> 8
