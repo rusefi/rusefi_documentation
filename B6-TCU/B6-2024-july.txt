@@ -10,7 +10,7 @@ setTickRate(100)
 
 canRxAdd(ECU_BUS, MOTOR_1, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, MOTOR_BRE, silentlyRelayFromECU)
-canRxAdd(ECU_BUS, MOTOR_2, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_2_648, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, MOTOR_3, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, MOTOR_5, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, MOTOR_6, silentlyRelayFromECU)
@@ -19,6 +19,7 @@ canRxAdd(ECU_BUS, ACC_GRA, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, MOTOR_INFO, silentlyRelayFromECU)
 
 canRxAdd(ECU_BUS, Gate_Komf_1, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, Kombi_1, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, Kombi_3, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, Soll_Verbauliste_neu, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, GRA_Neu, silentlyRelayFromECU)
@@ -36,6 +37,12 @@ canRxAdd(ECU_BUS, BRAKE_8_428, silentlyRelayFromECU)
 
 canRxAdd(ECU_BUS, Diagnose_1, silentlyRelayFromECU)
 
+function verboseRelayFromECU(bus, id, dlc, data)
+    onEcuTimer : reset ()
+    print("Relaying to TCU " .. id)
+	totalEcuMessages = totalEcuMessages + 1
+	txCan(TCU_BUS, id, 0, data)
+end
 
 canRxAddMask(ECU_BUS, 0, 0, silentlyRelayFromECU)
 canRxAddMask(TCU_BUS, 0, 0, silentlyRelayFromTCU)

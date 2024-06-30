@@ -1,3 +1,5 @@
+onEcuTimer = Timer.new()
+
 ECU_BUS = 1
 -- really 'not ECU'
 TCU_BUS = 2

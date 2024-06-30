@@ -10,7 +10,7 @@ MOTOR_1 = 0x280
 -- 644
 MOTOR_BRE = 0x284
 -- 648
-MOTOR_2 = 0x288
+MOTOR_2_648 = 0x288
 -- 896
 MOTOR_3 = 0x380
 -- 1152
@@ -34,6 +34,7 @@ BRAKE_8_428 = 0x1AC
  Bremse_2=1440
  Bremse_1=416
 
+Kombi_1=800
 
 Gate_Komf_1 = 912
 Kombi_3 = 1312
