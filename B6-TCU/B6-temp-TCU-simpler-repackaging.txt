@@ -69,7 +69,7 @@ ECU_BUS = 1
 -- really 'not ECU'
 TCU_BUS = 2
 
-function setTwoBytes(data, offset, value)
+function setTwoBytesLsb(data, offset, value)
  value = math.floor(value)
  data[offset + 2] = value >> 8
  data[offset + 1] = value & 0xff
@@ -140,7 +140,7 @@ function onMotor1(bus, id, dlc, data)
  requestedTorque = fakeTorque
 
  motor1Data[2] = engineTorque / 0.39
- setTwoBytes(motor1Data, 2, rpm / 0.25)
+ setTwoBytesLsb(motor1Data, 2, rpm / 0.25)
  motor1Data[5] = innerTorqWithoutExt / 0.4
  motor1Data[6] = tps / 0.4
  motor1Data[7] = torqueLoss / 0.39
