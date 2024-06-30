@@ -20,9 +20,5 @@ MOTOR_INFO = 0x580
 MOTOR_7 = 0x588
 
 
+Diagnose_1 = 2000
 
-
-
-ECU_BUS = 1
--- really 'not ECU'
-TCU_BUS = 2

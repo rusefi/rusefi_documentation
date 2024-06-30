@@ -1,3 +1,16 @@
+ECU_BUS = 1
+-- really 'not ECU'
+TCU_BUS = 2
+
+totalEcuMessages = 0
+totalTcuMessages = 0
+
+function relayFromTCU(bus, id, dlc, data)
+	totalTcuMessages = totalTcuMessages + 1
+--	print("Relaying to ECU " .. id)
+	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
+end
+
 function xorChecksum(data, targetIndex)
  local index = 1
  local result = 0
@@ -77,4 +90,9 @@ function silentlyRelayFromECU(bus, id, dlc, data)
     onEcuTimer : reset ()
 	totalEcuMessages = totalEcuMessages + 1
 	txCan(TCU_BUS, id, 0, data)
+end
+
+function silentlyRelayFromTCU(bus, id, dlc, data)
+	totalTcuMessages = totalTcuMessages + 1
+	txCan(ECU_BUS, id, 0, data) -- relay non-ECU message to ECU
 end

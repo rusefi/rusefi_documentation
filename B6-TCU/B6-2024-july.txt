@@ -5,3 +5,21 @@
 
 -- include utils.lua
 -- endinclude
+
+setTickRate(100)
+
+canRxAdd(ECU_BUS, Diagnose_1, silentlyRelayFromECU)
+
+
+canRxAddMask(ECU_BUS, 0, 0, silentlyRelayFromECU)
+canRxAddMask(TCU_BUS, 0, 0, silentlyRelayFromTCU)
+
+everySecondTimer = Timer.new()
+
+function onTick()
+	if everySecondTimer : getElapsedSeconds() > 1 then
+		everySecondTimer : reset()
+		print("Total from ECU " ..totalEcuMessages .. " totalTcuMessages " .. totalTcuMessages)
+	end
+end
+
