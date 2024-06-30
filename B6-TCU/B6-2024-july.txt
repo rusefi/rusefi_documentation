@@ -1,0 +1,7 @@
+-- scriptname B6-2024-july.txt
+
+-- include can_ids.lua
+-- endinclude
+
+-- include utils.lua
+-- endinclude
