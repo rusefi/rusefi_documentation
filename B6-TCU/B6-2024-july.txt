@@ -12,13 +12,13 @@
 setTickRate(100)
 
 canRxAdd(ECU_BUS, MOTOR_1, silentlyRelayFromECU)
-canRxAdd(ECU_BUS, MOTOR_BRE, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_BRE, drop)
 canRxAdd(ECU_BUS, MOTOR_2_648, silentlyRelayFromECU)
 canRxAdd(ECU_BUS, MOTOR_3, silentlyRelayFromECU)
-canRxAdd(ECU_BUS, MOTOR_5, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_5, drop)
 canRxAdd(ECU_BUS, MOTOR_6, silentlyRelayFromECU)
-canRxAdd(ECU_BUS, MOTOR_7, silentlyRelayFromECU)
-canRxAdd(ECU_BUS, ACC_GRA, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_7, drop)
+canRxAdd(ECU_BUS, ACC_GRA, drop)
 canRxAdd(ECU_BUS, MOTOR_INFO, drop)
 
 canRxAdd(ECU_BUS, Gate_Komf_1, silentlyRelayFromECU)
@@ -70,6 +70,7 @@ canRxAddMask(ECU_BUS, 0, 0, verboseRelayFromECU)
 canRxAddMask(TCU_BUS, 0, 0, silentlyRelayFromTCU)
 
 everySecondTimer = Timer.new()
+_10msPeriodTimer = Timer.new()
 
 function onTick()
 	if everySecondTimer : getElapsedSeconds() > 1 then
@@ -79,6 +80,15 @@ function onTick()
 		motor5FuelCounter = motor5FuelCounter + 20
 
 		sendMotorInfo()
+	end
+
+
+	if _10msPeriodTimer : getElapsedSeconds() > 0.01 then
+	    _10msPeriodTimer : reset()
+		sendMotorBre()
+		sendAccGra()
+		sendMotor5()
+		sendMotor7()
 	end
 end
 
