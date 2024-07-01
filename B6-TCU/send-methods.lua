@@ -107,3 +107,21 @@ function sendMotor3()
 	canMotor3[8] = tps / 0.4
 	txCan(TCU_BUS, MOTOR_3, 0, canMotor3)
 end
+
+motor6Data = { 0x00, 0x00, 0x00, 0x7E, 0xFE, 0xFF, 0xFF, 0x00 }
+motor6Counter = 0
+function sendMotor6()
+	motor6Counter = (motor6Counter + 1) % 16
+
+	engineTorque = fakeTorque * 0.9
+	actualTorque = fakeTorque
+	feedbackGearbox = 255
+
+	motor6Data[2] = math.floor(engineTorque / 0.39)
+	motor6Data[3] = math.floor(actualTorque / 0.39)
+	motor6Data[6] = math.floor(feedbackGearbox / 0.39)
+	setBitRange(motor6Data, 60, 4, motor6Counter)
+
+	xorChecksum(motor6Data, 1)
+	txCan(TCU_BUS, MOTOR_6, 0, motor6Data)
+end

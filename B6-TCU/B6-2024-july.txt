@@ -47,10 +47,10 @@ end
 
 canRxAdd(ECU_BUS, MOTOR_1, onMotor1)
 canRxAdd(ECU_BUS, MOTOR_BRE, drop)
-canRxAdd(ECU_BUS, MOTOR_2_648, sendMotor2)
+canRxAdd(ECU_BUS, MOTOR_2_648, drop)
 canRxAdd(ECU_BUS, MOTOR_3, onMotor3)
 canRxAdd(ECU_BUS, MOTOR_5, drop)
-canRxAdd(ECU_BUS, MOTOR_6, silentlyRelayFromECU)
+canRxAdd(ECU_BUS, MOTOR_6, drop)
 canRxAdd(ECU_BUS, MOTOR_7, drop)
 canRxAdd(ECU_BUS, ACC_GRA, drop)
 canRxAdd(ECU_BUS, MOTOR_INFO, drop)
@@ -87,11 +87,22 @@ canRxAdd(ECU_BUS, EPB_1, drop)
 canRxAdd(ECU_BUS, 1394, drop)
 canRxAdd(ECU_BUS, 1056, drop)
 
-canRxAdd(ECU_BUS, 1478, drop)
+--canRxAdd(ECU_BUS, 1478, drop)
 --canRxAdd(ECU_BUS, 1490, drop)
 --canRxAdd(ECU_BUS, 1888, drop)
 --canRxAdd(ECU_BUS, 1360, drop)
 
+counter440 = 0
+function onTcu440(bus, id, dlc, data)
+    isShiftActive = getBitRange(data, 0, 1)
+    setBitRange(data, 0, 1, 0)
+     isShiftActive2 = getBitRange(data, 0, 1)
+        txCan(ECU_BUS, id, 0, data)
+
+    if counter440 % 70 == 0 then
+ --       print("TCU " .. isShiftActive .. isShiftActive2)
+    end
+end
 
 function verboseRelayFromECU(bus, id, dlc, data)
     onEcuTimer : reset ()
@@ -101,6 +112,9 @@ function verboseRelayFromECU(bus, id, dlc, data)
 end
 
 canRxAddMask(ECU_BUS, 0, 0, verboseRelayFromECU)
+
+canRxAdd(ECU_BUS, 1360, drop)
+canRxAdd(TCU_BUS, TCU_1088_440, onTcu440)
 canRxAddMask(TCU_BUS, 0, 0, silentlyRelayFromTCU)
 
 everySecondTimer = Timer.new()
@@ -122,8 +136,10 @@ function onTick()
 	    _10msPeriodTimer : reset()
 		sendMotorBre()
 		sendAccGra()
+		sendMotor2()
 		sendMotor3()
 		sendMotor5()
+	    sendMotor6()
 		sendMotor7()
 	end
 end

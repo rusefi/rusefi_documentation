@@ -52,3 +52,7 @@ Lenkhilfe_2=978
 Klima_1=1504
 BSG_Last=1392
 EPB_1=1472
+
+
+TCU_1088_440 = 0x440
+TCU_1344_540 = 0x540
