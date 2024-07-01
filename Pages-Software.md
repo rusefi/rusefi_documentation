@@ -18,7 +18,6 @@
 
 <details markdown="1"><summary><u>Firmware Features</u></summary>
 
-* [FSIO](FSIO)
 * [Virtual Simulator](Virtual-simulator)
 
 </details>
