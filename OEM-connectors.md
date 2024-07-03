@@ -762,6 +762,16 @@ See [Vault of Honda OEM](Vault-Of-Honda-OEM)
 
 06-07 Subaru ?
 
+## 128 pin
+
+Molex like used on Nissan 370z
+
+48+48+32
+
+Middle brown plug 64320-1319
+
+Black 48 plug 64320-1311 or 64320-3311 (matches microRusEFI)
+
 ## 128/145 pin
 
 [Mercedes M111](https://rusefi.com/#shop)
