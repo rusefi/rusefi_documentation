@@ -1,13 +1,11 @@
 # Hellen 121 Nissan
 
-<a href="https://www.ebay.com/itm/334061645783"><img src="Images/ebay_gen_button.gif"></a>
+https://www.shop.rusefi.com/shop/p/hellen-121-nissan
 
 *Compatible with: Earlier 350Z, 2nd Generation Nissan X-Terra, some Sentra, some Maxima.
 
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
 [Download Snapshot firmware](https://rusefi.com/build_server/rusefi_bundle_hellen121nissan.zip)
-
-https://www.shop.rusefi.com/shop/p/hellen-121-nissan
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen121nissan/) & [Google Sheet](https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZHCA)
 
