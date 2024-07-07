@@ -37,4 +37,4 @@ PS: всё очень добровольно. Всегда есть вариан
 
 ## Ultra Affordable EFI
 
-https://www.google.com/search?q=100+usd+to+rub
+https://www.google.com/search?q=175+usd+to+rub
