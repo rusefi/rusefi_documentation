@@ -1,18 +1,6 @@
 # 1994 Mazda Miata
 
-[Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
-
-[Frankenso options](https://docs.google.com/spreadsheets/d/1LTvS7I-128Hft9uXHG1JrBxetVjGJDSBkySgVDQ6MGk)
-
 ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few exceptions:
-
-1. dedicated MAF ground
-
-2. individual injector wiring
-
-![Frankenso Set up for 1994 Miata](http://rusefi.com/images/Frankenso/frankenso_set_for_miata_1994.jpg)
-
-![Frankenso Set up for 1994 Miata Back](http://rusefi.com/images/Frankenso/frankenso_set_for_miata_1994_back.jpg)
 
 ## Plug 1
 
