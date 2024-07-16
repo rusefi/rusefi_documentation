@@ -1,5 +1,7 @@
 # 1994 Mazda Miata
 
+interactive pinout https://rusefi.com/docs/pinouts/hellen/hellen64_miataNA6_94/
+
 ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few exceptions:
 
 ## Plug 1
