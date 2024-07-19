@@ -99,3 +99,7 @@ A: See notes on the schematics, it has part numbers to add and reference numbers
 Q: How do I add bluetooth?
 
 A: See https://github.com/rusefi/rusefi/wiki/Bluetooth#jdy
+
+Q: Where do I buy igniters?
+
+A: See https://www.findchips.com/search/ISL9V3040D for stock at distributors
