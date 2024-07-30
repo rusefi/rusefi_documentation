@@ -77,3 +77,7 @@ There is also a `rusefi-dir` option you can use if you want to put your rusefi s
 ### Q: I get "exti index already used" error?
 
 A: stm32 has a limitation: you can only have 16 digital inputs. Also each input has to be on a pin with unique numeric part: for example, you can have digital input on pins PA1 PB2 PC3 but you cannot have PA1 and PB1 since those are both "something-1" pins.
+
+### Q: How do I have nice pin names?
+
+A: see https://github.com/rusefi/fw-custom-example/blob/main/connectors/readme.md
