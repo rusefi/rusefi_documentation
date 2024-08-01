@@ -803,6 +803,10 @@ A0275457932
 
 2174100-1 2174100-2 Honda Acura 80+50
 
+harness https://www.te.com/en/product-2174106-1.html
+
+harness https://www.te.com/en/product-2174117-1.html
+
 ## 132 pin
 
 [TE 1717139-1](https://www.te.com/usa-en/product-1717139-1.html)
