@@ -1,4 +1,4 @@
-# AlphaX gdi4chan
+# AlphaX 4K‐gdi
 
 Standalone ECU for 4 cylinder GDI engines
 
