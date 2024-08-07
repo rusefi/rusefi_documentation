@@ -313,6 +313,9 @@ Use this cam trigger with special 3+0 symmetrical crank trigger.
 QR25 crank
 ![x](Images/triggers/trigger_TT_NISSAN_QR25.png)
 
+HR crank
+![x](Images/triggers/trigger_TT_NISSAN_HR.png)
+
 QR/MR cam
 ![x](Images/triggers/trigger_TT_NISSAN_MR18_CAM_VVT.png)
 
