@@ -40,7 +40,7 @@ TunerStudio project is the tuning documentation. Please glance over all the avai
 
 Any troubleshooting begins with logs. One of rusEFI powers is the amount of data points available for logging!
 
-Shaky videos do not do it. Even high-resolution screen shots do not do it: *it has to be a proper log file*.
+Shaky videos do not do it. Even high-resolution screen shots do not do it: *it has to be a proper log .mlq file*.
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/65ac7e95-6235-4cc6-9ddd-fed63b8a8521)
 
