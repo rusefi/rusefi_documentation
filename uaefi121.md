@@ -7,3 +7,5 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 * metal enclosure
 
 https://rusefi.com/docs/pinouts/hellen/uaefi121/
+
+[Schematics rev a](Hardware/Hellen/uaefi121-a-schematic.pdf)
