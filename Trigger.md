@@ -12,6 +12,10 @@ Need help with https://github.com/rusefi/rusefi_documentation/issues/499
 
 ## Troubleshooting trigger input
 
+### Troubleshooting with TS logs
+
+![image](https://github.com/user-attachments/assets/e67d3aec-ab9b-422f-a574-d611d66a7410)
+
 ### Troubleshooting hardware with rusEFI console
 
 Use `triggerinfo` command (go to Messages tab, your can either type or use a button from the panel on the right) to confirm input pin(s). Also use `triggerinfo` command to see how many trigger events were registered by the firmware ("trigger#1 event counters up=x/down=y").
