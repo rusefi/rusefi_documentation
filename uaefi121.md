@@ -6,10 +6,9 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 * 121 pin header
 * metal enclosure
 
-https://rusefi.com/docs/pinouts/hellen/uaefi121/
+[Interactve Pinout](https://rusefi.com/docs/pinouts/hellen/uaefi121/)
 
 [Schematics rev a](Hardware/Hellen/uaefi121-a-schematic.pdf)
-
 
 ## Changelog
 
