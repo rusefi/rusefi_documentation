@@ -2,11 +2,9 @@
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-8chan/)
 
-[Schematics rev a](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-a-schematic.pdf)
 [Schematics rev c](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-c-schematic.pdf)
 
 [iBom rev C](https://rusefi.com/docs/ibom/alphax_8ch-c-ibom.html)
-[iBom rev A](https://rusefi.com/docs/ibom/alphax_8ch-a-ibom.html)
 
 * 8 HighZ injector channels
 * 8 logic level coil control
@@ -29,3 +27,13 @@
 |B Wire   | [3-1437290-7](https://www.te.com/usa-en/product-3-1437290-7.html)  |
 |C Wire   |[4-1437290-1](https://www.te.com/usa-en/product-4-1437290-1.html)   |
 |D Wire   | [3-1437290-8](https://www.te.com/usa-en/product-3-1437290-8.html)  |
+
+## Changelog
+
+### rev C
+
+general availability!
+
+### rev A
+
+Early prototype [Schematics rev a](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-a-schematic.pdf) [iBom rev A](https://rusefi.com/docs/ibom/alphax_8ch-a-ibom.html)
