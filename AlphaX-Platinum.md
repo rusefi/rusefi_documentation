@@ -1,4 +1,4 @@
-# AlphaX 8Chan
+# AlphaX Platinum/8Chan
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-8chan/)
 
