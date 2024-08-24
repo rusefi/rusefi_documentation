@@ -6,7 +6,7 @@ Many rusEFI units have on-board microSD card slot.
 
 * Windows 10 or Windows 11 is required, Windows 7 is not supported for Mass Storage Device.
 * Ignition OFF or ECU not even hooked to vehicle
-* USB Drive expected:
+* USB Drive expected. Could be another letter like D:\ or F:\ but it has to be in the list of drives.
 
 ![image](https://github.com/user-attachments/assets/3f164970-b014-437c-a4cd-25ab2aed31ad)
 
