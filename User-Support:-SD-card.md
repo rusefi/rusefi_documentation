@@ -1,6 +1,6 @@
 # SD card
 
-Many rusEFI units have on-board microSD card slot.
+Many rusEFI units have on-board microSD card slot. Most boards access SD cards via SPI, technically some tiny percentage of SD cards do not support any more but that's really a tiny number see https://github.com/rusefi/rusefi/issues/1417
 
 ## Validation without vehicle power
 
