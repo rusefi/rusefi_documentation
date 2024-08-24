@@ -4,7 +4,7 @@ Many rusEFI units have on-board microSD card slot.
 
 ## Validation without vehicle power
 
-* Windows 10 or Windows 11 is required, Windows 7 is not supported for Mass Storage Device.
+* Windows 10 or Windows 11 is required, Windows 8 are older not supported for rusEFI Mass Storage Device.
 * Ignition OFF or ECU not even hooked to vehicle.
 * Give it 15 seconds while connected only to PC via USB.
 * USB Drive expected. Could be another letter like D:\ or F:\ but it has to be in the list of drives.
