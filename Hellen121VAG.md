@@ -14,6 +14,8 @@ Hellen Plug&Play for ME7 VAG vehicles
 [Schematics rev b](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-b/board/hellen121vag-b-schematic.pdf)
 [iBom rev b](https://rusefi.com/docs/ibom/hellen121vag-b-ibom.html)
 
+[Schematics rev c](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-c/board/hellen121vag-c-schematic.pdf)
+
 [KiCAD source files](https://github.com/rusefi/hellen121vag)
 
 Status: early phases of testing!
