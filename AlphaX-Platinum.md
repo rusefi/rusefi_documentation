@@ -1,6 +1,10 @@
-# AlphaX Platinum/8Chan
+# AlphaX Platinum
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-8chan/)
+[Gets yours at rusEFI store](https://www.shop.rusefi.com/shop/p/alphax-platinum)
+
+Previously known as 8chan
+
+[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
 
 [Schematics rev c](https://github.com/rusefi/alphax-8chan/raw/main/boards/alphax_8ch-a/board/alphax_8ch-c-schematic.pdf)
 
