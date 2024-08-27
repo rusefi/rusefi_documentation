@@ -1,5 +1,7 @@
 # AlphaX Platinum
 
+[Gets yours at rusEFI store](https://www.shop.rusefi.com/shop/p/alphax-platinum)
+
 Previously known as 8chan
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
