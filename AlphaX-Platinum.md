@@ -6,14 +6,13 @@
 
 [iBom rev C](https://rusefi.com/docs/ibom/alphax_8ch-c-ibom.html)
 
-* 8 HighZ injector channels
-* 8 logic level coil control
+* 12 HighZ injector channels
+* 12 logic level coil control
 * 4 H-bridges
-* 2 VR inputs
+* 3 VR inputs
 * 5 Hall inputs
 * Dual channel knock input
 * Dual on-board WBO controller
-* Bluetooth
 
 ![WhatsApp Image 2024-01-11 at 12 50 21_711b3236](https://github.com/rusefi/rusefi/assets/48498823/5ddf9953-7b37-43dc-b920-24e7b9515a97)
 
