@@ -1,6 +1,6 @@
-# AlphaX Platinum
+# rusEFI Huge
 
-[Gets yours at rusEFI store](https://www.shop.rusefi.com/shop/p/alphax-platinum)
+[Gets yours at rusEFI store](https://www.shop.rusefi.com/shop/p/rusEFI-Huge)
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
 
