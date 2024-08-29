@@ -19,7 +19,7 @@
 
 ![WhatsApp Image 2024-01-11 at 12 50 21_711b3236](https://github.com/rusefi/rusefi/assets/48498823/5ddf9953-7b37-43dc-b920-24e7b9515a97)
 
-``bluetooth_jdy 115200 alpha8 1234``
+``bluetooth_jdy 115200 huge 1234``
 
 ## Parts
 
