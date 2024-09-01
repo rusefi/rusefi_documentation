@@ -6,6 +6,8 @@
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
 
+[Firmware Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan.zip)
+
 [Schematics rev c](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax_8ch-c-schematic.pdf)
 
 [iBom rev C](https://rusefi.com/docs/ibom/alphax_8ch-c-ibom.html)
