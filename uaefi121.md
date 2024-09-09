@@ -1,5 +1,7 @@
 # uaEFI 121
 
+[rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi121)
+
 ## Community Support
 
 🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
