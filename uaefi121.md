@@ -1,5 +1,9 @@
 # uaEFI 121
 
+## Community Support
+
+🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
+
 Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 
 * sequential 8 cylinder injection
@@ -14,7 +18,7 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 
 [Interactve Pinout](https://rusefi.com/docs/pinouts/hellen/uaefi121/)
 
-[Schematics rev a](Hardware/Hellen/uaefi121-a-schematic.pdf)
+[Schematics rev b](Hardware/Hellen/uaefi121-b-schematic.pdf)
 
 ## Changelog
 
