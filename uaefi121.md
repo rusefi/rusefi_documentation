@@ -11,12 +11,13 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/uaefi121/)
 
 * sequential 8 cylinder injection
-* individual 6 cylinder ignition / batch fire 8 cylinder ignition, expandable with on-board IGBT igniters to drive legacy coils
+* individual 6 cylinder ignition / batch fire 8 cylinder ignition
+* smart coils by default, expandable with on-board IGBT igniters to drive legacy coils
 * six additional low side outputs
-* dual on-board WBO contoller
+* dual on-board WBO controller
 * dual Drive By Wire electronic throttle body
 * one 2A high side output
-* two VRs: one MAX9924 one vr-discrete
+* two VRs: one MAX9924 one VR-discrete
 * knock sensor input
 * 121 pin header (40P+81P) (81 female plug 1355171-1/368389-1/368382-1/1J0906385C) (40 female plug 0-1355172-1/038906379B)
 * metal enclosure
