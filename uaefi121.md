@@ -24,6 +24,7 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 * Optional on-board EGT
 * Optional on-board MAP sensor
 * Comes WITHOUT waterproofing considerations - please add your own potting!
+* looking for proper 8 cylinder individual? that's https://www.shop.rusefi.com/shop/p/rusefi-huge
 
 ![WhatsApp Image 2024-09-09 at 10 57 21_3ee4ad45](https://github.com/user-attachments/assets/6e7067ff-88e9-4c5a-b931-36282d51f37c)
 
