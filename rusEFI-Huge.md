@@ -17,6 +17,7 @@
 * 4 H-bridges
 * 3 VR inputs
 * 5 Hall inputs
+* 13 analog inputs and two temperature inputs
 * Dual channel knock input
 * Dual CANbus
 * Dual on-board WBO controller
