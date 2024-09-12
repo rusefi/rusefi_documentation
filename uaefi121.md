@@ -36,7 +36,7 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 
 ### Q: Is there going to be gerbers and bom list etc available for uaefi121?
 
-A: there are no plans to make this unit open source hardware at the moment
+A: there are no plans to make this unit open source hardware at the moment. Same for mega-uaefi hellen module.
 
 ## Changelog
 
