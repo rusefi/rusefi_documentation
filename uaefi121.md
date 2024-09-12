@@ -32,6 +32,12 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 
 [Schematics rev b](Hardware/Hellen/uaefi121-b-schematic.pdf)
 
+## FAQ
+
+### Q: Is there going to be gerbers and bom list etc available for uaefi121?
+
+A: there are no plans to make this unit open source hardware at the moment
+
 ## Changelog
 
 ### rev B
