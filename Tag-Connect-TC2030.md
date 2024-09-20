@@ -12,13 +12,16 @@ Way more ghetto option would be based on TC2030-MCP-NL off eBay with phone jack 
 
 ![x](Hardware/microRusEFI/TC2030_SWD.jpg)
 
+![image](https://github.com/user-attachments/assets/963f1e26-eff2-4b30-b86a-5af6ac6034ae)
+
 ![x](Hardware/tc2030.png)
+The image above is a bit confusing https://github.com/rusefi/hw_microRusEfi/issues/234
 
-Three more important wires are:
-
-* GND (black on TC2030)
-* 13-swdio (yellow on TC2030)
-* 14-swclk (red on TC2030)
+* Three more important wires are: GND (black on TC2030)
+* Three more important wires are: 13-swdio (yellow on TC2030)
+* Three more important wires are: 14-swclk (red on TC2030)
+* nice to have +3.3v pin 1(blue on TC2030)
+* nice to have RESET pin (green on TC2030)
 
 Offtopic:
 STLINK-V3MINI also works with FTSH-105-01-F-DV-007-K on Proteus
