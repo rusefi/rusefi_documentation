@@ -73,4 +73,3 @@ A: [FAQ Why No Self Assembly](FAQ-Why-No-Self-Assembly)
 ## Q: Why battery holder?
 
 A: So that log file names could be current time stamp. That functionality is the only reason for battery holder, that functionality is broken for a couple of years now.
-
