@@ -3,7 +3,9 @@
 Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 microcontrollers.
 We also have Kinetis and Cypress prototypes.
 
-As of May 2021 microRusEFI and Proteus are sold as ECU development boards. See [Mission-Statement](Mission-Statement)
+As of 2024 we are selling five universal ECUs. See [Mission-Statement](Mission-Statement)
+
+[2024 universal hardware matrix](https://docs.google.com/spreadsheets/d/1HJYltK4RPDa0RIg4GWNU_2hYVAgdOU0GPiVdebtVTzo)
 
 | Board | Features | Connectors/Misc. Info | Released in | Maximum recommended engine |
 | ----- | -------- | --------------------- | ----------- | ---------------------------|
