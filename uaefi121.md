@@ -2,6 +2,10 @@
 
 [rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi121)
 
+## Software
+
+[uaEFI Stable Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip) [uaEFI Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi121.zip)
+
 ## Community Support
 
 🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
