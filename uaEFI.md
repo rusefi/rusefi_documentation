@@ -24,7 +24,7 @@
 
 [uaEFI schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
 
-[uaEFI interactive BOM](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
+[uaEFI interactive BOM rev D](https://rusefi.com/docs/ibom/uaefi-d-ibom.html) [uaEFI interactive BOM rev A](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
 
 [WBO documentation](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
 
