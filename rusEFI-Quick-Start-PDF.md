@@ -68,6 +68,6 @@ rusEFI firmware is still being actively improved! We recommend that you update y
 
 https://rusefi.com/s/lua
 
-## I has a question...
+## I has a question
 
 See https://github.com/rusefi/rusefi/wiki/Support for this!
