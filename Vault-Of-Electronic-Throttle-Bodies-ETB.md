@@ -29,6 +29,8 @@ Bosch 0280750009 1.8T and hopefully many others
 
 ![x](OEM-Docs/VAG/Bosch_0280750009_pinout.jpg)
 
+![image](https://github.com/user-attachments/assets/d9bceab1-c734-4082-ad72-caf4dbcc6cd5)
+
 ## Mercedes
 
 Bosch 0280750074 68mm
