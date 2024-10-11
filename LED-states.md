@@ -19,3 +19,5 @@ During normal operation blue LED is supposed to always blink. Blue LED blinking 
 # Fatal error
 
 Solid red means critical error, power cycle is required
+
+See also [Troubleshooting](Troubleshooting)
