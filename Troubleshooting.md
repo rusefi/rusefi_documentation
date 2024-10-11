@@ -1,5 +1,7 @@
 # Troubleshooting
 
+[LED-states](LED-states)
+
 ## Q: I have a problem
 
 A: look at the PCB, on all rusEFI boards we expect blue LED to always blink
