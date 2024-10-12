@@ -12,6 +12,8 @@ Need help with https://github.com/rusefi/rusefi_documentation/issues/499
 
 ## Troubleshooting trigger input
 
+We use engine sniffer and composite logger only for basic validation at the moment. Please use regular TS logs with higher data rate if adjustments to trigger gaps are needed.
+
 ### Troubleshooting with TS logs
 
 ![image](https://github.com/user-attachments/assets/e67d3aec-ab9b-422f-a574-d611d66a7410)
