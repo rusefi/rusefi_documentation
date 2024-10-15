@@ -121,6 +121,10 @@ Returns true if ECU is in state of critical/fatal error.
 
 ### Engine Control
 
+### `startCrankingEngine()`
+
+Start cranking as if physical start button was tapped.
+
 #### `stopEngine()`
 
 #### `isEngineStopRequested()`
