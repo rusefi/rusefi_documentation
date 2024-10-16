@@ -2,9 +2,11 @@
 
 ## MED9
 
-https://github.com/rusefi/rusefi/wiki/VolkswagenPassatB6
+https://rusefi.com/docs/pinouts/hellen/Passat-2.0-MED9.1/
 
 https://rusefi.com/docs/pinouts/MED9.1%20Adapter/
+
+https://github.com/rusefi/rusefi/wiki/VolkswagenPassatB6
 
 ## ME17
 
