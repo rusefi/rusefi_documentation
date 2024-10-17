@@ -21,6 +21,8 @@ Hellen? сложнее, надо писать в [чатик](https://chat.whats
 
 ![pigtail](Hardware/microRusEFI/store/mre_assembled_pigtail.jpg)
 
+## оплата
+
 Оплата на карту 4627291471315556
 
 После оплаты пожалуйста пишите в Whatsapp или Телеграм +1-773-414-1279
