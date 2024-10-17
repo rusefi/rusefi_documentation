@@ -22,6 +22,8 @@ https://rusefi.com/docs/pinouts/MED17/
 
 ## Simos 18
 
+What year is a MK 7.5 GTI? 2017
+
 https://rusefi.com/docs/pinouts/vag-simos-18/
 
 https://rusefi.com/docs/pinouts/simon18-adapter/
