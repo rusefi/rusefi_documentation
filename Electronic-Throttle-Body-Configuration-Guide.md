@@ -77,7 +77,6 @@ The pedal map allows you to configure how the electronic throttle's position res
 
 This table is really one to tune to taste, since it has no bearing on actual engine performance, only on the relationship between driver input and resulting throttle position.
 
-
 ## Nope, nothing works
 
 ### Question: does blade even move?
