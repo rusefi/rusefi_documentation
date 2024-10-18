@@ -6,6 +6,10 @@ E92
 
 [OEM-Docs/GM/2018-Tahoe-5.3-DI.pdf](OEM-Docs/GM/2018-Tahoe-5.3-DI.pdf)
 
+5.3 L83
+
+https://help.summitracing.com/knowledgebase/article/HE-04910/en-us
+
 5.3 L84
 
 2019+
