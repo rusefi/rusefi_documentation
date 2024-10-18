@@ -44,6 +44,10 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 
 A: there are no plans to make this unit open source hardware at the moment. Same for mega-uaefi hellen module.
 
+### Q: I have questions!
+
+A: part of the context is fact that uaefi121 is a sibling of fully open source https://github.com/rusefi/uaefi/ so much of https://github.com/rusefi/rusefi/wiki/uaEFI applies
+
 ## Changelog
 
 ### rev B
