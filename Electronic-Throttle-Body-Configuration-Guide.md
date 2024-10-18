@@ -77,4 +77,13 @@ The pedal map allows you to configure how the electronic throttle's position res
 
 This table is really one to tune to taste, since it has no bearing on actual engine performance, only on the relationship between driver input and resulting throttle position.
 
-[//]: # "Matt Kennedy"
+
+## Nope, nothing works
+
+### Question: does blade even move?
+
+If blade does not ever move time to grab a multimeter and confirm motor resistance, should be around 10 ohm
+
+### Question: does TPS sensor function?
+
+Move blade manually, do you see both raw TPS change reasonably?
