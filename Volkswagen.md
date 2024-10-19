@@ -14,6 +14,8 @@ https://rusefi.com/docs/pinouts/hellen/2011-jetta-2.5/
 
 https://rusefi.com/docs/pinouts/ME17-adapter/
 
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2011-jetta-2.5.pdf
+
 ## MED17
 
 2016-2017 Audi Q5 2.0
