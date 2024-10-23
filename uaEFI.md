@@ -103,3 +103,9 @@ A: See https://github.com/rusefi/rusefi/wiki/Bluetooth#jdy
 Q: Where do I buy igniters?
 
 A: See https://www.findchips.com/search/ISL9V3040D for stock at distributors
+
+Q: Stepper?
+
+A: 
+![image](https://github.com/user-attachments/assets/c2d71f49-11ca-4bbf-a495-85875e6f8203)
+
