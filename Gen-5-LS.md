@@ -6,7 +6,9 @@ E39
 
 https://rusefi.com/docs/pinouts/GM-E92/
 
-[OEM-Docs/GM/2018-Tahoe-5.3-DI.pdf](OEM-Docs/GM/2018-Tahoe-5.3-DI.pdf)
+[2015-Chevy-Silverado-5.3.pdf](OEM-Docs/GM/2015-Chevy-Silverado-5.3.pdf)
+
+[2018-Tahoe-5.3-DI.pdf](OEM-Docs/GM/2018-Tahoe-5.3-DI.pdf)
 
 5.3 L83
 
