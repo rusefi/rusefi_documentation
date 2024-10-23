@@ -1,12 +1,15 @@
 # GM
 
+https://rusefi.com/docs/pinouts/GM-E39A/
+
+https://en.wikipedia.org/wiki/GM_Ecotec_engine#Generation_III
+
+https://rusefi.com/docs/pinouts/GM-E80/
+
 https://github.com/rusefi/rusefi/wiki/GM-E38
 
 https://github.com/rusefi/rusefi/wiki/GM-E67
 
-https://rusefi.com/docs/pinouts/GM-E39A/
-
-https://rusefi.com/docs/pinouts/GM-E80/
 
 https://github.com/rusefi/rusefi/wiki/Gen-3-LS
 
