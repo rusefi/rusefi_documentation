@@ -8,7 +8,9 @@ Well, really the first step is to fork https://github.com/rusefi/rusefi and then
 
 ```shell
 git clone --recurse-submodules https://github.com/rusefi/rusefi
+misc/actions/ubuntu-install-tools.sh
 cd firmware
+./setup_linux_environment.sh
 make
 ```
 
