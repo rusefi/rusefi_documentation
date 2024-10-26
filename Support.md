@@ -102,3 +102,7 @@ Tell us about your engine setup. Something like the below.
 |6|no fuel control|no spark control|ethanol|other|
 |8|wasted spark|other|other|other|
 |12|other|other|other|other|
+
+## Q: What is the process for warranty/returns
+
+A: Once you have exhausted all public community support options including Discord we usually accept returns with a refund.
