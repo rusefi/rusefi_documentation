@@ -12,6 +12,10 @@ Newer inline-4
 
 https://rusefi.com/docs/pinouts/GM-E80/
 
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2017-Cadillac-ATS-Sedan-RWD-20T.pdf
+
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2020-Chevrolet-Camaro-2.0T.pdf
+
 https://rusefi.com/docs/pinouts/GM-E92/
 
 https://en.wikipedia.org/wiki/GM_Ecotec_engine#Generation_III
