@@ -266,6 +266,10 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ## Mitsubishi
 
+### 3 tooth crank
+
+![x](Images/triggers/trigger_TT_3_TOOTH_CRANK.png)
+
 ### 4G93
 
 ![x](Images/triggers/trigger_TT_MITSUBISHI.png)
