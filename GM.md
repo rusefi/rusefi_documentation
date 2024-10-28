@@ -1,6 +1,14 @@
 # GM
 
+## E39A
+
+Older inline-4
+
 https://rusefi.com/docs/pinouts/GM-E39A/
+
+## E80
+
+Newer inline-4
 
 https://rusefi.com/docs/pinouts/GM-E80/
 
