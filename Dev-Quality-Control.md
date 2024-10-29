@@ -45,3 +45,7 @@ https://elinux.org/Accessing_Devices_without_Sudo
 ``echo 'ATTRS{idProduct}=="374b", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"' > /etc/udev/rules.d/10-my-openocd.rules``
 
 ``sudo udevadm trigger``
+
+## Next Steps
+
+Migrate to https://github.com/rusefi/rusefi-ci/ ?
