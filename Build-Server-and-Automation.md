@@ -18,6 +18,10 @@ Github Actions is currently in charge of:
 * Synchronizing between rusefi/rusefi/wiki to rusefi_documentation repo
   * TL,DR see https://github.com/rusefi/rusefi/tree/master/.github/workflows
 
+## Self-hosted runners
+
+https://github.com/rusefi/rusefi/wiki/Dev-Quality-Control#hardware-continuous-integration
+
 See also [Software-Development-Life-Cycle](Process-Software-Development-Life-Cycle-SDLC)
 
 [Build-Server-and-Automation-Legacy-Jenkins-notes](Build-Server-and-Automation-Legacy-Jenkins-notes)
