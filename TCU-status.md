@@ -8,4 +8,8 @@ We have tc_4l6x.cpp file but zero real life testing on any 4Lxx transmission. Ru
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/0d065f3c-4d31-4d5d-bc41-1baff06a7455)
 
-Then we have some complex transmissions with external TCU like Honda, or clutch-to-clutch like Aisin 09G/09M, and modern transmissions with TCU located inside the transmission assembly. For those we are focusing on CAN integration only, not looking to re-invent the TCU itself.
+## Modern Stuff
+
+Then we have some complex transmissions with external TCU like Honda, or clutch-to-clutch like Aisin 09G/09M, and modern transmissions with TCU located inside the transmission assembly.
+
+For those we are focusing on CAN integration only, not looking to re-invent the TCU itself. Even if someone implements direct solenoid/actuator control, we doubt that anyone within the enthusiast realm would be able to meaningfully tune such a solution anyway. CANbus integration with the OEM TCU is the only way for modern transmissions!
