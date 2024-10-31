@@ -38,7 +38,7 @@ sudo apt install gcc-12-arm-linux-gnueabi openjdk-21-jdk-headless
 sudo systemctl enable ssh
 ```
 
-https://github.com/rusefi/rusefi/settings/actions/runners use 
+https://github.com/rusefi/rusefi/settings/actions/runners use
 ``hw-ci-f4-discovery``
 or
 ``hw-ci-nucleo-f7``
@@ -48,8 +48,8 @@ additional label while adding runner.
 
 https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/configuring-the-self-hosted-runner-application-as-a-service
 
-
 https://elinux.org/Accessing_Devices_without_Sudo
+
 ```shell
 useradd -G plugdev rusefi-ci
 echo 'ATTRS{idProduct}=="374b", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"' > /etc/udev/rules.d/10-my-openocd.rules
