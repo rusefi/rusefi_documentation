@@ -34,7 +34,7 @@ GitHub Actions are Ubuntu, WSL is Ubuntu, Ubuntu is recommended
 
 ```
 sudo apt install net-tools openssh-server
-
+sudo systemctl enable ssh
 ```
 
 ### On setting new MXLinux runners
