@@ -28,6 +28,15 @@ The following jumper wires are used to test some subsystems as realistically as 
 
 See https://github.com/rusefi/rusefi/blob/c309174fdbb6b082113ac320294066c37922f2ce/java_console/autotest/src/main/java/com/rusefi/proteus/ProteusAnalogTest.java#L22
 
+### HOWTO self-hosted runner build from scratch
+
+GitHub Actions are Ubuntu, WSL is Ubuntu, Ubuntu is recommended
+
+```
+sudo apt install net-tools openssh-server
+sudo systemctl enable ssh
+```
+
 ### On setting new MXLinux runners
 
 https://github.com/rusefi/rusefi/settings/actions/runners use ``hw-ci-f4-discovery`` or ``hw-ci-proteus-f7`` group name while adding runner.
