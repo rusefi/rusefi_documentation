@@ -16,9 +16,11 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2017-Cadi
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2020-Chevrolet-Camaro-2.0T.pdf
 
-## E84
+## E82
 
-https://rusefi.com/docs/pinouts/GM-E84/
+v6
+
+https://rusefi.com/docs/pinouts/GM-E82/
 
 ## E92
 
