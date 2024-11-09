@@ -16,6 +16,12 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2017-Cadi
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2020-Chevrolet-Camaro-2.0T.pdf
 
+## E84
+
+https://rusefi.com/docs/pinouts/GM-E84/
+
+## E92
+
 https://rusefi.com/docs/pinouts/GM-E92/
 
 https://en.wikipedia.org/wiki/GM_Ecotec_engine#Generation_III
