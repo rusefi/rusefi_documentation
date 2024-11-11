@@ -28,6 +28,8 @@ https://rusefi.com/docs/pinouts/GM-E82/
 
 ## E92
 
+v8
+
 https://rusefi.com/docs/pinouts/GM-E92/
 
 https://en.wikipedia.org/wiki/GM_Ecotec_engine#Generation_III
