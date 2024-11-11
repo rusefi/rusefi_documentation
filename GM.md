@@ -26,7 +26,7 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2020-Chev
 
 ## E82
 
-v6
+Newer v6
 
 https://rusefi.com/docs/pinouts/GM-E82/
 
