@@ -2,11 +2,15 @@
 
 ## E39A
 
-Older inline-4
+Older inline-4 & older v6
 
 https://rusefi.com/docs/pinouts/GM-E39A/
 
 https://rusefi.com/docs/pinouts/E39A-adapter/
+
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2014-Chevrolet-Malibu-2.5.pdf
+
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2014-Chevrolet-Camaro-v6.pdf
 
 ## E80
 
