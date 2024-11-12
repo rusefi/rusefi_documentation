@@ -127,6 +127,8 @@ https://youtube.com/shorts/z1Yweyj2Nuc
 
 ## GDI
 
+https://www.youtube.com/watch?v=e3pawcXSY6g
+
 https://youtu.be/5GshFiicFpU
 
 ## 2 stroke
