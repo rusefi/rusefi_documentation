@@ -1,5 +1,8 @@
 # AlphaX Silver
 
+* 4 injector outputs
+* 4 additional outputs with fly-back diode (could drive up to 8 injectors total with diodes removed)
+
 [AlphaX](https://www.alphaxpr.com/)
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-silver/)
