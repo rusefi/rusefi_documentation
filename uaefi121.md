@@ -48,6 +48,10 @@ A: there are no plans to make this unit open source hardware at the moment. Same
 
 A: part of the context is fact that uaefi121 is a sibling of fully open source https://github.com/rusefi/uaefi/ so much of https://github.com/rusefi/rusefi/wiki/uaEFI applies
 
+### Q: which 121 style
+
+A: shipped with 1241434-1 header see also https://github.com/rusefi/rusefi/wiki/OEM-121-pin-connectors
+
 ## Changelog
 
 ### rev B
