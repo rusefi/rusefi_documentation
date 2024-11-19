@@ -20,9 +20,9 @@ Uses:
 ## Capturing a Trace
 
 Use "Grab PTrace" button in rusEFI console, this would request a 500ms performance trace from ECU and write it into a .json file.
-Use the W/A/S/D keys to move left, right, or zoom in and out.
 
 Open Google Chrome browser, open chrome://tracing/, load generated .json file.
+Use the W/A/S/D keys to move left, right, or zoom in and out.
 
 ## Interpreting a Trace
 
