@@ -55,6 +55,7 @@ https://elinux.org/Accessing_Devices_without_Sudo
 ```shell
 useradd -G plugdev rusefi-ci
 echo 'ATTRS{idProduct}=="374b", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"' > /etc/udev/rules.d/10-my-openocd.rules
+echo 'ATTRS{idProduct}=="374e", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"' > /etc/udev/rules.d/11-my-openocd.rules
 echo 'ATTRS{idProduct}=="5740", ATTRS{idVendor}=="0483", MODE="666", GROUP="plugdev"' > /etc/udev/rules.d/20-my-ecu-serial.rules
 udevadm trigger
 ```
