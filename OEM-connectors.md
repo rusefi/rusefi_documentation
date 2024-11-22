@@ -863,6 +863,8 @@ bmw e38 e46 e65 e66
 
 ## 135 pin
 
+34+35+35+31
+
 Sibling of 167 pin
 
 [TE 1-1376430-0](http://www.te.com/catalog/pn/en/1-1376430-0)
