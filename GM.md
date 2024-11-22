@@ -2,7 +2,7 @@
 
 ## E39A
 
-[https://static.nhtsa.gov/odi/tsbs/2022/MC-10210348-9999.pdf](List of Global A platform vehicles)
+[List of Global A platform vehicles](https://static.nhtsa.gov/odi/tsbs/2022/MC-10210348-9999.pdf)
 
 Older inline-4 & older v6
 
