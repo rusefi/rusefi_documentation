@@ -15,7 +15,7 @@ Please Read [How To Ask Technical Questions](https://opensource.com/life/16/10/h
 
 ## Q: What is Discord?
 
-A: Discord is a group chat available via browser and phone app. After initial problem statement is defined on [https://rusefi.com/forum/](https://rusefi.com/forum/) Discord often comes handy for follow-up discussion. Slack registration & login see [Discord](Discord)
+A: Discord is a group chat available via browser and phone app. After initial problem statement is defined on [https://rusefi.com/forum/](https://rusefi.com/forum/) Discord chat often comes handy for follow-up discussion. Discord registration & login see [Discord](Discord)
 
 ## Q: Do you guys prefer short text descriptions or long text descriptions?
 
