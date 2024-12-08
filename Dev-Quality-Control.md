@@ -36,7 +36,7 @@ GitHub Actions are Ubuntu, WSL is Ubuntu, Ubuntu is recommended
 
 ```shell
 sudo apt install net-tools openssh-server curl git make gcc-multilib g++-multilib g++-mingw-w64 gcc-mingw-w64 sshpass mtools zip dosfstools openocd
-sudo apt install gcc-12-arm-linux-gnueabi openjdk-21-jdk-headless
+sudo apt install gcc-12-arm-linux-gnueabi openjdk-21-jdk-headless stlink-tools
 sudo systemctl enable ssh
 ```
 
