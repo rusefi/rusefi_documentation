@@ -1,6 +1,6 @@
 # How to build the rusEFI firmware from the source files  
 
-## First of all, maybe do not
+## First of all, maybe do not compile locally
 
 As of 2024 we are pretty addicted to GitHub Actions. Just fork repo, enable GitHub actions and push, GH will leave you all the binaries already compiled in the actions artifacts.
 
