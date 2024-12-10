@@ -1,5 +1,9 @@
 # How to build the rusEFI firmware from the source files  
 
+## First of all, maybe do not
+
+As of 2024 we are pretty addicted to GitHub Actions. Just fork repo, enable GitHub actions and push, GH will leave you all the binaries already compiled in the actions artifacts.
+
 ## Step-by-step guide to creating the build environment in windows 10+ using Windows Shell for Linux
 
 The best way to build the rusEFI firmware is using a set of tools that run best under linux,
