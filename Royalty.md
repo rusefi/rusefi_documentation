@@ -1,6 +1,6 @@
 # Royalty
 
-This is all free as long as you follow https://github.com/rusefi/rusefi/blob/master/license.txt meaning that you can fabricate hardware and sell for profit without paying royalties as long as you follow https://github.com/rusefi/rusefi/blob/master/license.txt
+There is no royalty obligations as you follow https://github.com/rusefi/rusefi/blob/master/license.txt meaning that you can fabricate hardware and sell for profit without paying royalties as long as you follow https://github.com/rusefi/rusefi/blob/master/license.txt
 
 ## Donations
 
