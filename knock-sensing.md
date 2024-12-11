@@ -3,11 +3,12 @@
 TL,DR: We have native knock processing!
 
 Reference tune https://rusefi.com/online/view.php?msq=1626 reference tune https://rusefi.com/online/view.php?log=1359
+
 ## Software knock sensing
 
 ![x](https://rusefi.com/forum/download/file.php?id=6900)
 
-## Spectogram
+## Spectrogram
 
 Knock spectrogram is displayed by [TS-Plugin](TS-Plugin)
 
