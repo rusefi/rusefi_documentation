@@ -25,3 +25,5 @@ The image above is a bit confusing https://github.com/rusefi/hw_microRusEfi/issu
 
 Offtopic:
 STLINK-V3MINI also works with FTSH-105-01-F-DV-007-K on Proteus
+
+A DIY option https://www.thingiverse.com/thing:5819952
