@@ -4,7 +4,7 @@ TL,DR: [Hellen-Hyundai-PB](Hellen-Hyundai-PB) and [rusefi GDI pinout](GDI4)
 
 ## Q: What are key differences between port and GDI?
 
-## A: high voltage control of injectors, high pressure pump control logic and target fuel pressure control logic
+A: high voltage control of injectors, high pressure pump control logic and target fuel pressure control logic. GDI engines run on variable fuel pressure. Meaning ECU has to request specific fuel pressure and ECU has to control HPFP relief valve in sync with corresponding camshaft to actually build desired pressure.
 
 ## GDI Status
 
