@@ -4,7 +4,7 @@
 
 Q: where can I buy a Proteus?
 
-A: [As of Feb 2022 please DM Andrey on the forum, Proteus is in stock just not listed on eBay!](http://shop.rusefi.com/)
+A: http://shop.rusefi.com/
 
 With fabrication files for Proteus you can get a 80% assembled unit from JLCPCB.
 
@@ -45,7 +45,7 @@ black oxide, #4 3/8" long screws recommended
 
 Most boards will need a debug header installed if you want to attach a debugger (not used for normal users).  The recommended connector is Samtec PN `FTSH-105-01-F-DV-007-K`.  When soldering the connector, the keying notch goes towards the center of the board, nearer to the 23p center connector.
 
-Any debugger compatible with the standard 10-pin Cortex Debug Header should work, though the [STLINK-V3 Mini](https://www.st.com/en/development-tools/stlink-v3mini.html) is recommmended.  It's available for $10-12 US from normal distributors like Mouser/Digikey.  A ribbon cable is included so the connector and programmer are all that's required to debug on Proteus.
+Any debugger compatible with the standard 10-pin Cortex Debug Header should work, though the [STLINK-V3 Mini](https://www.st.com/en/development-tools/stlink-v3mini.html) is recommended.  It's available for $10-12 US from normal distributors like Mouser/Digikey.  A ribbon cable is included so the connector and programmer are all that's required to debug on Proteus.
 
 ## Wiring
 
