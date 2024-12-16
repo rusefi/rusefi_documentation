@@ -46,7 +46,7 @@
 * proto area
 * 100x100mm 4 layer PCB
 * expandable with on-board IGBT igniters
-* expandable with on-board MAP sensor
+* expandable with on-board MAP sensor (MPX4250AP or smaller)
 * expandable with on-board Bluetooth (JDY-33 would need to be soldered)
 * expandable with on-board EGT input (MAX31855 and related passives would need to be soldered)
 * on-board real time cr1220 clock battery (software broken https://github.com/rusefi/rusefi/issues/4556)
