@@ -35,6 +35,10 @@ ECU headers here. For misc smaller connectors see [OEM-harness-connectors](OEM-h
 
 [154 pin](#154-pin)
 
+[170 pin](#170-pin)
+
+[196 pin](#196-pin)
+
 Do you know part numbers for any other OEM connectors? Please let us know!
 
 Here are some OEM connector part numbers. Bosch & Siemens, German and Japanese, Mazda Toyota BMW Volkswagen:
