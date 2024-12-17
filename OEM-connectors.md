@@ -987,7 +987,7 @@ Similar to above but with a gap
 
 [1318813-7 167 with gap](https://www.te.com/usa-en/product-1318813-7.html)
 
-## 170
+## 170 pin
 
 TE 1717313-8
 
