@@ -12,6 +12,10 @@ For current coverage report see [the coverage page](https://rusefi.com/docs/unit
 
 ## Hardware Continuous Integration
 
+### F7 Nucleo
+
+![nucleo](https://github.com/user-attachments/assets/b6d50866-1fca-4a21-9b64-f1b04cd9ca89)
+
 ### STM32F407G-DISC1
 
 Since 2015 there is always a stm32f4 board listening for VCS updates running rusEFI hardware continues integration, "HW CI" for short.
