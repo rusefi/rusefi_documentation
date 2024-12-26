@@ -36,6 +36,8 @@ Down the left side are a list of processes, which in rusEFI's case, means interr
 
 Now, to the actual content of the trace:
 
+https://gist.github.com/rusefillc/9b30683a3270681e1724ac2f45bb327a
+
 < image 2 here>
 
 This is an example of interrupt #50, which is timer 5, which is used for rusEFI's execution queue.  All events scheduled in the future are dequeued by this timer, and reset in oneshot mode for the next event in the queue.
