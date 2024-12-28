@@ -1,6 +1,6 @@
 # Support
 
-[TL,DR](Knowledge-best-practices-and-Channels#q-i-need-help)
+[TL,DR](Knowledge-best-practices-and-Channels#q-i-need-help) and https://alphaxpr.com/ for retail
 
 rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises including zero promises of technical support.
 
