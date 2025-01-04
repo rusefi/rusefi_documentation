@@ -81,6 +81,10 @@ USBBF7
 
 ![wideband_for_dummies](https://github.com/rusefi/rusefi_documentation/assets/82368250/3e5aca8a-62cf-4636-905c-cf79b18deef0)
 
+## Adapters
+
+Want to make an adapter? See https://github.com/rusefi/uaefi-NA6-adapter
+
 ## FAQ
 
 Q: Can it do 8x8?
