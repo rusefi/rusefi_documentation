@@ -12,3 +12,5 @@ A: Let me answer this universal question with a universal answer, in two parts:
 A: Moon landing was possible more than 50 years ago! A _lot_ of things are possible with proper resource allocation. If you can engineer it, go for it! If you are asking for help, we offer commercial engineering services. See [Standalone on Demand](Standalone-on-Demand) see [Royalty](Royalty).
 
 ![image](https://github.com/user-attachments/assets/62c45657-4dc3-4017-9e78-33fc2ddba570)
+
+![image](https://github.com/user-attachments/assets/f6e35f15-bbcc-4f28-b265-fa0a988da0bb)
