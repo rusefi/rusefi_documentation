@@ -1,4 +1,4 @@
-## rusEFI LTS Instructions
+# rusEFI LTS Instructions
 
 * Only branches with "lts" prefix are suitable for long term support: GitHub release web functionality creates _tags_, human create lts_yyyymmXXX branch from that tag. Note: no dots in branch names!
 * we pick commits from master into LTS branches
