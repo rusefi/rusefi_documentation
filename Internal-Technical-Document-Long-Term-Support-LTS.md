@@ -4,5 +4,6 @@
 * we pick commits from master into LTS branches
 * after each commit if picked we add/pick Changelog.md
 * use https://github.com/rusefi/rusefi/actions/workflows/build-firmware.yaml to trigger builds
+* See https://rusefi.com/build_server/lts/ for LTS artifacts
 
 See https://github.com/rusefi/rusefi/labels/LTS
