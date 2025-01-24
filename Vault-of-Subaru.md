@@ -1,5 +1,11 @@
 # Vault of Subaru Info
 
+## pinouts
+
+https://rusefi.com/docs/pinouts/subaru2020/
+
+https://rusefi.com/docs/pinouts/subaru_eg33/
+
 ![x](OEM-Docs/Subaru/sti-family-picture.jpg)
 
 From left to right: 04 sti, 06 sti, 07 sti (canbus), 08-14 sti (canbus)
