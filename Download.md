@@ -12,6 +12,8 @@ Very similar but slightly different versions of rusEFI bundle are needed dependi
 
 [uaEFI](uaEFI#software)
 
+[uaEFI121](uaefi121#software)
+
 [STM32 Community Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_f407-discovery.zip)
 
 ## Hellen Family Boards
