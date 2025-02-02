@@ -85,6 +85,10 @@ Honda K Exhaust Camshaft
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/d83fb6ee-abb2-4775-a570-4508863d6f2c)
 
+### Honda J30
+
+![x](Images/triggers/trigger_TT_HONDA_J30A2_24_1_1.png)
+
 ## Mazda
 
 ### Mazda Protege SOHC
