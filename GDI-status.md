@@ -14,7 +14,7 @@ TL,DR: Summer 2023 progress is happening, GDI4 rev D board is ready for prime ti
 
 [Forum thread for dev board](https://rusefi.com/forum/viewtopic.php?f=4&t=1337)
 
-[Test Mule Wiring Diagram](VolkswagenPassatB6) runs on rusEFI GDI!
+pump setup manual https://rusefi.com/forum/viewtopic.php?f=16&t=2886
 
 Gasoline Direct Injection requires a few additional components on top of port injection:
 
