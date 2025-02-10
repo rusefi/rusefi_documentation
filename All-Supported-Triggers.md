@@ -335,7 +335,7 @@ VQ cam
 VQ30
 ![x](Images/triggers/trigger_TT_NISSAN_VQ30.png)
 
-360 slot trigger not ready yet, no test vehicles :(
+360 slot trigger is too weird, no plans to support it.
 
 ![Nissan](Images/triggers/trigger_TT_NISSAN_SR20VE.png)
 
