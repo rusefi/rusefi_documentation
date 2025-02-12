@@ -38,7 +38,7 @@
 * on-board 4.9 LSU WBO controller
 * on-board SD card
 * up to two CAN buses
-* on-board baro sensor
+* on-board digital baro sensor
 * four above 1A current low side outputs
 * a couple of lower current low side outputs
 * flex fuel input
