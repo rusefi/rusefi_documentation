@@ -1065,11 +1065,15 @@ Maybe Molex GPCM 95?
 
 Toyota
 
-## 306 pin
+## 309 pin
 
-gen3 17+
+90 + 126 + 90
+
+gen3 ford coyote 17+
 
 three sections
+
+maybe 2299156-1 https://www.te.com/en/product-2299156-1.html
 
 ## Random links
 
