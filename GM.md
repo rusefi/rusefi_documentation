@@ -40,6 +40,8 @@ https://rusefi.com/docs/pinouts/GM-E92/
 
 https://rusefi.com/docs/pinouts/E92-adapter/
 
+https://rusefi.com/docs/pinouts/E92-blue-adapter/
+
 https://en.wikipedia.org/wiki/GM_Ecotec_engine#Generation_III
 
 https://github.com/rusefi/rusefi/wiki/Gen-5-LS
