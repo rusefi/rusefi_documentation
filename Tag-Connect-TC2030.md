@@ -37,5 +37,3 @@ Same pinout https://www.segger.com/products/debug-probes/j-link/accessories/adap
 ![WhatsApp Image 2025-02-27 at 11 43 29_83157737](https://github.com/user-attachments/assets/a91337d3-0153-4595-9a3d-e6417bc72da0)
 
 ![WhatsApp Image 2025-02-27 at 11 43 58_fd36d9fc](https://github.com/user-attachments/assets/05d9cf73-e785-4336-85db-7ccdd3e01b68)
-
-
