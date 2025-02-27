@@ -27,3 +27,9 @@ Offtopic:
 STLINK-V3MINI also works with FTSH-105-01-F-DV-007-K on Proteus
 
 A DIY option https://www.thingiverse.com/thing:5819952
+
+## Segger
+
+https://www.segger.com/products/debug-probes/j-link/accessories/adapters/6-pin-needle-adapter/
+
+https://github.com/rusefi/rusefi/issues/7529
