@@ -1,5 +1,23 @@
 # Vault of Subaru Info
 
+## GD Chassis
+
+2002-2007 WRX
+
+2004-2007 STI
+
+## GR Chassis
+
+2008-2014 WRX AND STI
+
+## VA Chassis
+
+2015-2021 WRX AND STI
+
+## VB Chassis
+
+2022- WRX
+
 ## pinouts
 
 https://rusefi.com/docs/pinouts/subaru2020/
