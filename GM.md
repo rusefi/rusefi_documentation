@@ -2,7 +2,11 @@
 
 ## 2.0T Ecotec LNF
 
+https://rusefi.com/docs/pinouts/GM-LNF
+
 https://en.wikipedia.org/wiki/GM_Ecotec_engine#2.0_LNF_(Z20NHH_Opel)
+
+Bosch E69 is related to med9.6?
 
 ## E39A
 
