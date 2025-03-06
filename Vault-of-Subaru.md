@@ -24,6 +24,8 @@ https://rusefi.com/docs/pinouts/subaru2020/
 
 https://rusefi.com/docs/pinouts/subaru-2011/
 
+https://rusefi.com/docs/pinouts/subaru%20adapter/
+
 https://rusefi.com/docs/pinouts/subaru_eg33/
 
 https://sl-i.net/FORUM/showthread.php?18087-Subaru-Factory-Service-Manuals-(FSM)-Every-Model-USDM-EU
