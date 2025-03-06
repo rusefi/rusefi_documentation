@@ -1,5 +1,9 @@
 # GM
 
+## 2.0T Ecotec LNF
+
+https://en.wikipedia.org/wiki/GM_Ecotec_engine#2.0_LNF_(Z20NHH_Opel)
+
 ## E39A
 
 [List of Global A platform vehicles](https://static.nhtsa.gov/odi/tsbs/2022/MC-10210348-9999.pdf)
