@@ -87,6 +87,10 @@ Want to make an adapter? See https://github.com/rusefi/uaefi-NA6-adapter
 
 ## FAQ
 
+Q: How do I order from Europe?
+
+A: https://shop.rusefi.com is the only official store, there are no distributors for this ultra affordable unit.
+
 Q: Can it do 8x8?
 
 A: You would have to remove two flyback diodes to have 8 similar injector outputs. You would have to figure out a way to have 8 equal coil outputs, maybe settle on wasted spark?
