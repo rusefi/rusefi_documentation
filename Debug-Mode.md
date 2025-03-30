@@ -2,5 +2,4 @@
 
 THIS CONCEPT IS DEAD
 
-See <https://github.com/rusefi/rusefi/issues/3614>
-
+Please use "live data" section which has much more much better data!
