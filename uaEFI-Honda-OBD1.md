@@ -1,8 +1,14 @@
-# Ultra Affordable EFI for Honda OBD1 *ADAPTER BOARD*
+# Ultra Affordable EFI for Honda OBD1
 
 ## Community Support
 
 🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
+
+## firmware
+
+Adapter board use [uaEFI](uaEFI) firmware
+
+Single board https://rusefi.com/build_server/rusefi_bundle_uaefi-OBD1.zip
 
 ## Technical Details
 
