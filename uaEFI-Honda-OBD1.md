@@ -6,7 +6,7 @@
 
 ## firmware
 
-Adapter board use uaEFI firmware
+Adapter board use [uaEFI](uaEFI) firmware
 
 Single board https://rusefi.com/build_server/rusefi_bundle_uaefi-OBD1.zip
 
