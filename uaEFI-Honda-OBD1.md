@@ -1,4 +1,4 @@
-# Ultra Affordable EFI for Honda OBD1
+# Ultra Affordable EFI for Honda OBD1 *ADAPTER BOARD*
 
 ## Community Support
 
