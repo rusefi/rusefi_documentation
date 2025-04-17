@@ -377,6 +377,10 @@ VW Jetta, Passat
 
 See [http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm](http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm)
 
+## 70 pin
+
+1-968878-1 says Saab
+
 ## 72 pin
 
 31+24+17=72
