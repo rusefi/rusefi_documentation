@@ -183,6 +183,10 @@ Might also be used on some Daihatsu, Nissan and Mazda RX8/MZR/Miata NC
 
 ## Chrysler
 
+### VVT
+
+![x](Images/triggers/trigger_TT_CHRYSLER_PHASER.png)
+
 ### Dodge Neon 1995
 
 ![Dodge Neon 1995](Images/triggers/trigger_TT_DODGE_NEON_1995.png)
