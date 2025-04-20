@@ -10,3 +10,6 @@ Standalone ECU for 4 cylinder GDI engines
 [Schematics rev a](Hardware/Hellen/alphax-4K-GDI-a-schematic.pdf)
 
 [Kia PB adapter](https://rusefi.com/docs/pinouts/Hyundai-Kia-PB-platform-adapter/) see also [Hyundai-PB](https://github.com/rusefi/rusefi/wiki/Hellen-Hyundai-PB)
+
+* x4 low side outputs (VVT or else)
+* 4.9 LSU
