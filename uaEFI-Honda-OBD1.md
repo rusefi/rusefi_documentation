@@ -25,7 +25,7 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 * option to use coil on plugs see J4
 * option to convert to hall position sensors see J5
 * option to upgrade to electronic throttle body J1+J2
-* fits OBD2 cases
+* designed to fit OBD2 enclosure - these are cheaper, also we have auxiliary section on the header so we need wider opening
 
 ## Micro Fit
 
