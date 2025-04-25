@@ -14,8 +14,6 @@ We are also extremely short on software developers. [HOWTO contribute to firmwar
 
 We hope that as a community we can leverage each other's skills and have peaceful fun together.
 
-We probably would not articulate the guiding principles better than [https://github.com/betaflight/betaflight/blob/master/docs/development/Development.md](https://github.com/betaflight/betaflight/blob/master/docs/development/Development.md) and [https://github.com/betaflight/betaflight/blob/master/CONTRIBUTING.md](https://github.com/betaflight/betaflight/blob/master/CONTRIBUTING.md)
-
 ## Q: What's the plan about XXX?
 
 A: How can you help? There are so many ways to help, quite often having a test mule and being available to try new features is huge help!
