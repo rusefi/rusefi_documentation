@@ -25,5 +25,3 @@ https://rusefi.com/docs/pinouts/VAG-ME17-adapter/
 ## MK 7
 
 https://rusefi.com/docs/pinouts/vag-simos-18/
-
-
