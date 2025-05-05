@@ -1,5 +1,7 @@
 # Hellen NA96
 
+open source, somewhat abandoned https://github.com/rusefi/hellen-miata-NA8
+
 [Issue tracker](https://github.com/rusefi/hellen-NA8-96-issues)
 
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA8_96.zip)
