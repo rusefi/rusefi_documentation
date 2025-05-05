@@ -7,9 +7,9 @@ As of 2024 we are selling five universal ECUs. See [Mission-Statement](Mission-S
 
 [2024 universal hardware matrix](https://docs.google.com/spreadsheets/d/1HJYltK4RPDa0RIg4GWNU_2hYVAgdOU0GPiVdebtVTzo)
 
-| Board | Features | Connectors/Misc. Info | Released in | Maximum recommended engine |
+|   | Features | Connectors/Misc. Info | Released in | Maximum recommended engine |
 | ----- | -------- | --------------------- | ----------- | ---------------------------|
-| [Hellen](Hellen-One-Platform) | +knock detection<br/>+VR<br/>+Wideband Controller | Not an ECU, but a collection of modules that can be used to design an ECU. | 2020 | Board-specific |
+| [Hellen One Platform](Hellen-One-Platform) | +knock detection<br/>+VR<br/>+Wideband Controller | Not an ECU, but a collection of modules that can be used to design an ECU. | 2020 | Board-specific |
 | [Proteus](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)| + rusEFI if you have lots of hardware or cylinders<br/>+ 4 layer PCB, 135mm x 82.5mm<br/>+ 16 low-side outputs, limited to 3 amps each (injectors, relays, check engine light, etc)<br/>+ 12x ignition outputs (or general purpose 5v, 100mA push-pull)<br/>+ Dual electronic throttles<br/>+ 4x High-side 12v drivers, 1 amp each<br/>+ 4 thermistor analog inputs (2.7k pull up resistor)<br/>+ 12 General purpose analog inputs<br/>+ Dual VR sensors (crank position, wheel speed)<br/>+knock detection<br/>+ 6 digital inputs (hall cam/crank position, wheel speed, clutch/brake switch, etc) | TE Ampseal connectors: 2x 35 pin, 1x 23 pin<br/>rusEFI's most fully-featured shield<br/>IP68 waterproof case | 2020 | 12 cylinder, dual electronic throttles |
 | [microRusEFI](https://www.ebay.com/itm/333532119947) | + Available fully assembled!<br/>+ about 10 analog inputs<br/>+ One VR/Hall input channel for crank sensor<br/>+ One Hall input channel for crank sensor<br/>+ 4 injector output channels<br/>+ 4 logic level coil control channels (external igniters could be needed for some coils) | 48-pin connector<br/>On-board DBW<br/>USB, CAN<br/>open source hardware  | 2019 | 4 cylinder, single electronic throttle |
 
