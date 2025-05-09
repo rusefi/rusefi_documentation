@@ -24,6 +24,12 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2014-Chev
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2014-Chevrolet-Camaro-v6.pdf
 
+## TCU
+
+https://rusefi.com/docs/pinouts/GM-E87-TCU/
+
+https://rusefi.com/docs/pinouts/GM-E87-TCU-adapter/
+
 ## E80
 
 Newer inline-4
