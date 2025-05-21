@@ -4,6 +4,8 @@
 
 [firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_nano.zip)
 
+[available at rusEFI store](https://www.shop.rusefi.com/shop/p/nano)
+
 * One or two cylinder ECU
 * VR input
 * total 6 low side outputs
