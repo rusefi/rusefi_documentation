@@ -197,6 +197,8 @@ Might also be used on some Daihatsu, Nissan and Mazda RX8/MZR/Miata NC
 
 ### Dodge Hemi and SRT4
 
+*Maybe broken? Probably broken?*
+
 ![x](Images/triggers/trigger_TT_CHRYSLER_NGC_36_2_2.png)
 
 ### Dodge Ram
