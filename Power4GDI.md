@@ -14,3 +14,4 @@ Standalone ECU for 4 cylinder GDI engines
 * x4 low side outputs (VVT or else)
 * 4.9 LSU
 * schematics and interactive pinout are the main documents
+* optional on-board MAP mpxh6400
