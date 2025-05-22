@@ -1,4 +1,4 @@
-# AlphaX 4K‐gdi
+# Power4GDI ECU
 
 Standalone ECU for 4 cylinder GDI engines
 
