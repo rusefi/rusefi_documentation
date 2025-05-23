@@ -1,5 +1,7 @@
 # Vault of VAG Info
 
+https://rusefi.com/docs/pinouts/hellen/hellen121vag/
+
 [VAG-B5](VAG-B5)
 
 [VolkswagenPassatB6](VolkswagenPassatB6)
