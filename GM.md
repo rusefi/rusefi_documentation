@@ -1,5 +1,9 @@
 # GM
 
+## gen 4
+
+https://rusefi.com/docs/pinouts/GM-E38
+
 ## 2.0T Ecotec LNF
 
 https://rusefi.com/docs/pinouts/GM-LNF
