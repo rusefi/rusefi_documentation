@@ -40,7 +40,7 @@ Newer inline-4
 
 https://rusefi.com/docs/pinouts/GM-E80/
 
-https://rusefi.com/docs/pinouts/E80-adapter/
+https://rusefi.com/docs/pinouts/E80-adapter/ [e92 to adapter](https://docs.google.com/spreadsheets/d/1_wUjXXJFAyX8e0OT-bTLkIpIPQHrQ8_PcXhwK9kR0n0)
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/GM/2017-Cadillac-ATS-Sedan-RWD-20T.pdf
 
