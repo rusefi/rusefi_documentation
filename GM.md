@@ -2,11 +2,11 @@
 
 ## gen 4
 
-https://rusefi.com/docs/pinouts/GM-E38
+https://rusefi.com/docs/pinouts/GM-E38 Tahoe
 
 ## 2.0T Ecotec LNF
 
-https://rusefi.com/docs/pinouts/GM-LNF
+https://rusefi.com/docs/pinouts/GM-LNF HHR
 
 https://rusefi.com/docs/pinouts/GM-LNF-adapter/
 
@@ -38,7 +38,7 @@ https://rusefi.com/docs/pinouts/GM-E87-TCU-adapter/
 
 Newer inline-4
 
-https://rusefi.com/docs/pinouts/GM-E80/
+https://rusefi.com/docs/pinouts/GM-E80/ Cadillac ATS
 
 https://rusefi.com/docs/pinouts/E80-adapter/ [e92 to adapter](https://docs.google.com/spreadsheets/d/1_wUjXXJFAyX8e0OT-bTLkIpIPQHrQ8_PcXhwK9kR0n0)
 
