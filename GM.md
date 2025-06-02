@@ -4,6 +4,8 @@
 
 https://rusefi.com/docs/pinouts/GM-E38 Tahoe
 
+https://rusefi.com/docs/pinouts/hellen/hellen-gm-e67/
+
 ## 2.0T Ecotec LNF
 
 https://rusefi.com/docs/pinouts/GM-LNF HHR
@@ -81,4 +83,3 @@ https://github.com/rusefi/rusefi/wiki/Gen-4-LS
 ## E99
 
 Global B
-
