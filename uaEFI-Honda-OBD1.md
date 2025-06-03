@@ -14,7 +14,7 @@ Single board https://rusefi.com/build_server/rusefi_bundle_uaefi-obd1.zip
 
 See https://github.com/rusefi/rusefi/wiki/uaEFI
 
-[pinout](https://rusefi.com/docs/pinouts/uaefi/honda-obd1/)
+[interactive pinout](https://rusefi.com/docs/pinouts/uaefi/honda-obd1/)
 
 [Adapter Schematics rev a](Hardware/Hellen/uaefi-Honda-OBD1-adapter-a-schematic.pdf)
 
