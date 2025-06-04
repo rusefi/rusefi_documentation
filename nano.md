@@ -1,5 +1,7 @@
 # rusEFI nano
 
+🔴Community support ONLY 🔴 [Support starts here](https://github.com/rusefi/rusefi/wiki/Support)🔴
+
 [interactive pinout](https://rusefi.com/docs/pinouts/nano/)
 
 [firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_nano.zip)

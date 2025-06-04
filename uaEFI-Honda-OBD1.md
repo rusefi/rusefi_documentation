@@ -49,6 +49,3 @@ A: you *HAVE* to trust "popular vehicles>Honda OBD" button. Confirm your trigger
 ![image](https://github.com/user-attachments/assets/1e97a919-9e09-486b-9ec5-e5bb2ed0b009)
 
 ![image](https://github.com/user-attachments/assets/13fc27fd-b734-43ac-8f1f-c8b0c7238685)
-
-
-

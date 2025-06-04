@@ -8,7 +8,7 @@
 
 ## Community Support
 
-🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
+🔴Community support ONLY 🔴 [Support starts here](https://github.com/rusefi/rusefi/wiki/Support)🔴
 
 Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 
