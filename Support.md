@@ -13,6 +13,10 @@ Commercial technical support starts at [the rusEFI Store](https://www.shop.rusef
 
 Please Read [How To Ask Technical Questions](https://opensource.com/life/16/10/how-ask-technical-questions)
 
+## Q: I am not into reading, can I just rely on community for everything?
+
+A: No, there's an expectation that people read documentation and follow that documentation.
+
 ## Q: What is Discord?
 
 A: Discord is a group chat available via browser and phone app. After initial problem statement is defined on [https://rusefi.com/forum/](https://rusefi.com/forum/) Discord chat often comes handy for follow-up discussion. Discord registration & login see [Discord](Discord)
