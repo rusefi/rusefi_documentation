@@ -1,7 +1,8 @@
 # GM E38
 
-https://rusefi.com/docs/pinouts/GM-E38/
+[interactive pinout](https://rusefi.com/docs/pinouts/GM-E38/)
 
-mc123 black 73 31387-2014 and grey 80 31387-4009.
+[firmware dev snapshot](https://rusefi.com/fw-private/rusefi_bundle_pnp-e38_obfuscated_public.zip)
 
-<https://github.com/rusefi/proteus-gm-e38>
+* dual 4.9 LSU WBO controller on aux connector
+
