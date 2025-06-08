@@ -6,9 +6,9 @@
 
 ## firmware
 
-Adapter board use [uaEFI](uaEFI) firmware
+Nicer single board https://rusefi.com/build_server/rusefi_bundle_uaefi-obd1.zip
 
-Single board https://rusefi.com/build_server/rusefi_bundle_uaefi-obd1.zip
+Sandwich dual PCB adapter board use [uaEFI](uaEFI) firmware
 
 ## Technical Details
 
