@@ -2,7 +2,7 @@
 
 ## Introduction
 
-rusEFI strives to offer users as much flexibility as possible, to provide a completely user-defined control strategy for both primary and auxiliary actuators. It's strongly advices to use boards powered by F7 to unleash full power of Lua.
+rusEFI strives to offer users as much flexibility as possible, to provide a completely user-defined control strategy for both primary and auxiliary actuators. It's strongly advices to use boards powered by F7 to unleash full power of [Lua](https://www.lua.org/).
 
 ## Basics
 
