@@ -20,6 +20,7 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 
 ## Features
 
+* reads OEM distributor just fine (single tooth and 24 tooth)
 * on-board LSU 4.9 controller exposed on extra ECU plug
 * flex fuel sensor input exposed on extra ECU plug
 * option to use coil on plugs see J4
