@@ -1,6 +1,6 @@
 # Power4GDI ECU
 
-Standalone ECU for 4 cylinder GDI engines
+Basic standalone ECU for 4 cylinder GDI engines - please double-check pinout, this unit could be short on IO for some of the more advanced 4 cylinder engines.
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/Power4GDI/)
 
