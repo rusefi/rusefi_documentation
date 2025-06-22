@@ -475,6 +475,16 @@ Set the duty cycle of the specified PWM channel.
 - Returns
   - none
 
+#### `getGpPwm(index)`
+
+Gets current PWM of GPPWM by index
+
+- Parameters
+  - `index`: The index of the PWM channel to set. Valid values are 0 through 3.
+- Returns
+  - PWM percent, 0 to 100
+
+
 #### `setLuaGauge(index, value)`
 
 In an ideal world one would be using Sensor.new("LuaGauge1") but looks like that's not the way at the moment :(
