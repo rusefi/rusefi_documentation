@@ -13,7 +13,6 @@ We have too many channels.
 * forum
 * facebook
 * discord
-* slack
 
 Universal long term car knowledge? probably wiki
 
@@ -21,11 +20,11 @@ I have a cool project, it's my own not universal knowledge? at least a summary o
 
 ## Q: I need help?
 
-A: Please start on the forum, please go to slack after first back and forth, please post summary on the forum. Know what you are doing? Please start with a github issue instead of forum post.
+A: Please start on the forum, please go to discord after first back and forth, please post summary on the forum. Know what you are doing? Please start with a github issue instead of forum post.
 
-## Q: I have exciting valuable data I really want to dump it into slack RIGHT NOW
+## Q: I have exciting valuable data I really want to dump it into discord RIGHT NOW
 
-A: Please do not. Please help by not offloading data preservation on someone else. Please start on the forum or github. Slack communications are only good for clarification and discussion *AFTER* context is nicely established on forum or github.
+A: Please do not. Please help by not offloading data preservation on someone else. Please start on the forum or github. Discord communications are only good for clarification and discussion *AFTER* context is nicely established on forum or github.
 
 ## Q: Should I pile everything together?
 
