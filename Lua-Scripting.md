@@ -484,7 +484,6 @@ Gets current PWM of GPPWM by index
 - Returns
   - PWM percent, 0 to 100
 
-
 #### `setLuaGauge(index, value)`
 
 In an ideal world one would be using Sensor.new("LuaGauge1") but looks like that's not the way at the moment :(
