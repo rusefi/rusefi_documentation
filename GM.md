@@ -4,6 +4,8 @@
 
 https://rusefi.com/docs/pinouts/GM-E38 Tahoe
 
+https://rusefi.com/docs/pinouts/GM-E40
+
 https://rusefi.com/docs/pinouts/hellen/hellen-gm-e67/
 
 ## 2.0T Ecotec LNF
