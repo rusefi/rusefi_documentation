@@ -77,3 +77,14 @@ Rev B, ECU pin 68 considerations
 | Vehicle | R7 | R8 |
 | --- | --- | --- |
 | [All vehicles](https://github.com/rusefi/hellen121nissan-issues/issues/3) | ✔️ | ❌ |
+
+## Changelog
+
+### rev B
+
+![image](https://github.com/user-attachments/assets/750c4c4e-3a94-4ac5-b618-59f7a40fd5af)
+
+
+
+
+
