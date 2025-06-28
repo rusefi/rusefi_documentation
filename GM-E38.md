@@ -5,4 +5,6 @@
 [firmware dev snapshot](https://rusefi.com/fw-private/rusefi_bundle_pnp-e38_obfuscated_public.zip)
 
 * dual 4.9 LSU WBO controller on aux connector
+* direct OEM dash control without BCM
+* direct cruise control input without BCM
 
