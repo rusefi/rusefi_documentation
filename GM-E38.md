@@ -8,3 +8,6 @@
 * direct OEM dash control without BCM
 * direct cruise control input without BCM
 
+## Connectors
+
+Depinning tool GM-38125-213 0.64mm DIA Pick Tool SIM to Molex 63813-1400
