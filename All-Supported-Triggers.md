@@ -135,7 +135,9 @@ TODO maybe make it a bit more straight, maybe it's good enough
 
 See https://github.com/rusefi/rusefi/pull/4140
 
-![x](Images/triggers/trigger_TT_GM_24x.png)
+![x](Images/triggers/trigger_TT_GM_24x_3.png)
+
+![x](Images/triggers/trigger_TT_GM_24x_5.png)
 
 ### GM 60/2/2/2
 
