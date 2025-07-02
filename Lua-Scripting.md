@@ -489,7 +489,7 @@ Gets current PWM of GPPWM by index
 In an ideal world one would be using Sensor.new("LuaGauge1") but looks like that's not the way at the moment :(
 
 - Parameters
-  - `index`: The index of the Lua gauge to set. Valid indices are '1' and '2'.
+  - `index`: The index of the Lua gauge to set. Valid indices are from '1' to '8'.
   - `value`: Desired gauge value.
 - Returns
   - none
