@@ -22,4 +22,14 @@ All open tickets: [https://github.com/rusefi/rusefi/issues](https://github.com/r
 
 [Click here for a Q&A on source code.](http://rusefi.com/forum/viewtopic.php?f=5&t=10)
 
+## FAQ
+
+### not smart to push into master branch of forks
+
+Do not commit to master branch of your fork. There are only two reasons to do that and both are bad.
+
+### generated files
+
+Do not commit any of the auto-generated files. Looks like we need to go over which generated files are even pushed into github, definitely technical debt but well, no budget :(
+
 [Some random tips](Dev-Tips)
