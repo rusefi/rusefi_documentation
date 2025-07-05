@@ -1069,7 +1069,7 @@ Maybe Molex GPCM 95?
 
 Toyota
 
-## 309 pin
+## 306 pin
 
 90 + 126 + 90
 
