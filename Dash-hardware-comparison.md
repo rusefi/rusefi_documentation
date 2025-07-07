@@ -2,6 +2,8 @@
 
 🟢 single click purchase $40 complete platform
 
+🟢 Arduino IDE
+
 🔴 esp32s3 lacks parallel interface meaning refresh rate limitation
 
 🔴 temperature range temperature
