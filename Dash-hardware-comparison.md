@@ -4,7 +4,7 @@
 
 🟢 Arduino IDE
 
-🔴 esp32s3 lacks parallel interface meaning refresh rate limitation
+🔴 esp32s3 ??? meaning refresh rate limitation
 
 🔴 temperature range temperature
 
