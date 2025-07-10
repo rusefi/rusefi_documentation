@@ -14,6 +14,8 @@ https://rusefi.com/docs/pinouts/hellen/2011-jetta-2.5/
 
 https://rusefi.com/docs/pinouts/VAG-ME17-adapter/
 
+https://rusefi.com/docs/pinouts/VAG-2012-TDI/
+
 ![x](OEM-Docs/VAG/2006-jetta-2.5-bgq-1.png)
 
 ![x](OEM-Docs/VAG/2006-jetta-2.5-bgq-2.png)
