@@ -8,4 +8,4 @@ Even with direct control over ECU power we can keep outselves powered for a bit 
 
 ## Delayed shut off wiring
 
-TBD
+![WhatsApp Image 2025-07-11 at 00 10 30_c62401c0](https://github.com/user-attachments/assets/35f20455-803e-4ad5-b6a8-2a6760f0bdb6)
