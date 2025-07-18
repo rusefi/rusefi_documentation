@@ -433,7 +433,7 @@ Reads a digital input from the configurable list.
 
 #### `readPin(pinName)`
 
-Reads physical value of arbitrary MCU pin
+Reads physical value of arbitrary MCU pin in case of emergency. Not a proper way to implement proper logic, use Lua aux inputs.
 
 - Parameters
   - `pinName`: string name of MCU pin, for examples "PD15"
