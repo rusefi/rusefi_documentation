@@ -373,6 +373,8 @@ Use skipped wheel for crank and "Toyota 3 Tooth" previously known as "VVT: 2JZ" 
 
 ## VVT 3-0 "Toyota 3 Tooth" previously known as "VVT: 2JZ"
 
+This one is pretty special - it has extra setting for position. At the moment this one is only adjustable on first cam.
+
 ![1+60/2](Images/triggers/trigger_TT_VVT_JZ.png)
 
 ## VVT 4-1
