@@ -233,6 +233,12 @@ A bit of a 60/2/2
 
 ![x](Images/triggers/trigger_TT_60_2_2_F3R.png)
 
+### Tri-Tach
+
+Old audi 5 cylinder: does not work, no priority to make work - that one needs custom handling
+
+![x](Images/triggers/trigger_TT_TRI_TACH.png)
+
 ### Suzuki G13B
 
 ![x](Images/triggers/trigger_TT_SUZUKI_G13B.png)
