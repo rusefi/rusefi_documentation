@@ -131,6 +131,8 @@ Start cranking as if physical start button was tapped.
 
 returns true if engine stop was requested by either Lua or start/stop button within the last five seconds
 
+#### setLaunchTrigger
+
 #### `setSparkSkipRatio(ratio)`
 
 setSparkSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
