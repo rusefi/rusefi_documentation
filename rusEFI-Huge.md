@@ -23,7 +23,7 @@
 * Dual channel knock input
 * Dual CANbus
 * Dual on-board WBO controller supporting LSU 4.9
-* optional to mount on-board MAP sensor
+* optional to mount on-board MAP sensor: vertical mpxh6400a, legacy horizontal mpx4250ap
 * optional [JDY-33 bluetooth](https://github.com/rusefi/rusefi/wiki/Bluetooth)
 
 ![WhatsApp Image 2024-01-11 at 12 50 21_711b3236](https://github.com/rusefi/rusefi/assets/48498823/5ddf9953-7b37-43dc-b920-24e7b9515a97)
