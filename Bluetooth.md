@@ -1,5 +1,9 @@
 # Obviously rusEFI supports Bluetooth
 
+🔴 but we barely support it, it's horrible 🔴
+
+JDY-33 modules are the default
+
 rusEFI console has commands for Bluetooth module initialization (see below), at the moment we do not have TunerStudio interface for Bluetooth module initialization.
 
 ## Reference Design
