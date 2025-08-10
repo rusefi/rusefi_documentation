@@ -1,6 +1,6 @@
 # 1990 Mazda Miata
 
-[Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
+[Frankenso Mazda Miata NA6 PnP](../technical-and-legacy/Frankenso-MazdaMiataNA6-pnp.md)
 
 ![Pinout](Images/frankenso_connector_miata_1991.png)
 

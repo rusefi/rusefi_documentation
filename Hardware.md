@@ -17,23 +17,6 @@ As of 2024 we are selling five universal ECUs. See [Mission-Statement](Mission-S
 | [microRusEFI](https://www.ebay.com/itm/333532119947)                   | + Available fully assembled!<br/>+ about 10 analog inputs<br/>+ One VR/Hall input channel for crank sensor<br/>+ One Hall input channel for crank sensor<br/>+ 4 injector output channels<br/>+ 4 logic level coil control channels (external igniters could be needed for some coils)                                                                                                                                                                                                                                                                                                              | 48-pin connector<br/>On-board DBW<br/>USB, CAN<br/>open source hardware                                      | 2019        | 4 cylinder, single electronic throttle |
 | [Hellen One Platform](Hellen-One-Platform)                             | +knock detection<br/>+VR<br/>+Wideband Controller                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Not an ECU, but a collection of modules that can be used to design an ECU.                                   | 2020        | Board-specific                         |
 
-## Q: How to select a board?
-
-A: History shows that fully assembled boards are the safest way to start. History shows
-that 80% of the kits are never assembled. As of May 2022 we have microRusEFI and Proteus [in stock](https://shop.rusefi.com/). New fabrication of the assembled Frankenso board is
-currently not planned.
-
-## Q: What else matters?
-
-A: Types and total count of crank and camshaft positions sensors is the next
-important question. microRusEFI unfortunately only supports one VR shaft input maximum with two inputs total.
-
-Frankenso supports up to 2 VR or 2 Hall shaft position sensors. Prometheus supports TBD. Proteus supports TBD.
-
-## Q: why stm32?
-
-A: [selecting-open-source-ecu-microcontroller](selecting-open-source-ecu-microcontroller)
-
 ## Q: This is all very cool but you guys do not have a Plug&Play for my Trabant. I think I will go and make a new rusEFI board just for my Trabant
 
 A: At rusEFI we love cool new projects, but we are a really small team and only have so much time to work on rusEFI.  
@@ -62,21 +45,13 @@ Red CRITICAL (previously known as FATAL) error means you have a CRITICAL error, 
 
 Green LED on many rusEFI boards is RUNNING. Off if engine is stopped, blinks if engine is cranking, solid if engine is running.
 
-## Q: what about many other LEDs which seem to be blinking in sync with injectors or coils?
-
-A: Following Frankenso tradition, Injector LEDs are RED. Ignition LED are blue, power LED are green.
-
-## Q: Why mini/micro/type C on MRE?
-
-A: USB choice dictated by price and availability. If it changes MRE page will note.
-
 ## Q: Exiting, what soldering iron is best?
 
 A: [FAQ Why No Self Assembly](FAQ-Why-No-Self-Assembly)
 
 ## Q: Why battery holder?
 
-A: So that log file names could be current time stamp. That functionality is the only reason for battery holder, that functionality is broken for a couple of years now.
+A: So that log file names could be current time stamp. That functionality is the only reason for battery holder.
 
 ## Q: I would like to fabricate and sell on my country
 

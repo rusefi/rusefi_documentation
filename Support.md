@@ -91,11 +91,6 @@ Just make sure to remove the oldest unneeded logs from your DataLogs folder :)
 
 - Please indicate your software pieces, commonly as noted below. The most common platform and the platform used by the primary software developer is Windows, so you are most likely to get the best support with a native Windows environment.
 
-- Windows 10, 32bit, USB cable to STM Discovery programming port (VCP), no hardware board attached.
-- Windows 10, 32bit, USB cable to Frankenso FTDI USB, Frankenso attached to discovery board.
-- Windows 7, 64bit, USB cable to STM Discovery programming port (VCP), no hardware board attached.
-- Linux, 32bit, USB cable to STM Discovery programming port (VCP), no hardware board attached.
-
 Tell us about your engine setup. Something like the below.
 
 |Cylinder Count|Injection Configuration|Ignition|Fuel|Aspiration|

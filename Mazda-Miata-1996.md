@@ -1,6 +1,6 @@
 # 1996 Mazda Miata
 
-[Frankenso Mazda Miata NA6 PnP](Frankenso-MazdaMiataNA6-pnp)
+[Frankenso Mazda Miata NA6 PnP](../technical-and-legacy/Frankenso-MazdaMiataNA6-pnp.md)
 
 1996 US 1.8
 
@@ -46,7 +46,7 @@
 
 ## Plug 3
 
-16 pin  (corresponds to Frankenso Plug 2)
+16 pin
 
 | pos | b pos | color   | desc                 | type      |
 | --- | ----- | ------- | -------------------- | --------- |

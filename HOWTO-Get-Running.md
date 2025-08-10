@@ -47,13 +47,11 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
 
 * If you want to properly select a fuse, you really need a scope with a current measurement probe, then choose the I2t with the suggested method in the PDF. If you do not have such a scope, make sure to have extra fuses on hand just in case it blows a fuse some time down the road.
 
-* For Frankenso it can typically use a typical automotive blade style fuse. From page 9 of the Frankenso schematic it suggests to use a 1.5A fuse. However that was for the one mounted on the PCB, which generally has a small wire installed. The below 2A would work for an external fuse.
-
 [Littelfuse Mini Data sheet](http://www.littelfuse.com/~/media/automotive/datasheets/fuses/passenger-car-and-commercial-vehicle/blade-fuses/littelfuse_mini_datasheet.pdf)
 
 * Check in the forums for additional information. Often members can identify bumps in the road before you hit them. Forum members can also make suggestions that could make things go smoothly.
 
-* If you do something cool, or new, feel free to share in the forums, Slack, Github, e-mail or where ever. It's common that someone doing something new and cool will get more help than someone doing the same old thing.
+* If you do something cool, or new, feel free to share in the forums, Discord, Github, e-mail or where ever. It's common that someone doing something new and cool will get more help than someone doing the same old thing.
 
 #### connecting ECU if it's not plug-and-play
 
@@ -63,7 +61,7 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
 * If you have a connector that has a break out PCB board for it, you probably want to obtain the break out PCB for that harness connector. If not you can simply solder wires direct to the connector. Similar to [this - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 ![Breakout Render](Images/176122-6_front.jpg)
 ![Breakout PCB](Images/64p_connector.jpg)
-* It will likely be helpful to get a partial harness from a junk yard, and switch to rusEFI circuit-by-circuit using a [breakout module.](Breakout-Module)
+* It will likely be helpful to get a partial harness from a junk yard, and switch to rusEFI circuit-by-circuit using a [breakout module.](../technical-and-legacy/Breakout-Module.md)
 * Use junk yard harness to make extension harness. Use the junk yard ECU connector to break out the wire harness to the breakout board. Then from the far side of the breakout board, install the junk yard harness connector. Then connect the original ECU. This should allow you to start and run then engine as normal.
 
 #### Prepare engine wiring
@@ -141,7 +139,6 @@ See also [https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/o
 
 See also [Error Codes](Error-Codes)
 
-See also [Debug Fields](Debug-Fields)
 
 ### External links
 

@@ -120,4 +120,4 @@ There is [a forum thread](https://rusefi.com/forum/viewtopic.php?f=5&t=9) on bui
 
 ## Linux
 
-See [Developing on Linux](Developing-On-Linux)
+See [Developing on Linux](../technical-and-legacy/Developing-On-Linux.md)

@@ -41,4 +41,6 @@ A: it's mostly an experiment really. As of October 2021 we have couple of open s
 
 [Dev Information](https://github.com/andreika-git/hellen-one/wiki)
 
+[See also](Hardware)
+
 ![x](Hardware/Hellen/hellen-one-logo-300.jpg)

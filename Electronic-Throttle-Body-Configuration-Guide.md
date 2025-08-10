@@ -63,8 +63,6 @@ rusEFI includes PID auto-tuning software that can help generate a starting point
 2. Press `Start ETB PID Autotune` button.  The throttle will begin oscillating around 50% position: this is normal.
 3. Once the values in the `pFactor`/`iFactor`/`dFactor` fields have stabilized, auto-tune is complete.  Press `Stop ETB PID Autotune` to return to normal operation.  Press BURN to save the learned values.
 
-*Note: to see additional detail about the autotuning process, the [debug mode](Debug-Mode) `ETB Autotune` and gauges Ku, Tu, Kp, Ki, Kd (in debug menu) (todo: add screenshot) may be interesting*
-
 ### Tune Bias Table
 
 Also known as a "feed forward" term, bias curve serves to offset the throttle's return spring. The table stores how much PWM duty cycle is required to hold the throttle at that particular throttle position against the spring.  Since the spring pushes towards ~5-20%, the value will be negative when below the neutral point, and positive above it, transitioning steeply as it passes the neutral point of the spring.

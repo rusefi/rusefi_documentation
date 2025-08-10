@@ -32,4 +32,4 @@ Do not commit to master branch of your fork. There are only two reasons to do th
 
 Do not commit any of the auto-generated files. Looks like we need to go over which generated files are even pushed into github, definitely technical debt but well, no budget :(
 
-[Some random tips](Dev-Tips)
+[Some random tips](../technical-and-legacy/Dev-Tips.md)

@@ -18,4 +18,3 @@ A: Do you have power? Do you have any LED lights? Do you have USB cable? On all 
 
 A: Make sure your USB cable is proper data cable not evil charge-only cable.
 
-See also [Troubleshooting-older-Frankenso](Troubleshooting-older-Frankenso)

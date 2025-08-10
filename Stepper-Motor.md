@@ -22,4 +22,3 @@ We do not have our own add-on board for a4988, we use ones from eBay like "stepp
 
 [pinout - Forum](http://rusefi.com/forum/viewtopic.php?f=5&t=767&start=30#p17671)
 
-See [Frankenso: prototyping area stepper board install - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=1161)

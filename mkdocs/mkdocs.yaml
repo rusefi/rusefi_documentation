@@ -34,7 +34,7 @@ nav:
     - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
   - 'Community':
     - 'Forum': "https://rusefi.com/forum/"
-    - 'Slack': HOWTO-join-slack-channel.md
+    - 'Discord': Discord.md
     - 'Engines running on rusEFI': List-of-Engines-Running-rusEFI.md
     - 'HOWTO-help-rusEFI': HOWTO-help-rusEFI.md
   - 'Setup Guides':

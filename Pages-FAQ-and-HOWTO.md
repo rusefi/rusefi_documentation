@@ -12,7 +12,7 @@
 * [Create a TunerStudio Project](HOWTO-create-tunerstudio-project)
 * [Direct Firmware Update](HOWTO-DFU)
 * [Help rusEFI](HOWTO-help-rusEFI)
-* [Join Slack](HOWTO-join-slack-channel)
+* [Discord](Discord)
 * [Quick Start](HOWTO-quick-start)
 * [Update Firmware](HOWTO-Update-Firmware)
 * [Upload a Tune](HOWTO-upload-tune)

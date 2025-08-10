@@ -6,7 +6,6 @@
 * [DFU](HOWTO-DFU)
 * [Get running](HOWTO-Get-Running)
 * [Help out](HOWTO-help-rusEFI)
-* [Join Slack](HOWTO-join-slack-channel)
 * [Quick Start](HOWTO-quick-start)
 * [Update firmware](HOWTO-Update-Firmware)
 * [Upload a tune](HOWTO-upload-tune)

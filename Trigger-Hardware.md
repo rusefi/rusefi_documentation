@@ -2,10 +2,6 @@
 
 ## Quick links
 
-[How to handle raw VR signal with Frankenso board](Frankenso-VR-Input)
-
-[How to handle raw Hall signal with Frankenso board](Frankenso-Hall-Input)
-
 [More information about the rusEFI trigger handling software logic](Trigger)
 
 ## Summary

@@ -2,24 +2,6 @@
   
 [Hardware overview](Hardware)  
 
-<details><summary><u>Universal Info</u></summary>
-
-* [Microcontroller selection](selecting-open-source-ecu-microcontroller)
-* [Hardware development guidelines](Dev-Hardware-Guidelines)
-
-</details>
-
-<details><summary><u>Deucalion</u></summary>
-
-* [Deucalion UART](Deucalion-uart)
-
-</details>
-
-<details><summary><u>Frankenso</u></summary>
-
-* [Frankenso main page](Hardware-Frankenso)
-
-</details>
 
 <details><summary><u>MicroRusEFI (MRE)</u></summary>
 
