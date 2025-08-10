@@ -2,7 +2,6 @@
   
 [Hardware overview](Hardware)  
 
-
 <details><summary><u>MicroRusEFI (MRE)</u></summary>
 
 * [MRE Manual](microRusEFI-Manual)

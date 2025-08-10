@@ -10,9 +10,9 @@ With fabrication files for Proteus you can get a 80% assembled unit from JLCPCB.
 
 ![x](Hardware/Proteus/Hardware-Proteus-0.6-top.jpg)  
 
-Forum thread [here](https://rusefi.com/forum/viewtopic.php?f=4&t=1646)
+[Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1646)
 
-Source & production files [here](https://github.com/mck1117/proteus/)
+Source & production files [at github](https://github.com/mck1117/proteus/)
 
 ## TE Ampseal Connectors
 
@@ -32,7 +32,7 @@ Source & production files [here](https://github.com/mck1117/proteus/)
 
 [by Kon](https://github.com/ksmola/proteus-case)
 
-We have a plastic CNCed case [here](https://www.ebay.com/itm/333958050504)
+We have a plastic CNCed case [at eBay store](https://www.ebay.com/itm/333958050504)
 
 McM 90417A118
 black oxide, #4 3/8" long screws recommended
