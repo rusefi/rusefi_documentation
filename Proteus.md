@@ -14,8 +14,6 @@ Forum thread [here](https://rusefi.com/forum/viewtopic.php?f=4&t=1646)
 
 Source & production files [here](https://github.com/mck1117/proteus/)
 
-[Fabrication](Hardware-Proteus-Fabrication)
-
 ## TE Ampseal Connectors
 
 [Ampseal tutorial video](https://www.youtube.com/watch?v=24bNFu7a9lc)

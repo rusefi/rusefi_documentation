@@ -18,8 +18,6 @@
 
 [HOWTO program rusEFI using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
-[See also Kit Instructions](Hardware-microRusEFI-kit-instructions)
-
 ### HOWTO update microRusEFI Firmware
 
 The best way to update microRusEFI firmware is using rusEFI console "Auto DFU" mode.

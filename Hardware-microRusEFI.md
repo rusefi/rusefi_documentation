@@ -50,5 +50,3 @@ See [https://github.com/rusefi/hw_microRusEfi/issues/203](https://github.com/rus
 Q: what about stepper idle?
 
 A: yes microRusEFI can drive 4 wire idle air valves see setting at https://github.com/rusefi/rusefi/pull/3749
-
-[See also Kit Instructions](Hardware-microRusEFI-kit-instructions)

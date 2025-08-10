@@ -28,10 +28,6 @@ PCAN
 
 ``BootCommander.exe -t=xcp_can -d=peak_pcanusb -c=0 -b=500000 -tid=1667h -rid=17E1h rusefi_update.srec``
 
-## Software
-
-[Man-in-the-middle](Man-in-the-middle)
-
 ## Hardware options
 
 [PCAN-USB](https://www.peak-system.com/PCAN-USB.199.0.html?&L=1) with some cable [PCAN-Cable OBD-2](https://www.peak-system.com/PCAN-Cable-OBD-2.273.0.html?&L=1) or [PCAN-Cable 3](https://www.peak-system.com/PCAN-Cable-3.290.0.html?&L=1)
