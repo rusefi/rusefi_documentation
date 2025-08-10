@@ -75,8 +75,6 @@ CAN bus notes see <https://rusefi.com/forum/viewtopic.php?f=5&t=473>
 
 ## 7 BLU +12v power
 
-See also [CAN Sniffer](../technical-and-legacy/CAN-Sniffer.md)
-
 ECU header: 121p, compatible with IV Volkswagen Jetta VR6, part number [966971-2](http://www.te.com/catalog/pn/en/966971-2)
 
 ## Trigger shape

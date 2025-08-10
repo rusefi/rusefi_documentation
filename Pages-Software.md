@@ -9,7 +9,6 @@
 * [How To DFU](HOWTO-DFU)
 * [How To Update Firmware](HOWTO-Update-Firmware)
 * [How To Upload a Tune](HOWTO-upload-tune)
-* [Developing On Linux](../technical-and-legacy/Developing-On-Linux.md)
 * [rusEFI Bundle](rusEFI-bundle)
 
 </details>

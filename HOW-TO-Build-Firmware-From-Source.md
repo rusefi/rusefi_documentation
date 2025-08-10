@@ -117,7 +117,3 @@ tar -xf gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2
 
 A less fancy toolchain without WSL works as well.
 There is [a forum thread](https://rusefi.com/forum/viewtopic.php?f=5&t=9) on building the firmware, but be aware that it contains some out-of-date information.
-
-## Linux
-
-See [Developing on Linux](../technical-and-legacy/Developing-On-Linux.md)
