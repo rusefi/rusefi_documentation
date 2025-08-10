@@ -18,7 +18,7 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 * individual 6 cylinder ignition / batch fire 8 cylinder ignition
 * smart coils by default, expandable with on-board IGBT igniters to drive legacy coils
 * six additional low side outputs
-* dual on-board WBO controller
+* dual on-board 4.9 WBO controller
 * dual Drive By Wire electronic throttle body
 * one 2A high side output
 * two VRs: one MAX9924 one VR-discrete
