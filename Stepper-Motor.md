@@ -21,4 +21,3 @@ We do not have our own add-on board for a4988, we use ones from eBay like "stepp
 [Stepper Motor Logic - Forum](http://rusefi.com/forum/viewtopic.php?f=5&t=767)
 
 [pinout - Forum](http://rusefi.com/forum/viewtopic.php?f=5&t=767&start=30#p17671)
-

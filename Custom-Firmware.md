@@ -1,6 +1,6 @@
 # Custom rusEFI firmware for your custom board
 
-Historically many custom rusEFI ECUs were running _default_ firmware which takes it roots at ancient Frankenso times. If you have developed a custom board at some point custom firmware would be needed for best user experience around around connector mapping.
+If you have developed a custom board at some point custom firmware would be needed for best user experience around connector mapping.
 
 Only looking to develop a custom board? See https://github.com/rusefi/hellen-example and https://github.com/rusefi/uaefi-adapter-template
 

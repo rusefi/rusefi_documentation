@@ -18,7 +18,7 @@ VR sensors have two wires, VR+ and VR-, usually with an additional shield that p
 
 ### Determine Correct Polarity
 
-#### ECUs with MAX992x-based VR inputs (Proteus, Frankenso)
+#### ECUs with MAX992x-based VR inputs
 
 The [MAX992x series chips](https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX9924.html) provide an integrated single-chip solution for converting a VR sensor's analog signal to a digital one usable by the micro-controller on the ECU.  While these chips are very reliable, they will exhibit incorrect behavior if the VR sensor's wires are swapped.  On a negative zero crossing (ie, voltage decreasing through zero), the output will be exactly aligned with the zero crossing, but on a positive crossing, the threshold is at roughly 1/3 the peak voltage of the VR signal.
 
