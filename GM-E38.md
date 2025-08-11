@@ -11,6 +11,7 @@
 * second CAN bus on aux connector
 * direct OEM dash control without BCM
 * direct cruise control input without BCM
+* (alpha version) 6l80 integration support
 
 ## Connectors
 
