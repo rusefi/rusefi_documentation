@@ -1,3 +1,0 @@
-# Smart Lights
-
-Hello SmartLights
