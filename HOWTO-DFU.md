@@ -35,4 +35,4 @@ A: rusEFI console firmware functionality currently runs on Windows only.
 
 ## Q: Do you have any ST-Link provisions?
 
-Some boards have [Tag-Connect-TC2030] upwards three of those! Some boards have an unofficial (?) ST-Link V2 pinout. Both are intended for software developers while debugging issues, those are not intended for firmware update/recovery.
+Some boards have Tag-Connect-TC2030 upwards three of those! Some boards have an unofficial (?) ST-Link V2 pinout. Both are intended for software developers while debugging issues, those are not intended for firmware update/recovery.

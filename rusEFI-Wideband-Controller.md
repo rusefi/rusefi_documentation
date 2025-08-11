@@ -93,7 +93,7 @@ There was also an opinion voiced that the board needs to see voltage on the "vBa
 ## Fabrication
 
 * Power board with 5v (WBO module produces it's own 3v from supplied 5v)
-* [Tag-Connect-TC2030](Tag-Connect-TC2030) to upload [firmware](https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_image_with_bl.bin)
+* Tag-Connect-TC2030 to upload [firmware](https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_image_with_bl.bin)
 * power cycle to confirm green LED blinking
 
 ![x](Hardware/Hellen/hellen-wbo-F042-soldering-map.jpg)
