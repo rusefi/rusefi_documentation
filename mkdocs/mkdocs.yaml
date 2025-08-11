@@ -78,7 +78,6 @@ nav:
     - 'Firmware Code Doxygen': "https://rusefi.com/docs/html"
     - 'Firmware Code Automated Test Coverage': "https://rusefi.com/docs/unit_tests_coverage"
     - 'HOWTO Contribute To Firmware': HOWTO-contribute-to-firmware.md
-    - 'Connector Mapping': Connector-Mapping.md
   - 'Misc':
     - 'How to convert from carburetor to EFI': how-to-convert-from-carburetor-to-EFI.md
     - 'Do I need a wideband oxygen sensor?': do-i-need-wideband-oxygen-sensor.md
