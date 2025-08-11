@@ -14,6 +14,10 @@ https://www.youtube.com/watch?v=msDKbK9Sljk
 
 Evo X https://www.facebook.com/watch/?v=414928038271416
 
+## 666 hp Camaro LS
+
+e38 PnP https://www.youtube.com/watch?v=NCdxE8RO09E
+
 ## Cold start on a Summer day
 
 v8 LS: [tune](https://rusefi.com/online/view.php?msq=495)
