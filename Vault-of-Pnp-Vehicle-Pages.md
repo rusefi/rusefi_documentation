@@ -1,7 +1,5 @@
 # Vault of Plug-and-Play vehicle pages
 
-[Vehicle Page Template](Vehicle-Page-Template)
-
 ## v12
 
 [HOWTO M73 v12 on Proteus](HOWTO-M73-v12-on-Proteus)
