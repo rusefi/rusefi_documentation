@@ -44,7 +44,7 @@ nav:
   - 'Pages':
     - 'Fuel': Pages-Fuel.md
     - 'Flex Fuel': Flex-Fuel.md
-    - 'Hardware': Pages-Hardware.md
+    - 'Hardware': Hardware.md
     - 'Sensors and Actuators': Pages-Sensors-and-Actuators.md
     - 'Ignition': Pages-Ignition.md
     - 'Software': Pages-Software.md
