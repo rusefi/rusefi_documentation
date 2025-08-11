@@ -86,14 +86,6 @@ please see [Wide-Band-Sensors](Wide-Band-Sensors)
 - shape of connector
 [OEM connectors](OEM-connectors)
 
-## What rusEFI board is correct for your engine?
-
-- Select from [available Plug-and-Play ECUs](Vault-of-Pnp-Vehicle-Pages)
-
-OR
-
-- Build your own custom ECU from a supported MCU kit
-
 ## Getting help
 
 [HOWTO ask questions](HOWTO-ask-questions)
