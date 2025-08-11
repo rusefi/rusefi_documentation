@@ -4,6 +4,8 @@
 
 [firmware dev snapshot](https://rusefi.com/fw-private/rusefi_bundle_pnp-e38_obfuscated_public.zip)
 
+[available at the rusEFI store](https://www.shop.rusefi.com/shop/p/pnp-e38)
+
 🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
 
 * blue connector is auxiliary
