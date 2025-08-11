@@ -49,5 +49,3 @@ A: We offer open source, per-board license and full design buy-in options.
 ### Q: What is your QC control?
 
 A: We have automated QC control see https://youtu.be/jIxbqRJxbsw
-
-See also [Plug-In-Board-Process](Plug-In-Board-Process)
