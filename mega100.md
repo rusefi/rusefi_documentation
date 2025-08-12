@@ -4,7 +4,7 @@
 
 [Available at the store](https://www.shop.rusefi.com/shop/p/mega100-f4)
 
-* require injector MOSFEts that can be driven by 3.3v or less. Nothing to worry about: works for most applications.
+* require injector MOSFEts that can be driven by 3.3v or less. Nothing to worry about: works for most applications: works for most SMD applications, some through-hole too!
 
 <img width="559" height="203" alt="image" src="https://github.com/user-attachments/assets/cadba1f9-bc89-41d2-bd09-2bebb97c2fd5" />
 
