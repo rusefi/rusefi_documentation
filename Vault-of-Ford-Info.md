@@ -8,7 +8,7 @@ https://rusefi.com/docs/pinouts/hellen/coyote/
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Ford/2014%20Ford%20Focus%202.0T.pdf
 
-https://rusefi.com/docs/pinouts/Focus%20ST/
+https://rusefi.com/docs/pinouts/2014-Focus-ST/
 
 ### facelift
 
