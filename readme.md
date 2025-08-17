@@ -12,3 +12,5 @@ See the following documents for more information
 - [HOWTO contribute to documentation](https://github.com/rusefi/rusefi_documentation/blob/master/HOWTO-contribute-to-documentation.md)
 
 - [Documentation Strategy](https://github.com/rusefi/rusefi_documentation/blob/master/Documentation-Strategy.md)
+
+Most technical stuff is at https://github.com/rusefi/technical-and-legacy
