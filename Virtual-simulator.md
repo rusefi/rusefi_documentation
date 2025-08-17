@@ -13,7 +13,7 @@ You'll have to unzip the file and go into the console folder.
 
  ![Directory](FAQ/images/simulator/rusEFI_console_directory.png)
 
- And then open the rusefi_console.jar file.
+ And then launch the rusefi_console.exe file.
 
  ![Contents](FAQ/images/simulator/rusEFI_console_directionary_files.png)
 
