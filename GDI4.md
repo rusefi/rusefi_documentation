@@ -18,6 +18,8 @@ GDI4 is an injector/HPFP driver, not a self-contained ECU. You would use it with
 * TC2030 and 0.1" SWD pinout
 * UART 115200 baud
 
+[integration script](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/gdi4-communication.lua)
+
 ![x](Hardware/GDI/rusefi-gdi4-rev-a.jpg)
 
 ## Changelog
