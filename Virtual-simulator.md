@@ -8,7 +8,7 @@ This simulator allows you to see how the firmware reacts to different commands a
 All you need is a Windows computer. This virtual simulator is built from the same source code as rusEFI controllers firmware.
 
 The rusEFI console runs on Java, so if you don't have that installed on your PC you'll need to download it.
-If you don't have the rusEFI console you can download it [here](https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip).  
+If you don't have the rusEFI console you can download it [default bundle https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip](https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip).  
 You'll have to unzip the file and go into the console folder.
 
  ![Directory](FAQ/images/simulator/rusEFI_console_directory.png)
@@ -27,7 +27,7 @@ There are two ways to connect rusEFI virtual simulator to Tunerstudio, it all de
 
 To start off you'll need to open one of your existing projects or just create a new one.
 
-If you don't know how to create a Tunerstudio project go [here](HOWTO-create-tunerstudio-project)
+If you don't know how to create a Tunerstudio project go [HOWTO-create-tunerstudio-project](HOWTO-create-tunerstudio-project)
 
 With the paid version all you need to do is to go into the communication settings inside a created project
 
@@ -42,7 +42,7 @@ choose the driver "Standard Protocols Driver" and connection type "TCP/IP - WiFi
 ## Emulating a serial port to connect to Tunerstudio lite
 
 If you prefer using the free version of Tunerstudio - Tunerstudio lite -  you'll need to install a serial port emulator
-from [here](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port#download).
+from [hw-group.com](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port#download).
 After download, install it, then run the configuration application "HW Virtual Serial Port".
 
 - switch from "read only access" to "admin access" by clicking "Login" button
