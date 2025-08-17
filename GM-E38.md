@@ -12,6 +12,9 @@ https://github.com/rusefi/e38-e67-customer-support
 
 * blue connector is auxiliary
 * dual 4.9 LSU WBO controller on aux connector
+* x3 low-side aux outputs
+* x3 aux analog inputs
+* x2 digital inputs (flex or buttons)
 * second CAN bus on aux connector
 * direct OEM dash control without BCM
 * direct cruise control input without BCM
