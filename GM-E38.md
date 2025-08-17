@@ -6,6 +6,8 @@
 
 [available at the rusEFI store](https://www.shop.rusefi.com/shop/p/pnp-e38)
 
+https://github.com/rusefi/e38-e67-customer-support
+
 🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
 
 * blue connector is auxiliary
