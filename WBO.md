@@ -13,8 +13,6 @@
 
 See [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
-See [Hellen-WBO](Hellen-WBO)
-
 ## Naming Convention
 
 pin 1 red: IP=Pump Current

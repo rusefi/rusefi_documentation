@@ -4,8 +4,6 @@
 
 [WBO](WBO)
 
-[Hellen-WBO](Hellen-WBO)
-
 ## FAQ
 
 ### Q: dim red LED?
@@ -90,10 +88,16 @@ There was also an opinion voiced that the board needs to see voltage on the "vBa
 
 [https://github.com/mck1117/wideband/issues/11](https://github.com/mck1117/wideband/issues/11)
 
+## Firmware
+
+[Classic 2023 firmware](https://github.com/andreika-git/hellen-one/tree/master/modules/wbo/fw-releases/Wideband%20f0_module%202023-dec)
+
+[2025 release candidate](https://github.com/rusefi/wideband/tree/prod-2025-05/release/rc)
+
 ## Fabrication
 
 * Power board with 5v (WBO module produces it's own 3v from supplied 5v)
-* Tag-Connect-TC2030 to upload [firmware](https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_image_with_bl.bin)
+* Tag-Connect-TC2030 to upload
 * power cycle to confirm green LED blinking
 
 ![x](Hardware/Hellen/hellen-wbo-F042-soldering-map.jpg)
