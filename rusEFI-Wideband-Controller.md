@@ -1,7 +1,5 @@
 # rusEFI Wideband Controller
 
-**NOTE: This is currently under development.  This page might be wrong or change quickly.**
-
 [WBO](WBO)
 
 ## FAQ
