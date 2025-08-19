@@ -87,3 +87,7 @@ https://github.com/rusefi/rusefi/wiki/Gen-4-LS
 Global B
 
 12724875 2024 CT5
+
+49 blue 0345760303
+
+49 black 0345760103
