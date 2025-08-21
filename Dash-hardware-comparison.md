@@ -1,4 +1,6 @@
-# esp32
+# dev: Dash Hardware Options
+
+## esp32
 
 🟢 single click purchase $40 complete platform
 
@@ -10,7 +12,7 @@
 
 https://github.com/Light-r4y/uaDASH
 
-# stm32
+## stm32
 
 🔴 temperature range
 
@@ -22,7 +24,7 @@ https://github.com/romioRN/Dash_6.8-hardware
 
 https://github.com/romioRN/Dash6.8_firmware
 
-# allwinner
+## allwinner
 
 🟢 temperature range
 
