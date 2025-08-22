@@ -84,6 +84,8 @@ https://github.com/rusefi/rusefi/wiki/Gen-4-LS
 
 ## E99
 
+https://rusefi.com/docs/pinouts/GM-E99/
+
 Global B
 
 12724875 2024 CT5
