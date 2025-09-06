@@ -4,6 +4,22 @@ Hellen? сложнее, надо писать в [чатик](https://chat.whats
 
 Тут у нас русская версия [https://shop.rusefi.com/](https://shop.rusefi.com/)
 
+## Ultra Affordable EFI
+
+https://github.com/rusefi/rusefi/wiki/uaEFI
+
+плата без припаянных молексов стоит столько же, сколько плата с припаяннными молексами - https://www.google.com/search?q=175+usd+to+rub
+
+пакетик ответных частей молекса для обжима стоит ещё https://www.google.com/search?q=40+usd+to+rub
+
+## mega144
+
+stm32 в форм факторе mega2560 https://github.com/rusefi/rusefi/wiki/mega144
+
+https://www.google.com/search?q=49+usd+to+rub
+
+## microRusEFI 
+
 У нас есть собранные microRusEFI в Питере. <https://rusefi.com/index.html#microrusefi>
 
 У нас есть собранные Proteus 500 USD в рублях по курсу с только белым разъёмом проводки, и 550 USD в рублях по курсу с полным комплектом под обжим
@@ -34,12 +50,6 @@ Hellen? сложнее, надо писать в [чатик](https://chat.whats
 Кстати, русский чатик [https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB](https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB)
 
 PS: всё очень добровольно. Всегда есть вариант всё сделать самим, см. [https://www.drive2.ru/c/555801204769161551/](https://www.drive2.ru/c/555801204769161551/) - обратите внимание, что есть более новые версии платы
-
-## Ultra Affordable EFI
-
-плата без припаянных молексов стоит столько же, сколько плата с припаяннными молексами - https://www.google.com/search?q=175+usd+to+rub
-
-пакетит ответных частей молекся для обжима стоит ещё https://www.google.com/search?q=40+usd+to+rub
 
 ## четыре по цене трёх
 
