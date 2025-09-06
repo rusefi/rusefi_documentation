@@ -18,7 +18,6 @@ PRO comes with extra memory for extra Lua
 
 [uaEFI PRO Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi_pro.zip)
 
-
 ## Technical Details
 
 [General rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Support)
