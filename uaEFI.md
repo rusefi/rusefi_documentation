@@ -12,6 +12,13 @@
 
 [uaEFI Stable Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip) [uaEFI Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
 
+## Software for PRO edition
+
+PRO comes with extra memory for extra Lua
+
+[uaEFI PRO Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi_pro.zip)
+
+
 ## Technical Details
 
 [General rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Support)
