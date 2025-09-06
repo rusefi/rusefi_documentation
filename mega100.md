@@ -10,7 +10,7 @@
 
 https://github.com/rusefi/fw-custom-mega100-f4/
 
-See also [mega144](mega144)
+See also [mega144](mega144) for a version with more powerful MCU
 
 Inspired by https://github.com/pazi88 work!
 
