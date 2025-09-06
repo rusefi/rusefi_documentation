@@ -11,3 +11,15 @@
 https://github.com/rusefi/fw-custom-mega100-f4/
 
 See also [mega144](mega144)
+
+Inspired by https://github.com/pazi88 work!
+
+## Changelog
+
+### Blue
+
+logic buffers are not needed if using modern MOSFETs
+
+### Purple
+
+that one has logic buffers
