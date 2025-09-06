@@ -18,7 +18,7 @@ stm32 в форм факторе mega2560 https://github.com/rusefi/rusefi/wiki/
 
 https://www.google.com/search?q=49+usd+to+rub
 
-## microRusEFI 
+## microRusEFI
 
 У нас есть собранные microRusEFI в Питере. <https://rusefi.com/index.html#microrusefi>
 
@@ -49,7 +49,7 @@ https://www.google.com/search?q=49+usd+to+rub
 
 Кстати, русский чатик [https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB](https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB)
 
-PS: всё очень добровольно. Всегда есть вариант всё сделать самим, см. [https://www.drive2.ru/c/555801204769161551/](https://www.drive2.ru/c/555801204769161551/) - обратите внимание, что есть более новые версии платы
+PS: всё очень добровольно. Всегда есть вариант многое сделать самим, см. [https://www.drive2.ru/c/555801204769161551/](https://www.drive2.ru/c/555801204769161551/) - обратите внимание, что есть более новые версии платы
 
 ## четыре по цене трёх
 
