@@ -2,6 +2,8 @@
 
 [Firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_mega144-f7.zip)
 
+[available at the store](https://www.shop.rusefi.com/shop/p/mega144)
+
 A way to convert legacy Arduino hardware into rusEFI: mega2560 form factor board compatible with newer 3v MOSFETs
 
 Uses smt32f7 meaning extra Lua capacity
@@ -10,4 +12,4 @@ Uses smt32f7 meaning extra Lua capacity
 
 https://github.com/rusefi/fw-custom-mega144-f7/
 
-See [mega100](mega100) for lqft100 version
+Superior sibling of [mega100](mega100) for lqft100 version - extra performance and extra memory for extra Lua scripting.
