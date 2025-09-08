@@ -13,3 +13,13 @@ Uses smt32f7 meaning extra Lua capacity
 https://github.com/rusefi/fw-custom-mega144-f7/
 
 Superior sibling of [mega100](mega100) for lqft100 version - extra performance and extra memory for extra Lua scripting.
+
+## FAQ
+
+### Q: is it safe to connect 0–5v Hall input directly?
+
+A: many stm32 input pins are 5v tolerant
+
+### Q: international shipping costs more than one board?
+
+A: Great reason to order multiple boards and split shipping with your friends! International shipping is annoying for us as well.
