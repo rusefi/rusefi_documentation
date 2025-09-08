@@ -20,7 +20,7 @@ Superior sibling of [mega100](mega100) for lqft100 version - extra performance a
 
 ## MOSFETs
 
-* STP62NS04Z tbd https://www.st.com/resource/en/datasheet/stp62ns04z.pdf
+* STP62NS04Z 🔴 not compatible https://www.st.com/resource/en/datasheet/stp62ns04z.pdf
  
 ## FAQ
 
