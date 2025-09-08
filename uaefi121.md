@@ -14,6 +14,7 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/uaefi121/)
 
+* TL,DR: uaEFI with a couple of extra outputs, automotive header and metal enclosure
 * sequential 8 cylinder injection
 * individual 6 cylinder ignition / batch fire 8 cylinder ignition
 * smart coils by default, expandable with on-board IGBT igniters to drive legacy coils
