@@ -41,6 +41,14 @@
 
 ## Changelog
 
+### rev D2
+
+* improved USB silkscreen
+
+### rev D
+
+* WBO CANbus flipped fix
+
 ### rev C
 
 general availability!
