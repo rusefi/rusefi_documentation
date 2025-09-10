@@ -2,6 +2,8 @@
 
 A sibling of uaefi121 with stm32f7 for larger Lua using superseal headers.
 
+[available at the rusEFI Store](https://www.shop.rusefi.com/shop/p/super-uaefi)
+
 ## Community Support
 
 🔴Community support ONLY 🔴 [Support starts here](https://github.com/rusefi/rusefi/wiki/Support)🔴
