@@ -607,6 +607,12 @@ a subset of 122 pin connector
 Honda K Series
 relayed to 72 pin NB2 but only two plugs are shared
 
+## 111 pin
+
+Nissan Maxima 2002-2003
+
+5353667-1
+
 ## 112 pin
 
 Molex 64333-0100
