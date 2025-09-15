@@ -8,6 +8,8 @@ Uses lambda-x2 firmware, overall this is a truncated compact edition of lambda-x
 
 Only 4.9 for now
 
+![WhatsApp Image 2025-09-15 at 13 12 44_2588a573](https://github.com/user-attachments/assets/07c6a5aa-b7da-4f80-954d-3510ee494281)
+
 ## Changelog
 
 rev A
