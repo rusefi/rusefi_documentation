@@ -626,6 +626,8 @@ Molex 64333-0100
 
 2010 Nissan Versa
 
+Patrol Y61 TB48
+
 ## 112 pin 64+48
 
 F01R 20D 067 2050900-1
