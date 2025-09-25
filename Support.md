@@ -4,7 +4,7 @@
 
 rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises including zero promises of technical support.
 
-rusEFI has zero full time staff and most of rusEFI contributors all over the globe have day jobs and other obligations.
+rusEFI has zero technical support staff and most of rusEFI contributors all over the globe have day jobs and other obligations.
 We offer very flexible universal units which empower motorsports professionals or enthusiasts to accomplish a lot, we do not have a retail operation offering services to end users.
 
 [https://rusefi.com/forum/](https://rusefi.com/forum/) is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online), more on this at [Quick-Start-PDF](https://github.com/rusefi/rusefi/wiki/rusEFI-Quick-Start-PDF)
