@@ -9,7 +9,7 @@ gasoline engines up to 4 cylinders.
 
 [Connector Pinout](Hardware-microRusEFI-wiring)
 
-[Latest Schematics](https://github.com/rusefi/hw_microRusEfi/blob/master/microRusEfi_Schematic.pdf)
+[Latest Schematics](https://github.com/rusefi/hw_microRusEfi/blob/master/gerbers/R0.6.0/micro_rusEFI.pdf)
 
 [Forum Thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
