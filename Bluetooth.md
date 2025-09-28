@@ -41,3 +41,8 @@ https://rusefi.com/forum/viewtopic.php?f=13&t=1999
 ## BluetoothView
 
 A cool relevant Windows utility http://www.nirsoft.net
+
+## Is there hope?
+
+We do not have motivation and resources to spare on better slow connection profile. If anything consider WiFi maybe https://github.com/Light-r4y/UART-TCP-proxy
+
