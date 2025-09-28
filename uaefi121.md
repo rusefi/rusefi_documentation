@@ -24,7 +24,7 @@ Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 * one 2A high side output
 * two VRs: one MAX9924 one VR-discrete
 * knock sensor input
-* 121 pin header (40P+81P) (81 female plug 1355171-1/368389-1/368382-1/1J0906385C) (40 female plug 0-1355172-1/038906379B)
+* 121 pin header (40P+81P) (81 female plug 1355171-1/368389-1/368382-1/1J0906385C) (40 female plug 0-1355172-1/038906379B) terminals 928886-1
 * metal enclosure
 * on-board digital baro sensor
 * Optional on-board EGT
