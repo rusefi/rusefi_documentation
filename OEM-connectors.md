@@ -977,6 +977,8 @@ Aptiv Delphi 13830808
 
 48 + 53 + 53
 
+34763-0005
+
 [Molex 0347630001](https://www.molex.com/molex/products/part-detail/pcb_headers/0347630001)
 
 ## 167
