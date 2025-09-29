@@ -1,5 +1,7 @@
 # GM E38
 
+## Information
+
 [interactive pinout](https://rusefi.com/docs/pinouts/GM-E38/)
 
 [stable](https://rusefi.com/fw-private/lts/lts-25ambrosia/rusefi_bundle_pnp-e38_obfuscated_public.zip)
@@ -12,14 +14,16 @@ https://github.com/rusefi/e38-e67-customer-support
 
 🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
 
+## Specs
+
 * blue connector is auxiliary
 * dual 4.9 LSU WBO controller on aux connector
 * x3 low-side aux outputs
 * x3 aux analog inputs
 * x2 digital inputs (flex or buttons)
 * second CAN bus on aux connector
-* direct OEM dash control without BCM
-* direct cruise control input without BCM
+* (alpha version) direct OEM dash control without BCM
+* (alpha version) direct cruise control input without BCM
 * (alpha version) 6l80 integration support
 
 ## Connectors
