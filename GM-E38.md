@@ -18,8 +18,8 @@ https://github.com/rusefi/e38-e67-customer-support
 * x3 aux analog inputs
 * x2 digital inputs (flex or buttons)
 * second CAN bus on aux connector
-* direct OEM dash control without BCM
-* direct cruise control input without BCM
+* (alpha version) direct OEM dash control without BCM
+* (alpha version) direct cruise control input without BCM
 * (alpha version) 6l80 integration support
 
 ## Connectors
