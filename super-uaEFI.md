@@ -6,7 +6,7 @@ A sibling of uaefi121 with stm32f7 for larger Lua using superseal headers.
 
 ## Community Support
 
-🔴Community support ONLY 🔴 [Support starts here](https://github.com/rusefi/rusefi/wiki/Support)🔴
+🔴Community support ONLY 🔴 [Support starts here](https://github.com/rusefi/rusefi/wiki/Support)🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
 
 ## Software
 
