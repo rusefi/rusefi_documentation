@@ -29,10 +29,12 @@ Closed Loop Fueling|✓
 [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)|✓
 Boost Control|✓
 Dual AFR signal logging|✓
+Staged Injection|✓
 [Launch Control](Launch-Control)|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
 [Digital Dash](Digital-Dash)|✓
-[Blending](Blending)|✓
+[Blending (advanced version of dual table)](Blending)|✓
+[Blending (advanced version of dual table)](Blending)|✓
 [on board wideband controller](WBO)|✓
 [Knock Sensing & response](knock-sensing)|✓
 [Multi-Spark](Multi-Spark)|✓
