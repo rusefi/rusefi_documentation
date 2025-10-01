@@ -4,7 +4,7 @@
 
 ## Download and Install
 
-As of January 2024 it's recommended to [download and install TunerStudio BETA version](https://www.efianalytics.com/TunerStudio/beta/)
+[download and install TunerStudio](https://www.efianalytics.com/TunerStudio/)
 
 ## Detect mode
 
