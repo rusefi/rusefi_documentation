@@ -6,7 +6,7 @@ Obviously all official units are shipped with firmware installed. Modern Windows
 
 Minimal steps on your end:
 
-a) [Download and Install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install) note that we recommend Beta version
+a) [Download and Install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install)
 
 b) hit 'Detect' button and let TunerStudio download .ini from the internet
 
