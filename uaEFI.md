@@ -110,6 +110,10 @@ Q: How do I use uaEFI with dumb coils?
 
 A: See notes on the schematics, it has part numbers to add and reference numbers to remove!
 
+Q: Would it run v12?
+
+A: definitely would idle v12, not sure if thermal would be a problem at higher RPM with two injectors per channel
+
 Q: How do I add bluetooth?
 
 A: See https://github.com/rusefi/rusefi/wiki/Bluetooth#jdy
