@@ -2,6 +2,8 @@
 
 This is a repository of a bunch of info relevant to fitting rusEFI to the older (Pre E46/Pre CANBUS) BMWs.
 
+https://www.bimmertuningtools.com/pinouts/
+
 ## Early Motronic Ti Signal (Fuel Consumption)
 
 [BMW MPG gauge and MS3](https://www.msextra.com/forums/viewtopic.php?f=131&t=59516&start=20)  
