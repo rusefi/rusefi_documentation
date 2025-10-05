@@ -101,6 +101,10 @@ Q: Can it do 8x8?
 
 A: You would have to remove two flyback diodes to have 8 similar injector outputs. You would have to figure out a way to have 8 equal coil outputs, maybe settle on wasted spark?
 
+Q: what's the difference between normal and PRO?
+
+A: 97% of users should go with Normal. PRO can do much more complex Lua scripts.
+
 Q: Do you have any dealer prices or discount for companies?
 
 A: There is too little profit margin on these to offer discounts sorry.
