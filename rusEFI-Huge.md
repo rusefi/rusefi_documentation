@@ -4,6 +4,8 @@
 
 [Gets yours at rusEFI store](https://www.shop.rusefi.com/shop/p/rusefi-huge)
 
+[rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
+
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
 
 [Firmware Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan_f7.zip)
