@@ -1,6 +1,10 @@
-# AlphaX Platinum
+# rusEFI Huge
+
+Previously known as 8chan
 
 [Gets yours at rusEFI store](https://www.shop.rusefi.com/shop/p/alphax-platinum)
+
+[rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
 
 [Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
 
