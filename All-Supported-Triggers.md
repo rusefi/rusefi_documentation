@@ -55,6 +55,7 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 ![x](Images/triggers/trigger_TT_TOOTHED_WHEEL_36_2.png)
 
 ## Bosch Quick Start
+
 If the trigger seems to spin backwards, change from Rising edge to Falling edge and vise versa in the trigger setup in TunerStudio. For more Info see [this forum thread](https://rusefi.com/forum/viewtopic.php?f=17&t=2977)
 
 ![x](Images/triggers/trigger_TT_VVT_BOSCH_QUICK_START.png)
