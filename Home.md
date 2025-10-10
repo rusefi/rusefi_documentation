@@ -40,12 +40,12 @@ Staged Injection|✓
 [Multi-Spark](Multi-Spark)|✓
 [Lua Scripting](Lua-Scripting)|✓
 [Direct Injection](GDI-status)|✓
+Flat Shifting|✓
 [Kick start](Kick-Start)|✓
 [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)|✓
 Traction Control|✓
 [Rotary Engines](Rotary)|?
 [Antilag](https://github.com/rusefi/rusefi/issues/2403)|✗
-Flat Shifting|✗
 [Automatic Transmission Control](TCU-status)|✗
 
 Achievement| Results
