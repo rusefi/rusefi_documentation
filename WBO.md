@@ -9,6 +9,8 @@
 
 ## rusEFI Wide band oxygen
 
+[youtube has a great video](https://www.youtube.com/watch?v=tb7ZC1hpdyI)
+
 * [https://github.com/mck1117/wideband](https://github.com/mck1117/wideband) is what we use [the forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1856)
 
 See [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
