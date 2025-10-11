@@ -12,7 +12,7 @@ We have too many channels.
 * github tickets [Vault-Of-Memes](Vault-Of-Memes)
 * forum
 * facebook
-* discord
+* discord (which has threads but humans rarely use threads)
 
 Universal long term car knowledge? probably wiki
 
