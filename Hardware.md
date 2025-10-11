@@ -1,7 +1,6 @@
 # Hardware
 
 Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 microcontrollers.
-We also have Kinetis and Cypress prototypes.
 
 As of 2024 we are selling five universal ECUs. See [Mission-Statement](Mission-Statement)
 
