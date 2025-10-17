@@ -6,6 +6,8 @@ GDI4 is an injector/HPFP driver, not a self-contained ECU. You would use it with
 
 [Issue Tracker](https://github.com/rusefi/rusefi-hardware/labels/GDI)  [Hardware & Firmware](https://github.com/rusefi/rusefi-hardware/tree/main/GDI-4ch/)
 
+[firmware release](https://github.com/rusefi/rusefi-hardware/releases/tag/20251017_release)
+
 * 4 GDI injectors with peak-hold control using NXP PT2001 chip
 * Aux analog inputs
 * CAN connectivity
