@@ -45,6 +45,7 @@ PRO comes with extra memory for extra Lua
 * on-board SD card
 * up to two CAN buses
 * on-board digital baro sensor
+* 9+2 analog inputs
 * four above 1A current low side outputs
 * a couple of lower current low side outputs
 * flex fuel input
