@@ -1,8 +1,6 @@
 # Ultra Affordable EFI for Honda OBD1
 
-## Community Support
-
-🔴Community support ONLY 🔴 [Support starts here](https://github.com/rusefi/rusefi/wiki/Support)🔴
+🔴Community support ONLY🔴[Support Statement](https://github.com/rusefi/rusefi/wiki/Support)🔴https://www.facebook.com/groups/rusEfi🔴[Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
 
 ## firmware
 

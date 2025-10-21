@@ -1,10 +1,10 @@
 # Proteus Manual
 
-[💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)
+Out older fully-featured larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)
 
 [New to rusEFI start here](Home)
 
-## Hardware
+## Specs
 
 * 16x 4A low-side drivers
 * 12x 5v ignition (or general purpose) outputs

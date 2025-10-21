@@ -1,12 +1,8 @@
 # Ultra Affordable EFI
 
-## Shop
+Most ECU features in this price category available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)
 
-🟢[$175 base model rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)🟢
-
-## Community Support
-
-🔴Community support ONLY 🔴 [Support starts here](https://github.com/rusefi/rusefi/wiki/Support)🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
+🔴Community support ONLY🔴[Support Statement](https://github.com/rusefi/rusefi/wiki/Support)🔴https://www.facebook.com/groups/rusEfi🔴[Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
 
 ## Software
 
@@ -34,7 +30,7 @@ PRO comes with extra memory for extra Lua
 
 [WBO documentation](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
 
-## Features
+## Specs
 
 * sequential six smart coils with option of on-board igniters
 * sequential six injector outputs
@@ -109,7 +105,7 @@ A: 97% of users should go with Normal. PRO can do much more complex Lua scripts.
 Q: Do you have any dealer prices or discount for companies?
 
 A: There is too little profit margin on these to offer discounts sorry.
-PCB files are available for free you should be able to order your own, paid consulting is available on how to set things up with JLCPCB if you need help.
+PCB files are available for free you should be able to order your own, paid consulting is available on how to set things up with JLCPCB if you need help.
 
 Q: How do I use uaEFI with dumb coils?
 
@@ -131,3 +127,5 @@ Q: Stepper?
 
 A: yes possible
 ![image](https://github.com/user-attachments/assets/c2d71f49-11ca-4bbf-a495-85875e6f8203)
+
+🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
