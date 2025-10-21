@@ -2,36 +2,16 @@
 
 Most ECU features in this price category available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)
 
-🔴Community support ONLY🔴[Support Statement](https://github.com/rusefi/rusefi/wiki/Support)🔴https://www.facebook.com/groups/rusEfi🔴[Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
+🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 
-## Software
+[New to rusEFI start here](Home)
 
-[uaEFI Stable Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip) [uaEFI Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
-
-## Software for PRO edition
-
-PRO comes with extra memory for extra Lua
-
-[uaEFI PRO Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi_pro.zip)
-
-## Technical Details
-
-[General rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Support)
-
-[uaEFI interactive pinout](https://rusefi.com/docs/pinouts/hellen/uaefi/)
-
-[Schematics rev c](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-c/board/uaefi-c-schematic.pdf)
-[Schematics rev b](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-b/board/uaefi-b-schematic.pdf)
-[Schematics rev a](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-a/board/uaefi-a-schematic.pdf)
-
-[uaEFI schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
-
-[uaEFI interactive BOM rev D](https://rusefi.com/docs/ibom/uaefi-d-ibom.html) [uaEFI interactive BOM rev A](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
-
-[WBO documentation](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
+[uaEFI Latest Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip) [uaEFI Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip) [uaEFI PRO Latest Software](https://rusefi.com/build_server/rusefi_bundle_uaefi_pro.zip)
 
 ## Specs
 
+* [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/uaefi/)
+* One of the eight [universal units we offer](Hardware)
 * sequential six smart coils with option of on-board igniters
 * sequential six injector outputs
 * two VRs: one MAX9924 one vr-discrete (Add R1 to switch MAX9924 into Hall mode)
@@ -53,6 +33,22 @@ PRO comes with extra memory for extra Lua
 * expandable with on-board Bluetooth (JDY-33 would need to be soldered)
 * expandable with on-board EGT input (MAX31855 and related passives would need to be soldered)
 * on-board real time cr1220 clock battery (software broken https://github.com/rusefi/rusefi/issues/4556)
+* PRO comes with extra memory for extra Lua
+
+
+## Technical Details
+
+[General rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Support)
+
+[Schematics rev c](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-c/board/uaefi-c-schematic.pdf)
+[Schematics rev b](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-b/board/uaefi-b-schematic.pdf)
+[Schematics rev a](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-a/board/uaefi-a-schematic.pdf)
+
+[uaEFI schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
+
+[uaEFI interactive BOM rev D](https://rusefi.com/docs/ibom/uaefi-d-ibom.html) [uaEFI interactive BOM rev A](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
+
+[WBO documentation](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
 
 ![x](https://raw.githubusercontent.com/rusefi/uaefi/master/docs/uaefi-a-top.png)
 

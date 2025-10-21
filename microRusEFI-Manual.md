@@ -1,16 +1,22 @@
 # microRusEFI Manual
 
-## Software
+Our older fully-featured larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/microrusefi-assembled-ecu-development-module)
 
-[Download Release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
+🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 
-[Download Snapshot firmware](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
+[New to rusEFI start here](Home)
+
+[microRusEFI Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
+[microRusEFI Latest Software](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
+
+## Specs
+
+* [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/microrusefi/)
+* One of the eight [universal units we offer](Hardware)
 
 [Release vs Snapshot](https://github.com/rusefi/rusefi/wiki/Release-Snapshot-Latest-firmware)
 
 ## microRusEFI User Documentation
-
-[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/microrusefi/)
 
 [microRusEFI Hardware](Hardware-microRusEFI)
 

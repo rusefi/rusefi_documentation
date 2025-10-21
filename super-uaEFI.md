@@ -2,13 +2,16 @@
 
 A sibling of uaefi121 with stm32f7 for larger Lua with motorsports superseal headers available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/super-uaefi)
 
-🔴Community support ONLY🔴[Support Statement](https://github.com/rusefi/rusefi/wiki/Support)🔴https://www.facebook.com/groups/rusEfi🔴[Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
+🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 
-## Software
+[New to rusEFI start here](Home)
 
-[uaEFI Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_super-uaefi.zip)
+[super-uaEFI Latest Software](https://rusefi.com/build_server/rusefi_bundle_super-uaefi.zip)
 
-[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/super-uaefi/)
+## Specs
+
+* [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/super-uaefi/)
+* One of the eight [universal units we offer](Hardware)
 
 ## Harness Connectors
 

@@ -4,15 +4,14 @@ A sibling of [uaEFI](uaefi) with metal enclosure available at [💲rusEFI store�
 
 🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 
+[New to rusEFI start here](Home)
 
-## Software
-
-[uaEFI121 Stable Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip) [uaEFI121 Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi121.zip)
+[uaEFI121 Stable Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip) [uaEFI121 Latest Software](https://rusefi.com/build_server/rusefi_bundle_uaefi121.zip)
 
 ## Specs
 
-[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/uaefi121/)
-
+* [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/uaefi121/)
+* One of the eight [universal units we offer](Hardware)
 * TL,DR: uaEFI with a couple of extra outputs, automotive header and metal enclosure
 * sequential 8 cylinder injection
 * individual 6 cylinder ignition / batch fire 8 cylinder ignition

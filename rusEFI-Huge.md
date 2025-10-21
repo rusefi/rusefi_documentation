@@ -1,12 +1,13 @@
 # rusEFI Huge
 
-🔴Community support ONLY 🔴
+Our older fully-featured larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/rusefi-huge)
 
-[Gets yours at rusEFI store](https://www.shop.rusefi.com/shop/p/rusefi-huge)
+🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
+
+[New to rusEFI start here](Home)
 
 [rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
 
-[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
 
 [Firmware Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan_f7.zip)
 
@@ -14,6 +15,10 @@
 
 [iBom rev C](https://rusefi.com/docs/ibom/alphax_8ch-c-ibom.html)
 
+## Specs
+
+* [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
+* One of the eight [universal units we offer](Hardware)
 * 12 HighZ injector channels
 * 12 logic level coil control
 * 4 H-bridges

@@ -1,8 +1,12 @@
 # Proteus Manual
 
-Out older fully-featured larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)
+Our older fully-featured larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)
+
+🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 
 [New to rusEFI start here](Home)
+
+[Proteus Latest Software](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
 
 ## Specs
 
@@ -22,15 +26,13 @@ Out older fully-featured larger ECU available at [💲rusEFI store💲](https://
 * Dual 5v sensor supplies, 150mA each, fully protected
 * Dual protected 12v external sensor supply
 
-## Software
+## Legacy Revisions Software
 
-Proteus 0.6/0.7 (STM32F7)  [Release F7](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip) [Snapshot F7](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
+Proteus 0.6/0.7 (STM32F7)  [Release F7](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
 
 Legacy Proteus 0.3-0.5 and 0.7 (STM32F4) [Release F4](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [Snapshot F4](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
 
 ## Wiring & Pinout
-
-[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/proteus/)
 
 [List of I/O](https://github.com/mck1117/proteus#proteus)
 
