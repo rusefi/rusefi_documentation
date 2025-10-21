@@ -1,6 +1,6 @@
-# Proteus
+# Proteus - OLD PAGE
 
-[Proteus Manual](Proteus-Manual)
+[current Proteus Manual](Proteus-Manual)
 
 Q: where can I buy a Proteus?
 
