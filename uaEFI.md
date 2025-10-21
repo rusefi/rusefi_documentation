@@ -18,17 +18,17 @@ Most ECU features in this price category available at [💲rusEFI store💲](htt
 * [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/uaefi/)
 * One of the eight [universal units we offer](Hardware)
 * sequential six smart coils with option of on-board igniters
-* sequential six injector outputs
+* sequential six injector outputs. Unused outputs can be assigned to other functions.
+* four above 1A current low side outputs (six on new revisions)
+* a couple of lower current low side outputs
 * two VRs: one MAX9924 one vr-discrete (Add R1 to switch MAX9924 into Hall mode)
-* two hall inputs
-* dual DC motor to drive dual DBW or ETB+wastegate or stepper idle
+* three hall inputs
+* two DC motor drivers up to 6A. Can drive two ETBs or ETB + electronic wastegate or stepper idle
 * on-board 4.9 LSU WBO controller
 * on-board SD card
 * up to two CAN buses
 * on-board digital baro sensor
 * 9+2 analog inputs
-* four above 1A current low side outputs
-* a couple of lower current low side outputs
 * flex fuel input
 * knock sensor input
 * proto area
@@ -37,8 +37,9 @@ Most ECU features in this price category available at [💲rusEFI store💲](htt
 * expandable with on-board MAP sensor (MPX4250AP or smaller)
 * expandable with on-board Bluetooth (JDY-33 would need to be soldered)
 * expandable with on-board EGT input (MAX31855 and related passives would need to be soldered)
+* expandable with second CAN bus (TJA1051T and related passives would need to be soldered)
 * on-board real time cr1220 clock battery (software broken https://github.com/rusefi/rusefi/issues/4556)
-* PRO comes with extra memory for extra Lua
+* PRO comes with extra memory for Lua and more powerfull MCU
 
 ## Technical Details
 
