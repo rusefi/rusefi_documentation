@@ -1,12 +1,14 @@
 # super-uaEFI
 
-A sibling of uaefi121 with stm32f7 for larger Lua with motorsports superseal headers available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/super-uaefi)
+A sibling of [uaefi121](uaefi121) with stm32f7 for larger Lua with motorsports superseal headers available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/super-uaefi)
 
 🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 
 [New to rusEFI start here](Home)
 
-[super-uaEFI Latest Software](https://rusefi.com/build_server/rusefi_bundle_super-uaefi.zip)
+[super-uaEFI Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_super-uaefi.zip)
+[super-uaEFI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_super-uaefi.zip)
+[Release vs Snapshot](https://github.com/rusefi/rusefi/wiki/Release-Snapshot-Latest-firmware)
 
 ## Specs
 

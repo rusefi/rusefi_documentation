@@ -6,7 +6,9 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 [New to rusEFI start here](Home)
 
-[Proteus Latest Software](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
+[Proteus Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
+[Proteus Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
+[Release vs Snapshot](https://github.com/rusefi/rusefi/wiki/Release-Snapshot-Latest-firmware)
 
 ## Specs
 
@@ -27,8 +29,6 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 * Dual protected 12v external sensor supply
 
 ## Legacy Revisions Software
-
-Proteus 0.6/0.7 (STM32F7)  [Release F7](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
 
 Legacy Proteus 0.3-0.5 and 0.7 (STM32F4) [Release F4](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [Snapshot F4](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
 

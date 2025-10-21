@@ -1,12 +1,14 @@
 # uaEFI 121
 
-A sibling of [uaEFI](uaefi) with metal enclosure available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/uaefi121)
+A sibling of [uaEFI](uaEFI) with metal enclosure available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/uaefi121)
 
 🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 
 [New to rusEFI start here](Home)
 
-[uaEFI121 Stable Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip) [uaEFI121 Latest Software](https://rusefi.com/build_server/rusefi_bundle_uaefi121.zip)
+[uaEFI121 Stable Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip)
+[uaEFI121 Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi121.zip)
+[Release vs Snapshot](https://github.com/rusefi/rusefi/wiki/Release-Snapshot-Latest-firmware)
 
 ## Specs
 

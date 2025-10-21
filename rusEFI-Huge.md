@@ -4,15 +4,11 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 
-[New to rusEFI start here](Home)
+[New to rusEFI start here](Home) [rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
 
-[rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
-
-[Firmware Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan_f7.zip)
-
-[Schematics rev c](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax_8ch-c-schematic.pdf)
-
-[iBom rev C](https://rusefi.com/docs/ibom/alphax_8ch-c-ibom.html)
+[Huge Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_alphax-8chan_f7.zip)
+[Huge Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan_f7.zip)
+[Release vs Snapshot](https://github.com/rusefi/rusefi/wiki/Release-Snapshot-Latest-firmware)
 
 ## Specs
 
@@ -32,7 +28,13 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 * optional to mount on-board MAP sensor: vertical mpxh6400a, legacy horizontal mpx4250ap
 * optional [JDY-33 bluetooth](https://github.com/rusefi/rusefi/wiki/Bluetooth)
 
-![WhatsApp Image 2024-01-11 at 12 50 21_711b3236](https://github.com/rusefi/rusefi/assets/48498823/5ddf9953-7b37-43dc-b920-24e7b9515a97)
+## Technical Details
+
+[Schematics rev c](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax_8ch-c-schematic.pdf)
+
+[iBom rev C](https://rusefi.com/docs/ibom/alphax_8ch-c-ibom.html)
+
+![huge photo](https://github.com/rusefi/rusefi/assets/48498823/5ddf9953-7b37-43dc-b920-24e7b9515a97)
 
 ``bluetooth_jdy 115200 huge 1234``
 
