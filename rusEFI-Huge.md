@@ -8,7 +8,6 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 [rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
 
-
 [Firmware Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan_f7.zip)
 
 [Schematics rev c](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax_8ch-c-schematic.pdf)

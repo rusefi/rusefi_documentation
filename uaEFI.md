@@ -35,7 +35,6 @@ Most ECU features in this price category available at [💲rusEFI store💲](htt
 * on-board real time cr1220 clock battery (software broken https://github.com/rusefi/rusefi/issues/4556)
 * PRO comes with extra memory for extra Lua
 
-
 ## Technical Details
 
 [General rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Support)
