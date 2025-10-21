@@ -25,9 +25,9 @@
 | 4A | Ground | |
 | 4B | Digital Input | Flex Sensor |
 | 4C | Temperature or PPS2 | Temp or ETB Pedal |
-| 4D | Boost Controller Output |
+| 4D | Boost Controller Output ||
 | 4E | VVT Output | |
-| 4F | +5v |
+| 4F | +5v ||
 | 4G | WBO Vs/Ip | LSU 4.9 Pin 2 |
 | 4H | WBO Vs | LSU 4.9 Pin 6 |
 | 4I | WBO R Trim | LSU 4.9 Pin 5 |
