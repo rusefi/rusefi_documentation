@@ -10,7 +10,7 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 ## Specs
 
-[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/proteus/)
+* [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/proteus/)
 * One of the eight [universal units we offer](Hardware)
 * 16x 4A low-side drivers
 * 12x 5v ignition (or general purpose) outputs
