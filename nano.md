@@ -8,7 +8,7 @@ Out smallest universal ECU available at [💲rusEFI store💲](https://www.shop.
 
 ## Specs
 
-[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/nano/)
+* [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/nano/)
 * One or two cylinder ECU
 * VR input
 * total 6 low side outputs
