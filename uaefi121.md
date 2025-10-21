@@ -12,7 +12,7 @@
 
 Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/uaefi121/)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/uaefi121/)
 
 * TL,DR: uaEFI with a couple of extra outputs, automotive header and metal enclosure
 * sequential 8 cylinder injection
