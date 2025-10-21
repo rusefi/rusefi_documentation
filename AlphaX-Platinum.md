@@ -2,11 +2,11 @@
 
 Previously known as 8chan
 
-[Gets yours at rusEFI store](https://www.shop.rusefi.com/shop/p/alphax-platinum)
+[💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/alphax-platinum)
 
 [rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
 
 [Schematics rev c](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax_8ch-c-schematic.pdf)
 

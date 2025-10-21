@@ -10,7 +10,7 @@
 
 ## microRusEFI User Documentation
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/microrusefi/)
 
 [microRusEFI Hardware](Hardware-microRusEFI)
 

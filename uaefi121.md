@@ -1,16 +1,16 @@
 # uaEFI 121
 
-[rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi121)
+A sibling of https://github.com/rusefi/rusefi/wiki/uaefi with metal enclosure available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/uaefi121)
 
 ## Software
 
-[uaEFI Stable Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip) [uaEFI Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi121.zip)
+[uaEFI121 Stable Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip) [uaEFI121 Latest Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi121.zip)
 
 ## Community Support
 
 🔴Community support ONLY 🔴 [Support starts here](https://github.com/rusefi/rusefi/wiki/Support)🔴
 
-Nicer sibling of https://github.com/rusefi/rusefi/wiki/uaefi
+## Specs
 
 [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/uaefi121/)
 

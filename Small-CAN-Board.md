@@ -1,8 +1,8 @@
 # Small CAN Board
 
-[rusEFI store](https://www.shop.rusefi.com/shop/p/smallcanboard)
+[💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/smallcanboard)
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/small-can-board/)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/small-can-board/)
 
 [firmware snapshot bundle](https://rusefi.com/build_server/rusefi_bundle_small-can-board.zip)
 

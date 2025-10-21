@@ -1,6 +1,6 @@
 # Harley-Davidson 81
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/harley81/)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/harley81/)
 
 [Interactive BOM](https://rusefi.com/docs/ibom/hellen81hd-a-ibom.html)
 

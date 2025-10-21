@@ -2,12 +2,12 @@
 
 Hellen Plug&Play for ME7 VAG vehicles
 
+[💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/hellen-121-vag)
+
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121vag.zip)
 [Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen121vag.zip)
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen121vag/)
-
-[shop](https://www.shop.rusefi.com/shop/p/hellen-121-vag)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/hellen121vag/)
 
 [Schematics rev a](https://github.com/rusefi/hellen121vag/raw/main/boards/hellen121vag-a/board/hellen121vag-a-schematic.pdf)
 

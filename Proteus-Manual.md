@@ -1,6 +1,6 @@
 # Proteus Manual
 
-[in stock at rusEFI store](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)
+[💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)
 
 [New to rusEFI start here](Home)
 
@@ -28,7 +28,7 @@ Legacy Proteus 0.3-0.5 and 0.7 (STM32F4) [Release F4](https://github.com/rusefi/
 
 ## Wiring & Pinout
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/proteus/)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/proteus/)
 
 [List of I/O](https://github.com/mck1117/proteus#proteus)
 

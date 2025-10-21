@@ -6,7 +6,7 @@
 
 [https://github.com/rusefi/hellen-NB1-issues](https://github.com/rusefi/hellen-NB1-issues)
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-nb1/)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/hellen-nb1/)
 
 [Miata 1999](Mazda-Miata-1999)
 

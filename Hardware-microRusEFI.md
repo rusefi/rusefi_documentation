@@ -2,7 +2,7 @@
 
 ## Buy here
 
-[rusEFI store](https://www.shop.rusefi.com/shop)
+[💲rusEFI store💲](https://www.shop.rusefi.com/shop)
 
 microRusEFI is a highly integrated board version of the rusEFI ECU. The microRusEFI ECU is targeted at port-injected
 gasoline engines up to 4 cylinders.

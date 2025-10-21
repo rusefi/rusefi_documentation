@@ -14,7 +14,7 @@ Sandwich dual PCB adapter board use [uaEFI](uaEFI) firmware
 
 See https://github.com/rusefi/rusefi/wiki/uaEFI
 
-[interactive pinout](https://rusefi.com/docs/pinouts/uaefi/honda-obd1/)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/uaefi/honda-obd1/)
 
 [Adapter Schematics rev a](Hardware/Hellen/uaefi-Honda-OBD1-adapter-a-schematic.pdf)
 

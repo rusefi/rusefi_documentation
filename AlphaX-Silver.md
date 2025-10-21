@@ -5,7 +5,7 @@
 
 [AlphaX](https://www.alphaxpr.com/)
 
-[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/alphax-silver/)
+[⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/alphax-silver/)
 
 [Interactive Pinout rev A](https://rusefi.com/docs/pinouts/hellen/alphax-silver-a/)
 

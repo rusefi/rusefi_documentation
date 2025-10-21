@@ -2,7 +2,7 @@
 
 [Firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_mega100.zip)
 
-[Available at the store](https://www.shop.rusefi.com/shop/p/mega100-f4)
+[💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/mega100-f4)
 
 * require injector MOSFEts that can be driven by 3.3v or less. Nothing to worry about: works for most applications: works for most SMD applications, some through-hole too!
 
