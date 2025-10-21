@@ -4,7 +4,7 @@ Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 
 
 As of 2025 we are selling eight universal ECUs. See [Mission-Statement](Mission-Statement)
 
-[2024 universal hardware matrix](https://docs.google.com/spreadsheets/d/1HJYltK4RPDa0RIg4GWNU_2hYVAgdOU0GPiVdebtVTzo)
+[2025 universal hardware matrix](https://docs.google.com/spreadsheets/d/1HJYltK4RPDa0RIg4GWNU_2hYVAgdOU0GPiVdebtVTzo)
 
 |                                                                                                                             | Features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Connectors/Misc. Info                                                                           | Released in | Maximum recommended engine             |
 |-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------|----------------------------------------|
@@ -22,7 +22,7 @@ As of 2025 we are selling eight universal ECUs. See [Mission-Statement](Mission-
 A: At rusEFI we love cool new projects, but we are a really small team and only have so much time to work on rusEFI.  
 We already have lots of different hardware configurations and we would suggest using one of the existing wire in versions.  
 Nobody is stopping you from making your own board, but we cannot guarantee any support for that board or assistance with building it.  
-If you proceed then please consider making a P&P adapter board design based on Hellen, [Proteus](https://github.com/mck1117/proteus/), or microRusEFI. See also https://github.com/rusefi/rusefi/wiki/Custom-Firmware
+If you proceed then please consider making a P&P adapter board design based on [Hellen](Hellen-One-Platform), [Proteus](https://github.com/mck1117/proteus/), or microRusEFI. See also https://github.com/rusefi/rusefi/wiki/Custom-Firmware
 
 ## Q: What EDA are you guys using for your open source hardware?
 
