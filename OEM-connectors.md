@@ -923,6 +923,12 @@ individual plugs 1685450828 2205459428
 
 [N54 Bmw MSD/MSV 80/81](https://rusefi.com/forum/viewtopic.php?f=4&t=2504) ?
 
+88+58
+
+6+12+26+44=88
+
+6+26+26=58
+
 ## 152 pin
 
 Chrysler NGC ECU connector
