@@ -4,6 +4,8 @@ Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 
 
 As of 2025 we are selling eight universal ECUs. See [Mission-Statement](Mission-Statement)
 
+🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
+
 [⏩ 2025 universal hardware matrix ⏪](https://docs.google.com/spreadsheets/d/1HJYltK4RPDa0RIg4GWNU_2hYVAgdOU0GPiVdebtVTzo)
 
 |                                                                                                                             | Features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Connectors/Misc. Info                                                                           | Released in | Maximum recommended engine             |
