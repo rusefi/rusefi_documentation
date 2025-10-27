@@ -18,7 +18,8 @@ Most ECU features in this price category available at [💲rusEFI store💲](htt
 * [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/uaefi/)
 * One of the eight [universal units we offer](Hardware)
 * sequential six smart coils with option of on-board igniters
-* sequential six injector outputs. Unused outputs can be assigned to other functions.
+* sequential six injector outputs for more complex engines
+* capable of driving 8 injector outputs on simpler engines
 * four above 1A current low side outputs (six on new revisions)
 * a couple of lower current low side outputs
 * two VRs: one MAX9924 one vr-discrete (Add R1 to switch MAX9924 into Hall mode)
