@@ -16,7 +16,8 @@ A sibling of [uaEFI](uaEFI) with metal enclosure available at [ðŸ’²rusEFI storeð
 * One of the eight [universal units we offer](Hardware)
 * TL,DR: uaEFI with a couple of extra outputs, automotive header and metal enclosure
 * sequential 8 cylinder injection
-* individual 6 cylinder ignition / batch fire 8 cylinder ignition
+* sequential six injector outputs for more complex engines
+* capable of driving 8 sequential injector outputs on simpler engines
 * smart coils by default, expandable with on-board IGBT igniters to drive legacy coils
 * six additional low side outputs
 * dual on-board 4.9 WBO controller
