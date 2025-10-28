@@ -102,6 +102,10 @@ Tell us about your engine setup. Something like the below.
 |8|wasted spark|other|other|other|
 |12|other|other|other|other|
 
+## Q: I have damaged OEM ECU, what's best way to just repair my vehicle?
+
+A: Universal standalone ECUs are not trivial, we do not recommend universal standalones as a way to repair a broken vehicle. While you gain openness and sureness in what you deal with, you would have to make quite an effort to calibrate your ECU to a drivable state.
+
 ## Q: What is the process for warranty/returns
 
 A: Once you have exhausted all public community support options including Discord we usually accept returns with a refund.
