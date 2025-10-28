@@ -1,7 +1,5 @@
 # Hardware
 
-Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 microcontrollers.
-
 As of 2025 we are selling eight universal ECUs. See [Mission-Statement](Mission-Statement)
 
 🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
@@ -18,6 +16,8 @@ As of 2025 we are selling eight universal ECUs. See [Mission-Statement](Mission-
 | [Power4GDI](Power4GDI) [💲💲💲](https://www.shop.rusefi.com/shop/p/gdi4ecu)                                                 | 4 cylinder GDI ECU                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | superseal 68 pin                                                                                 | 2024        | 4 cylinder GDI                         |
 | [Proteus](Proteus-Manual) [💲💲💲](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)                                   | Older larger unit<br/>+ 16 low-side outputs, limited to 3 amps each (injectors, relays, check engine light, etc)<br/>+ 12x ignition outputs (or general purpose 5v, 100mA push-pull)<br/>+ Dual electronic throttles<br/>+ 4x High-side 12v drivers, 1 amp each<br/>+ 4 thermistor analog inputs (2.7k pull up resistor)<br/>+ 12 General purpose analog inputs<br/>+ Dual VR sensors (crank position, wheel speed)<br/>+knock detection<br/>+ 6 digital inputs (hall cam/crank position, wheel speed, clutch/brake switch, etc) | TE ampseal connectors: 93 pin<br/>rusEFI's older fully-featured shield<br/>IP68 waterproof case | 2020        | 12 cylinder, dual electronic throttles |
 | [microRusEFI](microRusEFI-Manual) [💲💲💲](https://www.shop.rusefi.com/shop/p/microrusefi-assembled-ecu-development-module) | about 10 analog inputs<br/>+ One VR/Hall input channel for crank sensor<br/>+ One Hall input channel for crank sensor<br/>+ 4 injector output channels<br/>+ 4 logic level coil control channels (external igniters could be needed for some coils)                                                                                                                                                                                                                                                                            | 48-pin connector<br/>On-board DBW<br/>USB, CAN<br/>open source hardware                         | 2019        | 4 cylinder, single electronic throttle |
+
+Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 microcontrollers.
 
 ## Q: This is all very cool but you guys do not have a Plug&Play for my Trabant. I think I will go and make a new rusEFI board just for my Trabant
 
