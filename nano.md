@@ -14,7 +14,7 @@ Out smallest universal ECU available at [💲rusEFI store💲](https://www.shop.
 
 * [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/nano/)
 * One of the eight [universal units we offer](Hardware)
-* One or two cylinder ECU
+* One or two cylinder ECU. (please note: injector driver was not provisioned for batch mode 4 injectors)
 * VR input
 * total 6 low side outputs
 * total 5 analog inputs
