@@ -21,3 +21,7 @@ https://rusefi.com/docs/pinouts/Toyota-JZS161/
 https://www.shop.rusefi.com/shop/p/superseal-toyota-122
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Toyota/1998%20Lexus%20GS300%20ECU%20Wiring%20Diagram.pdf
+
+## Toyota
+
+more [Toyota here](Toyota)
