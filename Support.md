@@ -1,15 +1,15 @@
 # Support
 
-[TL,DR](Knowledge-best-practices-and-Channels#q-i-need-help) and https://alphaxpr.com/ for retail
+TL,DR: see https://discord.gg/rCGAUaZJKF
+
+[https://rusefi.com/forum/](https://rusefi.com/forum/) is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online), more on this at [Quick-Start-PDF](https://github.com/rusefi/rusefi/wiki/rusEFI-Quick-Start-PDF)
+
+Commercial technical support starts at [the rusEFI Store](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support )
 
 rusEFI is a community-driven free open source project. It comes with zero warranty and zero promises including zero promises of technical support.
 
 rusEFI has zero technical support staff and most of rusEFI contributors all over the globe have day jobs and other obligations.
 We offer very flexible universal units which empower motorsports professionals or enthusiasts to accomplish a lot, we do not have a retail operation offering services to end users.
-
-[https://rusefi.com/forum/](https://rusefi.com/forum/) is the primary free support channel. Please post your tune & log files at [rusEFI Online](Online), more on this at [Quick-Start-PDF](https://github.com/rusefi/rusefi/wiki/rusEFI-Quick-Start-PDF)
-
-Commercial technical support starts at [the rusEFI Store](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support )
 
 Please Read [How To Ask Technical Questions](https://opensource.com/life/16/10/how-ask-technical-questions)
 
