@@ -21,9 +21,3 @@ https://rusefi.com/docs/pinouts/Toyota-JZS161/
 https://www.shop.rusefi.com/shop/p/superseal-toyota-122
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Toyota/1998%20Lexus%20GS300%20ECU%20Wiring%20Diagram.pdf
-
-## N180
-
-[wiki](https://en.wikipedia.org/wiki/Toyota_4Runner#Third_generation_(N180;_1995))
-
-3rd Gen 4Runner Parallel ECU adapter for 5VZ-FE
