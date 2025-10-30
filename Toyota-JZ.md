@@ -6,7 +6,7 @@ https://en.wikipedia.org/wiki/Toyota_JZ_engine
 
 ## A80
 
-https://rusefi.com/docs/pinouts/Toyota-JZA80/ 
+https://rusefi.com/docs/pinouts/Toyota-JZA80/
 
 https://www.shop.rusefi.com/shop/p/superseal-toyota-120
 
