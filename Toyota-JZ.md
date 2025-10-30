@@ -14,6 +14,8 @@ https://rusefi.com/docs/pinouts/Toyota-JZA90_100/
 
 ## S160
 
+[wiki](https://en.wikipedia.org/wiki/Lexus_GS#Second_generation_(S160;_1997))
+
 https://rusefi.com/docs/pinouts/Toyota-JZS161/
 
 https://www.shop.rusefi.com/shop/p/superseal-toyota-122
