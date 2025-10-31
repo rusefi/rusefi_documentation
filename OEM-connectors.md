@@ -929,6 +929,8 @@ individual plugs 1685450828 2205459428
 
 6+26+26=58
 
+TE 1452279-1
+
 ## 152 pin
 
 Chrysler NGC ECU connector
@@ -1092,6 +1094,12 @@ BMW N20 N26 N55
 1563766-1
 
 58+58+48+12+11+24=
+
+## 204 pin
+
+86 + 86 + 32
+
+2017 Infinity Q50
 
 ## 306 pin
 
