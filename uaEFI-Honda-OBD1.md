@@ -26,6 +26,10 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 * option to upgrade to electronic throttle body J1+J2
 * designed to fit OBD2 enclosure - these are cheaper, also we have auxiliary section on the header so we need wider opening
 
+## Issue Tracker
+
+open source firmware see https://github.com/rusefi/fw-uaefi-Honda-OBD1/issues
+
 ## Micro Fit
 
 * harness side 2x3 0430250600
