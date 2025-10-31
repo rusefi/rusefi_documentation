@@ -4,7 +4,7 @@
 
 ## firmware
 
-Nicer single board https://rusefi.com/build_server/rusefi_bundle_uaefi-obd1.zip
+Nicer single board [OBD1 Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi-obd1.zip)
 
 Sandwich dual PCB adapter board use [uaEFI](uaEFI) firmware
 
@@ -25,6 +25,10 @@ See https://github.com/rusefi/rusefi/wiki/uaEFI
 * option to convert to hall position sensors see J5
 * option to upgrade to electronic throttle body J1+J2
 * designed to fit OBD2 enclosure - these are cheaper, also we have auxiliary section on the header so we need wider opening
+
+## Issue Tracker
+
+open source firmware see https://github.com/rusefi/fw-uaefi-Honda-OBD1/issues
 
 ## Micro Fit
 
