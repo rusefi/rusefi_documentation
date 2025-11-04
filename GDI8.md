@@ -9,3 +9,4 @@ https://rusefi.com/docs/pinouts/GDI8/
 * CAN bus to adjust settings
 * many specs match https://github.com/rusefi/rusefi/wiki/GDI4 - this board is two GDI4 glued together
 * WARNING: main ECU firmware supports only one HPFP!
+* WARNING: overall limited integration with main ECU. See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/gdi8-pressure-input.lua https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/gdi4-communication.lua
