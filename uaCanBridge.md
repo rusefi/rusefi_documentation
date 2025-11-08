@@ -6,6 +6,7 @@ Three channel CAN-FD gateway programmable using Lua scripting.
 * +12v power
 * usb-c for configuration
 * micro SD card slot
+* optional molex 43650-0400 connectors
 
 https://rusefi.com/build_server/rusefi_bundle_canBridge.zip
 
