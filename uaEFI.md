@@ -84,6 +84,8 @@ USBBF7
 
 ## WBO Connector
 
+<img width="232" height="126" alt="image" src="https://github.com/user-attachments/assets/6413966a-198a-4398-b26e-2d60a2e1ef76" />
+
 ![wideband_for_dummies](https://github.com/rusefi/rusefi_documentation/assets/82368250/3e5aca8a-62cf-4636-905c-cf79b18deef0)
 
 ## Adapters
