@@ -23,6 +23,21 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 [HOWTO program rusEFI using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
+## FAQ
+
+Q: can I batch 8 fire injectors?
+
+A: The microRusEFI ECU is primarily a 4 cylinder ECU. You will burn it with two injectors per output.
+
+Q: How about 6 cylinders sequential on microRusEFI?
+
+A: The microRusEFI ECU is primarily a 4 cylinder ECU. At this time the testing for safety, reliable control, and consistency have not been completed for running the microRusEFI ECU on a 6 cylinder engine, using electrically different outputs.
+For 6 cylinders you need uaEFI or uaEFI121.
+
+Q: what about stepper idle?
+
+A: yes microRusEFI can drive 4 wire idle air valves see setting at https://github.com/rusefi/rusefi/pull/3749
+
 ### HOWTO update microRusEFI Firmware
 
 The best way to update microRusEFI firmware is using rusEFI console "Auto DFU" mode.
