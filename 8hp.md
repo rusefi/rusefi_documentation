@@ -7,3 +7,7 @@
 * Chrysler/Dodge interchangeable TCU but Chrysler CANbus dialect, some versions have transbrake.
 
 https://www.domi-works.com/pages/identify-your-transmission-bmw-8hp
+
+## Misc
+
+BMW Engine Block Dowel Pin 11117524470 14.5mm
