@@ -54,6 +54,8 @@
 ### Plug & Play Hardware
 
 - [Honda OBD1](uaEFI-Honda-OBD1)
+- [GM E38](GM-E38)
+- [GM E92](PnP-E92)
 
 ## Pages
 
