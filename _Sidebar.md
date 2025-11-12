@@ -25,9 +25,9 @@
 
 ### Boards
 
-- [Proteus](Proteus)
 - [uaEFI](uaEFI)
 - [microRusEFI](Hardware-microRusEFI)
+- [Proteus](Proteus)
 - [Hellen](https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform)
 
 ## Setup Guides
@@ -53,11 +53,7 @@
 
 ### Plug & Play Hardware
 
-- [Hellen Miata 90-95](Hellen64-Miata-NA6-94)
-- [Hellen Miata 96-97](Hellen-NA96)
-- [Hellen Miata 99-00](Hellen-NB1)
-- [Hellen Miata 01-05 VVT](Hellen-NB2)
-- [Creating a PnP PCB](HOWTO-Make-a-PnP-board)
+- [Honda OBD1](uaEFI-Honda-OBD1)
 
 ## Pages
 
