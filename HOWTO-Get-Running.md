@@ -129,7 +129,6 @@ See also [https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/o
 
 See also [Error Codes](Error-Codes)
 
-
 ### External links
 
 [Fuel injectors at first start - Video](https://www.youtube.com/watch?v=lgvt0mh_UB8)

@@ -47,7 +47,7 @@ A: like that. Note that now new lines between 't' symbols, note that at first so
 
 ### USB TTL cable
 
-**Question:** found [here](http://rusefi.com/forum/viewtopic.php?f=5&t=210&start=29)
+**Question:** found [on the forum](http://rusefi.com/forum/viewtopic.php?f=5&t=210&start=29)
 
 I'd like to try to connect to Tuner Studio and see what happens. I have a USB/TTL device which looks the same as the photo that Andrey posted. What do I connect to what and what is the procedure?
 
