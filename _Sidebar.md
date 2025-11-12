@@ -41,7 +41,6 @@
 
 - [rusEFI Online](Online)
 - [Fueling](Fuel-Overview)
-- [Multispark](Multi-Spark)
 - [Cranking](Cranking)
 - [Electronic Throttle](Electronic-Throttle-Body-Configuration-Guide)
 - [Knock Sensing](knock-sensing)
@@ -50,10 +49,13 @@
 - [GDI](GDI-status)
 - [rusEFI virtual simulator](Virtual-simulator)
 - [Digital Dash](Digital-Dash)
+- [Multispark](Multi-Spark)
 
 ### Plug & Play Hardware
 
 - [Honda OBD1](uaEFI-Honda-OBD1)
+- [GM E38](GM-E38)
+- [GM E92](PnP-E92)
 
 ## Pages
 
