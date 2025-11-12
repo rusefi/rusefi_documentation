@@ -2,11 +2,7 @@
 
 rusEFI supports both solenoid-type IAC out of the box (well, with a fly-back diode - 1 or two wire) and [stepper motors](Stepper-Motor) (4 to six wires, add-on board from eBay required)
 
-By default Idle control is in 'manual' mode, while in manual mode you can control the idle valve with
-`set idle_position X`
-command, where X should be between 1 and 100.
-
-In order to enable automatic idle control you would need `set_idle_enabled 1` command. Another command related to idle is `set idle_position X`, where X is desired idle speed
+By default Idle control is in 'open loop' mode, while in manual mode you can control the idle valve.
 
 In case of stepper idle valve, the position is a percent of the total stepper steps. On startup, rusEFI would move stepper all the way in in order order to find zero position.
 

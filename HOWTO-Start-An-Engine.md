@@ -62,21 +62,11 @@ rusEFI has separate cranking control strategy for your first couple of engine re
 
 Engine would start rich, as long as it's not too rich, as long as you have close-enough cranking timing angle. By default, cranking mode is active if RPM is below 500 RPM.
 
-To adjust cranking timing, use `set cranking_timing_angle XXX` command, where XXX is timing advance angle in relation to your trigger synchronization point. Please note that trigger synchronization point often does not match TDC, so just try different values between 0 and 720. For example, try 0, then 20, then 40 etc. Use `showconfig` to see current setting.
-
-See also [Console Timing Commands](Dev-Console-Commands#timing-control)
-
-To adjust cranking fuel, use `set cranking_fuel XXX` command, where XXX is number of total fuel squirt duration in milliseconds. See also [Console Fuel Commands](Dev-Console-Commands#fuel-control)
+Please note that trigger synchronization point often does not match TDC, so just try different values between 0 and 720. For example, try 0, then 20, then 40 etc. Use `showconfig` to see current setting.
 
 ## running parameters
 
 For first run I suggest running based on MAF sensor - even if you do not have MAF sensor, and flat maps.
-
-`set algorithm 0` would set algorithm: plain MAF
-
-To adjust running timing for your first run, use `set_whole_timing_map XXX` command, where XXX is your timing advance.
-
-To adjust running fuel for your first run, use `set_whole_fuel_map XXX` command, where XXX is number of total fuel squirt duration in milliseconds. This value is usually between 3 and 12. See also [Console Fuel Commands](Dev-Console-Commands#fuel-control)
 
 Once plain MAF works next step is running with proper MAP sensor calibration & flow rate setting.
 

@@ -74,7 +74,6 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 <details markdown="block">
 <summary>CLI shortcut ...</summary>
 
-In rusEFI Console, you can use command ```set cranking_rpm X``` to change this value.
 </details>
 
 ### Enable cylinder cleanup  

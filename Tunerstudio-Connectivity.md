@@ -12,8 +12,6 @@ If you can't establish communication, try baud rate 38,400 | 57,600 or 115,200. 
 
 After selecting the COM-port (and baud rate), click on "Test Port". This should result in a "successful!" message. If you get a failed message, you need to adjust your settings. After a successful test of the port click "Accept".
 
-See also: [TunerStudio Console Commands](Dev-Console-Commands#tuner-studio)
-
 ## Troubleshooting Tuner Studio connectivity
 
 By default Tuner Studio connectivity is using pin PC10 for TX and PC11 RX. Do not forget about GND wire.

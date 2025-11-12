@@ -47,24 +47,6 @@ At this point, the Dev Console should be up and running. Play around with it and
 
 ![Console Gauges](Images/java_console_1.png)
 
-## Analog Chart
-
-You can sniff either trigger angles or MAP values.
-
-Analog chart tab in java console is a very, very plain oscilloscope build into rusEFI firmware.
-
-Analog chart always displays the signal for a duration of one complete engine cycle.
-
-Currently analog chart can display one of these two things
-
-1. trigger signal shape. the value consists of the trigger signal index and fall/rise type of the event
-
-   `set_analog_chart_mode 1`
-
-2. MAP sensor signal
-
-   `set_analog_chart_mode 2`
-
 ## Digital Chart
 
 ![Log Viewer](Images/log_viewer.png)
