@@ -26,7 +26,6 @@ extra_css:
 nav:
   - 'Downloads': Download.md
   - 'Getting Started':
-    - 'How to search the Wiki': HOWTO-Search-on-rusEFI-wiki.md
     - 'Quick Start': HOWTO-quick-start.md
     - 'How to ask questions': HOWTO-ask-questions.md
     - 'Support': Support.md
@@ -47,7 +46,6 @@ nav:
     - 'Hardware': Hardware.md
     - 'Sensors and Actuators': Pages-Sensors-and-Actuators.md
     - 'Ignition': Pages-Ignition.md
-    - 'Software': Pages-Software.md
     - 'How To': Pages-HOWTO.md
   - 'Features':
     - 'rusEFI Online': Online.md
@@ -67,18 +65,5 @@ nav:
     - 'Boards':
       - 'Proteus': Proteus.md
       - 'MicroRusEFI (MRE)': Hardware-microRusEFI.md
-      - 'Hellen': Hellen-One-Platform.md
-    - 'Plug & Play Hardware':
-      - 'Hellen Miata 90-95': Hellen64-Miata-NA6-94.md
-      - 'Hellen Miata 01-05 VVT': Hellen-NB2.md
-      - 'Creating a PnP PCB': HOWTO-Make-a-PnP-board.md
-  - 'Contributors':
-    - 'Documentation Strategy': Documentation-Strategy.md
-    - 'HOWTO Contribute to Documentation': HOWTO-contribute-to-documentation.md
-    - 'Firmware Code Doxygen': "https://rusefi.com/docs/html"
-    - 'Firmware Code Automated Test Coverage': "https://rusefi.com/docs/unit_tests_coverage"
-    - 'HOWTO Contribute To Firmware': HOWTO-contribute-to-firmware.md
   - 'Misc':
-    - 'How to convert from carburetor to EFI': how-to-convert-from-carburetor-to-EFI.md
     - 'Do I need a wideband oxygen sensor?': do-i-need-wideband-oxygen-sensor.md
-  - 'Sitemap': "https://wiki.rusefi.com/sitemap.xml"
