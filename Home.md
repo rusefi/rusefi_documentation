@@ -30,7 +30,7 @@ Closed Loop Fueling|✓
 Boost Control|✓
 Dual AFR signal logging|✓
 Staged Injection|✓
-Launch Control|✓
+[Launch Control](HOWTO-Launch-Control)|✓
 [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)|✓
 [Digital Dash](Digital-Dash)|✓
 [Blending (advanced version of dual table)](Blending)|✓
