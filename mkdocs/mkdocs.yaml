@@ -56,7 +56,7 @@ nav:
     - 'Electronic Throttle': Electronic-Throttle-Body-Configuration-Guide.md
     - 'Knock Sensing': knock-sensing.md
     - 'Variable Valve Timing': VVT.md
-    - 'Lua': Lua-Scripting.md
+    - 'Lua Scripting': Lua-Scripting.md
     - 'GDI': GDI-status.md
     - 'Digital Dash': Digital-Dash.md
   - 'Hardware':
