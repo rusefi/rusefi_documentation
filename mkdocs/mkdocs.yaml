@@ -29,10 +29,10 @@ nav:
     - 'Quick Start': HOWTO-quick-start.md
     - 'Support': Support.md
     - 'How to create a TunerStudio project': HOWTO-create-tunerstudio-project.md
-    - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
-  - 'Features':
     - 'rusEFI Online': Online.md
     - 'rusEFI virtual simulator': Virtual-simulator.md
+    - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
+  - 'Features':
     - 'Fueling': Fuel-Overview.md
     - 'Multispark': Multi-Spark.md
     - 'Cranking': Cranking.md
