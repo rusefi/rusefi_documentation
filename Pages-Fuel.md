@@ -21,8 +21,6 @@
 <details markdown="1"><summary><u>AFR measurement</u></summary>
 
 * [Wide Band Sensors](Wide-Band-Sensors)
-* [Do I need a wideband](do-i-need-wideband-oxygen-sensor)
-* [Old WBO2 page](WBO)
 
 </details>
 

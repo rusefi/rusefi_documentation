@@ -1,6 +1,8 @@
 # rusEFI Wideband Controller
 
-[WBO](WBO)
+*also see [WBO](WBO) for general information regarding wideband oxygen sensors*
+
+[Turbine Research on YouTube](https://www.youtube.com/watch?v=tb7ZC1hpdyI) has created a great video on setting up the rusEFI Wideband Controller.
 
 ## FAQ
 
@@ -81,6 +83,10 @@ There was also an opinion voiced that the board needs to see voltage on the "vBa
 ## Source Code
 
 [The hardware and software source code are hosted here.](https://github.com/mck1117/wideband)
+
+## Forum Thread
+
+[Wideband Controller — rusEFI Forum](https://rusefi.com/forum/viewtopic.php?f=4&t=1856)
 
 ## Index Selection
 

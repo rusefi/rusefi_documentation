@@ -42,6 +42,7 @@ nav:
     - 'Lua Scripting': Lua-Scripting.md
     - 'GDI': GDI-status.md
     - 'Digital Dash': Digital-Dash.md
+    - 'Wideband Oxygen Sensor': Wide-Band-Sensors.md
   - 'Setup Guides':
     - 'Trigger - Configuration': Trigger-Configuration-Guide.md
     - 'Trigger - Setting Offset': How-Do-I-Set-My-Trigger-Offset.md
@@ -58,5 +59,3 @@ nav:
     - 'Boards':
       - 'Proteus': Proteus.md
       - 'MicroRusEFI (MRE)': Hardware-microRusEFI.md
-  - 'Misc':
-    - 'Do I need a wideband oxygen sensor?': do-i-need-wideband-oxygen-sensor.md
