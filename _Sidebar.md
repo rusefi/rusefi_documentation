@@ -43,7 +43,6 @@
 - [Fueling](Fuel-Overview)
 - [Cranking](Cranking)
 - [Electronic Throttle](Electronic-Throttle-Body-Configuration-Guide)
-- [Knock Sensing](knock-sensing)
 - [Variable Valve Timing](VVT)
 - [Lua Scripting](Lua-Scripting)
 - [GDI](GDI-status)
@@ -61,7 +60,6 @@
 
 - [Fuel](Pages-Fuel)
 - [Flex Fuel](Flex-Fuel)
-- [Sensors and Actuators](Pages-Sensors-and-Actuators)
 - [Ignition](Pages-Ignition)
 - [Software](Pages-Software)
 - [How To](Pages-HOWTO)

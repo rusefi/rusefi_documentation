@@ -4,7 +4,6 @@
 
 * [Preferred Code Style](Code-Style)
 * [Firmware Downloads](Download)
-* [Feature requests](Feature-Requests-the-Feature-Bounty-Program)
 * [Feature ideas](I-have-an-idea)
 * [How To DFU](HOWTO-DFU)
 * [How To Update Firmware](HOWTO-Update-Firmware)
