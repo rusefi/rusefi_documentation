@@ -88,7 +88,7 @@ please see [Wide-Band-Sensors](Wide-Band-Sensors)
 
 ## Getting help
 
-[HOWTO ask questions](HOWTO-ask-questions)
+[Support](Support)
 
 ## Where to search for information
 

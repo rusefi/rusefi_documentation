@@ -53,7 +53,6 @@ nav:
     - 'Hardware': Hardware.md
     - 'Sensors and Actuators': Pages-Sensors-and-Actuators.md
     - 'Ignition': Pages-Ignition.md
-    - 'How To': Pages-HOWTO.md
   - 'Hardware':
     - 'rusEFI Hardware Overview': Hardware.md
     - 'Wiring & Connectivity Overview': FAQ-Basic-Wiring-and-Connections.md
