@@ -1,8 +1,6 @@
 # How can I help rusEFI?
 
-The weakest point of rusEFI is lack of samples and success stories. As of Aug 2020, we _really_ need vehicle threads on the forum.
-
-[HOWTO contribute success stories](HOWTO-contribute-success-stories)
+The weakest point of rusEFI is lack of samples and success stories. If your vehicle is running rusEFI, please post it on the [forum](https://rusefi.com/forum)!
 
 We also do not have much user feedback in general - we do not know how many rusEFI units are used regularly and what are users looking for (we know about launch control).
 
