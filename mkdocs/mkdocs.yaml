@@ -27,7 +27,6 @@ nav:
   - 'Downloads': Download.md
   - 'Getting Started':
     - 'Quick Start': HOWTO-quick-start.md
-    - 'How to ask questions': HOWTO-ask-questions.md
     - 'Support': Support.md
     - 'How to create a TunerStudio project': HOWTO-create-tunerstudio-project.md
     - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
