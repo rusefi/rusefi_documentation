@@ -74,7 +74,14 @@ Tell us about your engine setup. Something like the below.
 |8|wasted spark|other|other|other|
 |12|other|other|other|other|
 
+## Success?
+
 Once your issue is resolved please write up how you got things resolved. Your experience may be helpful to someone else.
+
+- Please have a separate [forum](https://rusefi.com/forum) thread for each of your rusEFI vehicles. Please have at least one picture in the first forum post.
+- Please upload your best rusEFI tune to [rusEFI Online](Online)
+- Please upload a few interesting log files to rusEFI online - a starting/warm-up log, a wide open throttle driving log etc.
+
 
 ## Support Q&A
 
