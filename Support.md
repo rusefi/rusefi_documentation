@@ -30,7 +30,7 @@ Before asking for help, please search the wiki and the [forum](https://rusefi.co
 
 If you still need direct help then please have a read of the information below; help us to help you.
 
-[BLUF (bottom line up front) communication](https://en.wikipedia.org/wiki/BLUF_(communication))
+A: You are very unlikely to get much help asking for support like this.  rusEFI helps those that are willing to help themselves.  We do not have the have time or bandwidth to provide hand holding for specific setups or features.  Unless you want to become involved in the development process as a contributor, it is very unlikely that we will "just get around to it" in the next year.
 
 [How to ask technical questions](https://opensource.com/life/16/10/how-ask-technical-questions)
 
