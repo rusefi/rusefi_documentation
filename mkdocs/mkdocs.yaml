@@ -31,22 +31,6 @@ nav:
     - 'Support': Support.md
     - 'How to create a TunerStudio project': HOWTO-create-tunerstudio-project.md
     - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
-  - 'Community':
-    - 'Forum': "https://rusefi.com/forum/"
-    - 'Discord': Discord.md
-    - 'Engines running on rusEFI': List-of-Engines-Running-rusEFI.md
-    - 'HOWTO-help-rusEFI': HOWTO-help-rusEFI.md
-  - 'Setup Guides':
-    - 'Trigger - Configuration': Trigger-Configuration-Guide.md
-    - 'Trigger - Setting Offset': How-Do-I-Set-My-Trigger-Offset.md
-    - 'Electronic Throttle Body': Electronic-Throttle-Body-Configuration-Guide.md
-  - 'Pages':
-    - 'Fuel': Pages-Fuel.md
-    - 'Flex Fuel': Flex-Fuel.md
-    - 'Hardware': Hardware.md
-    - 'Sensors and Actuators': Pages-Sensors-and-Actuators.md
-    - 'Ignition': Pages-Ignition.md
-    - 'How To': Pages-HOWTO.md
   - 'Features':
     - 'rusEFI Online': Online.md
     - 'rusEFI virtual simulator': Virtual-simulator.md
@@ -59,6 +43,17 @@ nav:
     - 'Lua Scripting': Lua-Scripting.md
     - 'GDI': GDI-status.md
     - 'Digital Dash': Digital-Dash.md
+  - 'Setup Guides':
+    - 'Trigger - Configuration': Trigger-Configuration-Guide.md
+    - 'Trigger - Setting Offset': How-Do-I-Set-My-Trigger-Offset.md
+    - 'Electronic Throttle Body': Electronic-Throttle-Body-Configuration-Guide.md
+  - 'Pages':
+    - 'Fuel': Pages-Fuel.md
+    - 'Flex Fuel': Flex-Fuel.md
+    - 'Hardware': Hardware.md
+    - 'Sensors and Actuators': Pages-Sensors-and-Actuators.md
+    - 'Ignition': Pages-Ignition.md
+    - 'How To': Pages-HOWTO.md
   - 'Hardware':
     - 'rusEFI Hardware Overview': Hardware.md
     - 'Wiring & Connectivity Overview': FAQ-Basic-Wiring-and-Connections.md
