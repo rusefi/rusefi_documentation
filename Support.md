@@ -82,7 +82,6 @@ Once your issue is resolved please write up how you got things resolved. Your ex
 - Please upload your best rusEFI tune to [rusEFI Online](Online)
 - Please upload a few interesting log files to rusEFI online - a starting/warm-up log, a wide open throttle driving log etc.
 
-
 ## Support Q&A
 
 *Q: I am not into reading, can I just rely on community for everything?*  
