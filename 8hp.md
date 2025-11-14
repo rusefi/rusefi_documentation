@@ -2,6 +2,8 @@
 
 [wikipedia](https://en.wikipedia.org/wiki/ZF_8HP_transmission)
 
+[8hp interactive pinout](https://rusefi.com/docs/pinouts/8hp/)
+
 * BMW E-series CANbus dialect, before ISN/Component Protection
 * BMW F-series most available option.
 * Chrysler/Dodge interchangeable TCU but Chrysler CANbus dialect, some versions have transbrake.
