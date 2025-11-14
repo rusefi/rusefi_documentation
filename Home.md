@@ -1,6 +1,8 @@
 # rusEFI Home
 
-## Click on the image below for the latest builds and downloads
+[Latest builds and downloads](Download)
+[We have eight universal ECUs](Hardware)
+[Quick Start](HOWTO-quick-start)
 
 [![Download](Images/Latest_bundle_border.png)](Download)
 
@@ -11,8 +13,6 @@ You have found the rusEFI wiki main page. Here you will find information related
 **This project is NOT for emissions controlled or safety critical applications. This project is for race cars, snow blowers, fixed engine applications, and science experiments. It is PROHIBITED to use rusEFI on manned aircraft.**
 
 In order to use rusEFI you will need to acquire or fabricate one of the [supported boards](Hardware). You can also design your own custom board if so desired.
-
-You can use rusEFI PC simulator to try rusEFI. PC simulator Windows binaries are included into [rusEFI Bundle](Download), and the Unix version of PC simulator could be compiled from [source code](https://github.com/rusefi/rusefi/tree/master/simulator).
 
 ## Features
 
@@ -55,6 +55,8 @@ We've lost track of how many vehicles are running on rusEFI|✓
 
 And many more!
 The unsupported features listed here are all things that would be amazing to see! IF YOU have a project that includes any of those configurations or anything else, please jump in on the forums and we can work together to make it happen! 👍
+
+You can use rusEFI PC simulator to try rusEFI. PC simulator Windows binaries are included into [rusEFI Bundle](Download), and the Unix version of PC simulator could be compiled from [source code](https://github.com/rusefi/rusefi/tree/master/simulator).
 
 ## Get Started
 
