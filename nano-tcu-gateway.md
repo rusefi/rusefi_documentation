@@ -7,4 +7,3 @@
 See [8hp specific details](8hp)
 
 [firmware snapshot](https://rusefi.com/fw-private/rusefi_bundle_nano-emulator_obfuscated_public.zip)
-
