@@ -8,5 +8,4 @@ See https://discord.gg/rCGAUaZJKF
 
 Discord in a group messenger that can be accessed through your browser or as an application. Use https://discord.gg/rCGAUaZJKF to enter our chat.
 
-Before joining please read the section on [asking questions.](HOWTO-ask-questions)  
-
+Part of community [Support](Support) model

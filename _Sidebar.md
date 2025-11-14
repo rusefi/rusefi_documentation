@@ -6,7 +6,6 @@
 
 - [How to search the Wiki](HOWTO-Search-on-rusEFI-wiki)
 - [Quick Start](HOWTO-quick-start)
-- [How to ask questions](HOWTO-ask-questions)
 - [Support](Support)
 - [How to create a TunerStudio project](HOWTO-create-tunerstudio-project)
 - [HOWTOs and FAQs](Pages-FAQ-and-HOWTO)
