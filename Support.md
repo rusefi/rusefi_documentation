@@ -22,6 +22,7 @@ The [rusEFI Forum](https://rusefi.com/forum/) is the primary free support channe
 
 [Discord](https://discord.gg/rCGAUaZJKF) is a group messenger that can be accessed through your browser or as an application. This is a good place for quick one off questions, but not for continued help on a project, as context is very quickly lost in the stream.
 
+
 ### How to ask for help
 
 Before getting in touch for some assistance there are a couple of things to know that will make it easy for us to help you.
@@ -76,13 +77,7 @@ Tell us about your engine setup. Something like the below.
 |8|wasted spark|other|other|other|
 |12|other|other|other|other|
 
-## Success?
-
 Once your issue is resolved please write up how you got things resolved. Your experience may be helpful to someone else.
-
-- Please have a separate [forum](https://rusefi.com/forum) thread for each of your rusEFI vehicles. Please have at least one picture in the first forum post.
-- Please upload your best rusEFI tune to [rusEFI Online](Online)
-- Please upload a few interesting log files to rusEFI online - a starting/warm-up log, a wide open throttle driving log etc.
 
 ## Support Q&A
 
