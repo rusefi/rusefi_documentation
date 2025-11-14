@@ -22,7 +22,6 @@ The [rusEFI Forum](https://rusefi.com/forum/) is the primary free support channe
 
 [Discord](https://discord.gg/rCGAUaZJKF) is a group messenger that can be accessed through your browser or as an application. This is a good place for quick one off questions, but not for continued help on a project, as context is very quickly lost in the stream.
 
-
 ### How to ask for help
 
 Before getting in touch for some assistance there are a couple of things to know that will make it easy for us to help you.
