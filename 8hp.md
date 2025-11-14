@@ -4,6 +4,8 @@
 
 [8hp interactive pinout](https://rusefi.com/docs/pinouts/8hp/)
 
+[nano-tcu-gateway](nano-tcu-gateway)
+
 * BMW E-series CANbus dialect, before ISN/Component Protection
 * BMW F-series most available option.
 * Chrysler/Dodge interchangeable TCU but Chrysler CANbus dialect, some versions have transbrake.
