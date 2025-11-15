@@ -14,7 +14,7 @@ A standalone compatible with GM E38 pinout [💲available at the rusEFI store�
 
 https://github.com/rusefi/e38-e67-customer-support
 
-🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord)🔴
+🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](Discord)🔴
 
 ## Specs
 

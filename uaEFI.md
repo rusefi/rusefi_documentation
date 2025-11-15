@@ -2,13 +2,13 @@
 
 Most ECU features in this price category available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)
 
-🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
+🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](Discord) 🔴
 
 [New to rusEFI start here](Home)
 
 [uaEFI Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
 [uaEFI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
-[Release vs Snapshot](https://github.com/rusefi/rusefi/wiki/Release-Snapshot-Latest-firmware)
+[Release vs Snapshot](Release-Snapshot-Latest-firmware)
 
 [uaEFI PRO Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi_pro.zip)
 [uaEFI PRO Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi_pro.zip)
@@ -44,7 +44,7 @@ Most ECU features in this price category available at [💲rusEFI store💲](htt
 
 ## Technical Details
 
-[General rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Support)
+[General rusEFI documentation](Support)
 
 [Schematics rev c](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-c/board/uaefi-c-schematic.pdf)
 [Schematics rev b](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-b/board/uaefi-b-schematic.pdf)
@@ -54,7 +54,7 @@ Most ECU features in this price category available at [💲rusEFI store💲](htt
 
 [uaEFI interactive BOM rev D](https://rusefi.com/docs/ibom/uaefi-d-ibom.html) [uaEFI interactive BOM rev A](https://rusefi.com/docs/ibom/uaefi-a-ibom.html)
 
-[WBO documentation](https://github.com/rusefi/rusefi/wiki/rusEFI-Wideband-Controller)
+[WBO documentation](rusEFI-Wideband-Controller)
 
 ![x](https://raw.githubusercontent.com/rusefi/uaefi/master/docs/uaefi-a-top.png)
 
@@ -121,7 +121,7 @@ A: definitely would idle v12, not sure if thermal would be a problem at higher R
 
 Q: How do I add bluetooth?
 
-A: See https://github.com/rusefi/rusefi/wiki/Bluetooth#jdy
+A: See [Bluetooth](Bluetooth#jdy)
 
 Q: Where do I buy igniters?
 

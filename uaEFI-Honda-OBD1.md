@@ -12,7 +12,7 @@ Sandwich dual PCB adapter board use [uaEFI](uaEFI) firmware
 
 ## Technical Details
 
-See https://github.com/rusefi/rusefi/wiki/uaEFI
+See [uaEFI](uaEFI)
 
 [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/uaefi/honda-obd1/)
 
@@ -39,7 +39,7 @@ open source firmware see https://github.com/rusefi/fw-uaefi-Honda-OBD1/issues
 * harness side terminal 0430300001
 * PCB side 2x3 0430450612
 
-See https://github.com/rusefi/rusefi/wiki/Vault-Of-Honda-OEM#obd-1
+See [Vault Of Honda OEM](Vault-Of-Honda-OEM#obd-1)
 
 ## OEM Cases
 

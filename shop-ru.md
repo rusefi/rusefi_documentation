@@ -6,7 +6,7 @@ Hellen? сложнее, надо писать в [чатик](https://chat.whats
 
 ## Ultra Affordable EFI
 
-https://github.com/rusefi/rusefi/wiki/uaEFI
+[uaEFI](uaEFI)
 
 плата без припаянных молексов стоит столько же, сколько плата с припаяннными молексами - https://www.google.com/search?q=175+usd+to+rub
 
@@ -14,7 +14,7 @@ https://github.com/rusefi/rusefi/wiki/uaEFI
 
 ## mega144
 
-stm32 в форм факторе mega2560 https://github.com/rusefi/rusefi/wiki/mega144
+stm32 в форм факторе mega2560 [mega144](mega144)
 
 https://www.google.com/search?q=49+usd+to+rub
 

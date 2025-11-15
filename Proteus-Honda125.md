@@ -8,6 +8,6 @@
 
 [Proteus Manual](Proteus-Manual)
 
-[see also Hellen-125-Honda-K](https://github.com/rusefi/rusefi/wiki/Hellen-125-Honda-K)
+[see also Hellen-125-Honda-K](Hellen-125-Honda-K)
 
 ![x](https://rusefi.com/forum/download/file.php?id=8391)

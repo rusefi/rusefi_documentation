@@ -70,4 +70,4 @@ https://rusefi.com/s/lua
 
 ## I has a question
 
-See https://github.com/rusefi/rusefi/wiki/Support for this!
+See [Support](Support) for this!

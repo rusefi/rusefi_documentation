@@ -33,4 +33,4 @@ For example, 3/1 skipped wheel with cam sensor in the first half of the 720 cycl
 
 ![VVT Config](Images/VVT_config.png)
 
-Full list see https://github.com/rusefi/rusefi/wiki/All-Supported-Triggers
+Full list see [All Supported Triggers](All-Supported-Triggers)

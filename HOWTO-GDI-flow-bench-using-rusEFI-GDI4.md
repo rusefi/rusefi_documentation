@@ -2,6 +2,6 @@
 
 PC software https://www.efianalytics.com/TunerStudio/beta/
 
-Documentation https://github.com/rusefi/rusefi/wiki/GDI4
+[Documentation](GDI4)
 
 Pinout https://rusefi.com/docs/pinouts/GDI4/

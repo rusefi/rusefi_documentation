@@ -1,8 +1,8 @@
 # Gen 4 LS
 
-<https://github.com/rusefi/rusefi/wiki/GM-E38>
+[E38](GM-E38)
 
-<https://github.com/rusefi/rusefi/wiki/GM-E67>
+[E67](GM-E67)
 
 73+80   e38 ECM, used 07-14 trucks/suv
 
@@ -24,7 +24,7 @@ If I had to make an educated guess, GM used the E67 for their GMPP (GM Performan
 
 ## e67
 
-<https://github.com/rusefi/rusefi/wiki/GM-E67>
+[E67](GM-E67)
 
 ## e38 2007 Tahoe 5.3
 
