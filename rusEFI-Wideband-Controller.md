@@ -2,6 +2,10 @@
 
 *also see [WBO](WBO) for general information regarding wideband oxygen sensors*
 
+Base CAN ID: 400 (decimal) = 0x190 (11-bit stadard ID). This number increments by 2xN for the N-th controller
+
+Bytes 2-3 are your lambda, scaled by 0.0001. The range is 0.5 to 2.0
+
 [Turbine Research on YouTube](https://www.youtube.com/watch?v=tb7ZC1hpdyI) has created a great video on setting up the rusEFI Wideband Controller.
 
 ## FAQ
