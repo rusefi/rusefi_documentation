@@ -70,7 +70,7 @@ M70 style three pin
 
 ## WBO
 
-https://github.com/rusefi/rusefi/wiki/WBO#sensor-part-numbers
+[Sensor Part Numbers](WBO#sensor-part-numbers)
 
 ## 8 pin plug
 
@@ -82,7 +82,7 @@ Green Fan LS15
 
 ## Pedal
 
-Many pedals would work if you wire, one popular sensor mounted on many different Toyota and Nissan vehicles see https://github.com/rusefi/rusefi/wiki/Vault-Of-Electronic-Throttle-Bodies-ETB#nissan-pedal
+Many pedals would work if you wire, one popular sensor mounted on many different Toyota and Nissan vehicles see [Nissan Pedal](Vault-Of-Electronic-Throttle-Bodies-ETB#nissan-pedal)
 
 ## Integration
 

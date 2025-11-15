@@ -1,3 +1,3 @@
 # Overview
 
-[Moved to Home](https://github.com/rusefi/rusefi/wiki)
+[Moved to Home](Home)

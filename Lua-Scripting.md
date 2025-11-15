@@ -11,7 +11,7 @@ rusEFI strives to offer users as much flexibility as possible, to provide a comp
 rusEFI provides a number of hooks to interface with the firmware and to manipulate its state and read/write the current configuration.
 
 - Hooks for CAN bus communications; see [CAN bus](#can-bus).
-- Inputs from sensors can be read directly; see [Input](#input). You can also produce sensor values with Lua see https://github.com/rusefi/rusefi/wiki/Lua-Scripting#set-sensor-value
+- Inputs from sensors can be read directly; see [Input](#input). You can also produce sensor values with Lua see [Set Sensor Value](Lua-Scripting#set-sensor-value)
 - ECU general purpose outputs see [Output](#output).
 - Aspects of the engine can be controlled directly; see [Engine Control](#engine-control).
 - ECU Configurations can be accessed (read/write) via the [`getCalibration()`](#getcalibrationname) hook, and manipulated via the [`setCalibration()`](#setcalibrationname-value-needevent) hook.

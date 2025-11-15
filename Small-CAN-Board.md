@@ -6,7 +6,7 @@
 
 [firmware snapshot bundle](https://rusefi.com/build_server/rusefi_bundle_small-can-board.zip)
 
-Build your own CANbus driven smart wastegate controller or control axillary lights on a modern vehicle or whatever you need leveraging the wide range of available input-outputs, all leveraging the power of [Lua scripting](https://github.com/rusefi/rusefi/wiki/Lua-Scripting)!
+Build your own CANbus driven smart wastegate controller or control axillary lights on a modern vehicle or whatever you need leveraging the wide range of available input-outputs, all leveraging the power of [Lua scripting](Lua-Scripting)!
 
 * Full rusEFI firmware with Lua running stm32f405 LQFP-64
 * Two CAN buses

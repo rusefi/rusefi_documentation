@@ -6,4 +6,4 @@ You can fabricate hardware and sell for profit without paying royalties as long 
 
 ## Donations
 
-rusEFI LLC definitely has expenses so your donations would be appreciated! One-time, monthly or fixed amount per board would all help. See https://github.com/rusefi/rusefi/wiki/HOWTO-help-rusEFI#last-but-not-least
+rusEFI LLC definitely has expenses so your donations would be appreciated! One-time, monthly or fixed amount per board would all help. See [HOWTO help rusEFI](HOWTO-help-rusEFI#last-but-not-least)

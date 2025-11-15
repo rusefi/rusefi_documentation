@@ -24,7 +24,7 @@ See also <https://github.com/rusefi/rusefi/blob/master/firmware/setup_linux_envi
 
 ## Unit Tests
 
-We are heavy in CI/CD so https://github.com/rusefi/rusefi/wiki/Dev-Quality-Control and https://github.com/rusefi/rusefi/blob/master/unit_tests/readme.md
+We are heavy in CI/CD so [Dev Quality Control](dev-hardware-quality-control) and https://github.com/rusefi/rusefi/blob/master/unit_tests/readme.md
 
 ## GitHub Actions
 

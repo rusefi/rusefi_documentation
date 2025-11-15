@@ -12,4 +12,4 @@ https://docs.google.com/spreadsheets/d/1xH6szt3SJB7AzoseS9kyFPDHr-XMuRVpYXs7gHTQ
 
 ## 121 pin
 
-https://github.com/rusefi/rusefi/wiki/Hellen-121-Nissan
+[Hellen 121 Nissan](Hellen-121-Nissan)

@@ -2,13 +2,13 @@
 
 Our older fully-featured larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/rusefi-huge)
 
-🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
+🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](Discord) 🔴
 
 [New to rusEFI start here](Home) [rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
 
 [Huge Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_alphax-8chan_f7.zip)
 [Huge Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan_f7.zip)
-[Release vs Snapshot](https://github.com/rusefi/rusefi/wiki/Release-Snapshot-Latest-firmware)
+[Release vs Snapshot](Release-Snapshot-Latest-firmware)
 
 ## Specs
 
@@ -26,7 +26,7 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 * Dual CANbus
 * Dual on-board WBO controller supporting LSU 4.9
 * optional to mount on-board MAP sensor: vertical mpxh6400a, legacy horizontal mpx4250ap
-* optional [JDY-33 bluetooth](https://github.com/rusefi/rusefi/wiki/Bluetooth)
+* optional [JDY-33 bluetooth](Bluetooth)
 
 ## Technical Details
 
