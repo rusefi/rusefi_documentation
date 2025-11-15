@@ -2,7 +2,9 @@
 
 Compact WBO controller with both CAN and analog output.
 
-[available at rusEFI store](https://www.shop.rusefi.com/shop/p/uawbo)
+Available at [💲rusEFI store 💲](https://www.shop.rusefi.com/shop/p/uawbo)
+
+One of few unified [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
 Uses [lambda-x2 firmware](https://github.com/rusefi/wideband/releases/tag/2024-placeholder), overall this is a truncated compact edition of lambda-x2.
 
