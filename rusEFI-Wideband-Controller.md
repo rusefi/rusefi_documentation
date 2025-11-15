@@ -22,7 +22,7 @@ A: We only preheat mildly until engine is running for reasons TBD.
 
 A: We control heater based on RPM, also WBO compensate for battery voltage based on CAN info.
 
-## Pinout
+## 042 mini WBO Pinout
 
 [connector info](https://rusefi.com/forum/viewtopic.php?p=43705#p43705)
 
