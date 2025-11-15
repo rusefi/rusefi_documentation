@@ -18,4 +18,4 @@ See also [How To Upload Log](HOWTO-upload-log)
 
 ## Q: Why bother?
 
-### A: to make everyone's life easier. There is not much fun in looking at low-resolution videos of the screen. There is not much fun in reading a wall of text when full tune would be so much more helpful. There is little fun in looking at amazing high resolution screenshot of five dialogs if you need some other dialog.
+### A: to make everyone's life easier. There is not much fun in looking at low-resolution videos of the screen. There is not much fun in reading a wall of text when full tune would be so much more helpful. There is little fun in looking at amazing high resolution screenshot of five dialogs if you need some other dialog
