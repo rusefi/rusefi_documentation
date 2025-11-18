@@ -30,7 +30,6 @@ nav:
     - 'Support': Support.md
     - 'How to create a TunerStudio project': HOWTO-create-tunerstudio-project.md
     - 'rusEFI Online': Online.md
-    - 'rusEFI virtual simulator': Virtual-simulator.md
     - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
   - 'Features':
     - 'Fueling': Fuel-Overview.md
