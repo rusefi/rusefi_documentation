@@ -33,7 +33,6 @@ nav:
     - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
   - 'Features':
     - 'Fueling': Fuel-Overview.md
-    - 'Multispark': Multi-Spark.md
     - 'Cranking': Cranking.md
     - 'Electronic Throttle': Electronic-Throttle-Body-Configuration-Guide.md
     - 'Knock Sensing': knock-sensing.md
@@ -41,19 +40,31 @@ nav:
     - 'Lua Scripting': Lua-Scripting.md
     - 'GDI': GDI-status.md
     - 'Digital Dash': Digital-Dash.md
-    - 'Wideband Oxygen Sensor': Wide-Band-Sensors.md
+    - 'Wideband Oxygen Sensors': Wide-Band-Sensors.md
+    - 'Multispark': Multi-Spark.md
   - 'Setup Guides':
     - 'Trigger - Configuration': Trigger-Configuration-Guide.md
     - 'Trigger - Setting Offset': How-Do-I-Set-My-Trigger-Offset.md
     - 'Electronic Throttle Body': Electronic-Throttle-Body-Configuration-Guide.md
+    - 'Logging': Logging-Guide.md
   - 'Pages':
     - 'Fuel': Pages-Fuel.md
     - 'Flex Fuel': Flex-Fuel.md
     - 'Sensors and Actuators': Pages-Sensors-and-Actuators.md
     - 'Ignition': Pages-Ignition.md
+    - 'Software': Pages-Software.md
   - 'Hardware':
     - 'rusEFI Hardware Overview': Hardware.md
     - 'Wiring & Connectivity Overview': FAQ-Basic-Wiring-and-Connections.md
     - 'Boards':
+      - 'uaEFI': uaEFI.md
+      - 'microRusEFI': Hardware-microRusEFI.md
       - 'Proteus': Proteus.md
-      - 'MicroRusEFI (MRE)': Hardware-microRusEFI.md
+      - 'Hellen': Hellen-One-Platform.md
+    - 'Plug & Play Hardware':
+      - 'Honda OBD1': uaEFI-Honda-OBD1.md
+      - 'GM E38': GM-E38.md
+      - 'GM E92': PnP-E92.md
+  - 'Developers':
+    - 'Contribute to Firmware': HOWTO-contribute-to-firmware.md
+    - 'Contribute to Documentation': HOWTO-contribute-to-documentation.md
