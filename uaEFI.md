@@ -46,9 +46,7 @@ Most ECU features in this price category available at [💲rusEFI store💲](htt
 
 [General rusEFI documentation](Support)
 
-[Schematics rev c](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-c/board/uaefi-c-schematic.pdf)
-[Schematics rev b](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-b/board/uaefi-b-schematic.pdf)
-[Schematics rev a](https://github.com/rusefi/uaefi/raw/main/boards/uaefi-a/board/uaefi-a-schematic.pdf)
+[Schematics and fab files](https://github.com/rusefi/uaefi/tree/main/boards)
 
 [uaEFI schematics/PCB/gerbers](https://github.com/rusefi/uaefi)
 
