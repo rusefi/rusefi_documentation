@@ -1,6 +1,6 @@
 # uaWBO
 
-Compact WBO controller with both CAN and analog output. **Uses** [lambda-x2 firmware](https://github.com/rusefi/wideband/releases/tag/2024-placeholder), overall this is a truncated compact edition of lambda-x2.
+Compact WBO controller with both CAN and analog output. **Uses** [lambda-x2 firmware](https://github.com/rusefi/wideband/releases/tag/2024-placeholder), **overall this is a truncated compact edition of lambda-x2.**
 
 Available at [💲rusEFI store 💲](https://www.shop.rusefi.com/shop/p/uawbo)
 
