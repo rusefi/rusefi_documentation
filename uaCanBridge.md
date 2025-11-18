@@ -2,6 +2,8 @@
 
 Three channel CAN-FD gateway programmable using Lua scripting.
 
+[💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/ua-can-bridge)
+
 * x3 CAN bus
 * +12v power
 * usb-c for configuration
