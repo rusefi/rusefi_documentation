@@ -60,11 +60,11 @@ nav:
       - 'uaEFI': uaEFI.md
       - 'microRusEFI': Hardware-microRusEFI.md
       - 'Proteus': Proteus.md
-      - 'Hellen': Hellen-One-Platform.md
     - 'Plug & Play ECUs':
       - 'Honda OBD1': uaEFI-Honda-OBD1.md
       - 'GM E38': GM-E38.md
       - 'GM E92': PnP-E92.md
+      - 'Hellen': Hellen-One-Platform.md
   - 'Developers':
     - 'Contribute to Firmware': HOWTO-contribute-to-firmware.md
     - 'Contribute to Documentation': HOWTO-contribute-to-documentation.md
