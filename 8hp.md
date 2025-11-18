@@ -12,6 +12,10 @@
 
 https://www.domi-works.com/pages/identify-your-transmission-bmw-8hp
 
+## Shifter
+
+F-series shifter
+
 ## Misc
 
 BMW Engine Block Dowel Pin 11117524470 14.5mm
