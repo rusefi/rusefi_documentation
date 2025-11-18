@@ -34,6 +34,7 @@ A sibling of [uaEFI](uaEFI) with metal enclosure available at [ðŸ’²rusEFI storeð
 * Comes WITHOUT waterproofing considerations - please add your own potting!
 * looking for proper 8 cylinder individual? that's https://www.shop.rusefi.com/shop/p/rusefi-huge
 * matching USB cap sold separately CAP-WADMLPC2
+* on-board non-removable SD card
 
 ![WhatsApp Image 2024-09-09 at 10 57 21_3ee4ad45](https://github.com/user-attachments/assets/6e7067ff-88e9-4c5a-b931-36282d51f37c)
 
@@ -57,6 +58,10 @@ A: part of the context is fact that uaefi121 is a sibling of fully open source h
 A: shipped with 1241434-1 header see also [OEM 121 pin connectors](OEM-121-pin-connectors)
 
 ## Changelog
+
+### rev D
+
+* on-board logging
 
 ### rev B
 
