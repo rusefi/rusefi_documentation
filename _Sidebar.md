@@ -44,14 +44,14 @@
 - [rusEFI Hardware Overview](Hardware)
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
 
-### Boards
+### Wire-in ECUs
 
 - [uaEFI](uaEFI)
 - [microRusEFI](Hardware-microRusEFI)
 - [Proteus](Proteus)
 - [Hellen](https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform)
 
-### Plug & Play Hardware
+### Plug & Play ECUs
 
 - [Honda OBD1](uaEFI-Honda-OBD1)
 - [GM E38](GM-E38)
