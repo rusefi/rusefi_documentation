@@ -10,6 +10,11 @@ Three channel CAN-FD gateway programmable using Lua scripting.
 * micro SD card slot
 * optional molex 43650-0400 connectors
 
+## Use-cases
+
+* shift CAN ID and/or change baud rate
+* man-in-the middle tool
+
 [Software](https://rusefi.com/build_server/rusefi_bundle_canBridge.zip)
 
 [open source firmware](https://github.com/rusefi/fw-uaCanBridge/)
