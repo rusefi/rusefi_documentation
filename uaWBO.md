@@ -16,6 +16,10 @@ Q: How do I move from default 0x190/0x191 CAN bus addresses?
 
 A:
 
+Q: How do I flash custom firmware?
+
+A: TC2030 is the most proper way to change firmware on these devices.
+
 ## Changelog
 
 rev A
