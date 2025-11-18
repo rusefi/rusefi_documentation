@@ -12,6 +12,10 @@
 
 https://www.domi-works.com/pages/identify-your-transmission-bmw-8hp
 
+## Power
+
+Yes, constant power wire is ideal to give TCU time preserve adaptations. Please use a 60 second time delay relay if wires to switched power.  
+
 ## Shifter
 
 F-series shifter
