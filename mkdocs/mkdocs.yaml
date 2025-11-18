@@ -27,7 +27,7 @@ nav:
   - 'Downloads': Download.md
   - 'Getting Started':
     - 'Quick Start': HOWTO-quick-start.md
-    - 'Support': Support.md
+    - 'Support & Community': Support.md
     - 'How to create a TunerStudio project': HOWTO-create-tunerstudio-project.md
     - 'rusEFI Online': Online.md
     - 'HOWTOs and FAQs': Pages-FAQ-and-HOWTO.md
