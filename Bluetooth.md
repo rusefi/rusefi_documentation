@@ -28,7 +28,7 @@ the default pin is 1234
 
 Which is just one the possibilities
 
-```
+```c
 	// Usage:   "bluetooth_hc06 <baud> <name> <pincode>"
 	// Example: "bluetooth_hc06 38400 rusefi 1234"
 
@@ -45,4 +45,3 @@ A cool relevant Windows utility http://www.nirsoft.net
 ## Is there hope?
 
 We do not have motivation and resources to spare on better slow connection profile. If anything consider WiFi maybe https://github.com/Light-r4y/UART-TCP-proxy
-

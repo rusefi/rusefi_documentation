@@ -120,7 +120,7 @@ In future more adjustments may be needed- for example at low rpms a throttle tha
 
    **Example:**
 
-   | Rotation in deg | Throttle Pos | Addtl. fuel current | Addtl. Fuel Taper
+   | Rotation in deg | Throttle Pos | Addtl. fuel current | Addtl. Fuel Taper |
    | - | - | - | - |
    | 0 | 0 | 0 | 0 |
    | 360 | 2 | 13 | 0 |

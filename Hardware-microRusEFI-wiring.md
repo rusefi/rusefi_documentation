@@ -20,8 +20,8 @@ These tables provide technical information about the different types of pin foun
 |------|----|-------------| ---- |
 | . | 12V  | Power supply        | 9-22V operating, 5A fuse recommended           |
 | [#2, #6](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=6) | pgnd | Power ground        | Solidly ground directly to chassis or engine block. |
-| [#17, #21](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=21) | sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!***
-| . | 5v   | 5V sensor supply    | 5V supply for external sensors.  200mA maximum per pin.
+| [#17, #21](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=21) | sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!*** |
+| . | 5v   | 5V sensor supply    | 5V supply for external sensors.  200mA maximum per pin. |
 
 ### Stepper
 
@@ -37,29 +37,29 @@ These tables provide technical information about the different types of pin foun
 | ID   | Type                | Notes & Limits                                                                       | Possible functions |
 |------|---------------------| ------------------------------------------------------------------------------------ | --- |
 | at   | Analog temperature  | Analog temperature (thermistor) input.  2.7k(+-1%) pullup resistor to 5v  | Thermistor temperature sensor, fuel level sender (variable resistor type) |
-| av   | Analog voltage      | Analog voltage input.  500k pull down to GND                                         | Analog voltage sensor (MAP, TPS, acc pedal, oil pressure, etc)
-| vr   | Variable reluctance   | VR crank input                                                                       | VR sensors including crank, cam, vehicle speed
-| hall | Hall cam/crank      | <mark>TBD pull up to 5v</mark> hall sensor for cam/crank                             | Hall sensors including crank, cam, vehicle speed
+| av   | Analog voltage      | Analog voltage input.  500k pull down to GND                                         | Analog voltage sensor (MAP, TPS, acc pedal, oil pressure, etc) |
+| vr   | Variable reluctance   | VR crank input                                                                       | VR sensors including crank, cam, vehicle speed |
+| hall | Hall cam/crank      | <mark>TBD pull up to 5v</mark> hall sensor for cam/crank                             | Hall sensors including crank, cam, vehicle speed |
 
 ### Output
 
 | ID | Type | Notes & Limits | Possible functions |
 |----|-------------| ---- | --- |
 | inj  | Injector output     | Low side, 2.2A maximum **Only saturated (high impedance) injectors are supported.** | Injector, general purpose low side |
-| ign  | Ignition output     | 5V push-pull, 250mA maximum   | Ignition coil, general purpose 5V push-pull
-| ls   | High power low side | General purpose low side output, 4.5A maximum | General purpose low side, injector
-| gp_high | General purpose high side | General purpose high side push output, 5V/12V (internally selectable based on JP2 jumper) 250mA maximum | General purpose 5V/12V high side, ignition coil
-| gp_low | General purpose low side | General purpose low side pull output, 12V 500mA maximum                            | General purpose low side
+| ign  | Ignition output     | 5V push-pull, 250mA maximum   | Ignition coil, general purpose 5V push-pull |
+| ls   | High power low side | General purpose low side output, 4.5A maximum | General purpose low side, injector |
+| gp_high | General purpose high side | General purpose high side push output, 5V/12V (internally selectable based on JP2 jumper) 250mA maximum | General purpose 5V/12V high side, ignition coil |
+| gp_low | General purpose low side | General purpose low side pull output, 12V 500mA maximum                            | General purpose low side |
 | gp_pp  | General purpose Push-Pull | General purpose push-pull (low and high side) output, 600mA | Bipolar IDLE stepper, relays, solenoids |
-| mr   | Main relay          | Dedicated main relay output.  Low side turned on with power, 800mA maximum. | Main relay
-| etb  | Electronic throttle | Dedicated electronic throttle outputs.  Connect a brushed motor throttle body directly to these two pins.
+| mr   | Main relay          | Dedicated main relay output.  Low side turned on with power, 800mA maximum. | Main relay |
+| etb  | Electronic throttle | Dedicated electronic throttle outputs. | Connect a brushed motor throttle body directly to these two pins. |
 
 ### Communication
 
 | ID | Type | Notes & Limits |
 |----|-------------| ---- |
-| usb | USB     | USB tuning interface
-| can | CAN bus | CAN communication
+| usb | USB     | USB tuning interface |
+| can | CAN bus | CAN communication |
 
 USB cable green wire: USB D+ DATA+
 
@@ -94,16 +94,16 @@ J4:
 
 | N | Name | Possible functions (not all listed!) |
 |----|-------------| ---- |
-| 9 | GNS | GND
-| 4 | VDD | 3.3V
-| 1 | 5V | 5V
-| 2 | 12V | 12V from Main Relay
-| 3 | PB8 | I2C1_SCL or CAN1_RX
-| 6 | PB9 | I2C1_SDA or CAN1_TX
-| 8 | PC10 | SPI3_SCK or USART3_TX or UART4_TX
-| 5 | PC11 | SPI3_MISO or USART3_RX or UART4_RX
-| 10 | PC12 | SPI3_MOSI or USART3_CK or UART5_TX
-| 7 | PA15 | SPI3_NSS (Chip Select)
+| 9 | GNS | GND |
+| 4 | VDD | 3.3V |
+| 1 | 5V | 5V |
+| 2 | 12V | 12V from Main Relay |
+| 3 | PB8 | I2C1_SCL or CAN1_RX |
+| 6 | PB9 | I2C1_SDA or CAN1_TX |
+| 8 | PC10 | SPI3_SCK or USART3_TX or UART4_TX |
+| 5 | PC11 | SPI3_MISO or USART3_RX or UART4_RX |
+| 10 | PC12 | SPI3_MOSI or USART3_CK or UART5_TX |
+| 7 | PA15 | SPI3_NSS (Chip Select) |
 
 [J2 Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/main.html)
 

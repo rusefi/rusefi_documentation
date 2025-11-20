@@ -9,15 +9,15 @@ Most rusEFI units have four status LEDs
 
 Some simpler units have only communication blue and Fatal red
 
-# Bootloader
+## Bootloader
 
 During bootloader operation all four LEDs are expected to blink
 
-# Normal operation
+## Normal operation
 
 During normal operation blue LED is supposed to always blink. Blue LED blinking frequency changes when USB connection is detected. Lack of any blinking means brand new from factory unit or completely unexpected firmware condition
 
-# Fatal error
+## Fatal error
 
 Solid red means critical error, power cycle is required
 
