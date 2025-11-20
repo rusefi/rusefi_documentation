@@ -52,7 +52,6 @@ If you also have a CAM sensor somewhere see [VVT](VVT)
 
 Note that if your timing wheel was originally set up to run with a Ford EDIS-4 based ignition, you need to set the Trigger->Trigger Angle Advance setting to 90 degrees, as the EDIS-4 wants the reference missing tooth at 90 degrees BTDC.<img width="416" height="187" alt="image" src="https://github.com/user-attachments/assets/cff36fe1-dc6d-446e-abcb-5e4536fbcf47" />
 
-
 ## 36/2
 
 ![x](Images/triggers/trigger_TT_TOOTHED_WHEEL_36_2.png)

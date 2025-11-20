@@ -58,8 +58,8 @@ Destination legend:
 | 21  |**Lowside #12**| y     | Injector #12                         | Orange | ORANGE |Grey #3 27/52 BRN/BLK|
 | 23  |**Lowside #16**| y     | low-side output: fuel pump           | Orange | ORANGE|accessory |
 | 24  | **GND**       | y     | Power GND                            | Black | BROWN |Grey #1 6/9 BRN|
-| 30  | Ignition 7    | y     | Ignition cylinder 7                  | White | WHITE |  |External Igniter channel #2|
-| 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | ORANGE| |External Igniter channel #1 |
+| 30  | Ignition 7    | y     | Ignition cylinder 7                  | White | WHITE |External Igniter channel #2|
+| 35  | Ignition 1    | y     | Ignition cylinder 1                  | Orange | ORANGE|External Igniter channel #1 |
 
 Unused pins are - 1;2;13;14;25;26;27;28;29;31;32;33;34;
 
@@ -70,14 +70,15 @@ Unused pins are - 1;2;13;14;25;26;27;28;29;31;32;33;34;
 | 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red | Black #3 20/52 |
 | 2   | DIGITAL 3  | din   | Start button                         | Orange | accessory |
 | 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | Black #3 32/52 |
-| 8   | ETB1-      | y     | ETB 1 negative                       | White |
+| 8   | ETB1-      | y     | ETB 1 negative                       | White ||
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue | Black #3 46 /52 |
-| 15  | ETB1+      | etb   | ETB 1 positive                       | Blue |
+| 15  | ETB1+      | etb   | ETB 1 positive                       | Blue ||
 | 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red |  Black #4 26/40 GRN/BLK |
 | 19  | **GND**    | y     | Power GND                            | Black | Black #1 6/9 BRN |
-| 21  | ETB2-      | etb   | ETB 2 negative                       | White |
-| 22  | ETB2+      | etb   | ETB 2 positive                       | Blue |
+| 21  | ETB2-      | etb   | ETB 2 negative                       | White ||
+| 22  | ETB2+      | etb   | ETB 2 positive                       | Blue ||
 | 23  | +12V mr    | 12v   | ETB/high-side power supply from main relay  | Red | Black #1 8/9 RED/BLU |
+
 End of Black Proteus 0.2 23 pin table
 
 ### Black 23 Pin 776228-1 on Green Proteus 0.3+
@@ -87,16 +88,17 @@ End of Black Proteus 0.2 23 pin table
 | 1   | DIGITAL 2  | din   | Camshaft position sensor             | Red    | PINK|Black #3 20/52 |
 | 2   | DIGITAL 3  | din   | Start signal from ignition key       | Orange |ORANGE  ||
 | 5   | VR1 pos    | vr    | Variable Reluctance #1 positive      | Orange | ORANGE|Black #3 32/52 |
-| 6   | ETB1-      | y     | ETB 1 negative                       | White  |WHITE|
-| 7   | ETB1+      | etb   | ETB 1 positive                       | Blue   |PURPLE|
-| 8   | ETB2-      | etb   | ETB 2 negative                       | White  |WHITE|
+| 6   | ETB1-      | y     | ETB 1 negative                       | White  |WHITE||
+| 7   | ETB1+      | etb   | ETB 1 positive                       | Blue   |PURPLE||
+| 8   | ETB2-      | etb   | ETB 2 negative                       | White  |WHITE||
 | 13  | VR1 neg    | vr    | Variable Reluctance #1 negative      | Blue   |  PURPLE|Black #3 46 /52|
-| 15  | ETB2+      | etb   | ETB 2 positive                       | Blue   |PURPLE|
+| 15  | ETB2+      | etb   | ETB 2 positive                       | Blue   |PURPLE||
 | 16  | CAN-       | can   | CAN bus low                          | White  | WHITE|accessory |
 | 17  | CAN+       | can   | CAN bus high                         | Red    |  PINK|accessory  |
 | 18  | +12 raw    | 12v   | ignition power / ECU power source    | Red    |  PINK|Black #4 26/40 GRN/BLK |
 | 19  | **GND**    | y     | Power GND                            | Black  | BROWN |Black #1 6/9 BRN|
 | 23  | +12V mr    | 12v   |ETB/high-side power supply from main relay| Red|  PINK|Black #1 8/9 RED/BLU|
+
 End of Green Proteus 0.3+ 23 pin table
 
 Unused pins are - 3;4;;9;10;11;12;14;20;21;22;
@@ -199,9 +201,9 @@ ECU/OEM pigtails: 52 inches / 132cm
 
 |Pin Number|Name   | Type ID | Default function                   |rusEFI color | OEM connector |
 | ---:|:---------- | ----- |:------------------------------------ | :--------- | --- |
-| .  |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| .  |   |   |   |   ||
+|   |   |   |   |   ||
+|   |   |   |   |   ||
 
 ## 24 pin plug #2
 
@@ -219,20 +221,20 @@ ECU/OEM pigtails: 52 inches / 132cm
 
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
-|  6|  IN   | |            start signal from ignition key |
-| 17| OUT |BLK  |       engine speed output for gauge cluster
-| 26| IN  |GRN/BLK| RED +12v hot in start & run
-| 40| OUT |YEL/BRN |BRN starter enable
+|  6|  IN   | |            start signal from ignition key ||
+| 17| OUT |BLK  |       engine speed output for gauge cluster||
+| 26| IN  |GRN/BLK| RED +12v hot in start & run||
+| 40| OUT |YEL/BRN |BRN starter enable||
 |   |   |   |   |   |
 
 ## 9 pin plug #5
 
 | Pin  | type  | OEM color  | Description   | rusEFI color  |
 |---|---|---|---|---|
-| 3 | OUT BLK  |   ORANGE | coil signal, low-side |
-| 5 | GND BRN  |   GND | ground                |
-| 6 | OUT BLK  |   ORANGE | coil signal, low-side |
-| 9 | OUT BLK  |   ORANGE | coil signal, low-side |
+| 3 | OUT BLK  |   ORANGE | coil signal, low-side ||
+| 5 | GND BRN  |   GND | ground                ||
+| 6 | OUT BLK  |   ORANGE | coil signal, low-side ||
+| 9 | OUT BLK  |   ORANGE | coil signal, low-side ||
 |   |   |   |   |   |
 
 Toyota coil output pin #10 GREEN goes to BLACK breakout

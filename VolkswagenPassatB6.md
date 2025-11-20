@@ -81,6 +81,7 @@ WARNING: my test mule is EARLY or LATE? TBD
 | 87  | +12v       | Constant +12v from Fuse #25 10A term. 30 |         |
 | 92  | +12v       | Constant +12v from Fuse #25 10A term. 30 | BLK/YEL |
 |     |            |                                          |    |
+
 End of 94 pin connector T94
 
 <a name="60"/>
@@ -91,37 +92,38 @@ End of 94 pin connector T94
 | ---:|:---------- |:------------------------------------  | --- | --- |
 | 1   | INJ neg    | .Injector #2 P5-t                      | RED/WHT | blue |
 | 2   | INJ neg    | .Injector #1 P5-t                      | RED/BLK | white |
-| 4   | low side   | ..Wastegate bypass valve                | VIO/WHT |
-| 7   | analog in  | ..Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN |
-| 10  | analog in  | ..Engine CLT P4-b                       | GRN     |
-| 12  | analog in  | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#1 ETB#1 | GRN/YEL |
-| 13  | analog in  | ..Intake air temperatur IAT P4-b        | WHT     |
-| 14  | **GND**    | ..Sensor GND (cam, LPFP, CLT, IAT)      | BRN/BLU |
-| 15  |            | ..[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     |
+| 4   | low side   | ..Wastegate bypass valve                | VIO/WHT ||
+| 7   | analog in  | ..Fuel Low Pressure Sensor pin#2 P5-t, +5#37, GND#14              | VIO/GRN ||
+| 10  | analog in  | ..Engine CLT P4-b                       | GRN     ||
+| 12  | analog in  | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#1 ETB#1 | GRN/YEL ||
+| 13  | analog in  | ..Intake air temperatur IAT P4-b        | WHT     ||
+| 14  | **GND**    | ..Sensor GND (cam, LPFP, CLT, IAT)      | BRN/BLU ||
+| 15  |            | ..[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB)  positive ETB#5                       | VIO     ||
 | 16  | INJ neg    | .Injector #4 P5-t                      | RED/GRY | green |
 | 17  | INJ neg    | .Injector #3 P5-t                      | RED/VIO | orange |
-| 19  | low side   | ..Fuel pressure regulator valve 4 Ohm HPFP      | VIO/BRN |
-| 20  | low side   | ..Camshaft valve #1                     | VIO/WHT |
-| 25  | analog in  | ..Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU |
-| 26  | 5v         | ..Sensor 5v power (cam, )               | BLK/GRY |
-| 27  | analog in  | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#2 ETB#4 | BLU/GRN |
-| 28  | 5v         | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU |
-| 29  | analog GND | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Signal GND   ETB#6 | VIO/BRN |
-| 30  |            | ..[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB) neg ETB#3 | BRN/VIO |
+| 19  | low side   | ..Fuel pressure regulator valve 4 Ohm HPFP      | VIO/BRN ||
+| 20  | low side   | ..Camshaft valve #1                     | VIO/WHT ||
+| 25  | analog in  | ..Fuel High Pressure Sensor pin#2 P4-b            | GRY/BLU ||
+| 26  | 5v         | ..Sensor 5v power (cam, )               | BLK/GRY ||
+| 27  | analog in  | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) TPS Signal#2 ETB#4 | BLU/GRN ||
+| 28  | 5v         | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) +5v          ETB#2 | BLK/BLU ||
+| 29  | analog GND | ..[ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Signal GND   ETB#6 | VIO/BRN ||
+| 30  |            | ..[ETB DC Motor](Vault-Of-Electronic-Throttle-Bodies-ETB) neg ETB#3 | BRN/VIO ||
 | 32  | INJ pos    | .Injector #3 P5-t connected to #47     | BRN/VIO | green |
 | 33  | INJ pos    | .Injector #1 P5-t                      | BRN/BLK | blue |
-| 36  | Crank in   | ..VR Crank Negative                     | White   |
-| 37  | 5v         | ..Sensor 5v power                       | BLK/GRN |
-| 41  | High-Side  | ..Coil #2                               | BLU/GRY |
-| 43  | High-Side  | ..Coil #3                               | RED/GRY |
-| 44  | digital in | ..Cam position sensor                   | GRN/VIO |
+| 36  | Crank in   | ..VR Crank Negative                     | White   ||
+| 37  | 5v         | ..Sensor 5v power                       | BLK/GRN ||
+| 41  | High-Side  | ..Coil #2                               | BLU/GRY ||
+| 43  | High-Side  | ..Coil #3                               | RED/GRY ||
+| 44  | digital in | ..Cam position sensor                   | GRN/VIO ||
 | 47  | INJ pos    | .Injector #2 P5-t connected to #32     | BRN/WHT   | orange |
 | 48  | INJ pos    | .Injector #4 P5-t                      | BRN BRN/GRY   | white |
-| 51  | Crank in   | ..VR Crank Positive                     | BRN |
-| 52  | **GND**    | ..Sensor GND                            | BLK |
-| 56  | High-Side  | ..Coil #4                               | GRY/BRN |
-| 58  | High-Side  | ..Coil #1                               | VIO/GRY |
-|     |            |                                       |         |
+| 51  | Crank in   | ..VR Crank Positive                     | BRN ||
+| 52  | **GND**    | ..Sensor GND                            | BLK ||
+| 56  | High-Side  | ..Coil #4                               | GRY/BRN ||
+| 58  | High-Side  | ..Coil #1                               | VIO/GRY ||
+|     |            |                                       |         ||
+
 End of 60 pin connector T60
 
 Injector #1: #33/#2

@@ -1,20 +1,26 @@
 # Device Recognition Issue When Connecting
+
 When connecting rusefi to a Linux PC, you may encounter an issue where TunerStudio fails to detect the device when you click the “Detect” button.
 To resolve this problem, try the following steps:
+
 1. Add the user to the `uucp` group:
-```
-sudo usermod -aG uucp $USER
-```
+
+      ```shell
+      sudo usermod -aG uucp $USER
+      ```
+
 2. Restart the computer.
 3. Reconnect the rusefi device to the computer and verify that it is successfully connected and recognized:
-```
-ls /dev/ttyACM*
-```
+
+      ```shell
+      ls /dev/ttyACM*
+      ```
+
 4. Try detecting the unit in the TunerStudio interface again.
 <br/><br/>
 <br/><br/>
 
-# Linux Connectivity Issues caused by ModemManager
+## Linux Connectivity Issues caused by ModemManager
 
 CDC ACM is interface mostly used for modems.
 ModemManager tries to detect modem on all newly added ttyACM devices.
