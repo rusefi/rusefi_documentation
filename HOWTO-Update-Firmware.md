@@ -40,7 +40,7 @@ Q: I got "DRIVER ERROR"
 
 A: in rusEFI console please hit "Device Manager". When ECU gets into DFU mode (blue LED stops blinking) you are expected to see "STM32 Bootloader" device. If you see "STM device in DFU mode" please uninstall it and remove old driver.
 
-Bad 
+Bad
 
 ![x](https://user-images.githubusercontent.com/7377949/76368499-dbfd8500-6306-11ea-9aff-823b22b46283.png)
 

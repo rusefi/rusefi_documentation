@@ -8,7 +8,7 @@
 
 The hardware takes cam / crank signals from VR, Hall, optical and or other sensors, and converts them into clean digital pulses that can be used by the MCU.
 
-This page contains information about the Variable Reluctor (VR) style sensor, commonly used for detecting angular rotation (RPM). 
+This page contains information about the Variable Reluctor (VR) style sensor, commonly used for detecting angular rotation (RPM).
 
 ## Misc notes equations, app notes, etc
 

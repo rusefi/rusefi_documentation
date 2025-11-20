@@ -17,4 +17,3 @@ A: Do you have power? Do you have any LED lights? Do you have USB cable? On all 
 ## Q: I see blue blinking LED but nothing on device manager
 
 A: Make sure your USB cable is proper data cable not evil charge-only cable.
-

@@ -140,4 +140,3 @@ injector/coil/etc 1: green
 5: grey
 
 6: yellow
-

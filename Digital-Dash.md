@@ -2,7 +2,6 @@
 
 [Dash-hardware-comparison](Dash-hardware-comparison)
 
-
 TL,DR: dash situation is not ideal. Open question what is acceptable boot time and what is boot time for each of the options.
 
 We have 4 versions of Digital Dash currently

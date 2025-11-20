@@ -119,6 +119,7 @@ In future more adjustments may be needed- for example at low rpms a throttle tha
 1. Come up with a strategy on how to deal with cumulative effects. Example: Push down on the gas pedal. What if that process takes longer than one engine rotation?
 
    **Example:**
+
    | Rotation in deg | Throttle Pos | Addtl. fuel current | Addtl. Fuel Taper
    | - | - | - | - |
    | 0 | 0 | 0 | 0 |

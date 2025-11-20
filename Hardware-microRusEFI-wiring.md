@@ -91,6 +91,7 @@ microRusEFI exposes the following pins in addition to the primary 48 pin connect
 J4:
 
 ![x](Hardware/microRusEFI/J4.png)
+
 | N | Name | Possible functions (not all listed!) |
 |----|-------------| ---- |
 | 9 | GNS | GND
@@ -107,6 +108,7 @@ J4:
 [J2 Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/main.html)
 
 Three GPIOs are available on J2 (SWD) connector. If you are not going to use debugger J2 connector can be used for other purposes.
+
 | N | Name | Possible functions (not all listed!) |
 |----|-------------| ---- |
 | 7, 8 | GND | GND |

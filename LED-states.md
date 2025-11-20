@@ -1,6 +1,7 @@
 # LED states
 
-Most rusEFI units have four status LEDs 
+Most rusEFI units have four status LEDs
+
 * Communication blue
 * Fatal/Critical error red
 * orange misc
