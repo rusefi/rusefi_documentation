@@ -30,7 +30,7 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 ## Technical Details
 
-[Schematics rev c](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/alphax_8ch-c-schematic.pdf)
+[Schematics rev c](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware-files/Hellen/alphax_8ch-c-schematic.pdf)
 
 [iBom rev C](https://rusefi.com/docs/ibom/alphax_8ch-c-ibom.html)
 

@@ -8,7 +8,7 @@ A: http://shop.rusefi.com/
 
 With fabrication files for Proteus you can get a 80% assembled unit from JLCPCB.
 
-![x](Hardware/Proteus/Hardware-Proteus-0.6-top.jpg)  
+![x](Hardware-files/Proteus/Hardware-Proteus-0.6-top.jpg)  
 
 [Forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1646)
 
@@ -26,7 +26,7 @@ Source & production files [at github](https://github.com/mck1117/proteus/)
 
 ## 3D cases
 
-[vented/unvented by Kneelo](Hardware/Proteus/Proteus_0.3_case_by_kneelo.zip)
+[vented/unvented by Kneelo](Hardware-files/Proteus/Proteus_0.3_case_by_kneelo.zip)
 
 [by OrchardPerformance](https://rusefi.com/forum/download/file.php?id=7242)
 

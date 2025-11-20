@@ -18,11 +18,11 @@ open source, somewhat abandoned https://github.com/rusefi/hellen-miata-NA8
 
 [neomiata 1997 Wiring Diagram](http://neomiata.com/garage/Wiring%20Diagrams/Wiring%20Diagrams%201997-2000/1997_Miata%20System%20Wiring%20Diagrams.pdf)
 
-[**Schematic Rev A**](Hardware/Hellen/hellen64_NA8_96-a-schematic.pdf)
+[**Schematic Rev A**](Hardware-files/Hellen/hellen64_NA8_96-a-schematic.pdf)
 
 REV A
 
-![x](Hardware/Hellen/hellen_na8_96.jpeg)
+![x](Hardware-files/Hellen/hellen_na8_96.jpeg)
 
 ## Options Port
 
@@ -43,7 +43,7 @@ REV A
 
 **Options Port Schematic**
 
-![x](Hardware/Hellen/H76a-Options.JPG)
+![x](Hardware-files/Hellen/H76a-Options.JPG)
 
 ## Additional Hardware
 

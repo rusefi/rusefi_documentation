@@ -16,7 +16,7 @@ See [uaEFI](uaEFI)
 
 [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/uaefi/honda-obd1/)
 
-[Adapter Schematics rev a](Hardware/Hellen/uaefi-Honda-OBD1-adapter-a-schematic.pdf)
+[Adapter Schematics rev a](Hardware-files/Hellen/uaefi-Honda-OBD1-adapter-a-schematic.pdf)
 
 ## Features
 

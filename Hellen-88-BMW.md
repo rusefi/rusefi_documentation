@@ -8,7 +8,7 @@ M50tu and Pre-1995 USA M3
 
 [snapshot bundle](https://rusefi.com/build_server/rusefi_bundle_hellen88bmw.zip)
 
-[schematics rev A](Hardware/Hellen/hellen88bmw-a-schematic.pdf)
+[schematics rev A](Hardware-files/Hellen/hellen88bmw-a-schematic.pdf)
 
 [Issue Tracker](https://github.com/rusefi/hellen88bmw-issues)
 
@@ -22,7 +22,7 @@ M50tu and Pre-1995 USA M3
 
 [Dev Pinout Notes](https://docs.google.com/spreadsheets/d/1OiEaak7TElKwF-fXWvl9Dk-fD84a0NENe6lOwhXiOe4/)
 
-![x](Hardware/Hellen/hellen88bmw-rev-a-assembled.jpg)
+![x](Hardware-files/Hellen/hellen88bmw-rev-a-assembled.jpg)
 
 ## Supported
 

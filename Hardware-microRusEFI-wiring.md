@@ -81,8 +81,8 @@ R17=2.7K pull-up to 5v
 R12=10K
 R13=0R
 
-![front hall](Hardware/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_hall_setup.jpg)
-![front lower](Hardware/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_lower.jpg)
+![front hall](Hardware-files/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_hall_setup.jpg)
+![front lower](Hardware-files/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_lower.jpg)
 
 ## Extra pins
 
@@ -90,7 +90,7 @@ microRusEFI exposes the following pins in addition to the primary 48 pin connect
 
 J4:
 
-![x](Hardware/microRusEFI/J4.png)
+![x](Hardware-files/microRusEFI/J4.png)
 
 | N | Name | Possible functions (not all listed!) |
 |----|-------------| ---- |
@@ -121,7 +121,7 @@ Three GPIOs are available on J2 (SWD) connector. If you are not going to use deb
 
 For HW version 0.5.0 and newer some additional GPIOs are available on test points around STM32.
 
-![x](Hardware/microRusEFI/J8_9_10.png)
+![x](Hardware-files/microRusEFI/J8_9_10.png)
 
 [Test point Interactive Pinout](https://rusefi.com/docs/pinouts/microrusefi/pads.html)
 
@@ -142,8 +142,8 @@ Q: Can I use temperature inputs for EGT?
 
 A: "temperature input" is a just an analog 0-5v input with a strong pull-up implied to use with a thermistor. Your EGT sensor is probably not a thermistor, your 0-5v output out of a conditioner would probably not be happy about the pull-up.
 
-[microRusEFI photo](Hardware/microRusEFI/Hardware_microRusEFI_connector.jpg)
+[microRusEFI photo](Hardware-files/microRusEFI/Hardware_microRusEFI_connector.jpg)
 
-[microRusEFI connector PCB image](Hardware/microRusEFI/Hardware_microRusEFI_0_3_PCB_pinout.png)
+[microRusEFI connector PCB image](Hardware-files/microRusEFI/Hardware_microRusEFI_0_3_PCB_pinout.png)
 
-[reality](Hardware/microRusEFI/microRusEFI_connectors/MRE_reality.jpg)
+[reality](Hardware-files/microRusEFI/microRusEFI_connectors/MRE_reality.jpg)

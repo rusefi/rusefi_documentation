@@ -17,7 +17,7 @@ Hello. [AlphaX 2Chan](https://rusefi.com/build_server/rusefi_bundle_alphax-2chan
 
 On-board MPXH6400A
 
-![x](Hardware/Hellen/alphax-2chan-rev-a.jpg)
+![x](Hardware-files/Hellen/alphax-2chan-rev-a.jpg)
 
 [See also AlphaX-4chan](AlphaX-4chan)
 

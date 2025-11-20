@@ -60,9 +60,9 @@ Raw +12 option **Never have both F1 and F2 jumpers populated!**
 
 ![x](https://rusefi.com/forum/download/file.php?id=7575)
 
-![x](Hardware/Hellen/hellen121vag-b.jpg)
+![x](Hardware-files/Hellen/hellen121vag-b.jpg)
 
-![x](Hardware/Hellen/hellen121vag-a.jpg)
+![x](Hardware-files/Hellen/hellen121vag-a.jpg)
 
 ## Q: what cars is the 121vag applicable for?
 

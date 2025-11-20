@@ -27,15 +27,15 @@ https://www.google.com/search?q=49+usd+to+rub
 
 Собранный microRusEFI 220 USD в рублях по курсу - в этом варианте заказчик сам идёт отрезать проводку от Лады или Ниссана
 
-![assembled MRE](Hardware/microRusEFI/store/mre_assembled.jpg)
+![assembled MRE](Hardware-files/microRusEFI/store/mre_assembled.jpg)
 
 Собранный microRusEFI + компоненты коннектора 240 USD в рублях по курсу - в этом варианте заказчик умеет обжимать разъёмы
 
-![connector kit](Hardware/microRusEFI/store/mre_assembled_connector_kit.jpg)
+![connector kit](Hardware-files/microRusEFI/store/mre_assembled_connector_kit.jpg)
 
 Собранный microRusEFI + новый хвост проводки потому что 270 USD в рублях по курсу.
 
-![pigtail](Hardware/microRusEFI/store/mre_assembled_pigtail.jpg)
+![pigtail](Hardware-files/microRusEFI/store/mre_assembled_pigtail.jpg)
 
 ## оплата
 

@@ -8,9 +8,9 @@
 
 [Snapshot Bundle](https://rusefi.com/build_server/rusefi_bundle_hellen-honda-k.zip)
 
-[Schematics rev D](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-d-schematic.pdf)
-[Schematics rev C](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-c-schematic.pdf)
-[Schematics rev B](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware/Hellen/hellen125honda-b-schematic.pdf)
+[Schematics rev D](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware-files/Hellen/hellen125honda-d-schematic.pdf)
+[Schematics rev C](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware-files/Hellen/hellen125honda-c-schematic.pdf)
+[Schematics rev B](https://github.com/rusefi/rusefi_documentation/raw/master/Hardware-files/Hellen/hellen125honda-b-schematic.pdf)
 
 [iBom rev C](https://rusefi.com/docs/ibom/hellen125honda-d-ibom.html)
 [iBom rev C](https://rusefi.com/docs/ibom/hellen125honda-c-ibom.html)
@@ -22,7 +22,7 @@ For now see [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Hond
 
 [Acura TSX Engine - Wikipedia](https://en.wikipedia.org/wiki/Acura_TSX#Engine)
 
-![x](Hardware/Hellen/hellen125honda-front-rev-a.jpg)
+![x](Hardware-files/Hellen/hellen125honda-front-rev-a.jpg)
 
 [Issue Tracker](https://github.com/rusefi/hellen125honda-issues)
 

@@ -35,13 +35,13 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 
 [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/hellen128/)
 
-[Schematics rev a](Hardware/Hellen/hellen128mercedes-a-schematic.pdf) [iBom rev a](https://rusefi.com/docs/ibom/hellen128mercedes-a-ibom.html)
+[Schematics rev a](Hardware-files/Hellen/hellen128mercedes-a-schematic.pdf) [iBom rev a](https://rusefi.com/docs/ibom/hellen128mercedes-a-ibom.html)
 
-[Schematics rev b](Hardware/Hellen/hellen128mercedes-b-schematic.pdf) [iBom rev b](https://rusefi.com/docs/ibom/hellen128mercedes-b-ibom.html)
+[Schematics rev b](Hardware-files/Hellen/hellen128mercedes-b-schematic.pdf) [iBom rev b](https://rusefi.com/docs/ibom/hellen128mercedes-b-ibom.html)
 
-[Schematics rev c](Hardware/Hellen/hellen128mercedes-c-schematic.pdf) [iBom rev c](https://rusefi.com/docs/ibom/hellen128mercedes-c-ibom.html)
+[Schematics rev c](Hardware-files/Hellen/hellen128mercedes-c-schematic.pdf) [iBom rev c](https://rusefi.com/docs/ibom/hellen128mercedes-c-ibom.html)
 
-[Test points](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder-test-points.png)
+[Test points](Hardware-files/Hellen/hellen128mercedes-rev-b-reference-4-cylinder-test-points.png)
 
 ## Hardware extension/ configuration
 
@@ -170,14 +170,14 @@ As of April 2022 we know nothing about m111 automatic transmission control. All 
 * wastegate diode
 * USB type B
 
-![x](Hardware/Hellen/hellen128mercedes-rev-c.jpg)
+![x](Hardware-files/Hellen/hellen128mercedes-rev-c.jpg)
 
 ### rev B Aug 27, 2021
 
 * better provisions for high-current control of supercharger [clutch solenoid on M111 Q6 R80](https://github.com/rusefi/hellen128merc-issues/issues/10)
 * ignition fuse changed from 36915000000 5A to 2010-T10A0V2T11192AM5G 10A. 0697H9100-02 could be use for refitting of rev A
 
-![x](Hardware/Hellen/hellen128mercedes-rev-b-reference-4-cylinder.jpg)
+![x](Hardware-files/Hellen/hellen128mercedes-rev-b-reference-4-cylinder.jpg)
 
 ### rev A June 10, 2021
 

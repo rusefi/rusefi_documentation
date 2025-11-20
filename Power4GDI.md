@@ -17,7 +17,7 @@ Basic standalone ECU for 4 cylinder GDI engines - please double-check pinout, th
 * schematics and interactive pinout are the main documents
 * optional on-board MAP mpxh6400
 
-[Schematics rev a](Hardware/Hellen/alphax-4K-GDI-a-schematic.pdf)
+[Schematics rev a](Hardware-files/Hellen/alphax-4K-GDI-a-schematic.pdf)
 
 ##
 
