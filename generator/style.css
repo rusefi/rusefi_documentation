@@ -18,3 +18,11 @@ rst-content .toctree-wrapper > p.caption, .rst-content h1, .rst-content h2, .rst
 .md-source {
 	display: none;
 }
+
+th.invisible {
+	display: none;
+}
+
+table:has(.invisible), td.invisible {
+  border: none !important;
+}
