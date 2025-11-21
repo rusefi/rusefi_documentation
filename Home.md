@@ -1,10 +1,8 @@
 # Home
 
-[Latest builds and downloads](Download)
-[We have eight universal ECUs](Hardware)
-[Quick Start](HOWTO-quick-start)
-
-[![Download](Images/Latest_bundle_border.png)](Download)
+|a {: .invisible}|a {: .invisible}|a {: .invisible}|
+|-|-|-|
+|[![We have eight universal ECUs](Images/hardware.png)](Hardware) {: .invisible}|[![Quick Start](Images/quickstart.png)](HOWTO-quick-start) {: .invisible}|[![Latest builds and downloads](Images/downloads.png)](Download) {: .invisible}|
 
 Hello, and welcome to the rusEFI wiki main page. Here you will find information related to rusEFI, a GPL open-source engine control unit for gasoline internal combustion engines. This project involves embedded hardware, software, and engines (vroom vroom). This community has many members from many walks of life who are scattered all around the world.
 
