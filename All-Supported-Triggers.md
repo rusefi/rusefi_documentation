@@ -161,6 +161,8 @@ GM/Daewoo Distributor F8CV
 
 ### Renix 44/2/2
 
+Also used on Renault 5  
+
 ![x](Images/triggers/trigger_TT_RENIX_44_2_2.png)
 
 ### Renix 66/2/2/2
