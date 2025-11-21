@@ -1,8 +1,8 @@
 #!/bin/bash
 shopt -s extglob
-cd mkdocs
+cd generator
 mkdir -p docs
-cp -t docs -r ../!(mkdocs|wiki-tools|bin|_*)
+cp -t docs -r ../!(generator|wiki-tools|_*)
 cp style.css docs
 zensical build
 rm -r docs
