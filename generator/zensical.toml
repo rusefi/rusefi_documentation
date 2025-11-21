@@ -54,6 +54,7 @@ nav = [
   ]},
   {"Features" = [
     {"Fueling" = "Fuel-Overview.md"},
+    {"Flex Fuel" = "Flex-Fuel.md"},
     {"Cranking" = "Cranking.md"},
     {"Electronic Throttle" = "Electronic-Throttle-Body-Configuration-Guide.md"},
     {"Knock Sensing" = "knock-sensing.md"},
@@ -72,7 +73,6 @@ nav = [
   ]},
   {"Pages" = [
     {"Fuel" = "Pages-Fuel.md"},
-    {"Flex Fuel" = "Flex-Fuel.md"},
     {"Sensors and Actuators" = "Pages-Sensors-and-Actuators.md"},
     {"Ignition" = "Pages-Ignition.md"},
     {"Software" = "Pages-Software.md"}

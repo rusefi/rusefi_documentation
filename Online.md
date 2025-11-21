@@ -3,8 +3,9 @@
 
 [rusEFI online](https://rusefi.com/online/) is facilitating data flow within rusEFI open source engine management community.
 
-- share your tune
-- checkout other's tunes
+- Make your tunes and logs easily available so that others can help you with troubleshooting.
+- Share your finishd tune to give others a starting point for their tune.
+- Check out others' tunes
 
 See [HOWTO set rusEFI Online authentication token](HOWTO-set-rusEFI-Online-authentication-token)
 

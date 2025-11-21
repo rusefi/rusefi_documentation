@@ -1,6 +1,6 @@
-# Support
+# Support & Community
 
-TL,DR: see https://discord.gg/rCGAUaZJKF
+*Chat with the community on [Discord](https://discord.gg/rCGAUaZJKF)*
 
 rusEFI is a community-driven free open source project. We offer very flexible universal units which empower motorsports professionals or enthusiasts to accomplish a lot, but we do not have the resources to offer free support to end users.
 

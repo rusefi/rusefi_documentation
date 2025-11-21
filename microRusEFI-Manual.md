@@ -25,18 +25,18 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 ## FAQ
 
-Q: can I batch 8 fire injectors?
+*__Q:__ Is there anything special I need to do to wire USB from ECU harness?*
+__A:__ The USB Cable needs to be shielded all the way to the connector. Don't connect the shield at the ECU end. There should be exactly one ground from laptop to ECU, and it needs to be in the USB cable, no splices.
 
-A: The microRusEFI ECU is primarily a 4 cylinder ECU. You will burn it with two injectors per output.
+*__Q:__ can I batch 8 fire injectors?*  
+__A:__ The microRusEFI ECU is primarily a 4 cylinder ECU. You will burn it with two injectors per output.
 
-Q: How about 6 cylinders sequential on microRusEFI?
-
-A: The microRusEFI ECU is primarily a 4 cylinder ECU. At this time the testing for safety, reliable control, and consistency have not been completed for running the microRusEFI ECU on a 6 cylinder engine, using electrically different outputs.
+*__Q:__ How about 6 cylinders sequential on microRusEFI?*  
+__A:__ The microRusEFI ECU is primarily a 4 cylinder ECU. At this time the testing for safety, reliable control, and consistency have not been completed for running the microRusEFI ECU on a 6 cylinder engine, using electrically different outputs.
 For 6 cylinders you need uaEFI or uaEFI121.
 
-Q: what about stepper idle?
-
-A: yes microRusEFI can drive 4 wire idle air valves see setting at https://github.com/rusefi/rusefi/pull/3749
+*__Q:__ what about stepper idle?*  
+__A:__ yes microRusEFI can drive 4 wire idle air valves see setting at https://github.com/rusefi/rusefi/pull/3749
 
 ### HOWTO update microRusEFI Firmware
 
