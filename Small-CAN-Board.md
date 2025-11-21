@@ -26,6 +26,6 @@ Build your own CANbus driven smart wastegate controller or control axillary ligh
 
 [iBom rev A](https://rusefi.com/docs/ibom/small-can-board-a-ibom.html)
 
-[Schematics rev A](Hardware/Hellen/small-can-board-a-schematic.pdf)
+[Schematics rev A](Hardware-files/Hellen/small-can-board-a-schematic.pdf)
 
 ![image](https://github.com/rusefi/rusefi/assets/48498823/bc9f33da-46a9-48fe-ba04-6eb8e0269bbf)

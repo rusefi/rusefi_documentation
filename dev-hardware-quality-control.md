@@ -41,6 +41,6 @@ PC _probably_ has USB CDC with ECU. Funny idea: CAN bus between ECU and Stim?
 
 Problem: sometimes we do not want to feed ECU via ST-Link. Solution: Stim has a switch(es) (red board on the photo) to break +5v line(s) between PC and ECU.
 
-![x](Hardware/hw-qc-overview.jpg)
+![x](Hardware-files/hw-qc-overview.jpg)
 
 See [rusEFI Stimulator](https://github.com/rusefi/stim)

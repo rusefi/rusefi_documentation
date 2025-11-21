@@ -11,11 +11,11 @@
 
 [Issue Tracker](https://github.com/rusefi/hellen121nissan-issues/issues)
 
-[Schematics rev D](Hardware/Hellen/hellen121nissan-d-schematic.pdf)
+[Schematics rev D](Hardware-files/Hellen/hellen121nissan-d-schematic.pdf)
 
-[Schematics rev С](Hardware/Hellen/hellen121nissan-c-schematic.pdf)
+[Schematics rev С](Hardware-files/Hellen/hellen121nissan-c-schematic.pdf)
 
-[Schematics rev B](Hardware/Hellen/hellen121nissan-b-schematic.pdf)
+[Schematics rev B](Hardware-files/Hellen/hellen121nissan-b-schematic.pdf)
 
 [ibom rev D](https://rusefi.com/docs/ibom/hellen121nissan-d-ibom.html)
 
@@ -31,8 +31,8 @@
 
 ## Hardware features
 
-![x](Hardware/Hellen/hellen121nissan-rev-D-with-connector.jpg)
-![x](Hardware/Hellen/hellen121nissan-rev-B-with-connector.jpg)
+![x](Hardware-files/Hellen/hellen121nissan-rev-D-with-connector.jpg)
+![x](Hardware-files/Hellen/hellen121nissan-rev-B-with-connector.jpg)
 
 ## Extension Pads
 

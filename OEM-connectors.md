@@ -59,7 +59,7 @@ Color: Black Key: A Part: HCCPHPE24BKA90F
 
 Color: Grey  Key: B Part: HCCPHPE24GYB90F
 
-![24 Pin connector](Hardware/connectors/24_pin_HCCPHPE24.png)
+![24 Pin connector](Hardware-files/connectors/24_pin_HCCPHPE24.png)
 
 [Speeduino - ECU Connectors](https://speeduino.com/wiki/index.php/ECU_Connectors)
 
@@ -106,7 +106,7 @@ Volkswagen
 
 BMW and Citroen/Peugeot
 
-![35 Pin connector](Hardware/connectors/35_pin.png)
+![35 Pin connector](Hardware-files/connectors/35_pin.png)
 
 ## 38 pin
 
@@ -227,7 +227,7 @@ Citroen Berlingo m49, Citroen Xara
 
 Lada Samara
 
-![55 pin connector](Hardware/connectors/55_pin.png)
+![55 pin connector](Hardware-files/connectors/55_pin.png)
 
 For sale @ [eBay breakout board Store](http://www.ebay.com/usr/rusefi)
 
@@ -317,7 +317,7 @@ Is this same as Mg643909?
 
 -1, -6 and -7 are color options
 
-![64 pin connector](Hardware/connectors/64_pin.png)
+![64 pin connector](Hardware-files/connectors/64_pin.png)
 
 [64 pin 176122 ECU connector board - Forum](http://rusefi.com/forum/viewtopic.php?f=4&t=507)
 
@@ -340,8 +340,8 @@ terminal [TE 173634-1](http://www.te.com/usa-en/product-173634-1.html)
 
 terminal 173681
 
-![Grey connectors](Hardware/connectors/64_pin_connectors_grey.png)
-![Green connectors](Hardware/connectors/64_pin_connectors_green.png)
+![Grey connectors](Hardware-files/connectors/64_pin_connectors_grey.png)
+![Green connectors](Hardware-files/connectors/64_pin_connectors_green.png)
 
 mitsubishi colt/mirage 1991-1995 year for 1.3, 1.6 and 1.8 engine
 
@@ -369,7 +369,7 @@ Volkswagen
 
 [TE 963356-1](http://www.te.com/catalog/pn/en/963356-1)
 
-![68 pin connector](Hardware/connectors/68_pin.png)
+![68 pin connector](Hardware-files/connectors/68_pin.png)
 
 [TE 966595-1](http://www.te.com/catalog/pn/en/966595-1)
 
@@ -389,7 +389,7 @@ See [http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm
 
 [TE 1123038-2](http://www.te.com/catalog/pn/en/1123038-2) [octopart](https://octopart.com/search?q=1123038)
 
-![72 pin connector](Hardware/connectors/72_pin.png)
+![72 pin connector](Hardware-files/connectors/72_pin.png)
 
 See [Miata 2001 - 2005](Mazda-Miata-2001)
 
@@ -419,7 +419,7 @@ Vehicle:Subaru Impreza 1991-1996
 
 And terminals 173716-1 or 173716-2 and 173630-1 or 173630-2
 
-![76 Pin Connector](Hardware/connectors/76_render.png)
+![76 Pin Connector](Hardware-files/connectors/76_render.png)
 
 ## 76 pin center lock
 
@@ -437,7 +437,7 @@ LS1 LS6
 
 [TE 8-1393476-0](http://www.te.com/catalog/pn/en/8-1393476-0)
 
-![80 Pin Connector](Hardware/connectors/80_render.png)
+![80 Pin Connector](Hardware-files/connectors/80_render.png)
 
 Audi
 VW Jetta Golf VR6 Turbo
@@ -473,7 +473,7 @@ unknown part number used by Chinese vehicles, google for DJ7811-1-3.5-10
 
 [TE 185785-1](http://www.te.com/catalog/pn/en/185785-1)
 
-![88 Pin Connector in ECU](Hardware/connectors/88_ecu.png)
+![88 Pin Connector in ECU](Hardware-files/connectors/88_ecu.png)
 
 98-01 KIA SEPHIA
 
@@ -701,7 +701,7 @@ Miata NC, 2010 Mazda 3
 
 [TE 1473252-1](https://www.te.com/global-en/product-1473252-1.html)
 
-![121 Pin Connector](Hardware/connectors/368255_render.png)
+![121 Pin Connector](Hardware-files/connectors/368255_render.png)
 
 [121 pin connector 368255-2 (same as 1241434-1) - Forum](http://rusefi.com/forum/viewtopic.php?t=208)
 
@@ -719,7 +719,7 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 ## 122 pin
 
-![122 Pin Connector](Hardware/connectors/122_render.png)
+![122 Pin Connector](Hardware-files/connectors/122_render.png)
 
 [122 pin ECU connector header breakout board Mazda Toyota Subaru](https://rusefi.com/#shop)
 
@@ -739,7 +739,7 @@ Subaru Legacy 2002
 
 ## 125 pin
 
-![125 Pin Connector](Hardware/connectors/125_5_render.png)
+![125 Pin Connector](Hardware-files/connectors/125_5_render.png)
 
 [125 pin ECU connector Honda harness breakout PCB board](https://rusefi.com/#shop)
 
@@ -885,7 +885,7 @@ Sibling of 167 pin
 
 [TE 1-1376430-0](http://www.te.com/catalog/pn/en/1-1376430-0)
 
-![135 Pin Connector](Hardware/connectors/135_render.png)
+![135 Pin Connector](Hardware-files/connectors/135_render.png)
 
 Honda
 2003-2008
@@ -965,7 +965,7 @@ EDC16 EDC17
 
 [TE 936762-2](https://www.te.com/global-en/product-936762-2.html)
 
-![154 Pin Connector](Hardware/connectors/154_render.png)
+![154 Pin Connector](Hardware-files/connectors/154_render.png)
 
 [Breakout 154pin 284617-1 Connector](https://github.com/rusefi/rusefi/tree/master/hardware/Breakout_154pin_284617-1-Connector)
 
@@ -1081,7 +1081,7 @@ Maybe Molex GPCM 95?
 
 [TE 6473649-1](http://www.te.com/catalog/pn/en/6473649-1)
 
-![200 Pin Connector](Hardware/connectors/200_render.png)
+![200 Pin Connector](Hardware-files/connectors/200_render.png)
 
 31+35+33+32+35+34
 

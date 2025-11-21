@@ -27,6 +27,6 @@ The gerber files and schematics:
 Pinout table:
 [Hellen81 Pinout Spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vSg41St_69moQ2rh92Mo4bStP-pNEcl9Qb2QOHikwrR-RgWGXKjmL9DsMgeUy9ewP8MYs3RSP3EftIc/pubhtml)
 
-![x](Hardware/Hellen/hellen81-a.jpg)
+![x](Hardware-files/Hellen/hellen81-a.jpg)
 
 ![3D-rendered board view](https://raw.githubusercontent.com/andreika-git/hellen81/master/boards/hellen81-a/board/hellen81-a.png)

@@ -1,6 +1,6 @@
 # GM E67
 
-[Schematics rev b](Hardware/Hellen/hellen-gm-e67-b-schematic.pdf) [iBom rev b](https://rusefi.com/docs/ibom/hellen-gm-e67-b-ibom.html)
+[Schematics rev b](Hardware-files/Hellen/hellen-gm-e67-b-schematic.pdf) [iBom rev b](https://rusefi.com/docs/ibom/hellen-gm-e67-b-ibom.html)
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-gm-e67/)
 

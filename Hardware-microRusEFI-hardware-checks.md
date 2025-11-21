@@ -9,4 +9,4 @@ v0.1/v0.2 power supply check list
 1. Pin 3 of Q1 (pin most distant from big capacitor): expected 6.0v
 1. 5v test pad: expected 5.0v
 
-![front lower](Hardware/microRusEFI/Hardware_microRusEFI_0_2_top_checks.jpg)
+![front lower](Hardware-files/microRusEFI/Hardware_microRusEFI_0_2_top_checks.jpg)

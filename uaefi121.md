@@ -40,7 +40,7 @@ A sibling of [uaEFI](uaEFI) with metal enclosure available at [ðŸ’²rusEFI storeð
 
 ![WhatsApp Image 2024-09-09 at 10 58 00_06a45a89](https://github.com/user-attachments/assets/a7eff9ac-6a69-46c1-b14f-b930f2459e2f)
 
-[Schematics rev b](Hardware/Hellen/uaefi121-b-schematic.pdf)
+[Schematics rev b](Hardware-files/Hellen/uaefi121-b-schematic.pdf)
 [uaEFI interactive BOM rev B](https://rusefi.com/docs/ibom/uaefi121-b-ibom.html)
 
 ## FAQ

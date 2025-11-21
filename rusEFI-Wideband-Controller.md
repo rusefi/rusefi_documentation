@@ -112,4 +112,4 @@ There was also an opinion voiced that the board needs to see voltage on the "vBa
 * Tag-Connect-TC2030 to upload
 * power cycle to confirm green LED blinking
 
-![x](Hardware/Hellen/hellen-wbo-F042-soldering-map.jpg)
+![x](Hardware-files/Hellen/hellen-wbo-F042-soldering-map.jpg)

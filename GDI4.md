@@ -22,7 +22,7 @@ GDI4 is an injector/HPFP driver, not a self-contained ECU. You would use it with
 
 [integration script](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/gdi4-communication.lua)
 
-![x](Hardware/GDI/rusefi-gdi4-rev-a.jpg)
+![x](Hardware-files/GDI/rusefi-gdi4-rev-a.jpg)
 
 ## Changelog
 

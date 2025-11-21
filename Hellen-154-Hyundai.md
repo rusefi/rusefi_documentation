@@ -14,9 +14,9 @@
 
 [older F4 boards Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai/)
 
-[Schematics rev c](Hardware/Hellen/hellen154hyundai-c-schematic.pdf) [ibom rev c](https://rusefi.com/docs/ibom/hellen154hyundai-c-ibom.html)
+[Schematics rev c](Hardware-files/Hellen/hellen154hyundai-c-schematic.pdf) [ibom rev c](https://rusefi.com/docs/ibom/hellen154hyundai-c-ibom.html)
 
-[Schematics rev b](Hardware/Hellen/hellen154hyundai-b-schematic.pdf) [ibom rev b](https://rusefi.com/docs/ibom/hellen154hyundai-b-ibom.html)
+[Schematics rev b](Hardware-files/Hellen/hellen154hyundai-b-schematic.pdf) [ibom rev b](https://rusefi.com/docs/ibom/hellen154hyundai-b-ibom.html)
 
 [fw snapshot](https://rusefi.com/build_server/rusefi_bundle_hellen154hyundai.zip)
 
@@ -39,8 +39,8 @@ the thing is, the harness changes slightly between the years
 * x4 aux high current low side outputs
 * x2 aux high current H-bridge
 
-![x](Hardware/Hellen/hellen154hyundai-rev-c.jpg)
-![x](Hardware/Hellen/hellen154hyundai-rev-b.jpg)
+![x](Hardware-files/Hellen/hellen154hyundai-rev-c.jpg)
+![x](Hardware-files/Hellen/hellen154hyundai-rev-b.jpg)
 
 ## Changelog
 
