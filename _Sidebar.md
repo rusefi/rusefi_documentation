@@ -14,6 +14,7 @@
 ## Features
 
 - [Fueling](Fuel-Overview)
+- [Flex Fuel](Flex-Fuel)
 - [Cranking](Cranking)
 - [Electronic Throttle](Electronic-Throttle-Body-Configuration-Guide)
 - [Knock Sensing](knock-sensing)
@@ -34,7 +35,6 @@
 ## Pages
 
 - [Fuel](Pages-Fuel)
-- [Flex Fuel](Flex-Fuel)
 - [Sensors and Actuators](Pages-Sensors-and-Actuators)
 - [Ignition](Pages-Ignition)
 - [Software](Pages-Software)

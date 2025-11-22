@@ -1,6 +1,4 @@
-# HOWTO Get Running
-
-[HOWTO create TunerStudio project](HOWTO-create-tunerstudio-project)
+# Get Running With a Wire-in ECU
 
 ## Summary
 

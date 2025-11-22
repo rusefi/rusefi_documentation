@@ -1,4 +1,4 @@
-# Ultra Affordable EFI
+# uaEFI (Ultra Affordable EFI)
 
 Most ECU features in this price category available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)
 

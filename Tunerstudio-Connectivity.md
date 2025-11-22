@@ -1,5 +1,7 @@
 # TunerStudio Connectivity
 
+**Note: If your computer is running Linux, you might have to [fix issues with ModemManager or device recognition issue](Linux-Connectivity).**
+
 ## Communications Parameters
 
 ### COM-port and baud rate

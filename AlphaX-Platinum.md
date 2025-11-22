@@ -4,7 +4,7 @@ Previously known as 8chan
 
 [💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/alphax-platinum)
 
-[rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
+[rusEFI Quick Start](HOWTO-quick-start)
 
 [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/alphax-platinum/)
 

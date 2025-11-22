@@ -4,7 +4,7 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](Discord) 🔴
 
-[New to rusEFI start here](Home) [rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
+[New to rusEFI start here](Home) [rusEFI Quick Start](HOWTO-quick-start)
 
 [Huge Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_alphax-8chan_f7.zip)
 [Huge Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan_f7.zip)
