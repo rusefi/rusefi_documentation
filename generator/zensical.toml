@@ -1,5 +1,5 @@
 [project.markdown_extensions.md_in_html]
-[project.markdown_extensions.magiclinks]
+[project.markdown_extensions.pymdownx.magiclink]
 [project.markdown_extensions.toc]
 permalink =  true
 
