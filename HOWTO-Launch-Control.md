@@ -2,7 +2,7 @@
 
 You can find this feature under Controller > Launch Control
 
-![launch control settings](Images/Ts_launch_control.png)
+![launch control settings](Images/TS/Ts_launch_control.png)
 
 Configuration Fields:
 

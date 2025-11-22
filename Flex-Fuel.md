@@ -22,7 +22,7 @@ Connect your sensor to a digital input on the ECU. Then, pick the pin in TunerSt
 
 (technical details - we expect a pull-up on the ECU, about 3K, somewhere 1K to 5K)
 
-![sensor settings](Images/Flex_fuel_sensor.png)
+![sensor settings](Images/TS/Flex_fuel_sensor.png)
 
 ## Fueling Setup
 
@@ -32,7 +32,7 @@ That's it! The firmware will now automatically vary the fuel's stoichiometric ra
 
 **It's recommended to switch to lambda mode (`File -> Vehicle Projects -> Project Properties -> Settings -> Lambda Display`), as the target lambda table is multiplied by the current stoichiometric ratio to get the target air/fuel ratio.**
 
-![injection settings](Images/Flex_fuel_TS_injection_settings.png)
+![injection settings](Images/TS/Flex_fuel_TS_injection_settings.png)
 
 ## Ignition Timing
 

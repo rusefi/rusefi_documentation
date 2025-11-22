@@ -6,7 +6,7 @@
 
 ### COM-port and baud rate
 
-![Communication Settings](Images/communication_settings.png)
+![Communication Settings](Images/TS/communication_settings.png)
 
 Select the correct COM port for your rusEFI. You will usually see only two COM ports. Chances are, the one with the higher number is the rusEFI COM-port. For most cases, the selected Baud rate does not matter.
 
@@ -45,7 +45,7 @@ Q: how should it look in Tuner Studio mini terminal?
 
 A: like that. Note that now new lines between 't' symbols, note that at first some random stuff was received once and that's OK
 
-![TunerStudio Mini Terminal](Images/ts_mini_terminal.png)
+![TunerStudio Mini Terminal](Images/TS/ts_mini_terminal.png)
 
 ### USB TTL cable
 

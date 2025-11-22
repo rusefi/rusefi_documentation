@@ -334,7 +334,7 @@ Same as 4G15
 
 Use this cam trigger with special 3+0 symmetrical crank trigger.
 
-![image](Images/3000gt_trigger_offset_setup.png)
+![image](Images/TS/3000gt_trigger_offset_setup.png)
 
 ## Nissan
 

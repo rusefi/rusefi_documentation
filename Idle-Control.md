@@ -14,7 +14,7 @@ While the engine is still cold it's good to have a bit of extra idle air, we hav
 
 For example, here we have a 10% extra open at 30C.
 
-![CLT Idle Correction](Images/clt_idle_correction.png)
+![CLT Idle Correction](Images/TS/clt_idle_correction.png)
 
 ## Valve initialization
 

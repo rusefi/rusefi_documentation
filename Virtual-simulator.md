@@ -31,11 +31,11 @@ If you don't know how to create a Tunerstudio project go [HOWTO-create-tunerstud
 
 With the paid version all you need to do is to go into the communication settings inside a created project
 
- ![Communication_settings](Images/simulator/TunerStudio_comm_settings.png)
+ ![Communication_settings](Images/TS/TunerStudio_comm_settings.png)
 
 choose the driver "Standard Protocols Driver" and connection type "TCP/IP - WiFi driver", enter the Port as "29002" and the IP address as "localhost" (aka 127.0.0.1)
 
- ![Communication_settings](Images/simulator/Communication_settings_direct.png)
+ ![Communication_settings](Images/TS/Communication_settings_direct.png)
 
 **However, if you only have the lite version of Tunerstudio the process will be different.**
 
@@ -56,11 +56,11 @@ Now you can create your virtual port.
 
 So now if you open the communication settings in Tunerstudio,
 
-![Communication_settings](Images/simulator/TunerStudio_comm_settings.png)
+![Communication_settings](Images/TS/TunerStudio_comm_settings.png)
 
 you'll be able to connect to your emulator.
 
-![Emulated Communication settings](Images/simulator/Communication_settings_tutorial.png)
+![Emulated Communication settings](Images/TS/Communication_settings_tutorial.png)
 
 Now if your virtual simulator is connected to Tunerstudio you'll see a green zero in your rusEFI virtual simulator.
 

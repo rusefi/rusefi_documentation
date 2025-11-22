@@ -12,13 +12,13 @@ See also [Troubleshooting](Troubleshooting)
 
 ![tempinfo Output](Images/tempinfo.png)
 
-![CLT Thermistor Settings](Images/thermistor_settings.png)
+![CLT Thermistor Settings](Images/TS/thermistor_settings.png)
 
 ## Some data points
 
 [1996 Dodge RAM 1500 V8 Temp spreadsheet from FSM - Forum](http://rusefi.com/forum/viewtopic.php?f=3&t=864&start=60#p15344)
 
-![IAT Thermistor settings](Images/IAT_screen.png)
+![IAT Thermistor settings](Images/TS/IAT_screen.png)
 
 MLX90621
 

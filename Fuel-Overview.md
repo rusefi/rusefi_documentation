@@ -76,7 +76,7 @@ Fuel map auto-tune is a process of automatically preparing the configuration tab
 
 Last but not least closed-loop fuel correction dynamically corrects fuel to match target AFR. The better your maps are, the better your actual AFR would be as is. Closed-loop correction is the tool to fix the gap between your maps, our models and reality.
 
-![Fuel PID options](Images/Fuel_pid.png)
+![Fuel PID options](Images/TS/Fuel_pid.png)
 
 ## Acceleration Enrichment
 
@@ -100,11 +100,11 @@ The advantage of TPS based enrichment is that it reacts very quickly and can rea
 
 The parameters for TPS-based enrichment have the same meaning as the Engine-Load based parameters. However, there is no multiplier- this is taken care of in a separate table.
 
-![TPS Parameters](Images/TPS_based_parameters.png)
+![TPS Parameters](Images/TS/TPS_based_parameters.png)
 
 #### TPS/TPS acceleration extra fuel
 
-![TPS Enrichment](Images/TPS_multiplier_table.png)
+![TPS Enrichment](Images/TS/TPS_multiplier_table.png)
 
 TODO: fix error - we do not add 10% extra fuel, we add 10ms extra fuel! not multiplier any more, just extra fuel
 

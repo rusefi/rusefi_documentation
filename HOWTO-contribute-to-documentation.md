@@ -93,9 +93,9 @@ Links to images are relative to the root of the wiki on Wiki2, and relative to t
 The only way for this to work consistently between Wiki2 and Wiki3 is to have a flat directory structure.
 Example:
 
-`![TunerStudio New Project View](Images/TunerStudio_new_project.png)`  
+`![TunerStudio New Project View](Images/TS/TunerStudio_new_project.png)`  
 Result:  
-![TunerStudio New Project View](Images/TunerStudio_new_project.png)
+![TunerStudio New Project View](Images/TS/TunerStudio_new_project.png)
 
 ## Using URL link shortcuts
 
