@@ -1,6 +1,6 @@
 # BMW M73 full PnP harness
 
-See also [rusEFI-Quick-Start-PDF](rusEFI-Quick-Start-PDF)
+See also [rusEFI Quick Start](HOWTO-quick-start)
 
 Expected VR shape see [Trigger-Configuration-Guide](Trigger-Configuration-Guide#determine-correct-polarity)
 
