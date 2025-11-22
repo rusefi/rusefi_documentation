@@ -45,14 +45,14 @@ In AutoDFU a few things happen once you click the "Update Firmware" button.
 
 0. AutoDFU procedure works if your Windows device manager shows "STMicroelectronics Virtual COM Port" in "Ports" category.
 
-   ![img](Support-files/AutoDFU_precondition.png)
+   ![img](Images/AutoDFU_precondition.png)
 
 1. rusEFI console finds your microRusEFI device serial port and sends it a command to reboot into DFU mode.
 
    It is expected that microRusEFI would stop blinking the blue light and reboot. It is expected that Virtual COM Port
    would disappear from Device Manager and "STM Device in DFU Mode" device would appear in "Universal Serial Bus controllers" category.
 
-   ![img](Support-files/stm_device_in_dfu_mode.png)
+   ![img](Images/stm_device_in_dfu_mode.png)
 
 2. rusEFI console gives Windows 3 seconds to re-enumerate USB device from Virtual COM Port to DFU Device.
 
@@ -147,7 +147,7 @@ At this point you need to power rusEFI device off/on and new firmware version wo
 
 New firmware version could be confirmed in rusEFI window title - both console and firmware versions are displayed there.
 
-![img](Support-files/console_showing_firmware_version.png)
+![img](Images/console_showing_firmware_version.png)
 
 ## Pin Reuse
 
