@@ -69,11 +69,11 @@ ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few except
 == Diagram ==
 [1990-2000 Miata System Wiring Diagrams](http://www.miataforumz.com/1990-200-Miata-Wiring/94sys.pdf)
 
-![Wiring Diagram](Images/1994_miata_1.8_1.png)
-![Wiring Diagram](Images/1994_miata_1.8_2.png)
-![Wiring Diagram](Images/1994_miata_1.8_3.png)
+![Wiring Diagram](Images/diagrams/1994_miata_1.8_1.png)
+![Wiring Diagram](Images/diagrams/1994_miata_1.8_2.png)
+![Wiring Diagram](Images/diagrams/1994_miata_1.8_3.png)
 
-![Wiring Diagram](Images/1994_miata_1.8_charging.png)
+![Wiring Diagram](Images/diagrams/1994_miata_1.8_charging.png)
 
 ## CAS
 
@@ -84,4 +84,4 @@ The signals are called SGC and SGT on the 1.8 engine. They are called called NE 
 
 ![CAS Signals](Images/Miata_cas_signals.jpg)
 
-![CAS Pinout](Images/Miata_cas_wires.jpg)
+![CAS Pinout](Images/diagrams/Miata_cas_wires.jpg)

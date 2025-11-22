@@ -34,7 +34,7 @@ Civic EK gen6 1996-2000
 
 [https://github.com/rusefi/proteus-Honda-K-125-adapter](https://github.com/rusefi/proteus-Honda-K-125-adapter)
 
-A ![x](Images/Honda_K_plug_a.png) B ![x](Images/Honda_K_plug_b.png) C ![x](Images/Honda_K_plug_c.png) D ![x](Images/Honda_K_plug_d.png) E ![x](Images/Honda_K_plug_e.png)
+A ![x](Images/diagrams/Honda_K_plug_a.png) B ![x](Images/diagrams/Honda_K_plug_b.png) C ![x](Images/diagrams/Honda_K_plug_c.png) D ![x](Images/diagrams/Honda_K_plug_d.png) E ![x](Images/diagrams/Honda_K_plug_e.png)
 
 ## Misc
 

@@ -2,7 +2,7 @@
 
 See also [Honda Accord 1995](Honda-Accord-1995)
 
-![Connector Face](Images/Honda_prelude_connector.png)
+![Connector Face](Images/diagrams/Honda_prelude_connector.png)
 
 [94 accord ex ecu pinout](http://honda-tech.com/showthread.php?t=2377726)
 
@@ -54,4 +54,4 @@ See also [Honda Accord 1995](Honda-Accord-1995)
 | D22 | W2                                   | GRN BLU      | SG2 - Sensors Ground                               | ground                                      |
 |     |                                      |              |                                                    |                                             |
 
-![Wiring Diagram](Images/Honda_Prelude_1993.png)
+![Wiring Diagram](Images/diagrams/Honda_Prelude_1993.png)

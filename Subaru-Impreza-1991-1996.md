@@ -12,7 +12,7 @@ A lot of useful info can be found at [<http://www.alcyone.org.uk/ssm/index.html>
 
 This pinout can be partially correct for other Subaru from early 90s (with same yellow ECU connector). Like Legacy/Liberty, SVX and so on.
 
-![Pinout](Images/Subaru_impreza_ecu_pinout_1991.png)
+![Pinout](Images/diagrams/Subaru_impreza_ecu_pinout_1991.png)
 
 Connector: Hardware:OEM_connectors#76_pin
 
@@ -116,7 +116,7 @@ Connector: Hardware:OEM_connectors#76_pin
 
 Impreza 1991+
 
-![Wiring Diagram](Images/Subaru_impreza_ecu_connection_1991.png)
+![Wiring Diagram](Images/diagrams/Subaru_impreza_ecu_connection_1991.png)
 
 Liberty RS 1993
 

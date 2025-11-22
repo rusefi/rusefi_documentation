@@ -2,4 +2,4 @@
 
 [154 pin Connector](OEM-connectors#154-pin)
 
-![Wiring Diagram](Images/2006_audi_2_0T.png)
+![Wiring Diagram](Images/diagrams/2006_audi_2_0T.png)

@@ -1,3 +1,3 @@
 # 2011 Mazda Miata
 
-![Wiring Diagram](Images/Mazda_miata_2011.png)
+![Wiring Diagram](Images/diagrams/Mazda_miata_2011.png)

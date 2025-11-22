@@ -28,4 +28,4 @@ MLX90621
 
 [Transition from MLX90620 to MLX90621](https://www.melexis.com/en/documents/documentation/how-it-works/how-it-works-transition-mlx90620-mlx90621)
 
-![MLX90621  Pinout](Images/MLX90621_pinout.png)
+![MLX90621  Pinout](Images/diagrams/MLX90621_pinout.png)

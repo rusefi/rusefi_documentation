@@ -4,7 +4,7 @@
 
 [<https://svn.code.sf.net/p/rusefi/code/trunk/misc/www/images/Frankenso/frankenso_1991_miata_f.jpg> frankenso front]
 
-![Pinout](Images/frankenso_connector_miata_1991.png)
+![Pinout](Images/diagrams/frankenso_connector_miata_1991.png)
 
 AFR jumper: Frankenso analog #7 pin 3J, W48 top <>W48 bottom jumper
 

@@ -2,7 +2,7 @@
 
 1996 US 1.8
 
-![Pinout](Images/frankenso_connector_miata_1996.png)
+![Pinout](Images/diagrams/frankenso_connector_miata_1996.png)
 
 ## Plug 1
 
@@ -98,6 +98,6 @@
 | 4Y  |       |         |                                   |                       |
 | 4Z  |       |         |                                   |                       |
 
-![Wiring Diagram](Images/1996_miata_1.8_1.png)
-![Wiring Diagram](Images/1996_miata_1.8_2.png)
-![Wiring Diagram](Images/1996_miata_1.8_full.png)
+![Wiring Diagram](Images/diagrams/1996_miata_1.8_1.png)
+![Wiring Diagram](Images/diagrams/1996_miata_1.8_2.png)
+![Wiring Diagram](Images/diagrams/1996_miata_1.8_full.png)

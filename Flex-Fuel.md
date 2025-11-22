@@ -14,7 +14,7 @@ GM part numbers
 
 The Pinout is shown below
 
-![pinout](Images/Flex_fuel_sensor_pinout.png)
+![pinout](Images/diagrams/Flex_fuel_sensor_pinout.png)
 
 ## Sensor Setup
 
