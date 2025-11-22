@@ -21,13 +21,13 @@ jobs:
     - name: Check out repo
       uses: actions/checkout@v3
 
-    - name: Install mkdocs Prerequisites
+    - name: Install Prerequisites
       run: |
         sudo apt update
         sudo apt install sshpass
         bash ./wiki-tools/install.sh
 
-    - name: Generate static pages using mkdocs
+    - name: Generate static pages
       run: |
         bash ./wiki-tools/run.sh
 

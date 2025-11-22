@@ -14,7 +14,7 @@ features = [
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
-toggle.icon = "lucide/sun-moon"
+toggle.icon = "material/brightness-auto"
 toggle.name = "Switch to light mode"
 
 [[project.theme.palette]]
@@ -26,8 +26,8 @@ toggle.name = "Switch to dark mode"
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-toggle.icon = "lucide/moon-star"
-toggle.name = "Switch to system preferences"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to auto mode"
 
 [project.theme.icon]
 repo = "fontawesome/brands/github"
@@ -41,7 +41,7 @@ repo_url = "https://github.com/rusefi/rusefi"
 repo_name = "rusefi/rusefi"
 edit_uri = "https://github.com/rusefi/rusefi_documentation/edit/master/"
 site_dir = "wiki"
-extra_css = ["stylesheets/extra.css"]
+extra_css = ["style.css"]
 
 nav = [
   {"Downloads" = "Download.md"},
