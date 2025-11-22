@@ -24,12 +24,12 @@ Cranking mode is defined as any RPM value below the 'cranking RPM' setting. Duri
 
 <!-- this magic '>' make a one line quote block -->
 
-> ![Hint](FAQ/icons/hint.png) *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [First Engine Start](First-Engine-Start).*
+> ![Hint](Images/icons/hint.png) *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [First Engine Start](First-Engine-Start).*
 
 ## Cranking Settings
 
 In TunerStudio, the Cranking Settings are accessed from the top menu:
-![table](FAQ/cranking/menu.png)
+![table](Images/cranking/menu.png)
 
 The settings are divided into several sections:
 
@@ -42,28 +42,28 @@ The settings are divided into several sections:
 
 rusEFI has a separate cranking control strategy for your first couple of engine revolutions - usually, you want more fuel, different timing and simultaneous injection to start an engine. The engine would start rich, as long as it's not too rich, as long as you have a close-enough cranking timing angle.
 
-> ![Hint](FAQ/icons/hint.png) *Hint: Click on the screenshot below to see more info on the particular settings:*
+> ![Hint](Images/icons/hint.png) *Hint: Click on the screenshot below to see more info on the particular settings:*
 
 <table class="mapped-screenshot" markdown="1" style="width:334px; height:609px;"><td markdown="1" width="334">
 
-![Settings01](FAQ/cranking/settings_01.png)
-[![Cranking RPM limit](FAQ/cranking/settings_02.png)](#cranking-rpm-limit)
-[![Enable cylinder cleanup](FAQ/cranking/settings_03.png)](#enable-cylinder-cleanup)
-[![Enable faster engine spin-up](FAQ/cranking/settings_04.png)](#enable-faster-engine-spin-up)
-[![Duration at -40C degrees](FAQ/cranking/settings_05.png)](#duration-at--40c-degrees)
-[![Falloff temperature](FAQ/cranking/settings_06.png)](#falloff-temperature)
-[![Injection mode](FAQ/cranking/settings_07.png)](#injection-mode)
-[![Fuel Source For Cranking](FAQ/cranking/settings_08.png)](#fuel-source-for-cranking)
-[![Base Fuel Pulse Width](FAQ/cranking/settings_09.png)](#base-fuel-pulse-width)
-[![Advance](FAQ/cranking/settings_10.png)](#advance)
-[![Use separate Advance Table for cranking](FAQ/cranking/settings_11.png)](#use-separate-advance-table-for-cranking)
-[![Use Advance Corrections for cranking](FAQ/cranking/settings_12.png)](#use-advance-corrections-for-cranking)
-[![Use fixed cranking dwell](FAQ/cranking/settings_13.png)](#use-fixed-cranking-dwell)
-[![Cranking IAC position](FAQ/cranking/settings_14.png)](#cranking-iac-position)
-[![After cranking IAC taper duration](FAQ/cranking/settings_15.png)](#after-cranking-iac-taper-duration)
-[![Override IAC multiplier for cranking](FAQ/cranking/settings_16.png)](#override-iac-multiplier-for-cranking)
-[![Post-cranking short-time fuel enrichment](FAQ/cranking/settings_17.png)](#post-cranking-short-time-fuel-enrichment)
-![Settings18](FAQ/cranking/settings_18.png)
+![Settings01](Images/cranking/settings_01.png)
+[![Cranking RPM limit](Images/cranking/settings_02.png)](#cranking-rpm-limit)
+[![Enable cylinder cleanup](Images/cranking/settings_03.png)](#enable-cylinder-cleanup)
+[![Enable faster engine spin-up](Images/cranking/settings_04.png)](#enable-faster-engine-spin-up)
+[![Duration at -40C degrees](Images/cranking/settings_05.png)](#duration-at--40c-degrees)
+[![Falloff temperature](Images/cranking/settings_06.png)](#falloff-temperature)
+[![Injection mode](Images/cranking/settings_07.png)](#injection-mode)
+[![Fuel Source For Cranking](Images/cranking/settings_08.png)](#fuel-source-for-cranking)
+[![Base Fuel Pulse Width](Images/cranking/settings_09.png)](#base-fuel-pulse-width)
+[![Advance](Images/cranking/settings_10.png)](#advance)
+[![Use separate Advance Table for cranking](Images/cranking/settings_11.png)](#use-separate-advance-table-for-cranking)
+[![Use Advance Corrections for cranking](Images/cranking/settings_12.png)](#use-advance-corrections-for-cranking)
+[![Use fixed cranking dwell](Images/cranking/settings_13.png)](#use-fixed-cranking-dwell)
+[![Cranking IAC position](Images/cranking/settings_14.png)](#cranking-iac-position)
+[![After cranking IAC taper duration](Images/cranking/settings_15.png)](#after-cranking-iac-taper-duration)
+[![Override IAC multiplier for cranking](Images/cranking/settings_16.png)](#override-iac-multiplier-for-cranking)
+[![Post-cranking short-time fuel enrichment](Images/cranking/settings_17.png)](#post-cranking-short-time-fuel-enrichment)
+![Settings18](Images/cranking/settings_18.png)
 </td></table>
 
 ## General Cranking Settings  
@@ -120,7 +120,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 - *In "Fixed" mode, you can manually set the fixed pulse duration (in ms) in the next text field.*
 
 - *In "Fuel Map" mode, the "Running" fuel math used for cranking.*
-    > ![Hint](FAQ/icons/hint.png) *Hint: Please make sure your running fuel tables are extended into the low RPM range for cranking.*
+    > ![Hint](Images/icons/hint.png) *Hint: Please make sure your running fuel tables are extended into the low RPM range for cranking.*
 
 ### Base fuel pulse width
 
@@ -136,7 +136,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 *This activates a separate advance table for cranking conditions, which allows the cranking advance to be RPM dependant.*
 
-![Cranking Advance Table](FAQ/cranking/separate_advance_table.png)
+![Cranking Advance Table](Images/cranking/separate_advance_table.png)
 
 ### Use Advance Corrections for cranking
 
@@ -160,11 +160,11 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 *This setting overrides the normal multiplication values that have been set for the idle air control valve during cranking. If this setting is enabled the "IAC multiplier" table in the Cranking settings tab needs to be adjusted appropriately or potentially no IAC opening will occur.*
 
-![Cranking Idle Air Multiplier](FAQ/cranking/cranking-idle-air-multiplier.png)
+![Cranking Idle Air Multiplier](Images/cranking/cranking-idle-air-multiplier.png)
 
 ## Post-cranking short-time fuel enrichment
 
-> ![Warning](FAQ/icons/warning.png) *Warning: Currently not implemented!*
+> ![Warning](Images/icons/warning.png) *Warning: Currently not implemented!*
 
 ---
 
@@ -181,6 +181,6 @@ As of April 2019 "base fuel pulse" is deprecated, "1" is recommended.
 
 Typical 4 cylinder engine with 200 cc/min injectors, sequential injection, base fuel = 1ms.
 
-![table](FAQ/cranking_4cylinder.png)
+![table](Images/cranking_4cylinder.png)
 
 For 1.6 Honda cranking settings see [this image](https://rusefi.com/forum/download/file.php?id=4536) (note that "base fuel" = 1 is recommended these days, with a corresponding change to cranking temperature multiplier)

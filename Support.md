@@ -42,7 +42,7 @@ An example of a question asked with helpful background information:
 
 [UK Mazda MX5 miata NB 1.8'99 - Future Turbo project r0.5 #38 - Forum](https://rusefi.com/forum/viewtopic.php?f=3&t=1282&start=101)
 
-![video](FAQ/images/fantastic-story-video-or-it-never-happened.jpg)
+![video](Images/fantastic-story-video-or-it-never-happened.jpg)
 
 rusEFI is not specific to a particular vehicle. The people involved own and know about a wide range of vehicles. It's easy to forget this and use terms that may be familiar to people who mess with vehicles like yours but aren't well known in the broader audience. Asking "What about N75?" is a much more ambiguous question than "What about N75 (boost control valves)?" Adding the extra information (parenthetically) makes it easier for more people to understand what you are asking and help you faster.
 

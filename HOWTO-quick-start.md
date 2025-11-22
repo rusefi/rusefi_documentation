@@ -18,7 +18,7 @@ Continue reading for more detailed setup steps.
 
 2. Extract the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual Com Port and DFU drivers. If necessary the bundle will also help you install the Java runtime.
 
-   ![console](FAQ/images/rusEFI_console_start_screen.png)
+   ![console](Images/rusEFI_console_start_screen.png)
 
 3. Get friendly on the [rusEFI forums](https://rusefi.com/forum) Introduce yourself, start a build thread, and ask questions.
 

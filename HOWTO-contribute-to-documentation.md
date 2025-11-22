@@ -21,7 +21,7 @@ In order to leverage the Github pull request process for access control to the w
 1. Sign up or sign in to [Github](https://github.com) if you aren't already
 
 2. Open [the documentation repo](https://github.com/rusefi/rusefi_documentation) and click 'Fork' - this would produce your own fork/copy of rusefi_documentation which you can now edit right in your browser!
-   ![editor](FAQ/github_online_editor.png)
+   ![editor](Images/github_online_editor.png)
 
 3. Edit your code and Commit changes using the button below the editor.
 
@@ -93,9 +93,9 @@ Links to images are relative to the root of the wiki on Wiki2, and relative to t
 The only way for this to work consistently between Wiki2 and Wiki3 is to have a flat directory structure.
 Example:
 
-`![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)`  
+`![TunerStudio New Project View](Images/TunerStudio_new_project.png)`  
 Result:  
-![TunerStudio New Project View](FAQ/images/TunerStudio_new_project.png)
+![TunerStudio New Project View](Images/TunerStudio_new_project.png)
 
 ## Using URL link shortcuts
 
