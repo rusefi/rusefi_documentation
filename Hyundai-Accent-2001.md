@@ -6,8 +6,6 @@
 
 ![ECU](Images/Hyundai_ecu_2.jpg)
 
-![ECU](Images/Hyundai_ecu_3.jpg)
-
 ![Wiring Diagram](Images/diagrams/2001_accent_1_5_part1.png)
 
 ![Wiring Diagram](Images/diagrams/2001_accent_1_5_part2.png)
