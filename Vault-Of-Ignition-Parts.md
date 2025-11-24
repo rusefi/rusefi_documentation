@@ -10,7 +10,7 @@
 
 * VAG Normal/Long
 
-![image](https://user-images.githubusercontent.com/48498823/225203719-d92edd9a-fe02-4af6-ba76-acded2d7b1b9.png)
+![image](Images/diagrams/Ignition_coil_pinout.png)
 
 See also [OEM-harness-connectors#volkswagen](OEM-harness-connectors#volkswagen)
 
@@ -20,15 +20,15 @@ See also [OEM-harness-connectors#volkswagen](OEM-harness-connectors#volkswagen)
 
 ## LS1
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/316ba747-708b-487e-99b0-2f411def2a0d)
+![image](Images/diagrams/Ignition_LS1_coil_pinout.png)
 
 ## LS2/LS9
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/f2e1e7e2-93b5-4d4c-8f28-c7b6aa2d397c)
+![image](Images/diagrams/Ignition_smart_coil_pinout.png)
 
 ## Toyota Two Wire
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/301a4ebf-6319-4cbc-8242-c2fe8d9fa005)
+![image](Images/diagrams/Ignition_polarity.png)
 
 * BMW M50 coils - Tested and working with 4D0905351 ignition module
 

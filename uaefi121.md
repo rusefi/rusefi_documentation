@@ -36,9 +36,9 @@ A sibling of [uaEFI](uaEFI) with metal enclosure available at [ðŸ’²rusEFI storeð
 * on-board non-removable SD card
 * looking for proper 8 cylinder sequential ignition? that's https://www.shop.rusefi.com/shop/p/rusefi-huge
 
-![WhatsApp Image 2024-09-09 at 10 57 21_3ee4ad45](https://github.com/user-attachments/assets/6e7067ff-88e9-4c5a-b931-36282d51f37c)
+![WhatsApp Image 2024-09-09 at 10 57 21_3ee4ad45](Images/uaefi_121.jpeg)
 
-![WhatsApp Image 2024-09-09 at 10 58 00_06a45a89](https://github.com/user-attachments/assets/a7eff9ac-6a69-46c1-b14f-b930f2459e2f)
+![WhatsApp Image 2024-09-09 at 10 58 00_06a45a89](Images/uaefi_121_board.jpeg)
 
 [Schematics rev b](Hardware-files/Hellen/uaefi121-b-schematic.pdf)
 [uaEFI interactive BOM rev B](https://rusefi.com/docs/ibom/uaefi121-b-ibom.html)

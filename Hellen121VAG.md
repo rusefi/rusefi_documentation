@@ -58,7 +58,7 @@ Raw +12 option **Never have both F1 and F2 jumpers populated!**
 
 [VAG-MK4 VR6](mk4-vr6-wiring)
 
-![x](https://rusefi.com/forum/download/file.php?id=7575)
+![x](Hardware-files/Hellen/hellen121vag-not-a-render.jpg)
 
 ![x](Hardware-files/Hellen/hellen121vag-b.jpg)
 

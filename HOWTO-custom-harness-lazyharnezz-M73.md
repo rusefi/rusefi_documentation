@@ -4,11 +4,11 @@ See also [rusEFI Quick Start](HOWTO-quick-start)
 
 Expected VR shape see [Trigger-Configuration-Guide](Trigger-Configuration-Guide#determine-correct-polarity)
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/fcecf4e4-6657-436b-a4f3-3af9ee59a375)
+![image](Images/Trigger_waveform.png)
 
 [Reference cranking trigger decoding log](https://github.com/rusefi/rusefi/files/15050786/M73-lazyharness.zip)
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/7f430111-e7c0-4411-b955-136113df577d)
+![image](Images/MLV_trigger.png)
 
 https://youtube.com/shorts/lppFagGm2OU
 
@@ -16,13 +16,13 @@ https://youtube.com/shorts/lppFagGm2OU
 
 https://rusefi.com/docs/pinouts/proteus/?connector=black35&pin=10
 
-![WhatsApp Image 2024-04-09 at 19 47 18_14002bc2](https://github.com/rusefi/rusefi/assets/48498823/732468f4-1b9f-45e7-8a4c-b3aebe70cbc3)
+![WhatsApp Image 2024-04-09 at 19 47 18_14002bc2](Images/relay.jpeg)
 
 ## Fuel Pump Relay
 
 https://rusefi.com/docs/pinouts/proteus/?connector=black35&pin=23
 
-![WhatsApp Image 2024-04-09 at 19 46 48_9fef66cd](https://github.com/rusefi/rusefi/assets/48498823/7c1f62cc-6580-4d1d-9eb7-d86d3b655785)
+![WhatsApp Image 2024-04-09 at 19 46 48_9fef66cd](Images/relay_2.jpeg)
 
 ## Nissan ETBs
 
@@ -50,7 +50,7 @@ Uses +12v power
 
 BOSCH 0261230217
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/71d91df0-37b4-49f7-b585-eced9c356b1e)
+![image](Images/diagrams/TMAP_connector.png)
 
 IAT white, MAP blue
 
@@ -58,11 +58,11 @@ IAT white, MAP blue
 
 M70 style three pin
 
-![WhatsApp Image 2024-05-03 at 11 17 05_9c9418e3](https://github.com/rusefi/rusefi/assets/48498823/551a22bd-90e0-481d-a151-d2c820c2b48d)
+![WhatsApp Image 2024-05-03 at 11 17 05_9c9418e3](Images/CKP_connector.jpeg)
 
 ## CLT
 
-![WhatsApp Image 2024-05-03 at 11 14 42_78abb761](https://github.com/rusefi/rusefi/assets/48498823/f33314a0-8396-4a6a-b814-197cd0d9dc1b)
+![WhatsApp Image 2024-05-03 at 11 14 42_78abb761](Images/CLT_connector.jpeg)
 
 ## Fuel Pressure Sensor
 
@@ -92,4 +92,4 @@ White: auxiliary low side
 
 Yellow: tachometer
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/dde303e9-737d-4b4c-ba3d-a346ec9146fd)
+![image](Images/deutsch_connector.png)

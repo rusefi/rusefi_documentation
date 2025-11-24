@@ -6,7 +6,7 @@
 
 [Issue Tracker](https://github.com/rusefi/hellen-gm-e67-issues)
 
-![image](https://user-images.githubusercontent.com/48498823/175112155-b0a7f661-4288-444e-8ac2-c9e3f5ee2f2c.png)
+![image](Images/GM_E67_firewall.png)
 
 <https://github.com/rusefi/proteus-gm-e67>
 

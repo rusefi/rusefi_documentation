@@ -15,11 +15,11 @@ gray
 
 Around 2007
 
-![image](https://user-images.githubusercontent.com/48498823/203988451-5915b94a-0986-428f-ab9b-9b4926957af1.png)
+![image](Images/diagrams/ETB_LS2_connector.png)
 
 ## Older GM
 
-![image](https://user-images.githubusercontent.com/48498823/227782651-64af4e90-d5d8-4b10-88fa-7670896c4552.png)
+![image](Images/diagrams/TPS_wiring.png)
 
 ## VAG
 
@@ -29,19 +29,19 @@ Bosch 0280750009 1.8T and hopefully many others
 
 ![x](OEM-Docs/VAG/Bosch_0280750009_pinout.jpg)
 
-![image](https://github.com/user-attachments/assets/d9bceab1-c734-4082-ad72-caf4dbcc6cd5)
+![image](Images/diagrams/ETB_wiring.png)
 
 ## Mercedes
 
 Bosch 0280750074 68mm
 
-![throttle body](https://user-images.githubusercontent.com/5051341/127017817-206caa3a-10b9-41ee-999a-8efc18cbc1fb.jpg)
+![throttle body](Images/ETB.jpeg)
 
-![image](https://user-images.githubusercontent.com/48498823/225196895-e42d53c8-6229-4471-a1b0-aced7143f05b.png)
+![image](Images/diagrams/ETB_connector_pinout.png)
 
-![image](https://user-images.githubusercontent.com/48498823/225197082-8bf94cc0-f065-408b-a0c3-24de39d2d0ea.png)
+![image](Images/diagrams/ETB_wiring_2.png)
 
-![wiring diagram](https://user-images.githubusercontent.com/5051341/127017376-9012525b-92cd-4bb0-8a1d-1b70946396a1.JPG)
+![wiring diagram](Images/diagrams/ETB_pinout.jpeg)
 
 ## Honda
 
@@ -51,7 +51,7 @@ Connector 6189-1012 [replica](https://www.hdconnectorstore.com/productdetail/222
 
 ## Toyota
 
-![image](https://user-images.githubusercontent.com/48498823/204656477-c55242ef-56f5-4e48-8fa2-973816feee5e.png)
+![image](Images/diagrams/connectors_pinout.png)
 
 1. Motor-
 2. Motor+
@@ -104,4 +104,4 @@ See [this forum thread](https://rusefi.com/forum/viewtopic.php?f=2&t=2077) TODO 
 
 lots of useful information [here](https://www.maxxecu.com/webhelp/wirings-e-throttle_bodies.html)
 
-![image](https://user-images.githubusercontent.com/48498823/211674693-a06cf764-6d03-4d50-a95d-8f6ecf566907.png)
+![image](Images/diagrams/ETB_module_wiring.png)

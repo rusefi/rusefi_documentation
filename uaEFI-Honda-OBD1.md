@@ -51,6 +51,6 @@ Q: how to set trigger?
 
 A: you *HAVE* to trust "popular vehicles>Honda OBD" button. Confirm your trigger offset with timing light, keep everything else!
 
-![image](https://github.com/user-attachments/assets/1e97a919-9e09-486b-9ec5-e5bb2ed0b009)
+![image](Images/TS/TunerStudio_popular_vehicles.png)
 
-![image](https://github.com/user-attachments/assets/13fc27fd-b734-43ac-8f1f-c8b0c7238685)
+![image](Images/TS/TunerStudio_triggers_2.png)

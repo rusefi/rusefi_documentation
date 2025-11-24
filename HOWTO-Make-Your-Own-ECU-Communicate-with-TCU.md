@@ -100,8 +100,8 @@ https://github.com/rusefi/rusefi_documentation/tree/master/OEM-Docs/VAG/2006-Pas
 
 ``java -jar reader/build/libs/reader-all.jar "C:\stuff\rusefi_documentation\OEM-Docs\VAG\2006-Passat-B6\2024.02" -filter reverse -dbc opendbc/vw_golf_mk4.dbc``
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/1c53f607-973f-41bf-8c11-ea0a43e07cb0)
+![image](Images/MLV_TCU_data.png)
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/8292c230-bdc7-41ba-b66e-c47ca53f8ec1)
+![image](Images/MLV_TCU_data_3.png)
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/743063ca-85dc-408e-a171-86f446bb6907)
+![image](Images/MLV_TCU_data_2.png)

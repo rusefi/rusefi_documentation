@@ -8,4 +8,4 @@ The only way to unlock tune for read and write is via rusEFI console.
 
 Please use ``unlock 123`` command in console to unlock, here is how things would look like:
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/e3a470cd-83bb-4f06-9b2f-8c2d02698ee7)
+![image](Images/console/Console_password_unlock.png)

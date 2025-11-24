@@ -37,7 +37,7 @@ gasoline engines up to 4 cylinders.
 
 Main Relay Wiring:
 
-![wiring diagram](https://user-images.githubusercontent.com/48498823/90672739-94b7e080-e224-11ea-92fb-12a4fdc5b056.png)
+![wiring diagram](Images/diagrams/mainrelay_wiring.png)
 
-![microRusEFI image](https://user-images.githubusercontent.com/5051341/80747087-806e9d00-8ae8-11ea-983e-330dfc6e3015.jpg)
-![microRusEFI image](https://user-images.githubusercontent.com/5051341/80747096-849aba80-8ae8-11ea-862c-d124ef75f06a.jpg)
+![microRusEFI image](Images/microRusEFI_board.jpeg)
+![microRusEFI image](Images/microRusEFI.jpeg)

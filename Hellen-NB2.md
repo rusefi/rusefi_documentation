@@ -52,7 +52,7 @@ open source, somewhat abandoned https://github.com/rusefi/hellen-miata-NB2
 
 Using 28 Pin [Connector](https://www.bmotorsports.com/shop/product_info.php/products_id/5655?osCsid=cs48b6aap1pgdvt9vgn1889sq0)
 
-![x](https://user-images.githubusercontent.com/5051341/176225958-4747f49b-c707-49f7-b354-43b6f9bad201.png)
+![x](Images/NB2_connector_shell.png)
 
 | Pin | Type | Comments |
 |---|---|---|

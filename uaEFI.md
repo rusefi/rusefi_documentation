@@ -54,9 +54,9 @@ Most ECU features in this price category available at [💲rusEFI store💲](htt
 
 [WBO documentation](rusEFI-Wideband-Controller)
 
-![x](https://raw.githubusercontent.com/rusefi/uaefi/master/docs/uaefi-a-top.png)
+![x](Images/uaefi-a-top.png)
 
-![x](https://raw.githubusercontent.com/rusefi/uaefi/master/docs/uaefi-a-back.png)
+![x](Images/uaefi_a_bottom.png)
 
 ## Harness Connectors
 
@@ -84,7 +84,7 @@ USBBF7
 
 <img width="232" height="126" alt="image" src="https://github.com/user-attachments/assets/6413966a-198a-4398-b26e-2d60a2e1ef76" />
 
-![wideband_for_dummies](https://github.com/rusefi/rusefi_documentation/assets/82368250/3e5aca8a-62cf-4636-905c-cf79b18deef0)
+![wideband_for_dummies](Images/diagrams/uaEFI_wideband.png)
 
 ## Adapters
 
@@ -128,6 +128,6 @@ A: See https://www.findchips.com/search/ISL9V3040D for stock at distributors
 Q: Stepper?
 
 A: yes possible
-![image](https://github.com/user-attachments/assets/c2d71f49-11ca-4bbf-a495-85875e6f8203)
+![image](Images/TS/TunerStudio_idle_stepper.png)
 
 🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴

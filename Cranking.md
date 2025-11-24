@@ -8,7 +8,7 @@ In order to get an engine running, it first needs to be rotated at sufficient sp
 
 <table markdown="1"><tr markdown="1"><td markdown="1">
 
-![Starter](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Automobile_starter.JPG/270px-Automobile_starter.JPG)
+![Starter](Images/starter.jpeg)
 </td><td markdown="1"> The electric starter motor or cranking motor is the most common type used on gasoline engines and small diesel engines.
 
 You can control the starter using several rusEFI firmware features:  

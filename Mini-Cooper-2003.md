@@ -65,7 +65,7 @@ CAN bus notes see <https://rusefi.com/forum/viewtopic.php?f=5&t=473>
 
 ![Wiring Diagram](OEM-Docs/Mini/2003_Cooper/2003_cooper_instrument_cluster_2.png)
 
-![Wiring Diagram](https://user-images.githubusercontent.com/5051341/126010542-a1fb5a05-b0ae-4585-a585-613de2a43fe4.png)
+![Wiring Diagram](Images/diagrams/Mini-Cooper_aux_instrument_cluster_pinout.png)
 
 ## 1 BRN/BLK ground
 

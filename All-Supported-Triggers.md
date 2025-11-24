@@ -87,7 +87,7 @@ Honda K Exhaust Camshaft
 
 ![Honda CBR600](Images/triggers/trigger_TT_HONDA_CBR_600.png)
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/d83fb6ee-abb2-4775-a570-4508863d6f2c)
+![image](Images/TS/TunerStudio_triggers.png)
 
 ### Honda J30
 

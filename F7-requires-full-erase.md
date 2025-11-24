@@ -4,7 +4,7 @@
 
 Good news from 2025: use OpenBLT programming option
 
-![image](https://github.com/user-attachments/assets/07d4343d-7f00-4b61-8ed0-5ff59db961f1)
+![image](Images/TS/TunerStudio_auto_dfu_update.png)
 
 While most rusEFI units support incremental firmware update while keeping settings intact we are facing unexplained issue with some F7 Proteus units. Those units require full erase prior to software update.
 

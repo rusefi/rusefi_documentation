@@ -18,7 +18,7 @@ D-- Fourth is Android tablet or phone running the [Real Dash](http://realdash.ne
 
 Click the image to watch a video of a Raspberry Pi rusEFI connected display. Early "proof of concept"
 
-[![IMAGE ALT TEXT](https://user-images.githubusercontent.com/5051341/125208727-ee206800-e259-11eb-9600-6cf742fba5a6.jpg)](https://www.youtube.com/watch?v=a0mdhANrIhw "PiDash rusEFI")
+[![IMAGE ALT TEXT](Images/dash.jpeg)](https://www.youtube.com/watch?v=a0mdhANrIhw "PiDash rusEFI")
 
 ## Hardware Needed to run TunerStudioMS on Pi
 

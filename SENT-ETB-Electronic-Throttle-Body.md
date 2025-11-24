@@ -24,7 +24,7 @@ All three use same pinout with different colors obviously.
 
 6- not used.
 
-![image](https://user-images.githubusercontent.com/48498823/201540621-2477aa01-176c-4e65-ba9d-a32ddd1d671a.png)
+![image](Images/diagrams/ETB_wiring_SENT.png)
 
 ## Harness
 

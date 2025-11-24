@@ -25,7 +25,7 @@ TL,DR: rusEFI console 'Lua' tab for Lua, TunerStudio 'CAN' dialog to adjust baud
 
 [open source firmware](https://github.com/rusefi/fw-uaCanBridge/)
 
-![WhatsApp Image 2025-11-06 at 20 09 53_ce2864ac](https://github.com/user-attachments/assets/5f10706e-b5e8-498f-86f9-c4d019794ba2)
+![WhatsApp Image 2025-11-06 at 20 09 53_ce2864ac](Images/uacanbridge.jpeg)
 
 ## Wiring
 

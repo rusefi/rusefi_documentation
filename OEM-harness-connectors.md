@@ -10,25 +10,25 @@ Coils 7282-8120-40
 
 88 pin female cover 1928402028 housing 1928401587
 
-![image](https://user-images.githubusercontent.com/48498823/229416062-4db1d025-8105-470b-8fb2-4fcd3a4397a6.png)
+![image](Images/connector_pin.png)
 
 25 pin 61131387108
 
 flat 3 pin coil female 1724478 12521724478
 
-![image](https://user-images.githubusercontent.com/48498823/229413007-822db5fc-97bb-487f-8a08-13588a20236b.png)
+![image](Images/connector_shell_2.png)
 
 triangle 3 pin coil female [depin](https://www.youtube.com/watch?v=jhwKWWc7YvM)
 
 3 pin male 962581 female 282191
 
-![image](https://user-images.githubusercontent.com/48498823/229411637-5d5e2711-4b9c-4b18-aad4-f319e036c845.png)
+![image](Images/mating_connectors.png)
 
 10 pole round 12521740615 50290743 [replica](https://www.hdconnectorstore.com/productdetail/7415.html)
 
 relay mount 1389113 61131389111
 
-![image](https://user-images.githubusercontent.com/48498823/229411265-a60e39c0-8a1f-411e-bdef-627032efe6ce.png)
+![image](Images/connector_shell.png)
 
 ## MEFI
 

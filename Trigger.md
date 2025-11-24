@@ -18,7 +18,7 @@ We use engine sniffer and composite logger only for basic validation at the mome
 
 We have not found composite logger useful for trigger troubleshooting. Max data rate 'normal' logs seem to be much more useful.
 
-![image](https://github.com/user-attachments/assets/e67d3aec-ab9b-422f-a574-d611d66a7410)
+![image](Images/MLV_trigger_error.png)
 
 ### Troubleshooting hardware with rusEFI console
 

@@ -119,7 +119,7 @@ Don't worry about getting this "just right" for now. All we want is a fairly smo
 
 Now that you have a somewhat smooth idle, it's time to adjust your base timing. In order to do this, you must have some sort of timing mark on your crank pulley and some pointer on the engine block. You need to know what the ignition timing is, when the two are lined up.
 
-![Timing Mark](https://www.wikihow.com/images/thumb/5/5a/Adjust-Timing-Step-3-Version-3.jpg/aid1389196-v4-728px-Adjust-Timing-Step-3-Version-3.jpg)
+![Timing Mark](Images/timing_marker.jpeg)
 
 We are working on the assumption that your ECU has a "safe" spark advance tune already uploaded. This would be a tune that allows the engine to run reasonably well with 93 Octane (US super) fuel without excessive detonation (ping) or pre-ignition, but is not yet optimized for hp or economy.
 

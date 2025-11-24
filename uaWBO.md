@@ -10,7 +10,7 @@ Only 4.9 for now - we maybe know how to control 4.2 and ADV, but not with this u
 
 Default analog output curve is 0..5V for AFR 8.5 to 18.0
 
-![WhatsApp Image 2025-09-15 at 13 12 44_2588a573](https://github.com/user-attachments/assets/07c6a5aa-b7da-4f80-954d-3510ee494281)
+![WhatsApp Image 2025-09-15 at 13 12 44_2588a573](Images/uawbo.jpeg)
 
 ## FAQ
 

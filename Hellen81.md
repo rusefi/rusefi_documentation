@@ -29,4 +29,4 @@ Pinout table:
 
 ![x](Hardware-files/Hellen/hellen81-a.jpg)
 
-![3D-rendered board view](https://raw.githubusercontent.com/andreika-git/hellen81/master/boards/hellen81-a/board/hellen81-a.png)
+![3D-rendered board view](Images/hellen_81_render.png)

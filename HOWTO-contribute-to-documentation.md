@@ -12,7 +12,7 @@ In order to leverage the Github pull request process for access control to the w
 
 3. Edit the page, scroll to bottom of page and enter a "change title" and clicking on "Propose Changes". This will fork the repository (if not created already), create a branch and give you the option to create a pull request.
 
-   ![image](https://user-images.githubusercontent.com/22799428/200407238-74b1fd66-e6b1-46cc-a7b8-398f5c5b41f6.png)
+   ![image](Images/GH_repo_contribute.png)
 
 4. Click "Create Pull Request" and wait for your change to be reviewed.
 

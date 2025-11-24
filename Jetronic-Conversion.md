@@ -6,4 +6,4 @@
 
 [harness pinout RUS](Hardware-files/Jetronic/mre-pinout-rus.pdf)
 
-[![x](http://img.youtube.com/vi/e2SG5xNeZmI/0.jpg)](http://www.youtube.com/watch?v=e2SG5xNeZmI "Injector Insert")
+[![x](Images/Jetronic_fitting.jpeg)](http://www.youtube.com/watch?v=e2SG5xNeZmI "Injector Insert")
