@@ -9,8 +9,8 @@ Many rusEFI units have on-board microSD card slot. Most boards access SD cards v
 * Give it 15 seconds while connected only to PC via USB.
 * USB Drive expected. Could be another letter like D:\ or F:\ but it has to be in the list of drives.
 
-![image](https://github.com/user-attachments/assets/3f164970-b014-437c-a4cd-25ab2aed31ad)
+![image](Images/sd_usb.png)
 
 * In TS, two green icons are expected
 
-![image](https://github.com/user-attachments/assets/156df2db-3777-414f-91be-b52521932ea3)
+![image](Images/TS/TunerStudio_sd_usb_2.png)

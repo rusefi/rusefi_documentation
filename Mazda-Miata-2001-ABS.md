@@ -28,9 +28,9 @@ MAZDA  N068 43 7A0
 | 15  |       |      |      |
 | 16  |       |      |      |
 
-![Wiring Diagram](Images/ABS_miata_2001.png)
+![Wiring Diagram](Images/diagrams/ABS_miata_2001.png)
 
-![ABS Pump Connector](Images/ABS_pump_miata_2001_connector.jpg)
+![ABS Pump Connector](Images/diagrams/ABS_pump_miata_2001_connector.jpg)
 
 Similar connector used on 110 000 41170, 27534FE040 Subaru Impreza  00-07
 

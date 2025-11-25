@@ -11,4 +11,4 @@ There are three ways to connect rusEFI to internet:
 Connecting to remote ECU is a two step process:
 First you connect rusEFI TunerStudio plugin to remote controller via Internet, and then you connect TunerStudio to rusEFI TunerStudio plugin locally. IP Address "localhost" Port default value 29001.
 
-![x](FAQ/images/TS_plugin_TCP.png)
+![x](Images/TS/TS_plugin_TCP.png)

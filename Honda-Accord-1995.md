@@ -4,7 +4,7 @@
 
 37820-P0A-A51
 
-![Connector Pinout](Images/Accord_pinout.png)
+![Connector Pinout](Images/diagrams/Accord_pinout.png)
 
 [94 accord ex ecu pinout](http://honda-tech.com/showthread.php?t=2377726)
 
@@ -87,11 +87,11 @@
 | D21 | W1                                   | GRN/WHT        | SG1 MAP sensor GND                                 | Ground                                      |
 | D22 | W2                                   | GRN BLU        | SG2 - Sensors Ground                               | ground                                      |
 
-![Wiring Diagram](Images/Honda_1.png)
+![Wiring Diagram](Images/diagrams/Honda_1.png)
 
-![Wiring Diagram](Images/Honda_2.png)
+![Wiring Diagram](Images/diagrams/Honda_2.png)
 
-![Wiring Diagram](Images/Honda_3.png)
+![Wiring Diagram](Images/diagrams/Honda_3.png)
 
 ## Components
 
@@ -175,9 +175,9 @@ tcm 28100-P0H-A02
 
 ### diagram
 
-![Wiring Diagram](Images/TCM.png)
+![Wiring Diagram](Images/diagrams/TCM.png)
 
-![Wiring Diagram](Images/TCM_2.png)
+![Wiring Diagram](Images/diagrams/TCM_2.png)
 
 ## trigger signal
 

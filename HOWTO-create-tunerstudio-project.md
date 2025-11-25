@@ -20,7 +20,7 @@ Your laptop should give you an audible notification when you plug in the ECU. Th
 
 Open TunerStudio and click *"Create New Project"*.
 
-![First project](FAQ/images/simulator/TCP_first_project.png)
+![First project](Images/TS/TCP_first_project.png)
 
 TunerStudio needs an ECU Definition file (usually with .ini extension) in order to start communicating with rusEFI.
 
@@ -28,7 +28,7 @@ TunerStudio needs an ECU Definition file (usually with .ini extension) in order 
 
 All official rusEFI boards support automatic ECU definition file download if connected via USB, serial port or Bluetooth. Just hit 'Detect' and wait for the name of your ECU to appear.
 
-![TunerStudio Detect Button](Images/TunerStudio_create_detect.png)
+![TunerStudio Detect Button](Images/TS/TunerStudio_create_detect.png)
 
 ### Manual Definition Selection
 
@@ -36,11 +36,11 @@ If the definition for your unit wasn't detected automatically, select the file f
 
 Your rusEFI board should also present itself as a USB storage device to your computer, containing the .ini file you need. This is the most foolproof method of making sure you have the correct .ini file.
 
-![Menu](FAQ/images/simulator/TunerStudio_other_browse.png)
+![Menu](Images/TS/TunerStudio_other_browse.png)
 
 After clicking on the link you'll see this:
 
-![Menu](FAQ/images/simulator/Communication_settings.png)
+![Menu](Images/TS/Communication_settings.png)
 
 See [Tunerstudio Connectivity](Tunerstudio-Connectivity) if you need detailed instructions on these settings.
 

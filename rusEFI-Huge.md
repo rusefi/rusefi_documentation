@@ -34,7 +34,7 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 [iBom rev C](https://rusefi.com/docs/ibom/alphax_8ch-c-ibom.html)
 
-![huge photo](https://github.com/rusefi/rusefi/assets/48498823/5ddf9953-7b37-43dc-b920-24e7b9515a97)
+![huge photo](Images/rusEFI_Huge.jpeg)
 
 ``bluetooth_jdy 115200 huge 1234``
 

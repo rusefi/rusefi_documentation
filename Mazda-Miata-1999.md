@@ -93,4 +93,4 @@ set engine_type 9
 | 3Y  |          |       | Injector \#3  | output/low   |
 | 3Z  |          |       | Injector \#4  | output/low   |
 
-![Wiring Diagram](Images/Mazda_miata_1999.png)
+![Wiring Diagram](Images/diagrams/Mazda_miata_1999.png)

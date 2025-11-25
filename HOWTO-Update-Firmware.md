@@ -42,11 +42,11 @@ A: in rusEFI console please hit "Device Manager". When ECU gets into DFU mode (b
 
 Bad
 
-![x](https://user-images.githubusercontent.com/7377949/76368499-dbfd8500-6306-11ea-9aff-823b22b46283.png)
+![x](Images/DeviceManager_dfu.png)
 
 Good
 
-![x](https://user-images.githubusercontent.com/568254/76368785-90d77800-62ee-11ea-8fc1-bf03165909b7.png)
+![x](Images/DeviceManager_stm32_bootloader.png)
 
 ## More Information
 

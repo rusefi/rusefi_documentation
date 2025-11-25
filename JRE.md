@@ -4,4 +4,4 @@
 
 [Eclipse Temurin](https://adoptium.net/temurin/releases/) is one of the options for Java Runtime Environment these days.
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/0ec8d6fe-15b6-45c7-8ddc-5aa205b268f5)
+![image](Images/JRE_Temurin.png)

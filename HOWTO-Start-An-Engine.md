@@ -52,13 +52,13 @@ Set cranking advance angle to zero for now. Use a timing gun while cranking. We 
 
 On Engine Sniffer tab of rusEFI console TDC#1 is shown with the green vertical line.
 
-![Initial Cranking Parameters](Images/Initial_cranking_parameters.png)
+![Initial Cranking Parameters](Images/TS/Initial_cranking_parameters.png)
 
 ## cranking parameters
 
 rusEFI has separate cranking control strategy for your first couple of engine revolutions - usually you want more fuel, different timing and simultaneous injection to start an engine.
 
-![Cranking Dialog](Images/Cranking_dialog_jan_2017.png)
+![Cranking Dialog](Images/TS/Cranking_dialog_jan_2017.png)
 
 Engine would start rich, as long as it's not too rich, as long as you have close-enough cranking timing angle. By default, cranking mode is active if RPM is below 500 RPM.
 

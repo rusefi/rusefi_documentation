@@ -16,9 +16,9 @@ Bosch 0280-155-976 injectors
 
 Plug color: black
 
-![Plug 1 Pinout](Images//Dodge_Neon_2003_Plug1.gif)
+![Plug 1 Pinout](Images/diagrams/Dodge_Neon_2003_Plug1.gif)
 
-![Plug 1 Photo](Images//Dodge_Neon_2003_Plug1_2.jpg)
+![Plug 1 Photo](Images/diagrams/Dodge_Neon_2003_Plug1_2.jpg)
 
 | pos | b pos  | color | desc                       | type       |
 | --- | ------ | ----- | -------------------------- | ---------- |
@@ -67,9 +67,9 @@ Plug color: black
 
 Plug color: orange
 
-![Plug 2 Pinout](Images//Dodge_Neon_2003_Plug2.gif)
+![Plug 2 Pinout](Images/diagrams/Dodge_Neon_2003_Plug2.gif)
 
-![Plug 2 Photo](Images//Dodge_Neon_2003_Plug2_2.jpg)
+![Plug 2 Photo](Images/diagrams/Dodge_Neon_2003_Plug2_2.jpg)
 
 | pos | b pos  | color         | desc                                    | type                  |
 | --- | ------ | ------------- | --------------------------------------- | --------------------- |
@@ -118,9 +118,9 @@ Plug color: orange
 
 White
 
-![Plug 3 Pinout](Images//Dodge_Neon_2003_Plug3.gif)
+![Plug 3 Pinout](Images/diagrams/Dodge_Neon_2003_Plug3.gif)
 
-![Plug 3 Photo](Images//Dodge_Neon_2003_Plug3_2.jpg)
+![Plug 3 Photo](Images/diagrams/Dodge_Neon_2003_Plug3_2.jpg)
 
 | pos | b pos  | color | desc                                    | type             |
 | --- | ------ | ----- | --------------------------------------- | ---------------- |
@@ -177,22 +177,22 @@ Automatic transmission control plug.
 
 ### ECU
 
-![Wiring Diagram](Images/Dodge_Neon_2003.png)
+![Wiring Diagram](Images/diagrams/Dodge_Neon_2003.png)
 
 ### Starting
 
-![Wiring Diagram](Images/Dodge_Neon_2003_starting.png)
+![Wiring Diagram](Images/diagrams/Dodge_Neon_2003_starting.png)
 
 ### Charging
 
-![Wiring Diagram](Images/Dodge_Neon_2003_charging.png)
+![Wiring Diagram](Images/diagrams/Dodge_Neon_2003_charging.png)
 
 ### Cooling
 
-![Wiring Diagram](Images/Dodge_Neon_2003_cooling.png)
+![Wiring Diagram](Images/diagrams/Dodge_Neon_2003_cooling.png)
 
 ### A/C
 
-![Wiring Diagram](Images/Dodge_Neon_2003_ac.png)
+![Wiring Diagram](Images/diagrams/Dodge_Neon_2003_ac.png)
 
 ![Injector Calibration](Images/0280155868cs.jpg)

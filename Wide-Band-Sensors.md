@@ -37,7 +37,7 @@ For more information see [the wiki page](rusEFI-Wideband-Controller).
 
 Innovate's LC-2 serial interface is supported. The Innovate sensor controller has typically two serial connectors, the one labeled *OUT* needs to be connected to the ECU. AUX Serial needs to be configured with a baud rate of 19200BPs and *Enable Innovate LC-2 Serial* needs to be set to true in the EGO sensor window.
 
-![Innovate LC-2 Settings](Fuel/innovate_lc2_settings.png)
+![Innovate LC-2 Settings](Images/innovate_lc2_settings.png)
 
 ## Wide Band Oxygen Sensor Info
 
@@ -57,9 +57,9 @@ pin 6 black: UN = Vs = sensor voltage output = INRC
 
 4.9 pinout courtesy of [https://www.wbo2.com/cable/lsuconns.htm](https://www.wbo2.com/cable/lsuconns.htm)
 
-![x](FAQ/LSU-4-9-17025hcon.gif)
+![x](Images/LSU-4-9-17025hcon.gif)
 
-![x](FAQ/LSU_42_LSU_49_Plug_Comparsion.jpg)
+![x](Images/LSU_42_LSU_49_Plug_Comparsion.jpg)
 
 [Bosch LSU 4.2 Datasheet](OEM-Docs/Bosch/Lambda_Sensor_LSU_4.2_Datasheet_51_en_2779111435.pdf)
 
@@ -125,7 +125,7 @@ connector body is laser trimmed with this value."
 
 [AEM Controller Installation Instructions](http://www.aemelectronics.com/files/instructions/30-4100%20Digital%20Wideband%20UEGO%20Gauge.pdf)
 
-![Pinout](Fuel/Aem_UEGO_pinout.png)
+![Pinout](Images/diagrams/Aem_UEGO_pinout.png)
 
 1j0973733 Bosch 4.2 6 pin connector available everywhere
 

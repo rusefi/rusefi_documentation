@@ -18,7 +18,7 @@ We use engine sniffer and composite logger only for basic validation at the mome
 
 We have not found composite logger useful for trigger troubleshooting. Max data rate 'normal' logs seem to be much more useful.
 
-![image](https://github.com/user-attachments/assets/e67d3aec-ab9b-422f-a574-d611d66a7410)
+![image](Images/MLV_trigger_error.png)
 
 ### Troubleshooting hardware with rusEFI console
 
@@ -50,13 +50,13 @@ Type `enable trigger_details` in rusEFI console to enable verbose synchronizatio
 
 Enable Trigger Counters
 
-![Trigger Counter in Base Engine Settings](Images/trigger_counters.png)
+![Trigger Counter in Base Engine Settings](Images/TS/trigger_counters.png)
 
 TIME TO UPDATE DOCUMENTATION SEE https://github.com/rusefi/rusefi_documentation/issues/497
 
 Channel #1 counter would be "debug i1" gauge and channel #2 is "debug i2". These values should go up if you are cranking and that confirms that the events are being registered by rusEFI firmware.
 
-![Debug Gauges](Images/debug_gauges_counter.png)
+![Debug Gauges](Images/TS/debug_gauges_counter.png)
 
 ## Trigger Simulation
 

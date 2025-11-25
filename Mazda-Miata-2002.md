@@ -6,11 +6,11 @@
 
 ## ECU
 
-![Wiring Diagram](Images/Mazda_miata_2002.png)
+![Wiring Diagram](Images/diagrams/Mazda_miata_2002.png)
 
 ## Gauge cluster
 
-![Wiring Diagram](Images/Mazda_miata_2002_instrument.png)
+![Wiring Diagram](Images/diagrams/Mazda_miata_2002_instrument.png)
 
 ## Starting & power
 
@@ -24,10 +24,10 @@ Fly-back diode - stripe facing +12 - is needed between VVT 4S (power, stripe sid
 
 Fly-back diode - stripe facing +12 - is needed between IAC 2P and IAC control 2Q.
 
-![Wiring Diagram](Images/Mazda_miata_2002_starting.png)
+![Wiring Diagram](Images/diagrams/Mazda_miata_2002_starting.png)
 
-![Wiring Diagram](Images/Mazda_miata_2002_power.png)
+![Wiring Diagram](Images/diagrams/Mazda_miata_2002_power.png)
 
 ## Data Links
 
-![Wiring Diagram](Images/Mazda_miata_2002_data_links.png)
+![Wiring Diagram](Images/diagrams/Mazda_miata_2002_data_links.png)

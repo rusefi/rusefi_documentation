@@ -2,7 +2,7 @@
 
 [youtube: It works](https://youtu.be/Mwgq26M5-JY)
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/0b210af4-4f56-49b6-b8ac-87b1af0384fd)
+![image](Images/console/Console_PCAN.png)
 
 ## TL,DR
 

@@ -79,6 +79,6 @@ Thinking of doing an engine control project? You have stopped by the correct pla
 
 [Engines running rusEFI](Case-Studies)
 
-[![Miata rusEFI Racecar!](https://user-images.githubusercontent.com/5051341/80621997-bf7bf000-8a0d-11ea-998e-48fc3accba59.png)](https://www.youtube.com/embed/3xz66oR95F8?start=8 "Miata rusEFI Racecar!")
+[![Miata rusEFI Racecar!](Images/miata_rusefi_racecar.png)](https://www.youtube.com/embed/3xz66oR95F8?start=8 "Miata rusEFI Racecar!")
 
-[![BMW V12 with dual ETB!](https://user-images.githubusercontent.com/5051341/80622501-809a6a00-8a0e-11ea-8efc-b575def1d132.png)](https://www.youtube.com/embed/TGf8IMwRuIY "BMW V12 with dual ETB!")  
+[![BMW V12 with dual ETB!](Images/BMW_V12_dual_ETB.png)](https://www.youtube.com/embed/TGf8IMwRuIY "BMW V12 with dual ETB!")  

@@ -6,7 +6,7 @@ Reference tune https://rusefi.com/online/view.php?msq=1626 reference tune https:
 
 ## Software knock sensing
 
-![x](https://rusefi.com/forum/download/file.php?id=6900)
+![x](Images/MLV_knock.png)
 
 ## Spectrogram
 

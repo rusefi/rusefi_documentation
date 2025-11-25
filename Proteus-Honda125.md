@@ -10,4 +10,4 @@
 
 [see also Hellen-125-Honda-K](Hellen-125-Honda-K)
 
-![x](https://rusefi.com/forum/download/file.php?id=8391)
+![x](Images/Proteus_Honda_adapter.jpg)

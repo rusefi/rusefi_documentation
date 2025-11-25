@@ -22,7 +22,7 @@ rusEFI is capable of feeding data to TunerStudio several hundred times per secon
 
 The data rate should default to 100 Hz when using rusEFI, but it's worth checking that its set to a speed appropriate for your application. That said, storage is cheap, so it doesn't really hurt to have it set faster than you need.
 
-![TS Data Rate](https://github.com/rusefi/rusefi_documentation/raw/master/Images/ts-data-rate.png)
+![TS Data Rate](Images/TS/TunerStudio_logging_data_rate.png)
 
 ## Internal SD Card
 
@@ -30,7 +30,7 @@ Some rusEFI ECUs support logging to a microSD card directly. This is useful for 
 
 To enable it, find the "SD Card Logger" menu under the "Controller" section (far right).  Set "Enable SD Card" to true to start logging. Set how often the log should be written: the default is every 50 ms, i.e. 20 times per second (20 Hz).
 
-![SD Card Settings](https://github.com/rusefi/rusefi_documentation/raw/master/Images/ts-sd.png)
+![SD Card Settings](Images/TS/TunerStudio_sd_settings.png)
 
 ### Storage Consumption
 
@@ -47,12 +47,12 @@ When connected to a PC, rusEFI ECUs will function as an SD card reader, allowing
 If you're unsure what the SD card is currently doing, have a look at the three SD card-related indicators in TunerStudio:
 
 No SD card detected:
-![No SD card indicator](https://github.com/rusefi/rusefi_documentation/raw/master/Images/sd-none.png)
+![No SD card indicator](Images/TS/TunerStudio_sd_none.png)
 
 SD card logging mode:
-![SD logging indicator](https://github.com/rusefi/rusefi_documentation/raw/master/Images/sd-indicators-logging.png)
+![SD logging indicator](Images/TS/TunerStudio_sd_card.png)
 
 SD card reading mode:
-![SD reading indicator](https://github.com/rusefi/rusefi_documentation/raw/master/Images/sd-indicators-msd.png)
+![SD reading indicator](Images/TS/TunerStudio_sd_usb.png)
 
 The assumption is that if you have USB connected, you will be logging using TunerStudio instead of the onboard SD card.

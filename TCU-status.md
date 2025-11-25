@@ -6,7 +6,7 @@ There are oldest transmission with external TCU, those are mostly controlled by 
 
 We have tc_4l6x.cpp file but zero real life testing on any 4Lxx transmission. Rumors are that https://rusefi.com/forum/viewtopic.php?f=2&t=2744 with Ford 4R70W has moved under rusEFI TCU control.
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/0d065f3c-4d31-4d5d-bc41-1baff06a7455)
+![image](Images/TS/TunerStudio_TCU_menu.png)
 
 ## Modern Stuff
 

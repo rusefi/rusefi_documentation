@@ -1,6 +1,6 @@
 # 1990 Mazda Miata
 
-![Pinout](Images/frankenso_connector_miata_1991.png)
+![Pinout](Images/diagrams/frankenso_connector_miata_1991.png)
 
 1990 1.6 US
 
@@ -85,6 +85,6 @@ Oil Y/A Yellow/?
 Turn signal Right G/W Green/White
 Turn signal Left G/B Green/Black
 
-![Wiring Diagram](Images/2009-11-10_224518_tach.gif)
+![Wiring Diagram](Images/diagrams/2009-11-10_224518_tach.gif)
 
 See also [http://www.mellens.net/mazda/Mazda-Miata-1991-1993/1991_wiring.pdf](http://www.mellens.net/mazda/Mazda-Miata-1991-1993/1991_wiring.pdf)

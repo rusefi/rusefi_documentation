@@ -4,7 +4,7 @@ We have a bracket GP winner, Matts lucky dog car has not done too badly iirc and
 Street and import side, various mx5s and i believe a genesis has just been done.
 We also are starting to make plug and tinker boards for popular tuner chassis, MX5, genesis, e36/46.
 
-![WhatsApp Image 2025-08-09 at 16 48 54_ee6c6c32](https://github.com/user-attachments/assets/22c71431-0804-4b57-a38e-96df720a2cb3)
+![WhatsApp Image 2025-08-09 at 16 48 54_ee6c6c32](Images/gto.jpeg)
 
 ## 2024 Harley
 

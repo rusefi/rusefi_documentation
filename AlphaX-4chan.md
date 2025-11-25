@@ -28,7 +28,7 @@
 * one channel knock input
 * Bluetooth
 
-![x](https://rusefi.com/forum/download/file.php?id=9345)
+![x](Images/alphax-4chan-reva-render.jpeg)
 
 ## Changelog
 

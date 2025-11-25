@@ -55,7 +55,7 @@ W210 chassis will have 210 545 81 28 (Black Strip Plug), R129 will have 029 545 
 
 The strip or oval plugs connect a handful of accessory sensors, power leads, and the starter wire. *In General*, on a MB wiring harness, plain brown is GND, plain red is +V, purple is starter circuit.
 
-![image](https://user-images.githubusercontent.com/17059674/177897778-0f450933-71eb-48d5-97cb-81741f11061e.png)
+![image](Images/Mercedes_connector.png)
 
 Seen here is a 029 545 72 28 from a MY97 R129 SL320.
 Purple wire on pin 13 is starter signal

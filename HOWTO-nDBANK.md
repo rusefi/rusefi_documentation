@@ -20,8 +20,8 @@ TODO: try [https://github.com/danielinux/stm32f7-dualbank-tool](https://github.c
 
 At the moment we only know how to deal with it via Stm32CubeProgrammer
 
-![x](HOWTO/nDBANK/stm32prog-steps.png)
+![x](Images/stm32prog-steps.png)
 
-![x](HOWTO/nDBANK/stm32prog-result.png)
+![x](Images/stm32prog-result.png)
 
 [https://github.com/rusefi/rusefi_external_utils/](https://github.com/rusefi/rusefi_external_utils/) has a backup copy of en.stm32cubeprg-win64_v2-7-0.zip

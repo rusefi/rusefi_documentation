@@ -6,7 +6,7 @@ See also [Mazda Miata 2003 alt](Mazda-Miata-2003-alt)
 
 For power see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting--power)
 
-![Connector Face](Images/NB2_Miata_ECU_Connectors_Drawing_rusEFI_harness.png)
+![Connector Face](Images/diagrams/NB2_Miata_ECU_Connectors_Drawing_rusEFI_harness.png)
 
 Coil three wire plug:
 
@@ -43,19 +43,19 @@ see [Mazda Miata 2001 - Automatic Transmission](Mazda-Miata-2001#automatic-trans
 NALDEC NC87 67 790 MAZDA MX5 EUNOS MK2 MK2.5 BURGLAR ALARM MODULE NC8767790 is not an immobilizer
 
 US immobilizer
-![Wiring Diagram](Images/2001_miata_immobilizer.png)
+![Wiring Diagram](Images/diagrams/2001_miata_immobilizer.png)
 
 ## Wiper Motor
 
-![Wiring Diagram](Images/2003_miata_wiper_motor.png)
+![Wiring Diagram](Images/diagrams/2003_miata_wiper_motor.png)
 
 ## Charging
 
-![Wiring Diagram](Images/2003_miata_charging.png)
+![Wiring Diagram](Images/diagrams/2003_miata_charging.png)
 
 ## Air Conditioning
 
-![Wiring Diagram](Images/2003_miata_ac.png)
+![Wiring Diagram](Images/diagrams/2003_miata_ac.png)
 
 See also [Mazda Miata 2002](Mazda-Miata-2002)
 

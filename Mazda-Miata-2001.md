@@ -57,8 +57,8 @@ R(AE,AF)==600 ohm
 
 R(W,Z)==400 ohm
 
-![Wiring Diagram](Images/Mazda_miata_2001_at.png)
+![Wiring Diagram](Images/diagrams/Mazda_miata_2001_at.png)
 
 ## Gear diagram
 
-![Gear Diagram](Images/Mazda_miata_2003_gear_position.png)
+![Gear Diagram](Images/diagrams/Mazda_miata_2003_gear_position.png)

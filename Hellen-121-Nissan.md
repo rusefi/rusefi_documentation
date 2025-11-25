@@ -82,4 +82,4 @@ Rev B, ECU pin 68 considerations
 
 ### rev B
 
-![image](https://github.com/user-attachments/assets/750c4c4e-3a94-4ac5-b618-59f7a40fd5af)
+![image](Images/diagrams/knock_inputs.png)

@@ -14,9 +14,9 @@ Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not re
 
 ## 3rd party dashboards
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/65b93709-d959-473e-b406-a9dcbde64b3a)
+![image](Images/TS/TunerStudio_canbus_dash_haltech.png)
 
-![image](https://github.com/rusefi/rusefi/assets/48498823/56fba35f-44a1-4982-9242-762ee98e3590)
+![image](Images/TS/TunerStudio_canbus_dash_aim.png)
 
 ## OpenBLT
 
