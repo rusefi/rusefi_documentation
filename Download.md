@@ -1,18 +1,23 @@
 # Download
 
-Very similar but slightly different versions of rusEFI bundle are needed depending on which specific rusEFI ECU you are using.
+You will need a version of the rusEFI bundle specific to the rusEFI ECU you are using. This bundle includes the firmware which runs on the ECU, the definition file needed by TunerStudio for your specific ECU and firmware version, the rusEFI Console, drivers, and various extra utilites.
 
-[Download TunerStudio](HOWTO-create-tunerstudio-project#download-and-install)
+It does not include TunerStudio or MegaLogViewer.
+
+[Download TunerStudio](HOWTO-create-tunerstudio-project#download-and-install)  
+[Download MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/)
+
+*If you haven't already, check out the [Quick Start](HOWTO-quick-start) guide for instructions on how to use your rusEFI bundle.*
 
 ## Common Boards
 
-[uaEFI](uaEFI#software)
+[uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
 
-[uaEFI121](uaefi121#software)
+[uaEFI121](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip)
 
-[microRusEFI](microRusEFI-Manual#software)
+[microRusEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
 
-[Proteus](Proteus-Manual#software)
+[Proteus](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
 
 [STM32 Community Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_f407-discovery.zip)
 
@@ -40,13 +45,13 @@ Very similar but slightly different versions of rusEFI bundle are needed dependi
 
 ## Advanced
 
+[Release vs. Snapshot](https://wiki.rusefi.com/Release-Snapshot-Latest-firmware)
+
 [Older Releases](https://github.com/rusefi/rusefi/releases?q=prerelease%3Afalse)
 
 [Nightly Builds](https://github.com/rusefi/rusefi/releases?q=prerelease%3Atrue)
 
 [Snapshot Builds](https://rusefi.com/build_server/)
-
-**[Quick Start](HOWTO-quick-start)**
 
 [Virtual Simulator](Virtual-simulator)
 
