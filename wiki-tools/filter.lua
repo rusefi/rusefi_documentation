@@ -52,7 +52,7 @@ function Link(elem)
 
 	 return pandoc.RawInline("latex", "\\href{https://wiki.rusefi.com/" .. elem.target .. "}{" ..
 													 escape_latex(pandoc.utils.stringify(elem.content)) ..
-													 " (https://wiki.rusefi.com/" .. escape_latex(elem.target) .. ")" .. "}")
+													 " (https://wiki.rusefi.com\\slash{}" .. escape_latex(elem.target) .. ")" .. "}")
 end
 
 function Image(elem)
