@@ -14,3 +14,7 @@ rst-content .toctree-wrapper > p.caption, .rst-content h1, .rst-content h2, .rst
 .rst-content table.mapped-screenshot td {
 	padding: 0px;
 }
+
+.md-source {
+	display: none;
+}
