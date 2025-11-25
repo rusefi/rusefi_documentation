@@ -57,10 +57,10 @@ TBD
 
 ### See Also
 
-- [Fuel Overview](Fuel-Overview)
-- [Ignition](Ignition)
-- [Idle Control](Idle-Control)
-- [this forum thread](http://rusefi.com/forum/viewtopic.php?f=2&t=1124&p=21278)
+* [Fuel Overview](Fuel-Overview)
+* [Ignition](Ignition)
+* [Idle Control](Idle-Control)
+* [this forum thread](http://rusefi.com/forum/viewtopic.php?f=2&t=1124&p=21278)
 
 ## Share your tune
 
