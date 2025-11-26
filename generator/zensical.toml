@@ -46,34 +46,25 @@ nav = [
     {"rusEFI Online" = "Online.md"},
     {"HOWTOs and FAQs" = "Pages-FAQ-and-HOWTO.md"}
   ]},
-  {"Features" = [
+  {"Guides" = [
+    {"Wiring & Connectivity Overview" = "FAQ-Basic-Wiring-and-Connections.md"},
+    {"Cranking" = "Cranking.md"},
+    {"Trigger - Configuration" = "Trigger-Configuration-Guide.md"},
+    {"Trigger - Setting Offset" = "How-Do-I-Set-My-Trigger-Offset.md"},
+    {"Electronic Throttle" = "Electronic-Throttle-Body-Configuration-Guide.md"},
+    {"Logging" = "Logging-Guide.md"},
+    {"Wideband Oxygen Sensors" = "Wide-Band-Sensors.md"},
     {"Fueling" = "Fuel-Overview.md"},
     {"Flex Fuel" = "Flex-Fuel.md"},
-    {"Cranking" = "Cranking.md"},
-    {"Electronic Throttle" = "Electronic-Throttle-Body-Configuration-Guide.md"},
+    {"Direct Injection" = "GDI-status.md"},
     {"Knock Sensing" = "knock-sensing.md"},
     {"Variable Valve Timing" = "VVT.md"},
     {"Lua Scripting" = "Lua-Scripting.md"},
-    {"GDI" = "GDI-status.md"},
     {"Digital Dash" = "Digital-Dash.md"},
-    {"Wideband Oxygen Sensors" = "Wide-Band-Sensors.md"},
     {"Multispark" = "Multi-Spark.md"}
   ]},
-  {"Setup Guides" = [
-    {"Trigger - Configuration" = "Trigger-Configuration-Guide.md"},
-    {"Trigger - Setting Offset" = "How-Do-I-Set-My-Trigger-Offset.md"},
-    {"Electronic Throttle Body" = "Electronic-Throttle-Body-Configuration-Guide.md"},
-    {"Logging" = "Logging-Guide.md"}
-  ]},
-  {"Pages" = [
-    {"Fuel" = "Pages-Fuel.md"},
-    {"Sensors and Actuators" = "Pages-Sensors-and-Actuators.md"},
-    {"Ignition" = "Pages-Ignition.md"},
-    {"Software" = "Pages-Software.md"}
-  ]},
-  {"Hardware" = [
+  {"ECU Hardware" = [
     {"rusEFI Hardware Overview" = "Hardware.md"},
-    {"Wiring & Connectivity Overview" = "FAQ-Basic-Wiring-and-Connections.md"},
     {"Wire-in ECUs" = [
       {"uaEFI" = "uaEFI.md"},
       {"microRusEFI" = "Hardware-microRusEFI.md"},
@@ -86,7 +77,13 @@ nav = [
       {"Hellen" = "Hellen-One-Platform.md"}
     ]}
   ]},
-  {"Developers" = [
+  {"Index" = [
+    {"Fuel" = "Pages-Fuel.md"},
+    {"Sensors and Actuators" = "Pages-Sensors-and-Actuators.md"},
+    {"Ignition" = "Pages-Ignition.md"},
+    {"Software" = "Pages-Software.md"}
+  ]},
+  {"Contributors" = [
     {"Contribute to Firmware" = "HOWTO-contribute-to-firmware.md"},
     {"Contribute to Documentation" = "HOWTO-contribute-to-documentation.md"}
   ]}

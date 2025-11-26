@@ -7,12 +7,12 @@
 
 ## HOWTOs
 
+* [Quick Start](HOWTO-quick-start)
 * [Get Help](Support)
-* [Contributing to Documentation](HOWTO-contribute-to-documentation)
 * [Create a TunerStudio Project](HOWTO-create-tunerstudio-project)
 * [Direct Firmware Update](HOWTO-DFU)
-* [Help rusEFI](HOWTO-help-rusEFI)
-* [Quick Start](HOWTO-quick-start)
 * [Update Firmware](HOWTO-Update-Firmware)
 * [Upload a Tune](HOWTO-upload-tune)
-* [Online Authentication Tokens](HOWTO-set-rusEFI-Online-authentication-token)
+* [Set Up Online Authentication Tokens](HOWTO-set-rusEFI-Online-authentication-token)
+* [Contributing to Documentation](HOWTO-contribute-to-documentation)
+* [Help rusEFI](HOWTO-help-rusEFI)
