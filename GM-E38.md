@@ -2,7 +2,7 @@
 
 A standalone compatible with GM E38 pinout [💲available at the rusEFI store💲](https://www.shop.rusefi.com/shop/p/pnp-e38)
 
-<img width="1500" height="1414" alt="image" src="https://github.com/user-attachments/assets/e89b5ad7-1715-4eb2-a904-65aebc2a35f9" />
+![GM E38 PnP ECU](Images/e38.png){: style="width: 1500px; height: 1414px;" }
 
 ## Information
 
