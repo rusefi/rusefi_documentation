@@ -6,6 +6,6 @@ microRusEFI can control 4 wire using on-board TLE8888 see https://github.com/rus
 
 uaEFI and Proteus can control 4 wire using two h-bridges/DC motor drivers
 
-<img width="551" height="118" alt="image" src="https://github.com/user-attachments/assets/1a5d4929-cdc9-4948-a08c-36b73e54722f" />
+![TunerStudio Stepper Preset](Images/TS/TunerStudio_preset_stepper.png){: style="width: 551px; height: 118px;" }
 
 [proteus Toyota pinout](https://github.com/rusefi/rusefi/commit/89d55109178be92c79807f392503079463647d43)

@@ -14,11 +14,16 @@ During low speed operation if there is enough time for the dwell and ignition pe
 ## How-to Enable  
 
 To enable multispark feature open the Controller tab in the options bar. In the drop down menu open the Multispark window. In the event that the Multispark option is greyed out  
-<img src="Spark/Images/multisparkGreyedOut.png" title="Multispark Greyed Out" alt="Multispark Greyed Out" width="250">  
+
+![Multispark Greyed Out](Spark/Images/multisparkGreyedOut.png "Multispark Greyed Out"){: style="width: 250px;" }
+
 spark will need to be enabled. Double check that under Ignition settings that Enabled is set to true in the drop down menu.  
-<img src="Spark/Images/ignitionSettings.png" title="Ignition Settings" alt="Ignition Settings" width="500">  
+
+![Ignition Settings](Spark/Images/ignitionSettings.png "Ignition Settings"){: style="width: 500px;" }
+
 If ignition is enabled then multispark settings should be available. In the Mutlispark menu to enable mutlispark simply set Enable Multiple Sparks to true. **NOTE:** The configuration, Delay & Dwell settings should be set with extreme caution as serious perminent damage could be caused to your engine and safety.  
-<img src="Spark/Images/multisparkSettings.png" title="Multispark Settings" alt="Multispark Settings" width="500">  
+
+![Multispark Settings](Spark/Images/multisparkSettings.png "Multispark Settings"){: style="width: 500px;" }
 
 ## Configuration Definitions  
   

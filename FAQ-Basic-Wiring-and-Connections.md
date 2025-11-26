@@ -1,4 +1,4 @@
-# FAQ: Basic Wiring and Connections
+# Wiring & Connectivity Overview
 
 ## Intro
 
@@ -57,14 +57,14 @@ Most hardware variants are set up to provide control over a main relay or auto-s
 some older car models have the main "EFI" or "ECU Relay" or "ECCS" as Nissan calls it those are the usual Terminology used to describe it
 Usually works in this order
 
-<img width="917" alt="Screen Shot 2024-05-27 at 10 57 45 PM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/86e7b9b2-c13c-483c-baff-a6c2fe077368">
+![Main Relay Table](Images/main_relay_table.png){: style="width: 917px;" }
 
 Technically Speaking while wiring ur new RusEFI ECU Unit you should see if your car starts the relay VIA "ECU PIN" from ur oem unit
 or switched Externally VIA Ignition Key Switch
 
 (**IF**) your car is "IGNITION SWITCH OPERATED RELAY" (NO ECM CONTROL) link VIGN and 12V(Switched B+ from ur old ecu wire) inputs together for BATT voltage to display correctly
 
-<img width="561" alt="Screen Shot 2024-05-27 at 1 27 46 AM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/6c4891b7-fcf6-4978-8fe2-e06fe1ee0c98">
+![Main Relay Diagram](Images/diagrams/main_relay_diagram.png){: style="width: 561px;" }
 
 and the regular switched power Relay is refered as "12v+" "B+" in diagrams when connecting refrence power to ECU it's prefered to USE "RELAY 12V OUT" for Voltage Reading ("VIGN") in your case it's usually the only power Input pin in the ECU so it's your Voltage Refrence Signal(relay) and your 12V+ power to ECU
 
@@ -77,7 +77,7 @@ Relay Should tick even when ur ECU is out!
 (**HOWEVER**) if your car is switched by a ECM pin take a free "LS" low side output and replace ur old relay operation signal with it
 feedback VIGN with power returning from MAIN RELAY They're usually labeled in manuals as "ECU POWER" "ECU 12V"
 
-<img width="631" alt="Screen Shot 2024-05-27 at 1 35 14 AM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/1e83bf27-a440-41db-8186-6b0367cbd5e0">
+![Lowside Main Relay Diagram](Images/diagrams/lowside_main_relay_diagram.png){: style="width: 631px;" }
 
 as you can see in the ECCS example pin 16 here should be RusEFI lowside
 and pin 49 should be your relay power IN (VIGN)
@@ -92,7 +92,7 @@ Engine position (crank, cam) are specific inputs required. Hall Effect (square w
 
 ### VR(Reluctance) is typically 2 wire and has this type of waveform
 
-<img width="306" alt="Screen Shot 2024-05-27 at 11 05 02 PM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/9d82b48b-54bb-4207-9160-485ea3346552">
+![VR Waveform](Images/VR_waveform.png){: style="width: 306px;" }
 
 those Should go to your RusEFI VR+, VR-
 Some ECU Brands Call them "NE+" "NE-" it's practically the same deal
@@ -102,7 +102,7 @@ Some ECU Brands Call them "NE+" "NE-" it's practically the same deal
 they have a Square shaped wave and typically a 3 wire system
 powered by Either 5v or 12v power and ground and has a signal as a third pin
 
-<img width="270" alt="Screen Shot 2024-05-27 at 11 08 32 PM" src="https://github.com/EA11R/rusefi_documentation/assets/82368250/46e6a5a2-526e-42a6-9b7d-27da88775580">
+![Hall Waveform](Images/hall_waveform.png){: style="width: 270px;" }
 
 ### OPTICAL SENSORS
 

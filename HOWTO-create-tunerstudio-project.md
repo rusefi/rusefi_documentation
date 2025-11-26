@@ -1,12 +1,12 @@
 # How To Create a TunerStudio Project
 
-[EFI Analytics TunerStudio](https://www.tunerstudio.com/index.php/tuner-studio) is a third party commercial tuning application used to configure and tune your rusEFI ECU. TunerStudio is available on Windows, Mac and Linux.
+[EFI Analytics TunerStudio](https://www.efianalytics.com/TunerStudio/) is a third party commercial tuning application used to configure and tune your rusEFI ECU. TunerStudio is available on Windows, Mac and Linux.
 
 Most rusEFI ECUs can be powered through the USB port, so you can set it up in the comfort of your living room and have it communicate with Tunerstudio before it is installed in the car. This approach is highly recommended.
 
 ## Download and Install
 
-[TunerStudio](https://www.efianalytics.com/TunerStudio/)
+[TunerStudio](https://www.tunerstudio.com/index.php/tuner-studio)
 
 [MegaLog Viewer](https://www.efianalytics.com/MegaLogViewer/download/)
 
