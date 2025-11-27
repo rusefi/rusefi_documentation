@@ -595,6 +595,8 @@ end
 
 ```
 
+See also https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/honda-bcm.txt and https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/ford-focus-ii-pps.txt
+
 ### CAN receive
 
 ```lua
