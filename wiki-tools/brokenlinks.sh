@@ -4,7 +4,8 @@
 #                                           02/18/2021                                           #
 #                                   Written By David Holdeman                                    #
 #     Searches for broken links in a Github Wiki repo, and suggests and applies corrections.     #
-#          Usage: brokenlinks.sh [-s non-interactive] [-d debug] <optional file(s)> ...          #
+#                      Usage: brokenlinks.sh [-s non-interactive] [-d debug]                     #
+#                           [-w check web links] <optional file(s)> ...                          #
 ##################################################################################################
 
 # These two functions are used to escape variables for use in a sed command
@@ -28,7 +29,21 @@ checkurl() {
   # If it's an internet link, ignore it.
   # That's beyond the scope of this tool.
   if echo "$LINK" | grep -E '^http' >/dev/null; then
-    return 2
+		if [ "$HTTP" != "1" ]; then
+			return 2;
+		fi
+		R=$(wget -S -qO /dev/null --no-check-certificate --user-agent='Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0' "$LINK" 2>&1 | awk '/HTTP\/[0-9.]+/{print $2;exit;}')
+			case "$R" in
+				"200"|"301"|"302"|"303"|"307"|"308"|"403"|"429"|"418")
+				;;
+				*)
+					(
+						flock -x 200
+						echo "$1: $R $LINK" >&2
+					) 200>brokenlinks.lock
+					return 1
+			esac
+			return 2
   fi
   # Check for links that begin in ./ or /, as they won't function as expected everywhere.
   if echo "$LINK" | grep -E '^[.]?/' >/dev/null; then
@@ -39,28 +54,28 @@ checkurl() {
     LINK=$(echo "$LINK" | sed 's/^.\{0,1\}\///')
     # Lock user-facing input/output so that the user is presented with one fix at a time.
     (
-    flock -x 200
-    # Print the file and the old link
-    echo "In $1:" >&2
-    echo "$OLDLINK" >&2
-    # Print the options as though they are a list in order to have the same UI as other types of correction
-    echo "$LINK" | cat --number >&2
-    # Make sure we aren't in non-interactive mode.
-    if [ "$SCRIPT" -lt 1 ]; then
-      echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
-      # Read the user input
-      read -r PICK
-      if [[ $PICK =~ ^[0-9]+$ ]] && [ "$PICK" -eq 1 ]; then
-        # Replace the old link with the new one.
-        # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
-        #   and not some other place in the file that happens to use the same words.
-        REPLACE=$(escape '('"$OLDLINK""$HASH"')')
-        REPLACEWITH=$(escapeReplace "$LINK""$HASH")
-        sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
-      fi
-      # We don't continue here because the link we fixed might be broken.
-    fi
-    # File descriptor for the lock.
+			flock -x 200
+			# Print the file and the old link
+			echo "In $1:" >&2
+			echo "$OLDLINK" >&2
+			# Print the options as though they are a list in order to have the same UI as other types of correction
+			echo "$LINK" | cat --number >&2
+			# Make sure we aren't in non-interactive mode.
+			if [ "$SCRIPT" -lt 1 ]; then
+				echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
+				# Read the user input
+				read -r PICK
+				if [[ $PICK =~ ^[0-9]+$ ]] && [ "$PICK" -eq 1 ]; then
+					# Replace the old link with the new one.
+					# Parentheses are placed around both the old link and new one in order to ensure we replace the link,
+					#   and not some other place in the file that happens to use the same words.
+					REPLACE=$(escape '('"$OLDLINK""$HASH"')')
+					REPLACEWITH=$(escapeReplace "$LINK""$HASH")
+					sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
+				fi
+				# We don't continue here because the link we fixed might be broken.
+			fi
+			# File descriptor for the lock.
     ) 200>brokenlinks.lock
   fi
   # Skip links that are to an .md file and aren't broken.
@@ -82,51 +97,51 @@ checkurl() {
   FILES=$(find . -iname "$SEARCH")
   # Lock user-facing input/output so that the user is presented with one fix at a time.
   (
-  flock -x 200
-  # Print the filename and the broken link.
-  echo "In $1:" >&2
-  echo "$LINK" >&2
-  # If there are no files, skip to next link.
-  if [ -z "$FILES" ]; then
-    echo "Could not find" >&2
-    return 1
-  fi
-  # List the potential files, with numbers.
-  echo "$FILES" | cat --number >&2
-  # Make sure we aren't in non-interactive mode.
-  if [ "$SCRIPT" -lt 1 ]; then
-    echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
-    # Read the user input
-    read -r PICK
-    # If the selection isn't a number, skip to the next link.
-    if ! [[ $PICK =~ ^[0-9]+$ ]]; then
-      return 1
-    fi
-    # Get the selected file path, without the preceding ./
-    FILE=$(echo "$FILES" | head -n "$PICK" | tail -n 1 | sed 's/^\.\///')
-    # Track if the linked file is a .md file
-    MD=0
-    if echo "$FILE" | grep ".md$" >/dev/null; then
-      MD=1
-      # Drop the .md from the link
-      FILE=$(basename "$FILE" .md)
-    fi
-    # Replace the old link with the new one.
-    # Parentheses are placed around both the old link and new one in order to ensure we replace the link,
-    #   and not some other place in the file that happens to use the same words.
-    REPLACE=$(escape '('"$LINK""$HASH"')')
-    REPLACEWITH=$(escapeReplace "$FILE""$HASH")
-    sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
-    # print the URL for use in `checkhash`
-    echo "$LINK"
-    if [ "$MD" -eq 1 ]; then
-      return 0
-    else
-      return 2
-    fi
-  fi
-  return 1
-  # File descriptor for the lock.
+		flock -x 200
+		# Print the filename and the broken link.
+		echo "In $1:" >&2
+		echo "$LINK" >&2
+		# If there are no files, skip to next link.
+		if [ -z "$FILES" ]; then
+			echo "Could not find" >&2
+			return 1
+		fi
+		# List the potential files, with numbers.
+		echo "$FILES" | cat --number >&2
+		# Make sure we aren't in non-interactive mode.
+		if [ "$SCRIPT" -lt 1 ]; then
+			echo "Type a number, then hit return to select an alternative, or just hit return to skip fixing:" >&2
+			# Read the user input
+			read -r PICK
+			# If the selection isn't a number, skip to the next link.
+			if ! [[ $PICK =~ ^[0-9]+$ ]]; then
+				return 1
+			fi
+			# Get the selected file path, without the preceding ./
+			FILE=$(echo "$FILES" | head -n "$PICK" | tail -n 1 | sed 's/^\.\///')
+			# Track if the linked file is a .md file
+			MD=0
+			if echo "$FILE" | grep ".md$" >/dev/null; then
+				MD=1
+				# Drop the .md from the link
+				FILE=$(basename "$FILE" .md)
+			fi
+			# Replace the old link with the new one.
+			# Parentheses are placed around both the old link and new one in order to ensure we replace the link,
+			#   and not some other place in the file that happens to use the same words.
+			REPLACE=$(escape '('"$LINK""$HASH"')')
+			REPLACEWITH=$(escapeReplace "$FILE""$HASH")
+			sed -i "s/$REPLACE/\($REPLACEWITH\)/" "$1"
+			# print the URL for use in `checkhash`
+			echo "$LINK"
+			if [ "$MD" -eq 1 ]; then
+				return 0
+			else
+				return 2
+			fi
+		fi
+		return 1
+		# File descriptor for the lock.
   ) 200>brokenlinks.lock
   # The returns within the lock closure don't return from the function, only from the closure.
   return $?
@@ -182,9 +197,9 @@ searchfile() {
     if [ "$DEBUG" -eq 1 ]; then
       echo "$(date +%T.%N)	$1	$URL	$HASH"
     fi
-  # This regex finds links in the file that is passed to searchfile
-  # Results are fed to file descriptor 3 for the reasons previously explained.
-  done 3< <(grep -oP '(?<=\]\().*?(?=[\)])' "$1" | sed -e "s/^<//g" -e "s/>$//g" | cut -d '"' -f1 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+	# This regex finds links in the file that is passed to searchfile
+	# Results are fed to file descriptor 3 for the reasons previously explained.
+  done 3< <(grep -oP '(?<=\]\()([^()]*|\([^()]*\))*(?=\))' "$1" | sed -e "s/^<//g" -e "s/>$//g" | cut -d '"' -f1 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
   return $STATUS
 }
 export -f searchfile
@@ -194,17 +209,23 @@ FILES=()
 export SCRIPT=0
 export DEBUG=0
 for i in $@; do
-  if [ "$i" == "-s" ]; then
-    export SCRIPT=1
-  elif [ "$i" == "-d" ]; then
-    export DEBUG=1
-  else
-    FILES+=("${i}")
-  fi
+	case "$i" in
+		"-s")
+			export SCRIPT=1
+			;;
+		"-d")
+			export DEBUG=1
+			;;
+		"-w")
+			export HTTP=1
+			;;
+		*)
+			FILES+=("${i}")
+  esac
 done
 
 # split into 2 commands to avoid masking of return values https://www.shellcheck.net/wiki/SC2155
-LIST=$(find . -iname "*.md" ! -name '_*')
+LIST=$(find . -iname "*.md" ! -name '_*' ! -path "./generator/*")
 export LIST
 
 if [ "${#FILES[@]}" -gt 0 ]; then
