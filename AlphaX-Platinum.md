@@ -2,7 +2,7 @@
 
 Previously known as 8chan
 
-[💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/alphax-platinum)
+[💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/rusefi-huge)
 
 [rusEFI Quick Start](HOWTO-quick-start)
 

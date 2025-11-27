@@ -74,8 +74,6 @@ Rusefi Engine Type 41 on Frankenso
 
 See also [Mazda ECU Technical Data](https://sites.google.com/site/mazdaecutechnicaldata/)
 
-See you - some notes on stock ECU schematics (TinyCAD format) - [https://drive.google.com/file/d/0B7l1FeMZcfisM3pHanlkWFRGQVU/view?usp=sharing](https://drive.google.com/file/d/0B7l1FeMZcfisM3pHanlkWFRGQVU/view?usp=sharing)
-
 ## Gauges
 
 Useful wires:

@@ -48,8 +48,6 @@ Raw +12 option **Never have both F1 and F2 jumpers populated!**
 | 2004 Cayenne 3.2 | ✘ | ✔ | ✔ | ✘ | ✔ | ✘|
 | Other model | ? | ? | ? | ? | ? | ? |
 
-[R2-R3-R8-R9 JUMPER](https://drive.google.com/file/d/1r4os5Ft1mQFYYcKLPqTyI-RTlIX4GPmx/view?usp=sharing)
-
 [Connector Pinout Spreadsheet, with links to wiring drawings](https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk)
 
 [VAG-B5]

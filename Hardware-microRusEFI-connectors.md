@@ -13,7 +13,7 @@ Left large terminal. Right small pin terminal.
 
 ![i](Hardware-files/microRusEFI/microRusEFI_connectors/microRusEFI_Nissan_crimped_terminals.jpg)
 
-PCB side: [Molex 48 pin PCB plug](https://www.mouser.com/datasheet/2/276/5007620481_PCB_HEADERS-179151.pdf) 5007620481 500762-0481
+PCB side: [Molex 48 pin PCB plug](https://www.molex.com/en-us/products/part-detail-pdf/5007620481?display=pdf) 5007620481 500762-0481
 
 PCB side "grey": 5007620482 500762-0482 (we have not use this one so far)
 

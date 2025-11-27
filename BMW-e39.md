@@ -1,6 +1,6 @@
 # BMW 5 Series (E39)
 
-[BMW 5 Series (E39) - Wikipedia]](<https://en.wikipedia.org/wiki/BMW_5_Series_(E39>))
+[BMW 5 Series (E39) - Wikipedia](https://en.wikipedia.org/wiki/BMW_5_Series_(E39))
 
 ## 1999 528
 

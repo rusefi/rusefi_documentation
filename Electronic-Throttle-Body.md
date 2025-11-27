@@ -53,5 +53,6 @@ TLE7209 is an example of two-wire mode.
 
 ## Pinouts
 
-See [broken link](https://raw.githubusercontent.com/wiki/rusefi/rusefi_documentation/oem_docs/VAG/Bosch_0280750009_pinout.jpg) for
-personal choice of colors for VAG ETB.
+![Pinout](OEM-Docs/VAG/Bosch_0280750009_pinout.jpg)
+
+personal choice of colors for VAG ETB

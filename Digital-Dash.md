@@ -10,7 +10,7 @@ A-- The Quickest and easiest Digital Dash is TunerStudioMS... And  is described 
 
 B-- Second  is a PowerTune IMG that is just copied onto a SDcard -- and will boot up PowerTune on a raspberry Pi 3 ... [More details](https://rusefi.com/forum/viewtopic.php?p=41535)
 
-C-- Third is a Custom Digital Gauge cluster... [Link HERE](https://customgt6.com/2021/03/28/custom-digital-gauge-cluster/) ... And here is the [GitHub link for Code](https://github.com/joshellissh/pi-dgc)
+C-- Third is a Custom Digital Gauge cluster... [Link HERE](https://mycustomcars.us/custom-digital-gauge-cluster/) ... And here is the [GitHub link for Code](https://github.com/joshellissh/pidgc)
 
 D-- Fourth is Android tablet or phone running the [Real Dash](http://realdash.net/index.php) App
 
@@ -65,4 +65,4 @@ Controls|[Keyboard and Mouse](https://www.amazon.com/Logitech-Wireless-Keyboard-
 
 Here is a [site](https://tunerstudiodashboards.com) with free dashboards to spice up your look
 
-Here is a [site](http://www.tunerstudio.com/index.php/manuals/53-using-tunerstudio-dashboard-designer) on how to make your own custom dashboards
+Here is a [site](https://tunerstudio.com/index.php/support/manuals/53-using-tunerstudio-dashboard-designer) on how to make your own custom dashboards

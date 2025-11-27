@@ -6,4 +6,4 @@ Kia TPS interchange part numbers - 0K01118911, 0K24718911, 0K30A18911, TH291, 5S
 
 See [3D printed Kia VTPS bracket](http://sadfab.com/16%20VTPS%20bracket.html)
 
-See [competitor](https://www.ebay.com/itm/123822856092) :)
+See [competitor](https://rmracingelectronics.com/shop/mazda-mx5-variable-tps-and-adapter-plate-upgrade-kit) :)

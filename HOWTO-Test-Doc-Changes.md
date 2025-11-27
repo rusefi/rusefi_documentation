@@ -28,7 +28,8 @@ Also, note that the changes must be in the master branch of your fork for this t
 
 If you want the changes to be synced automatically, you will have to change rusefi/rusefi.wiki.git to <your-username>/rusefi.wiki.git in your forks' action files.  
 Specifically, these action workflows:  
-[rusefi_documentation/.github/workflows/sync-wiki.yaml](https://github.com/rusefi/rusefi_documentation/blob/master/.github/workflows/sync-wiki.yaml)  
+[rusefi_documentation/.github/workflows/sync-wiki2.yaml](https://github.com/rusefi/rusefi_documentation/blob/master/.github/workflows/sync-wiki2.yaml)  
+[rusefi_documentation/.github/workflows/sync-wiki3.yaml](https://github.com/rusefi/rusefi_documentation/blob/master/.github/workflows/sync-wiki3.yaml)  
 [rusefi/.github/workflows/sync-wiki.yaml](https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml)  
 You need to set up an access token in your repository secrets for Actions.
 
