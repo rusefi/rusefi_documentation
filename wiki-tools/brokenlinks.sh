@@ -4,7 +4,8 @@
 #                                           02/18/2021                                           #
 #                                   Written By David Holdeman                                    #
 #     Searches for broken links in a Github Wiki repo, and suggests and applies corrections.     #
-#          Usage: brokenlinks.sh [-s non-interactive] [-d debug] <optional file(s)> ...          #
+#                      Usage: brokenlinks.sh [-s non-interactive] [-d debug]                     #
+#                           [-w check web links] <optional file(s)> ...                          #
 ##################################################################################################
 
 # These two functions are used to escape variables for use in a sed command
@@ -28,6 +29,9 @@ checkurl() {
   # If it's an internet link, ignore it.
   # That's beyond the scope of this tool.
   if echo "$LINK" | grep -E '^http' >/dev/null; then
+		if [ "$HTTP" != "1" ]; then
+			return 2;
+		fi
 		R=$(wget -S -qO /dev/null --no-check-certificate --user-agent='Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0' "$LINK" 2>&1 | awk '/HTTP\/[0-9.]+/{print $2;exit;}')
 			case "$R" in
 				"200"|"301"|"302"|"303"|"307"|"308"|"403"|"429"|"418")
@@ -205,13 +209,19 @@ FILES=()
 export SCRIPT=0
 export DEBUG=0
 for i in $@; do
-  if [ "$i" == "-s" ]; then
-    export SCRIPT=1
-  elif [ "$i" == "-d" ]; then
-    export DEBUG=1
-  else
-    FILES+=("${i}")
-  fi
+	case "$i" in
+		"-s")
+			export SCRIPT=1
+			;;
+		"-d")
+			export DEBUG=1
+			;;
+		"-w")
+			export HTTP=1
+			;;
+		*)
+			FILES+=("${i}")
+  esac
 done
 
 # split into 2 commands to avoid masking of return values https://www.shellcheck.net/wiki/SC2155
