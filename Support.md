@@ -36,7 +36,7 @@ If you still need direct help then please have a read of the information below; 
 
 [How To Ask](https://stackoverflow.com/help/how-to-ask)
 
-[FreeCAD's Bug Submission Guidelines](https://forum.freecadweb.org/viewtopic.php?f=3&t=5236)
+[FreeCAD's Bug Submission Guidelines](https://forum.freecad.org/viewtopic.php?t=5236)
 
 An example of a question asked with helpful background information:
 

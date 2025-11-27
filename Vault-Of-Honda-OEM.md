@@ -10,7 +10,7 @@ Civic EG gen5 1992-1995
 
 [1995 Honda Accord](Honda-Accord-1995)
 
-[ECU Pin diagrams](https://ff-squad.com/wp/?paged=2&cat=17)
+[ECU Pin diagrams](https://ff-squad.com/technet/wiring.obd1.htm)
 
 [https://github.com/rusefi/proteus-Honda-OBD1-adapter/](https://github.com/rusefi/proteus-Honda-OBD1-adapter/)
 
@@ -18,7 +18,7 @@ Civic EG gen5 1992-1995
 
 Civic EK gen6 1996-2000
 
-[2a pinout](https://technet.ff-squad.com/wiring.obd2a.htm)
+[2a pinout](https://www.ff-squad.com/technet/wiring.obd2a.htm)
 
 [OBD2 connector part number](OEM-connectors#104)
 

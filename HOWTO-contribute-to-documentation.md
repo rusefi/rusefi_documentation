@@ -49,7 +49,7 @@ Within the next 5 minutes after the pull request has been merged, a Github Actio
 
 2. Go to  [https://github.com/rusefi/rusefi](https://github.com/rusefi/rusefi) and click "Fork" near the upper right corner
 
-3. Edit your fork of [the TunerStudio input](https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/rusefi.input) file
+3. Edit your fork of [the TunerStudio input](https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/tunerstudio.template.ini) file
 
 4. Click "Contribute", then "Open Pull Request", and finally "Create Pull Request"
 
@@ -107,7 +107,7 @@ ToDo: explain rules when to use link shortcuts
 
 **Q:** Is there a place where we are holding all images for these documents?  
 **A:** We have images in the same repository! Just add your images while editing pages. Please consider using some (any really) folder structure.
-For example [https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png](https://github.com/rusefi/rusefi_documentation/blob/master/FAQ/images/TunerStudio_new_project.png) is visible on wiki.rusefi.com as [https://wiki.rusefi.com/FAQ/images/TunerStudio_new_project.png](https://wiki.rusefi.com/FAQ/images/TunerStudio_new_project.png)
+For example [https://github.com/rusefi/rusefi_documentation/blob/master/Images/TS/TunerStudio_new_project.png](https://github.com/rusefi/rusefi_documentation/blob/master/Images/TS/TunerStudio_new_project.png) is visible on wiki.rusefi.com as [https://wiki.rusefi.com/Images/TS/TunerStudio_new_project.png](https://wiki.rusefi.com/Images/TS/TunerStudio_new_project.png)
 
 **Q:** What sort of fancy options do we have?  
 **A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example. Unfortunately, it's quite picky about how you format the markdown.

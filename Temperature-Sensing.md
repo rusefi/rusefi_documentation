@@ -24,7 +24,7 @@ MLX90621
 
 [MLX90620 / MLX90621 - 16X4 pixel IR thermal array](http://forum.arduino.cc/index.php?topic=126244.0)
 
-[Broken Link](http://www.melexis.com/Asset/Datasheet-IR-thermometer-16X4-sensor-array-MLX90620-DownloadLink-6099.aspx)
+[MLX90620 Datasheet](https://media.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf)
 
 [Transition from MLX90620 to MLX90621](https://www.melexis.com/en/documents/documentation/how-it-works/how-it-works-transition-mlx90620-mlx90621)
 

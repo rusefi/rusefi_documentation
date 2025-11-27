@@ -12,10 +12,10 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |[Miata NB1](Hellen-NB1)| .                                                                             ||
 |[Miata NB2](Hellen-NB2)| .                                                                             ||
 |[72 Pin Miata 01-05](Hellen-NB2)| .                                                                             ||
-|[121 Pin VAG](Hellen121VAG)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334048095704) |[open source](https://github.com/rusefi/hellen121vag)|
-|[121 Pin Nissan](Hellen-121-Nissan)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334061645783) ||
+|[121 Pin VAG](Hellen121VAG)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334968365497) |[open source](https://github.com/rusefi/hellen121vag)|
+|[121 Pin Nissan](Hellen-121-Nissan)| [rusEFI Store](https://www.shop.rusefi.com/shop/p/hellen-121-nissan) ||
 |[128 Pin Mercedes](Hellen-128-Mercedes)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334094173341) ||
-|[88 Pin BMW](Hellen-88-BMW)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334235601464) ||
+|[88 Pin BMW](Hellen-88-BMW)| [rusEFI Store](https://www.shop.rusefi.com/shop/p/hellen-88-bmw) ||
 |[154 Pin Hyundai](Hellen-154-Hyundai)| soon                                                                          |[open source](https://github.com/rusefi/hellen154hyundai)|
 
     **The .ini file for Hellen is loaded onto the Hellen board. 

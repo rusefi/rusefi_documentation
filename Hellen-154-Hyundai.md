@@ -8,7 +8,7 @@
 
 [newer F7 boards Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen154hyundai_revD/)
 
-[Schematics rev d](https://github.com/rusefi/hellen154hyundai/blob/main/boards/hellen154hyundai-d/board/hellen154hyundai-d-schematic.pdf) [ibom rev c](https://rusefi.com/docs/ibom/hellen154hyundai-d-ibom.html)
+[Schematics rev d](https://github.com/rusefi/hellen154hyundai/blob/main/boards/hellen154hyundai-d/board/hellen154hyundai-d-schematic.pdf) [ibom rev c](https://rusefi.com/docs/ibom/hellen154hyundai-c-ibom.html)
 
 ## F4 boards
 

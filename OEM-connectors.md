@@ -170,7 +170,7 @@ Toyota early 3SGE, 7MGTE and 4AGZE
 
 Galant VR4, Eclipse 1G
 
-[13B ETC](http://www.13betc.com/19861988-rx7-ecu-connector-52-pin-p-12.html) says
+[13B ETC](https://web.archive.org/web/20210226115550/http://www.13betc.com/19861988-rx7-ecu-connector-52-pin-p-12.html) says
 
 ```text
 1991-1992 Dodge Stealth (SOHC Engine)
@@ -997,8 +997,6 @@ Sibling of 135 pin
 
 Toyota Vios NCP150 Engine 2NR-FBE
 
-[Toyota Tacoma 2015-2018](https://wiki.ecubear.com/index.php?title=ECU_Pinout) HILUX
-
 [1612435-4 167 without gap](https://www.te.com/usa-en/product-1612435-4.html)
 
 ## 167 with gap
@@ -1110,7 +1108,3 @@ gen3 ford coyote 17+
 three sections
 
 maybe 2299156-1 https://www.te.com/en/product-2299156-1.html
-
-## Random links
-
-[broken link](http://www.autosoftsys.com/supra/ecuext/)

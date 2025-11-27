@@ -11,5 +11,3 @@ Engine Diagram A/T
 ![Wiring Diagram](Images/diagrams/1993_protege_auto_ecu.png)
 
 ![Pinout](Images/diagrams/Mazda_door_MAF.jpg)
-
-[broken link](http://www.autozone.com/repairguides/Mazda-323-MX-3-626-MX-6-Millenia-Prot%C3%A9g%C3%A9-1990-1998-and-Ford-Probe-1993-1997/ELECTRONIC-ENGINE-CONTROLS/Mass-Airflow-Meter-Sensor/_/P-0996b43f80cb0f01)

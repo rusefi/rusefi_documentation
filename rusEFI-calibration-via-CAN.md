@@ -26,7 +26,7 @@ Between three major professional CAN frontend vendors we like PCAN by [https://w
 
 2) [https://github.com/moonglow/pcan_cantact](https://github.com/moonglow/pcan_cantact) open source firmware for [cheeeeeeap third party devices](https://rusefi.com/forum/viewtopic.php?f=13&t=2243 )
 
-rusEFI bridge between PCAN and ISO-TP is located at [https://github.com/rusefi/rusefi/tree/master/java_console/io/src/main/java/com/rusefi/io/stream](https://github.com/rusefi/rusefi/tree/master/java_console/io/src/main/java/com/rusefi/io/stream)
+rusEFI bridge between PCAN and ISO-TP is located at [https://github.com/rusefi/rusefi/tree/master/java_console/io/src/main/java/com/rusefi/io/can/isotp](https://github.com/rusefi/rusefi/tree/master/java_console/io/src/main/java/com/rusefi/io/can/isotp)
 
 ## ELM327
 

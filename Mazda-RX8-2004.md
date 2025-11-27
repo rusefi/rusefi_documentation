@@ -20,7 +20,9 @@ Blue/Red: 12v
 
 ![Wiring Diagram](Images/diagrams/Rx8_connector.png)
 
-[Reverse Engineering the RX8s instrument cluster part one](https://www.cantanko.com/rx-8/reverse-engineering-the-rx-8s-instrument-cluster-part-one/)
+[Reverse Engineering the RX8s instrument cluster part one](https://web.archive.org/web/20160729183040/https://www.cantanko.com/rx-8/reverse-engineering-the-rx-8s-instrument-cluster-part-one/)
+
+[RX8 Canbus - Chamber of Understanding](https://www.chamberofunderstanding.co.uk/?s=canbus)
 
 [Driving Real Gauges](http://www.xsimulator.net/community/threads/driving-real-gauges.3278/)
 
