@@ -27,7 +27,6 @@ What you should see is the top row giving grey bars that match your expected tri
 
 Hopefully you have grey bars showing your crank pattern. If your unsure of the pattern it makes a lot of sense at this point to grab a snapshot of the screen and compare it to the list of rusEFI compatible crank trigger patterns found in [All Supported Triggers](All-Supported-Triggers).
 
-
 ## Ignition and Fuel & Injection System Requirements
 
 You must be sure you have fuel pressure, without a working fuel pump and functional fuel pressure regulator you are not going to get a good start up, if the engine is a dead head fuel line or has a fuel pressure sensor then the same applies and I will address that in the correct section as they are special cases.
@@ -76,7 +75,7 @@ Once plain MAF works next step is running with proper MAP sensor calibration & f
 
 ## Next Steps & Troubleshooting
 
-[Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI.md)
+[Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
 
 There are three ways to produce logs - the intention is for these three to have same exact data.
 
