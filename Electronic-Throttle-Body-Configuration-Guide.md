@@ -83,7 +83,7 @@ See [Tuning ETB PID - Forum](https://rusefi.com/forum/viewtopic.php?f=5&t=592&st
 
 rusEFI includes PID auto-tuning software that can help generate a starting point for your PID settings.  It is often good enough that no further tuning is required for good performance.
 
-**_Ensure the engine is off! Do not attempt to start the engine during this process!_**
+***Ensure the engine is off! Do not attempt to start the engine during this process!***
 
 1. Ensure your electronic throttle roughly tracks the target position.  Speed or perfection is not required, but it should at least work. Confirm this by checking that the gauge "ETB position error" displays small values while moving the throttle around gently (a few percent is fine, so long as it trends towards zero if you stop moving).  If not, revisit the basic configuration steps above.
 2. Press `Start ETB PID Autotune` button.  The throttle will begin oscillating around 50% position: this is normal.
