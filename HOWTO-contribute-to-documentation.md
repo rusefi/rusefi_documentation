@@ -112,7 +112,7 @@ For example [https://github.com/rusefi/rusefi_documentation/blob/master/Images/T
 **Q:** What sort of fancy options do we have?  
 **A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example. Unfortunately, it's quite picky about how you format the markdown.
 
-```html
+``` html
 <details markdown="1"><summary>More...</summary>
 
 ^ Must have empty line after </summary>

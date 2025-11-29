@@ -5,14 +5,14 @@ To resolve this problem, try the following steps:
 
 1. Add the user to the `uucp` group:
 
-      ```shell
+      ``` shell
       sudo usermod -aG uucp $USER
       ```
 
 2. Restart the computer.
 3. Reconnect the rusefi device to the computer and verify that it is successfully connected and recognized:
 
-      ```shell
+      ``` shell
       ls /dev/ttyACM*
       ```
 

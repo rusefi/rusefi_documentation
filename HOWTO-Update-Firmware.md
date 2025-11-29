@@ -18,7 +18,7 @@ The canonical way to update the firmware on Linux is with DFU.
 
 You will need dfu-util:
 
-```shell
+``` shell
 # Debian/Ubuntu
 sudo apt install dfu-util
 # Arch/Manjaro
@@ -27,7 +27,7 @@ sudo pacman -Syu dfu-util
 
 Once you have dfu-util, you can run this from the extracted bundle directory:
 
-```shell
+``` shell
 java -jar console/rusefi_console.jar reboot_dfu
 
 dfu-util -a 0 -D rusefi.dfu

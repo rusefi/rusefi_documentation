@@ -34,7 +34,7 @@ The entire Lua script is read at startup, then a script function called `onTick`
 
 Here is a simple script you can run to illustrate this behavior:
 
-```LUA
+``` LUA
 print('Hello Lua startup!')
 
 function onTick()
@@ -46,7 +46,7 @@ end
 
 The function `setTickRate(hz)` can be used to configure how often rusEFI calls the `onTick` function.  If your script does a lot of work in the `onTick()` function it may run slower than the desired rate.  Since the Lua virtual machine runs at low priority compared to other functions of the ECU, it is impossible to swamp the ECU with too much Lua work, so set the tick rate to whatever is necessary. `onCanRx` runs at the same rate as `onTick`
 
-```LUA
+``` LUA
 n = 0
 setTickRate(5) --set tick rate to 5hz
 function onTick()
@@ -236,7 +236,7 @@ use enableCanTx(false) to suppress CAN TX
 
 Your CAN RX callback should look like this:
 
-```lua
+``` lua
 function onCanRx(bus, id, dlc, data)
     -- Do things with CAN data!
 end
@@ -256,7 +256,7 @@ TODO: document parameters, response
 
 deltaTime is measured automatically between current and previous "pid:get" invocation.
 
-```language=lua
+``` lua
 -- p, i, d, min, max
 pid = Pid.new(2, 0, 0, -100, 100)
 pid:setOffset(0.3)
@@ -295,7 +295,7 @@ Return VIN setting character at specified index
 
 Program:
 
-```lua
+``` lua
 n = 5.5
 print('Hello Lua, number is: ' ..n)
 ```
@@ -514,7 +514,7 @@ Read VSS from CANbus for gear detection see [honda-bcm.txt](https://github.com/r
 
 ### timer
 
-```lua
+``` lua
 t = Timer.new();
 timingAdd = 0;
 
@@ -542,7 +542,7 @@ end
 
 ### PWM
 
-```lua
+``` lua
 -- index 0, 100Hz, zero duty initially
 startPwm(0, 100, 0)
 
@@ -557,7 +557,7 @@ end
 
 ### CAN transmit
 
-```lua
+``` lua
 function onTick()
   tps = getSensor("CLT")
   print('TPS ' .. tps)
@@ -578,7 +578,7 @@ end
 
  [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 
-```lua
+``` lua
 -- make sure physical input is NOT configured to avoid 'one was already registered' conflict
 vssSensor = Sensor.new("VehicleSpeed")
 -- any value would be considered valid for three seconds
@@ -599,7 +599,7 @@ See also https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/e
 
 ### CAN receive
 
-```lua
+``` lua
 canRxAdd(0x500)
 canRxAdd(0x570)
 function onCanRx(bus, id, dlc, data)
@@ -614,7 +614,7 @@ function onCanRx(bus, id, dlc, data)
 end
 ```
 
-```lua
+``` lua
 function decimalToHex(num)
  if num == 0 then
   return '0'
@@ -645,7 +645,7 @@ end
 
 ### table
 
-```lua
+``` lua
 tableIndex = findTableIndex("duty")
 
 TurbochargerSpeed = getSensor("TurbochargerSpeed")

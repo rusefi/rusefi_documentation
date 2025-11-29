@@ -11,7 +11,7 @@ The best way to build the rusEFI firmware is using a set of tools that run best 
 1. Install WSL
    Run the following in an elevated powershell  
 
-      ```shell
+      ``` shell
       Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
       ```
 
@@ -20,7 +20,7 @@ The best way to build the rusEFI firmware is using a set of tools that run best 
    [WSL Install Manual](https://docs.microsoft.com/en-us/windows/wsl/install-manual)  
    Or type the following into powershell:  
 
-      ```shell
+      ``` shell
       cd ubuntu/
       Invoke-WebRequest -Uri <https://aka.ms/wsl-ubuntu-2004> -OutFile Ubuntu.appx -UseBasicParsing
       ```
@@ -29,7 +29,7 @@ The best way to build the rusEFI firmware is using a set of tools that run best 
 
 3. install linux
 
-      ```shell
+      ``` shell
       PS C:\Windows\system32> cd c:/Ubuntu
       PS C:\Ubuntu> Add-AppxPackage Ubuntu_2004.2020.424.0_x64.appx
       ```
@@ -40,7 +40,7 @@ The best way to build the rusEFI firmware is using a set of tools that run best 
 4. check WSL default install
    In powershell type:  
 
-      ```shell
+      ``` shell
       wslconfig /l
       ```
 
@@ -48,19 +48,19 @@ The best way to build the rusEFI firmware is using a set of tools that run best 
 
 5. get git  
 
-      ```shell
+      ``` shell
       sudo apt-get install git
       ```
 
 6. clone git  
 
-      ```shell
+      ``` shell
       git clone <https://github.com/YOUR-REPOSITORY/rusefi.git>
       ```
 
 7. Run setup script  
 
-      ```shell
+      ``` shell
       cd /home/owner/rusefi/firmware
       sh setup_linux_environment.sh
       ```
@@ -70,7 +70,7 @@ The best way to build the rusEFI firmware is using a set of tools that run best 
 
 9. Install VScode in linux  
 
-      ```shell
+      ``` shell
       cd /home/owner/rusefi
       code .
       ```
@@ -83,7 +83,7 @@ The best way to build the rusEFI firmware is using a set of tools that run best 
 
 12. reboot ubuntu from the start menu and run make  
 
-      ```shell
+      ``` shell
       cd /home/owner/rusefi/firmware
       make -j$(nproc)
       ```
@@ -92,7 +92,7 @@ The best way to build the rusEFI firmware is using a set of tools that run best 
 
 13. If successful then reopen VScode in ubuntu  
 
-      ```shell
+      ``` shell
       cd /home/owner/rusefi
       code .
       ```
@@ -106,7 +106,7 @@ The best way to build the rusEFI firmware is using a set of tools that run best 
 
 install wsl (already have ubuntu 20.04 on wsl2)  
 
-```shell
+``` shell
 sudo apt update
 sudo apt install openjdk-8-jre-headless -y
 curl -O <https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2>

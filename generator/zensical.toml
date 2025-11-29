@@ -3,6 +3,11 @@
 [project.markdown_extensions.pymdownx.magiclink]
 [project.markdown_extensions.toc]
 permalink =  true
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.superfences]
 
 [project.theme]
 logo = "Images/logo_new_filled.png"

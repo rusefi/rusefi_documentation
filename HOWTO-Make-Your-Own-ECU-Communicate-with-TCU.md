@@ -38,7 +38,7 @@ First script would just pass all messages and just print ``isShiftActive``
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_1_mim.lua
 
-```language=text
+``` text
 2024-02-10_18_43_23_440: EngineState: LUA: TCU isShiftActive=0 tcuError=0 EGSRequirement=0
 2024-02-10_18_43_23_440: EngineState: LUA: Total from vehicle 125658 from TCU 15593 dropped=0 replaced 0
 2024-02-10_18_43_23_839: EngineState: LUA: TCU isShiftActive=1 tcuError=0 EGSRequirement=0
@@ -50,7 +50,7 @@ Next step: let's drop MOTOR_BRE 0x284, i.e. not let it through.
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_2_drop_motor_bre.lua
 
-```language=text
+``` text
 2024-02-10_18_54_03_328: EngineState: LUA: TCU isShiftActive=0 tcuError=0 EGSRequirement=0
 2024-02-10_18_54_03_517: EngineState: LUA: Total from vehicle 123015 from TCU 15380 dropped=3796 replaced 0
 2024-02-10_18_54_03_718: EngineState: LUA: TCU isShiftActive=0 tcuError=0 EGSRequirement=0
@@ -58,7 +58,7 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Pas
 
 Well, TCU did care. Let's drop something else, let's drop MOTOR_5 0x480.
 
-```language=text
+``` text
 2024-02-10_20_42_36_107: EngineState: LUA: Total from vehicle 7833 from TCU 1041 dropped=528 replaced 0
 2024-02-10_20_42_36_107: EngineState: LUA: TCU isShiftActive=0 tcuError=1 EGSRequirement=1
 ```
@@ -78,7 +78,7 @@ MOTOR_1 packet contains 🔴 a few torques which I do not know how to approximat
 
 Let's start with very poor approximation
 
-```language=lua
+``` lua
 fakeTorque = interpolate(0, 6, 100, 60, tps)
 engineTorque = fakeTorque * 0.9
 innerTorqWithoutExt = fakeTorque

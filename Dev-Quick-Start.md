@@ -6,7 +6,7 @@ rusEFI is an open source internal combustion engine control unit primarily runni
 
 Well, really the first step is to fork https://github.com/rusefi/rusefi and then make sure you have github actions enabled (see below)
 
-```shell
+``` shell
 git clone --recurse-submodules https://github.com/rusefi/rusefi
 misc/actions/ubuntu-install-tools.sh
 cd firmware

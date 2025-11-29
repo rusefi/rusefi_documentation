@@ -73,7 +73,7 @@ In AutoDFU a few things happen once you click the "Update Firmware" button.
 
 Now the programming begins and the expected output is along the following lines:
 
-``` shell
+``` pre
 Giving time for USB enumeration...
 Executing .\../misc/install\DfuSe/DfuSeCommand.exe -c -d --v --fn ../firmware/deliver\rusefi.dfu
 1 Device(s) found : 

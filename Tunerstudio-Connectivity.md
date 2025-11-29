@@ -34,7 +34,7 @@ you are expected to see a response like this:
 
 Q: I try to connect with Tuner Studio and it says
 
-```text
+``` text
 line:532:rusEfiVersion,20140822@4388 Ford
 Aspire,outpin,c1@PC6,outpin,c2@PA5,ou"?
 ```
