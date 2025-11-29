@@ -68,7 +68,7 @@ nav = [
     {"rusEFI Hardware Overview" = "Hardware.md"},
     {"Wire-in ECUs" = [
       {"uaEFI" = "uaEFI.md"},
-      {"microRusEFI" = "Hardware-microRusEFI.md"},
+      {"microRusEFI" = "microRusEFI-Manual.md"},
       {"Proteus" = "Proteus.md"}
     ]},
     {"Plug & Play ECUs" = [

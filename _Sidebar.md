@@ -36,7 +36,7 @@
 ### Wire-in ECUs
 
 - [uaEFI](uaEFI)
-- [microRusEFI](Hardware-microRusEFI)
+- [microRusEFI](microRusEFI-Manual)
 - [Proteus](Proteus)
 
 ### Plug & Play ECUs

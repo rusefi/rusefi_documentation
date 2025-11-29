@@ -1,4 +1,4 @@
-# microRusEFI Manual
+# microRusEFI
 
 Our older fully-featured larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/microrusefi-assembled-ecu-development-module)
 
@@ -10,14 +10,29 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 [microRusEFI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 [Release vs Snapshot](Release-Snapshot-Latest-firmware)
 
+![microRusEFI image](Images/microRusEFI_board.jpeg)
+![microRusEFI image](Images/microRusEFI.jpeg)
+
 ## Specs
 
 * [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/microrusefi/)
 * One of the eight [universal units we offer](Hardware)
 
-## microRusEFI User Documentation
+* Primary VR or Hall input (configurable with few resistor changes)
+* Secondary Hall input
+* x4 analog thermistor (temperature) inputs
+* x10 analog voltage inputs (0-5v)
+* x4 high-Z injector outputs
+* x2 high-current low side outputs for IAC/VVT/other solenoids
+* Dedicated main relay control output
+* x4 low-current low side outputs for relays or warning lights
+* x4 5v logic level ignition outputs
+* x2 5v/12v configurable logic level outputs (requires resistor changes)
+* Electronic throttle body (drive by wire)
+* CAN connectivity on the plug
+* USB connectivity on the plug
 
-[microRusEFI Hardware](Hardware-microRusEFI)
+## microRusEFI User Documentation
 
 [microRusEFI wiring](Hardware-microRusEFI-wiring)
 
@@ -58,7 +73,7 @@ In AutoDFU a few things happen once you click the "Update Firmware" button.
 
 Now the programming begins and the expected output is along the following lines:
 
-```shell
+``` shell
 Giving time for USB enumeration...
 Executing .\../misc/install\DfuSe/DfuSeCommand.exe -c -d --v --fn ../firmware/deliver\rusefi.dfu
 1 Device(s) found : 
