@@ -4,7 +4,7 @@ rusEFI supports multiple methods to collect logs from your ECU.
 
 Both of the methods detailed here will produce a `.mlg` file compatible with [MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/). For some technical reasons, the content between the two methods differs slightly, but all important fields are identical.  For most troubleshooting, either log type will do the job.
 
-If you're trying to share the log with someone to help you with your engine, please upload it at [rusEFI Online](https://rusefi.com/online).
+If you're trying to share the log with someone to help you with your engine, please upload it to [rusEFI Online](https://rusefi.com/online).
 
 ## TunerStudio logging
 

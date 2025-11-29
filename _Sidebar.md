@@ -17,7 +17,7 @@
 - [Cranking](Cranking)
 - [Trigger - Configuration](Trigger-Configuration-Guide)
 - [Trigger - Setting Offset](How-Do-I-Set-My-Trigger-Offset)
-- [Electronic Throttle](Electronic-Throttle-Body-Configuration-Guide)
+- [Electronic Throttle](Electronic-Throttle-Body)
 - [Logging](Logging-Guide)
 - [Wideband Oxygen Sensors](Wide-Band-Sensors)
 - [Fueling](Fuel-Overview)
@@ -36,7 +36,7 @@
 ### Wire-in ECUs
 
 - [uaEFI](uaEFI)
-- [microRusEFI](Hardware-microRusEFI)
+- [microRusEFI](microRusEFI-Manual)
 - [Proteus](Proteus)
 
 ### Plug & Play ECUs

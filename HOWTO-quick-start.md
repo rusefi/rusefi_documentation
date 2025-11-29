@@ -20,7 +20,7 @@ Continue reading for more detailed setup steps.
 
    ![console](Images/rusEFI_console_start_screen.png)
 
-3. Get friendly on the [rusEFI forums](https://rusefi.com/forum) Introduce yourself, start a build thread, and ask questions.
+3. Get friendly on the [rusEFI forums](https://rusefi.com/forum). Introduce yourself, start a build thread, and ask questions.
 
 4. [Download and Install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install)
 5. [Create a project in TunerStudio](HOWTO-create-tunerstudio-project#creating-a-project)
@@ -47,11 +47,11 @@ Follow the [Get Running With a Plug & Play ECU](HOWTO-Get-Running-PnP) guide.
 
 ## Logging
 
-Any troubleshooting begins with logs. One of rusEFI powers is the amount of data points available for logging!
+Any troubleshooting begins with logs. One of rusEFI's powers is the amount of data points available for logging!
 
 Shaky videos will not do. Even high-resolution screen shots wil not do—*it has to be a proper log file*.
 
-See the [Logging Guide](Logging-Guide).
+TunerStudio's built in logging utility is the preferred method for producing logs. For more information and instrucions, see the [Logging Guide](Logging-Guide).
 
 ## Analyzing Logs
 

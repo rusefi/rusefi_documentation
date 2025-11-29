@@ -12,7 +12,7 @@ To get the console working follow the below procedure, which assumes you have lo
   * '''Linux'''
     * ''Ubuntu (11.10)'' - plug in the "console" USB cable, then check the message log with this command.
 
-      ```shell
+      ``` shell
       $ dmesg
       ...
       [10572.620088] usb 5-1: new full speed USB device number 5 using uhci_hcd

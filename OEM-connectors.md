@@ -172,7 +172,7 @@ Galant VR4, Eclipse 1G
 
 [13B ETC](https://web.archive.org/web/20210226115550/http://www.13betc.com/19861988-rx7-ecu-connector-52-pin-p-12.html) says
 
-```text
+``` text
 1991-1992 Dodge Stealth (SOHC Engine)
 1990-1994 Eagle Talon (All)
 1989 Ford Probe (F2T Engine)
@@ -288,7 +288,7 @@ Center bolt
 
 [Wiring Specialties](https://www.wiringspecialties.com/nissan-64-pin-ecu-connector/) says
 
-```text
+``` text
 Silvia S15 SR20DET
 Silvia S14 SR20DET Kouki & Silvia S14 SR20DE non-turbo
 Silvia S13 SR20DET & SR20DE non-turbo

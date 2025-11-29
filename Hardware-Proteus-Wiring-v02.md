@@ -1,6 +1,6 @@
 # Proteus v0.2 Pinout & Wiring
 
-```diff
+``` diff
 - Not sure what board you have? Your probably have NEWER board and you are looking at the wrong page
 ```
 

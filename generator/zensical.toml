@@ -3,6 +3,11 @@
 [project.markdown_extensions.pymdownx.magiclink]
 [project.markdown_extensions.toc]
 permalink =  true
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.superfences]
 
 [project.theme]
 logo = "Images/logo_new_filled.png"
@@ -52,7 +57,7 @@ nav = [
     {"Cranking" = "Cranking.md"},
     {"Trigger - Configuration" = "Trigger-Configuration-Guide.md"},
     {"Trigger - Setting Offset" = "How-Do-I-Set-My-Trigger-Offset.md"},
-    {"Electronic Throttle" = "Electronic-Throttle-Body-Configuration-Guide.md"},
+    {"Electronic Throttle" = "Electronic-Throttle-Body.md"},
     {"Logging" = "Logging-Guide.md"},
     {"Wideband Oxygen Sensors" = "Wide-Band-Sensors.md"},
     {"Fueling" = "Fuel-Overview.md"},
@@ -68,7 +73,7 @@ nav = [
     {"rusEFI Hardware Overview" = "Hardware.md"},
     {"Wire-in ECUs" = [
       {"uaEFI" = "uaEFI.md"},
-      {"microRusEFI" = "Hardware-microRusEFI.md"},
+      {"microRusEFI" = "microRusEFI-Manual.md"},
       {"Proteus" = "Proteus.md"}
     ]},
     {"Plug & Play ECUs" = [

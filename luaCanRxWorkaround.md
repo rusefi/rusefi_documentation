@@ -12,7 +12,7 @@ For the magic to work two lines are required in the Lua script:
 
 and at least one ``global_can_data[1]`` read access to ``global_can_data`` anywhere in the script
 
-```language=lua
+``` lua
 rxCount = 0
 
 -- magic behind the scenes: luaCanRxWorkaround on ParkingLot2 dialog

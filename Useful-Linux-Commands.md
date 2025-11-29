@@ -2,7 +2,7 @@
 
 ## List USB devices. This is useful for diagnosing driver issues
 
-```shell
+``` shell
 lsusb
 lsusb | grep 'STMicroelectronics Virtual COM Port'
 lsusb | grep DFU

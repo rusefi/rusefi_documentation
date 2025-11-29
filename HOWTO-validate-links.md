@@ -11,7 +11,7 @@ For bulk validation <https://github.com/webhintio/markdown-link-validator> seems
 - should work cross-platform (tried on Windows & WSL Debian)
 - <https://www.te.com/usa-en/> seems to block or throttle access via an automated script after a certain number of requests
 
-```bash
+``` bash
   markdown-link-validator:utils:request problem with request: connect ETIMEDOUT 2a01:4f8:221:3b0a:1000:0:19:200:443 - https://www.lammertbies.nl/comm/cable/RS-232.html +21s
   markdown-link-validator:utils:request problem with request: read ECONNRESET - https://www.te.com/usa-en/product-4-1437290-1.html +1m
 ```
@@ -20,7 +20,7 @@ For bulk validation <https://github.com/webhintio/markdown-link-validator> seems
 
 - use exclude list for batch validation, skip all external links
 
-```powershell
+``` powershell
 markdown-link-validator . -i https?:\/\/.* --debug >.\wiki-tools\md_link_validation.log
 ...
 Found a total of 1361 links in directory "C:\Users\mholzer\Documents\git\rusefi_documentation":
@@ -48,13 +48,13 @@ Time to validate: 1.07s
 note: as of 2022-12-13 the method to install:
 did NOT work for me, trying to get help!!
 
-```powershell
+``` powershell
 npm install --save chmac/markdown-link-validator#omit-success-output
 ```
 
 to run:
 
-```powershell
+``` powershell
 node .\node_modules\markdown-link-validator\dist\src\bin\markdown-link-validator.js . -i https?:\/\/.* --debug
 ```
 
@@ -81,6 +81,6 @@ bash: source ~/weborphans_venv/bin/activate
 -run script
 ps1:  mkdocs build >..\mkdocs.log 2>..\mkdocs.error.log
 
-```powershell
+``` powershell
 python3.10 .\wiki-tools\weborphans.py C:\Users\mholzer\Documents\git\rusefi_documentation\mkdocs\site\Home\ https://wiki.rusefi.com/ >.\wiki-tools\weborphans.log
 ```

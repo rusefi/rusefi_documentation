@@ -14,13 +14,13 @@ Anyway looks like there is a working procedure, using DFU and STM32CubeProgramme
 
 4. Enter cmd.exe, enter C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin folder
 
-   ```shell
+   ``` shell
    STM32_Programmer_CLI.exe -c port=usb1 -ob nDBANK=0
    ```
 
 5. from same command line prompt
 
-   ```shell
+   ``` shell
    STM32_Programmer_CLI.exe -c port=usb1 -e all
    ```
 
@@ -28,7 +28,7 @@ Anyway looks like there is a working procedure, using DFU and STM32CubeProgramme
 
 7. from same command line prompt
 
-   ```shell
+   ``` shell
    STM32_Programmer_CLI.exe -c port=usb1 -w rusefi.hex -v -s
    ```
 

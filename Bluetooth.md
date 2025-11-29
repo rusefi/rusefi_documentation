@@ -28,7 +28,7 @@ the default pin is 1234
 
 Which is just one the possibilities
 
-```c
+``` c
 	// Usage:   "bluetooth_hc06 <baud> <name> <pincode>"
 	// Example: "bluetooth_hc06 38400 rusefi 1234"
 
