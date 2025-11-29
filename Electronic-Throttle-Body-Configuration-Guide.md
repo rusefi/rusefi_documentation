@@ -2,6 +2,26 @@
 
 ***WARNING: An electronic throttle, if misconfigured or damaged, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!***
 
+## Hardware Configuration
+
+**If you have a pre-assembled board, ignore this section!  The default settings are correct.**
+
+Different H-bridge chips are controlled differently. So far we have experienced three different ways:
+
+### VNH2SP30
+
+PWM on Control pin, two on/off direction pins are specifying direction.
+
+### TLE9201
+
+PWM on Control pin, open/close using one on/off direction pin, second direction pin unused.
+
+### TLE7209 mode
+
+PWM on both direction pins, one for forward another one for reverse.
+
+TLE7209 is an example of two-wire mode.
+
 ## Wiring
 
 ### Throttle Position Sensors
@@ -19,6 +39,12 @@ rusEFI supports electronic throttles that use brushed DC motors.  This includes 
 Brushed DC motors have two wires.  When connected to power one way the throttle opens, and the other way it closes. The convention for wiring for ETBs with rusEFI is that when ETB+ is connected to battery+, and ETB- connected to battery-, the throttle should OPEN.  This generally agrees with the OEM wiring diagrams available for your vehicle.
 
 Most throttles have one connector that contains both the position sensors and motor, but some use separate connectors. Electrically they are the same either way.
+
+### Pinouts
+
+![Pinout](OEM-Docs/VAG/Bosch_0280750009_pinout.jpg){: style="width: 300px;" }
+
+personal choice of colors for VAG ETB
 
 ## Basic Setup
 
@@ -57,7 +83,7 @@ See [Tuning ETB PID - Forum](https://rusefi.com/forum/viewtopic.php?f=5&t=592&st
 
 rusEFI includes PID auto-tuning software that can help generate a starting point for your PID settings.  It is often good enough that no further tuning is required for good performance.
 
-#### *Ensure the engine is off! Do not attempt to start the engine during this process!*
+**_Ensure the engine is off! Do not attempt to start the engine during this process!_**
 
 1. Ensure your electronic throttle roughly tracks the target position.  Speed or perfection is not required, but it should at least work. Confirm this by checking that the gauge "ETB position error" displays small values while moving the throttle around gently (a few percent is fine, so long as it trends towards zero if you stop moving).  If not, revisit the basic configuration steps above.
 2. Press `Start ETB PID Autotune` button.  The throttle will begin oscillating around 50% position: this is normal.
