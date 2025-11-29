@@ -18,3 +18,5 @@ bash wiki-tools/genpdf.sh \
 		 HOWTO-Get-Running.md \
 		 HOWTO-Start-An-Engine.md \
 		 Get-tuning-with-TunerStudio-and-your-rusEFI.md
+
+(echo "from,to"; grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/,/g' | sort | uniq) >generator/wiki/map.csv
