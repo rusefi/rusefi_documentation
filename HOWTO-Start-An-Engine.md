@@ -1,42 +1,46 @@
-# Performing A First Start On A New rusEFI install
+# Performing A First Start On A New rusEFI Install
 
-    **This page is a work in progress and will be completed as time allows, please bear with us**
-
-One of the toughest aspects of any new ECU install is the first start of a new engine. It is an issue a lot of users find so hopefully this comprehensive first start guide will help but clarifying the purpose of the settings and providing some best practice procedures.  
+One of the toughest aspects of any new ECU install is the first start of a new engine. It is an issue a lot of users find so hopefully this comprehensive first start guide will help but clarifying the purpose of the settings and providing some best practice procedures.
 
 Before you can even try to start the engine you have to get some of the basics right:
 
-## sensor requirements
+## Sensor Requirements
 
-- You must have known, good sensors with a correct calibration. Without this you have no hope of getting things to work in the long run so be sure you have a correct working MAP/MAF, CLT, IAT, TPS and Fuel pressure sensor if you have it.  
+You must have known, good sensors with a correct calibration.
 
-## cranking requirements
+Without this you have no hope of getting things to work in the long run so be sure you have a correct working MAP/MAF, CLT, IAT, TPS and Fuel pressure sensor if you have it.
 
-- You have to have the engine cranking well with the starter, if the engine cranks lazily then fix that first. You need a good strong consistent cranking speed.
-- Idle air: check that your throttle is correctly adjusted with its idle stop, your IAC works or your ETB config is correct for idling the engine.  
+## Cranking Requirements
 
-## ignition and fuel & injection system requirements
+The engine must be cranking well with the starter. If the engine cranks lazily, fix that first. You need a good strong consistent cranking speed.  
+Check that your throttle is correctly adjusted with its idle stop, your idle air control valve works, or your ETB config is correct for idling the engine.
 
-- You must be sure you have fuel pressure, without a working fuel pump and functional fuel pressure regulator you are not going to get a good start up, if the engine is a dead head fuel line or has a fuel pressure sensor then the same applies and I will address that in the correct section as they are special cases.  
-- Injectors and ignition coils: Again you need to be sure you have the correct information on your injectors and coils, without this you wont be able to set the dead times, flow rate or dwell correctly.  
-- Injectors and ignition coils need to be bench tested to check that each one is wired and set to the correct ECU channel. This is critical, incorrect wiring or channel setting is like having the HT leads in the wrong order. You will fuel and spark the wrong cylinders.  
-- Information on your crank trigger wheel is really really important, knowing the number of teeth on the trigger wheel and where the TDC offset is positioned is half the battle, if these are unknown then you will have to get that information before you can start up.  
-- Finally, make sure there is fuel in it, the number one non-start issue is a dry fuel tank right up to pro level.  
+## Verify Your Crank Sensor Reads the Trigger Wheel
 
-Cranking - Step one.  
+This can be done before setting anything in the ECU and should be the first test done.
 
-## Verify your crank sensor reads the trigger wheel  
+To do this go into TunerStudio and disable the fuel injection and the ignition under each of the settings tabs.
 
-This can be done before setting anything in the ECU and should be the first test done.  
-To do this go into TunerStudio and disable the fuel injection and the ignition under each of the settings tabs.  
+Next go into the high speed logger and simply crank the engine. The rusEFI console is the best tool for this job as it has a really good logger in the "engine sniffer" tab.
 
-- Insert picture of each of the settings tabs  
-Next go into the high speed logger and simply crank the engine. I recommend the rusEFI console for this job as it has a really good logger in the "engine sniffer" tab.
 What you should see is the top row giving grey bars that match your expected trigger pattern. If you see no grey bars then you have no trigger events, this means you need to check your crank sensor works or your trigger channel is correct.
-Hopefully you have grey bars showing your crank pattern. If your unsure of the pattern it makes a lot of sense at this point to grab a snapshot of the screen and compare it to the list of rusEFI compatible crank trigger patterns at the link below:
-  - Insert link for trigger patterns  
 
-## get tachometer showing correct cranking rpm
+Hopefully you have grey bars showing your crank pattern. If your unsure of the pattern it makes a lot of sense at this point to grab a snapshot of the screen and compare it to the list of rusEFI compatible crank trigger patterns found in [All Supported Triggers](All-Supported-Triggers).
+
+
+## Ignition and Fuel & Injection System Requirements
+
+You must be sure you have fuel pressure, without a working fuel pump and functional fuel pressure regulator you are not going to get a good start up, if the engine is a dead head fuel line or has a fuel pressure sensor then the same applies and I will address that in the correct section as they are special cases.
+
+Injectors and ignition coils: Again you need to be sure you have the correct information on your injectors and coils, without this you wont be able to set the dead times, flow rate or dwell correctly.
+
+Injectors and ignition coils need to be bench tested to check that each one is wired and set to the correct ECU channel. This is critical, incorrect wiring or channel setting is like having the HT leads in the wrong order. You will fuel and spark the wrong cylinders.
+
+Information on your crank trigger wheel is really really important, knowing the number of teeth on the trigger wheel and where the TDC offset is positioned is half the battle, if these are unknown then you will have to get that information before you can start up.
+
+Finally, make sure there is fuel in it, the number one non-start issue is a dry fuel tank right up to pro level.
+
+## Get Tachometer Showing Correct Cranking RPM
 
 Your tuning software should show correct cranking RPM, usually between 150 and 300 with a fully-charged battery.
 
@@ -44,7 +48,7 @@ See also [Trigger](Trigger)
 
 See also [Trigger Hardware](Trigger-Hardware)
 
-## Confirm Top Dead Center (TDC) position
+## Confirm Top Dead Center (TDC) Position
 
 Assuming you have the hardware ready to spark we now need to find your TDC position - we know trigger shape but we do not know the trigger wheel position in relation to TDC#1 (Top Dead Center, cylinder #1).
 
@@ -54,7 +58,7 @@ On Engine Sniffer tab of rusEFI console TDC#1 is shown with the green vertical l
 
 ![Initial Cranking Parameters](Images/TS/Initial_cranking_parameters.png)
 
-## cranking parameters
+## Cranking Parameters
 
 rusEFI has separate cranking control strategy for your first couple of engine revolutions - usually you want more fuel, different timing and simultaneous injection to start an engine.
 
@@ -64,42 +68,44 @@ Engine would start rich, as long as it's not too rich, as long as you have close
 
 Please note that trigger synchronization point often does not match TDC, so just try different values between 0 and 720. For example, try 0, then 20, then 40 etc. Use `showconfig` to see current setting.
 
-## running parameters
+## Running Parameters
 
 For first run I suggest running based on MAF sensor - even if you do not have MAF sensor, and flat maps.
 
 Once plain MAF works next step is running with proper MAP sensor calibration & flow rate setting.
 
-## next steps & troubleshooting
+## Next Steps & Troubleshooting
 
-There are three ways to produce similar logs - the intention is for these three to have same exact data.
+[Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI.md)
 
-1. SD card logging
-2. rusEFI console logging
-3. TunerStudio logging
+There are three ways to produce logs - the intention is for these three to have same exact data.
 
-See also [https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt](https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt)
+1. TunerStudio logging
+2. SD card logging
+3. rusEFI console logging
+
+See also [output_channels.txt](https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt)
 
 See also [Error Codes](Error-Codes)
 
-## External links
+## External Links
 
 [Fuel injectors at first start - Forum](https://www.youtube.com/watch?v=lgvt0mh_UB8)
 
-## Diagnostics and trouble shooting of your engine
+## Diagnostics and Troubleshooting of Your Engine
 
-### Basic tests
+### Basic Tests
 
 List basic tests here, like is LED on, are jumpers installed correctly if applicable, find hot components and do basic visual checks for burn things and such.
 
-### Test equipment tests
+### Test Equipment Tests
 
-(:ToDo) List tests that can be done with O-Scopes, multimeters, scan tools, and other such options for diagnosing a problem.
+List tests that can be done with O-Scopes, multimeters, scan tools, and other such options for diagnosing a problem.
 
-### Get help from a local
+### Get Help From a Local
 
 We provide much more info than most OEM options. If you are stuck, you may be able to get help from a local mechanic or someone local. Try asking for help in the forums there may be a member or a club meeting that's near by. It's common you can find local people who are willing to help.
 
-### On board hardware diagnostics
+### Onboard Hardware Diagnostics
 
-Don't have a scope, no problem, the IO board has basic scope built inside. You can connect pin (:ToDo) to nearly any point on the board and you can measure a variety of points synchronized with the logging software.
+Don't have a scope, no problem, the IO board has basic scope built inside. You can connect pin blah to nearly any point on the board and you can measure a variety of points synchronized with the logging software.

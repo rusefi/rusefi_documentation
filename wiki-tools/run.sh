@@ -14,6 +14,7 @@ cd ..
 bash wiki-tools/genpdf.sh \
 		 HOWTO-quick-start.md \
 		 HOWTO-create-tunerstudio-project.md \
-		 HOWTO-Get-Running.md \
 		 HOWTO-Get-Running-PnP.md \
+		 HOWTO-Get-Running.md \
+		 HOWTO-Start-An-Engine.md \
 		 Get-tuning-with-TunerStudio-and-your-rusEFI.md

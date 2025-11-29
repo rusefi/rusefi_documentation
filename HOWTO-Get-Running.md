@@ -12,7 +12,7 @@ We suggest that before you purchase hardware, that you create a plan with a sche
 
 You are going to need to know technical details about below referenced items.
 
-To get an idea of tested and [available sensors and actuators](Pages-Sensors-and-Actuators)
+See our partial list of [sensors and actuators](Pages-Sensors-and-Actuators).
 
 ### Camshaft Position Sensor (optional)
 
@@ -21,18 +21,15 @@ To get an idea of tested and [available sensors and actuators](Pages-Sensors-and
 ### Crankshaft Position Sensor
 
 - is it Hall or Variable Reluctance (VR) sensor?
-To answer look at [Vault of Sensors](Vault-Of-Sensors)
 
-#### Trigger Style
-
-Is the trigger wheel of your engine contained in [All-Supported-triggers](All-Supported-Triggers)
+See [Vault of Sensors](Vault-Of-Sensors)
 
 ### Injectors
 
-- is a High or low impedance injector?
-- what is the flow rate?
+- Is it a high or a low impedance injector?
+- What is the flow rate?
 
-To answer look at [Fuel-Injectors](Fuel-Injectors)
+See [Fuel Injectors](Fuel-Injectors)
 
 ### Temperature Sensors
 
@@ -42,30 +39,30 @@ To answer look at [Fuel-Injectors](Fuel-Injectors)
 
 - NTC sensor curves
 
-To answer look at [Temperature-Sensing](Temperature-Sensing)
+See [Temperature Sensing](Temperature-Sensing)
 
 ### Air Intake Sensor
 
-- MAF please see [MAF](MAF)
+- [MAF](MAF)
 - MAP
 
 ### Idle Air Control Valve (IACV)
 
-To answer look at [Idle Control](Idle-Control)
+See [Idle Control](Idle-Control)
 
 ### Lambda Sensor
 
-- **wide band oxygen sensor required**
+**A wide band oxygen sensor is required**
 
-please see [Wide-Band-Sensors](Wide-Band-Sensors)
+Please see [Wide Band Sensors](Wide-Band-Sensors)
 
 ### Throttle Control
 
-[ETB](Electronic-Throttle-Body)
+See the [Electronic Throttle Body](Electronic-Throttle-Body) page.
 
 ### Ignition Coils
 
-[Vault-Of-Ignition-Parts](Vault-Of-Ignition-Parts)
+See the [Vault Of Ignition Parts](Vault-Of-Ignition-Parts) for a few of the ignition coils that have been used with rusEFI.
 
 ### Engine Characteristics
 
@@ -142,83 +139,17 @@ Place some place that is away from hot items like the exhaust. Mount on a piece 
 - Connect 12V system / battery to the IO board connector.
 - Calibrate the sensors using TS and Java console as required.
 - Crank engine and see RPM's are registering correctly on the Java Console.
-- Connect LED to pins TODO, which will blink at TDC. Verify that TDC is correct by shining on a crank wheel like a timing light. PS: actually right now we do not have this - see [https://github.com/rusefi/rusefi/issues/297](https://github.com/rusefi/rusefi/issues/297) and [https://github.com/rusefi/rusefi/issues/2732](https://github.com/rusefi/rusefi/issues/2732) and [https://github.com/rusefi/rusefi/issues/3120](https://github.com/rusefi/rusefi/issues/3120)
+- Connect LED to pins TODO, which will blink at TDC. Verify that TDC is correct by shining on a crank wheel like a timing light. PS: actually right now we do not have this - see [this issue](https://github.com/rusefi/rusefi/issues/297) and [this issue](https://github.com/rusefi/rusefi/issues/2732) and [this issue](https://github.com/rusefi/rusefi/issues/3120)
 - Connect injectors and ignition as required and see if it will start.
 
 ### Test Engine Wiring
 
 Once connected you should test the wires. Especially the power wires like coil wires and injector wires. A poor connection with a slight resistance like .1 ohms can cause an electrical fire, which I'm sure you do not want. Once everything is connected measure both the voltage drop and current from the ECU connector, or where ever is applicably appropriate. Using your voltage and current readings, calculate the ohms, if it's above about .1 ohms fix the issue. Take note that .1 ohms at 1A is about .1watt that that connection will have to dissipate. If you have a 12 cyl, and 12 .1 ohm connections, the connector will have to dissipate 1.2 watts.
 
-HOWTO start you engine with rusEFI for the first time
-
 ### Test Outputs
 
 Both rusEFI Console and TS allow you to test if rusEFI properly controls things like injectors (you would hear the clicks), cooling fan (you would hear it - if needed), fuel pump (you would usually hear it - if needed), ignition coil (that's challenging if you have a distributor)
 
-### Get Tachometer Showing Correct Cranking RPM
+## Start Your Engine
 
-YOUR tuning software should show correct cranking RPM, usually between 150 and 300 with a fully-charged battery.
-
-See also [Trigger](Trigger)
-
-See also [Trigger Hardware](Trigger-Hardware)
-
-### Confirm TDC Position
-
-Assuming you have the hardware ready to spark we now need to find your TDC position - we know trigger shape but we do not know the trigger wheel position in relation to TDC#1 (Top Dead Center, cylinder #1).
-
-Set cranking advance angle to zero for now. Use a timing gun while cranking. We now need to try different values of Engine->Trigger->global trigger angle offset until we get spark at zero advance - that's because we might know the relation between TDC#1 and trigger signal.
-
-On Engine Sniffer tab of rusEFI console TDC#1 is shown with the green vertical line.
-
-![Initial Cranking Parameters](Images/TS/Initial_cranking_parameters.png)
-
-### Cranking Parameters
-
-rusEFI has separate cranking control strategy for your first couple of engine revolutions - usually you want more fuel, different timing and simultaneous injection to start an engine.
-
-![Cranking Dialog](Images/TS/Cranking_dialog_jan_2017.png)
-
-Engine would start rich, as long as it's not too rich, as long as you have close-enough cranking timing angle. By default, cranking mode is active if RPM is below 500 RPM.
-
- Please note that trigger synchronization point often does not match TDC, so just try different values between 0 and 720. For example, try 0, then 20, then 40 etc. Use `showconfig` to see current setting.
-
-### Running Parameters
-
-For first run I suggest running based on MAF sensor - even if you do not have MAF sensor, and flat maps.
-
-Once plain MAF works next step is running with proper MAP sensor calibration & flow rate setting.
-
-## Next Steps & Troubleshooting
-
-There are three ways to produce similar logs - the intention is for these three to have same exact data.
-
-1. SD card logging
-2. rusEFI console logging
-3. TunerStudio logging
-
-See also [https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt](https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt)
-
-See also [Error Codes](Error-Codes)
-
-## External Links
-
-[Fuel injectors at first start - Video](https://www.youtube.com/watch?v=lgvt0mh_UB8)
-
-## Diagnostics and Troubleshooting of Your Engine
-
-### Basic Tests
-
-List basic tests here, like is LED on, are jumpers installed correctly if applicable, find hot components and do basic visual checks for burn things and such.
-
-### Test Equipment Tests
-
-List tests that can be done with O-Scopes, multimeters, scan tools, and other such options for diagnosing a problem.
-
-### Get Help From a Local
-
-We provide much more info than most OEM options. If you are stuck, you may be able to get help from a local mechanic or someone local. Try asking for help in the forums there may be a member or a club meeting that's near by. It's common you can find local people who are willing to help.
-
-### Onboard Hardware Diagnostics
-
-Don't have a scope, no problem, the IO board has basic scope built inside. You can connect pin blah to nearly any point on the board and you can measure a variety of points synchronized with the logging software.
+See [Performing A First Start On A New rusEFI Install](HOWTO-Start-An-Engine)

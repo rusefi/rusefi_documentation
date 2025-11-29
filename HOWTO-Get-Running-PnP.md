@@ -1,18 +1,18 @@
 # Get Running With a Plug & Play ECU
 
-**Step 1 (If Possible)**
+## Warm it Up
 
-Run your car on your stock ECU to warm it up. This may make it easier to start, especially when it's cold outside.
+If possible, run your car on your stock ECU to warm it up. This may make it easier to start, especially when it's cold outside.
 
-**Step 2**
+## Plug it In
 
 Unplug your stock ECU and plug in your rusEFI ECU. It's best to leave the ECU's case open for now, so you can observe blinking lights etc.
 
-**Step 3**
+## Power On
 
 Turn on the ignition, but **do *NOT* start the engine!**
 
-**Step 4**
+## Connect
 
 Connect TunerStudio to your ECU. See [the TunerStudio guide](HOWTO-create-tunerstudio-project#creating-a-project) if you haven't yet created a project in TunerStudio.
 
@@ -30,7 +30,7 @@ If things are set up properly, you should see reasonable values for:
 
  The values may show some jitters. RPMs should be 0. Push your throttle pedal and see if you get a response. Congratulations—your rusEFI ECU can "see" your car.
 
-**Step 5**
+## Calibrate the Throttle
 
 Calibrate your throttle pedal.
 
@@ -38,11 +38,11 @@ Calibrate your throttle pedal.
 2. Without touching the throttle, click on "Get Current" next to "Closed Throttle ADC count".
 3. With the throttle wide open, click on "Get Current" next to "Full Throttle ADC count".
 
-**Step 6**
+## Save your Changes
 
 Save (Burn) calibration to ECU.
 
-**Step 7**
+## Test Outputs
 
 Test your outputs. Under "Controller" -> "Bench Test & Commands" you can see a lot of options for outputs you can test. Let's focus on the basic ones for now. Spark and Fuel. First, if your car's fuel pump is controlled by the ECU, test "Fuel Pump". You should hear the fuel pump running.
 
@@ -54,7 +54,9 @@ That's the basic outputs tested. With this you should be able to get the engine 
 
 Close the test window. We're getting close to starting the car.
 
-**Step 8**
+## Start it Up
+
+*If you have trouble, see [Performing A First Start On A New rusEFI Install](HOWTO-Start-An-Engine) for a more complete guide.*
 
 Turn the ignition off and unplug the USB cable to remove all power sources from the unit, just to make sure we're in a defined state. Then reconnect the USB cable, turn on the ignition, wait for TunerStudio to come to life, and then crank the engine. You should see the RPMs jump to a positive value (typically anywhere between 200 and 600 RPM) and your engine should start. It may take a few cranks for RPMs to register. If you see RPMs in Tunerstudio, but the engine isn't starting, keep at it. It may take quite a bit longer than the stock ECU. rusEFI takes about two seconds of cranking before it can identify the position of the crankshaft, then it will fire the injectors and ignition coils. It may take more than ten seconds for the engine to catch, which seems like an eternity when cranking, but don't give up. There may be coughs and sputters. Play with the throttle a little, and it will start eventually. Post your findings to the [forum](https://rusefi.com/forum/) and we can help!
 
