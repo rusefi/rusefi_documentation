@@ -10,6 +10,7 @@ if [ $? -ne 0 ]; then
 	exit 1
 fi
 rm -r docs
+cp nodemap.html wiki
 cd ..
 bash wiki-tools/genpdf.sh \
 		 HOWTO-quick-start.md \

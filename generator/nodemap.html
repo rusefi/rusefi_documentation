@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>rusEFI Wiki Node Map</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/3.0.2/sigma.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/graphology/0.26.0/graphology.umd.min.js"></script>
+		<script type="module">
+			import { bfsFromNode } from 'https://cdn.jsdelivr.net/npm/graphology-traversal@0.3.1/+esm'
+			import { circular } from 'https://cdn.jsdelivr.net/npm/graphology-layout@0.6.1/+esm'
+			Papa.parse("/map.csv", {
+				download: true,
+				header: true,
+				delimiter: ",",
+				complete: (results) => {
+					var graph = new graphology.Graph();
+					results.data.forEach((line) => {
+						if (line.from != "" && line.to != "" && line.from != line.to) {
+							if (!graph.hasNode(line.from)) {
+								graph.addNode(line.from, {
+									label: line.from,
+									size: 3,
+									color: "blue",
+								});
+							}
+							if (!graph.hasNode(line.to)) {
+								graph.addNode(line.to, {
+									label: line.to,
+									size: 3,
+									color: "blue",
+								});
+							}
+							if (!graph.hasEdge(line.from, line.to)) {
+								graph.addEdge(line.from, line.to);
+							}
+						}
+					});
+
+					var distances = {};
+					var counts = {};
+					bfsFromNode(graph, "Home", (node, _, depth) => {
+						distances[node] = depth;
+						counts[depth] = (counts[depth] || 0) + 1;
+					});
+
+					circular.assign(graph);
+
+					var nth = Object.assign({}, counts);
+					Object.keys(distances).forEach((node) => {
+						const level = distances[node];
+						const angle = (nth[level] / counts[level]) * Math.PI * 2;
+						nth[level] -= 1;
+
+						graph.setNodeAttribute(node, "x", Math.cos(angle) * level * 0.1);
+						graph.setNodeAttribute(node, "y", Math.sin(angle) * level * 0.1);
+					});
+
+					const renderer = new Sigma(
+						graph,
+						document.getElementById("container")
+					);
+
+					renderer.on("clickNode", (e) => {
+						graph.forEachEdge((id, b, s, t) => {
+							if (s == e.node) {
+								graph.setEdgeAttribute(id, "color", "#F00");
+							} else if (t == e.node) {
+								graph.setEdgeAttribute(id, "color", "#0F0");
+							} else {
+								graph.setEdgeAttribute(id, "color", "#999");
+							}
+						});
+					});
+				},
+			});
+
+		</script>
+	</head>
+	<body>
+		<style>
+			html,
+			body,
+			#container {
+					width: 100%;
+					height: 100%;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+			}
+		</style>
+		<div id="container"></div>
+	</body>
+</html>
