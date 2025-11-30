@@ -70,7 +70,7 @@ M70 style three pin
 
 ## WBO
 
-[Sensor Part Numbers](WBO#sensor-part-numbers)
+[Sensor Part Numbers](Vault-Of-Sensors#wide-band-sensors)
 
 ## 8 pin plug
 
