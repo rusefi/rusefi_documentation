@@ -101,7 +101,7 @@ Now we need the engine to idle acceptably, so we can check base timing. If your 
 This section assumes that you have a wideband O2 sensor installed and you get readings that make some sort of sense.
 If your idle is just rough and low, or way too high, or maybe oscillating wildly, the most likely issue is that your idle control is not set right. Open the idle control main dialog under "Idle" -> "Idle Settings" and change the first setting to "Manual" (circled in yellow). This will allow you to manually control your idle setting. Then use the slider (circled in purple) to change your idle rpm.
 
-![Idle_Settings](Images/TS/Manual_idle.png)
+![Idle Settings](Images/TS/Manual_idle.png)
 
 (If this doesn't do anything, chances are that your idle control has an issue and you need to do some troubleshooting of the hardware of basic settings). Try and get your idle to between 800 and 1200 rpm or so. Make sure it's not fluctuating much.
 If you can change your idle to some degree with the idle control, but can't really get it right, chances are either your engine is running with a terrible air-fuel-ratio or possibly your ignition timing is way off.
@@ -144,7 +144,7 @@ This is assuming that you are using the purchase version of TunerStudio with Aut
 
 But before we get to the exciting subject of tuning, there is the slightly more boring subject of target AFRs. These are defined in the aptly named target AFR table. Go to "Fuel" -> "Target AFR" and to start with having a value of 14 in all cells is probably good enough. Or you can go a bit more creative and use something like this.
 
-![Fancy_Target_AFR](Images/TS/Target_AFR_table.png)
+![Fancy Target AFR](Images/TS/Target_AFR_table.png)
 
 Let's talk about stoichiometry:
 A stoichiometric mixture of fuel and gas is where every oxygen molecule gets fully burned by the fuel and all the fuel is burned by the oxygen. So there's no excess oxygen and no excess fuel. If you have excess oxygen, the mixture is lean. If you have excess fuel, the mixture is rich. With regular gasoline, the stoichiometric mixture is about 14.7. This means you need 14.7 pounds of air to burn 1 pound of fuel. This is what a wideband O2 sensor displays.

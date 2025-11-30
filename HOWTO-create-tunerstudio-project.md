@@ -20,7 +20,7 @@ Your laptop should give you an audible notification when you plug in the ECU. Th
 
 Open TunerStudio and click *"Create New Project"*.
 
-![First project](Images/TS/TCP_first_project.png)
+![First Project](Images/TS/TCP_first_project.png)
 
 TunerStudio needs an ECU Definition file (usually with .ini extension) in order to start communicating with rusEFI.
 
@@ -36,12 +36,16 @@ If the definition for your unit wasn't detected automatically, select the file f
 
 Your rusEFI board should also present itself as a USB storage device to your computer, containing the .ini file you need. This is the most foolproof method of making sure you have the correct .ini file.
 
-![Menu](Images/TS/TunerStudio_other_browse.png)
+![Browse for Definition](Images/TS/TunerStudio_other_browse.png)
 
-After clicking on the link you'll see this:
+After clicking Next, selecting your preferred lambda display mode, and clicking Next again, you'll see this:
 
-![Menu](Images/TS/Communication_settings.png)
+![TunerStudio Communication Settings](Images/TS/Communication_settings.png)
 
 See [Tunerstudio Connectivity](Tunerstudio-Connectivity) if you need detailed instructions on these settings.
+
+Once you have compled the communications settings and clickd Next once more, TunerStudio will let you pick a Dashboard theme. If you have the free version of TunerStudio, only one option is available.
+
+When you are done, click Finish.
 
 With this your TunerStudio screen should come to life! You should see sensor inputs and some output values like ignition timing and dwell. If your ECU isn't connected to a car, the values displayed might not make any sense, but at least you can see that TunerStudio and your computer are communicating.
