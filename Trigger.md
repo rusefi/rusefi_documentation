@@ -70,39 +70,30 @@ At the moment rusEFI has no means for VVT/camInput simulation.
 
 ## Q & A
 
-**Q: what is _globalTriggerAngleOffset_ configuration parameter?**
-
-A: On engine sniffer tab in rusEFI console, there is a signal front with "0" next to it. That's the trigger synchronization event on the primary trigger line. The trigger synchronization always happens at one of the rise of fall of the primary trigger. globalTriggerAngleOffset is the angle distance between synchronization point and cylinder #1 top dead center. TDC#1 is the green line by the way.
+*__Q:__ what is `globalTriggerAngleOffset` configuration parameter?*  
+__A:__ On engine sniffer tab in rusEFI console, there is a signal front with "0" next to it. That's the trigger synchronization event on the primary trigger line. The trigger synchronization always happens at one of the rise of fall of the primary trigger. globalTriggerAngleOffset is the angle distance between synchronization point and cylinder #1 top dead center. TDC#1 is the green line by the way.
 
 ![Sync Point](Images/Sync_point_highlighed.png)
 
-**Q: how do I confirm that ECU knows the correct top dead center #1 (TDC) location?**
+*__Q:__ how do I confirm that ECU knows the correct top dead center #1 (TDC) location?*  
+__A:__ Disable injection. Set whole timing map to 0 or to 10, whatever is easier to confirm with a timing gun. Set whole IAT timing correction to zero so that it does not correct your timing. Crank the engine (injection disabled) and confirm that timing advance on the console/TS gauge matches what the timing light is giving you. If there is an offset adjust globalTriggerAngleOffset accordingly. It's a good idea to confirm that the output LED for the corresponding channel is blinking and bench-test spark if possible.
 
-A: Disable injection. Set whole timing map to 0 or to 10, whatever is easier to confirm with a timing gun. Set whole IAT timing correction to zero so that it does not correct your timing. Crank the engine (injection disabled) and confirm that timing advance on the console/TS gauge matches what the timing light is giving you. If there is an offset adjust globalTriggerAngleOffset accordingly. It's a good idea to confirm that the output LED for the corresponding channel is blinking and bench-test spark if possible.
+*__Q:__ what are `ignitionOffset` & `injectionOffset` configuration parameters?*  
+__A:__ there are one of the ways of offsetting the whole timing map or define the injection angle. Both should stay zero under normal circumstances.
 
-**Q: what are _ignitionOffset_ & _injectionOffset_ configuration parameters?**
-
-A: there are one of the ways of offsetting the whole timing map or define the injection angle. Both should stay zero under normal circumstances.
-
-**Q: where does camshaft signal go and where does crankshaft go?**
-
-A: it depends, but a rule of thumb is that IF you have BOTH camshaft position sensor and crankshaft position sensor, camshaft is always trigger#1 input and then crankshaft is trigger#2. This case we use trigger#1 (cam) to know which cylinder is which, and trigger#2 (crank) to know precise angle position.
+*__Q:__ where does camshaft signal go and where does crankshaft go?*  
+__A:__ it depends, but a rule of thumb is that IF you have BOTH camshaft position sensor and crankshaft position sensor, camshaft is always trigger#1 input and then crankshaft is trigger#2. This case we use trigger#1 (cam) to know which cylinder is which, and trigger#2 (crank) to know precise angle position.
 
 Here is a picture with a one-teeth cam sensor and a 60/2 crank:
 
 ![Sniffer](Images/60_2_with_cam.png)
 
-**Q: what does _total errors_ mean in triggerinfo output?**
+*__Q:__ what does `total errors` mean in triggerinfo output?*  
+__A:__ this is total count of how many times we detected unexpected number of teeth per trigger cycle since ECU reboot. `isError` means that we had issues with 4 of the last 6 cycles. We also turn `triggerErrorPin` on in case of trigger error - you can put an LED to see trigger error. total errors also could be displayed as TS gauge.
 
-A: this is total count of how many times we detected unexpected number of teeth per trigger cycle since ECU reboot. _isError_ means that we had issues with 4 of the last 6 cycles. We also turn _triggerErrorPin_ on in case of trigger error - you can put an LED to see trigger error. total errors also could be displayed as TS gauge.
+*__Q:__ Sync is not reliable, how do I see more details?*  
+__A:__ try `enable trigger_details` command in console or "print sync details to console" option in TS. This would produce some helpful messages with synchronization progress details.
 
-**Q: Sync is not reliable, how do I see more details?**
-
-A: try _enable trigger_details_ command in console or "print sync details to console" option in TS. This would produce some helpful messages with synchronization progress details.
-
-_Q: I have a 60/2 crank wheel and I would like to use a cam sensor for fully sequential mode. Should I use "4-stroke with Cam sensor"?_
-
-A: You can only use "4-stroke with Cam sensor" if your composite trigger shape is known to rusEFI. If you are adding a cam to 60/2, rusEFI probably does not know this combination with all the angles precisely. The way to add sequential to a skipped-tooth crank wheel is via cam input mode, same as used for VVT (see also [VVT](VVT))
+*__Q:__ I have a 60/2 crank wheel and I would like to use a cam sensor for fully sequential mode. Should I use "4-stroke with Cam sensor"?*  
+__A:__ You can only use "4-stroke with Cam sensor" if your composite trigger shape is known to rusEFI. If you are adding a cam to 60/2, rusEFI probably does not know this combination with all the angles precisely. The way to add sequential to a skipped-tooth crank wheel is via cam input mode, same as used for [VVT](VVT)
 This case your known crank shape is used for shaft position lookup and your cam is only used for phase lookup - exact cam sensor angular position is less important.
-
-See also [VVT](VVT)
