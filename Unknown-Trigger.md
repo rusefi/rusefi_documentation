@@ -41,4 +41,4 @@ TODO
 ## Step 4: located TDC
 
 Trigger synchronization is often not happening right at TDC. One would need to find out the angle between synchronization point and Top Dead Cylinder #1.
-See [Trigger Q&A](Trigger#q--a)
+See [Trigger Q&A](Trigger#q-a)

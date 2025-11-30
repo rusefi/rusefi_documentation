@@ -4,7 +4,7 @@
 
 See also [Mazda Miata 2003 alt](Mazda-Miata-2003-alt)
 
-For power see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting--power)
+For power see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting-power)
 
 ![Connector Face](Images/diagrams/NB2_Miata_ECU_Connectors_Drawing_rusEFI_harness.png)
 
@@ -73,7 +73,7 @@ Fly-back diode - stripe facing +12 - is needed between IAC 2P (power, stripe sid
 
 See [http://rusefi.com/forum/viewtopic.php?f=3&t=906&p=25018l#p25018](http://rusefi.com/forum/viewtopic.php?f=3&t=906&p=25018l#p25018)
 
-For ignition key see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting--power)
+For ignition key see [Mazda Miata 2002 - Starting & Power](Mazda-Miata-2002#starting-power)
 
 ## Misc
 

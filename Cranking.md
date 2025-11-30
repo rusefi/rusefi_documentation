@@ -50,7 +50,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 [![Cranking RPM limit](Images/TS/cranking/settings_02.png)](#cranking-rpm-limit)
 [![Enable cylinder cleanup](Images/TS/cranking/settings_03.png)](#enable-cylinder-cleanup)
 [![Enable faster engine spin-up](Images/TS/cranking/settings_04.png)](#enable-faster-engine-spin-up)
-[![Duration at -40C degrees](Images/TS/cranking/settings_05.png)](#duration-at--40c-degrees)
+[![Duration at -40C degrees](Images/TS/cranking/settings_05.png)](#duration-at-40c-degrees)
 [![Falloff temperature](Images/TS/cranking/settings_06.png)](#falloff-temperature)
 [![Injection mode](Images/TS/cranking/settings_07.png)](#injection-mode)
 [![Fuel Source For Cranking](Images/TS/cranking/settings_08.png)](#fuel-source-for-cranking)
@@ -66,7 +66,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 ![Settings18](Images/TS/cranking/settings_18.png)
 </td></table>
 
-## General Cranking Settings  
+## General Cranking Settings
 
 ### Cranking RPM limit  
 
