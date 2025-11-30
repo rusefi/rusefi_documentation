@@ -79,7 +79,7 @@ checkurl() {
     ) 200>brokenlinks.lock
   fi
   # Skip links that are to an .md file and aren't broken.
-  if [ "$(echo "$LIST" | grep "$LINK"".md" 2>/dev/null | wc -l)" -gt 0 ]; then
+  if [ "$(echo "$LIST" | grep "./${LINK}.md" 2>/dev/null | wc -l)" -gt 0 ]; then
     # print the URL for use in `checkhash`
     echo "$LINK"
     return 0
