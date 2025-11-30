@@ -79,8 +79,42 @@ Pin 5 Temperature Signal
 VW Audi 1 928 405 159 (Inject Sensor)
 Ford 1928405159
 
+## Wide Band Sensors
+
+### Sensors
+
+BOSCH 17011 '2013 kia rio 1.6l l4 oxygen (o2) sensor Upstream`
+
+BOSCH 17321 '2012 ford focus Upstream'
+
+VAG 8R0906262E / Bosch 95890626200
+
+See also [LSU 4.9 Cable Lengths — rusEFI Forum](https://rusefi.com/forum/viewtopic.php?p=43513)
+
+### Connector Shells
+
+| Connector        | Part Number |
+| :--------------: | :---------: |
+| Female (harness) | 1928404669  |
+| Male (sensor)    | 1928405111  |
+
+Male connector is only needed when building extension harnesses. The connector on the sensor contains a laser-trimmed calibration resistor and should not be removed.
+
+VAG 1J0973705
+
+### Female Terminals for Harness Side
+
+| Wire Size | Plating | Strip       | Loose       |
+| :-------: | :-----: | :---------: | :---------: |
+| 24-22 AWG | Tin     | 1564324-1   | 1564325-1   |
+| 24-22 AWG | Gold    | 1564324-2   | 1564325-2   |
+| 20-18 AWG | Tin     | 1241380-1   | 1241381-1   |
+| 20-18 AWG | Gold    | 1241380-2   | 1241381-2   |
+| 16 AWG    | Tin     | 1418884-1   | 1418885-1   |
+| 16 AWG    | Gold    | unavailable | unavailable |
+
+Part numbers provided by and available for purchase at corsa-technic.com individually or [as a kit](https://www.corsa-technic.com/item.php?item_id=1296).
+
 ## Other Sensors
 
-[sensors-2-1_bosch_2013_2014.pdf](OEM-Docs/Bosch/sensors-2-1_bosch_2013_2014.pdf)
-
-[49776__sensoren.pdf](OEM-Docs/Bosch/49776__sensoren.pdf)
+[Bosch Sensor Catalog](OEM-Docs/Bosch/sensors-2-1_bosch_2013_2014.pdf)

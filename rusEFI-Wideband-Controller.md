@@ -1,6 +1,6 @@
 # rusEFI Wideband Controller
 
-*also see [WBO](WBO) for general information regarding wideband oxygen sensors*
+*also see [Wide Band Sensors](Wide-Band-Sensors) for general information regarding wideband oxygen sensors*
 
 Base CAN ID: 400 (decimal) = 0x190 (11-bit standard ID). This number increments by 2xN for the N-th controller
 

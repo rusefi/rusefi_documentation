@@ -1,6 +1,6 @@
 # Performing A First Start On A New rusEFI Install
 
-One of the toughest aspects of any new ECU install is the first start of a new engine. It is an issue a lot of users find so hopefully this comprehensive first start guide will help but clarifying the purpose of the settings and providing some best practice procedures.
+One of the toughest aspects of any new ECU install is the first start of a new engine. It is an issue a lot of users find, so hopefully this comprehensive first start guide will help but clarifying the purpose of the settings and providing some best practice procedures.
 
 Before you can even try to start the engine you have to get some of the basics right:
 
@@ -10,12 +10,33 @@ You must have known, good sensors with a correct calibration.
 
 Without this you have no hope of getting things to work in the long run so be sure you have a correct working MAP/MAF, CLT, IAT, TPS and Fuel pressure sensor if you have it.
 
+See [How To Get Running With a Wire-in ECU](HOWTO-Get-Running) for more detailed sensor requirements.
+
+## Ignition and Fuel & Injection System Requirements
+
+### Fuel Supply
+
+You must be sure you have fuel pressure, without a working fuel pump and functional fuel pressure regulator you are not going to get a good start up, if the engine is a dead head fuel line or has a fuel pressure sensor then the same applies and I will address that in the correct section as they are special cases.
+
+Finally, make sure there is fuel in it, the number one non-start issue is a dry fuel tank right up to pro level.
+
+### Injectors and Ignition Coils
+
+Again, you need to be sure you have the correct information on your injectors and coils, without this you wont be able to set the dead times, flow rate or dwell correctly.
+
+Injectors and ignition coils need to be bench tested to check that each one is wired and set to the correct ECU channel. This is critical, incorrect wiring or channel setting is like having the HT leads in the wrong order. You will fuel and spark the wrong cylinders.
+
 ## Cranking Requirements
 
-The engine must be cranking well with the starter. If the engine cranks lazily, fix that first. You need a good strong consistent cranking speed.  
+The engine must be cranking well with the starter. If the engine cranks lazily, fix that first. You need a good strong consistent cranking speed.
+
 Check that your throttle is correctly adjusted with its idle stop, your idle air control valve works, or your ETB config is correct for idling the engine.
 
+See [Cranking](Cranking) for more details.
+
 ## Verify Your Crank Sensor Reads the Trigger Wheel
+
+Information on your crank trigger wheel is really really important, knowing the number of teeth on the trigger wheel and where the TDC offset is positioned is half the battle, if these are unknown then you will have to get that information before you can start up.
 
 This can be done before setting anything in the ECU and should be the first test done.
 
@@ -27,25 +48,9 @@ What you should see is the top row giving grey bars that match your expected tri
 
 Hopefully you have grey bars showing your crank pattern. If your unsure of the pattern it makes a lot of sense at this point to grab a snapshot of the screen and compare it to the list of rusEFI compatible crank trigger patterns found in [All Supported Triggers](All-Supported-Triggers).
 
-## Ignition and Fuel & Injection System Requirements
+TunerStudio and rusEFI Console should show correct cranking RPM, usually between 150 and 300 with a fully-charged battery.
 
-You must be sure you have fuel pressure, without a working fuel pump and functional fuel pressure regulator you are not going to get a good start up, if the engine is a dead head fuel line or has a fuel pressure sensor then the same applies and I will address that in the correct section as they are special cases.
-
-Injectors and ignition coils: Again you need to be sure you have the correct information on your injectors and coils, without this you wont be able to set the dead times, flow rate or dwell correctly.
-
-Injectors and ignition coils need to be bench tested to check that each one is wired and set to the correct ECU channel. This is critical, incorrect wiring or channel setting is like having the HT leads in the wrong order. You will fuel and spark the wrong cylinders.
-
-Information on your crank trigger wheel is really really important, knowing the number of teeth on the trigger wheel and where the TDC offset is positioned is half the battle, if these are unknown then you will have to get that information before you can start up.
-
-Finally, make sure there is fuel in it, the number one non-start issue is a dry fuel tank right up to pro level.
-
-## Get Tachometer Showing Correct Cranking RPM
-
-Your tuning software should show correct cranking RPM, usually between 150 and 300 with a fully-charged battery.
-
-See also [Trigger](Trigger)
-
-See also [Trigger Hardware](Trigger-Hardware)
+See [Triggers](Trigger) for more details.
 
 ## Confirm Top Dead Center (TDC) Position
 
@@ -55,13 +60,11 @@ Set cranking advance angle to zero for now. Use a timing gun while cranking. We 
 
 On Engine Sniffer tab of rusEFI console TDC#1 is shown with the green vertical line.
 
-![Initial Cranking Parameters](Images/TS/Initial_cranking_parameters.png)
-
 ## Cranking Parameters
 
 rusEFI has separate cranking control strategy for your first couple of engine revolutions - usually you want more fuel, different timing and simultaneous injection to start an engine.
 
-![Cranking Dialog](Images/TS/Cranking_dialog_jan_2017.png)
+![Initial Cranking Parameters](Images/TS/Initial_cranking_parameters.png)
 
 Engine would start rich, as long as it's not too rich, as long as you have close-enough cranking timing angle. By default, cranking mode is active if RPM is below 500 RPM.
 
@@ -95,11 +98,13 @@ See also [Error Codes](Error-Codes)
 
 ### Basic Tests
 
-List basic tests here, like is LED on, are jumpers installed correctly if applicable, find hot components and do basic visual checks for burn things and such.
+Is the ECU properly powered and communicating with your computer?
 
-### Test Equipment Tests
+See [Troubleshooting](Troubleshooting).
 
-List tests that can be done with O-Scopes, multimeters, scan tools, and other such options for diagnosing a problem.
+### Tests using Test Equipment
+
+If your ECU is not reading a sensor correctly, you may need electrical test equipment to make sure that the sensor is behaving as you have told the ECU to expect it to. For simple sensors such as temperature sensors, a digital multi-meter is all you need. For other sensors such as crankshaft and camshaft position sensors, you may need an oscilloscope.
 
 ### Get Help From a Local
 
@@ -107,4 +112,4 @@ We provide much more info than most OEM options. If you are stuck, you may be ab
 
 ### Onboard Hardware Diagnostics
 
-Don't have a scope, no problem, the IO board has basic scope built inside. You can connect pin blah to nearly any point on the board and you can measure a variety of points synchronized with the logging software.
+If you don't have an oscilloscope, you can connect the circuit in question to a digital or analog input of your ECU, using it as a basic oscilloscope. Record a log and you will see exactly what your ECU is seeing.

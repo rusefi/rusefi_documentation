@@ -128,3 +128,5 @@ CAN "git clone <https://github.com/rusefi/rusefi_documentation.wiki.git>" and it
  you should NOT. Anyone looking to make changes should be making changes to non-wiki git via normal fork & pull request process.
 
 Additional automation is in charge of merging from <https://github.com/rusefi/rusefi_documentation.git> into <https://github.com/rusefi/rusefi_documentation.wiki.git>
+
+After every change, [a node map](https://wiki.rusefi.com/nodemap.html) of the links between documents is generated.
