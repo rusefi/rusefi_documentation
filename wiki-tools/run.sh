@@ -21,3 +21,5 @@ bash wiki-tools/genpdf.sh \
 		 Get-tuning-with-TunerStudio-and-your-rusEFI.md
 
 (echo "from,to"; grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/,/g' | sort | uniq) >generator/wiki/map.csv
+
+comm -1 -3 <(grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' *.md 2>/dev/null | sed 's/\.md:/\n/' | sort | uniq) <(find . -maxdepth 1 -name '*.md' -exec basename {} .md \; | sort) >>generator/wiki/map.csv

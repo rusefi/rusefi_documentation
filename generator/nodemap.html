@@ -26,15 +26,17 @@
 									color: "blue",
 								});
 							}
-							if (!graph.hasNode(line.to)) {
-								graph.addNode(line.to, {
-									label: line.to,
-									size: 3,
-									color: "blue",
-								});
-							}
-							if (!graph.hasEdge(line.from, line.to)) {
-								graph.addEdge(line.from, line.to);
+							if (line.to) {
+								if (!graph.hasNode(line.to)) {
+									graph.addNode(line.to, {
+										label: line.to,
+										size: 3,
+										color: "blue",
+									});
+								}
+								if (!graph.hasEdge(line.from, line.to)) {
+									graph.addEdge(line.from, line.to);
+								}
 							}
 						}
 					});
@@ -46,12 +48,23 @@
 						counts[depth] = (counts[depth] || 0) + 1;
 					});
 
-					circular.assign(graph);
+					let maxd = Math.max(...Object.values(distances));
+					graph.forEachNode((node) => {
+						if (! (node in distances)) {
+							let depth = graph.degree(node) == 0 ? maxd + 2 : maxd + 1;
+							distances[node] = depth;
+							counts[depth] = (counts[depth] || 0) + 1;
+						}
+					});
 
+					circular.assign(graph);
+					
 					var nth = Object.assign({}, counts);
 					Object.keys(distances).forEach((node) => {
-						const level = distances[node];
-						const angle = (nth[level] / counts[level]) * Math.PI * 2;
+						let level = 0;
+						let angle = 0;
+						level = distances[node];
+						angle = (nth[level] / counts[level]) * Math.PI * 2;
 						nth[level] -= 1;
 
 						graph.setNodeAttribute(node, "x", Math.cos(angle) * level * 0.1);
