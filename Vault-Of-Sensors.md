@@ -117,6 +117,4 @@ Part numbers provided by and available for purchase at corsa-technic.com individ
 
 ## Other Sensors
 
-[sensors-2-1_bosch_2013_2014.pdf](OEM-Docs/Bosch/sensors-2-1_bosch_2013_2014.pdf)
-
-[49776__sensoren.pdf](OEM-Docs/Bosch/49776__sensoren.pdf)
+[Bosch Sensor Catalog](OEM-Docs/Bosch/sensors-2-1_bosch_2013_2014.pdf)
