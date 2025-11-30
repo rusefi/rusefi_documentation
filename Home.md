@@ -67,6 +67,8 @@ The unsupported features listed here are all things that would be amazing to see
 
 Thinking of doing an engine control project? You have stopped by the correct place. The rusEFI project has many options that can likely help you out. We have several forum members with a wide variety of skills that are often willing to help people out. We have several hardware options as well. If a feature doesn't exist, inquire in the forums and it is likely that we can develop the feature. Or if you feel like giving something back, you can develop it yourself and share it with others.
 
+[PDF Manual](https://wiki.rusefi.com/book.pdf) - contains some of the basic content from this wiki
+
 [Quick Start](HOWTO-quick-start)
 
 [Get Running](HOWTO-Get-Running)

@@ -4,6 +4,8 @@ See [list of all supported triggers](All-Supported-Triggers)
 
 See also [Trigger Configuration Guide](Trigger-Configuration-Guide)
 
+See also [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset)
+
 See [Trigger Hardware](Trigger-Hardware) for some notes on the difference between Hall and VR sensors.
 
 ## Time to document trigger gap override
