@@ -35,11 +35,11 @@ Your board comes with rusEFI firmware installed on it, but it should be updated.
 
 ### Wire-in ECUs
 
-Follow the [Get Running With a Wire-in ECU](HOWTO-Get-Running) guide.
+Follow the [Get Running With a Wire-in ECU guide](HOWTO-Get-Running).
 
 ### Plug & Play ECUs
 
-Follow the [Get Running With a Plug & Play ECU](HOWTO-Get-Running-PnP) guide.
+Follow the [Get Running With a Plug & Play ECU guide](HOWTO-Get-Running-PnP).
 
 ## Tuning
 

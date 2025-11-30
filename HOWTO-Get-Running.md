@@ -14,15 +14,13 @@ You are going to need to know technical details about below referenced items.
 
 See our partial list of [sensors and actuators](Pages-Sensors-and-Actuators).
 
-### Camshaft Position Sensor (optional)
+### Crankshaft and Camshaft Position Sensors
 
-- [VVT Overview](VVT)
+- Are they Hall or Variable Reluctance (VR) sensors?
 
-### Crankshaft Position Sensor
+See [Triggers](Trigger)
 
-- is it Hall or Variable Reluctance (VR) sensor?
-
-See [Vault of Sensors](Vault-Of-Sensors)
+See [VVT Overview](VVT)
 
 ### Injectors
 
@@ -41,24 +39,27 @@ See [Fuel Injectors](Fuel-Injectors)
 
 See [Temperature Sensing](Temperature-Sensing)
 
-### Air Intake Sensor
+### Air Mass or Pressure Sensor
 
-- [MAF](MAF)
-- MAP
+Does your engine have a Mass Air Flow (MAF) sensor, a Manifold Absolute Pressure (MAP) sensor, or both?
 
-### Idle Air Control Valve (IACV)
-
-See [Idle Control](Idle-Control)
+See [Mass Air Flow Sensor](MAF)
 
 ### Lambda Sensor
 
 **A wide band oxygen sensor is required**
 
-Please see [Wide Band Sensors](Wide-Band-Sensors)
+See [Wide Band Sensors](Wide-Band-Sensors).
 
 ### Throttle Control
 
-See the [Electronic Throttle Body](Electronic-Throttle-Body) page.
+See [Electronic Throttle Body](Electronic-Throttle-Body).
+
+### Idle Air Control Valve (IACV)
+
+If you're not using an Electronic Throttle Body (ETB), you will need an Idle Air Control Valve (IACV)
+
+See [Idle Control](Idle-Control)
 
 ### Ignition Coils
 
