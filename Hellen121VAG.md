@@ -54,8 +54,6 @@ Raw +12 option **Never have both F1 and F2 jumpers populated!**
 
 [VAG-C5]
 
-[VAG-MK4 VR6](mk4-vr6-wiring)
-
 ![x](Hardware-files/Hellen/hellen121vag-not-a-render.jpg)
 
 ![x](Hardware-files/Hellen/hellen121vag-b.jpg)
