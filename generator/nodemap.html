@@ -101,7 +101,10 @@
 							}
 						});
 					});
-				},
+					renderer.on("doubleClickNode", (e) => {
+						window.open(window.location.origin + "/" + e.node + "/", '_blank').focus();
+					});
+				}
 			});
 
 		</script>
