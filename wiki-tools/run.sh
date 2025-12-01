@@ -20,7 +20,7 @@ shopt -s extglob
 
 mkdir -p generator/docs
 CHANGE=$(rsync -ra --out-format="%f" --delete --exclude generator --exclude wiki-tools --exclude '_*' \
-							 --exclude '.*' --exclude nodemap.html --exclude style.css --exclude map.csv --exclude book.pdf ./ generator/docs)
+							 --exclude '.*' --exclude nodemap.html --exclude style.css --exclude map.csv --exclude nav.js --exclude book.pdf ./ generator/docs)
 
 # Nodemap
 
@@ -29,7 +29,9 @@ cp generator/nodemap.html generator/docs
 if [ -n "$CHANGE" ]; then
 	(echo "from,to"; grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/,/g' | sort | uniq) >generator/docs/map.csv
 
-	comm -1 -3 <(grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' *.md 2>/dev/null | sed 's/\.md:/\n/' | sort | uniq) <(find . -maxdepth 1 -name '*.md' -exec basename {} .md \; | sort) >>generator/docs/map.csv
+	comm -1 -3 <(grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/\n/' | sort | uniq) <(find . -maxdepth 1 -name '*.md' -exec basename {} .md \; | sort) >>generator/docs/map.csv
+
+	(echo -e 'const nav = [\n"Home",'; grep -oP '(?<=")[^"]*(?=\.md)' generator/zensical.toml | sed -E -e 's/^/"/' -e 's/$/",/'; echo "];") >generator/docs/nav.js
 fi
 
 # PDF Manual

@@ -8,6 +8,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/3.0.2/sigma.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/graphology/0.26.0/graphology.umd.min.js"></script>
+		<script src="/nav.js"></script>
 		<script type="module">
 			import { bfsFromNode } from 'https://cdn.jsdelivr.net/npm/graphology-traversal@0.3.1/+esm'
 			import { circular } from 'https://cdn.jsdelivr.net/npm/graphology-layout@0.6.1/+esm'
@@ -42,23 +43,30 @@
 					});
 
 					var distances = {};
-					var counts = {};
-					bfsFromNode(graph, "Home", (node, _, depth) => {
-						distances[node] = depth;
-						counts[depth] = (counts[depth] || 0) + 1;
-					});
+					nav.forEach((page) => {
+						bfsFromNode(graph, page, (node, _, depth) => {
+							if (nav.indexOf(node) >= 0) {
+								distances[node] = 1
+							} else if (! (node in distances) || depth < distances[node]) {
+								distances[node] = depth + 1;
+							}
+						});
+					})
 
 					let maxd = Math.max(...Object.values(distances));
 					graph.forEachNode((node) => {
-						if (! (node in distances)) {
+						if (! (node in distances) && nav.indexOf(node) < 0) {
 							let depth = graph.degree(node) == 0 ? maxd + 2 : maxd + 1;
 							distances[node] = depth;
-							counts[depth] = (counts[depth] || 0) + 1;
 						}
 					});
 
 					circular.assign(graph);
 					
+					const counts = Object.values(distances).reduce((acc, val) => {
+						acc[val] = (acc[val] || 0) + 1;
+						return acc;
+					}, {});
 					var nth = Object.assign({}, counts);
 					Object.keys(distances).forEach((node) => {
 						let level = 0;
