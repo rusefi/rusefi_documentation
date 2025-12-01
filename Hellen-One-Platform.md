@@ -27,6 +27,7 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |[72 Pin Miata 01-05](Hellen-NB2)| *not currently available* ||
 |[121 Pin VAG](Hellen121VAG)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334968365497) |[open source](https://github.com/rusefi/hellen121vag)|
 |[121 Pin Nissan](Hellen-121-Nissan)| [rusEFI Store](https://www.shop.rusefi.com/shop/p/hellen-121-nissan) ||
+|[Hellen 76 Nissan](Hellen-76-Nissan)| *not currently available* ||
 |[128 Pin Mercedes](Hellen-128-Mercedes)| [![Image](Images/ebay_gen_button.gif)](https://www.ebay.com/itm/334094173341) ||
 |[125 Pin Honda K-series](Hellen-125-Honda-K)|[rusEFI Store](https://www.shop.rusefi.com/shop/p/honda-k-2002-pinout)||
 |[Honda OBD1](uaEFI-Honda-OBD1)|[rusEFI Store](https://www.shop.rusefi.com/shop/p/rusefi-for-obd1)||
@@ -36,6 +37,7 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |[GM E67](GM-E67)|[rusEFI Store](https://www.shop.rusefi.com/shop/p/e67-working-prototype-version-b)||
 |[Harley 81](Harley-81)| *not currently available* ||
 |[Hellen 81](Hellen81)| *not currently available* ||
+|[Hellen 112-17](Hellen112-17)| *not currently available* ||
 
     **The .ini file for Hellen is loaded onto the Hellen board. 
     When you plug the Hellen into your computer, a "virtual flash drive" will load up. 
