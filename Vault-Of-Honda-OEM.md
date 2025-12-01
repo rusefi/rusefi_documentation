@@ -18,6 +18,8 @@ Civic EG gen5 1992-1995
 
 Civic EK gen6 1996-2000
 
+[Proteus OBD2A Adapter](Proteus-HondaOBD2A)
+
 [2a pinout](https://www.ff-squad.com/technet/wiring.obd2a.htm)
 
 [OBD2 connector part number](OEM-connectors#104)
@@ -32,7 +34,9 @@ Civic EK gen6 1996-2000
 
 ## K engine plug
 
-[https://github.com/rusefi/proteus-Honda-K-125-adapter](https://github.com/rusefi/proteus-Honda-K-125-adapter)
+[Hellen 125 Honda K](Hellen-125-Honda-K)
+
+[Proteus 125 Pin Adapter](Proteus-Honda125)
 
 A ![x](Images/diagrams/Honda_K_plug_a.png) B ![x](Images/diagrams/Honda_K_plug_b.png) C ![x](Images/diagrams/Honda_K_plug_c.png) D ![x](Images/diagrams/Honda_K_plug_d.png) E ![x](Images/diagrams/Honda_K_plug_e.png)
 

@@ -17,6 +17,8 @@ Around 2007
 
 ![image](Images/diagrams/ETB_LS2_connector.png)
 
+See also [SENT Electronic Throttle Body](SENT-ETB-Electronic-Throttle-Body)
+
 ## Older GM
 
 ![image](Images/diagrams/TPS_wiring.png)
