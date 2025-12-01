@@ -37,6 +37,10 @@ https://www.google.com/search?q=49+usd+to+rub
 
 ![pigtail](Hardware-files/microRusEFI/store/mre_assembled_pigtail.jpg)
 
+## wbo2
+
+10к плата без разъёмов, 12 к с разьемами, 15к с корпусом.
+
 ## оплата
 
 Оплата на карту 4627291471315556
