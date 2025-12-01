@@ -87,7 +87,8 @@ nav = [
     {"Fuel" = "Pages-Fuel.md"},
     {"Sensors and Actuators" = "Pages-Sensors-and-Actuators.md"},
     {"Ignition" = "Pages-Ignition.md"},
-    {"Software" = "Pages-Software.md"}
+    {"Software" = "Pages-Software.md"},
+		{"Info Vaults" = "Pages-Info-Vaults.md"}
   ]},
   {"Contributors" = [
     {"Contribute to Firmware" = "HOWTO-contribute-to-firmware.md"},

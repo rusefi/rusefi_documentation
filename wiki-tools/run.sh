@@ -1,23 +1,58 @@
 #!/bin/bash
-shopt -s extglob
-cd generator
-mkdir -p docs
-cp -t docs -r ../!(generator|wiki-tools|_*)
-cp style.css docs
-zensical build
-if [ $? -ne 0 ]; then
-	rm -r docs
-	exit 1
-fi
-rm -r docs
-cp nodemap.html wiki
-cd ..
-bash wiki-tools/genpdf.sh \
-		 HOWTO-quick-start.md \
-		 HOWTO-create-tunerstudio-project.md \
-		 HOWTO-Get-Running-PnP.md \
-		 HOWTO-Get-Running.md \
-		 HOWTO-Start-An-Engine.md \
-		 Get-tuning-with-TunerStudio-and-your-rusEFI.md
+# Build: bash wiki-tools/run.sh
+# Serve: bash wiki-tools/run.sh serve --dev-addr=0.0.0.0:8000
+# Update while running Serve in another shell: bash wiki-tools/run.sh update
 
-(echo "from,to"; grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/,/g' | sort | uniq) >generator/wiki/map.csv
+# List of files to include in the PDF manual
+SOURCES=$(cat <<ENDSOURCES
+HOWTO-quick-start.md
+HOWTO-create-tunerstudio-project.md
+HOWTO-Get-Running-PnP.md
+HOWTO-Get-Running.md
+HOWTO-Start-An-Engine.md
+Get-tuning-with-TunerStudio-and-your-rusEFI.md
+ENDSOURCES
+			 )
+
+# Copy files
+
+shopt -s extglob
+
+mkdir -p generator/docs
+CHANGE=$(rsync -ra --out-format="%f" --delete --exclude generator --exclude wiki-tools --exclude '_*' \
+							 --exclude '.*' --exclude nodemap.html --exclude style.css --exclude map.csv --exclude nav.js --exclude book.pdf ./ generator/docs)
+
+# Nodemap
+
+cp generator/nodemap.html generator/docs
+
+if [ -n "$CHANGE" ]; then
+	(echo "from,to"; grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/,/g' | sort | uniq) >generator/docs/map.csv
+
+	comm -1 -3 <(grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/\n/' | sort | uniq) <(find . -maxdepth 1 -name '*.md' -exec basename {} .md \; | grep -v "^_" | sort) >>generator/docs/map.csv
+
+	(echo -e 'const nav = [\n"Home",'; grep -oP '(?<=")[^"]*(?=\.md)' generator/zensical.toml | sed -E -e 's/^/"/' -e 's/$/",/'; echo "];") >generator/docs/nav.js
+fi
+
+# PDF Manual
+
+if [ $(comm -1 -2 <(echo "$CHANGE" | sed -E 's/^..\///' | sort) <(echo "$SOURCES" | sort) | wc -l) -gt 0 ]; then
+	bash wiki-tools/genpdf.sh $SOURCES
+fi
+
+# Build the wiki
+
+cd generator
+
+cp style.css docs
+
+if [ "$1" == "update" ]; then
+	exit;
+elif [ -n "$1" ]; then
+	zensical $@
+else
+	zensical build
+	if [ $? -ne 0 ]; then
+		exit 1
+	fi
+fi

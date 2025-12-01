@@ -1,4 +1,4 @@
-# HOWOT Test New ECU Design
+# HOWTO Test New ECU Design
 
 ## Prerequisites
 

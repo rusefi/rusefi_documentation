@@ -97,6 +97,8 @@ Example:
 Result:  
 ![TunerStudio New Project View](Images/TS/TunerStudio_new_project.png)
 
+See also [How To Validate Links](HOWTO-validate-links)
+
 ## Using URL link shortcuts
 
 Link shortcuts are maintained in https://github.com/rusefi/web_backend/tree/master/www/s#readme

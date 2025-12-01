@@ -12,6 +12,10 @@ Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not re
 * rusEFI GDI comms [0xBB20 0xBB30](https://github.com/rusefi/libfirmware/blob/master/can/can_common.h)
 * rusEFI bench test protocol 0x770000 base address
 
+[Calibration via CAN](rusEFI-calibration-via-CAN)
+
+[Firmware Update via CAN](Firmware-update-via-CAN)
+
 ## 3rd party dashboards
 
 ![image](Images/TS/TunerStudio_canbus_dash_haltech.png)

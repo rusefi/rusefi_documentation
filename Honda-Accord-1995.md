@@ -95,7 +95,7 @@
 
 ## Components
 
-[Honda F22B1 Engine - Wikipedia]](<http://en.wikipedia.org/wiki/Honda_F_engine#F22B1>)
+[Honda F22B1 Engine - Wikipedia](http://en.wikipedia.org/wiki/Honda_F_engine#F22B1)
 
 Fuel Injector 06164-P0A-A00 248cc/min Low impedance
 

@@ -78,3 +78,5 @@ rev A:
 
 * it works! <https://youtu.be/egtDQsMDQqs>
 * BOM issue p-channel mosfet <https://github.com/rusefi/alphax-4chan/issues/19>
+
+See also [4Chan Initial Programming](4chan-F7-initial-programming)

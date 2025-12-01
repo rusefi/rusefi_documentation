@@ -40,7 +40,7 @@ Before TDC, Before Top Dead Center - See also ATDC
 
 <details markdown="1"><summary><u>CAS</u></summary>
 
-Crank Angle Sensor Also See [CPS - Wikipedia]](<http://en.wikipedia.org/wiki/Crankshaft_position_sensor>)
+Crank Angle Sensor Also See [CPS - Wikipedia](http://en.wikipedia.org/wiki/Crankshaft_position_sensor)
 </details>
 
 <details markdown="1"><summary><u>CLT</u></summary>
@@ -152,7 +152,7 @@ Injector Flow Rate
 
 <details markdown="1"><summary><u>IGBT</u></summary>
 
-[IGBT - Wikipedia]](<http://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor>)  
+[IGBT - Wikipedia](http://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor)  
 A common type of transistor used for switching high power devices like ignition coils with a low power/voltage output.
 </details>
 
@@ -233,7 +233,7 @@ Negative temperature coefficient, used in context of temperature sensors and ref
 
 <details markdown="1"><summary><u>PIP</u></summary>
 
-Profile ignition pickup See [Profile Ignition Pickup - Wikipedia]](<http://en.wikipedia.org/wiki/Profile_ignition_pickup>)
+Profile ignition pickup See [Profile Ignition Pickup - Wikipedia](http://en.wikipedia.org/wiki/Profile_ignition_pickup)
 </details>
 
 <details markdown="1"><summary><u>PFI</u></summary>

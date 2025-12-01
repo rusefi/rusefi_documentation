@@ -56,3 +56,5 @@ SD card reading mode:
 ![SD reading indicator](Images/TS/TunerStudio_sd_usb.png)
 
 The assumption is that if you have USB connected, you will be logging using TunerStudio instead of the onboard SD card.
+
+See also [SD Card](User-Support-SD-card)

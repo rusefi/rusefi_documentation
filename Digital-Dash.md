@@ -10,9 +10,9 @@ A-- The Quickest and easiest Digital Dash is TunerStudioMS... And  is described 
 
 B-- Second  is a PowerTune IMG that is just copied onto a SDcard -- and will boot up PowerTune on a raspberry Pi 3 ... [More details](https://rusefi.com/forum/viewtopic.php?p=41535)
 
-C-- Third is a Custom Digital Gauge cluster... [Link HERE](https://mycustomcars.us/custom-digital-gauge-cluster/) ... And here is the [GitHub link for Code](https://github.com/joshellissh/pidgc)
+C-- Third is a Custom Digital Gauge cluster... [Link HERE](https://mycustomcars.us/custom-digital-gauge-cluster/) ... And here is the [GitHub link for Code](https://github.com/joshellissh/pidgc) or [uaDash](uaDASH)
 
-D-- Fourth is Android tablet or phone running the [Real Dash](http://realdash.net/index.php) App
+D-- Fourth is Android tablet or phone running the [Real Dash](http://realdash.net/index.php) App or [Shadow Dash](Shadow-Dash) or [MSDroid](MSDroid)
 
 ## How to set up a Raspberry Pi with TunerStudio as a Digital Dash
 

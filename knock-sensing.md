@@ -15,3 +15,8 @@ Knock spectrogram is displayed by [TS-Plugin](TS-Plugin)
 [Youtube rusEFI: knock on standing Miata, Proteus](https://youtu.be/GOWEKU2SH9I)
 
 [Youtube rusEFI: Hellen knock gauge](https://youtu.be/oJKI8X4oxCs)
+
+See also:
+
+- [Saab Trionic on Mazda Miata](Saab-Trionic-8-Combustion-Detection-Module-on-Mazda-Miata-running-rusEFI)
+- [Ion Sensing](Ion-Sense)

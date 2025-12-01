@@ -33,3 +33,5 @@ systemctl stop ModemManager.service
 Advanced solution:
 Add VID, PID to udev rules with ENV{ID_MM_DEVICE_IGNORE}="1" attribute
 https://linux-tips.com/t/prevent-modem-manager-to-capture-usb-serial-devices/284/2
+
+See also [Useful Linux Commands](Useful-Linux-Commands)

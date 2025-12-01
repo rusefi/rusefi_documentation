@@ -86,6 +86,8 @@ so a quick way to explain all of this is
 
 Switch goes (ON) Position > ECU Gets power > ECU sends a ground Signal to EFI Relay > you get powers to EFI components!
 
+See also [Delayed Shut Off](Delayed-shut-off)
+
 ## Specific Function Inputs
 
 Engine position (crank, cam) are specific inputs required. Hall Effect (square wave / magnetic or optical) and Variable Reluctance (VR / inductive) sensors are supported.
