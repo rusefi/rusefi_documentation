@@ -29,7 +29,7 @@ cp generator/nodemap.html generator/docs
 if [ -n "$CHANGE" ]; then
 	(echo "from,to"; grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/,/g' | sort | uniq) >generator/docs/map.csv
 
-	comm -1 -3 <(grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/\n/' | sort | uniq) <(find . -maxdepth 1 -name '*.md' -exec basename {} .md \; | sort) >>generator/docs/map.csv
+	comm -1 -3 <(grep -Po '(?<=]\()((?!http)[^# /\n]+)(?=(#[^ /\n]*)?\))' !(_Sidebar).md 2>/dev/null | sed 's/\.md:/\n/' | sort | uniq) <(find . -maxdepth 1 -name '*.md' -exec basename {} .md \; | grep -v "^_" | sort) >>generator/docs/map.csv
 
 	(echo -e 'const nav = [\n"Home",'; grep -oP '(?<=")[^"]*(?=\.md)' generator/zensical.toml | sed -E -e 's/^/"/' -e 's/$/",/'; echo "];") >generator/docs/nav.js
 fi
