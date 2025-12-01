@@ -73,17 +73,23 @@
 
 					const renderer = new Sigma(
 						graph,
-						document.getElementById("container")
+						document.getElementById("container"),
+						{
+							zIndex: true
+						}
 					);
 
 					renderer.on("clickNode", (e) => {
 						graph.forEachEdge((id, b, s, t) => {
 							if (s == e.node) {
 								graph.setEdgeAttribute(id, "color", "#F00");
+								graph.setEdgeAttribute(id, "zIndex", "2");
 							} else if (t == e.node) {
 								graph.setEdgeAttribute(id, "color", "#0F0");
+								graph.setEdgeAttribute(id, "zIndex", "1");
 							} else {
-								graph.setEdgeAttribute(id, "color", "#999");
+								graph.setEdgeAttribute(id, "color", "#ccc");
+								graph.setEdgeAttribute(id, "zIndex", "0");
 							}
 						});
 					});
