@@ -9,7 +9,7 @@
 - [Get Help](Support)
 - [Create a TunerStudio Project](HOWTO-create-tunerstudio-project)
 - [Basic Wiring and Connections](FAQ-Basic-Wiring-and-Connections)
-- [Crimp Ampseal](How to Crimp Ampseal)
+- [Crimp Ampseal](HOWTO-Crimp-Ampseal)
 - [Start an Engine](HOWTO-Start-An-Engine)
 - [Direct Firmware Update](HOWTO-DFU)
 - [Update Firmware](HOWTO-Update-Firmware)
