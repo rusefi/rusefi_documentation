@@ -31,7 +31,9 @@ Alex has M111 1.8 (now swaped M111.961)
 
 [2000-s430 Connector and Wiring](2000-s430)
 
-[Mercedes-v8 Wiring](Mercedes-v8)
+[Mercedes V8 Wiring](Mercedes-v8)
+
+[Mercedes 9.7](Mercedes-9.7)
 
 M113K is 113.990 or 113.991? Looks like 134 pin connector?
 

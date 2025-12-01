@@ -8,6 +8,8 @@
 
 [1991-1996 Subaru Imgreza](Subaru-Impreza-1991-1996)
 
+[1993 Impreza](Subaru-Impreza-1993)
+
 ## GD Chassis
 
 [2002-2007 WRX](Subaru-Impreza-WRX-2003)
