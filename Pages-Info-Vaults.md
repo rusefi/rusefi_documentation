@@ -1,8 +1,8 @@
-# List of all the info vaults in this wiki
+# Info Vaults
 
 **These are containers for all the lists and data dumps we have collected over the years**
 
-# Miscellaneous
+<details markdown="1" class="abstract"><summary><u>Miscellaneous</u></summary>
 
 - [Ignition Parts](Vault-Of-Ignition-Parts)
 - [Sensors](Vault-Of-Sensors)
@@ -12,7 +12,9 @@
 - [Terminology and abbreviations](Vault-Of-Terminology)
 - [ABS](Vault-Of-ABS)
 
-# Manufacturers
+</details>
+
+<details markdown="1" class="abstract"><summary><u>Manufacturers</u></summary>
 
 - [Acura](Vault-of-Acura)
 - [BMW](Vault-BMW-Info)
@@ -33,3 +35,5 @@
 - [VAG](Vault-Of-Vag-Info)
 - [Volvo](Volvo)
 - [Yamaha](Vault-of-Yamaha-info)
+
+</details>
