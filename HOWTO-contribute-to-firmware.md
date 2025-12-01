@@ -22,6 +22,8 @@ All open tickets: [https://github.com/rusefi/rusefi/issues](https://github.com/r
 
 [Click here for a Q&A on source code.](http://rusefi.com/forum/viewtopic.php?f=5&t=10)
 
+See [Dev Quick Start](Dev-Quick-Start)
+
 ## FAQ
 
 ### not smart to push into master branch of forks

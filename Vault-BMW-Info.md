@@ -4,6 +4,8 @@ This is a repository of a bunch of info relevant to fitting rusEFI to the older 
 
 https://www.bimmertuningtools.com/pinouts/
 
+[Proteus M54 Adapter](Proteus-BMW-M54)
+
 ## Early Motronic Ti Signal (Fuel Consumption)
 
 [BMW MPG gauge and MS3](https://www.msextra.com/forums/viewtopic.php?f=131&t=59516&start=20)  
@@ -45,11 +47,15 @@ BMW 3 Series (E30) 1982–1994
 
 BMW 7 Series (E38) 1994–2001
 
-[BMW-e38-1996-750](BMW-e38-1996-750)
+[BWM e38](BMW-e38)
 
-[BMW-e38-750](BMW-e38-750)
+[BMW e38 Part Numbers](BMW-e38-Part-Numbers)
 
-[HOWTO-M73-v12-on-Proteus](HOWTO-M73-v12-on-Proteus)
+[BMW e38 1996 750](BMW-e38-1996-750)
+
+[BMW e38 750](BMW-e38-750)
+
+[HOWTO M73 v12 on Proteus](HOWTO-M73-v12-on-Proteus)
 
 BMW [5 Series E39](BMW-e39)  1995–May 2004
 
@@ -58,6 +64,10 @@ BMW [5 Series E39](BMW-e39)  1995–May 2004
 [BMW X5 E53](BMW-e53) 1999-2006
 
 [7 Series E65](BMW-e65) 2001–2008
+
+[BMW S1000RR](BMW-S1000RR)
+
+[BMW N20](BMW-N20)
 
 ## TEVES MK60 Info
 

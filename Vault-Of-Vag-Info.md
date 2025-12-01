@@ -6,6 +6,24 @@ https://rusefi.com/docs/pinouts/hellen/hellen121vag/
 
 [VolkswagenPassatB6](VolkswagenPassatB6)
 
+[1996 Golf VR6](VAG-68-pin)
+
+[80 Pin](VAG-80-pin)
+
+[C5 Platform](VAG-C5)
+
+[1996 Passat ABA](VW-Passat-1996-ABA)
+
+[2001 Passat 1.8](VW-Passat-2002-1.8)
+
+[2002 Allroad](2002-Allroad)
+
+[2002 Passat](2002-Passat)
+
+[2004 Cayenne](2004-Cayenne)
+
+[2010 TT](2010-Audi-TT)
+
 ## 2006 Jetta 2.5
 
 BGQ

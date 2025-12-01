@@ -34,7 +34,11 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 ## microRusEFI User Documentation
 
-[microRusEFI wiring](Hardware-microRusEFI-wiring)
+[microRusEFI Wiring](Hardware-microRusEFI-wiring)
+
+[microRusEFI Connectors](Hardware-microRusEFI-connectors)
+
+[microRusEFI Hardware Checks](Hardware-microRusEFI-hardware-checks)
 
 [HOWTO program rusEFI using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
 

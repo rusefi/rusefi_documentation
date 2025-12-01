@@ -52,6 +52,7 @@
 - [Sensors and Actuators](Pages-Sensors-and-Actuators)
 - [Ignition](Pages-Ignition)
 - [Software](Pages-Software)
+- [Info Vaults](Pages-Info-Vaults)
 
 ## Contributors
 

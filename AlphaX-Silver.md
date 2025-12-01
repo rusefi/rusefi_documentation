@@ -12,3 +12,5 @@
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_alphax-silver.zip)
 
 [Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_alphax-silver.zip)
+
+[Purchase from AlphaX](https://alphaxpr.com/collections/wire-in/products/alphaecu-silver)

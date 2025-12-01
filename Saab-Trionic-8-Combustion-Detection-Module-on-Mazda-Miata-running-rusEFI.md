@@ -21,16 +21,16 @@ meaning more detonation. Combustion signal seems to be just a comparator giving 
 seems to be showing post-flame pressure, with the middle of this pulse correlating with moment of peak cylinder pressure.
 
 Knocking - note a lot of blue line pulses (1ms time base)
-![knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png>)
+![knock](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png)
 
 Knocking (50us time base)
-![knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_knock_signal.png>)
+![knock](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_knock_signal.png)
 
 Not knocking or knocking way less - note lack of blue line low level pulses (5ms time base)
-![no knock](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_not_knocking.png>)
+![no knock](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_not_knocking.png)
 
 Combustion signal seem to be just a comparator
-![combustion](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_combustion_signal.png>)
+![combustion](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_combustion_signal.png)
 
 [All the videos mentioned here](https://www.youtube.com/watch?v=1y1dXTg9iMg&list=PLwj_BUeepTNB6eddVd7_KtyqiFYOJ75jy)
 
@@ -48,16 +48,16 @@ More recently, Mazda and BMW seem to be using ion sensing approach again.
 
 Here are all the Saab components we will be using (only two coils pictured while four coils would be used)
 
-![parts](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_2005_parts.jpg>)
+![parts](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_2005_parts.jpg)
 
 Ferrari 124792 spark plug extension is used to connect original Mazda Miata spark plugs with bullet terminals removed with Saab COPs
 
-![hardware details](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_hardware_details.jpg>)
+![hardware details](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_hardware_details.jpg)
 [youtube: Hardware Details](https://youtu.be/rUZ_-_hRnDU)
 
-![frankenso](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_frankenso_assembled.jpg>)
+![frankenso](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_frankenso_assembled.jpg)
 
-![hardware overview](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_engine_bay.jpg>)
+![hardware overview](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_engine_bay.jpg)
 [youtube: Hardware Overview](https://www.youtube.com/watch?v=1y1dXTg9iMg)
 
 Knock detection wire has 0.8KOhm pull-up to 5v, combustion detection signal has 5KOhm pull-up to 5v.
@@ -72,7 +72,7 @@ Detonation is audible in 2000-4000 range with 50% throttle pulls from parked.
 
 Detonation is also audible while parked, revving with brakes applied in "D" gear selector.
 
-![timing](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_knock_ignition_table.png>)
+![timing](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_knock_ignition_table.png)
 
 [youtube: It's knocking!](https://youtu.be/FQ9ii0eXjmA)
 
@@ -104,7 +104,7 @@ And that's it! We have seen enough to get some code for the rusEFI firmware to s
 
 Inside of 55352173 Saab Ionization Detection Module
 
-![Inside](<Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/Ionization_Detection_Module_55352173.png>)
+![Inside](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/Ionization_Detection_Module_55352173.png)
 
 ### External Links
 

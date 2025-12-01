@@ -48,3 +48,5 @@ Steps:
 * At this point, analog power/reference should already be routed along with an associated limited power plane for analog signals. It's time to route primary power and ground pins.  Start with constant battery power as this is typically a low-power signal.  **FOR POWER, YOU WANT TO USE POURS/PLANES WHERE POSSIBLE.**  Typically, top-side power pour and bottom side ground pour.  Keep in mind that analog signals should have ANALOG GROUND RETURN plane underneath them if possible, **NOT** the main ground plane.  
 
 Final step: go back and update your spreadsheet with what you ACTUALLY connected.  Make sure your OEM coil numbers are mapped to the coil driver that is connected on the PCB.  Make sure the OEM injector numbers are mapped to the drivers controlling them.  Make sure that the specific sensors on the harness are mapped to the general analog inputs receiving the signal.  Make sure your solenoids, relays, etc. are mapped to GPIO. When you go to configure the unit, having this information to refer to will be invaluable and save you having to chase your schematic.
+
+See also [How To Test a New ECU Design](HOWTO-Test-New-ECU-Design)

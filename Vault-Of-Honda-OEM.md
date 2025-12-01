@@ -38,8 +38,16 @@ A ![x](Images/diagrams/Honda_K_plug_a.png) B ![x](Images/diagrams/Honda_K_plug_b
 
 ## Misc
 
+[TPMS CAN trick](Honda-TPMS-CAN-trick)
+
 ![x](OEM-Docs/Honda/ECU_overview.jpg)
 
 [Honda-S2000](Honda-S2000)
+
+[Element Diagrams](Honda-Element)
+
+[Element Readme](element-readme)
+
+[2008](Honda-2008)
 
 [bomarc-services-p28.pdf](OEM-Docs/Honda/bomarc-services-p28.pdf)

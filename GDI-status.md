@@ -1,6 +1,12 @@
 # FAQ
 
-TL,DR: [Hellen-Hyundai-PB](Hellen-Hyundai-PB) and [rusefi GDI pinout](GDI4)
+TL,DR: [Hellen-Hyundai-PB](Hellen-Hyundai-PB) and [rusEFI GDI4 pinout](GDI4)
+
+See [How To GDI](HOWTO-GDI)
+
+[GDI8](GDI8)
+
+[GM E92 PnP](PnP-E92)
 
 ## Q: What are key differences between port and GDI?
 

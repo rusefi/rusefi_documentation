@@ -2,6 +2,8 @@
 
 https://rusefi.com/docs/pinouts/hellen/coyote/
 
+[1992 Mustang 5.0](Mustang-Ford-92-5.0)
+
 ## ST
 
 https://www.focusst.org/threads/project-reasonable-overkill-2013-2018-diagrams-connector-resource.168158/

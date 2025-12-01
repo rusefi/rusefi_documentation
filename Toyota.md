@@ -1,6 +1,10 @@
 # Toyota
 
-[Toyota-JZ](Toyota-JZ)
+[Toyota JZ](Toyota-JZ)
+
+[Toyota 4Runner](Toyota-4Runner)
+
+[2001 Toyota Camry 3.0](Toyota-Camry-2001-LE-3.0)
 
 ## N180
 
