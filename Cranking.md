@@ -24,7 +24,7 @@ Cranking mode is defined as any RPM value below the 'cranking RPM' setting. Duri
 
 <!-- this magic '>' make a one line quote block -->
 
-> ![Hint](Images/icons/hint.png) *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [First Engine Start](First-Engine-Start).*
+> ![Hint](Images/icons/hint.png) *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [How to Start an Engine](HOWTO-Start-An-Engine).*
 
 ## Cranking Settings
 
