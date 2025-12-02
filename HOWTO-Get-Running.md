@@ -1,4 +1,4 @@
-# Get Running With a Wire-in ECU
+# Get Running With a Universal ECU
 
 ## Summary
 

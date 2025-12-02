@@ -1,15 +1,13 @@
 # What is Cranking?
 
-In order to get an engine running, it first needs to be rotated at sufficient speed. This gets the fuel pumped up to the cylinders and ignited and enables the engine to run on its own power. Cranking the engine simply means turning the engine's crankshaft that rotates the engine to power itself.
+In order to get an engine running, it first needs to be rotated at sufficient speed to achieve good compression of the air/fuel mixture. Cranking the engine simply means turning the engine's crankshaft.
 
-<!-- This would be rendered as a collapsible section. from 'details' to closing 'details' -->
-
-<details markdown="1"><summary><i>See also</i>: <u>Starter Motor</u></summary>
+<details markdown="1"><summary><i>Side note</i>: <u>Starter Motor</u></summary>
 
 <table markdown="1"><tr markdown="1"><td markdown="1">
 
 ![Starter](Images/starter.jpeg)
-</td><td markdown="1"> The electric starter motor or cranking motor is the most common type used on gasoline engines and small diesel engines.
+</td><td markdown="1">Unless you have a small engine with a pull start, a kick start, or an old car with a crank in front, you most likely have an electric starter.  
 
 You can control the starter using several rusEFI firmware features:  
 
@@ -20,9 +18,7 @@ You can control the starter using several rusEFI firmware features:
 
 </details>
 
-Cranking mode is defined as any RPM value below the 'cranking RPM' setting. During cranking, special fuel and timing logic is applied.
-
-<!-- this magic '>' make a one line quote block -->
+Cranking mode is defined as any RPM value below the 'Cranking RPM limit' setting. During cranking, special fuel and timing logic is applied.
 
 > ![Hint](Images/icons/hint.png) *Hint: If you have a fresh new engine ready for cranking, and you want to prepare the configuration for the first start, please first see: [How to Start an Engine](HOWTO-Start-An-Engine).*
 

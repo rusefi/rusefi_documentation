@@ -31,7 +31,7 @@ It does not include TunerStudio or MegaLogViewer.
 
 [Mercedes 128 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
 
-[Miata NBT 72 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
+[Miata NB2 72 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
 
 [Miata NA6 64 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
 
@@ -57,6 +57,5 @@ It does not include TunerStudio or MegaLogViewer.
 
 ## FAQ
 
-**Q: I see something interesting was just changed in the firmware? How do I use latest version?**
-
-A: Most snapshot builds take about 30 minutes to get updated on at [Snapshot builds](https://rusefi.com/build_server/)
+*__Q:__ I see something interesting was just changed in the firmware? How do I use latest version?*  
+__A:__ Most snapshot builds take about 30 minutes to get updated on at [Snapshot builds](https://rusefi.com/build_server/)

@@ -71,7 +71,7 @@ nav = [
   ]},
   {"ECU Hardware" = [
     {"rusEFI Hardware Overview" = "Hardware.md"},
-    {"Wire-in ECUs" = [
+    {"Universal ECUs" = [
       {"uaEFI" = "uaEFI.md"},
       {"microRusEFI" = "microRusEFI-Manual.md"},
       {"Proteus" = "Proteus.md"}

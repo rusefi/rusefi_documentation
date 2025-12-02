@@ -2,7 +2,7 @@
 
 ## Minimal Setup
 
-All official units are shipped with firmware installed. Modern Windows comes with USB CDC drivers.
+All official units are shipped with firmware installed. Modern Windows comes with the necessary drivers.
 
 1. [Download and Install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install).
 
@@ -18,7 +18,7 @@ Continue reading for more detailed setup steps.
 
 2. Extract the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual Com Port and DFU drivers. If necessary the bundle will also help you install the Java runtime.
 
-   ![console](Images/rusEFI_console_start_screen.png)
+    ![console](Images/rusEFI_console_start_screen.png)
 
 3. Get friendly on the [rusEFI forums](https://rusefi.com/forum). Introduce yourself, start a build thread, and ask questions.
 
@@ -33,11 +33,11 @@ Your board comes with rusEFI firmware installed on it, but it should be updated.
 
 ## Getting Your Car Running
 
-### Wire-in ECUs
+### With a Universal ECU
 
-Follow the [Get Running With a Wire-in ECU guide](HOWTO-Get-Running).
+Follow the [Get Running With a Universal ECU guide](HOWTO-Get-Running).
 
-### Plug & Play ECUs
+### With a Plug & Play ECU
 
 Follow the [Get Running With a Plug & Play ECU guide](HOWTO-Get-Running-PnP).
 

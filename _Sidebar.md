@@ -33,7 +33,7 @@
 
 - [rusEFI Hardware Overview](Hardware)
 
-### Wire-in ECUs
+### Universal ECUs
 
 - [uaEFI](uaEFI)
 - [microRusEFI](microRusEFI-Manual)
