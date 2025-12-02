@@ -16,7 +16,7 @@ Hellen One framework merges modules so that we do not have to sandwich separate 
 |[Power4GDI](Power4GDI)|[rusEFI Store](https://www.shop.rusefi.com/shop/p/gdi4ecu)||
 |[AlphaECU 2Chan](AlphaX-2chan)|[AlphaX Store](https://alphaxpr.com/collections/wire-in/products/alphaecu-2chan)||
 |[AlphaECU 4Chan](AlphaX-4chan)|[AlphaX Store](https://alphaxpr.com/collections/wire-in/products/alphaecu-4chan-plus)||
-|[AlphaECU Bronze]()|[AlphaX Store](https://alphaxpr.com/collections/wire-in/products/alphaecu-bronze)||
+|AlphaECU Bronze|[AlphaX Store](https://alphaxpr.com/collections/wire-in/products/alphaecu-bronze)||
 |[AlphaECU Silver](AlphaX-Silver)|[AlphaX Store](https://alphaxpr.com/collections/wire-in/products/alphaecu-silver)||
 |[AlphaECU Gold](AlphaX-Gold)|[AlphaX Store](https://alphaxpr.com/collections/wire-in/products/alphaecu-gold)||
 |[AlphaECU Platinum](AlphaX-Platinum)|[AlphaX Store](https://alphaxpr.com/collections/wire-in/products/alphaecu-platinum)||
