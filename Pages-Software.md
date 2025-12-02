@@ -14,6 +14,7 @@
 
 <details markdown="1" class="abstract"><summary><u>Firmware Features</u></summary>
 
+* [Password Protection](Password-Protection)
 * [Virtual Simulator](Virtual-simulator)
 
 </details>

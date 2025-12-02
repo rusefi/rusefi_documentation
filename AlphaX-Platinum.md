@@ -1,4 +1,4 @@
-# rusEFI Huge
+# AlphaX Platinum
 
 Previously known as 8chan
 

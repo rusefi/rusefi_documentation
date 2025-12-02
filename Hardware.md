@@ -1,6 +1,6 @@
 # Hardware
 
-As of 2025 we are selling eight universal ECUs. See [Mission-Statement](Mission-Statement)
+We are selling eight universal ECUs. See [Mission-Statement](Mission-Statement)
 
 🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](Discord) 🔴
 

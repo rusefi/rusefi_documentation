@@ -68,7 +68,7 @@
 						return acc;
 					}, {});
 					var nth = Object.assign({}, counts);
-					Object.keys(distances).forEach((node) => {
+					Object.keys(distances).sort().forEach((node) => {
 						let level = 0;
 						let angle = 0;
 						level = distances[node];

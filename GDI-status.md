@@ -6,6 +6,8 @@ See [How To GDI](HOWTO-GDI)
 
 [GDI8](GDI8)
 
+[Power4GDI](Power4GDI)
+
 [GM E92 PnP](PnP-E92)
 
 ## Q: What are key differences between port and GDI?

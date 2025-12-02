@@ -10,7 +10,7 @@ You must have known, good sensors with a correct calibration.
 
 Without this you have no hope of getting things to work in the long run so be sure you have a correct working MAP/MAF, CLT, IAT, TPS and Fuel pressure sensor if you have it.
 
-See [How To Get Running With a Wire-in ECU](HOWTO-Get-Running) for more detailed sensor requirements.
+See [How To Get Running With a Universal ECU](HOWTO-Get-Running) for more detailed sensor requirements.
 
 ## Ignition and Fuel & Injection System Requirements
 

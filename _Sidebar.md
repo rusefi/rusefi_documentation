@@ -33,7 +33,7 @@
 
 - [rusEFI Hardware Overview](Hardware)
 
-### Wire-in ECUs
+### Universal ECUs
 
 - [uaEFI](uaEFI)
 - [microRusEFI](microRusEFI-Manual)
@@ -45,6 +45,8 @@
 - [GM E38](GM-E38)
 - [GM E92](PnP-E92)
 - [Hellen](https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform)
+
+- [Other Hardware](Other-Hardware)
 
 ## Index
 
