@@ -1,6 +1,6 @@
 # Master list of software pages
 
-<details markdown="1"><summary><u>General Firmware info</u></summary>
+<details markdown="1" class="abstract"><summary><u>General Firmware info</u></summary>
 
 * [Preferred Code Style](Code-Style)
 * [Firmware Downloads](Download)
@@ -12,7 +12,7 @@
 
 </details>
 
-<details markdown="1"><summary><u>Firmware Features</u></summary>
+<details markdown="1" class="abstract"><summary><u>Firmware Features</u></summary>
 
 * [Virtual Simulator](Virtual-simulator)
 

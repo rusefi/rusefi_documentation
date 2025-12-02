@@ -9,7 +9,7 @@
 - [Support & Community](Support)
 - [How to create a TunerStudio project](HOWTO-create-tunerstudio-project)
 - [rusEFI Online](Online)
-- [HOWTOs and FAQs](Pages-FAQ-and-HOWTO)
+- [FAQs and HOWTOs](Pages-FAQ-and-HOWTO)
 
 ## Guides
 

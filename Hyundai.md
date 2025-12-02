@@ -6,6 +6,8 @@
 
 [2003 Accent](Hyundai-Accent-2003)
 
+[2005 Spectra](Kia-Spectra-2005)
+
 [2005 Accent](Hyundai-Accent-2005)
 
 [2012 Sorento](Kia-Sorento-2012)

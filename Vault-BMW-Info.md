@@ -57,6 +57,8 @@ BMW 7 Series (E38) 1994–2001
 
 [HOWTO M73 v12 on Proteus](HOWTO-M73-v12-on-Proteus)
 
+[How To Custom M73 Full Harness](HOWTO-custom-harness-lazyharnezz-M73)
+
 BMW [5 Series E39](BMW-e39)  1995–May 2004
 
 [3 Series E46](BMW-e46) 1997–2006
@@ -67,7 +69,11 @@ BMW [5 Series E39](BMW-e39)  1995–May 2004
 
 [BMW S1000RR](BMW-S1000RR)
 
+[2003 Mini](Mini-Cooper-2003)
+
 [BMW N20](BMW-N20)
+
+[BMW N73](BMW-N73)
 
 ## TEVES MK60 Info
 
