@@ -16,7 +16,7 @@ Continue reading for more detailed setup steps.
 
 1. [Download the rusEFI bundle](Download) for your ECU.
 
-2. Extract the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual Com Port and DFU drivers. If necessary the bundle will also help you install the Java runtime.
+2. Extract the bundle and launch the rusEFI console. Hit the "Install Drivers" button to install the Virtual COM Port and DFU drivers. If necessary, the bundle will also help you install the Java runtime.
 
     ![console](Images/rusEFI_console_start_screen.png)
 
@@ -37,9 +37,9 @@ Your board comes with rusEFI firmware installed on it, but it should be updated.
 
 Follow the [Get Running With a Universal ECU guide](HOWTO-Get-Running).
 
-### With a Plug & Play ECU
+### With a Plug-and-Play ECU
 
-Follow the [Get Running With a Plug & Play ECU guide](HOWTO-Get-Running-PnP).
+Follow the [Get Running With a Plug-and-Play ECU guide](HOWTO-Get-Running-PnP).
 
 ## Tuning
 
@@ -49,9 +49,9 @@ Follow the [Get Running With a Plug & Play ECU guide](HOWTO-Get-Running-PnP).
 
 Any troubleshooting begins with logs. One of rusEFI's powers is the amount of data points available for logging!
 
-Shaky videos will not do. Even high-resolution screen shots wil not do—*it has to be a proper log file*.
+Shaky videos will not do. Even high-resolution screenshots wil not do—*it has to be a proper log file*.
 
-TunerStudio's built in logging utility is the preferred method for producing logs. For more information and instrucions, see the [Logging Guide](Logging-Guide).
+TunerStudio's built-in logging utility is the preferred method for producing logs. For more information and instructions, see the [Logging Guide](Logging-Guide).
 
 ## Analyzing Logs
 

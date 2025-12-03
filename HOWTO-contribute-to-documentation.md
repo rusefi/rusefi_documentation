@@ -1,16 +1,16 @@
-# How to contribute to documentation
+# How to Contribute to Documentation
 
-In order to leverage the Github pull request process for access control to the wiki, it is stored in a separate [Github repo](https://github.com/rusefi/rusefi_documentation).
+In order to leverage the GitHub pull request process for access control to the wiki, it is stored in a separate [GitHub repo](https://github.com/rusefi/rusefi_documentation).
 
 ## Editing
 
 ### Editing from a Wiki3 page
 
-1. From the wiki page you wish to edit on [https://wiki.rusefi.com](https://wiki.rusefi.com), click on the "Edit on GitHub" link in the upper right hand corner.
+1. From the wiki page you wish to edit on [https://wiki.rusefi.com](https://wiki.rusefi.com), click on the "Edit on GitHub" link in the upper right-hand corner.
 
-2. Sign in to [Github](https://github.com) or sign up if you aren't already
+2. Sign in to [GitHub](https://github.com) or sign up if you aren't already.
 
-3. Edit the page, scroll to bottom of page and enter a "change title" and clicking on "Propose Changes". This will fork the repository (if not created already), create a branch and give you the option to create a pull request.
+3. Edit the page, scroll to the bottom of the page, enter a "change title", then click on "Propose Changes". This will fork the repository (if not created already), create a branch and give you the option to create a pull request.
 
    ![image](Images/GH_repo_contribute.png)
 
@@ -18,12 +18,12 @@ In order to leverage the Github pull request process for access control to the w
 
 ### Alternative: Editing from a fork of the repo
 
-1. Sign up or sign in to [Github](https://github.com) if you aren't already
+1. Sign up or sign in to [GitHub](https://github.com) if you aren't already.
 
-2. Open [the documentation repo](https://github.com/rusefi/rusefi_documentation) and click 'Fork' - this would produce your own fork/copy of rusefi_documentation which you can now edit right in your browser!
+2. Open [the documentation repo](https://github.com/rusefi/rusefi_documentation) and click 'Fork' - this will produce your own fork/copy of rusefi_documentation which you can now edit right in your browser!
    ![editor](Images/github_online_editor.png)
 
-3. Edit your code and Commit changes using the button below the editor.
+3. Edit your code and commit changes using the button below the editor.
 
 4. Once you are ready to contribute your changes, click the 'New pull request' button on the main page of your fork.
 
@@ -37,52 +37,56 @@ If you are using Linux, macOS, or WSL on Windows, this is a good option because 
 
 3. [Test your changes](HOWTO-Test-Doc-Changes).
 
-4. Push your changes to your fork on Github, and create a pull request.
+4. Push your changes to your fork on GitHub, and create a pull request.
 
 ### After creating a Pull Request
 
-Within the next 5 minutes after the pull request has been merged, a Github Action automatically builds the wiki and uploads it to both wikis.
+Within the next 5 minutes after the pull request has been merged, a GitHub Action automatically builds the wiki and uploads it to both wikis.
 
-## How to contribute to rusEFI TunerStudio project
+See also [Documentation Strategy](Documentation-Strategy)
 
-1. Sign up or sign in to [Github](https://github.com) if you aren't already
+## How to Contribute to the rusEFI TunerStudio Project
 
-2. Go to  [https://github.com/rusefi/rusefi](https://github.com/rusefi/rusefi) and click "Fork" near the upper right corner
+1. Sign up or sign in to [GitHub](https://github.com) if you aren't already.
 
-3. Edit your fork of [the TunerStudio input](https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/tunerstudio.template.ini) file
+2. Go to  [https://github.com/rusefi/rusefi](https://github.com/rusefi/rusefi) and click "Fork" near the upper right corner.
 
-4. Click "Contribute", then "Open Pull Request", and finally "Create Pull Request"
+3. Edit your fork of [the TunerStudio input](https://github.com/rusefi/rusefi/blob/master/firmware/tunerstudio/tunerstudio.template.ini) file.
+
+4. Click "Contribute", then "Open Pull Request", and finally "Create Pull Request".
 
 5. Wait for your changes to be reviewed and merged.
 
 [This commit](https://github.com/rusefi/rusefi/commit/9d9ae5a05499027b32ed76df3e7ee2e2e8240c31) is an example of how more help could be added
-right into TunerStudio project file. Lines with green background are the lines being added.
+right into the TunerStudio project file. Lines with green background are the lines being added.
 
-Unfortunately while you would be modifying your mainController.ini file while trying your changes, you need to edit rusefi.input file which
-is a template from which rusefi.ini is generated programmatically on rusefi side.
+While you can modify your mainController.ini file while trying your changes, you will need to edit the tunerstudio.template.ini file which
+is a template from which rusefi.ini is generated programmatically automated processes.
 
-## Technical implementation details
+## Technical Implementation Details
 
-Github Wiki is weird.
+GitHub Wiki is weird.
 
-One the one hand, we have [https://github.com/rusefi/rusefi_documentation](https://github.com/rusefi/rusefi_documentation), which we will call "wiki-source".  
+On the one hand, we have [https://github.com/rusefi/rusefi_documentation](https://github.com/rusefi/rusefi_documentation), which we will call "wiki-source".  
 That's a git repository with nice pull request process, but less nice web page rendering which starts each page by showing a list of files - that's not what end users want to see.
 
-On the other hand, we have [the Github Wiki](https://github.com/rusefi/rusefi/wiki), which we will call "wiki2" which is displayed much nicer - and that is actually implemented by ANOTHER git repository <https://github.com/rusefi/rusefi.wiki.git> behind the scenes.  
+On the other hand, we have [the GitHub Wiki](https://github.com/rusefi/rusefi/wiki), which we will call "wiki2" which is displayed much nicer - and that is actually implemented by *another* git repository <https://github.com/rusefi/rusefi.wiki.git> behind the scenes.  
 That repository does not have a nice Pull Request process :(
 
 Solution? A combination. [wiki2](https://github.com/rusefi/rusefi/wiki) and [wiki-source](https://github.com/rusefi/rusefi_documentation) repositories are actually set to mirror each other.
 This way we have the nice Pull Request process on [wiki-source](https://github.com/rusefi/rusefi_documentation) and once changes are merged, the wiki-source repo is then automatically merged into the wiki2 repo, which makes actual content nicely visible on [wiki2](https://github.com/rusefi/rusefi/wiki)  
-Synchronization between wiki2 and wiki-source is automated via [Github Action](https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml), file content is expected to be the same between these two repositories.
+Synchronization between wiki2 and wiki-source is automated via [GitHub Actions](https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml); file content is expected to be the same between these two repositories.
+
+After every change, [a node map](https://wiki.rusefi.com/nodemap.html) of the links between documents is also generated.
 
 ## How Page Titles Work on Wiki3
 
 If the first line with content is a top-level header, e.g. `# rusEFI Documentation`, that will be used as the page title.
-If not, the file name will be used as the page title, only without the hyphens.
+If not, the file name will be used as the page title, but without the hyphens.
 
 ## How URL links work in markdown documents
 
-Links to page names use only the name of the page.
+Links to pages use only the name of the page.
 Example:
 
 `[How to contribute to documentation](HOWTO-contribute-to-documentation)`  
@@ -103,16 +107,14 @@ See also [How To Validate Links](HOWTO-validate-links)
 
 Link shortcuts are maintained in https://github.com/rusefi/web_backend/tree/master/www/s#readme
 
-ToDo: explain rules when to use link shortcuts
-
 ## Technical FAQ
 
-**Q:** Is there a place where we are holding all images for these documents?  
-**A:** We have images in the same repository! Just add your images while editing pages. Please consider using some (any really) folder structure.
+*__Q:__ Is there a place where we are holding all images for these documents?*  
+__A:__ We have images in the same repository! Just add your images while editing pages. Please consider using some folder structure.
 For example [https://github.com/rusefi/rusefi_documentation/blob/master/Images/TS/TunerStudio_new_project.png](https://github.com/rusefi/rusefi_documentation/blob/master/Images/TS/TunerStudio_new_project.png) is visible on wiki.rusefi.com as [https://wiki.rusefi.com/Images/TS/TunerStudio_new_project.png](https://wiki.rusefi.com/Images/TS/TunerStudio_new_project.png)
 
-**Q:** What sort of fancy options do we have?  
-**A:** We can do collapsible sections & hints sections! See [cranking](Cranking) for an example. Unfortunately, it's quite picky about how you format the markdown.
+*__Q:__ What sort of fancy options do we have?*  
+__A:__ We can do collapsible sections and hint sections! See [cranking](Cranking) for an example. Unfortunately, it's quite picky about how you format the markdown.
 
 ``` html
 <details markdown="1"><summary>More...</summary>
@@ -124,13 +126,9 @@ For example [https://github.com/rusefi/rusefi_documentation/blob/master/Images/T
 ^ Must have empty line after </details>
 ```
 
-**Q**: Is it ok that <https://github.com/rusefi/rusefi.wiki.git> cannot be opened from browser?  
-**A**: There is no reason to open <https://github.com/rusefi/rusefi.wiki.git> from browser. Also while you technically
+*__Q:__ Is it ok that <https://github.com/rusefi/rusefi.wiki.git> cannot be opened from browser?*  
+__A:__ There is no reason to open <https://github.com/rusefi/rusefi.wiki.git> from browser. Also while you technically
 CAN "git clone <https://github.com/rusefi/rusefi_documentation.wiki.git>" and it would work -
  you should NOT. Anyone looking to make changes should be making changes to non-wiki git via normal fork & pull request process.
 
 Additional automation is in charge of merging from <https://github.com/rusefi/rusefi_documentation.git> into <https://github.com/rusefi/rusefi_documentation.wiki.git>
-
-After every change, [a node map](https://wiki.rusefi.com/nodemap.html) of the links between documents is generated.
-
-See also [Documentation Strategy](Documentation-Strategy)
