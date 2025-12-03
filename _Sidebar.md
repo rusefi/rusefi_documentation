@@ -39,7 +39,7 @@
 - [microRusEFI](microRusEFI-Manual)
 - [Proteus](Proteus)
 
-### Plug & Play ECUs
+### Plug-and-Play ECUs
 
 - [Honda OBD1](uaEFI-Honda-OBD1)
 - [GM E38](GM-E38)

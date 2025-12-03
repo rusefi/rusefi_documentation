@@ -1,8 +1,8 @@
 # BMW M73 full PnP harness
 
-See also [rusEFI Quick Start](HOWTO-quick-start)
+See also [rusEFI Quick Start](HOWTO-quick-start).
 
-Expected VR shape see [Trigger-Configuration-Guide](Trigger-Configuration-Guide#determine-correct-polarity)
+Expected VR shape: see the [Trigger Configuration Guide](Trigger-Configuration-Guide#determine-correct-polarity).
 
 ![image](Images/Trigger_waveform.png)
 
@@ -26,25 +26,31 @@ https://rusefi.com/docs/pinouts/proteus/?connector=black35&pin=23
 
 ## Nissan ETBs
 
-Hitachi SERA576-01 60mm diameter for instance 2003 infinity g35
+Hitachi SERA576-01 60mm diameter, found on for example the 2003 Infiniti G35
 
 https://rusefi.com/docs/pinouts/proteus/?connector=black23&pin=6
 
-First ETB cable has orange mark.
+The first ETB wire has an orange mark.
 
-green https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=24
+Green: https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=24
 
-yellow https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=14
+Yellow: https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=14
 
 TPS #2
 
-green https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=25
+Green: https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=25
 
-yellow https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=15
+Yellow: https://rusefi.com/docs/pinouts/proteus/?connector=white35&pin=15
 
 ## Cam
 
-Uses +12v power
+Uses +12V power
+
+## Crank
+
+M70-style three-pin
+
+![WhatsApp Image 2024-05-03 at 11 17 05_9c9418e3](Images/CKP_connector.jpeg)
 
 ## TMAP
 
@@ -54,19 +60,13 @@ BOSCH 0261230217
 
 IAT white, MAP blue
 
-## Crank
-
-M70 style three pin
-
-![WhatsApp Image 2024-05-03 at 11 17 05_9c9418e3](Images/CKP_connector.jpeg)
-
 ## CLT
 
 ![WhatsApp Image 2024-05-03 at 11 14 42_78abb761](Images/CLT_connector.jpeg)
 
 ## Fuel Pressure Sensor
 
-100 psi https://www.amazon.com/gp/product/B09FXDNHPG/
+100 psi pressure sensor: https://www.amazon.com/gp/product/B09FXDNHPG/
 
 ## WBO
 
@@ -82,7 +82,7 @@ Green Fan LS15
 
 ## Pedal
 
-Many pedals would work if you wire, one popular sensor mounted on many different Toyota and Nissan vehicles see [Nissan Pedal](Vault-Of-Electronic-Throttle-Bodies-ETB#nissan-pedal)
+Many pedals would work if you wire them in. For one popular sensor mounted on many different Toyota and Nissan vehicles see [Nissan Pedal](Vault-Of-Electronic-Throttle-Bodies-ETB#nissan-pedal)
 
 ## Integration
 

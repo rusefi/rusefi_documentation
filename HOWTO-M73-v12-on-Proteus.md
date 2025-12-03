@@ -1,36 +1,35 @@
-# HOWTO M73 V12 on Proteus
+# How to M73 V12 on Proteus
 
-* [💲rusEFI Proteus💲](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n) can run M70/M73 port injected v12
-* we do not support unusual M73 throttle bodies, we also only support 6 wire pedal position sensors. Nissan throttle bodies are the best fit we found for M73
-* MAP sensor fuel control strategy is recommended that would require MAP sensor to be fitted on the engine
+* [💲rusEFI Proteus💲](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n) can run a M70/M73 port-injected v12.
+* We do not support unusual M73 throttle bodies; we also only support 6 wire pedal position sensors. Nissan throttle bodies are the best fit we have found for M73
+* MAP sensor fuel control strategy is recommended; that would require MAP sensor to be fitted on the engine
 
-See also [HOWTO-Crimp-Ampseal](HOWTO-Crimp-Ampseal)
+See also [HOWTO-Crimp-Ampseal](HOWTO-Crimp-Ampseal).
 
 [Adapter board](https://github.com/rusefi/proteus-M73tu-adapter/)
 
-See also [Vault-Of-Electronic-Throttle-Bodies-ETB](Vault-Of-Electronic-Throttle-Bodies-ETB) Nissan Hitachi SERA576-01 60mm throttle body recommended. In order to mount SERA576-01 you just need to drill ETB bolt passages to 10mm / 3/8".
+See also [Vault-Of-Electronic-Throttle-Bodies-ETB](Vault-Of-Electronic-Throttle-Bodies-ETB).  
+The Nissan Hitachi SERA576-01 60mm throttle body is recommended. In order to mount the SERA576-01 you just need to drill ETB bolt passages to 10mm / 3/8".
 
 [M73 wiring diagram](BMW-e38-750)
 
-~6 wires are different between [Proteus 0.2](Hardware-Proteus-Wiring-v02) and [Proteus 0.3+](Hardware-Proteus-Wiring-v03) - all on the 23 pin plug.
+About six wires are different between [Proteus 0.2](Hardware-Proteus-Wiring-v02) and [Proteus 0.3+](Hardware-Proteus-Wiring-v03) - all on the 23-pin plug.
 
-This HOWTO is focusing on M73 engine with stock ECU harness. 1998 stock ECU harness has two 134 pin connectors.
+This HOWTO focuses on M73 engine with a stock ECU harness. The 1998 stock ECU harness has two 134-pin connectors.
 
-On my 1998 first set of 9+24+52+40+9=134 pins total is BLACK.
-
-Second set of 9+24+52+40+9=134 pins total is GREY.
+The 1998 example used as a test mule has a black connector and a grey connector. Each connector has 9+24+52+40+9=134 pins total.
 
 rusEFI uses six wire colors: black white red orange green blue.
 
 ## Proteus
 
-* +12 from main relay
-* x12 injectors
+* +12V from main relay
+* 12 injectors
 * CLT
 * IAT
 
-Total wires between Proteus and GREY - 10
-Total wires between Proteus and BLACK - 22
+Total wires between Proteus and the grey connector: 10
+Total wires between Proteus and the black connector: 22
 
 Destination legend:
 "Black #3 40/52" means "Black set of ECU plugs, connector #3 - pin 40 of 52 total pins"
@@ -253,9 +252,9 @@ Toyota Battery pin #9 to both BLACK and GREY breakout #1 8/9
 
 See also [the Vault of Electronic Throtttle Bodies](Vault-Of-Electronic-Throttle-Bodies-ETB)
 
-Pictured Proteus with ampseal connectors, non-BMW pedal sensor, two non-BMW ETB connectors, igniter, two breakout boards for the stock connectors.
+Pictured is a Proteus with ampseal connectors, non-BMW pedal sensor, two non-BMW ETB connectors, ignitor, and two breakout boards for the stock connectors.
 
-OEM pedal and ETBs are too unusual thus complete redesign of pedal and ETB hardware and wiring.
+The OEM pedal and ETBs are too unusual, thus a complete redesign of pedal and ETB hardware and wiring was expedient.
 
 ![x](OEM-Docs/Bmw/1998_750_e38/proteus_0.2/Proteus_ready_for_M73.jpg)
 

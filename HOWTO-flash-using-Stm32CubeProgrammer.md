@@ -2,14 +2,14 @@
 
 Stm32CubeProgrammer is the last most powerful option for DFU and ST-Link firmware update.
 
-[https://www.st.com/en/development-tools/stm32cubeprog.html](https://www.st.com/en/development-tools/stm32cubeprog.html) to download
+Visit [https://www.st.com/en/development-tools/stm32cubeprog.html](https://www.st.com/en/development-tools/stm32cubeprog.html) to download.
 
-Cube is simple to use, place device in dfu
+Cube is simple to use.
 
-Search usb, it would see chip connected to usb
+1. Place the device in DFU mode
+2. Search USB and it will see the chip connected to USB
+3. Open hex and download
 
-Open hex and download
-
-A major down side of Stm32CubeProgrammer is [this driver issue.](HOWTO-DFU#q-i-have-stm-device-in-dfu-mode-in-device-manager-and-rusefi-console-does-not-update-firmware-whats-wrong)
+A major downside of Stm32CubeProgrammer is some incompatibility between driver versions, which can result in rusEFI Console being unable to update the firmware.
 
 See also [HOWTO-nDBANK](HOWTO-nDBANK)

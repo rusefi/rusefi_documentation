@@ -2,9 +2,9 @@
 
 The weakest point of rusEFI is lack of samples and success stories. If your vehicle is running rusEFI, please post it on the [forum](https://rusefi.com/forum)!
 
-We also do not have much user feedback in general - we do not know how many rusEFI units are used regularly and what are users looking for (we know about launch control).
+We also do not have much user feedback in general - we do not know how many rusEFI units are used regularly and what users are looking for (we know about launch control).
 
-Another weak point of rusEFI is documentation. If you've played with rusEFI for any time chances are you have help [improve the documentation.](HOWTO-contribute-to-documentation)
+Another weak point of rusEFI is documentation. If you've played with rusEFI for any amount of time, chances are you have the ability to help [improve the documentation](HOWTO-contribute-to-documentation).
 
 We are also extremely short on software developers. [HOWTO contribute to firmware](HOWTO-contribute-to-firmware)
 
@@ -14,14 +14,14 @@ We hope that as a community we can leverage each other's skills and have peacefu
 
 ## Q: What's the plan about XXX?
 
-A: How can you help? There are so many ways to help, quite often having a test mule and being available to try new features is huge help!
+A: How can you help? There are so many ways to help; quite often having a test mule and being available to try new features is a huge help!
 
 ## Last but not least
 
-Test PCBs, forum hosting, damaged hardware and etc. costs money
+PCB testing, forum hosting, damaged hardware, etc. costs money.
 
 There are two ways to help financially:
 
-One-time or monthly [https://tinyurl.com/paypal-rusefi](https://tinyurl.com/paypal-rusefi)  
+One-time or monthly [Paypal](https://tinyurl.com/paypal-rusefi)  
 
 One-time or monthly [rusEFI Patreon](https://www.patreon.com/rusefi)

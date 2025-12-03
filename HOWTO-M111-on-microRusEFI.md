@@ -6,12 +6,12 @@ See also [Custom-M111-Full-Engine-Harness](Custom-M111-Full-Engine-Harness)
 
 See also [OEM-harness-connectors#mercedes](OEM-harness-connectors#mercedes)
 
-* Important suggestion: use Honda accelerator pedal position sensor (PPS) in the engine bay not Mercedes pedal position sensor
-  * Honda OE part number: 37971-RBB-003, 37971-PZX-003, 37971-RCA-A01, 37971-RDA-A01
-  * Replace Part Number: 5S8776, APS147, PPS1046, 72-7080, 1802-300281, 2-80046, SU10238, 699-199, 699199.
+* Important suggestion: use a Honda accelerator pedal position sensor (PPS) in the engine bay not a Mercedes pedal position sensor
+  * Honda OE part numbers: 37971-RBB-003, 37971-PZX-003, 37971-RCA-A01, 37971-RDA-A01
+  * Replace Part Numbers: 5S8776, APS147, PPS1046, 72-7080, 1802-300281, 2-80046, SU10238, 699-199, 699199.
   * Connector: 6-way Pigtail for Honda Acura Throttle pedal sensor
 
-* Less important trick: 4 wire GM MAP+IAT
+* Less important trick: 4-wire GM MAP+IAT
 
 * Less important trick: fuel pressure mod
 
@@ -29,7 +29,7 @@ This ECU has a CAR connector with 145 pins. Diagram with diagnostic pin assignme
 
 How to read the following table:
 
-Connector : Connector from A to F on the harness.
+Connector: Connector from A to F on the harness.
 
 Pin: Pin number of the connector.
 

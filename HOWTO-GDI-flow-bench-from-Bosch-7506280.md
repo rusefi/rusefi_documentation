@@ -1,6 +1,6 @@
 # HOWTO GDI Flow Bench From Bosch 7506280
 
-[bosch 7506280 GDI driver - Forum](https://rusefi.com/forum/viewtopic.php?f=4&t=1564)
+[Bosch 7506280 GDI driver - Forum](https://rusefi.com/forum/viewtopic.php?f=4&t=1564)
 
 [BMW e65](BMW-e65)
 
@@ -52,4 +52,3 @@
 | 119 |               |       | inj gnd #2                           |              |               |
 | 120 |               |       | inj pos #6                           |              |               |
 | 121 |               |       | inj pos #2                           |              |               |
-|     |               |       |                                      |              |               |

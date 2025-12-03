@@ -1,12 +1,12 @@
-# Get Running With a Plug & Play ECU
+# Get Running With a Plug-and-Play ECU
 
 ## Warm it Up
 
-If possible, run your car on your stock ECU to warm it up. This may make it easier to start, especially when it's cold outside.
+If possible, run your car using your stock ECU to warm it up. This may make it easier to start, especially when it's cold outside.
 
 ## Plug it In
 
-Unplug your stock ECU and plug in your rusEFI ECU. It's best to leave the ECU's case open for now, so you can observe blinking lights etc.
+Unplug your stock ECU and plug in your rusEFI ECU. It's best to leave the ECU's case open for now, so you can observe blinking lights, etc.
 
 ## Power On
 
@@ -22,10 +22,10 @@ You should see sensor inputs and some output values like ignition timing and dwe
 
 If things are set up properly, you should see reasonable values for:
 
-* Coolant temperature (CLT)
-* Intake Air temperature (IAT)
-* Battery Voltage (BV)
-* Manifold Air Pressure (MAP/MAF) (should be near 100kpa if you're using a MAP sensor)
+* Coolant Temperature (CLT)
+* Intake Air Temperature (IAT)
+* Battery Voltage (VBATT)
+* Manifold Air Pressure (MAP/MAF) (should be near 100 kPa if you're using a MAP sensor)
 * Throttle Position Sensor (TPS)
 
  The values may show some jitters. RPMs should be 0. Push your throttle pedal and see if you get a response. Congratulations—your rusEFI ECU can "see" your car.
@@ -44,13 +44,17 @@ Save (Burn) calibration to ECU.
 
 ## Test Outputs
 
-Test your outputs. Under "Controller" -> "Bench Test & Commands" you can see a lot of options for outputs you can test. Let's focus on the basic ones for now. Spark and Fuel. First, if your car's fuel pump is controlled by the ECU, test "Fuel Pump". You should hear the fuel pump running.
+Test your outputs. Under "Controller" -> "Bench Test & Commands" you can see a lot of options for outputs you can test. Let's focus on the basic ones for now.
+
+### Spark and Fuel
+
+First, if your car's fuel pump is controlled by the ECU, test "Fuel Pump". You should hear the fuel pump running.
 
 Then move on to spark. Here it depends on how your car is set up. If you have a 4-cylinder with wasted spark (which is likely the majority of users), you will likely be using "Spark #1" and "Spark #3". When you click the test button, you should hear the corresponding ignition coil firing. If you can't hear the spark, you may want to pull a spark plug (or use a spare) and hook it up to the spark plug connector and ground it. Test again and you should see a spark arcing. Don't shock yourself.
 
-Now it's time to test your injectors. Again, this depends on your vehicle. Most cars will at least have two banks of injectors. So you should definitely hear injectors firing when you're testing "Injector #1" and "Injector #2". If you have full-sequential fuel, you should try as many injectors as your engine has cylinders. **Fuel is flammable. Have a fire extinguisher near by just in case.**
+Now it's time to test your injectors. Again, this depends on your vehicle. Most cars will at least have two banks of injectors. So you should definitely hear injectors firing when you're testing "Injector #1" and "Injector #2". If you have full-sequential fuel, you should try as many injectors as your engine has cylinders. **Fuel is flammable. Have a fire extinguisher nearby just in case.**
 
-That's the basic outputs tested. With this you should be able to get the engine to run. You can go ahead and test the other outputs as well. Like Check Engine Light. Engine-Fan, AC, AC-Fan etc.
+That's the basic outputs tested. With this, you should be able to get the engine to run. You can go ahead and test the other outputs as well. For example: Check Engine Light, Engine Fan, AC, Cooling Fan, etc.
 
 Close the test window. We're getting close to starting the car.
 
