@@ -10,6 +10,6 @@ Cube is simple to use.
 2. Search USB and it will see the chip connected to USB
 3. Open hex and download
 
-A major downside of Stm32CubeProgrammer is [this driver issue.](HOWTO-DFU#q-i-have-stm-device-in-dfu-mode-in-device-manager-and-rusefi-console-does-not-update-firmware-whats-wrong)
+A major downside of Stm32CubeProgrammer is some incompatibility between driver versions, which can result in rusEFI Console being unable to update the firmware.
 
 See also [HOWTO-nDBANK](HOWTO-nDBANK)

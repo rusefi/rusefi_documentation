@@ -1,4 +1,4 @@
-# HOWTO Make a Plug-and-Play Board
+# How to Make a Plug-and-Play Board
 
 ## Summary
 
@@ -18,7 +18,7 @@ There is no downside. It is both project risk management 101 and project acceler
 
 ## Longer Version
 
-I am going to make a Nissan 76-pin -> rusEFI "Proteus" adapter. A friend asked how I was going to do it because he was interested in making a PnP PCB for his car. These instructions are pretty general. "Proteus" can mean any rusEFI version that has enough "stuff" to run your engine. "Nissan 76-pin" can mean whatever OEM connector will work for your engine. I'm going to assume KiCAD is being used but there's nothing stopping you from using your CAD package of choice. 
+I am going to make a Nissan 76-pin -> rusEFI "Proteus" adapter. A friend asked how I was going to do it because he was interested in making a PnP PCB for his car. These instructions are pretty general. "Proteus" can mean any rusEFI version that has enough "stuff" to run your engine. "Nissan 76-pin" can mean whatever OEM connector will work for your engine. I'm going to assume KiCAD is being used but there's nothing stopping you from using your CAD package of choice.
 
 Steps:
 
@@ -28,21 +28,21 @@ Steps:
 **MAKE SURE THAT THERE ARE ENOUGH PINS ON THE RUSEFI BOARD YOU WANT TO USE TO MAP 1:1 WITH THE OEM CONNECTOR!**
 4. Identify any power distribution pins.
     * Constant/battery +12V
-	* Main power/switched 12V
-	* Main relay/ASD relay control
-	* Power ground(s)
-	* Sensor grounds
-	* Sensor reference (+5V)
+    * Main power/switched 12V
+    * Main relay/ASD relay control
+    * Power ground(s)
+    * Sensor grounds
+    * Sensor reference (+5V)
 
-	Be aware that not all OEM harnesses do power distribution the same way. You can add a "main relay" or "auto shutdown (ASD) relay" on your adapter board, if need be.
+    Be aware that not all OEM harnesses do power distribution the same way. You can add a "main relay" or "auto shutdown (ASD) relay" on your adapter board, if need be.
 
 5. Match up Nissan OEM pinout and Proteus resources:
     * Match unique items first - knock sensor(s), idle motors, etc.
-	* Match special function items next - coils, injectors, etc.
-	* Assign an initial 1:1 connection, or at least where you think it should go.
-	* Match GPIO functions like fuel pump, etc. to available I/O.
-	* Pay attention to high side drive vs. low side drive.
-	* Try to group pins of like function, keeping in mind interchangeability of coil/injector assignments and of GPIO pins for routing later.  
+    * Match special function items next - coils, injectors, etc.
+    * Assign an initial 1:1 connection, or at least where you think it should go.
+    * Match GPIO functions like fuel pump, etc. to available I/O.
+    * Pay attention to high side drive vs. low side drive.
+    * Try to group pins of like function, keeping in mind interchangeability of coil/injector assignments and of GPIO pins for routing later.  
 6. Fire up KiCAD. Choose/create a schematic element with 76 pins to assign to the Nissan 76 pin connector. This can be as simple or as fancy as you want. This can be an existing symbol. The important thing is that the symbol has the same number of pins as the connector you want to use for your PnP.
 7. Create symbol(s) to use for the rusEFI board that you're going to connect to the OEM connector. Again, you need to make sure that your symbol has the same number of pins on it as the connectors on the rusEFI board. On the Proteus PCB, I need 2x 35pin and 1x 23 pin for the Ampseal connectors on the PCB. You're probably *not* going to use a board that actually has these connectors soldered to it but it will be *much* easier to connect your adapter board to an existing rusEFI board if you can just set the two boards on top of each other and use a bunch of straight pins/wires to connect the two boards together - so that's how we're going to set it up.
 8. On the schematic in KiCAD, assign all pins on Nissan76 the unique meaningful name from your spreadsheet, to keep them straight. You will use this same name later to connect Proteus pins to OEM connector pins, taking advantage of the fact that KiCAD creates an electrical connection between signals which have the same name.
@@ -54,14 +54,14 @@ Steps:
 14. Place the connectors for Proteus so that simple straight pins can connect the two PCBs. This means putting the connectors on your PCB where you can simply place the Proteus PCB on top. Pay attention to connector orientation!
 15. It's time to start routing connections:
 
-	* Route unique, sensitive tracks first. Knock sensors come to mind. VR sensors come to mind. Be mindful of the need for ground planes / signal return path! Cars are electrically noisy environments and failure to think about signal return paths will cause problems. If you need more of a primer on this, look up papers and videos on high speed design and controlled impedance as the same concepts will apply.
-	* Route analog signals. Start with the analog +5v reference. Try to stake out an area to put a power plane for analog ground such that all analog signals can be on top of the power plane. Then move on to analog signals.  
-	* Remember that in most cases, ALL analog inputs will be able to be used for ALL sensors. You can swap AN1 and AN6 on rusEFI boards in order to get cleaner routing to the OE traces that can't be moved on the OEM connector.
-	* Route unique signals like idle, DBW, etc. You will have extremely limited choice for these so getting them out of the way first is a good idea.
-	* Route coils as a group. Remember that in almost all cases you'll be able to set the phase of the coils so any coil output can be used to drive any ignition coil. Swap signals in order to keep layout as clean as possible.
-	* Route injectors as a group. Again, swap signals to keep layout as clean as possible.
-	* Route any GPIO, main relay control, etc. etc. etc. Keep in mind Low Side Drivers and High Side Drivers are not compatible. Swap signals around to keep layout as clean as possible. Be mindful of any current requirements!
-	* At this point, the analog power reference should already be routed along with an associated limited power plane for analog signals. It's time to route primary power and ground pins. Start with constant battery power as this is typically a low-power signal. **FOR POWER, YOU WANT TO USE POURS/PLANES WHERE POSSIBLE.** Typically, top-side power pour and bottom side ground pour. Keep in mind that analog signals should have ANALOG GROUND RETURN plane underneath them if possible, **NOT** the main ground plane.  
+    * Route unique, sensitive tracks first. Knock sensors come to mind. VR sensors come to mind. Be mindful of the need for ground planes / signal return path! Cars are electrically noisy environments and failure to think about signal return paths will cause problems. If you need more of a primer on this, look up papers and videos on high speed design and controlled impedance as the same concepts will apply.
+    * Route analog signals. Start with the analog +5v reference. Try to stake out an area to put a power plane for analog ground such that all analog signals can be on top of the power plane. Then move on to analog signals.  
+    * Remember that in most cases, ALL analog inputs will be able to be used for ALL sensors. You can swap AN1 and AN6 on rusEFI boards in order to get cleaner routing to the OE traces that can't be moved on the OEM connector.
+    * Route unique signals like idle, DBW, etc. You will have extremely limited choice for these so getting them out of the way first is a good idea.
+    * Route coils as a group. Remember that in almost all cases you'll be able to set the phase of the coils so any coil output can be used to drive any ignition coil. Swap signals in order to keep layout as clean as possible.
+    * Route injectors as a group. Again, swap signals to keep layout as clean as possible.
+    * Route any GPIO, main relay control, etc. etc. etc. Keep in mind Low Side Drivers and High Side Drivers are not compatible. Swap signals around to keep layout as clean as possible. Be mindful of any current requirements!
+    * At this point, the analog power reference should already be routed along with an associated limited power plane for analog signals. It's time to route primary power and ground pins. Start with constant battery power as this is typically a low-power signal. **FOR POWER, YOU WANT TO USE POURS/PLANES WHERE POSSIBLE.** Typically, top-side power pour and bottom side ground pour. Keep in mind that analog signals should have ANALOG GROUND RETURN plane underneath them if possible, **NOT** the main ground plane.  
 
 16. Final step: go back and update your spreadsheet with what you ACTUALLY connected. Make sure your OEM coil numbers are mapped to the coil driver that is connected on the PCB. Make sure the OEM injector numbers are mapped to the drivers controlling them. Make sure that the specific sensors on the harness are mapped to the general analog inputs receiving the signal. Make sure your solenoids, relays, etc. are mapped to GPIO. When you go to configure the unit, having this information to refer to will be invaluable and save you having to chase your schematic.
 

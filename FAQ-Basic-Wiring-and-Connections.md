@@ -145,4 +145,3 @@ In regards to Knock Sensor quality of signal, a shielded cable (2 core) is recom
 - Shield and GND of sensor goe to Sensor GND
 
 Doing it this way is preferred to get the best performance from your ECU input and sensor.
-

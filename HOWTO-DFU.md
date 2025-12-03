@@ -25,7 +25,7 @@ __A:__ No. We have a small portion of STM32CubeProgramer embedded into rusEFI co
 __A:__ We have a report of this [on the forum](https://www.rusefi.com/forum/viewtopic.php?p=42317#p42317). For now, please keep trying!
 
 *__Q:__ How do I do this in macOS or Linux?*  
-__A:__ rusEFI console firmware functionality currently runs on Windows only. 
+__A:__ rusEFI console firmware functionality currently runs on Windows only.
 
 *__Q:__ Do you have any ST-Link provisions?*  
 __A:__ Some boards have Tag-Connect-TC2030 upwards three of those! Some boards have an unofficial (?) ST-Link V2 pinout. Both are intended for software developers while debugging issues, those are not intended for firmware update/recovery.
