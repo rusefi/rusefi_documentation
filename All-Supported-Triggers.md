@@ -2,12 +2,12 @@
 
 See also [Trigger](Trigger)
 
-To change your trigger settings, open TunerStudio, Engine->Trigger Configuration.
+To change your trigger settings, open TunerStudio, then go to Base Engine->Trigger.
 
 ## Important Note
 
-Cam always goes before crank. For shapes with two wheels, left wheel is top in tuner studio.
-Also order of channels on engine sniffer should match order of channels on the bottom part of corresponding image.
+For shapes with two wheels, the cam wheel should be the primary channel in TunerStudio, and is displayed on the left in the screenshots below.
+Also, the order of channels in the engine sniffer should match the order of channels on the bottom part of corresponding image.
 
 [Universal](#universal)
 
@@ -31,14 +31,9 @@ Also order of channels on engine sniffer should match order of channels on the b
 
 [Miscellaneous](#miscellaneous)
 
-## Universal
-
-Universal  36/1
-ToDo: add picture
-
 ## 60/2
 
-If you also have a CAM sensor somewhere see [VVT](VVT)
+If you also have a cam sensor somewhere, see [VVT](VVT).
 
 ![60/2](Images/triggers/trigger_TT_TOOTHED_WHEEL_60_2.png)
 
@@ -60,7 +55,7 @@ Note that if your timing wheel was originally set up to run with a Ford EDIS-4 b
 
 ## Bosch Quick Start
 
-If the trigger seems to spin backwards, change from Rising edge to Falling edge and vise versa in the trigger setup in TunerStudio. For more Info see [this forum thread](https://rusefi.com/forum/viewtopic.php?f=17&t=2977)
+If the trigger seems to spin backwards, change from Rising edge to Falling edge and vice versa in the trigger setup in TunerStudio. For more Info see [this forum thread](https://rusefi.com/forum/viewtopic.php?f=17&t=2977).
 
 ![x](Images/triggers/trigger_TT_VVT_BOSCH_QUICK_START.png)
 
@@ -71,7 +66,7 @@ If the trigger seems to spin backwards, change from Rising edge to Falling edge 
 Similar but different from "Custom 12/0":
 
 * "Custom 12/0" synchronizes on any tooth relying on a distributor
-* "12crank/24cam" is a special popular trigger which depends on cam sensor for engine phase detection.
+* "12crank/24cam" is a special popular trigger which depends on a cam sensor for engine phase detection.
 
 [temporary link for Honda 12](https://github.com/rusefi/rusefi_documentation/issues/227)
 
@@ -243,7 +238,7 @@ A bit of a 60/2/2
 
 ### Tri-Tach
 
-Old audi 5 cylinder: does not work, no priority to make work - that one needs custom handling
+Old Audi 5 cylinder: does not work, no priority to make it work - that one needs custom handling
 
 ![x](Images/triggers/trigger_TT_TRI_TACH.png)
 
@@ -409,35 +404,30 @@ This one is pretty special - it has extra setting for position. At the moment th
 
 [Unknown Trigger](#unknown-trigger-type)
 
-TODO: implement a feature so that trigger could be defined via TunerStudio
+If you have an unknown or an unsupported trigger shape, once you've confirmed that trigger events are getting into the software (see [Troubleshooting Trigger Input](Trigger#troubleshooting-trigger-input)) you need to crank your engine while rusEFI Console is connected with the Engine Sniffer tab active.
 
-If your have an unknown or an unsupported trigger shape, once you've confirmed that trigger events are getting into the software (see "troubleshooting" sections) you need to crank your engine while rusEFI console is connected with Engine Sniffer tab active.
+With long enough cranking you should get a visual log of your trigger signal. That would give you some idea of what kind of trigger shape you have. Save an image and post it on the forum. It's recommended to remove the spark plugs while investigating trigger shape to make your cranking more even.
 
-With long enough cranking you should get a visual log of your trigger signal, that would give you some idea of what kind of trigger shape you have. Save an image and post it on a forum. It's recommended to remove spark plugs while investigating trigger shape to make your cranking more even.
-
-Once preliminary shape of a new trigger is added into rusEFI firmware based on the Engine Sniffer image, second step is getting a more precise recording of the shape with exact angles. This is done with spark plugs removed and Sensor Sniffer mode set to TRIGGER. With long enough cranking a chart of trigger shape would appear on the Sensor Sniffer tab and the console log file (see out/ folder next to rusefi console binaries) would contain the angles. Please post this log file on the forum for the developers to encode the new trigger shape into the software.
+Once the preliminary shape of a new trigger is added into the rusEFI firmware based on the Engine Sniffer image, the second step is getting a more precise recording of the shape with exact angles. This is done with the spark plugs removed and the Sensor Sniffer mode set to TRIGGER. With long enough cranking a chart of the trigger shape will appear on the Sensor Sniffer tab and the console log file (see out/ folder next to the rusEFI console binaries) would contain the angles. Please post this log file on the forum for the developers to encode the new trigger shape into the software.
 
 ## How this works
 
-Trigger decoding cycle starts at 'synchronization point' - that's the trigger fall or rise event which satisfies the 'synchronization gap' condition. Since trigger synchronization point usually has nothing to do with top dead center #1 (TDC), we have have 'globalTriggerAngleOffset' parameter - that's the offset between synchronization point and TDC.
+The trigger decoding cycle starts at the 'synchronization point' - that's the trigger fall or rise event which satisfies the 'synchronization gap' condition. Since the trigger synchronization point usually has nothing to do with top dead center #1 (TDC), we have a 'Trigger Angle Advance' parameter - that's the offset between synchronization point and TDC.
 
-For example, 'set global_trigger_offset_angle 0', TDC is set to synchronization point, the green vertical line is TDC mark:
+For example, with Trigger Angle Advance set to zero, TDC is set to the synchronization point, the green vertical line is the TDC mark:
 
 ![Offset Angle 0](Images/offset_0.png)
 
-Now the real TDC, 'set global_trigger_offset_angle 175' command:
+Now the real TDC, with Trigger Angle Advance set to 175:
 
 ![Offset Angle 175](Images/offset_175.png)
 
-Note the different location of the green TDC line. Also note how all Injector #1 pulse has moved (Injector #3 is the lowest signal on these pictures) - that's because ignition and injection are scheduled based on TDC point.
+Note the different location of the green TDC line. Also note how all Injector #1 pulses have moved (Injector #3 is the lowest signal on these pictures) - that's because ignition and injection are scheduled based on the TDC point.
 
-While running ignition is controlled by ignition timing map, you can also offset the whole ignition timing map using 'set ignition_offset' command. Ignition dwell is controlled by dwell time curve.
+While running, ignition is controlled by the ignition timing map. Ignition dwell is controlled by dwell time curve.
 
-Injection could be offset using 'set injection_offset X' command.
+While cranking, you can set angle-based ignition in TunerStudio instead of timing map & dwell based ignition. In angle-based mode, dwell is defined in crankshaft angle duration and timing is constant.
 
-While cranking, you can set angle-based ignition instead of timing map & dwell based ignition. In angle-based mode, dwell is defined in crankshaft angle duration and timing is constant. set cranking_charge_angle and set_cranking_timing_angle.
-
-See 'trigger decoding' in [Doxygen](http://rusefi.com/docs/html/)
+See  also 'trigger decoding' in [Doxygen](http://rusefi.com/docs/html/).
 
 Dev note: unit_tests executable produces triggers.txt file - gen_trigger_images.bat reads triggers.txt and produces these .png files.
-TODO: automate this further?

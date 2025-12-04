@@ -1,22 +1,24 @@
-# Overview of CAN usage and IDs used by rusEFI
+# CAN Bus
+
+## Overview of CAN usage and IDs used by rusEFI
 
 Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not real diagnosis!
 
-* rusEFI WBO two way communication [0xEF50000](https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_can.h) 0x190
+* rusEFI WBO two-way communication [0xEF50000](https://github.com/mck1117/wideband/blob/master/for_rusefi/wideband_can.h) 0x190
 * rusEFI WBO bootloader
 * rusEFI gauge broadcast 0x200 default base see [DBC](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/can/rusEFI_CAN_verbose.dbc)
-* rusEFI vehicle specific communication
+* rusEFI vehicle-specific communication
 * rusEFI ECU bootloader OpenBLT TX 667h, RX 7E1h
 * rusEFI CAN GPIO
 * rusEFI [TS over CAN](TS-over-CAN) 0x100 0x102
 * rusEFI GDI comms [0xBB20 0xBB30](https://github.com/rusefi/libfirmware/blob/master/can/can_common.h)
-* rusEFI bench test protocol 0x770000 base address
+* rusEFI bench-test protocol 0x770000 base address
 
 [Calibration via CAN](rusEFI-calibration-via-CAN)
 
 [Firmware Update via CAN](Firmware-update-via-CAN)
 
-## 3rd party dashboards
+## Third-party Dashboards
 
 ![image](Images/TS/TunerStudio_canbus_dash_haltech.png)
 

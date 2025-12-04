@@ -1,10 +1,6 @@
 # Case Studies
 
-We have a bracket GP winner, Matts lucky dog car has not done too badly iirc and we have a UKDC pro2 qualifying drift car.
-Street and import side, various mx5s and i believe a genesis has just been done.
-We also are starting to make plug and tinker boards for popular tuner chassis, MX5, genesis, e36/46.
-
-![WhatsApp Image 2025-08-09 at 16 48 54_ee6c6c32](Images/gto.jpeg)
+![GTO race car](Images/gto.jpeg)
 
 ## 2024 Harley
 
@@ -53,21 +49,11 @@ Highway cruising
 
 Excited acceleration driving
 
-## Consecutive engine cranking / engine stop
-
-TODO [https://github.com/rusefi/rusefi_documentation/issues/151](https://github.com/rusefi/rusefi_documentation/issues/151)
-
 ## VVT control
 
 [CrazyStriker Miata NB2 - Forum](https://rusefi.com/online/?vehicleName=H72_CS_NB2&user_id=853)
 
 [Jimmy M111 190e - Forum](https://rusefi.com/online/?vehicleName=Jimmys+190e+that+runs+good&user_id=1115)
-
-## Stepper Idle control
-
-todo Dron
-
-todo Matt
 
 ## m111 W202
 

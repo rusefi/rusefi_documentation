@@ -1,34 +1,34 @@
 # Custom rusEFI firmware for your custom board
 
-If you have developed a custom board at some point custom firmware would be needed for best user experience around connector mapping.
+If you have developed a custom board, at some point custom firmware will be needed for the best user experience around connector mapping.
 
 Only looking to develop a custom board? See https://github.com/rusefi/hellen-example and https://github.com/rusefi/uaefi-adapter-template
 
-🟢No more fragile local compilation - these days it GitHub compiles for you, you download provided binaries!🟢
+🟢No more fragile local compilation - these days GitHub compiles it for you, and you download the resulting binaries!🟢
 
-## Where are the binaries?
+## Where Are the Binaries?
 
-See Actions pane on your fork similar to https://github.com/rusefi/fw-custom-example/actions click recent "Create Board Firmware" and see artifacts on the bottom of the page!
+See the Actions pane on your fork, similar to https://github.com/rusefi/fw-custom-example/actions click a recent "Create Board Firmware" workflow run and see the artifacts near the bottom of the page!
 
-## OK I am onboard
+## OK I am Onboard
 
-https://github.com/rusefi/fw-custom-example is an example of a custom rusEFI firmware repository. Just fork it, edit ``meta-info.env`` with name of your board and let GitHub Actions do the rest!
+https://github.com/rusefi/fw-custom-example is an example of a custom rusEFI firmware repository. Just fork it, edit `meta-info.env` with the name of your board, and let GitHub Actions do the rest!
 
-https://github.com/rusefi/fw-custom-paralela and https://github.com/rusefi/fw-custom-core8/ are the best example as of right now. https://github.com/rusefi/rusefi/tree/master/firmware/config/boards should be another source of inspiration.
+https://github.com/rusefi/fw-custom-paralela and https://github.com/rusefi/fw-custom-core8/ are the best examples as of right now. https://github.com/rusefi/rusefi/tree/master/firmware/config/boards should be another source of inspiration.
 
 ## Update rusEFI Reference
 
 Happens daily.
 
-Alternatively open "Actions" in your repo similar to https://github.com/rusefi/fw-custom-example/actions/workflows/update-rusefi-reference.yaml click "Run Workflow"->"Run Workflow"
+Alternatively open "Actions" in your repo, similar to https://github.com/rusefi/fw-custom-example/actions/workflows/update-rusefi-reference.yaml, and click "Run Workflow"->"Run Workflow"
 
-To to stop it from happening daily you would have to remove two lines from ``.github/workflows/build-firmware.yaml`` - the ones with ``cron`` and ``schedule``.
+To stop it from happening daily, you would have to remove two lines from `.github/workflows/build-firmware.yaml` - the ones with `cron` and `schedule`.
 
 ## Default Board Configuration
 
-Adjust [setBoardDefaultConfiguration@board_configuration.cpp](https://github.com/rusefi/fw-custom-example/blob/main/board_configuration.cpp) method, see other setBoardDefaultConfiguration method examples.
+Adjust [setBoardDefaultConfiguration@board_configuration.cpp](https://github.com/rusefi/fw-custom-example/blob/main/board_configuration.cpp) method, see other boards for setBoardDefaultConfiguration method examples.
 
-## Really advanced use-case you would probably not need it
+## Rare Advanced Scenario
 
 If you have a more complex situation, with several different board variants you need to build, you can still achieve this with one repo.  
 If, for example, your variants only need different compile flags, having multiple meta-info files within the same repository would be a good way to achieve it.  

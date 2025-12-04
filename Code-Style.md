@@ -6,7 +6,7 @@
 
 * Please do not push dead code
 
-We make with -std=c++11 see [the Makefile](https://github.com/rusefi/rusefi/blob/master/firmware/Makefile)
+We make with -std=c++20; see [the Makefile](https://github.com/rusefi/rusefi/blob/master/firmware/Makefile).
 
 ## Brackets
 
@@ -30,6 +30,6 @@ if (plain_condition) {
 
 ## Code Formatting
 
-Code formatting matters. The de-facto standard is Eclipse CDT (K&R) with one change: Maximum line width = 120
+Code formatting matters. The de facto standard is Eclipse CDT (K&R) with one change: Maximum line width = 120
 
 This standard is far from perfect, but it's good enough for now.

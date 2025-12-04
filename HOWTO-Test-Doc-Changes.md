@@ -26,7 +26,7 @@ to test them on wiki2.
 You might have to use `git push --force wiki`.  
 Also, note that the changes must be in the master branch of your fork for this to work.
 
-If you want the changes to be synced automatically, you will have to change rusefi/rusefi.wiki.git to <your-username>/rusefi.wiki.git in your forks' action files.  
+If you want the changes to be synced automatically, you will have to change rusefi/rusefi.wiki.git to <your-username>/rusefi.wiki.git in your fork's action files.  
 Specifically, these action workflows:  
 [rusefi_documentation/.github/workflows/sync-wiki2.yaml](https://github.com/rusefi/rusefi_documentation/blob/master/.github/workflows/sync-wiki2.yaml)  
 [rusefi_documentation/.github/workflows/sync-wiki3.yaml](https://github.com/rusefi/rusefi_documentation/blob/master/.github/workflows/sync-wiki3.yaml)  
@@ -37,9 +37,12 @@ You need to set up an access token in your repository secrets for Actions.
 
 The easiest way to test Wiki3 is locally. You could also set up a webserver and your repository secrets to let the workflow upload it for you, but here I'll just explain how to test locally.
 
-The full instructions for installing MkDocs can be found [here](https://www.mkdocs.org/user-guide/installation/), but there is also a script included in the repo that will install it for you.  
-Run `bash ./bin/mkdocs-install.sh` if you have a Debian/apt-based system. If not, read the script to find which python packages you need to install.
+There is a script included in the repo that will install all necessary software if you are running a Debian/apt-based Linux distro.
 
-Once MkDocs is installed, you can now generate the site.  
+`bash ./wiki-tools/install.sh`
+
+If you aren't using a compatible OS, read the script to find which packages you need to install.
+
+Once the necessary software is installed, you can now generate the site.  
 There is a script included to do this as well.  
-Run `bash ./bin/mkdocs-run.sh`, and the site files will then be found at ./mkdocs/site  
+Run `bash ./wiki-tools/run.sh`, and the site files will then be found at ./generator/wiki  
