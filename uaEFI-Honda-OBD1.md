@@ -18,6 +18,8 @@ See [uaEFI](uaEFI)
 
 [Adapter Schematics rev a](Hardware-files/Hellen/uaefi-Honda-OBD1-adapter-a-schematic.pdf)
 
+[Single board Schematics rev d](Hardware-files/Hellen/uaefi-Honda-OBD1-d-schematic.pdf)
+
 ## Features
 
 * reads OEM distributor just fine (single tooth and 24 tooth)
