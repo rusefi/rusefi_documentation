@@ -1,4 +1,4 @@
-# HOWTO Update Firmware
+# How to Update Firmware
 
 Disconnect it from the vehicle. Use caution.
 
@@ -31,14 +31,12 @@ Once you have dfu-util, you can run this from the extracted bundle directory:
 java -jar console/rusefi_console.jar reboot_dfu
 
 dfu-util -a 0 -D rusefi.dfu
-
 ```
 
 ## FAQ
 
-Q: I got "DRIVER ERROR"
-
-A: in rusEFI console please hit "Device Manager". When ECU gets into DFU mode (blue LED stops blinking) you are expected to see "STM32 Bootloader" device. If you see "STM device in DFU mode" please uninstall it and remove old driver.
+*__Q:__ I got "DRIVER ERROR"*  
+__A:__ In rusEFI console please hit "Device Manager". When ECU gets into DFU mode (blue LED stops blinking) you are expected to see a "STM32 Bootloader" device. If you see "STM device in DFU mode", please uninstall it and remove the old driver.
 
 Bad
 
@@ -50,12 +48,12 @@ Good
 
 ## More Information
 
-For more about DFU see [HOWTO-DFU](HOWTO-DFU)
+For more about DFU see [HOWTO-DFU](HOWTO-DFU).
 
-ST-LINK is an advanced mode of firmware update which requires ST-LINK device, either external, or built-in like on Discovery/Nucleo board.
+ST-LINK is an advanced mode of firmware update which requires ST-LINK device, either external or built-in like on Discovery and Nucleo boards.
 
 ## Update TunerStudio Definition
 
-Once you have updated your firmware, you also need to update your TunerStudio definition so it is able to communicate properly. Happy installation of TunerStudio would download current .ini file automatically!
+Once you have updated your firmware, you also need to update your TunerStudio definition so it is able to communicate properly. A happy installation of TunerStudio will download the current .ini file automatically!
 
-If you chose to go more manually you can find the .ini file in the USB storage device that rusEFI board presents to your computer, or in the [rusEFI bundle](Download).
+If you chose to do it manually, you can find the .ini file in the USB storage device that rusEFI board presents to your computer, or in the [rusEFI bundle](Download).

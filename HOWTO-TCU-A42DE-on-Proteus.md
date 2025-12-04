@@ -1,18 +1,16 @@
-# HOWOT TCU A42DE on Proteus
+# How to TCU A42DE on Proteus
 
 [Proteus 0.2](Hardware-Proteus-Wiring-v02)
 
 [Mazda Miata 2001](Mazda-Miata-2001)
 
-AS      red     +12 running
-
-AE yellow output speed sensor  blue
-
-AF orange output speed sensor  orange
-
-W     red input speed sensor  red
-
-Z white input speed sensor  white
+|    |        |                     |        |
+|----|--------|---------------------|--------|
+| AS | red    | 12 running          |        |
+| AE | yellow | output speed sensor | blue   |
+| AF | orange | output speed sensor | orange |
+| W  | red    | input speed sensor  | red    |
+| Z  | white  | input speed sensor  | white  |
 
 ## Black 35 Pin 776231-1
 

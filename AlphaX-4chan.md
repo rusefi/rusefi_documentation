@@ -19,13 +19,13 @@
 [Issue tracker & hardware files](https://github.com/rusefi/alphax-4chan)
 
 * 4 injector channels
-* 4 logic level coil control
-* 5 auxiliary low side outputs up to 5A
+* 4 logic-level coil outputs
+* 5 auxiliary low-side outputs up to 5A
 * 2 VR inputs
 * 3 Hall inputs
 * CAN
 * Single ETB
-* one channel knock input
+* 1 channel knock input
 * Bluetooth
 
 ![x](Images/alphax-4chan-reva-render.jpeg)
