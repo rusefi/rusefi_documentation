@@ -1,14 +1,16 @@
-# FAQ
+# GDI
 
-TL,DR: [Hellen-Hyundai-PB](Hellen-Hyundai-PB) and [rusEFI GDI4 pinout](GDI4)
+## Summary
+
+A few GDI ECUs and expansion modules exist:
+
+- [Hellen-Hyundai-PB](Hellen-Hyundai-PB)
+- [GDI4](GDI4)
+- [GDI8](GDI8)
+- [Power4GDI](Power4GDI)
+- [GM E92 PnP](PnP-E92)
 
 See [How To GDI](HOWTO-GDI)
-
-[GDI8](GDI8)
-
-[Power4GDI](Power4GDI)
-
-[GM E92 PnP](PnP-E92)
 
 ## Q: What are key differences between port and GDI?
 
@@ -16,21 +18,19 @@ A: high voltage control of injectors, high pressure pump control logic and targe
 
 ## GDI Status
 
-TL,DR: Summer 2023 progress is happening, GDI4 rev D board is ready for prime time and Kia has driver around the block!
+TL,DR: Summer 2023 progress is happening, GDI4 rev D board is ready for prime time and a Kia has driven around the block!
 
 [Forum thread for test mule](https://rusefi.com/forum/viewtopic.php?f=3&t=1631)
 
 [Forum thread for dev board](https://rusefi.com/forum/viewtopic.php?f=4&t=1337)
 
-pump setup manual https://rusefi.com/forum/viewtopic.php?f=16&t=2886
+[pump setup manual](https://rusefi.com/forum/viewtopic.php?f=16&t=2886)
 
 Gasoline Direct Injection requires a few additional components on top of port injection:
 
-1) High voltage injection control
-
-2) High pressure fuel pump solenoid control - we have a working implementation!
-
-3) Target fuel pressure logic - we have nothing, but could be as easy as adding a simple table?
+1. High voltage injection control
+2. High pressure fuel pump solenoid control - we have a working implementation!
+3. Target fuel pressure logic - we have nothing, but could be as easy as adding a simple table?
 
 ![x](OEM-Docs/NXP/pulse-variables.jpg)
 
@@ -42,8 +42,8 @@ See also:
 
 - [BMW injector driver](https://rusefi.com/forum/viewtopic.php?f=4&t=1564)
 - [rusEFI injector driver](https://github.com/rusefi/rusefi-hardware/tree/main/GDI-4ch)
-- [How To GDI Flow Bench using rusEFI GDI4](HOWTO-GDI-flow-bench-using-rusEFI-GDI4)
-- [How To GDI Flow Bench from Bosch 7506280](HOWTO-GDI-flow-bench-from-Bosch-7506280)
+- [How to GDI Flow Bench using rusEFI GDI4](HOWTO-GDI-flow-bench-using-rusEFI-GDI4)
+- [How to GDI Flow Bench from Bosch 7506280](HOWTO-GDI-flow-bench-from-Bosch-7506280)
 
 TODO: try INJECTOR DRIVE MODULE IDM-2
 2013 13 HYUNDAI GENESIS

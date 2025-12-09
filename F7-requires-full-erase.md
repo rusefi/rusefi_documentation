@@ -1,21 +1,17 @@
 # F7 Requires Full Erase
 
-## OpenBLT approach
+While most rusEFI units support incremental firmware update while keeping settings intact, we are facing an unexplained issue with some F7 Proteus units. Those units require a full erase prior to software update.
 
-Good news from 2025: use OpenBLT programming option
+## OpenBLT Approach
 
 ![image](Images/console/Console_auto_dfu_update.png)
 
-While most rusEFI units support incremental firmware update while keeping settings intact we are facing unexplained issue with some F7 Proteus units. Those units require full erase prior to software update.
-
 ## Older approach before OpenBLT
 
-Step 1: enter DFU
-option a: in rusEFI console use "switch to DFU mode"
-option b: open case, power ECU while holding "PROG" button to enter manual DFU
+1. Enter DFU using one of these options:
+    1. In rusEFI console, use "switch to DFU mode"
+    2. Open the case, power the ECU while holding the "PROG" button to enter manual DFU
 
-Step 2: full erase
-in rusEFI console use "Full Erase Chip"
+2. In rusEFI console, use "Full Erase Chip"
 
-Step 3:
-Manual DFU programming using rusEFI console as usual
+3. Manual DFU programming using rusEFI console as usual

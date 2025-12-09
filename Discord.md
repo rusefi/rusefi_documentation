@@ -1,11 +1,9 @@
 # Discord
 
-See https://discord.gg/rCGAUaZJKF
-
-## Joining rusEFI Discord
+[Join us on Discord](https://discord.gg/rCGAUaZJKF)
 
 ## What is Discord and why should I be there?
 
-Discord in a group messenger that can be accessed through your browser or as an application. Use https://discord.gg/rCGAUaZJKF to enter our chat.
+Discord is a group messenger that can be accessed through your browser or as an application. Use [this invite link](https://discord.gg/rCGAUaZJKF) to enter our chat.
 
-Part of community [Support](Support) model
+Part of our community [Support](Support) model

@@ -1,6 +1,6 @@
 # Download
 
-You will need a version of the rusEFI bundle specific to the rusEFI ECU you are using. This bundle includes the firmware which runs on the ECU, the definition file needed by TunerStudio for your specific ECU and firmware version, the rusEFI Console, drivers, and various extra utilites.
+You will need a version of the rusEFI bundle specific to the rusEFI ECU you are using. This bundle includes the firmware which runs on the ECU, the definition file needed by TunerStudio for your specific ECU and firmware version, the rusEFI Console, drivers, and various extra utilities.
 
 It does not include TunerStudio or MegaLogViewer.
 
@@ -57,5 +57,5 @@ It does not include TunerStudio or MegaLogViewer.
 
 ## FAQ
 
-*__Q:__ I see something interesting was just changed in the firmware? How do I use latest version?*  
+*__Q:__ I see that something interesting was just changed in the firmware? How do I use the latest version?*  
 __A:__ Most snapshot builds take about 30 minutes to get updated on at [Snapshot builds](https://rusefi.com/build_server/)

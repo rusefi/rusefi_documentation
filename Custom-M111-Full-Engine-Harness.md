@@ -1,19 +1,19 @@
 # Notes on fully custom M111 Engine Harness
 
-This harness is designed for M111 engines _swaps_ it has custom body integration plugs!
+This harness is designed for M111 engine _swaps_. It has custom body integration plugs!
 
-This harness is designed 🟢specifically for rusEFI microRusEFI🟢 ECU
+This harness is designed 🟢specifically for the rusEFI microRusEFI🟢 ECU
 
-* Converted to VAG coil-on-plug (red or black your choice)
-* Converted to Honda pedal cable position sensor (more reliable choice)
-* Added 3 pin fuel pressure sensor
+* Converted to VAG coil-on-plug (red or black, your choice)
+* Converted to Honda pedal cable position sensor (a more reliable choice)
+* Added 3-pin fuel pressure sensor
 * Added wastegate solenoid plug
-* Uses 99+ crank position sensor plug
+* Uses a 99+ crank position sensor plug
 * Custom body integration plugs
 
 See also [HOWTO-M111-on-microRusEFI](HOWTO-M111-on-microRusEFI)
 
-## Sensors subassembly
+## Sensors Subassembly
 
 ![x](Images/harness-connectors/mercedes/sensors-assembly-fuel-pressure.png)
 
@@ -23,12 +23,10 @@ See also [HOWTO-M111-on-microRusEFI](HOWTO-M111-on-microRusEFI)
 
 ![x](Images/harness-connectors/mercedes/sensors-assembly-cam.png)
 
-## Actuators subassembly
+## Actuators Subassembly
 
 ![x](Images/harness-connectors/mercedes/secondary-flap.png)
 
 ![x](Images/harness-connectors/mercedes/secondary-boost-control.png)
-
-TODO supercharger clutch
 
 ![x](Images/harness-connectors/mercedes/secondary-vvt.png)

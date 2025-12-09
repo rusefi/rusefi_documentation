@@ -2,9 +2,9 @@
 
 ***WARNING: An electronic throttle, if misconfigured or damaged, has the ability to open the throttle without your foot on the pedal, potentially leading to engine damage [or a crash](https://en.wikipedia.org/wiki/2009%E2%80%9311_Toyota_vehicle_recalls).  Proceed with caution!***
 
-rusEFI supports electronic throttle body control.  Also called drive by wire (DBW), there is no physical cable between the throttle pedal, or pedal position sensor (PPS), and the throttle. The PPS is only a sensor that measures how far depressed it is. The ECU interprets the information from the PPS, and converts it to a desired position for the throttle. The ECU then drives the throttle plate to the desired position and compares the throttle plate position using the throttle position sensor (TPS) to the desired position set by the PPS and makes adjustments as required.
+rusEFI supports electronic throttle body control. Also called drive by wire (DBW), there is no physical cable between the throttle pedal (or pedal position sensor (PPS)) and the throttle. The PPS is only a sensor that measures how far depressed it is. The ECU interprets the information from the PPS, and converts it to a desired position for the throttle. The ECU then drives the throttle plate to the desired position and compares the throttle plate position using the throttle position sensor (TPS) to the desired position set by the PPS and makes adjustments as required.
 
-There are several benefits by allowing the ECU to control the position of the throttle.
+There are several benefits to allowing the ECU to control the position of the throttle.
 
 - Rev limiter by simply closing the throttle (not yet implemented)
 - Superior idle control
@@ -15,18 +15,18 @@ There are several benefits by allowing the ECU to control the position of the th
 
 [See the configuration guide here.](Electronic-Throttle-Body-Configuration-Guide)
 
-See also: [Vault Of Electronic Throttle Bodies](Vault-Of-Electronic-Throttle-Bodies-ETB)
+See also: [Vault of Electronic Throttle Bodies](Vault-Of-Electronic-Throttle-Bodies-ETB)
 
 ## Theory of Operation
 
 Electronic throttles typically consist of:
 
-- A brushed DC motor.  Positive torque pushes the throttle open, and negative torque pushes the throttle closed.
-- A TPS.  This is an angle sensor, commonly a potentiometer or hall sensor, which tells the ECU the actual position of the throttle. This is used as feedback to the ECU to accurately set and hold the throttle position.  
-- A "limp home" return spring.  This spring holds the throttle position open slightly, commonly 5-25%, enough for a high idle. This allows the vehicle to "limp home" in the event the ECU can no longer operate the throttle.
+- A brushed DC motor - Positive torque pushes the throttle open, and negative torque pushes the throttle closed.
+- A TPS - This is an angle sensor, commonly a potentiometer or Hall-effect sensor, which tells the ECU the actual position of the throttle. This is used as feedback to the ECU to accurately set and hold the throttle position.
+- A "limp home" return spring - This spring holds the throttle position open slightly, commonly 5-25%, enough for a high idle. This allows the vehicle to "limp home" in the event the ECU can no longer operate the throttle.
 
 rusEFI hardware and software have been designed to work with all three of these parts of the throttle.
 
-- DC motor driver H-bridge(s) to control the motor.  An H-bridge can apply a variable voltage using PWM in either direction. Both directions are important to be able to open and close the throttle completely.
+- DC motor driver H-bridge(s) to control the motor. An H-bridge can apply a variable voltage using PWM in either direction. Both directions are important to be able to open and close the throttle completely.
 - Analog inputs and corresponding software to measure both the TPS and PPS.
 - A control algorithm that uses a table to linearize the effects of the return spring and PID to move the throttle to the targeted position.

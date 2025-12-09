@@ -4,7 +4,7 @@
 
 [E67](GM-E67)
 
-73+80   e38 ECM, used 07-14 trucks/suv
+73+80   E38 ECM, used 07-14 trucks/suv
 
 <https://www.maxxecu.com/webhelp/wirings-pluginecu-chevrolet_corvette_c6_e38_ecm.html>
 

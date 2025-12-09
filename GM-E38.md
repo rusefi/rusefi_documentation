@@ -18,23 +18,22 @@ https://github.com/rusefi/e38-e67-customer-support
 
 ## Specs
 
-* blue connector is auxiliary
-* dual 4.9 LSU WBO controller on aux connector
+* The blue connector is auxiliary
+* Dual 4.9 LSU WBO controller on the aux connector
 * x3 low-side aux outputs
 * x3 aux analog inputs
 * x2 digital inputs (flex or buttons)
-* second CAN bus on aux connector
+* Second CAN bus on aux connector
 * (alpha version) direct OEM dash control without BCM
 * (alpha version) direct cruise control input without BCM
-* (alpha version) 6l80 integration support
+* (alpha version) 6L80 integration support
 
 ## Connectors
 
-* 56 pos housing "blue" Molex 34576-0703 0345760703
+* 56-position housing "blue" Molex 34576-0703 0345760703
 * Depinning tool GM-38125-213 0.64mm DIA Pick Tool SIM to Molex 63813-1400
 
 ## FAQ
 
-### Q: 3 connector would be e67?
-
-A: black and grey hook to e38 harness. Blue is auxiliary with WBO and second CANbus etc.
+*__Q:__ The 3 connector ECU is E67, right?*  
+__A:__ The black and grey connectors hook to the e38 harness. The blue connector is auxiliary, with WBO and second CANbus, etc.

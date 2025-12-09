@@ -1,23 +1,23 @@
-# 4chan F7 initial programming
+# 4chan F7 Initial Programming
 
-## One time Setup
+## One-time Setup
 
-* download & uncompress https://github.com/rusefi/rusefi/releases/download/20230726_2_release/rusefi_bundle_alphax-4chan_f7.zip
+* Download and uncompress [the bundle](https://github.com/rusefi/rusefi/releases/download/20230726_2_release/rusefi_bundle_alphax-4chan_f7.zip).
 
-* launch console/rusefi_console.exe
+* Launch console/rusefi_console.exe
 
-* hit 'install drivers' button on top of the splash screen
+* Hit the 'install drivers' button on the top of the splash screen
 
 ## For each board
 
-* power 4chanF7 board while holding PROG button on 4chanF7. Windows would show "STM32 BOOTLOADER" device in device manager.
+* Power the 4chanF7 board while holding PROG button on 4chanF7. Windows should show "STM32 BOOTLOADER" device in device manager.
 
-* in ``console\STM32_Programmer_CLI\bin`` folder invoke stm32-reset-nDBANK.bat
+* In `console\STM32_Programmer_CLI\bin` folder, invoke stm32-reset-nDBANK.bat
 
-* hit 'reset' button on 4chanF7 while holding PROD button on 4chanF7.
+* Hit the 'reset' button on 4chanF7 while holding PROG button on 4chanF7.
 
-* in ``console\STM32_Programmer_CLI\bin`` folder invoke stm32-flash-dfu.bat
+* In the `console\STM32_Programmer_CLI\bin` folder, invoke stm32-flash-dfu.bat
 
-Expected result: BLUE LED close to stm32 MCU is constantly blinking.
+Expected result: the BLUE LED close to the STM32 MCU is constantly blinking.
 
-Expected result: no RED LED next to blinking BLUE.
+Expected result: no RED LED next to the blinking BLUE LED.
