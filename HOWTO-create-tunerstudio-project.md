@@ -40,7 +40,7 @@ Your rusEFI board should also present itself as a USB storage device to your com
 
 After clicking Next, selecting your preferred lambda display mode, and clicking Next again, you'll see this:
 
-![TunerStudio Communication Settings](Images/TS/Communication_settings.png)
+![TunerStudio Communication Settings](Images/TS/Communication_settings2.png)
 
 See [Tunerstudio Connectivity](Tunerstudio-Connectivity) if you need detailed instructions on these settings.
 
