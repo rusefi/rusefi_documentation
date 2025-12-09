@@ -1,6 +1,6 @@
 # Delayed Shut Off
 
-Even with direct control over ECU power we can keep outselves powered for a bit extra time as long as we control main relay
+Even with direct control over ECU power, we can keep ourselves powered for a bit longer if control the main relay.
 
 ## Standard Wiring
 

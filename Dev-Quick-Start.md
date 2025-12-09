@@ -1,10 +1,10 @@
 # Developer Quick Start
 
-TL,DR: github process, github actions, GCC, gtest, java.
+rusEFI is an open source internal combustion engine control unit primarily running on STM32F4/F7 microcontrollers.
 
-rusEFI is an open source internal combustion engine control unit primarily running on stm32f4/f7 microcontrollers.
+To develop the firmware yourself, the first step is to fork [the GitHub repository](https://github.com/rusefi/rusefi), then make sure you have [GitHub Actions enabled](#github-actions) on your fork.
 
-Well, really the first step is to fork https://github.com/rusefi/rusefi and then make sure you have github actions enabled (see below)
+There are a few scripts to help you get up-and-running quickly on a Debian or Ubuntu-based system:
 
 ``` shell
 git clone --recurse-submodules https://github.com/rusefi/rusefi
@@ -14,23 +14,21 @@ cd firmware
 make
 ```
 
-## Embedded firmware
+## Embedded Firmware
 
-See https://github.com/rusefi/rusefi/blob/master/firmware/readme.md
+See [the firmware README](https://github.com/rusefi/rusefi/blob/master/firmware/readme.md).
 
-STM32F407 firmware including pre-compiled PC application to send commands: [rusEFI Firmware bundle](https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip)
-
-See also <https://github.com/rusefi/rusefi/blob/master/firmware/setup_linux_environment.sh>
+The [rusEFI Firmware bundle](https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip) includes STM32F407 firmware and a pre-compiled PC application to send commands.
 
 ## Unit Tests
 
-We are heavy in CI/CD so [Dev Quality Control](dev-hardware-quality-control) and https://github.com/rusefi/rusefi/blob/master/unit_tests/readme.md
+We use CI/CD heavily; see [Dev Quality Control](dev-hardware-quality-control) and https://github.com/rusefi/rusefi/blob/master/unit_tests/readme.md
 
 ## GitHub Actions
 
-We rely on github actions heavily. We commit manual changes while github actions are commiting auto-generated stuff if needed.
+We rely on GitHub Actions heavily. We commit manual changes while GitHub Actions are committing auto-generated stuff if needed.
 
-Note the green icon for happy continues integration, note commits by actions-user.
+Note the green icon for happy continuous integration; note commits by actions-user.
 
 ![image](Images/GH_actions_commits.png)
 

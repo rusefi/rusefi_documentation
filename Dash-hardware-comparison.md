@@ -1,22 +1,22 @@
-# dev: Dash Hardware Options
+# Dev: Dash Hardware Options
 
-## esp32
+## ESP32
 
-🟢 single click purchase $40 complete platform
+🟢 Single click purchase - $40 for a complete platform
 
 🟢 Arduino IDE
 
-🔴 esp32s3 ??? meaning refresh rate limitation
+🔴 Refresh rate limitation due to ESP32-S3
 
-🔴 temperature range temperature
+🔴 Temperature range
 
 https://github.com/Light-r4y/uaDASH
 
-## stm32
+## STM32
 
-🔴 temperature range
+🔴 Temperature range
 
-🔴 single click purchase $180 https://riverdi.com/product/7-inch-lcd-display-capacitive-touch-panel-optical-bonding-uxtouch-stm32h7-rvt70hssnwc00-b
+🔴 [Single click purchase $180](https://riverdi.com/product/7-inch-lcd-display-capacitive-touch-panel-optical-bonding-uxtouch-stm32h7-rvt70hssnwc00-b)
 
 https://github.com/opelpanfan/car-dash-wide
 
@@ -24,8 +24,8 @@ https://github.com/romioRN/Dash_6.8-hardware
 
 https://github.com/romioRN/Dash6.8_firmware
 
-## allwinner
+## Allwinner
 
-🟢 temperature range
+🟢 Temperature range
 
-🔴 single click purchase platform?
+🔴 Single click purchase unavailable

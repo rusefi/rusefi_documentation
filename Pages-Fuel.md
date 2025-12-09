@@ -29,6 +29,5 @@
 * [Converting from Carb](how-to-convert-from-carburetor-to-EFI)
 * [GDI Status](GDI-status)
 * [Basic Injector wiring](FAQ-Basic-Wiring-and-Connections)
-* [Fuel injectors](Fuel-Injectors)
 
 </details>

@@ -1,20 +1,20 @@
-# 8hp
+# 8HP Transmission
 
-[wikipedia](https://en.wikipedia.org/wiki/ZF_8HP_transmission)
+[Wikipedia](https://en.wikipedia.org/wiki/ZF_8HP_transmission)
 
-[8hp interactive pinout](https://rusefi.com/docs/pinouts/8hp/)
+[8HP interactive pinout](https://rusefi.com/docs/pinouts/8hp/)
 
 [nano-tcu-gateway](nano-tcu-gateway)
 
-* BMW E-series CANbus dialect, before ISN/Component Protection
-* BMW F-series most available option.
-* Chrysler/Dodge interchangeable TCU but Chrysler CANbus dialect, some versions have transbrake.
+* BMW E-series CAN bus dialect, before ISN/Component Protection
+* BMW F-series is the most available option.
+* Chrysler/Dodge use interchangeable TCU, but Chrysler CANbus dialect; some versions have a transbrake.
 
 https://www.domi-works.com/pages/identify-your-transmission-bmw-8hp
 
 ## Power
 
-Yes, constant power wire is ideal to give TCU time preserve adaptations. Please use a 60 second time delay relay if wires to switched power.  
+A constant power wire is ideal to give the TCU time to preserve adaptations. Please use a 60 second time-delay relay if wired to switched power.  
 
 ## Shifter
 

@@ -27,7 +27,7 @@ See [VVT Overview](VVT)
 - Is it a high or a low impedance injector?
 - What is the flow rate?
 
-See [Fuel Injectors](Fuel-Injectors)
+See [Fuel Injectors](FAQ-Basic-Wiring-and-Connections#fuel-injectors)
 
 ### Temperature Sensors
 
