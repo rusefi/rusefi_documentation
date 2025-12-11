@@ -107,6 +107,8 @@ Digital inputs need a resistor to pull them to either ground or the reference vo
 
 Thermistor inputs have an internal pull-up to 5V to make connecting to sensors like coolant temperature and air temperature easier. The resistance varies according to hardware; Proteus, for example, uses 2.7k resistors. When using a thermistor input, one terminal of the sensor is connected to the ECU and the other end of your sensor should be connected to sensor ground. Note: many single-wire thermistors used for coolant temperature have metal threads which make contact with the cylinder head/block, providing the other terminal without a wire.
 
+See [Temperature Sensing](Temperature-Sensing)
+
 ### Analog Voltage Inputs
 
 Analog Voltage inputs have a weak pull-down to sensor ground (varies according to hardware: 500k on proteus) and are intended for things like MAP or TPS sensors that drive a voltage. On most hardware implementations (double check your hardware!), these inputs are also protected against excessive voltage. The combination of an internal pull-down resistor and built-in protection means that analog inputs can safely double as "active high" inputs, where battery voltage indicates that a switch is high.

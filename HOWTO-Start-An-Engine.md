@@ -56,9 +56,7 @@ See [Triggers](Trigger) for more details.
 
 Assuming you have the hardware ready to spark we now need to find the TDC position - we know trigger shape but we do not know the trigger wheel position in relation to TDC#1 (Top Dead Center, cylinder #1).
 
-Set the cranking advance angle to zero for now. Use a timing gun while cranking. You now need to try different values of Engine->Trigger->global trigger angle offset until you get spark at TDC. Now you know the relation between TDC#1 and the trigger signal.
-
-In the Engine Sniffer tab of rusEFI console, TDC#1 is shown with a green vertical line.
+See [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset)
 
 ## Cranking Parameters
 
