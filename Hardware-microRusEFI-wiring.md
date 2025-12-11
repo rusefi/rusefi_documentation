@@ -2,9 +2,9 @@
 
 ## Connector Pinout
 
-[***>>>Interactive Pinout<<<***](https://rusefi.com/docs/pinouts/microrusefi/)
+[*__>>>Interactive Pinout<<<__*](https://rusefi.com/docs/pinouts/microrusefi/)
 
-**WARNING: for historical reasons microRusEFI pin numbers do not match Molex numbers on the plastic**
+__WARNING: For historical reasons the microRusEFI pin numbers do not match the Molex numbers on the plastic__
 
 In some cases without "main relay output +12v" both pins #1 and #5 should be connected to the single source of +12v.
 
@@ -20,7 +20,7 @@ These tables provide technical information about the different types of pin foun
 |------|----|-------------| ---- |
 | . | 12V  | Power supply        | 9-22V operating, 5A fuse recommended           |
 | [#2, #6](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=6) | pgnd | Power ground        | Solidly ground directly to chassis or engine block. |
-| [#17, #21](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=21) | sgnd | Signal ground       | Sensor ground.  ***Do not ground to engine!*** |
+| [#17, #21](https://rusefi.com/docs/pinouts/microrusefi/?connector=main&pin=21) | sgnd | Signal ground       | Sensor ground.  *__Do not ground to engine!__* |
 | . | 5v   | 5V sensor supply    | 5V supply for external sensors.  200mA maximum per pin. |
 
 ### Stepper
@@ -45,7 +45,7 @@ These tables provide technical information about the different types of pin foun
 
 | ID | Type | Notes & Limits | Possible functions |
 |----|-------------| ---- | --- |
-| inj  | Injector output     | Low side, 2.2A maximum **Only saturated (high impedance) injectors are supported.** | Injector, general purpose low side |
+| inj  | Injector output     | Low side, 2.2A maximum __Only saturated (high impedance) injectors are supported.__ | Injector, general purpose low side |
 | ign  | Ignition output     | 5V push-pull, 250mA maximum   | Ignition coil, general purpose 5V push-pull |
 | ls   | High power low side | General purpose low side output, 4.5A maximum | General purpose low side, injector |
 | gp_high | General purpose high side | General purpose high side push output, 5V/12V (internally selectable based on JP2 jumper) 250mA maximum | General purpose 5V/12V high side, ignition coil |
@@ -138,9 +138,8 @@ Please refer to STM32F407 chip documentation for full list of alternative functi
 
 ## FAQ
 
-Q: Can I use temperature inputs for EGT?
-
-A: "temperature input" is a just an analog 0-5v input with a strong pull-up implied to use with a thermistor. Your EGT sensor is probably not a thermistor, your 0-5v output out of a conditioner would probably not be happy about the pull-up.
+*__Q:__ Can I use temperature inputs for EGT?*  
+__A:__ "temperature input" is a just an analog 0-5v input with a strong pull-up implied to use with a thermistor. Your EGT sensor is probably not a thermistor, so your 0-5v output out of a conditioner would probably not be happy about the pull-up.
 
 [microRusEFI photo](Hardware-files/microRusEFI/Hardware_microRusEFI_connector.jpg)
 

@@ -1,6 +1,8 @@
 # Hellen 154 Hyundai
 
-[Claim yours here!](https://www.btrcarcustoms.com/products/alphax-standalone-ecu-for-the-hyundai-genesis-coupe-2-0t)
+[Buy from AlphaX](https://alphaxpr.com/collections/plug-and-play/products/genesis-coupe-2-0t)
+
+[Buy from BTR](https://www.btrcarcustoms.com/products/alphax-standalone-ecu-for-the-hyundai-genesis-coupe-2-0t)
 
 [Issue tracker & Repository](https://github.com/rusefi/hellen154hyundai)
 

@@ -40,8 +40,8 @@ J-48817-232
 
 ## Lada as harness donor
 
-Complete used harness for Lada could be acquired pretty cheap in some parts of the world. On same Lada vehicles ECU
-is in the cabin (unline Nissan ECU in dirty engine bay) so we get pretty clean crimped connector with about 30 wires already in
+Complete used harness for Lada could be acquired pretty cheap in some parts of the world. On the same Lada vehicles the ECU
+is in the cabin (unlike Nissan ECU which is in a dirty engine bay) so we get pretty clean crimped connector with about 30 wires already in
 it. The missing wires could be taken from the smaller ECU connector.  
 
 With a utility knife you need to cut 4 keys from inside the male part to mate default microRusEFI connector with a brown plug. Two center keys could be left

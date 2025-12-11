@@ -2,9 +2,9 @@
 
 ## January 2021 update
 
-Early versions of our own DIY hardware has been tested on an engine with in-cylinder pressure sensing.
+Early versions of our own DIY hardware have been tested on an engine with in-cylinder pressure sensing.
 The data from this has been analysed and we have had some promising results.  
-Our board has been able to produce a strong corelation for the angle of peak cylinder pressure and the signal processing method has been passed to MK for creation of the code.
+Our board has been able to produce a strong correlation for the angle of peak cylinder pressure and the signal processing method has been passed to MK for creation of the code.
 
 While we have had success with the peak pressure the current version of the board is unable to produce the flame progression or the MFB50 angle at this time, we feel that this may be possible to correct with further signal processing or improved hardware.
 

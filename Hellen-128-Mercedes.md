@@ -1,15 +1,15 @@
 # Hellen 128 Mercedes
 
-[💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/hellen-128-mercedes)
+[💲Gets yours at the rusEFI Store💲](https://www.shop.rusefi.com/shop/p/hellen-128-mercedes)
 
-This development board is PnP for Mercedes with the 128 Pin ECU (could be used on M104, M111, M112 and M113 engines; late 90s-early 2000s. confirm your ECU _harness_)
+This development board is a Plug-and-Play for Mercedes engines with the 128 Pin ECU (could be used on M104, M111, M112 and M113 engines; late 90s-early 2000s. Confirm your ECU _harness_.)
 
-## Hardware features
+## Hardware Features
 
 * ME 2.0/2.1 pinout
 * Up to 8 Injectors.
 * Up to 8 Coils (Low impedance or Smart coils)
-* On board WBO controller
+* On-board WBO controller
 * ETB support
 * VR Crank and HAll Cam sensor support
 * 1/2 channel Knock input
@@ -25,13 +25,13 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 
 [Download Nightly](https://rusefi.com/build_server/rusefi_bundle_hellen128.zip)
 
-## Issue tracking
+## Issue Tracking
 
-[HW related issues](https://github.com/rusefi/hellen128merc-issues/issues)
+[Hardware related issues](https://github.com/rusefi/hellen128merc-issues/issues)
 
-[SW related issues](https://github.com/rusefi/rusefi/issues)
+[Software related issues](https://github.com/rusefi/rusefi/issues)
 
-## Interactive pinout
+## Interactive Pinout
 
 [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/hellen128/)
 
@@ -49,7 +49,7 @@ This development board is PnP for Mercedes with the 128 Pin ECU (could be used o
 
 | Vehicle | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | F10 | F11 | F12 | F13 | F14 | F15 | F16 | F17 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Connctor pin **(NOT jumper designator!!!)** | F4 | F5 | F6 | F7 | F9 | F10 | F11 | F12 | F13 | F14 | F16 | F17 | F18 | F19 | F20 | F21 |
+| Connector pin **(NOT jumper designator!!!)** | F4 | F5 | F6 | F7 | F9 | F10 | F11 | F12 | F13 | F14 | F16 | F17 | F18 | F19 | F20 | F21 |
 | IGNx signal | IGN5 | IGN5 | IGN3 | IGN3 | IGN7 | IGN7 | IGN8 | IGN8 | IGN4 | IGN4 | IGN2 | IGN6 | IGN6 | IGN2 | IGN1 | IGN1 |
 | 4 cyl 2 coil | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | ✔️ | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | ✔️ | 🟡 |
 | Other model | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
@@ -69,29 +69,26 @@ If you want to control the clutch on a Mercedes supercharger, some hardware modi
 
 * F13, F14, F17 must be removed
 * Find R80 on the back of the ECU.  It should be a pair of pads for a resistor.  Bridge R80 with solder or connect a 0 Ohm Jumper on R80.
-* Remove IGBT from Q6
-* Solder high-current MOSFET (for example VNB14NV04, VNB14NV0413TR) instead on Q6
-* in TunerStudio use F17 - IGN 6
+* Remove the IGBT from Q6
+* Solder a high-current MOSFET (for example VNB14NV04, VNB14NV0413TR) instead on Q6
+* In TunerStudio use F17 - IGN 6
 
-Rev. A board does not have R80! for this variant, you need to remove the Fuses from the list above and solder a wire instead of placing R80:
-todo: <image>
+Rev. A board does not have R80 for this variant; you need to remove the fuses from the list above and solder a wire instead of placing R80.
 
 ### Solenoid control
 
-By design Rev. A and Rev. B boards are designed to drive the VVT coil. On Rev. C hardware E1, E2, E3 and E4 can all be used as solenoid control. They have the internal diodes needed for protection.
+Rev. A and Rev. B boards are designed to drive the VVT coil. On Rev. C hardware, E1, E2, E3, and E4 can all be used as solenoid control. They have the internal diodes needed for protection.
 
 ### Add extra IO
 
-Using the Interactive pinout, Test Points are documented that are connected from the Car connector to the PCB. These can be connected with wires to the Test Points that are available in TunerStudio.
+Test points are documented in the Interactive pinout that are connected from the car connector to the PCB. These can be connected with wires to the Test Points that are available in TunerStudio.
 
 Example:
 
     E17 is Test Point P17 (In some variants this is oil level).
-    In case we would like to use this as an oil pressure sensor, in Tuner Studio: Sensors > Oil Pressure > Oil Pressure ADC input drop down would display a list where we can see P30_IN_AUX4. By selecting this input, the user needs to connect a wire from P17 to P30.
+    In case we would like to use this as an oil pressure sensor, in TunerStudio, the Sensors -> Oil Pressure -> Oil Pressure ADC input drop down would display a list where we can see P30_IN_AUX4. In order to use this input, the user needs to connect a wire from P17 to P30.
 
-    The end user should keep track of mods, since there is no way for us to do this. Dedicated connections are available in Tuner Studio with Car connecter Pin cod in the name.
-
-todo: add a picture with board/TunerStudio config.
+    The end user should keep track of mods, since there is no way for us to do this. Dedicated connections are available in Tuner Studio with the car connector pin code in the name.
 
 ### Extension Pads
 
@@ -113,11 +110,11 @@ todo: add a picture with board/TunerStudio config.
 |   | **MCU** |   | |
 | J1 | SPI, UART/GPIO | See schematic for details | A,B,C |
 
-NOTE: the Analog inputs can also be used as switched inputs! These can be configured for example clutch pedal switch or switch for launch control.
+NOTE: The analog inputs can also be used as switched inputs! These can be configured for example as a clutch pedal switch or a switch for launch control.
 
 ### rusEFI WBO controller
 
-Since a narrow band lambda (O2 sensor) was used in the original ECU, Hellen includes an onboard wideband controller. A harness is needed to connect the lambda sensor, these lines are not possible to wire in to the car connector.
+Since a narrow band lambda (O2 sensor) was used in the original ECU, Hellen includes an onboard wideband controller. A harness is needed to connect the lambda sensor; these lines are not possible to wire in to the car connector.
 
 [Legacy Hellen WBO](Legacy-Hellen-WBO)
 
@@ -151,9 +148,9 @@ Project page [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
 
 ### Would this work on my all original Mercedes?
 
-Hellen 128 was originally designed for M111 swaps into W201. Depending on the year some W202, R170 and other models could be driven with different amount of supporting mods:
+Hellen 128 was originally designed for M111 swaps into W201. Depending on the year, some W202, R170, and other models could be driven with different amount of supporting mods:
 
-* Somewhere around 99 Mercedes has transitioned from just plain wires on C40 and D3 to CAN-bus starter security. For those later models one would have to simplify starter wiring and add a start button
+* Somewhere around 99, Mercedes transitioned from just plain wires on C40 and D3 to CAN-bus starter security. For those later models one would have to simplify the starter wiring and add a start button.
 
 * M112 and M113 are also supported as long as you have those with the matching engine _harness_!
 
@@ -161,7 +158,8 @@ Hellen 128 was originally designed for M111 swaps into W201. Depending on the ye
 
 ### Transmission Control
 
-As of April 2022 we know nothing about m111 automatic transmission control. All successful swaps so far were using manual gearboxes. 722.6 automatic transmission
+As of April 2022 we know nothing about M111 automatic transmission control. All successful swaps so far were using manual gearboxes.
+See [722.6 automatic transmission](NAG1---722.6)
 
 ## Changelog
 

@@ -1,6 +1,6 @@
 # Hellen 121 Nissan
 
-[💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/hellen-121-nissan)
+[💲Gets yours at the rusEFI Store💲](https://www.shop.rusefi.com/shop/p/hellen-121-nissan)
 
 *Compatible with: Earlier 350Z, 2nd Generation Nissan X-Terra, some Sentra, some Maxima.
 
