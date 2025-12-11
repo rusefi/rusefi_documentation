@@ -10,6 +10,7 @@ HOWTO-create-tunerstudio-project.md
 HOWTO-Get-Running-PnP.md
 HOWTO-Get-Running.md
 HOWTO-Start-An-Engine.md
+How-Do-I-Set-My-Trigger-Offset.md
 Get-tuning-with-TunerStudio-and-your-rusEFI.md
 ENDSOURCES
 			 )
