@@ -56,7 +56,7 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Automatic Transmission Control](TCU-status)                                      | ✗          |
 
 And many more!
-The unsupported features listed here are all things that would be amazing to see! IF YOU have a project that includes any of those configurations or anything else, please jump in on the forums and we can work together to make it happen! 👍
+The unsupported features listed here are all things that would be amazing to see! If *you* have a project that includes any of those configurations or anything else, please jump in on the forums and we can work together to make it happen! 👍
 
 | Achievement                                                 | Results |
 |-------------------------------------------------------------|---------|

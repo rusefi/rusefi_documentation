@@ -2,9 +2,7 @@
 
 [Buy from rusEFI Store](https://www.shop.rusefi.com/shop/p/hellen-88-bmw)
 
-PnP Development board for M50
-M60 and Pre-1995 Euro M3
-M50tu and Pre-1995 USA M3
+Plug-and-play Development board for M50, M60, Pre-1995 Euro M3, M50tu, and Pre-1995 USA M3
 
 [Most recent release (no longer maintained)](https://github.com/rusefi/rusefi/releases/download/release_20241117/rusefi_bundle_hellen88bmw.zip)
 
@@ -26,7 +24,7 @@ M50tu and Pre-1995 USA M3
 
 ## Supported
 
-Up to 8 cylinder with OEM dumb or aftermarket smart coils. We hope that this board supports:
+Up to 8 cylinders with OEM dumb or aftermarket smart coils. We hope that this board supports:
 
 * M3.1 - M50
 * M3.3 - M60 and Pre-1995 Euro M3
@@ -51,7 +49,7 @@ M5.2 - E36/Z3 M44 and M62 and M73
 
 ## Auxiliary Pins
 
-* DC Motor for drive-by-wire or DC motor wastegate see J19
+* DC Motor for drive-by-wire or DC motor wastegate; see J19
 * Dual channel PPS and TPS sensors add-on connector. We are hinting at M52 swaps into E36. See J20 and J21 for sensor hookup.
 * GPIO pins XXX:
 

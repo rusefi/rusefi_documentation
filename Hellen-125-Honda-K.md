@@ -2,7 +2,7 @@
 
 ## Designed for 2002 RSX wiring
 
-[💲Gets yours at rusEFI store💲](https://www.shop.rusefi.com/shop/p/honda-k-2002-pinout)
+[💲Gets yours at the rusEFI Store💲](https://www.shop.rusefi.com/shop/p/honda-k-2002-pinout)
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-honda-k/)
 
@@ -42,6 +42,6 @@ https://rusefi.com/online/view.php?msq=1437
 
 ## FAQ
 
-Q: How to I calibrate VTS/VTEC?
+Q: How do I calibrate VTS/VTEC?
 
 A: At the moment VTS/VTEC is configured using General Purpose PWM 1. TODO https://github.com/rusefi/rusefi/issues/5999

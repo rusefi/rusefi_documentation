@@ -10,8 +10,8 @@ open source, somewhat abandoned https://github.com/rusefi/hellen-miata-NB2
 
 ## Hardware features
 
-* knock detection module
-* built-in WBO
+* Knock detection module
+* Built-in WBO
 * Two auxiliary low side outputs
 * A/C toggle switch
 * A/C relay control
@@ -71,22 +71,22 @@ Using 28 Pin [Connector](https://www.bmotorsports.com/shop/product_info.php/prod
 
 ## Jumpers (Applies to board version 72a-72c so far)
 
- in order to run a Miata NB test vehicle:
+In order to run a Miata NB test vehicle:
 
 External MAP vs more ignition channels:
-a) if you are going to use an external MAP, then remove "R5 (IGN5)", "R7 (IGN6)" and "R11 (IGN8)"
+a) If you are going to use an external MAP, then remove "R5 (IGN5)", "R7 (IGN6)" and "R11 (IGN8)"
 
-b) or if you NOT using an external MAP (either internal MAP or external MAF, or alpha-N), then remove "R6 (GND)" and "R8 (+5V)"
+b) Or if you NOT using an external MAP (either internal MAP or external MAF, or alpha-N), then remove "R6 (GND)" and "R8 (+5V)"
 
 Warning! The board can be damaged if you skip this step!
 
 External WBO vs more ignition channels:
-if you want to use an external WBO (AFR) sensor, then remove "R1 (IGN7)"
+If you want to use an external WBO (AFR) sensor, then remove "R1 (IGN7)"
 
 Miata vehicle type:
-a) if you have a Miata 2002 (where we measure the battery voltage from 4T=alternator), then remove "R9 (2003)"
+a) If you have a Miata 2002 (where we measure the battery voltage from 4T=alternator), then remove "R9 (2003)"
 
-b) or if you have a Miata 2003 (where we measure the battery voltage from 4S=ign.switch), then remove "R10 (2002)"
+b) Or if you have a Miata 2003 (where we measure the battery voltage from 4S=ign.switch), then remove "R10 (2002)"
 
 ## OEM harness add-ons  
 

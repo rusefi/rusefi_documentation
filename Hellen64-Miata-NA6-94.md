@@ -1,6 +1,6 @@
 # Hellen 64 Miata NA6 94
 
-This development board is PnP for NA6 and 94-95 Miatas.
+This development board is a Plug-and-Play for NA6 and 94-95 Miatas.
 
 [Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
 
@@ -17,8 +17,8 @@ This development board is PnP for NA6 and 94-95 Miatas.
 ## Hardware features
 
 * knock detection module
-* build-in WBO
-* battery to keep real time clock running
+* built-in WBO
+* battery to keep the real-time clock running
 * options port for additional I/O
 
 ## **Rev A**

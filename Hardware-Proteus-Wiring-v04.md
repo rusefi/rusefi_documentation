@@ -2,7 +2,7 @@
 
 See [https://rusefi.com/docs/pinouts/proteus/](https://rusefi.com/docs/pinouts/proteus/)
 
-Most differences between 0.3 and 0.4:
+Main differences between 0.3 and 0.4:
 
-- knock input works
-- on-board SD card
+- Knock input works
+- On-board SD card

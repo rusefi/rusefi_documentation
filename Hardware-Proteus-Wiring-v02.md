@@ -1,10 +1,8 @@
 # Proteus v0.2 Pinout & Wiring
 
-``` diff
-- Not sure what board you have? Your probably have NEWER board and you are looking at the wrong page
-```
+Not sure what board you have? Your probably have a newer board and you are looking at the wrong page.
 
-## _NOTE: this pinout only applies to boards v0.2 and older (probably black).  [Interactive Pinout 0.3, 0.4, 0.5 and 0.6](https://rusefi.com/docs/pinouts/proteus/)_
+## _NOTE: This pinout only applies to boards v0.2 and older (probably black).  [Interactive Pinout 0.3, 0.4, 0.5 and 0.6](https://rusefi.com/docs/pinouts/proteus/)_
 
 ## Black 35 Pin 776231-1 Right
 

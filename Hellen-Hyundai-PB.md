@@ -1,4 +1,4 @@
-# GDI Plug&Play
+# Hyundai GDI Plug-and-Play
 
 [Hyundai PB Vehicle pinout](https://rusefi.com/docs/pinouts/hellen/hellen-hyundai-pb-mt/)
 
