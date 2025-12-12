@@ -8,6 +8,7 @@
 name: Sync Wiki3
 
 on:
+  workflow_dispatch:
   push:
     branches:
     - master
