@@ -12,6 +12,10 @@ Hellen? сложнее, надо писать в [чатик](https://chat.whats
 
 пакетик ответных частей молекса для обжима стоит ещё https://www.google.com/search?q=40+usd+to+rub
 
+## uaefi121
+
+https://www.google.com/search?q=250+usd+to+rub
+
 ## mega144
 
 stm32 в форм факторе mega2560 [mega144](mega144)
