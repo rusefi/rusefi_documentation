@@ -112,6 +112,6 @@ The OEM ECU connector uses AMP Multilock .040 and .070 pins.
 
 ![rev C Reference image of jumpers set for external MAP sensor on 2003 miata](Images/Hellen_NB2_external_MAP_jumpers.jpg)
 
-See [Legacy-Hellen-WBO](Legacy-Hellen-WBO)
+See [rusEFI Wideband Controller](rusEFI-Wideband-Controller)
 
 ![x](Hardware-files/Hellen/hellen72-c-connector-cover.jpg)

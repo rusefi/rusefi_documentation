@@ -45,6 +45,10 @@ F042 module pinout
 | 11 | CAN H | CAN bus high |
 | 12 | CAN L | CAN bus low |
 
+On a couple of legacy Hellen boards we use a JST XH2.54 XH 2.54mm connector for WBO
+
+![Hellen WBO Pinout](Hardware-files/Hellen/hellen72-wbo.jpg)
+
 ## LED decoding
 
 | Blue LED | Green LED | Meaning |

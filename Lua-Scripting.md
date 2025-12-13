@@ -1,22 +1,22 @@
 # Lua Scripting
 
-TL,DR: launch rusEFI console, click on Lua tab - use Lua for online scripting. Most popular use-case is CANbus integration.
+TL,DR: Launch rusEFI Console and click on the Lua tab. Use Lua for online scripting. The most popular use case is CAN bus integration.
 
 ## Introduction
 
-rusEFI strives to offer users as much flexibility as possible, to provide a completely user-defined control strategy for both primary and auxiliary actuators. It's strongly advices to use boards powered by F7 to unleash full power of [Lua](https://www.lua.org/).
+rusEFI strives to offer users as much flexibility as possible, to provide a completely user-defined control strategy for both primary and auxiliary actuators. It's strongly advised to use boards powered by a F7 to unleash the full power of [Lua](https://www.lua.org/).
 
 ## Basics
 
-rusEFI provides a number of hooks to interface with the firmware and to manipulate its state and read/write the current configuration.
+rusEFI provides a number of hooks to interface with the firmware, manipulate its state, and read/write the current configuration.
 
-- Hooks for CAN bus communications; see [CAN bus](#can-bus).
-- Inputs from sensors can be read directly; see [Input](#input). You can also produce sensor values with Lua see [Set Sensor Value](Lua-Scripting#set-sensor-value)
-- ECU general purpose outputs see [Output](#output).
-- Aspects of the engine can be controlled directly; see [Engine Control](#engine-control).
+- [Hooks for CAN bus communications](#can-bus).
+- [Inputs from sensors can be read directly](#input). [You can also produce sensor values](#set-sensor-value) with Lua.
+- [ECU general purpose outputs](#output).
+- [Aspects of the engine can be controlled directly](#engine-control).
 - ECU Configurations can be accessed (read/write) via the [`getCalibration()`](#getcalibrationname) hook, and manipulated via the [`setCalibration()`](#setcalibrationname-value-needevent) hook.
   - Configuration names are dynamically updated to match the current firmware; see here for the current list: [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md).
-- ECU internal state, i.e. logic outputs from the firmware can be read via the universal [`getOutput()`](#getoutputname) hook, and some can be altered via correspondingly named hooks i.e. `setOutputName()` where `OutputName` is name of the output, e.g. [`setClutchUpState()`](#setclutchupstatevalue).  See also: [Output](#output).
+- ECU internal state, i.e. logic outputs from the firmware can be read via the universal [`getOutput()`](#getoutputname) hook, and some can be altered via the corresponding hooks, i.e. `setOutputName()` where `OutputName` is name of the output, e.g. [`setClutchUpState()`](#setclutchupstatevalue). See also: [Output](#output).
   - Output names are dynamically updated to match the current firmware; see here for the current list: [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp).
 - Hooks to read values from SENT sensors; see [SENT protocol](#sent-protocol).
 - A set of useful routines is provided; see [Utility](#utility).
@@ -25,8 +25,8 @@ Some example uses are provided in [Examples](#examples).
 
 ## Conventions
 
-- The Lua interpreter will trigger an error if there is a mistake in the program, check the rusEFI console to see errors and script output.
-- Unless otherwise mentioned, all `index` parameters start with the first element at index at 0.
+- The Lua interpreter will trigger an error if there is a mistake in the program; check the rusEFI console to see errors and script output.
+- Unless otherwise mentioned, all `index` parameters start with the first element at index 0.
 
 ## Writing Your Script
 
@@ -34,7 +34,7 @@ The entire Lua script is read at startup, then a script function called `onTick`
 
 Here is a simple script you can run to illustrate this behavior:
 
-``` LUA
+``` lua
 print('Hello Lua startup!')
 
 function onTick()
@@ -44,9 +44,9 @@ end
 
 ### Controlling the Tick Rate
 
-The function `setTickRate(hz)` can be used to configure how often rusEFI calls the `onTick` function.  If your script does a lot of work in the `onTick()` function it may run slower than the desired rate.  Since the Lua virtual machine runs at low priority compared to other functions of the ECU, it is impossible to swamp the ECU with too much Lua work, so set the tick rate to whatever is necessary. `onCanRx` runs at the same rate as `onTick`
+The function `setTickRate(hz)` can be used to configure how often rusEFI calls the `onTick` function. If your script does a lot of work in the `onTick()` function it may run slower than the desired rate. Since the Lua virtual machine runs at low priority compared to other functions of the ECU, it is impossible to swamp the ECU with too much Lua work, so set the tick rate to whatever is necessary. `onCanRx` runs at the same rate as `onTick`
 
-``` LUA
+``` lua
 n = 0
 setTickRate(5) --set tick rate to 5hz
 function onTick()
@@ -57,7 +57,7 @@ end
 
 ### Editing Scripts
 
-To ease editing a LUA script an editor that supports Language Server Protocol (LSP) is highly recommended.
+To ease editing a Lua script, an editor that supports Language Server Protocol (LSP) is highly recommended.
 For an option see [LuaLS/lua-language-server](https://github.com/LuaLS/lua-language-server#install)
 
 ## Hooks/Function Reference
@@ -66,7 +66,7 @@ For an option see [LuaLS/lua-language-server](https://github.com/LuaLS/lua-langu
 
 #### `getOutput(name)`
 
-For example ``getOutput("clutchUpState")`` ``getOutput("brakePedalState")``
+For example `getOutput("clutchUpState")` or `getOutput("brakePedalState")`
 
 See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/output_lookup_generated.cpp) for output names.
 
@@ -74,44 +74,44 @@ See [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/gener
 
 #### `setBrakePedalState(value)`
 
-Use setBrakePedalState to tell rusEFI about CAN-based brake pedal.
+Use `setBrakePedalState` to tell rusEFI about a CAN-based brake pedal.
 
 #### `setAcRequestState(value)`
 
-Use setAcRequestState to tell rusEFI about CAN-based A/C request.
+Use `setAcRequestState` to tell rusEFI about a CAN-based A/C request.
 
 #### `setEtbDisabled(value)`
 
 #### `setIgnDisabled(value)`
 
-'setIgnDisabled' function for all kinds of cranking safety systems
+Use `setIgnDisabled` for all kinds of cranking safety systems.
 
 #### `setAcDisabled(value)`
 
-Disable/suppress A/C functionality regardless of what and how enables it, an override kind of deal.
+Disable/suppress A/C functionality regardless of how it is enabled.
 
 #### `getTimeSinceAcToggleMs()`
 
 #### `getCalibration(name)`
 
-Gets current calibration value for specified scalar setting ``name``. For example ``getCalibration("cranking.rpm")``
+Gets current calibration value for a specified scalar setting. For example: `getCalibration("cranking.rpm")`
 
-For complete list of possible calibration names (valid parameter values) and descriptions see [https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md).
+For complete list of possible calibration names (valid parameter values) and descriptions, see [the generated lookup table](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/generated/value_lookup_generated.md).
 
 #### `setCalibration(name, value, needEvent)`
 
-Sets specified calibration setting to specified value. Fires calibration change event depending on needEvent parameter.
+Sets the specified calibration setting to the specified value. Fires a calibration change event depending on the needEvent parameter.
 
-For example `setCalibration("cranking.rpm", 900, false)`
+For example: `setCalibration("cranking.rpm", 900, false)`
 
 #### `burnconfig`
 
-Schedule calibration write to flash once the engine is stopped.
+Schedule a calibration write to flash once the engine is stopped.
 
 #### `findSetting(name, defaultValue)`
 
-Find User Setting with specified name and returns numeric value. Useful when script developer and script consumer are
-different people, also useful while Lua script editing is available only in TS.
+Find the User Setting with the specified name and returns the numeric value. Useful when the script developer and script consumer are
+different people; also useful while Lua script editing is available only in TS.
 
 - Parameters
   - `name`: Variable name, as in corresponding 'name' field in configuration
@@ -119,31 +119,33 @@ different people, also useful while Lua script editing is available only in TS.
 
 ### `isFirmwareError`
 
-Returns true if ECU is in state of critical/fatal error.
+Returns true if the ECU is in state of critical/fatal error.
 
 ### Engine Control
 
 ### `startCrankingEngine()`
 
-Start cranking as if physical start button was tapped.
+Start cranking as if a physical start button was tapped.
 
 #### `stopEngine()`
 
 #### `isEngineStopRequested()`
 
-returns true if engine stop was requested by either Lua or start/stop button within the last five seconds
+Returns true if engine stop was requested by either Lua or a start/stop button within the last five seconds.
 
 #### setLaunchTrigger
 
 #### `setSparkSkipRatio(ratio)`
 
-setSparkSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
-setSparkSkipRatio(0.5) would skip half of ignition events. We never skip two consecutive ignitions. #torque
+`setSparkSkipRatio(0)` woild skip 0% of the ignition events, i.e. no skipping
+`setSparkSkipRatio(0.5)` would skip half of ignition events. We never skip two consecutive ignitions.
+
+This could be used for torque reduction.
 
 #### `setSparkHardSkipRatio(ratio)`
 
-setSparkHardSkipRatio(0) to skip 0% of the ignition events, i.e. no skipping
-setSparkHardSkipRatio(0.75) would skip 75% of ignition events. #torque
+`setSparkHardSkipRatio(0)` to skip 0% of the ignition events, i.e. no skipping
+`setSparkHardSkipRatio(0.75)` would skip 75% of ignition events.
 
 #### `setIdleAdd(percent)`
 
@@ -151,13 +153,13 @@ Percent to add to idle (incl. open loop).
 
 #### `setFuelAdd(amount)`
 
-Sorry not finished :(
+*Currently not functional*
 
 Amount of fuel mass to add to injection, scaled by fuel multiplier ([`setFuelMult()`](#setfuelmultcoeff)); initially 0.
 
 #### `setFuelMult(coeff)`
 
-Sorry not finished :(
+*Currently not functional*
 
 Amount to scale added fuel mass by; initially 1.0;
 
@@ -179,32 +181,34 @@ Use negative values to retard timing.
 
 #### `setTimingMult(coeff)`
 
-todo add details but ready to test! #torque
+This could be used for torque reduction.
 
 #### `setEtbAdd(percent)`
 
-Amount of ETB to add, as a percent of the wide-open value: e.g. `10` for +10%.  The value is a static amount to add to
-the determined value, e.g. TPS of 5% w/ `10` results in 15% ETB. #torque
+Amount of ETB to add, as a percent of the wide-open value: e.g. `10` for +10%. The value is a static amount to add to
+the determined value, e.g. TPS of 5% w/ `10` results in 15% ETB.
+
+This could be used for torque reduction.
 
 ### Timer
 
-``yourTimer = Timer.new();`` to have a new variable of Timer type
+`yourTimer = Timer.new();` to have a new variable of Timer type
 
 #### reset
 
-``yourTimer:reset();`` to reset timer
+`yourTimer:reset();` to reset timer
 
 #### getElapsedSeconds
 
-``yourTimer:getElapsedSeconds();`` to get number of seconds since timer was reset
+`yourTimer:getElapsedSeconds();` to get number of seconds since timer was reset
 
 ### CAN bus
 
 #### `enableCanTx(isEnabled)`
 
-enabled by default
+Enabled by default
 
-use enableCanTx(false) to suppress CAN TX
+Use enableCanTx(false) to suppress CAN TX
 
 #### `txCan(bus, ID, isExt, payload)`
 
@@ -246,11 +250,7 @@ end
 
 #### `getSentValue(index)`
 
-TODO: document parameters, response
-
 #### `getSentValues(index)`
-
-TODO: document parameters, response
 
 ### PID
 
@@ -280,7 +280,7 @@ industrialPid:reset()
 Print a line of text to the ECU's log.
 
 - Parameters
-  - `msg`: The message to print.  Pass a string or number and it will be printed to the log.
+  - `msg`: The message to print. Pass a string or number and it will be printed to the log.
 - Returns
   - none
 
@@ -308,7 +308,7 @@ Output:
 Sets the rate at which rusEFI calls your `onTick` and `onCanRx` functions, in hz. On reset default is 10hz.
 
 - Parameters
-  - `hz`: Desired tick rate, in hz.  Values passed will be clamped to a minimum of 1hz, and maximum of 200hz.
+  - `hz`: Desired tick rate, in hz. Values passed will be clamped to a minimum of 1hz, and maximum of 200hz.
 - Returns
   - none
 
@@ -329,7 +329,7 @@ Find table index by specified human-readable name.
 Looks up a value from the specified Script Table.
 
 - Parameters
-  - `tableIdx`: Index of the table to use.  Currently 4 tables are supported, so indices 1, 2, 3, and 4 are valid.
+  - `tableIdx`: Index of the table to use. Currently 4 tables are supported, so indices 1, 2, 3, and 4 are valid.
   - `x`: X-axis value to look up in the table (this is often RPM)
   - `y`: Y-axis value to look up in the table (this is often load)
 - Returns
@@ -349,7 +349,7 @@ Looks up a value from the specified Script Curve.
 
 #### `setDebug(index, value)`
 
-Sets a debug channel to the specified value.  Note: this only works when the ECU debug mode is set to `Lua`.
+Sets a debug channel to the specified value. Note: this only works when the ECU debug mode is set to `Lua`.
 
 - Parameters
   - `index`: the index of the debug channel to set, 1 thru 7 inclusive.
@@ -368,7 +368,7 @@ Puts MCU into standby low current consumption mode.
 Reads the specified sensor. For instance ``getSensor("AcceleratorPedal")``
 
 - Parameters
-  - `name`: Name of the sensor to read.  [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
+  - `name`: Name of the sensor to read. [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 - Returns
   - A reading from the sensor, or `nil` if the sensor has a problem or isn't configured.
 
@@ -377,16 +377,16 @@ Reads the specified sensor. For instance ``getSensor("AcceleratorPedal")``
 Reads the specified sensor.
 
 - Parameters
-  - `index`: Index of the sensor to read.  [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
+  - `index`: Index of the sensor to read. [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 - Returns
   - A reading from the sensor, or `nil` if the sensor has a problem or isn't configured.
 
 #### `getSensorRaw(index)`
 
-Reads the raw value from the specified sensor.  For most sensors, this means the analog voltage on the relevant input pin.
+Reads the raw value from the specified sensor. For most sensors, this means the analog voltage on the relevant input pin.
 
 - Parameters
-  - `index`: Index of the sensor to read.  [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
+  - `index`: Index of the sensor to read. [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 - Returns
   - The raw value that yielded the sensor reading, or 0 if the sensor doesn't support raw readings, isn't configured, or has failed.
 
@@ -404,7 +404,7 @@ More or less like getSensorRaw but always voltage of aux analog input.
 Checks whether a particular sensor is configured (whether it is currently valid or not).
 
 - Parameters
-  - `index`: Index of the sensor to check.  [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
+  - `index`: Index of the sensor to check. [A list of sensor indices can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 - Returns
   - A boolean value, `true` if the sensor is configured, and `false` if not.
 
@@ -413,9 +413,9 @@ Checks whether a particular sensor is configured (whether it is currently valid 
 Reads a digital input from the specified channel.
 
 - Parameters
-  - `index`: The index of the digital channel to read.  See table below for values.
+  - `index`: The index of the digital channel to read. See table below for values.
 - Returns
-  - A boolean value representing the state of the input pin.  `true` = high voltage (above ~2 volts), `false` = low voltage (below ~3 volts)
+  - A boolean value representing the state of the input pin. `true` = high voltage (above ~2 volts), `false` = low voltage (below ~3 volts)
 
 Valid `index` parameter values:
 
@@ -431,9 +431,9 @@ Valid `index` parameter values:
 Reads a digital input from the configurable list.
 
 - Parameters
-  - `index`: The index of the digital pin to read.  Valid values are 0 through 7, one for each of the 8 user-defined digital pins. See "Lua Digital Aux Inputs" table under "Advanced" settings tab.
+  - `index`: The index of the digital pin to read. Valid values are 0 through 7, one for each of the 8 user-defined digital pins. See "Lua Digital Aux Inputs" table under "Advanced" settings tab.
 - Returns
-  - A boolean value representing the state of the input pin.  `true` = high voltage (above ~2 volts), `false` = low voltage (below ~3 volts)
+  - A boolean value representing the state of the input pin. `true` = high voltage (above ~2 volts), `false` = low voltage (below ~3 volts)
 
 #### `readPin(pinName)`
 
@@ -452,12 +452,12 @@ Positive value would start clicking injectors at specified RPM, zero value would
 
 #### `startPwm(index, frequency, duty)`
 
-Initializes PWM on the specified index, starting at the specified frequency and duty cycle.  The index selects which config field pin to use, see "Lua PWM Outputs" page in TunerStudio.
+Initializes PWM on the specified index, starting at the specified frequency and duty cycle. The index selects which config field pin to use, see "Lua PWM Outputs" page in TunerStudio.
 
 - Parameters
   - `index`: The index of the PWM channel to start. Valid values are 0 through 7, one for each of the 8 channels.
-  - `frequency`: Initial frequency of the output, in hertz (cycles per second).  Valid values are between 1 and 1000hz.
-  - `duty`: Initial duty cycle of the output.  `0.0` = fully off, and `1.0` = fully on.  `0.25` = on 25% of the time, off 75% of the time.
+  - `frequency`: Initial frequency of the output, in hertz (cycles per second). Valid values are between 1 and 1000hz.
+  - `duty`: Initial duty cycle of the output. `0.0` = fully off, and `1.0` = fully on. `0.25` = on 25% of the time, off 75% of the time.
 - Returns
   - none
 
@@ -467,7 +467,7 @@ Set the duty cycle of the specified PWM channel.
 
 - Parameters
   - `index`: The index of the PWM channel to set. Valid values are 0 through 7, one for each of the 8 channels.
-  - `duty`: Desired duty cycle of the output.  `0.0` = fully off, and `1.0` = fully on.  `0.25` = on 25% of the time, off 75% of the time.
+  - `duty`: Desired duty cycle of the output. `0.0` = fully off, and `1.0` = fully on. `0.25` = on 25% of the time, off 75% of the time.
 - Returns
   - none
 
@@ -475,7 +475,7 @@ Set the duty cycle of the specified PWM channel.
 
 - Parameters
   - `index`: The index of the PWM channel to set.
-  - `frequency`: Initial frequency of the output, in hertz (cycles per second).  Valid values are between 1 and 1000hz.
+  - `frequency`: Initial frequency of the output, in hertz (cycles per second). Valid values are between 1 and 1000hz.
 - Returns
   - none
 
@@ -504,15 +504,15 @@ Not enabled on most boards since most boards were not developer with DAC in mind
 
 ## Misc console commands
 
-``luamemory``
+`luamemory`
 
-``luareset``
+`luareset`
 
 ## Examples
 
-Read VSS from CANbus for gear detection see [honda-bcm.txt](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/honda-bcm.txt)
+Read VSS from CAN bus for gear detection see [honda-bcm.txt](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/honda-bcm.txt)
 
-### timer
+### Timer Example
 
 ``` lua
 t = Timer.new();
@@ -547,7 +547,7 @@ end
 startPwm(0, 100, 0)
 
 function onTick()
- enable_pump = getSensor("RPM") > 700  and getSensor("BatteryVoltage") > 13 and getSensor("VehicleSpeed") <60
+ enable_pump = getSensor("RPM") > 700 and getSensor("BatteryVoltage") > 13 and getSensor("VehicleSpeed") <60
  
  -- lua does not have ternary ? : operator, this here means "1 if enable_pump and 0 otherwise"
  setPwmDuty(0, enable_pump and 1 or 0)
@@ -555,7 +555,7 @@ function onTick()
 end
 ```
 
-### CAN transmit
+### CAN Transmit
 
 ``` lua
 function onTick()
@@ -574,7 +574,7 @@ function onTick()
 end
 ```
 
-### set sensor value
+### Set Sensor Value
 
  [A list of sensor names can be found here.](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/sensors/sensor_type.h)
 
@@ -643,7 +643,7 @@ function print_array(arr)
 end
 ```
 
-### table
+### Table
 
 ``` lua
 tableIndex = findTableIndex("duty")
@@ -654,11 +654,11 @@ tps = getSensor("Tps1")
 dutyCycle = table3d(tableIndex, TurbochargerSpeed, tps)
 
 sparkCutCurve = findCurveIndex("sparkcut")
-sparkCutByTorque = curve(sparkCutCurve, torque)
+sparkCutByTorque = curve(sparkCutCurve, torquex)
 
 ```
 
-## See also
+## See Also
 
 ### BMW iDrive
 
