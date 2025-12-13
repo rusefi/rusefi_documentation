@@ -116,9 +116,7 @@ NOTE: The analog inputs can also be used as switched inputs! These can be config
 
 Since a narrow band lambda (O2 sensor) was used in the original ECU, Hellen includes an onboard wideband controller. A harness is needed to connect the lambda sensor; these lines are not possible to wire in to the car connector.
 
-[Legacy Hellen WBO](Legacy-Hellen-WBO)
-
-Project page [rusEFI-Wideband-Controller](rusEFI-Wideband-Controller)
+Project page [rusEFI Wideband Controller](rusEFI-Wideband-Controller)
 
 ## Misc
 

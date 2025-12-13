@@ -1,31 +1,29 @@
 # Knowledge sharing and Channels
 
-TL,DR: are you interested in any knowledge being indexed by google and are you interested in any knowledge outliving your rusEFI involvement? Are you interested in the social aspect of the rusEFI Discord lounge?
+Are you interested in your knowledge being indexed by Google and outliving your rusEFI involvement? Are you interested in the social aspect of the [rusEFI Discord](Discord) lounge?
 
-TL,DR: please post knowledge on forum and report issues at [https://github.com/rusefi/rusefi/issues](https://github.com/rusefi/rusefi/issues)
-
-(do we have this somewhere already?)
+Please post your knowledge on the forum and report issues at [the GitHub issue tracker](https://github.com/rusefi/rusefi/issues).
 
 We have too many channels.
 
-* wiki
-* github tickets [Vault-Of-Memes](Vault-Of-Memes)
-* forum
-* facebook
-* discord (which has threads but humans rarely use threads)
+* [rusEFI Wiki](https://wiki.rusefi.com)
+* [GitHub Issues](https://github.com/rusefi/rusefi/issues)
+* [rusEFI Forum](https://rusefi.com/forum)
+* [Facebook](https://www.facebook.com/groups/rusEfi)
+* [Discord](Discord) (which has threads but humans rarely use threads)
 
-Universal long term car knowledge? probably wiki
+Universal long term car knowledge: Wiki is probably the best place for this.
 
-I have a cool project, it's my own not universal knowledge? at least a summary on the forum
+I have a cool project and I have knowledge specifec to it: Please create a thread on the forum - at least a summary.
 
-## Q: I need help?
+## I Need Help
 
-A: Please start on the forum, please go to discord after first back and forth, please post summary on the forum. Know what you are doing? Please start with a github issue instead of forum post.
+See [Support](Support)
 
-## Q: I have exciting valuable data I really want to dump it into discord RIGHT NOW
+## I have exciting valuable data I really want to dump into Discord RIGHT NOW
 
-A: Please do not. Please help by not offloading data preservation on someone else. Please start on the forum or github. Discord communications are only good for clarification and discussion *AFTER* context is nicely established on forum or github.
+Please do not. Please help by not offloading data preservation on someone else. Please start on the forum or GitHub. Discord communications are only good for clarification and discussion *AFTER* context is nicely established on forum or GitHub.
 
-## Q: Should I pile everything together?
+## Should I pile everything together?
 
-A: Please do not mix unrelated things together. For instance, let's not troubleshoot Mercedes vehicles on BMW build threads :)
+Please do not mix unrelated things together. For instance, let's not troubleshoot Mercedes vehicles on BMW build threads :)

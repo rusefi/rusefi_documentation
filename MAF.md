@@ -2,21 +2,21 @@
 
 ## Current Status
 
-The MAF based fueling of rusEFI is still undergoing development, the current status has the fueling functioning correctly but presents a few tuning challenges due to TunerStudio integration and the Spark Table still being reliant on the old engine load math.
+rusEFI's MAF-based fuel strategy is still undergoing development; fueling is functioning correctly but it presents a few tuning challenges due to TunerStudio integration and the Spark Table still being reliant on the old engine load math.
 
 This is an evolving situation at present and thus MAF fueling is still considered experimental.  
-**Please only use for development work at your own risk.**
+**Please only use for development - work at your own risk.**
 
-## MAF fuel theory - The detail
+## MAF Fuel Theory - The Details
 
-The implementation of the MAF in rusEFI is intended to replicate the functionality of OEM systems and as such is more complex than some other systems.
+The implementation of MAF in rusEFI is intended to replicate the functionality of OEM systems and as such is more complex than some other systems.
 
-The foundation of the MAF system is the Mass Air Flow sensor itself, this is a device using a hot wire, hot film or vane to directly measure the flow of air into the engine.
-Obviously this sensor does not give out an airflow value, it gives us a voltage, current or PWM signal that represents the flow. rusEFI can interpret a voltage or current MAF at this time via a transfer function table.
+The foundation of the MAF system is the Mass Air Flow sensor itself. This is a device using a hot wire, hot film, or vane to directly measure the flow of air into the engine.
+Obviously this sensor does not give out an airflow value - it gives us a voltage, current, or PWM signal that represents the flow. rusEFI can interpret a voltage or current MAF via a transfer function table.
 
-[//]: # "todo: Insert the MAF transfer function screen shot"
+![MAF Transfer Function](Images/TS/TunerStudio_MAF_transfer.png)
 
-The Transfer function table is used to convert the raw MAF sensor reading into a Kg/h (Kilogram Per Hour) airflow.
+The transfer function table is used to convert the raw MAF sensor reading into a Kg/h (Kilogram Per Hour) airflow.
 
 This Kg/h value is then processed into a required fuel quantity by the following calculations:
 
