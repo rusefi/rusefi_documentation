@@ -34,12 +34,13 @@ See [uaEFI](uaEFI)
 
 open source firmware see https://github.com/rusefi/fw-uaefi-Honda-OBD1/issues
 
-## Micro Fit
+## Wiring
 
-* harness side 2x3 0430250600
-* harness side 2x4 0430250808
-* harness side terminal 0430300001
-* PCB side 2x3 0430450612
+* aux header connector 12 pin 174913-6 housing / 90980-11129 terminal
+* harness side Micro Fit 2x3 0430250600
+* harness side Micro Fit 2x4 0430250808
+* harness side Micro Fit terminal 0430300001
+* PCB side Micro Fit 2x3 0430450612
 
 See [Vault Of Honda OEM](Vault-Of-Honda-OEM#obd-1)
 
