@@ -2,7 +2,7 @@
 
 See also [Trigger](Trigger)
 
-To change your trigger settings, open TunerStudio, then go to Base Engine->Trigger.
+To change your trigger settings, open TunerStudio, then go to "Setup" -> "Trigger".
 
 ## Important Note
 

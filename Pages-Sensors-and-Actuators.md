@@ -2,10 +2,8 @@
 
 <details markdown="1" class="abstract"><summary><u>Throttle and ETB</u></summary>
 
-* [How To - ETB](Electronic-Throttle-Body-Configuration-Guide)
-* List of tested ETBs - Coming Soon
-* List of tested TPS sensors - Coming Soon
-* List of tested Throttle pedal sensors - Coming Soon
+* [How to - ETB](Electronic-Throttle-Body-Configuration-Guide)
+* [Vault of ETBs](Vault-Of-Electronic-Throttle-Bodies-ETB)
 
 </details>
 
@@ -29,18 +27,6 @@
 
 </details>
 
-<details markdown="1" class="abstract"><summary><u>Intake Air Temperature Sensors</u></summary>
-
-* List of tested Intake Air Temperature Sensors - Coming Soon
-
-</details>
-
-<details markdown="1" class="abstract"><summary><u>Coolant Temperature Sensors</u></summary>
-
-* List of tested Coolant Temperature Sensors - Coming Soon
-
-</details>
-
 <details markdown="1" class="abstract"><summary><u>Oil Pressure Sensors</u></summary>
 
 * [Combo Pressure/Temp Sensor](Vault-Of-Sensors#liquid-pressure-and-temperature-sensor)
@@ -50,9 +36,6 @@
 <details markdown="1" class="abstract"><summary><u>Crank Sensors</u></summary>
 
 * [List of tested trigger patterns](All-Supported-Triggers)
-* List of tested Crank Sensors - Coming Soon
-
-[//]: # 'Trigger page seems broken'
 
 </details>
 
@@ -62,22 +45,9 @@
 
 </details>
 
-<details markdown="1" class="abstract"><summary><u>Camshaft Sensors</u></summary>
-
-* Coming Soon
-
-</details>
-
-<details markdown="1" class="abstract"><summary><u>Ignition Coils</u></summary>
-
-* Coming Soon
-
-</details>
-
 <details markdown="1" class="abstract"><summary><u>Fuel Injectors</u></summary>
 
 * [GDI Status](GDI-status)
-* List of tested fuel injectors - Coming Soon
 
 </details>
 

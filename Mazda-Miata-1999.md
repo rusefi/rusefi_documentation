@@ -6,7 +6,7 @@
 
 [Mazda Miata NB1 Trigger](All-Supported-Triggers#mazda-miata-nb)
 
-set engine_type 9
+`set engine_type 9`
 
 ## Plug 1
 

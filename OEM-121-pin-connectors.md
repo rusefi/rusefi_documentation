@@ -1,6 +1,6 @@
 # OEM connectors 121 pin
 
-Disclaimer: the following observations could be really wrong, please let me know if you have better information.
+Disclaimer: the following observations could be really wrong; please let me know if you have better information.
 
 See also [OEM Connectors - 121 pin](OEM-connectors#121-pin)
 

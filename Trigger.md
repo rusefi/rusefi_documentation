@@ -54,7 +54,7 @@ Type `enable trigger_details` in rusEFI console to enable verbose synchronizatio
 
 Enable Trigger Counters
 
-![Trigger Counter in Base Engine Settings](Images/TS/trigger_counters.png)
+![Trigger Counter in Setup Settings](Images/TS/trigger_counters.png)
 
 TIME TO UPDATE DOCUMENTATION SEE https://github.com/rusefi/rusefi_documentation/issues/497
 

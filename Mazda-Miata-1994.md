@@ -1,6 +1,6 @@
 # 1994 Mazda Miata
 
-interactive pinout https://rusefi.com/docs/pinouts/hellen/hellen64_miataNA6_94/
+[Interactive Pinout](https://rusefi.com/docs/pinouts/hellen/hellen64_miataNA6_94/)
 
 ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few exceptions:
 
@@ -80,7 +80,7 @@ ECU pin-out seems to be very similar to [1990](Mazda-Miata-1990) with few except
 Source: [http://www.rivercityroad.com/garage/cas.htm](http://www.rivercityroad.com/garage/cas.htm)
 The CAS has four wires. Two are for +12 power and ground. The other two are the output signals read by the engine computer.
 
-The signals are called SGC and SGT on the 1.8 engine. They are called called NE and G signals on the 1.6 engine. The computer can decode the position of the engine camshaft and the engine speed from these two signals. With this information, it calculates when to send spark to the spark plugs and fuel to the fuel injectors.
+The signals are called SGC and SGT on the 1.8 engine. They are called NE and G signals on the 1.6 engine. The computer can decode the position of the engine camshaft and the engine speed from these two signals. With this information, it calculates when to send spark to the spark plugs and fuel to the fuel injectors.
 
 ![CAS Signals](Images/Miata_cas_signals.jpg)
 

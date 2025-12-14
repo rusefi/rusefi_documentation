@@ -1,6 +1,6 @@
 # 2003 Mazda Miata Alt
 
-In RusEFI console, set engine_type 47 loads base settings.
+In rusEFI console, `set engine_type 47` loads base settings.
 
 ## Wiring
 
@@ -10,7 +10,7 @@ In RusEFI console, set engine_type 47 loads base settings.
 
 ![Connector Face](Images/diagrams/NB2_Miata_ECU_Connectors_Drawing_rusEFI_harness.png)
 
-| Pin STM32 | Type             | Pin RusEFI | Pin 64 Conn | Pin 72 Conn (NB2) | Desc                      |
+| Pin STM32 | Type             | Pin rusEFI | Pin 64 Conn | Pin 72 Conn (NB2) | Desc                      |
 | --------- | ---------------- | ---------- | ----------- | ----------------- | ------------------------- |
 |           | Spare            | W1         | 1A          | 2P                | Idle Pos                  |
 |           | Switched 12V     | W2         | 1B          | 4AF               | Main relay Power          |
