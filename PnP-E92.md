@@ -15,3 +15,8 @@ Mounting Bracket Truck Fit 14-20 23283540
 Q: What do you mean E92 PnP?
 
 A: [https://www.youtube.com/watch?v=nr9AhxugPog](https://www.youtube.com/watch?v=nr9AhxugPog)
+
+Q: is it ready for prime time?
+
+A: I've started the yellow Camaro with the start button, the gauges worked and it has idled for a minute. That's all testing on this platform as of today
+
