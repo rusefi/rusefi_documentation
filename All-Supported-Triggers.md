@@ -9,7 +9,7 @@ To change your trigger settings, open TunerStudio, then go to Base Engine->Trigg
 For shapes with two wheels, the cam wheel should be the primary channel in TunerStudio, and is displayed on the left in the screenshots below.
 Also, the order of channels in the engine sniffer should match the order of channels on the bottom part of corresponding image.
 
-[Universal](#universal)
+[Universal](#universal-skipped-wheel)
 
 [GM](#gm)
 

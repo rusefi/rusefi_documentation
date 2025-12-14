@@ -4,7 +4,7 @@
 
 [BMW e65](BMW-e65)
 
-[OEM-connectors#121](OEM-connectors#121)
+[OEM-connectors#121](OEM-connectors#121-pin)
 
 [HOWTO depin Video](https://youtu.be/5nto9Sa7yKc?t=65)
 
