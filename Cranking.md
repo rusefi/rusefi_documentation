@@ -61,7 +61,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 ## General Cranking Settings
 
-### Cranking RPM limit  
+### Cranking RPM limit
 
 *This sets the RPM limit below which the ECU will use cranking fuel and ignition logic - typically 350-450 RPM.*  
 
@@ -127,11 +127,11 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 ## Advanced Cranking Settings
 
-### Enable flood clear  
+### Enable flood clear
 
 *When enabled, if the throttle pedal is held above 90% no fuel is injected while cranking to clear excess fuel from the cylinders.*  
 
-### Enable faster engine spin-up  
+### Enable faster engine spin-up
 
 - *Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
 

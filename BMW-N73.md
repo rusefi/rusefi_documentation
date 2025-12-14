@@ -5,9 +5,9 @@
 BMW 760 12 cylinders
 See [BMW-e65](BMW-e65)
 
-x2 DME - engine control unit using [134 pin connector](OEM-connectors#134)
+x2 DME - engine control unit using [134 pin connector](OEM-connectors#134-pin)
 
-x2 HDEV fuel injection module 7506280 [121 pin connector](OEM-connectors#121)
+x2 HDEV fuel injection module 7506280 [121 pin connector](OEM-connectors#121-pin)
 
 [N73 ECU pinout](https://docs.google.com/spreadsheets/d/1W5Unmn0BxpyJrF7ygtsBidWyytZWV2f26zL1YWcE44c/)
 

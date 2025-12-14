@@ -162,7 +162,7 @@ checkhash() {
 	HEADERS=$(grep '^#' "$FILE")
 	TAGS=$(headertohash "$HEADERS")
 	# If it's found, return early
-	echo "$TAGS" | grep "$2" >/dev/null 2>&1 && return 0
+	echo "$TAGS" | grep -E "$2$" >/dev/null 2>&1 && return 0
 
 	PICK=$(fixoptions "$1" "$3$2" "$HEADERS")
 	if [ "$?" -gt 0 ]; then return $?; fi

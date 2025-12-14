@@ -4,7 +4,7 @@
 
 Civic EG gen5 1992-1995
 
-[OBD1 connector part number](OEM-connectors#64)
+[OBD1 connector part number](OEM-connectors#64-pin)
 
 [1993 Honda Prelude](Honda-Prelude-1993)
 
@@ -22,7 +22,7 @@ Civic EK gen6 1996-2000
 
 [2a pinout](https://www.ff-squad.com/technet/wiring.obd2a.htm)
 
-[OBD2 connector part number](OEM-connectors#104)
+[OBD2 connector part number](OEM-connectors#104-pin)
 
 [1996 Honda Civic](Honda-Civic-1996)
 
