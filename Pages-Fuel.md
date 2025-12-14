@@ -14,7 +14,6 @@
 
 * [Overview](Acceleration-Compensation)
 * [X-Tau Wall Wetting](X-tau-Wall-Wetting)
-* TPS. - Coming Soon
 
 </details>
 
@@ -28,6 +27,6 @@
 
 * [Converting from Carb](how-to-convert-from-carburetor-to-EFI)
 * [GDI Status](GDI-status)
-* [Basic Injector wiring](FAQ-Basic-Wiring-and-Connections)
+* [Basic Injector Wiring](FAQ-Basic-Wiring-and-Connections#fuel-injectors)
 
 </details>

@@ -1,10 +1,9 @@
 # Proteus - OLD PAGE
 
-[current Proteus Manual](Proteus-Manual)
+[Current Proteus Manual](Proteus-Manual)
 
-Q: where can I buy a Proteus?
-
-A: http://shop.rusefi.com/
+*__Q:__ where can I buy a Proteus?*  
+__A:__ http://shop.rusefi.com/
 
 With fabrication files for Proteus you can get a 80% assembled unit from JLCPCB.
 
@@ -22,8 +21,6 @@ Source & production files [at github](https://github.com/mck1117/proteus/)
 
 [Image showing mod for V0.3 DFU problem](Images/Proteus_DFU_Hack.jpg)
 
-<a name="3d_cases"/>
-
 ## 3D cases
 
 [vented/unvented by Kneelo](Hardware-files/Proteus/Proteus_0.3_case_by_kneelo.zip)
@@ -36,8 +33,6 @@ We have a plastic CNCed case [at eBay store](https://www.ebay.com/itm/3339580505
 
 McM 90417A118
 black oxide, #4 3/8" long screws recommended
-
-<a name="dev"/>
 
 ## Dev Access
 
@@ -57,7 +52,7 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 0.5A 12V_IGN
 
-## Adapters DONE
+## Adapters
 
 [Proteus Honda K 125 Adapter](https://github.com/rusefi/proteus-Honda-K-125-adapter)
 
@@ -71,7 +66,7 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 [Proteus Mitsubishi 76 adapter](https://github.com/rusefi/proteus-mitsubishi76-adapter)
 
-## Adapters WIP
+## Adapters in Development
 
 [Proteus 80pin VAG adapter](https://github.com/rusefi/proteus-80-pin-vag-adapter)
 
@@ -83,6 +78,6 @@ Any debugger compatible with the standard 10-pin Cortex Debug Header should work
 
 [Proteus 68pin VAG adapter](https://github.com/rusefi/proteus-68-pin-vag-adapter)
 
-## Adapters maybe NOT
+## Cancelled Adapters
 
 [Proteus RX8 Adapter](https://github.com/rusefi/proteus-rx8-adapter)

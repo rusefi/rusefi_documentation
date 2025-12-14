@@ -2,7 +2,7 @@
 
 [Mazda Miata 1990](Mazda-Miata-1990)
 
-[<https://svn.code.sf.net/p/rusefi/code/trunk/misc/www/images/Frankenso/frankenso_1991_miata_f.jpg> frankenso front]
+![frankenso front](Images/frankenso_1991_miata_f.jpg)
 
 ![Pinout](Images/diagrams/frankenso_connector_miata_1991.png)
 

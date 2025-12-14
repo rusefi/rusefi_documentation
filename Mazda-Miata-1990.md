@@ -4,7 +4,7 @@
 
 1990 1.6 US
 
-Rusefi Engine Type 41 on Frankenso
+rusEFI Engine Type 41 on Frankenso
 
 ## Plug 1
 

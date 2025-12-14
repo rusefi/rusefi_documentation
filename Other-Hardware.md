@@ -4,7 +4,7 @@
 
 | Hardware                                       | Purchase                                                            |
 |------------------------------------------------|---------------------------------------------------------------------|
-| [Small Can Board](Small-CAN-Board)             | [rusEFI Store](https://www.shop.rusefi.com/shop/p/smallcanboard)    |
+| [Small CAN Board](Small-CAN-Board)             | [rusEFI Store](https://www.shop.rusefi.com/shop/p/smallcanboard)    |
 | [uaCanBridge](uaCanBridge)                     | [rusEFI Store](https://www.shop.rusefi.com/shop/p/ua-can-bridge)    |
 | [Dual Channel WBO](rusEFI-Wideband-Controller) | [rusEFI Store](https://www.shop.rusefi.com/shop/p/dual-channel-wbo) |
 | [uaWBO](uaWBO)                                 | [rusEFI Store](https://www.shop.rusefi.com/shop/p/uawbo)            |

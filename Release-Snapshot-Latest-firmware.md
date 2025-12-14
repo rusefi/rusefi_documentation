@@ -1,6 +1,8 @@
-# Release
+# Firmware Versions
 
-More tested version of firmware.
+## Release
+
+The firmware version that has been more thoroughly tested.
 
 ## Snapshot
 
@@ -8,4 +10,4 @@ Potentially less stable version with all the most recent changes, sometimes know
 
 ## Latest
 
-"latest" is a bad term since it could be either "latest release" or "latest snapshot"
+"latest" is a bad term since it could be either "latest release" or "latest snapshot".

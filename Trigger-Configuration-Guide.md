@@ -42,7 +42,7 @@ To inspect the missing tooth signal's shape:
    > These images were collected on a Volvo 60-2 trigger wheel, the exact timing may vary, but a long period of low preceding the long high time (marked with arrow on the wrong image) is the clear indicator of a mis-wired sensor.  The correct pattern is equally sized low periods, with a single long high period.
 
 5. If your missing tooth looks like the wrong example, swap the VR+ and VR- wires.  Repeat steps 2-4, and double check that it now looks like the good example.
-6. In TunerStudio, ensure that "Use only rising edge" is set to `true`, and "Invert Primary" is set to `false`. (found in the menu *Base Engine* > *Trigger*).  These are the only correct combination of options for a MAX992x-based VR interface.
+6. In TunerStudio, ensure that "Use only rising edge" is set to `true`, and "Invert Primary" is set to `false`. (found in the menu *Setup* -> *Trigger*).  These are the only correct combination of options for a MAX992x-based VR interface.
 
 #### ECUs with "Bipolar" VR inputs (microRusEFI)
 

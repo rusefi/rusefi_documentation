@@ -28,6 +28,6 @@ To set your trigger offset setting, you must determine how far your ECU is from 
 
     ![Timing Mark](Images/timing_marker.jpeg)
 
-7. Adjust "Base Engine" -> "Trigger" -> "Trigger Angle Advance" up or down (negative values are allowed) until you get spark at TDC. This is now your trigger offset.
+7. Adjust "Setup" -> "Trigger" -> "Trigger Angle Advance" up or down (negative values are allowed) until you get spark at TDC. This is now your trigger offset.
 8. Reinstall your spark plugs, re-enable fuel, set your timing to something sensible, (manufacturer recommendations) and try to start your engine. Verify the timing again with a timing light once the engine runs, and adjust the offset if needed.
 9. Change your timing mode back to "dynamic" or you will continue to run on fixed timing and give up a ton of power and fuel economy and have some *really* high exhaust temperatures.
