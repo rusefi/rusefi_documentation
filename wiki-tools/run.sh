@@ -20,8 +20,7 @@ ENDSOURCES
 shopt -s extglob
 
 mkdir -p generator/docs
-CHANGE=$(rsync -ra --out-format="%f" --delete --exclude generator --exclude wiki-tools --exclude '_*' \
-							 --exclude '.*' --exclude nodemap.html --exclude style.css --exclude map.csv --exclude nav.js --exclude book.pdf ./ generator/docs)
+CHANGE=$(rsync -a --out-format="%f" --delete ./*.md generator/docs)
 
 # Nodemap
 
@@ -47,13 +46,29 @@ cd generator
 
 cp style.css docs
 
-if [ "$1" == "update" ]; then
-	exit;
-elif [ -n "$1" ]; then
-	zensical $@
+if [ -n "$1" ]; then
+	if [ "$1" != "update" ]; then
+		# Run the server in the background because we need to hard link extra files
+		# after zensical runs, but zensical serve doesn't exit/fork
+		zensical $@ &
+		SERVER=$!
+		# Give zensical a little time to clear the destination directory
+		sleep 1s
+	fi
 else
 	zensical build
 	if [ $? -ne 0 ]; then
 		exit 1
 	fi
+fi
+
+# Hard link all extra files
+# This must be done after zensical because zensical clears the destination dir
+cd ..
+rsync -ra --link-dest="$(realpath .)" --exclude generator --exclude wiki-tools --exclude '_*' \
+			--exclude '.*' --exclude nodemap.html --exclude style.css --exclude map.csv --exclude nav.js --exclude book.pdf --exclude '/*.md' ./ generator/wiki
+
+if [ "$SERVER" != "" ]; then
+	trap "kill $SERVER; exit" INT
+	wait "$SERVER"
 fi
