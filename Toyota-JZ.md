@@ -24,4 +24,4 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Toyota/1998%
 
 ## Toyota
 
-more [Toyota here](Toyota)
+More [Toyota here](Toyota)

@@ -1,16 +1,16 @@
 # Temperature Sensing
 
-In order to configure coolant temperature sensor or intake air sensor you would need to know it's resistance at three temperatures - lowest, highest and somewhere in between. You would also need to know the value of pull-up 'bias' resistor, which together with your sensor would make a voltage divider.
+In order to configure a coolant temperature sensor or intake air sensor you will need to know its resistance at three temperatures - lowest, highest and somewhere in between. You will also need to know the value of the pull-up 'bias' resistor, which together with your sensor makes a voltage divider.
 
-While troubleshooting CLT and IAT, the two most useful console commands are `analoginfo` and `tempinfo` - these show you the voltage registered by rusEFI alongside with input pins and resistance processing values.
+While troubleshooting CLT and IAT, the two most useful console commands are `analoginfo` and `tempinfo`. These show you the voltage registered by rusEFI alongside input pins and resistance processing values.
 
 See also [Measuring Temperature](http://rusefi.com/articles/measuring_temperature/)
 
 See also [Troubleshooting](Troubleshooting)
 
-![analoginfo Output](Images/analoginfo2.png)
+![analoginfo Output](Images/rusEFI_console/analoginfo2.png)
 
-![tempinfo Output](Images/tempinfo.png)
+![tempinfo Output](Images/rusEFI_console/tempinfo.png)
 
 ![CLT Thermistor Settings](Images/TS/thermistor_settings.png)
 

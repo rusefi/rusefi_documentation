@@ -34,12 +34,12 @@ These tables provide technical information about the different types of pin foun
 
 ### Input
 
-| ID   | Type                | Notes & Limits                                                                       | Possible functions |
-|------|---------------------| ------------------------------------------------------------------------------------ | --- |
-| at   | Analog temperature  | Analog temperature (thermistor) input.  2.7k(+-1%) pullup resistor to 5v  | Thermistor temperature sensor, fuel level sender (variable resistor type) |
-| av   | Analog voltage      | Analog voltage input.  500k pull down to GND                                         | Analog voltage sensor (MAP, TPS, acc pedal, oil pressure, etc) |
-| vr   | Variable reluctance   | VR crank input                                                                       | VR sensors including crank, cam, vehicle speed |
-| hall | Hall cam/crank      | <mark>TBD pull up to 5v</mark> hall sensor for cam/crank                             | Hall sensors including crank, cam, vehicle speed |
+| ID   | Type                | Notes & Limits                                                           | Possible functions                                                        |
+|------|---------------------|--------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| at   | Analog temperature  | Analog temperature (thermistor) input.  2.7k(+-1%) pullup resistor to 5v | Thermistor temperature sensor, fuel level sender (variable resistor type) |
+| av   | Analog voltage      | Analog voltage input.  500k pull down to GND                             | Analog voltage sensor (MAP, TPS, acc pedal, oil pressure, etc)            |
+| vr   | Variable reluctance | VR crank input                                                           | VR sensors including crank, cam, vehicle speed                            |
+| hall | Hall cam/crank      | hall sensor for cam/crank with pull-up to 5v                             | Hall sensors including crank, cam, vehicle speed                          |
 
 ### Output
 
@@ -73,16 +73,42 @@ USB cable red wire: +5v (would not work via microRusEFI connector for versions <
 
 ### Hall type Crank sensor
 
-See TLE8888 data sheet figure 71
-R9=DNP
-R15=DNP
-R17=2.7K pull-up to 5v
+Depending on your crankshaft position sensor type you would need to populate either Hall or VR option.
 
-R12=10K
-R13=0R
+0.1 - 0.3
+
+R9=DNP  
+R15=DNP  
+R17=2.7K pull-up to 5v  
+R12=10K  
+R13=0R  
 
 ![front hall](Hardware-files/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_hall_setup.jpg)
+
 ![front lower](Hardware-files/microRusEFI/Hardware_microRusEFI_0_1_assembled_front_lower.jpg)
+
+0.4.5, 0.4.7: For VR crankshaft position sensor you would need to add R9 & C12 on the back.
+
+0.4.8: Comes set for VR (R9 & C12 are now on the front since)
+
+VR mode front - comes pre-assembled
+![Back](Hardware-files/microRusEFI/Hardware_microRusEFI_0.4.7_vr_front.png)
+
+VR mode back
+![Back](Hardware-files/microRusEFI/Hardware_microRusEFI_0.4.7_vr_back.jpg)
+
+0.4.5, 0.4.7: For Hall, you would need to REMOVE R15 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
+
+0.4.8: For Hall, you would need to REMOVE R15&R9, C12 & C35 on the front, and install R17=1.5K R18=R19=4.7K on the back.
+
+0.5.0 Hall
+![Front](Hardware-files/microRusEFI/Hardware_microRusEFI_0.5.0_hall_mode.jpg)
+
+0.4.7 Hall mode front
+![Front](Hardware-files/microRusEFI/Hardware_microRusEFI_0.4.7_hall_front.jpg)
+
+0.4.7 Hall mode back
+![Back](Hardware-files/microRusEFI/Hardware_microRusEFI_0.4.7_hall_back.png)
 
 ## Extra pins
 

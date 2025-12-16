@@ -2,7 +2,7 @@
 
 *Chat with the community on [Discord](https://discord.gg/rCGAUaZJKF)*
 
-rusEFI is a community-driven free open source project. We offer very flexible universal units which empower motorsports professionals or enthusiasts to accomplish a lot, but we do not have the resources to offer free support to end users.
+rusEFI is a community-driven, free and open-source project. We offer very flexible universal units which empower motorsports professionals or enthusiasts to accomplish a lot, but we do not have the resources to offer free support to end users.
 
 If you need help with your rusEFI project, you have two options:
 
@@ -46,17 +46,17 @@ An example of a question asked with helpful background information:
 
 rusEFI is not specific to a particular vehicle. The people involved own and know about a wide range of vehicles. It's easy to forget this and use terms that may be familiar to people who mess with vehicles like yours but aren't well known in the broader audience. Asking "What about N75?" is a much more ambiguous question than "What about N75 (boost control valves)?" Adding the extra information (parenthetically) makes it easier for more people to understand what you are asking and help you faster.
 
-Screenshots are an easy way to add helpful information to your request for support. Attaching a screenshot to a forum post you requires less than six key presses.
+Screenshots are an easy way to add helpful information to your request for support. Attaching a screenshot to a forum post requires less than six key presses.
 
 - "ctrl-print screen" or "alt-print screen" to take a screenshot and copy it into the clipboard
 - "ctrl-v" to attach image from clipboard into forum post.
 
 Snipping Tool, which is included on your PC if you have Windows 10 or newer, and [ShareX](https://getsharex.com/) can take screen recordings in addition to screenshots.
 
-Please collect the below information before requesting support in the forums. Also please include this each time you post about a problem. This can all be collected in a zip file, or done as individual files and attached to your forum support request. Please keep in mind that you are seeing this and you have a lot of information which those of us in the forum do not have. Things that may seem simple to you may be complicated for those of us who have not physically seen what you have, or have not see the steps you have taken to get to the problem you are faced with.
+Please collect the below information before requesting support in the forums. Also please include this each time you post about a problem. This can all be collected in a zip file, or done as individual files and attached to your forum support request. Please keep in mind that you are seeing this and you have a lot of information which those of us in the forum do not have. Things that may seem simple to you may be complicated for those of us who have not physically seen what you have, or have not seen the steps you have taken to get to the problem you are faced with.
 
-- What is the basic problem? This would be something like, engine does not start, cannot connect Tuner Studio, Magic smoke has come out, or something similar. A video on youtube can be helpful for this as well.
-- Please provide a screenshot of the rusEFI console. This tells us allot about what firmware you are using, and the status of your software. Also please include the console's border as that indicates information as well.
+- What is the basic problem? This would be something like, engine does not start, cannot connect Tuner Studio, Magic smoke has come out, or something similar. A video on YouTube can be helpful for this as well.
+- Please provide a screenshot of the rusEFI console. This tells us a lot about what firmware you are using, and the status of your software. Also please include the console's border as that indicates information as well.
 - Please provide a screenshot of Tuner Studio. Just like the console, this indicates a lot about your setup and which pieces of software you are using. Also please include the Tuner Studio border as that indicates information as well.
 - Please provide a picture of your physical setup. Seeing how the wires are connected tells us allot about how the hip bone is connected to the leg bone, etc. It also tells us if you have connected the leg bone to the shoulder bone.
 - Please provide a copy of your logs, or specify NA for this.
@@ -78,38 +78,38 @@ Tell us about your engine setup. Something like the below.
 
 ## Success?
 
-Once your issue is resolved please write up how you got things resolved. Your experience may be helpful to someone else.
+Once your issue is resolved, please write up how you got things resolved. Your experience may be helpful to someone else.
 
 - Please have a separate [forum](https://rusefi.com/forum) thread for each of your rusEFI vehicles. Please have at least one picture in the first forum post.
 - Please upload your best rusEFI tune to [rusEFI Online](Online)
-- Please upload a few interesting log files to rusEFI online - a starting/warm-up log, a wide open throttle driving log etc.
+- Please upload a few interesting log files to rusEFI Online - a starting/warm-up log, a wide open throttle driving log etc.
 
 ## Support Q&A
 
-*Q: I am not into reading, can I just rely on community for everything?*  
-A: No, there's an expectation that people read documentation and follow that documentation.
+*__Q:__ I am not into reading, can I just rely on community for everything?*  
+__A:__ No, there's an expectation that people read documentation and follow that documentation.
 
-*Q: Do you guys prefer short text descriptions or long text descriptions?*  
-A: We prefer longer problem descriptions with as much of supporting material as possible. Screen shots, videos etc.
+*__Q:__ Do you guys prefer short text descriptions or long text descriptions?*  
+__A:__ We prefer longer problem descriptions with as much of supporting material as possible. Screenshots, videos etc.
 
-*Q: I would like to get individual technical support via email*  
-A: Your best option in this scenario is [paid technical support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support)
+*__Q:__ Can I get individual technical support via email?*  
+__A:__ Your best option in this scenario is [paid technical support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support)
 
-*Q: What is the preferred way of posting videos?*  
-A: Please use Youtube to post videos, then post a link of your video.
+*__Q:__ What is the preferred way of posting videos?*  
+__A:__ Please use Youtube to post videos, then post a link of your video.
 
-*Q: I have 2009 AXP with TAMTAM.  Help me.  ("AXP" and "TAMTAM" are made up to illustrate that the particulars really don't matter here.)*  
-A: You are very unlikely to get much help asking for support like this.  rusEFI helps those that are willing to help themselves.  We do not have the have time or bandwidth to provide hand holding for specific setups or features.  Unless you want to become involved in the development process as a contributor, it is very unlikely that we will "just get around to it" in the next year.
+*__Q:__ I have 2009 AXP with TAMTAM.  Help me.  ("AXP" and "TAMTAM" are made up to illustrate that the particulars really don't matter here.)*  
+__A:__ You are very unlikely to get much help asking for support like this.  rusEFI helps those that are willing to help themselves.  We do not have the time or bandwidth to provide hand-holding for specific setups or features.  Unless you want to become involved in the development process as a contributor, it is very unlikely that we will "just get around to it" in the next year.
 
-*Q: Joe rusEFI Dev is on Facebook; may I message them directly?*  
-A: Unfortunately we do not have resources for technical support via Facebook direct messages.
-The same goes forum private messages. Please use public channels to have a higher chance of a response from the community. The more effort you make to ask a good question, the better response you would get. If you want one-on-one support, it is available in the [rusEFI store](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support).
+*__Q:__ Joe rusEFI Dev is on Facebook; may I message them directly?*  
+__A:__ Unfortunately we do not have resources for technical support via Facebook direct messages.
+The same goes for forum private messages. Please use public channels to have a higher chance of a response from the community. The more effort you make to ask a good question, the better response you will get. If you want one-on-one support, it is available in the [rusEFI store](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support).
 
-*Q: How do I attach logs to my forum post? Looks like forum does not allow .msl files?*  
-A: Please post your logs and tunes to [rusEFI Online](Online).
+*__Q:__ How do I attach logs to my forum post? Looks like forum does not allow .msl files?*  
+__A:__ Please post your logs and tunes to [rusEFI Online](Online).
 
-*Q: I have damaged OEM ECU, what's best way to just repair my vehicle?*  
-A: Universal standalone ECUs are not trivial, we do not recommend universal standalones as a way to repair a broken vehicle. While you gain openness and sureness in what you deal with, you would have to make quite an effort to calibrate your ECU to a drivable state.
+*__Q:__ I have damaged OEM ECU, what's best way to just repair my vehicle?*  
+__A:__ Universal standalone ECUs are not trivial; we do not recommend universal standalones as a way to repair a broken vehicle. While you gain openness and confidence in what you deal with, you would have to make quite an effort to calibrate your ECU to a drivable state.
 
-*Q: What is the process for warranty/returns*  
-A: Once you have exhausted all public community support options including Discord we usually accept returns with a refund.
+*__Q:__ What is the process for warranty/returns?*  
+__A:__ Once you have exhausted all public community support options including Discord we usually accept returns with a refund.

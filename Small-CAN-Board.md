@@ -1,12 +1,12 @@
 # Small CAN Board
 
-[💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/smallcanboard)
+[💲rusEFI Store💲](https://www.shop.rusefi.com/shop/p/smallcanboard)
 
 [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/small-can-board/)
 
 [firmware snapshot bundle](https://rusefi.com/build_server/rusefi_bundle_small-can-board.zip)
 
-Build your own CANbus driven smart wastegate controller or control axillary lights on a modern vehicle or whatever you need leveraging the wide range of available input-outputs, all leveraging the power of [Lua scripting](Lua-Scripting)!
+Build your own CAN bus driven smart wastegate controller or control auxillary lights on a modern vehicle or whatever you need, leveraging the wide range of available input/outputs, all leveraging the power of [Lua scripting](Lua-Scripting)!
 
 * Full rusEFI firmware with Lua running stm32f405 LQFP-64
 * Two CAN buses
@@ -17,7 +17,7 @@ Build your own CANbus driven smart wastegate controller or control axillary ligh
 * USB-C
 * SD card
 * SENT input
-* x4 high current low side outputs (5A-ish)
+* x4 high current low-side outputs (5A-ish)
 * x3 analog inputs
 * x3 digital inputs
 * TC2030 debugging header

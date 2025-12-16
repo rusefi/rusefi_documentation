@@ -2,13 +2,13 @@
 
 ## Engine
 
-Turbocharged oposite 4 cylinder EJ20G
+Turbocharged opposed 4 cylinder EJ20G
 
 ## Stock ECU
 
-A lot of useful info can be found at [<http://www.alcyone.org.uk/ssm/index.html> Diagnostics and Datalogging for Subaru SVX]
+A lot of useful info can be found at [Diagnostics and Datalogging for Subaru SVX](http://www.alcyone.org.uk/ssm/index.html).
 
-## ECU pinout
+## ECU Pinout
 
 This pinout can be partially correct for other Subaru from early 90s (with same yellow ECU connector). Like Legacy/Liberty, SVX and so on.
 

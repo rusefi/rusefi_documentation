@@ -1,4 +1,6 @@
-# USPS
+# Shipping
+
+## USPS
 
 [USPS Track a Package](https://tools.usps.com/go/TrackConfirmAction_input) - click "Product Information" to see "Postal Product".
 

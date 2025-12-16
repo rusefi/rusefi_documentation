@@ -166,7 +166,7 @@ At this point you need to power rusEFI device off/on and new firmware version wo
 
 New firmware version could be confirmed in rusEFI window title - both console and firmware versions are displayed there.
 
-![img](Images/console_showing_firmware_version.png)
+![img](Images/rusEFI_console/console_showing_firmware_version.png)
 
 ## Pin Reuse
 

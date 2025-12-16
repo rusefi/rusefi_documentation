@@ -37,7 +37,7 @@ For more information see [the wiki page](rusEFI-Wideband-Controller).
 
 Innovate's LC-2 serial interface is supported. The Innovate sensor controller has typically two serial connectors, the one labeled *OUT* needs to be connected to the ECU. AUX Serial needs to be configured with a baud rate of 19200BPs and *Enable Innovate LC-2 Serial* needs to be set to true in the EGO sensor window.
 
-![Innovate LC-2 Settings](Images/innovate_lc2_settings.png)
+![Innovate LC-2 Settings](Images/TS/innovate_lc2_settings.png)
 
 ## Wide Band Oxygen Sensor Info
 

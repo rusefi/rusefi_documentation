@@ -1,8 +1,8 @@
 # Injector Lag Tuning
 
-![Individual Injection](Images/Injection_individual.png)
+![Individual Injection](Images/rusEFI_console/Injection_individual.png)
 
-![Batch Injection](Images/Injection_batch.png)
+![Batch Injection](Images/rusEFI_console/Injection_batch.png)
 
 In sequential mode, each cylinder gets on time injector lag correction per engine cycle; in batch mode each cylinder gets the same amount of fuel split into two squirts, with two times injection lag correction,  per engine cycle. In a perfect world, the AFR measured would be the same. In the case of a wrong injector lag, batch mode would be affected more.
 

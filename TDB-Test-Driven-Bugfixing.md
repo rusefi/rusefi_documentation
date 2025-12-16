@@ -1,23 +1,23 @@
-# coverage first, fix second
+# Coverage First, Fix Second
 
-here is what I believe to be *always* proper
+Here is what I believe to be *always* proper:
 
-merge one: coverage
+Merge one: Coverage
 
-merge two: fix, including ADJUSTMENT of expectations in coverage. fact that coverage is ADJUSTED is PROOF that we have RELEVANT coverage
+Merge two: Fix, including *adjustment* of expectations in coverage. fact that coverage is *adjusted* is *proof* that we have *relevant* coverage
 
-## why?
+## Why?
 
-### bad approach one
+### Bad Approach One
 
-merge one: fix
+Merge one: Fix
 
-merge two: coverage (who knows if coverage in fact covers anything? good change that fix and coverage are not related)
+Merge two: Coverage (who knows if coverage in fact covers anything? good chance that fix and coverage are not related)
 
-### bad approach two
+### Bad Approach Two
 
-single merge: fix and coverage (same as above - no proof that coverage is related to fix)
+Single merge: Fix and coverage (same as above - no proof that coverage is related to fix)
 
-## worst
+## Worst
 
-fix without new coverage or expectation adjustments
+Fix without new coverage or expectation adjustments

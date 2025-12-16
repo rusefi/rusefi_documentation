@@ -1,10 +1,10 @@
 # Stepper Motor
 
-Let's be clear: stepper motor is our least favorite idle air valve option. We are not excited about it at all.
+Let's be clear: Stepper motors are our least favorite idle air valve option. We are not excited about them at all.
 
-microRusEFI can control 4 wire using on-board TLE8888 see https://github.com/rusefi/rusefi/pull/3749
+microRusEFI can control a 4-wire stepper motor using the on-board TLE8888 - see [this pull request](https://github.com/rusefi/rusefi/pull/3749).
 
-uaEFI and Proteus can control 4 wire using two h-bridges/DC motor drivers
+uaEFI and Proteus can control a 4-wire stepper motor using two h-bridges/DC motor drivers.
 
 ![TunerStudio Stepper Preset](Images/TS/TunerStudio_preset_stepper.png){: style="width: 551px; height: 118px;" }
 

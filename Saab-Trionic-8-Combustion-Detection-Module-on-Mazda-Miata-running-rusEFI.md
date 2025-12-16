@@ -2,23 +2,15 @@
 
 ***by Andrey Belomutskiy, 2018***
 
-* Table of contents
-  * [Overview](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#overview)
-  * [Hardware](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#hardware)
-  * [Detonation test scenario](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#detonation-test-scenario)
-  * [Detonation signals](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#detonation-signals)
-* [Next Steps](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#next-steps)  
-* [External links](https://github.com/rusefi/rusefi_documentation/tree/master/Misc/Saab_Trionic_8_Combustion%20Detection%20Module_on_Mazda_Miata_running_rusEFI#external-links)
-
 This data would not be gathered without help from kb1gtt, stefanst, andreika, nighthunter, hankthefourth and many others.
 
 **In this report we show how detonation on 2003 Mazda Miata MX-5 could be detected by means of ion sensing using Saab 55352173 Combustion Detection Module (CDM) and H6T60271 Individual Ignition Coils**
 
-## TL;DR
+## Summary
 
-knock and combustion detection outputs of 55352173 are digital. Knock is reported with a series of 50us pulses, more pulses
-meaning more detonation. Combustion signal seems to be just a comparator giving logical true if ion sensing wire voltage is below certain level. First wide pulse on the combustion output seems to be flame front phase while second wide output
-seems to be showing post-flame pressure, with the middle of this pulse correlating with moment of peak cylinder pressure.
+Knock and combustion detection outputs of 55352173 are digital. Knock is reported with a series of 50us pulses, more pulses
+meaning more detonation. Combustion signal seems to be just a comparator giving logical true if ion sensing wire voltage is below certain level. The first wide pulse on the combustion output seems to be flame front phase, while second wide output
+seems to be showing post-flame pressure, with the middle of this pulse correlating with the moment of peak cylinder pressure.
 
 Knocking - note a lot of blue line pulses (1ms time base)
 ![knock](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_tldr_knocking.png)
@@ -36,21 +28,18 @@ Combustion signal seem to be just a comparator
 
 ## Overview
 
-While Saab Trionic systems were using ion sense forever, only the latest eighth generation
-uses individual ignition coils and external CDM. Prior to T8, a highly integrated ignition cassette was used which would
-make repurposing it for DIY applications harder.
-Trionic 8 system does not have camshaft position sensor or knock sensor with combustion detection module running on ion sensing
-signal from ignition coil producing both phase and detonation detection.  
+While Saab Trionic systems were using ion sense forever, only the latest eighth generation uses individual ignition coils and an external CDM. Prior to T8, a highly integrated ignition cassette was used which would make repurposing it for DIY applications harder.
+The Trionic 8 system does not have a camshaft position sensor or a knock sensor, with the combustion detection module running on an ion sensing signal from each ignition coil producing both phase and detonation detection.  
 
-More recently, Mazda and BMW seem to be using ion sensing approach again.
+More recently, Mazda and BMW seem to be using the ion sensing approach again.
 
 ### Hardware
 
-Here are all the Saab components we will be using (only two coils pictured while four coils would be used)
+Here are all the Saab components we will be using (only two coils pictured while four coils would be used):
 
 ![parts](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_2005_parts.jpg)
 
-Ferrari 124792 spark plug extension is used to connect original Mazda Miata spark plugs with bullet terminals removed with Saab COPs
+A Ferrari 124792 spark plug extension is used to connect original Mazda Miata spark plugs with bullet terminals removed to Saab COPs.
 
 ![hardware details](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_hardware_details.jpg)
 [youtube: Hardware Details](https://youtu.be/rUZ_-_hRnDU)
@@ -60,15 +49,15 @@ Ferrari 124792 spark plug extension is used to connect original Mazda Miata spar
 ![hardware overview](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_engine_bay.jpg)
 [youtube: Hardware Overview](https://www.youtube.com/watch?v=1y1dXTg9iMg)
 
-Knock detection wire has 0.8KOhm pull-up to 5v, combustion detection signal has 5KOhm pull-up to 5v.
+Knock detection wire has a 0.8KOhm pull-up to 5v; combustion detection signal has a 5KOhm pull-up to 5v.
 
-### Detonation test scenario
+### Detonation Test Scenario
 
-2003 Mazda Miata 1.8 VVT Automatic running on rusEFI open source ECU.
+2003 Mazda Miata 1.8 VVT Automatic running on a rusEFI open source ECU.
 
-Engine coolant temperature 100C, ambient temperature 4C, violent 40 degrees advance from 1500 RPM to 3500 RPM timing table.
+Engine coolant temperature 100C, ambient temperature 4C,  timing table with a violent 40 degrees advance from 1500 RPM to 3500 RPM.
 
-Detonation is audible in 2000-4000 range with 50% throttle pulls from parked.
+Detonation is audible in the 2000-4000 RPM range with 50% throttle pulls from parked.
 
 Detonation is also audible while parked, revving with brakes applied in "D" gear selector.
 
@@ -76,7 +65,7 @@ Detonation is also audible while parked, revving with brakes applied in "D" gear
 
 [youtube: It's knocking!](https://youtu.be/FQ9ii0eXjmA)
 
-#### Detonation signals
+#### Detonation Signals
 
 [youtube: Four signals we see on the oscilloscope](https://youtu.be/7aafaZgr2AE)
 
@@ -94,11 +83,9 @@ And that's it! We have seen enough to get some code for the rusEFI firmware to s
 
 ### Next Steps
 
-1) Produce same outputs without CDM module
-
-2) Try Mazda H6T61171 ignition coils - these are a bit longer and narrower, seem to fit my Miata engine.
-
-3) analyze [raw waveforms](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_2018_01_05_miata_rigol.zip) and detect knock based on just ion sense signal without CDM
+1. Produce same outputs without CDM module
+2. Try Mazda H6T61171 ignition coils - these are a bit longer and narrower; seem to fit my Miata engine.
+3. analyze [raw waveforms](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/saab_cdm_2018_01_05_miata_rigol.zip) and detect knock based on just ion sense signal without CDM
 
 ![Coils](Misc/Saab_Trionic_8_Combustion Detection Module_on_Mazda_Miata_running_rusEFI/H6T60271_and_H6T61171.jpg)
 
@@ -112,9 +99,9 @@ Inside of 55352173 Saab Ionization Detection Module
 
 [rusEFI ECU](https://www.rusefi.com/)
 
-[rusEFI forum](https://www.rusefi.com/forum/)
+[rusEFI Forum](https://www.rusefi.com/forum/)
 
-[💲rusEFI store💲](https://www.shop.rusefi.com/shop)
+[💲rusEFI Store💲](https://www.shop.rusefi.com/shop)
 
 [Trionic 8](https://en.wikipedia.org/wiki/Trionic_8)
 
