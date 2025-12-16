@@ -19,7 +19,7 @@ It does not include TunerStudio or MegaLogViewer.
 
 [Proteus](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
 
-[STM32 Community Release](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_f407-discovery.zip)
+See specific board page for [other universal boards](Hardware)
 
 ## Hellen Family Boards
 
