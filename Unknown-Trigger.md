@@ -24,7 +24,7 @@ For developers to add the code we need to know the angles of signal rises and fa
 
 Using rusEFI console get a picture of a long enough engine sniff. On this example you see that a cycle of events consists of 24 tooth.
 
-![Engine Sniffer](Images/Engine_sniffer.png)
+![Engine Sniffer](Images/rusEFI_console/Engine_sniffer.png)
 
 ## Step 2: record tooth angles
 
@@ -32,7 +32,7 @@ Once tooth count is know enable a generic toothed trigger. Set Sensor Sniffer mo
 
 `java -cp rusefi_console.jar com.rusefi.AverageAnglesUtil log.csv`
 
-![Sensor Sniffer](Images/Sensor_sniffer_trigger.png)
+![Sensor Sniffer](Images/rusEFI_console/Sensor_sniffer_trigger.png)
 
 ## Step 3: configure synchronization gap parameters
 

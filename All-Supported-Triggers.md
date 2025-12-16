@@ -416,11 +416,11 @@ The trigger decoding cycle starts at the 'synchronization point' - that's the tr
 
 For example, with Trigger Angle Advance set to zero, TDC is set to the synchronization point, the green vertical line is the TDC mark:
 
-![Offset Angle 0](Images/offset_0.png)
+![Offset Angle 0](Images/rusEFI_console/offset_0.png)
 
 Now the real TDC, with Trigger Angle Advance set to 175:
 
-![Offset Angle 175](Images/offset_175.png)
+![Offset Angle 175](Images/rusEFI_console/offset_175.png)
 
 Note the different location of the green TDC line. Also note how all Injector #1 pulses have moved (Injector #3 is the lowest signal on these pictures) - that's because ignition and injection are scheduled based on the TDC point.
 

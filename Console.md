@@ -36,7 +36,7 @@ To get the console working follow the below procedure, which assumes you have lo
 * Install the blue jumper wire as noted above between pins PD2 and PA5.
 ![Jumper Wire](Images/discovery_and_wires.jpg)
 * You should see the crank signals as noted in the "sniffer" tab.
-![Sniffer Tab](Images/java_console_2.png)
+![Sniffer Tab](Images/rusEFI_console/java_console_2.png)
 
 Update: there is also a lazier way to self-stimulate now; you don't need the jumper wires. That's the "enable self_stimulation" command you invoke via rusEFI Console. The downside? Do not forget to undo it at some point with "disable self_stimulation"
 
@@ -44,15 +44,15 @@ At this point, the Console should be up and running. Play around with it and see
 
 * If used together with the built-in position sensor emulator, the console allows some level of testing on the bench, without a real engine or any additional hardware. The most useful feature is the plain signal sniffer - both real inputs and generated signals can go into it and this is actually quite handy. Another useful feature is the text log.
 * You can use the console to invoke rusEFI commands and control the internal flow using the 'Messages Central' tab
-![Messages Central](Images/messages_central.png)
+![Messages Central](Images/rusEFI_console/messages_central.png)
 
 ## Gauges
 
-![Console Gauges](Images/java_console_1.png)
+![Console Gauges](Images/rusEFI_console/java_console_1.png)
 
 ## Digital Chart
 
-![Log Viewer](Images/log_viewer.png)
+![Log Viewer](Images/rusEFI_console/log_viewer.png)
 
 The green line is the border of an engine cycle. Please note that the angle within the current engine cycle is displayed in the bottom left corner - the angle is from 0 to 720 in case of a four stroke engine.
 

@@ -1,6 +1,6 @@
 # Serial
 
-Here we will gather some links related to serial protocol
+Here we will gather some links related to the serial protocol.
 
 ST VCP driver
 

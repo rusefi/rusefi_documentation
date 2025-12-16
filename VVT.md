@@ -29,7 +29,7 @@ This mode could be used for skipped-tooth wheels with single tooth cam sensors i
 
 For example, 3/1 skipped wheel with cam sensor in the first half of the 720 cycle:
 
-![VVT First half](Images/VVT_first_half.png)
+![VVT First half](Images/rusEFI_console/VVT_first_half.png)
 
 ![VVT Config](Images/TS/VVT_config.png)
 
