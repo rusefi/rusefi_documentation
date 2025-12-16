@@ -24,3 +24,9 @@ Out smallest universal ECU available at [💲rusEFI store💲](https://www.shop.
 * on-board SD card
 
 🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
+
+## FAQ
+
+### Q: What about intake air temperature?
+
+A: this board does not have a dedicated IAT pin, you would have to re-purpose any of the unused analog inputs with a 4.7K pull-up to 5v.
