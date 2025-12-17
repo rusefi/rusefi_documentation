@@ -1,12 +1,16 @@
-# Memes are important
+# Memes are Important
 
 ## I will share my tune once it's decent
 
-placeholder for something polite suggesting to be real
+![Perfectionist](Images/perfectionist.jpg)
 
 ## Is it possible
 
-placeholder for smart Moon Landing reference see also [I have an idea](I-have-an-idea)
+![Moon Landing](Images/moon_budget.jpg)
+
+![Virtually Impossible](Images/tasks.png)
+
+See also [I have an idea](I-have-an-idea)
 
 ## GitHub process for issue tracking
 
@@ -14,6 +18,28 @@ placeholder for smart Moon Landing reference see also [I have an idea](I-have-an
 
 ## We are trying our best
 
-need higher resolution
-
 ![image](Images/meme_christmas_disclaimer.png)
+
+## Wheels
+
+![Cavemen](Images/cavemen-wheel-cartoon.png)
+
+## Dark Side
+
+![Dark Side Cookies](Images/dark_side_cookies.jpg)
+
+## Video or it Never Happened
+
+![Video or it Never Happened](Images/fantastic-story-video-or-it-never-happened.jpg)
+
+## Crazy
+
+![It's Crazy up in here](Images/its-crazy.jpg)
+
+## Distraction
+
+![Turing Quote](Images/ATdistraction.png)
+
+## Blinking in Disbelief
+
+![Blinking in Disbelief](Images/blink.webp)

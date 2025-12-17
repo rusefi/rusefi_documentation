@@ -6,6 +6,8 @@ All official units are shipped with firmware installed. Modern Windows comes wit
 
 1. [Download and Install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install).
 
+    [![EFI Analytics logo](Images/TS/EFI_Analytics_logo.png)](HOWTO-create-tunerstudio-project#download-and-install)
+
 2. Click the 'Detect' button and let TunerStudio automatically find and download the correct definition file from the internet.
 
 You are ready to go control boost!

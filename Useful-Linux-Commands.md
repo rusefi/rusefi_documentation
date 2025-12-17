@@ -1,6 +1,8 @@
 # Useful Linux Commands
 
-## List USB devices. This is useful for diagnosing driver issues
+## List USB Devices
+
+This is useful for diagnosing driver issues.
 
 ``` shell
 lsusb

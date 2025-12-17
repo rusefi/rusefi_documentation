@@ -60,6 +60,18 @@ Here is how to determine your trigger polarity with a bipolar input:
 
 VR sensors output a voltage proportional to how quickly something conductive is moving toward or away from the sensor. This fact is exploited because when the sensor is centered on a tooth, the voltage will rapidly cross zero as the tooth approaches then departs. [More good info and drawings here about how VR sensors work, and which edge you want to listen to](http://mcs.woodward.com/content/motohawk/Documentation/MotoHawk2015bSP0/HTML/MotoHawk_topics/VRInterfacing.html)
 
+## Trigger Gap Override
+
+The "Setup" -> "Trigger Gap Override" dialog allows you to fine-tune the relative positions of teeth on your trigger.
+
+![Trigger Gap Override dialog](Images/TS/TunerStudio_trigger_gap_override.png)
+
+"gapTrackingLengthOverride" sets the number of previous teeth that are checked for a match.
+
+The "from" and "to" fields define a range of acceptable ratios for each of the previous teeth.
+
+Gap is the amount of time that has passed between the current and previous tooth edge detections. The ratio used in this configuration is the ratio between the current gap (i.e. the time between the current and previous tooth edges) and the previous gap (i.e. the time between the previous tooth edge and the tooth edge before that).
+
 See also [Troubleshooting with TS logs](Trigger#troubleshooting-with-ts-logs)
 
 See also [How-Do-I-Set-My-Trigger-Offset](How-Do-I-Set-My-Trigger-Offset)

@@ -6,8 +6,6 @@ While troubleshooting CLT and IAT, the two most useful console commands are `ana
 
 See also [Measuring Temperature](http://rusefi.com/articles/measuring_temperature/)
 
-See also [Troubleshooting](Troubleshooting)
-
 ![analoginfo Output](Images/rusEFI_console/analoginfo2.png)
 
 ![tempinfo Output](Images/rusEFI_console/tempinfo.png)

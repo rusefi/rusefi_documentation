@@ -100,9 +100,21 @@ WARNING GND#1<>GND#2 are mixed up on the image.
 
 150 Ohm between green and black wires in sensor parked position.
 
-## Outside information
+## Mercedes-Benz Cable-driven Position Sensor
 
-See [this forum thread](https://rusefi.com/forum/viewtopic.php?f=2&t=2077) TODO move content to here
+This Pedal Sensor (from a 2005 Mercedes ML500) keeps your stock throttle cable, and lets you attach it to the sensor that you mount in the engine bay.
+
+There are many W163 (Mercedes ML SUV) in the junkyards so even used these sensors are easy to find.
+
+![MB PPS](Images/APS454_Front.jpg)
+
+![MB PPS Installed](Images/MB_PPS_installed.jpg)
+
+![MB PPS Pinout](Images/diagrams/MB_PPS_pinout.JPG)
+
+[Standard Motor Products APS454 at RockAuto](https://www.rockauto.com/en/moreinfo.php?pk=7985344&cc=1431051&pt=5061&jsn=6122)
+
+## Outside information
 
 lots of useful information [here](https://www.maxxecu.com/webhelp/wirings-e-throttle_bodies.html)
 
