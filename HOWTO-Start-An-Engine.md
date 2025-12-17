@@ -92,7 +92,7 @@ See also [Error Codes](Error-Codes)
 
 Is the ECU properly powered and communicating with your computer?
 
-See [Troubleshooting](Troubleshooting).
+Are the on-board LEDs lit [as expected](LED-states)?
 
 ### Tests using Test Equipment
 

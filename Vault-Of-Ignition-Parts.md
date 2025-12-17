@@ -1,12 +1,12 @@
 # Vault of Ignition Parts
 
-**This page is intended as a container for all trialed ignition components that are external to the ECU**---
+**This page is intended as a container for all tried ignition components that are external to the ECU**
 
-## Ignition coils
+## Ignition Coils
 
-### Smart coils
+### Smart Coils
 
-* LSx ignition coils - Considered the cheap goto for US users. Can be purchased cheaply from junkyards and Ebay.
+* LSx ignition coils - Considered the cheap go-to for US users. Can be purchased cheaply from junkyards and eBay.
 
 * VAG Normal/Long
 
@@ -16,7 +16,7 @@ See also [OEM-harness-connectors#volkswagen](OEM-harness-connectors#volkswagen)
 
 * VAG Short is different
 
-### Dumb coils
+### Dumb Coils
 
 ## LS1
 
@@ -50,7 +50,7 @@ Pin #3 "Negative" from igniter
 
 * VW 1.8t 4 cylinder module - PN _4D0905351_  
 For igniter location see [broken link](https://www.youtube.com/watch?v=X-iyKYUeGvc)
-Tested and working with BMW Coils, uses a pair of Ampseal plugs (easily available on ebay). Wiring layout available on the forum.
+Tested and working with BMW Coils, uses a pair of Ampseal plugs (easily available on eBay). Wiring layout available on the forum.
 Plugs - TE 282193-1 x1, TE 282192-1 x1, TE 929937-3 x9, TE 828905-1 x9  
 Also known as: VW Audi 97- 05 - Bosch PN _0227100211_  
 

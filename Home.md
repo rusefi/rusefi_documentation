@@ -51,8 +51,8 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Kick start](Kick-Start)                                                          | ✓          |
 | [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)                     | ✓          |
 | Traction Control                                                                  | ✓          |
-| [Rotary Engines](Rotary)                                                          | ?          |
-| [Antilag](https://github.com/rusefi/rusefi/issues/2403)                           | ✗          |
+| [Rotary Engines](Rotary)                                                          | ✓          |
+| [Antilag](https://github.com/rusefi/rusefi/issues/2403)                           | ✓          |
 | [Automatic Transmission Control](TCU-status)                                      | ✗          |
 
 And many more!

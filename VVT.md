@@ -19,9 +19,9 @@ rusEFI has proper closed-loop VVT control, supporting multiple trigger options i
 
 rusEFI supports up to quad VVT input/output.
 
-rusEFI trigger configuration is the most confusing part of rusEFI configuration unfortunately.
+rusEFI trigger configuration is the most confusing part of rusEFI configuration, unfortunately.
 
-If rusEFI does not know your exact overall trigger shape and you use composite setup with crank sensor driving RPM and single tooth cam sensor providing phase information, that's considered "4 stroke without cam with VVT". Even if you do not have VVT :(
+If rusEFI does not know your exact overall trigger shape and you use a composite setup with a crank sensor driving RPM and a single-tooth cam sensor providing phase information, that's considered "4 stroke without cam with VVT", even if you do not have VVT. :(
 
 ## VVT mode 'first half'
 

@@ -23,13 +23,11 @@ These control modules include:
 
 The Ti output is a processed square wave signal.  
 The frequency of the signal is proportional to engine RPM.  
-The pulse width and duty cycle will vary to reflect the injection quantity  
+The pulse width and duty cycle will vary to reflect the injection quantity.  
 
-It looks like it is a 12v signal as some have managed to get it working with it wired to inj1 running sequential mode on an MS.
-12:53
-Which also implies it is a 12v lowside to run it
+It looks like it is a 12v signal as some have managed to get it working with it wired to inj1 running sequential mode on an MS, which also implies it is a 12v lowside to run it.
 
-you could actually run it with general purpose pwm pretty easily  
+You could actually run it with general purpose PWM pretty easily.  
 
 ## 55 pin pinouts
 

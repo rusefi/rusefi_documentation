@@ -27,4 +27,14 @@ The green LED on many rusEFI boards indicates the engine status.
 
 Solid red means critical error; no engine operation is possible and a power cycle is required.
 
-See also [Troubleshooting](Troubleshooting)
+## Common Issues
+
+Look at the PCB. On all rusEFI boards we expect the blue LED to always blink.
+
+### The Blue LED is not Blinking
+
+Do you have power? Do you have any LED lights? Do you have a USB cable? On all modern units we have a PROG button. Power cycle your unit while connected to PC while holding PROG button, your PC should report STM32 BOOTLOADER in device manager.
+
+### The Blue LED is Blinking But Nothing in Device Manager
+
+Make sure your USB cable is a proper data cable, not an evil charge-only cable.
