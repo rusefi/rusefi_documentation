@@ -1,6 +1,6 @@
 # Acronyms, Abbreviations and Terminology
 
-## This document contains all of the commonly used acronyms, abbreviations and terminology used by rusEFI
+*This document contains all of the commonly used acronyms, abbreviations and terminology used by rusEFI.*
 
 <details markdown="1"><summary><u>AAP</u></summary>
 
@@ -18,9 +18,14 @@ AFR is the ratio of air to fuel, often expressed as "14.7:1"
 Air Intake Temperature
 </details>
 
+<details markdown="1"><summary><u>ATDC</u></summary>
+
+After TDC, After Top Dead Center - See also BTDC
+</details>
+
 <details markdown="1"><summary><u>AWG</u></summary>
 
-https://en.wikipedia.org/wiki/American_wire_gauge
+[American Wire Gauge](https://en.wikipedia.org/wiki/American_wire_gauge)
 </details>
 
 <details markdown="1"><summary><u>Baro</u></summary>
@@ -28,19 +33,19 @@ https://en.wikipedia.org/wiki/American_wire_gauge
 Shorthand for Barometric pressure
 </details>
 
-<details markdown="1"><summary><u>BTDC</u></summary>
-
-Before TDC, Before Top Dead Center - See also ATDC
-</details>
-
 <details markdown="1"><summary><u>BMEP</u></summary>
 
  Brake mean effective pressure  
 </details>  
 
+<details markdown="1"><summary><u>BTDC</u></summary>
+
+Before TDC, Before Top Dead Center - See also ATDC
+</details>
+
 <details markdown="1"><summary><u>CAS</u></summary>
 
-Crank Angle Sensor Also See [CPS - Wikipedia](http://en.wikipedia.org/wiki/Crankshaft_position_sensor)
+Crank Angle Sensor - See also [CPS - Wikipedia](http://en.wikipedia.org/wiki/Crankshaft_position_sensor)
 </details>
 
 <details markdown="1"><summary><u>CLT</u></summary>
@@ -50,7 +55,7 @@ Coolant Temperature, same as ECT
 
 <details markdown="1"><summary><u>CoV</u></summary>
 
-Coefficient of variability  
+Coefficient of Variability
 </details>
 
 <details markdown="1"><summary><u>CPS</u></summary>
@@ -60,17 +65,17 @@ Crankshaft Position Sensor
 
 <details markdown="1"><summary><u>CR</u></summary>
 
-compression ratio  
+Compression Ratio
 </details>
 
 <details markdown="1"><summary><u>DI</u></summary>
 
-Direct injection  
+Direct Injection
 </details>
 
 <details markdown="1"><summary><u>DISA</u></summary>
 
-BMW variable inlet manifold resonance system  
+BMW variable inlet manifold resonance system
 </details>
 
 <details markdown="1"><summary><u>EDIS</u></summary>
@@ -80,19 +85,18 @@ Electronic Distributorless Ignition System - An older Ford ignition system that 
 
 <details markdown="1"><summary><u>EGO</u></summary>
 
-Exhaust Gases Oxygen - see also lambda sensor, WBO2,
-Often used when referring to air fuel sensors like the lambda sensor.  
-Sometimes also used as HEGO or Heated Exhaust Gas Oxygen.
+Exhaust Gas Oxygen sensor  
+The same as HEGO and WBO2.
 </details>
 
 <details markdown="1"><summary><u>EGR</u></summary>
 
-Exhaust gas recirculation  
+Exhaust Gas Recirculation
 </details>
 
 <details markdown="1"><summary><u>EGT</u></summary>
 
-Exhaust gas temperature  
+Exhaust Gas Temperature
 </details>
 
 <details markdown="1"><summary><u>EOI</u></summary>
@@ -102,17 +106,17 @@ End Of Injection - See also SOI
 
 <details markdown="1"><summary><u>ETB</u></summary>
 
-Electronic throttle body  
+Electronic Throttle Body
 </details>
 
 <details markdown="1"><summary><u>EVC</u></summary>
 
-Exhaust valve closing  
+Exhaust Valve Closing
 </details>
 
 <details markdown="1"><summary><u>EVO</u></summary>
 
-Exhaust valve opening
+Exhaust Valve Opening
 </details>
 
 <details markdown="1"><summary><u>GDI</u></summary>
@@ -122,7 +126,13 @@ Gasoline Direct Injection
 
 <details markdown="1"><summary><u>Hall</u></summary>
 
-A type of sensor that requires a power and earth wire in addition to its signal wire, the output is normally a 5v square wave.  
+A type of sensor that detects magnetic fields. Most commonly used as a crank or cam trigger sensor. See [Hall Notes](Trigger-Hardware#hall-notes)
+</details>
+
+<details markdown="1"><summary><u>HEGO</u></summary>
+
+Heated Exhaust Gas Oxygen sensor  
+The same as EGO and WBO2.
 </details>
 
 <details markdown="1"><summary><u>High Side</u></summary>
@@ -132,7 +142,7 @@ A driver that is open circuit when off and powered to 5v or 12v when on.
 
 <details markdown="1"><summary><u>High/Low</u></summary>
 
-a pushpull or HighLow is an output that is powered "high" (12v or 5v) and switched to low (earth).  
+A pushpull or HighLow is an output that is powered "high" (12v or 5v) and switched to low (earth).  
 </details>
 
 <details markdown="1"><summary><u>High and Low Z</u></summary>
@@ -158,7 +168,7 @@ A common type of transistor used for switching high power devices like ignition 
 
 <details markdown="1"><summary><u>IMEP</u></summary>
 
-Indicated mean effective pressure
+Indicated Mean Effective Pressure
 </details>
 
 <details markdown="1"><summary><u>Injector Impedance</u></summary>
@@ -173,52 +183,58 @@ Injector Pulse Width
 
 <details markdown="1"><summary><u>IVC</u></summary>
 
-Intake valve closing  
+Intake Valve Closing
 </details>
 
 <details markdown="1"><summary><u>IVO</u></summary>
 
-Intake valve opening  
+Intake Valve Opening
+</details>
+
+<details markdown="1"><summary><u>Lambda</u></summary>
+
+The stoichiometric ratio for any given fuel.  
+Also used to describe a wide band oxygen sensor.
 </details>
 
 <details markdown="1"><summary><u>Low side</u></summary>
 
-A driver that is open circuit when off and grounded to earth when switched on.  
+A driver that is open circuit when off and grounded to earth when switched on.
 </details>
 
 <details markdown="1"><summary><u>LQFP</u></summary>
 
-Low profile quad flat package
+Low-profile Quad Flat Package
 </details>
 
 <details markdown="1"><summary><u>MAF</u></summary>
 
-Mass Air Flow, often used in the context of air flow or load sensors.
+[Mass Air Flow](MAF), often used in the context of air flow or load sensors.
 </details>
 
 <details markdown="1"><summary><u>MAP</u></summary>
 
-Manifold Absolute Pressure or perhaps Manifold Air Pressure, often used in the context of load sensors.
+Manifold Absolute Pressure, often used in the context of load sensors.
 </details>
 
 <details markdown="1"><summary><u>MBT</u></summary>
 
-Mean best timing, used in context of spark timing, it is the spark timing that results in the best torque  
+Mean Best Timing, used in context of spark timing, it is the spark timing that results in the best torque  
 </details>
 
 <details markdown="1"><summary><u>MLV</u></summary>
 
-Mean the tool MegaLogViewer
+[MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/)
 </details>
 
 <details markdown="1"><summary><u>MFB</u></summary>
 
-Mass fraction burned, often stated with a number after i.e. MFB10/MFB50/MFB90 and refers to the fraction of the fuel burned by mass.  
+Mass Fraction Burned, often stated with a number after i.e. MFB10/MFB50/MFB90 and refers to the fraction of the fuel burned by mass.  
 </details>
 
 <details markdown="1"><summary><u>MRE</u></summary>
 
-Micro rusEFI  
+[microRusEFI](microRusEFI-Manual)
 </details>
 
 <details markdown="1"><summary><u>NGC</u></summary>
@@ -228,27 +244,27 @@ Chrysler Next Generation Controller
 
 <details markdown="1"><summary><u>NTC</u></summary>
 
-Negative temperature coefficient, used in context of temperature sensors and refers to the resistance increasing as temperature decreases.  
+Negative Temperature Coefficient, used in context of temperature sensors and refers to the resistance increasing as temperature decreases.  
 </details>
 
 <details markdown="1"><summary><u>PIP</u></summary>
 
-Profile ignition pickup See [Profile Ignition Pickup - Wikipedia](http://en.wikipedia.org/wiki/Profile_ignition_pickup)
+Profile Ignition Pickup - See [Profile Ignition Pickup - Wikipedia](http://en.wikipedia.org/wiki/Profile_ignition_pickup)
 </details>
 
 <details markdown="1"><summary><u>PFI</u></summary>
 
-Port fuel injection  
+Port Fuel Injection
 </details>
 
 <details markdown="1"><summary><u>PID</u></summary>
 
-A proportional–integral–derivative controller  
+A [Proportional–Integral–Derivative](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller) controller  
 </details>
 
 <details markdown="1"><summary><u>PNP</u></summary>
 
-Plug and play  
+Plug-and-Play  
 </details>
 
 <details markdown="1"><summary><u>PPS</u></summary>
@@ -268,14 +284,14 @@ rusEFI
 
 <details markdown="1"><summary><u>REO</u></summary>
 
-rusEFI Online  
+[rusEFI Online](Online)
 </details>
 
 <details markdown="1"><summary><u>RUSEFI</u></summary>
 
 Really Uber Simple EFI? Robust Ultra Simple EFI? Retarded Unproven Shitty EFI?
-</details>
-
+</details
+>
 <details markdown="1"><summary><u>Secondary Coil</u></summary>
 
 The secondary winding of an ignition coil.  
@@ -290,17 +306,18 @@ Sequential is required for direct injection engines like common rail diesel.
 
 <details markdown="1"><summary><u>SBC</u></summary>
 
-Small Block Chevy
+Small Block Chevy  
+Single Board Computer
 </details>
 
 <details markdown="1"><summary><u>SD</u></summary>
 
-Speed Density this is a method of predicting how much fuel should be delivered to an engine. This is a MAP based system which uses pressure to make a prediction of how much O2 is entering the cyl.
+Speed Density this is a method of predicting how much fuel should be delivered to an engine. This is a MAP based system which uses pressure to make a prediction of how much O2 is entering the cylinder.
 </details>
 
 <details markdown="1"><summary><u>SI</u></summary>
 
-Spark injection  
+Spark Injection  
 </details>
 
 <details markdown="1"><summary><u>Smart Coil</u></summary>
@@ -310,12 +327,12 @@ A type of ignition coil that has its ignition drivers (IGBT) built into the coil
 
 <details markdown="1"><summary><u>SMD</u></summary>
 
-Surface mount device, interchangeable with SMT
+Surface Mount Device, interchangeable with SMT
 </details>
 
 <details markdown="1"><summary><u>SMT</u></summary>
 
-Surface mount technology, interchangeable with SMD  
+Surface Mount Technology, interchangeable with SMD  
 </details>
 
 <details markdown="1"><summary><u>SOI</u></summary>
@@ -325,7 +342,7 @@ Start Of Injection - See also EOI
 
 <details markdown="1"><summary><u>Staged injection</u></summary>
 
-The use of 2 injectors for one cyl. This commonly means at low RPM and lower loads, one injector is turned on which allows for finer control over idle fuel delivery, while at higher RPM and higher Loads both injector inject fuel which allows for larger amounts of fuel to be delivered.
+The use of 2 injectors for one cylinder. This commonly means at low RPM and lower loads, one injector is turned on which allows for finer control over idle fuel delivery, while at higher RPM and higher Loads both injector inject fuel which allows for larger amounts of fuel to be delivered.
 </details>
 
 <details markdown="1"><summary><u>Stoichiometric</u></summary>
@@ -335,7 +352,7 @@ The ideal quantity of fuel to burn with a quantity of air for complete combustio
 
 <details markdown="1"><summary><u>SOIC</u></summary>
 
-small outline integrated circuit  
+Small Outline Integrated Circuit  
 </details>
 
 <details markdown="1"><summary><u>TDC</u></summary>
@@ -375,7 +392,7 @@ Short for TLE8888 the Infineon chip on the MRE
 
 <details markdown="1"><summary><u>TVIS</u></summary>
 
-Toyota variable intake system, a variable inlet length system that switches on/off a set of longer intake manifold runners.  
+Toyota Variable Intake System, a variable inlet length system that switches on/off a set of longer intake manifold runners.  
 </details>
 
 <details markdown="1"><summary><u>Valvetronic</u></summary>
@@ -415,17 +432,18 @@ Short for engine volume
 
 <details markdown="1"><summary><u>VSS</u></summary>
 
-Vehicle speed sensor  
+Vehicle Speed Sensor  
 </details>
 
 <details markdown="1"><summary><u>VVT</u></summary>
 
-Variable valve timing  
+Variable Valve Timing  
 </details>
 
-<details markdown="1"><summary><u>WBO</u></summary>
+<details markdown="1"><summary><u>WBO, WBO2</u></summary>
 
-Wide Band Oxygen, same as EGO
+Wide Band Oxygen sensor  
+The same as EGO and HEGO.
 </details>
 
 <details markdown="1"><summary><u>WOT</u></summary>

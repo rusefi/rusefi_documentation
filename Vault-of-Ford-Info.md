@@ -8,13 +8,13 @@ https://rusefi.com/docs/pinouts/hellen/coyote/
 
 https://www.focusst.org/threads/project-reasonable-overkill-2013-2018-diagrams-connector-resource.168158/
 
-### prefacelift
+### Pre-facelift
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Ford/2014%20Ford%20Focus%202.0T.pdf
 
 https://rusefi.com/docs/pinouts/2014-Focus-ST/
 
-### facelift
+### Facelift
 
 https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Ford/2015%20Ford%20Focus%202.0T.pdf
 

@@ -1,6 +1,6 @@
 # super-uaEFI
 
-A sibling of [uaefi121](uaefi121) with stm32f7 for larger Lua with motorsports superseal headers available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/super-uaefi)
+A sibling of [uaefi121](uaefi121) with STM32F7 for larger Lua scripts and motorsports superseal headers available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/super-uaefi)
 
 🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](Discord) 🔴
 

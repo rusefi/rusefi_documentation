@@ -14,7 +14,7 @@ This page contains information about the Variable Reluctance (VR) style sensor, 
 
 If the above didn't detail specifically what you need, here are some notes that may provide what you are looking for. Both Hall and VR can detect shaft RPM at the reasonably fast RPM and reasonably slow RPM found in a typical engine. Both can detect the shaft angle at resolutions that are around .01 to .02 degrees of rotation. However there are some differences between the two technologies. These differences typically mean that Hall is a better technical choice of sensor if you have the option to choose your sensor.
 
-### Hall notes
+### Hall Notes
 
 [This is a useful app note about hall sensors](PDFs/Hallbook.pdf).
 
@@ -30,7 +30,7 @@ If the above didn't detail specifically what you need, here are some notes that 
 * Hall sensors typically have internal self-adjusting circuitry, which causes a certain amount of jitter on the output signal as the sensor is auto-hunting for optimal values. The jitter is typically less than .02 degrees throughout the normal RPM range of an engine.
 * Lower max temperature rating limits where you can physically mount the sensor.
 
-### VR notes
+### VR Notes
 
 #### Pros of VR vs Hall
 

@@ -8,7 +8,7 @@ Available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/mega144)
 
 A way to convert legacy Arduino hardware into rusEFI: mega2560 form factor board compatible with newer 3v MOSFETs
 
-Uses smt32f7 meaning extra Lua capacity
+Uses SMT32F7, meaning extra Lua capacity.
 
 ![mega144 Board](Images/mega144.png){: style="width: 1003px; height: 570px;" }
 
@@ -22,10 +22,8 @@ Superior sibling of [mega100](mega100) for lqft100 version - extra performance a
 
 ## FAQ
 
-### Q: is it safe to connect 0–5v Hall input directly?
+*__Q:__ Is it safe to connect a 0–5v Hall input directly?*  
+__A:__ Many stm32 input pins are 5v tolerant.
 
-A: many stm32 input pins are 5v tolerant
-
-### Q: international shipping costs more than one board?
-
-A: Great reason to order multiple boards and split shipping with your friends! International shipping is annoying for us as well.
+*__Q:__ International shipping costs more than one board?*  
+__A:__ A great reason to order multiple boards and split shipping with your friends! International shipping is annoying for us as well.

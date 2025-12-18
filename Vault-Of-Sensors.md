@@ -1,8 +1,8 @@
 # Vault of Sensor Info
 
-## MAF sensors
+## MAF Sensors
 
-### Ford Slot type MAF sensor
+### Ford Slot-type MAF Sensor
 
 PN - Hitachi MAF0012
 plug TE 1-1419168-2
@@ -89,7 +89,16 @@ BOSCH 17321 '2012 ford focus Upstream'
 
 VAG 8R0906262E / Bosch 95890626200
 
-See also [LSU 4.9 Cable Lengths — rusEFI Forum](https://rusefi.com/forum/viewtopic.php?p=43513)
+### Cable Lengths
+
+| Part Number   | Length  |
+|---------------|---------|
+| 0 258 017 123 | 330 mm  |
+| 0 258 017 025 | 830 mm  |
+| 0 281 004 184 | 1000 mm |
+| 0 258 017 025 | 1000 mm |
+| 0 258 017 012 | 1060 mm |
+| 0 281 004 150 | 1215 mm |
 
 ### Connector Shells
 

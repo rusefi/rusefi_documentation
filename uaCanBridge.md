@@ -1,19 +1,19 @@
 # uaCanBridge
 
-Three channel CAN-FD gateway programmable using Lua scripting.
+Three-channel CAN-FD gateway programmable using Lua scripting.
 
 [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/ua-can-bridge)
 
 * x3 CAN bus
 * +12v power
-* usb-c for configuration
-* micro SD card slot
-* optional molex 43650-0400 connectors
+* USB-C for configuration
+* MicroSD card slot
+* Optional molex 43650-0400 connectors
 
 ## Use-cases
 
-* shift CAN ID and/or change baud rate
-* man-in-the middle tool
+* Shift CAN ID and/or change baud rate
+* Man-in-the middle tool
 
 [Software](https://rusefi.com/build_server/rusefi_bundle_canBridge.zip)
 
@@ -21,7 +21,7 @@ Three channel CAN-FD gateway programmable using Lua scripting.
 
 [This old video is still very relevant](https://www.youtube.com/watch?v=3fbXCgkIJoM)
 
-TL,DR: rusEFI console 'Lua' tab for Lua, TunerStudio 'CAN' dialog to adjust baud rates. [Lua Scripting](Lua-Scripting) for API, link to examples on the bottom.
+Use the rusEFI Console 'Lua' tab for Lua and the  TunerStudio 'CAN' dialog to adjust baud rates. See [Lua Scripting](Lua-Scripting) for API details; links to examples can be found at the bottom of the page.
 
 [open source firmware](https://github.com/rusefi/fw-uaCanBridge/)
 

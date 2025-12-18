@@ -22,7 +22,7 @@ The [rusEFI Firmware bundle](https://rusefi.com/build_server/rusefi_bundle_f407-
 
 ## Unit Tests
 
-We use CI/CD heavily; see [Dev Quality Control](dev-hardware-quality-control) and https://github.com/rusefi/rusefi/blob/master/unit_tests/readme.md
+We use CI/CD heavily; see https://github.com/rusefi/rusefi/blob/master/unit_tests/readme.md
 
 ## GitHub Actions
 

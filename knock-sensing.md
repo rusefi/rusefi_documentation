@@ -1,16 +1,25 @@
 # Knock Sensing
 
-TL,DR: We have native knock processing!
+| Feature                  | Status |
+|--------------------------|--------|
+| Knock Sensing            | ✓      |
+| Multiple Sensors         | ✓      |
+| Knock Signal Logging     | ✓      |
+| Windowing                | ✓      |
+| Spectrogram Creation     | ✓      |
+| Spectrogram Filtering    | ✓      |
+| Timing Retard Response   | ✓      |
+| Fuel Enrichment Response | ✓      |
 
-Reference tune https://rusefi.com/online/view.php?msq=1626 reference tune https://rusefi.com/online/view.php?log=1359
+Reference [tune](https://rusefi.com/online/view.php?msq=1626) and [log](https://rusefi.com/online/view.php?log=1359)
 
-## Software knock sensing
+## Software Knock Sensing
 
 ![x](Images/MLV_knock.png)
 
 ## Spectrogram
 
-Knock spectrogram is displayed by [TS-Plugin](TS-Plugin)
+Knock spectrogram is displayed by [the rusEFI TunerStudio plugin](TS-Plugin)
 
 [Youtube rusEFI: knock on standing Miata, Proteus](https://youtu.be/GOWEKU2SH9I)
 
