@@ -1,10 +1,11 @@
 # rusEFI Bundle
 
-`rusefi.bin` file is compiled rusEFI firmware. Sometimes you would have `rusefi_no_asserts.bin` variation of this file with fewer safety checks.
+The `rusefi.bin` file is compiled rusEFI firmware. Sometimes you would have a `rusefi_no_asserts.bin` variation of this file with fewer safety checks.
 
- `rusefi.dfu` is also compiled rusEFI firmware, that file is used for DFU mode of flashing.
+`rusefi.dfu` is also compiled rusEFI firmware, which is used for the DFU mode of flashing.
 
- `rusefi.ini` is TunerStudio project template file, you would use it if you use TunerStudio software to tune your rusEFI unit.
- [TunerStudio Download](http://www.tunerstudio.com/index.php/downloads)
+`rusefi.ini` is the TunerStudio definition file, which you would use if you use TunerStudio software to tune your rusEFI ECU.
 
- See [http://rusefi.com](http://rusefi.com) and [the rusEFI Wiki](https://wiki.rusefi.com) for more information about rusEFI
+[TunerStudio Download](http://www.tunerstudio.com/index.php/downloads)
+
+See [http://rusefi.com](http://rusefi.com) and [the rusEFI Wiki](https://wiki.rusefi.com) for more information about rusEFI.

@@ -2,15 +2,15 @@
 
 By default Lua CAN RX is easy but has a performance limitation.
 
-If 300hz and above Lua CAN RX is needed until a more elegant solution is implemented https://github.com/rusefi/rusefi/issues/6041 we have **luaCanRxWorkaround** magic option.
+If 300hz and above Lua CAN RX is needed we have the *luaCanRxWorkaround* magic option until a more elegant solution [is implemented](https://github.com/rusefi/rusefi/issues/6041).
 
 ![image](Images/TS/TunerStudio_luacanrxworkaround.png)
 
-For the magic to work two lines are required in the Lua script:
+For the magic to work, two lines are required in the Lua script:
 
-``global_can_data = { }`` on top
+`global_can_data = { }` at the beginning of the script
 
-and at least one ``global_can_data[1]`` read access to ``global_can_data`` anywhere in the script
+and at least one `global_can_data[1]` read access to `global_can_data` anywhere in the script.
 
 ``` lua
 rxCount = 0
@@ -41,8 +41,10 @@ function onTick()
 end
 ```
 
-Give us
-`2024-02-25_09_12_32_236: EngineState: LUA: Alive seconds=4 rxCount 596
+Gives us:
+
+``` text
+2024-02-25_09_12_32_236: EngineState: LUA: Alive seconds=4 rxCount 596
 2024-02-25_09_12_33_240: EngineState: LUA: Alive seconds=5 rxCount 912
 2024-02-25_09_12_34_352: EngineState: LUA: Alive seconds=6 rxCount 1166
 2024-02-25_09_12_35_357: EngineState: LUA: Alive seconds=7 rxCount 1420
@@ -52,4 +54,4 @@ Give us
 2024-02-25_09_12_39_582: EngineState: LUA: Alive seconds=11 rxCount 2605
 2024-02-25_09_12_40_588: EngineState: LUA: Alive seconds=12 rxCount 2851
 2024-02-25_09_12_41_592: EngineState: LUA: Alive seconds=13 rxCount 3076
-`
+```

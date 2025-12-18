@@ -3,7 +3,7 @@
 Wall Wetting (or X-tau as it is sometimes called) is one of the acceleration fuel compensation methods available in rusEFI.
 This method uses a simple model to estimate the amount of fuel that drops out of the intake charge when the manifold pressure changes.
 
-## The Detail
+## The Details
 
 There are 3 key factors that go into the X-tau method:
 
@@ -19,7 +19,7 @@ The math used is based on: SAE 810494 by C. F. Aquino and SAE 1999-01-0553 by Pe
 
   First we compute how much fuel to command, by accounting for
   a) how much fuel will evaporate from the walls and enter the air charge
-  b) how much fuel from the injector will hit the walls amd stay there, thus being deposited
+  b) how much fuel from the injector will hit the walls and stay there, thus being deposited
 
   Next, we compute how much fuel will be deposited on the walls.
         The net effect of these two steps is computed (some leaves the walls, some is deposited)
@@ -57,12 +57,12 @@ Similarly reduce this value if the AFR becomes increasingly rich during the acce
 ### Added to wall coef / Beta (Fraction)
 
 This value sets how much of the fuel lands on the walls during an acceleration event. Increasing this value will cause a larger quantity of fuel to be added to the inlet charge.
-A large value here implies that a lot of the fuel is landing on the walls of the inlet manifold, requiring a large value may indicate that the spray pattern of the fuel injectors is incorrect for their positioning or the manifold type.
-While tuning if you are failing to prevent the AFR from becoming leaner then increase this value.
+A large value here implies that a lot of the fuel is landing on the walls of the inlet manifold; requiring a large value may indicate that the spray pattern of the fuel injectors is incorrect for their positioning or for the manifold type.
+While tuning, if you are failing to prevent the AFR from becoming leaner, increase this value.
 
 Good tuning of the X-tau system relies on taking logs and some trial and error to tune the coefficients correctly.
 
-## Old info
+## Old Info
 
 ![config](X-tau-Wall-Wetting)
 

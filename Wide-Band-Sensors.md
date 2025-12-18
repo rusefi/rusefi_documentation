@@ -4,8 +4,8 @@
 
 In a performance application at wide open throttle, the ECU needs to control the air to fuel ratio to hit a small target somewhat richer than stoichiometric. The narrowband sensors most OEs use only tell you if you are rich or lean, not *how* rich or *how* lean, which makes them completely useless in this case. A reliable measurement of the air to fuel ratio is also vital for the tuner to be able to tune the engine and be sure that the changes to the fueling are correct. The solution to this is a wideband oxygen sensor, which tells the ECU quite precisely what the air to fuel ratio is based on the amount of oxygen remaining in the exhaust gas.
 
-*Q: Can I tune my engine with a wideband, and then get rid of it?*  
-A: You can't reasonably tune for all potential variables. It's much better to keep the wideband and enjoy rusEFI closed loop fuel correction functionality.
+*__Q:__ Can I tune my engine with a wideband, and then get rid of it?*  
+__A:__ You can't reasonably tune for all potential variables. It's much better to keep the wideband and enjoy rusEFI closed loop fuel correction functionality.
 
 Bosch is the only genuine manufacturer of these sensors. The precision and range of the sensor is achieved by relatively sophisticated magic which happens inside the sensor. Orchestrating this magic requires 5 or 6 wires and a specialized controller.
 
@@ -13,7 +13,7 @@ Some rusEFI ECUs have built-in WBO controllers. If yours does not, you will need
 
 There are two types of wideband oxygen sensors (4.2 and 4.9), so be sure to purchase a sensor and controller that are compatible with each other.
 
-Wide-band controllers range from $35.00 for [14point7 SLC-free](http://www.14point7.com/products/slc-free) ($85 with sensor) all the way to high-$200 for kits with a gauge.
+Wide-band controllers range from $35.00 for [14point7 SLC-free](http://www.14point7.com/products/slc-free) ($85 with a sensor) all the way to the upper $200s for kits with a gauge.
 
 rusEFI is able to support most aftermarket wideband controllers that have a 5v analog output, as well as the CAN interface of AEM X-type sensors.
 

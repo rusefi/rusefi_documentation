@@ -1,6 +1,6 @@
 # rusEFI nano
 
-Out smallest universal ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/nano)
+Our smallest universal ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/nano)
 
 🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](Discord) 🔴
 

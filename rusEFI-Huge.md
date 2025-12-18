@@ -1,6 +1,6 @@
 # rusEFI Huge
 
-Our older fully-featured larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/rusefi-huge)
+Our older, fully-featured, larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/rusefi-huge)
 
 🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](Discord) 🔴
 
@@ -36,7 +36,7 @@ Our older fully-featured larger ECU available at [💲rusEFI store💲](https://
 
 ![huge photo](Images/rusEFI_Huge.jpeg)
 
-``bluetooth_jdy 115200 huge 1234``
+`bluetooth_jdy 115200 huge 1234`
 
 ## Parts
 
