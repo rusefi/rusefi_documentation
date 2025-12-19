@@ -14,6 +14,25 @@ A sibling of [uaefi121](uaefi121) with STM32F7 for larger Lua scripts and motors
 
 * [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/super-uaefi/)
 * One of the eight [universal units we offer](Hardware)
+* Sequential 8 cylinder injection
+* Sequential six injector outputs for more complex engines
+* Capable of driving 8 sequential injector outputs on simpler engines
+* Smart coils by default, expandable with on-board IGBT igniters to drive legacy coils
+* Six additional low side outputs
+* Dual on-board 4.9 WBO controller
+* Dual Drive By Wire electronic throttle body
+* One 2A high side output
+* Two VRs: one MAX9924 one VR-discrete
+* Knock sensor input
+* 120 pin supersealheader
+* On-board digital baro sensor
+* 7+2 analog inputs
+* Optional on-board EGT
+* Optional on-board MAP sensor
+* Comes WITHOUT waterproofing considerations - please add your own potting!
+* Matching USB cap sold separately
+* option to use on-board removable SD card
+* Looking for proper 8 cylinder sequential ignition? that's https://www.shop.rusefi.com/shop/p/rusefi-huge
 
 ## Harness Connectors
 
