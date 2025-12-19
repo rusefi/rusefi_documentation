@@ -24,4 +24,8 @@ A sibling of [uaefi121](uaefi121) with STM32F7 for larger Lua scripts and motors
 |C plug  |[4-1437290-1](https://www.te.com/usa-en/product-4-1437290-1.html)   |
 |D plug  | [3-1437290-8](https://www.te.com/usa-en/product-3-1437290-8.html)  |
 
+## Enclosure
+
+If you got naked you can print your own see https://github.com/rusefi/rusefi_documentation/tree/master/Hardware-files/Hellen/super-uaefi
+
 🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
