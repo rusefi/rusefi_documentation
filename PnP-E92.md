@@ -1,6 +1,8 @@
 # Plug and Play for v8 Ecotec3
 
-https://rusEFI.com/fw-private/rusefi_bundle_pnp-e92_obfuscated_public.zip
+[firmware](https://rusEFI.com/fw-private/rusefi_bundle_pnp-e92_obfuscated_public.zip)
+
+[available at the store](https://www.shop.rusefi.com/shop/p/e92x)
 
 https://rusefi.com/docs/pinouts/GM-E92/
 
