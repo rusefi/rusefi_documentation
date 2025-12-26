@@ -22,36 +22,39 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 
 ## Features
 
-| Feature                                                                           | Supported? |
-|-----------------------------------------------------------------------------------|------------|
-| Hall, VR, CLT, TPS and all popular sensors                                        | ✓          |
-| [TunerStudio online tuning](HOWTO-create-tunerstudio-project)                     | ✓          |
-| Batch Injection                                                                   | ✓          |
-| Sequential Injection up to 12 cylinders                                           | ✓          |
-| Wasted Ignition                                                                   | ✓          |
-| Sequential Ignition up to 12 cylinders                                            | ✓          |
-| [Flex Fuel](Flex-Fuel) 🌽                                                         | ✓          |
-| Closed Loop Fueling                                                               | ✓          |
-| [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)          | ✓          |
-| Boost Control                                                                     | ✓          |
-| Dual AFR signal logging                                                           | ✓          |
-| Staged Injection                                                                  | ✓          |
-| [Launch Control](HOWTO-Launch-Control)                                            | ✓          |
-| [Acceleration enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting) | ✓          |
-| [Digital Dash](Digital-Dash)                                                      | ✓          |
-| [Blending (advanced version of dual table)](Blending)                             | ✓          |
-| [Onboard wideband controller](Wide-Band-Sensors)                                  | ✓          |
-| [Knock Sensing & response](knock-sensing)                                         | ✓          |
-| [Multi-Spark](Multi-Spark)                                                        | ✓          |
-| [Lua Scripting](Lua-Scripting)                                                    | ✓          |
-| [Direct Injection](GDI-status)                                                    | ✓          |
-| Flat Shifting                                                                     | ✓          |
-| [Kick start](Kick-Start)                                                          | ✓          |
-| [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)                     | ✓          |
-| Traction Control                                                                  | ✓          |
-| [Rotary Engines](Rotary)                                                          | ✓          |
-| [Antilag](https://github.com/rusefi/rusefi/issues/2403)                           | ✓          |
-| [Automatic Transmission Control](TCU-status)                                      | ✗          |
+| Feature                                                                                                     | Supported? |
+|-------------------------------------------------------------------------------------------------------------|------------|
+| [Hall, VR, CLT, TPS and all popular sensors](FAQ-Basic-Wiring-and-Connections)                              | ✓          |
+| [20+ OEM Triggers Supported](All-Supported-Triggers)                                                        | ✓          |
+| [TunerStudio online tuning](HOWTO-create-tunerstudio-project)                                               | ✓          |
+| [Batch Injection](https://rusefi.com/docs/guide/#menu_Fuel_Injection_configuration)                         | ✓          |
+| [Sequential Injection up to 12 cylinders](https://rusefi.com/docs/guide/#menu_Fuel_Injection_configuration) | ✓          |
+| [Staged Injection](https://rusefi.com/docs/guide/#menu_Fuel_Staged_injection)                               | ✓          |
+| [Direct Injection](GDI-status)                                                                              | ✓          |
+| [Flex Fuel](Flex-Fuel) 🌽                                                                                   | ✓          |
+| [Closed Loop Fueling](Fuel-Overview#closed-loop-correction)                                                 | ✓          |
+| [Acceleration Enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)                           | ✓          |
+| [Onboard Wideband Controller](Wide-Band-Sensors)                                                            | ✓          |
+| [Dual AFR Signal Logging](Wide-Band-Sensors)                                                                | ✓          |
+| [Sequential Ignition up to 12 cylinders](https://rusefi.com/docs/guide/#menu_Ignition_Ignition_settings)    | ✓          |
+| [Wasted Spark Ignition](https://rusefi.com/docs/guide/#menu_Ignition_Ignition_settings)                     | ✓          |
+| [Multi-Spark](Multi-Spark)                                                                                  | ✓          |
+| [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)                                    | ✓          |
+| [CAN Bus Connectivity](CAN)                                                                                 | ✓          |
+| [Bluetooth Connectivity](Bluetooth)                                                                         | ✓          |
+| [Digital Dash](Digital-Dash)                                                                                | ✓          |
+| [Lua Scripting](Lua-Scripting)                                                                              | ✓          |
+| [Boost Control](https://rusefi.com/docs/guide/#menu_Advanced_Boost_control)                                 | ✓          |
+| [Launch Control](HOWTO-Launch-Control)                                                                      | ✓          |
+| [Flat Shifting](https://rusefi.com/docs/guide/#menu_Advanced_Shift_Torque_Reduction_(Flat_Shift))           | ✓          |
+| [Antilag](https://github.com/rusefi/rusefi/issues/2403)                                                     | ✓          |
+| [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)                                               | ✓          |
+| [Traction Control](https://rusefi.com/docs/guide/#menu_Controller_Traction_Control_ETB_drop)                | ✓          |
+| [Blending (advanced version of dual table)](Blending)                                                       | ✓          |
+| [Knock Sensing & Response](knock-sensing)                                                                   | ✓          |
+| [Kick Start](Kick-Start)                                                                                    | ✓          |
+| [Rotary Engines](Rotary)                                                                                    | ✓          |
+| [Automatic Transmission Control](TCU-status)                                                                | ✗          |
 
 And many more!
 The unsupported features listed here are all things that would be amazing to see! If *you* have a project that includes any of those configurations or anything else, please jump in on the forums and we can work together to make it happen! 👍
