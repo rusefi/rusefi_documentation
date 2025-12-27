@@ -40,7 +40,7 @@ The most fully-featured ECU in this price category; available at [💲rusEFI Sto
 * Expandable with on-board EGT input (MAX31855 and related passives would need to be soldered)
 * Expandable with second CAN bus (TJA1051T and related passives would need to be soldered)
 * On-board real time cr1220 clock battery (software broken https://github.com/rusefi/rusefi/issues/4556)
-* PRO comes with extra memory for Lua and more powerfull MCU
+* PRO comes with extra memory for Lua and more powerful stm32f7 MCU
 
 ## Technical Details
 
