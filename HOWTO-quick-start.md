@@ -69,6 +69,10 @@ You will definitely need your tune and log online for any community discussion.
 
 See [Support & Community](Support)
 
+## Want to learn more about rusEFI features?
+
+See https://rusefi.com/docs/guide/
+
 ## FAQ
 
 *__Q:__ How do I change settings?*  
