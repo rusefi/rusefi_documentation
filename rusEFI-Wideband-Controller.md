@@ -103,9 +103,9 @@ There was also an opinion voiced that the board needs to see voltage on the "vBa
 
 ## Firmware
 
-[Classic 2023 firmware](https://github.com/andreika-git/hellen-one/tree/master/modules/wbo/fw-releases/Wideband%20f0_module%202023-dec)
+We support loading firmware from SD card for updates or rollback see https://github.com/rusefi/rusefi/pull/8870
 
-[2025 release candidate](https://github.com/rusefi/wideband/tree/prod-2025-05/release/rc)
+[Classic 2023 firmware](https://github.com/andreika-git/hellen-one/tree/master/modules/wbo/fw-releases/Wideband%20f0_module%202023-dec)
 
 ## Fabrication
 
