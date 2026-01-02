@@ -66,7 +66,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 An engine can start rich, as long as it's not too rich and you have the cranking timing angle set close enough to the optimum. By default, cranking mode is active if RPM is below 500.
 
-Please note that the trigger synchronization point often does not match TDC, so just try different values between 0 and 720. For example, try 0, then 20, then 40. etc. Use `showconfig` to see current setting.
+Please note that the trigger synchronization point often does not match TDC, so just try different values between 0 and 720. For example, try 0, then 20, then 40. etc.
 
 ## Next Steps & Troubleshooting
 
