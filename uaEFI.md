@@ -35,7 +35,7 @@ The most fully-featured ECU in this price category; available at [💲rusEFI Sto
 * Proto area
 * 100x100mm 4 layer PCB
 * Expandable with on-board IGBT igniters
-* Expandable with on-board MAP sensor (MPX4250AP or smaller)
+* Expandable with on-board MAP sensor (MPX4250AP or smaller MPXH6400AC)
 * Expandable with on-board Bluetooth (JDY-33 would need to be soldered)
 * Expandable with on-board EGT input (MAX31855 and related passives would need to be soldered)
 * Expandable with second CAN bus (TJA1051T and related passives would need to be soldered)
