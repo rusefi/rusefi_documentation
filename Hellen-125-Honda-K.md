@@ -1,6 +1,8 @@
 # Hellen 125 Honda K-Series
 
-## Designed for 2002 RSX wiring
+## Designed for 2002-04 RSX wiring
+
+## As is, not compatible with 05-06 RSX wiring - jumper mod would be needed
 
 [💲Gets yours at the rusEFI Store💲](https://www.shop.rusefi.com/shop/p/honda-k-2002-pinout)
 
