@@ -98,6 +98,9 @@ __A:__ https://shop.rusefi.com is the only official store, there are no distribu
 *__Q:__ Can it do 8x8?*  
 __A:__ You would have to remove two flyback diodes to have 8 similar injector outputs. You would have to figure out a way to have 8 equal coil outputs, maybe settle on wasted spark?
 
+*__Q:__ Can it do v12*  
+__A:__ No, it's not recommended. This board was designed for one injector per channel.
+
 *__Q:__ What's the difference between normal and PRO?*  
 __A:__ 97% of users should go with Normal. PRO can do much more complex Lua scripts.
 
