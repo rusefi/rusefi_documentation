@@ -113,7 +113,7 @@ PCB files are available for free; you should be able to order your own. Paid con
 __A:__ See notes on the schematics, it has part numbers to add and reference numbers to remove!
 
 *__Q:__ Would it run a v12?*  
-__A:__ It definitely would idle a v12; not sure if thermals would be a problem at higher RPM with two injectors per channel.
+__A:__ It definitely would idle a v12; not sure if thermals would be a problem at higher RPM with two injectors per channel. Proteus or Huge is recommended for v12.
 
 *__Q:__ How do I add Bluetooth?*  
 __A:__ See [Bluetooth](Bluetooth#jdy)
