@@ -98,6 +98,10 @@ __A:__ https://shop.rusefi.com is the only official store, there are no distribu
 *__Q:__ Can it do 8x8?*  
 __A:__ You would have to remove two flyback diodes to have 8 similar injector outputs. You would have to figure out a way to have 8 equal coil outputs, maybe settle on wasted spark?
 
+### __Q:__ Can it do v12
+
+__A:__ No, it's not recommended. This board was designed for one injector per channel.
+
 *__Q:__ What's the difference between normal and PRO?*  
 __A:__ 97% of users should go with Normal. PRO can do much more complex Lua scripts.
 
@@ -109,7 +113,7 @@ PCB files are available for free; you should be able to order your own. Paid con
 __A:__ See notes on the schematics, it has part numbers to add and reference numbers to remove!
 
 *__Q:__ Would it run a v12?*  
-__A:__ It definitely would idle a v12; not sure if thermals would be a problem at higher RPM with two injectors per channel.
+__A:__ It definitely would idle a v12; not sure if thermals would be a problem at higher RPM with two injectors per channel. Proteus or Huge is recommended for v12.
 
 *__Q:__ How do I add Bluetooth?*  
 __A:__ See [Bluetooth](Bluetooth#jdy)
