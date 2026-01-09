@@ -40,34 +40,19 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 > ![Hint](Images/icons/hint.png) *Hint: Click on the screenshot below to see more info on the particular settings:*
 
-<table class="mapped-screenshot" markdown="1" style="width:334px; height:609px;"><td markdown="1" width="334">
-
-![Settings01](Images/TS/cranking/settings_01.png)
-[![Cranking RPM limit](Images/TS/cranking/settings_02.png)](#cranking-rpm-limit)
-[![Injection mode](Images/TS/cranking/settings_07.png)](#injection-mode)
-[![Fuel Source For Cranking](Images/TS/cranking/settings_08.png)](#fuel-source-for-cranking)
-[![Base Fuel Pulse Width](Images/TS/cranking/settings_09.png)](#base-fuel-pulse-width)
-[![Advance](Images/TS/cranking/settings_10.png)](#advance)
-[![Use separate Advance Table for cranking](Images/TS/cranking/settings_11.png)](#use-separate-advance-table-for-cranking)
-[![Use Advance Corrections for cranking](Images/TS/cranking/settings_12.png)](#use-advance-corrections-for-cranking)
-[![Use fixed cranking dwell](Images/TS/cranking/settings_13.png)](#use-fixed-cranking-dwell)
-[![Cranking IAC position](Images/TS/cranking/settings_14.png)](#cranking-iac-position)
-[![After cranking IAC taper duration](Images/TS/cranking/settings_15.png)](#after-cranking-iac-taper-duration)
-[![Override IAC multiplier for cranking](Images/TS/cranking/settings_16.png)](#override-iac-multiplier-for-cranking)
-[![Enable flood clear](Images/TS/cranking/settings_03.png)](#enable-flood-clear)
-[![Enable faster engine spin-up](Images/TS/cranking/settings_04.png)](#enable-faster-engine-spin-up)
-![Settings18](Images/TS/cranking/settings_18.png)
-</td></table>
+<script type="text/javascript">
+let s = document.currentScript; fetch("https://rusefi.com/docs/guide/images/dialog_Cranking_Settings.svg").then(r => r.text()).then(svg => { s.outerHTML = svg; });
+</script>
 
 ## General Cranking Settings
 
-### Cranking RPM limit
+### Cranking Settings: Cranking RPM Limit
 
 *This sets the RPM limit below which the ECU will use cranking fuel and ignition logic - typically 350-450 RPM.*  
 
 ## Fuel Settings
 
-### Injection Mode
+### Cranking Settings: Injection Mode
 
 *This is the injection strategy during engine start. See [Fuel Control Overview](Fuel-Overview) for more detail.*
 
@@ -75,7 +60,7 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 - *It is suggested to use "Simultaneous".*
 
-### Fuel Source for Cranking
+### Cranking Settings: Fuel Source for Cranking
 
 *You can try two different strategies for the fuel math on cranking.*
 *Available options are "Fixed" and "Fuel Map".*
@@ -85,57 +70,41 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 - *In "Fuel Map" mode, the "Running" fuel math is used for cranking.*
     > ![Hint](Images/icons/hint.png) *Hint: Please make sure your running fuel tables are extended into the low RPM range for cranking.*
 
-### Base fuel pulse width
-
-*Base duration of the fuel injection during cranking: this is modified by the multipliers for CLT, IAT, TPS etc, to give the final cranking pulse width. This is used only if "Fuel Source for cranking" option is set to "Fixed".*
-
 ## Ignition Settings
 
-### Advance
+### Cranking Settings: Timing Advance Mode
 
-*Ignition advance angle used during engine cranking: 5-10 degrees will work as a base setting for most engines.*
-
-### Use Separate Advance Table for Cranking
-
-*This activates a separate advance table for cranking conditions, which allows the cranking advance to be RPM-dependent.*
+*This allows you to either set a fixed advance or to use a separate advance table for cranking conditions, which allows the cranking advance to be RPM-dependent.*
 
 ![Cranking Advance Table](Images/TS/cranking/separate_advance_table.png)
 
-### Use Advance Corrections for Cranking
+### Cranking Settings: Fixed Cranking Advance
 
-*This enables the various ignition corrections during cranking (IAT, CLT, FSIO and PID idle).*
+*Ignition advance angle used during engine cranking: 5-10 degrees will work as a base setting for most engines.*
 
-### Use Fixed Cranking Dwell
+### Cranking Settings: Fixed Cranking Dwell
 
-*If set to true, will use the specified duration for cranking dwell. If set to false, will use the specified dwell angle. Unless you have a really good reason, leave this set to true to use duration mode.*
-
-## IAC Settings
-
-### Cranking IAC position
-
-*This is the IAC position during cranking; some engines start better if given more air during cranking to improve cylinder filling.*
-
-### After Cranking IAC Taper Duration
-
-*This is the duration in cycles that the IAC will take to reach its normal idle position; it can be used to hold the idle higher for a few seconds after cranking to improve startup.*
-
-### Override IAC multiplier for cranking
-
-*This setting overrides the normal multiplication values that have been set for the idle air control valve during cranking. If this setting is enabled, the "IAC multiplier" table in the Cranking settings tab needs to be adjusted appropriately or potentially no IAC opening will occur.*
-
-![Cranking Idle Air Multiplier](Images/TS/cranking/cranking-idle-air-multiplier.png)
+*The specified dwell will be used during cranking even if a separate advance table is used.*
 
 ## Advanced Cranking Settings
 
-### Enable flood clear
+### Cranking Settings: Flood Clear
 
 *When enabled, if the throttle pedal is held above 90% no fuel is injected while cranking to clear excess fuel from the cylinders.*  
 
-### Enable faster engine spin-up
+### Cranking Settings: Faster Engine Spin-up
 
 - *Smarter cranking logic. When enabled, the ignition and fuel injection will start right after the first sync point of the primary [trigger wheel](All-Supported-Triggers).*
 
 - *Please be aware that this mode currently works only for certain trigger wheel types (e.g. 60-2, 36-1).*
+
+### Cranking Settings: Use Advance Corrections for Cranking
+
+*This enables the various ignition corrections during cranking (IAT, CLT, FSIO and PID idle).*
+
+### Cranking Settings: Separate Flex-fuel cranking table
+
+*This enables a separate fuel multiplier table for ethanol fuel. Only enabled if a flex fuel sensor is configured in "Sensors" -> "Fuel" -> "Flex".*
 
 ## Priming Fuel Pulse
 
