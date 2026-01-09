@@ -1,6 +1,6 @@
 # Performing the First Start On a New rusEFI Install
 
-One of the toughest aspects of any new ECU install is the first start of a new engine. It is an issue a that lot of users find, so hopefully this comprehensive first-start guide will help by clarifying the purpose of the settings and providing some best-practice procedures.
+One of the toughest aspects of any new ECU install is the first start of a new engine. It is an issue that a lot of users find, so hopefully this comprehensive first-start guide will help by clarifying the purpose of the settings and providing some best-practice procedures.
 
 Before you can even try to start the engine, you have to get some of the basics right:
 
