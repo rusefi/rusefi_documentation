@@ -30,10 +30,10 @@ In TunerStudio, the Cranking Settings are accessed from the top menu:
 The settings are divided into several sections:
 
 - [General settings](#general-cranking-settings)
-- [Priming fuel pulse settings](#priming-fuel-pulse)
 - [Fuel settings](#fuel-settings)
 - [Ignition settings](#ignition-settings)
-- [IAC settings](#iac-settings)
+- [Advanced Cranking Settings](#advanced-cranking-settings)
+- [Priming fuel pulse settings](#priming-fuel-pulse)
 - [Post-cranking fuel enrichment settings](#after-start-enrichment)
 
 rusEFI has a separate cranking control strategy for your first couple of engine revolutions - usually, you want more fuel, different timing and simultaneous injection to start an engine. An engine can start rich, as long as it's not too rich and you have the cranking timing angle set close enough to the optimum.
