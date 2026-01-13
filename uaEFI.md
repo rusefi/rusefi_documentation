@@ -127,3 +127,5 @@ __A:__ Yes, it's possible.
 ![image](Images/TS/TunerStudio_idle_stepper.png)
 
 🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
+
+[![Watch the video](https://img.youtube.com/vi/gjyuclq9KZI/hqdefault.jpg)](https://www.youtube.com/watch?v=gjyuclq9KZI)
