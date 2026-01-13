@@ -64,3 +64,5 @@ general availability!
 ### rev A
 
 Early prototype - it was even larger!
+
+<img width="845" height="840" alt="image" src="https://github.com/user-attachments/assets/7acf20e7-8e15-463b-a17a-af9a5c3951f8" />
