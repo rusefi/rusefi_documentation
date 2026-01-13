@@ -30,3 +30,5 @@ Our smallest universal ECU available at [💲rusEFI store💲](https://www.shop.
 ### Q: What about intake air temperature?
 
 A: this board does not have a dedicated IAT pin, you would have to re-purpose any of the unused analog inputs with a 4.7K pull-up to 5v.
+
+<img width="846" height="775" alt="image" src="https://github.com/user-attachments/assets/bcc5d9ff-0925-499b-826e-db712a1cd73c" />
