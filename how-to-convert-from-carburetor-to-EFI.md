@@ -34,6 +34,8 @@ Not actually necessary! (Not exactly anyway). rusEFI and many other engine manag
 
 The system needs to know where the engine is so that it knows when to send fuel. If your engine uses a distributor, you can use the ignition pulse to trigger fuel. This isn't very precise, but it works well enough. For more precision, you'll need some sort of crank angle sensor. This can be any number of things but is most commonly a hall-effect (hall) or variable-reluctance (VR) sensor directly driven by the crankshaft. For maximum precision and performance, the recommended setup is a trigger on the crankshaft as well as a camshaft sensor to correctly identify where your engine is in the 720-degree cycle (for 4-stroke engines). This is another great place to look for OEM solutions, such as from later model vehicles.
 
+We recommend at least a 12 minus 1 trigger wheel, which is a common setup for many engines. Single or two teeth per revolution does not work that good.
+
 ### Engine Management
 
 You're reading about rusEFI, so that's what we're going to recommend (probably 💯 ). This is alpha-stage hardware and software, but it should be totally manageable. Get a preassembled board and get ready to learn.
