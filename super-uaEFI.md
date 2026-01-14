@@ -48,3 +48,5 @@ A sibling of [uaefi121](uaefi121) with STM32F7 for larger Lua scripts and motors
 If you got naked you can print your own see https://github.com/rusefi/rusefi_documentation/tree/master/Hardware-files/Hellen/super-uaefi
 
 🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
+
+[![Watch the video](https://img.youtube.com/vi/drUV_A5uE60/hqdefault.jpg)](https://www.youtube.com/watch?v=drUV_A5uE60)
