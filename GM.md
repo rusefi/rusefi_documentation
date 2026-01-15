@@ -74,6 +74,8 @@ v8
 
 https://rusefi.com/docs/pinouts/GM-E92/
 
+[E92X](https://github.com/rusefi/rusefi/wiki/PnP-E92)
+
 https://rusefi.com/docs/pinouts/E92-adapter/
 
 https://rusefi.com/docs/pinouts/E92-blue-adapter/
