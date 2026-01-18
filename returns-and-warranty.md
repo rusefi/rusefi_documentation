@@ -2,7 +2,7 @@
 
 We do not accept returns.
 
-# warranty policy
+## warranty policy
 
 We offer limited free returns for obvious manufacturing issues. We do not replace units which were damaged while using hardware outside of design limitations.
 
