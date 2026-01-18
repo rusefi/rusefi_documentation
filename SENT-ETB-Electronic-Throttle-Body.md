@@ -35,6 +35,6 @@ kit <https://www.bmotorsports.com/shop/product_info.php/products_id/4479>
 
 ## Hardware
 
-At the moment only microRusEFI has SENT capable pins
+At the moment uaEFI, Huge and microRusEFI have SENT capable pins.
 
 See https://github.com/rusefi/rusefi/tree/master/firmware/hw_layer/drivers/sent
