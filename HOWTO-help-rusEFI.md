@@ -20,8 +20,10 @@ A: How can you help? There are so many ways to help; quite often having a test m
 
 PCB testing, forum hosting, damaged hardware, etc. costs money.
 
-There are two ways to help financially:
+There are many ways to help financially:
 
 One-time or monthly [Paypal](https://tinyurl.com/paypal-rusefi)  
 
 One-time or monthly [rusEFI Patreon](https://www.patreon.com/rusefi)
+
+Special order of nothing at [rusEFI store](https://www.shop.rusefi.com/)
