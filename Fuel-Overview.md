@@ -75,6 +75,9 @@ Fuel map auto-tuning is a process of automatically preparing the configuration t
 ## Closed Loop Correction
 
 Last but not least, closed-loop fuel correction dynamically corrects fuel to match target AFR. The better your maps are, the better your actual AFR will be without correction. Closed-loop correction is the tool to fix the gap between your maps, our models and reality.
+This is also known as short term fuel trim.
+
+Some boards have long term fuel trim.
 
 ![Fuel PID options](Images/TS/Fuel_pid.png)
 
