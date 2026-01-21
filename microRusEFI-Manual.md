@@ -10,7 +10,6 @@ Our older, fully-featured, larger ECU available at [💲rusEFI store💲](https:
 [microRusEFI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 [Release vs Snapshot](Release-Snapshot-Latest-firmware)
 
-![microRusEFI image](Images/microRusEFI_board.jpeg)
 ![microRusEFI image](Images/microRusEFI.jpeg)
 
 ## Specs
