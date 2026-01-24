@@ -4,7 +4,7 @@ rusEFI is a group of enthusiasts developing a fundamentally _smarter_ open-sourc
 We have built an amazing foundation which is good enough to run any simple engine.
 Current software and universal hardware offerings aim to cater to those interested in further development.
 
-See also [2021 Strategy statement](https://github.com/rusefi/rusefi/blob/master/misc/Strategy_2021.md)
+See also [2026 Strategy statement](https://github.com/rusefi/rusefi/blob/master/misc/Strategy_2026.md)
 
 Interested in using rusEFI? See [Hardware](Hardware).
 
