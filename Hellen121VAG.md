@@ -1,5 +1,7 @@
 # Hellen 121 VAG
 
+Status: abandoned legacy open source design
+
 Hellen Plug-and-Play for ME7 VAG vehicles
 
 [💲Gets yours at rusEFI Store💲](https://www.shop.rusefi.com/shop/p/hellen-121-vag)
@@ -18,13 +20,11 @@ Hellen Plug-and-Play for ME7 VAG vehicles
 
 [KiCAD source files](https://github.com/rusefi/hellen121vag)
 
-Status: early phases of testing!
-
 ## Hardware features
 
 * Electronic Throttle Body
 * knock detection module with headphone jack
-* built-in WBO - **WARNING 4.2 software is not ready but we believe that the hardware is universal** (footprint, stm32f042 not in stock at JLC)
+* built-in WBO - **WARNING 4.2 software is not ready but we believe that the hardware is universal**
 * Baro sensor LPS25HB (footprint, not populated)
 
 ## Vehicle Specific Jumpers
