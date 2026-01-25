@@ -4,8 +4,7 @@
 
 Cross linked polyethylene insulation recommended.
 
-[Waytek TXL Wire 20GA](https://www.waytekwire.com/product/general-cable-140873-91-automotive) Orange
-[Waytek TXL Wire 20GA](https://www.waytekwire.com/product/general-cable-140666-91-automotive) Blue
+We like Waytek TXL Wire 20GA
 
 Twisted Shielded Cable
 For knock/VR/CAN
