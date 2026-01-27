@@ -21,3 +21,12 @@ At the moment we focus on BMW F-series support while working with the following 
 * OEM BMW E46 and siblings like E39
 * generic legacy analog inputs only should be doable
 * GM E38 should be doable but who puts BMW 8hp on LS engines?
+
+### integration
+
+8hp operation requires the following data
+
+* engine RPM
+* driver intent sensor: pedal position sensor in case of DBW or TPS for cable-driven throttle bodies
+* either real torque from ECU or estimated torque based on MAP sensor
+* brake pedal switch or brake pedal pressure data
