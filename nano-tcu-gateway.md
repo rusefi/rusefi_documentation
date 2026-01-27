@@ -16,6 +16,7 @@
 ### Supported ECUs
 
 At the moment we focus on BMW F-series support while working with the following ECUs:
+
 * obviously rusEFI
 * OEM BMW E9x and siblings
 * OEM BMW E46 and siblings like E39
@@ -30,7 +31,6 @@ At the moment we focus on BMW F-series support while working with the following 
 * driver intent sensor: pedal position sensor in case of DBW or TPS for cable-driven throttle bodies
 * either real torque from ECU or estimated torque based on MAP sensor
 * brake pedal switch or brake pedal pressure data
-
 
 ## FAQ
 
