@@ -10,3 +10,14 @@
 * [8HP](8hp) coming soon!
 
 [firmware snapshot](https://rusefi.com/fw-private/rusefi_bundle_nano-tcu-gateway_obfuscated_public.zip)
+
+## 8hp
+
+### Supported ECUs
+
+At the moment we focus on BMW F-series support while working with the following ECUs:
+* obviously rusEFI
+* OEM BMW E9x and siblings
+* OEM BMW E46 and siblings like E39
+* generic legacy analog inputs only should be doable
+* GM E38 should be doable but who puts BMW 8hp on LS engines?
