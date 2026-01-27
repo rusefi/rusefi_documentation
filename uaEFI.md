@@ -105,7 +105,7 @@ Additional notes at https://rusefi.com/docs/pinouts/hellen/uaefi/?connector=b&pi
 __A:__ No, it's not recommended. This board was designed for one injector per channel.
 
 *__Q:__ What's the difference between normal and PRO?*  
-__A:__ 97% of users should go with Normal. PRO can do much more complex Lua scripts.
+__A:__ 94% of users should go with Normal. PRO can do much more complex Lua scripts, PRO also has a knock spectrogram feature.
 
 *__Q:__ Do you have any dealer prices or discount for companies?*  
 __A:__ There is too little profit margin on these to offer discounts, sorry.
