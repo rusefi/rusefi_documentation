@@ -1,18 +1,15 @@
 # 8HP Transmission
 
-[Wikipedia](https://en.wikipedia.org/wiki/ZF_8HP_transmission)
+## We focus on 1st generation BMW F-series transmissions
+
+* BMW F-series is the most available option, great for swaps into older BMWs. Cheap and good enough!
+* BMW 2nd generation like 8HP50 shift quicker but do not bolt into older BMWs. Feel free to donate a test vehicle for us to look into those!
+* Chrysler/Dodge has interchangeable physical TCU, but totally different Chrysler CANbus dialect; some versions have a trans brake - but for now we just do not have resources to look into this. Feel free to donate a test vehicle for us to change the plan!
+* BMW E-series CAN bus dialect, before ISN/Component Protection - there is not enough of these, that lowers the appeal.
 
 [8HP interactive pinout](https://rusefi.com/docs/pinouts/8hp/)
 
 [nano-tcu-gateway](nano-tcu-gateway)
-
-* BMW E-series CAN bus dialect, before ISN/Component Protection
-* BMW F-series is the most available option.
-* Chrysler/Dodge use interchangeable TCU, but Chrysler CANbus dialect; some versions have a transbrake.
-
-https://www.domi-works.com/pages/identify-your-transmission-bmw-8hp
-
-https://www.puredrivetrainsolutions.com/8hp-resources
 
 ## ISN Reset
 
@@ -29,3 +26,11 @@ F-series shifter
 ## Misc
 
 BMW Engine Block Dowel Pin 11117524470 14.5mm
+
+## Useful Links
+
+[Wikipedia](https://en.wikipedia.org/wiki/ZF_8HP_transmission)
+
+https://www.domi-works.com/pages/identify-your-transmission-bmw-8hp
+
+https://www.puredrivetrainsolutions.com/8hp-resources
