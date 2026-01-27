@@ -12,6 +12,8 @@
 
 https://www.domi-works.com/pages/identify-your-transmission-bmw-8hp
 
+https://www.puredrivetrainsolutions.com/8hp-resources
+
 ## ISN Reset
 
 When you install a used 8HP automatic transmission, its electronic control unit (TCU/EGS) is "locked" with the VIN and security data of the donor car. You cannot simply install it and code it to a new car. The TCU/EGS must first be reset to a factory state or "virginized."
