@@ -1,6 +1,6 @@
 # rusEFI History
 
-# 2021 is the year of Hellen
+## 2021 is the year of Hellen
 
 By the way, Hellen is the son of Deucalion (we have Deucalion board). Deucalion is the son of Prometheus (we have Prometheus board).
 
@@ -16,7 +16,7 @@ This board has started the Greek mythology naming convention in hardware.
 
 ## 2014
 
-Honda Accord came with head gasket pre-blown! https://honda-tech.com/forums/engine-management-tuning-124/rusefi-diy-ems-build-thread-3216231/ 
+Honda Accord came with head gasket pre-blown! https://honda-tech.com/forums/engine-management-tuning-124/rusefi-diy-ems-build-thread-3216231/
 
 That's when Nick has joined the party.
 
@@ -34,7 +34,7 @@ After 9 months of very questionable hardware a silent co-founder from New Englan
 
 [First test mule Ford Aspire - Forum](https://rusefi.com/forum/viewtopic.php?t=375)
 
-rusEFI has started out of the blue by Andrey. 
+rusEFI has started out of the blue by Andrey.
 
 ## 2010
 
