@@ -32,6 +32,7 @@ https://github.com/rusefi/e38-e67-customer-support
 
 * 56-position housing "blue" Molex 34576-0703 0345760703
 * Depinning tool GM-38125-213 0.64mm DIA Pick Tool SIM to Molex 63813-1400
+* larger USB cap is CAP-WADMLPC2
 
 ## FAQ
 
