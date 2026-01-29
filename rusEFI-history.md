@@ -7,6 +7,14 @@ By the way, Hellen is the son of Deucalion (we have Deucalion board). Deucalion 
 
 Mary Shelley has a novel named "Frankenstein, or The Modern Prometheus" and that's how Hellen name has roots in Frankenstein which was the first rusEFI board :)
 
+![x](Hardware-files/Deucalion/Deucalion_0_1_half_assembled.jpg)
+
+# 2019
+
+https://github.com/mck1117/proteus/ was the first proper rusEFI board. Still in production!
+
+This board has started the Greek mythology naming convention in hardware.
+
 # 2014
 Honda Accord came with head gasket pre-blown! https://honda-tech.com/forums/engine-management-tuning-124/rusefi-diy-ems-build-thread-3216231/ 
 
@@ -20,7 +28,7 @@ After 9 months of very questionable hardware a silent co-founder from New Englan
 
 http://forum.diyefi.org/viewtopic.php?f=4&t=2184
 
-![x](rusEFI-History/hardware_low_side_circa_2013.jpg)
+![x](rusEFI-History-files/hardware_low_side_circa_2013.jpg)
 
 
 # 2012
