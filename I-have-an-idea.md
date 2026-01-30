@@ -9,4 +9,6 @@ __A:__ Let me answer this universal question with a universal answer, in two par
 *__Q:__ Is it possible to do X?*  
 __A:__ The moon landing was possible more than 50 years ago! A *lot* of things are possible with proper resource allocation. If you can engineer it, go for it! If you are asking for help, we offer commercial engineering services. See [Standalone on Demand](Standalone-on-Demand) and [Royalty](Royalty).
 
+<img width="811" height="839" alt="image" src="https://github.com/user-attachments/assets/9058a4e9-16c9-4e2c-a062-cf93ba66549b" />
+
 ![image](Images/goals_triangle.png)
