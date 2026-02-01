@@ -36,6 +36,19 @@ Make sure that your fork has Actions enabled:
 
 ![image](Images/GH_actions_enable.png)
 
+## Pull Requests should be atomic
+
+Please create small, feature-specific branches on your fork. Submit one PR per fix or feature.
+Please do not submit a massive "kitchen sink" PR from your fork that fixes three bugs, adds two features, and reformats the entire codebase.
+We will likely reject it because it’s impossible to review. It forces us to accept all your changes or none of them.
+
+## Hostile Forks
+
+Free Open Source Software is a two-way street: it's not OK not to PR your sweet progress.
+Be also believe that it's morally questionable to intentionally make forks incompatible. 
+We believe that it's morally questionable for forks to be private.
+We doubt that anyone is benefiting from community fragmentation.
+
 ## See Also
 
 - [Test-Driven Bugfixing](TDB-Test-Driven-Bugfixing)
