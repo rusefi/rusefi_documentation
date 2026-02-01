@@ -45,7 +45,7 @@ We will likely reject it because it’s impossible to review. It forces us to ac
 ## Hostile Forks
 
 Free Open Source Software is a two-way street: it's not OK not to PR your sweet progress.
-Be also believe that it's morally questionable to intentionally make forks incompatible. 
+Be also believe that it's morally questionable to intentionally make forks incompatible.
 We believe that it's morally questionable for forks to be private.
 We doubt that anyone is benefiting from community fragmentation.
 
