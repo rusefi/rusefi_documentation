@@ -1,5 +1,7 @@
 # BMW e46
 
+https://www.ms4x.net/index.php?title=Siemens_MS42_Pinout
+
 ## 325
 
 ![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_325_ecu.png)
