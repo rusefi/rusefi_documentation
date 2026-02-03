@@ -32,6 +32,12 @@ At the moment we focus on BMW F-series support while working with the following 
 * either real torque from ECU or estimated torque based on MAP sensor
 * brake pedal switch or brake pedal pressure data
 
+## Connectors
+
+Super-seal 26 pin
+
+Harness side 3-1437290-8
+
 ## FAQ
 
 ### Q: where is the source code?
