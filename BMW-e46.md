@@ -2,7 +2,11 @@
 
 https://www.ms4x.net/index.php?title=Siemens_MS42_Pinout
 
+https://www.ms4x.net/index.php?title=Siemens_MS43_Pinout
+
 ## 325
+
+This one seems to be MS43
 
 ![x](OEM-Docs/Bmw/3_Series_e46/2002_bmw_325_ecu.png)
 
