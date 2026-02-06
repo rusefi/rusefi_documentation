@@ -9,7 +9,7 @@
 
 [8HP interactive pinout](https://rusefi.com/docs/pinouts/8hp/)
 
-[purple-gateway](Purple Gateway)
+[Purple Gateway](purple-gateway)
 
 ## ISN Reset
 
