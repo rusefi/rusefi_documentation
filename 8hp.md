@@ -9,7 +9,7 @@
 
 [8HP interactive pinout](https://rusefi.com/docs/pinouts/8hp/)
 
-[nano-tcu-gateway](nano-tcu-gateway)
+[purple-gateway](Purple Gateway)
 
 ## ISN Reset
 

@@ -13,7 +13,7 @@
 | [mega100](mega100)                             | [rusEFI Store](https://www.shop.rusefi.com/shop/p/mega100-f4)       |
 | [mega144](mega144)                             | [rusEFI Store](https://www.shop.rusefi.com/shop/p/mega144)          |
 | [uaDASH](uaDASH)                               | [rusEFI Store](https://www.shop.rusefi.com/shop/p/uadash7)          |
-| [nano TCU Gateway](nano-tcu-gateway)           |                                                                     |
+| [Purple Gateway](purple-gateway)           |                                                                     |
 
 ## Adapters
 

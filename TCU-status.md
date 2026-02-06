@@ -10,7 +10,7 @@ Let's agree that control is applicable only if you are toggling transmission sol
 
 ### CANbus gateway
 
-Let's agree that a separate device which sits between ECU and TCU is a CANbus gateway. 
+Let's agree that a separate device which sits between ECU and TCU is a CANbus gateway.
 
 ### build-in CANbus integration
 
