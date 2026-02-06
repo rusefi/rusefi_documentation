@@ -43,3 +43,7 @@ Harness side 3-1437290-8
 ### Q: where is the source code?
 
 A: TCU gateway feature is not open source.
+
+### Q: why separate device? why not build it into Huge or Proteus?
+
+A: We do plan integration into firmware at a later point.
