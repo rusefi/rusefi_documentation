@@ -1,12 +1,26 @@
 # TCU Status
 
+## Terminology
+
 First we need to establish good terminology.
 
-There are older transmissions with an external TCU, which are mostly controlled by on/off solenoids. We have some early prototype code to handle these, but development is not active as transmission control is not a priority.
+### Transmission Control Module
+
+Let's agree that control is applicable only if you are toggling transmission solenoids. TCU could be external or internal to bellhousing, but either way - TCU is wired directly to solenoids and speed sensors. Ford, Toyota and Honda love integrating TCU into ECU, those should be called PCM (powertrain control module)
+
+### CANbus gateway
+
+Let's agree that a separate device which sits between ECU and TCU is a CANbus gateway
+
+### build-in CANbus integration
+
+Some ECUs can talk to TCUs over CANbus or legacy signal wires.
+
+## rusEFI has basic TCU logic
 
 [A Ford 4R70W](https://rusefi.com/forum/viewtopic.php?f=2&t=2744) has driven under rusEFI TCU control.
 
-We have code for GM 4Lxx transmissions, but zero real life testing.
+We have code for GM 4Lxx transmissions, but zero or very little real life testing. We also have an alternative Lua firmware for direct control of older transmissions.
 
 ![image](Images/TS/TunerStudio_TCU_menu.png)
 
