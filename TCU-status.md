@@ -6,15 +6,15 @@ First we need to establish good terminology.
 
 ### Transmission Control Module
 
-Let's agree that control is applicable only if you are toggling transmission solenoids. TCU could be external or internal to bellhousing, but either way - TCU is wired directly to solenoids and speed sensors. Ford, Toyota and Honda love integrating TCU into ECU, those should be called PCM (powertrain control module)
+Let's agree that control is applicable only if you are toggling transmission solenoids. TCU could be external or internal to bellhousing, but either way - TCU is wired directly to transmission solenoids. Ford, Toyota and Honda love combining TCU and ECU, those should be called PCM (powertrain control module)
 
 ### CANbus gateway
 
-Let's agree that a separate device which sits between ECU and TCU is a CANbus gateway
+Let's agree that a separate device which sits between ECU and TCU is a CANbus gateway. 
 
 ### build-in CANbus integration
 
-Some ECUs can talk to TCUs over CANbus or legacy signal wires.
+Some ECUs can talk to TCUs over CANbus or legacy signal wires. We plan to add direct CANbus TCU integration into new future Premium closed source rusEFI binaries at some point later.
 
 ## rusEFI has basic TCU logic
 
@@ -25,6 +25,8 @@ We have code for GM 4Lxx transmissions, but zero or very little real life testin
 ![image](Images/TS/TunerStudio_TCU_menu.png)
 
 ## Modern Stuff
+
+We have nano Gateway compatible with a couple of different modern transmissions.
 
 Modern transmissions use clutch-to-clutch control, which means that one clutch is engaging as another is disengaging.
 
