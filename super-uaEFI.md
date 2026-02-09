@@ -33,6 +33,7 @@ A sibling of [uaefi121](uaefi121) with STM32F7 for larger Lua scripts and motors
 * Matching USB cap sold separately
 * option to use on-board removable SD card
 * Looking for proper 8 cylinder sequential ignition? that's https://www.shop.rusefi.com/shop/p/rusefi-huge
+* free open source firmware - support us at https://www.patreon.com/rusefi
 
 ## Harness Connectors
 
