@@ -27,6 +27,7 @@ New to rusEFI? [Start here](Home).
 * Limited operation from 4-6v
 * Dual 5v sensor supplies, 150mA each, fully protected
 * Dual protected 12v external sensor supply
+* free open source firmware - support us at https://www.patreon.com/rusefi
 
 ## Legacy Revisions Software
 

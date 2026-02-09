@@ -36,6 +36,7 @@ A sibling of [uaEFI](uaEFI) with a metal enclosure available at [💲rusEFI stor
 * On-board non-removable SD card
 * Looking for proper 8 cylinder sequential ignition? that's https://www.shop.rusefi.com/shop/p/rusefi-huge
 * USB plus cap CAP-WADMLPC2 could be purchased separately
+* free open source firmware - support us at https://www.patreon.com/rusefi
 
 ![WhatsApp Image 2024-09-09 at 10 57 21_3ee4ad45](Images/uaefi_121.jpeg)
 

@@ -30,6 +30,7 @@ Our older, fully-featured, larger ECU available at [💲rusEFI store💲](https:
 * Electronic throttle body (drive by wire)
 * CAN connectivity on the plug
 * USB connectivity on the plug
+* free open source firmware - support us at https://www.patreon.com/rusefi
 
 ## microRusEFI User Documentation
 
