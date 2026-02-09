@@ -42,6 +42,7 @@ The most fully-featured ECU in this price category; available at [💲rusEFI Sto
 * On-board real time cr1220 clock battery (software broken https://github.com/rusefi/rusefi/issues/4556)
 * PRO comes with extra memory for Lua and more powerful stm32f7 MCU
 * PRO comes with second CAN bus populated
+* free open source firmware - support us at https://www.patreon.com/rusefi
 
 ## Technical Details
 
