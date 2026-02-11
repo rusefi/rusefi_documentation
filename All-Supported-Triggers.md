@@ -322,6 +322,8 @@ For example 4B11 4G15 4G69
 
 Same as 4G15
 
+Could match 4A90 as well!
+
 ![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_4G69.png)
 
 ### 6G72 Cam
