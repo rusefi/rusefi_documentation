@@ -43,5 +43,3 @@ __A:__ The black and grey connectors hook to the e38 harness. The blue connector
 A: use 'GM' menu to configure if you run with or without BCM
 
 <img width="493" height="148" alt="image" src="https://github.com/user-attachments/assets/0f7d1c61-c187-46a8-881c-abd4d6668d63" />
-
-
