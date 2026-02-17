@@ -38,3 +38,10 @@ https://github.com/rusefi/e38-e67-customer-support
 
 *__Q:__ The 3 connector ECU is E67, right?*  
 __A:__ The black and grey connectors hook to the e38 harness. The blue connector is auxiliary, with WBO and second CANbus, etc.
+
+### what about BCM
+A: use 'GM' menu to configure if you run with or without BCM
+
+<img width="493" height="148" alt="image" src="https://github.com/user-attachments/assets/0f7d1c61-c187-46a8-881c-abd4d6668d63" />
+
+
