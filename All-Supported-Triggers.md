@@ -56,6 +56,8 @@ Note that if your timing wheel was originally set up to run with a Ford EDIS-4 b
 
 If the trigger seems to spin backwards, change from Rising edge to Falling edge and vice versa in the trigger setup in TunerStudio. For more Info see [this forum thread](https://rusefi.com/forum/viewtopic.php?f=17&t=2977).
 
+Bosch loves this shape, tons of German and GM vehicles use it.
+
 ![x](Images/triggers/trigger_TT_VVT_BOSCH_QUICK_START.png)
 
 ## Honda
