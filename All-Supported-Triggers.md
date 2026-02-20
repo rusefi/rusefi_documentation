@@ -227,8 +227,9 @@ Chrysler NGC 6 cylinder
 
 ## VAG/VW/Audi
 
-### 1.8t 
-For cam trigger support check [Bosch Quick Start](#bosch-quick-start) if it is the '2 wide gaps 2 small gaps' cam trigger wheel, some earlier models instead use a cam trigger wheel with 1 missing tooth which can simply use single tooth trigger. 
+### 1.8t
+
+For cam trigger support check [Bosch Quick Start](#bosch-quick-start) if it is the '2 wide gaps 2 small gaps' cam trigger wheel, some earlier models instead use a cam trigger wheel with 1 missing tooth which can simply use single tooth trigger.
 
 ## Miscellaneous
 
