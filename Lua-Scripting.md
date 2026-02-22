@@ -202,6 +202,12 @@ This could be used for torque reduction.
 
 `yourTimer:getElapsedSeconds();` to get number of seconds since timer was reset
 
+#### getTsButtonCount
+
+`getTsButtonCount X` returns number of times specific Lua button was pressed in TS
+
+See ts-button-example.lua
+
 ### CAN bus
 
 #### `enableCanTx(isEnabled)`
