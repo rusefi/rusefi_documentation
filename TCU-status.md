@@ -26,7 +26,7 @@ We have code for GM 4Lxx transmissions, but zero or very little real life testin
 
 ## Modern Stuff
 
-We have nano Gateway compatible with a couple of different modern transmissions.
+We have purple Gateway compatible with a couple of different modern GM transmissions.
 
 Modern transmissions use clutch-to-clutch control, which means that one clutch is engaging as another is disengaging.
 
