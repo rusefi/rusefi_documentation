@@ -45,6 +45,12 @@ Does blue LED close to main processor blink? If nothing is blinking after power 
 
 What's the status of red LED close to main processor?
 
+## Corrupted Option Bytes
+
+It looks like firmware versions between October 2025 and January 2026 were fragile in case of less than ideal power supply during calibration updates or firmware updates. If "STM32 BOOTLOADER" does not appear in device manager it should be there, the only next step is ST-LINK restoration via TC-2030 programming cable.
+
+Some technical details at https://github.com/rusefi/rusefi/issues/8926
+
 ## FAQ
 
 *__Q:__ I got "DRIVER ERROR"*  
