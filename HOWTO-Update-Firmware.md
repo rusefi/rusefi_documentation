@@ -32,9 +32,14 @@ java -jar console/rusefi_console.jar reboot_dfu
 
 dfu-util -a 0 -D rusefi.dfu
 ```
+
+## DFU mode
+
+These days normal firmware update should be happening via more modern OpenBLT approach. We only use DFU in case of emergency. It shouldn't blink in DFU mode.
+
 ## Troubleshooting
 
-Does blue LED close to main processor blink? If nothing is blinking after power cycle, things are pretty broken. Next step is power cycling while hoding "PROG" button.
+Does blue LED close to main processor blink? If nothing is blinking after power cycle, things are pretty broken. Next step is power cycling while holding "PROG" button to enter STM32 DFU mode.
 
 What's the status of red LED close to main processor?
 
