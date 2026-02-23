@@ -32,6 +32,11 @@ java -jar console/rusefi_console.jar reboot_dfu
 
 dfu-util -a 0 -D rusefi.dfu
 ```
+## Troubleshooting
+
+Does blue LED close to main processor blink? If nothing is blinking after power cycle, things are pretty broken. Next step is power cycling while hoding "PROG" button.
+
+What's the status of red LED close to main processor?
 
 ## FAQ
 
