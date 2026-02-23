@@ -35,7 +35,9 @@ dfu-util -a 0 -D rusefi.dfu
 
 ## DFU mode
 
-These days normal firmware update should be happening via more modern OpenBLT approach. We only use DFU in case of emergency. It shouldn't blink in DFU mode.
+These days normal firmware update should be happening via more modern OpenBLT approach. We only use DFU in case of emergency. It shouldn't blink in DFU mode. When in DFU mode, we expect to see "STM32 BOOTLOADER" in device manager.
+
+<img width="228" height="47" alt="image" src="https://github.com/user-attachments/assets/1c3fb5cb-5eb7-4a7f-974e-6f82bd912f65" />
 
 ## Troubleshooting
 
