@@ -127,6 +127,12 @@ __A:__ See https://www.findchips.com/search/ISL9V3040D for stock at distributors
 *__Q:__ Can it control a stepper motor?*  
 __A:__ Yes, it's possible.
 
+New quicker way
+
+<img width="344" height="132" alt="image" src="https://github.com/user-attachments/assets/7abdfbc8-e369-40fe-9da8-0950f2caf4f7" />
+
+Older detailed way
+
 ![image](Images/TS/TunerStudio_idle_stepper.png)
 
 🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
