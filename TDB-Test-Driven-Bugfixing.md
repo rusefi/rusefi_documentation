@@ -2,7 +2,7 @@
 
 Here is what I believe to be *always* proper:
 
-Merge one: Coverage
+Merge one: Coverage. Obviously *green* coverage, clearly ASSERTING bad behavior - for instance https://github.com/rusefi/rusefi/commit/1fa0ca9a97af3f6504991ce8801da6292af64514
 
 Merge two: Fix, including *adjustment* of expectations in coverage. fact that coverage is *adjusted* is *proof* that we have *relevant* coverage
 
