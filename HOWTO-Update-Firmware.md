@@ -53,6 +53,10 @@ Some technical details at https://github.com/rusefi/rusefi/issues/8926
 
 ## FAQ
 
+### Q: Device is under Read Out Protection or Target is held under reset
+
+A: sometimes write operations glitch and lock the unit. You would need to enable DFU mode, and then run ``console\STM32_Programmer_CLI\bin\stm32-remove-read-out-protection.bat`` batch file, and then manually flash firmware in DFU mode.
+
 *__Q:__ I got "DRIVER ERROR"*  
 __A:__ In rusEFI console please hit "Device Manager". When ECU gets into DFU mode (blue LED stops blinking) you are expected to see a "STM32 Bootloader" device. If you see "STM device in DFU mode", please uninstall it and remove the old driver.
 
