@@ -15,7 +15,11 @@ The default analog output curve is 0..5V for AFR 8.5 to 18.0.
 ## FAQ
 
 *__Q:__ How do I flash custom firmware?*__
-__A:__ TC2030 is the most proper way to change firmware on these devices.
+__A:__ TC2030 is the most proper way to change firmware on these devices. RS232 uart is also available if you solder 2x2 header in the corner.
+
+### Q: Why is this no longer available for sale?
+
+A: We've paused sales for a bit, need to catch some breath with other projects!
 
 ## Changelog
 
