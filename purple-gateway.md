@@ -53,4 +53,3 @@ A: We do plan integration into firmware at a later point.
 rev B: DC-DC power supply
 
 rev A: it works!
-
