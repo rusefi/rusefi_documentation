@@ -1,5 +1,7 @@
 # Delayed Shut Off
 
+🔴 THIS IS AN UNTESTED PROPOSAL for https://github.com/rusefi/rusefi/issues/3631 🔴
+
 Even with direct control over ECU power, we can keep ourselves powered for a bit longer if control the main relay.
 
 ## Standard Wiring
