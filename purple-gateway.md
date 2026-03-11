@@ -42,6 +42,10 @@ Harness side 3-1437290-8
 
 ## FAQ
 
+### Q: Can this TCU control Ford 10 speed?
+
+A: that's not a TCU, see [TCU-status](TCU-status) for suggested terminology.
+
 ### Q: where is the source code?
 
 A: TCU gateway feature is not open source.
