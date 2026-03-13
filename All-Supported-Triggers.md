@@ -316,6 +316,8 @@ Cam
 
 ### 36-2-1-1
 
+Does not seem to work on v6 at the moment :( 6g72 and/or 6g75? 3000gt?
+
 ![x](Images/triggers/trigger_TT_36_2_1_1.png)
 
 ### 36-2-1
