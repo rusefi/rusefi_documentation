@@ -11,7 +11,7 @@ It does not include TunerStudio or MegaLogViewer.
 
 ## Common Boards
 
-Quick release links. For latest, visit specific board page.
+Quick release links. For latest, visit specific board page. [Release vs Snapshot](Release-Snapshot-Latest-firmware)
 
 [uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
 
