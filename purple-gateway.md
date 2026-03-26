@@ -7,6 +7,7 @@
 * Looks similar to [nano ECU](nano), but that's a totally different thing 😀
 * [GM 6L](GM-6L) beta version
 * GM 8L beta version
+* GM 10L work is happening as well
 * [8HP](8hp) coming soon!
 
 [firmware snapshot](https://rusefi.com/fw-private/rusefi_bundle_purple-gateway_obfuscated_public.zip)
