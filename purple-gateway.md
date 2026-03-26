@@ -1,6 +1,6 @@
 # Purple Gateway
 
-* [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/nano-tcu/)
+* [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/purple-gateway)
 * Available at the [rusEFI store](https://www.shop.rusefi.com/shop/p/purple-gateway)
 * The job of the gateway is to feed all needed data into the OEM TCU for it to function without the rest of the original electronics.
 * It's not a standalone TCU: The OEM TCU controls the transmission solenoids.
