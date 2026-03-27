@@ -35,6 +35,8 @@ A sibling of [uaefi121](uaefi121) with STM32F7 for larger Lua scripts and motors
 * Looking for proper 8 cylinder sequential ignition? that's https://www.shop.rusefi.com/shop/p/rusefi-huge
 * free open source firmware - support us at https://www.patreon.com/rusefi
 
+[Schematics rev b](Hardware-files/Hellen/super-uaefi-b-schematic.pdf)
+
 ## Harness Connectors
 
 |   |  TE |  
