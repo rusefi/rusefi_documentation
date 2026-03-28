@@ -73,6 +73,16 @@ BMW [5 Series E39](BMW-e39)  1995–May 2004
 
 [BMW N73](BMW-N73)
 
+## E-series
+
+[E90 Sedan data lines](OEM-Docs/Bmw/2011-E90-328i-Sedan-data-lines.pdf)
+
+## F-series
+
+[F10 Sedan data lines](OEM-Docs/Bmw/2014-F10-528i-Sedan-data-lines.pdf)
+
+[F10 Sedan AWD data lines](OEM-Docs/Bmw/2014-F10-528i-xDrive-Sedan-AWD-data-lines.pdf)
+
 ## TEVES MK60 Info
 
 The E46 switched from a different ABS partway through production (I think 2003). The earlier units don't work. I believe the M3 devices have programming  that is more suitable for track use, but that the non-M3 are still considered quite good (the differences are pretty qualitative and I haven't seen any  real back to back comparison). Some of the M3 units are also flashable with special race tunes including one that is fully programmable. So short answer  is you CAN use pretty much any Teves Mk60 from E46, but the M3 unit is often preferred. MINI's and some VAG cars of similar years also came with the Teves  
