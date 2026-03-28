@@ -69,8 +69,6 @@ BMW [5 Series E39](BMW-e39)  1995–May 2004
 
 [2003 Mini](Mini-Cooper-2003)
 
-[BMW N20](BMW-N20)
-
 [BMW N73](BMW-N73)
 
 ## E-series
@@ -78,6 +76,8 @@ BMW [5 Series E39](BMW-e39)  1995–May 2004
 [E90 Sedan data lines](OEM-Docs/Bmw/2011-E90-328i-Sedan-data-lines.pdf)
 
 ## F-series
+
+[BMW N20](BMW-N20)
 
 [F10 Sedan data lines](OEM-Docs/Bmw/2014-F10-528i-Sedan-data-lines.pdf)
 
