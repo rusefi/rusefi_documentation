@@ -56,3 +56,7 @@ __A:__ You *HAVE* to trust the "popular vehicles>Honda OBD" button. Confirm your
 ![image](Images/TS/TunerStudio_popular_vehicles.png)
 
 ![image](Images/TS/TunerStudio_triggers_2.png)
+
+### Q: but someone on the internet says to use custom 24 tooth skipped wheel?
+
+A: that someone is giving you bad advice
