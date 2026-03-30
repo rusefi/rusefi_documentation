@@ -7,8 +7,6 @@
 - Share your finished tune to give others a starting point for their tune.
 - Check out others' tunes
 
-[How To Set rusEFI Online Authentication Token](HOWTO-set-rusEFI-Online-authentication-token)
-
 [How To Upload Tune](HOWTO-upload-tune)
 
 [How To Upload Log](HOWTO-upload-log)

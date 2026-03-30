@@ -15,6 +15,5 @@
 - [Update Firmware](HOWTO-Update-Firmware)
 - [Upload a Tune](HOWTO-upload-tune)
 - [Upload a Log](HOWTO-upload-log)
-- [Set Up Online Authentication Tokens](HOWTO-set-rusEFI-Online-authentication-token)
 - [Set Up Launch Control](HOWTO-Launch-Control)
 - [Help rusEFI](HOWTO-help-rusEFI)
