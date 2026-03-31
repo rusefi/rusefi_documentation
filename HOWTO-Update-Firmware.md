@@ -14,7 +14,9 @@ Click the "Update Firmware" button once you've picked desired update mode.
 
 ## Linux
 
-The canonical way to update the firmware on Linux is with DFU.
+TODO one day we need to fix rusEFI console (unless it works as is?) for OpenBLT to be happily available.
+
+DFU is a bit dangerous. At some point we've decided not to include .DFU files into the bundles.
 
 You will need dfu-util:
 
