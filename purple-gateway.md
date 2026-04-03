@@ -57,6 +57,8 @@ A: We do plan integration into firmware at a later point.
 
 ## Changelog
 
+rev C: pin 21D is now +12 high side
+
 rev B: DC-DC power supply
 
 rev A: it works!
