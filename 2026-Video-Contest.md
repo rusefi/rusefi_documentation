@@ -11,6 +11,7 @@ We are putting up $12,000 in total prizes across two categories
 * Second price for each category $1k cash
 * 8 prices of $500 store credit
 * secret three judge panel
+* only new original content is eligible
 * submission deadline TBD date
 * prizes will be announced TBD+3 months date
 
