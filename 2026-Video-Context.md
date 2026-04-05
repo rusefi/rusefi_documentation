@@ -13,12 +13,16 @@ We are putting up $12,000 in total prizes across two categories
 ## Submission & Raw File Requirements
 
 * To be eligible for the cash prizes, all entries must be submitted via a permanent cloud storage link (Google Drive or Dropbox).
+* Feel free to publish on your channels!
+
 ## Technical Specifications
 
 Reel Category: Vertical (9:16), minimum 1080x1920.
 
 Long Category: Horizontal (16:9), minimum 1080p (4K strongly preferred).
 
+FB message/Discord/Instagram message to cloud storage to enter into contest!
+
 ## Usage Rights
 
-By submitting via Google Drive/Dropbox, you grant rusEFI LLC a non-exclusive, perpetual license to use, edit, and redistribute the raw and finished footage for marketing purposes (with creator credit given whenever possible).
+By submitting via Google Drive/Dropbox, you grant rusEFI LLC a non-exclusive, perpetual license to use, edit, and redistribute the raw and finished footage for marketing purposes (with creator credit given whenever possible). If music/effects/else is used, it must be royalty-free or licensed.
