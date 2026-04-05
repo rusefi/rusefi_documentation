@@ -1,6 +1,6 @@
 # 2026 Video Contest
 
-Let me announce the 2026 rusEFI Video Context!
+Let me announce the 2026 rusEFI Video Contest!
 
 We are putting up $12,000 in total prizes across two categories
 
