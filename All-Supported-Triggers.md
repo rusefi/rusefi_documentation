@@ -75,7 +75,7 @@ Similar but different from "Custom 12/0":
 
 ### Honda K 1/12 Crankshaft
 
-![x](Images/triggers/trigger_TT_HONDA_K_12_1.png)
+![x](Images/triggers/trigger_TT_HONDA_K_CRANK_12_1.png)
 
 ### Honda K 4+1
 
