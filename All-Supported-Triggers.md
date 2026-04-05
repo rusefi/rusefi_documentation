@@ -109,6 +109,17 @@ Also used on some Mitsubishi like 4g18 4g93
 
 ![Mazda Miata NB1](Images/triggers/trigger_TT_MAZDA_MIATA_NB1.png)
 
+### Mazda Miata NB2
+
+Crank
+
+![Mazda Miata NB1](Images/triggers/trigger_TT_MIATA_VVT.png)
+
+Cam
+
+![Mazda Miata NB1](Images/triggers/trigger_TT_VVT_MIATA_NB.png)
+
+
 ## Mazda Miata NC
 
 See 36-2-2-2
