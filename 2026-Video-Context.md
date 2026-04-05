@@ -12,7 +12,7 @@ We are putting up $12,000 in total prizes across two categories
 
 ## Submission & Raw File Requirements
 
-* To be eligible for the cash prizes, all entries must be submitted via a permanent cloud storage link (Google Drive or Dropbox).
+* To be eligible for the prizes, all entries must be submitted via a permanent cloud storage link (Google Drive or Dropbox).
 
 * Feel free to publish on your channels!
 
