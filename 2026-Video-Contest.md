@@ -1,4 +1,4 @@
-# 2026 Video Context
+# 2026 Video Contest
 
 Let me announce the 2026 rusEFI Video Context!
 
