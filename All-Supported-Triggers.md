@@ -140,6 +140,10 @@ TODO maybe make it a bit more straight, maybe it's good enough
 
 ![x](Images/triggers/trigger_TT_VVT_MAZDA_SKYACTIV.png)
 
+### Mazda L VVT
+
+![x](Images/triggers/trigger_TT_VVT_MAZDA_L.png)
+
 ## GM
 
 ### GM 7x
@@ -178,7 +182,17 @@ Also used on Renault 5
 
 ### Renix 66/2/2/2
 
+We suspect that TT_JEEPRENIX_66_2_2_2 is correct while this one here is broken VR polarity?
+
 ![x](Images/triggers/trigger_TT_RENIX_66_2_2_2.png)
+
+### JEEP RENIX 66/2/2/2
+
+![x](Images/triggers/trigger_TT_JEEPRENIX_66_2_2_2.png)
+
+### JEEP EVD 36/2/2
+
+![x](Images/triggers/trigger_TT_JEEP_EVD_36_2_2.png)
 
 ## Subaru
 
@@ -186,9 +200,15 @@ Also used on Renault 5
 
 ![Subaru 7+6](Images/triggers/trigger_TT_SUBARU_7_6.png)
 
+### Subaru 7+6 tooth only crankshaft sensor
+
+![Subaru 7+6 crank only](Images/triggers/trigger_TT_SUBARU_7_6_CRANK.png)
+
 ### 36/2/2/2
 
-Might also be used on some Daihatsu, Nissan and Mazda RX8/MZR/Miata NC
+Might also be used on some Daihatsu, Nissan and Mazda RX8/MZR/Miata NC.
+
+Also G13/G16/M13/M15 Suzuki.
 
 ![36/2/2](Images/triggers/trigger_TT_36_2_2_2.png)
 
@@ -199,6 +219,18 @@ Might also be used on some Daihatsu, Nissan and Mazda RX8/MZR/Miata NC
 ### Subaru SVX
 
 ![x](Images/triggers/trigger_TT_SUBARU_SVX.png)
+
+### Subaru SVX Crank
+
+![x](Images/triggers/trigger_TT_SUBARU_SVX_CRANK_1.png)
+
+### Subaru SVX Cam
+
+![x](Images/triggers/trigger_TT_SUBARU_SVX_CAM_VVT.png)
+
+### Subaru 7+6 Without 6
+
+![x](Images/triggers/trigger_TT_VVT_SUBARU_7_WITHOUT_6.png)
 
 ## Chrysler
 
@@ -305,6 +337,10 @@ Tuner studio allows up to 500 teeth with 500 missing - functional limits are not
 
 ![One Tooth](Images/triggers/trigger_TT_ONE.png)
 
+### Three Teeth
+
+![Three Teeth](Images/triggers/trigger_TT_THREE.png)
+
 ## Mitsubishi
 
 ### 3 tooth crank
@@ -380,13 +416,21 @@ VQ30
 
 ![Nissan](Images/triggers/trigger_TT_NISSAN_SR20VE.png)
 
+### Nissan K11
+
+![x](Images/triggers/trigger_TT_NISSAN_K11.png)
+
+### Nissan HR Cam IN
+
+![x](Images/triggers/trigger_TT_NISSAN_HR_CAM_IN.png)
+
 ## 60-2 with flipped wires
 
 For historical reasons we support wrongfully wired 60-2
 
 See also [Universal True 60/2](All-Supported-Triggers#602)
 
-![VW 60/2](Images/triggers/trigger_TT_60_2_VW.png)
+![x](Images/triggers/trigger_TT_60_2_WRONG_POLARITY.png)
 
 ### Toyota
 
@@ -410,15 +454,30 @@ This one is pretty special - it has extra setting for position. At the moment th
 
 ![TunerStudio Cam Mode Toyota 3 Tooth](Images/TS/TunerStudio_trigger_toyota3tooth.png){: style="width: 364px; height: 73px;" }
 
-![1+60/2](Images/triggers/trigger_TT_VVT_JZ.png)
 
 ## VVT 4-1
 
 ![x](Images/triggers/trigger_TT_VVT_TOYOTA_4_1.png)
 
+## VVT 3-0 "Toyota 3 Tooth" previously known as "VVT: 2JZ"
+
+![x](Images/triggers/trigger_TT_VVT_TOYOTA_3_TOOTH.png)
+
+## Toyota 3-0 UZ
+
+![x](Images/triggers/trigger_TT_TOYOTA_3_TOOTH_UZ.png)
+
 ## Skoda Favorit
 
 ![x](Images/triggers/trigger_TT_SKODA_FAVORIT.png)
+
+### Narrow Single Tooth
+
+![x](Images/triggers/trigger_TT_NARROW_SINGLE_TOOTH.png)
+
+### Half Moon
+
+![x](Images/triggers/trigger_TT_HALF_MOON.png)
 
 ## Ford PIP
 
