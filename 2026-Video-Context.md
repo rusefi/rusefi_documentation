@@ -1,0 +1,24 @@
+# 2026 Video Context
+
+Let me announce the 2026 rusEFI Video Context!
+
+We are putting up $12,000 in total prizes across two categories
+
+* Two categories: "Reel" category (12 to 16 seconds), and "Long" category (10 to 19 minutes)
+* First price for each category $3k cash
+* Second price for each category $1k cash
+* 8 prices of $500 store credit
+* TBD start date/TBD end date
+
+## Submission & Raw File Requirements
+
+* To be eligible for the cash prizes, all entries must be submitted via a permanent cloud storage link (Google Drive or Dropbox).
+## Technical Specifications
+
+Reel Category: Vertical (9:16), minimum 1080x1920.
+
+Long Category: Horizontal (16:9), minimum 1080p (4K strongly preferred).
+
+## Usage Rights
+
+By submitting via Google Drive/Dropbox, you grant rusEFI LLC a non-exclusive, perpetual license to use, edit, and redistribute the raw and finished footage for marketing purposes (with creator credit given whenever possible).
