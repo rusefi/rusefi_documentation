@@ -14,8 +14,8 @@ We are putting up $12,000 in total prizes across two categories
 * 4 prizes of $400 store credit for Reel category
 * secret three judge panel
 * only new original content is eligible
-* submission deadline TBD date
-* prizes will be announced TBD+3 months date
+* submission deadline May 21, 2026
+* prizes will be announced July 20, 2026
 
 ## Submission & Raw File Requirements
 
