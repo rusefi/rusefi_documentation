@@ -4,8 +4,8 @@ Let me announce the 2026 rusEFI Video Contest!
 
 We are putting up $12,000 in total prizes across two categories
 
-* Videos should feature successful rusEFI ECU project, either in general or focus on specific feature. 
-* Two categories: "Long" category (10 to 19 minutes), and "Reel" category (12 to 16 seconds) 
+* Videos should feature successful rusEFI ECU project, either in general or focus on specific feature.
+* Two categories: "Long" category (10 to 19 minutes), and "Reel" category (12 to 16 seconds)
 * First prize for Long category $4k cash
 * Second prize for Long category $1300 cash
 * 4 prizes of $600 store credit for Long category
