@@ -26,7 +26,7 @@ https://github.com/rusefi/e38-e67-customer-support
 * Second CAN bus on aux connector
 * (alpha version) direct OEM dash control without BCM
 * (alpha version) direct cruise control input without BCM
-* (alpha version) 6L80 integration support
+* (alpha version) 6L80 integration support - worked on Tahoe, unclear if works on sedans
 
 ## Connectors
 
