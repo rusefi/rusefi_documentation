@@ -58,6 +58,10 @@ __A:__ It ships with 1241434-1 header; see also [OEM 121 pin connectors](OEM-121
 
 ## Changelog
 
+### rev E
+
+* TC2030 jtag pads added
+
 ### rev D
 
 * on-board logging
