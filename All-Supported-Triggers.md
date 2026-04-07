@@ -31,32 +31,50 @@ The order of channels in the engine sniffer should match the order of channels o
 [VAG/VW/Audi](#vagvwaudi)
 
 [Miscellaneous](#miscellaneous)
+## TOOTHED_WHEEL_60_2
 
-## 60/2
+60/2
+
+### TOOTHED_WHEEL_60_2
 
 If you also have a cam sensor somewhere, see [VVT](VVT).
 
 ![60/2](Images/triggers/trigger_TT_TOOTHED_WHEEL_60_2.png)
 
-## 32/2
+## TOOTHED_WHEEL_32_2
+
+### TOOTHED_WHEEL_32_2
+
+32/2
 
 ![36/1](Images/triggers/trigger_TT_TOOTHED_WHEEL_32_2.png)
 
-## 36/1
+## TOOTHED_WHEEL_36_1
+
+### TOOTHED_WHEEL_36_1
+
+36/1
 
 ![36/1](Images/triggers/trigger_TT_TOOTHED_WHEEL_36_1.png)
 
 Note that if your timing wheel was originally set up to run with a Ford EDIS-4 based ignition, you need to set the Trigger->Trigger Angle Advance setting to 90 degrees, as the EDIS-4 wants the reference missing tooth at 90 degrees BTDC.
 
 ![TunerStudio Trigger Angle Advance](Images/TS/TunerStudio_trigger_advance.png){: style="width: 416px; height: 187px;" }
+## TOOTHED_WHEEL_36_2
 
-## 36/2
+### TOOTHED_WHEEL_36_2
+
+36/2
 
 ![x](Images/triggers/trigger_TT_TOOTHED_WHEEL_36_2.png)
 
-## Bosch Quick Start
+## VVT_BOSCH_QUICK_START
+
+Bosch Quick Start
 
 If the trigger seems to spin backwards, change from Rising edge to Falling edge and vice versa in the trigger setup in TunerStudio. For more Info see [this forum thread](https://rusefi.com/forum/viewtopic.php?f=17&t=2977).
+
+### VVT_BOSCH_QUICK_START
 
 Bosch loves this shape, tons of German and GM vehicles use it.
 
@@ -73,92 +91,131 @@ Similar but different from "Custom 12/0":
 
 [temporary link for Honda 12](https://github.com/rusefi/rusefi_documentation/issues/227)
 
-### Honda K 1/12 Crankshaft
+### HONDA_K_CRANK_12_1
+
+Honda K 1/12 Crankshaft
 
 ![x](Images/triggers/trigger_TT_HONDA_K_CRANK_12_1.png)
 
-### Honda K 4+1
+Honda K 4+1
+
+### HONDA_K_CAM_4_1
 
 Honda K Exhaust Camshaft
 
 ![x](Images/triggers/trigger_TT_HONDA_K_CAM_4_1.png)
 
-### Honda CBR600
+### HONDA_CBR_600
+
+Honda CBR600
 
 ![Honda CBR600](Images/triggers/trigger_TT_HONDA_CBR_600.png)
 
 ![image](Images/TS/TunerStudio_triggers.png)
 
-### Honda J30
+### HONDA_J30A2_24_1_1
+
+Honda J30
 
 ![x](Images/triggers/trigger_TT_HONDA_J30A2_24_1_1.png)
 
 ## Mazda
 
-### Mazda Protege SOHC
+### MAZDA_SOHC_4
+
+Mazda Protege SOHC
 
 ![Mazda Protege SOHC](Images/triggers/trigger_TT_MAZDA_SOHC_4.png)
 
-### Mazda Miata NA
+Mazda Miata NA
+
+### MAZDA_MIATA_NA
 
 Also used on some Mitsubishi like 4g18 4g93
 
 ![Mazda Miata NA](Images/triggers/trigger_TT_MAZDA_MIATA_NA.png)
 
-### Mazda Miata NB
+### MAZDA_MIATA_NB1
+
+Mazda Miata NB
 
 ![Mazda Miata NB1](Images/triggers/trigger_TT_MAZDA_MIATA_NB1.png)
 
-### Mazda Miata NB2
+Mazda Miata NB2
+
+### MIATA_VVT
 
 Crank
 
 ![Mazda Miata NB1](Images/triggers/trigger_TT_MIATA_VVT.png)
 
+### VVT_MIATA_NB
+
 Cam
 
 ![Mazda Miata NB1](Images/triggers/trigger_TT_VVT_MIATA_NB.png)
-
 
 ## Mazda Miata NC
 
 See 36-2-2-2
 
-### Mazda Protege 1993 DOHC
+### MAZDA_DOHC_1_4
+
+Mazda Protege 1993 DOHC
 
 ![x](Images/triggers/trigger_TT_MAZDA_DOHC_1_4.png)
 
-### Mazda 121/Ford Aspire
+### FORD_ASPIRE
+
+Mazda 121/Ford Aspire
 
 ![Ford Aspire](Images/triggers/trigger_TT_FORD_ASPIRE.png)
 
-### Mazda SKYACTIV
+Mazda SKYACTIV
 
 Also Miata NC etc
+
+### VVT_MAZDA_SKYACTIV
 
 TODO maybe make it a bit more straight, maybe it's good enough
 
 ![x](Images/triggers/trigger_TT_VVT_MAZDA_SKYACTIV.png)
 
-### Mazda L VVT
+### VVT_MAZDA_L
+
+Mazda L VVT
 
 ![x](Images/triggers/trigger_TT_VVT_MAZDA_L.png)
 
 ## GM
 
-### GM 7x
+### GM_7X
+
+GM 7x
 
 ![GM 7x](Images/triggers/trigger_TT_GM_7X.png)
 
-### GM LS 24x
+### GM_24x_3
+
+GM LS 24x
+
+### GM_24x_5
+
+GM_24x_3
+
+### GM_24x_3
 
 See https://github.com/rusefi/rusefi/pull/4140
 
 ![x](Images/triggers/trigger_TT_GM_24x_3.png)
 
+### GM_24x_5
+
 ![x](Images/triggers/trigger_TT_GM_24x_5.png)
 
-### GM 60/2/2/2
+GM 60/2/2/2
+
+### GM_60_2_2_2
 
 GM/Daewoo Distributor F8CV
 
@@ -166,103 +223,145 @@ GM/Daewoo Distributor F8CV
 
 ## Jeep
 
-### Jeep 18-2-2-2
+### JEEP_18_2_2_2
+
+Jeep 18-2-2-2
 
 ![Jeep 18-2-2-2](Images/triggers/trigger_TT_JEEP_18_2_2_2.png)
 
-### Jeep 4 cyl
+### JEEP_4_CYL
+
+Jeep 4 cyl
 
 ![Jeep 4-cyl](Images/triggers/trigger_TT_JEEP_4_CYL.png)
 
-### Renix 44/2/2
+Renix 44/2/2
 
-Also used on Renault 5  
+### RENIX_44_2_2
+
+Also used on Renault 5
 
 ![x](Images/triggers/trigger_TT_RENIX_44_2_2.png)
 
-### Renix 66/2/2/2
+Renix 66/2/2/2
+
+### RENIX_66_2_2_2
 
 We suspect that TT_JEEPRENIX_66_2_2_2 is correct while this one here is broken VR polarity?
 
 ![x](Images/triggers/trigger_TT_RENIX_66_2_2_2.png)
 
-### JEEP RENIX 66/2/2/2
+### JEEPRENIX_66_2_2_2
+
+JEEP RENIX 66/2/2/2
 
 ![x](Images/triggers/trigger_TT_JEEPRENIX_66_2_2_2.png)
 
-### JEEP EVD 36/2/2
+### JEEP_EVD_36_2_2
+
+JEEP EVD 36/2/2
 
 ![x](Images/triggers/trigger_TT_JEEP_EVD_36_2_2.png)
 
 ## Subaru
 
-### Subaru 7+6 tooth
+### SUBARU_7_6
+
+Subaru 7+6 tooth
 
 ![Subaru 7+6](Images/triggers/trigger_TT_SUBARU_7_6.png)
 
-### Subaru 7+6 tooth only crankshaft sensor
+### SUBARU_7_6_CRANK
+
+Subaru 7+6 tooth only crankshaft sensor
 
 ![Subaru 7+6 crank only](Images/triggers/trigger_TT_SUBARU_7_6_CRANK.png)
 
-### 36/2/2/2
+36/2/2/2
 
 Might also be used on some Daihatsu, Nissan and Mazda RX8/MZR/Miata NC.
+
+### 36_2_2_2
 
 Also G13/G16/M13/M15 Suzuki.
 
 ![36/2/2](Images/triggers/trigger_TT_36_2_2_2.png)
 
-### Subaru EZ30 variation of 36/2/2/2
+### SUBARU_EZ30
+
+Subaru EZ30 variation of 36/2/2/2
 
 ![!](Images/triggers/trigger_TT_SUBARU_EZ30.png)
 
-### Subaru SVX
+### SUBARU_SVX
+
+Subaru SVX
 
 ![x](Images/triggers/trigger_TT_SUBARU_SVX.png)
 
-### Subaru SVX Crank
+### SUBARU_SVX_CRANK_1
+
+Subaru SVX Crank
 
 ![x](Images/triggers/trigger_TT_SUBARU_SVX_CRANK_1.png)
 
-### Subaru SVX Cam
+### SUBARU_SVX_CAM_VVT
+
+Subaru SVX Cam
 
 ![x](Images/triggers/trigger_TT_SUBARU_SVX_CAM_VVT.png)
 
-### Subaru 7+6 Without 6
+### VVT_SUBARU_7_WITHOUT_6
+
+Subaru 7+6 Without 6
 
 ![x](Images/triggers/trigger_TT_VVT_SUBARU_7_WITHOUT_6.png)
 
 ## Chrysler
 
-### VVT
+### CHRYSLER_PHASER
+
+VVT
 
 ![x](Images/triggers/trigger_TT_CHRYSLER_PHASER.png)
 
-### Dodge Neon 1995
+### DODGE_NEON_1995
+
+Dodge Neon 1995
 
 ![Dodge Neon 1995](Images/triggers/trigger_TT_DODGE_NEON_1995.png)
 
-### Dodge Neon 1995 only crankshaft sensor
+### DODGE_NEON_1995_ONLY_CRANK
+
+Dodge Neon 1995 only crankshaft sensor
 
 ![Dodge Neon 1995 crank only](Images/triggers/trigger_TT_DODGE_NEON_1995_ONLY_CRANK.png)
 
-### Dodge Hemi and SRT4
+Dodge Hemi and SRT4
+
+### CHRYSLER_NGC_36_2_2
 
 *Maybe broken? Probably broken?*
 
 ![x](Images/triggers/trigger_TT_CHRYSLER_NGC_36_2_2.png)
 
-### Dodge Ram
+### DODGE_RAM
+
+Dodge Ram
 
 ![Dodge Ram](Images/triggers/trigger_TT_DODGE_RAM.png)
 
-### Dodge Neon 2003
+Dodge Neon 2003
+
+### DODGE_NEON_2003_CAM
 
 Chrysler NGC 4 cylinder
 
 ![Dodge Neon 2003](Images/triggers/trigger_TT_DODGE_NEON_2003_CAM.png)
 
-### Dodge Stratus
+Dodge Stratus
+
+### DODGE_STRATUS
 
 Chrysler NGC 6 cylinder
 
@@ -276,29 +375,39 @@ For cam trigger support check [Bosch Quick Start](#bosch-quick-start) if it is t
 
 ## Miscellaneous
 
-### 60 degree tooth
+60 degree tooth
+
+### 60DEG_TOOTH
 
 Sovek, Saruman ignition blind type
 
 ![x](Images/triggers/trigger_TT_60DEG_TOOTH.png)
 
-### Renault F
+Renault F
+
+### 60_2_2_F3R
 
 A bit of a 60/2/2
 
 ![x](Images/triggers/trigger_TT_60_2_2_F3R.png)
 
-### Tri-Tach
+Tri-Tach
+
+### TRI_TACH
 
 Old Audi 5 cylinder: does not work, no priority to make it work - that one needs custom handling
 
 ![x](Images/triggers/trigger_TT_TRI_TACH.png)
 
-### Suzuki G13B
+### SUZUKI_G13B
+
+Suzuki G13B
 
 ![x](Images/triggers/trigger_TT_SUZUKI_G13B.png)
 
-### Suzuki K6A
+### SUZUKI_K6A
+
+Suzuki K6A
 
 ![x](Images/triggers/trigger_TT_SUZUKI_K6A.png)
 
@@ -307,126 +416,190 @@ Old Audi 5 cylinder: does not work, no priority to make it work - that one needs
 A basic wheel - assumes equally spaced teeth with a number of missing teeth.
 Tuner studio allows up to 500 teeth with 500 missing - functional limits are not tested.
 
-### Ford Barra VVT
+### VVT_BARRA_3_PLUS_1
+
+Ford Barra VVT
 
 ![x](Images/triggers/trigger_TT_VVT_BARRA_3_PLUS_1.png)
 
-### Ford Coyote VVT
+### VVT_FORD_COYOTE
+
+Ford Coyote VVT
 
 ![x](Images/triggers/trigger_TT_VVT_FORD_COYOTE.png)
 
-### Daihatsu
+Daihatsu
+
+### DAIHATSU_3_CYL
 
 3 cylinder
 
 ![x](Images/triggers/trigger_TT_DAIHATSU_3_CYL.png)
 
+### DAIHATSU_4_CYL
+
 4 cylinder
 
 ![x](Images/triggers/trigger_TT_DAIHATSU_4_CYL.png)
 
-### Benelli Tre
+### BENELLI_TRE
+
+Benelli Tre
 
 ![x](Images/triggers/trigger_TT_BENELLI_TRE.png)
 
-### Ford ST170
+### FORD_ST170
+
+Ford ST170
 
 ![x](Images/triggers/trigger_TT_FORD_ST170.png)
 
-### One tooth
+### ONE
+
+One tooth
 
 ![One Tooth](Images/triggers/trigger_TT_ONE.png)
 
-### Three Teeth
+### THREE
+
+Three Teeth
 
 ![Three Teeth](Images/triggers/trigger_TT_THREE.png)
 
 ## Mitsubishi
 
-### 3 tooth crank
+### 3_TOOTH_CRANK
+
+3 tooth crank
 
 ![x](Images/triggers/trigger_TT_3_TOOTH_CRANK.png)
 
-### 4G93
+### MITSUBISHI
+
+4G93
 
 ![x](Images/triggers/trigger_TT_MITSUBISHI.png)
 
-### 4G63
+4G63
+
+### MITSU_4G63_CRANK
 
 Crank
 
 ![x](Images/triggers/trigger_TT_MITSU_4G63_CRANK.png)
 
+### MITSU_4G63_CAM
+
 Cam
 
 ![x](Images/triggers/trigger_TT_MITSU_4G63_CAM.png)
 
-### 36-2-1-1
+36-2-1-1
+
+### 36_2_1_1
 
 Does not seem to work on v6 at the moment :( 6g72 and/or 6g75? 3000gt?
 
 ![x](Images/triggers/trigger_TT_36_2_1_1.png)
 
-### 36-2-1
+36-2-1
+
+### 36_2_1
 
 For example 4B11 4G15 4G69
 
 ![x](Images/triggers/trigger_TT_36_2_1.png)
 
-### 3A92 VVT
+### VVT_MITSUBISHI_3A92
+
+3A92 VVT
 
 ![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_3A92.png)
 
-### 4G69 VVT
+4G69 VVT
 
 Same as 4G15
+
+### VVT_MITSUBISHI_4G69
 
 Could match 4A90 as well!
 
 ![x](Images/triggers/trigger_TT_VVT_MITSUBISHI_4G69.png)
 
-### 6G72 Cam
+### VVT_MITSU_6G72
+
+6G72 Cam
 
 ![x](Images/triggers/trigger_TT_VVT_MITSU_6G72.png)
 
 Use this cam trigger with special 3+0 symmetrical crank trigger.
 
 ![image](Images/TS/3000gt_trigger_offset_setup.png)
+## NISSAN_QR25
 
-## Nissan
+Nissan
+
+### NISSAN_QR25
 
 QR25 crank
+
 ![x](Images/triggers/trigger_TT_NISSAN_QR25.png)
 
+### NISSAN_HR
+
 HR crank
+
 ![x](Images/triggers/trigger_TT_NISSAN_HR.png)
 
+### NISSAN_MR18_CAM_VVT
+
 QR/MR cam
+
 ![x](Images/triggers/trigger_TT_NISSAN_MR18_CAM_VVT.png)
 
+### NISSAN_VQ35
+
 VQ35 crank
+
 ![x](Images/triggers/trigger_TT_NISSAN_VQ35.png)
+
+### VVT_NISSAN_VQ35
+
 VQ cam
+
 ![x](Images/triggers/trigger_TT_VVT_NISSAN_VQ35.png)
 
+### NISSAN_VQ30
+
 VQ30
+
 ![x](Images/triggers/trigger_TT_NISSAN_VQ30.png)
+
+### NISSAN_SR20VE
 
 360 slot trigger is too weird, no plans to support it.
 
 ![Nissan](Images/triggers/trigger_TT_NISSAN_SR20VE.png)
 
-### Nissan K11
+### NISSAN_K11
+
+Nissan K11
 
 ![x](Images/triggers/trigger_TT_NISSAN_K11.png)
 
-### Nissan HR Cam IN
+### NISSAN_HR_CAM_IN
+
+Nissan HR Cam IN
 
 ![x](Images/triggers/trigger_TT_NISSAN_HR_CAM_IN.png)
 
-## 60-2 with flipped wires
+## 60_2_WRONG_POLARITY
+
+60-2 with flipped wires
 
 For historical reasons we support wrongfully wired 60-2
+
+### 60_2_WRONG_POLARITY
 
 See also [Universal True 60/2](All-Supported-Triggers#602)
 
@@ -436,9 +609,11 @@ See also [Universal True 60/2](All-Supported-Triggers#602)
 
 ## Toyota 2JZ
 
-### 1/12 version
+1/12 version
 
 2JZ would use global trigger offset 65
+
+### 12_TOOTH_CRANK
 
 Use this with "Single Tooth First Half" VVT mode for cam input
 
@@ -453,33 +628,55 @@ Use skipped wheel for crank and "Toyota 3 Tooth" previously known as "VVT: 2JZ" 
 This one is pretty special - it has extra setting for position. At the moment this one is only adjustable on first cam.
 
 ![TunerStudio Cam Mode Toyota 3 Tooth](Images/TS/TunerStudio_trigger_toyota3tooth.png){: style="width: 364px; height: 73px;" }
+## VVT_TOYOTA_4_1
 
+### VVT_TOYOTA_4_1
 
-## VVT 4-1
+VVT 4-1
 
 ![x](Images/triggers/trigger_TT_VVT_TOYOTA_4_1.png)
 
-## VVT 3-0 "Toyota 3 Tooth" previously known as "VVT: 2JZ"
+## VVT_TOYOTA_3_TOOTH
+
+### VVT_TOYOTA_3_TOOTH
+
+VVT 3-0 "Toyota 3 Tooth" previously known as "VVT: 2JZ"
 
 ![x](Images/triggers/trigger_TT_VVT_TOYOTA_3_TOOTH.png)
 
-## Toyota 3-0 UZ
+## TOYOTA_3_TOOTH_UZ
+
+### TOYOTA_3_TOOTH_UZ
+
+Toyota 3-0 UZ
 
 ![x](Images/triggers/trigger_TT_TOYOTA_3_TOOTH_UZ.png)
 
-## Skoda Favorit
+## SKODA_FAVORIT
+
+### SKODA_FAVORIT
+
+Skoda Favorit
 
 ![x](Images/triggers/trigger_TT_SKODA_FAVORIT.png)
 
-### Narrow Single Tooth
+### NARROW_SINGLE_TOOTH
+
+Narrow Single Tooth
 
 ![x](Images/triggers/trigger_TT_NARROW_SINGLE_TOOTH.png)
 
-### Half Moon
+### HALF_MOON
+
+Half Moon
 
 ![x](Images/triggers/trigger_TT_HALF_MOON.png)
 
-## Ford PIP
+## FORD_TFI_PIP
+
+### FORD_TFI_PIP
+
+Ford PIP
 
 ![Ford PIP](Images/triggers/trigger_TT_FORD_TFI_PIP.png)
 
