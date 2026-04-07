@@ -31,6 +31,183 @@ The order of channels in the engine sniffer should match the order of channels o
 [VAG/VW/Audi](#vagvwaudi)
 
 [Miscellaneous](#miscellaneous)
+
+
+# Trigger Wheels Report
+
+Total triggers: 96
+
+## tooth count 1
+- [HALF_MOON](#HALF_MOON)
+- [NARROW_SINGLE_TOOTH](#NARROW_SINGLE_TOOTH)
+
+## tooth count 2
+- [60DEG_TOOTH](#60DEG_TOOTH)
+- [FIAT_IAW_P8](#FIAT_IAW_P8)
+- [MITSU_4G63_CAM](#MITSU_4G63_CAM)
+- [ONE_PLUS_ONE](#ONE_PLUS_ONE)
+
+## tooth count 3
+- [HONDA_CBR_600](#HONDA_CBR_600)
+- [TOYOTA_3_TOOTH_UZ](#TOYOTA_3_TOOTH_UZ)
+- [VVT_MIATA_NB](#VVT_MIATA_NB)
+- [VVT_TOYOTA_3_TOOTH](#VVT_TOYOTA_3_TOOTH)
+- [VVT_TOYOTA_4_1](#VVT_TOYOTA_4_1)
+
+## tooth count 4
+- [DAIHATSU_3_CYL](#DAIHATSU_3_CYL)
+- [MAZDA_SOHC_4](#MAZDA_SOHC_4)
+- [MITSU_4G63_CRANK](#MITSU_4G63_CRANK)
+- [NISSAN_HR_CAM_IN](#NISSAN_HR_CAM_IN)
+- [NISSAN_SR20VE](#NISSAN_SR20VE)
+- [VVT_BARRA_3_PLUS_1](#VVT_BARRA_3_PLUS_1)
+- [VVT_BOSCH_QUICK_START](#VVT_BOSCH_QUICK_START)
+- [VVT_MITSU_6G72](#VVT_MITSU_6G72)
+
+## tooth count 5
+- [3_1_CAM](#3_1_CAM)
+- [DAIHATSU_4_CYL](#DAIHATSU_4_CYL)
+- [FORD_ASPIRE](#FORD_ASPIRE)
+- [FORD_ST170](#FORD_ST170)
+- [HONDA_K_CAM_4_1](#HONDA_K_CAM_4_1)
+- [MAZDA_DOHC_1_4](#MAZDA_DOHC_1_4)
+- [NISSAN_K11](#NISSAN_K11)
+- [SUZUKI_G13B](#SUZUKI_G13B)
+
+## tooth count 6
+- [3_TOOTH_CRANK](#3_TOOTH_CRANK)
+- [MAZDA_MIATA_NA](#MAZDA_MIATA_NA)
+- [MERCEDES_2_SEGMENT](#MERCEDES_2_SEGMENT)
+- [SKODA_FAVORIT](#SKODA_FAVORIT)
+- [VVT_MAZDA_L](#VVT_MAZDA_L)
+- [VVT_MAZDA_SKYACTIV](#VVT_MAZDA_SKYACTIV)
+- [VVT_MITSUBISHI_4G69](#VVT_MITSUBISHI_4G69)
+- [VVT_NISSAN_VQ35](#VVT_NISSAN_VQ35)
+
+## tooth count 7
+- [DODGE_NEON_2003_CAM](#DODGE_NEON_2003_CAM)
+- [VVT_FORD_COYOTE](#VVT_FORD_COYOTE)
+- [VVT_SUBARU_7_WITHOUT_6](#VVT_SUBARU_7_WITHOUT_6)
+
+## tooth count 8
+- [FORD_TFI_PIP](#FORD_TFI_PIP)
+- [MIATA_VVT](#MIATA_VVT)
+- [VVT_MITSUBISHI_3A92](#VVT_MITSUBISHI_3A92)
+
+## tooth count 10
+- [NISSAN_MR18_CAM_VVT](#NISSAN_MR18_CAM_VVT)
+- [SUZUKI_K6A](#SUZUKI_K6A)
+
+## tooth count 11
+- [MAZDA_MIATA_VVT_TEST](#MAZDA_MIATA_VVT_TEST)
+- [SUZUKI_G16B](#SUZUKI_G16B)
+
+## tooth count 12
+- [6_TOOTH_CRANK](#6_TOOTH_CRANK)
+- [DODGE_STRATUS](#DODGE_STRATUS)
+- [SUBARU_7_6_CRANK](#SUBARU_7_6_CRANK)
+
+## tooth count 14
+- [GM_7X](#GM_7X)
+
+## tooth count 15
+- [CHRYSLER_PHASER](#CHRYSLER_PHASER)
+
+## tooth count 16
+- [DODGE_NEON_1995](#DODGE_NEON_1995)
+
+## tooth count 17
+- [DODGE_RAM](#DODGE_RAM)
+- [JEEP_4_CYL](#JEEP_4_CYL)
+
+## tooth count 19
+- [SUBARU_7_6](#SUBARU_7_6)
+
+## tooth count 21
+- [ARCTIC_CAT](#ARCTIC_CAT)
+- [NISSAN_VQ30](#NISSAN_VQ30)
+
+## tooth count 24
+- [12_TOOTH_CRANK](#12_TOOTH_CRANK)
+
+## tooth count 25
+- [JEEP_18_2_2_2](#JEEP_18_2_2_2)
+- [SUBARU_SVX](#SUBARU_SVX)
+- [SUBARU_SVX_CAM_VVT](#SUBARU_SVX_CAM_VVT)
+- [SUBARU_SVX_CRANK_1](#SUBARU_SVX_CRANK_1)
+
+## tooth count 26
+- [HONDA_K_CRANK_12_1](#HONDA_K_CRANK_12_1)
+
+## tooth count 30
+- [TOOTHED_WHEEL_32_2](#TOOTHED_WHEEL_32_2)
+
+## tooth count 32
+- [CHRYSLER_NGC_36_2_2](#CHRYSLER_NGC_36_2_2)
+
+## tooth count 34
+- [TOOTHED_WHEEL_36_2](#TOOTHED_WHEEL_36_2)
+
+## tooth count 35
+- [TOOTHED_WHEEL_36_1](#TOOTHED_WHEEL_36_1)
+
+## tooth count 36
+- [KAWA_KX450F](#KAWA_KX450F)
+
+## tooth count 44
+- [BENELLI_TRE](#BENELLI_TRE)
+- [HONDA_J30A2_24_1_1](#HONDA_J30A2_24_1_1)
+
+## tooth count 48
+- [GM_24x_3](#GM_24x_3)
+- [GM_24x_5](#GM_24x_5)
+
+## tooth count 55
+- [GM_60_2_2_2](#GM_60_2_2_2)
+
+## tooth count 58
+- [TOOTHED_WHEEL_60_2](#TOOTHED_WHEEL_60_2)
+
+## tooth count 60
+- [36_2_2_2](#36_2_2_2)
+- [NISSAN_VQ35](#NISSAN_VQ35)
+- [SUBARU_EZ30](#SUBARU_EZ30)
+
+## tooth count 62
+- [DODGE_NEON_2003_CRANK](#DODGE_NEON_2003_CRANK)
+
+## tooth count 64
+- [36_2_1_1](#36_2_1_1)
+- [JEEP_EVD_36_2_2](#JEEP_EVD_36_2_2)
+- [NISSAN_HR](#NISSAN_HR)
+- [NISSAN_MR18_CRANK](#NISSAN_MR18_CRANK)
+- [NISSAN_QR25](#NISSAN_QR25)
+- [ROVER_K](#ROVER_K)
+
+## tooth count 66
+- [36_2_1](#36_2_1)
+
+## tooth count 71
+- [2JZ_3_34_SIMULATION_ONLY](#2JZ_3_34_SIMULATION_ONLY)
+
+## tooth count 84
+- [RENIX_44_2_2](#RENIX_44_2_2)
+
+## tooth count 116
+- [60_2_2_F3R](#60_2_2_F3R)
+- [60_2_WRONG_POLARITY](#60_2_WRONG_POLARITY)
+
+## tooth count 120
+- [JEEPRENIX_66_2_2_2](#JEEPRENIX_66_2_2_2)
+
+## tooth count 126
+- [RENIX_66_2_2_2](#RENIX_66_2_2_2)
+
+## tooth count 272
+- [TRI_TACH](#TRI_TACH)
+
+# Actual wheels
+
 ## TOOTHED_WHEEL_60_2
 
 60/2
@@ -60,6 +237,7 @@ If you also have a cam sensor somewhere, see [VVT](VVT).
 Note that if your timing wheel was originally set up to run with a Ford EDIS-4 based ignition, you need to set the Trigger->Trigger Angle Advance setting to 90 degrees, as the EDIS-4 wants the reference missing tooth at 90 degrees BTDC.
 
 ![TunerStudio Trigger Angle Advance](Images/TS/TunerStudio_trigger_advance.png){: style="width: 416px; height: 187px;" }
+
 ## TOOTHED_WHEEL_36_2
 
 ### TOOTHED_WHEEL_36_2
@@ -438,7 +616,7 @@ Daihatsu
 
 ### DAIHATSU_4_CYL
 
-4 cylinder
+4 cylinder, maybe Suzuki M16a as well?
 
 ![x](Images/triggers/trigger_TT_DAIHATSU_4_CYL.png)
 
@@ -535,6 +713,7 @@ Could match 4A90 as well!
 Use this cam trigger with special 3+0 symmetrical crank trigger.
 
 ![image](Images/TS/3000gt_trigger_offset_setup.png)
+
 ## NISSAN_QR25
 
 Nissan
@@ -628,6 +807,7 @@ Use skipped wheel for crank and "Toyota 3 Tooth" previously known as "VVT: 2JZ" 
 This one is pretty special - it has extra setting for position. At the moment this one is only adjustable on first cam.
 
 ![TunerStudio Cam Mode Toyota 3 Tooth](Images/TS/TunerStudio_trigger_toyota3tooth.png){: style="width: 364px; height: 73px;" }
+
 ## VVT_TOYOTA_4_1
 
 ### VVT_TOYOTA_4_1
