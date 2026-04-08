@@ -23,4 +23,11 @@ jobs:
 
     - name: Lint
       run: |
-        bash ./wiki-tools/lint.sh
+        bash ./wiki-tools/lint.sh 2>&1 | tee lint-report.txt
+
+    - name: Upload lint report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: lint-report
+        path: lint-report.txt
