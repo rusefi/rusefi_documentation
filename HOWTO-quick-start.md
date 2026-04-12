@@ -49,6 +49,8 @@ Follow the [Get Running With a Plug-and-Play ECU guide](HOWTO-Get-Running-PnP).
 
 ## Logging
 
+🚨 It's impossible to overstate the importance OF USING CORRECT TYPE OF LOG FILE 💥
+
 Any troubleshooting begins with logs. One of rusEFI's powers is the amount of data points available for logging!
 
 Shaky videos will not do. Even high-resolution screenshots wil not do—*it has to be a proper log file*.
