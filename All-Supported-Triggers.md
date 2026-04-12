@@ -76,6 +76,7 @@ Total triggers: 96
 
 ## tooth count 6
 - [3_TOOTH_CRANK](#3_TOOTH_CRANK)
+- [FORD_TFI_PIP_6](#FORD_TFI_PIP_6)
 - [MAZDA_MIATA_NA](#MAZDA_MIATA_NA)
 - [MERCEDES_2_SEGMENT](#MERCEDES_2_SEGMENT)
 - [SKODA_FAVORIT](#SKODA_FAVORIT)
@@ -90,7 +91,7 @@ Total triggers: 96
 - [VVT_SUBARU_7_WITHOUT_6](#VVT_SUBARU_7_WITHOUT_6)
 
 ## tooth count 8
-- [FORD_TFI_PIP](#FORD_TFI_PIP)
+- [FORD_TFI_PIP_8](#FORD_TFI_PIP_8)
 - [MIATA_VVT](#MIATA_VVT)
 - [VVT_MITSUBISHI_3A92](#VVT_MITSUBISHI_3A92)
 
@@ -852,13 +853,21 @@ Half Moon
 
 ![x](Images/triggers/trigger_TT_HALF_MOON.png)
 
-## FORD_TFI_PIP
+## FORD_TFI_PIP_6
 
-### FORD_TFI_PIP
+### FORD_TFI_PIP_6
 
-Ford PIP
+Ford PIP 6 cylinders
 
-![Ford PIP](Images/triggers/trigger_TT_FORD_TFI_PIP.png)
+![Ford PIP](Images/triggers/trigger_TT_FORD_TFI_PIP_6.png)
+
+## FORD_TFI_PIP_8
+
+### FORD_TFI_PIP_8
+
+Ford PIP 8 cylinders
+
+![Ford PIP](Images/triggers/trigger_TT_FORD_TFI_PIP_8.png)
 
 ## Unknown trigger type
 
