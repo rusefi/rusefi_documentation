@@ -11,10 +11,12 @@ GDI4 is an injector/HPFP driver, not a self-contained ECU. You would use it with
 * 4 GDI injectors with peak-hold control using NXP PT2001 chip
 * Aux analog inputs
 * CAN connectivity
-* Max boost voltage 72V
+* Max boost voltage 72V, default 65V
 * Max peak 15A or a bit more
 * Max hold 5A or a bit more
 * Metal case
+* standalone operation: does not require rusEFI
+* Configurable via CANbus
 * Open and short circuit software PENDING
 * Built around [MC33PT2001](https://www.nxp.com/docs/en/data-sheet/MC33PT2001_SDS.pdf) chip
 * TC2030 and 0.1" SWD pinout
