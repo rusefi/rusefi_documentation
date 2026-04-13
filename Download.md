@@ -17,6 +17,8 @@ Quick release links. For latest, visit specific board page. [Release vs Snapshot
 
 [uaEFI121](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip)
 
+[super-uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_super-uaefi.zip)
+
 [microRusEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
 
 [Proteus](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
@@ -24,6 +26,8 @@ Quick release links. For latest, visit specific board page. [Release vs Snapshot
 See specific board page for [other universal boards](Hardware)
 
 ## Hellen Family Boards
+
+[Honda OBD1](uaEFI-Honda-OBD1)
 
 [Honda K](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen-honda-k.zip)
 
