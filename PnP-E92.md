@@ -1,5 +1,11 @@
 # Plug and Play for v8 Ecotec3
 
+🚨harness Plug and Play, not complete original vehicle CANbus integration🚨
+
+💥this unit is a prototype, use at your own risk with caution💥
+
+GDI overall is low priority for rusEFI LLC, we still do not see the market. Realistically the target unit of this unit as of April 2026 is professionals looking for a qty 50+ business to busiess collaboration, not retail users.
+
 [firmware](https://rusEFI.com/fw-private/rusefi_bundle_pnp-e92_obfuscated_public.zip)
 
 [available at the store](https://www.shop.rusefi.com/shop/p/e92x)
