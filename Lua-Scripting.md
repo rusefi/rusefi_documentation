@@ -252,6 +252,8 @@ function onCanRx(bus, id, dlc, data)
 end
 ```
 
+By the way see [luaCanRxWorkaround](luaCanRxWorkaround) for high performance RX trick.
+
 ### SENT protocol
 
 #### `getSentValue(index)`
