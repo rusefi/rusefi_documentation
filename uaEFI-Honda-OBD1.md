@@ -1,5 +1,7 @@
 # Ultra Affordable EFI for Honda OBD1
 
+😱😱😱😱 SOMETHING IS WEIRD: while some percentage of OBD1 users report happy results even with OEM distrubutor, there is also clearly a significant portion of users who are strugging with OBD1 signal from OEM distributor. Unfortunatelly we still do not know the root cause of this issue 😱😱😱😱
+
 🔴 Community support ONLY 🔴 [Support Statement](https://github.com/rusefi/rusefi/wiki/Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 
 Available at the [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/rusefi-for-obd1)
