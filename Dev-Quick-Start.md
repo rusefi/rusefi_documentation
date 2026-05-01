@@ -36,6 +36,11 @@ Make sure that your fork has Actions enabled:
 
 ![image](Images/GH_actions_enable.png)
 
+## Pull Requests basics
+
+* rebase good, merge commit bad. We would have loved to prohibit PRs with merge commits if only we know a way
+* PRs based on your fork's master branch do not work here
+
 ## Pull Requests should be atomic
 
 Please create small, feature-specific branches on your fork. Submit one PR per fix or feature.
