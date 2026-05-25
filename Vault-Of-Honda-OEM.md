@@ -4,6 +4,8 @@
 
 Civic EG gen5 1992-1995
 
+Our PnP offering [uaEFI-Honda-OBD1](uaEFI-Honda-OBD1)
+
 [OBD1 connector part number](OEM-connectors#64-pin)
 
 [1993 Honda Prelude](Honda-Prelude-1993)
