@@ -14,7 +14,7 @@ Hellen? сложнее, надо писать в [чатик](https://chat.whats
 
 ## uaefi121
 
-https://www.google.com/search?q=250+usd+to+rub
+https://www.google.com/search?q=275+usd+to+rub
 
 ## mega144
 
