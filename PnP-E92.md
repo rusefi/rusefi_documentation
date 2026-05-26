@@ -4,7 +4,7 @@
 
 💥this unit is a prototype, use at your own risk with caution💥
 
-GDI overall is low priority for rusEFI LLC, we still do not see the market. Realistically the target unit of this unit as of April 2026 is professionals looking for a qty 50+ business to busiess collaboration, not retail users.
+GDI overall is low priority for rusEFI LLC, we still do not see the market. Realistically the target audience of this unit as of April 2026 is professionals looking for a qty 50+ business to busiess collaboration, not retail users.
 
 [firmware](https://rusEFI.com/fw-private/rusefi_bundle_pnp-e92_obfuscated_public.zip)
 
