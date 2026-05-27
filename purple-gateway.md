@@ -55,6 +55,10 @@ A: TCU gateway feature is not open source.
 
 A: We do plan integration into firmware at a later point.
 
+### Q: Documentation is bad
+
+A: yes, documentation is bad. TCU gateway is maybe 3rd or 4th priority for us right now. Feel free to invest dollars for this to move forward faster!
+
 ## Changelog
 
 rev C: pin 21D is now +12 high side
