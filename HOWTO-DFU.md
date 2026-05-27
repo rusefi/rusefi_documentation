@@ -29,3 +29,7 @@ __A:__ rusEFI console firmware functionality currently runs on Windows only.
 
 *__Q:__ Do you have any ST-Link provisions?*  
 __A:__ Some boards have Tag-Connect-TC2030 upwards three of those! Some boards have an unofficial (?) ST-Link V2 pinout. Both are intended for software developers while debugging issues, those are not intended for firmware update/recovery.
+
+### Corrupted option bytes?
+
+A: See https://github.com/rusefi/rusefi/blob/master/firmware/hw_layer/ports/stm32/stm32f4/option-bytes-f407.json https://github.com/rusefi/rusefi/blob/master/firmware/hw_layer/ports/stm32/stm32f4/option-bytes-f427.json https://github.com/rusefi/rusefi/blob/master/firmware/hw_layer/ports/stm32/stm32f7/option-bytes-f767.json reference files, make sure to match your MCU type
