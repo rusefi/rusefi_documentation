@@ -219,7 +219,7 @@ Use enableCanTx(false) to suppress CAN TX
 #### `txCan(bus, ID, isExt, payload)`
 
 - Parameters
-  - bus: hardware CAN bus index, only '1' on most rusEFI boards, '1' or '2' on Proteus
+  - bus: hardware CAN bus index, only '1' on most rusEFI boards, '1' or '2' on Proteus, '1-2-3' on uaCanBridge and purple gateway
   - isExt: 0 for 11 bit mode
 
 #### `canRxAdd(id)`
