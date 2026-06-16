@@ -1,6 +1,7 @@
 # combo10
 
 * 10" touch screen
+* we have Windows Dash simulator if you want to give it a try!
 
 ## Firmware
 
