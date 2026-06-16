@@ -4,7 +4,7 @@
 
 ## Firmware
 
-https://github.com/rusefi/combo10-releases
+https://github.com/rusefi/combo10-releases/releases
 
 ## troubleshooting
 
