@@ -1,6 +1,8 @@
 # combo10
 
 * 10" touch screen
+* initial tune wizard
+* limited tuning support
 * we have Windows Dash simulator if you want to give it a try!
 
 ## Firmware
