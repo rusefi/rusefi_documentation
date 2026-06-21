@@ -43,6 +43,10 @@ Harness side 3-1437290-8
 
 ## FAQ
 
+### Q: Is it ready?
+
+A: not ready as on June 2026. BMW is way ahead of dodge.
+
 ### Q: Can this TCU control Ford 10 speed?
 
 A: that's not a TCU, see [TCU-status](TCU-status) for suggested terminology.
@@ -53,7 +57,7 @@ A: TCU gateway feature is not open source.
 
 ### Q: why separate device? why not build it into Huge or Proteus?
 
-A: We do plan integration into firmware at a later point.
+A: We do plan integration into firmware at a later point. For now it's two devices since one is open source and the other is not.
 
 ### Q: Documentation is bad
 
