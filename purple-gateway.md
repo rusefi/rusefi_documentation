@@ -57,7 +57,7 @@ A: TCU gateway feature is not open source.
 
 ### Q: why separate device? why not build it into Huge or Proteus?
 
-A: We do plan integration into firmware at a later point. For now it's two devices since one is open source and the other is not.
+A: We do plan integration into firmware at a later point. For now it's two devices since one is open source and the other is not. Also remember that BMW needs two CAN buses and we need to avoid CAN ID conflicts.
 
 ### Q: Documentation is bad
 
