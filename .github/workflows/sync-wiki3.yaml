@@ -5,7 +5,7 @@
 # the opposite merge is implemented as https://github.com/rusefi/rusefi/blob/master/.github/workflows/sync-wiki.yaml
 #
 
-name: Sync Wiki3
+name: Sync Wiki3 - generate static pages for wiki.rusefi.com
 
 on:
   workflow_dispatch:
