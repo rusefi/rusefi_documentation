@@ -75,7 +75,7 @@ BMW [5 Series E39](BMW-e39)  1995–May 2004
 
 [E90 Sedan data lines](OEM-Docs/Bmw/2011-E90-328i-Sedan-data-lines.pdf)
 
-[BMW M52](BMW-M52) ◀️ rusEFI test mule
+[BMW N52](BMW-N52) ◀️ rusEFI test mule
 
 ## F-series
 
