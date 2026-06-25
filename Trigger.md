@@ -14,8 +14,10 @@ We use engine sniffer and composite logger only for basic validation at the mome
 
 ### Troubleshooting with TS logs
 
-🟢 Max data rate 'normal' TS logs are usrful.
+🟢 Max data rate 'normal' TS logs are useful.
+
 🟢 TS tooth logger and build-in tooth logger files could be replayed by unit tests.
+
 🔴 Photos of oscilloscope not useful.
 
 ![image](Images/MLV_trigger_error.png)
