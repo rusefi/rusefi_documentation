@@ -1101,6 +1101,10 @@ BMW N20 N26 N55
 
 2017 Infinity Q50
 
+## 270 pin
+
+BMW G-series
+
 ## 306 pin
 
 90 + 126 + 90
