@@ -426,7 +426,7 @@ Renix 66/2/2/2
 
 ### RENIX_66_2_2_2
 
-We suspect that TT_JEEPRENIX_66_2_2_2 is correct while this one here is broken VR polarity?
+We suspect that JEEPRENIX_66_2_2_2 is correct while this one here is broken VR polarity?
 
 ![x](Images/triggers/trigger_TT_RENIX_66_2_2_2.png)
 
