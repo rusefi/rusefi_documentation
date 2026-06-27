@@ -12,7 +12,7 @@ See [Trigger Hardware](Trigger-Hardware) for some notes on the difference betwee
 
 We use engine sniffer and composite logger only for basic validation at the moment. Please use regular TS logs with a higher data rate if adjustments to trigger gaps are needed. The logs collected with "Data Logging" -> "Start Logging" are the only kind worth sharing.
 
-### Troubleshooting with TS logs
+### Troubleshooting with logs
 
 🟢 Max data rate 'normal' TS logs are useful.
 
