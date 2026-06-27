@@ -16,9 +16,13 @@ We use engine sniffer and composite logger only for basic validation at the mome
 
 🟢 Max data rate 'normal' TS logs are useful.
 
-🟢 TS tooth logger and build-in tooth logger files could be replayed by unit tests.
+🟢 Build-in SD card tooth logger files could be replayed by unit tests.
+
+🔴 TS tooth logger has limited use due to discretization loss of precision
 
 🔴 Photos of oscilloscope not useful.
+
+<img width="447" height="117" alt="image" src="https://github.com/user-attachments/assets/15530ff3-a1a1-4654-a236-2eca5ba9c60b" />
 
 ![image](Images/MLV_trigger_error.png)
 
