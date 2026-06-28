@@ -2,6 +2,8 @@
 
 https://rusefi.com/docs/pinouts/BMW-N52-146/
 
+https://rusefi.com/docs/pinouts/BMW-N52-adapter/
+
 BMW N52 (E90, E60, E82, Z4 platforms)
 
 Power: 215 hp (2.5L) to 260+ hp (3.0L).
