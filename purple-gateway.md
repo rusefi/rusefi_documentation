@@ -12,8 +12,6 @@
 
 [firmware snapshot](https://rusefi.com/fw-private/rusefi_bundle_purple-gateway_obfuscated_public.zip)
 
-[legacy tcu firmware snapshot](https://rusefi.com/fw-private/rusefi_bundle_nano-tcu-gateway_obfuscated_public.zip)
-
 ## 8hp
 
 ### Supported ECUs
