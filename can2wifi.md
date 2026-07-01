@@ -6,6 +6,8 @@
 
 The **rusEFI CANbus to WiFi adapter** is a compact wireless interface designed specifically to connect to **rusEFI Electronic Control Units (ECUs)** over Wi-Fi network. It enables seamless wireless tuning and logging by bridging data between a standard Wi-Fi connection and the ECU's CAN bus interface.
 
+Firmware releases are available at [Official GitHub Releases Page](https://github.com/rusefi/CAN-wifi-esp32-bridge/releases).
+
 ### Key Features
 
 * **Standard CAN Bus Support**: Optimized for standard CAN communication (non-CAN FD) running at a fixed **500K baud rate**.
@@ -37,6 +39,8 @@ The onboard **Blue LED** provides visual feedback regarding the current connecti
 * **Slow Blinking (75% Duty Cycle)**: The **ECU is detected and a software client is actively connected** and communicating.
 
 ## Initial Firmware Flashing
+
+[Official GitHub Releases Page](https://github.com/rusefi/CAN-wifi-esp32-bridge/releases).
 
 The primary method for flashing the Device for the first time is via a USB connection using a Windows PC. 
 
