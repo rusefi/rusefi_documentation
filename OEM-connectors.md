@@ -404,7 +404,7 @@ black 313872014 GM e38
 
 ## 76 pin
 
-[TE 3-178780-6](http://www.te.com/usa-en/product-3-178780-6.html)
+TE 174915-6 (178780-6 also but obsolete) [TE 3-178780-6](http://www.te.com/usa-en/product-3-178780-6.html)
 178780-6 AMP maybe also 174915-6
 
 Vehicle:Subaru SVX 1995
