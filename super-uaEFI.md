@@ -17,7 +17,7 @@ A sibling of [uaefi121](uaefi121) with STM32F7 for larger Lua scripts and motors
 * Sequential 8 cylinder injection
 * Sequential six injector outputs for more complex engines
 * Capable of driving 8 sequential injector outputs on simpler engines
-* Smart coils by default, expandable with on-board IGBT igniters to drive legacy coils
+* Smart coils by default, expandable with on-board IGBT igniters to drive legacy coils (many parts would work, we like ISL9V3040D3ST)
 * Six additional low side outputs
 * Dual on-board 4.9 WBO controller
 * Dual Drive By Wire electronic throttle body
