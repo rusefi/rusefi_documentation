@@ -1,8 +1,8 @@
 # N52
 
-https://rusefi.com/docs/pinouts/BMW-N52-146/
+[Vevicle pintout](https://rusefi.com/docs/pinouts/BMW-N52-146/)
 
-https://rusefi.com/docs/pinouts/BMW-N52-adapter/
+[Adapter board pinout](https://rusefi.com/docs/pinouts/BMW-N52-adapter/)
 
 [vehicle ECU diagram](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bmw/2011%20BMW%20328i%20n52.pdf)
 
