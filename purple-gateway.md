@@ -63,6 +63,8 @@ A: yes, documentation is bad. TCU gateway is maybe 3rd or 4th priority for us ri
 
 ## Changelog
 
+rev D: CANbus wake-up
+
 rev C: pin 21D is now +12 high side
 
 rev B: DC-DC power supply
