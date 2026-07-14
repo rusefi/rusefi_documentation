@@ -56,6 +56,10 @@ __A:__ Part of the context is the fact that uaefi121 is a sibling of the fully o
 *__Q:__ Which style of 121-pin connector does it use?*  
 __A:__ It ships with 1241434-1 header; see also [OEM 121 pin connectors](OEM-121-pin-connectors).
 
+### Q: does naked come with USB-B?
+
+A: No, naked comes without UB-20PMFP-LC7002
+
 ## Changelog
 
 ### rev E
