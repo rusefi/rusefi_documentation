@@ -4,7 +4,7 @@ Available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/mega144)
 
 🔴 Community support ONLY 🔴
 
-[Firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_mega144-f7.zip)
+[🧪Firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_mega144-f7.zip)
 
 A way to convert legacy Arduino hardware into rusEFI: mega2560 form factor board compatible with newer 3v MOSFETs
 

@@ -10,7 +10,7 @@ For EJ25 Turbo
 
 Forester XT
 
-[firmware Snapshot](https://rusefi.com/fw-private/rusefi_bundle_subaru2011_obfuscated_public.zip)
-[Release vs Snapshot](Release-Snapshot-Latest-firmware)
+[🧪firmware Snapshot](https://rusefi.com/fw-private/rusefi_bundle_subaru2011_obfuscated_public.zip)
+[ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
 https://rusefi.com/docs/pinouts/subaru-2011/

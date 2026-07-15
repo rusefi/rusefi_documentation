@@ -2,9 +2,9 @@
 
 open source, somewhat abandoned https://github.com/rusefi/hellen-miata-NB2
 
-[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
+[📦Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
 
-[Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
+[🧪Snapshot firmware bundle](https://rusefi.com/build_server/rusefi_bundle_hellen72.zip)
 
 [Issue Tracker](https://github.com/rusefi/hellen-NB2-issues)
 

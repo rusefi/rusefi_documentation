@@ -1,6 +1,6 @@
 # mega100
 
-[Firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_mega100.zip)
+[🧪Firmware snapshot](https://rusefi.com/build_server/rusefi_bundle_mega100.zip)
 
 [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/mega100-f4)
 

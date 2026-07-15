@@ -4,7 +4,7 @@
 
 [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/hellen/small-can-board/)
 
-[firmware snapshot bundle](https://rusefi.com/build_server/rusefi_bundle_small-can-board.zip)
+[🧪firmware snapshot bundle](https://rusefi.com/build_server/rusefi_bundle_small-can-board.zip)
 
 Build your own CAN bus driven smart wastegate controller or control auxillary lights on a modern vehicle or whatever you need, leveraging the wide range of available input/outputs, all leveraging the power of [Lua scripting](Lua-Scripting)!
 

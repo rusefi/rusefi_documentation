@@ -6,9 +6,9 @@ Our older, fully-featured, larger ECU available at [💲rusEFI store💲](https:
 
 [New to rusEFI start here](Home) [rusEFI Quick Start](HOWTO-quick-start)
 
-[Huge Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_alphax-8chan_f7.zip)
-[Huge Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan_f7.zip)
-[Release vs Snapshot](Release-Snapshot-Latest-firmware)
+[📦Huge Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_alphax-8chan_f7.zip)
+[🧪Huge Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-8chan_f7.zip)
+[ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
 ## Specs
 

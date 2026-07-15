@@ -6,9 +6,9 @@ Our older fully-featured larger ECU available at [💲rusEFI Store💲](https://
 
 New to rusEFI? [Start here](Home).
 
-[Proteus Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
-[Proteus Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
-[Release vs Snapshot](Release-Snapshot-Latest-firmware)
+[📦Proteus Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
+[🧪Proteus Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
+[ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
 ## Specs
 
@@ -31,7 +31,7 @@ New to rusEFI? [Start here](Home).
 
 ## Legacy Revisions Software
 
-Legacy Proteus 0.3-0.5 and 0.7 (STM32F4) [Release F4](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [Snapshot F4](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
+Legacy Proteus 0.3-0.5 and 0.7 (STM32F4) [📦Release F4](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [🧪Snapshot F4](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
 
 ## Wiring & Pinout
 

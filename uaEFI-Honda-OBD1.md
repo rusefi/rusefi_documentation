@@ -8,7 +8,7 @@ Available at the [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/rusef
 
 ## Firmware
 
-The nicer single board uses [OBD1 Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi-obd1.zip).
+The nicer single board uses [🧪OBD1 Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi-obd1.zip).
 
 The sandwich dual PCB adapter board uses [uaEFI](uaEFI) firmware.
 

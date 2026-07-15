@@ -6,7 +6,7 @@ Basic standalone ECU for 4 cylinder GDI engines - please double-check the pinout
 
 [New to rusEFI start here](Home)
 
-[Power4GDI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-4k-gdi.zip)
+[🧪Power4GDI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_alphax-4k-gdi.zip)
 
 ## Specs
 

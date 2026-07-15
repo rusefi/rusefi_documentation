@@ -12,7 +12,7 @@ The rusEFI Purple Gateway is a CANbus module that provides necessary engine data
 * GM 10L work is happening as well
 * [8HP BMW/Dodge](8hp) coming soon!
 
-[firmware snapshot](https://rusefi.com/fw-private/rusefi_bundle_purple-gateway_obfuscated_public.zip)
+[🧪firmware snapshot](https://rusefi.com/fw-private/rusefi_bundle_purple-gateway_obfuscated_public.zip)
 
 ## 8hp
 
