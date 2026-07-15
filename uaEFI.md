@@ -6,12 +6,12 @@ The most fully-featured ECU in this price category; available at [💲rusEFI Sto
 
 [New to rusEFI start here](Home)
 
-[uaEFI Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
-[uaEFI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
-[Release vs Snapshot](Release-Snapshot-Latest-firmware)
+[📦uaEFI Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
+[🧪uaEFI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi.zip)
+[ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
-[uaEFI PRO Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi_pro.zip)
-[uaEFI PRO Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi_pro.zip)
+[📦uaEFI PRO Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi_pro.zip)
+[🧪uaEFI PRO Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_uaefi_pro.zip)
 
 ## Specs
 
