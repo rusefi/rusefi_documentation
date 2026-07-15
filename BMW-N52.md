@@ -1,6 +1,6 @@
 # N52
 
-[Vevicle pintout](https://rusefi.com/docs/pinouts/BMW-N52-146/)
+[Vevicle pinout](https://rusefi.com/docs/pinouts/BMW-N52-146/)
 
 [Adapter board pinout](https://rusefi.com/docs/pinouts/BMW-N52-adapter/)
 
