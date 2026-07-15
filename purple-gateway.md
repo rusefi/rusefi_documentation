@@ -1,5 +1,7 @@
 # Purple Gateway
 
+The rusEFI Purple Gateway is a CANbus module that provides necessary engine data to an OEM transmission control unit, allowing it to function independently of the original engine electronics. At the moment our focus is Dodge and BMW 8HP, also GM 6-8-10 speed.
+
 * [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/purple-gateway)
 * Available at the [rusEFI store](https://www.shop.rusefi.com/shop/p/purple-gateway)
 * The job of the gateway is to feed all needed data into the OEM TCU for it to function without the rest of the original electronics.
