@@ -4,7 +4,7 @@
 
 ## As of June 2026, we work on both 1st generation BMW F-series transmissions and Dodge/Chrysler
 
-* BMW F-series is the most available option, great for swaps into older BMWs. Cheap and good enough!
+* [BMW F-series ](Bmw-8hp)is the most available option, great for swaps into older BMWs. Cheap and good enough!
 * BMW 2nd generation like 8HP50 shift quicker but do not bolt into older BMWs. Feel free to donate a test vehicle for us to look into those!
 * [Chrysler / Dodge](Dodge-8hp) has interchangeable physical TCU, but totally different Chrysler CANbus dialect; some versions have a trans brake!
 * BMW E-series CAN bus dialect, before ISN/Component Protection - there is not enough of these, that lowers the appeal.
