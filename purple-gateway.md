@@ -5,7 +5,7 @@ The rusEFI Purple Gateway is a CANbus module that provides necessary engine data
 * [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/purple-gateway)
 * Available at the [rusEFI store](https://www.shop.rusefi.com/shop/p/purple-gateway)
 * It's not a standalone TCU: The OEM TCU controls the transmission solenoids.
-* build-in ZF flasher for when you want to flash something into your Jaguar transmission
+* build-in ZF flasher for backup or for when you want to replace firmware in your TCU from one brand to another
 * [8HP BMW/Dodge](8hp) coming soon!
 * [GM 6L](GM-6L) beta version
 * GM 8L beta version
