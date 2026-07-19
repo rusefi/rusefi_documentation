@@ -1,5 +1,7 @@
 # 8HP Transmission
 
+[💜Purple Gateway💜](purple-gateway)
+
 ## As of June 2026, we work on both 1st generation BMW F-series transmissions and Dodge/Chrysler
 
 * BMW F-series is the most available option, great for swaps into older BMWs. Cheap and good enough!
@@ -8,8 +10,6 @@
 * BMW E-series CAN bus dialect, before ISN/Component Protection - there is not enough of these, that lowers the appeal.
 
 [8HP interactive pinout](https://rusefi.com/docs/pinouts/8hp/)
-
-[Purple Gateway](purple-gateway)
 
 ## ISN Reset
 

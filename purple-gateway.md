@@ -35,6 +35,14 @@ At the moment we focus on BMW F-series support while working with the following 
 * either real torque from ECU or estimated torque based on MAP sensor
 * brake pedal switch or brake pedal pressure data
 
+## Flasher
+
+<img width="782" height="574" alt="image" src="https://github.com/user-attachments/assets/c57e727f-b030-4e09-923d-f18d26923a41" />
+
+## BMW ISN reset
+
+See [Bmw-8hp](Bmw-8hp)
+
 ## Connectors
 
 Super-seal 26 pin
