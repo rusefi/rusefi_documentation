@@ -4,13 +4,13 @@ The rusEFI Purple Gateway is a CANbus module that provides necessary engine data
 
 * [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/purple-gateway)
 * Available at the [rusEFI store](https://www.shop.rusefi.com/shop/p/purple-gateway)
-* The job of the gateway is to feed all needed data into the OEM TCU for it to function without the rest of the original electronics.
 * It's not a standalone TCU: The OEM TCU controls the transmission solenoids.
-* Looks similar to [nano ECU](nano), but that's a totally different thing 😀
+* build-in ZF flasher for when you want to flash something into your Jaguar transmission
+* [8HP BMW/Dodge](8hp) coming soon!
 * [GM 6L](GM-6L) beta version
 * GM 8L beta version
 * GM 10L work is happening as well
-* [8HP BMW/Dodge](8hp) coming soon!
+* Looks similar to [nano ECU](nano), but that's a totally different thing 😀
 
 [🧪firmware snapshot](https://rusefi.com/fw-private/rusefi_bundle_purple-gateway_obfuscated_public.zip)
 
@@ -20,9 +20,9 @@ The rusEFI Purple Gateway is a CANbus module that provides necessary engine data
 
 At the moment we focus on BMW F-series support while working with the following ECUs:
 
-* obviously rusEFI
-* OEM BMW E9x and siblings
-* OEM BMW E46 and siblings like E39
+* ✅ OEM BMW E9x and siblings
+* ✅ OEM BMW E46 and siblings like E39
+* obviously rusEFI coming soon!
 * generic legacy analog inputs only should be doable
 * GM E38 should be doable but who puts BMW 8hp on LS engines?
 
