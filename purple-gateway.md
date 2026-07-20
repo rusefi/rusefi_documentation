@@ -55,6 +55,10 @@ Harness side 3-1437290-8
 
 A: not ready as on June 2026. BMW is way ahead of dodge.
 
+### Q: hello i am looking at setting up an 8hp gearbox with an engine, will i be able to run it with your kit?
+
+A: for best results we need to coordinate torque management with the ECU which we can only do with one of the ECUs we support. What ECU do you have running the engine?
+
 ### Q: Can this TCU control Ford 10 speed?
 
 A: that's not a TCU, see [TCU-status](TCU-status) for suggested terminology.
