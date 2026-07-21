@@ -33,3 +33,11 @@ __A:__ Some boards have Tag-Connect-TC2030 upwards three of those! Some boards h
 ### Corrupted option bytes?
 
 A: See https://github.com/rusefi/rusefi/blob/master/firmware/hw_layer/ports/stm32/stm32f4/option-bytes-f407.json https://github.com/rusefi/rusefi/blob/master/firmware/hw_layer/ports/stm32/stm32f4/option-bytes-f427.json https://github.com/rusefi/rusefi/blob/master/firmware/hw_layer/ports/stm32/stm32f7/option-bytes-f767.json reference files, make sure to match your MCU type
+
+## Related pages
+
+- [How to Update Firmware](HOWTO-Update-Firmware) - main firmware update procedure (Windows and Linux, OpenBLT and DFU).
+- [HOWTO Flash using STM32CubeProgrammer](HOWTO-flash-using-Stm32CubeProgrammer) - advanced / last-resort flashing via STM32CubeProgrammer (DFU or ST-Link).
+- [F7 Requires Full Erase](F7-requires-full-erase) - some F7 Proteus units require a full erase before a firmware update.
+- [Hardware Validation Failed](HARDWARE-VALIDATION-FAILED) - diagnosing the "HARDWARE VALIDATION FAILED" startup error.
+- [4chan F7 Initial Programming](4chan-F7-initial-programming) - one-time initial programming for AlphaX 4chan F7 boards.
