@@ -72,6 +72,6 @@ The "from" and "to" fields define a range of acceptable ratios for each of the p
 
 Gap is the amount of time that has passed between the current and previous tooth edge detections. The ratio used in this configuration is the ratio between the current gap (i.e. the time between the current and previous tooth edges) and the previous gap (i.e. the time between the previous tooth edge and the tooth edge before that).
 
-See also [Troubleshooting with TS logs](Trigger#troubleshooting-with-ts-logs)
+See also [Troubleshooting with TS logs](Trigger#troubleshooting-with-logs)
 
 See also [How-Do-I-Set-My-Trigger-Offset](How-Do-I-Set-My-Trigger-Offset)
