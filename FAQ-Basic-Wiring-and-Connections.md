@@ -147,3 +147,10 @@ In regards to Knock Sensor quality of signal, a shielded cable (2 core) is recom
 - Shield and GND of sensor goe to Sensor GND
 
 Doing it this way is preferred to get the best performance from your ECU input and sensor.
+
+## Related pages
+
+- [Crimping Hints](HOWTO-Crimp) - general crimping tips.
+- [Crimping Ampseal Connectors](HOWTO-Crimp-Ampseal) - crimping the Ampseal connectors used on many rusEFI boards.
+- [OEM Connectors](OEM-connectors) - reference of OEM connector pinouts and part numbers.
+- [TE/AMP Superseal](TE-AMP-Superseal) - notes on TE/AMP Superseal connectors.
