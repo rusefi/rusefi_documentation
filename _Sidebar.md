@@ -13,6 +13,7 @@
 
 ## Guides
 
+- [Troubleshooting](Troubleshooting)
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
 - [Cranking](Cranking)
 - [Trigger - Configuration](Trigger-Configuration-Guide)
