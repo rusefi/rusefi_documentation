@@ -29,7 +29,7 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [TunerStudio online tuning](HOWTO-create-tunerstudio-project)                                               | ✓          |
 | [Batch Injection](https://rusefi.com/docs/guide/#menu_Fuel_Injection_configuration)                         | ✓          |
 | [Sequential Injection up to 12 cylinders](https://rusefi.com/docs/guide/#menu_Fuel_Injection_configuration) | ✓          |
-| [Staged Injection](https://rusefi.com/docs/guide/#menu_Fuel_Staged_injection)                               | ✓          |
+| [Staged Injection](Staged-Injection)                                                                        | ✓          |
 | [Direct Injection](GDI-status)                                                                              | ✓          |
 | [Flex Fuel](Flex-Fuel) 🌽                                                                                   | ✓          |
 | [Closed Loop Fueling](Fuel-Overview#closed-loop-correction)                                                 | ✓          |
