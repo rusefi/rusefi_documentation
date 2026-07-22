@@ -22,7 +22,7 @@ Wideband Oxygen Sensor is pretty much a requirement for both manual and auto-tun
 
 ![General Settings](Images/Fuel_Control/general.png)
 
-Within each fuel calculation mode, there is coolant temperature correction ("warm-up mode"), battery voltage correction and injector open time ("injector lag") correction.
+Within each fuel calculation mode, there is coolant temperature correction ("warm-up mode"), battery voltage correction and injector open time ("injector lag") correction. See [Injector Lag Tuning](Injector-Lag-Autotune) for how to check and correct injector lag.
 
 Commands related to injector lag:
 
