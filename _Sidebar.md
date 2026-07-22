@@ -18,6 +18,7 @@
 - [Trigger - Configuration](Trigger-Configuration-Guide)
 - [Trigger - Setting Offset](How-Do-I-Set-My-Trigger-Offset)
 - [Electronic Throttle](Electronic-Throttle-Body)
+- [Idle Control](Idle-Control)
 - [Logging](Logging-Guide)
 - [Wideband Oxygen Sensors](Wide-Band-Sensors)
 - [Fueling](Fuel-Overview)
@@ -28,6 +29,7 @@
 - [Lua Scripting](Lua-Scripting)
 - [Digital Dash](Digital-Dash)
 - [Multispark](Multi-Spark)
+- [Launch Control](HOWTO-Launch-Control)
 
 ## ECU Hardware
 
