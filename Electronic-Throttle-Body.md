@@ -30,3 +30,9 @@ rusEFI hardware and software have been designed to work with all three of these 
 - DC motor driver H-bridge(s) to control the motor. An H-bridge can apply a variable voltage using PWM in either direction. Both directions are important to be able to open and close the throttle completely.
 - Analog inputs and corresponding software to measure both the TPS and PPS.
 - A control algorithm that uses a table to linearize the effects of the return spring and PID to move the throttle to the targeted position.
+
+## Related pages
+
+- [Electronic Throttle Body Configuration Guide](Electronic-Throttle-Body-Configuration-Guide) - step-by-step electronic throttle body setup and tuning.
+- [Vault of Electronic Throttle Bodies](Vault-Of-Electronic-Throttle-Bodies-ETB) - list of tested throttle bodies and their details.
+- [SENT Electronic Throttle Body](SENT-ETB-Electronic-Throttle-Body) - throttle bodies that use the SENT protocol.
