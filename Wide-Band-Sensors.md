@@ -94,3 +94,8 @@ connector body is laser trimmed with this value."
 1j0973733 Bosch 4.2 6 pin connector available everywhere
 
 [ALM-CAN lambda meter](http://www.ecotrons.com/products/wideband-controller-alm-can/)
+
+## Related pages
+
+- [rusEFI Wideband Controller](rusEFI-Wideband-Controller) - the open-source rusEFI wideband controller.
+- [Medium Band Oxygen Sensor](Medium-band-oxygen) - Denso two-wire (medium-band) oxygen sensor wiring and pinout.

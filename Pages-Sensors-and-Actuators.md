@@ -24,6 +24,7 @@
 <details markdown="1" class="abstract"><summary><u>AFR measurement (Wideband)</u></summary>
 
 * [Wide Band Sensors](Wide-Band-Sensors)
+* [Medium Band Oxygen Sensor](Medium-band-oxygen)
 
 </details>
 
