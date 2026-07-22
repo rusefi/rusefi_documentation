@@ -3,6 +3,7 @@
 <details markdown="1" class="abstract"><summary><u>Fuel Algorithms</u></summary>
 
 * [Fuel Overview](Fuel-Overview)
+* [Injection Modes](Injection-Modes)
 * [Cranking](Cranking)
 * [AlphaN](AlphaN)
 * [Speed Density](Speed-Density)

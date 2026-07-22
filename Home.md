@@ -27,8 +27,8 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Hall, VR, CLT, TPS and all popular sensors](FAQ-Basic-Wiring-and-Connections)                              | ✓          |
 | [20+ OEM Triggers Supported](All-Supported-Triggers)                                                        | ✓          |
 | [TunerStudio online tuning](HOWTO-create-tunerstudio-project)                                               | ✓          |
-| [Batch Injection](https://rusefi.com/docs/guide/#menu_Fuel_Injection_configuration)                         | ✓          |
-| [Sequential Injection up to 12 cylinders](https://rusefi.com/docs/guide/#menu_Fuel_Injection_configuration) | ✓          |
+| [Batch Injection](Injection-Modes#batch)                                                                    | ✓          |
+| [Sequential Injection up to 12 cylinders](Injection-Modes#sequential)                                       | ✓          |
 | [Staged Injection](Staged-Injection)                                                                        | ✓          |
 | [Direct Injection](GDI-status)                                                                              | ✓          |
 | [Flex Fuel](Flex-Fuel) 🌽                                                                                   | ✓          |
