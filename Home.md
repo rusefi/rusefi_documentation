@@ -49,7 +49,7 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Flat Shifting](https://rusefi.com/docs/guide/#menu_Advanced_Shift_Torque_Reduction_(Flat_Shift))           | ✓          |
 | [Antilag](Antilag)                                                                                          | ✓          |
 | [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)                                               | ✓          |
-| [Traction Control](https://rusefi.com/docs/guide/#menu_Controller_Traction_Control_ETB_drop)                | ✓          |
+| [Traction Control](Traction-Control)                                                                        | ✓          |
 | [Blending (advanced version of dual table)](Blending)                                                       | ✓          |
 | [Knock Sensing & Response](knock-sensing)                                                                   | ✓          |
 | [Kick Start](Kick-Start)                                                                                    | ✓          |
