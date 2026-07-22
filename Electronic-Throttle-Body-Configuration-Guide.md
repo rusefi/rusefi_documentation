@@ -113,3 +113,9 @@ If the blade does not ever move, it's time to grab a multimeter and confirm the 
 ### Does the TPS sensor function?
 
 Moving the blade manually, do you see both raw TPS values change reasonably?
+
+## Related pages
+
+- [Electronic Throttle Body](Electronic-Throttle-Body) - overview of electronic throttle (drive-by-wire) control.
+- [Vault of Electronic Throttle Bodies](Vault-Of-Electronic-Throttle-Bodies-ETB) - list of tested throttle bodies and their details.
+- [SENT Electronic Throttle Body](SENT-ETB-Electronic-Throttle-Body) - throttle bodies that use the SENT protocol.

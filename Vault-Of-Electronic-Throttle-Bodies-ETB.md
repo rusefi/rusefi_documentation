@@ -119,3 +119,9 @@ There are many W163 (Mercedes ML SUV) in the junkyards so even used these sensor
 lots of useful information [here](https://www.maxxecu.com/webhelp/wirings-e-throttle_bodies.html)
 
 ![image](Images/diagrams/ETB_module_wiring.png)
+
+## Related pages
+
+- [Electronic Throttle Body](Electronic-Throttle-Body) - overview of electronic throttle (drive-by-wire) control.
+- [Electronic Throttle Body Configuration Guide](Electronic-Throttle-Body-Configuration-Guide) - step-by-step electronic throttle body setup and tuning.
+- [SENT Electronic Throttle Body](SENT-ETB-Electronic-Throttle-Body) - throttle bodies that use the SENT protocol.

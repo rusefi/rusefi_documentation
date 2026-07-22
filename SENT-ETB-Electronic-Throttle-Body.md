@@ -38,3 +38,9 @@ kit <https://www.bmotorsports.com/shop/product_info.php/products_id/4479>
 At the moment uaEFI, Huge and microRusEFI have SENT capable pins.
 
 See https://github.com/rusefi/rusefi/tree/master/firmware/hw_layer/drivers/sent
+
+## Related pages
+
+- [Electronic Throttle Body](Electronic-Throttle-Body) - overview of electronic throttle (drive-by-wire) control.
+- [Electronic Throttle Body Configuration Guide](Electronic-Throttle-Body-Configuration-Guide) - step-by-step electronic throttle body setup and tuning.
+- [Vault of Electronic Throttle Bodies](Vault-Of-Electronic-Throttle-Bodies-ETB) - list of tested throttle bodies and their details.
