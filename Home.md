@@ -44,7 +44,7 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Bluetooth Connectivity](Bluetooth)                                                                         | ✓          |
 | [Digital Dash](Digital-Dash)                                                                                | ✓          |
 | [Lua Scripting](Lua-Scripting)                                                                              | ✓          |
-| [Boost Control](https://rusefi.com/docs/guide/#menu_Advanced_Boost_control)                                 | ✓          |
+| [Boost Control](Boost-Control)                                                                              | ✓          |
 | [Launch Control](HOWTO-Launch-Control)                                                                      | ✓          |
 | [Flat Shifting](https://rusefi.com/docs/guide/#menu_Advanced_Shift_Torque_Reduction_(Flat_Shift))           | ✓          |
 | [Antilag](https://github.com/rusefi/rusefi/issues/2403)                                                     | ✓          |

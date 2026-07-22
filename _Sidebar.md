@@ -31,6 +31,7 @@
 - [Digital Dash](Digital-Dash)
 - [Multispark](Multi-Spark)
 - [Launch Control](HOWTO-Launch-Control)
+- [Boost Control](Boost-Control)
 
 ## ECU Hardware
 
