@@ -66,3 +66,9 @@ Steps:
 16. Final step: go back and update your spreadsheet with what you ACTUALLY connected. Make sure your OEM coil numbers are mapped to the coil driver that is connected on the PCB. Make sure the OEM injector numbers are mapped to the drivers controlling them. Make sure that the specific sensors on the harness are mapped to the general analog inputs receiving the signal. Make sure your solenoids, relays, etc. are mapped to GPIO. When you go to configure the unit, having this information to refer to will be invaluable and save you having to chase your schematic.
 
 See also [How To Test a New ECU Design](HOWTO-Test-New-ECU-Design)
+
+## Related pages
+
+- [Custom rusEFI Firmware](Custom-Firmware) - building firmware for a custom board.
+- [How to Test a New ECU Design](HOWTO-Test-New-ECU-Design) - bringing up and testing a newly built board.
+- [Developer Quick Start](Dev-Quick-Start) - setting up the rusEFI development environment.

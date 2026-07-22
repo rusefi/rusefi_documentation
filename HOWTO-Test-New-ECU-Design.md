@@ -32,3 +32,9 @@ If dealing with a brand-new, never before tested hardware design it's recommende
 5. Test & Report, with USB physically disconnected: Attempt cranking. If equipped with on-board persistent storage, upload & link log to report.
 6. Connect ECU to laptop via serial, report type of serial.
 7. With laptop connected via serial, test & report, with USB physically disconnected: ECU status LED blinks if powered up, ECU status LED blinks when ignition powered off.
+
+## Related pages
+
+- [How to Make a Plug-and-Play Board](HOWTO-Make-a-PnP-board) - designing a plug-and-play board for a specific vehicle.
+- [Custom rusEFI Firmware](Custom-Firmware) - building firmware for a custom board.
+- [Developer Quick Start](Dev-Quick-Start) - setting up the rusEFI development environment.

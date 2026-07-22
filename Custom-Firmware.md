@@ -81,3 +81,9 @@ A: stm32 has a limitation: you can only have 16 digital inputs. Also each input 
 ### Q: How do I have nice pin names?
 
 A: see https://github.com/rusefi/fw-custom-example/blob/main/connectors/readme.md
+
+## Related pages
+
+- [How to Make a Plug-and-Play Board](HOWTO-Make-a-PnP-board) - designing a plug-and-play board for a specific vehicle.
+- [How to Test a New ECU Design](HOWTO-Test-New-ECU-Design) - bringing up and testing a newly built board.
+- [Developer Quick Start](Dev-Quick-Start) - setting up the rusEFI development environment.
