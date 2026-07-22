@@ -31,3 +31,10 @@ To set your trigger offset setting, you must determine how far your ECU is from 
 7. Adjust "Setup" -> "Trigger" -> "Trigger Angle Advance" up or down (negative values are allowed) until you get spark at TDC. This is now your trigger offset.
 8. Reinstall your spark plugs, re-enable fuel, set your timing to something sensible, (manufacturer recommendations) and try to start your engine. Verify the timing again with a timing light once the engine runs, and adjust the offset if needed.
 9. Change your timing mode back to "dynamic" or you will continue to run on fixed timing and give up a ton of power and fuel economy and have some *really* high exhaust temperatures.
+
+## Related pages
+
+- [Triggers](Trigger) - trigger overview: how rusEFI reads crank/cam position, plus troubleshooting.
+- [Trigger Configuration Guide](Trigger-Configuration-Guide) - configuring Hall/VR sensors, sensor polarity, and gap overrides.
+- [All Supported Triggers](All-Supported-Triggers) - list of built-in trigger patterns with diagrams.
+- [Unknown Trigger](Unknown-Trigger) - what to do when your trigger pattern is not yet supported.

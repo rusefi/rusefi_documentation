@@ -75,3 +75,10 @@ Gap is the amount of time that has passed between the current and previous tooth
 See also [Troubleshooting with TS logs](Trigger#troubleshooting-with-logs)
 
 See also [How-Do-I-Set-My-Trigger-Offset](How-Do-I-Set-My-Trigger-Offset)
+
+## Related pages
+
+- [Triggers](Trigger) - trigger overview: how rusEFI reads crank/cam position, plus troubleshooting.
+- [All Supported Triggers](All-Supported-Triggers) - list of built-in trigger patterns with diagrams.
+- [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset) - setting the global trigger angle offset.
+- [Unknown Trigger](Unknown-Trigger) - what to do when your trigger pattern is not yet supported.

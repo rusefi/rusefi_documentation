@@ -8,6 +8,8 @@ See also [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset)
 
 See [Trigger Hardware](Trigger-Hardware) for some notes on the difference between Hall and VR sensors.
 
+See [Unknown Trigger](Unknown-Trigger) for what to do when your trigger pattern is not yet supported.
+
 ## Troubleshooting Trigger Input
 
 We use engine sniffer and composite logger only for basic validation at the moment. Please use regular TS logs with a higher data rate if adjustments to trigger gaps are needed. The logs collected with "Data Logging" -> "Start Logging" are the only kind worth sharing.
