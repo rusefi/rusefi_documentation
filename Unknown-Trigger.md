@@ -45,3 +45,10 @@ Next you need to find a unique gap in the events to use as the synchronization p
 Trigger synchronization often does not happen right at TDC. One would need to find out the angle between the synchronization point and the Top Dead Center of cylinder #1.
 
 See [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset)
+
+## Related pages
+
+- [Triggers](Trigger) - trigger overview: how rusEFI reads crank/cam position, plus troubleshooting.
+- [Trigger Configuration Guide](Trigger-Configuration-Guide) - configuring Hall/VR sensors, sensor polarity, and gap overrides.
+- [All Supported Triggers](All-Supported-Triggers) - list of built-in trigger patterns with diagrams.
+- [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset) - setting the global trigger angle offset.
