@@ -16,6 +16,10 @@ https://github.com/rusefi/e38-e67-customer-support
 
 🔴Community support ONLY 🔴 https://www.facebook.com/groups/rusEfi 🔴 [Discord](Discord)🔴
 
+[Schematics rev c](Hardware-files/Hellen/hellen-gm-e38-c-schematic.pdf)
+
+[Schematics rev a](Hardware-files/Hellen/hellen-gm-e38-a-schematic.pdf)
+
 ## Specs
 
 * The blue connector is auxiliary
