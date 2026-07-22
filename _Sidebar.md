@@ -4,6 +4,7 @@
 
 ## Getting Started
 
+- [Getting Started roadmap](Getting-Started)
 - [How to search the Wiki](HOWTO-Search-on-rusEFI-wiki)
 - [Quick Start](HOWTO-quick-start)
 - [Support & Community](Support)
