@@ -36,6 +36,8 @@ PCAN
 
 ## Hardware options
 
+[rusEFI CANbus to WiFi adapter](can2wifi) - a first-party wireless bridge for tuning and logging over Wi-Fi (translates TunerStudio TCP to IsoTP over CAN).
+
 [PCAN-USB](https://www.peak-system.com/PCAN-USB.199.0.html?&L=1) with some cable [PCAN-Cable OBD-2](https://www.peak-system.com/PCAN-Cable-OBD-2.273.0.html?&L=1) or [PCAN-Cable 3](https://www.peak-system.com/PCAN-Cable-3.290.0.html?&L=1)
 
 [fake looking like Vasya](https://rusefi.com/forum/viewtopic.php?f=13&t=2243)
