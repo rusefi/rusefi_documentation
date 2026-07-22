@@ -36,8 +36,8 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Acceleration Enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)                           | ✓          |
 | [Onboard Wideband Controller](Wide-Band-Sensors)                                                            | ✓          |
 | [Dual AFR Signal Logging](Wide-Band-Sensors)                                                                | ✓          |
-| [Sequential Ignition up to 12 cylinders](https://rusefi.com/docs/guide/#menu_Ignition_Ignition_settings)    | ✓          |
-| [Wasted Spark Ignition](https://rusefi.com/docs/guide/#menu_Ignition_Ignition_settings)                     | ✓          |
+| [Sequential Ignition up to 12 cylinders](Ignition-Modes#individual-coils-sequential)                        | ✓          |
+| [Wasted Spark Ignition](Ignition-Modes#wasted-spark)                                                        | ✓          |
 | [Multi-Spark](Multi-Spark)                                                                                  | ✓          |
 | [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)                                    | ✓          |
 | [CAN Bus Connectivity](CAN)                                                                                 | ✓          |
