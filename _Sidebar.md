@@ -33,6 +33,7 @@
 - [Multispark](Multi-Spark)
 - [Launch Control](HOWTO-Launch-Control)
 - [Boost Control](Boost-Control)
+- [Traction Control](Traction-Control)
 
 ## ECU Hardware
 
