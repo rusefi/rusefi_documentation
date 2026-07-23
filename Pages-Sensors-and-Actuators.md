@@ -40,6 +40,12 @@
 
 </details>
 
+<details markdown="1" class="abstract"><summary><u>Fuel Pressure</u></summary>
+
+* [Fuel Pressure sensors and compensation](Fuel-Pressure)
+
+</details>
+
 <details markdown="1" class="abstract"><summary><u>Crank Sensors</u></summary>
 
 * [List of tested trigger patterns](All-Supported-Triggers)
