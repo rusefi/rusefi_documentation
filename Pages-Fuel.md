@@ -30,6 +30,7 @@
 * [GDI Status](GDI-status)
 * [Staged Injection](Staged-Injection)
 * [Injector Lag Tuning](Injector-Lag-Autotune)
+* [Fuel Pump](Fuel-Pump)
 * [Basic Injector Wiring](FAQ-Basic-Wiring-and-Connections#fuel-injectors)
 
 </details>
