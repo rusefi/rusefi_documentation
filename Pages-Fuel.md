@@ -34,3 +34,10 @@
 * [Basic Injector Wiring](FAQ-Basic-Wiring-and-Connections#fuel-injectors)
 
 </details>
+
+<details markdown="1" class="abstract"><summary><u>Power Adders</u></summary>
+
+* [Boost Control](Boost-Control)
+* [Nitrous](Nitrous)
+
+</details>

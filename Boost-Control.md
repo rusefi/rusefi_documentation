@@ -50,6 +50,7 @@ The main boost-control configuration items are listed below by their configurati
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections) — output types and solenoid wiring.
 - [Logging Guide](Logging-Guide) — essential for tuning and verifying boost safely.
 - [Lua Scripting](Lua-Scripting) — the `setBoostTargetAdd` and `setBoostTargetMult` functions can adjust the boost target from a script.
+- [Nitrous](Nitrous) — another power-adder; rusEFI has no built-in nitrous controller, but it can be implemented with Lua scripting alongside boost.
 - [Smart ECU (proposed overboost protection)](Vault-Smart-ECU) — proposed/future protection concepts, not current behaviour.
 
 ## Technical sources
