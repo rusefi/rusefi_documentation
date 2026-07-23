@@ -32,6 +32,7 @@
 - [Variable Valve Timing](VVT)
 - [Lua Scripting](Lua-Scripting)
 - [Digital Dash](Digital-Dash)
+- [Bluetooth](Bluetooth)
 - [Multispark](Multi-Spark)
 - [Launch Control](HOWTO-Launch-Control)
 - [Boost Control](Boost-Control)
