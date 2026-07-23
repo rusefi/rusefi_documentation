@@ -27,6 +27,24 @@ Controllers that have been used with rusEFI so far include:
 
 *rusEFI advises against Innovate wideband controllers.*
 
+## Wiring a wideband to rusEFI
+
+A wideband sensor always needs a dedicated **controller** — the Bosch sensor itself cannot be wired directly to the ECU. There are two common ways to get the controller's reading into rusEFI.
+
+### Over CAN
+
+The [rusEFI Wideband Controller](rusEFI-Wideband-Controller) and AEM X-series sensors connect over the [CAN bus](CAN): wire power, ground, and CAN High / CAN Low, and rusEFI reads the value directly (the rusEFI controller is auto-detected).
+
+### Analog (0–5 V) output
+
+Most aftermarket controllers also provide a 0–5 V analog output representing AFR (or lambda). Wire that output to a rusEFI analog input and configure:
+
+- `afr.hwChannel` — the analog input the controller's output is connected to (`afr.hwChannel2` for a second, dual wideband).
+- `afr_type` — the controller type, one of "BPSX", "Innovate", "14Point7", "PLX", "AEM", or "Custom".
+- For "Custom", the two-point calibration `afr.v1` / `afr.value1` and `afr.v2` / `afr.value2` maps two output voltages to their AFR values (taken from the controller's manual).
+
+Verify the value in rusEFI matches the controller's own display before tuning with it.
+
 ## rusEFI Wideband Controller
 
 We also have our own wideband controller, which is available [in the shop](https://www.shop.rusefi.com/shop/p/dual-channel-wbo).
