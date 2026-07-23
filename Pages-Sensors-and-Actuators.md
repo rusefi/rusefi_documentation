@@ -15,6 +15,7 @@
 
 <details markdown="1" class="abstract"><summary><u>MAP Sensors</u></summary>
 
+* [MAP Sensor calibration](MAP-Sensor)
 * [Fuel Overview](Fuel-Overview)
 * [GM Map sensor](GM-map-sensor)
 
