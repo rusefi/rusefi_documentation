@@ -38,6 +38,7 @@
 
 <details markdown="1" class="abstract"><summary><u>Oil Pressure Sensors</u></summary>
 
+* [Oil Pressure sensor setup](Oil-Pressure-Sensor)
 * [Combo Pressure/Temp Sensor](Vault-Of-Sensors#liquid-pressure-and-temperature-sensor)
 
 </details>
