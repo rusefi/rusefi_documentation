@@ -1,46 +1,54 @@
 # Bluetooth
 
-Obviously, rusEFI supports Bluetooth, 🔴 but we barely support it, it's horrible. 🔴
+rusEFI supports a **serial Bluetooth module** that provides a wireless serial link, mainly used to connect TunerStudio (or the rusEFI Console) without a USB cable.
 
-JDY-33 modules are the default.
+> Bluetooth support is limited and the connection is slow. There is currently no TunerStudio interface for setting up the module — it is initialised from the rusEFI Console (see below). For a faster wireless link, consider Wi-Fi instead, for example the [CANbus to WiFi adapter](can2wifi) or a serial-to-network bridge such as [UART-TCP-proxy](https://github.com/Light-r4y/UART-TCP-proxy).
 
-rusEFI Console has commands for Bluetooth module initialization (see below); at the moment we do not have a TunerStudio interface for Bluetooth module initialization.
+## Supported modules
 
-## Reference Design
+The module is a TTL-level serial (UART) Bluetooth adapter. rusEFI can initialise several types:
 
-https://github.com/rusefi/alphax-4chan is the most popular open-source board with on-board Bluetooth.
+- **JDY-33** — the default and recommended module. The popular [AlphaX 4chan](https://github.com/rusefi/alphax-4chan) board comes with a JDY-33 on board. There are still [some known issues](https://github.com/rusefi/rusefi/issues/5918).
+- **HC-05**, **HC-06** — older classic-Bluetooth modules. Whether HC-06 is still a good choice is an [open question](https://github.com/rusefi/rusefi/issues/6197). On start, an HC-06 accepts AT commands at 9600 baud, and its default pairing PIN is `1234`.
+- **BK** modules.
 
-## Isn't HC-06 Dead?
+## Hardware: what you need to wire on
 
-That's an open question - see [this issue](https://github.com/rusefi/rusefi/issues/6197).
+If your board does not already have Bluetooth on board (the AlphaX 4chan does), you add a TTL serial Bluetooth module and connect it to the ECU's **primary serial UART** — the same UART used for TunerStudio/console serial communication:
 
-JDY-33 seems to be the way to go Bluetooth. rusEFI supports JDY-33 initialization and 4chan comes with a JDY-33. However, there are still [some issues](https://github.com/rusefi/rusefi/issues/5918).
+- **Power** — the module's VCC and GND. Use the voltage the module expects (many TTL Bluetooth modules run on 3.3 V logic; use a module compatible with the ECU's 3.3 V UART levels, which the JDY-33 is).
+- **Serial data — cross TX and RX:**
+  - module **TX → ECU serial RX** (`binarySerialRxPin`)
+  - module **RX → ECU serial TX** (`binarySerialTxPin`)
 
-## HC-06 Bluetooth Module serial RS232 TTL
+The ECU's UART is selected by `consoleUartDevice` (Off / UART1 / UART2 / UART3) and its baud rate by `uartConsoleSerialSpeed` ("Baud rate for primary TTL"). Some boards expose these UART pins on a header or pads for a Bluetooth module; on others you solder to the appropriate UART pins. Always check your board's pinout for the correct serial pins and the module's voltage requirements before wiring.
 
-On start, HC-06 accepts AT commands at 9600 baud.
+## Setting up the module
 
-the default pin is 1234
+Initialise the module from the rusEFI Console. The general form is:
 
-## JDY
-
-``bluetooth_jdy 115200 alphax 1234``
-
-Which is just one the possibilities:
-
-``` c
-	// Usage:   "bluetooth_hc06 <baud> <name> <pincode>"
-	// Example: "bluetooth_hc06 38400 rusefi 1234"
-
-bluetooth_hc05 bluetooth_hc06 bluetooth_bk bluetooth_jdy
+```
+bluetooth_<module> <baud> <name> <pincode>
 ```
 
-https://rusefi.com/forum/viewtopic.php?f=13&t=1999
+with `bluetooth_hc05`, `bluetooth_hc06`, `bluetooth_bk`, and `bluetooth_jdy` available. For example:
 
-## BluetoothView
+```
+bluetooth_jdy 115200 alphax 1234
+```
 
-[A cool relevant Windows utility](https://www.nirsoft.net/utils/bluetooth_viewer.html)
+sets a JDY-33 to 115200 baud, names it `alphax`, and sets the PIN to `1234`. Use a baud rate that matches the ECU's serial speed, then pair with the module and point TunerStudio at the resulting serial (COM) port.
 
-## Is there hope?
+## Utilities
 
-We do not have motivation or resources to spare on a better slow connection profile. If anything, consider WiFi, maybe something like [UART-TCP-proxy](https://github.com/Light-r4y/UART-TCP-proxy).
+- [BluetoothView](https://www.nirsoft.net/utils/bluetooth_viewer.html) — a Windows utility for seeing nearby Bluetooth devices.
+- rusEFI forum thread on module setup: <https://rusefi.com/forum/viewtopic.php?f=13&t=1999>
+
+## Related pages
+
+- [CANbus to WiFi adapter](can2wifi) — a faster first-party wireless option.
+- [CAN Broadcast for Dashboards and Gauges](CAN-Broadcast-for-Dashboards) — using a Bluetooth CAN adapter for a phone/tablet dashboard.
+
+## Technical sources
+
+- Configuration field definitions: `firmware/integration/rusefi_config.txt` — `binarySerialTxPin`, `binarySerialRxPin`, `consoleUartDevice` (Off / UART1 / UART2 / UART3), `uartConsoleSerialSpeed`.
