@@ -21,6 +21,7 @@
 - [Trigger - Setting Offset](How-Do-I-Set-My-Trigger-Offset)
 - [Electronic Throttle](Electronic-Throttle-Body)
 - [Idle Control](Idle-Control)
+- [Sensors & Calibration](Sensors-and-Calibration)
 - [Diagnostics & Logging](Diagnostics-and-Logging)
 - [Logging](Logging-Guide)
 - [Wideband Oxygen Sensors](Wide-Band-Sensors)
