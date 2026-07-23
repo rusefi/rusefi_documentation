@@ -60,6 +60,12 @@
 
 </details>
 
+<details markdown="1" class="abstract"><summary><u>Tachometer Output</u></summary>
+
+* [Tachometer Output](Tachometer-Output)
+
+</details>
+
 <details markdown="1" class="abstract"><summary><u>Fuel Injectors</u></summary>
 
 * [GDI Status](GDI-status)
