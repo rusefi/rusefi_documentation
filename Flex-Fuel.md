@@ -33,3 +33,20 @@ That's it! The firmware will now automatically vary the fuel's stoichiometric ra
 **It's recommended to switch to lambda mode (`File -> Vehicle Projects -> Project Properties -> Settings -> Lambda Display`), as the target lambda table is multiplied by the current stoichiometric ratio to get the target air/fuel ratio.**
 
 ![injection settings](Images/TS/Flex_fuel_TS_injection_settings.png)
+
+## Cold start and transient corrections
+
+Ethanol needs noticeably more fuel than gasoline, especially when the engine is cold, so rusEFI can also adjust cold-start and transient fuelling by ethanol content:
+
+- **`flexCranking`** — described in the firmware as: "Enable flex-fuel compensation for engine start. When on... cranking coolant multiplier and priming pulse mass each come from a 2D table over coolant and ethanol %" (`crankingFuelFlexTable` and `primeFlexTable`).
+- **`flexFuelTransientComp`** — "Enable flex-fuel transient fueling compensation (acceleration enrichment and wall wetting tau/beta) based on ethanol content and coolant temperature".
+
+Enable these if you run high-ethanol blends and want good cold starts and throttle response across the ethanol range.
+
+## Reading ethanol content
+
+The flex fuel sensor is a frequency-output type. In the firmware `flexSensorPin` is described as a "Continental/GM flex fuel sensor, 50-150hz type" — the signal frequency encodes the ethanol percentage, which rusEFI then uses for the corrections above.
+
+## Technical sources
+
+- Configuration field definitions: `firmware/integration/rusefi_config.txt` — `flexSensorPin`, `stoichRatioSecondary`, `flexCranking`, `crankingFuelFlexTable`, `primeFlexTable`, `flexFuelTransientComp`.
