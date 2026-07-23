@@ -14,8 +14,6 @@ The rusEFI Purple Gateway is a CANbus module that provides necessary engine data
 
 [💾Download Software💾](https://rusefi.com/installer/Purple_Updater_windows-x64.exe)
 
-[🧪firmware snapshot](https://rusefi.com/fw-private/rusefi_bundle_purple-gateway_obfuscated_public.zip)
-
 ## 8hp
 
 ### Supported ECUs
