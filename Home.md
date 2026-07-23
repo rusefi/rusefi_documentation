@@ -27,8 +27,8 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Hall, VR, CLT, TPS and all popular sensors](FAQ-Basic-Wiring-and-Connections)                              | ✓          |
 | [20+ OEM Triggers Supported](All-Supported-Triggers)                                                        | ✓          |
 | [TunerStudio online tuning](HOWTO-create-tunerstudio-project)                                               | ✓          |
-| [Batch Injection](https://rusefi.com/docs/guide/#menu_Fuel_Injection_configuration)                         | ✓          |
-| [Sequential Injection up to 12 cylinders](https://rusefi.com/docs/guide/#menu_Fuel_Injection_configuration) | ✓          |
+| [Batch Injection](Injection-Modes#batch)                                                                    | ✓          |
+| [Sequential Injection up to 12 cylinders](Injection-Modes#sequential)                                       | ✓          |
 | [Staged Injection](Staged-Injection)                                                                        | ✓          |
 | [Direct Injection](GDI-status)                                                                              | ✓          |
 | [Flex Fuel](Flex-Fuel) 🌽                                                                                   | ✓          |
@@ -36,8 +36,8 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Acceleration Enrichment - wall wetting/fuel trip/tau factor](X-tau-Wall-Wetting)                           | ✓          |
 | [Onboard Wideband Controller](Wide-Band-Sensors)                                                            | ✓          |
 | [Dual AFR Signal Logging](Wide-Band-Sensors)                                                                | ✓          |
-| [Sequential Ignition up to 12 cylinders](https://rusefi.com/docs/guide/#menu_Ignition_Ignition_settings)    | ✓          |
-| [Wasted Spark Ignition](https://rusefi.com/docs/guide/#menu_Ignition_Ignition_settings)                     | ✓          |
+| [Sequential Ignition up to 12 cylinders](Ignition-Modes#individual-coils-sequential)                        | ✓          |
+| [Wasted Spark Ignition](Ignition-Modes#wasted-spark)                                                        | ✓          |
 | [Multi-Spark](Multi-Spark)                                                                                  | ✓          |
 | [Electronic Throttle Body](Electronic-Throttle-Body-Configuration-Guide)                                    | ✓          |
 | [CAN Bus Connectivity](CAN)                                                                                 | ✓          |
@@ -47,9 +47,9 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Boost Control](Boost-Control)                                                                              | ✓          |
 | [Launch Control](HOWTO-Launch-Control)                                                                      | ✓          |
 | [Flat Shifting](Flat-Shifting)                                                                              | ✓          |
-| [Antilag](https://github.com/rusefi/rusefi/issues/2403)                                                     | ✓          |
+| [Antilag](Antilag)                                                                                          | ✓          |
 | [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)                                               | ✓          |
-| [Traction Control](https://rusefi.com/docs/guide/#menu_Controller_Traction_Control_ETB_drop)                | ✓          |
+| [Traction Control](Traction-Control)                                                                        | ✓          |
 | [Blending (advanced version of dual table)](Blending)                                                       | ✓          |
 | [Knock Sensing & Response](knock-sensing)                                                                   | ✓          |
 | [Kick Start](Kick-Start)                                                                                    | ✓          |

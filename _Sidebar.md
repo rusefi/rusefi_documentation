@@ -21,6 +21,7 @@
 - [Trigger - Setting Offset](How-Do-I-Set-My-Trigger-Offset)
 - [Electronic Throttle](Electronic-Throttle-Body)
 - [Idle Control](Idle-Control)
+- [Diagnostics & Logging](Diagnostics-and-Logging)
 - [Logging](Logging-Guide)
 - [Wideband Oxygen Sensors](Wide-Band-Sensors)
 - [Fueling](Fuel-Overview)
@@ -33,6 +34,7 @@
 - [Multispark](Multi-Spark)
 - [Launch Control](HOWTO-Launch-Control)
 - [Boost Control](Boost-Control)
+- [Traction Control](Traction-Control)
 
 ## ECU Hardware
 
