@@ -19,3 +19,22 @@ For example, here we have 10% extra opening at 30C.
 ## Valve Initialization
 
 In the case of a stepper valve, in order to get to a known position we retract the valve all the way at startup and then go to the desired position. A solenoid-based valve does not require any initialization.
+
+## Closed-loop idle control
+
+The `idleMode` setting chooses between two strategies:
+
+- **Open Loop** — the idle valve position comes only from the open-loop position and its corrections (see above).
+- **Open Loop + Closed Loop** — a PID controller (`idleRpmPid`) is added on top of the open-loop base to actively hold a target idle RPM. Its output is a duty cycle bounded by the PID's minimum and maximum ("Output Min/Max Duty Cycle").
+
+Closed-loop correction only runs when the engine is actually idling. rusEFI decides this from:
+
+- `idlePidDeactivationTpsThreshold` — "Below this throttle position, the engine is considered idling".
+- `idlePidRpmUpperLimit` — "How far above idle speed do we consider idling, i.e. coasting detection threshold".
+- `idlePidRpmDeadZone` — "If the RPM closer to target than this value, disable closed loop idle correction to prevent oscillation".
+
+Configure the target idle RPM, the PID gains, and these thresholds in TunerStudio; no values are prescribed here. Tune the PID gradually and confirm behaviour on a [log](Logging-Guide).
+
+## Technical sources
+
+- Configuration field definitions: `firmware/integration/rusefi_config.txt` — `idleMode`, `idleRpmPid`, `idlePidDeactivationTpsThreshold`, `idlePidRpmUpperLimit`, `idlePidRpmDeadZone`, and the `idle` hardware settings (`solenoidFrequency`, `solenoidPin`, `useStepperIdle`).
