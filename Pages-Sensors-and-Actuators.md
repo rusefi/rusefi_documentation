@@ -1,5 +1,11 @@
 # Master list of Sensor and Actuators pages
 
+<details markdown="1" class="abstract"><summary><u>Temperature Sensors</u></summary>
+
+* [Coolant and Intake Air Temperature (CLT/IAT)](Temperature-Sensors)
+
+</details>
+
 <details markdown="1" class="abstract"><summary><u>Throttle and ETB</u></summary>
 
 * [How to - ETB](Electronic-Throttle-Body-Configuration-Guide)
