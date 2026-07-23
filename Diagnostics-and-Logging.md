@@ -22,6 +22,7 @@ This page collects the tools rusEFI gives you to see what the ECU is doing and t
 
 - [LED states](LED-states) — what the board LEDs mean.
 - [rusEFI Error Codes](Error-Codes) — OBD codes, cut codes, and ETB error codes.
+- [Warning and Check-Engine Light](Warning-and-Check-Engine-Light) — driving a MIL / warning light and the trigger-error output.
 
 ## Testing without an engine
 
