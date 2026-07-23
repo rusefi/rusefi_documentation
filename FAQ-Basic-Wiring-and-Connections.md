@@ -24,6 +24,10 @@ You do **not** need to wire injectors in a particular way. Cylinder #1 (as numbe
 
 Bottom line: as long as the hardware variant has at least as many injector outputs as your engine has cylinders, you will be able to run one injector per cylinder.
 
+Each injector is switched on the **low side**: one injector terminal connects to switched 12 V (usually through the [main relay](#main-relay)), and the other connects to the ECU's injector output, which pulses it to ground. Flyback protection for the injector's coil is handled by the injector driver on the board.
+
+**Low-impedance injectors:** the injector drivers on rusEFI hardware are saturated drivers intended for high-impedance injectors. Low-impedance injectors (typically around 2–4 ohms) draw much more current and are not directly supported. The traditional way to run them is to fit a **series ballast resistor** in each injector's 12 V feed to raise the effective impedance into the high-impedance range; size the resistors for the injector's current and power dissipation. Where you have the choice, prefer high-impedance injectors.
+
 ### Coils
 
 Most hardware variants support only logic-level drive for coils. This means that coils which have built-in ignitors will work, for example GM LSx, IGN1A, Denso stick coil, etc. You should consult the documentation for both the coils and the rusEFI hardware you are using to determine whether you can directly wire the coils or an external ignitor/something else is required. Note: coil outputs are among the *least* robust (in terms of tolerating shorts, excessive voltages, etc.) on many hardware variants, including Proteus. Double-check your wiring! uaEFI supports IGBT expansion for dumb coils; kindly read the uaEFI manual for more information.
