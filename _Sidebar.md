@@ -14,28 +14,53 @@
 
 ## Guides
 
+### Troubleshooting & Diagnostics
+
 - [Troubleshooting](Troubleshooting)
-- [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
-- [Cranking](Cranking)
-- [Trigger - Configuration](Trigger-Configuration-Guide)
-- [Trigger - Setting Offset](How-Do-I-Set-My-Trigger-Offset)
-- [Electronic Throttle](Electronic-Throttle-Body)
-- [Idle Control](Idle-Control)
-- [Sensors & Calibration](Sensors-and-Calibration)
 - [Diagnostics & Logging](Diagnostics-and-Logging)
 - [Logging](Logging-Guide)
+
+### Wiring, Sensors & Calibration
+
+- [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
+- [Sensors & Calibration](Sensors-and-Calibration)
 - [Wideband Oxygen Sensors](Wide-Band-Sensors)
+
+### Trigger & Idle
+
+- [Trigger - Configuration](Trigger-Configuration-Guide)
+- [Trigger - Setting Offset](How-Do-I-Set-My-Trigger-Offset)
+- [Cranking](Cranking)
+- [Idle Control](Idle-Control)
+
+### Fuel
+
 - [Fueling](Fuel-Overview)
 - [Flex Fuel](Flex-Fuel)
 - [Direct Injection](GDI-status)
+
+### Ignition
+
 - [Knock Sensing](knock-sensing)
-- [Variable Valve Timing](VVT)
-- [Lua Scripting](Lua-Scripting)
-- [Digital Dash](Digital-Dash)
 - [Multispark](Multi-Spark)
+
+### Electronic Throttle
+
+- [Electronic Throttle](Electronic-Throttle-Body)
+
+### Advanced & Performance
+
+- [Variable Valve Timing](VVT)
 - [Launch Control](HOWTO-Launch-Control)
+- [Flat Shifting](Flat-Shifting)
 - [Boost Control](Boost-Control)
 - [Traction Control](Traction-Control)
+
+### Dash & Connectivity
+
+- [Lua Scripting](Lua-Scripting)
+- [Digital Dash](Digital-Dash)
+- [Bluetooth](Bluetooth)
 
 ## ECU Hardware
 
