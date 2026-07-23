@@ -3,6 +3,7 @@
 <details markdown="1" class="abstract"><summary><u>CAN bus</u></summary>
 
 * [CAN Bus overview](CAN)
+* [CAN Broadcast for Dashboards and Gauges](CAN-Broadcast-for-Dashboards)
 * [TunerStudio over CAN](TS-over-CAN)
 * [Calibration via CAN](rusEFI-calibration-via-CAN)
 * [Firmware update via CAN](Firmware-update-via-CAN)

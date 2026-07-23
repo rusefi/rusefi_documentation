@@ -20,6 +20,8 @@ Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not re
 
 ## Third-party Dashboards
 
+See [CAN Broadcast for Dashboards and Gauges](CAN-Broadcast-for-Dashboards) for how to stream engine data to a dashboard or gauge over CAN (rusEFI verbose broadcast + DBC, dashboard presets, OBD2, and phone/tablet dashes over Bluetooth).
+
 ![image](Images/TS/TunerStudio_canbus_dash_haltech.png)
 
 ![image](Images/TS/TunerStudio_canbus_dash_aim.png)
