@@ -22,7 +22,24 @@ Where:
 charge_temp (Tcharge) is a charge temperature heuristic formula: `Tcharge = CLT *(1 - Tcharge_coff) + IAT* Tcharge_coff`  
 Where Tcharge_coff is interpolated between 0.25 if RPM is low or the throttle is closed to 0.9 if RPM is high and the throttle is wide open. See [http://rusefi.com/math/t_charge.html](http://rusefi.com/math/t_charge.html)
 
+## Setting it up
+
+1. **Select the algorithm.** Set the fuel algorithm (`fuelAlgorithm`) to Speed Density. The firmware describes this mode as using "intake manifold pressure (MAP) and intake air temperature (IAT) to calculate air density and fuel requirements."
+2. **Calibrate the MAP sensor.** Speed density depends entirely on an accurate MAP reading, so make sure your MAP sensor is configured and reading correctly.
+3. **Tune the VE table.** The volumetric efficiency (VE) table — indexed by RPM and load (MAP), a 16×16 table — is the main table you tune. Building an accurate VE table is what makes speed density work well; a fully registered copy of TunerStudio can auto-tune it (see [Fuel Overview](Fuel-Overview)).
+
+### Other algorithms
+
+If speed density does not suit your engine, rusEFI offers alternatives selected by the same `fuelAlgorithm` setting:
+
+- [AlphaN](AlphaN) — throttle-position based, for individual throttle bodies or engines without a reliable MAP signal.
+- [Mass Air Flow](MAF) — uses a MAF sensor to measure incoming air directly.
+
 ## How To Tune
 
 The speed density strategy in rusEFI shares its basic tuning method with the speed density systems in other aftermarket ECUs.  
 If you are familiar with the tuning of another aftermarket ECU then it is likely the tuning of speed density on rusEFI will be very easy to get into.
+
+## Technical sources
+
+- Configuration field definitions: `firmware/integration/rusefi_config.txt` — `fuelAlgorithm` (`engine_load_mode_e`: Speed Density / Alpha-N / MAF Air Charge / Lua). The fuel/VE table is 16×16 (`FUEL_RPM_COUNT` × `FUEL_LOAD_COUNT`).
