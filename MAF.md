@@ -68,3 +68,13 @@ If a different air/fuel ratio is desired at a specific load or RPM, then the AFR
 ![VE Table](Images/TS/TunerStudio_VE_table.png)
 
 Some useful MAF sensor maths in [this link](https://www.efunda.com/designstandards/sensors/hot_wires/hot_wires_theory.cfm)
+
+## Related pages
+
+- [Speed Density](Speed-Density) — the MAP-based algorithm, rusEFI's primary recommendation.
+- [AlphaN](AlphaN) — the throttle-position based algorithm.
+- [Fuel Overview](Fuel-Overview) — how rusEFI calculates fuel.
+
+## Technical sources
+
+- Configuration field definitions: `firmware/integration/rusefi_config.txt` — `fuelAlgorithm` (`engine_load_mode_e`: Speed Density / Alpha-N / MAF Air Charge / Lua). Select "MAF Air Charge" to use this strategy.
