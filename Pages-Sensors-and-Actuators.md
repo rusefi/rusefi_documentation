@@ -79,6 +79,12 @@
 
 </details>
 
+<details markdown="1" class="abstract"><summary><u>Cooling Fans</u></summary>
+
+* [Cooling Fan Control](Cooling-Fan-Control)
+
+</details>
+
 <details markdown="1" class="abstract"><summary><u>Vehicle Specific Oddities</u></summary>
 
 * [Mazda PRC Valve](Mazda-PRC-Valve)
