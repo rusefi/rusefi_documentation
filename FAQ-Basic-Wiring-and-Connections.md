@@ -154,6 +154,7 @@ Doing it this way is preferred to get the best performance from your ECU input a
 
 ## Related pages
 
+- [Grounding](Grounding) - sensor, power, and chassis grounds and grounding best practice.
 - [Crimping Hints](HOWTO-Crimp) - general crimping tips.
 - [Crimping Ampseal Connectors](HOWTO-Crimp-Ampseal) - crimping the Ampseal connectors used on many rusEFI boards.
 - [OEM Connectors](OEM-connectors) - reference of OEM connector pinouts and part numbers.
