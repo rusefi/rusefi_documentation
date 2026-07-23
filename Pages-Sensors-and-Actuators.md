@@ -8,6 +8,7 @@
 
 <details markdown="1" class="abstract"><summary><u>Throttle and ETB</u></summary>
 
+* [Throttle & Pedal Position (TPS/APP)](Throttle-and-Pedal-Sensors)
 * [How to - ETB](Electronic-Throttle-Body-Configuration-Guide)
 * [Vault of ETBs](Vault-Of-Electronic-Throttle-Bodies-ETB)
 
