@@ -16,6 +16,21 @@ However we are aware that there are many users that would still prefer to use th
 
 Where TPS is the reading at the start of the engine cycle
 
+## Setting it up
+
+1. **Select the algorithm.** Set the fuel algorithm (`fuelAlgorithm`) to Alpha-N. The firmware describes this mode as: "Uses throttle position as the primary load input for fuel calculation. This strategy is generally used in engines with individual throttle bodies or those that lack a reliable MAP signal."
+2. **Tune the fuel table.** The fuel (VE) table is indexed by RPM and TPS instead of RPM and MAP.
+
 ## How to Tune
 
 The AlphaN system in rusEFI can be tuned in the same way as Speed Density.
+
+## Related pages
+
+- [Speed Density](Speed-Density) — the MAP-based algorithm rusEFI recommends where a MAP signal is usable.
+- [Mass Air Flow](MAF) — the MAF-sensor based algorithm.
+- [Fuel Overview](Fuel-Overview) — how rusEFI calculates fuel.
+
+## Technical sources
+
+- Configuration field definitions: `firmware/integration/rusefi_config.txt` — `fuelAlgorithm` (`engine_load_mode_e`: Speed Density / Alpha-N / MAF Air Charge / Lua).
