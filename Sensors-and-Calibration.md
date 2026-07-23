@@ -12,6 +12,7 @@ For sensor wiring specifics, see the [Wiring & Connectivity Overview](FAQ-Basic-
 
 - [MAP Sensor](MAP-Sensor) — manifold absolute pressure; sensor presets and two-point calibration.
 - [Oil Pressure (and linear analog sensors)](Oil-Pressure-Sensor) — two-point voltage-to-pressure calibration, also used for fuel pressure and other linear sensors.
+- [Fuel Pressure](Fuel-Pressure) — low-side and high-pressure (GDI) fuel sensors, and why fuel pressure matters for injector flow.
 
 ## Throttle
 
@@ -26,6 +27,18 @@ For sensor wiring specifics, see the [Wiring & Connectivity Overview](FAQ-Basic-
 
 - [Triggers](Trigger) — crank and cam position sensors and trigger setup.
 - [Knock Sensing](knock-sensing) — detonation detection and response.
+
+## Vehicle speed
+
+- [Vehicle Speed Sensor (VSS)](Vehicle-Speed-Sensor) — road speed input, also used for wheel-slip features like traction control.
+
+## Related actuators and outputs
+
+These are not sensors, but they use the sensor data above and are commonly set up alongside it:
+
+- [Cooling Fan Control](Cooling-Fan-Control) — fan switching based on coolant temperature.
+- [Air Conditioning (A/C) Control](Air-Conditioning-Control) — compressor control and idle-up.
+- [Tachometer Output](Tachometer-Output) — driving a dashboard tach from engine speed.
 
 ## See also
 
