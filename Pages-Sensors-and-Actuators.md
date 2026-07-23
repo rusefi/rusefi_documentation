@@ -71,6 +71,12 @@
 
 </details>
 
+<details markdown="1" class="abstract"><summary><u>Vehicle Speed</u></summary>
+
+* [Vehicle Speed Sensor (VSS)](Vehicle-Speed-Sensor)
+
+</details>
+
 <details markdown="1" class="abstract"><summary><u>Vehicle Specific Oddities</u></summary>
 
 * [Mazda PRC Valve](Mazda-PRC-Valve)
