@@ -46,14 +46,14 @@
 
 - [uaEFI](uaEFI)
 - [microRusEFI](microRusEFI-Manual)
-- [Proteus](Proteus)
+- [Proteus](Proteus-Manual)
 
 ### Plug-and-Play ECUs
 
 - [Honda OBD1](uaEFI-Honda-OBD1)
 - [GM E38](GM-E38)
 - [GM E92](PnP-E92)
-- [Hellen](https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform)
+- [Hellen](Hellen-One-Platform)
 
 - [Other Hardware](Other-Hardware)
 
