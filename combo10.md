@@ -7,21 +7,74 @@ combo10 is a 10-inch touchscreen dashboard for rusEFI. It includes:
 - limited on-device tuning support; and
 - a Windows Dash Simulator.
 
-This guide explains how to try the dashboard on Windows, flash combo10 hardware,
-and confirm that the installation is working.
+## Get started with combo10
 
-## Downloads
+1. Connect the ECU to combo10. Make sure the ECU is powered on or the ignition
+   is on. Skip this step if you only want to explore the combo10 dashboard
+   without ECU connectivity.
+2. Connect combo10 to a 12–36 V power supply and power it on.
+3. combo10 starts and displays the dashboard screen shown below.
 
-Download the latest files from the
-[combo10 releases page](https://github.com/rusefi/combo10-releases/releases).
+  <img width="1278" height="795" alt="Main screen" src="https://github.com/user-attachments/assets/6ee873d9-9a3e-4ab5-8a6f-b1630ea9e3f5" />
 
-The release may contain several packages:
 
-| File | Use |
-|---|---|
-| `dwin_10in_*.img.7z` | Full hardware image for an SD card |
-| `Dash-Windows-x64-*.zip` | Windows Dash Simulator |
-| `screen_autoupdate_*.7z` | Dashboard application update for hardware that is already installed |
+4. If the ECU connects successfully, combo10 automatically opens the setup
+   wizard. Follow the on-screen steps to complete the engine configuration.
+5. combo10 is now ready to use.
+
+## Customize the dashboard
+
+<img width="1276" height="796" alt="Customize gauges" src="https://github.com/user-attachments/assets/dc30b612-d8a2-4ac0-be0a-481c9aecb826" />
+
+Tap any gauge to open its customization menu. The following controls are
+available:
+
+- **Search:** Opens the gauge-selection screen, where you can search for and
+  select one of the available gauge types.
+- **Resize:** Drag upward to make the gauge larger or downward to make it
+  smaller.
+- **Drag:** Drag the gauge to move it to a different position on the dashboard.
+- **Arrange:** Changes the gauge's stacking position, moving it forward or
+  backward relative to other gauges.
+- **Delete:** Removes the gauge from the dashboard.
+- **Set Max:** Sets the maximum value displayed by the gauge.
+- **Dec On:** Enables decimal values. For example, a value displayed as `0`
+  becomes `0.0`.
+- **Set Danger:** Sets the value at which the gauge enters the danger zone.
+- **Mode:** Selects one of four display styles: gauge, text/digital, vertical
+  bar, or horizontal bar.
+
+While editing a gauge, tap anywhere outside it to apply your changes. You can
+also apply them by tapping the confirmation button on the right-side panel.
+
+<!-- Add gauge-customization image here. -->
+
+## Use the right-side panel
+
+<img width="1278" height="800" alt="Menu" src="https://github.com/user-attachments/assets/0e806f2a-7049-4997-aa6f-b1ac26dcb31b" />
+
+The right-side panel provides access to dashboard layouts, ECU configuration,
+diagnostic tools, and device information:
+
+1. **Add Gauge:** Adds a new gauge at a random position on the dashboard.
+   You can then move, resize, and customize it.
+2. **Tuning:** Opens the Tuning screen, where you can adjust the desired ECU
+   configuration while viewing live data at the bottom of the screen.
+3. **Wizard:** Opens the setup wizard. Use it to configure the ECU for the first
+   time or reset and reconfigure an ECU that has already been set up. The wizard
+   is a linked sequence: its steps must be completed in order and cannot be
+   modified separately after completion.
+4. **Commands:** Opens the Commands screen, where you can test ECU-controlled
+   components such as spark plugs and injectors.
+5. **Pinout:** Opens the Pinout screen, where you can check ECU connections and
+   view the description of each pin and the color legend.
+6. **Save As:** Opens the Save As screen, where you can save the current gauge
+   layout.
+7. **Load:** Opens the Load screen, where you can load a previously saved gauge
+   layout.
+8. **Reset Layout:** Restores the default gauge layout.
+9. **About Device:** Opens the About Device screen, where you can check the
+   installed software versions.
 
 ## Try the Windows Dash Simulator
 
@@ -41,69 +94,6 @@ write ECU configuration, including the setup wizard, require an ECU connection.
 
 <img width="1280" height="825" alt="combo10 dashboard wizard" src="https://github.com/user-attachments/assets/4bb20ed9-e4aa-403f-8c4c-9ccb1953c309" />
 
-
-## Flash combo10 hardware
-
-### What you need
-
-- combo10 hardware with the 10-inch display;
-- an SD card with at least 2 GB of capacity;
-- an SD card reader; and
-- a Windows or Linux computer.
-
-> **Warning:** Flashing an image erases everything on the selected SD card.
-> Check the selected drive carefully before writing the image.
-
-### 1. Download and extract the image
-
-Download the latest `dwin_10in_*.img.7z` file, then extract it. The extracted
-file has an `.img` extension.
-
-### 2. Write the image to the SD card
-
-On Windows, use an image-writing tool such as
-[Rufus](https://rufus.ie/) or
-[Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/).
-Select the extracted `.img` file and write it to the **whole SD card**, not to a
-partition.
-
-On Linux, identify the SD card with `lsblk`, then write the image with:
-
-```sh
-7z x -so dwin_10in_*.img.7z | sudo dd of=/dev/sdX bs=4M status=progress conv=fsync
-```
-
-Replace `/dev/sdX` with the device for your SD card. Selecting the wrong device
-can erase another disk.
-
-### 3. Install the image on the device
-
-1. Power off combo10.
-2. Insert the flashed SD card.
-3. Power on the device.
-4. Wait while the screen displays **Updating firmware - do not power off**.
-   Installation normally takes about one or two minutes.
-5. When **Update complete - remove SD card and reboot** appears, power off the
-   device and remove the SD card.
-6. Power on the device again without the SD card.
-
-The device now boots from its internal storage and starts the dashboard
-automatically. Do not interrupt power while an installation or update is in
-progress.
-
-## Test the installation
-
-After the dashboard starts:
-
-1. Confirm that the touchscreen responds and the side menu opens.
-2. Open **ABOUT DEVICE** from the right-side menu.
-3. Confirm that **Dash version** and **Subsystem version** contain values.
-4. Connect the ECU and verify that the connection indicator changes state.
-5. Open the setup wizard and complete the required engine configuration.
-6. Return to the dashboard and confirm that gauges receive live ECU values.
-
-Without an ECU, you can still inspect the dashboard and menus, but live values,
-the setup wizard, and ECU tuning operations cannot be fully tested.
 
 ## Software versions
 
@@ -149,13 +139,73 @@ application update does not change it.
 Use this method when combo10 is already installed and you only need a newer
 dashboard application:
 
-1. Format a USB drive as FAT32.
-2. Copy `screen_autoupdate_*.7z` to the root of the drive. Do not extract it.
-3. Safely eject the drive from the computer.
-4. Insert it into the running combo10 device.
-5. Wait for the update to finish and for the dashboard to restart.
+1. Download `screen_autoupdate_*.7z` from the
+   [combo10 releases page](https://github.com/rusefi/combo10-releases/releases).
+2. Format a USB drive as FAT32.
+3. Copy `screen_autoupdate_*.7z` to the root of the drive. Do not extract it.
+4. Safely eject the drive from the computer.
+5. Insert it into the running combo10 device.
+6. Wait for the update to finish and for the dashboard to restart.
 
 This updates the Dash version but leaves the Subsystem version unchanged.
+
+## Major image update
+
+A major image update replaces the operating system and the bundled dashboard.
+It is not required for initial setup. Use this procedure only when a combo10
+release or support instructions specifically call for a full image update.
+
+### What you need
+
+- an SD card with at least 2 GB of capacity;
+- an SD card reader; and
+- a Windows or Linux computer.
+
+> **Warning:** Writing an image erases everything on the selected SD card.
+> Check the selected drive carefully before writing the image.
+
+### 1. Download and extract the image
+
+Download the latest `dwin_10in_*.img.7z` file from the
+[combo10 releases page](https://github.com/rusefi/combo10-releases/releases),
+then extract it. The extracted file has an `.img` extension.
+
+### 2. Write the image to the SD card
+
+On Windows, use an image-writing tool such as
+[Rufus](https://rufus.ie/) or
+[Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/).
+Select the extracted `.img` file and write it to the **whole SD card**, not to a
+partition.
+
+On Linux, identify the SD card with `lsblk`, then write the image with:
+
+```sh
+7z x -so dwin_10in_*.img.7z | sudo dd of=/dev/sdX bs=4M status=progress conv=fsync
+```
+
+Replace `/dev/sdX` with the device for your SD card. Selecting the wrong device
+can erase another disk.
+
+### 3. Update combo10
+
+1. Power off combo10.
+2. Insert the prepared SD card.
+3. Power on the device.
+4. Wait while the screen displays **Updating firmware - do not power off**.
+   The update normally takes about one or two minutes.
+5. When **Update complete - remove SD card and reboot** appears, power off the
+   device and remove the SD card.
+6. Power on the device again without the SD card.
+
+The device now boots the updated system from its internal storage and starts the
+dashboard automatically. Do not interrupt power while an update is in progress.
+
+### Confirm the major update
+
+After the dashboard starts, open **ABOUT DEVICE** from the right-side menu and
+confirm that **Dash version** and **Subsystem version** contain the expected
+values.
 
 ## Troubleshooting and support information
 
@@ -171,4 +221,3 @@ status circle in the bottom-right corner.
 ### Where is the source code?
 
 combo10 is not open source.
-
