@@ -23,8 +23,8 @@ At the moment we focus on BMW F-series support while working with the following 
 * ✅ OEM BMW E9x and siblings
 * ✅ OEM BMW E46 and siblings like E39
 * obviously rusEFI coming soon!
-* generic legacy analog inputs only should be doable
-* GM E38 should be doable but who puts BMW 8hp on LS engines?
+* generic legacy coming soon!
+* GM E38 coming soon!
 
 ### integration
 
