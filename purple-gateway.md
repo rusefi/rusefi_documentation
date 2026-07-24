@@ -14,6 +14,8 @@ The rusEFI Purple Gateway is a CANbus module that provides necessary engine data
 
 [💾Download Software💾](https://rusefi.com/installer/Purple_Updater_windows-x64.exe)
 
+<img width="635" height="524" alt="image" src="https://github.com/user-attachments/assets/451569fc-0a10-4b46-ad2a-4bc5fcfdf1bb" />
+
 ## 8hp
 
 ### Supported ECUs
@@ -53,7 +55,7 @@ Harness side 3-1437290-8
 
 ### Q: Is it ready?
 
-A: not ready as on June 2026. BMW is way ahead of dodge.
+A: Yes, Dodge is ready*! Some BMW stuff also ready*
 
 ### Q: hello i am looking at setting up an 8hp gearbox with an engine, will i be able to run it with your kit?
 
