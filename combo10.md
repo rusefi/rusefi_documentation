@@ -1,5 +1,11 @@
 # combo10
 
+## TL, DR
+
+https://github.com/rusefi/combo10-releases/releases
+
+## Combo10
+
 combo10 is a 10-inch touchscreen dashboard for rusEFI. It includes:
 
 - a customizable dashboard;
@@ -81,7 +87,7 @@ diagnostic tools, and device information:
 The simulator lets you explore the dashboard, menus, gauges, and general user
 interface without flashing an SD card.
 
-1. Download `Dash-Windows-x64-*.zip` from the releases page.
+1. Download `Dash-Windows-x64-*.zip` from the [releases page](https://github.com/rusefi/combo10-releases/releases).
 2. Extract the ZIP file to a folder on your computer.
 3. Run the dashboard executable from the extracted folder.
 
