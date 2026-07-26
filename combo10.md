@@ -82,6 +82,27 @@ diagnostic tools, and device information:
 9. **About Device:** Opens the About Device screen, where you can check the
    installed software versions.
 
+## Use the Tuning screen
+
+On the main gauges screen, open the right-side panel and tap **Tuning** to adjust the ECU configuration
+while monitoring live engine data.
+
+<img width="1274" height="804" alt="Tuning screen" src="https://github.com/user-attachments/assets/a8805016-c875-460b-b03c-64a56d450aeb" />
+
+The left side of the Tuning screen contains the configuration menu. Use the
+search bar above the menu to find a specific item, then select the item to open
+its settings in the main area of the screen.
+
+Eight digital live gauges remain visible along the bottom of the screen. These
+gauges cannot be removed, but you can change the data shown by each one:
+
+1. Tap the gauge that you want to change.
+2. On the gauge-selection screen, search for the required gauge type.
+3. Select the gauge type to assign it to that position.
+
+To view additional live data, tap the arrow button at the upper-right corner of
+the gauge area. This opens the extended live-data panel.
+
 ## Try the Windows Dash Simulator
 
 The simulator lets you explore the dashboard, menus, gauges, and general user
