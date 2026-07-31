@@ -245,8 +245,10 @@ values.
 ## Troubleshooting and support information
 
 Open **ABOUT DEVICE** from the right-side menu. For additional diagnostic
-information, press and hold **ABOUT DEVICE** for 5 seconds, or press the
-status circle in the bottom-right corner.
+information, press and hold **ABOUT DEVICE** for 5 seconds, or tap the
+status circle in the bottom-right corner. Hold the status circle for 2 seconds
+to enable dragging, move it while the yellow ring is visible, and release it
+at the desired location.
 
 <img width="1279" height="798" alt="combo10 diagnostic information" src="https://github.com/user-attachments/assets/411ea250-44f0-42b4-80f0-db58d9469696" />
 
