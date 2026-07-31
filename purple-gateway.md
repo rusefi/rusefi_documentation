@@ -65,6 +65,10 @@ A: for best results we need to coordinate torque management with the ECU which w
 
 A: that's not a TCU, see [TCU-status](TCU-status) for suggested terminology.
 
+### Q: I am building a Ford T with a carb, I need a complete stand alone controller to do all the shifting?
+
+A: Shifts would not be totally smooth if ECU is not reducing/increasing torque on demand. Are you OK with that?
+
 ### Q: where is the source code?
 
 A: TCU gateway feature is not open source.
