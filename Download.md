@@ -13,6 +13,8 @@ It does not include TunerStudio or MegaLogViewer.
 
 Quick release links. For latest, visit specific board page. [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
+[🆕rusEFI_Universal_Updater🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+
 [uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
 
 [uaEFI121](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip)
@@ -40,14 +42,6 @@ See specific board page for [other universal boards](Hardware)
 [Miata NB2 72 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
 
 [Miata NA6 64 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
-
-## Uncommon Boards
-
-[Frankenso PnP Miata NA6 bundle](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_frankenso_na6.zip)
-
-[microRusEFI 0.3 and older (STM32F7)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f7.zip)
-
-[Proteus 0.2 and older (STM32F7)](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_legacy.zip)
 
 ## Advanced
 
