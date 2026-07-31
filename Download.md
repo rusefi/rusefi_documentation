@@ -13,6 +13,8 @@ It does not include TunerStudio or MegaLogViewer.
 
 Quick release links. For latest, visit specific board page. [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
+[🆕rusEFI_Universal_Updater🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+
 [uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
 
 [uaEFI121](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip)
