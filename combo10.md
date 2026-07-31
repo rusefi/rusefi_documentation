@@ -30,10 +30,11 @@ combo10 is a 10-inch touchscreen dashboard for rusEFI. It includes:
 
 ## Customize the dashboard
 
-<img width="1276" height="796" alt="Customize gauges" src="https://github.com/user-attachments/assets/dc30b612-d8a2-4ac0-be0a-481c9aecb826" />
+<img width="1280" height="794" alt="customize mode" src="https://github.com/user-attachments/assets/76a52af3-649f-4d95-acc6-ae495a10771c" />
 
-Tap any gauge to open its customization menu. The following controls are
-available:
+Press and hold any gauge for 2 seconds to open its customization menu. The
+gauge being edited is highlighted with a yellow outline. The following controls
+are available:
 
 - **Search:** Opens the gauge-selection screen, where you can search for and
   select one of the available gauge types.
@@ -57,7 +58,8 @@ also apply them by tapping the confirmation button on the right-side panel.
 
 ## Use the right-side panel
 
-<img width="1278" height="800" alt="Menu" src="https://github.com/user-attachments/assets/0e806f2a-7049-4997-aa6f-b1ac26dcb31b" />
+<img width="1277" height="802" alt="Right side panel" src="https://github.com/user-attachments/assets/a17ab2fe-b4eb-4868-b6c3-dd12b08c5190" />
+
 
 The right-side panel provides access to dashboard layouts, ECU configuration,
 diagnostic tools, and device information:
@@ -78,8 +80,14 @@ diagnostic tools, and device information:
    layout.
 7. **Load:** Opens the Load screen, where you can load a previously saved gauge
    layout.
-8. **Reset Layout:** Restores the default gauge layout.
-9. **About Device:** Opens the About Device screen, where you can check the
+8. **Background:** Opens the background-selection screen. To import an image,
+   copy one or more PNG files to the root of a FAT32-formatted USB drive and
+   insert it into a USB port on the right side of combo10. Select an image and
+   tap **Apply**. Images are automatically cropped and resized; for the best
+   results, use a 1280 x 800. Tap **Restore Default** to
+   remove the custom background.
+9. **Reset Layout:** Restores the default gauge layout.
+10. **About Device:** Opens the About Device screen, where you can check the
    installed software versions.
 
 ## Use the Tuning screen
@@ -220,7 +228,7 @@ can erase another disk.
 2. Insert the prepared SD card.
 3. Power on the device.
 4. Wait while the screen displays **Updating firmware - do not power off**.
-   The update normally takes about one or two minutes.
+   The update normally takes about 1 or 2 minutes.
 5. When **Update complete - remove SD card and reboot** appears, power off the
    device and remove the SD card.
 6. Power on the device again without the SD card.
@@ -237,7 +245,7 @@ values.
 ## Troubleshooting and support information
 
 Open **ABOUT DEVICE** from the right-side menu. For additional diagnostic
-information, press and hold **ABOUT DEVICE** for five seconds, or press the
+information, press and hold **ABOUT DEVICE** for 5 seconds, or press the
 status circle in the bottom-right corner.
 
 <img width="1279" height="798" alt="combo10 diagnostic information" src="https://github.com/user-attachments/assets/411ea250-44f0-42b4-80f0-db58d9469696" />
