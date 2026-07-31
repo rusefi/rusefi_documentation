@@ -7,7 +7,7 @@ A sibling of [uaefi121](uaefi121) with STM32F7 for larger Lua scripts and motors
 [New to rusEFI start here](Home)
 
 [📦super-uaEFI Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_super-uaefi.zip)
-[🧪super-uaEFI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_super-uaefi.zip)
+[🆕rusEFI_Universal_Updater with Beta Snapshot🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
 [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
 ## Specs

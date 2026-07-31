@@ -7,7 +7,7 @@ Our older, fully-featured, larger ECU available at [💲rusEFI store💲](https:
 [New to rusEFI start here](Home)
 
 [📦microRusEFI Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
-[🧪microRusEFI Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
+[🆕rusEFI_Universal_Updater with Beta Snapshot🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
 [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
 ![microRusEFI image](Images/microRusEFI.jpeg)

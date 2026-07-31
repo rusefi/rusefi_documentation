@@ -7,7 +7,7 @@ Our older fully-featured larger ECU available at [💲rusEFI Store💲](https://
 New to rusEFI? [Start here](Home).
 
 [📦Proteus Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
-[🧪Proteus Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_proteus_f7.zip)
+[🆕rusEFI_Universal_Updater with Beta Snapshot🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
 [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
 ## Specs
