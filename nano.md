@@ -7,7 +7,7 @@ Our smallest universal ECU available at [💲rusEFI store💲](https://www.shop.
 [New to rusEFI start here](Home)
 
 [📦nano Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_nano.zip)
-[🧪nano Beta Snapshot](https://rusefi.com/build_server/rusefi_bundle_nano.zip)
+[🆕rusEFI_Universal_Updater with Beta Snapshot🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
 [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
 ## Specs
