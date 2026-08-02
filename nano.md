@@ -23,6 +23,7 @@ Our smallest universal ECU available at [💲rusEFI store💲](https://www.shop.
 * smart or dumb coils
 * CANbus
 * on-board SD card
+* online tuning via USB-C
 * 🔴 DESIGNED FOR INDUCTIVE IGNITION 🔴
 * 🔴 NOT COMPATIBLE WITH CDI 🔴
 
