@@ -9,7 +9,7 @@
 * [Chrysler / Dodge](Dodge-8hp) has interchangeable physical TCU, but totally different Chrysler CANbus dialect; some versions have a trans brake!
 * BMW E-series CAN bus dialect, before ISN/Component Protection - there is not enough of these, that lowers the appeal.
 
-[8HP interactive pinout](https://rusefi.com/docs/pinouts/8hp/)
+[⏩ 8HP Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/8hp/)
 
 ## ISN Reset
 
