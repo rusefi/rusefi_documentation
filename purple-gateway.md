@@ -57,6 +57,10 @@ Harness side 3-1437290-8
 
 A: Yes, Dodge is ready*! Some BMW stuff also ready*
 
+### Q: Do you support all LS ECUs? Do you support all Toyota ECUs?
+
+A: Hell no! Each ECU is separate and different. At the moment we focus on GM E38 and standalones.
+
 ### Q: hello i am looking at setting up an 8hp gearbox with an engine, will i be able to run it with your kit?
 
 A: for best results we need to coordinate torque management with the ECU which we can only do with one of the ECUs we support. What ECU do you have running the engine?
