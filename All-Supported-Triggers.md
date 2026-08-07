@@ -550,7 +550,7 @@ Chrysler NGC 6 cylinder
 
 ### 1.8t
 
-For cam trigger support check [Bosch Quick Start](#bosch-quick-start) if it is the '2 wide gaps 2 small gaps' cam trigger wheel, some earlier models instead use a cam trigger wheel with 1 missing tooth which can simply use single tooth trigger.
+For cam trigger support check [Bosch Quick Start](#vvt_bosch_quick_start) if it is the '2 wide gaps 2 small gaps' cam trigger wheel, some earlier models instead use a cam trigger wheel with 1 missing tooth which can simply use single tooth trigger.
 
 ## Miscellaneous
 
@@ -715,9 +715,7 @@ Use this cam trigger with special 3+0 symmetrical crank trigger.
 
 ![image](Images/TS/3000gt_trigger_offset_setup.png)
 
-## NISSAN_QR25
-
-Nissan
+## Nissan
 
 ### NISSAN_QR25
 
@@ -781,7 +779,7 @@ For historical reasons we support wrongfully wired 60-2
 
 ### 60_2_WRONG_POLARITY
 
-See also [Universal True 60/2](All-Supported-Triggers#602)
+See also [Universal True 60/2](All-Supported-Triggers#toothed_wheel_60_2)
 
 ![x](Images/triggers/trigger_TT_60_2_WRONG_POLARITY.png)
 
