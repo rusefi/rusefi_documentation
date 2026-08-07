@@ -64,7 +64,7 @@ Good tuning of the X-tau system relies on taking logs and some trial and error t
 
 ## Old Info
 
-![config](X-tau-Wall-Wetting)
+![config](Overview/wall_wetting/wall_wetting_sample_config.jpg)
 
 ![log](Overview/wall_wetting/wall_wetting_log.jpg)
 

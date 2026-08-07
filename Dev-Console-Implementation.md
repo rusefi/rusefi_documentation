@@ -28,4 +28,4 @@ The transport layer pushes data into EngineState.processNewData() which splits t
 
 Outgoing data flow:
 
-CommandQueue is the class which takes care of sending commands, making sure a confirmation is recieved and re-trying outgoing data transfer if needed.
+CommandQueue is the class which takes care of sending commands, making sure a confirmation is received and re-trying outgoing data transfer if needed.
