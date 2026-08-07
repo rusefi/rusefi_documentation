@@ -50,7 +50,8 @@ nav = [
     {"Support & Community" = "Support.md"},
     {"How to create a TunerStudio project" = "HOWTO-create-tunerstudio-project.md"},
     {"rusEFI Online" = "Online.md"},
-    {"FAQs and HOWTOs" = "Pages-FAQ-and-HOWTO.md"}
+    {"FAQs and HOWTOs" = "Pages-FAQ-and-HOWTO.md"},
+    {"Acronyms & Terminology" = "Vault-Of-Terminology.md"}
   ]},
   {"Guides" = [
     {"Wiring & Connectivity Overview" = "FAQ-Basic-Wiring-and-Connections.md"},
