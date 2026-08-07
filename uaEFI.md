@@ -99,15 +99,22 @@ New to rusEFI? Start with the [Getting Started roadmap](Getting-Started), which 
 
 ## Connectors
 
-Harness plugs are Molex Mini Fit Jr. Circuit counts are encoded in the part numbers.
+All five harness connectors are **Molex [Mini-Fit Jr.](https://www.molex.com/en-us/products/connectors/wire-to-board-connectors/mini-fit-connectors)**, a 4.20 mm pitch dual-row power connector family. The harness side uses **5557-series receptacle housings** and the board side uses **5569-series right-angle headers**, so a single Mini-Fit Jr. crimp terminal and one crimp tool cover the whole harness. Circuit counts are encoded in the part numbers.
 
-| Connector | Circuits | Harness plug (Molex Mini Fit Jr) | PCB header |
+| Connector | Circuits | Harness plug (Molex 5557 receptacle housing) | PCB header (Molex 5569 right-angle header) |
 |---|---|---|---|
-| A | 8 | 39012080 or 39012085 | 5569-08A2, 39300080, 39301080 |
-| B | 18 | 39012180 or 39012185 | 5569-18A2, 39301180 |
-| C | 20 | 39012200 or 39012205 | 5569-20A2, 39301200 |
-| D | 16 | 39012160 or 39012165 | 5569-16A2, 39301160 |
-| E | 6 | 39012060 or 39012065 | 5569-06A2, 39301060 |
+| A | 8 | 39012080 or 39012085 | 39301080 (legacy 5569-08A2), 39300080 |
+| B | 18 | 39012180 or 39012185 | 39301180 (legacy 5569-18A2) |
+| C | 20 | 39012200 or 39012205 | 39301200 (legacy 5569-20A2) |
+| D | 16 | 39012160 or 39012165 | 39301160 (legacy 5569-16A2) |
+| E | 6 | 39012060 or 39012065 | 39301060 (legacy 5569-06A2) |
+
+Two things that make the list above look more confusing than it is:
+
+- **The pairs are the same housing in two flame ratings.** The part ending in `0` is UL 94V-2 and the one ending in `5` is UL 94V-0 — for example 39012080 and 39012085 are both 8-circuit Mini-Fit Jr. receptacle housings. Either one mates; 94V-0 is the more flame-retardant material.
+- **`5569-xxA2` is Molex's legacy numbering** for the same right-angle headers, so 5569-08A2 and 39301080 are one part, not two.
+
+You also need Mini-Fit Jr. **crimp terminals** and a matching crimp tool; these are not part-specific to uaEFI and are listed on the Mini-Fit Jr. family page linked above.
 
 ### External USB connector
 
