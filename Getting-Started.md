@@ -4,6 +4,8 @@ This page is an ordered roadmap for going from zero to a running, tunable rusEFI
 
 > New to the project? Skim the [rusEFI overview on the Home page](Home) first to see what rusEFI is and whether it fits your project.
 
+> Hitting unfamiliar abbreviations? EFI documentation is dense with them — CLT, MAP, TPS, ETB, baro, VVT and so on. They are all spelled out in [Acronyms & Terminology](Vault-Of-Terminology).
+
 ## 1. Choose your hardware
 
 Decide which ECU suits your engine and the features you need. rusEFI runs on two broad categories of hardware:

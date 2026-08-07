@@ -18,6 +18,11 @@ AFR is the ratio of air to fuel, often expressed as "14.7:1"
 Air Intake Temperature
 </details>
 
+<details markdown="1"><summary><u>APP</u></summary>
+
+Accelerator Pedal Position - the sensor on the pedal itself in a drive-by-wire setup. Same as PPS. See also DBW, ETB
+</details>
+
 <details markdown="1"><summary><u>ATDC</u></summary>
 
 After TDC, After Top Dead Center - See also BTDC
@@ -66,6 +71,16 @@ Crankshaft Position Sensor
 <details markdown="1"><summary><u>CR</u></summary>
 
 Compression Ratio
+</details>
+
+<details markdown="1"><summary><u>DBW</u></summary>
+
+Drive By Wire - the throttle is opened by a motor under ECU control instead of a cable from the pedal. See also ETB, APP
+</details>
+
+<details markdown="1"><summary><u>DFU</u></summary>
+
+Device Firmware Update - the STM32 bootloader mode used to flash firmware over USB. See [How To DFU](HOWTO-DFU)
 </details>
 
 <details markdown="1"><summary><u>DI</u></summary>
@@ -150,6 +165,11 @@ A pushpull or HighLow is an output that is powered "high" (12v or 5v) and switch
 High and low resistance, used in terms of fuel injectors, normally around 14 ohms for high impedance and ~4 ohms for low.
 </details>
 
+<details markdown="1"><summary><u>IAC</u></summary>
+
+Idle Air Control - a valve that lets air bypass the closed throttle plate to control idle speed. See [Idle Control](Idle-Control)
+</details>
+
 <details markdown="1"><summary><u>IAT</u></summary>
 
 Intake Air Temperature
@@ -222,6 +242,11 @@ Manifold Absolute Pressure, often used in the context of load sensors.
 Mean Best Timing, used in context of spark timing, it is the spark timing that results in the best torque  
 </details>
 
+<details markdown="1"><summary><u>MCU</u></summary>
+
+Microcontroller Unit - the processor on the ECU board, for example an STM32F4 or STM32F7
+</details>
+
 <details markdown="1"><summary><u>MLV</u></summary>
 
 [MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/)
@@ -245,6 +270,11 @@ Chrysler Next Generation Controller
 <details markdown="1"><summary><u>NTC</u></summary>
 
 Negative Temperature Coefficient, used in context of temperature sensors and refers to the resistance increasing as temperature decreases.  
+</details>
+
+<details markdown="1"><summary><u>OBD2</u></summary>
+
+On-Board Diagnostics II - the standard vehicle diagnostic protocol. rusEFI answers basic OBD2 requests so generic gauges and phone apps can read parameters
 </details>
 
 <details markdown="1"><summary><u>PIP</u></summary>
@@ -290,8 +320,8 @@ rusEFI
 <details markdown="1"><summary><u>RUSEFI</u></summary>
 
 Really Uber Simple EFI? Robust Ultra Simple EFI? Retarded Unproven Shitty EFI?
-</details
->
+</details>
+
 <details markdown="1"><summary><u>Secondary Coil</u></summary>
 
 The secondary winding of an ignition coil.  
@@ -353,6 +383,11 @@ The ideal quantity of fuel to burn with a quantity of air for complete combustio
 <details markdown="1"><summary><u>SOIC</u></summary>
 
 Small Outline Integrated Circuit  
+</details>
+
+<details markdown="1"><summary><u>TCU</u></summary>
+
+Transmission Control Unit - the controller for an automatic gearbox, separate from the engine ECU
 </details>
 
 <details markdown="1"><summary><u>TDC</u></summary>
