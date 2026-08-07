@@ -46,7 +46,7 @@ The most fully-featured ECU in this price category; available at [💲rusEFI Sto
 
 ## Technical Details
 
-[General rusEFI documentation](Support)
+[Support & Community](Support)
 
 [Schematics and fab files](https://github.com/rusefi/uaefi/tree/main/boards)
 
@@ -101,13 +101,11 @@ __A:__ https://shop.rusefi.com is the only official store, there are no distribu
 __A:__ You would have to remove two flyback diodes to have 8 similar injector outputs. You would have to figure out a way to have 8 equal coil outputs, maybe settle on wasted spark?
 Additional notes at https://rusefi.com/docs/pinouts/hellen/uaefi/?connector=b&pin=B17 https://rusefi.com/docs/pinouts/hellen/uaefi/?connector=b&pin=B18
 
-### Q: can I have three injectors per wire?
+*__Q:__ Can I have three injectors per wire?*  
+__A:__ Consider replacing chips with VNLD5090.
 
-A: consider replacing chips with VNLD5090
-
-### __Q:__ Can it do v12
-
-__A:__ No, it's not recommended. This board was designed for one injector per channel.
+*__Q:__ Can it do a v12?*  
+__A:__ It's not recommended. This board was designed for one injector per channel, so a v12 means two injectors per channel. It definitely would idle a v12; it's not certain whether thermals would be a problem at higher RPM. [Proteus](Proteus) or [rusEFI Huge](rusEFI-Huge) is recommended for a v12.
 
 *__Q:__ What's the difference between normal and PRO?*  
 __A:__ 94% of users should go with Normal. PRO can do much more complex Lua scripts, PRO also has a knock spectrogram feature.
@@ -119,25 +117,22 @@ PCB files are available for free; you should be able to order your own. Paid con
 *__Q:__ How do I use uaEFI with dumb coils?*  
 __A:__ See notes on the schematics, it has part numbers to add and reference numbers to remove!
 
-*__Q:__ Would it run a v12?*  
-__A:__ It definitely would idle a v12; not sure if thermals would be a problem at higher RPM with two injectors per channel. Proteus or Huge is recommended for v12.
-
 *__Q:__ How do I add Bluetooth?*  
-__A:__ See [Bluetooth](Bluetooth#jdy)
+__A:__ A JDY-33 module needs to be soldered on — see [Bluetooth](Bluetooth#supported-modules).
 
 *__Q:__ Where do I buy igniters?*  
 __A:__ See https://www.findchips.com/search/ISL9V3040D for stock at distributors.
 
 *__Q:__ Can it control a stepper motor?*  
-__A:__ Yes, it's possible.
+__A:__ Yes, it's possible — uaEFI drives a 4-wire stepper from its two DC motor drivers. See [Stepper Motor](Stepper-Motor) and [Stepper idle valve wiring](Idle-Control#stepper-idle-valve-wiring). There are two ways to set it up in TunerStudio:
 
-New quicker way
+*New quicker way:*
 
-<img width="344" height="132" alt="image" src="https://github.com/user-attachments/assets/7abdfbc8-e369-40fe-9da8-0950f2caf4f7" />
+<img width="344" height="132" alt="TunerStudio stepper idle preset" src="https://github.com/user-attachments/assets/7abdfbc8-e369-40fe-9da8-0950f2caf4f7" />
 
-Older detailed way
+*Older detailed way:*
 
-![image](Images/TS/TunerStudio_idle_stepper.png)
+![TunerStudio stepper idle settings](Images/TS/TunerStudio_idle_stepper.png)
 
 🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
 
