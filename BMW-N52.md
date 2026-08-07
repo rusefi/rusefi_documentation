@@ -10,6 +10,8 @@
 
 [adapter schematics](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-146-superseal.pdf)
 
+[superseal IGBT](https://rusefi.com/docs/pinouts/superseal-igbt/)
+
 BMW N52 (E90, E60, E82, Z4 platforms)
 
 Power: 215 hp (2.5L) to 260+ hp (3.0L).
