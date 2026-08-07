@@ -11,6 +11,7 @@
 - [How to create a TunerStudio project](HOWTO-create-tunerstudio-project)
 - [rusEFI Online](Online)
 - [FAQs and HOWTOs](Pages-FAQ-and-HOWTO)
+- [Acronyms & Terminology](Vault-Of-Terminology)
 
 ## Guides
 
