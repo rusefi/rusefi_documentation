@@ -4,6 +4,7 @@
 
 * [Preferred Code Style](Code-Style)
 * [Firmware Downloads](Download)
+* [Firmware Versions - Release vs Snapshot](Release-Snapshot-Latest-firmware)
 * [Feature ideas](I-have-an-idea)
 * [How To DFU](HOWTO-DFU)
 * [How To Update Firmware](HOWTO-Update-Firmware)
@@ -14,7 +15,21 @@
 
 <details markdown="1" class="abstract"><summary><u>Firmware Features</u></summary>
 
+* [Lua Scripting](Lua-Scripting)
 * [Password Protection](Password-Protection)
 * [Virtual Simulator](Virtual-simulator)
+
+</details>
+
+<details markdown="1" class="abstract"><summary><u>Tools and Services</u></summary>
+
+* [rusEFI Online - share tunes and logs](Online)
+
+</details>
+
+<details markdown="1" class="abstract"><summary><u>Development</u></summary>
+
+* [Custom rusEFI firmware for your own board](Custom-Firmware)
+* [Dev Console implementation](Dev-Console-Implementation)
 
 </details>
