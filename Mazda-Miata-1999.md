@@ -4,7 +4,7 @@
 
 [Mazda MX5 1.8 1999 AE](http://rusefi.com/forum/viewtopic.php?f=3&t=467)
 
-[Mazda Miata NB1 Trigger](All-Supported-Triggers#mazda-miata-nb)
+[Mazda Miata NB1 Trigger](All-Supported-Triggers#mazda_miata_nb1)
 
 `set engine_type 9`
 

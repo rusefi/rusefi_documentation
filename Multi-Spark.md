@@ -46,7 +46,7 @@ This is the delay between sparks during multispark.
 
 ### Dwell(ms)
 
-This is the ignition dwell used for subsequent sparks. Keep in mind that this does not need to be as long as your main ignition dwell due to a partial burn having already occured. Nor *should* it be as long in order to prevent overheating of the ignition coils.  
+This is the ignition dwell used for subsequent sparks. Keep in mind that this does not need to be as long as your main ignition dwell due to a partial burn having already occurred. Nor *should* it be as long in order to prevent overheating of the ignition coils.  
 
 ## Example
 

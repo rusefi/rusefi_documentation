@@ -51,7 +51,7 @@ This CAN interface is connected via USB to a laptop running Linux.
 Using the [SocketCAN](https://en.wikipedia.org/wiki/SocketCAN) driver to create a network interface (arbitrarily named "can0").
 
 Discovered via trial and error that the CAN bus bit rate on the Nissan Sentra is 500kbit/s.
-The the majority of passenger vehicles will use a CAN bus bit rate of either 250kbit/s or 500kbit/s.
+The majority of passenger vehicles will use a CAN bus bit rate of either 250kbit/s or 500kbit/s.
 
 Configuring the CAN network interface
 
