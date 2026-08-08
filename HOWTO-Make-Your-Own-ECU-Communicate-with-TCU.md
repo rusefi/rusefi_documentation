@@ -89,7 +89,9 @@ https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Pas
 
 ## Let's Produce _All_ MOTOR_xxx Packets
 
-https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_7_fake_torque_motor1.lua
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_7_0_fake_torque_motor1.lua
+
+https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/VAG/2006-Passat-B6/HOWTO/script_7_1_fake_torque_motor1.lua - same as above plus capturing the real torque values coming back from the TCU
 
 🔴 I've made the mistake of not running the same wheel spinning scenario on each iteration and not recording CAN bus traces and not looking at those traces. I was just focusing on "IS_ERROR", not on actual TCU outputs 🔴
 
