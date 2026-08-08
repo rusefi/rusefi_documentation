@@ -1,5 +1,7 @@
 # Case Studies
 
+See also [List of Engines Running rusEFI](List-of-Engines-Running-rusEFI) for the running log of builds going back to 2013.
+
 ![GTO race car](Images/gto.jpeg)
 
 ## 2024 Harley

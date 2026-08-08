@@ -42,6 +42,9 @@ __A:__ There is no single right answer. It really depends on what kind of electr
 *__Q:__ What are these four status LEDs close to main processor?*  
 __A:__ Many rusEFI boards have four status LEDs. See [LED States](LED-states).
 
+*__Q:__ Does this come with a base map?*  
+__A:__ Please see [Does This Come With a Base Map?](Basemap)
+
 *__Q:__ Exciting! What soldering iron is best?*  
 __A:__ Please see [FAQ Why No Self Assembly](FAQ-Why-No-Self-Assembly)
 
