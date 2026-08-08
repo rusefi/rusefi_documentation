@@ -32,6 +32,7 @@ It helps to have rusEFI Console and/or TunerStudio connected first, so you can r
 
 ## Sensor and output problems
 
+- [Bench Testing Outputs](Bench-Testing) - confirming each injector, coil, pump and relay is on the channel you think it is.
 - [Hardware Validation Failed](HARDWARE-VALIDATION-FAILED) - checking pins with the `readpin`, `bench_setpin`, and `bench_clearpin` console commands.
 - [Electronic Throttle Body - Troubleshooting](Electronic-Throttle-Body-Configuration-Guide#troubleshooting) - electronic throttle (DBW) diagnosis.
 - [Knock Sensing](knock-sensing) - knock detection setup and verification.

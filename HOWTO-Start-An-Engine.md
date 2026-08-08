@@ -26,6 +26,8 @@ Again, you need to be sure you have the correct information on your injectors an
 
 Injectors and ignition coils need to be bench tested to check that each one is wired and set to the correct ECU channel. This is critical: incorrect wiring or channel setting is like having the HT leads in the wrong order. You will fuel and spark the wrong cylinders.
 
+See [Bench Testing Outputs](Bench-Testing) for how to do this, from TunerStudio or from the console.
+
 ## Cranking Requirements
 
 The engine must be cranking well with the starter. If the engine cranks lazily, fix that first. You need a good, strong, consistent cranking speed.
