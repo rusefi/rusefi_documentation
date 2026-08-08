@@ -57,6 +57,7 @@
 - [Flat Shifting](Flat-Shifting)
 - [Boost Control](Boost-Control)
 - [Traction Control](Traction-Control)
+- [Transmission Control](Transmission-Control)
 
 ### Dash & Connectivity
 
