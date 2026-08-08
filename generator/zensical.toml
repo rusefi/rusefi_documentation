@@ -55,6 +55,7 @@ nav = [
   ]},
   {"Guides" = [
     {"Wiring & Connectivity Overview" = "FAQ-Basic-Wiring-and-Connections.md"},
+    {"Bench Testing Outputs" = "Bench-Testing.md"},
     {"Cranking" = "Cranking.md"},
     {"Trigger - Configuration" = "Trigger-Configuration-Guide.md"},
     {"Trigger - Setting Offset" = "How-Do-I-Set-My-Trigger-Offset.md"},
