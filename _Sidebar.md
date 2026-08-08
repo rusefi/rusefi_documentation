@@ -66,6 +66,7 @@
 ## ECU Hardware
 
 - [rusEFI Hardware Overview](Hardware)
+- [ECU Comparison](ECU-Comparison)
 
 ### Universal ECUs
 

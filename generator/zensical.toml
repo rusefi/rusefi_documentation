@@ -72,6 +72,7 @@ nav = [
   ]},
   {"ECU Hardware" = [
     {"rusEFI Hardware Overview" = "Hardware.md"},
+    {"ECU Comparison" = "ECU-Comparison.md"},
     {"Universal ECUs" = [
       {"uaEFI" = "uaEFI.md"},
       {"microRusEFI" = "microRusEFI-Manual.md"},
