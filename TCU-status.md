@@ -1,5 +1,7 @@
 # TCU Status
 
+See [Transmission Control](Transmission-Control) for an overview of the available approaches and which one suits your gearbox.
+
 ## Terminology
 
 First we need to establish good terminology.

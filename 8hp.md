@@ -1,6 +1,6 @@
 # 8HP Transmission
 
-[💜Purple Gateway💜](purple-gateway)
+[💜Purple Gateway💜](purple-gateway) · [Transmission Control overview](Transmission-Control)
 
 ## As of June 2026, we work on both 1st generation BMW F-series transmissions and Dodge/Chrysler
 

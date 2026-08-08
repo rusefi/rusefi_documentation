@@ -69,7 +69,8 @@ nav = [
     {"Variable Valve Timing" = "VVT.md"},
     {"Lua Scripting" = "Lua-Scripting.md"},
     {"Digital Dash" = "Digital-Dash.md"},
-    {"Multispark" = "Multi-Spark.md"}
+    {"Multispark" = "Multi-Spark.md"},
+    {"Transmission Control" = "Transmission-Control.md"}
   ]},
   {"ECU Hardware" = [
     {"rusEFI Hardware Overview" = "Hardware.md"},
