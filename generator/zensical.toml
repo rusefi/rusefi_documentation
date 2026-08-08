@@ -77,7 +77,7 @@ nav = [
     {"Universal ECUs" = [
       {"uaEFI" = "uaEFI.md"},
       {"microRusEFI" = "microRusEFI-Manual.md"},
-      {"Proteus" = "Proteus.md"}
+      {"Proteus" = "Proteus-Manual.md"}
     ]},
     {"Plug-and-Play ECUs" = [
       {"Honda OBD1" = "uaEFI-Honda-OBD1.md"},
