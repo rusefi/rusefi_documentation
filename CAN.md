@@ -1,5 +1,22 @@
 # CAN Bus
 
+CAN is the wiring most rusEFI features use to talk to anything that is not the engine itself — dashboards, wideband controllers, transmission controllers, and in several cases the tuning laptop. It is two wires, and once it is run, several features share it because they use different message IDs.
+
+## What CAN is used for
+
+| I want to | Page |
+|---|---|
+| Show engine data on a dash or gauge cluster | [CAN Broadcast for Dashboards and Gauges](CAN-Broadcast-for-Dashboards) |
+| Connect TunerStudio over CAN instead of USB | [TunerStudio over CAN](TS-over-CAN) |
+| Tune or log wirelessly | [CANbus to WiFi adapter](can2wifi) |
+| Read a wideband oxygen sensor | [rusEFI Wideband Controller](rusEFI-Wideband-Controller) |
+| Run a factory automatic transmission | [Transmission Control](Transmission-Control) |
+| Drive GDI injectors through an external module | [GDI status](GDI-status) |
+| Change calibrations over CAN | [Calibration via CAN](rusEFI-calibration-via-CAN) |
+| Flash firmware over CAN | [Firmware Update via CAN](Firmware-update-via-CAN) |
+
+Wiring, termination and bus speed are covered on [CAN Broadcast for Dashboards and Gauges](CAN-Broadcast-for-Dashboards) — a CAN bus needs a 120 ohm terminator at each end, and both ends must agree on speed. For everything else on the communications side, see the [communications index](Pages-Communications).
+
 ## Overview of CAN usage and IDs used by rusEFI
 
 Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not real diagnosis!
