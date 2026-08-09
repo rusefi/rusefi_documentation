@@ -28,7 +28,7 @@ For prices, store links and a short description of each board, see the [Hardware
 | VR (crank / cam) | 1 | 2 | 2 | 2 | 3 | **none** ƒ | 2 | 1, VR or Hall |
 | Hall / digital | — | 3 | 3 ƒ | 3 ƒ | 5 | 1 ƒ | 6 | 1 |
 | Analog inputs | 5 | 9 + 2 | 7 + 2 | 7 + 2 | 13 + 2 temp | 6 ƒ | 11 + 4 temp | 10 + 4 thermistor |
-| Knock sensing | — | yes | yes | yes | dual channel | yes ƒ | yes | — |
+| [Knock sensing](knock-sensing) | — | yes | yes | yes | dual channel | yes ƒ | yes | — |
 | Flex fuel input | — | yes | — | — | — | — | — | — |
 
 ## Outputs
@@ -37,7 +37,7 @@ For prices, store links and a short description of each board, see the [Hardware
 |---|---|---|---|---|---|---|---|---|
 | Low-side drivers | 6 total | 4 above 1 A, 6 on newer | 6 additional | 6 additional | 35 ƒ | 4 | 16 x 4 A | 2 high-current, 4 low-current |
 | High-side drivers | — | — | 1 x 2 A | 1 x 2 A | — | — | 4 x 12 V 3 A | — |
-| Electronic throttle (DBW) | — | 2 x 6 A H-bridge | dual | dual | 4 H-bridges | 1 DC output ƒ | dual | single |
+| [Electronic throttle (DBW)](Electronic-Throttle-Body-Configuration-Guide) | — | 2 x 6 A H-bridge | dual | dual | 4 H-bridges | 1 DC output ƒ | dual | single |
 | Stepper idle valve | — | yes | yes ƒ | yes ƒ | yes ƒ | — ƒ | yes | yes ƒ |
 | Tachometer output | dedicated pin | configurable | configurable | configurable | configurable | configurable | configurable | configurable |
 

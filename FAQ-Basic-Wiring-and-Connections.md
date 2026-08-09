@@ -143,7 +143,7 @@ Aftermarket trigger wheels ("Optical Disc") are available if you plan on install
 
 ### Knock Sensors
 
-Some ECU variants have a provision for knock sensors.
+Some ECU variants have a provision for knock sensors. For what rusEFI does with the signal once it is wired, see [Knock Sensing](knock-sensing).
 
 In regards to Knock Sensor quality of signal, a shielded cable (2 core) is recommended.
 

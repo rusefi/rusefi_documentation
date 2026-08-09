@@ -18,7 +18,7 @@ rusEFI supports mono, individual/sequential and batched fuel injection using one
 
 4. [MAF](MAF)-based air charge model that computes the air mass in the cylinder and thus the required fuel quantity from the direct measurement of the mass air flow.
 
-Wideband Oxygen Sensor is pretty much a requirement for both manual and auto-tuning.
+A [Wideband Oxygen Sensor](Wide-Band-Sensors) is pretty much a requirement for both manual and auto-tuning.
 
 ![General Settings](Images/Fuel_Control/general.png)
 

@@ -1,5 +1,7 @@
 # HOWTO Make Your Own ECU Communicate with TCU
 
+For an overview of the available approaches — rusEFI's own TCU logic, the Purple Gateway, or doing the CAN work yourself as described here — see [Transmission Control](Transmission-Control).
+
 ## Summary
 
 Notes on PG35 TCU Man-in-the-middle research.
