@@ -78,6 +78,7 @@ See also [How-Do-I-Set-My-Trigger-Offset](How-Do-I-Set-My-Trigger-Offset)
 
 ## Related pages
 
+- [Trigger Hardware](Trigger-Hardware) - choosing between Hall and VR sensors, with the pros and cons of each.
 - [Triggers](Trigger) - trigger overview: how rusEFI reads crank/cam position, plus troubleshooting.
 - [All Supported Triggers](All-Supported-Triggers) - list of built-in trigger patterns with diagrams.
 - [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset) - setting the global trigger angle offset.
