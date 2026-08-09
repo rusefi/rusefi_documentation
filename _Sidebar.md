@@ -58,6 +58,7 @@
 - [Boost Control](Boost-Control)
 - [Traction Control](Traction-Control)
 - [Transmission Control](Transmission-Control)
+- [Rotary Engines](Rotary)
 
 ### Dash & Connectivity
 
