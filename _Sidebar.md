@@ -30,8 +30,11 @@
 
 ### Trigger & Idle
 
+- [Trigger - Sensor Hardware](Trigger-Hardware)
 - [Trigger - Configuration](Trigger-Configuration-Guide)
+- [Trigger - Supported Patterns](All-Supported-Triggers)
 - [Trigger - Setting Offset](How-Do-I-Set-My-Trigger-Offset)
+- [Trigger - Troubleshooting](Trigger)
 - [Cranking](Cranking)
 - [Idle Control](Idle-Control)
 
