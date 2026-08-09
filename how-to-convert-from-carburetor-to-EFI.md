@@ -2,7 +2,7 @@
 
 *If there is an OEM EFI solution for your engine, you should probably start there.*
 
-If no such system exists or is prohibitively expensive, or if you just love punishmen, read on.
+If no such system exists or is prohibitively expensive, or if you just love punishment, read on.
 
 ## Requirements
 
