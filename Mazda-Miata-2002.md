@@ -12,7 +12,7 @@
 
 ![Wiring Diagram](Images/diagrams/Mazda_miata_2002_instrument.png)
 
-## Starting & power
+## Starting and power
 
 Main relay is controlled by ignition switch (this is different from 2003 where ECU controls main relay via 3H).
 
