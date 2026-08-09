@@ -1,5 +1,7 @@
 # How to TCU A42DE on Proteus
 
+See [Transmission Control](Transmission-Control) for which approach suits which gearbox; this page covers driving an older solenoid-controlled unit directly.
+
 [Proteus 0.2](Hardware-Proteus-Wiring-v02)
 
 [Mazda Miata 2001](Mazda-Miata-2001)
