@@ -68,6 +68,7 @@
 ### Dash & Connectivity
 
 - [Lua Scripting](Lua-Scripting)
+- [CAN Bus](CAN)
 - [Digital Dash](Digital-Dash)
 - [Bluetooth](Bluetooth)
 

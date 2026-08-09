@@ -85,6 +85,7 @@ nav = [
     {"Transmission Control" = "Transmission-Control.md"},
     {"Rotary Engines" = "Rotary.md"},
     {"Lua Scripting" = "Lua-Scripting.md"},
+    {"CAN Bus" = "CAN.md"},
     {"Digital Dash" = "Digital-Dash.md"},
     {"Bluetooth" = "Bluetooth.md"},
     {"Multispark" = "Multi-Spark.md"}
