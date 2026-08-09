@@ -7,6 +7,7 @@ For sensor wiring specifics, see the [Wiring & Connectivity Overview](FAQ-Basic-
 ## Temperature
 
 - [Coolant and Intake Air Temperature (CLT/IAT)](Temperature-Sensors) — thermistor bias resistor and three-point calibration.
+- [Temperature Sensing](Temperature-Sensing) — the `analoginfo` and `tempinfo` console commands for checking what the ECU is actually reading.
 
 ## Pressure
 
@@ -14,14 +15,23 @@ For sensor wiring specifics, see the [Wiring & Connectivity Overview](FAQ-Basic-
 - [Oil Pressure (and linear analog sensors)](Oil-Pressure-Sensor) — two-point voltage-to-pressure calibration, also used for fuel pressure and other linear sensors.
 - [Fuel Pressure](Fuel-Pressure) — low-side and high-pressure (GDI) fuel sensors, and why fuel pressure matters for injector flow.
 
+## Air flow
+
+- [Mass Air Flow (MAF)](MAF) — measuring intake air mass directly, as an alternative to calculating it from manifold pressure.
+
 ## Throttle
 
 - [Throttle Position and Pedal (TPS/APP)](Throttle-and-Pedal-Sensors) — closed / wide-open calibration and drive-by-wire pedal redundancy.
+- [SENT throttle and pedal sensors](SENT-ETB-Electronic-Throttle-Body) — digital SENT-protocol sensors rather than analog voltage.
 
 ## Air/fuel ratio (oxygen)
 
 - [Wideband Oxygen Sensors](Wide-Band-Sensors) — wideband / lambda AFR measurement.
 - [Medium Band Oxygen Sensor](Medium-band-oxygen) — Denso two-wire sensor.
+
+## Fuel composition
+
+- [Flex Fuel](Flex-Fuel) — ethanol content sensor, and the corrections that depend on it.
 
 ## Position and combustion
 

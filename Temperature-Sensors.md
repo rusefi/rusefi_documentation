@@ -30,6 +30,7 @@ Choose three points spread across the operating range (for example cold, warm, a
 
 ## Related pages
 
+- [Temperature Sensing](Temperature-Sensing) — the `analoginfo` and `tempinfo` console commands, for checking the voltage and resistance rusEFI is actually seeing.
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections) — sensor wiring and grounds.
 - [Vault of Sensors](Vault-Of-Sensors) — tested sensors and their values.
 
