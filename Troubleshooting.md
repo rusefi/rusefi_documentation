@@ -40,6 +40,7 @@ It helps to have rusEFI Console and/or TunerStudio connected first, so you can r
 ## Error codes and warnings
 
 - [rusEFI Error Codes](Error-Codes) - OBD codes, cut codes, and ETB error codes.
+- [Engine Protection](Engine-Protection) - if the ECU is cutting deliberately, this explains which protection acted and why.
 - [LED states](LED-states) - LED meanings, including the [fatal error](LED-states#fatal-error) state.
 
 ## CAN and external devices
