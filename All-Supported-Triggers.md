@@ -48,6 +48,7 @@ Total triggers: 96
 - [ONE_PLUS_ONE](#ONE_PLUS_ONE)
 
 ## tooth count 3
+- [BMW_VANOS_RELUCTOR](#BMW_VANOS_RELUCTOR)
 - [HONDA_CBR_600](#HONDA_CBR_600)
 - [TOYOTA_3_TOOTH_UZ](#TOYOTA_3_TOOTH_UZ)
 - [VVT_MIATA_NB](#VVT_MIATA_NB)
@@ -258,6 +259,12 @@ If the trigger seems to spin backwards, change from Rising edge to Falling edge 
 Bosch loves this shape, tons of German and GM vehicles use it.
 
 ![x](Images/triggers/trigger_TT_VVT_BOSCH_QUICK_START.png)
+
+## BMW
+
+### BMW_VANOS_RELUCTOR
+
+![trigger_TT_BMW_VANOS_RELUCTOR](Images/triggers/trigger_TT_BMW_VANOS_RELUCTOR.png)
 
 ## Honda
 
