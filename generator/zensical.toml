@@ -70,7 +70,8 @@ nav = [
     {"Lua Scripting" = "Lua-Scripting.md"},
     {"Digital Dash" = "Digital-Dash.md"},
     {"Multispark" = "Multi-Spark.md"},
-    {"Transmission Control" = "Transmission-Control.md"}
+    {"Transmission Control" = "Transmission-Control.md"},
+    {"Rotary Engines" = "Rotary.md"}
   ]},
   {"ECU Hardware" = [
     {"rusEFI Hardware Overview" = "Hardware.md"},
