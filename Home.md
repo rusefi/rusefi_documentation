@@ -48,7 +48,7 @@ In order to use rusEFI you will need to acquire one of the [supported control un
 | [Launch Control](HOWTO-Launch-Control)                                                                      | ✓          |
 | [Flat Shifting](Flat-Shifting)                                                                              | ✓          |
 | [Antilag](Antilag)                                                                                          | ✓          |
-| [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)                                               | ✓          |
+| [Boost-by-gear](https://github.com/rusefi/rusefi/issues/2404)                                               | ✗          |
 | [Traction Control](Traction-Control)                                                                        | ✓          |
 | [Blending (advanced version of dual table)](Blending)                                                       | ✓          |
 | [Knock Sensing & Response](knock-sensing)                                                                   | ✓          |
