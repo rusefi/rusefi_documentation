@@ -13,7 +13,9 @@ Decide which ECU suits your engine and the features you need. rusEFI runs on two
 - **Universal ECUs** — you wire them to your engine yourself.
 - **Plug-and-play (PnP) ECUs** — they connect to a specific factory harness.
 
-See the [Hardware overview](Hardware) for the supported boards, and [Other Hardware](Other-Hardware) for additional options. You can also design your own board.
+See the [Hardware overview](Hardware) for the supported boards, the [ECU Comparison](ECU-Comparison) for a spec-by-spec table, and [Other Hardware](Other-Hardware) for additional options. You can also design your own board.
+
+> Running a carburettor? The engine needs injection hardware before an ECU is any use — see [Converting an Engine to Fuel Injection](how-to-convert-from-carburetor-to-EFI) for what that involves.
 
 ## 2. Get the software
 

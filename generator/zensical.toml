@@ -63,6 +63,7 @@ nav = [
     {"Logging" = "Logging-Guide.md"},
     {"Wideband Oxygen Sensors" = "Wide-Band-Sensors.md"},
     {"Fueling" = "Fuel-Overview.md"},
+    {"Converting from a Carburettor" = "how-to-convert-from-carburetor-to-EFI.md"},
     {"Flex Fuel" = "Flex-Fuel.md"},
     {"Direct Injection" = "GDI-status.md"},
     {"Knock Sensing" = "knock-sensing.md"},

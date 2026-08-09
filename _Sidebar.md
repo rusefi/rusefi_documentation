@@ -38,6 +38,7 @@
 ### Fuel
 
 - [Fueling](Fuel-Overview)
+- [Converting from a Carburettor](how-to-convert-from-carburetor-to-EFI)
 - [Flex Fuel](Flex-Fuel)
 - [Direct Injection](GDI-status)
 
