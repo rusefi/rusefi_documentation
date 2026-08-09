@@ -4,6 +4,8 @@ If the engine will not fire, rusEFI usually knows why and is telling you. The **
 
 Cut codes and ETB codes are visible in TunerStudio and in your logs. See [Diagnostics and Logging](Diagnostics-and-Logging) for where to find them, and [Troubleshooting](Troubleshooting) for symptom-based help.
 
+If the code turns out to be a protection doing its job, [Engine Protection](Engine-Protection) explains what each one watches and how it is configured.
+
 ## Cut codes
 
 A non-zero cut code means the ECU has deliberately stopped fuel, spark or both. `None` (0) means nothing is being cut.

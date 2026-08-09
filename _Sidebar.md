@@ -20,6 +20,7 @@
 - [Troubleshooting](Troubleshooting)
 - [Diagnostics & Logging](Diagnostics-and-Logging)
 - [Logging](Logging-Guide)
+- [Engine Protection](Engine-Protection)
 
 ### Wiring, Sensors & Calibration
 

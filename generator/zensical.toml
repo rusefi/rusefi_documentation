@@ -56,6 +56,7 @@ nav = [
   {"Guides" = [
     {"Wiring & Connectivity Overview" = "FAQ-Basic-Wiring-and-Connections.md"},
     {"Bench Testing Outputs" = "Bench-Testing.md"},
+    {"Engine Protection" = "Engine-Protection.md"},
     {"Cranking" = "Cranking.md"},
     {"Trigger - Sensor Hardware" = "Trigger-Hardware.md"},
     {"Trigger - Configuration" = "Trigger-Configuration-Guide.md"},
