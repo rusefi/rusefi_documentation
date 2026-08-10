@@ -1,6 +1,6 @@
 # Case Studies
 
-See also [List of Engines Running rusEFI](List-of-Engines-Running-rusEFI) for the running log of builds going back to 2013.
+See also [List of Engines Running rusEFI](List-of-Engines-Running-rusEFI) for the running log of builds going back to 2013, and [rusEFI History](rusEFI-history) for how the project itself got started.
 
 ![GTO race car](Images/gto.jpeg)
 
