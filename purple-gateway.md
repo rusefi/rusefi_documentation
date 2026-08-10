@@ -65,7 +65,7 @@ A: Hell no! Each ECU is separate and different. At the moment we focus on GM E38
 
 ### Q: hello i am looking at setting up an 8hp gearbox with an engine, will i be able to run it with your kit?
 
-A: for best results we need to coordinate torque management with the ECU which we can only do with one of the ECUs we support. What ECU do you have running the engine?
+A: for best results we need to coordinate torque management with the ECU which we can only do with one of the ECUs we support. What ECU do you have running the engine? On most shifts ECU needs to retard timing for torque reduction during shifts, and sometimes blip to increase the torque. Each ECU manages that differently.
 
 ### Q: Can this TCU control Ford 10 speed?
 
@@ -73,7 +73,7 @@ A: that's not a TCU, see [TCU-status](TCU-status) for suggested terminology.
 
 ### Q: I am building a Ford T with a carb, I need a complete stand alone controller to do all the shifting?
 
-A: Shifts would not be totally smooth if ECU is not reducing/increasing torque on demand. Are you OK with that?
+A: Shifts would not be totally smooth if ECU is not reducing/increasing torque on demand. Are you OK with that? On most shifts ECU needs to retard timing for torque reduction during shifts, and sometimes blip to increase the torque.
 
 ### Q: where is the source code?
 
