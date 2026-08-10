@@ -82,6 +82,8 @@ Thinking of doing an engine control project? You have stopped by the correct pla
 
 [Engines running rusEFI](Case-Studies)
 
+[rusEFI History](rusEFI-history) - how the project got here, from a 2012 Ford Aspire test mule onwards
+
 [![Miata rusEFI Racecar!](Images/miata_rusefi_racecar.png)](https://www.youtube.com/embed/3xz66oR95F8?start=8 "Miata rusEFI Racecar!")
 
 [![BMW V12 with dual ETB!](Images/BMW_V12_dual_ETB.png)](https://www.youtube.com/embed/TGf8IMwRuIY "BMW V12 with dual ETB!")  

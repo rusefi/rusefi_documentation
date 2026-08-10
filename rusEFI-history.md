@@ -20,7 +20,7 @@ Honda Accord came with head gasket pre-blown! https://honda-tech.com/forums/engi
 
 That's when Nick has joined the party.
 
-https://github.com/rusefi/rusefi_documentation/wiki/List_of_engines_running_rusEFI
+[List of Engines Running rusEFI](List-of-Engines-Running-rusEFI)
 
 ## 2013
 
@@ -39,3 +39,10 @@ rusEFI has started out of the blue by Andrey.
 ## 2010
 
 Keith, Hoang and Josh has pulled me into 24 hours of Lemons. That's how I got into cars :) https://www.youtube.com/watch?v=nfwEQIIFBlU
+
+## Related pages
+
+- [Case Studies](Case-Studies) - notable builds running rusEFI.
+- [List of Engines Running rusEFI](List-of-Engines-Running-rusEFI) - the running log of builds going back to 2013.
+- [rusEFI Hardware Overview](Hardware) - the boards in production today.
+- [Support & Community](Support) - forum, Discord and where the people in this page's story hang out.
