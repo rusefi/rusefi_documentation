@@ -33,6 +33,8 @@ New to rusEFI? [Start here](Home).
 
 Legacy Proteus 0.3-0.5 and 0.7 (STM32F4) [📦Release F4](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f4.zip) [🧪Snapshot F4](https://rusefi.com/build_server/rusefi_bundle_proteus_f4.zip)
 
+Legacy Proteus 0.6 boards with the STM32F767 can behave strangely over SWD programming - see [Proteus F767 Programming Instructions](Proteus-F767-programming-instructions) for the DFU / STM32CubeProgrammer procedure that does work.
+
 ## Wiring & Pinout
 
 [List of I/O](https://github.com/mck1117/proteus#proteus)

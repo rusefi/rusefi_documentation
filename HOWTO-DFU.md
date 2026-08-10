@@ -41,3 +41,4 @@ A: See https://github.com/rusefi/rusefi/blob/master/firmware/hw_layer/ports/stm3
 - [F7 Requires Full Erase](F7-requires-full-erase) - some F7 Proteus units require a full erase before a firmware update.
 - [Hardware Validation Failed](HARDWARE-VALIDATION-FAILED) - diagnosing the "HARDWARE VALIDATION FAILED" startup error.
 - [4chan F7 Initial Programming](4chan-F7-initial-programming) - one-time initial programming for AlphaX 4chan F7 boards.
+- [Proteus F767 Programming Instructions](Proteus-F767-programming-instructions) - DFU + STM32CubeProgrammer procedure for Proteus 0.6 boards with the F767 chip.
