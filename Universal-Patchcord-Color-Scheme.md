@@ -68,4 +68,15 @@ Injector, coil and similar numbered channels:
 | 5       | brown        | 🟤     |
 | 6       | yellow       | 🟡     |
 
+## Source of truth
+
+Wire colors are defined per pin in the board connector `.yaml` files in the firmware
+repository, and the interactive pinouts are generated from those same files:
+
+| Board | Connector `.yaml` files | Interactive pinout |
+| ----- | ----------------------- | ------------------ |
+| [uaEFI](uaEFI) | [connectors](https://github.com/rusefi/rusefi/tree/master/firmware/config/boards/hellen/uaefi/connectors) | <https://rusefi.com/docs/pinouts/hellen/uaefi/> |
+| [super-uaEFI](super-uaEFI) | [connectors](https://github.com/rusefi/rusefi/tree/master/firmware/config/boards/hellen/super-uaefi/connectors) | <https://rusefi.com/docs/pinouts/super-uaefi/> |
+| Huge (formerly 8chan / AlphaX Platinum) | [connectors](https://github.com/rusefi/rusefi/tree/master/firmware/config/boards/hellen/alphax-8chan/connectors) | <https://rusefi.com/docs/pinouts/hellen/alphax-platinum/> |
+
 See also [OEM harness connectors](OEM-harness-connectors) for connector part numbers.
