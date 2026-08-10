@@ -11,3 +11,5 @@
 [5.7 vehicle ECU diagram](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Chrysler/2018%20Dodge%20or%20Ram%20Truck%20Durango%202WD%20ECU%205.7.pdf)
 
 https://github.com/rusefi/rusefi/wiki/2015-Grand-Cherokee-V6-vs-2018-Durango-V8-ECU-pinout-comparison
+
+[offtopic: IGBT driver](https://rusefi.com/docs/pinouts/superseal-igbt/)
