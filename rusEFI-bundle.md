@@ -4,7 +4,7 @@ The `rusefi.bin` file is compiled rusEFI firmware. Sometimes you would have a `r
 
 `rusefi.dfu` is also compiled rusEFI firmware, which is used for the DFU mode of flashing.
 
-`rusefi.ini` is the TunerStudio definition file, which you would use if you use TunerStudio software to tune your rusEFI ECU.
+`rusefi.ini` is the TunerStudio definition file, which you would use if you use TunerStudio software to tune your rusEFI ECU. See [.ini Lookup Logic](INI-lookup-logic) if you need to find the definition file for a specific firmware signature.
 
 [TunerStudio Download](http://www.tunerstudio.com/index.php/downloads)
 

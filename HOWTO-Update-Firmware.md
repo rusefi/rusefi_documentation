@@ -80,7 +80,7 @@ ST-LINK is an advanced mode of firmware update which requires ST-LINK device, ei
 
 Once you have updated your firmware, you also need to update your TunerStudio definition so it is able to communicate properly. A happy installation of TunerStudio will download the current .ini file automatically!
 
-If you chose to do it manually, you can find the .ini file in the USB storage device that rusEFI board presents to your computer, or in the [rusEFI bundle](Download).
+If you chose to do it manually, you can find the .ini file in the USB storage device that rusEFI board presents to your computer, or in the [rusEFI bundle](Download). You can also look it up online from the firmware signature - see [.ini Lookup Logic](INI-lookup-logic).
 
 ## Related pages
 
