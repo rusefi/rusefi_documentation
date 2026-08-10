@@ -36,6 +36,8 @@ If the definition for your unit wasn't detected automatically, select the file f
 
 Your rusEFI board should also present itself as a USB storage device to your computer, containing the .ini file you need. This is the most foolproof method of making sure you have the correct .ini file.
 
+If you know your firmware signature but do not have the matching file to hand, every official .ini is published online and the URL can be derived from the signature - see [.ini Lookup Logic](INI-lookup-logic).
+
 ![Browse for Definition](Images/TS/TunerStudio_other_browse.png)
 
 After clicking Next, selecting your preferred lambda display mode, and clicking Next again, you'll see this:
