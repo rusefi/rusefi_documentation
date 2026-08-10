@@ -130,14 +130,4 @@ https://eficonversions.com/collections/big-block-chevy-gen-vi
 
 ## rusEFI channel color convention
 
-injector/coil/etc 1: green
-
-2: white
-
-3: blue
-
-4: orange/brown
-
-5: grey
-
-6: yellow
+See [rusEFI Universal Patchcord Color Scheme](Universal-Patchcord-Color-Scheme).

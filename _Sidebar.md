@@ -25,6 +25,7 @@
 ### Wiring, Sensors & Calibration
 
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections)
+- [Patchcord Color Scheme](Universal-Patchcord-Color-Scheme)
 - [Bench Testing Outputs](Bench-Testing)
 - [Sensors & Calibration](Sensors-and-Calibration)
 - [Wideband Oxygen Sensors](Wide-Band-Sensors)

@@ -60,6 +60,7 @@ nav = [
     {"Diagnostics & Logging" = "Diagnostics-and-Logging.md"},
     {"Engine Protection" = "Engine-Protection.md"},
     {"Wiring & Connectivity Overview" = "FAQ-Basic-Wiring-and-Connections.md"},
+    {"Patchcord Color Scheme" = "Universal-Patchcord-Color-Scheme.md"},
     {"Bench Testing Outputs" = "Bench-Testing.md"},
     {"Sensors & Calibration" = "Sensors-and-Calibration.md"},
     {"Cranking" = "Cranking.md"},
