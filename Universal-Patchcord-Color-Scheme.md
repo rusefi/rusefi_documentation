@@ -5,14 +5,12 @@ identified without tracing it back to a connector pin.
 
 ## Power
 
-| Signal               | Color | Swatch |
-| -------------------- | ----- | ------ |
-| +12V from main relay | red   | 🔴     |
-| Power ground         | black | ⚫     |
-| Sensor +5V feed      | red   | 🔴     |
-| Sensor ground (GNDA) | black | ⚫     |
-
-AlphaX boards use orange 🟠 for the sensor +5V feed.
+| Signal               | Color         | Swatch |
+| -------------------- |---------------|--------|
+| +12V from main relay | red           | 🔴     |
+| Power ground         | black         | ⚫      |
+| Sensor +5V feed      | red or orange | 🔴 or 🟠 |
+| Sensor ground (GNDA) | black         | ⚫      |
 
 ## Communication
 
@@ -28,6 +26,19 @@ AlphaX boards use orange 🟠 for the sensor +5V feed.
 | MAP    | orange | 🟠    |
 | CLT    | grey   | 🩶    |
 | IAT    | blue   | 🔵    |
+
+## Wideband oxygen sensor (WBO)
+
+Bosch LSU 4.9 wiring, matching the sensor's factory lead colors:
+
+| Signal          | LSU 4.9 pin | Color  | Swatch |
+| --------------- | ----------- | ------ | ------ |
+| Ip              | 1           | red    | 🔴     |
+| Vs/Ip (Vm)      | 2           | yellow | 🟡     |
+| Heater negative | 3           | white  | ⚪     |
+| Heater positive | 4           | grey   | 🩶     |
+| CalR            | 5           | green  | 🟢     |
+| Vs (Un)         | 6           | black  | ⚫     |
 
 ## Electronic throttle and pedal
 
