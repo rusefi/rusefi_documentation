@@ -80,3 +80,7 @@ repository, and the interactive pinouts are generated from those same files:
 | Huge (formerly 8chan / AlphaX Platinum) | [connectors](https://github.com/rusefi/rusefi/tree/master/firmware/config/boards/hellen/alphax-8chan/connectors) | <https://rusefi.com/docs/pinouts/hellen/alphax-platinum/> |
 
 See also [OEM harness connectors](OEM-harness-connectors) for connector part numbers.
+
+## Best practices
+
+Both side of patchcord use same type of plugs (usually superseal)? Use paint marker on VEHICLE side of the patchcord.
