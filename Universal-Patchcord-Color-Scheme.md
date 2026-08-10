@@ -84,3 +84,10 @@ See also [OEM harness connectors](OEM-harness-connectors) for connector part num
 ## Best practices
 
 Both side of patchcord use same type of plugs (usually superseal)? Use paint marker on VEHICLE side of the patchcord.
+
+## Interactive pinouts
+
+We love https://github.com/chuckwagoncomputing/interactive-pinout which is a great tool to visualize the pinouts of the boards.
+
+Inputs: yaml and images, output: html
+
