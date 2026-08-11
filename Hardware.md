@@ -54,5 +54,11 @@ __A:__ So that log file names could include the current time stamp. That functio
 *__Q:__ I would like to fabricate and sell in my country.*  
 __A:__ See [Royalty](Royalty)
 
+*__Q:__ What is the return and warranty policy?*  
+__A:__ See [Returns and Warranty](returns-and-warranty)
+
+*__Q:__ My order has shipped - how do I track it, and what if it goes missing?*  
+__A:__ See [Shipping](Shipping)
+
 *__Q:__ How do I make my own board?*  
 __A:__ [Hellen One Platform](Hellen-One-Platform) is a way to build an ECU from existing functional blocks like knock detection module and wideband controller module.

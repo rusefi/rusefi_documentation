@@ -114,4 +114,4 @@ __A:__ Please post your logs and tunes to [rusEFI Online](Online).
 __A:__ Universal standalone ECUs are not trivial; we do not recommend universal standalones as a way to repair a broken vehicle. While you gain openness and confidence in what you deal with, you would have to make quite an effort to calibrate your ECU to a drivable state.
 
 *__Q:__ What is the process for warranty/returns?*  
-__A:__ Once you have exhausted all public community support options including Discord we usually accept returns with a refund.
+__A:__ Once you have exhausted all public community support options including Discord we usually accept returns with a refund. See [Returns and Warranty](returns-and-warranty) for the written policy, and [Shipping](Shipping) for tracking and lost-parcel claims.
