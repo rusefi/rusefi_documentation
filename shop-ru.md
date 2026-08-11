@@ -1,8 +1,10 @@
 # Shop - ru
 
-Hellen? сложнее, надо писать в [чатик](https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB)
+Hellen? сложнее, надо писать в https://t.me/rusefiecu или [старый whatsapp чатик](https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB)
 
-Тут у нас русская версия [https://shop.rusefi.com/](https://shop.rusefi.com/)
+## на этой странице shop-ru инструкции для заказа из РФ
+
+для доставки из США или сравнения цен - см. [https://shop.rusefi.com/](https://shop.rusefi.com/)
 
 ## Ultra Affordable EFI
 
