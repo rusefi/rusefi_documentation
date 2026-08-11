@@ -49,6 +49,53 @@ Set `isForcedInduction` - "Does the vehicle have a turbo or supercharger?" - hon
 since a boosted engine's fuel demand is not related to displacement the way an atmospheric
 one's is.
 
+### Rough sizing figures
+
+These are **planning estimates, not a specification.** They exist so you can tell whether
+you are in the right order of magnitude before buying, and they are only as good as the
+assumptions listed under them.
+
+Fuel flow per injector converts to mass flow as `cc/min x 0.0986 = lb/hr` for gasoline
+(that is, cc/min divided by about 10.15). Supportable power is then that mass flow,
+multiplied by a duty-cycle allowance, divided by [BSFC](#the-assumptions-behind-those-numbers).
+
+Crank horsepower supported **per injector** at 85% duty cycle:
+
+| Injector | Gasoline, NA | Gasoline, boosted | E85 | Methanol |
+| ---: | ---: | ---: | ---: | ---: |
+| 250 cc/min | 40 | 35 | 25 | 15 |
+| 440 cc/min | 75 | 60 | 45 | 30 |
+| 550 cc/min | 90 | 75 | 55 | 35 |
+| 750 cc/min | 125 | 105 | 80 | 50 |
+| 1000 cc/min | 170 | 140 | 105 | 65 |
+| 1300 cc/min | 220 | 180 | 135 | 85 |
+| 2000 cc/min | 335 | 280 | 205 | 135 |
+
+Multiply by your cylinder count for a one-injector-per-cylinder setup. Four 550 cc/min
+injectors on a boosted engine come out around 300 hp by this table, or around 370 hp on the
+naturally aspirated column.
+
+### The assumptions behind those numbers
+
+- **BSFC** (brake specific fuel consumption, lb of fuel per hp per hour) of **0.50 naturally
+  aspirated** and **0.60 boosted** on gasoline. This is the assumption that moves the answer
+  most: changing BSFC by 0.05 moves the result about 10%. Published injector charts commonly
+  assume something nearer 0.45-0.50, which is why they quote larger numbers than the boosted
+  column here - the same four 550 cc/min injectors come out at 409 hp at BSFC 0.45 and 307 hp
+  at 0.60.
+- **85% duty cycle**, leaving headroom below the [duty cycle limits](#duty-cycle-limits).
+- **Gasoline density 0.745 kg/L.**
+- **Crank horsepower**, not wheel horsepower.
+- Injector flow is taken **at your actual fuel pressure**, not the advertised rating - see
+  [the reference pressure section above](#the-three-numbers-that-must-agree).
+
+The alcohol columns divide the boosted gasoline figure by a fuel factor - about **1.35 for
+E85** and **2.1 for methanol**. Those factors are derived rather than quoted; the derivation
+and its uncertainty are set out under
+[fuel type and flow demand](Fuel-System#fuel-type-and-flow-demand) on the Fuel System page.
+Alcohol fuels are also frequently run richer than stoichiometric for charge cooling, which
+pushes real demand above these figures.
+
 **The most practical sanity check** is other people's cars. Browse the
 [rusEFI Online](Online) tune library for your engine code and see what injectors people
 are actually running on a similar build - engine code, displacement, compression and
