@@ -29,6 +29,7 @@
 * [Converting from Carb](how-to-convert-from-carburetor-to-EFI)
 * [GDI Status](GDI-status)
 * [Staged Injection](Staged-Injection)
+* [Injectors](Injectors)
 * [Injector Lag Tuning](Injector-Lag-Autotune)
 * [Fuel Pump](Fuel-Pump)
 * [Basic Injector Wiring](FAQ-Basic-Wiring-and-Connections#fuel-injectors)

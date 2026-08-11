@@ -42,6 +42,10 @@ rusEFI could be used with MAF sensors sending out voltage (like Mazda Miata) or 
 
 (also some content at [this forum thread](http://rusefi.com/forum/viewtopic.php?f=2&t=1124))
 
+Whatever the algorithm works out, it is delivered through the injectors - so the injector
+flow, reference pressure and dead time have to be right before any of it means anything.
+See [Injectors](Injectors).
+
 ## I/O Settings
 
 Here are examples of some relevant commands:
