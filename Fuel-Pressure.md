@@ -21,6 +21,8 @@ Configure the fuel-pressure compensation and its reference pressure in TunerStud
 - [Oil Pressure (and linear analog sensors)](Oil-Pressure-Sensor) — the linear-sensor calibration used by the low-side fuel pressure sensor.
 - [Injector Lag Tuning](Injector-Lag-Autotune) — injector dead time, which varies with fuel pressure.
 - [GDI Status](GDI-status) — direct injection and its high-pressure fuel system.
+- [Fuel System](Fuel-System) — the pump, lines and regulator that produce the pressure.
+- [Injectors](Injectors) — why the reference pressure has to match the flow figure.
 
 ## Technical sources
 
