@@ -48,7 +48,7 @@ The timeout matters. A momentary lean spike during a fast transient is normal; s
 
 Cut code `InjectorDutyCycle`. Injectors that never close cannot deliver more fuel, and an engine asking for more than the injectors can flow will go lean at the worst moment. There are two levels: `injectorDutyCycleWarning` raises a warning, and `injectorDutyCycleCritical` is where the engine is stopped.
 
-If you are hitting these, the injectors are undersized for what the engine is now asking for — see [Fuel Overview](Fuel-Overview).
+If you are hitting these, the injectors are undersized for what the engine is now asking for — see [Injectors](Injectors).
 
 ### Electronic throttle jam
 
