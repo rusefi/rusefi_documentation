@@ -20,6 +20,8 @@ Select the output pin for the pump relay in TunerStudio, then verify that the pu
 ## Related pages
 
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections) — outputs and the main relay.
+- [Fuel System](Fuel-System) — sizing the pump, lines, filter and regulator it feeds.
+- [Fuel Pressure](Fuel-Pressure) — measuring what the pump is actually delivering.
 
 ## Technical sources
 
