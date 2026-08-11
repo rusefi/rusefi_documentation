@@ -54,6 +54,69 @@ is delivering its *lowest* flow exactly when the engine is asking for its *most*
 Size the supply side against the demand at peak load, not at idle, and remember the pump
 has to feed the return line as well on a return-style system.
 
+### Rough pump sizing figures
+
+**A pump moves volume, not power.** The same pump flows much the same litres per hour of
+gasoline, E85 or methanol. What changes with fuel is how much power those litres support,
+because alcohol fuels need more volume for the same air.
+
+These are **planning estimates, not a specification** - enough to tell whether a pump is in
+the right class before you buy it.
+
+Crank horsepower supported, at 85% of pump capacity:
+
+| Pump flow | Gasoline | E85 | Methanol |
+| ---: | ---: | ---: | ---: |
+| 190 L/h | 450 | 325 | 200 |
+| 255 L/h | 600 | 450 | 275 |
+| 340 L/h | 800 | 575 | 375 |
+| 415 L/h | 975 | 725 | 450 |
+| 450 L/h | 1050 | 775 | 500 |
+
+**Use the flow at your actual rail pressure, not the number on the box.** This is the
+single biggest source of disappointment. Pumps are advertised at one operating point -
+commonly around 40 psi at 13.5 V - and flow falls steeply from there. Published Walbro
+data shows a 255 L/h class pump moving about 285 L/h at zero pressure but only around
+220 L/h at 40 psi on 12 V, recovering some of that at 13.5 V. Run the table with the
+figure from the manufacturer's own flow curve at the pressure you actually run, and
+remember that on a boosted engine with a MAP-referenced regulator, rail pressure rises with
+boost - so the pump is furthest down its curve exactly when demand peaks. Wiring voltage
+drop costs flow for the same reason.
+
+### The assumptions behind those numbers
+
+- **BSFC 0.60** on gasoline (boosted), **85% of pump capacity**, gasoline density
+  **0.745 kg/L**, **crank** horsepower.
+- BSFC is what moves the answer most. Vendor horsepower claims embed their own assumptions:
+  a commonly quoted "550 hp" for a 255 L/h pump corresponds to BSFC 0.65 at 85% headroom by
+  this arithmetic, where BSFC 0.55 would give about 650 hp from the same pump. Neither is
+  wrong - they are different assumptions, which is exactly why published tables disagree.
+- **Cross-check against the manufacturer's own calculator** before buying.
+  [DeatschWerks publish one](https://deatschwerks.com/pages/fuel-pump-calculator) that takes
+  target power, induction type, fuel, base pressure and boost.
+
+### Fuel type and flow demand
+
+The alcohol columns come from dividing the gasoline figure by a fuel factor. That factor can
+be derived two ways, and they do not fully agree - which is worth knowing, because it is why
+published guidance varies:
+
+| Method | E85 | Methanol |
+| --- | ---: | ---: |
+| Stoichiometric ratio x density | 1.42 | 2.16 |
+| Energy content (LHV) x density | 1.26 | 2.08 |
+
+Method one uses the stoichiometric ratios (gasoline 14.7:1, E85 9.9:1 as stated in
+`stoichRatioPrimary`, methanol about 6.4:1) scaled by density. Method two uses lower heating
+values of roughly 43.5, 33.1 and 19.7 MJ/kg. The tables above use **1.35 for E85** and
+**2.1 for methanol**, near the middle of each range. DeatschWerks' published guidance of
+around 30-35% more volume for E85 sits at the lower end.
+
+*These factors are derived here rather than quoted from rusEFI firmware - the firmware
+supplies only the stoichiometric ratios. Treat them as order-of-magnitude.* Alcohol fuels
+are also often run richer than stoichiometric for charge cooling, which pushes real demand
+higher still, and methanol's materials compatibility is stricter than E85's.
+
 You do not have to guess whether you got it right:
 
 - **Log fuel pressure at wide open throttle.** If rail pressure sags as load comes on, the
