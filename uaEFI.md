@@ -74,7 +74,7 @@ The base board is designed to be extended. Each of these needs parts soldered on
 | Expansion | What is needed |
 |---|---|
 | On-board IGBT igniters (to drive dumb coils) | Many parts would work, we like ISL9V3040D3ST |
-| On-board MAP sensor | [on-board-MAP](MPX4250AP or smaller MPXH6400AC) |
+| On-board MAP sensor | [on-board-MAP](MPX4250AP%20or%20smaller%20MPXH6400AC) |
 | On-board [Bluetooth](Bluetooth#supported-modules) | JDY-33 would need to be soldered |
 | On-board EGT input | MAX31855 and related passives would need to be soldered |
 | Second CAN bus | TJA1051T and related passives would need to be soldered |
