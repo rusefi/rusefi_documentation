@@ -21,7 +21,7 @@ combo10 is a 10-inch touchscreen dashboard for rusEFI. It includes:
 2. Connect combo10 to a 12–36 V power supply and power it on.
 3. combo10 starts and displays the dashboard screen shown below.
 
-  <img width="1278" height="795" alt="Main screen" src="https://github.com/user-attachments/assets/6ee873d9-9a3e-4ab5-8a6f-b1630ea9e3f5" />
+  <img width="1278" alt="Main screen" src="https://github.com/user-attachments/assets/6ee873d9-9a3e-4ab5-8a6f-b1630ea9e3f5" />
 
 
 4. If the ECU connects successfully, combo10 automatically opens the setup
@@ -30,7 +30,7 @@ combo10 is a 10-inch touchscreen dashboard for rusEFI. It includes:
 
 ## Customize the dashboard
 
-<img width="1280" height="794" alt="customize mode" src="https://github.com/user-attachments/assets/76a52af3-649f-4d95-acc6-ae495a10771c" />
+<img width="1280" alt="customize mode" src="https://github.com/user-attachments/assets/76a52af3-649f-4d95-acc6-ae495a10771c" />
 
 Press and hold any gauge for 2 seconds to open its customization menu. The
 gauge being edited is highlighted with a yellow outline. The following controls
@@ -58,7 +58,7 @@ also apply them by tapping the confirmation button on the right-side panel.
 
 ## Use the right-side panel
 
-<img width="1277" height="802" alt="Right side panel" src="https://github.com/user-attachments/assets/a17ab2fe-b4eb-4868-b6c3-dd12b08c5190" />
+<img width="1277" alt="Right side panel" src="https://github.com/user-attachments/assets/a17ab2fe-b4eb-4868-b6c3-dd12b08c5190" />
 
 
 The right-side panel provides access to dashboard layouts, ECU configuration,
@@ -95,7 +95,7 @@ diagnostic tools, and device information:
 On the main gauges screen, open the right-side panel and tap **Tuning** to adjust the ECU configuration
 while monitoring live engine data.
 
-<img width="1274" height="804" alt="Tuning screen" src="https://github.com/user-attachments/assets/a8805016-c875-460b-b03c-64a56d450aeb" />
+<img width="1274" alt="Tuning screen" src="https://github.com/user-attachments/assets/a8805016-c875-460b-b03c-64a56d450aeb" />
 
 The left side of the Tuning screen contains the configuration menu. Use the
 search bar above the menu to find a specific item, then select the item to open
@@ -123,11 +123,11 @@ interface without flashing an SD card.
 The simulator can display the interface without an ECU. Features that read or
 write ECU configuration, including the setup wizard, require an ECU connection.
 
-<img width="1277" height="795" alt="combo10 dashboard" src="https://github.com/user-attachments/assets/9865cd81-4c8f-4ef3-9946-753cc081f41b" />
+<img width="1277" alt="combo10 dashboard" src="https://github.com/user-attachments/assets/9865cd81-4c8f-4ef3-9946-753cc081f41b" />
 
-<img width="1273" height="660" alt="combo10 dashboard configuration" src="https://github.com/user-attachments/assets/b987ceb3-ceb8-4c30-9dd7-f34d80516b40" />
+<img width="1273" alt="combo10 dashboard configuration" src="https://github.com/user-attachments/assets/b987ceb3-ceb8-4c30-9dd7-f34d80516b40" />
 
-<img width="1280" height="825" alt="combo10 dashboard wizard" src="https://github.com/user-attachments/assets/4bb20ed9-e4aa-403f-8c4c-9ccb1953c309" />
+<img width="1280" alt="combo10 dashboard wizard" src="https://github.com/user-attachments/assets/4bb20ed9-e4aa-403f-8c4c-9ccb1953c309" />
 
 
 ## Software versions
@@ -135,7 +135,7 @@ write ECU configuration, including the setup wizard, require an ECU connection.
 The device runs two independently versioned software components. Both versions
 are shown on the **About Device** screen.
 
-<img width="1278" height="800" alt="combo10 About Device screen" src="https://github.com/user-attachments/assets/65c05ea7-026d-4906-95e0-a89105cf08bd" />
+<img width="1278" alt="combo10 About Device screen" src="https://github.com/user-attachments/assets/65c05ea7-026d-4906-95e0-a89105cf08bd" />
 
 | About Device row | Example | Meaning |
 |---|---|---|
@@ -144,7 +144,7 @@ are shown on the **About Device** screen.
 
 The Windows Dash Simulator displays desktop build information instead:
 
-<img width="1278" height="798" alt="Windows Dash Simulator About Device screen" src="https://github.com/user-attachments/assets/e1e6f43f-1955-4749-ac3d-9dd03c322df1" />
+<img width="1278" alt="Windows Dash Simulator About Device screen" src="https://github.com/user-attachments/assets/e1e6f43f-1955-4749-ac3d-9dd03c322df1" />
 
 ### Dash version
 
@@ -250,7 +250,7 @@ status circle in the bottom-right corner. Hold the status circle for 2 seconds
 to enable dragging, move it while the yellow ring is visible, and release it
 at the desired location.
 
-<img width="1279" height="798" alt="combo10 diagnostic information" src="https://github.com/user-attachments/assets/411ea250-44f0-42b4-80f0-db58d9469696" />
+<img width="1279" alt="combo10 diagnostic information" src="https://github.com/user-attachments/assets/411ea250-44f0-42b4-80f0-db58d9469696" />
 
 
 ## FAQ

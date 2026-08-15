@@ -21,7 +21,7 @@ We are selling eight universal ECUs. See [Mission-Statement](Mission-Statement)
 
 Unified rusEFI firmware runs on a wide array of boards with stm32f4 and stm32f7 microcontrollers.
 
-<img width="1040" height="1600" alt="image" src="https://github.com/user-attachments/assets/c129054d-4964-4651-95c2-244f85184591" />
+<img width="1040" alt="image" src="https://github.com/user-attachments/assets/c129054d-4964-4651-95c2-244f85184591" />
 
 ## FAQ
 

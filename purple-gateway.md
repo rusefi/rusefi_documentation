@@ -16,7 +16,7 @@ New to this? [Transmission Control](Transmission-Control) explains where the Pur
 
 [💾Download Software💾](https://rusefi.com/installer/Purple_Updater_windows-x64.exe)
 
-<img width="635" height="524" alt="image" src="https://github.com/user-attachments/assets/451569fc-0a10-4b46-ad2a-4bc5fcfdf1bb" />
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/451569fc-0a10-4b46-ad2a-4bc5fcfdf1bb" />
 
 ## 8hp
 
@@ -41,7 +41,7 @@ At the moment we focus on BMW F-series support while working with the following 
 
 ## Flasher
 
-<img width="782" height="574" alt="image" src="https://github.com/user-attachments/assets/c57e727f-b030-4e09-923d-f18d26923a41" />
+<img width="782" alt="image" src="https://github.com/user-attachments/assets/c57e727f-b030-4e09-923d-f18d26923a41" />
 
 ## BMW ISN reset
 

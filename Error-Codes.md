@@ -61,7 +61,7 @@ Throttle and pedal sensors are covered on [Throttle and Pedal Sensors](Throttle-
 
 rusEFI also uses standard OBD2 P-codes, which drive the [check engine light](Warning-and-Check-Engine-Light). The full list is generated from the firmware and is long, so it is not duplicated here: see the [OBD error codes header](https://github.com/rusefi/rusefi/blob/master/firmware/controllers/algo/obd_error_codes.h).
 
-<img width="1403" height="867" alt="Cut codes shown in TunerStudio" src="https://github.com/user-attachments/assets/270b6e74-c4a6-4797-abbc-e986c1d37d4e" />
+<img width="1403" alt="Cut codes shown in TunerStudio" src="https://github.com/user-attachments/assets/270b6e74-c4a6-4797-abbc-e986c1d37d4e" />
 
 ## Related pages
 

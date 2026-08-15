@@ -24,7 +24,7 @@ We use engine sniffer and composite logger only for basic validation at the mome
 
 🔴 Photos of oscilloscope not useful.
 
-<img width="447" height="117" alt="image" src="https://github.com/user-attachments/assets/15530ff3-a1a1-4654-a236-2eca5ba9c60b" />
+<img width="447" alt="image" src="https://github.com/user-attachments/assets/15530ff3-a1a1-4654-a236-2eca5ba9c60b" />
 
 ![image](Images/MLV_trigger_error.png)
 

@@ -186,7 +186,7 @@ __A:__ Yes, it's possible — uaEFI drives a 4-wire stepper from its two DC moto
 
 *New quicker way:*
 
-<img width="344" height="132" alt="TunerStudio stepper idle preset" src="https://github.com/user-attachments/assets/7abdfbc8-e369-40fe-9da8-0950f2caf4f7" />
+<img width="344" alt="TunerStudio stepper idle preset" src="https://github.com/user-attachments/assets/7abdfbc8-e369-40fe-9da8-0950f2caf4f7" />
 
 *Older detailed way:*
 
