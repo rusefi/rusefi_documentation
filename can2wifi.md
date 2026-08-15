@@ -2,7 +2,7 @@
 
 ## Device Overview
 
-<img width="1280" height="960" alt="photo_2026-06-30_22-48-54" src="https://github.com/user-attachments/assets/90a8e251-0b6d-47c8-bb20-b4f6cd6d0c2b" />
+<img width="1280" alt="photo_2026-06-30_22-48-54" src="https://github.com/user-attachments/assets/90a8e251-0b6d-47c8-bb20-b4f6cd6d0c2b" />
 
 The **rusEFI CANbus to WiFi adapter** is a compact wireless interface designed specifically to connect to **rusEFI Electronic Control Units (ECUs)** over Wi-Fi network. It enables seamless wireless tuning and logging by bridging data between a standard Wi-Fi connection and the ECU's CAN bus interface.
 
@@ -21,7 +21,7 @@ To connect your tuning software to the ECU, use the following network parameters
 * **Bridge IP Address**: `192.168.4.1`
 * **TunerStudio TCP Port**: `29001`
 
-<img width="584" height="372" alt="Screenshot from 2026-06-30 22-38-32" src="https://github.com/user-attachments/assets/a04812c4-828c-4edb-a33a-36fa7d963876" />
+<img width="584" alt="Screenshot from 2026-06-30 22-38-32" src="https://github.com/user-attachments/assets/a04812c4-828c-4edb-a33a-36fa7d963876" />
 
 ### Software Compatibility Note
 
