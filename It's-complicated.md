@@ -1,8 +1,8 @@
 # Open Source? It's Complicated
 
-rusEFI [_firmware_](https://github.com/rusefi/rusefi) is completely open source software; see [the license](https://github.com/rusefi/rusefi/blob/master/license.txt).
+Core rusEFI [_firmware_](https://github.com/rusefi/rusefi) is completely open source software; see [the license](https://github.com/rusefi/rusefi/blob/master/license.txt).
 
-Many of the _universal_ rusEFI [boards](Hardware) are open source hardware.
+Half of the _universal_ rusEFI [boards](Hardware) are open source hardware. Half are not.
 
 rusEFI LLC is experimenting with vehicle-specific boards being proprietary, not open source hardware. While [Hellen One framework](https://github.com/andreika-git/hellen-one) is open source, only [Hellen 121 VAG](https://github.com/rusefi/hellen121vag) and [Helen 154 Hyundai](https://github.com/rusefi/hellen154hyundai) are open source. For the majority of Hellen vehicle-specific boards we only publish complete schematics while not publishing gerbers and BOMs.  
 
@@ -12,6 +12,6 @@ Software: open
 
 Platform: open
 
-Wire-in boards: open
+Wire-in boards: some open, some not
 
 PnP: mostly not
