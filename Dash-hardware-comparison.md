@@ -1,10 +1,14 @@
 # Dev: Dash Hardware Options
 
+Somewhat technical comparison between a few different hardware options. A potential Gemini query would be "i want to create an automotive dash. are there major differences between raspberri pi vs esp32 vs allwinner?"
+
 ## ESP32
 
 🟢 Single click purchase - $40 for a complete platform
 
 🟢 Arduino IDE
+
+🟢 Boot Time pretty instant, < 250 milliseconds
 
 🔴 Refresh rate limitation due to ESP32-S3
 
@@ -28,4 +32,10 @@ https://github.com/romioRN/Dash6.8_firmware
 
 🟢 Temperature range
 
-🔴 Single click purchase unavailable
+🔴 limited single click purchase unavailable
+
+## Raspberry Pi
+
+🔴 Power Loss Handling: Cutting power abruptly risks corrupting ext4 filesystems on SD cards or eMMC. You must implement a delayed power-off relay circuit (latching MOSFET tied to ignition sensing) or run entirely on a read-only root overlayfs.
+
+🔴 No native CAN?
