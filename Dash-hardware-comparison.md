@@ -28,7 +28,9 @@ https://github.com/romioRN/Dash_6.8-hardware
 
 https://github.com/romioRN/Dash6.8_firmware
 
-## Allwinner
+## Allwinner or Rockchip etc
+
+RK3588
 
 🟢 Temperature range
 
