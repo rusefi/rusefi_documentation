@@ -10,7 +10,7 @@ The firmware version that has been more thoroughly tested.
 
 ## Snapshot
 
-Potentially less stable version with all the most recent changes, sometimes known as "beta version".
+Potentially less stable version with all the most recent changes, sometimes known as "beta version". Probably fine. Just do not update to latest snapshot during fueling pitstop during a race, maybe do not update even at the end of first day of the race - make sure to update at least a week before your next race.
 
 ## Latest
 
