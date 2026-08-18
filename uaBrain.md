@@ -8,7 +8,6 @@ A castellated solder-down "brain" module: all the electronics of a full-featured
 
 ## Specs
 
-* Hellen-One platform, `mega-mcu100-f7` CPU module: **STM32F765** (same MCU class as uaEFI PRO)
 * Firmware: [fw-uaBrain](https://github.com/rusefi/fw-uaBrain)
 
 ### Ignition and injection
@@ -42,6 +41,7 @@ A castellated solder-down "brain" module: all the electronics of a full-featured
 * On-board SD card and accelerometer
 * USB-C connector, plus USB brought out to edge pins for the carrier board
 * Real time clock battery
+* **STM32F765** (same MCU class as uaEFI PRO)
 
 ### Physical
 
