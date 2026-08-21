@@ -10,15 +10,15 @@ dimmed grey circles are pins already wired in previous steps.
 
 Vehicle adapter side images have orange circles in all four corners: put the paint
 marker on that end of each wire, so the two identical plugs of the finished patchcord
-can be told apart.
+can be told apart. The same is repeated per wire in the tables below: the 'Adapter pin'
+column starts with the wire color dot followed by the orange paint marker dot.
 
-## Step 1: Power and grounds (1 of 9)
+## Step 1: Power and grounds (1 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-|  | 26pin_4k / 17D | N52-60pin / 10A | Power/Chassis GND ground |
-| black | 26pin_4k / 16D | N52-26pins-4k / 8D | GNDA Analog/Sensor Ground |
-| red | 60pin / 10A | N52-26pins-4k / 14D | +5v |
+| black | 26pin_4k / 16D | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 8D | GNDA Analog/Sensor Ground |
+| red | 60pin / 10A | ![red](dot-red.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 14D | +5v |
 
 super-uaefi, connector 26pin_4k:
 
@@ -28,25 +28,16 @@ super-uaefi, connector 60pin:
 
 ![super-uaefi 60pin](step-1-ecu-60pin.png)
 
-BMW-N52-adapter, connector N52-60pin:
-
-![BMW-N52-adapter N52-60pin](step-1-adapter-N52-60pin.png)
-
 BMW-N52-adapter, connector N52-26pins-4k:
 
 ![BMW-N52-adapter N52-26pins-4k](step-1-adapter-N52-26pins-4k.png)
 
-## Step 2: Power and grounds (2 of 9)
+## Step 2: Power and grounds (2 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-|  | C-34pins-4k / 21C | N52-60pin / 26A | Power/Chassis GND ground |
-| black | 26pin_4k / 23D | N52-26pins-4k / 13D | GNDA Analog/Sensor Ground |
-| red | 60pin / 18A | N52-26pins-4k / 18D | +5v |
-
-super-uaefi, connector C-34pins-4k:
-
-![super-uaefi C-34pins-4k](step-2-ecu-C-34pins-4k.png)
+| black | 26pin_4k / 17D | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-60pin / 10A | Power/Chassis GND ground |
+| red | 60pin / 18A | ![red](dot-red.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 18D | +5v |
 
 super-uaefi, connector 26pin_4k:
 
@@ -64,41 +55,31 @@ BMW-N52-adapter, connector N52-26pins-4k:
 
 ![BMW-N52-adapter N52-26pins-4k](step-2-adapter-N52-26pins-4k.png)
 
-## Step 3: Power and grounds (3 of 9)
+## Step 3: Power and grounds (3 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-|  | C-34pins-4k / 22C | N52-60pin / 27A | Power/Chassis GND ground |
-| black | 60pin / 15B | N52-60pin / 18A | Power/Chassis GND ground |
-| red | 60pin / 19A | N52-26pins-4k / 22D | +5v |
+| black | 26pin_4k / 23D | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 13D | GNDA Analog/Sensor Ground |
+| red | 60pin / 19A | ![red](dot-red.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 22D | +5v |
 
-super-uaefi, connector C-34pins-4k:
+super-uaefi, connector 26pin_4k:
 
-![super-uaefi C-34pins-4k](step-3-ecu-C-34pins-4k.png)
+![super-uaefi 26pin_4k](step-3-ecu-26pin_4k.png)
 
 super-uaefi, connector 60pin:
 
 ![super-uaefi 60pin](step-3-ecu-60pin.png)
 
-BMW-N52-adapter, connector N52-60pin:
-
-![BMW-N52-adapter N52-60pin](step-3-adapter-N52-60pin.png)
-
 BMW-N52-adapter, connector N52-26pins-4k:
 
 ![BMW-N52-adapter N52-26pins-4k](step-3-adapter-N52-26pins-4k.png)
 
-## Step 4: Power and grounds (4 of 9)
+## Step 4: Power and grounds (4 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-|  | C-34pins-4k / 26C | N52-60pin / 1A | +12v Bat+ (Hot all times) |
-| black | 60pin / 23A | N52-26pins-4k / 15D | GNDA Analog/Sensor Ground |
-| red | 60pin / 20A | N52-60pin / 19A | +5v |
-
-super-uaefi, connector C-34pins-4k:
-
-![super-uaefi C-34pins-4k](step-4-ecu-C-34pins-4k.png)
+| black | 60pin / 15B | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-60pin / 18A | Power/Chassis GND ground |
+| red | 60pin / 20A | ![red](dot-red.png) ![paint marker](dot-paint-marker.png) N52-60pin / 19A | +5v |
 
 super-uaefi, connector 60pin:
 
@@ -108,16 +89,12 @@ BMW-N52-adapter, connector N52-60pin:
 
 ![BMW-N52-adapter N52-60pin](step-4-adapter-N52-60pin.png)
 
-BMW-N52-adapter, connector N52-26pins-4k:
-
-![BMW-N52-adapter N52-26pins-4k](step-4-adapter-N52-26pins-4k.png)
-
-## Step 5: Power and grounds (5 of 9)
+## Step 5: Power and grounds (5 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-| black | 60pin / 24A | N52-26pins-4k / 16D | GNDA Analog/Sensor Ground |
-| red | C-34pins-4k / 10C | N52-60pin / 2A | +12v from main relay (ecu input to feed h-bridges) |
+| black | 60pin / 23A | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 15D | GNDA Analog/Sensor Ground |
+| red | C-34pins-4k / 10C | ![red](dot-red.png) ![paint marker](dot-paint-marker.png) N52-60pin / 2A | +12v from main relay (ecu input to feed h-bridges) |
 
 super-uaefi, connector 60pin:
 
@@ -135,12 +112,12 @@ BMW-N52-adapter, connector N52-60pin:
 
 ![BMW-N52-adapter N52-60pin](step-5-adapter-N52-60pin.png)
 
-## Step 6: Power and grounds (6 of 9)
+## Step 6: Power and grounds (6 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-| black | 60pin / 25A | N52-26pins-4k / 23D | GNDA Analog/Sensor Ground |
-| red | C-34pins-4k / 1C | N52-34pins-4k / 6C | Ignition Switch / Battery Voltage Analog Input |
+| black | 60pin / 24A | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 16D | GNDA Analog/Sensor Ground |
+| red | C-34pins-4k / 1C | ![red](dot-red.png) ![paint marker](dot-paint-marker.png) N52-34pins-4k / 6C | Ignition Switch / Battery Voltage Analog Input |
 
 super-uaefi, connector 60pin:
 
@@ -158,25 +135,34 @@ BMW-N52-adapter, connector N52-34pins-4k:
 
 ![BMW-N52-adapter N52-34pins-4k](step-6-adapter-N52-34pins-4k.png)
 
-## Step 7: Power and grounds (7 of 9)
+## Step 7: Power and grounds (7 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-| black | 60pin / 26A | N52-26pins-4k / 25D | GNDA Analog/Sensor Ground |
+| black | 60pin / 25A | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 23D | GNDA Analog/Sensor Ground |
+| red | C-34pins-4k / 26C | ![red](dot-red.png) ![paint marker](dot-paint-marker.png) N52-60pin / 1A | +12v Bat+ (Hot all times) |
 
 super-uaefi, connector 60pin:
 
 ![super-uaefi 60pin](step-7-ecu-60pin.png)
 
+super-uaefi, connector C-34pins-4k:
+
+![super-uaefi C-34pins-4k](step-7-ecu-C-34pins-4k.png)
+
 BMW-N52-adapter, connector N52-26pins-4k:
 
 ![BMW-N52-adapter N52-26pins-4k](step-7-adapter-N52-26pins-4k.png)
 
-## Step 8: Power and grounds (8 of 9)
+BMW-N52-adapter, connector N52-60pin:
+
+![BMW-N52-adapter N52-60pin](step-7-adapter-N52-60pin.png)
+
+## Step 8: Power and grounds (8 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-| black | 60pin / 27A | N52-26pins-4k / 26D | GNDA Analog/Sensor Ground |
+| black | 60pin / 26A | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 25D | GNDA Analog/Sensor Ground |
 
 super-uaefi, connector 60pin:
 
@@ -186,125 +172,106 @@ BMW-N52-adapter, connector N52-26pins-4k:
 
 ![BMW-N52-adapter N52-26pins-4k](step-8-adapter-N52-26pins-4k.png)
 
-## Step 9: Power and grounds (9 of 9)
+## Step 9: Power and grounds (9 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-| black | 60pin / 28A | N52-60pin / 11A | GNDA Analog/Sensor Ground |
+| black | 60pin / 27A | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 26D | GNDA Analog/Sensor Ground |
 
 super-uaefi, connector 60pin:
 
 ![super-uaefi 60pin](step-9-ecu-60pin.png)
 
-BMW-N52-adapter, connector N52-60pin:
+BMW-N52-adapter, connector N52-26pins-4k:
 
-![BMW-N52-adapter N52-60pin](step-9-adapter-N52-60pin.png)
+![BMW-N52-adapter N52-26pins-4k](step-9-adapter-N52-26pins-4k.png)
 
-## Step 10: Communication
-
-| Wire color | ECU pin | Adapter pin | Function |
-|------------|---------|-------------|----------|
-| blue | 26pin_4k / 18D | N52-34pins-4k / 21C | CAN bus Low |
-| green | 26pin_4k / 19D | N52-34pins-4k / 30C | CAN bus High |
-
-super-uaefi, connector 26pin_4k:
-
-![super-uaefi 26pin_4k](step-10-ecu-26pin_4k.png)
-
-BMW-N52-adapter, connector N52-34pins-4k:
-
-![BMW-N52-adapter N52-34pins-4k](step-10-adapter-N52-34pins-4k.png)
-
-## Step 11: Sensors (1 of 2)
+## Step 10: Power and grounds (10 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-|  | 60pin / 17A | N52-60pin / 3A | CAM Sensor Intake |
-| blue | 60pin / 15A | N52-60pin / 34A | Universal analog input. Suggested TPS 2 sensor input |
-| green | 60pin / 5A | N52-60pin / 32A | Universal analog input. Suggested TPS 1 sensor input |
-| grey | 60pin / 11A | N52-60pin / 16B | ECT CLT Coolant Sensor Input |
-| orange/brown | 60pin / 7A | N52-34pins-4k / 8C | Universal analog input. Suggested PPS input 2 |
-| white | 60pin / 13A | N52-34pins-4k / 16C | Universal analog input. Suggested PPS input 1 |
-| yellow | 60pin / 26B | N52-60pin / 28A | MAP signal |
+| black | 60pin / 28A | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-60pin / 11A | GNDA Analog/Sensor Ground |
 
 super-uaefi, connector 60pin:
 
-![super-uaefi 60pin](step-11-ecu-60pin.png)
+![super-uaefi 60pin](step-10-ecu-60pin.png)
+
+BMW-N52-adapter, connector N52-60pin:
+
+![BMW-N52-adapter N52-60pin](step-10-adapter-N52-60pin.png)
+
+## Step 11: Power and grounds (11 of 12)
+
+| Wire color | ECU pin | Adapter pin | Function |
+|------------|---------|-------------|----------|
+| black | C-34pins-4k / 21C | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-60pin / 26A | Power/Chassis GND ground |
+
+super-uaefi, connector C-34pins-4k:
+
+![super-uaefi C-34pins-4k](step-11-ecu-C-34pins-4k.png)
 
 BMW-N52-adapter, connector N52-60pin:
 
 ![BMW-N52-adapter N52-60pin](step-11-adapter-N52-60pin.png)
 
-BMW-N52-adapter, connector N52-34pins-4k:
-
-![BMW-N52-adapter N52-34pins-4k](step-11-adapter-N52-34pins-4k.png)
-
-## Step 12: Sensors (2 of 2)
+## Step 12: Power and grounds (12 of 12)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-|  | 60pin / 9A | N52-60pin / 4A | CAM Sensor Exhaust |
+| black | C-34pins-4k / 22C | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-60pin / 27A | Power/Chassis GND ground |
 
-super-uaefi, connector 60pin:
+super-uaefi, connector C-34pins-4k:
 
-![super-uaefi 60pin](step-12-ecu-60pin.png)
+![super-uaefi C-34pins-4k](step-12-ecu-C-34pins-4k.png)
 
 BMW-N52-adapter, connector N52-60pin:
 
 ![BMW-N52-adapter N52-60pin](step-12-adapter-N52-60pin.png)
 
-## Step 13: Wideband oxygen sensor (1 of 2)
+## Step 13: Communication
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-| black | 26pin_4k / 1D | N52-26pins-4k / 3D | WBO1 Vs (Un) (pin 6) |
-| green | 26pin_4k / 8D | N52-26pins-4k / 4D | WBO1 CalR (pin 5) |
-| red | 26pin_4k / 15D | N52-26pins-4k / 11D | WBO1 Ip (pin 1) |
-| white | 26pin_4k / 3D | N52-26pins-4k / 6D | WBO1 Heater Negative (pin 3) (and heater +12 could use 18C) |
-| yellow | 26pin_4k / 2D | N52-26pins-4k / 2D | WBO1 Vs/Ip (Vm) (pin 2) |
+| blue | 26pin_4k / 18D | ![blue](dot-blue.png) ![paint marker](dot-paint-marker.png) N52-34pins-4k / 21C | CAN bus Low |
+| green | 26pin_4k / 19D | ![green](dot-green.png) ![paint marker](dot-paint-marker.png) N52-34pins-4k / 30C | CAN bus High |
 
 super-uaefi, connector 26pin_4k:
 
 ![super-uaefi 26pin_4k](step-13-ecu-26pin_4k.png)
 
-BMW-N52-adapter, connector N52-26pins-4k:
+BMW-N52-adapter, connector N52-34pins-4k:
 
-![BMW-N52-adapter N52-26pins-4k](step-13-adapter-N52-26pins-4k.png)
+![BMW-N52-adapter N52-34pins-4k](step-13-adapter-N52-34pins-4k.png)
 
-## Step 14: Wideband oxygen sensor (2 of 2)
-
-| Wire color | ECU pin | Adapter pin | Function |
-|------------|---------|-------------|----------|
-| black | C-34pins-4k / 5C | N52-26pins-4k / 9D | WBO2 Vs (Un) (pin 6) |
-| green | C-34pins-4k / 6C | N52-26pins-4k / 5D | WBO2 CalR (pin 5) |
-| red | C-34pins-4k / 7C | N52-26pins-4k / 10D | WBO2 Ip (pin 1) |
-| white | C-34pins-4k / 9C | N52-26pins-4k / 7D | WBO2 Heater Negative (pin 3) (and heater +12 could use 11C) |
-| yellow | C-34pins-4k / 8C | N52-26pins-4k / 1D | WBO2 Vs/Ip (Vm) (pin 2) |
-
-super-uaefi, connector C-34pins-4k:
-
-![super-uaefi C-34pins-4k](step-14-ecu-C-34pins-4k.png)
-
-BMW-N52-adapter, connector N52-26pins-4k:
-
-![BMW-N52-adapter N52-26pins-4k](step-14-adapter-N52-26pins-4k.png)
-
-## Step 15: Injectors, coils and other numbered channels (1 of 2)
+## Step 14: Sensors (1 of 2)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-|  | C-34pins-4k / 30C | N52-60pin / 29A | Low-Side 5 main relay Control Output (always hot capable / relay capable output) |
-| blue | 60pin / 11B | N52-60pin / 24B | Injector 3 |
-| brown | 60pin / 6B | N52-60pin / 7B | Smart Ignition Coil 5 |
-| green | 60pin / 13B | N52-60pin / 26B | Injector 1 |
-| orange | 60pin / 5B | N52-60pin / 20B | Smart Ignition Coil 4 |
-| orange/brown | 60pin / 10B | N52-60pin / 4B | Injector 4 |
-| white | 60pin / 12B | N52-60pin / 25B | Injector 2 |
-| yellow | 60pin / 7B | N52-60pin / 6B | Smart Ignition Coil 6 |
+|  | 60pin / 17A | ![no color](dot-unknown.png) ![paint marker](dot-paint-marker.png) N52-60pin / 3A | CAM Sensor Intake |
+| blue | 60pin / 15A | ![blue](dot-blue.png) ![paint marker](dot-paint-marker.png) N52-60pin / 34A | Universal analog input. Suggested TPS 2 sensor input |
+| green | 60pin / 5A | ![green](dot-green.png) ![paint marker](dot-paint-marker.png) N52-60pin / 32A | Universal analog input. Suggested TPS 1 sensor input |
+| grey | 60pin / 11A | ![grey](dot-grey.png) ![paint marker](dot-paint-marker.png) N52-60pin / 16B | ECT CLT Coolant Sensor Input |
+| orange/brown | 60pin / 7A | ![orange/brown](dot-orange_brown.png) ![paint marker](dot-paint-marker.png) N52-34pins-4k / 8C | Universal analog input. Suggested PPS input 2 |
+| white | 60pin / 13A | ![white](dot-white.png) ![paint marker](dot-paint-marker.png) N52-34pins-4k / 16C | Universal analog input. Suggested PPS input 1 |
+| yellow | 60pin / 26B | ![yellow](dot-yellow.png) ![paint marker](dot-paint-marker.png) N52-60pin / 28A | MAP signal |
 
-super-uaefi, connector C-34pins-4k:
+super-uaefi, connector 60pin:
 
-![super-uaefi C-34pins-4k](step-15-ecu-C-34pins-4k.png)
+![super-uaefi 60pin](step-14-ecu-60pin.png)
+
+BMW-N52-adapter, connector N52-60pin:
+
+![BMW-N52-adapter N52-60pin](step-14-adapter-N52-60pin.png)
+
+BMW-N52-adapter, connector N52-34pins-4k:
+
+![BMW-N52-adapter N52-34pins-4k](step-14-adapter-N52-34pins-4k.png)
+
+## Step 15: Sensors (2 of 2)
+
+| Wire color | ECU pin | Adapter pin | Function |
+|------------|---------|-------------|----------|
+|  | 60pin / 9A | ![no color](dot-unknown.png) ![paint marker](dot-paint-marker.png) N52-60pin / 4A | CAM Sensor Exhaust |
 
 super-uaefi, connector 60pin:
 
@@ -314,23 +281,84 @@ BMW-N52-adapter, connector N52-60pin:
 
 ![BMW-N52-adapter N52-60pin](step-15-adapter-N52-60pin.png)
 
-## Step 16: Injectors, coils and other numbered channels (2 of 2)
+## Step 16: Wideband oxygen sensor (1 of 2)
 
 | Wire color | ECU pin | Adapter pin | Function |
 |------------|---------|-------------|----------|
-| blue | 60pin / 4B | N52-60pin / 21B | Smart Ignition Coil 3 |
-| brown | 60pin / 9B | N52-60pin / 2B | Injector 5 |
-| green | 60pin / 2B | N52-60pin / 23B | Smart Ignition Coil 1 |
-| white | 60pin / 3B | N52-60pin / 22B | Smart Ignition Coil 2 |
-| yellow | 60pin / 8B | N52-60pin / 5B | Injector 6 |
+| black | 26pin_4k / 1D | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 3D | WBO1 Vs (Un) (pin 6) |
+| green | 26pin_4k / 8D | ![green](dot-green.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 4D | WBO1 CalR (pin 5) |
+| red | 26pin_4k / 15D | ![red](dot-red.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 11D | WBO1 Ip (pin 1) |
+| white | 26pin_4k / 3D | ![white](dot-white.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 6D | WBO1 Heater Negative (pin 3) (and heater +12 could use 18C) |
+| yellow | 26pin_4k / 2D | ![yellow](dot-yellow.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 2D | WBO1 Vs/Ip (Vm) (pin 2) |
+
+super-uaefi, connector 26pin_4k:
+
+![super-uaefi 26pin_4k](step-16-ecu-26pin_4k.png)
+
+BMW-N52-adapter, connector N52-26pins-4k:
+
+![BMW-N52-adapter N52-26pins-4k](step-16-adapter-N52-26pins-4k.png)
+
+## Step 17: Wideband oxygen sensor (2 of 2)
+
+| Wire color | ECU pin | Adapter pin | Function |
+|------------|---------|-------------|----------|
+| black | C-34pins-4k / 5C | ![black](dot-black.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 9D | WBO2 Vs (Un) (pin 6) |
+| green | C-34pins-4k / 6C | ![green](dot-green.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 5D | WBO2 CalR (pin 5) |
+| red | C-34pins-4k / 7C | ![red](dot-red.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 10D | WBO2 Ip (pin 1) |
+| white | C-34pins-4k / 9C | ![white](dot-white.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 7D | WBO2 Heater Negative (pin 3) (and heater +12 could use 11C) |
+| yellow | C-34pins-4k / 8C | ![yellow](dot-yellow.png) ![paint marker](dot-paint-marker.png) N52-26pins-4k / 1D | WBO2 Vs/Ip (Vm) (pin 2) |
+
+super-uaefi, connector C-34pins-4k:
+
+![super-uaefi C-34pins-4k](step-17-ecu-C-34pins-4k.png)
+
+BMW-N52-adapter, connector N52-26pins-4k:
+
+![BMW-N52-adapter N52-26pins-4k](step-17-adapter-N52-26pins-4k.png)
+
+## Step 18: Injectors, coils and other numbered channels (1 of 2)
+
+| Wire color | ECU pin | Adapter pin | Function |
+|------------|---------|-------------|----------|
+| blue | 60pin / 11B | ![blue](dot-blue.png) ![paint marker](dot-paint-marker.png) N52-60pin / 24B | Injector 3 |
+| brown | 60pin / 6B | ![brown](dot-brown.png) ![paint marker](dot-paint-marker.png) N52-60pin / 7B | Smart Ignition Coil 5 |
+| green | 60pin / 13B | ![green](dot-green.png) ![paint marker](dot-paint-marker.png) N52-60pin / 26B | Injector 1 |
+| grey | C-34pins-4k / 30C | ![grey](dot-grey.png) ![paint marker](dot-paint-marker.png) N52-60pin / 29A | Low-Side 5 main relay Control Output (always hot capable / relay capable output) |
+| orange | 60pin / 5B | ![orange](dot-orange.png) ![paint marker](dot-paint-marker.png) N52-60pin / 20B | Smart Ignition Coil 4 |
+| orange/brown | 60pin / 10B | ![orange/brown](dot-orange_brown.png) ![paint marker](dot-paint-marker.png) N52-60pin / 4B | Injector 4 |
+| white | 60pin / 12B | ![white](dot-white.png) ![paint marker](dot-paint-marker.png) N52-60pin / 25B | Injector 2 |
+| yellow | 60pin / 7B | ![yellow](dot-yellow.png) ![paint marker](dot-paint-marker.png) N52-60pin / 6B | Smart Ignition Coil 6 |
 
 super-uaefi, connector 60pin:
 
-![super-uaefi 60pin](step-16-ecu-60pin.png)
+![super-uaefi 60pin](step-18-ecu-60pin.png)
+
+super-uaefi, connector C-34pins-4k:
+
+![super-uaefi C-34pins-4k](step-18-ecu-C-34pins-4k.png)
 
 BMW-N52-adapter, connector N52-60pin:
 
-![BMW-N52-adapter N52-60pin](step-16-adapter-N52-60pin.png)
+![BMW-N52-adapter N52-60pin](step-18-adapter-N52-60pin.png)
+
+## Step 19: Injectors, coils and other numbered channels (2 of 2)
+
+| Wire color | ECU pin | Adapter pin | Function |
+|------------|---------|-------------|----------|
+| blue | 60pin / 4B | ![blue](dot-blue.png) ![paint marker](dot-paint-marker.png) N52-60pin / 21B | Smart Ignition Coil 3 |
+| brown | 60pin / 9B | ![brown](dot-brown.png) ![paint marker](dot-paint-marker.png) N52-60pin / 2B | Injector 5 |
+| green | 60pin / 2B | ![green](dot-green.png) ![paint marker](dot-paint-marker.png) N52-60pin / 23B | Smart Ignition Coil 1 |
+| white | 60pin / 3B | ![white](dot-white.png) ![paint marker](dot-paint-marker.png) N52-60pin / 22B | Smart Ignition Coil 2 |
+| yellow | 60pin / 8B | ![yellow](dot-yellow.png) ![paint marker](dot-paint-marker.png) N52-60pin / 5B | Injector 6 |
+
+super-uaefi, connector 60pin:
+
+![super-uaefi 60pin](step-19-ecu-60pin.png)
+
+BMW-N52-adapter, connector N52-60pin:
+
+![BMW-N52-adapter N52-60pin](step-19-adapter-N52-60pin.png)
 
 ## Unmatched pins on ECU (super-uaefi) side
 
@@ -402,11 +430,11 @@ No pin with the same function was found on the other side; wire manually or fix 
 
 | Pin | Type | Wire color | Function |
 |-----|------|------------|----------|
-| N52-26pins-4k / 12D | agnd |  | KNOCK CYL 4-6 gnd (OEM 5-42) |
-| N52-26pins-4k / 17D | gnd |  | ECCENTRIC SHAFT pin5 GND (OEM 7-20) |
-| N52-26pins-4k / 19D | agnd |  | KNOCK CYL 1-3 gnd (OEM 5-41) |
+| N52-26pins-4k / 12D | agnd | black | KNOCK CYL 4-6 gnd (OEM 5-42) |
+| N52-26pins-4k / 17D | gnd | black | ECCENTRIC SHAFT pin5 GND (OEM 7-20) |
+| N52-26pins-4k / 19D | agnd | black | KNOCK CYL 1-3 gnd (OEM 5-41) |
 | N52-26pins-4k / 20D |  |  | MASS AIR FLOW pin4 (OEM 5-27) |
-| N52-26pins-4k / 21D | agnd |  | Neutral sensor mb agnd (OEM 5-5) |
+| N52-26pins-4k / 21D | agnd | black | Neutral sensor mb agnd (OEM 5-5) |
 | N52-26pins-4k / 24D |  |  | ECCENTRIC SHAFT pin6 SPLY (OEM 7-21) |
 | N52-34pins-4k / 1C |  |  | OXYGEN SENSOR 2 pin3 (OEM 2-24) |
 | N52-34pins-4k / 2C |  |  | OXYGEN SENSOR 1 pin3 (OEM 2-23) |
