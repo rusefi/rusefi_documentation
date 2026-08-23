@@ -20,6 +20,8 @@ Superior sibling of [mega100](mega100) for lqft100 version - extra performance a
 
 * STP62NS04Z 🔴 not compatible https://www.st.com/resource/en/datasheet/stp62ns04z.pdf
 
+<img width="353" height="1024" alt="image" src="https://github.com/user-attachments/assets/e2049083-f721-4f55-abcd-766d47d7afd3" />
+
 ## FAQ
 
 *__Q:__ Is it safe to connect a 0–5v Hall input directly?*  
