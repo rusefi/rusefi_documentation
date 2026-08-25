@@ -10,11 +10,11 @@
 
 [adapter schematics](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-146-superseal.pdf)
 
-https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-adapter/patchcord-BMW-N52-adapter.md
+[🔌super-uaefi patchcord🔌](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-adapter/patchcord-BMW-N52-adapter.md)
 
-https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/patchcord-alphax-8chan/patchcord-BMW-N52-adapter.md
+[🔌Huge patchcord🔌](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/patchcord-alphax-8chan/patchcord-BMW-N52-adapter.md)
 
-https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bmw/2011-BMW-328i-E90-N52K-ECU-pinout.md
+[ECU pinout as text](2011-BMW-328i-E90-N52K-ECU-pinout.md)
 
 [superseal IGBT](https://rusefi.com/docs/pinouts/superseal-igbt/)
 
