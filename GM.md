@@ -10,7 +10,9 @@
 
 ## gen 4
 
-https://rusefi.com/docs/pinouts/GM-E38 Tahoe
+[Tahoe vehicle pinout](https://rusefi.com/docs/pinouts/GM-E38)
+
+[rusEFI plug-in E38X](GM-E38)
 
 https://rusefi.com/docs/pinouts/GM-E40
 
