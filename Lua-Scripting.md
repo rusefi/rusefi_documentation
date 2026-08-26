@@ -153,15 +153,11 @@ Percent to add to idle (incl. open loop).
 
 #### `setFuelAdd(amount)`
 
-*Currently not functional*
-
-Amount of fuel mass to add to injection, scaled by fuel multiplier ([`setFuelMult()`](#setfuelmultcoeff)); initially 0.
+Fuel mass in grams added to each injection. Applied after [`setFuelMult()`](#setfuelmultcoeff) has scaled the base mass, so it is not itself scaled by that multiplier; initially 0.
 
 #### `setFuelMult(coeff)`
 
-*Currently not functional*
-
-Amount to scale added fuel mass by; initially 1.0;
+Scales the base injected fuel mass; initially 1.0.
 
 #### `setBoostTargetAdd(amount)`
 
@@ -313,16 +309,16 @@ Output:
 
 #### `setTickRate(hz)`
 
-Sets the rate at which rusEFI calls your `onTick` and `onCanRx` functions, in hz. On reset default is 10hz.
+Sets the rate at which rusEFI calls your `onTick` and `onCanRx` functions, in hz. On reset default is 200hz.
 
 - Parameters
-  - `hz`: Desired tick rate, in hz. Values passed will be clamped to a minimum of 1hz, and maximum of 200hz.
+  - `hz`: Desired tick rate, in hz. Values passed will be clamped to a minimum of 1hz, and maximum of 2000hz. Above 150hz the firmware logs a recommendation to enable `luaCanRxWorkaround` - see [luaCanRxWorkaround](luaCanRxWorkaround).
 - Returns
   - none
 
 #### `mcu_standby()`
 
-Stops MCU.
+Puts MCU into standby low current consumption mode.
 
 #### `interpolate(x1, y1, x2, y2, x)`
 
@@ -352,22 +348,8 @@ Finds curve index by specific curve name
 Looks up a value from the specified Script Curve.
 
 - Parameters
-  - `tableIdx`: Index of the script to use, starting from 1.
+  - `curveIdx`: Index of the curve to use, starting from 1.
   - `x`: Axis value to look up in the table
-
-#### `setDebug(index, value)`
-
-Sets a debug channel to the specified value. Note: this only works when the ECU debug mode is set to `Lua`.
-
-- Parameters
-  - `index`: the index of the debug channel to set, 1 thru 7 inclusive.
-  - `value`: the value to set the channel to
-- Returns
-  - none
-
-#### `mcu_standby`
-
-Puts MCU into standby low current consumption mode.
 
 ### Input
 
@@ -403,7 +385,7 @@ Reads the raw value from the specified sensor. For most sensors, this means the 
 More or less like getSensorRaw but always voltage of aux analog input.
 
 - Parameters
-  - `index`: Index of aux analog sensor to read. From 0 to 3
+  - `index`: Index of aux analog sensor to read. From 0 to 7
 - Returns
   - Voltage of sensor reading, or nil if sensor isn't configured.
 
@@ -418,12 +400,12 @@ Checks whether a particular sensor is configured (whether it is currently valid 
 
 #### `getDigital(index)`
 
-Reads a digital input from the specified channel.
+Reads one of the driver switches tracked by the firmware, which is not the same as reading a pin. Where a physical pin is configured for that switch the pin is used; where one is not, the state is whatever Lua or the rest of the firmware last set (see [`setClutchUpState()`](#setclutchupstatevalue)). To read a pin directly see [`getAuxDigital()`](#getauxdigitalindex).
 
 - Parameters
-  - `index`: The index of the digital channel to read. See table below for values.
+  - `index`: The index of the switch to read. See table below for values.
 - Returns
-  - A boolean value representing the state of the input pin. `true` = high voltage (above ~2 volts), `false` = low voltage (below ~3 volts)
+  - A boolean value representing the state of the switch, or `nil` if `index` is not one of the values below.
 
 Valid `index` parameter values:
 
