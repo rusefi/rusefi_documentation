@@ -59,6 +59,10 @@ Harness side 3-1437290-8
 
 A: Yes, Dodge is ready*! Some BMW stuff also ready*
 
+### Q: what about Jaguar 8hp?
+
+A: our build-in flasher should convert your Jaguar into Dodge or BMW, use on your own risk.
+
 ### Q: Do you support all LS ECUs? Do you support all Toyota ECUs?
 
 A: Hell no! Each ECU is separate and different. At the moment we focus on GM E38 and standalones.
