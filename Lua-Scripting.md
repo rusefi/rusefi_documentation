@@ -28,6 +28,49 @@ Some example uses are provided in [Examples](#examples).
 - The Lua interpreter will trigger an error if there is a mistake in the program; check the rusEFI console to see errors and script output.
 - Unless otherwise mentioned, all `index` parameters start with the first element at index 0.
 
+## Installing a Script
+
+Lua scripts are written and loaded from the **rusEFI console**, not from TunerStudio - TunerStudio's own
+Lua pages say so directly: *"Use rusEFI console for Lua script editing"*. If you do not have the console
+yet, see [Console](Console).
+
+1. **Connect the console to the ECU and open the `Lua Scripting` tab.**
+   It has the script editor on the left, a live message pane on the right, and a row of buttons along the
+   top.
+
+2. **Type or paste your script into the editor.**
+   How much room you have depends on the board - 8000 bytes on most, but a good deal more on some, up to
+   48000 on Proteus F7 and uaEFI Pro. Rather than guess, read the `used/limit` counter under the editor:
+   it reports the real limit for whatever board you are connected to. While connected the editor also
+   refuses input past that limit and beeps, instead of truncating silently. Scripts are sent as plain
+   ASCII, so avoid accented characters and other non-ASCII symbols even inside comments and strings.
+
+3. **Press `Write to ECU`.**
+   This sends the script to the ECU *and* restarts the Lua interpreter, so your script begins running
+   straight away. Nothing has been written to flash yet.
+
+4. **Watch the message pane.**
+   `LUA script loaded successfully!` means it is running. Anything your script prints appears there with
+   a `LUA:` prefix. A printed message containing `BEEP` also makes the console beep, which is useful when
+   you are under the car and cannot see the screen.
+
+5. **Press `Burn to ECU` when you are happy with it.**
+   This stores the configuration, including your script, in the ECU so that it runs again at the next
+   boot. Power-cycle the ECU and confirm the script still runs before you rely on it.
+
+Burning does **not** reload the interpreter on its own. The restart that happens during `Write to ECU` is
+what puts a new script into effect.
+
+### When a script does not run
+
+A script that fails to load prints `LUA ERROR loading script:` followed by the Lua error message, and the
+interpreter then **stops and waits** - it does not keep retrying. Fix the script and press `Write to ECU`
+again, or use `More... -> Reset Lua`.
+
+Every restart also clears whatever the previous run had set: the tick rate returns to 200hz and the
+adjustments such as [`setTimingAdd()`](#settimingaddangle) and [`setFuelMult()`](#setfuelmultcoeff) go
+back to their defaults. Set those at the top level of your script rather than once inside a condition.
+
 ## Writing Your Script
 
 The entire Lua script is read at startup, then a script function called `onTick` is called periodically by rusEFI.
@@ -59,6 +102,41 @@ end
 
 To ease editing a Lua script, an editor that supports Language Server Protocol (LSP) is highly recommended.
 For an option see [LuaLS/lua-language-server](https://github.com/LuaLS/lua-language-server#install)
+
+#### Keeping the script in your own files
+
+The console editor understands two comment directives that let you keep the real script on disk and pull
+it back in. Point the console at the folder holding those files with `More... -> Select Working Folder`.
+
+| Directive | What it does |
+| --- | --- |
+| `-- scriptname NAME` | Names the file this script came from. `More...` then offers `Reload NAME`, which re-reads it from the working folder. |
+| `-- include NAME` ... `-- endinclude` | When the script is reloaded, everything between the two markers is replaced with the current contents of `NAME`. Put shared helpers in their own file and include them. |
+
+``` lua
+-- scriptname my-dash.lua
+
+-- include can-helpers.lua
+-- endinclude
+
+function onTick()
+  sendDashFrame()
+end
+```
+
+Two things to know before using `Reload`:
+
+- **It is not a read-only operation.** `Reload` assembles the file plus its includes, puts the result in
+  the editor, and then does exactly what `Write to ECU` does - it sends the script and restarts the
+  interpreter. Do not click it on a running engine expecting only to look at the file.
+- Because the assembled text lands *in the editor*, the size limit applies to what you end up seeing
+  there, includes and all. If the result does not fit, the editor is replaced by a message saying so and
+  nothing is sent.
+
+Every `-- include` needs a matching `-- endinclude`. Without one the menu item fails and simply appears to
+do nothing.
+
+`More... -> Format Script` re-indents whatever is currently in the editor.
 
 ## Hooks/Function Reference
 
@@ -605,9 +683,17 @@ end
 
 ## Misc console commands
 
-`luamemory`
+Type these into the command box at the top of the `Lua Scripting` tab, or anywhere else the console takes
+commands.
 
-`luareset`
+| Command | Effect |
+| --- | --- |
+| `lua <code>` | Runs a fragment of Lua inside the *running* interpreter, so it can see your script's variables. It executes on the next tick. The console splits the command line on spaces, so the code has to contain none: `lua print(rpm)` works, `lua x = 5` does not. |
+| `luareset` | Restarts the interpreter and runs your script again from the top. |
+| `luamemory` | Prints the worst-case script duration since you last asked, CAN RX totals and drops, the last cycle time, and Lua heap usage. |
+| `lua_button <index>` | Simulates a press of TunerStudio Lua button 1 to 10, so button handlers can be developed without TunerStudio open. |
+| `luabench2 <index> <onMs> <offMs> <count>` | Pulses one Lua output pin. `index` counts from 1. |
+| `set_lua_setting <index> <value>` | Sets one of the Lua Script Settings without going through TunerStudio. Here `index` counts from **0**, so 0 to 7. It is not bounds-checked, and a value outside that range writes over unrelated configuration - so do not use one. |
 
 ## Examples
 
