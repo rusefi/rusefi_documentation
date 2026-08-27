@@ -497,6 +497,112 @@ In an ideal world one would be using Sensor.new("LuaGauge1") but looks like that
 
 Not enabled on most boards since most boards were not developer with DAC in mind! See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/dac.txt for more info.
 
+### Additional Hooks
+
+Registered by the firmware but not covered above. A few are not built on every board; where that is the
+case the row says so.
+
+#### Engine and vehicle state
+
+| Function | Behaviour |
+| --- | --- |
+| `getEngineState()` | `0` stopped, `1` cranking or spinning up, `2` running. |
+| `getAirmass()` / `getAirmass(mode)` | Cylinder airmass from the configured airmass model, or from the model given by `mode`: `0` speed density, `1` real MAF, `2` alpha-N, `3` Lua. Any other value is a fatal firmware error, not a `nil`. |
+| `setAirmass(mass, loadPercent)` | Feeds the Lua airmass model, used when the fuel algorithm is set to Lua. Clamped to 0-10 g and 0-1000 percent. |
+| `getTorque()` | Looks up the torque table at current RPM and TPS. Not built on STM32F4. |
+| `setEngineTorque(nm)` | Publishes a torque estimate for other logic and for logging. Not built on STM32F4. |
+| `getTimeSinceTriggerEventMs()` | Milliseconds since the last *crank* trigger event. Cam events do not reset it, so on a crank sensor failure this keeps growing while the cam still pulses. Not built where `WITH_LUA_STOP_ENGINE` is off, which today means uaEFI and hellen121vag. |
+| `secondsSinceTsActivity()` | Seconds since TunerStudio or the console last requested data - use it to tell whether a laptop is connected. The reading saturates around 1070 seconds on STM32, so a threshold above that never fires. |
+| `getGlobalConfigurationVersion()` | Increments whenever the tune changes, so a script can notice an edit made underneath it. |
+
+#### Fuel consumption
+
+Built only where the board has vehicle speed support, the odometer module, and `WITH_LUA_CONSUMPTION`
+left on - the last of which is off on uaEFI and hellen121vag.
+
+| Function | Behaviour |
+| --- | --- |
+| `getConsumedGrams()` | Whole grams of fuel consumed this trip. |
+| `getConsumedGramsRemainder()` | The fractional part, for when whole grams move too slowly to watch. |
+| `getConsumptionGramPerSecond()` | Current consumption rate. |
+| `resetOdometer()` | Resets the whole trip odometer - not just fuel, but also trip distance and the engine-running and ignition-on timers. |
+
+#### More CAN bus
+
+| Function | Behaviour |
+| --- | --- |
+| `txCan(ID, payload)` | Short form of [`txCan()`](#txcanbus-id-isext-payload) - first bus, 11 bit ID. |
+| `canSetBaud(bus, baud)` | Changes a bus baud rate at runtime. `baud` is in bits per second and must be one of 33000, 50000, 83000, 100000, 125000, 250000, 500000, 666000 or 1000000; anything else raises a Lua error. |
+| `canSetListenMode(bus, isListenOnly)` | Puts a bus into listen-only mode, where it neither transmits nor acknowledges. Reversible, and overrides the configured setting until reboot. |
+| `getCanBaudRate(bus)` | The configured baud *setting* for bus 1 or 2, as its dropdown position - not a bits-per-second figure, so it cannot be fed straight back into `canSetBaud`. Not built on STM32F4. |
+| `getCanRxDropped()` | Count of received frames dropped because the queue overflowed - the number to watch when raising the tick rate. Not built on STM32F4. |
+| `disableExtendedCanBroadcast()` | Turns off the board-statistics frames (the "Send out board statistics" setting) and, where CAN serial is built, the CAN console announcement - so this can drop a TunerStudio-over-CAN link. It does not affect the dash output or the verbose broadcast. Not built on STM32F4. |
+| `enableCanRxWorkaround()` | Turns on [luaCanRxWorkaround](luaCanRxWorkaround) from the script instead of from TunerStudio. The script **must** also define `global_can_data` as described there - without it the first matching frame raises a critical error. This writes a configuration bit, so a later burn makes it permanent. |
+| `crc8_j1850(payload, length)` | SAE J1850 CRC8 over the first `length` bytes, for building frames that carry that checksum. |
+
+#### More engine control
+
+| Function | Behaviour |
+| --- | --- |
+| `setIdleRpm(rpm)` | Overwrites the coolant-versus-idle-RPM curve *in the tune* with a flat line at `rpm`. Unlike the `...Add` adjustments beside it this is not a transient override: the original curve is gone, and a later burn writes the flat one to flash. |
+| `setEwgAdd(percent)` | Electronic wastegate position adjustment, the wastegate counterpart of [`setEtbAdd()`](#setetbaddpercent). |
+| `setFuelDisabled(value)` | Full fuel cut. |
+| `setDfcoDisabled(value)` | Suppresses deceleration fuel cut-off. |
+| `setClutchDownState(value)` | Clutch-down switch state, the counterpart of [`setClutchUpState()`](#setclutchupstatevalue). |
+| `setTorqueReductionState(value)` | Torque reduction / flat shift trigger. |
+| `setRollingIdleTrigger(value)` | Antilag trigger state. Takes a **number**, not a boolean - passing `true` raises "number expected". Only read when the antilag activation mode is set to Lua. |
+| `restartEtb()` | Re-runs electronic throttle initialisation, so a Lua-fed pedal sensor can come up after the throttle has already started. |
+
+#### Reading back firmware outputs
+
+| Function | Behaviour |
+| --- | --- |
+| `getFan()` / `getFan2()` | Logic state of the fan relay outputs. |
+| `getAcRelay()` | Logic state of the A/C relay output. |
+| `getEtbTarget()` | Current electronic throttle target. |
+| `hellenEnablePower()` / `hellenDisablePower()` | Main-relay style power control, on Hellen hardware only. Disabling first unmounts the SD card, which can block the Lua thread for up to a second - do not call it from a plain `onTick()` path. |
+
+#### More Sensor methods
+
+Both apply to a sensor created with `Sensor.new()`, see [Set Sensor Value](#set-sensor-value).
+
+| Method | Behaviour |
+| --- | --- |
+| `yourSensor:invalidate()` | Marks the sensor invalid immediately, without waiting for its timeout. |
+| `yourSensor:setRedundant(value)` | Declares the sensor redundant. This is what the electronic throttle checks before it will run, so marking a single Lua-fed pedal redundant lets drive-by-wire operate with no real second sensor. Understand the consequences before using it. |
+
+#### Filtering and debouncing
+
+Both classes are built alongside `Pid`, so they are absent where `WITH_LUA_PID` is off - today uaEFI
+and hellen121vag.
+
+| Class | Behaviour |
+| --- | --- |
+| `Biquad` | `yourFilter = Biquad.new()`, then `yourFilter:configureLowpass(sampleRateHz, cutoffHz)` and `yourFilter:filter(x)`. A low-pass filter for a noisy input. Pass your tick rate as the sample rate. The first sample primes the filter rather than ramping up from zero. |
+| `SignalDebounce` | `yourDebounce = SignalDebounce.new(seconds)`, then `yourDebounce:set(rawBool)` every tick and `yourDebounce:get()` for the settled value. Works with any signal, not just a pin. Note the *first* change of state is accepted immediately - the hold time only applies from then on. |
+
+``` lua
+rpmFilter = Biquad.new()
+rpmFilter:configureLowpass(50, 2)  -- 50hz tick rate, 2hz cutoff
+brake = SignalDebounce.new(0.05)   -- 50ms hold, after the first transition
+
+setTickRate(50)
+
+function onTick()
+  smoothRpm = rpmFilter:filter(getSensor("RPM"))
+  brake:set(getDigital(2))
+  if brake:get() then
+    setIdleAdd(5)
+  end
+end
+```
+
+#### More utility
+
+| Function | Behaviour |
+| --- | --- |
+| `random()` | A number from 0 to 1. The generator is seeded identically at every boot, so the sequence repeats - fine for dither, not for anything that has to be unpredictable. |
+
 ## Misc console commands
 
 `luamemory`
