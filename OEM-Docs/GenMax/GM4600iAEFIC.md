@@ -31,46 +31,46 @@ Pins are numbered on the schematic (22-pin style numbering; pins 5–8 and 14 ar
 As drawn: stepping motor pins on top, sensor/actuator pins on the left, power/comm pins on
 the right, engine pins on the bottom.
 
-| Pin | Wire | Function |
-|-----|------|----------|
-| 1   | Bu | Stepping motor (throttle) |
-| 2   | O  | Stepping motor |
-| 3   | Bu/W | Trigger coil (pickup, "CF"; other side grounded) |
-| 4   | B  | Ground |
-| 21  | Y  | Stepping motor |
-| 22  | P  | Stepping motor |
-| 9   | Y/R | Temperature sensor (sensor's other wire goes to B ground rail) |
-| 18  | Pu | Fuel injector low side (injector's other wire on R power rail) |
-| 11  | Gr | Oil pump low side (pump's other wire on R power rail) |
-| 12  | Br | Ignition coil primary driver (coil's other primary wire on R power rail) |
-| 15  | Y  | Oil level switch (other side grounded) |
-| 17  | W  | Starter relay control (W net, shared with remote control module) |
-| 13  | Br/W | Link to inverter (2-wire inverter connector: Br/W + B-to-ground) |
+| Pin | Wire | Function                                                                  |
+|-----|------|---------------------------------------------------------------------------|
+| 1   | Bu | Stepping motor (throttle)                                                 |
+| 2   | O  | Stepping motor                                                            |
+| 3   | Bu/W | Trigger coil (pickup, "CF"; other side grounded)                          |
+| 4   | B  | Ground                                                                    |
+| 9   | Y/R | Temperature sensor (sensor's other wire goes to B ground rail)            |
+| 10  | B  | Ground (B net, chassis grounded)                                          |
+| 11  | Gr | Fuel pump low side (pump's other wire on R power rail)                    |
+| 12  | Br | Ignition coil primary driver (coil's other primary wire on R power rail)  |
+| 13  | Br/W | Link to inverter (2-wire inverter connector: Br/W + B-to-ground)          |
+| 15  | Y  | Oil level switch (other side grounded)                                    |
+| 16  | R  | +12V Power (R net) — jumpered externally to pin 19                        |
+| 17  | W  | Starter relay control (W net, shared with remote control module)          |
+| 18  | Pu | Fuel injector low side (injector's other wire on R power rail)            |
+| 19  | R  | +12V Power (R net)                                                        |
 | 20  | G  | To control panel — G net (remote control module / one-click start button) |
-| 16  | R  | Power — jumpered externally to pin 19 |
-| 19  | R  | Power (R net) |
-| 10  | B  | Ground (B net, chassis grounded) |
+| 21  | Y  | Stepping motor                                                            |
+| 22  | P  | Stepping motor                                                            |
 
 Power distribution nets:
 
-- **R net** (switched 12V power): ECU pins 16+19, fuel injector high side, oil pump high side,
+- **R net** (switched 12V power): ECU pins 16+19, fuel injector high side, fuel pump high side,
   ignition coil primary high side; runs into the control panel to the engine switch BAT circuit
   through an SR10100 diode.
 - **B net** (ground): ECU pins 4+10, temperature sensor return, chassis ground.
 
 ## Engine block
 
-| Wire(s) | Device |
-|---------|--------|
-| Bu, P, Y, O | Stepping motor (4-wire), ECU pins 1/22/21/2 |
-| Y/R + gnd | Temperature sensor |
-| Pu + R | Fuel injector |
-| Gr + R | Oil pump |
-| Y | Oil level switch |
-| Br + R | Ignition coil primary; secondary B → spark plug |
-| Bu/W | Trigger coil (CF) |
-| W | Starting relay coil drive |
-| B/W | Battery + line (to relay contact / charging circuit) |
+| Wire(s) | Device                                                     |
+|---------|------------------------------------------------------------|
+| Bu, P, Y, O | Stepping motor (4-wire), ECU pins 1/22/21/2                |
+| Y/R + gnd | Temperature sensor                                         |
+| Pu + R | Fuel injector                                              |
+| Gr + R | Fuel pump                                                  |
+| Y | Oil level switch                                           |
+| Br + R | Ignition coil primary; secondary B → spark plug            |
+| Bu/W | Trigger coil (CF)                                          |
+| W | Starting relay coil drive                                  |
+| B/W | Battery + line (to relay contact / charging circuit)       |
 | — | Starting motor, fed by starting relay contact from battery |
 
 ## Generator block
