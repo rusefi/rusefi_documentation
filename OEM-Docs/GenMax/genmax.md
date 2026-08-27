@@ -2,4 +2,5 @@
 
 Related to GTM DK3500iA
 
-![x](OEM-Docs/GenMax/GM6000iED.jpg)
+Notes and ECU pinout: [GM4600iAEFIC.md](GM4600iAEFIC.md)
+
