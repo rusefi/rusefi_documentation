@@ -320,6 +320,11 @@ Sets the rate at which rusEFI calls your `onTick` and `onCanRx` functions, in hz
 
 Puts MCU into standby low current consumption mode.
 
+Only built on boards that define `LUA_STM32_STANDBY` - it depends on the board leaving PA0 free. On any
+other board the function does not exist, so calling it stops the script with "attempt to call a nil value".
+
+Calling it within the first three seconds after boot raises a critical error instead of entering standby.
+
 #### `interpolate(x1, y1, x2, y2, x)`
 
 Interpolates `x` placing it on the line defined by (x1, y1) and (x2, y2)
@@ -348,7 +353,7 @@ Finds curve index by specific curve name
 Looks up a value from the specified Script Curve.
 
 - Parameters
-  - `curveIdx`: Index of the curve to use, starting from 1.
+  - `curveIdx`: Index of the curve to use, 1 through 6. An out-of-range index silently returns Script Curve #1 - it is not an error and does not return nil.
   - `x`: Axis value to look up in the table
 
 ### Input
@@ -385,7 +390,7 @@ Reads the raw value from the specified sensor. For most sensors, this means the 
 More or less like getSensorRaw but always voltage of aux analog input.
 
 - Parameters
-  - `index`: Index of aux analog sensor to read. From 0 to 7
+  - `index`: Index of aux analog sensor to read. From 0 to 7. The index is not range-checked - 8 and above read the Lua gauges instead, which is not an error and does not return nil.
 - Returns
   - Voltage of sensor reading, or nil if sensor isn't configured.
 
