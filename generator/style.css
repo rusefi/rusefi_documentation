@@ -19,10 +19,10 @@ rst-content .toctree-wrapper > p.caption, .rst-content h1, .rst-content h2, .rst
 	display: none;
 }
 
-th.invisible {
-	display: none;
+.frontpage table, .frontpage th, .frontpage td {
+	border: none !important;
 }
 
-table:has(.invisible), td.invisible {
-  border: none !important;
+.frontpage tbody {
+	display: none;
 }
