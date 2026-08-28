@@ -238,7 +238,7 @@ If you also have a cam sensor somewhere, see [VVT](VVT).
 
 Note that if your timing wheel was originally set up to run with a Ford EDIS-4 based ignition, you need to set the Trigger->Trigger Angle Advance setting to 90 degrees, as the EDIS-4 wants the reference missing tooth at 90 degrees BTDC.
 
-![TunerStudio Trigger Angle Advance](Images/TS/TunerStudio_trigger_advance.png){: style="width: 416px; height: 187px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Images/TS/TunerStudio_trigger_advance.png" alt="TunerStudio Trigger Angle Advance" width="416">
 
 ## TOOTHED_WHEEL_36_2
 
@@ -812,7 +812,7 @@ Use skipped wheel for crank and "Toyota 3 Tooth" previously known as "VVT: 2JZ" 
 
 This one is pretty special - it has extra setting for position. At the moment this one is only adjustable on first cam.
 
-![TunerStudio Cam Mode Toyota 3 Tooth](Images/TS/TunerStudio_trigger_toyota3tooth.png){: style="width: 364px; height: 73px;" }
+![TunerStudio Cam Mode Toyota 3 Tooth](Images/TS/TunerStudio_trigger_toyota3tooth.png)
 
 ## VVT_TOYOTA_4_1
 

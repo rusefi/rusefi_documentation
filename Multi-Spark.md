@@ -18,13 +18,13 @@ To enable the multispark feature, open the "Ignition" tab in the options bar. In
 
 In the event that the Multispark option is greyed out, spark will need to be enabled. In  the "Ignition" -> "Ignition settings" dialog, double-check that "Enabled" is set to true in the drop down menu.  
 
-![Multispark Greyed Out](Spark/Images/multisparkGreyedOut.png "Multispark Greyed Out"){: style="width: 250px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Spark/Images/multisparkGreyedOut.png" alt="Multispark Greyed Out" title="Multispark Greyed Out" width="250">
 
-![Ignition Settings](Spark/Images/ignitionSettings.png "Ignition Settings"){: style="width: 500px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Spark/Images/ignitionSettings.png" alt="Ignition Settings" title="Ignition Settings" width="500">
 
 If ignition is enabled, multispark settings should be available. In the Multispark menu, simply set "Enable multiple sparks" to true to enable multispark. *NOTE:* The "Configuration" and "Delay & Dwell" settings should be set with extreme caution as serious permanent damage could be caused to your engine.  
 
-![Multispark Settings](Spark/Images/multisparkSettings.png "Multispark Settings"){: style="width: 500px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Spark/Images/multisparkSettings.png" alt="Multispark Settings" title="Multispark Settings" width="500">
 
 ## Configuration Definition
 

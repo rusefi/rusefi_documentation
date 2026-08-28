@@ -6,7 +6,7 @@ microRusEFI can control a 4-wire stepper motor using the on-board TLE8888 - see 
 
 uaEFI and Proteus can control a 4-wire stepper motor using two h-bridges/DC motor drivers.
 
-![TunerStudio Stepper Preset](Images/TS/TunerStudio_preset_stepper.png){: style="width: 551px; height: 118px;" }
+![TunerStudio Stepper Preset](Images/TS/TunerStudio_preset_stepper.png)
 
 [proteus Toyota pinout](https://github.com/rusefi/rusefi/commit/89d55109178be92c79807f392503079463647d43)
 

@@ -64,13 +64,13 @@ Various terms are used to describe the main relay by different manufacturers:
 
 Simple wiring description:
 
-![Main Relay Table](Images/main_relay_table.png){: style="width: 917px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Images/main_relay_table.png" alt="Main Relay Table" width="917">
 
 When wiring your new rusEFI ECU you should check whether the main relay on your car is operated by the OEM ECU or by the ignition switch directly.
 
 If your car's main relay is operated by the ignition switch, with no ECU control, link VIGN and 12V (Switched B+ from your old ECU wire) inputs together for battery voltage to display correctly.
 
-![Main Relay Diagram](Images/diagrams/main_relay_diagram.png){: style="width: 561px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Images/diagrams/main_relay_diagram.png" alt="Main Relay Diagram" width="561">
 
 A main relay operated by the ignition switch is typically referred to as "12v+" or "B+" in diagrams. It's preferred to use the relay output as the source for the voltage reading ("VIGN"). In the case of ignition-operated main relays, it's usually the only power input for the ECU, so it will serve as both 12V+ power to the ECU and as the reference voltage.
 
@@ -85,7 +85,7 @@ The main relay should make a click sound when the ignition switch is turned on, 
 However, if your main relay is switched by an ECU pin, take a free LS (low side) output and replace your old relay operation signal with it.
 Feed back VIGN with power returning from the main relay. They're usually labeled in manuals as "ECU POWER" or "ECU 12V".
 
-![Lowside Main Relay Diagram](Images/diagrams/lowside_main_relay_diagram.png){: style="width: 631px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Images/diagrams/lowside_main_relay_diagram.png" alt="Lowside Main Relay Diagram" width="631">
 
 As you can see in the ECCS example pin 16 here should be rusEFI lowside
 and pin 49 should be your relay power IN (VIGN)
@@ -121,7 +121,7 @@ Analog Voltage inputs have a weak pull-down to sensor ground (varies according t
 
 VR sensors typically have two wires and this type of waveform:
 
-![VR Waveform](Images/VR_waveform.png){: style="width: 306px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Images/VR_waveform.png" alt="VR Waveform" width="306">
 
 The two wires from your VR sensor should go to your rusEFI VR+ and VR- pins.
 Some ECU brands call these "NE+" and "NE-".
@@ -131,7 +131,7 @@ Some ECU brands call these "NE+" and "NE-".
 Hall effect sensors have a square-shaped wave and typically three wires.
 They are powered by either 5V or 12V power and ground and have a signal as a third pin.
 
-![Hall Waveform](Images/hall_waveform.png){: style="width: 270px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/Images/hall_waveform.png" alt="Hall Waveform" width="270">
 
 ### Optical Sensors
 

@@ -16,7 +16,7 @@ Do not confuse this with `twoWireBatchIgnition`, which is a different setting fo
 
 The rotary settings live under Controller in TunerStudio:
 
-![TunerStudio Rotary](Images/TS/TunerStudio_rotary.png){: style="width: 374px; height: 303px;" }
+![TunerStudio Rotary](Images/TS/TunerStudio_rotary.png)
 
 [Rotary - TunerStudio Guide](https://rusefi.com/docs/guide/#menu_Controller_Rotary)
 

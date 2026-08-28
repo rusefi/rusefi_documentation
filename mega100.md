@@ -6,7 +6,7 @@
 
 * Requires injector MOSFETs that can be driven by 3.3v or less. Nothing to worry about - works for most applications; works for most SMD applications, some through-hole too!
 
-![mega100 Presets](Images/TS/TunerStudio_preset_mega100.png){: style="width: 559px; height: 203px;" }
+![mega100 Presets](Images/TS/TunerStudio_preset_mega100.png)
 
 https://github.com/rusefi/fw-custom-mega100-f4/
 

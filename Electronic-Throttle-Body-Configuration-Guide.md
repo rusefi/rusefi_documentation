@@ -45,7 +45,7 @@ Most throttles have one connector that contains both the position sensors and mo
 
 ### Pinouts
 
-![Pinout](OEM-Docs/VAG/Bosch_0280750009_pinout.jpg){: style="width: 300px;" }
+<img src="https://raw.githubusercontent.com/wiki/rusefi/rusefi/OEM-Docs/VAG/Bosch_0280750009_pinout.jpg" alt="Pinout" width="300">
 
 This is the pinout with a personal choice of colors for a VAG ETB.
 

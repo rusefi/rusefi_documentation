@@ -122,7 +122,7 @@ USBBF7
 
 ### WBO connector
 
-![WBO Connector Wires](Images/uaEFI_WBO_wires.png){: style="width: 232px; height: 126px;" }
+![WBO Connector Wires](Images/uaEFI_WBO_wires.png)
 
 ![uaEFI wideband wiring diagram](Images/diagrams/uaEFI_wideband.png)
 

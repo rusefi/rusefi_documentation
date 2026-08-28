@@ -2,7 +2,7 @@
 
 Blending is a more powerful version of dual table. Instead of only switching between two tables, blending lets you layer one or more additional **blend tables** on top of a base table and mix them in gradually, controlled by any parameter you choose.
 
-![TunerStudio Blending](Images/TS/TunerStudio_blending.png){: style="width: 479px; height: 239px;" }
+![TunerStudio Blending](Images/TS/TunerStudio_blending.png)
 
 ## How blending works
 

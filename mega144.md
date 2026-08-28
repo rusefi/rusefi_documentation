@@ -10,7 +10,7 @@ A way to convert legacy Arduino hardware into rusEFI: mega2560 form factor board
 
 Uses SMT32F7, meaning extra Lua capacity.
 
-![mega144 Board](Images/mega144.png){: style="width: 1003px; height: 570px;" }
+![mega144 Board](Images/mega144.png)
 
 https://github.com/rusefi/fw-custom-mega144-f7/
 
