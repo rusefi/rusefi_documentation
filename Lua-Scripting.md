@@ -54,6 +54,11 @@ yet, see [Console](Console).
    a `LUA:` prefix. A printed message containing `BEEP` also makes the console beep, which is useful when
    you are under the car and cannot see the screen.
 
+   > **Warning:** `print()` is for occasional diagnostics, not a data channel. Each message is cut at
+   > 245 characters, only 24 messages can be queued at a time and anything beyond that is dropped
+   > without notice. Printing on every `onTick()` at 200 Hz will lose lines and load the ECU for
+   > nothing - see [`print(msg)`](#printmsg) for the exact limits.
+
 5. **Press `Burn to ECU` when you are happy with it.**
    This stores the configuration, including your script, in the ECU so that it runs again at the next
    boot. Power-cycle the ECU and confirm the script still runs before you rely on it.
@@ -365,6 +370,23 @@ Print a line of text to the ECU's log.
   - `msg`: The message to print. Pass a string or number and it will be printed to the log.
 - Returns
   - none
+
+**Limits and warnings**
+
+- **Message length: 245 characters.** Each `print()` becomes one 256-byte log line that also carries
+  the `LUA:` prefix and protocol framing. A longer message is **truncated** to fit - it is never split
+  over several lines. Build long messages in pieces and print them one at a time.
+- **Queue depth: 24 messages.** Lines wait in a small pool of buffers until a background thread copies
+  them to the console output. When the pool is exhausted, further `print()` calls are **silently
+  dropped** - `print()` never blocks your script, and you get no error.
+- **Console output buffer: 6500 bytes** between two reads by TunerStudio / the rusEFI console. Text
+  that does not fit is lost until the next read.
+- **Rate.** `onTick()` runs at 200 Hz by default, so an unconditional `print()` inside it produces far
+  more text than the link can carry; most of it is dropped and the ECU spends time formatting text
+  nobody sees. Print on a change, on a counter (e.g. every 200th tick), or from a lower `setTickRate()`.
+- Older firmware (before the fix for [#10159](https://github.com/rusefi/rusefi/issues/10159)) could
+  **reboot the ECU** when flooded with over-length `print()` messages. If your ECU resets while a
+  script prints heavily, update the firmware and shorten / rate-limit the prints.
 
 #### `vin(index)`
 
