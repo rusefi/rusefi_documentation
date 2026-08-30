@@ -52,7 +52,9 @@ yet, see [Console](Console).
 4. **Watch the message pane.**
    `LUA script loaded successfully!` means it is running. Anything your script prints appears there with
    a `LUA:` prefix. A printed message containing `BEEP` also makes the console beep, which is useful when
-   you are under the car and cannot see the screen.
+   you are under the car and cannot see the screen. Similarly, printing `set_bg_color=RRGGBB` (hex, e.g.
+   `set_bg_color=FF0000`, or decimal `set_bg_color=255,0,0`) changes the background color of the console
+   message panes - handy as an eyes-free status indicator; `Write to ECU` resets the color back to white.
 
    > **Warning:** `print()` is for occasional diagnostics, not a data channel. Each message is cut at
    > 245 characters, only 24 messages can be queued at a time and anything beyond that is dropped
@@ -387,6 +389,16 @@ Print a line of text to the ECU's log.
 - Older firmware (before the fix for [#10159](https://github.com/rusefi/rusefi/issues/10159)) could
   **reboot the ECU** when flooded with over-length `print()` messages. If your ECU resets while a
   script prints heavily, update the firmware and shorten / rate-limit the prints.
+
+**Console magic strings**
+
+The rusEFI console reacts to certain substrings in printed messages:
+
+- `BEEP` - the console beeps.
+- `set_bg_color=<color>` - the console changes the background color of all message panes, where
+  `<color>` is 6-digit hex `RRGGBB` (optional leading `#`) or decimal `R,G,B`, e.g.
+  `print('set_bg_color=FF0000')` or `print('set_bg_color=0,255,0')`. Invalid values are ignored.
+  Pressing `Write to ECU` resets the color back to white.
 
 #### `vin(index)`
 
