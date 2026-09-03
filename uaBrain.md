@@ -105,3 +105,10 @@ Hellen-One platform modules used: mega-mcu100-f7 (CPU), knock ×2, vr-discrete, 
 * [super-uaEFI](super-uaEFI) — sibling with STM32F7 and superseal headers
 
 🔴 [Commercial Support](https://www.shop.rusefi.com/shop/p/details-about-rusefi-ecu-technical-support) 🔴
+
+### FAQ
+
+## Q: where is mating footprint?
+
+A: [hw-uaBrain.kicad_mod](https://github.com/rusefi/kicad6-libraries/blob/main/hw-uaBrain.kicad_mod) https://github.com/rusefi/kicad6-libraries/blob/main/hw-uaBrain.kicad_sym
+
