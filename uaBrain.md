@@ -8,7 +8,7 @@ A castellated solder-down "brain" module: all the electronics of a full-featured
 
 ## Specs
 
-* Firmware: [fw-uaBrain](https://github.com/rusefi/fw-uaBrain)
+* Firmware: [fw-uaBrain](https://github.com/rusefi/fw-uaBrain) https://rusefi.com/build_server/rusefi_bundle_uaBrain.zip
 
 ### Ignition and injection
 
