@@ -1,5 +1,9 @@
 # SUPERSEAL Adapters
 
+## Kawasaki 
+
+136 pin like Ninja ZX-4R and similar
+
 ## Mazda
 
 https://www.shop.rusefi.com/shop/p/mazda-miata-nc-superseal-adapter
