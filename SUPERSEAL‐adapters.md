@@ -8,6 +8,8 @@ https://www.shop.rusefi.com/shop/p/mazda-miata-nc-superseal-adapter
 
 ## Nissan
 
+Nissan Skyline GTS-T ECR33 RB25DET
+
 https://www.shop.rusefi.com/shop/p/superseal-nissan-76
 
 ## Toyota
