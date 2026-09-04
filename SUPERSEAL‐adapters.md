@@ -1,5 +1,9 @@
 # SUPERSEAL Adapters
 
+## Ford
+
+[2014 Fusion 2.0T](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Ford/2014%20Ford%20Fusion%20FWD%20L4-2.0L%20Turbo.pdf)
+
 ## Kawasaki 
 
 136 pin like Ninja ZX-4R and similar
