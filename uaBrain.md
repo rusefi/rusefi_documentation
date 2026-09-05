@@ -45,7 +45,7 @@ A castellated solder-down "brain" module: all the electronics of a full-featured
 
 ### Physical
 
-* 4 layer PCB
+* 4 layer PCB 131.6mmх86mm
 * Fourteen castellated 8-pin edge connectors (112 edge pins), reflow- or hand-solderable onto a carrier board
 * M3 mounting holes
 
