@@ -1,5 +1,7 @@
 # Nissan 121 pin ECU: variations across vehicles (2000s to 2010s)
 
+**Summary:** Nissan and Infiniti used one Bosch-style 121 pin ECU header on most VQ V6, VK V8 and QR/QG 4 cylinder vehicles from about 2000 to 2015, and [Hellen 121 Nissan](Hellen-121-Nissan) targets that connector. Power, ground, CAN and most engine I/O sit on the same pins everywhere; the differences are in O2/A-F sensor pins (2003 350Z narrowband vs 2005+ wideband), extra V8 outputs (injectors/coils 7-8, knock 2, VTC position), Maxima-only EGR and engine mount pins, and a few 4 cylinder inputs. The Euro Almera N16 (and likely Micra K12) shifts several pins by one position and needs a modified board. 2007+ VQ35HR and VQ37VHR cars, plus later Altima/Sentra/Versa, use different connectors. See the pin table below for the exact per-vehicle differences.
+
 This page collects what is known about the single-connector 121 pin Nissan/Infiniti engine ECU used from roughly 2000 to the mid 2010s, which vehicles use it, and how the pinout differs from vehicle to vehicle. It exists to support [Hellen 121 Nissan](Hellen-121-Nissan), the rusEFI plug-and-play board for this connector.
 
 Companion pages: [Vault-Of-Nissan-OEM](Vault-Of-Nissan-OEM), [Nissan-Xterra-2011](Nissan-Xterra-2011), [Hellen-76-Nissan](Hellen-76-Nissan) for the older 76 pin family.
@@ -25,13 +27,13 @@ These have a filled column in the comparison sheet or a diagram in this repo.
 | Vehicle | Years | Engine | Notes | Source |
 |---|---|---|---|---|
 | Nissan Xterra (N50) | 2005-2015 (2011 verified) | VQ40DE V6 | Reference vehicle for Hellen 121 Nissan | [Nissan-Xterra-2011](Nissan-Xterra-2011), [2011 pinout](OEM-Docs/Nissan/2011_Xterra/2011-Nissan-Xterra-VQ40DE-ECM-pinout.md) |
-| Nissan 350Z (Z33) | 2003-2006 | VQ35DE V6 | 2003 has a different O2 sensor scheme than 2005-2006; 2006 adds exhaust cam sensors | [2003](OEM-Docs/Nissan/2003-350z-ecu.png), [2005](OEM-Docs/Nissan/2005-350z-ecu.png), [2005 FSM extract](OEM-Docs/Nissan/2005-350z.pdf) |
+| Nissan 350Z (Z33) | 2003-2006 | VQ35DE V6 | 2003 has a different O2 sensor scheme than 2005-2006; 2006 adds exhaust cam sensors | [2005 pinout](OEM-Docs/Nissan/2005-Nissan-350Z-VQ35DE-ECM-pinout.md), [2003](OEM-Docs/Nissan/2003-350z-ecu.png), [2005](OEM-Docs/Nissan/2005-350z-ecu.png), [2005 diagram](OEM-Docs/Nissan/2005-350z.pdf) |
 | Nissan Sentra (B15) SE-R / Spec V | 2002-2006 | QR25DE I4 | 4 cylinder variant, bank 2 pins unused | [2005 Sentra](OEM-Docs/Nissan/2005-sentra-2.5-ecu.png) |
 | Nissan Maxima (A33 / A34) | 2002-2003 and 2004-2006 | VQ35DE V6 | Adds EGR stepper, EGR temp sensor, electronic engine mounts | [2003 Maxima](OEM-Docs/Nissan/2003-maxima-3.5.pdf), [2005 Maxima](OEM-Docs/Nissan/2005-maxima-ecu.png) |
 | Nissan Altima (L31) V6 | 2002-2006 | VQ35DE V6 | Same as Maxima minus engine mounts | Sheet, FSM EC-740 |
 | Nissan Altima (L31) I4 | 2002-2006 | QR25DE I4 | Sheet lists crank and cam swapped on pins 13/14 versus the V6, see below | Sheet, FSM EC-120 |
 | Nissan Titan | 2004-2015 (2011 verified) | VK56DE V8 | Adds injectors 7/8, coils 7/8, knock 2, VTC position sensors, battery current sensor | Sheet, FSM EC-91/EC-101 (2011), [issue 5](https://github.com/rusefi/hellen121nissan-issues/issues/5) |
-| Nissan Armada / Infiniti QX56 | 2004-2015 | VK56DE V8 | Same ECU family as Titan; 2010 Armada diagram in repo numbers pins to 121 | [2010 Armada](OEM-Docs/Nissan/2010-armada-5.6.pdf) |
+| Nissan Armada / Infiniti QX56 | 2004-2015 (2011 verified) | VK56DE V8 | Same ECU family as Titan; single PHASE cam sensor on pin 14, pin 33 unused, VTC position sensors on 53/72 | [2011 pinout](OEM-Docs/Nissan/2011-Nissan-Armada-VK56DE-ECM-pinout.md), [2010 Armada](OEM-Docs/Nissan/2010-armada-5.6.pdf) |
 | Infiniti M35 | 2006-2008 | VQ35DE V6 | 121 pin naming, plus fuel pump control module pins 38/39 | [2007 M35](OEM-Docs/Nissan/2007-m35-1.png) |
 | Nissan Almera (N16, Europe) | 2000-2006 (2003 tested) | QG15DE / QG18DE I4 | Same connector, but several pins are shifted by one position; needs board modification | [Almera N16](OEM-Docs/Nissan/Almera-N16-ECU.pdf), [issue 13](https://github.com/rusefi/hellen121nissan-issues/issues/13) |
 
@@ -60,7 +62,7 @@ These have a filled column in the comparison sheet or a diagram in this repo.
 
 ## Pin level differences between vehicles
 
-The pins below are the ones that change meaning between vehicles in the comparison sheet. Pins not listed (injectors 1-6 on 21/22/23/40/41/42, coils 1-6 on 62/61/60/81/80/79, throttle motor on 4/5 with 12 V feed on 3 and relay drive on 104, TPS on 50/69, pedal on 106/98, MAF on 51, IAT 34, CLT 73, knock 15, EVAP purge 45, vent valve 117, tank pressure 32, fuel temp 107, brake 101, PNP 102, cruise switches 99/108, A/C pressure 70, power steering pressure 12, and the power/ground/CAN pins already listed) are the same everywhere except on the Almera.
+The pins below are the ones that change meaning between vehicles in the comparison sheet. Pins not listed (injectors 1-6 on 21/22/23/40/41/42, coils 1-6 on 62/61/60/81/80/79, throttle motor on 4/5 with 12 V feed on 3 and relay drive on 104, TPS on 50/69, pedal on 106/98, MAF on 51, IAT 34, CLT 73, knock 15, EVAP purge 45, vent valve 117, tank pressure 32, fuel temp 107, brake 101, PNP 102 (printed as VMOT on the 2005 350Z Mitchell sheet, but wired to the park/neutral switch), cruise switches 99/108, A/C pressure 70, power steering pressure 12, and the power/ground/CAN pins already listed) are the same everywhere except on the Almera.
 
 | Pin | VQ V6 (350Z 2005, Xterra, Maxima, Altima V6) | 350Z 2003 | QR25DE I4 (Sentra, Altima I4) | VK56DE V8 (Titan, Armada) | Other |
 |---|---|---|---|---|---|
@@ -70,13 +72,13 @@ The pins below are the ones that change meaning between vehicles in the comparis
 | 10 | Intake VTC solenoid bank 2 | same | NC | same | |
 | 11 | Intake VTC solenoid bank 1 | same | CVTC (single) | same | |
 | 13 | Crank sensor (POS) | same | Sentra: POS or PHASE; Altima I4 listed as cam PHASE | same as V6 | Sheet shows 13/14 swapped on Altima I4. Confirm before wiring |
-| 14 | Cam sensor bank 2 (PHASE LH) | same | Altima I4 listed as crank POS | same as V6 | |
+| 14 | Cam sensor bank 2 (PHASE LH) | same | Altima I4 listed as crank POS | PHASE (the only cam sensor on the 2011 Armada) | |
 | 16 | A/F sensor 1 bank 1 (AF UN1) | O2 signal front left | A/F sensor 1 | A/F +2 | |
 | 17-20 | NC | NC | NC | NC | Maxima 2002-2005: EGR stepper coils 1-4 |
 | 24 | A/F heater bank 2 | O2 heater front right | HO2S1 heater | AF-H2 | |
 | 25 | HO2S 2 heater bank 1 | O2 heater rear right | HO2S1 heater | same | |
-| 29 | NC | NC | CDVC (swirl / intake valve control) | NC | Maxima: VIAS solenoid |
-| 33 | Cam sensor bank 1 (PHASE RH) | same | NC | same | |
+| 29 | VIAS solenoid (Xterra) or NC (350Z) | NC | CDVC (swirl / intake valve control) | NC | Maxima: VIAS solenoid |
+| 33 | Cam sensor bank 1 (PHASE RH) | same | NC | NC (2011 Armada) | |
 | 35 | A/F sensor 1 bank 1 (AF VM1) | O2 signal front right | HO2S1 | A/F +1 | |
 | 36 | NC | NC | NC | Knock sensor 2 | |
 | 38, 39 | NC | NC | NC | NC | M35: fuel pump control module (FPCMCK, FPCM) |
@@ -104,7 +106,7 @@ The pins below are the ones that change meaning between vehicles in the comparis
 
 ### Pin 68 and the R7/R8 jumper
 
-Early Hellen 121 Nissan boards (rev B) had jumpers R7/R8 because the 350Z diagrams show pin 68 as a sensor ground while the Xterra, Maxima and Altima diagrams show it as a 5 V supply for the power steering pressure sensor. [Issue 3](https://github.com/rusefi/hellen121nissan-issues/issues/3) compared the 2003/2005 350Z, 2011 Xterra, 2005 Altima and 2005 Maxima diagrams and concluded that all of these sensors share ground on pin 67 and pin 68 is a 5 V output on every vehicle. From rev C onward pin 68 is hard-wired as 5 V and R8 was removed. The [Hellen 121 Nissan](Hellen-121-Nissan) jumper table (R7 populated, R8 not) is the rev B carry-over.
+Early Hellen 121 Nissan boards (rev B) had jumpers R7/R8 because the 350Z diagrams show pin 68 as a sensor ground while the Xterra, Maxima and Altima diagrams show it as a 5 V supply for the power steering pressure sensor. [Issue 3](https://github.com/rusefi/hellen121nissan-issues/issues/3) compared the 2003/2005 350Z, 2011 Xterra, 2005 Altima and 2005 Maxima diagrams and concluded that all of these sensors share ground on pin 67 and pin 68 is a 5 V output on every vehicle. The transcribed [2005 350Z diagram](OEM-Docs/Nissan/2005-Nissan-350Z-VQ35DE-ECM-pinout.md) confirms this: pin 68 is labelled GND A but is wired RED/WHT to the power steering pressure sensor's supply pin, so the label is the error. From rev C onward pin 68 is hard-wired as 5 V and R8 was removed. The [Hellen 121 Nissan](Hellen-121-Nissan) jumper table (R7 populated, R8 not) is the rev B carry-over.
 
 ### Euro 4 cylinder (Almera N16, QG engines)
 
@@ -121,7 +123,7 @@ The forum summary was "six mismatched pins" after removing several 0 R links on 
 
 ### V8 (Titan, Armada, QX56)
 
-The 2011 Titan diagram matched the Hellen 121 Nissan pinout except for the extra V8 outputs and inputs listed above: injectors 7 and 8 on 44 and 63, coils 7 and 8 on 46 and 65, second knock sensor on 36, VTC position sensors on 53 and 72, battery current sensor on 71, second A/F heater on 43. None of those extra pins are driven by the stock Hellen board, so a V8 needs the extension pads wired up.
+The 2011 Titan diagram matched the Hellen 121 Nissan pinout except for the extra V8 outputs and inputs listed above: injectors 7 and 8 on 44 and 63, coils 7 and 8 on 46 and 65, second knock sensor on 36, VTC position sensors on 53 and 72, battery current sensor on 71, second A/F heater on 43. The [2011 Armada transcription](OEM-Docs/Nissan/2011-Nissan-Armada-VK56DE-ECM-pinout.md) agrees on all of these and adds that the V8 has a single camshaft position sensor (pin 14, pin 33 unused) and that the ALLDATA drawing calls the left bank "bank 1" on this engine, the reverse of the VQ. None of those extra pins are driven by the stock Hellen board, so a V8 needs the extension pads wired up.
 
 ### Automatic vs manual
 
@@ -166,4 +168,4 @@ Nissan part numbers for the ECM start with 23710 (for example 23710-EA010 for a 
 * [allpinouts: 2003-2005 G35 ECU](https://allpinouts.org/pinouts/connectors/car/2003-2005-infiniti-g35-sedan-and-coupe-ecu/)
 * ECU part number listings: [Redline Auto Parts 2007 350Z MEC100](https://www.redlineautoparts.com/nissan/2003-2008-350z/2007-nissan-350z-vq35hr-ecu-engine-control-module-automatic-mec100-270-c1-6z01-113k-5z019/), [Importapart Titan MEC73](https://www.importapart.com/product/07-nissan-titan-truck-vk56de-4x2-ecu-ecm-pcm-engine-computer-mec73-271-a1-2880/), [Importapart QX56 MEC36](https://www.importapart.com/product/04-infiniti-qx56-5-6l-vk56de-4x4-ecu-ecm-pcm-engine-computer-mec36-251-a1-3561/), [Importapart Pathfinder MEC150](https://www.importapart.com/product/11-pathfinder-4-0l-v6-vq40de-4x2-ecu-ecm-pcm-engine-computer-mec150-240-b1-1393/), [Circuit Board Medics FX35](https://circuitboardmedics.com/2003-2008-infiniti-fx35-ecm-ecu-repair/)
 * [Scribd: ECU Nissan Urvan 121 pines Hitachi](https://www.scribd.com/document/692350545/Ecu-Nissan-Urvan-121-Pines-Hitachi) (unverified)
-* OEM diagrams in this repo under [OEM-Docs/Nissan](OEM-Docs/Nissan)
+* OEM diagrams in this repo under [OEM-Docs/Nissan](OEM-Docs/Nissan); transcribed pinouts: [2011 Xterra](OEM-Docs/Nissan/2011_Xterra/2011-Nissan-Xterra-VQ40DE-ECM-pinout.md), [2005 350Z](OEM-Docs/Nissan/2005-Nissan-350Z-VQ35DE-ECM-pinout.md), [2011 Armada](OEM-Docs/Nissan/2011-Nissan-Armada-VK56DE-ECM-pinout.md)
