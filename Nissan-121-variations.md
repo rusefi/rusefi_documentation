@@ -64,6 +64,29 @@ These have a filled column in the comparison sheet or a diagram in this repo.
 * 2002-2003 Maxima (A33) and 2002-2004 Altima (L31) with VQ35DE: a different Hitachi ECM with terminals numbered 1-116 and a completely different assignment (injectors on 1-3, BATT on 67, VB on 110/112, CAN on 109/113). Both the [2003 Maxima diagram](OEM-Docs/Nissan/2003%20Nissan-Datsun%20Maxima.pdf) and the transcribed [2004 Altima V6 diagram](OEM-Docs/Nissan/2004-Nissan-Altima-VQ35DE-ECM-pinout.md) show it. Earlier versions of this page listed the 2003 Maxima as a confirmed 121 pin vehicle; that was wrong.
 * Pre-2000 Nissans: 64 or 76 pin ECUs, see [Hellen-76-Nissan](Hellen-76-Nissan).
 
+## Platform groupings
+
+Nissan has no published name for the 121 pin ECM generation (service manuals say "ECM", the Hitachi board marking `MECxx` names the hardware revision, and the connector is only known by its Bosch 121 way heritage). The vehicles do fall into named Nissan platforms, and the platform is the best predictor of which optional pins are populated:
+
+* **F-Alpha** trucks: Xterra N50, Pathfinder R51, Frontier D40 (to about 2012), Titan A60, Armada and QX56 TA60. One shared harness family for VQ40DE and VK56DE.
+* **FM** (front midship) cars: 350Z Z33, G35 V35, M35 Y50, FX35/FX45 S50. Narrowband front O2 sensors to 2004, six-wire wideband from 2005.
+* **FF-L** front-drive cars: Maxima A34 (2004-2006), Altima L31 I4, Murano Z50, Quest V42. The 2002-2003 Maxima and 2002-2004 Altima V6 on the same platform are not 121 pin.
+* Sentra B15 and the Euro Almera N16 are separate small-car platforms (MS and N16); the Almera is the one that shifts pins.
+
+The F-Alpha and FM pinouts match on every power, ground, relay, CAN, K-line, injector, coil, throttle, pedal, crank, cam, MAF, temperature, EVAP, brake, cruise and neutral pin. They differ only in which optional inputs are used:
+
+| Pin | F-Alpha (Xterra, Pathfinder, Armada, Titan) | FM (350Z, G35) |
+|---|---|---|
+| 29 | VIAS solenoid | not used |
+| 36 | Knock sensor 2 | not used (single knock sensor on 15) |
+| 43 | Second A/F heater wire, paralleled with 24 | not used |
+| 71 | Battery current sensor | not used |
+| 57, 58, 76, 77 | not used | Extra wideband A/F wires, 2005-2006 only |
+| 56, 75 | A/F signal, four-wire style sensor | A/F signal on 2005-2006; not used on 2003-2004 narrowband cars |
+| 44, 46, 53, 63, 65, 72 | V8 only: injectors 7/8, coils 7/8, VTC position sensors | 2006 350Z reportedly uses 8, 9, 53, 72 for exhaust cam control |
+
+The FF-L cars follow the FM layout with their own additions (Maxima EGR on 17-20, engine mounts on 44/63; Altima I4 TCM wire on 92).
+
 ## Pin level differences between vehicles
 
 The pins below are the ones that change meaning between vehicles in the comparison sheet. Pins not listed (injectors 1-6 on 21/22/23/40/41/42, coils 1-6 on 62/61/60/81/80/79, throttle motor on 4/5 with 12 V feed on 3 and relay drive on 104, TPS on 50/69, pedal on 106/98, MAF on 51, IAT 34, CLT 73, knock 15, EVAP purge 45, vent valve 117, tank pressure 32, fuel temp 107, brake 101, PNP 102 (printed as VMOT on the 2005 350Z Mitchell sheet, but wired to the park/neutral switch), cruise switches 99/108, A/C pressure 70, power steering pressure 12, and the power/ground/CAN pins already listed) are the same everywhere except on the Almera.
