@@ -143,7 +143,8 @@ To set the date without internet:
 
 1. Open **About Device**.
 2. Tap **Set Date & Time**.
-3. Select the local date, time, and timezone.
+3. Press **SET DATE & TIME**, select today's year, month, and day, then press
+   **APPLY**. The hour and minute do not need to be exact;
 4. Tap **Apply**.
 
 Manual setup is useful for logs and offline operation. updates apply an
@@ -238,6 +239,19 @@ date message. Do not assume every such message is a Wi-Fi failure.
 This UX defect and will be fixed on newer versions.
 
 ## Update using USB on current systems
+
+### Set the date before an offline update
+
+1. Open the dashboard side panel and press **ABOUT DEVICE**.
+2. Check the live **Local date & time** value.
+3. Press **SET DATE & TIME**, select today's year, month, and day, then press
+   **APPLY**. The hour and minute do not need to be exact;
+
+update certificates have a validity period, so Combo10 needs a valid
+calendar date even when the update arrives on a USB drive.
+
+After a reboot without Wi-Fi, confirm that the dialog shows today's date and
+press **APPLY** again before starting an offline update.
 
 Wi-Fi and USB use the same bundle and installer.
 
