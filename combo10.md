@@ -88,7 +88,8 @@ diagnostic tools, and device information:
    remove the custom background.
 9. **Reset Layout:** Restores the default gauge layout.
 10. **About Device:** Opens the About Device screen, where you can check the
-   installed software versions.
+    installed software versions and date, set the date and timezone, and check
+    for updates over Wi-Fi.
 
 ## Use the Tuning screen
 
@@ -129,6 +130,47 @@ write ECU configuration, including the setup wizard, require an ECU connection.
 
 <img width="1280" alt="combo10 dashboard wizard" src="https://github.com/user-attachments/assets/4bb20ed9-e4aa-403f-8c4c-9ccb1953c309" />
 
+## Date and time
+
+Open the right-side panel and tap **About Device** to see the device date
+and time.
+
+When combo10 has internet access, the OSm obtains the current time
+from an NTP server and saves it to the hardware clock. NTP remains authoritative
+and may correct a date that was entered manually.
+
+To set the date without internet:
+
+1. Open **About Device**.
+2. Tap **Set Date & Time**.
+3. Select the local date, time, and timezone.
+4. Tap **Apply**.
+
+Manual setup is useful for logs and offline operation. updates apply an
+additional time-validity check because an incorrect date can prevent HTTPS and
+certificate verification.
+
+### Delay after connecting to Wi-Fi
+
+On `v0.3.7-beta` with Dash version `2026.0.88`, automatic time synchronization
+usually completes quickly, but it can take about five minutes if combo10 booted
+without internet. The NTP service may be waiting for a retry that was scheduled
+before Wi-Fi connected. During this interval:
+
+- Wi-Fi can show **Connected** while the date is still stale;
+- **Check for Updates** can ask you to check the dashboard date; and
+- the message does not necessarily mean that Wi-Fi, the RTC, or a manually
+  entered date has failed.
+
+Wait up to five minutes and check whether the displayed date changes. If the
+device must remain offline, enter the current date manually instead.
+
+### Known manual-date issue in v0.3.7-beta
+
+`v0.3.7-beta` can reject an otherwise valid manual date earlier than
+`2026-08-24 03:16:25 UTC`.Until the issue is fixed, enter the current date or
+connect to the internet and allow NTP to synchronize it.
+
 
 ## Software versions
 
@@ -153,8 +195,8 @@ identifies a newer application release within the same year and major version.
 
 The Dash version changes when you:
 
-- install a full SD-card image; or
-- apply a `screen_autoupdate_*.7z` package from a FAT32 USB drive.
+- install a autoupdate file;
+- install a factory/recovery image
 
 ### Subsystem version
 
@@ -162,17 +204,52 @@ The format is `BUILDDATE_GITHASH`, for example `20260708_aed9736`. This means th
 image was built on 2026-07-08 from commit `aed9736`. It corresponds to the full
 image filename, such as `dwin_10in_20260708_aed9736.img.7z`.
 
-The Subsystem version changes only after installing a full SD-card image. A USB
-application update does not change it.
+The Subsystem version changes when an update contains a newer operating-system
+base, including a factory image or applicable update.
 
 > `screen_autoupdate_*.7z` filenames also contain a build date and Git hash.
 > Those identify the application inside the update package; they do not become
 > the Subsystem version.
 
-## Update only the dashboard application
+## Check for updates over Wi-Fi
 
-Use this method when combo10 is already installed and you only need a newer
-dashboard application:
+1. Connect combo10 to a Wi-Fi network with internet access.
+2. Open **About Device**.
+3. Confirm that the displayed date is current. If it is stale immediately after
+   connecting, see [Delay after connecting to Wi-Fi](#delay-after-connecting-to-wi-fi).
+4. Tap **Check for Updates**.
+
+Keep the device connected to reliable power while downloading or installing an
+update.
+
+### Interpreting connection errors
+
+Some versions combine several causes into the same update-server or dashboard-
+date message. Do not assume every such message is a Wi-Fi failure.
+
+| Situation | Likely condition | What to do |
+|---|---|---|
+| Wi-Fi just connected and the displayed date is stale | NTP synchronization is waiting for its next retry | Wait up to five minutes, then check again |
+| The date is current but GitHub does not respond | GitHub timeout or temporary server problem | Wait briefly and retry |
+| Repeated checks fail after many requests | GitHub may be rate-limiting requests | Stop repeated checks, wait, and try again later |
+| Wi-Fi is connected but other internet services also fail | DNS, routing, hotspot, or internet-access problem | Reconnect Wi-Fi or try a different network/hotspot |
+| Certificate/date message remains after waiting | Time is still not trusted or certificate validation failed | Verify the displayed date; synchronize with NTP or set the current date manually |
+
+This UX defect and will be fixed on newer versions.
+
+## Update using USB on current systems
+
+Wi-Fi and USB use the same bundle and installer.
+
+1. Download `combo10_update.7z` [from the releases](https://github.com/rusefi/combo10-releases/releases). An already
+   extracted `combo10-t113-10inch-stable.raucb` is also supported.
+2. Format a USB drive as FAT32.
+3. Copy exactly one supported update to the root of the drive. Do not rename it.
+4. Safely eject the drive from the computer before unplugging it.
+5. Insert it into the running combo10 device.
+6. Keep power connected while combo10 unpacks, verifies, and installs the
+   update to the inactive A/B slot.
+7. Allow the device to reboot automatically.
 
 1. Download `screen_autoupdate_*.7z` from the
    [combo10 releases page](https://github.com/rusefi/combo10-releases/releases).
@@ -184,11 +261,9 @@ dashboard application:
 
 This updates the Dash version but leaves the Subsystem version unchanged.
 
-## Major image update
+## Factory installation or recovery
 
-A major image update replaces the operating system and the bundled dashboard.
-It is not required for initial setup. Use this procedure only when a combo10
-release or support instructions specifically call for a full image update.
+Initial installation and full recovery use SD image. Routine updates should use Wi-Fi or the USB bundle instead.
 
 ### What you need
 
@@ -199,15 +274,15 @@ release or support instructions specifically call for a full image update.
 > **Warning:** Writing an image erases everything on the selected SD card.
 > Check the selected drive carefully before writing the image.
 
-### 1. Download and extract the image
+### 1. Download the image
 
-Download the latest `dwin_10in_*.img.7z` file from the
-[combo10 releases page](https://github.com/rusefi/combo10-releases/releases),
-then extract it. The extracted file has an `.img` extension.
+Download `install_rusefi_combo10_rauc_factory_sd.img.7z` from the [combo10 releases page](https://github.com/rusefi/combo10-releases/releases)
+instructions and verify it using the accompanying `SHA256SUMS`.
 
 ### 2. Write the image to the SD card
 
-On Windows, use an image-writing tool such as
+On Windows, extract `install_rusefi_combo10_rauc_factory_sd.img`, then use an
+image-writing tool such as
 [Rufus](https://rufus.ie/) or
 [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/).
 Select the extracted `.img` file and write it to the **whole SD card**, not to a
@@ -216,27 +291,27 @@ partition.
 On Linux, identify the SD card with `lsblk`, then write the image with:
 
 ```sh
-7z x -so dwin_10in_*.img.7z | sudo dd of=/dev/sdX bs=4M status=progress conv=fsync
+7z x -so install_rusefi_combo10_rauc_factory_sd.img.7z | sudo dd of=/dev/sdX bs=4M status=progress conv=fsync
 ```
 
 Replace `/dev/sdX` with the device for your SD card. Selecting the wrong device
 can erase another disk.
 
-### 3. Update combo10
+### 3. Install combo10
 
 1. Power off combo10.
 2. Insert the prepared SD card.
 3. Power on the device.
-4. Wait while the screen displays **Updating firmware - do not power off**.
-   The update normally takes about 1 or 2 minutes.
-5. When **Update complete - remove SD card and reboot** appears, power off the
-   device and remove the SD card.
+4. Wait while the screen displays **Installing factory image - do not power
+   off**. Do not interrupt power while the image is written and verified.
+5. When **Factory install complete - remove SD card and reboot** appears, power
+   off the device and remove the SD card.
 6. Power on the device again without the SD card.
 
 The device now boots the updated system from its internal storage and starts the
 dashboard automatically. Do not interrupt power while an update is in progress.
 
-### Confirm the major update
+### Confirm the installation
 
 After the dashboard starts, open **ABOUT DEVICE** from the right-side menu and
 confirm that **Dash version** and **Subsystem version** contain the expected
