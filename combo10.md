@@ -291,3 +291,8 @@ at the desired location.
 ### Where is the source code?
 
 combo10 is not open source.
+
+### Size?
+
+display is about 135mm tall, overall PCB is about 155mm tall
+
