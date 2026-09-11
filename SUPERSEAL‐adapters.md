@@ -33,7 +33,7 @@ The Toyota 122 Superseal adapter connects the 122-pin vehicle harness to 60-pin 
 - **Toyota Aristo JZS161, 2JZ-GTE VVT-i:** intended application. Check the harness version and the pin-specific notes in the guide; a fully tested model-year range has not been established.
 - **Lexus GS300 S160, 2JZ-GE:** related application, compared against the 1998 wiring diagram. Pin functions differ from Aristo, so wiring verification is required; plug-and-play compatibility is not confirmed.
 
-[Buy the Toyota 122 adapter](https://www.shop.rusefi.com/shop/p/superseal-toyota-122) | [Adapter guide and pin mapping (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Toyota-122-superseal-guide.pdf)
+[💲Buy Toyota 122💲](https://www.shop.rusefi.com/shop/p/superseal-toyota-122) | [Adapter guide and pin mapping (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Toyota-122-superseal-guide.pdf)
 
 
 
