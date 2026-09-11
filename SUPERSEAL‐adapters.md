@@ -1,5 +1,13 @@
 # SUPERSEAL Adapters
 
+## BMW
+
+N52
+
+[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/BMW-N52-146/) | [🔌Adapter board pinout🔌](https://rusefi.com/docs/pinouts/BMW-N52-adapter/)
+
+[adapter schematics](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-146-superseal.pdf)
+
 ## Ford
 
 [2014 Fusion 2.0T](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Ford/2014%20Ford%20Fusion%20FWD%20L4-2.0L%20Turbo.pdf)
@@ -35,5 +43,5 @@ The Toyota 122 Superseal adapter connects the 122-pin vehicle harness to 60-pin 
 
 [💲Buy Toyota 122💲](https://www.shop.rusefi.com/shop/p/superseal-toyota-122) | [Adapter guide and pin mapping (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Toyota-122-superseal-guide.pdf)
 
-
+https://rusefi.com/docs/pinouts/Toyota-JZS161/
 
