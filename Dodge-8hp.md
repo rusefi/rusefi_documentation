@@ -1,6 +1,6 @@
 # Dodge 8hp
 
-There are three shifters
+There are at least four different shifters
 
 2014-2015 Jeep Grand Cherokee
 
@@ -13,3 +13,10 @@ There are three shifters
 2019 Durango
 
 <img width="407" alt="image" src="https://github.com/user-attachments/assets/8c0876f3-876c-467d-bf96-ea9469af9193" />
+
+"CAN C" is TCU1 / goes to purple gateway
+
+"DATA BUS" is TCU2, that one goes only to transmission
+
+<img width="222" height="306" alt="image" src="https://github.com/user-attachments/assets/30000bb1-41a3-46d7-9c78-761117378e38" />
+
