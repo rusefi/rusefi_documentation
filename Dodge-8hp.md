@@ -4,6 +4,11 @@ There are at least four different shifters
 
 2014-2015 Jeep Grand Cherokee
 
+Older "horizontal" plug
+
+<img width="148" height="230" alt="image" src="https://github.com/user-attachments/assets/1e0c7c20-5b38-4cdf-8979-73843c493b5c" />
+
+
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/33840a00-192e-41cd-9914-32228e6f3b30" />
 
 2014-2015 Dodge Durango
@@ -13,6 +18,8 @@ There are at least four different shifters
 2019 Durango
 
 <img width="407" alt="image" src="https://github.com/user-attachments/assets/8c0876f3-876c-467d-bf96-ea9469af9193" />
+
+Newer vertical plug
 
 "CAN C" is TCU1 / goes to purple gateway
 
