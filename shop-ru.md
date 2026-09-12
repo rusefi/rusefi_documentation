@@ -10,42 +10,32 @@ Hellen? сложнее, надо писать в https://t.me/rusefiecu или [
 
 [uaEFI](uaEFI)
 
-плата без припаянных молексов стоит столько же, сколько плата с припаяннными молексами - https://www.google.com/search?q=175+usd+to+rub
+плата без припаянных молексов стоит столько же, сколько плата с припаяннными молексами - https://www.google.com/search?q=275+usd+to+rub
 
 пакетик ответных частей молекса для обжима стоит ещё https://www.google.com/search?q=40+usd+to+rub
 
 ## uaefi121
 
-https://www.google.com/search?q=275+usd+to+rub
-
-## mega144
-
-stm32 в форм факторе mega2560 [mega144](mega144)
-
-https://www.google.com/search?q=49+usd+to+rub
+https://www.google.com/search?q=375+usd+to+rub
 
 ## microRusEFI
 
 У нас есть собранные microRusEFI в Питере. <https://rusefi.com/index.html#microrusefi>
 
-У нас есть собранные Proteus 500 USD в рублях по курсу с только белым разъёмом проводки, и 550 USD в рублях по курсу с полным комплектом под обжим
+У нас есть собранные Proteus 600 USD в рублях по курсу с только белым разъёмом проводки, и 550 USD в рублях по курсу с полным комплектом под обжим
 <https://rusefi.com/index.html#proteus>
 
-Собранный microRusEFI 220 USD в рублях по курсу - в этом варианте заказчик сам идёт отрезать проводку от Лады или Ниссана
+Собранный microRusEFI 320 USD в рублях по курсу - в этом варианте заказчик сам идёт отрезать проводку от Лады или Ниссана
 
 ![assembled MRE](Hardware-files/microRusEFI/store/mre_assembled.jpg)
 
-Собранный microRusEFI + компоненты коннектора 240 USD в рублях по курсу - в этом варианте заказчик умеет обжимать разъёмы
+Собранный microRusEFI + компоненты коннектора 340 USD в рублях по курсу - в этом варианте заказчик умеет обжимать разъёмы
 
 ![connector kit](Hardware-files/microRusEFI/store/mre_assembled_connector_kit.jpg)
 
-Собранный microRusEFI + новый хвост проводки потому что 270 USD в рублях по курсу.
+Собранный microRusEFI + новый хвост проводки потому что 370 USD в рублях по курсу.
 
 ![pigtail](Hardware-files/microRusEFI/store/mre_assembled_pigtail.jpg)
-
-## wbo2
-
-10к плата без разъёмов, 12 к с разьемами, 15к с корпусом.
 
 ## оплата
 
