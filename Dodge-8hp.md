@@ -19,7 +19,9 @@ Older "horizontal" plug
 
 <img width="407" alt="image" src="https://github.com/user-attachments/assets/8c0876f3-876c-467d-bf96-ea9469af9193" />
 
-Newer vertical plug
+Newer "vertical" plug
+
+<img width="115" height="198" alt="image" src="https://github.com/user-attachments/assets/bd55616d-14ea-46e3-a59a-4e838b82c59b" />
 
 "CAN C" is TCU1 / goes to purple gateway
 
