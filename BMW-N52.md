@@ -8,7 +8,7 @@
 
 [vehicle ECU diagram](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bmw/2011%20BMW%20328i%20n52.pdf)
 
-[adapter schematics](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-146-superseal.pdf)
+[adapter schematics](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-adapter/BMW-N52-146-superseal.pdf)
 
 [🔌super-uaefi patchcord🔌](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-adapter/patchcord-BMW-N52-adapter.md)
 
