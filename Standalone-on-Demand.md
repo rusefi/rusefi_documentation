@@ -1,8 +1,8 @@
 # Standalone on Demand
 
-We can develop and fabricate a Standalone PnP ECU board for more or less any gasoline engine.
+We can develop and fabricate a Standalone plug-in ECU board for more or less any gasoline engine. We can also develop a standalone for a diesel engine.
 
-Design services start at $12K, with two iterations of ten units included. CAN bus decoding brings base price to $18K.
+Design services start at $40K, with two iterations of ten units included. CAN bus decoding brings base price to $60K.
 
 * Up to dual ETB
 * Up to 16 injectors
