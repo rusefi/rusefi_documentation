@@ -59,7 +59,7 @@ TunerStudio's built-in logging utility is the preferred method for producing log
 
 ## Analyzing Logs
 
-[EFI Analytics MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/) is an industry leading log charting application.
+[EFI Analytics MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/) is an industry leading log charting application. We have *hundreds* of data points in the logs, those are really worth checking out!
 
 ## Share Your Tunes and Logs
 
