@@ -14,6 +14,10 @@ At this point, the Console should be up and running. Play around with it and see
 
 ![Console Gauges](Images/rusEFI_console/java_console_1.png)
 
+## Configuration errors
+
+When the Config Error indicator is active, the console retrieves the ECU's explanation and displays it in an overlay on any tab. Click Close to dismiss the overlay and correct the tune. Closing it does not clear the ECU error. The same message stays dismissed until the error clears and returns or the ECU reconnects; a different error message is displayed again.
+
 ## Digital Chart
 
 ![Log Viewer](Images/rusEFI_console/log_viewer.png)
