@@ -113,7 +113,15 @@ The parameters for TPS-based enrichment have the same meaning as the Engine-Load
 
 ![TPS Enrichment](Images/TS/TunerStudio_TPS_extra_fuel.png)
 
-This table defines the amount of additional fuel injected based on throttle movement. The X-Axis is the “From” TPS and the Y-Axis is the “To” TPS. So if the TPS changes from ‘0%’ to ‘1%’, we add 10% fuel. In the above table, if TPS changes from ‘0’ to ‘3’ the firmware adds 17% fuel.
+This table defines additional fuel based on throttle movement. The X axis is the "From" TPS and the Y axis is the "To" TPS. Its units depend on the selected acceleration enrichment mode:
+
+- **MS Adder:** table values are milliseconds of extra injection duration, converted to fuel mass.
+- **Percent Adder:** table values are fractions, not whole percentages. With sequential injection and other corrections neutral, `0.20` adds 20% fuel; `20` adds 2000%.
+- **MAP Prediction:** this table is unused. Enrichment comes from the predicted MAP used by speed density.
+
+The table title and TPS AE log name say "ms or fraction", and units are abbreviated `ms/frac`. Changing adder modes reinterprets the same table values. After adder corrections, injection-mode scaling also applies: 1 for sequential injection, 0.5 for ordinary multi-cylinder batch, and 1/cylinder count for simultaneous injection. Single-point and single-cylinder batch use 1.
+
+The TPS AE output (`tpsAccelFuel`) and gauge show the corrected adder value before injection-mode scaling. MAP Prediction reports zero on this output even while predictive enrichment is active. Older screenshots and logs may label this value only as milliseconds.
 
 Why so complicated? A throttle-body is not a linear device. Cracking it slightly open from completely closed will cause much more of an increase in MAP than opening it the last percent from 99% to 100%. This table allows to adjust for this degressive behavior.
 
