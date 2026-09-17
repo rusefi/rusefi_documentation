@@ -6,6 +6,24 @@ Both methods detailed here will produce a `.mlg` file compatible with [MegaLogVi
 
 If you're trying to share the log with someone to help you with your engine, please upload it to [rusEFI Online](https://rusefi.com/online).
 
+## Engine state
+
+The `Engine` log field (TunerStudio channel `engine`) is a bitmask for engine-state indicators and analyzer filters. Multiple bits can be set at once.
+
+| Bit | Value | Meaning |
+|---|---|---|
+| 0 | 1 | Running, excluding cranking |
+| 1 | 2 | Cranking |
+| 2 | 4 | After-start fuel correction differs from 1 |
+| 3 | 8 | Warmup fuel correction differs from 1 |
+| 4 | 16 | TPS acceleration detection or positive adder, including its decay; in MAP Prediction mode, prediction is active |
+| 5 | 32 | TPS deceleration detection or negative adder, or DFCO is cutting fuel |
+| 6/7 | 64/128 | Unused MAP-rate acceleration/deceleration flags |
+
+MAP Prediction is TPS-triggered, so it uses bit 4. Wall-wetting correction is independent and is not included in these flags. This state field differs from `Engine Mode`, which describes the configured fuel, injection and ignition algorithms.
+
+The field is available in TunerStudio logs and ECU SD-card logs with matching firmware and INI definitions. Its presence alone does not add filters to VE Analyze or repair other WUE Analyze settings.
+
 ## TunerStudio logging
 
 The preferred log for tuning and debugging is a log made in TunerStudio. It requires having a PC plugged in whenever you want to log, but you're probably already plugged in for tuning the engine or looking at more gauges.

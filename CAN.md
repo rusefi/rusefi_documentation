@@ -66,3 +66,35 @@ PCAN
 [Korlan instructions](https://rusefi.com/forum/viewtopic.php?p=43654#p43654)
 
 FW images & legacy PCAN driver see <https://github.com/rusefi/rusefi_external_utils/tree/master/CAN>
+
+## Built-in SLCAN sniffer: bus identity
+
+On boards with the second USB serial port, the **CAN Bus sniffer** settings
+include **Include CAN bus in trace**. It is checked for new/default tunes;
+existing tunes keep their legacy setting. Reconnect the sniffer after changing
+it because the trace format is fixed for each open connection.
+
+When checked, the sniffer uses the
+[Elmue CANable channel prefixes](https://netcult.ch/elmue/CANable%20Firmware%20Update/):
+
+| Bus | Example: ID 0x123, data AA BB |
+| --- | --- |
+| CAN1 | `t1232AABB` |
+| CAN2 | `&t1232AABB` |
+| CAN3 | `$t1232AABB` |
+
+Each line ends with a carriage return. The prefixes also apply to extended-ID
+and RTR frames and the ECU's transmitted frames.
+
+**Uncheck this option for standard SLCAN clients such as SavvyCAN and slcand**,
+which do not understand these prefixes. With it unchecked, frames from the
+enabled buses are merged without bus identity.
+
+The updated rusEFI console displays CAN1/CAN2/CAN3 and exports them as
+`can0`/`can1`/`can2` in candump files. Legacy traffic is labeled `Bus unknown`
+and exported as `canUnknown`. CAN MCP packets expose the zero-based bus as
+`busIndex`, or `null` when unknown. Our clients use the read-only `I` query
+(`I0` legacy, `I1` channel prefixes) before opening the sniffer.
+
+This option affects trace output only. PC transmit commands still use the
+configured **Sniffer Tx CAN bus**.

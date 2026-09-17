@@ -14,3 +14,24 @@ Many rusEFI units have on-board microSD card slot. Most boards access SD cards v
 * In TunerStudio, two green icons are expected:
 
 ![image](Images/TS/TunerStudio_sd_usb_2.png)
+
+
+## SD ownership and MCP control
+
+The SD card can be owned by the ECU for logging/file access or exposed to the PC
+as USB mass storage. The live `sdCardMode` byte reports 0 idle, 1 ECU, 2 PC,
+3 unmounted, or 4 formatting. Check `sd_present` too. ECU ownership does not
+require active logging: logging may be paused or waiting for its trigger.
+
+The ECU MCP server provides `mount_to_ecu` and `mount_to_pc`, with an optional
+`timeoutMs` (default 20000, range 1..120000). These tools require firmware and
+a matching .ini with `sdCardMode`; they wait for a fresh mount-status report
+after the request is acknowledged. The selection lasts until power-off or
+the console command `sdmode auto`.
+
+Safely eject the PC drive before switching to ECU ownership. The switch can
+disconnect the shared USB console. If completion is unconfirmed, reconnect
+and read `sdCardMode` and `sd_present` before retrying. PC mode confirms the
+firmware exposed the card, not that the OS assigned a drive letter.
+
+See the [ECU MCP tool reference](https://github.com/rusefi/rusefi/blob/master/java_console/mcp_ecu/README.md).
