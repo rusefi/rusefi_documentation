@@ -236,6 +236,27 @@ This could be used for torque reduction.
 
 Percent to add to idle (incl. open loop).
 
+#### `setParkNeutral(active)`
+
+Reports whether the transmission is in Park or Neutral. Pass a boolean (`true`
+or `false`). The state starts false and clears when Lua resets. While true,
+firmware applies **Idle modifier when in P or N** (`idleParkNeutralOffset`) from
+TunerStudio's Open Loop Idle dialog. This is a signed idle-position offset in
+percentage points, separate from `setIdleAdd`, not an RPM offset. Zero has no
+effect; negative values reduce opening. Cranking and the optional dedicated
+coasting table are unaffected.
+
+For BMW/CANTCU gear encoding (`-1` = P, `-3` = N, `-2` = R):
+
+```lua
+setParkNeutral(gear == -1 or gear == -3)
+```
+
+Call this for every valid gear report, including the first report after startup,
+before any early return for an unchanged gear. Report false for R and forward
+gears. Clear it if your script detects loss of valid transmission data. Replace
+old P/N `setIdleAdd` compensation to avoid applying the offset twice.
+
 #### `setFuelAdd(amount)`
 
 Fuel mass in grams added to each injection. Applied after [`setFuelMult()`](#setfuelmultcoeff) has scaled the base mass, so it is not itself scaled by that multiplier; initially 0.

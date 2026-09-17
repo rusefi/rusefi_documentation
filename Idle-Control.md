@@ -29,6 +29,21 @@ Set `useStepperIdle` when you have a stepper-motor idle valve (bipolar, usually 
 
 Unipolar stepper valves are not supported. See the [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections#idle-air-control-valve) for more on the idle valve types.
 
+## Park/Neutral idle modifier
+
+**Idle modifier when in P or N** (`idleParkNeutralOffset`) in the Open Loop Idle
+dialog adds a signed percentage-point offset to the running idle position when
+Lua reports Park or Neutral with [`setParkNeutral(true)`](Lua-Scripting#setparkneutralactive).
+For example, `-5` changes a base position of 40% to 35%. Zero preserves the
+existing idle behavior. The setting affects the open-loop base in both idle
+modes; it does not change target RPM, the cranking curve, or the optional
+dedicated coasting table. The result remains limited to 0-100%.
+
+The Lua CAN decoder must report false for Reverse and forward gears. The state
+starts false and resets to false when Lua restarts. Existing scripts that only
+call `setIdleAdd` must be updated to report P/N before this setting can take
+effect. Remove their old P/N offset to avoid double compensation.
+
 ## Closed-loop idle control
 
 The `idleMode` setting chooses between two strategies:
