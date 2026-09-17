@@ -59,6 +59,14 @@ Innovate's LC-2 serial interface is supported. The Innovate sensor controller ha
 
 ## Wide Band Oxygen Sensor Info
 
+### LSU 4.9: five sensor wires, six harness wires
+
+The LSU 4.9 sensor itself has **five wires** running to its plug. The vehicle harness uses **six wires**: the additional connection accesses the factory calibration resistor inside the sensor plug. This is the **R Trim connection on pin 5**, not pin 6; pin 6 carries the sensor voltage signal.
+
+The resistor is individually trimmed at the factory to match the sensor. Keep the original sensor plug intact and connect R Trim to the wideband controller so it can use that calibration.
+
+With the rusEFI wideband controller, **no separate manual sensor calibration or free-air calibration is needed**. The factory calibration resistor serves this purpose automatically. Manual calibration is a separate procedure used by some other controllers; it is not what the sixth harness wire does.
+
 ### Pinout Naming Convention
 
 pin 1 red: IP=Pump Current
