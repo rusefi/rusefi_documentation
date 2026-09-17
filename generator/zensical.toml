@@ -120,3 +120,7 @@ nav = [
     {"Contribute to Documentation" = "HOWTO-contribute-to-documentation.md"}
   ]}
 ]
+
+[project.extra.analytics]
+provider = "google"
+property = "G-8DR395FQD1"
