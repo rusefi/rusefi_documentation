@@ -277,6 +277,10 @@ Suzuki Hayabusa
 
 2006 Yamaha R6
 
+## 62
+
+17+24+21
+
 ## 64 pin Nissan center lock
 
 Center bolt
