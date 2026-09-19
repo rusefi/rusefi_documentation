@@ -8,7 +8,7 @@ A standalone compatible with GM E38 pinout [💲available at the rusEFI store�
 
 [⏩ Interactive Pinout ⏪](https://rusefi.com/docs/pinouts/GM-E38/)
 
-[📦stable](https://rusefi.com/fw-private/lts/lts-25ambrosia/rusefi_bundle_pnp-e38_obfuscated_public.zip)
+[📦stable](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_pnp-e38_obfuscated_public.zip)
 
 [🧪firmware dev snapshot](https://rusefi.com/fw-private/rusefi_bundle_pnp-e38_obfuscated_public.zip)
 
