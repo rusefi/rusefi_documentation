@@ -74,6 +74,23 @@ The Mitsubishi Mirage Superseal adapter connects the 119-contact vehicle connect
 
 ## Nissan
 
+### Nissan 64 — Sentra SR20DE
+
+The Nissan 64 Superseal adapter connects the early 64-terminal E.C.C.S. vehicle connector (terminals 1–48 and 101–116) to a 60-pin Superseal connector (1A–34A and 1B–26B).
+
+- **1993 Nissan Sentra 2.0L SR20DE:** reference application. The wiring diagram includes manual/automatic transmission and equipment variants; check the exact harness against the pinouts and schematics. Vehicle operation has not been validated.
+- **Other Nissan applications with a 64-terminal connector:** compatibility is not established by connector shape alone. Functions not identified in the reference are marked as such in the pinouts.
+
+[📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Nissan-64-adapter/Nissan-64-superseal-adapter.pdf)
+
+[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/nissan64/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/nissan64-adapter/)
+
+[Reference wiring — 1993 Sentra SR20DE](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Nissan/1993%20Nissan-Datsun%20Sentra%202.0%20ECU.pdf)
+
+<img src="Hardware-files/adapters/Nissan-64-adapter/Nissan-64-superseal-adapter-front.png" alt="Nissan 64 Superseal adapter - front, KiCad bare PCB render" width="600" />
+
+<img src="Hardware-files/adapters/Nissan-64-adapter/Nissan-64-superseal-adapter-back.png" alt="Nissan 64 Superseal adapter - reverse side, KiCad bare PCB render" width="600" />
+
 ### Nissan 76 — Skyline GTS-T ECR33
 
 The Nissan 76 Superseal adapter connects the 76-pin vehicle harness to a 60-pin Superseal connector.
@@ -87,6 +104,23 @@ The Nissan 76 Superseal adapter connects the 76-pin vehicle harness to a 60-pin 
 <img src="Hardware-files/adapters/Nissan-76-adapter/Nissan76-superseal-adapter.jpg" alt="Nissan 76 Superseal adapter - connector side" width="600" />
 
 <img src="Hardware-files/adapters/Nissan-76-adapter/Nissan76-superseal-adapter-reverse.jpg" alt="Nissan 76 Superseal adapter - reverse side" width="600" />
+
+### Nissan 121 — Xterra VQ40DE / Armada VK56DE
+
+The Nissan 121 Superseal adapter connects the 121-pin vehicle harness (TE 368255-2) to 60-pin and 26-pin Superseal connectors (1A–34A, 1B–26B and 1D–26D).
+
+- **2011 Nissan Xterra 4.0L VQ40DE and 2011 Nissan Armada 5.6L VK56DE:** reference applications. The pinouts identify engine-specific functions. Vehicle operation has not been validated.
+- **Related Nissan/Infiniti applications:** a matching 121-pin connector alone does not establish compatibility. Check the exact engine, model year and wiring against the [Nissan 121 variations](Nissan-121-variations.md) before using this adapter.
+
+[📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Nissan-121-adapter/Nissan-121-superseal-adapter.pdf)
+
+[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/nissan121/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/nissan121-adapter/)
+
+[Reference wiring — 2011 Xterra VQ40DE](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Nissan/2011_Xterra/2011_Xterra_ECU.png) | [Reference wiring — 2011 Armada VK56DE](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Nissan/2011%20Nissan-Datsun%20Truck%20Armada%204WD%20ECU.pdf)
+
+<img src="Hardware-files/adapters/Nissan-121-adapter/Nissan-121-superseal-adapter-front.png" alt="Nissan 121 Superseal adapter - front, KiCad bare PCB render" width="600" />
+
+<img src="Hardware-files/adapters/Nissan-121-adapter/Nissan-121-superseal-adapter-back.png" alt="Nissan 121 Superseal adapter - reverse side, KiCad bare PCB render" width="600" />
 
 ## Subaru
 
