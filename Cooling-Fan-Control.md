@@ -15,6 +15,12 @@ Each fan turns on when coolant temperature rises to its **on** temperature and t
 - `disableFan1WhenStopped` / `disableFan2WhenStopped` — disable the fan while the engine is stopped.
 - `fan1ExtraIdle` — "Additional idle % when fan #1 is active", to raise idle slightly and compensate for the extra electrical load.
 
+## Status indicators
+
+The **Cooling Fans** dialog refreshes each fan's coolant-temperature, A/C, engine-state, vehicle-speed and coolant-sensor fault indicators in both on/off and PWM modes.
+
+In PWM mode, **PWM applied** reports the commanded duty cycle and the **Fan On/Off** indicator reports whether that duty is above zero. The temperature flags and radiator fan status continue to describe the on/off control conditions.
+
 ## Wiring
 
 A radiator fan draws far too much current to switch directly from an ECU output, so it is controlled through a **relay**:

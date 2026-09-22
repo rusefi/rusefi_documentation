@@ -24,6 +24,39 @@ The [rusEFI Firmware bundle](https://rusefi.com/build_server/rusefi_bundle_f407-
 
 We use CI/CD heavily; see https://github.com/rusefi/rusefi/blob/master/unit_tests/readme.md
 
+For current test coverage, see [the coverage report](https://rusefi.com/docs/unit_tests_coverage/).
+
+## Hardware Continuous Integration
+
+rusEFI has run hardware continuous integration (HW CI) on STM32F4 boards since 2015. Physical jumper wires loop outputs back into inputs so the tests exercise real hardware.
+
+See the [local HW CI setup guide](https://github.com/rusefi/rusefi/blob/master/.github/workflows/hw-ci/how_to_local_hwci.md) for prerequisites, building, flashing, and running the tests. The [HW CI workflow](https://github.com/rusefi/rusefi/blob/master/.github/workflows/hardware-ci.yaml) defines the runner labels and test suites.
+
+### F7 Nucleo
+
+For the F767-Nucleo, connect **PD2 <=> PA6**. Powering the board from VIN rather than the ST-Link USB connection is recommended.
+
+![Nucleo HW CI wiring](https://github.com/user-attachments/assets/b6d50866-1fca-4a21-9b64-f1b04cd9ca89)
+
+### STM32F407G-DISC1
+
+Connect the following jumper wires on the F4-Discovery:
+
+* **PD1 (output) <=> PC6 (input)**
+* **PD2 (output) <=> PA5 (input)**
+
+The wiring is also documented in [HwCiF4Discovery.java](https://github.com/rusefi/rusefi/blob/master/java_console/autotest/src/main/java/com/rusefi/HwCiF4Discovery.java).
+
+The console can detect connected rusEFI hardware and invoke the F4-Discovery test suite:
+
+```shell
+java -jar rusefi_console.jar functional_test
+```
+
+### Proteus F4
+
+See [ProteusAnalogTest.java](https://github.com/rusefi/rusefi/blob/master/java_console/autotest/src/main/java/com/rusefi/proteus/ProteusAnalogTest.java) for the external power supply, jumper, resistor, and capacitor connections needed for analog tests.
+
 ## GitHub Actions
 
 We rely on GitHub Actions heavily. We commit manual changes while GitHub Actions are committing auto-generated stuff if needed.
