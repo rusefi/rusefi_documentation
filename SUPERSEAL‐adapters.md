@@ -141,6 +141,25 @@ The Subaru 135 Superseal adapter connects the four-section 135-pin vehicle harne
 
 <img src="Hardware-files/adapters/Subaru-135-adapter/Subaru-135-superseal-adapter-reverse.jpg" alt="Subaru 135-pin Superseal adapter - reverse side" width="600" />
 
+## Suzuki
+
+### Suzuki 72 — G13BB
+
+The Suzuki 72 Superseal adapter connects a 72-terminal vehicle connector (31+24+17 sections) to one 60-terminal Superseal connector (1A–34A and 1B–26B). It routes 34 vehicle terminals to 32 Superseal contacts; the remaining terminals have individual solder access pads.
+
+- **Engine: Suzuki G13BB, with a 72-terminal ECU connector.** The reference pinout includes Samurai-specific notes. Check the exact harness against both pinouts and the schematics; a tested vehicle/model-year range has not been established.
+- **Configuration:** revision a has four open solder jumpers for configurable ground connections. Follow the [connection and configuration instructions](Suzuki-72-adapter.md) before installation.
+
+[📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Suzuki-72-adapter/Suzuki-72-superseal-adapter.pdf)
+
+[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/suzuki72/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/suzuki72-adapter/)
+
+[Reference wiring — Jimny workshop manual, pages 614–619 (comparison; assignments differ)](https://www.carmanualsonline.info/suzuki-jimny-2005-3-g-service-workshop-manual/62)
+
+<img src="Hardware-files/adapters/Suzuki-72-adapter/Suzuki-72-superseal-adapter-front.png" alt="Suzuki 72 Superseal adapter - connector side, KiCad PCB render" width="600" />
+
+<img src="Hardware-files/adapters/Suzuki-72-adapter/Suzuki-72-superseal-adapter-back.png" alt="Suzuki 72 Superseal adapter - reverse side, KiCad PCB render" width="600" />
+
 ## Toyota
 
 ### Toyota 120 — Supra A80
