@@ -35,6 +35,25 @@ Note: We support OBD2 pretty much exclusively for gauges/dashes/apps/etc, not re
 
 [Firmware Update via CAN](Firmware-update-via-CAN)
 
+## Identify rusEFI over UDS
+
+Firmware built with `EFI_UDS=TRUE` responds to a read-only identity query on
+standard CAN IDs 0x7E0 (request) and 0x7E8 (response), at the configured CAN
+speed. This option defaults to disabled and is enabled for the M74.9 board.
+The request uses UDS ReadDataByIdentifier (0x22), with private DID 0xF1A4:
+
+| Frame | Eight data bytes (hex) |
+|---|---|
+| Request, 0x7E0 | `03 22 F1 A4 00 00 00 00` |
+| Response, 0x7E8 | `07 62 F1 A4 72 45 46 49` |
+
+The four identity bytes are ASCII `rEFI`. Both frames fit a single ISO-TP
+frame. No session change, authentication, reset, or power cycle is required.
+The response identifies firmware only; it does not promise a particular
+bootloader, programming method, or application readiness. Silence does not
+rule out older rusEFI firmware, and passive CAN traffic is not a reliable
+identity check. Other UDS services and DIDs remain board-specific.
+
 ## Third-party Dashboards
 
 See [CAN Broadcast for Dashboards and Gauges](CAN-Broadcast-for-Dashboards) for how to stream engine data to a dashboard or gauge over CAN (rusEFI verbose broadcast + DBC, dashboard presets, OBD2, and phone/tablet dashes over Bluetooth).
