@@ -86,6 +86,17 @@ PCAN
 
 FW images & legacy PCAN driver see <https://github.com/rusefi/rusefi_external_utils/tree/master/CAN>
 
+## ELI5 CAN sniffer
+
+Actually not just sniffer (receive) but plain bi-directional CANbus device 
+
+Problem: there is no perfect USB dongle
+
+* SLCAN is text protocol, meaning it has limited maximum throughput (CANable line of devices)
+* GS_USB is binary protocol without that performance latency, but Windows drivers are a mess, right? (think candleLight)
+* say PCAN has nice Windows DLL but legit devices start at around $200
+* well, technically J2534 has plain CANbus - but I am still very confused about 64 bit Windows J2534 DLLs
+
 ## Built-in SLCAN sniffer: bus identity
 
 On boards with the second USB serial port, the **CAN Bus sniffer** settings
