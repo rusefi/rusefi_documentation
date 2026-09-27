@@ -210,13 +210,17 @@ Returns true if the ECU is in state of critical/fatal error.
 
 ### `startCrankingEngine()`
 
-Start cranking as if a physical start button was tapped.
+Engages the starter and clears any earlier engine-stop request, allowing a new start without waiting for `engineShutDownPeriod` to expire. The physical start button uses the same behavior. Other engine protection cuts still apply.
+
+Calling again while the starter is already engaged does nothing: it neither extends the cranking timeout nor clears a newer stop request. The starter is released by the slow callback once the engine reaches running RPM or `startCrankingDuration` expires. This function does not check that the engine is stopped before engaging the starter.
 
 #### `stopEngine()`
 
+Requests an engine stop for `engineShutDownPeriod` seconds. Calling again restarts that window.
+
 #### `isEngineStopRequested()`
 
-Returns true if engine stop was requested by either Lua or a start/stop button within the last five seconds.
+Returns true while an engine-stop request is active, whether requested by Lua, the start/stop button, console, TunerStudio, or a board hook. The window ends when `engineShutDownPeriod` expires or a new starter engagement clears it.
 
 #### setLaunchTrigger
 
@@ -711,7 +715,7 @@ and hellen121vag.
 
 | Class | Behaviour |
 | --- | --- |
-| `Biquad` | `yourFilter = Biquad.new()`, then `yourFilter:configureLowpass(sampleRateHz, cutoffHz)` and `yourFilter:filter(x)`. A low-pass filter for a noisy input. Pass your tick rate as the sample rate. The first sample primes the filter rather than ramping up from zero. |
+| `Biquad` | `yourFilter = Biquad.new()`, then `yourFilter:configureLowpass(sampleRateHz, cutoffHz)` and `yourFilter:filter(x)`. A low-pass filter for a noisy input. Pass your tick rate as the sample rate. The cutoff must be between `sampleRateHz / 1000` and `sampleRateHz / 2.5`, inclusive; unsupported values raise an invalid-biquad-parameters error. For slower filtering, call the filter at a lower rate and configure that rate as the sample rate. The first sample primes the filter rather than ramping up from zero. |
 | `SignalDebounce` | `yourDebounce = SignalDebounce.new(seconds)`, then `yourDebounce:set(rawBool)` every tick and `yourDebounce:get()` for the settled value. Works with any signal, not just a pin. Note the *first* change of state is accepted immediately - the hold time only applies from then on. |
 
 ``` lua
