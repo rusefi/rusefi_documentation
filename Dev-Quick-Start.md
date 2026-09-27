@@ -73,6 +73,11 @@ Make sure that your fork has Actions enabled:
 
 * rebase good, merge commit bad. We would have loved to prohibit PRs with merge commits if only we know a way
 * PRs based on your fork's master branch do not work here 🔴 NEVER COMMIT TO MASTER EVEN IF YOU FORK 🔴
+* Explain the problem, the change, and the test results concisely; physical testing should accompany relevant automated tests.
+* Read the [LLM policy](LLM-policy) before submitting AI-assisted contributions, and take responsibility for every change.
+* Before requesting review, rebase onto the latest upstream `master` and resolve all merge conflicts.
+* Enable GitHub Actions on your fork and check that CI passes for your PR branch.
+* Commit source changes and let GitHub Actions update generated files; do not add tracked generated files to `.gitignore`.
 
 ## Pull Requests should be atomic
 
