@@ -10,6 +10,12 @@ At this point, the Console should be up and running. Play around with it and see
 * You can use the console to invoke rusEFI commands and control the internal flow using the 'Messages Central' tab
 ![Messages Central](Images/rusEFI_console/messages_central.png)
 
+## Keyboard shortcuts
+
+Choose **Shortcuts** in the main menu bar (or press **F1**) to open the keyboard reference. The window is non-modal: leave it open while using the Console. Its text scrolls vertically and covers table selection/editing, commands, Lua editing, charts, menus, and logging. Click back in the Console before using its shortcuts. Press **Esc** in the reference window to close it.
+
+Hover over buttons and command fields for shortcut hints. Some menus and buttons also show underlined shortcut letters when you press **Alt**, depending on the operating system. Shortcuts are currently fixed rather than configurable.
+
 ## Gauges
 
 ![Console Gauges](Images/rusEFI_console/java_console_1.png)
@@ -28,7 +34,7 @@ The red line is the absolute time scale - one line every 20 ms.
 
 ## Binary logging
 
-Use **Binary Logging > Start** to choose a `.mlg` data log and **Stop** to finish recording.
+Use **Binary Logging > Start** to choose a `.mlg` data log and **Stop** to finish recording. **Ctrl+S** in the main Console window toggles these actions: it opens the file chooser when idle, stops recording when active, or cancels a pending tune capture. Starting requires an ECU connection. Ctrl+S controls logging; use **File > Save Tune** to save a tune.
 
 The **Save tune** checkbox beside Start/Stop is checked by default. When checked, the console reads a fresh ECU tune before recording and saves it in the same folder as the data log, using the computer's local date: `YYYY-MM-DD.msq`. An unchanged tune reuses the existing file; changed tunes use `_1`, `_2`, and so on. Existing tune files are preserved. Uncheck **Save tune** before starting to record only the data log.
 
