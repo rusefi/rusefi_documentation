@@ -21,9 +21,8 @@ The most fully-featured ECU in this price category; available at [💲rusEFI Sto
 
 ### Ignition and injection
 
-* Sequential six smart coils with option of on-board igniters
-* Sequential six injector outputs for more complex engines
-* Capable of driving 8 sequential injector outputs on simpler engines
+* Sequential 6 smart coils with option of on-board igniters
+* Sequential 6 injector outputs for more complex engines
 
 ### Inputs
 
