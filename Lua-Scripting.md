@@ -634,6 +634,45 @@ In an ideal world one would be using Sensor.new("LuaGauge1") but looks like that
 
 Not enabled on most boards since most boards were not developer with DAC in mind! See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/dac.txt for more info.
 
+### External MCP4728 DAC (20 channels)
+
+Available when firmware is built with `LUA_I2C_DAC=TRUE` (disabled by default).
+Five MCP4728 chips at I2C addresses 0x60..0x64 provide channels **1..20**.
+
+```lua
+-- UAEFI wiring: SCL=P4, SDA=P3, temporary setup LDAC=P8.
+local ready = initI2cDac("PD7", "PE8", "PD5")
+function onTick()
+    if ready then
+        setI2cDacVoltage(1, 2.5) -- defaults to a 5 V DAC supply
+        setI2cDac(20, 2048)     -- raw code 0..4095
+    end
+end
+```
+
+- `initI2cDac(scl, sda, ldac)` reserves three distinct, free MCU pins and returns
+  a boolean. Repeating it with the same pins is allowed; changing pins requires
+  a restart. It does not probe for DAC modules.
+- `setI2cDac(channel, code)` writes a raw code, 0..4095, to channel 1..20.
+- `setI2cDacVoltage(channel, volts[, vdd])` writes volts from 0 to VDD. VDD
+  defaults to 5 V; pass the measured module supply voltage for better accuracy.
+- `setI2cDacChannels(address, a, b, c, d)` writes four raw codes to one chip
+  in one transaction. Address bits 0..4 select channel groups 1..4 through 17..20.
+
+Writes return `false` on an uninitialized bus or I2C failure. Invalid arguments
+raise Lua errors. Outputs use the VDD reference with 12-bit resolution; the
+maximum code is VDD * 4095/4096. A group write updates outputs sequentially and
+may partly complete before an I2C failure. Normal writes do not touch EEPROM.
+Lua resets/errors leave the last outputs in place.
+
+**One-time assembly:** initialize the pins, connect one factory-address module
+including LDAC, then run console command `at_set_dac_addr 1`. Repeat for fresh
+modules with addresses 2, 3, and 4; leave a fifth at address 0. The command
+programs EEPROM and assumes the old address is 0. Disconnect the temporary LDAC
+wire before using all five modules together. See the
+[MCP4728 wiring and setup guide](https://github.com/rusefi/rusefi/blob/master/docs/mcp4728.md)
+for details.
+
 ### Additional Hooks
 
 Registered by the firmware but not covered above. A few are not built on every board; where that is the
