@@ -18,6 +18,8 @@
 
 * In the `console\STM32_Programmer_CLI\bin` folder, invoke stm32-flash-dfu.bat
 
+  The script selects the single `rusefi*.bin` file in the bundle root. It stops with an error if no matching file or more than one matching file is present.
+
 Expected result: the BLUE LED close to the STM32 MCU is constantly blinking.
 
 Expected result: no RED LED next to the blinking BLUE LED.

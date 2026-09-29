@@ -11,6 +11,8 @@ We have Windows batch scripts in the `console\STM32_Programmer_CLI\bin` folder
 3. `stm32-full-erase.bat`
 4. `stm32-flash-dfu.bat`
 
+The flash script selects the single `rusefi*.bin` file in the bundle root, three folders above the script. It stops with an error if no matching file or more than one matching file is present.
+
 ## Old Way: GUI Application via DFU or SWD
 
 TODO: try [https://github.com/danielinux/stm32f7-dualbank-tool](https://github.com/danielinux/stm32f7-dualbank-tool)
