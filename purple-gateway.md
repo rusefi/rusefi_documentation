@@ -9,9 +9,6 @@ New to this? [Transmission Control](Transmission-Control) explains where the Pur
 * It's not a standalone TCU: The OEM TCU controls the transmission solenoids.
 * build-in ZF flasher for backup or for when you want to replace firmware in your TCU from one brand to another
 * [8HP](8hp) [BMW](Bmw-8hp) [Dodge](Dodge-8hp) coming soon!
-* [GM 6L](GM-6L) beta version
-* GM 8L beta version
-* GM 10L work is happening as well
 * Looks similar to [nano ECU](nano), but that's a totally different thing 😀
 
 [💾Download Software💾](https://rusefi.com/installer/Purple_Updater_windows-x64.exe)
