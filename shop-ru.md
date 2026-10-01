@@ -22,9 +22,6 @@ https://www.google.com/search?q=375+usd+to+rub
 
 У нас есть собранные microRusEFI в Питере. <https://rusefi.com/index.html#microrusefi>
 
-У нас есть собранные Proteus 600 USD в рублях по курсу с только белым разъёмом проводки, и 550 USD в рублях по курсу с полным комплектом под обжим
-<https://rusefi.com/index.html#proteus>
-
 Собранный microRusEFI 320 USD в рублях по курсу - в этом варианте заказчик сам идёт отрезать проводку от Лады или Ниссана
 
 ![assembled MRE](Hardware-files/microRusEFI/store/mre_assembled.jpg)
