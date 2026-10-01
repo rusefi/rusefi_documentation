@@ -42,9 +42,9 @@ https://www.google.com/search?q=375+usd+to+rub
 
 Покупки лично в Петербурге или доставка через [cdek.ru](https://www.cdek.ru/ru/) с оплатой доставки получателем.
 
-## русский whatsapp
+## русский tg/whatsapp
 
-Кстати, русский чатик [https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB](https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB)
+Кстати, русский чатик https://t.me/rusefiecu [https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB](https://chat.whatsapp.com/Ey4p7DIDoy299AS1h3ejpB)
 
 PS: всё очень добровольно. Всегда есть вариант многое сделать самим, см. [https://www.drive2.ru/c/555801204769161551/](https://www.drive2.ru/c/555801204769161551/) - обратите внимание, что есть более новые версии платы
 
