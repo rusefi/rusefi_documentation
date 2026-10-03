@@ -30,6 +30,8 @@ Before getting in touch for some assistance there are a couple of things to know
 
 Before asking for help, please search the wiki and the [forum](https://rusefi.com/forum/search.php) for a solution to your problem. Reading through the [FAQs](Pages-FAQ-and-HOWTO) may also help you.
 
+For trigger or synchronization problems, follow the [trigger evidence matrix](Trigger#evidence-matrix). Share the tune and operating log from the same attempt, identify the failure time, and include the board/firmware details and relevant captures. Screenshots help explain a problem; also attach the original log and capture files when available.
+
 If you still need direct help then please have a read of the information below; help us to help you.
 
 [BLUF (bottom line up front) communication](https://en.wikipedia.org/wiki/BLUF_(communication))

@@ -6,7 +6,7 @@
 
 The following guide will provide a general overview of finding and setting the trigger offset value to use in TunerStudio. This is an engine-specific value, but you may be able to use another's settings as a starting point if they have a similar trigger setup on their engine. You should always make sure your trigger setting is accurate to your engine, as this value influences every other value in your tune.
 
-This guide assumes that you have already [configured your trigger](Trigger-Configuration-Guide).
+This guide assumes that you have already [configured your trigger](Trigger-Configuration-Guide) and confirmed stable synchronization and plausible cranking RPM with fuel and ignition disabled.
 
 ## Why Do I Care About Trigger Offset?
 
@@ -24,13 +24,15 @@ To set your trigger offset setting, you must determine how far your ECU is from 
 
 4. Remove the spark plugs. This will eliminate compression in the cylinders, allowing the engine to turn freely and give better results when checking timing.
 5. Connect a timing light and spark plug to the #1 spark plug wire. In engines with individual coils, you may need to get creative here, such as extending the coil with a spare plug wire to give you a place to attach the timing light. Ground the threads on this spark plug somewhere on the engine.
-6. Crank the engine, watching the position of your engine's timing marks.
+6. With the timing-light setup ready, enable ignition in "Ignition" -> "Ignition Settings" if it was disabled for the signal-only test. Keep fuel disabled and the injector fuses removed. Crank the engine, watching the position of your engine's timing marks.
 
     ![Timing Mark](Images/timing_marker.jpeg)
 
-7. Adjust "Setup" -> "Trigger" -> "Trigger Angle Advance" up or down (negative values are allowed) until you get spark at TDC. This is now your trigger offset.
-8. Reinstall your spark plugs, re-enable fuel, set your timing to something sensible, (manufacturer recommendations) and try to start your engine. Verify the timing again with a timing light once the engine runs, and adjust the offset if needed.
-9. Change your timing mode back to "dynamic" or you will continue to run on fixed timing and give up a ton of power and fuel economy and have some *really* high exhaust temperatures.
+7. Adjust "Setup" -> "Trigger" -> "Trigger Angle Advance" up or down (negative values are allowed) until the timing light shows the fixed advance selected in step 3. For example, if fixed timing is 10 degrees BTDC, the measured timing must be 10 degrees BTDC. Align with TDC only when fixed timing is zero. This is now your trigger offset.
+8. Stop cranking and reinstall your spark plugs. Restore the injector fuses and re-enable fuel. Select a fixed advance suitable for starting your engine, following the manufacturer's recommendations, and try to start it. With the engine running, verify that measured timing matches the selected fixed advance and adjust the offset if needed.
+9. After verification, change timing mode back to "dynamic" so the engine uses its configured timing strategy. Restore any other settings changed for testing before normal operation.
+
+<!-- Fixed timing behavior checked against rusEFI revision 0b04635f12b63e5071747c8b2e03ce1cab99b68d: firmware/controllers/algo/ignition/ignition_state.cpp, getAdvance. -->
 
 ## Related pages
 

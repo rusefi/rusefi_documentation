@@ -6,6 +6,8 @@ Both methods detailed here will produce a `.mlg` file compatible with [MegaLogVi
 
 If you're trying to share the log with someone to help you with your engine, please upload it to [rusEFI Online](https://rusefi.com/online).
 
+For trigger or synchronization problems, include the tune used during the logged attempt and identify the time of the failure. Follow the [trigger evidence matrix](Trigger#evidence-matrix) to choose any additional sniffer, tooth, Console, or oscilloscope captures. The operating logs described here sample engine data; a tooth capture records individual input events.
+
 ## Engine state
 
 The `Engine` log field (TunerStudio channel `engine`) is a bitmask for engine-state indicators and analyzer filters. Multiple bits can be set at once.

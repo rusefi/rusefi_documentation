@@ -2,13 +2,18 @@
 
 ## Hall Effect Sensors
 
-**Note: the Hhall effect section also includes optical sensors, as they behave electrically the same as Hall sensors**
+Optical sensors with comparable digital outputs use the same wiring checks below. Confirm the supply and output specifications for your particular sensor.
 
 ### Wiring
 
-Hall sensors are easy to wire, as they have no polarity. Simply connect the sensor's signal wire to any digital input on your ECU. Connect the ground pin to a sensor ground on the ECU, and the power supply pin (if present) to either a 5v sensor supply pin, or a switched 12v source. Consult your factory wiring diagram (or check with a multimeter on the stock ECU) to determine whether your sensor needs a 5v or 12v supply voltage. Most sensors operate at 5v.
+Identify the sensor's power, ground, and signal connections from its datasheet or the factory wiring diagram before connecting it. Powered Hall sensors require the correct supply polarity and voltage.
 
-Some sensors require a pull-up resistor on the signal line (because they have an [open collector](https://en.wikipedia.org/wiki/Open_collector) output), but rusEFI ECU digital inputs include an internal pull-up resistor that should be sufficient for any Hall cam/crank position sensor.
+- Connect the power wire to the specified supply, such as 5 V or switched 12 V, following the sensor and ECU wiring instructions.
+- Connect the ground wire to the ECU sensor ground specified by the board's wiring guide.
+- Connect the signal wire to an input that supports Hall crank/cam signals on your ECU model and revision. Confirm the allowed signal voltage and any required input configuration or hardware jumpers. The sensor's supply voltage alone does not establish its output voltage.
+- Confirm the output type. An open-collector or open-drain output needs a pull-up; a push-pull output actively drives both levels. Check the board documentation for any existing or configurable pull-up and whether it suits the sensor. If an external pull-up is required, use the voltage and resistance specified for that sensor/input combination.
+
+Use the [input assignment guide](Trigger#trigger-input-assignments) to choose the logical trigger or cam input, then map it to a connector pin using your board's wiring guide. For example, [microRusEFI wiring](Hardware-microRusEFI-wiring) describes Hall/VR hardware options that vary by board revision.
 
 ## VR (variable reluctance) Sensors
 

@@ -40,25 +40,25 @@ See [Cranking](Cranking) for more details.
 
 Information on your crank trigger wheel is really really important, knowing the number of teeth on the trigger wheel and where the TDC offset is positioned is half the battle; if these are unknown then you will have to get that information before you can start your engine.
 
-This can be done before setting anything in the ECU and should be the first test done.
+Check the [trigger input assignments](Trigger#trigger-input-assignments) and configure the inputs and expected pattern using the [Trigger Configuration Guide](Trigger-Configuration-Guide) and your ECU's wiring guide before cranking.
 
 To do this go into TunerStudio and disable the fuel injection and the ignition under each of the settings tabs.
 
 Next go into the high-speed logger and simply crank the engine. The rusEFI Console is the best tool for this job as it has a really good logger in the "engine sniffer" tab.
 
-What you should see is the top row giving grey bars that match your expected trigger pattern. If you see no grey bars, you have no trigger events, which means you need to ensure your crank sensor works and your trigger channel is correct.
+Look for a trace matching your expected trigger pattern. If the trace is empty, compare `triggerinfo` counters before and during cranking. If counters increase, check that capture is enabled, the display is not paused, and cranking RPM is below the configured Engine Sniffer Threshold. If counters do not increase, check sensor power, wiring, and the configured input. See [Troubleshooting Trigger Input](Trigger#troubleshooting-trigger-input).
 
 Hopefully you have grey bars showing your crank pattern. If you're unsure of the pattern it makes a lot of sense at this point to take a screenshot and compare it to the list of rusEFI-compatible crank trigger patterns found in [All Supported Triggers](All-Supported-Triggers).
 
 TunerStudio and rusEFI Console should show correct cranking RPM, usually between 150 and 300 with a fully charged battery.
 
-See [Triggers](Trigger) for more details.
+If you need help, collect the log, tune, and relevant captures listed in the [trigger evidence matrix](Trigger#evidence-matrix).
 
 ## Confirm Top Dead Center (TDC) Position
 
 Assuming you have the hardware ready to spark we now need to find the TDC position - we know trigger shape but we do not know the trigger wheel position in relation to TDC#1 (Top Dead Center, cylinder #1).
 
-See [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset)
+Follow [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset) with a timing light before attempting to start the engine. That procedure keeps fuel disabled and enables ignition for the timing check. The measured timing must match the selected fixed advance; use the TDC mark only when fixed timing is zero.
 
 ## Cranking Parameters
 
@@ -68,17 +68,13 @@ rusEFI has a separate cranking control strategy for your first couple of engine 
 
 An engine can start rich, as long as it's not too rich and you have the cranking timing angle set close enough to the optimum. By default, cranking mode is active if RPM is below 500.
 
-Please note that the trigger synchronization point often does not match TDC, so just try different values between 0 and 720. For example, try 0, then 20, then 40. etc.
+The trigger synchronization point often does not match TDC. Establish the offset with the [timing-light procedure](How-Do-I-Set-My-Trigger-Offset) before tuning cranking advance.
 
 ## Next Steps & Troubleshooting
 
 [Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
 
-There are three ways to produce logs - the intention is for these three to have same exact data.
-
-1. TunerStudio logging
-2. SD card logging
-3. rusEFI console logging
+Operating logs can be collected with TunerStudio, the ECU's SD card, or rusEFI Console. Available fields and logging rates can differ. See the [Logging Guide](Logging-Guide) for collection steps and the [trigger evidence matrix](Trigger#evidence-matrix) for additional captures needed to diagnose trigger problems.
 
 See also [output_channels.txt](https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt)
 
@@ -106,4 +102,4 @@ We provide much more info than most OEM options. If you are stuck, you may be ab
 
 ### Onboard Hardware Diagnostics
 
-If you don't have an oscilloscope, you can connect the circuit in question to a digital or analog input of your ECU, using it as a basic oscilloscope. Record a log and you will see exactly what your ECU is seeing.
+Use the diagnostic features and test connections documented for your ECU model and revision. Before connecting a signal to an input, confirm that the input supports its type and voltage range. A digital trigger capture shows the ECU's interpretation of signal edges; use an oscilloscope when you need to measure the sensor voltage or inspect electrical noise. See the [trigger evidence matrix](Trigger#evidence-matrix).
