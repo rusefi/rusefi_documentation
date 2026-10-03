@@ -24,7 +24,9 @@ For developers to add the code, we need to know the angles of signal rises and f
 
 ## Step 1: Tooth Count
 
-Using rusEFI Console, get a picture of a long-enough engine sniff. On this example you see that a cycle of events consists of 24 teeth.
+Using rusEFI Console, capture enough of an engine sniff to show a complete engine cycle and identify each input channel. Save the capture file when available and an image showing the pattern. On this example you see that a cycle of events consists of 24 teeth.
+
+Share the capture with the matching tune and operating log, following the [trigger evidence matrix](Trigger#evidence-matrix). The image helps describe the pattern; developers may request a supported tooth capture for precise analysis or replay.
 
 ![Engine Sniffer](Images/rusEFI_console/Engine_sniffer.png)
 
