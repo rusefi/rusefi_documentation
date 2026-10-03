@@ -87,9 +87,7 @@ The Nissan 64 Superseal adapter connects the early 64-terminal E.C.C.S. vehicle 
 
 [Reference wiring — 1993 Sentra SR20DE](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Nissan/1993%20Nissan-Datsun%20Sentra%202.0%20ECU.pdf)
 
-<img src="Hardware-files/adapters/Nissan-64-adapter/Nissan-64-superseal-adapter-front.png" alt="Nissan 64 Superseal adapter - front, KiCad bare PCB render" width="600" />
-
-<img src="Hardware-files/adapters/Nissan-64-adapter/Nissan-64-superseal-adapter-back.png" alt="Nissan 64 Superseal adapter - reverse side, KiCad bare PCB render" width="600" />
+<img src="Hardware-files/adapters/Nissan-64-adapter/Nissan-64-superseal-adapter-photo.png" alt="Nissan 64 Superseal adapter - photograph of both sides of the PCB" width="600" />
 
 ### Nissan 76 — Skyline GTS-T ECR33
 
@@ -118,9 +116,7 @@ The Nissan 121 Superseal adapter connects the 121-pin vehicle harness (TE 368255
 
 [Reference wiring — 2011 Xterra VQ40DE](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Nissan/2011_Xterra/2011_Xterra_ECU.png) | [Reference wiring — 2011 Armada VK56DE](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Nissan/2011%20Nissan-Datsun%20Truck%20Armada%204WD%20ECU.pdf)
 
-<img src="Hardware-files/adapters/Nissan-121-adapter/Nissan-121-superseal-adapter-front.png" alt="Nissan 121 Superseal adapter - front, KiCad bare PCB render" width="600" />
-
-<img src="Hardware-files/adapters/Nissan-121-adapter/Nissan-121-superseal-adapter-back.png" alt="Nissan 121 Superseal adapter - reverse side, KiCad bare PCB render" width="600" />
+<img src="Hardware-files/adapters/Nissan-121-adapter/Nissan-121-superseal-adapter-photo.png" alt="Nissan 121 Superseal adapter - photograph of both sides of the PCB" width="600" />
 
 ## Subaru
 
