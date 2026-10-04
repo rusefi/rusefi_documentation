@@ -630,6 +630,37 @@ In an ideal world one would be using Sensor.new("LuaGauge1") but looks like that
 - Returns
   - none
 
+#### `setDashLight(index, state)`
+
+Sets or clears one of the dash light indicator bits in the ECU output channels: `dashLeftTurn`, `dashRightTurn`, `dashCheckEngine`, `dashHighBeams` and `dashParkingBrake`. These are pure Lua-owned flags: the firmware never sets or clears them itself, so whatever the script last wrote is what TunerStudio, the log and any CAN dash packet built from output channels will see. Typical use is mirroring turn signal, high beam and parking brake state received over CAN from the body module onto a rusEFI-driven dash.
+
+Note that `dashCheckEngine` is separate from the existing `checkEngine` output, which the firmware derives from active error codes.
+
+- Parameters
+  - `index`: Which light to set. Valid values are 0 through 4: `0` left turn, `1` right turn, `2` check engine, `3` high beams, `4` parking brake. Any other value raises a Lua error.
+  - `state`: `true` to turn the light on, `false` to turn it off.
+- Returns
+  - none
+
+Read the current state back with [`getOutput()`](#getoutputname), for example `getOutput("dashLeftTurn")`.
+
+```lua
+DASH_LEFT_TURN = 0
+DASH_RIGHT_TURN = 1
+DASH_CHECK_ENGINE = 2
+DASH_HIGH_BEAMS = 3
+DASH_PARKING_BRAKE = 4
+
+function onCanBodyStatus(bus, id, dlc, data)
+  -- first payload byte carries one flag per bit in this made-up body-module frame
+  local flags = data[1]
+  setDashLight(DASH_LEFT_TURN, (flags & 0x01) ~= 0)
+  setDashLight(DASH_RIGHT_TURN, (flags & 0x02) ~= 0)
+  setDashLight(DASH_HIGH_BEAMS, (flags & 0x04) ~= 0)
+  setDashLight(DASH_PARKING_BRAKE, (flags & 0x08) ~= 0)
+end
+```
+
 #### `setDacVoltage(index, value)`
 
 Not enabled on most boards since most boards were not developer with DAC in mind! See https://github.com/rusefi/rusefi/blob/master/firmware/controllers/lua/examples/dac.txt for more info.
