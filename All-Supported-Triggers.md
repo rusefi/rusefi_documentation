@@ -585,6 +585,24 @@ Old Audi 5 cylinder: does not work, no priority to make it work - that one needs
 
 ![x](Images/triggers/trigger_TT_TRI_TACH.png)
 
+### SUZUKI_36_2_2
+
+Select **36-2-2 Suzuki** for the crank pattern with groups of 10 and 22 teeth,
+separated by two missing teeth each. Connect it to the primary trigger input
+and leave Trigger Gap Override disabled. The decoder uses rising edges only;
+configure signal polarity to match the reference waveform. Full 720-degree
+phase requires a separate compatible cam/phase configuration.
+
+This definition uses a **75-degree internal TDC baseline**, whose physical TDC
+relationship is unverified. The contributor reported successful operation of
+the adapted waveform with the original 135-degree baseline and a 200-degree
+TunerStudio offset. Recheck the offset and actual timing when selecting this
+new definition; the old 200-degree value is not established for the new baseline.
+
+See [36-2-2 Suzuki configuration and validation notes](https://github.com/rusefi/rusefi/blob/master/docs/triggers/suzuki-36-2-2.md)
+for geometry, setup and the remaining engine checks. Selecting this trigger
+does not install an engine base tune.
+
 ### SUZUKI_G13B
 
 Suzuki G13B
