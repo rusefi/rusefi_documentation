@@ -16,7 +16,29 @@ Choose **Shortcuts** in the main menu bar (or press **F1**) to open the keyboard
 
 Hover over buttons and command fields for shortcut hints. Some menus and buttons also show underlined shortcut letters when you press **Alt**, depending on the operating system. Shortcuts are currently fixed rather than configurable.
 
+In tuning tables, use the arrow keys to move between cells and **Shift+arrows**
+to extend the selection. **Enter** or **F2** starts editing the active value cell;
+**Enter** accepts the value and **Esc** cancels. **Tab** and **Shift+Tab** accept
+an edit and move to the next or previous value cell, wrapping between rows and
+skipping the axis column. Invalid numbers remain in the editor until corrected
+or cancelled. The active value cell's X and Y scale labels have a subtle
+background highlight. Axis labels and read-only comparison tables cannot be edited.
+
+With a value cell selected, the **mouse wheel over the grid** moves the active
+cell up or down in the same column and keeps it visible. Movement stops at the
+first and last rows. Wheel navigation is ignored while editing a cell.
+
 ## Gauges
+
+Use **Grid Size** to choose the number of rows and columns. Right-click a gauge
+to change its selection or switch to live graphs.
+
+**Save Layout...** saves the visible grid to a `.gauges` file, including gauge
+selections, graph mode, refresh periods, and scale settings. **Load Layout...**
+replaces the current grid with a saved layout. The loaded layout is also kept
+in Console preferences for the next session. Gauge names refer to definitions
+in the connected ECU's firmware INI, so use a layout with compatible firmware.
+Detached gauge windows are managed separately and are not included in the file.
 
 ![Console Gauges](Images/rusEFI_console/java_console_1.png)
 
@@ -37,6 +59,8 @@ The red line is the absolute time scale - one line every 20 ms.
 Use **Binary Logging > Start** to choose a `.mlg` data log and **Stop** to finish recording. **Ctrl+S** in the main Console window toggles these actions: it opens the file chooser when idle, stops recording when active, or cancels a pending tune capture. Starting requires an ECU connection. Ctrl+S controls logging; use **File > Save Tune** to save a tune.
 
 The **Save tune** checkbox beside Start/Stop is checked by default. When checked, the console reads a fresh ECU tune before recording and saves it in the same folder as the data log, using the computer's local date: `YYYY-MM-DD.msq`. An unchanged tune reuses the existing file; changed tunes use `_1`, `_2`, and so on. Existing tune files are preserved. Uncheck **Save tune** before starting to record only the data log.
+
+The same MSQ is also embedded inside the `.mlg` file using TunerStudio's starting-tune format, so sharing the log includes its tune. The ECU MCP tool `extract_tune_from_log` can recover it as an `.msq` without an ECU connection or INI file. It also reads tunes embedded by TunerStudio. Unchecking **Save tune** disables both the embedded tune and the separate MSQ snapshot.
 
 Tune capture runs in the background. Stop or disconnect cancels a pending start. If the tune cannot be read or saved, the console reports the error and does not start data logging. The snapshot represents the tune at recording start; later tune edits are captured when the next recording starts.
 

@@ -22,6 +22,17 @@ At each moment rusEFI reads the blend input, looks up the blend amount for that 
 
 Blends are configured in TunerStudio. Set them up conservatively and confirm the result on a live [log](Logging-Guide).
 
+## Axis labels
+
+For ignition adders and open-loop and closed-loop boost blends, the bias curve's
+input label follows **Blend parameter**. For example, selecting coolant
+temperature displays **CLT C**.
+
+The blend table's Y-axis label follows **Y axis override**. With the override set
+to **Zero**, ignition adders use ignition load, open-loop boost blends use the
+base boost table's configured Y axis, and closed-loop boost blends use throttle
+intent (labelled **TPS %**). The table's X axis remains RPM.
+
 ## Related pages
 
 - [Fuel Overview](Fuel-Overview) — how rusEFI calculates fuel.
