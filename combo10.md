@@ -13,6 +13,8 @@ combo10 is a 10-inch touchscreen dashboard for rusEFI. It includes:
 - limited on-device tuning support; and
 - a Windows Dash Simulator.
 
+Older sibling of [wide10.25](wide10.25)
+
 ## Get started with combo10
 
 1. Connect the ECU to combo10. Make sure the ECU is powered on or the ignition
