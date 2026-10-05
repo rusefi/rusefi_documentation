@@ -28,6 +28,20 @@ With a value cell selected, the **mouse wheel over the grid** moves the active
 cell up or down in the same column and keeps it visible. Movement stops at the
 first and last rows. Wheel navigation is ignored while editing a cell.
 
+## Connecting over CAN
+
+By default, `use_canbus_connector=false` in `shared_io.properties` keeps direct
+serial ECU discovery. Set it to `true` to probe every serial port as a potential
+SLCAN adapter and also check PCAN for a responding rusEFI ECU. Both use 500 kbit/s.
+PCAN requires its driver to be installed.
+
+When exactly one ECU connection is found, the console uses its normal automatic
+connection flow. SLCAN connections appear as `SLCAN:<serial port>` and PCAN as
+`PCAN`. An adapter without a rusEFI response does not trigger auto-connect;
+discovery retries so an ECU powered on later can be found. Use an SLCAN adapter
+connected to the ECU's CAN wiring; the ECU's secondary USB sniffer port alone
+does not establish a CAN tuning connection.
+
 ## Gauges
 
 Use **Grid Size** to choose the number of rows and columns. Right-click a gauge
