@@ -1,6 +1,6 @@
 # Nissan 121 pin ECU: variations across vehicles (2000s to 2010s)
 
-**Summary:** Nissan and Infiniti used one Bosch-style 121 pin ECU header on most VQ V6, VK V8 and QR/QG 4 cylinder vehicles from about 2000 to 2015, and [Hellen 121 Nissan](Hellen-121-Nissan) targets that connector. Power, ground, CAN and most engine I/O sit on the same pins everywhere; the differences are in O2/A-F sensor pins (2003 350Z narrowband vs 2005+ wideband), extra V8 outputs (injectors/coils 7-8, knock 2, VTC position), Maxima-only EGR and engine mount pins, and a few 4 cylinder inputs. The Euro Almera N16 (and likely Micra K12) shifts several pins by one position and needs a modified board. 2007+ VQ35HR and VQ37VHR cars, later Altima/Sentra/Versa, and the early 2002-2004 Altima V6 and 2002-2003 Maxima use different connectors. See the pin table below for the exact per-vehicle differences.
+**Summary:** Nissan and Infiniti used a Bosch-style 121 pin ECU header on many VQ V6, VK V8 and QR/QG/CR 4 cylinder vehicles from about 2000 to 2015, and [Hellen 121 Nissan](Hellen-121-Nissan) targets that connector. Power, ground and relay assignments are broadly shared, but matching connectors do not establish matching engine I/O. Variations include O2/A-F sensor pins, extra V8 outputs, Maxima EGR and engine mounts, and the substantially different Euro Almera QG and CR engine assignments. The transcribed **CR (WITH EURO-OBD)** table has TPS2 on **68**, MAP on **51**, coolant temperature on **72**, and intake VTC on **62**. Its filename says Cube Z11 CR14DE, but the pages appear to be 2003-era Micra K12 documentation; vehicle/year applicability remains unconfirmed. 2007+ VQ35HR and VQ37VHR cars, later Altima/Sentra/Versa, and the early 2002-2004 Altima V6 and 2002-2003 Maxima use different connectors. See the comparisons below for the per-vehicle differences.
 
 This page collects what is known about the single-connector 121 pin Nissan/Infiniti engine ECU used from roughly 2000 to the mid 2010s, which vehicles use it, and how the pinout differs from vehicle to vehicle. It exists to support [Hellen 121 Nissan](Hellen-121-Nissan), the rusEFI plug-and-play board for this connector.
 
@@ -10,7 +10,7 @@ The per-pin comparison is maintained in the [Hellen 121 Nissan Google Sheet](htt
 
 ## The connector
 
-* One 121 position connector, pins numbered 1 to 121. Nissan service manuals draw the harness-side face with the numbering in groups (the 101-116 group sits at one end, then 1 upwards). Two slightly different OEM drawings of the face are in [Vault-Of-Nissan-OEM](Vault-Of-Nissan-OEM); use the terminal number, not the position in the drawing, when comparing vehicles.
+* The 121 position header has pins numbered 1 to 121. The CR manual draws the harness-side face in two groups: **1-81** and **82-121**. OEM face drawings are linked from [Vault-Of-Nissan-OEM](Vault-Of-Nissan-OEM); use the terminal number and the source's viewing direction when comparing vehicles.
 * Physically it is the same Bosch 121 pin ECU header used by Bosch ME7 ECUs on 2001-2006 Audi/VW/Skoda/Seat. Aftermarket vendors list the same header for "Nissan 350Z 03-06, among others" ([Tuning Technology](https://www.tuningtechnology.net/ecu-headers/bosch-121-pin-ecu-connector)). This is why Hellen 121 Nissan and Hellen 121 VAG share a board outline.
 * The OEM ECUs are Hitachi units marked `MECxx-xxx` (see the hardware section below). Photos of a 121 pin Hitachi board are in [nissan121front.jpg](OEM-Docs/Nissan/nissan121front.jpg) and [nissan121back.jpg](OEM-Docs/Nissan/nissan121back.jpg).
 
@@ -18,11 +18,13 @@ The per-pin comparison is maintained in the [Hellen 121 Nissan Google Sheet](htt
 
 Power and ground positions are the same on every 121 pin variant seen so far: pin 1, 115 and 116 are power ground, 119 and 120 are switched 12 V from the ECM relay, 121 is permanent battery, 109 is ignition switch input, 111 drives the ECM relay (self shut-off) and 113 drives the fuel pump relay. CAN is on 86 (low) and 94 (high), K-line diagnostics on 85.
 
+The CR inspection table agrees on these terminal roles, but does not show upstream supply routing. It calls 86/94 only “CAN communication line” and 85 “DATA link connector”; CAN H/L and the diagnostic protocol are not explicitly identified in that excerpt.
+
 ## Which vehicles use it
 
-### Confirmed against wiring diagrams
+### Confirmed against wiring diagrams or terminal tables
 
-These have a filled column in the comparison sheet or a diagram in this repo.
+These have a filled column in the comparison sheet or a diagram/terminal table in this repo. The CR entry confirms the documented terminal assignment; its vehicle and year remain provisional.
 
 | Vehicle | Years | Engine | Notes | Source |
 |---|---|---|---|---|
@@ -38,6 +40,7 @@ These have a filled column in the comparison sheet or a diagram in this repo.
 | Nissan Armada / Infiniti QX56 | 2004-2015 (2010 and 2011 verified) | VK56DE V8 | Same ECU family as Titan; single PHASE cam sensor on pin 14, pin 33 unused, VTC position sensors on 53/72 | [2011 pinout](OEM-Docs/Nissan/2011-Nissan-Armada-VK56DE-ECM-pinout.md), [2010 pinout](OEM-Docs/Nissan/2010-Nissan-Armada-VK56DE-ECM-pinout.md) (identical) |
 | Infiniti M35 | 2006-2008 | VQ35DE V6 | 121 pin naming, plus fuel pump control module pins 38/39 | [2007 M35](OEM-Docs/Nissan/2007-m35-1.png) |
 | Nissan Almera (N16, Europe) | 2000-2006 (2003 tested) | QG15DE / QG18DE I4 | Same connector, but several pins are shifted by one position; needs board modification | [Almera N16](OEM-Docs/Nissan/Almera-N16-ECU.pdf), [issue 13](https://github.com/rusefi/hellen121nissan-issues/issues/13) |
+| CR (WITH EURO-OBD); filename identifies Nissan Cube Z11 | Unconfirmed; likely 2003-era manual (Z11 generation: 2002-2008) | CR; CR14DE per filename | 121 numbered terminals, 60 listed functions. Likely Micra K12 manual excerpt; Cube applicability is not established. TPS 49/68, MAP 51, ECT 72, VTC 62; see dedicated comparison below | [CR pinout and voltages](OEM-Docs/Nissan/Nissan-Cube-Z11-CR14DE-ECM-pinout.md), [source PDF](OEM-Docs/Nissan/Nissan%20Cube%20Z11%20CR14DE.pdf) |
 
 ### Reported to share the connector, not yet verified pin by pin
 
@@ -50,7 +53,7 @@ These have a filled column in the comparison sheet or a diagram in this repo.
 | Nissan Pathfinder (R51) V8 | 2008-2012 | VK56DE | The VQ40DE Pathfinder is verified above. The V8 should follow the Armada/Titan layout; [issue 5](https://github.com/rusefi/hellen121nissan-issues/issues/5) asks about it |
 | Nissan Frontier (D40) | 2005 to about 2012 | VQ40DE | Same family as the Xterra and Pathfinder for the early years (2011 Pathfinder verified). The 2017 truck is NOT 121 pin, see below; the changeover year between 2011 and 2017 is unknown |
 | Infiniti Q45 (F50), M45 (Y34) | 2002-2006, 2003-2004 | VK45DE V8 | Same era V8; unverified |
-| Nissan Micra K12 (Euro OBD), Primera P12, X-Trail T30 | 2003-2010 | CR/QG/QR I4 | Forum thread says the Micra with Euro OBD looks the same as the Almera ([diagram](OEM-Docs/Nissan/nissan-micra-n12-with-euro-obd.pdf)); Almera N16 ECU part numbers are listed as fitting P12 and T30 |
+| Nissan Primera P12, X-Trail T30 | 2003-2010 | QG/QR I4 | Almera N16 ECU part numbers are listed as fitting P12 and T30; specific engine/year assignments remain unverified |
 | Nissan Urvan / Caravan (E25), Rogue (S35), Sentra (B16) with QR25DE | 2007+ | QR25DE | A Scribd "121 terminales" document claims Urvan, Rogue, Sentra, Frontier and X-Trail. Conflicting: B16 Sentra service data names two ECM connectors (F24/F25). Treat as unverified |
 | Nissan Patrol (overseas) | | VK56DE | Column exists in sheet, empty |
 
@@ -71,7 +74,7 @@ Nissan has no published name for the 121 pin ECM generation (service manuals say
 * **F-Alpha** trucks: Xterra N50, Pathfinder R51, Frontier D40 (to about 2012), Titan A60, Armada and QX56 TA60. One shared harness family for VQ40DE and VK56DE.
 * **FM** (front midship) cars: 350Z Z33, G35 V35, M35 Y50, FX35/FX45 S50. Narrowband front O2 sensors to 2004, six-wire wideband from 2005.
 * **FF-L** front-drive cars: Maxima A34 (2004-2006), Altima L31 I4, Murano Z50, Quest V42. The 2002-2003 Maxima and 2002-2004 Altima V6 on the same platform are not 121 pin.
-* Sentra B15 and the Euro Almera N16 are separate small-car platforms (MS and N16); the Almera is the one that shifts pins.
+* Sentra B15 and the Euro Almera N16 are separate small-car platforms (MS and N16); the Almera shifts several pins. The CR Euro-OBD table also has substantial I/O differences, documented separately below; the Cube/Micra vehicle identification remains provisional.
 
 The F-Alpha and FM pinouts match on every power, ground, relay, CAN, K-line, injector, coil, throttle, pedal, crank, cam, MAF, temperature, EVAP, brake, cruise and neutral pin. They differ only in which optional inputs are used:
 
@@ -89,7 +92,7 @@ The FF-L cars follow the FM layout with their own additions (Maxima EGR on 17-20
 
 ## Pin level differences between vehicles
 
-The pins below are the ones that change meaning between vehicles in the comparison sheet. Pins not listed (injectors 1-6 on 21/22/23/40/41/42, coils 1-6 on 62/61/60/81/80/79, throttle motor on 4/5 with 12 V feed on 3 and relay drive on 104, TPS on 50/69, pedal on 106/98, MAF on 51, IAT 34, CLT 73, knock 15, EVAP purge 45, vent valve 117, tank pressure 32, fuel temp 107, brake 101, PNP 102 (printed as VMOT on the 2005 350Z Mitchell sheet, but wired to the park/neutral switch), cruise switches 99/108, A/C pressure 70, power steering pressure 12, and the power/ground/CAN pins already listed) are the same everywhere except on the Almera.
+The table below compares the VQ, QR and VK variants; **Almera QG and CR Euro-OBD have separate comparisons below**. The common VQ layout uses injectors 1-6 on 23/42/22/41/21/40, coils 1-6 on 62/81/61/80/60/79, throttle motor on 4/5 with feed on 3 and relay drive on 104, TPS on 50/69, pedal on 106/98, MAF on 51, IAT on 34, CLT on 73, knock on 15, EVAP purge on 45, vent valve on 117, tank pressure on 32, fuel temperature on 107, brake on 101, PNP on 102, cruise switches on 99/108, A/C pressure on 70 and power steering pressure on 12. Four-cylinder variants omit some outputs; these assignments must not be applied to QG/CR without checking their tables. Pin 102 is printed as VMOT on the 2005 350Z Mitchell sheet but is wired to the park/neutral switch.
 
 | Pin | VQ V6 (350Z 2005, Xterra, Pathfinder, Maxima 2004+) | 350Z 2003, G35 2004 | QR25DE I4 (Sentra, Altima I4) | VK56DE V8 (Titan, Armada) | Other |
 |---|---|---|---|---|---|
@@ -134,7 +137,9 @@ The pins below are the ones that change meaning between vehicles in the comparis
 
 ### Pin 68 and the R7/R8 jumper
 
-Early Hellen 121 Nissan boards (rev B) had jumpers R7/R8 because the 350Z diagrams show pin 68 as a sensor ground while the Xterra, Maxima and Altima diagrams show it as a 5 V supply for the power steering pressure sensor. [Issue 3](https://github.com/rusefi/hellen121nissan-issues/issues/3) compared the 2003/2005 350Z, 2011 Xterra, 2005 Altima and 2005 Maxima diagrams and concluded that all of these sensors share ground on pin 67 and pin 68 is a 5 V output on every vehicle. The transcribed [2005 350Z](OEM-Docs/Nissan/2005-Nissan-350Z-VQ35DE-ECM-pinout.md), [2004 G35](OEM-Docs/Nissan/2004-Infiniti-G35-VQ35DE-ECM-pinout.md) and [2004 Altima I4](OEM-Docs/Nissan/2004-Nissan-Altima-QR25DE-ECM-pinout.md) diagrams all confirm this: each labels pin 68 GND A, and each wires it to the power steering pressure sensor's third pin while the sensor's actual ground goes to the pin 67 sensor-ground splice. The label is the error. From rev C onward pin 68 is hard-wired as 5 V and R8 was removed. The [Hellen 121 Nissan](Hellen-121-Nissan) jumper table (R7 populated, R8 not) is the rev B carry-over.
+Early Hellen 121 Nissan boards (rev B) had jumpers R7/R8 because the 350Z diagrams show pin 68 as a sensor ground while the Xterra, Maxima and Altima diagrams show it as a 5 V supply for the power steering pressure sensor. [Issue 3](https://github.com/rusefi/hellen121nissan-issues/issues/3) compared the 2003/2005 350Z, 2011 Xterra, 2005 Altima and 2005 Maxima diagrams and concluded that all of these sensors share ground on pin 67 and pin 68 is a 5 V output on those vehicles. The transcribed [2005 350Z](OEM-Docs/Nissan/2005-Nissan-350Z-VQ35DE-ECM-pinout.md), [2004 G35](OEM-Docs/Nissan/2004-Infiniti-G35-VQ35DE-ECM-pinout.md) and [2004 Altima I4](OEM-Docs/Nissan/2004-Nissan-Altima-QR25DE-ECM-pinout.md) diagrams all confirm this: each labels pin 68 GND A, and each wires it to the power steering pressure sensor's third pin while the sensor's actual ground goes to the pin 67 sensor-ground splice. The label is the error. From rev C onward pin 68 is hard-wired as 5 V and R8 was removed. The [Hellen 121 Nissan](Hellen-121-Nissan) jumper table (R7 populated, R8 not) is the rev B carry-over.
+
+That 5 V conclusion applies to the vehicles compared in issue 3, **not to every 121 pin ECU**. The CR table explicitly identifies **pin 68 as throttle position sensor 2**, with a variable signal voltage, and the Almera sheet also assigns TPS2 there. A board routing 5 V to pin 68 therefore conflicts with the CR sensor input assignment; the connector alone does not establish plug-and-play compatibility.
 
 ### Euro 4 cylinder (Almera N16, QG engines)
 
@@ -147,7 +152,46 @@ The 2003 Almera test in the forum thread found the same connector but a differen
 * Knock ground on 54, analog ground on 57, IAT ground on 75, CLT possibly on 72 instead of 73.
 * Canister solenoid on 19, tacho output for TCU and gauge on 103.
 
-The forum summary was "six mismatched pins" after removing several 0 R links on the board. A Hellen board for the Almera therefore needs the modifications tracked in [issue 13](https://github.com/rusefi/hellen121nissan-issues/issues/13). The Micra K12 with Euro OBD is believed to be the same layout.
+The forum summary was "six mismatched pins" after removing several 0 R links on the board. A Hellen board for the Almera therefore needs the modifications tracked in [issue 13](https://github.com/rusefi/hellen121nissan-issues/issues/13). The CR table below shares several of these assignments, but is not identical: it specifies MAP on 51, rather than the Almera sheet's MAF on 50, and explicitly identifies each listed sensor ground.
+
+### CR Euro-OBD (Cube Z11 filename; likely Micra K12 manual)
+
+The [CR ECM pinout and reference voltages](OEM-Docs/Nissan/Nissan-Cube-Z11-CR14DE-ECM-pinout.md) transcribes all 60 listed terminals from manual pages EC-94–EC-101. The source has a 121-terminal harness-face drawing, but no printed vehicle name, year or ECM part number. **2003-era Micra K12 documentation is the likely provenance; a specific Cube year and Cube harness applicability are unconfirmed.** The 2002-2008 Z11 generation range is context, not a verified pinout coverage range. The separate [Micra Euro-OBD circuit diagram](OEM-Docs/Nissan/nissan-micra-n12-with-euro-obd.pdf) is also available in the repo.
+
+The comparison uses the transcribed [2011 Xterra VQ40DE](OEM-Docs/Nissan/2011_Xterra/2011-Nissan-Xterra-VQ40DE-ECM-pinout.md) as the reference. “Not listed” means absent from that source, not physically unused.
+
+| Pin | CR (WITH EURO-OBD) | 2011 Xterra VQ40DE reference |
+|---|---|---|
+| 2 | Heated oxygen sensor 2 heater | A/F sensor 1 bank 1 heater |
+| 16 | Heated oxygen sensor 2 signal | A/F sensor 1 bank 2 AF+ |
+| 19 | EVAP purge solenoid | Not listed; purge is on 45 |
+| 24 | Heated oxygen sensor 1 heater | A/F sensor 1 bank 2 heater |
+| 29 | Camshaft position sensor ground | VIAS solenoid |
+| 30 | Crankshaft position sensor ground | Not listed; crank ground is in the harness |
+| 35 | Heated oxygen sensor 1 signal | A/F sensor 1 bank 1 AF+ |
+| 45 | Sensor power supply, approximately 5 V; recipients not specified | EVAP purge solenoid |
+| 46 | Refrigerant pressure sensor 5 V supply | Not listed (VK56DE uses this for coil 7) |
+| 49 | Throttle position sensor 1 | Refrigerant pressure / battery current sensor supply |
+| 51 | **Manifold absolute pressure (MAP)** signal | Mass airflow (MAF) signal |
+| 54 | Knock sensor ground | Not listed; knock shields ground in the harness |
+| 56 | MAP sensor ground | A/F sensor 1 bank 1 AF− |
+| 57 | Refrigerant pressure sensor ground | Not listed |
+| 60 | Ignition signal 3 | Ignition coil 5 |
+| 61 | Ignition signal 1 | Ignition coil 3 |
+| 62 | **Intake valve timing control solenoid** | Ignition coil 1 |
+| 68 | **Throttle position sensor 2** | Power steering pressure sensor 5 V supply |
+| 69 | Refrigerant pressure sensor signal | Throttle position sensor 2 |
+| 72 | Engine coolant temperature signal | Not listed (VK56DE uses this for a VTC position sensor) |
+| 73 | Engine coolant temperature sensor ground | Engine coolant temperature signal |
+| 74 | Heated oxygen sensor ground | Heated oxygen sensor 2 bank 1 signal |
+| 79 | Ignition signal 4 | Ignition coil 6 |
+| 80 | Ignition signal 2 | Ignition coil 4 |
+| 92 | Throttle-position signal output, A/T only | Not listed |
+| 103 | Tachometer signal output, A/T only | Not listed |
+
+Assignments that remain common include injectors **1/2/3/4 → 23/42/22/41**, crank **13**, cam **14** (single CR cam input), knock **15**, IAT **34**, throttle motor **4/5**, throttle motor supply/control **3/104**, TPS supply/ground **47/66**, and APP signals/supplies/grounds **106/98, 90/91, 82/83**. Brake **101**, PNP **102**, ECM power/ground and relay terminals also agree by function. CR terminals **85, 86 and 94** are diagnostic/CAN connections, although this excerpt does not name the diagnostic protocol or CAN H/L.
+
+The CR table does not identify terminals **50, 67, 70, 75 or 81**, among others. Do not carry over a MAF input, shared sensor-ground splice, IAT ground, additional coil output or other unlisted function from the Almera/VQ diagrams. Full wire colours, voltage conditions and source-page references are in the transcription.
 
 ### V8 (Titan, Armada, QX56)
 
@@ -156,6 +200,8 @@ The 2011 Titan diagram matched the Hellen 121 Nissan pinout except for the extra
 ### Automatic vs manual
 
 The 121 pin ECU does not contain the transmission controller; the TCM is a separate unit talking over CAN (from 2004.5 on the G35 it is inside the transmission). The connector is the same for AT and MT. The practical difference for a replacement ECU is that AT cars expect engine data over CAN and the TCM may refuse to shift without it. The [Xterra CAN notes](Nissan-Xterra-2011-CAN) and [issue 28](https://github.com/rusefi/hellen121nissan-issues/issues/28) (Nissan buses have three terminators) cover this.
+
+The CR table also lists dedicated **A/T-only outputs**: throttle-position signal on **92** (approximately 0.5 V pedal released, 4.2 V fully depressed under the specified test conditions) and tachometer signal on **103** (10-11 V average pulse voltage). It does not name their receiving module, so CAN support alone does not account for every documented CR A/T signal.
 
 ### Immobilizer
 
@@ -186,9 +232,11 @@ Nissan part numbers for the ECM start with 23710 (for example 23710-EA010 for a 
 * Check whether the 2005-2006 Altima V6 uses the 121 pin ECM (the 2002-2004 car does not), and whether the B15 Sentra matches the 2004 Altima I4 diagram.
 * Find the model year the D40 Frontier changed from the 121 pin ECM to the three-connector one (2011 Pathfinder is 121 pin, 2017 Frontier is not).
 * Resolve the Urvan/Rogue/B16 Sentra question: 121 pin or two-connector ECM.
+* Establish the exact vehicle/year and manual edition behind the Cube Z11 CR14DE filename; verify Cube applicability separately from the likely Micra K12 CR provenance. Review Hellen board routing for the documented CR differences, especially TPS2 on 68 versus the board's 5 V assignment.
 
 ## Sources
 
+* [CR Euro-OBD pinout and reference voltages](OEM-Docs/Nissan/Nissan-Cube-Z11-CR14DE-ECM-pinout.md), transcribed from [Nissan Cube Z11 CR14DE.pdf](OEM-Docs/Nissan/Nissan%20Cube%20Z11%20CR14DE.pdf), EC-94–EC-101; vehicle/year identification is provisional.
 * [Hellen 121 Nissan comparison sheet](https://docs.google.com/spreadsheets/d/1mhGITGrEsXB65xr1dcxLFLKIrD0TVu754hoxm6RZHCA)
 * [rusEFI forum: Hellen 121 Nissan](https://rusefi.com/forum/viewtopic.php?f=4&t=1935) and [my350z thread](https://my350z.com/forum/tuning/625760-rusefi-hellen-121-nissan.html)
 * [hellen121nissan-issues](https://github.com/rusefi/hellen121nissan-issues/issues): [#3 pin 68](https://github.com/rusefi/hellen121nissan-issues/issues/3), [#5 V8](https://github.com/rusefi/hellen121nissan-issues/issues/5), [#13 Almera](https://github.com/rusefi/hellen121nissan-issues/issues/13), [#28 CAN terminators](https://github.com/rusefi/hellen121nissan-issues/issues/28)
