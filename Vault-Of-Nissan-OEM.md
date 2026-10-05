@@ -24,6 +24,8 @@ https://docs.google.com/spreadsheets/d/1xH6szt3SJB7AzoseS9kyFPDHr-XMuRVpYXs7gHTQ
 
 [Hellen 121 Nissan Forum Thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1935)
 
+[Cube Z11 / CR14DE ECM pinout and reference voltages](OEM-Docs/Nissan/Nissan-Cube-Z11-CR14DE-ECM-pinout.md) — filename identification; year unconfirmed, likely 2003-era Micra K12 CR manual excerpt. See the transcription's vehicle/year scope note.
+
 ## 2003 350z
 
 ![x](OEM-Docs/Nissan/2003-350z-ecu.png)
