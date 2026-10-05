@@ -15,7 +15,7 @@ Pin counts refer to the OEM vehicle connector. Adapters are listed in ascending 
 - [Subaru Impreza WRX / WRX STI — 135 pins](#subaru-135-impreza-wrx-wrx-sti)
 - [Kawasaki Ninja ZX-4R reference — 136 pins](#kawasaki)
 - [BMW N52 — 146 pins](#bmw)
-- [Ford Mustang Coyote — 198 pins](#ford-198-mustang-coyote)
+- [Ford Mustang Coyote — 198 pins](#ford-198--mustang-coyote)
 
 ## BMW
 
