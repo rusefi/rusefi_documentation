@@ -29,14 +29,14 @@ N52
 
 ## Ford
 
-[2014 Fusion 2.0T](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Ford/2014%20Ford%20Fusion%20FWD%20L4-2.0L%20Turbo.pdf)
+[Ford ECU schematic transcription index](OEM-Docs/Ford/README-ford.md)
 
 ### Ford 198 — Mustang Coyote
 
 The Ford Mustang 198 Superseal adapter connects the 198-pin vehicle harness (103-pin and 95-pin sections) to 60-pin and 34-pin Superseal connectors.
 
-- **Ford Mustang 5.0L Coyote with the 198-pin PCM connector:** intended application. Check the harness against the vehicle pinout and adapter schematics; a tested model-year range has not been established.
-- **5.2L variants:** injector, ignition and auxiliary functions differ in the reference pinouts. Plug-and-play compatibility is not confirmed.
+- **2015 and 2016 Mustang 5.0L Coyote:** closest reference wiring matches to revision 0.2, with C175B (103 pins) and C175E (95 pins). The power, ground, injector and ignition assignments below agree with the adapter. This comparison does not establish a tested model-year range or complete plug-and-play compatibility.
+- **2016 and 2020 Mustang 5.2L naturally aspirated:** 198-terminal references with different injector, ignition and auxiliary assignments; require remapping. The 2020/2022 supercharged GT500 references use 309 terminals and are outside this adapter layout.
 - **Ignition:** revision 0.2 includes eight ignition-driver circuits. The Superseal side carries logic-level ignition inputs; the vehicle side carries power outputs to the coil primaries when the drivers are populated. Check the assembly configuration against the schematics.
 
 [📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Ford-Mustang-198-adapter/Ford-mustang-198-superseal-adapter.pdf)
@@ -44,6 +44,15 @@ The Ford Mustang 198 Superseal adapter connects the 198-pin vehicle harness (103
 [🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/hellen/coyote/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/Ford-Mustang-198-adapter/)
 
 [Reference wiring — 2015 Mustang 5.0L](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Ford/2015-mustang-v8.pdf) | [Reference pinout — connector A](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Ford/Coyote-175b-pinout-A.png) | [Reference pinout — connector B](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Ford/Coyote-175e-pinout-B.png)
+
+The adapter schematic calls the 103-pin vehicle section **A** and the 95-pin section **B**. In the Mustang 5.0L diagrams these correspond to **C175B** and **C175E**, respectively. The comparison below uses the OEM connector names.
+
+| Reference | Connector layout | Result |
+|---|---|---|
+| [2015 Mustang 5.0L](OEM-Docs/Ford/2015-Ford-Mustang-5.0-PCM-pinout.md) | C175B 103 + C175E 95 | Closest match: power/ground and all eight injector and coil assignments agree. The PDF's V6/3.7L export header conflicts with its V8 circuitry; see the transcription's scope note. |
+| [2016 Mustang 5.0L](OEM-Docs/Ford/2016-Ford-Mustang-5.0-PCM-pinout.md) | C175B 103 + C175E 95 | Same matching core assignments. Printed upstream oxygen-sensor bank labels differ from the adapter at E-50/E-51; verify sensor routing and auxiliary circuits. |
+| [2016 Mustang 5.2L](OEM-Docs/Ford/2016-Ford-Mustang-5.2-PCM-pinout.md) | C175B 103 + C175E 95 | Related layout; injector and coil assignments differ as listed below. |
+| [2020 Mustang 5.2L naturally aspirated](OEM-Docs/Ford/2020-Ford-Mustang-5.2-naturally-aspirated-PCM-pinout.md) | C1381B 103 + C1381E 95 | Same injector/coil differences as the 2016 5.2L reference. Connector identification differs; mechanical fit/keying is not established by these circuit diagrams. |
 
 <img src="Hardware-files/adapters/Ford-Mustang-198-adapter/Ford-mustang-198-superseal-adapter.jpg" alt="Ford 198 Superseal adapter - connector side" width="600" />
 
