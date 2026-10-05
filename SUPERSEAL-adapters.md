@@ -1,5 +1,22 @@
 # SUPERSEAL Adapters
 
+## Index by pin count
+
+Pin counts refer to the OEM vehicle connector. Adapters are listed in ascending order.
+
+- [Nissan Sentra SR20DE — 64 pins](#nissan-64-sentra-sr20de)
+- [Suzuki G13BB — 72 pins](#suzuki-72-g13bb)
+- [Nissan Skyline GTS-T ECR33 — 76 pins](#nissan-76-skyline-gts-t-ecr33)
+- [Mitsubishi Mirage — 119 pins](#mitsubishi-mirage)
+- [Mazda Miata NC — 120 pins](#mazda-miata-nc)
+- [Toyota Supra A80 — 120 pins](#toyota-120-supra-a80)
+- [Nissan Xterra VQ40DE / Armada VK56DE — 121 pins](#nissan-121-xterra-vq40de-armada-vk56de)
+- [Toyota Aristo JZS161 — 122 pins](#toyota-122-aristo-jzs161)
+- [Subaru Impreza WRX / WRX STI — 135 pins](#subaru-135-impreza-wrx-wrx-sti)
+- [Kawasaki Ninja ZX-4R reference — 136 pins](#kawasaki)
+- [BMW N52 — 146 pins](#bmw)
+- [Ford Mustang Coyote — 198 pins](#ford-198-mustang-coyote)
+
 ## BMW
 
 N52
