@@ -184,6 +184,7 @@ Total triggers: 96
 - [NISSAN_HR](#NISSAN_HR)
 - [NISSAN_MR18_CRANK](#NISSAN_MR18_CRANK)
 - [NISSAN_QR25](#NISSAN_QR25)
+- [NISSAN_VK56DE](#NISSAN_VK56DE)
 - [ROVER_K](#ROVER_K)
 
 ## tooth count 66
@@ -744,7 +745,7 @@ Use this cam trigger with special 3+0 symmetrical crank trigger.
 
 ### NISSAN_QR25
 
-QR25 crank
+QR25 crank, 36-2-2 (two groups of 16 teeth).
 
 ![x](Images/triggers/trigger_TT_NISSAN_QR25.png)
 
@@ -753,6 +754,12 @@ QR25 crank
 HR crank
 
 ![x](Images/triggers/trigger_TT_NISSAN_HR.png)
+
+### NISSAN_VK56DE
+
+![VK56DE crank trigger](Images/triggers/trigger_TT_NISSAN_VK56DE.png)
+
+Crank wheel with two groups of 17 teeth, with one missing tooth every 180 crank degrees.
 
 ### NISSAN_MR18_CAM_VVT
 
