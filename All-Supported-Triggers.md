@@ -185,6 +185,7 @@ Total triggers: 96
 - [NISSAN_MR18_CRANK](#NISSAN_MR18_CRANK)
 - [NISSAN_QR25](#NISSAN_QR25)
 - [NISSAN_VK56DE](#NISSAN_VK56DE)
+- [NISSAN_VK56DE_CAM](#NISSAN_VK56DE_CAM)
 - [ROVER_K](#ROVER_K)
 
 ## tooth count 66
@@ -760,6 +761,14 @@ HR crank
 ![VK56DE crank trigger](Images/triggers/trigger_TT_NISSAN_VK56DE.png)
 
 Crank wheel with two groups of 17 teeth, with one missing tooth every 180 crank degrees.
+
+### NISSAN_VK56DE_CAM
+
+![VK56DE PHASE cam trigger](Images/triggers/trigger_TT_NISSAN_VK56DE_CAM.png)
+
+PHASE sensor: 1-3-4-2 groups every 180 crank degrees, decoded on rising edges.
+Cam mode: **Nissan VK56DE PHASE**. Nominal geometry inferred from a
+[VK56DE capture](https://rotkee.com/en/wavebase/good-timing-ckp-cmp-signal-nissan-titan-2003-2015?system=51); physical TDC remains unverified.
 
 ### NISSAN_MR18_CAM_VVT
 
