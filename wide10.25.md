@@ -1,3 +1,20 @@
 # Wide 10.25 screen
 
 sibling of [combo10](combo10)
+
+## .ini file
+
+There are three ways for dash to grab .ini and start talking to your ECU
+* some rusEFI units would transmit .ini via CANbus - note yellow circle status, just give it time
+* 
+
+
+## Update via USB
+
+* Download [latest](https://github.com/rusefi/combo10-releases/releases/latest/download/wide-10.25.zip)
+* unzip onto USB thumb drive
+* use proper "Eject USB" to make sure USB is safe
+* insert into "USB OTG" plug of dash
+* follow on-screen instructions for update
+* remove during reboot to not keep installing forever
+
