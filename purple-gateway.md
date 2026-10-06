@@ -84,6 +84,10 @@ A: TCU gateway feature is not open source.
 
 A: We do plan integration into firmware at a later point. For now it's two devices since one is open source and the other is not. Also remember that BMW needs two CAN buses and we need to avoid CAN ID conflicts.
 
+### Q: I've emailed but got no reply?
+
+A: we are unable to help if ECU was not mentioned
+
 ### Q: Documentation is bad
 
 A: yes, documentation is bad. TCU gateway is maybe 3rd or 4th priority for us right now. Feel free to invest dollars for this to move forward faster!
