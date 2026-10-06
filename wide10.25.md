@@ -6,7 +6,7 @@ sibling of [combo10](combo10)
 
 There are three ways for dash to grab .ini and start talking to your ECU
 * some rusEFI units would transmit .ini via CANbus - note yellow circle status, just give it time
-* 
+* we would also scan USB thumb for .ini files and pick compatible one
 
 ## wiring
 
