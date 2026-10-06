@@ -8,6 +8,15 @@ There are three ways for dash to grab .ini and start talking to your ECU
 * some rusEFI units would transmit .ini via CANbus - note yellow circle status, just give it time
 * 
 
+## wiring
+
+BLACK GND
+
+YELLOW +12v
+
+SOLID GREEN CAN High
+
+GREEN/BLACK CAN Low
 
 ## Update via USB
 
