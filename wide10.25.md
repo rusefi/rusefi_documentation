@@ -27,3 +27,6 @@ GREEN/BLACK CAN Low
 * follow on-screen instructions for update
 * remove during reboot to not keep installing forever
 
+
+<img width="789" height="344" alt="image" src="https://github.com/user-attachments/assets/96a9e6ca-711e-450d-b945-36b966980238" />
+
