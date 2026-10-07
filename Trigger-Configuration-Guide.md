@@ -67,19 +67,96 @@ VR sensors output a voltage proportional to how quickly something conductive is 
 
 ## Trigger Gap Override
 
-The "Setup" -> "Trigger Gap Override" dialog allows you to fine-tune the relative positions of teeth on your trigger.
+The **Setup -> Trigger Gap Override** dialog changes the timing-ratio windows used to recognize the synchronization point. Tooth angles and counts remain defined by the selected trigger pattern. Set the [trigger offset](How-Do-I-Set-My-Trigger-Offset) separately to align the decoded position with mechanical TDC.
 
 ![Trigger Gap Override dialog](Images/TS/TunerStudio_trigger_gap_override.png)
 
-"gapTrackingLengthOverride" sets the number of previous teeth that are checked for a match.
+### What the gap numbers mean
 
-The "from" and "to" fields define a range of acceptable ratios for each of the previous teeth.
+A gap is the time between successive edges used by the decoder. For the built-in **36/2** pattern, synchronization uses rising edges. Measure rising-to-rising intervals, rather than treating every high-to-low transition as another tooth.
 
-Gap is the amount of time that has passed between the current and previous tooth edge detections. The ratio used in this configuration is the ratio between the current gap (i.e. the time between the current and previous tooth edges) and the previous gap (i.e. the time between the previous tooth edge and the tooth edge before that).
+At a possible synchronization edge, call the interval just completed `d0`, the previous interval `d1`, and the one before that `d2`:
 
-See also [Troubleshooting with TS logs](Trigger#troubleshooting-with-logs)
+| Setting | Ratio tested | Source / diagnostic index |
+| --- | --- | --- |
+| First gap from / to | `d0 / d1` | `gapIndex=0` |
+| Second gap from / to | `d1 / d2` | `gapIndex=1` |
+| Gap #3 from / to | `d2 / d3` | `gapIndex=2` |
 
-See also [How-Do-I-Set-My-Trigger-Offset](How-Do-I-Set-My-Trigger-Offset)
+The sequence runs backward in time from the candidate edge. "Second gap" means the preceding interval ratio, not a second missing-tooth region elsewhere on the wheel. `gapTrackingLengthOverride` selects how many consecutive ratios must match; with a value of `2`, both the first and second ranges must pass at the same candidate edge. The ordinary decoder requires ratios strictly between each range's endpoints, so allow measurement margin.
+
+A 36-2 wheel has 36 nominal tooth positions and 34 physical teeth. At constant speed its missing-tooth interval spans three tooth pitches, giving a ratio near `3`. Cranking speed can change considerably within one revolution, so the measured time ratio can differ from the geometrical ratio.
+
+### Where to find the default gaps
+
+Use the firmware version installed on the ECU when looking up defaults. The values below were checked against [rusEFI revision df1467c5b3a](https://github.com/rusefi/rusefi/tree/df1467c5b3ae94cce10e252dd583ea43f6683b67) on 2026-10-06; another release or trigger type can differ.
+
+**On the ECU:** in rusEFI Console's Messages tab, send `triggerinfo`. It prints the selected trigger, synchronization edge and active first range, for example:
+
+```text
+gap from 1.60 to 3.50
+```
+
+This is the active range, including an override if one is enabled. With overrides disabled and the configuration applied, it shows the built-in first range. It does not list every preceding-gap range. Save the tune before changing settings to inspect defaults, and make these changes with the engine stopped.
+
+For measured ratios and additional active ranges, use `enable trigger_details`, capture a short cranking attempt, then send `disable trigger_details`. Relevant synchronization messages include `gapIndex`, measured `gap`, and `expected from ... to ...`. Indices start at zero, as in the table above. See [Console synchronization diagnostics](Trigger#troubleshooting-synchronization-with-rusefi-console).
+
+**In the source:** search for the selected trigger's enum, such as `TT_TOOTHED_WHEEL_36_2`, in [trigger_structure.cpp](https://github.com/rusefi/rusefi/blob/df1467c5b3ae94cce10e252dd583ea43f6683b67/firmware/controllers/trigger/decoders/trigger_structure.cpp#L686). Follow any decoder/helper function it calls, then check for adjustments made after that call. The 36/2 case explicitly sets:
+
+```cpp
+setTriggerSynchronizationGap3(/*gapIndex*/0, /*from*/1.6, 3.5);
+setTriggerSynchronizationGap3(/*gapIndex*/1, /*from*/0.7, 1.3);
+```
+
+These are two checks: first `1.6-3.5`, then `0.7-1.3`. The `3` in the function name is not the gap index; its first argument is the index. Other patterns may use `setTriggerSynchronizationGap(ratio)` or `setSecondTriggerSynchronizationGap(ratio)`, which expand a nominal ratio using the tolerance helpers in [trigger_structure.h](https://github.com/rusefi/rusefi/blob/df1467c5b3ae94cce10e252dd583ea43f6683b67/firmware/controllers/trigger/decoders/trigger_structure.h#L200). Follow those helpers to obtain the actual bounds. The generic skipped-tooth initializer is in [trigger_universal.cpp](https://github.com/rusefi/rusefi/blob/df1467c5b3ae94cce10e252dd583ea43f6683b67/firmware/controllers/trigger/decoders/trigger_universal.cpp#L43); a generic wheel configured as 36 teeth / 2 skipped need not have the same final windows as the named 36/2 preset.
+
+The editable override fields are separate tune values. Do not assume the values displayed there are a copy of the selected decoder's defaults.
+
+### How to set custom gaps
+
+1. Save the original tune and collect a matching [operating log and trigger capture](Trigger#troubleshooting-with-logs). Confirm the tooth pattern, edge selection and sensor polarity first. Measure both real synchronization gaps and ordinary teeth across several revolutions.
+2. With the engine stopped, open **Setup -> Trigger Gap Override** in TunerStudio. The current INI exposes this menu in Full or Installation UI mode; availability also depends on the board's INI.
+3. Set **Override well known trigger gaps** (`overrideTriggerGaps`) to **yes**.
+4. Set **gapTrackingLengthOverride** to the required number of ratio checks. Enter **every** active from/to pair. Enabling overrides replaces the complete built-in gap sequence; checks beyond the selected count are disabled. Reducing a two-check decoder to one check removes its preceding-gap guard.
+5. Keep ranges that already match the capture and adjust the failing range with enough margin for cranking variation. Check that ordinary teeth and startup/stopping transients cannot easily satisfy the resulting sequence. The VVT gap override controls below these fields are separate cam-decoder settings.
+6. **Burn** the settings, then confirm the active first range with `triggerinfo`. For a signal-only cranking test, disable injection and ignition. Capture a new log and tune together; compare synchronization and trigger-error counts through acquisition and sustained cranking. Check starting, running and stopping behavior before treating the settings as validated, and verify [timing alignment](How-Do-I-Set-My-Trigger-Offset) before normal operation.
+
+To restore the built-in sequence, set **Override well known trigger gaps** to **no**, Burn, and verify the active range. Stored custom numbers may remain in the tune but are no longer applied.
+
+### Case study: 36-2 cranking gaps exceed the default window
+
+The [original capture, csv_re_261005_192948.teeth](Triggers/36_2/csv_re_261005_192948.teeth), contains 2,368 rows from 25.229980 to 35.355672 seconds. The engine, sensor hardware, firmware version and matching tune were not supplied, so this comparison uses the source revision above rather than claiming to identify the ECU's installed settings.
+
+![36-2 capture showing gap ratios above the decoder limit, loss of synchronization, tooth intervals and battery voltage](Images/triggers/36_2_cranking_gap_case_study.png)
+
+| Observation | Interpretation |
+| --- | --- |
+| 35 successive missing-tooth gaps, exactly 34 rising edges between each pair | 34 complete revolutions consistent with a 36-2 wheel, with no extra or missing teeth in that repeating portion |
+| Settled revolution-average speed approximately 215-219 RPM | Cranking; the tooth intervals also show substantial smooth variation within each revolution |
+| Settled first-gap ratio `3.683-3.746` | Above the named 36/2 preset's `3.5` upper limit |
+| Preceding ratio `1.041-1.046` | Comfortably inside the second-gap range `0.7-1.3` |
+| First out-of-window gap ratio `3.819` at 25.681319 s; recorded Sync drops at 25.681535 s | The observed loss of synchronization closely matches rejection of that gap |
+| Sync remains low until 35.002222 s, then briefly returns during irregular slowing/stopping | Brief late synchronization does not establish correct decoding through cranking |
+| Logged VBatt reaches 7.00 V, then approximately 9.38-10.15 V during steady cranking | Cranking supply voltage also needs investigation |
+
+For this analysis, only changes in the Primary signal were counted as crank edges. Repeated rows with an unchanged Primary level, including Sync updates, were not counted as additional teeth. There were no long capture holes interrupting the regular cranking section.
+
+The missing-tooth interval is being compared with the immediately preceding interval while crank speed is changing. A ratio above the ideal `3` therefore does not by itself indicate an extra missing tooth. Here the repeatable 34-tooth count supports 36-2, while the timing ratios explain why the checked decoder windows would reject it.
+
+The following is a **candidate for testing on this capture**, not a new default for all 36-2 installations:
+
+| TunerStudio field | Candidate value |
+| --- | --- |
+| Override well known trigger gaps | yes |
+| gapTrackingLengthOverride | 2 |
+| First gap from | 1.6 |
+| First gap to | **4.0** |
+| Second gap from | 0.7 |
+| Second gap to | 1.3 |
+
+An offline check of those two ratio predicates accepts all 35 regularly spaced gaps, preserving the 34-tooth spacing. This was **not a full firmware decoder replay or a hardware test**. Irregular slowing/stopping also produces candidate matches, so acquisition, tooth-count validation and stopping behavior still need testing before adopting the change. No firmware or ECU tune was changed for this analysis.
+
+Falling-edge gap ratios also exceeded `3.5`, so changing edge selection alone would not resolve this particular window mismatch. That observation does not establish correct VR wiring polarity. All cam channels were inactive, and this digital capture cannot establish electrical signal quality or absolute TDC alignment. Those require the appropriate hardware checks and timing verification.
 
 ## Related pages
 

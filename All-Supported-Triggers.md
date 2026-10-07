@@ -250,6 +250,8 @@ Note that if your timing wheel was originally set up to run with a Ford EDIS-4 b
 
 ![x](Images/triggers/trigger_TT_TOOTHED_WHEEL_36_2.png)
 
+See the [36-2 cranking case study](Trigger-Configuration-Guide#case-study-36-2-cranking-gaps-exceed-the-default-window) for an example where the tooth count is correct but the measured gap ratio exceeds the decoder's default window, with instructions for finding defaults and testing custom gaps.
+
 ## VVT_BOSCH_QUICK_START
 
 Bosch Quick Start

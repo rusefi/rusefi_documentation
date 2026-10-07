@@ -54,6 +54,8 @@ Use the board's documented test points and procedures for further electrical che
 
 ### Troubleshooting Synchronization with rusEFI Console
 
+For the meaning of gap ratios, active/default ranges, and custom settings, see [Trigger Gap Override](Trigger-Configuration-Guide#trigger-gap-override), including a [36-2 cranking case study](Trigger-Configuration-Guide#case-study-36-2-cranking-gaps-exceed-the-default-window).
+
 Type `enable trigger_details` in rusEFI Console to enable verbose synchronization logging. Save the Messages output with the log and tune described in the [evidence matrix](#evidence-matrix). Use `disable trigger_details` when finished.
 
 The "print sync details to console" option in TunerStudio enables the same output, but the output still goes only to rusEFI Console.
