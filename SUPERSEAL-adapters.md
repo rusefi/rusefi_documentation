@@ -19,13 +19,20 @@ Pin counts refer to the OEM vehicle connector. Adapters are listed in ascending 
 
 ## BMW
 
-N52
+### BMW 146 - N52 / MSV80
 
-[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/BMW-N52-146/) | [🔌Adapter board pinout🔌](https://rusefi.com/docs/pinouts/BMW-N52-adapter/)
+The BMW N52 Superseal adapter connects the seven-section, 146-terminal vehicle interface to Superseal 60 + 34 + 26 connectors.
 
-[adapter schematics](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-adapter/BMW-N52-146-superseal.pdf)
+- **Reference application: 2011 BMW 328i Sedan (E90), 3.0L N52K.** Check the exact DME and harness against the pinouts for other N52 vehicles; a matching connector alone does not establish compatibility.
+- [Connection instructions and jumper configuration](BMW-N52-adapter.md) | [BMW N52 documentation and ECU cable guides](BMW-N52.md)
 
-[Reference wiring — 2011 BMW 328i N52](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bmw/2011%20BMW%20328i%20n52.pdf)
+[📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-N52-adapter/BMW-N52-146-superseal.pdf)
+
+[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/BMW-N52-146/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/BMW-N52-adapter/)
+
+[Reference wiring - 2011 BMW 328i N52](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Bmw/2011%20BMW%20328i%20n52.pdf) | [Reference terminal tables](OEM-Docs/Bmw/2011-BMW-328i-E90-N52K-ECU-pinout.md)
+
+<img src="Hardware-files/adapters/BMW-N52-adapter/BMW-N52-146-superseal-photo.png" alt="BMW N52 146-pin Superseal adapter - photograph of both sides of the PCB" width="600" />
 
 ## Ford
 
