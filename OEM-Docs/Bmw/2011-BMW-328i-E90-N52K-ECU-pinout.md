@@ -30,11 +30,11 @@ The diagram carries equipment variants: with hot-film air mass meter vs. with ne
 | 4 | BLU/RED | BRK LGHT SIG | Brake light switch (via X1108, under left side of dash) |
 | 5 | GRY/VIO | EXH FLAP SIG | Exhaust flap (left side of rear compartment) |
 | 6 | BLK/YEL | SPLY (-) | Radiator outlet temperature sensor |
-| 7 | WHT/YEL | ACC PDL SIG | Accelerator pedal module (sensor 1) |
+| 7 | WHT/YEL | ACC PDL SIG | Accelerator pedal module terminal 6 |
 | 8 | BLK/BLU | ELEC FAN SIG | Cooling fans system |
 | 9 | BRN/WHT | ACTIVATION | Cooling fans system |
-| 10 | BRN/YEL | ACC PDL GRD | Accelerator pedal module (sensor 1) |
-| 11 | YEL | ACC PDL (+) | Accelerator pedal module (sensor 1) |
+| 10 | BRN/YEL | ACC PDL GRD | Accelerator pedal module terminal 1 |
+| 11 | YEL | ACC PDL (+) | Accelerator pedal module terminal 5 |
 | 13 | BRN/BLU | AIR PMP | Secondary air pump relay (in junction box) |
 | 14 | BLU/RED | CAN H | Computer data lines system (PT-CAN) |
 | 15 | BLK/VIO | VEH IMMOB SIG | Anti-theft system |
@@ -42,11 +42,11 @@ The diagram carries equipment variants: with hot-film air mass meter vs. with ne
 | 17 | WHT/GRN | RR SPD SIG | Anti-lock brakes system |
 | 18 | BLU/BRN | CLUTCH SW | Clutch switch module (M/T, under left side of dash) |
 | 19 | BLK/GRY | OUTLET TEMP | Radiator outlet temperature sensor |
-| 20 | WHT | ACC PDL SIG | Accelerator pedal module (sensor 2) |
+| 20 | WHT | ACC PDL SIG | Accelerator pedal module terminal 4 |
 | 21 | BLK | TD SIG | Computer data lines system |
 | 22 | GRN/WHT | SPLY TERM 15 | Anti-theft system |
-| 23 | BRN | ACC PDL GRD | Accelerator pedal module (sensor 2) |
-| 24 | YEL/GRN | ACC PDL (+) | Accelerator pedal module (sensor 2) |
+| 23 | BRN | ACC PDL GRD | Accelerator pedal module terminal 2 |
+| 24 | YEL/GRN | ACC PDL (+) | Accelerator pedal module terminal 3 |
 | 26 | BRN/ORG | E BOX SIG | E-box fan (bottom of E-box) |
 
 ## X60002 — vehicle harness connector (26-pin)
@@ -56,28 +56,30 @@ Four oxygen sensors: two before catalytic converter (6-wire, on exhaust pipe) an
 | Pin | Wire | Function (as printed) | Connects to |
 |-----|------|----------------------|-------------|
 | 1 | BLK/GRN (or YEL/GRN) | WAKE-UP SIG | Computer data lines system |
-| 2 | BRN | SENS SIG | |
-| 5 | WHT | SENSOR SIG | Pre-cat O2 sensor 1 pin 1 |
-| 6 | YEL/WHT | SENSOR SIG | Pre-cat O2 sensor |
-| 7 | YEL/WHT | SENSOR SIG | Pre-cat O2 sensor |
-| 8 | YEL | SENSOR SIG | Pre-cat O2 sensor pin 6 |
-| 9 | YEL | SENSOR SIG | Pre-cat O2 sensor pin 6 |
+| 2 | BRN | SENS SIG | Brake vacuum sensor terminal 2 / ground branch via X60531 |
+| 5 | WHT | SENSOR SIG | Pre-cat O2 sensor 2 terminal 5 |
+| 6 | YEL/WHT | SENSOR SIG | Pre-cat O2 sensor 1 terminal 1 |
+| 7 | YEL/WHT | SENSOR SIG | Pre-cat O2 sensor 2 terminal 1 |
+| 8 | YEL | SENSOR SIG | Pre-cat O2 sensor 1 terminal 6 |
+| 9 | YEL | SENSOR SIG | Pre-cat O2 sensor 2 terminal 6 |
 | 10 | BLK/BLU | SENSOR GRD | Pre-cat O2 sensor 1 pin 2 |
-| 11 | BLK/WHT | SENSOR GRD | Pre-cat O2 sensor 2 |
-| 12 | WHT/BLU | SENSOR SIG | Pre-cat O2 sensor pin 3 |
-| 13 | WHT/BLU | SENSOR SIG | Pre-cat O2 sensor pin 3 |
-| 14 | WHT/GRY | — | |
-| 15 | YEL/RED (or WHT/BRN) | LEAK DIAG SIG | Brake vacuum sensor (when fitted) |
+| 11 | BLK/WHT | SENSOR GRD | Pre-cat O2 sensor 2 terminal 2 |
+| 12 | WHT/BLU | SENSOR SIG | Pre-cat O2 sensor 1 heater terminal 3 |
+| 13 | WHT/BLU | SENSOR SIG | Pre-cat O2 sensor 2 heater terminal 3 |
+| 14 | WHT/GRY | — | Brake vacuum sensor terminal 1 via X60531 |
+| 15 | YEL/RED (or WHT/BRN) | LEAK DIAG SIG | Brake vacuum sensor terminal 3 when fitted; crankshaft breather heater terminal 2 without brake vacuum sensor |
 | 16 | WHT/VIO | LEAK DIAG SIG | Fuel tank leakage diagnostic module, via X60551 pin 11 → X6041 pin 8 (BRN/BLU) |
 | 17 | WHT/BLK | LEAK DIAG SIG | Fuel tank leakage diagnostic module, via X60551 pin 10 → X6041 pin 7 (BLK/RED) |
-| 18 | WHT | SENSOR SIG | |
-| 19 | YEL | SENSOR SIG | Post-cat O2 sensor pin 4 |
-| 20 | YEL | SENSOR SIG | Post-cat O2 sensor pin 4 |
+| 18 | WHT | SENSOR SIG | Pre-cat O2 sensor 1 terminal 5 |
+| 19 | YEL | SENSOR SIG | Post-cat O2 sensor 2 terminal 4 |
+| 20 | YEL | SENSOR SIG | Post-cat O2 sensor 1 terminal 4 |
 | 21 | BLK/BLU | — | Anti-theft system |
 | 23 | BLK/RED | SENSOR GRD | Post-cat O2 sensor 1 pin 3 |
-| 24 | BLK/GRN | SENSOR GRD | Post-cat O2 sensor 2 pin 3 / fuel tank leakage diagnostic module |
-| 25 | WHT/GRY | SENSOR SIG | Post-cat O2 sensor pin 2 |
-| 26 | WHT/GRY | SENSOR SIG | Post-cat O2 sensor pin 2 |
+| 24 | BLK/GRN | SENSOR GRD | Post-cat O2 sensor 2 terminal 3 |
+| 25 | WHT/GRY | SENSOR SIG | Post-cat O2 sensor 2 heater terminal 2 |
+| 26 | WHT/GRY | SENSOR SIG | Post-cat O2 sensor 1 heater terminal 2 |
+
+The pre-cat sensor terminal 2 connections are wideband controller references, not chassis grounds. The printed `SENSOR SIG` wording also covers heater circuits; the `Connects to` column distinguishes them by tracing the elements on sheet 361163. X60002-21 is the anti-theft connection; terminal 22 has no wire in this diagram.
 
 ## X60005 — engine harness connector (44-pin)
 
@@ -88,9 +90,9 @@ Four oxygen sensors: two before catalytic converter (6-wire, on exhaust pipe) an
 | 6 | WHT/BLU | — | Neutral sensor (via X60531) |
 | 12 | WHT | ENG HEAT RLY | Engine breather heating relay (control) |
 | 13 | WHT/BLU | DME RLY | DME relay (control), junction box under right side of dash |
-| 14 | BLU | THROTTLE (+) | Electric throttle valve actuator pin 2 |
-| 15 | WHT/GRN | THROTTLE SIG | Electric throttle valve actuator pin 3 |
-| 16 | WHT/YEL | THROTTLE SIG | Electric throttle valve actuator pin 5 |
+| 14 | BLU | THROTTLE (+) | Electric throttle valve actuator terminal 2, position-sensor supply |
+| 15 | WHT/GRN | THROTTLE SIG | Electric throttle valve actuator terminal 3, motor |
+| 16 | WHT/YEL | THROTTLE SIG | Electric throttle valve actuator terminal 5, motor |
 | 18 | WHT/RED | DISA SIG 2 | DISA controller 2 pin 1 (top left of engine) |
 | 19 | BLK/VIO | SENSOR SIG | Double knock sensor, cyl 1–3 |
 | 20 | BLK/YEL | SENSOR SIG | Double knock sensor, cyl 4–6 |
@@ -147,7 +149,7 @@ The crankshaft sensor (pins: 1 ORG, 2 BLK/BLU, 3 YEL), DISA controllers (1 sig, 
 | 5 | WHT/BLU | IGN 5 SIG | Ignition coil cyl 5 |
 | 6 | WHT/GRY | IGN 6 SIG | Ignition coil cyl 6 |
 
-Pins 7–12 not connected. Coil supplies are ORG (Terminal 87, with suppression capacitor on the rail); coil grounds go to X6177 and X6178 (right side of engine).
+Pins 7–12 have no wires in this diagram. Coil supplies are ORG (Terminal 87, with suppression capacitor on the rail); coil grounds go to X6177 and X6178 (right side of engine). Sheet 361166 shows the primary winding between supply terminal 3 and DME-controlled terminal 1, with no internal ignition power stage drawn. These connections must not be assumed to accept logic-level smart-coil outputs.
 
 ## X60007 — injector/sensor connector (26-pin)
 

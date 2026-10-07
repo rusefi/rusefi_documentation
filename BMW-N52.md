@@ -2,6 +2,12 @@
 
 ### MSV80
 
+Reference application: 2011 BMW 328i Sedan (E90), 3.0L N52K.
+
+[Adapter connection instructions, jumper configuration and pin mapping](BMW-N52-adapter.md)
+
+The adapter is passive. Stock-coil connections require suitable ignition power drivers; see the connection instructions before following an automatically matched cable guide.
+
 [Vehicle pinout](https://rusefi.com/docs/pinouts/BMW-N52-146/)
 
 [Adapter board pinout](https://rusefi.com/docs/pinouts/BMW-N52-adapter/)
@@ -14,7 +20,7 @@
 
 [🔌Huge patchcord🔌](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/patchcord-alphax-8chan/patchcord-BMW-N52-adapter.md)
 
-[ECU pinout as text](2011-BMW-328i-E90-N52K-ECU-pinout.md)
+[ECU pinout as text](OEM-Docs/Bmw/2011-BMW-328i-E90-N52K-ECU-pinout.md)
 
 [superseal IGBT](https://rusefi.com/docs/pinouts/superseal-igbt/)
 
