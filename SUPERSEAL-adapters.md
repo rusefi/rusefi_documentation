@@ -7,6 +7,7 @@ Pin counts refer to the OEM vehicle connector. Adapters are listed in ascending 
 - [Nissan Sentra SR20DE — 64 pins](#nissan-64-sentra-sr20de)
 - [Suzuki G13BB — 72 pins](#suzuki-72-g13bb)
 - [Nissan Skyline GTS-T ECR33 — 76 pins](#nissan-76-skyline-gts-t-ecr33)
+- [BMW Motronic M50/M50TU, M60 and early S50 — 88 pins](#bmw-88--motronic-m3x)
 - [Mitsubishi Mirage — 119 pins](#mitsubishi-mirage)
 - [Mazda Miata NC — 120 pins](#mazda-miata-nc)
 - [Toyota Supra A80 — 120 pins](#toyota-120-supra-a80)
@@ -14,10 +15,27 @@ Pin counts refer to the OEM vehicle connector. Adapters are listed in ascending 
 - [Toyota Aristo JZS161 — 122 pins](#toyota-122-aristo-jzs161)
 - [Subaru Impreza WRX / WRX STI — 135 pins](#subaru-135-impreza-wrx-wrx-sti)
 - [Kawasaki Ninja ZX-4R reference — 136 pins](#kawasaki)
-- [BMW N52 — 146 pins](#bmw)
+- [BMW N52 — 146 pins](#bmw-146---n52--msv80)
 - [Ford Mustang Coyote — 198 pins](#ford-198--mustang-coyote)
 
 ## BMW
+
+### BMW 88 — Motronic M3.x
+
+The BMW Motronic 88 Superseal adapter connects the 88-terminal vehicle harness to Superseal 60 + 34 connectors and includes eight ignition power drivers.
+
+- **BMW M50/M50TU, M60 and early S50 with Bosch Motronic M3.1/M3.3/M3.3.1.** Reference applications are the 1994 BMW 325i M50TU and 1994 BMW 540i M60. Check the exact DME and engine-specific pin assignments; Siemens MS40/MS41 is outside this adapter's scope.
+- **Ignition:** Superseal carries 5 V logic commands to the onboard drivers; the vehicle side carries coil-primary power outputs. Follow the [connection instructions and jumper configuration](BMW-88-adapter.md).
+
+[📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-88-adapter/BMW-88-superseal-adapter.pdf)
+
+[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/bmw88/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/bmw88-adapter/)
+
+[Reference wiring — 1994 325i M50TU, sheet 1](OEM-Docs/Bmw/1994_e36/94_325_1.png) · [sheet 2](OEM-Docs/Bmw/1994_e36/94_325_2.png) | [Reference wiring — 1994 540i M60, early, sheet 1](OEM-Docs/Bmw/1994_e34/94_540_early_1.png) · [sheet 2](OEM-Docs/Bmw/1994_e34/94_540_early_2.png) · [sheet 3](OEM-Docs/Bmw/1994_e34/94_540_early_3.png)
+
+<img src="Hardware-files/adapters/BMW-88-adapter/BMW-88-superseal-adapter-front.png" alt="BMW Motronic 88 Superseal adapter - component and connector side, KiCad render" width="600" />
+
+<img src="Hardware-files/adapters/BMW-88-adapter/BMW-88-superseal-adapter-back.png" alt="BMW Motronic 88 Superseal adapter - reverse side, KiCad render" width="600" />
 
 ### BMW 146 - N52 / MSV80
 
