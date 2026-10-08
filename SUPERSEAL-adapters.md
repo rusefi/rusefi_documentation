@@ -25,7 +25,7 @@ Pin counts refer to the OEM vehicle connector. Adapters are listed in ascending 
 The BMW Motronic 88 Superseal adapter connects the 88-terminal vehicle harness to Superseal 60 + 34 connectors and includes eight ignition power drivers.
 
 - **BMW M50/M50TU, M60 and early S50 with Bosch Motronic M3.1/M3.3/M3.3.1.** Reference applications are the 1994 BMW 325i M50TU and 1994 BMW 540i M60. Check the exact DME and engine-specific pin assignments; Siemens MS40/MS41 is outside this adapter's scope.
-- **Ignition:** Superseal carries 5 V logic commands to the onboard drivers; the vehicle side carries coil-primary power outputs. Follow the [connection instructions and jumper configuration](BMW-88-adapter.md).
+- **Ignition:** Eight onboard power drivers for stock coils, with optional bypasses for compatible 5 V smart coils. Follow the [connection instructions and jumper configuration](BMW-88-adapter.md).
 
 [📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-88-adapter/BMW-88-superseal-adapter.pdf)
 
