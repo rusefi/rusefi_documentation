@@ -28,5 +28,9 @@ GREEN/BLACK CAN Low
 * remove during reboot to not keep installing forever
 
 
+## dimentions
+
+wide10 F10 style 360x115mm
+
 <img width="789" height="344" alt="image" src="https://github.com/user-attachments/assets/96a9e6ca-711e-450d-b945-36b966980238" />
 
