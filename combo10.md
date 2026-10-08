@@ -296,5 +296,7 @@ combo10 is not open source.
 
 ### Size?
 
-display is about 135mm tall, overall PCB is about 155mm tall
+combo10 display is about 215x135mm, panel option is 250x155mm tall
+
+combo10 small enclosure is 270x175mm
 
