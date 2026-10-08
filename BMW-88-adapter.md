@@ -16,7 +16,7 @@ This adapter does not cover Siemens MS40/MS41 or other Bosch 88-terminal generat
 
 The vehicle side uses the original terminal numbers 1–88. Superseal **A** is the 34-position bank of the 60-way connector, **B** is its 26-position bank, and **C** is the separate 34-way connector. Thus `12B` means terminal 12 of bank B. Use the connector-face images in the adapter pinout for orientation.
 
-All 88 vehicle terminals are accounted for. Vehicle terminals **6, 34 and 55** share power GND and connect to Superseal **18A, 26A, 18C, 26C and 34C**. The eight coil-primary terminals connect through the ignition drivers. Every other vehicle terminal has its own independent Superseal contact.
+All 88 vehicle terminals are accounted for. Vehicle terminals **6, 34 and 55** share power GND and connect to Superseal **18A, 26A, 18C, 26C and 34C**. The eight coil-primary terminals connect through the ignition drivers by default; the board provides optional smart-coil bypasses described below. Every other vehicle terminal has its own independent Superseal contact.
 
 Superseal **30C** brings the ECU's GNDA sensor-ground rail to the adapter and has access pad **P1**. It is isolated from power GND on the adapter. Spare contacts **31C, 32C and 33C** have access pads **P2, P3 and P4**.
 
@@ -24,16 +24,18 @@ Superseal **30C** brings the ECU's GNDA sensor-ground rail to the adapter and ha
 
 Superseal **1B–8B** accept 5 V logic ignition commands. Eight ISL9V3040D3S drivers switch the corresponding coil-primary terminals on the vehicle side. ECU dwell control is required: the adapter does not add a dwell timeout or current limiter. Do not connect a coil primary or a high-voltage ECU ignition output to these logic inputs.
 
-| Driver channel | Superseal command | Vehicle coil-primary terminal |
-|---|---|---|
-| 1 | 1B | 50 |
-| 2 | 2B | 51 |
-| 3 | 3B | 52 |
-| 4 | 4B | 23 |
-| 5 | 5B | 25 |
-| 6 | 6B | 24 |
-| 7 | 7B | 22 |
-| 8 | 8B | 49 |
+| Driver channel | Superseal command | Vehicle terminal | Smart-coil bypass |
+|---|---|---|---|
+| 1 | 1B | 50 | Remove Q1; fit R17, 0 ohm |
+| 2 | 2B | 51 | Remove Q2; fit R18, 0 ohm |
+| 3 | 3B | 52 | Remove Q3; fit R19, 0 ohm |
+| 4 | 4B | 23 | Remove Q4; fit R20, 0 ohm |
+| 5 | 5B | 25 | Remove Q5; fit R21, 0 ohm |
+| 6 | 6B | 24 | Remove Q6; fit R22, 0 ohm |
+| 7 | 7B | 22 | Remove Q7; fit R23, 0 ohm |
+| 8 | 8B | 49 | Remove Q8; fit R24, 0 ohm |
+
+**Smart coils:** R17-R24 provide optional direct logic-signal bypasses, one per channel. They are **not fitted by default (DNP)**. For a converted channel, remove the corresponding Q1-Q8 IGBT and fit its 0 ohm bypass from the table. **Never fit a driver and its bypass together.** The 22 ohm gate resistor and 100 kohm input pulldown can remain. Use a compatible 5 V smart coil or external igniter and the matching harness wiring; a bypass cannot drive the stock coil primary directly. Other channels may retain their drivers.
 
 Channel numbers are board channels, not universal cylinder numbers. The vehicle pinout lists engine-specific coil assignments; configure ignition and injector order for the chosen engine.
 
@@ -61,9 +63,9 @@ Vehicle terminals **15, 43 and 44** remain independent. Their ignition-monitor a
 
 ## Vehicle-to-Superseal connections
 
-Functions and interface types follow the interactive pinouts. A type is omitted where engine variants use different interfaces. On the Superseal side, `Smart Ignition Coil N` describes the logic command to the onboard driver; the vehicle-side coil terminal is the driver's power output.
+Functions and interface types follow the interactive pinouts. A type is omitted where engine variants use different interfaces. On the Superseal side, `Smart Ignition Coil N` describes the logic command to the onboard driver; the vehicle-side coil terminal is the driver's power output in the default configuration. With a bypass fitted and its driver removed, that terminal carries the ECU logic command.
 
-| Vehicle terminal | Superseal contact | Function |
+| Vehicle terminal | Superseal contact (default driver configuration) | Function |
 |---|---|---|
 | 1 | 3A | Fuel Pump Relay Output |
 | 2 | 4A | Idle valve close control |
