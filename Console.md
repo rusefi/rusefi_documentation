@@ -10,6 +10,109 @@ At this point, the Console should be up and running. Play around with it and see
 * You can use the console to invoke rusEFI commands and control the internal flow using the 'Messages Central' tab
 ![Messages Central](Images/rusEFI_console/messages_central.png)
 
+## ChatGPT troubleshooting
+
+The **Troubleshooting** tab is available in online Console sessions for acceptance
+testing and is hidden in offline and log-viewer modes. It uses your ChatGPT plan
+to inspect the connected ECU. Connect in Console, open the tab, choose
+**Continue with ChatGPT** (or a saved account), select a model and describe the
+problem. Sign-in opens your browser and identifies the app as **rusEFI Updater**.
+
+Before account/chat controls appear, the panel checks and extracts the cached
+source ZIP. If it needs downloading, click **Start Download** below the source
+code prompt and wait for the progress bar to finish. The chat controls appear
+only after successful validation and extraction. Failed downloads show an error
+and allow retry; no download starts automatically when the cache needs refreshing.
+Network downloads bypass stale CDN copies so a newly published source archive
+can be retrieved immediately; a valid local cache is still reused without a request.
+
+The assistant can read the firmware identity, discover datalog channel names,
+descriptions and units from the connected ECU's INI,
+read recent live values and inspect messages captured since the conversation
+started. It can also search the downloaded firmware/wiki text and read relevant
+line ranges. Your messages, requested ECU evidence and retrieved excerpts are
+sent to OpenAI. The terminal shows each tool name while it runs. These tools
+have read-only ECU access.
+
+Channel descriptions use INI gauge titles or datalog labels. Output-channel
+units take precedence over gauge units; missing, dynamic or conflicting units
+are identified explicitly. The assistant does not guess units or evaluate tune
+expressions during channel discovery.
+
+For several live readings, the assistant can collect up to 32 channels together
+with warning/error channels from one completed poll. Results include a shared
+sample ID, timestamp and age so it can correlate the observations. A host poll
+is not an atomic ECU measurement. Missing readings are explicitly unavailable;
+recent/last error codes and counters can describe past events rather than active
+faults. Numeric error codes require interpretation for the connected firmware.
+
+The assistant can also read selected calibration fields directly from ECU RAM:
+up to 32 scalar, enum/bitfield or small-array fields per request. It sends only
+the selected values to OpenAI. Arrays are limited to 64 elements each and 512
+values total; strings and Lua scripts are excluded. Results identify each field
+and its read time, with explicit errors for unavailable or unsupported fields.
+These sequential reads are separate from live samples and do not prove the
+settings have been saved to flash. They do not change settings or use unsent
+edits in the Console tune cache.
+
+For Lua questions, the assistant can inspect bounded lines of the ECU's current
+RAM script, with line citations and a source hash. This does not prove which
+script is running in the Lua VM or saved in flash. It cannot edit or restart Lua.
+
+For changing conditions, it can capture a short in-memory log of up to 16 live
+channels and 20 samples over at most ten seconds. This is downsampled evidence,
+not a complete high-rate recording. It can also observe the next Digital Sniffer
+chart using the current settings, alongside the Console's own chart display.
+Returned events and channel summaries are bounded and marked when partial.
+The assistant does not enable or reconfigure acquisition. Stop cancels these
+captures. Requested Lua source and capture evidence are sent to OpenAI.
+
+Source/wiki citations identify a relative file path and line numbers. New
+source archives include firmware-source, libfirmware and wiki revisions, local
+edit flags, licenses and content hashes. Console validates the indexed files
+before accepting a new archive; older archives report unknown revisions.
+Wiki links use a pinned revision when clean metadata and the retrieved file
+hash agree, otherwise they refer to current master. The ECU signature identifies
+its INI schema, so source/firmware compatibility remains unverified.
+
+Troubleshooting uses the normal Console bundle, Java runtime and native libraries.
+Source text downloads on demand and is cached locally. No Git, Python or Gradle
+installation is needed to use it. The archive includes subsystem guides, board
+references, Lua examples, INI metadata and a searchable documentation index.
+
+Use **Stop** to cancel a turn or **New conversation** to start over. Reconnecting
+to an ECU starts a fresh conversation on the next Send. Authorization is saved
+in `~/.rusefi/llm-access/accounts.json`; conversations remain in memory except
+for explicitly exported cases.
+
+Ask the assistant to **export a diagnostic case** to save findings, hypotheses,
+next measurements and selected evidence as JSON in
+`~/.rusefi/llm-access/diagnostic-cases/`. The terminal shows the saved file path.
+Cases include the original selected tune readings, Lua excerpts, live-log/sniffer
+results, messages and source passages with timestamps, hashes and partial-data
+flags. They also record the Console build revision and the source revision/hash
+metadata attached to the selected passages. They are bounded evidence, not full tune or log files. Analysis is labeled
+as model-authored and source/ECU compatibility remains unverified. Credentials
+are not included. Review the findings and ECU/Lua data before sharing a case.
+A saved case remains on disk after clearing a conversation or signing out.
+
+## Calibration fields
+
+Dialogs, tables and curves with topic help show a **Help** button, including
+inside nested panels. Click it to read the instructions in a scrollable popup;
+web links open in your browser. The popup closes when you switch views. This
+uses the ECU INI's `topicHelp` entry and is separate from individual field help.
+
+Console dialogs can edit individual elements of a one-dimensional array defined
+in the ECU's INI file. For example, `gearPositionVoltage[0]` selects the first
+gear-voltage value. Each element has its own numeric editor; changing it leaves
+the other array values unchanged.
+
+Dialogs also display live, read-only values declared with `runtimeValue`, such
+as gear sensor voltage and detected gear. These rows update while the dialog is
+active and show `---` until a value is available. They honor the INI's enable
+and visibility expressions alongside editable calibration fields.
+
 ## Keyboard shortcuts
 
 Choose **Shortcuts** in the main menu bar (or press **F1**) to open the keyboard reference. The window is non-modal: leave it open while using the Console. Its text scrolls vertically and covers table selection/editing, commands, Lua editing, charts, menus, and logging. Click back in the Console before using its shortcuts. Press **Esc** in the reference window to close it.
