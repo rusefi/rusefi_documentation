@@ -16,6 +16,29 @@ Many rusEFI units have on-board microSD card slot. Most boards access SD cards v
 ![image](Images/TS/TunerStudio_sd_usb_2.png)
 
 
+## Error report on SD
+
+The **Error report on SD** indicator means a saved fault report was found on
+the card. Reports survive ECU restarts, so rebooting does not clear this
+reminder. Read the report to see what was recorded; the indicator alone does
+not identify the cause.
+
+1. Select **Mount to PC** and review the SD drive's contents on your computer,
+   or power off the ECU and use a card reader.
+2. Look in the card's root folder for `*_fail_*.txt` files, such as
+   `00042_fail_HardFault.txt`, and open them in a text editor.
+3. Share the **full report contents**, or attach the files, with rusEFI
+   developers in your [GitHub issue](https://github.com/rusefi/rusefi/issues)
+   or on the [rusEFI forum](https://rusefi.com/forum/). Include your board,
+   firmware version and what happened before the message appeared.
+4. Copy and share the reports before deleting them or formatting the card.
+   To clear saved fault reports, safely eject the SD drive from your computer,
+   select **Mount to ECU**, then **Remove all fail reports**.
+
+Removing the files clears the reminder but does not fix the cause. If new
+reports appear, save and share those too. The SD Card and Fail reports panels'
+**Help** buttons provide these instructions in the tuning UI.
+
 ## SD ownership and MCP control
 
 The SD card can be owned by the ECU for logging/file access or exposed to the PC
