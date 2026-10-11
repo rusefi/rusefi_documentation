@@ -4,6 +4,12 @@ rusEFI updater, previously known as rusEFI Console is a PC application to update
 
 * If you don't already have the Dev Console, get it [🆕rusEFI_Universal_Updater🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
 
+Software auto-updates are enabled by default. Turn **Caps Lock on before launch**
+to skip the bundle download for that startup, or clear **Device > Auto-update
+Software** for subsequent launches. This does not block firmware downloads after
+you explicitly request an ECU update. See [release channels and auto-update
+behavior](Release-Snapshot-Latest-firmware#what-updates-automatically).
+
 At this point, the Console should be up and running. Play around with it and see what you can learn. Also note that it has some functionality as listed below.
 
 * If used together with the built-in position sensor emulator, the console allows some level of testing on the bench, without a real engine or any additional hardware. The most useful feature is the plain signal sniffer - both real inputs and generated signals can go into it and this is actually quite handy. Another useful feature is the text log.
