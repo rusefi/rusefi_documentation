@@ -34,3 +34,7 @@ wide10 F10 style 360x115mm
 
 <img width="789" height="344" alt="image" src="https://github.com/user-attachments/assets/96a9e6ca-711e-450d-b945-36b966980238" />
 
+## secondary firmware
+
+https://github.com/rusefi/combo10-releases/releases/tag/2026-10-11
+
