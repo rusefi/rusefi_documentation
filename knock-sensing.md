@@ -22,6 +22,7 @@ Reference [tune](https://rusefi.com/online/view.php?msq=1626) and [log](https://
 - **Timing pulled on knock.** `knockRetardAggression` is the "Ignition timing to remove when a knock event occurs." The firmware suggests: "5% (mild), 10% (turbo/high comp.), 15% (high knock, e.g. GDI), 20% (spicy lump)".
 - **Recovery.** After a knock event, `knockRetardReapplyRate` controls how quickly timing is restored ("After a knock event, reapply timing at this rate", in deg/s).
 - **Frequency choice.** `knockDetectionUseDoubleFrequency` selects the first or second harmonic; the firmware notes the "Second harmonic (aka double) is usually quieter background noise".
+- **Frequency validation.** When software knock detection is enabled, an explicit `knockFrequency` below 100 Hz is rejected as a likely kHz/Hz mix-up. The setting is ignored while software knock detection is disabled.
 
 The knock spectrogram (`enableKnockSpectrogram`) is available through the TunerStudio plugin (see the Spectrogram section below).
 
