@@ -30,6 +30,12 @@ Some example uses are provided in [Examples](#examples).
 
 ## Installing a Script
 
+The Console's **AI Troubleshooting** assistant can inspect selected lines of the
+ECU's `LUASCRIPT` RAM source, with line citations and a source hash. Requested
+source excerpts are sent to OpenAI. This read-only tool does not edit, burn or
+restart Lua, and RAM source alone does not establish what is currently running
+in the Lua VM or saved in flash. See [Console troubleshooting](Console#chatgpt-troubleshooting).
+
 Lua scripts are written and loaded from the **rusEFI console**, not from TunerStudio - TunerStudio's own
 Lua pages say so directly: *"Use rusEFI console for Lua script editing"*. If you do not have the console
 yet, see [Console](Console).
