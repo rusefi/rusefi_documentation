@@ -4,9 +4,7 @@
 
 Reference application: 2011 BMW 328i Sedan (E90), 3.0L N52K.
 
-[Adapter connection instructions, jumper configuration and pin mapping](BMW-N52-adapter.md)
-
-The adapter is passive. Stock-coil connections require suitable ignition power drivers; see the connection instructions before following an automatically matched cable guide.
+The adapter is passive. Stock coils in the reference wiring require suitable ECU power outputs or external ignition drivers; the cable guides' `Smart Ignition Coil` rows do not imply a direct connection to stock coil primaries. X60006 carries ignition signals despite the board's `INJ ... SIG 1` labels; X60007 carries the actual injector outputs.
 
 [Vehicle pinout](https://rusefi.com/docs/pinouts/BMW-N52-146/)
 
