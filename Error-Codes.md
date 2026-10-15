@@ -36,6 +36,21 @@ A non-zero cut code means the ECU has deliberately stopped fuel, spark or both. 
 | 21 | `GdiLimits` | A GDI limit was exceeded — see [GDI status](GDI-status). |
 | 22 | `GdiPumpLimit` | A GDI high pressure pump limit was exceeded — see [GDI status](GDI-status). |
 
+The following protection conditions also raise OBD warnings:
+
+| Cut reason | OBD warning |
+|---|---|
+| `BoostCut` | P0234 - engine overboost |
+| `InjectorDutyCycle` | C9013 - injector flow limit exceeded |
+| `LambdaProtection` | P0171 - system too lean (bank 1) |
+| `EtbProblem` (jammed throttle) | P0638 - throttle actuator range/performance (bank 1) |
+
+These four warnings share a 30-second reporting interval. The first active fault
+is reported on the next protection update; further warnings from this group wait
+until at least 30 seconds have elapsed. A fault must still be active to be reported
+at that time. The cuts themselves take effect immediately and keep their existing
+recovery conditions.
+
 ## Electronic throttle codes
 
 If the cut code is `EtbProblem` (8), this second code says what the throttle system is unhappy about. `None` (0) means no fault.
