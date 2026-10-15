@@ -51,6 +51,8 @@ A castellated solder-down "brain" module: all the electronics of a full-featured
 
 free open source firmware - support us at https://www.patreon.com/rusefi
 
+[Schematics rev a](Hardware-files/Hellen/hw-uaBrain-a-schematic.pdf)
+
 ## Edge connectors
 
 All I/O comes out on fourteen castellated 8-pin edge connectors J2..J21:
