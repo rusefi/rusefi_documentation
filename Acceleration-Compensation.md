@@ -20,3 +20,18 @@ It is most similar to a carburetor's accelerator pump in operation.
 
 This is a more sophisticated method that was developed in the 1980s by the Ford Motor Company. It uses a simple model to estimate the amount of fuel that is dropping out of suspension and the time it takes to re-evaporate.  
 This is a more accurate method but requires a little more knowledge to tune.
+
+## Lua
+
+**Accel Enrichment Mode = Lua** lets a script replace the built-in acceleration
+enrichment strategy. Use [`setAccelEnrichment(grams)`](Lua-Scripting#setaccelenrichmentgrams)
+to supply extra fuel per cylinder per engine cycle. Firmware scales this mass
+for the selected injection mode; the script controls when enrichment starts,
+its amount, and its decay. Native TPS tables, fractional pump, MAP prediction,
+and RPM/flex AE multipliers are inactive in Lua mode.
+
+Refresh the request within 200 ms and send zero when enrichment ends. Firmware
+clears it on Lua reset, engine stop or configuration changes, suppresses it during
+cranking, DFCO and detected VE tuning, and uses the normal closed-loop-fuel
+holdoff after enrichment. Wall wetting remains independently configurable.
+Log **Fuel: Lua AE cycle mass** (`luaAccelFuel`, grams) for the applied correction.
