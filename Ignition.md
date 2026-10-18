@@ -17,6 +17,18 @@ Two situations use their own timing rather than the main table:
 
 On top of the main table, rusEFI applies coolant temperature (CLT) and intake air temperature (IAT) based timing correction tables. These trim advance for conditions the main table does not know about — for example pulling timing when intake air is hot and the engine is more prone to knock.
 
+### Burst knock retard
+
+**Ignition → Burst Knock** provides temporary timing retard during a throttle tip-in. It uses the TPS acceleration-enrichment detector; an acoustic knock event is not required.
+
+Enable **Burst Knock** and tune the 8×8 RPM/TPS-rate table in degrees of timing to remove. The default is disabled, with a zero table and a one-second **Decay Time**. Zero cells request no retard, and negative cells are clamped to zero.
+
+The TPS-rate axis uses the largest adjacent TPS jump in the acceleration-enrichment history divided by `tpsAccelLookback`, with a minimum divisor of 0.001 seconds. Review the AE lookback and acceleration threshold together with this table: this rate is a proxy derived from that history, not an instantaneous TPS derivative. The detector remains separate from how the selected AE mode adds fuel.
+
+While the AE acceleration threshold is exceeded, each slow callback updates the retard from the table and restarts its timer. When the transient ends, the last table value decays linearly to zero over **Decay Time**, measured from the last above-threshold sample. A new transient refreshes the table value and timer. Zero decay time removes retard on the first below-threshold callback; disabling the feature clears it on the next slow callback.
+
+Burst retard is subtracted alongside the normal timing corrections. Fixed timing bypasses it, and cranking uses the existing `useAdvanceCorrectionsForCranking` switch. Log `isBurstKnockActive`, `burstKnockRetard`, and `burstKnockTpsRate` to inspect its behavior.
+
 ## Dwell
 
 Dwell is how long the coil is charged before the spark fires, in milliseconds. Too little dwell gives a weak spark; too much wastes energy and overheats the coil.
@@ -50,3 +62,5 @@ Excessive advance causes knock (detonation), which can destroy an engine quickly
 ## Technical sources
 
 Field names and quoted descriptions are taken from `firmware/integration/rusefi_config.txt` in the [rusEFI firmware](https://github.com/rusefi/rusefi): `crankingTimingAngle`, `useSeparateAdvanceForIdle`, `useAdvanceCorrectionsForCranking`, `ignitionDwellForCrankingMs`, `globalTriggerAngleOffset`, and `DWELL_CURVE_SIZE`.
+
+Burst-retard behavior was checked against `controllers/modules/burst_knock`, `algo/accel_enrichment.cpp`, and `algo/ignition/ignition_state.cpp` at rusEFI revision `e08f9bf74f1`, based on AlphaX revision `ebb877615ee1`.

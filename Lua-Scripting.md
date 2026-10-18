@@ -236,7 +236,9 @@ Requests [rolling launch control](HOWTO-Launch-Control.md#rolling-launch-control
 Pass numeric `1` to hold or `0` to release. The request is OR-ed with the hardware
 switch and still requires rolling launch to be enabled with valid speed/RPM
 readings above its configured gates. It has no timeout: explicitly send `0`
-when the activation condition ends. Reloading Lua does not clear the request.
+when the activation condition ends. Reloading Lua clears the Lua request. At
+the next control update, the hold releases and timing retard ramps out unless
+the hardware switch still requests activation.
 Available in builds with native launch control. The controller updates at 20 Hz.
 
 
@@ -866,7 +868,8 @@ commands.
 | --- | --- |
 | `lua <code>` | Runs a fragment of Lua inside the *running* interpreter, so it can see your script's variables. It executes on the next tick. The console splits the command line on spaces, so the code has to contain none: `lua print(rpm)` works, `lua x = 5` does not. |
 | `luareset` | Restarts the interpreter and runs your script again from the top. |
-| `luamemory` | Prints the worst-case script duration since you last asked, CAN RX totals and drops, the last cycle time, and Lua heap usage. |
+| `luainfo` | Prints the worst-case script duration since you last asked, CAN RX totals and drops, the last cycle time, and Lua heap usage. |
+| `heapinfo` | Prints Lua heap usage, free space in the common ChibiOS heap, and ChibiOS memory-core usage. |
 | `lua_button <index>` | Simulates a press of TunerStudio Lua button 1 to 10, so button handlers can be developed without TunerStudio open. |
 | `luabench2 <index> <onMs> <offMs> <count>` | Pulses one Lua output pin. `index` counts from 1. |
 | `set_lua_setting <index> <value>` | Sets one of the Lua Script Settings without going through TunerStudio. Here `index` counts from **0**, so 0 to 7. It is not bounds-checked, and a value outside that range writes over unrelated configuration - so do not use one. |
