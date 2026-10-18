@@ -46,6 +46,10 @@ Whatever the algorithm works out, it is delivered through the injectors - so the
 flow, reference pressure and dead time have to be right before any of it means anything.
 See [Injectors](Injectors).
 
+For the **Injection Timing** table's TDC reference, positive/negative angles,
+and Start/Center/End settings, see
+[Injection timing reference](Injection-Modes#injection-timing-reference).
+
 ## I/O Settings
 
 Here are examples of some relevant commands:

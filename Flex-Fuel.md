@@ -43,6 +43,18 @@ Ethanol needs noticeably more fuel than gasoline, especially when the engine is 
 
 Enable these if you run high-ethanol blends and want good cold starts and throttle response across the ethanol range.
 
+Configure transient compensation at
+`Fuel -> AE / Transient fueling -> Flex fuel transient compensation`.
+This screen appears when injection is enabled and a flex sensor input is
+configured; E0 fuel or an invalid sensor reading does not hide it. Enable
+transient compensation there to reveal the tables. The TPS AE table is shown
+only for MS Adder and Percent Adder. The wall-film tau/beta tables apply in
+every AE mode and both wall models. All three share coolant and ethanol axes;
+1.00 is a neutral multiplier.
+
+<!-- UI verified against rusEFI cba7263a4dc plus PR #10384,
+     head bf9ce6144104a88c6eb8be968338f4946cf990f6, on 2026-10-16. -->
+
 ## Reading ethanol content
 
 The flex fuel sensor is a frequency-output type. In the firmware `flexSensorPin` is described as a "Continental/GM flex fuel sensor, 50-150hz type" — the signal frequency encodes the ethanol percentage, which rusEFI then uses for the corrections above.

@@ -19,6 +19,16 @@ The buttons live under **Controller → Bench Test & Commands**. [Get Running wi
 
 There is also a **stop engine** button on the same screen, which is the correct way to stop a running engine without cutting power to the ECU.
 
+### Speedometer output
+
+Under **Outputs → Speedometer output**, configure the **Output** pin and set
+**Test frequency** in Hz (100 Hz by default). Press **Test Speedo** to drive that
+output at the requested frequency for three seconds, even while the vehicle is
+stationary. It then resumes normal output based on vehicle speed and **Pulse per
+km**. A test frequency of 0 pauses pulses for those three seconds. Pressing the
+button again restarts the three-second test. The test requires
+a configured, initialized output pin.
+
 ## Testing from the console
 
 The same tests are available as console commands, which is useful when you want a specific repeat count or a longer pulse than the buttons give you. Times are in milliseconds.

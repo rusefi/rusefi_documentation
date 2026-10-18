@@ -11,6 +11,33 @@ rusEFI has implemented several strategies that attempt to compensate for this ph
 It is important to note that the Acceleration Compensation is not intended to increase the amount of fuel in order to increase power during acceleration - that is the purpose of the AFR table or VE table, whereas this compensation is purely intended to correct for the fuel dropping out of suspension.  
 This is also why it is referred to as "Acceleration Compensation" rather than "Acceleration Enrichment", as the second term implies the wrong purpose.
 
+## TunerStudio screens
+
+Open `Fuel -> AE / Transient fueling`. With injection enabled, the menu groups
+the settings into these screens:
+
+| Screen | Contents and availability |
+| --- | --- |
+| Acceleration enrichment settings | Select the strategy, VE-edit suspension, STFT holdoff, and the applicable TPS detection/pump settings. |
+| TPS / Lua AE calibration | MS/Percent Adder table and RPM multiplier, or Lua instructions and cycle-mass readouts. Hidden when MAP Prediction is selected. |
+| MAP prediction and sensor fallback | Estimated MAP table and prediction duration for Speed Density. Other fuel algorithms show an explanation when MAP Prediction is selected. Outside prediction mode, the Speed Density fallback editor is available in Full/Installation UI modes. |
+| Wall wetting compensation | Independent Basic/Advanced fuel-film settings, first-injection-event diagnostics, and measured lambda/AFR. Advanced exposes all four CLT/MAP curves. |
+| Flex fuel transient compensation | Enable and edit CLT/ethanol multipliers. Available when a flex input is configured, including at E0 or with a sensor error. |
+
+Controls for another strategy are hidden. The TPS/Lua calibration readouts use
+two rows of three values, with a history graph below. The corrected TPS AE
+readout uses milliseconds in MS Adder mode and fractions in Percent Adder mode;
+changing modes reinterprets the existing table values without conversion.
+Lua has a separate mass readout in grams per cylinder per cycle.
+
+RPM acceleration is an ECU estimate of engine-speed change, not vehicle
+acceleration. Intermediate table, pump, wall-film and flex values can retain
+their last calculation while their paths are bypassed. Use the screen's help
+for the meaning and limits of each diagnostic.
+
+<!-- UI verified against rusEFI cba7263a4dc plus the remaining PR #10384 changes,
+     adapted from bf9ce6144104a88c6eb8be968338f4946cf990f6 on 2026-10-16. -->
+
 ## TPS based
 
 This is the simplest method. It uses the change in TPS position over time to decide on an additional quantity of fuel to inject.  

@@ -46,6 +46,20 @@ The current implementation of X-tau ignores coefficients (X) below 0.01 and RPM 
 
 ## How to tune it
 
+Open `Fuel -> AE / Transient fueling -> Wall wetting compensation`.
+Basic mode exposes constant tau and beta. Advanced mode shows tau versus CLT,
+tau versus MAP, beta versus CLT, and beta versus MAP together. A missing analog
+MAP pin does not hide the MAP curves: the firmware can use a MAP sensor from
+another source. MAP multipliers apply only when the ECU has a registered MAP
+sensor.
+
+The screen includes RPM acceleration, measured mixture following the project's
+lambda/AFR preference, and the first injection event's wall-film amount and
+correction. Wall wetting remains independent of the selected AE strategy.
+
+<!-- UI verified against rusEFI cba7263a4dc plus PR #10384,
+     head bf9ce6144104a88c6eb8be968338f4946cf990f6, on 2026-10-16. -->
+
 [//]: # "need a screen shot of the x-tau TS section"
 
 ### Evaporation time constant /tau (seconds)
@@ -61,6 +75,28 @@ A large value here implies that a lot of the fuel is landing on the walls of the
 While tuning, if you are failing to prevent the AFR from becoming leaner, increase this value.
 
 Good tuning of the X-tau system relies on taking logs and some trial and error to tune the coefficients correctly.
+
+## Monitoring wall wetting
+
+Use these channels in gauges, logs, or Lua `getOutput()`:
+
+| Channel | Display/log label | Units | Meaning |
+| --- | --- | --- | --- |
+| `wallFuelCorrection` | Fuel: wall correction | mg | Fuel added or removed by wall wetting for the current injection. Positive adds fuel; negative subtracts fuel. |
+| `wallFuel` | Fuel: wall amount | mg | Estimated fuel mass on the intake port wall. |
+
+Both report the state of the first injection event, rather than a sum across
+all cylinders. A bypassed wall-wetting calculation can leave the previous
+correction visible.
+
+The October 2026 consolidation removes `wallFuelCorrectionValue` and
+`wallFuelAmount`. Update custom dashboards and scripts to the names above.
+Earlier versions displayed the retained raw channels in grams. TunerStudio,
+SD log readers, and Lua now report both in mg. The firmware model and raw
+binary values remain in grams; the INI and SD log header specify a scale of
+1000, and Lua converts on lookup. The standard log labels are unchanged.
+
+<!-- Verified against rusEFI 3836bdae553 plus the 2026-10-16 wall-fuel telemetry scaling changes. -->
 
 ## Old Info
 
