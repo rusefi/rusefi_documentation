@@ -14,6 +14,11 @@ Follow the user's requested edit scope; a documentation review does not by itsel
 
 ## Current-state documentation
 
+Focus on what readers need to configure, use, or troubleshoot the product.
+Skip obvious expected behavior, minor implementation details, and routine
+fixes that restore expected behavior, such as expressions resolving correctly.
+Correct inaccurate instructions without adding a paragraph for every code change.
+
 Describe current behavior, configuration, constraints and usage in present tense.
 Do not include commit hashes, revision footers, local checkout folder names,
 machine-specific paths, import/review chronology or narratives about earlier
