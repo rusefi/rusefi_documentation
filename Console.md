@@ -10,6 +10,12 @@ Software** for subsequent launches. This does not block firmware downloads after
 you explicitly request an ECU update. See [release channels and auto-update
 behavior](Release-Snapshot-Latest-firmware#what-updates-automatically).
 
+**Actions > Compare ECU with Downloaded Firmware…** compares the connected ECU's
+firmware date and configuration signature with the firmware file on your computer.
+A different date or configuration signature makes **Update ECU Firmware** available.
+This comparison does not check the server for newer downloads. Builds with the
+same date and configuration signature cannot be distinguished by this comparison.
+
 At this point, the Console should be up and running. Play around with it and see what you can learn. Also note that it has some functionality as listed below.
 
 * If used together with the built-in position sensor emulator, the console allows some level of testing on the bench, without a real engine or any additional hardware. The most useful feature is the plain signal sniffer - both real inputs and generated signals can go into it and this is actually quite handy. Another useful feature is the text log.
@@ -119,6 +125,30 @@ as gear sensor voltage and detected gear. These rows update while the dialog is
 active and show `---` until a value is available. They honor the INI's enable
 and visibility expressions alongside editable calibration fields.
 
+Hover over the settings panel to the right of the **Tuning** menu tree to reveal
+the square **Detach panel** button in the form's upper-right corner. The button
+follows the form's bounds, including compact pages such as **Multispark**.
+Click it to open that page in a separate window sized to fit its content while
+keeping the primary view available.
+You can detach several pages; detaching the same page again brings its existing
+window forward. Field, table, and curve edits propagate to all open views and
+use the main tuning toolbar's shared Undo, Redo, Discard, Save, and Burn controls.
+
+Detached pages with subpanels show a **Split panel** icon next to the title bar's
+**Close** button. Click it to replace that window with smaller windows for its
+immediate subpanels, each sized to fit its content. For example, **Software
+Knock** splits into its left settings group and threshold curve; the left group
+can then split into **Sense** and **Response**. Controls belonging to the parent
+page appear in a separate **General** window. Already-open subpanels are reused,
+and edits continue to propagate to every view.
+
+The Console remembers detached pages and their window positions and sizes
+between runs, including windows created by splitting a page.
+Closing a detached window removes it from the saved layout;
+exiting the Console keeps open windows for next time. Pages reopen when the
+loaded tune's INI contains them. Windows saved on a disconnected monitor are
+moved back onto an available screen.
+
 In **Pinout**, the **Tune use** column shows which tune settings use each pin.
 Double-click an assigned pin row to open its settings page in **Tuning**.
 Assignments inside nested panels open the containing page; for example, a
@@ -129,6 +159,12 @@ fuel-pump output opens **Outputs**, which contains the Fuel Pump panel.
 Choose **Shortcuts** in the main menu bar (or press **F1**) to open the keyboard reference. The window is non-modal: leave it open while using the Console. Its text scrolls vertically and covers table selection/editing, commands, Lua editing, charts, menus, and logging. Click back in the Console before using its shortcuts. Press **Esc** in the reference window to close it.
 
 Hover over buttons and command fields for shortcut hints. Some menus and buttons also show underlined shortcut letters when you press **Alt**, depending on the operating system. Shortcuts are currently fixed rather than configurable.
+
+With the left menu tree focused in **Tuning**, **Up/Down** moves between visible
+rows, skipping disabled items and separators. **Home/End** selects the first/last
+available row; **Page Up/Page Down** moves by a page and skips unavailable rows.
+**Right** expands a group or moves into its available children. **Left** collapses
+a group or selects its parent. These keys need no modifiers.
 
 In tuning tables, arrow keys move between value cells and **Shift+arrows** extends
 the selection. **Home/End** selects the first/last value column; **Ctrl+Home/End**
@@ -184,6 +220,16 @@ does not establish a CAN tuning connection.
 
 Use **Grid Size** to choose the number of rows and columns. Right-click a gauge
 to change its selection or switch to live graphs.
+
+Gauge selection uses the currently loaded INI, including in offline mode and
+the gauge sandbox. An ECU connection is not required to list its gauges.
+
+The **Search** field at the top of the selection menu filters gauges as you type.
+An empty search shows every group and gauge.
+It matches any part of the full group / gauge name, ignoring letter case. A group
+name matches all gauges in that group; groups with no matches are hidden. Clear
+the field to show all gauges again. Search is also available on compact text
+gauges and live graphs.
 
 **Save Layout...** saves the visible grid to a `.gauges` file, including gauge
 selections, graph mode, refresh periods, and scale settings. **Load Layout...**

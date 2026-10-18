@@ -8,6 +8,10 @@ Most people who are installing tuneable ECUs like rusEFI are looking for more po
 
 ## Supported fuel control algorithms
 
+[Time-based WOT enrichment](WOT-Enrichment) can adjust the target AFR during
+sustained wide-open throttle. [State-based STFT](Engine-State-Machine#state-based-fuel-trims)
+can select the existing fuel-trim regions from engine operating state.
+
 rusEFI supports mono, individual/sequential and batched fuel injection using one of the following fuel control algorithms:
 
 1. MAF-based or MAP-based table fuel lookup with interpolation - these algorithms only use the raw sensor output and thus they do not account for ambient air temperature; this is only intended as a minimum viable hardware configuration and we would suggest using the AlphaN, Speed Density or MAF air charge methods instead.
@@ -169,3 +173,33 @@ Pointers:
 - You can tune for sudden throttle-stabs without driving, just sitting in idle.
 
 - The goal is drivability. If you don’t notice any bogging, no matter what you do with the throttle, you’re good - stop right there, no matter what your AFRs are.
+
+## Overrun and deceleration fuel cutoff
+
+In **Overrun/Decel Fuel Cut**, enable **Fuel Cutoff** and choose **Fuel cut on**:
+
+| Mode | Cut request |
+| --- | --- |
+| Overrun | Closed throttle with RPM and vehicle speed above their entry thresholds; fuel returns below the restore thresholds. |
+| Decel | The enabled [Engine State Machine](Engine-State-Machine) reports Decelerating, or its RPM-rate fallback qualifies without a configured vehicle-speed sensor. |
+| Both | Either Overrun or Decel qualifies. |
+
+Overrun is the default. **Overrun requires detected gear** is off by default;
+when enabled it requires a valid detected gear greater than zero. Neutral,
+unknown and failed gear detection prevent overrun fuel cut. Configure the
+[gear detector](Vehicle-Speed-Sensor#gear-detection) before enabling this option.
+
+Decel needs **Enable Engine State Machine** and a positive **Decel RPM rate
+threshold**. With valid vehicle speed, the SM classifies Decelerating when RPM
+falls fast enough and detected gear is a valid zero, subject to its primary-state
+priorities. Without a configured speed sensor, DFCO directly compares falling
+RPM rate with that threshold. A configured but failed speed sensor does not use
+this fallback. **RPM rate averaging window** sets the sampling interval.
+Decel does not use the Overrun throttle, RPM, speed or gear requirements.
+
+Every mode requires coolant above **No cut below CLT** and acceptable MAP when
+that sensor is configured. Failed coolant or configured MAP sensors, VE tuning,
+and Lua inhibition prevent the cut. State-machine upshifts and downshifts also
+suppress it. After a shift, **Fuel cut delay** must elapse again before fuel is
+cut. The existing ignition-retard and closed-loop-fuel recovery settings apply
+to all modes. The DFCO indicator shows the actual cut after its delay.

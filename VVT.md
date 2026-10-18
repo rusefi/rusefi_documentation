@@ -42,11 +42,40 @@ Beyond decoding cam position, rusEFI can actively **control** variable cam timin
 - **Feedback:** the camshaft sensor (`camInputs`) provides the actual cam position. `vvtOffsets` sets the "Angle between cam sensor and VVT zero position", which calibrates the measured cam angle so that the target is meaningful.
 - **Target:** separate **VVT intake target** and **VVT exhaust target** tables set the desired cam angle across the operating range.
 - **Actuation:** a PID controller drives a PWM output to the cam (oil) control solenoid to move the cam toward the target.
-- **Enable conditions:** VVT control only runs above `vvtControlMinRpm`. Cam phasers depend on engine oil pressure and temperature, so control is not expected to work at cold start or very low RPM.
+- **Enable conditions:** VVT control requires RPM above `vvtControlMinRpm`, coolant above `vvtControlMinClt`, the configured activation delay after engine start, and usable cam-position feedback. The minimum VVT RPM is independent of the cranking RPM setting.
 
 > ⚠️ **Set VVT limits conservatively.** On interference engines, commanding the cam too far can cause valve-to-piston contact and serious engine damage. Confirm the achievable cam range carefully and verify behaviour on a [log](Logging-Guide) before relying on VVT control.
 
 Configure the VVT targets, PID gains, control pins, and limits in TunerStudio; no values are prescribed here.
+
+## Advanced mode
+
+**VVT Configuration & PID -> Advanced Mode** enables separate intake and
+exhaust curves, shared across both banks. It is disabled by default.
+
+- **Base duty vs. oil pressure** replaces the fixed **Hold Duty** offset.
+  Missing or invalid oil pressure evaluates the curve at 0 kPa.
+- **P factor vs. distance from target** replaces the fixed P gain. Distance is
+  target minus measured angle, with its sign reversed for a retarding solenoid.
+  The curve displays P multiplied by 100: an entry of 100 means a gain of 1.
+- The existing I and D gains continue to supply trim on every update. The
+  controller adds that trim to base duty and clamps the result to the PID
+  **Min** and **Max** output limits.
+
+Advanced mode controls near-zero targets without the basic mode's rest-position
+hysteresis. The RPM, coolant, startup-delay and cam-feedback requirements still
+apply. Default curve axes span -40 to +40 degrees and 0 to 1000 kPa; duty and
+P-gain values start at zero and need calibration before enabling the feature.
+
+**iTerm Min** and **iTerm Max** bound accumulated integral trim separately for
+intake and exhaust, in either mode. Defaults are -1000 and +1000; setting both
+to zero restores those defaults on a settings burn. A single zero bound is
+allowed. Set **I factor** to zero if integral trim is not wanted. Burning an
+advanced-mode calibration resets the accumulated trim.
+
+VVT PID telemetry reports the scheduled P contribution and the final bounded
+command during control. The per-cam distance channel reports signed error in
+advanced mode; it is zero in basic mode.
 
 ## Technical sources
 

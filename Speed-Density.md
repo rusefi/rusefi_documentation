@@ -22,6 +22,17 @@ Where:
 charge_temp (Tcharge) is a charge temperature heuristic formula: `Tcharge = CLT *(1 - Tcharge_coff) + IAT* Tcharge_coff`  
 Where Tcharge_coff is interpolated between 0.25 if RPM is low or the throttle is closed to 0.9 if RPM is high and the throttle is wide open. See [http://rusefi.com/math/t_charge.html](http://rusefi.com/math/t_charge.html)
 
+At startup, each temperature sensor's first valid reading updates Tcharge immediately,
+even if CLT and IAT become available at different times. Until readings are available,
+the calculation uses 0 °C when both are missing, IAT alone when CLT is missing, or
+the normal blend with IAT assumed to be 0 °C when only CLT is available.
+
+All other updates use the configured rate limits: by default, 1 °C/s rising and
+12.5 °C/s falling. These limits apply to temperature changes while the other sensor
+is still missing, and to later sensor failures and recovery. This allows a hot
+restart to initialize from the measured temperatures without slowly warming the
+estimate from a startup fallback.
+
 ## Setting it up
 
 1. **Select the algorithm.** Set the fuel algorithm (`fuelAlgorithm`) to Speed Density. The firmware describes this mode as using "intake manifold pressure (MAP) and intake air temperature (IAT) to calculate air density and fuel requirements."

@@ -59,6 +59,73 @@ Closed-loop correction only runs when the engine is actually idling. rusEFI deci
 
 Configure the target idle RPM, the PID gains, and these thresholds in TunerStudio; no values are prescribed here. Tune the PID gradually and confirm behaviour on a [log](Logging-Guide).
 
+## A/C and external idle air requests
+
+**A/C RPM addition** adds RPM to the coolant-based target whenever A/C is
+requested. For example, 100 RPM changes an 800 RPM target to 900 RPM.
+**A/C Idle Air vs Pressure** supplies an eight-point air addition in percent
+against pressure in kPa. Missing or invalid pressure uses the first value.
+A/C air applies at idle, during the crank-to-run taper, and in the optional
+coasting table. The A/C request acts before the compressor relay delay expires.
+
+**External Idle Air Requests** provides three independent inputs, each with
+an input mode and air addition. Active inputs add together with fan, Lua and
+Park/Neutral corrections in the running air calculation. They do not change
+the RPM target or the dedicated coasting table.
+
+## Cranking air, flare and hold
+
+**Use cranking air curve** is enabled by default. Its CLT curve sets the
+cranking opening and blends into running air during the crank-to-run taper.
+Turning it off uses running air instead.
+
+**Cranking RPM Flare vs CLT** optionally raises the idle target during cranking
+and taper. The final target also selects the running idle-air table row. When
+both flare and cranking air are enabled, the cranking air curve is added to
+running air and fades to zero. This combination needs its own air calibration.
+Closed-loop correction remains disabled until the taper ends.
+
+The crank-to-run page includes CLT curves for hold and taper duration. They
+count engine cycles from the start of rotation, including cycles spent
+cranking. A zero taper duration completes immediately when the hold ends.
+Modeled-flow idle bypasses the hold, taper and RPM flare.
+
+**Fixed ETB target during cranking** is independent of these air curves. Its
+value is actual throttle percent, not percent of the ETB idle range. It applies
+only while cranking below 2 km/h; missing/invalid speed is treated as zero.
+At 2 km/h or above, normal pedal and idle blending applies. It does not open
+the throttle on a stopped engine.
+
+## Return to idle and moving idle
+
+**Off-idle RPM Addition** holds an extra RPM target while running or coasting.
+On return to idle, it waits until the RPM change rate falls below the stability
+threshold, holds for the configured wait time, then decays linearly. Stability
+is checked before the wait begins, not during the wait. Reapplying throttle
+or coasting rearms it; re-cranking cancels it. Zero RPM addition disables it.
+This target addition also selects the running air table row; it does not raise
+the RPM thresholds that decide whether the engine is idling.
+
+**Clutch/neutral speed-gate override** allows idle above **Max vehicle speed**
+when the clutch disengages the transmission or detected gear is neutral.
+Neutral remains latched through brief gear-detection matches. Opening the
+throttle, exceeding the idle exit RPM, stopping/re-cranking, or returning below
+the speed gate clears the latch. Configure clutch inputs or gear detection
+before enabling this option. Engine-state classification need not be enabled.
+
+## Importing an existing tune
+
+The console updater converts a fixed A/C air offset to a flat pressure curve
+and preserves cranking air. It converts an absolute A/C RPM target to an
+addition relative to the last (warmest) idle RPM curve point, limited to
+0–1000 RPM. Review the result at other coolant temperatures: an absolute floor
+and a fixed addition cannot match everywhere. Direct TunerStudio imports need
+manual review of these renamed settings.
+
+The old return-target ramp setting has no effect; use **Off-idle RPM Addition**
+if required. New defaults have no TPS dashpot air addition. Explicit dashpot
+values in an imported tune remain in effect.
+
 ## Technical sources
 
 - Configuration field definitions: `firmware/integration/rusefi_config.txt` — `idleMode`, `idleRpmPid`, `idlePidDeactivationTpsThreshold`, `idlePidRpmUpperLimit`, `idlePidRpmDeadZone`, and the `idle` hardware settings (`solenoidFrequency`, `solenoidPin`, `useStepperIdle`, `stepperStepPin`, `stepperDirectionPin`, `useRawOutputToDriveIdleStepper`).

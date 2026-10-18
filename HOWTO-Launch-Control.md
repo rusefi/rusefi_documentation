@@ -43,8 +43,9 @@ The hardware **Activation switch pin** and Lua `setRollingLaunchTrigger(1)` are
 OR-ed together. `setRollingLaunchTrigger(0)` releases the Lua request; it cannot
 override a pressed hardware switch. Set the switch pin mode for the required
 pull-up/pull-down and inversion. An unassigned pin permits Lua-only activation.
-The Lua request is latched until explicitly cleared; it has no timeout and a
-script reload does not clear it.
+The Lua request has no timeout; clear it when the activation condition ends.
+A script reload also clears it. The next control update releases the hold and
+ramps out timing retard unless the hardware switch still requests activation.
 
 Arming requires valid, finite engine RPM and vehicle speed, positive RPM, and
 both minimum gates. Equality satisfies the configured gates. Holding the button

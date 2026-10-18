@@ -43,6 +43,26 @@ for the meaning and limits of each diagnostic.
 This is the simplest method. It uses the change in TPS position over time to decide on an additional quantity of fuel to inject.  
 It is most similar to a carburetor's accelerator pump in operation.
 
+## MAP Prediction
+
+With Speed Density and a valid MAP sensor, **Accel Enrichment Mode = MAP
+Prediction** uses the RPM/TPS estimated MAP table during a detected throttle
+opening, then blends toward the current measured MAP. The **Transition duration
+to measured MAP (s)** curve controls both the blend duration and the total event
+time limit, evaluated at current RPM.
+
+If the estimated MAP rises as the throttle keeps opening, blending restarts
+from the higher estimate while the event's original timer keeps running. Repeated
+blend restarts cannot extend the event time limit. Prediction can end sooner
+when measured MAP catches up or TPS falls more than the acceleration threshold
+below the event's peak. Each new event starts with its own TPS peak, so a smaller
+throttle opening can follow a larger one without inheriting its release threshold.
+
+Another event requires the TPS detector to fall below its acceleration threshold
+before a fresh acceleration event; returning the pedal fully closed is not
+required. Without a valid MAP reading, Speed Density uses the estimated MAP table
+as its ordinary sensor fallback.
+
 ## Wall Wetting
 
 This is a more sophisticated method that was developed in the 1980s by the Ford Motor Company. It uses a simple model to estimate the amount of fuel that is dropping out of suspension and the time it takes to re-evaporate.  
