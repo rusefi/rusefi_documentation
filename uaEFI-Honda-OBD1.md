@@ -30,6 +30,7 @@ See [uaEFI](uaEFI)
 * Option to use coil on plugs; see J4
 * Option to convert to hall position sensors; see J5
 * Option to upgrade to electronic throttle body; see J1+J2
+* CANbus available on auxiliary plug 
 * Designed to fit the OBD2 enclosure - these are cheaper, also we have auxiliary section on the header so we need wider opening
 
 ## Issue Tracker
