@@ -230,6 +230,16 @@ Returns true while an engine-stop request is active, whether requested by Lua, t
 
 #### setLaunchTrigger
 
+#### `setRollingLaunchTrigger(value)`
+
+Requests [rolling launch control](HOWTO-Launch-Control.md#rolling-launch-control).
+Pass numeric `1` to hold or `0` to release. The request is OR-ed with the hardware
+switch and still requires rolling launch to be enabled with valid speed/RPM
+readings above its configured gates. It has no timeout: explicitly send `0`
+when the activation condition ends. Reloading Lua does not clear the request.
+Available in builds with native launch control. The controller updates at 20 Hz.
+
+
 #### `setSparkSkipRatio(ratio)`
 
 `setSparkSkipRatio(0)` woild skip 0% of the ignition events, i.e. no skipping
@@ -274,6 +284,37 @@ Fuel mass in grams added to each injection. Applied after [`setFuelMult()`](#set
 #### `setFuelMult(coeff)`
 
 Scales the base injected fuel mass; initially 1.0.
+
+#### `setAccelEnrichment(grams)`
+
+Select **Accel Enrichment Mode = Lua** to implement acceleration enrichment in
+your script. Pass the extra fuel mass in **grams per cylinder per engine cycle**,
+not milliseconds or percent. For example, `setAccelEnrichment(0.004)` requests
+4 mg per cycle: firmware applies 4 mg per sequential injection, 2 mg per batch
+injection, or 1 mg per simultaneous injection on a four-cylinder engine.
+
+Call it every `onTick` while active and pass zero when no enrichment is needed.
+The last value expires after 200 ms without refresh. Lua reset, engine stop and
+applying configuration changes clear it. Negative or non-finite values clear the request
+and raise a Lua error. Requires firmware with Lua and engine-control support.
+
+Your script owns detection, enrichment magnitude, decay and temperature/flex
+compensation. Lua mode ignores the native TPS enrichment table, lookback,
+thresholds, fractional pump and RPM/flex AE correction tables; MAP prediction is
+inactive. Firmware suppresses Lua AE while stopped/cranking, below the cranking
+RPM threshold, during deceleration fuel cut and during detected VE tuning.
+Wall wetting and normal downstream fuel corrections/scheduling still apply.
+
+Positive applied enrichment inhibits closed-loop fuel correction using **Inhibit
+closed loop fuel after accel**. Log `luaAccelFuel` (**Fuel: Lua AE cycle mass**,
+grams) to see the applied cycle correction. The existing `tpsAccelFuel` channel
+stays zero in Lua mode. This API is independent of `setFuelAdd()`, which adds mass
+per injection later in the pipeline and has no AE timeout or holdoff behavior.
+
+See [Acceleration Compensation](Acceleration-Compensation#lua).
+Implementation reference: `firmware/controllers/algo/accel_enrichment.cpp` and
+`fuel_math.cpp`, baseline `f49bba612c6` plus the Lua AE working-tree addition,
+reviewed 2026-10-14.
 
 #### `setBoostTargetAdd(amount)`
 

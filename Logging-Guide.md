@@ -2,7 +2,7 @@
 
 rusEFI supports multiple methods to collect logs from your ECU.
 
-Both methods detailed here will produce a `.mlg` file compatible with [MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/). For technical reasons, the content between the two methods differs slightly, but all important fields are identical.  For most troubleshooting, either log type will do the job.
+Both methods detailed here produce a `.mlg` file compatible with [MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/). Field selection, timestamps and metadata differ between logging methods and firmware versions. Include the firmware version and tune when sharing a log.
 
 If you're trying to share the log with someone to help you with your engine, please upload it to [rusEFI Online](https://rusefi.com/online).
 
@@ -55,6 +55,19 @@ To enable it, find the "SD Card Logger" menu under the "Controller" section (far
 ### Storage Consumption
 
 rusEFI SD logging is thorough, but not too heavy when compared to the size of cheaply available SD cards. Expect about 20 MB/hr when set to the default 50 ms period, with consumption scaling linearly with logging rate. 20 MB/hr means 50 hr/GB, or ~400 hours (2.4 weeks!) with an 8 GB card.
+
+### Past Diagnostic Codes
+
+With SD enabled, `past-codes.csv` keeps up to eight unique diagnostic codes,
+oldest first. Each line contains the numeric `ObdCode` value and its first-seen
+Unix timestamp in seconds, separated by a comma, with no header. The timestamp
+field is empty if the ECU has no valid RTC time, for example `123,`.
+
+The ECU loads this history at startup. Repeating a retained code does not change
+its timestamp or rewrite the file. A new code is appended; if eight codes are
+already stored, it replaces the oldest. Clearing active warnings does not clear
+this history. Updates work even when regular logging is paused, but wait while
+the SD card is exposed to a PC over USB.
 
 ### SD Card USB Connection
 

@@ -119,23 +119,52 @@ as gear sensor voltage and detected gear. These rows update while the dialog is
 active and show `---` until a value is available. They honor the INI's enable
 and visibility expressions alongside editable calibration fields.
 
+In **Pinout**, the **Tune use** column shows which tune settings use each pin.
+Double-click an assigned pin row to open its settings page in **Tuning**.
+Assignments inside nested panels open the containing page; for example, a
+fuel-pump output opens **Outputs**, which contains the Fuel Pump panel.
+
 ## Keyboard shortcuts
 
 Choose **Shortcuts** in the main menu bar (or press **F1**) to open the keyboard reference. The window is non-modal: leave it open while using the Console. Its text scrolls vertically and covers table selection/editing, commands, Lua editing, charts, menus, and logging. Click back in the Console before using its shortcuts. Press **Esc** in the reference window to close it.
 
 Hover over buttons and command fields for shortcut hints. Some menus and buttons also show underlined shortcut letters when you press **Alt**, depending on the operating system. Shortcuts are currently fixed rather than configurable.
 
-In tuning tables, use the arrow keys to move between cells and **Shift+arrows**
-to extend the selection. **Enter** or **F2** starts editing the active value cell;
-**Enter** accepts the value and **Esc** cancels. **Tab** and **Shift+Tab** accept
-an edit and move to the next or previous value cell, wrapping between rows and
-skipping the axis column. Invalid numbers remain in the editor until corrected
-or cancelled. The active value cell's X and Y scale labels have a subtle
-background highlight. Axis labels and read-only comparison tables cannot be edited.
+In tuning tables, arrow keys move between value cells and **Shift+arrows** extends
+the selection. **Home/End** selects the first/last value column; **Ctrl+Home/End**
+selects the first/last row while keeping the column. Movement stops at the grid
+edges. The active value cell's X and Y scale labels have a subtle highlight.
 
-With a value cell selected, the **mouse wheel over the grid** moves the active
-cell up or down in the same column and keeps it visible. Movement stops at the
-first and last rows. Wheel navigation is ignored while editing a cell.
+Type a digit to replace the selected cell, or press **F2** or double-click to edit
+its existing number with the text selected. **Backspace/Delete** starts an empty
+pending edit; Space does not start editing. **Enter** or **Shift+Enter** accepts
+an edit and keeps the same cell selected. **Esc** cancels the pending edit.
+After direct typing, arrow keys accept and move to another cell. After F2,
+**Left/Right** moves the text cursor; **Up/Down** accepts and moves between rows.
+
+**Tab/Shift+Tab** accepts and moves to the next/previous value cell, wrapping
+between rows and skipping the axis column. Invalid numbers block acceptance and
+cell navigation until corrected or cancelled. Moving focus away accepts valid
+numbers and cancels invalid or empty input. **Ctrl+Tab/Ctrl+Shift+Tab** finishes
+the edit and moves focus out of the grid.
+
+With multiple cells selected, typing digits immediately applies the accumulated
+number to all selected value cells. Backspace removes the last typed digit;
+Escape ends entry without undoing values already applied. Changing the selection
+starts a new number. A **period (.)** outside numeric entry increments selected
+values by one displayed precision step; inside a number it enters a decimal point.
+Bulk operations skip axis values. Axis values have separate editors when the
+calibration defines writable axes. Read-only comparisons cannot be edited.
+
+With the table focused, **+** and **-** increase or decrease selected data values
+by exactly 1, regardless of displayed precision. Both the main keyboard and
+numeric keypad work, without Ctrl or Alt. During a pending cell edit, these keys
+enter signs as text instead of adjusting the stored value.
+
+The **mouse wheel over the grid** adjusts selected values by one displayed
+precision step; **Shift+wheel** adjusts by three steps. **Ctrl+wheel** instead
+moves the active value cell up or down and keeps it visible, stopping at the
+first and last rows. Wheel actions are ignored while editing a cell.
 
 ## Connecting over CAN
 
