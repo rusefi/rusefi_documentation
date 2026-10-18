@@ -15,6 +15,21 @@ The pedal sensor is used for electronic throttle (drive-by-wire); a cable thrott
 - **Inputs:** `throttlePedalPositionAdcChannel` ("Electronic throttle pedal position first channel") and `throttlePedalPositionSecondAdcChannel` (second channel — pedals use two sensors for redundancy).
 - **Calibration:** `throttlePedalUpVoltage` — "Fully released pedal position"; `throttlePedalWOTVoltage` — "Pedal in the floor" (both in volts), with secondary versions for the second channel.
 
+## Optional TPS smoothing
+
+The TPS settings include a **TPS Smoothing (TPS1 & TPS2)** panel. TPS1 and TPS2
+have independent filter histories but share these settings:
+
+- **Smoothing alpha (1 = off)** (`tpsExpAverageAlpha`): defaults to 1, which passes readings through. Values between 0 and 1 smooth fluctuations and add feedback delay. This affects TPS consumers including electronic throttle control and acceleration enrichment.
+- **Fast-change reset threshold** (`tpsExpAverageResetThreshold`): change in percentage points required to jump directly to a new reading.
+- **Fast-change reset time window** (`tpsExpAverageResetTimeMs`): the change must occur in less than this many milliseconds. Both reset settings must be positive to enable this behavior; they default to zero (disabled).
+
+The average advances whenever firmware reads the resolved TPS value, so alpha
+does not specify a fixed time constant or cutoff frequency. Redundant-channel
+agreement checks happen before smoothing. Sensor faults pass through immediately,
+and recovery starts a fresh average. Analog TPS, Ford/Toyota split-range TPS and
+SENT TPS use this path. Direct OBD/CAN/Lua TPS providers bypass it.
+
 ## Setting it up
 
 1. Wire the sensor(s) to analog inputs, sensor 5 V, and sensor ground — see the [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections).
@@ -32,3 +47,4 @@ The pedal sensor is used for electronic throttle (drive-by-wire); a cable thrott
 ## Technical sources
 
 - Configuration field definitions: `firmware/integration/rusefi_config.txt` — `tps1_1AdcChannel`, `tps1_2AdcChannel`, `tps2_1AdcChannel`, `tpsMin`, `tpsMax`, `tps1SecondaryMin`/`tps1SecondaryMax`, `throttlePedalPositionAdcChannel`, `throttlePedalPositionSecondAdcChannel`, `throttlePedalUpVoltage`, `throttlePedalWOTVoltage`.
+- TPS smoothing behavior: `firmware/init/sensor/init_tps.cpp`, `firmware/controllers/sensors/tps_smoothing.h`, and `firmware/controllers/algo/defaults/default_base_engine.cpp`; verified against the report 13 port on top of `3dd620b8d5b` in `rusefi.5`.

@@ -754,6 +754,8 @@ Honda D17 Honda K
 
 31+24+22+17+31=125
 
+[Honda 125-pin variations and transcribed OEM pinouts](Honda-125-variations.md): shared connector dimensions do not mean shared assignments. For example, RSX A9 changes from knock input in 2002–04 to logic ground in 2005–06; C21/C22 are MAF connections on the 2008 Element but reverse/park inputs on the 2008 Fit.
+
 1318682-6 = ECU A 31
 
 353029-1 = ECU B 24

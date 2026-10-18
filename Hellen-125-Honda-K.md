@@ -4,6 +4,10 @@
 
 ## As is, not compatible with 05-06 RSX wiring - jumper mod would be needed
 
+The OEM lists show why the year distinction matters: coils 1–4 move from **A30/A29/A28/A27** (2002–04) to **A16/A15/A14/A13** (2005–06), VTEC moves **B15 → B6**, and fuel-pump relay control moves **E1 → E17**. Grounds also change: early **A9 is knock**, while late **A9 is logic ground**; A23/A24 change from logic grounds to sensor returns.
+
+See the [complete RSX terminal lists](OEM-Docs/Honda/2002-2006-Acura-RSX-ECM-pinouts.md) and [Honda 125-pin variations](Honda-125-variations.md) for model, transmission and emissions examples. The 2003 Element already uses several later RSX positions, while the 2005 Civic Si retains earlier ones. These OEM comparisons do not specify a board jumper procedure; use the schematic for the actual board revision when adapting a harness.
+
 [💲Gets yours at the rusEFI Store💲](https://www.shop.rusefi.com/shop/p/honda-k-2002-pinout)
 
 [Pinout](https://rusefi.com/docs/pinouts/hellen/hellen-honda-k/)

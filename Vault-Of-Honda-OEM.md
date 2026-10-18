@@ -34,6 +34,8 @@ Civic EK gen6 1996-2000
 
 [DBC Honda K](OEM-connectors#125-pin)
 
+[Honda 125-pin variations and complete transcription catalogue](Honda-125-variations.md) covers RSX, Civic 1.7/2.0, Accord, Element, TSX, S2000 and Jazz/Fit. It includes concrete changes in grounds, ignition, VTEC, oxygen sensors, throttle control and transmission circuits.
+
 ## K engine plug
 
 [Hellen 125 Honda K](Hellen-125-Honda-K)
