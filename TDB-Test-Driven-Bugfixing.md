@@ -4,7 +4,7 @@ Here is what I believe to be *always* proper:
 
 First pull request, merge one: Coverage. Obviously *green* coverage, clearly ASSERTING bad behavior - for instance https://github.com/rusefi/rusefi/commit/1fa0ca9a97af3f6504991ce8801da6292af64514
 
-Second pull request, merge two: Fix, including *adjustment* of expectations in coverage. fact that coverage is *adjusted* is *proof* that we have *relevant* coverage
+Second pull request, merge two: Fix, including *adjustment* of expectations in coverage. fact that coverage is *adjusted* is *proof* that we have *relevant* coverage. Second pr only needs to change asserts/comments. If you add lines into second PR, that usually means that you forgot to add them in your first PR and you need to PR more of test baseline preparation work.
 
 ## Why?
 
