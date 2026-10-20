@@ -16,7 +16,9 @@ Pin counts refer to the OEM vehicle connector. Adapters are listed in ascending 
 - [Mazda Miata NC — 120 pins](#mazda-miata-nc)
 - [Toyota Supra A80 — 120 pins](#toyota-120-supra-a80)
 - [Nissan Xterra VQ40DE / Armada VK56DE — 121 pins](#nissan-121-xterra-vq40de-armada-vk56de)
+- [VAG Bosch ME7 — 121 pins](#vag-121--bosch-me7)
 - [Toyota Aristo JZS161 — 122 pins](#toyota-122-aristo-jzs161)
+- [Honda K-series / Acura RSX — 125 pins](#honda-k--125-pins)
 - [Subaru Impreza WRX / WRX STI — 135 pins](#subaru-135-impreza-wrx-wrx-sti)
 - [Kawasaki Ninja ZX-4R reference — 136 pins](#kawasaki)
 - [BMW N52 — 146 pins](#bmw-146---n52--msv80)
@@ -87,6 +89,24 @@ The adapter schematic calls the 103-pin vehicle section **A** and the 95-pin sec
 <img src="Hardware-files/adapters/Ford-Mustang-198-adapter/Ford-mustang-198-superseal-adapter.jpg" alt="Ford 198 Superseal adapter - connector side" width="600" />
 
 <img src="Hardware-files/adapters/Ford-Mustang-198-adapter/Ford-mustang-198-superseal-adapter-reverse.jpg" alt="Ford 198 Superseal adapter - reverse side" width="600" />
+
+## Honda
+
+### Honda K — 125 pins
+
+Passive adapter for Honda K-series engines with 2002–2004 Acura RSX wiring, based on Hellen125Honda. The TE 1318612-1 vehicle connector connects to Superseal 60+26 (1A–34A, 1B–26B and 1C–26C); the remaining vehicle contacts have individual solder access pads.
+
+Connector C uses the Hellen auxiliary assignments, not the factory automatic-transmission wiring. The 2005–2006 RSX pinout is different.
+
+[📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Honda-K-125-adapter/Honda-K-125-superseal-adapter.pdf)
+
+[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/Honda-K-125/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/Honda-K-125-adapter/)
+
+[Reference wiring — Acura RSX (2003)](OEM-Docs/Honda/2003-acura-rsx-type-R.pdf) | [OEM terminal table — 2002–2004 / 2005–2006 comparison, page 1](OEM-Docs/Honda/rsx-ecu-pinouts-02-06_page1.jpg) · [page 2](OEM-Docs/Honda/rsx-ecu-pinouts-02-06_page2.jpg)
+
+<img src="Hardware-files/adapters/Honda-K-125-adapter/Honda-K-125-superseal-adapter-front.png" alt="Honda K 125 Superseal adapter - connector side, KiCad render" width="600" />
+
+<img src="Hardware-files/adapters/Honda-K-125-adapter/Honda-K-125-superseal-adapter-back.png" alt="Honda K 125 Superseal adapter - reverse side, KiCad render" width="600" />
 
 ## Kawasaki
 
@@ -308,3 +328,24 @@ The Toyota 122 Superseal adapter connects the 122-pin vehicle harness to 60-pin 
 <img src="Hardware-files/adapters/Toyota-122-adapter/Toyota-122-superseal.jpg" alt="Toyota 122 Superseal adapter - connector side" width="600" />
 
 <img src="Hardware-files/adapters/Toyota-122-adapter/Toyota-122-superseal-reverse.jpg" alt="Toyota 122 Superseal adapter - reverse side" width="600" />
+
+## VAG
+
+### VAG 121 — Bosch ME7
+
+The VAG 121 Superseal adapter connects the 121-terminal vehicle harness (TE 1241434-1) to 60-pin and 26-pin Superseal connectors (1A–34A, 1B–26B and 1C–26C). It retains the Hellen121VAG connector circuits and adds 20 further signals; the remaining 23 vehicle terminals have individual solder access pads.
+
+- **Reference applications:** Audi A4 1.8T (2001) and Audi A6 2.7T, 3.0 and 4.2 (2003), with the Bosch ME7 121-terminal connector. Check the exact engine and model-year wiring against the pinouts. Injector and ignition numbers follow Hellen channel assignments, which can differ from cylinder numbers.
+- **Connections:** Passive adapter; GND, GNDA and +5 V groups follow Hellen121VAG. Vehicle-specific signal and power assignments are noted in the pinouts.
+
+[📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/VAG-121-adapter/VAG-121-superseal-adapter.pdf)
+
+[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/VAG-121/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/VAG-121-adapter/)
+
+[Reference wiring — Audi A4 1.8T (2001), sheet 1](OEM-Docs/VAG/2001_a4_1.8t_1.png) · [sheet 2](OEM-Docs/VAG/2001_a4_1.8t_2.png) · [sheet 3](OEM-Docs/VAG/2001_a4_1.8t_3.png) | [Audi A6 2.7T (2003), sheet 1](OEM-Docs/VAG/2003_a6_2.7t_1.png) · [sheet 2](OEM-Docs/VAG/2003_a6_2.7t_2.png) · [sheet 3](OEM-Docs/VAG/2003_a6_2.7t_3.png)
+
+[Reference wiring — Audi A6 3.0 (2003)](VAG-C5.md#2003-a6-30) | [Audi A6 4.2 (2003)](VAG-C5.md#2003-a6-42)
+
+<img src="Hardware-files/adapters/VAG-121-adapter/VAG-121-superseal-adapter-front.png" alt="VAG 121 Superseal adapter - connector side, KiCad render" width="600" />
+
+<img src="Hardware-files/adapters/VAG-121-adapter/VAG-121-superseal-adapter-back.png" alt="VAG 121 Superseal adapter - reverse side, KiCad render" width="600" />
