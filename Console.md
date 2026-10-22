@@ -231,6 +231,8 @@ four-stroke engine).
 
 The red line is the absolute time scale, with one line every 20 ms.
 
+<a id="mcp-capture-through-the-built-in-sniffer"></a>
+
 ## SLCAN Sniffer
 
 When supported by the connected ECU, rusEFI tuner shows the **SLCAN Sniffer**
@@ -238,4 +240,54 @@ tab for viewing CAN traffic. For details on connecting an adapter or capturing
 traffic with MCP, see [MCP capture through the built-in
 sniffer](Dev-Console-Implementation.md#mcp-capture-through-the-built-in-sniffer).
 
-<a id="mcp-capture-through-the-built-in-sniffer"></a>
+## FAQ
+
+### Why won't rusEFI tuner connect to my ECU?
+
+Check that the ECU has power and the USB cable supports data, not just charging.
+Close TunerStudio or any other application using the ECU connection. Install
+the offered drivers if needed, then check the **Connect** screen. If several
+ECUs are listed, select the one you want.
+
+### What is the difference between Save Tune and Burn to ECU?
+
+**File > Save Tune** saves a tune file on your computer. **Burn to ECU** saves
+changes on the ECU so they survive a restart. Saving a file does not save those
+changes on the ECU. Stop the engine and confirm the ECU save before switching
+power off.
+
+### Does updating the application also update my ECU?
+
+No. Updating the application and updating ECU firmware are separate actions.
+Before updating the ECU, read [How to Update Firmware](HOWTO-Update-Firmware)
+and check whether you want Release/LTS or snapshot firmware.
+
+### Do I need TunerStudio or MegaLogViewer to get started?
+
+No. You can edit settings, record logs, and view them in rusEFI tuner.
+TunerStudio and MegaLogViewer remain options for more advanced workflows.
+
+### Can I view a log without connecting the ECU?
+
+Yes. Once the main window is open, choose **Log Viewer > Open log…** and select
+a `.mlg` or `.msl` file. If you are on the startup screen without an ECU, first
+load a saved tune as described in [Log Viewer](#log-viewer).
+
+### Why is the Log Viewer chart empty after I open a log?
+
+Choose a channel in **Signals** to plot it. To add a group, open the **⋯** menu
+beside **Common** and choose **Plot all**. Double-click the chart background to
+show the full recording if you have zoomed in too far.
+
+### Does Ctrl+S save my tune?
+
+No. **Ctrl+S** starts or stops log recording. Use **File > Save Tune** to save a
+tune file, or **Burn to ECU** to save changes on the ECU.
+
+### What should I share when asking for help?
+
+Share your tune file, a recorded log, the ECU firmware version, and a short
+description of the problem. Explain what you expected and when the problem
+occurred in the log. A screenshot alone is not a replacement for a log file.
+See the [Logging Guide](Logging-Guide) for help recording one. Review files for
+sensitive information before sharing them.
