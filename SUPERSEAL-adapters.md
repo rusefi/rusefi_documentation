@@ -2,13 +2,13 @@
 
 ## Index by pin count
 
-Pin counts refer to the OEM vehicle connector. Adapters are listed in ascending order.
+Adapters are sorted by the OEM vehicle pin count. Where the board uses a larger connector, the added AUX (auxiliary) sections and total connector size are shown separately. AUX sections require additional wiring; they are not part of the factory harness.
 
-- [Mazda Miata NA 1.6 / 1994–1995 1.8 — 48 pins](#mazda-miata-na--48-pins)
-- [Mazda Miata NA8 1.8 / 1996–1997 — 64 pins](#mazda-miata-na8--64-pins)
-- [Mazda Miata NB1 1.8 / 1999–2000 — 64 pins](#mazda-miata-nb1--64-pins)
+- [Mazda Miata NA 1.6 / 1994–1995 1.8 — 48 OEM + 16 AUX (64 total)](#mazda-miata-na--48-pins)
+- [Mazda Miata NA8 1.8 / 1996–1997 — 64 OEM + 12 AUX (76 total)](#mazda-miata-na8--64-pins)
+- [Mazda Miata NB1 1.8 / 1999–2000 — 64 OEM + 12 AUX (76 total)](#mazda-miata-nb1--64-pins)
 - [Nissan Sentra SR20DE — 64 pins](#nissan-64-sentra-sr20de)
-- [Mazda Miata NB2 1.8 — 72 pins](#mazda-miata-nb2--72-pins)
+- [Mazda Miata NB2 1.8 — 72 OEM + 50 AUX (122 total)](#mazda-miata-nb2--72-pins)
 - [Suzuki G13BB — 72 pins](#suzuki-72-g13bb)
 - [Nissan Skyline GTS-T ECR33 — 76 pins](#nissan-76-skyline-gts-t-ecr33)
 - [BMW Motronic M50/M50TU, M60 and early S50 — 88 pins](#bmw-88--motronic-m3x)
@@ -116,16 +116,18 @@ Connector C uses the Hellen auxiliary assignments, not the factory automatic-tra
 
 ## Mazda
 
-### Mazda Miata NA — 48 pins
+<a id="mazda-miata-na--48-pins"></a>
 
-The Miata NA adapter connects the two factory ECU plugs (22 + 26 contacts) and an optional 16-contact expansion plug to one Superseal 60 connector.
+### Mazda Miata NA — 48 OEM + 16 AUX (64 total)
+
+The Miata NA adapter uses a **64-position TE 176122-6** connector: **48 OEM contacts** in the two factory ECU plugs (22 + 26), plus **16 AUX contacts** in the added middle section 2. The AUX section provides additional sensor, wideband, VVT and boost-control connections. The ECU side is one Superseal 60 connector.
 
 - **1990–1993 Mazda MX-5 / Miata NA6, 1.6L; 1994–1995 Mazda MX-5 / Miata NA, 1.8L.** Reference wiring: 1990 and 1994 US models. Match ECU-side harness assignments to the actual year, transmission and vehicle wiring.
 - **Load supply:** Superseal 14B receives the ECU's protected 5 A output. JP1 supplies the optional wideband heater; JP2/R1 provide the optional tachometer pull-up. Assignments are in the pinouts and schematics.
 
 [📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Mazda-Miata-NA-adapter/Mazda-Miata-NA-superseal-adapter.pdf)
 
-[🚗 Vehicle and optional-port pinout 🚗](https://rusefi.com/docs/pinouts/miata-na/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/miata-na-adapter/)
+[🚗 OEM and AUX pinout 🚗](https://rusefi.com/docs/pinouts/miata-na/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/miata-na-adapter/)
 
 [Reference wiring — 1990 Miata 1.6](OEM-Docs/Mazda/1990_Miata/1990_mazda_miata_us_wiring.png) | [Reference wiring — 1994 Miata 1.8, sheet 1](Images/diagrams/1994_miata_1.8_1.png) · [sheet 2](Images/diagrams/1994_miata_1.8_2.png)
 
@@ -133,15 +135,17 @@ The Miata NA adapter connects the two factory ECU plugs (22 + 26 contacts) and a
 
 <img src="Hardware-files/adapters/Mazda-Miata-NA-adapter/Mazda-Miata-NA-superseal-adapter-back.png" alt="Miata NA Superseal adapter - reverse side, KiCad PCB render" width="600" />
 
-### Mazda Miata NA8 — 64 pins
+<a id="mazda-miata-na8--64-pins"></a>
 
-The Miata NA8 adapter connects the three factory ECU plugs (22 + 16 + 26 contacts) to Superseal 60 and 26 connectors. The additional 12-contact section is an optional expansion port.
+### Mazda Miata NA8 — 64 OEM + 12 AUX (76 total)
+
+The Miata NA8 adapter uses a **76-position TE 178780-1** connector: **64 OEM contacts** in the three factory ECU plugs (22 + 16 + 26), plus **12 AUX contacts** in the added section 2. The AUX section provides additional sensor, wideband, VVT and boost-control connections. The ECU side is Superseal 60 + 26.
 
 - **1996–1997 Mazda MX-5 / Miata NA8, 1.8L BP.** The pinouts use the 1996 and 1997 US wiring diagrams.
 
 [📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Mazda-Miata-NA8-adapter/Mazda-Miata-NA8-superseal-adapter.pdf)
 
-[🚗 Vehicle and optional-port pinout 🚗](https://rusefi.com/docs/pinouts/miata-na8/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/miata-na8-adapter/)
+[🚗 OEM and AUX pinout 🚗](https://rusefi.com/docs/pinouts/miata-na8/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/miata-na8-adapter/)
 
 [Reference wiring — 1996 Miata 1.8, sheet 1](Images/diagrams/1996_miata_1.8_1.png) · [sheet 2](Images/diagrams/1996_miata_1.8_2.png) | [Reference wiring — 1997 Miata 1.8](https://www.mellens.net/mazda/Mazda-Miata-1997/wiring.pdf)
 
@@ -149,15 +153,17 @@ The Miata NA8 adapter connects the three factory ECU plugs (22 + 16 + 26 contact
 
 <img src="Hardware-files/adapters/Mazda-Miata-NA8-adapter/Mazda-Miata-NA8-superseal-adapter-back.png" alt="Miata NA8 Superseal adapter - reverse side, KiCad PCB render" width="600" />
 
-### Mazda Miata NB1 — 64 pins
+<a id="mazda-miata-nb1--64-pins"></a>
 
-The Miata NB1 adapter connects the three factory ECU plugs (22 + 16 + 26 contacts) to Superseal 60 and 26 connectors. The additional 12-contact section is an optional expansion port.
+### Mazda Miata NB1 — 64 OEM + 12 AUX (76 total)
+
+The Miata NB1 adapter uses a **76-position TE 178780-1** connector: **64 OEM contacts** in the three factory ECU plugs (22 + 16 + 26), plus **12 AUX contacts** in the added section 4. The AUX section provides additional sensor, wideband, VVT and boost-control connections. The ECU side is Superseal 60 + 26.
 
 - **1999–2000 Mazda MX-5 / Miata NB1, 1.8L BP.** The pinouts use the US wiring diagrams.
 
 [📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Mazda-Miata-NB1-adapter/Mazda-Miata-NB1-superseal-adapter.pdf)
 
-[🚗 Vehicle and optional-port pinout 🚗](https://rusefi.com/docs/pinouts/miata-nb1/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/miata-nb1-adapter/)
+[🚗 OEM and AUX pinout 🚗](https://rusefi.com/docs/pinouts/miata-nb1/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/miata-nb1-adapter/)
 
 [Reference wiring — 1999 Miata](Images/diagrams/Mazda_miata_1999.png) | [Reference wiring — 2000 Miata](https://www.mellens.net/mazda/mazda_miata_extra_manual/2000_wiring.pdf) | [Service manual](https://www.mellens.net/mazda/Mazda-Miata-1999-2001.pdf)
 
@@ -165,16 +171,18 @@ The Miata NB1 adapter connects the three factory ECU plugs (22 + 16 + 26 contact
 
 <img src="Hardware-files/adapters/Mazda-Miata-NB1-adapter/Mazda-Miata-NB1-superseal-adapter-back.png" alt="Miata NB1 Superseal adapter - reverse side, KiCad PCB render" width="600" />
 
-### Mazda Miata NB2 — 72 pins
+<a id="mazda-miata-nb2--72-pins"></a>
 
-The Miata NB2 adapter connects the three factory ECU plugs (17 + 24 + 31 contacts) to Superseal 60 and 26 connectors. The board also provides optional expansion ports for a modified harness.
+### Mazda Miata NB2 — 72 OEM + 50 AUX (122 total)
+
+The Miata NB2 adapter uses a **122-position TE 8-5353015-1** connector: **72 OEM contacts** in factory sections 2–4 (17 + 24 + 31), plus **50 AUX positions** in the added sections 1 (22) and 5 (28). The AUX sections provide additional sensor, wideband and actuator connections. Of those 50 positions, 32 connect to Superseal or access pads; the other 18 in section 1 are unused. The ECU side is Superseal 60 + 26.
 
 - **2001–2005 Mazda MX-5 / Miata NB2, naturally aspirated 1.8L BP engine with VVT:** intended application. The pinouts use the 2003 US wiring diagram and identify 2002 differences. Check the year, market and transmission against the reference wiring; Mazdaspeed turbo wiring differs.
 - **Load supply:** Superseal 24C–26C receive the ECU's protected 5 A output. The five solder jumpers select which loads receive this supply; their assignments are in the pinouts and schematics.
 
 [📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/Mazda-Miata-NB2-adapter/Mazda-Miata-NB2-superseal-adapter.pdf)
 
-[🚗 Vehicle and optional-port pinout 🚗](https://rusefi.com/docs/pinouts/miata-nb2/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/miata-nb2-adapter/)
+[🚗 OEM and AUX pinout 🚗](https://rusefi.com/docs/pinouts/miata-nb2/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/miata-nb2-adapter/)
 
 [Reference wiring — 2003 Miata 1.8](OEM-Docs/Mazda/2003_Miata/Mazda_miata_2003.png) | [Reference wiring — 2002 Miata 1.8](Images/diagrams/Mazda_miata_2002.png)
 
