@@ -9,7 +9,7 @@ The most fully-featured ECU in this price category; available at [💲rusEFI Sto
 [📦uaEFI Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
 [📦uaEFI PRO Release Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi_pro.zip)
 
-[rusEFI tuner for Windows (snapshot channel)](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+[🆕rusEFI tuner for Windows (snapshot channel)🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
 [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
 ![uaEFI board, top view](Images/uaefi-a-top.png)
