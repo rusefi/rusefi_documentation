@@ -21,11 +21,14 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v5
-
+    # TODO: Revisit the Azure mirror workaround when this runner issue is resolved:
+    # https://github.com/actions/runner-images/issues/14823
     - name: Install Prerequisites
+      timeout-minutes: 20
       run: |
-        sudo apt update
-        sudo apt install sshpass
+        bash ./wiki-tools/apt.sh configure
+        bash ./wiki-tools/apt.sh update
+        bash ./wiki-tools/apt.sh install sshpass
         bash ./wiki-tools/install.sh
 
     - name: Generate static pages
