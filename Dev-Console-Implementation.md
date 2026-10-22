@@ -1,5 +1,34 @@
 # Dev Console Implementation
 
+## MCP capture through the built-in sniffer
+
+For normal CAN traffic viewing, use the [SLCAN Sniffer tab](Console#slcan-sniffer).
+The following instructions are for developers connecting MCP tools to that
+interface, not for normal ECU auto-connect or log viewing.
+
+The ECU must provide its secondary USB CDC interface as an SLCAN adapter. Build
+the MCP CAN application from the rusEFI repository root:
+
+```sh
+./gradlew :mcp_can:fatJar
+```
+
+Close the SLCAN tab before opening its serial port from MCP. For example:
+
+```sh
+java -jar java_console/mcp_can/build/libs/mcp_can-all.jar --backend slcan --port /dev/ttyACM1
+```
+
+Use a port such as `COM5` on Windows. Omit `--port` to discover the first SLCAN
+port, or specify it when several devices are attached. The normal ECU connection
+uses the other serial interface.
+
+The `connect`, `read_packets`, `wait_for_packet`, and `status` tools support this
+backend. PCAN remains the default when `--backend slcan` is omitted.
+
+Configure the bus selection and bitrate in the ECU tune. Enable the appropriate
+`canSnifferN_read` setting to capture traffic on that bus.
+
 ## Human Readable Protocol
 
 A typical line in rusEFI human-readable protocol looks like:

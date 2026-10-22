@@ -2,7 +2,21 @@
 
 rusEFI supports multiple methods to collect logs from your ECU.
 
-Both methods detailed here produce a `.mlg` file compatible with [MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/). Field selection, timestamps and metadata differ between logging methods and firmware versions. Include the firmware version and tune when sharing a log.
+Beginners can record a `.mlg` log directly in [rusEFI tuner](Console) using
+**Logging > Start**. Use **Logging > Start As…** if you want to choose the file
+instead of recording into the application's logs folder. TunerStudio logging remains a supported
+professional/advanced workflow; follow that section below if you use
+TunerStudio. Onboard SD logging is another option on supported ECUs.
+
+See [rusEFI tuner binary logging](Console#binary-logging) for start/stop controls
+and saving the tune alongside the log.
+
+For beginner log review, use the built-in [Log Viewer](Console#log-viewer) tab in
+rusEFI tuner. It opens `.mlg` and `.msl` files without an ECU connection; you do
+not need a separate MegaLogViewer installation for basic plotting and inspection.
+MegaLogViewer remains an optional professional/advanced analysis tool.
+
+The logging methods detailed here produce a `.mlg` file compatible with [MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/). Field selection, timestamps and metadata differ between logging methods and firmware versions. Include the firmware version and tune when sharing a log.
 
 If you're trying to share the log with someone to help you with your engine, please upload it to [rusEFI Online](https://rusefi.com/online).
 
@@ -28,7 +42,9 @@ The field is available in TunerStudio logs and ECU SD-card logs with matching fi
 
 ## TunerStudio logging
 
-The preferred log for tuning and debugging is a log made in TunerStudio. It requires having a PC plugged in whenever you want to log, but you're probably already plugged in for tuning the engine or looking at more gauges.
+TunerStudio logging is a supported option for tuning and debugging. It requires
+having a PC plugged in while logging; if you tune in rusEFI tuner, its Binary
+Logging feature can record a `.mlg` file instead.
 
 ### Start/Stop Logging
 

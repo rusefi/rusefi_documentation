@@ -19,13 +19,21 @@ See the [Hardware overview](Hardware) for the supported boards, the [ECU Compari
 
 ## 2. Get the software
 
-- [Download the rusEFI bundle](Download) for your specific ECU. The bundle includes the firmware, the rusEFI Console, drivers, and the TunerStudio definition file.
-- Install tuning software by [creating a TunerStudio project](HOWTO-create-tunerstudio-project).
-- Learn what the [rusEFI Console](Console) is used for.
+- [Download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+  for a beginner-friendly way to connect and tune. Start at the [rusEFI tuner
+  guide](Console).
+- [Download the rusEFI bundle](Download) for your specific ECU when you need its
+  firmware, definition file, drivers, or other board-specific utilities.
+- TunerStudio is a supported professional/advanced alternative. See the
+  [TunerStudio project guide](HOWTO-create-tunerstudio-project) for its setup.
 
 ## 3. Update the firmware
 
 Official boards ship with firmware already installed, but it should be updated before you start.
+
+Check [Release vs. Snapshot](Release-Snapshot-Latest-firmware) before updating:
+the standard universal installer uses snapshots by default. Use the appropriate
+Release/LTS bundle if you want to remain on that firmware channel.
 
 - [How to Update Firmware](HOWTO-Update-Firmware)
 - [How to DFU](HOWTO-DFU) — used for updates and for recovery if a normal update does not work.
@@ -38,8 +46,9 @@ If you are using a universal ECU, plan and build the engine wiring, including po
 
 ## 5. Connect to your ECU
 
-- [TunerStudio Connectivity](Tunerstudio-Connectivity) — connect TunerStudio to the ECU and resolve connection problems.
-- [rusEFI Console](Console) — connect the console for monitoring and diagnostics.
+- [rusEFI tuner](Console) — connect over USB, edit the tune, and use diagnostics.
+- [TunerStudio Connectivity](Tunerstudio-Connectivity) — connect TunerStudio
+  if you are using that professional/advanced alternative.
 
 ## 6. Configure the essentials
 
@@ -60,11 +69,13 @@ Follow the guide that matches your hardware:
 
 ## 8. Tune it
 
-- [Get Tuning with TunerStudio](Get-tuning-with-TunerStudio-and-your-rusEFI)
+- Beginners: start with [rusEFI tuner](Console).
+- TunerStudio users: follow [Get Tuning with TunerStudio](Get-tuning-with-TunerStudio-and-your-rusEFI).
 
 ## 9. Log and share
 
 - [Logging Guide](Logging-Guide) — how to record proper log files (essential for any troubleshooting or tuning help).
+- [rusEFI tuner Log Viewer](Console#log-viewer) — open and inspect saved logs without another application or an ECU connection.
 - [rusEFI Online](Online) — share and compare your tune and logs with the community.
 
 ## If something goes wrong

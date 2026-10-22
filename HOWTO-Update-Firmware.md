@@ -8,13 +8,31 @@ Disconnect it from the vehicle. Use caution.
 
 ## Windows
 
-Launch [rusEFI Console](Console). You can find it in the bundle you downloaded, in the "console" folder.
+For the installed universal application, launch [rusEFI tuner](Console) from its
+desktop shortcut or Windows Start menu. If you downloaded a board-specific
+Release/LTS bundle, launch the application from that extracted bundle instead
+to use its firmware channel. Starting the installed universal application does
+not select firmware from another bundle you downloaded. Existing launcher
+filenames containing `updater` or `console` are unchanged.
 
-Click the "Update Firmware" button once you've picked desired update mode.
+Choose __Update ECU Firmware__ after selecting the update mode appropriate for
+your board. Check [Release vs. Snapshot](Release-Snapshot-Latest-firmware) first
+if you need to remain on Release/LTS firmware rather than the installer's default
+snapshot channel.
+
+## Compare downloaded firmware
+
+With an ECU connected, choose __Actions > Compare ECU with Downloaded
+Firmware…__ in rusEFI tuner to compare it with firmware already downloaded to
+your computer. This is a comparison, not a firmware update.
+
+Check the [release channel](Release-Snapshot-Latest-firmware) before deciding
+to update. The installed universal application uses snapshots by default;
+launch the application from your Release/LTS bundle to use that bundle's channel.
 
 ## Linux
 
-TODO one day we need to fix rusEFI console (unless it works as is?) for OpenBLT to be happily available.
+same steps as Windows!, the preferred path is using OpenBLT updates, not DFU
 
 DFU is a bit dangerous. At some point we've decided not to include .DFU files into the bundles.
 
@@ -60,7 +78,7 @@ Some technical details at https://github.com/rusefi/rusefi/issues/8926
 A: sometimes write operations glitch and lock the unit. You would need to enable DFU mode, and then run ``console\STM32_Programmer_CLI\bin\stm32-remove-read-out-protection.bat`` batch file, and then manually flash firmware in DFU mode.
 
 *__Q:__ I got "DRIVER ERROR"*  
-__A:__ In rusEFI console please hit "Device Manager". When ECU gets into DFU mode (blue LED stops blinking) you are expected to see a "STM32 Bootloader" device. If you see "STM device in DFU mode", please uninstall it and remove the old driver.
+__A:__ In rusEFI tuner please hit "Device Manager". When ECU gets into DFU mode (blue LED stops blinking) you are expected to see a "STM32 Bootloader" device. If you see "STM device in DFU mode", please uninstall it and remove the old driver.
 
 Bad
 

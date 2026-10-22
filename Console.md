@@ -1,288 +1,241 @@
-# rusEFI Console - Overview
+# rusEFI tuner
 
-rusEFI updater, previously known as rusEFI Console is a PC application to update rusEFI firmware and calibrations.
+rusEFI tuner is the desktop application for connecting to a rusEFI ECU, editing
+and managing its tune, updating firmware, and using diagnostic tools. Its
+**Log Viewer** tab is a built-in, beginner-friendly way to view and explore
+recorded ECU logs without installing a separate log-analysis application. It
+covers common viewing and basic analysis workflows; users who need more
+specialized or advanced analysis can still use MegaLogViewer or another tool.
 
-* If you don't already have the Dev Console, get it [🆕rusEFI_Universal_Updater🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+[![rusEFI tuner interface](Images/rusEFI_console/rusefi_tuner_overview.png)](Images/rusEFI_console/rusefi_tuner_overview.png)
 
-Software auto-updates are enabled by default. Turn **Caps Lock on before launch**
-to skip the bundle download for that startup, or clear **Device > Auto-update
-Software** for subsequent launches. This does not block firmware downloads after
-you explicitly request an ECU update. See [release channels and auto-update
-behavior](Release-Snapshot-Latest-firmware#what-updates-automatically).
+Offline example with an illustrative generated VE table, not a recommended
+calibration. No live ECU values are shown.
 
-**Actions > Compare ECU with Downloaded Firmware…** compares the connected ECU's
-firmware date and configuration signature with the firmware file on your computer.
-A different date or configuration signature makes **Update ECU Firmware** available.
-This comparison does not check the server for newer downloads. Builds with the
-same date and configuration signature cannot be distinguished by this comparison.
+* [Download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
 
-At this point, the Console should be up and running. Play around with it and see what you can learn. Also note that it has some functionality as listed below.
+## Start tuning
 
-* If used together with the built-in position sensor emulator, the console allows some level of testing on the bench, without a real engine or any additional hardware. The most useful feature is the plain signal sniffer - both real inputs and generated signals can go into it and this is actually quite handy. Another useful feature is the text log.
-* You can use the console to invoke rusEFI commands and control the internal flow using the 'Messages Central' tab
-![Messages Central](Images/rusEFI_console/messages_central.png)
+1. Download and run the Windows installer above, then start **rusEFI tuner**
+   from its desktop shortcut or the Windows Start menu.
+2. Connect the ECU to the computer over USB and allow the application to
+   discover and connect to it. Install the offered drivers if needed.
+3. Open **Tuning** to view and edit calibration settings. When connected,
+   edits take effect without being permanently saved. Use **Burn to ECU** to
+   save them on the ECU; stop the engine and confirm the save before
+   switching power off. Use **File > Save Tune** to save a tune file on your
+   computer. Saving a file does not save changes on the ECU. Unsaved ECU changes
+   are lost after a restart. Offline edits only change the tune on your computer.
+4. To record ECU data, choose **Logging > Start** (default folder) or **Logging
+   > Start As…** (choose a file), then choose **Stop** when finished. To inspect
+   a recording, open **Log Viewer** and choose **Open log…**. Recording needs a
+   live ECU connection; viewing a saved log does not.
+   See [Binary logging](#binary-logging) and [Log Viewer](#log-viewer).
 
-## ChatGPT troubleshooting
+### App updates and ECU firmware
 
-The **Troubleshooting** tab is available in online Console sessions for acceptance
-testing and is hidden in offline and log-viewer modes. It uses your ChatGPT plan
-to inspect the connected ECU. Connect in Console, open the tab, choose
-**Continue with ChatGPT** (or a saved account), select a model and describe the
-problem. Sign-in opens your browser and identifies the app as **rusEFI Updater**.
+The application can update its own software automatically. This does **not**
+update the firmware running on your ECU; that is a separate action.
 
-Before account/chat controls appear, the panel checks and extracts the cached
-source ZIP. If it needs downloading, click **Start Download** below the source
-code prompt and wait for the progress bar to finish. The chat controls appear
-only after successful validation and extraction. Failed downloads show an error
-and allow retry; no download starts automatically when the cache needs refreshing.
-Network downloads bypass stale CDN copies so a newly published source archive
-can be retrieved immediately; a valid local cache is still reused without a request.
+Before updating ECU firmware, read [How to Update Firmware](HOWTO-Update-Firmware).
+The installed universal application uses snapshot firmware by default, even if
+your ECU currently runs Release/LTS firmware. To stay on Release/LTS, use the
+application from the matching downloaded bundle instead.
 
-The assistant can read the firmware identity, discover datalog channel names,
-descriptions and units from the connected ECU's INI,
-read recent live values and inspect messages captured since the conversation
-started. It can also search the downloaded firmware/wiki text and read relevant
-line ranges. Your messages, requested ECU evidence and retrieved excerpts are
-sent to OpenAI. The terminal shows each tool name while it runs. These tools
-have read-only ECU access.
+See [Release vs. Snapshot](Release-Snapshot-Latest-firmware) for help choosing a
+version or changing automatic app updates.
 
-Channel descriptions use INI gauge titles or datalog labels. Output-channel
-units take precedence over gauge units; missing, dynamic or conflicting units
-are identified explicitly. The assistant does not guess units or evaluate tune
-expressions during channel discovery.
+### Main tabs
 
-For several live readings, the assistant can collect up to 32 channels together
-with warning/error channels from one completed poll. Results include a shared
-sample ID, timestamp and age so it can correlate the observations. A host poll
-is not an atomic ECU measurement. Missing readings are explicitly unavailable;
-recent/last error codes and counters can describe past events rather than active
-faults. Numeric error codes require interpretation for the connected firmware.
+| Tab | Use it to |
+|---|---|
+| [Gauges](#gauges) | View live gauges and graphs from a connected ECU. |
+| [Tuning](#editing-settings) | Find and edit calibration settings. |
+| [Messages](#messages) | Read ECU text and send rusEFI commands. |
+| [Log Viewer](#log-viewer) | Open and explore a saved `.mlg` or `.msl` recording. |
+| [Engine Sniffer](#engine-sniffer-chart) | Inspect trigger/composite event charts when available. |
+| [AI Troubleshooting](#ai-troubleshooting) | Ask for help interpreting ECU evidence; information is sent to OpenAI. |
 
-The assistant can also read selected calibration fields directly from ECU RAM:
-up to 32 scalar, enum/bitfield or small-array fields per request. It sends only
-the selected values to OpenAI. Arrays are limited to 64 elements each and 512
-values total; strings and Lua scripts are excluded. Results identify each field
-and its read time, with explicit errors for unavailable or unsupported fields.
-These sequential reads are separate from live samples and do not prove the
-settings have been saved to flash. They do not change settings or use unsent
-edits in the Console tune cache.
+Tabs and tools vary by connection mode, ECU firmware, and enabled features.
 
-For Lua questions, the assistant can inspect bounded lines of the ECU's current
-RAM script, with line citations and a source hash. This does not prove which
-script is running in the Lua VM or saved in flash. It cannot edit or restart Lua.
+## Messages
 
-For changing conditions, it can capture a short in-memory log of up to 16 live
-channels and 20 samples over at most ten seconds. This is downsampled evidence,
-not a complete high-rate recording. It can also observe the next Digital Sniffer
-chart using the current settings, alongside the Console's own chart display.
-Returned events and channel summaries are bounded and marked when partial.
-The assistant does not enable or reconfigure acquisition. Stop cancels these
-captures. Requested Lua source and capture evidence are sent to OpenAI.
+The **Messages** tab shows text from the ECU and lets you send rusEFI commands.
+Commands can operate connected hardware. Send only commands you understand or
+that you have been instructed to use.
 
-Source/wiki citations identify a relative file path and line numbers. New
-source archives include firmware-source, libfirmware and wiki revisions, local
-edit flags, licenses and content hashes. Console validates the indexed files
-before accepting a new archive; older archives report unknown revisions.
-Wiki links use a pinned revision when clean metadata and the retrieved file
-hash agree, otherwise they refer to current master. The ECU signature identifies
-its INI schema, so source/firmware compatibility remains unverified.
+![rusEFI tuner Messages tab](Images/rusEFI_console/messages_central.png)
 
-Troubleshooting uses the normal Console bundle, Java runtime and native libraries.
-Source text downloads on demand and is cached locally. No Git, Python or Gradle
-installation is needed to use it. The archive includes subsystem guides, board
-references, Lua examples, INI metadata and a searchable documentation index.
-
-Use **Stop** to cancel a turn or **New conversation** to start over. Reconnecting
-to an ECU starts a fresh conversation on the next Send. Authorization is saved
-in `~/.rusefi/llm-access/accounts.json`; conversations remain in memory except
-for explicitly exported cases.
-
-Ask the assistant to **export a diagnostic case** to save findings, hypotheses,
-next measurements and selected evidence as JSON in
-`~/.rusefi/llm-access/diagnostic-cases/`. The terminal shows the saved file path.
-Cases include the original selected tune readings, Lua excerpts, live-log/sniffer
-results, messages and source passages with timestamps, hashes and partial-data
-flags. They also record the Console build revision and the source revision/hash
-metadata attached to the selected passages. They are bounded evidence, not full tune or log files. Analysis is labeled
-as model-authored and source/ECU compatibility remains unverified. Credentials
-are not included. Review the findings and ECU/Lua data before sharing a case.
-A saved case remains on disk after clearing a conversation or signing out.
-
-## Calibration fields
-
-Dialogs, tables and curves with topic help show a **Help** button, including
-inside nested panels. Click it to read the instructions in a scrollable popup;
-web links open in your browser. The popup closes when you switch views. This
-uses the ECU INI's `topicHelp` entry and is separate from individual field help.
-
-Console dialogs can edit individual elements of a one-dimensional array defined
-in the ECU's INI file. For example, `gearPositionVoltage[0]` selects the first
-gear-voltage value. Each element has its own numeric editor; changing it leaves
-the other array values unchanged.
-
-Dialogs also display live, read-only values declared with `runtimeValue`, such
-as gear sensor voltage and detected gear. These rows update while the dialog is
-active and show `---` until a value is available. They honor the INI's enable
-and visibility expressions alongside editable calibration fields.
-
-Hover over the settings panel to the right of the **Tuning** menu tree to reveal
-the square **Detach panel** button in the form's upper-right corner. The button
-follows the form's bounds, including compact pages such as **Multispark**.
-Click it to open that page in a separate window sized to fit its content while
-keeping the primary view available.
-You can detach several pages; detaching the same page again brings its existing
-window forward. Field, table, and curve edits propagate to all open views and
-use the main tuning toolbar's shared Undo, Redo, Discard, Save, and Burn controls.
-
-Detached pages with subpanels show a **Split panel** icon next to the title bar's
-**Close** button. Click it to replace that window with smaller windows for its
-immediate subpanels, each sized to fit its content. For example, **Software
-Knock** splits into its left settings group and threshold curve; the left group
-can then split into **Sense** and **Response**. Controls belonging to the parent
-page appear in a separate **General** window. Already-open subpanels are reused,
-and edits continue to propagate to every view.
-
-The Console remembers detached pages and their window positions and sizes
-between runs, including windows created by splitting a page.
-Closing a detached window removes it from the saved layout;
-exiting the Console keeps open windows for next time. Pages reopen when the
-loaded tune's INI contains them. Windows saved on a disconnected monitor are
-moved back onto an available screen.
-
-In **Pinout**, the **Tune use** column shows which tune settings use each pin.
-Double-click an assigned pin row to open its settings page in **Tuning**.
-Assignments inside nested panels open the containing page; for example, a
-fuel-pump output opens **Outputs**, which contains the Fuel Pump panel.
-
-## Keyboard shortcuts
-
-Choose **Shortcuts** in the main menu bar (or press **F1**) to open the keyboard reference. The window is non-modal: leave it open while using the Console. Its text scrolls vertically and covers table selection/editing, commands, Lua editing, charts, menus, and logging. Click back in the Console before using its shortcuts. Press **Esc** in the reference window to close it.
-
-Hover over buttons and command fields for shortcut hints. Some menus and buttons also show underlined shortcut letters when you press **Alt**, depending on the operating system. Shortcuts are currently fixed rather than configurable.
-
-With the left menu tree focused in **Tuning**, **Up/Down** moves between visible
-rows, skipping disabled items and separators. **Home/End** selects the first/last
-available row; **Page Up/Page Down** moves by a page and skips unavailable rows.
-**Right** expands a group or moves into its available children. **Left** collapses
-a group or selects its parent. These keys need no modifiers.
-
-In tuning tables, arrow keys move between value cells and **Shift+arrows** extends
-the selection. **Home/End** selects the first/last value column; **Ctrl+Home/End**
-selects the first/last row while keeping the column. Movement stops at the grid
-edges. The active value cell's X and Y scale labels have a subtle highlight.
-
-Type a digit to replace the selected cell, or press **F2** or double-click to edit
-its existing number with the text selected. **Backspace/Delete** starts an empty
-pending edit; Space does not start editing. **Enter** or **Shift+Enter** accepts
-an edit and keeps the same cell selected. **Esc** cancels the pending edit.
-After direct typing, arrow keys accept and move to another cell. After F2,
-**Left/Right** moves the text cursor; **Up/Down** accepts and moves between rows.
-
-**Tab/Shift+Tab** accepts and moves to the next/previous value cell, wrapping
-between rows and skipping the axis column. Invalid numbers block acceptance and
-cell navigation until corrected or cancelled. Moving focus away accepts valid
-numbers and cancels invalid or empty input. **Ctrl+Tab/Ctrl+Shift+Tab** finishes
-the edit and moves focus out of the grid.
-
-With multiple cells selected, typing digits immediately applies the accumulated
-number to all selected value cells. Backspace removes the last typed digit;
-Escape ends entry without undoing values already applied. Changing the selection
-starts a new number. A **period (.)** outside numeric entry increments selected
-values by one displayed precision step; inside a number it enters a decimal point.
-Bulk operations skip axis values. Axis values have separate editors when the
-calibration defines writable axes. Read-only comparisons cannot be edited.
-
-With the table focused, **+** and **-** increase or decrease selected data values
-by exactly 1, regardless of displayed precision. Both the main keyboard and
-numeric keypad work, without Ctrl or Alt. During a pending cell edit, these keys
-enter signs as text instead of adjusting the stored value.
-
-The **mouse wheel over the grid** adjusts selected values by one displayed
-precision step; **Shift+wheel** adjusts by three steps. **Ctrl+wheel** instead
-moves the active value cell up or down and keeps it visible, stopping at the
-first and last rows. Wheel actions are ignored while editing a cell.
-
-## Connecting over CAN
-
-By default, `use_canbus_connector=false` in `shared_io.properties` keeps direct
-serial ECU discovery. Set it to `true` to probe every serial port as a potential
-SLCAN adapter and also check PCAN for a responding rusEFI ECU. Both use 500 kbit/s.
-PCAN requires its driver to be installed.
-
-When exactly one ECU connection is found, the console uses its normal automatic
-connection flow. SLCAN connections appear as `SLCAN:<serial port>` and PCAN as
-`PCAN`. An adapter without a rusEFI response does not trigger auto-connect;
-discovery retries so an ECU powered on later can be found. Use an SLCAN adapter
-connected to the ECU's CAN wiring; the ECU's secondary USB sniffer port alone
-does not establish a CAN tuning connection.
-
-## Gauges
-
-Use **Grid Size** to choose the number of rows and columns. Right-click a gauge
-to change its selection or switch to live graphs.
-
-Gauge selection uses the currently loaded INI, including in offline mode and
-the gauge sandbox. An ECU connection is not required to list its gauges.
-
-The **Search** field at the top of the selection menu filters gauges as you type.
-An empty search shows every group and gauge.
-It matches any part of the full group / gauge name, ignoring letter case. A group
-name matches all gauges in that group; groups with no matches are hidden. Clear
-the field to show all gauges again. Search is also available on compact text
-gauges and live graphs.
-
-**Save Layout...** saves the visible grid to a `.gauges` file, including gauge
-selections, graph mode, refresh periods, and scale settings. **Load Layout...**
-replaces the current grid with a saved layout. The loaded layout is also kept
-in Console preferences for the next session. Gauge names refer to definitions
-in the connected ECU's firmware INI, so use a layout with compatible firmware.
-Detached gauge windows are managed separately and are not included in the file.
-
-![Console Gauges](Images/rusEFI_console/java_console_1.png)
-
-## Configuration errors
-
-When the Config Error indicator is active, the console retrieves the ECU's explanation and displays it in an overlay on any tab. Click Close to dismiss the overlay and correct the tune. Closing it does not clear the ECU error. The same message stays dismissed until the error clears and returns or the ECU reconnects; a different error message is displayed again.
-
-## Digital Chart
-
-![Log Viewer](Images/rusEFI_console/log_viewer.png)
-
-The green line is the border of an engine cycle. Please note that the angle within the current engine cycle is displayed in the bottom left corner - the angle is from 0 to 720 in case of a four stroke engine.
-
-The red line is the absolute time scale - one line every 20 ms.
+Connected uaEFI on the bench; the engine is stopped.
 
 ## Binary logging
 
-Use **Binary Logging > Start** to choose a `.mlg` data log and **Stop** to finish recording. **Ctrl+S** in the main Console window toggles these actions: it opens the file chooser when idle, stops recording when active, or cancels a pending tune capture. Starting requires an ECU connection. Ctrl+S controls logging; use **File > Save Tune** to save a tune.
+To record a log:
 
-The **Save tune** checkbox beside Start/Stop is checked by default. When checked, the console reads a fresh ECU tune before recording and saves it in the same folder as the data log, using the computer's local date: `YYYY-MM-DD.msq`. An unchanged tune reuses the existing file; changed tunes use `_1`, `_2`, and so on. Existing tune files are preserved. Uncheck **Save tune** before starting to record only the data log.
+1. Connect to the ECU and choose **Logging > Start** to begin in the default
+   folder, or **Logging > Start As…** to choose a filename and location.
+2. Choose **Stop** when finished. **Ctrl+S** also starts or stops recording; it
+   does not save a tune.
+3. Open **Log Viewer** and choose **Open log…** to view the recording. You can
+   also open the most recent log with **Logging > View Last Log**.
 
-The same MSQ is also embedded inside the `.mlg` file using TunerStudio's starting-tune format, so sharing the log includes its tune. The ECU MCP tool `extract_tune_from_log` can recover it as an `.msq` without an ECU connection or INI file. It also reads tunes embedded by TunerStudio. Unchecking **Save tune** disables both the embedded tune and the separate MSQ snapshot.
+**Save tune** is enabled by default. It saves a copy of the tune from the start
+of recording beside the log and inside the `.mlg` file. It does not capture later
+tune changes in that same copy. Recording needs a live ECU connection; viewing a
+saved log does not.
 
-Tune capture runs in the background. Stop or disconnect cancels a pending start. If the tune cannot be read or saved, the console reports the error and does not start data logging. The snapshot represents the tune at recording start; later tune edits are captured when the next recording starts.
+## Log Viewer
+
+Open a saved `.mlg` or `.msl` in **Log Viewer** and choose **Open log…**. You can
+also press **Ctrl+O** while the tab is selected or choose a recent log. No live
+ECU connection is needed to view a saved log.
+
+If you start without an ECU and see the startup screen, choose **Manage Tunes >
+Load Tune File** and open a saved `.msq` tune to enter the application. The tune's
+matching ECU definition file (`.ini`) must be available. Then open **Log Viewer**
+and load the log. You can use the tune copy saved with a recording when **Save
+tune** was enabled.
+
+![Log Viewer showing a public sample log](Images/rusEFI_console/rusefi_log_viewer.png)
+
+Example using a sample recording; the plotted channels are not live ECU readings.
+
+The **Signals** panel lists channels in the log. Search or expand a group, then
+click a signal to add it to a plot; click it again to remove it. Plots start
+empty so you choose what to view. To add a useful group of signals, open the
+**⋯** menu beside **Common** and choose **Plot all**.
+
+<a id="log-viewer-basics"></a>
+
+### More options
+
+Scroll the mouse wheel to zoom around the pointer. Left-drag across a time range
+to zoom in; right-drag or **Shift+wheel** to move through the log. Double-click
+the chart background to show the full recording again. **Stats** shows values
+over the visible time range. Each trace has its own scale, so line heights do not
+directly compare values between signals.
+
+For more detailed log analysis, MegaLogViewer remains an optional tool.
+
+<a id="calibration-fields"></a>
+
+## Editing settings
+
+Open **Tuning** and choose a section from the menu to find settings. Select a
+setting's **Help** button when available for its instructions. Use the shared
+tuning controls to undo, discard, save a tune file, or burn changes to the ECU.
+In **Pinout**, double-click an assigned pin to open its settings page.
+
+## Keyboard shortcuts
+
+Open **Shortcuts** in the menu bar or press **F1** to see the keyboard reference.
+For tuning tables, the common controls are:
+
+| Action | Shortcut |
+|---|---|
+| Move between cells | Arrow keys |
+| Select more cells | **Shift** + arrow keys |
+| Edit a cell | Type a number, press **F2**, or double-click |
+| Accept or cancel an edit | **Enter** or **Esc** |
+
+The reference also lists shortcuts for other parts of the application.
+
+## Connecting over CAN
+
+rusEFI tuner automatically checks for USB connections and supported CAN
+connections.
+
+* **PCAN on Windows:** install the PEAK driver and connect the adapter to the
+  ECU's CAN wiring.
+* **SocketCAN on Linux:** set up the CAN interface with the correct bus speed
+  before starting rusEFI tuner.
+
+At startup, the application connects automatically when it finds one available
+ECU. If several are found, select the one you want on the **Connect** screen.
+Detecting an adapter alone is not enough—the ECU must respond through it.
+
+SLCAN serial-to-CAN adapters need separate setup. The **SLCAN Sniffer** tab is
+for viewing CAN traffic, not for establishing a tuning connection to the ECU.
+
+## Gauges
+
+Choose **Edit dashboard** to change the layout:
+
+* **Grid layout** fills rows and columns; **Grid size** chooses their count.
+* **Free layout** lets you position and size gauges individually. Use **Add
+  gauge…** to add one, then **Arrange gauges** to move or resize them. Choose
+  **Done** or press **Esc** to finish arranging.
+
+Right-click a gauge to change its selection or switch to live graphs. Choose
+**Save layout…** to save the dashboard, or **Load layout…** to use a saved layout.
+
+![Gauges](Images/rusEFI_console/java_console_1.png)
+
+Connected uaEFI on the bench, with the engine stopped. These sensor readings
+are not a calibrated running-engine example.
+
+## Configuration errors
+
+If **Config Error** appears, read the displayed explanation and correct the
+setting it identifies. **Close** hides the message; it does not fix the error.
+If you are unsure what to change, save your tune and ask for help.
+
+<a id='chatgpt-troubleshooting'></a>
+
+## AI Troubleshooting
+
+The **AI Troubleshooting** tab helps explain ECU readings, settings, and error
+messages. It is available when connected to an ECU and uses your ChatGPT account.
+
+### Get started
+
+1. Connect to your ECU and open **AI Troubleshooting**.
+2. If prompted, click **Start Download** and wait for the reference files to
+   finish downloading.
+3. Choose **Continue with ChatGPT** and sign in using your browser, or choose a
+   saved account.
+4. Select a model and describe the problem. Include what you expected to happen
+   and what you observed.
+
+For example, ask “What does this error mean?” or “Which readings should I check
+when the engine will not start?” The assistant can check ECU readings and
+messages, look at selected settings, and consult the rusEFI documentation.
+
+**It does not change your tune, update firmware, or control engine outputs.**
+Its answers can be wrong or incomplete. Check its suggestions before making
+changes, and use proper logs when asking others for help.
+
+**Privacy:** your questions and the ECU information used to answer them are
+sent to OpenAI. This can include readings, settings, messages, and Lua script
+excerpts. Do not include passwords or other sensitive information.
+
+Use **Stop** to cancel a reply or **New conversation** to start over. To save a
+summary for later, ask it to **export a diagnostic case**. Review the saved
+information before sharing it.
+
+<a id='digital-chart'></a>
+
+## Engine Sniffer chart
+
+![Engine Sniffer chart](Images/rusEFI_console/log_viewer.png)
+
+Offline sample trace, not a live capture from the connected ECU. This example
+has no pin mapping or cycle-angle information, so those labels show **NO PIN**
+and **n/a**.
+
+The Engine Sniffer chart displays engine-cycle events, not a recorded `.mlg`/
+`.msl` data log. When cycle information is available, the green line marks the
+border of an engine cycle. The current cycle angle appears in the bottom-left
+corner (0–720 degrees for a
+four-stroke engine).
+
+The red line is the absolute time scale, with one line every 20 ms.
 
 ## SLCAN Sniffer
 
-The universal updater automatically shows the **SLCAN Sniffer** tab when the connected
-ECU's firmware INI advertises CAN sniffer support. Open the tab to scan for the second
-USB serial port and view CAN traffic. The tab updates when you disconnect or change boards.
-Boards need firmware and a matching INI with CAN sniffer support enabled.
+When supported by the connected ECU, rusEFI tuner shows the **SLCAN Sniffer**
+tab for viewing CAN traffic. For details on connecting an adapter or capturing
+traffic with MCP, see [MCP capture through the built-in
+sniffer](Dev-Console-Implementation.md#mcp-capture-through-the-built-in-sniffer).
 
-### MCP capture through the built-in sniffer
-
-The CAN MCP server can capture the same traffic through the secondary USB serial port:
-
-```sh
-java -jar java_console/mcp_can/build/libs/mcp_can-all.jar --backend slcan --port /dev/ttyACM1
-```
-
-Use a port such as `COM5` on Windows. Omit `--port` to discover the first SLCAN port;
-use an explicit port when multiple ECUs are attached. Close the SLCAN tab before letting
-MCP open that port. The normal ECU console connection uses the other serial interface.
-
-Build with `./gradlew :mcp_can:fatJar` from the rusEFI repository root. The existing
-`connect`, `read_packets`, `wait_for_packet`, and `status` tools work with SLCAN.
-PCAN remains the default backend when `--backend slcan` is omitted.
-
-Configure bus selection and bitrate in the ECU tune. Enable `canSnifferN_read` to capture
+<a id="mcp-capture-through-the-built-in-sniffer"></a>

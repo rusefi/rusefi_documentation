@@ -1,5 +1,10 @@
 # Get Tuning with TunerStudio and your rusEFI ECU
 
+This guide is specifically for TunerStudio, a supported professional/advanced
+alternative. Beginners can start with [rusEFI tuner](Console); the procedures
+below describe TunerStudio features and are not a required setup for rusEFI
+tuner.
+
 Tuning is a subject too complex to be dealt with exhaustively in a short wiki page; the purpose of this page is to give you some pointers.
 
 This tutorial assumes that you will be using the Speed Density fuel strategy, which is good for peak power applications.

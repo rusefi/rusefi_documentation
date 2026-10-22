@@ -7,6 +7,7 @@
 - [Getting Started roadmap](Getting-Started)
 - [How to search the Wiki](HOWTO-Search-on-rusEFI-wiki)
 - [Quick Start](HOWTO-quick-start)
+- [rusEFI tuner](Console)
 - [Support & Community](Support)
 - [How to create a TunerStudio project](HOWTO-create-tunerstudio-project)
 - [rusEFI Online](Online)

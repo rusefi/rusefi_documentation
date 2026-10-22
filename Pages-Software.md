@@ -23,6 +23,9 @@
 
 <details markdown="1" class="abstract"><summary><u>Tools and Services</u></summary>
 
+* [rusEFI tuner](Console)
+* [TunerStudio project setup](HOWTO-create-tunerstudio-project)
+* [Logging Guide](Logging-Guide)
 * [rusEFI Online - share tunes and logs](Online)
 
 </details>

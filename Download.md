@@ -1,8 +1,25 @@
 # Download
 
-You will need a version of the rusEFI bundle specific to the rusEFI ECU you are using. This bundle includes the firmware which runs on the ECU, the definition file needed by TunerStudio for your specific ECU and firmware version, the rusEFI Console, drivers, and various extra utilities.
+For beginners, [download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+to connect to and tune the ECU. See the [rusEFI tuner guide](Console) for the interface
+and first-connection steps.
+
+The standard universal installer uses the snapshot channel for firmware updates.
+To stay on Release/LTS firmware, choose the appropriate bundle; see
+[Release vs. Snapshot](Release-Snapshot-Latest-firmware). Installing the tuning
+application does not itself flash the ECU.
+
+The board-specific rusEFI bundle includes firmware, the definition file used
+by TunerStudio for that ECU and firmware version, rusEFI tuner,
+drivers, and other utilities. Choose the bundle for your ECU when you need
+these board-specific files or tools.
 
 It does not include TunerStudio or MegaLogViewer.
+
+rusEFI tuner includes a [Log Viewer](Console#log-viewer) for beginner log review.
+For professional/advanced workflows, TunerStudio provides tuning tools and
+MegaLogViewer provides additional log-analysis workflows. Neither is required
+to start tuning or reviewing logs with rusEFI tuner.
 
 [Download TunerStudio](HOWTO-create-tunerstudio-project#download-and-install)  
 [Download MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/)
@@ -13,7 +30,7 @@ It does not include TunerStudio or MegaLogViewer.
 
 Quick release links. For latest, visit specific board page. [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
-[🆕rusEFI_Universal_Updater🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+[Download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
 
 [uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
 

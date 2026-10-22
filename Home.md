@@ -75,6 +75,10 @@ Thinking of doing an engine control project? You have stopped by the correct pla
 
 [Quick Start](HOWTO-quick-start)
 
+New to tuning? [Download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+and follow the [rusEFI tuner guide](Console). For professional/advanced workflows,
+TunerStudio provides tuning tools and MegaLogViewer provides log analysis.
+
 [Get Running](HOWTO-Get-Running)
 
 [Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
