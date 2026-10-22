@@ -13,10 +13,11 @@ case "${1:-}" in
         # TODO: Revisit the Azure mirror workaround when this runner issue is resolved:
         # https://github.com/actions/runner-images/issues/14823
         # Ubuntu's noble image uses deb822 .sources files; older images may
-        # still use sources.list or .list files. Rewrite only the Azure mirror.
+        # still use sources.list or .list files. Some runners use apt-mirrors.txt.
+        # Rewrite only the Azure mirror in known apt source files.
         while IFS= read -r -d '' source_file; do
             sudo sed -i 's#://azure\.archive\.ubuntu\.com#://archive.ubuntu.com#g' "$source_file"
-        done < <(find /etc/apt -type f \( -name sources.list -o -name '*.list' -o -name '*.sources' \) -print0)
+        done < <(find /etc/apt -type f \( -name sources.list -o -name '*.list' -o -name '*.sources' -o -name apt-mirrors.txt \) -print0)
         ;;
     update)
         apt_get update
