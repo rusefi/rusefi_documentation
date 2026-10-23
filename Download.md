@@ -1,78 +1,64 @@
 # Download
 
-For beginners, [download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
-to connect to and tune the ECU. See the [rusEFI tuner guide](Console) for the interface
-and first-connection steps.
+## rusEFI tuner — recommended
+
+**[🆕 Download rusEFI tuner for Windows 🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)**
+
+Use rusEFI tuner to connect to your ECU, tune settings, record logs, and review
+them in the built-in Log Viewer. No separate tuning or log-viewer application
+is needed to get started.
+
+See the [rusEFI tuner guide](Console) for setup and first-connection steps.
 
 The standard universal installer uses the snapshot channel for firmware updates.
 To stay on Release/LTS firmware, choose the appropriate bundle; see
 [Release vs. Snapshot](Release-Snapshot-Latest-firmware). Installing the tuning
 application does not itself flash the ECU.
 
-The board-specific rusEFI bundle includes firmware, the definition file used
-by TunerStudio for that ECU and firmware version, rusEFI tuner,
-drivers, and other utilities. Choose the bundle for your ECU when you need
-these board-specific files or tools.
+## Board-specific firmware bundles
 
-It does not include TunerStudio or MegaLogViewer.
+Choose a bundle below if you want Release/LTS firmware or need board-specific
+files. It includes rusEFI tuner, firmware for that ECU, its definition file,
+drivers, and other utilities. It is not an additional download required to start
+using the Windows installer above.
 
-rusEFI tuner includes a [Log Viewer](Console#log-viewer) for beginner log review.
-For professional/advanced workflows, TunerStudio provides tuning tools and
-MegaLogViewer provides additional log-analysis workflows. Neither is required
-to start tuning or reviewing logs with rusEFI tuner.
+These links offer Release bundles. Choose the exact model of your ECU; see your
+board's page if it is not listed. The [Quick Start](HOWTO-quick-start) guide
+explains how to get connected.
 
-[Download TunerStudio](HOWTO-create-tunerstudio-project#download-and-install)  
-[Download MegaLogViewer](https://www.efianalytics.com/MegaLogViewer/)
+### Common Boards
 
-*If you haven't already, check out the [Quick Start](HOWTO-quick-start) guide for instructions on how to use your rusEFI bundle.*
+* [uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
+* [uaEFI121](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip)
+* [super-uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_super-uaefi.zip)
+* [microRusEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
+* [Proteus](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
 
-## Common Boards
+See the [hardware pages](Hardware) for other boards.
 
-Quick release links. For latest, visit specific board page. [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
+### Hellen Family Boards
 
-[Download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+* [Honda OBD1 — board page and downloads](uaEFI-Honda-OBD1)
+* [Honda K](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen-honda-k.zip)
+* [Nissan 121 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
+* [VAG 121 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121vag.zip)
+* [Mercedes 128 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
+* [Miata NB2 72 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
+* [Miata NA6 64 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
 
-[uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi.zip)
+## Professional options — optional
 
-[uaEFI121](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip)
+TunerStudio and MegaLogViewer are separate applications for professional/advanced
+workflows. Neither is required to tune or review logs with rusEFI tuner, and
+neither is included in the rusEFI downloads above.
 
-[super-uaEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_super-uaefi.zip)
+* [TunerStudio — download and project setup](HOWTO-create-tunerstudio-project#download-and-install)
+* [MegaLogViewer — additional log-analysis tools](https://www.efianalytics.com/MegaLogViewer/)
 
-[microRusEFI](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
-
-[Proteus](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_proteus_f7.zip)
-
-See specific board page for [other universal boards](Hardware)
-
-## Hellen Family Boards
-
-[Honda OBD1](uaEFI-Honda-OBD1)
-
-[Honda K](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen-honda-k.zip)
-
-[Nissan 121 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121nissan.zip)
-
-[VAG 121 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen121vag.zip)
-
-[Mercedes 128 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen128.zip)
-
-[Miata NB2 72 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellen72.zip)
-
-[Miata NA6 64 pin](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_hellenNA6.zip)
+<a id="faq"></a>
 
 ## Advanced
 
-[Release vs. Snapshot](https://wiki.rusefi.com/Release-Snapshot-Latest-firmware)
-
-[Older Releases](https://github.com/rusefi/rusefi/releases?q=prerelease%3Afalse)
-
-[Nightly Builds](https://github.com/rusefi/rusefi/releases?q=prerelease%3Atrue)
-
-[Snapshot Builds](https://rusefi.com/build_server/)
-
-[Virtual Simulator](Virtual-simulator)
-
-## FAQ
-
-*__Q:__ I see that something interesting was just changed in the firmware? How do I use the latest version?*  
-__A:__ Most snapshot builds take about 30 minutes to get updated on at [Snapshot builds](https://rusefi.com/build_server/)
+Need an older release or a recent firmware change? See
+[Firmware Versions](Release-Snapshot-Latest-firmware) for Release/LTS, nightly,
+and snapshot download options.
