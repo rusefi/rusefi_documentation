@@ -91,7 +91,7 @@ A 36-2 wheel has 36 nominal tooth positions and 34 physical teeth. At constant s
 
 Use the firmware version installed on the ECU when looking up defaults. The values below were checked against [rusEFI revision df1467c5b3a](https://github.com/rusefi/rusefi/tree/df1467c5b3ae94cce10e252dd583ea43f6683b67) on 2026-10-06; another release or trigger type can differ.
 
-**On the ECU:** in rusEFI Console's Messages tab, send `triggerinfo`. It prints the selected trigger, synchronization edge and active first range, for example:
+**On the ECU:** in rusEFI tuner's Messages tab, send `triggerinfo`. It prints the selected trigger, synchronization edge and active first range, for example:
 
 ```text
 gap from 1.60 to 3.50
@@ -99,7 +99,7 @@ gap from 1.60 to 3.50
 
 This is the active range, including an override if one is enabled. With overrides disabled and the configuration applied, it shows the built-in first range. It does not list every preceding-gap range. Save the tune before changing settings to inspect defaults, and make these changes with the engine stopped.
 
-For measured ratios and additional active ranges, use `enable trigger_details`, capture a short cranking attempt, then send `disable trigger_details`. Relevant synchronization messages include `gapIndex`, measured `gap`, and `expected from ... to ...`. Indices start at zero, as in the table above. See [Console synchronization diagnostics](Trigger#troubleshooting-synchronization-with-rusefi-console).
+For measured ratios and additional active ranges, use `enable trigger_details`, capture a short cranking attempt, then send `disable trigger_details`. Relevant synchronization messages include `gapIndex`, measured `gap`, and `expected from ... to ...`. Indices start at zero, as in the table above. See [rusEFI tuner synchronization diagnostics](Trigger#troubleshooting-synchronization-with-rusefi-console).
 
 **In the source:** search for the selected trigger's enum, such as `TT_TOOTHED_WHEEL_36_2`, in [trigger_structure.cpp](https://github.com/rusefi/rusefi/blob/df1467c5b3ae94cce10e252dd583ea43f6683b67/firmware/controllers/trigger/decoders/trigger_structure.cpp#L686). Follow any decoder/helper function it calls, then check for adjustments made after that call. The 36/2 case explicitly sets:
 

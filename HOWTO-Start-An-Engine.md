@@ -26,7 +26,7 @@ Again, you need to be sure you have the correct information on your injectors an
 
 Injectors and ignition coils need to be bench tested to check that each one is wired and set to the correct ECU channel. This is critical: incorrect wiring or channel setting is like having the HT leads in the wrong order. You will fuel and spark the wrong cylinders.
 
-See [Bench Testing Outputs](Bench-Testing) for how to do this, from TunerStudio or from the console.
+See [Bench Testing Outputs](Bench-Testing) for how to do this, from TunerStudio or from rusEFI tuner.
 
 ## Cranking Requirements
 
@@ -44,13 +44,13 @@ Check the [trigger input assignments](Trigger#trigger-input-assignments) and con
 
 To do this go into TunerStudio and disable the fuel injection and the ignition under each of the settings tabs.
 
-Next go into the high-speed logger and simply crank the engine. The rusEFI Console is the best tool for this job as it has a really good logger in the "engine sniffer" tab.
+Next go into the high-speed logger and simply crank the engine. rusEFI tuner is the best tool for this job as it has a really good logger in the "engine sniffer" tab.
 
 Look for a trace matching your expected trigger pattern. If the trace is empty, compare `triggerinfo` counters before and during cranking. If counters increase, check that capture is enabled, the display is not paused, and cranking RPM is below the configured Engine Sniffer Threshold. If counters do not increase, check sensor power, wiring, and the configured input. See [Troubleshooting Trigger Input](Trigger#troubleshooting-trigger-input).
 
 Hopefully you have grey bars showing your crank pattern. If you're unsure of the pattern it makes a lot of sense at this point to take a screenshot and compare it to the list of rusEFI-compatible crank trigger patterns found in [All Supported Triggers](All-Supported-Triggers).
 
-TunerStudio and rusEFI Console should show correct cranking RPM, usually between 150 and 300 with a fully charged battery.
+TunerStudio and rusEFI tuner should show correct cranking RPM, usually between 150 and 300 with a fully charged battery.
 
 If you need help, collect the log, tune, and relevant captures listed in the [trigger evidence matrix](Trigger#evidence-matrix).
 
@@ -74,7 +74,7 @@ The trigger synchronization point often does not match TDC. Establish the offset
 
 [Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
 
-Operating logs can be collected with TunerStudio, the ECU's SD card, or rusEFI Console. Available fields and logging rates can differ. See the [Logging Guide](Logging-Guide) for collection steps and the [trigger evidence matrix](Trigger#evidence-matrix) for additional captures needed to diagnose trigger problems.
+Operating logs can be collected with TunerStudio, the ECU's SD card, or rusEFI tuner. Available fields and logging rates can differ. See the [Logging Guide](Logging-Guide) for collection steps and the [trigger evidence matrix](Trigger#evidence-matrix) for additional captures needed to diagnose trigger problems.
 
 See also [output_channels.txt](https://github.com/rusefi/rusefi/blob/master/firmware/console/binary/output_channels.txt)
 

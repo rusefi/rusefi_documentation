@@ -138,8 +138,8 @@ Find some place that is away from hot items like the exhaust, preferably in a dr
 
 - Connect TPS, MAP, IAT, and other such analog signals to the IO board.
 - Connect the 12V system / battery to the IO board connector.
-- Calibrate the sensors using TS and Java console as required.
-- Crank engine and see whether the RPMs are registering correctly on the Java Console.
+- Calibrate the sensors using TS and rusEFI tuner as required.
+- Crank engine and see whether the RPMs are registering correctly in rusEFI tuner.
 - Connect injectors and ignition as required and see if it will start.
 
 ### Test Engine Wiring
@@ -148,7 +148,7 @@ Once connected, you should test the wires. Especially the power wires like coil 
 
 ### Test Outputs
 
-Both rusEFI Console and TS allow you to test whether rusEFI properly controls things like injectors (you would hear the clicks), cooling fan (you would hear it - if needed), fuel pump (you would usually hear it - if needed), ignition coil (that's challenging if you have a distributor).
+Both rusEFI tuner and TS allow you to test whether rusEFI properly controls things like injectors (you would hear the clicks), cooling fan (you would hear it - if needed), fuel pump (you would usually hear it - if needed), ignition coil (that's challenging if you have a distributor).
 
 ## Start Your Engine
 

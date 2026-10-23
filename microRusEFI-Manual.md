@@ -59,20 +59,20 @@ __A:__ Yes, microRusEFI can drive 4 wire idle air valves; see settings in [this 
 
 ### How to update microRusEFI Firmware
 
-The best way to update microRusEFI firmware is using rusEFI Console's "Auto DFU" mode.
+The best way to update microRusEFI firmware is using rusEFI tuner's "Auto DFU" mode.
 In Auto DFU a few things happen once you click the "Update Firmware" button.
 
 1. The Auto DFU procedure works if your Windows device manager shows "STMicroelectronics Virtual COM Port" in the "Ports" category.
 
     ![img](Images/AutoDFU_precondition.png)
 
-2. rusEFI console finds your microRusEFI device serial port and sends it a command to reboot into DFU mode.
+2. rusEFI tuner finds your microRusEFI device serial port and sends it a command to reboot into DFU mode.
 
     It is expected that microRusEFI would stop blinking the blue light and reboot. It is expected that Virtual COM Port would disappear from Device Manager and "STM Device in DFU Mode" device would appear in the "Universal Serial Bus controllers" category.
 
     ![img](Images/stm_device_in_dfu_mode.png)
 
-3. rusEFI console gives Windows 3 seconds to re-enumerate USB device from Virtual COM Port to DFU Device.
+3. rusEFI tuner gives Windows 3 seconds to re-enumerate USB device from Virtual COM Port to DFU Device.
 
 4. Now the programming begins and the expected output is along the following lines:
 
@@ -163,7 +163,7 @@ In Auto DFU a few things happen once you click the "Update Firmware" button.
 
 5. At this point you need to power rusEFI device off/on and new firmware version would be running!
 
-    New firmware version could be confirmed in rusEFI window title - both console and firmware versions are displayed there.
+    New firmware version could be confirmed in rusEFI tuner's window title - both application and firmware versions are displayed there.
 
     ![img](Images/rusEFI_console/console_showing_firmware_version.png)
 

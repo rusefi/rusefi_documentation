@@ -46,7 +46,7 @@ These inhibits take priority over coolant-sensor failure and A/C demand. A board
 
 The old minimum/maximum PWM settings were duty clamps. They now mean the off/full-speed duty endpoints, and the curve now means normalized demand. Review and recalibrate all three, including the first and last curve values. Default duty endpoints are now 0% and 100%.
 
-The A/C PWM adder and the old **Enable with AC** toggles have been removed. When rusEFI Console migrates an older tune, each enabled toggle (`true` or `yes`) becomes **Relay**, and each disabled toggle (`false` or `no`) becomes **Disabled**. A tune that already uses the new A/C modes keeps its selected modes, including **Pressure**. The old PWM adder has no automatic conversion; review the resulting fan demand before use.
+The A/C PWM adder and the old **Enable with AC** toggles have been removed. When rusEFI tuner migrates an older tune, each enabled toggle (`true` or `yes`) becomes **Relay**, and each disabled toggle (`false` or `no`) becomes **Disabled**. A tune that already uses the new A/C modes keeps its selected modes, including **Pressure**. The old PWM adder has no automatic conversion; review the resulting fan demand before use.
 
 ## Status indicators
 
@@ -74,5 +74,5 @@ For PWM operation, connect the output to a compatible fan controller's control i
 
 - Configuration, live-data definitions and control logic: `firmware/controllers/modules/fan_control/`.
 - Host regression coverage: `unit_tests/tests/actuators/test_fan_control.cpp`.
-- Console tune migration: `FanAcModeMigrator.java` and `FanAcModeMigratorTest.java`, verified against rusEFI revision `d11f3cd68e0`.
+- rusEFI tuner tune migration: `FanAcModeMigrator.java` and `FanAcModeMigratorTest.java`, verified against rusEFI revision `d11f3cd68e0`.
 - Verified against rusEFI revision `ac6d8cd9c73`, adapting AlphaX beta revision `ebb877615ee1`.

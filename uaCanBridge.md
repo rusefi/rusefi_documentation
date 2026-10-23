@@ -21,7 +21,7 @@ Three-channel CAN-FD gateway programmable using Lua scripting.
 
 [This old video is still very relevant](https://www.youtube.com/watch?v=3fbXCgkIJoM)
 
-Use the rusEFI Console 'Lua' tab for Lua and the  TunerStudio 'CAN' dialog to adjust baud rates. See [Lua Scripting](Lua-Scripting) for API details; links to examples can be found at the bottom of the page.
+Use the rusEFI tuner 'Lua' tab for Lua and the  TunerStudio 'CAN' dialog to adjust baud rates. See [Lua Scripting](Lua-Scripting) for API details; links to examples can be found at the bottom of the page.
 
 [open source firmware](https://github.com/rusefi/fw-uaCanBridge/)
 

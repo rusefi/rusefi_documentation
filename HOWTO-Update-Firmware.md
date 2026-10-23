@@ -2,7 +2,7 @@
 
 Disconnect it from the vehicle. Use caution.
 
-<!-- this URL is hard-coded in rusEFI console splash screen MAKE SURE NOT TO RENAME -->
+<!-- this URL is hard-coded in rusEFI tuner splash screen MAKE SURE NOT TO RENAME -->
 
 [Download the rusEFI bundle](Download) for your hardware.
 

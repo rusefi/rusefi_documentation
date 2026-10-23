@@ -73,4 +73,4 @@ __Answer:__
 
     `4073 Alive`
 
-This UART/real serial is just another way to connect either TunerStudio or rusEFI console to the firmware. By combining both micro USB virtual serial and real TTL serial, one can connect to rusEFI with both TunerStudio and rusEFI console simultaneously.
+This UART/real serial is just another way to connect either TunerStudio or rusEFI tuner to the firmware. By combining both micro USB virtual serial and real TTL serial, one can connect to rusEFI with both TunerStudio and rusEFI tuner simultaneously.

@@ -9,12 +9,12 @@ While most rusEFI units support incremental firmware update while keeping settin
 ## Older approach before OpenBLT
 
 1. Enter DFU using one of these options:
-    1. In rusEFI console, use "switch to DFU mode"
+    1. In rusEFI tuner, use "switch to DFU mode"
     2. Open the case, power the ECU while holding the "PROG" button to enter manual DFU
 
-2. In rusEFI console, use "Full Erase Chip"
+2. In rusEFI tuner, use "Full Erase Chip"
 
-3. Manual DFU programming using rusEFI console as usual
+3. Manual DFU programming using rusEFI tuner as usual
 
 ## Related pages
 

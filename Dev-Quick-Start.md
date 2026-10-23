@@ -47,7 +47,7 @@ Connect the following jumper wires on the F4-Discovery:
 
 The wiring is also documented in [HwCiF4Discovery.java](https://github.com/rusefi/rusefi/blob/master/java_console/autotest/src/main/java/com/rusefi/HwCiF4Discovery.java).
 
-The console can detect connected rusEFI hardware and invoke the F4-Discovery test suite:
+rusEFI tuner can detect connected rusEFI hardware and invoke the F4-Discovery test suite:
 
 ```shell
 java -jar rusefi_console.jar functional_test
@@ -97,5 +97,5 @@ We doubt that anyone is benefiting from community fragmentation.
 - [Test-Driven Bugfixing](TDB-Test-Driven-Bugfixing)
 - [Communication](Communication)
 - [Please Work Smart](Contributors-please-work-smart)
-- [Console Implementation](Dev-Console-Implementation)
+- [rusEFI tuner implementation](Dev-Console-Implementation)
 - [How To Compile Firmware](HOW-TO-Build-Firmware-From-Source)

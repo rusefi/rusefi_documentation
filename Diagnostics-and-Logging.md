@@ -6,7 +6,7 @@ This page collects the tools rusEFI gives you to see what the ECU is doing and t
 
 ## Live data
 
-- [rusEFI Console](Console) — monitor live data and send diagnostic commands to the ECU.
+- [rusEFI tuner](Console) — monitor live data and send diagnostic commands to the ECU.
 - [TunerStudio Connectivity](Tunerstudio-Connectivity) — connect TunerStudio and read its gauges.
 
 ## Logs
@@ -26,7 +26,7 @@ This page collects the tools rusEFI gives you to see what the ECU is doing and t
 
 ## Testing without an engine
 
-- [rusEFI Virtual Simulator](Virtual-simulator) — exercise the firmware and console on a PC without any hardware.
+- [rusEFI Virtual Simulator](Virtual-simulator) — exercise the firmware and rusEFI tuner on a PC without any hardware.
 
 ## See also
 

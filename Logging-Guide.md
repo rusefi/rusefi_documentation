@@ -20,7 +20,7 @@ The logging methods detailed here produce a `.mlg` file compatible with [MegaLog
 
 If you're trying to share the log with someone to help you with your engine, please upload it to [rusEFI Online](https://rusefi.com/online).
 
-For trigger or synchronization problems, include the tune used during the logged attempt and identify the time of the failure. Follow the [trigger evidence matrix](Trigger#evidence-matrix) to choose any additional sniffer, tooth, Console, or oscilloscope captures. The operating logs described here sample engine data; a tooth capture records individual input events.
+For trigger or synchronization problems, include the tune used during the logged attempt and identify the time of the failure. Follow the [trigger evidence matrix](Trigger#evidence-matrix) to choose any additional sniffer, tooth, rusEFI tuner, or oscilloscope captures. The operating logs described here sample engine data; a tooth capture records individual input events.
 
 ## Engine state
 

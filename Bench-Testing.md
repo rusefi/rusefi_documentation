@@ -29,7 +29,9 @@ km**. A test frequency of 0 pauses pulses for those three seconds. Pressing the
 button again restarts the three-second test. The test requires
 a configured, initialized output pin.
 
-## Testing from the console
+<a id="testing-from-the-console"></a>
+
+## Testing from rusEFI tuner
 
 The same tests are available as console commands, which is useful when you want a specific repeat count or a longer pulse than the buttons give you. Times are in milliseconds.
 

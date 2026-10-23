@@ -26,14 +26,14 @@ To connect your tuning software to the ECU, use the following network parameters
 ### Software Compatibility Note
 
 * **TunerStudio**: **TunerStudio Lite (the free version) does not support TCP/IP Wi-Fi connections.** To use this wireless bridge with TunerStudio, you must purchase a license for **TunerStudio MS** or **TunerStudio Ultra**.
-* **rusEFI Console**: The official **rusEFI console** fully supports TCP/IP connections natively and works with this device out of the box.
+* **rusEFI tuner**: The official **rusEFI tuner** fully supports TCP/IP connections natively and works with this device out of the box.
 
 ## LED Status Indicators
 
 The onboard **Blue LED** provides visual feedback regarding the current connection status of the CAN bus and network clients:
 
 * **Fast Blinking (25% Duty Cycle)**: The bridge is running, but **no rusEFI ECU is detected** on the CAN bus network.
-* **Medium Blinking (1 Hz, 50% Duty Cycle)**: The **ECU is successfully detected**, but no software client (TunerStudio or rusEFI Console) is currently connected over TCP.
+* **Medium Blinking (1 Hz, 50% Duty Cycle)**: The **ECU is successfully detected**, but no software client (TunerStudio or rusEFI tuner) is currently connected over TCP.
 * **Slow Blinking (75% Duty Cycle)**: The **ECU is detected and a software client is actively connected** and communicating.
 
 ## Initial Firmware Flashing

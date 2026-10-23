@@ -1,6 +1,6 @@
 # Lua Scripting
 
-TL,DR: Launch rusEFI Console and click on the Lua tab. Use Lua for online scripting. The most popular use case is CAN bus integration.
+TL,DR: Launch rusEFI tuner and click on the Lua tab. Use Lua for online scripting. The most popular use case is CAN bus integration.
 
 ## Introduction
 
@@ -25,22 +25,22 @@ Some example uses are provided in [Examples](#examples).
 
 ## Conventions
 
-- The Lua interpreter will trigger an error if there is a mistake in the program; check the rusEFI console to see errors and script output.
+- The Lua interpreter will trigger an error if there is a mistake in the program; check rusEFI tuner to see errors and script output.
 - Unless otherwise mentioned, all `index` parameters start with the first element at index 0.
 
 ## Installing a Script
 
-The Console's **AI Troubleshooting** assistant can inspect selected lines of the
+rusEFI tuner's **AI Troubleshooting** assistant can inspect selected lines of the
 ECU's `LUASCRIPT` RAM source, with line citations and a source hash. Requested
 source excerpts are sent to OpenAI. This read-only tool does not edit, burn or
 restart Lua, and RAM source alone does not establish what is currently running
-in the Lua VM or saved in flash. See [Console troubleshooting](Console#chatgpt-troubleshooting).
+in the Lua VM or saved in flash. See [rusEFI tuner troubleshooting](Console#chatgpt-troubleshooting).
 
-Lua scripts are written and loaded from the **rusEFI console**, not from TunerStudio - TunerStudio's own
-Lua pages say so directly: *"Use rusEFI console for Lua script editing"*. If you do not have the console
-yet, see [Console](Console).
+Lua scripts are written and loaded from **rusEFI tuner**, not from TunerStudio - TunerStudio's own
+Lua pages still use the older name: *"Use rusEFI console for Lua script editing"*. If you do not have rusEFI tuner
+yet, see the [rusEFI tuner guide](Console).
 
-1. **Connect the console to the ECU and open the `Lua Scripting` tab.**
+1. **Connect rusEFI tuner to the ECU and open the `Lua Scripting` tab.**
    It has the script editor on the left, a live message pane on the right, and a row of buttons along the
    top.
 
@@ -57,9 +57,9 @@ yet, see [Console](Console).
 
 4. **Watch the message pane.**
    `LUA script loaded successfully!` means it is running. Anything your script prints appears there with
-   a `LUA:` prefix. A printed message containing `BEEP` also makes the console beep, which is useful when
+   a `LUA:` prefix. A printed message containing `BEEP` also makes rusEFI tuner beep, which is useful when
    you are under the car and cannot see the screen. Similarly, printing `set_bg_color=RRGGBB` (hex, e.g.
-   `set_bg_color=FF0000`, or decimal `set_bg_color=255,0,0`) changes the background color of the console
+   `set_bg_color=FF0000`, or decimal `set_bg_color=255,0,0`) changes the background color of the application's
    message panes - handy as an eyes-free status indicator; `Write to ECU` resets the color back to white.
 
    > **Warning:** `print()` is for occasional diagnostics, not a data channel. Each message is cut at
@@ -118,8 +118,8 @@ For an option see [LuaLS/lua-language-server](https://github.com/LuaLS/lua-langu
 
 #### Keeping the script in your own files
 
-The console editor understands two comment directives that let you keep the real script on disk and pull
-it back in. Point the console at the folder holding those files with `More... -> Select Working Folder`.
+The rusEFI tuner editor understands two comment directives that let you keep the real script on disk and pull
+it back in. Point rusEFI tuner at the folder holding those files with `More... -> Select Working Folder`.
 
 | Directive | What it does |
 | --- | --- |
@@ -226,7 +226,7 @@ Requests an engine stop for `engineShutDownPeriod` seconds. Calling again restar
 
 #### `isEngineStopRequested()`
 
-Returns true while an engine-stop request is active, whether requested by Lua, the start/stop button, console, TunerStudio, or a board hook. The window ends when `engineShutDownPeriod` expires or a new starter engagement clears it.
+Returns true while an engine-stop request is active, whether requested by Lua, the start/stop button, rusEFI tuner, TunerStudio, or a board hook. The window ends when `engineShutDownPeriod` expires or a new starter engagement clears it.
 
 #### setLaunchTrigger
 
@@ -455,7 +455,7 @@ Print a line of text to the ECU's log.
 - **Queue depth: 24 messages.** Lines wait in a small pool of buffers until a background thread copies
   them to the console output. When the pool is exhausted, further `print()` calls are **silently
   dropped** - `print()` never blocks your script, and you get no error.
-- **Console output buffer: 6500 bytes** between two reads by TunerStudio / the rusEFI console. Text
+- **Console output buffer: 6500 bytes** between two reads by TunerStudio / rusEFI tuner. Text
   that does not fit is lost until the next read.
 - **Rate.** `onTick()` runs at 200 Hz by default, so an unconditional `print()` inside it produces far
   more text than the link can carry; most of it is dropped and the ECU spends time formatting text
@@ -464,12 +464,12 @@ Print a line of text to the ECU's log.
   **reboot the ECU** when flooded with over-length `print()` messages. If your ECU resets while a
   script prints heavily, update the firmware and shorten / rate-limit the prints.
 
-**Console magic strings**
+**rusEFI tuner magic strings**
 
-The rusEFI console reacts to certain substrings in printed messages:
+rusEFI tuner reacts to certain substrings in printed messages:
 
-- `BEEP` - the console beeps.
-- `set_bg_color=<color>` - the console changes the background color of all message panes, where
+- `BEEP` - rusEFI tuner beeps.
+- `set_bg_color=<color>` - rusEFI tuner changes the background color of all message panes, where
   `<color>` is 6-digit hex `RRGGBB` (optional leading `#`) or decimal `R,G,B`, e.g.
   `print('set_bg_color=FF0000')` or `print('set_bg_color=0,255,0')`. Invalid values are ignored.
   Pressing `Write to ECU` resets the color back to white.
@@ -768,7 +768,7 @@ case the row says so.
 | `getTorque()` | Looks up the torque table at current RPM and TPS. Not built on STM32F4. |
 | `setEngineTorque(nm)` | Publishes a torque estimate for other logic and for logging. Not built on STM32F4. |
 | `getTimeSinceTriggerEventMs()` | Milliseconds since the last *crank* trigger event. Cam events do not reset it, so on a crank sensor failure this keeps growing while the cam still pulses. Not built where `WITH_LUA_STOP_ENGINE` is off, which today means uaEFI and hellen121vag. |
-| `secondsSinceTsActivity()` | Seconds since TunerStudio or the console last requested data - use it to tell whether a laptop is connected. The reading saturates around 1070 seconds on STM32, so a threshold above that never fires. |
+| `secondsSinceTsActivity()` | Seconds since TunerStudio or rusEFI tuner last requested data - use it to tell whether a laptop is connected. The reading saturates around 1070 seconds on STM32, so a threshold above that never fires. |
 | `getGlobalConfigurationVersion()` | Increments whenever the tune changes, so a script can notice an edit made underneath it. |
 
 #### Fuel consumption
@@ -861,7 +861,7 @@ end
 
 ## Misc console commands
 
-Type these into the command box at the top of the `Lua Scripting` tab, or anywhere else the console takes
+Type these into the command box at the top of the `Lua Scripting` tab, or anywhere else rusEFI tuner takes
 commands.
 
 | Command | Effect |

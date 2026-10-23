@@ -7,7 +7,7 @@ A sibling of [uaEFI](uaEFI) with a metal enclosure available at [💲rusEFI stor
 [New to rusEFI start here](Home)
 
 [📦uaEFI121 Stable Software](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_uaefi121.zip)
-[🆕rusEFI_Universal_Updater with Beta Snapshot🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
+[🆕rusEFI tuner for Windows (snapshot channel)🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
 [ℹ️Release vs Snapshotℹ️](Release-Snapshot-Latest-firmware)
 
 ## Specs
