@@ -60,8 +60,8 @@ Snipping Tool, which is included on your PC if you have Windows 10 or newer, and
 Please collect the below information before requesting support in the forums. Also please include this each time you post about a problem. This can all be collected in a zip file, or done as individual files and attached to your forum support request. Please keep in mind that you are seeing this and you have a lot of information which those of us in the forum do not have. Things that may seem simple to you may be complicated for those of us who have not physically seen what you have, or have not seen the steps you have taken to get to the problem you are faced with.
 
 - What is the basic problem? This would be something like, engine does not start, cannot connect Tuner Studio, Magic smoke has come out, or something similar. A video on YouTube can be helpful for this as well.
-- Please provide a screenshot of the rusEFI console. This tells us a lot about what firmware you are using, and the status of your software. Also please include the console's border as that indicates information as well.
-- Please provide a screenshot of Tuner Studio. Just like the console, this indicates a lot about your setup and which pieces of software you are using. Also please include the Tuner Studio border as that indicates information as well.
+- Please provide a screenshot of rusEFI tuner. This tells us a lot about what firmware you are using, and the status of your software. Also please include the application's border as that indicates information as well.
+- Please provide a screenshot of Tuner Studio. Just like rusEFI tuner, this indicates a lot about your setup and which pieces of software you are using. Also please include the Tuner Studio border as that indicates information as well.
 - Please provide a picture of your physical setup. Seeing how the wires are connected tells us allot about how the hip bone is connected to the leg bone, etc. It also tells us if you have connected the leg bone to the shoulder bone.
 - Please provide a copy of your logs, or specify NA for this.
 - Please provide a copy of your tune, or specify NA for this.

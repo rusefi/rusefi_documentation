@@ -33,6 +33,6 @@
 <details markdown="1" class="abstract"><summary><u>Development</u></summary>
 
 * [Custom rusEFI firmware for your own board](Custom-Firmware)
-* [Dev Console implementation](Dev-Console-Implementation)
+* [rusEFI tuner implementation](Dev-Console-Implementation)
 
 </details>

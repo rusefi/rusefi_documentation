@@ -914,11 +914,11 @@ Ford PIP 8 cylinders
 
 [Unknown Trigger](#unknown-trigger-type)
 
-If you have an unknown or an unsupported trigger shape, once you've confirmed that trigger events are getting into the software (see [Troubleshooting Trigger Input](Trigger#troubleshooting-trigger-input)) you need to crank your engine while rusEFI Console is connected with the Engine Sniffer tab active.
+If you have an unknown or an unsupported trigger shape, once you've confirmed that trigger events are getting into the software (see [Troubleshooting Trigger Input](Trigger#troubleshooting-trigger-input)) you need to crank your engine while rusEFI tuner is connected with the Engine Sniffer tab active.
 
 With long enough cranking you should get a visual log of your trigger signal. That would give you some idea of what kind of trigger shape you have. Save an image and post it on the forum. It's recommended to remove the spark plugs while investigating trigger shape to make your cranking more even.
 
-Once the preliminary shape of a new trigger is added into the rusEFI firmware based on the Engine Sniffer image, the second step is getting a more precise recording of the shape with exact angles. This is done with the spark plugs removed and the Sensor Sniffer mode set to TRIGGER. With long enough cranking a chart of the trigger shape will appear on the Sensor Sniffer tab and the console log file (see out/ folder next to the rusEFI console binaries) would contain the angles. Please post this log file on the forum for the developers to encode the new trigger shape into the software.
+Once the preliminary shape of a new trigger is added into the rusEFI firmware based on the Engine Sniffer image, the second step is getting a more precise recording of the shape with exact angles. This is done with the spark plugs removed and the Sensor Sniffer mode set to TRIGGER. With long enough cranking a chart of the trigger shape will appear on the Sensor Sniffer tab and the rusEFI tuner log file (see out/ folder next to the rusEFI tuner binaries) would contain the angles. Please post this log file on the forum for the developers to encode the new trigger shape into the software.
 
 ## How this works
 

@@ -5,8 +5,8 @@ This simulator allows you to see how the firmware reacts to different commands a
 
 All you need is a Windows computer. This virtual simulator is built from the same source code as the firmware that runs on every rusEFI ECU.
 
-rusEFI Console runs on Java, so if you don't have that installed on your PC, you'll need to download it.
-If you don't have rusEFI Console, download the [default bundle https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip](https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip). Unzip it, and you'll find rusEFI Console in the 'console' folder.
+rusEFI tuner runs on Java, so if you don't have that installed on your PC, you'll need to download it.
+If you don't have rusEFI tuner, download the [default bundle https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip](https://rusefi.com/build_server/rusefi_bundle_f407-discovery.zip). Unzip it, and you'll find rusEFI tuner in the 'console' folder.
 
  ![Directory](Images/simulator/rusEFI_console_directory.png)
 

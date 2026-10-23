@@ -78,7 +78,7 @@ PCAN
 
 [PCAN-USB](https://www.peak-system.com/PCAN-USB.199.0.html?&L=1) with some cable [PCAN-Cable OBD-2](https://www.peak-system.com/PCAN-Cable-OBD-2.273.0.html?&L=1) or [PCAN-Cable 3](https://www.peak-system.com/PCAN-Cable-3.290.0.html?&L=1)
 
-PCAN-USB works with rusEFI console on Windows (PEAK driver) and on macOS: PEAK has no macOS driver, so install the free user-space [MacCAN](https://www.mac-can.com) library first (`brew tap mac-can/maccan && brew install pcbusb`), plug the adapter in, then start the console from the bundle's `rusefi_updater.sh`. The console then lists a `PCAN` port like it does on Windows. Plug the adapter in before starting the console: MacCAN is single-client and may not pick up an adapter plugged in after a failed open until the console is restarted.
+PCAN-USB works with rusEFI tuner on Windows (PEAK driver) and on macOS: PEAK has no macOS driver, so install the free user-space [MacCAN](https://www.mac-can.com) library first (`brew tap mac-can/maccan && brew install pcbusb`), plug the adapter in, then start rusEFI tuner from the bundle's `rusefi_updater.sh`. The application then lists a `PCAN` port like it does on Windows. Plug the adapter in before starting rusEFI tuner: MacCAN is single-client and may not pick up an adapter plugged in after a failed open until the application is restarted.
 
 [fake looking like Vasya](https://rusefi.com/forum/viewtopic.php?f=13&t=2243)
 
@@ -122,7 +122,7 @@ and RTR frames and the ECU's transmitted frames.
 which do not understand these prefixes. With it unchecked, frames from the
 enabled buses are merged without bus identity.
 
-The updated rusEFI console displays CAN1/CAN2/CAN3 and exports them as
+The updated rusEFI tuner displays CAN1/CAN2/CAN3 and exports them as
 `can0`/`can1`/`can2` in candump files. Legacy traffic is labeled `Bus unknown`
 and exported as `canUnknown`. CAN MCP packets expose the zero-based bus as
 `busIndex`, or `null` when unknown. Our clients use the read-only `I` query

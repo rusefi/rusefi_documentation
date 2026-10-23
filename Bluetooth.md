@@ -1,8 +1,8 @@
 # Bluetooth
 
-rusEFI supports a **serial Bluetooth module** that provides a wireless serial link, mainly used to connect TunerStudio (or the rusEFI Console) without a USB cable.
+rusEFI supports a **serial Bluetooth module** that provides a wireless serial link, mainly used to connect TunerStudio (or rusEFI tuner) without a USB cable.
 
-> Bluetooth support is limited and the connection is slow. There is currently no TunerStudio interface for setting up the module — it is initialised from the rusEFI Console (see below). For a faster wireless link, consider Wi-Fi instead, for example the [CANbus to WiFi adapter](can2wifi) or a serial-to-network bridge such as [UART-TCP-proxy](https://github.com/Light-r4y/UART-TCP-proxy).
+> Bluetooth support is limited and the connection is slow. There is currently no TunerStudio interface for setting up the module — it is initialised from rusEFI tuner (see below). For a faster wireless link, consider Wi-Fi instead, for example the [CANbus to WiFi adapter](can2wifi) or a serial-to-network bridge such as [UART-TCP-proxy](https://github.com/Light-r4y/UART-TCP-proxy).
 
 ## Supported modules
 
@@ -23,7 +23,7 @@ What that means in practice:
 
 ## Hardware: what you need to wire on
 
-If your board does not already have Bluetooth on board (the AlphaX 4chan does), you add a TTL serial Bluetooth module and connect it to one of the ECU's TTL serial UARTs — the same kind of UART used for TunerStudio/console serial communication:
+If your board does not already have Bluetooth on board (the AlphaX 4chan does), you add a TTL serial Bluetooth module and connect it to one of the ECU's TTL serial UARTs — the same kind of UART used for TunerStudio/rusEFI tuner serial communication:
 
 - **Power** — the module's VCC and GND. Use the voltage the module expects (many TTL Bluetooth modules run on 3.3 V logic; use a module compatible with the ECU's 3.3 V UART levels, which the JDY-33 is).
 - **Serial data — cross TX and RX:**
@@ -43,7 +43,7 @@ The primary port is user-configurable in TunerStudio: `consoleUartDevice` select
 
 ## Setting up the module
 
-Initialise the module from the rusEFI Console. The general form is:
+Initialise the module from rusEFI tuner. The general form is:
 
 ```text
 bluetooth_<module> <baud> <name> <pincode>
@@ -62,7 +62,7 @@ Things to get right:
 - **`<baud>` must match the ECU serial speed** of whichever port Bluetooth uses — see the table above. This is the most common setup mistake, and it produces a link that pairs and connects but never transfers a single byte.
 - **`<baud>` must be one of** 2400, 4800, 9600, 19200, 38400, 57600 or 115200; other values are rejected.
 - **`<name>`** is up to 20 characters, and **`<pincode>`** must be exactly 4 digits.
-- **The command does not run immediately.** It only arms the procedure. Because the firmware has to use that same UART to send AT commands to the module, it waits for the serial channel to go quiet first — so close your console/TunerStudio session and leave the board powered. `bluetooth_cancel` aborts an armed procedure.
+- **The command does not run immediately.** It only arms the procedure. Because the firmware has to use that same UART to send AT commands to the module, it waits for the serial channel to go quiet first — so close your rusEFI tuner/TunerStudio session and leave the board powered. `bluetooth_cancel` aborts an armed procedure.
 
 ### Power-cycle the ECU when it finishes
 
@@ -80,8 +80,8 @@ Work down the list — every row here is a problem that presents as a dead modul
 | Symptom | Likely cause | What to do |
 |---|---|---|
 | Module still advertises its old name | Rename not applied yet | Power-cycle the ECU, then re-scan |
-| Console logs `JDY3x failed to reset` | Module did not ACK `AT+RESET` | Expected; power-cycle and re-scan to confirm |
-| Setup command seems to do nothing | The procedure is waiting for a quiet UART | Close the console/TunerStudio session, keep the board powered |
+| rusEFI tuner logs `JDY3x failed to reset` | Module did not ACK `AT+RESET` | Expected; power-cycle and re-scan to confirm |
+| Setup command seems to do nothing | The procedure is waiting for a quiet UART | Close the rusEFI tuner/TunerStudio session, keep the board powered |
 | Module missing from the Bluetooth scan | Inquiry scanning is genuinely unreliable | Retry; it often appears on the next attempt |
 | Pairs and connects, but **no data at all** | Module baud does not match the ECU serial speed | Match `<baud>` to the correct setting for the port in use |
 | Pairs and connects, but **no data at all** | A USB TunerStudio session is holding the ECU | Disconnect USB TunerStudio — it starves the Bluetooth channel while connected |

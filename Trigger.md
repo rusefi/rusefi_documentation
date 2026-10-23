@@ -25,10 +25,10 @@ Share the current tune with the log, identify the time of the failure, and inclu
 | Evidence | What it helps diagnose | What to share and its limits |
 | --- | --- | --- |
 | Regular TunerStudio operating log | RPM, battery voltage, trigger diagnostics, and engine behavior during the fault | Share the original log and matching tune. Use the maximum data rate for synchronization diagnosis. This log samples operating data; it does not record every tooth edge. |
-| Console or SD operating log | Engine behavior when a TS log is unavailable | Identify the logging method and rate and include the tune. Available fields and rates can differ; an SD operating log and an SD tooth log serve different purposes. |
+| rusEFI tuner or SD operating log | Engine behavior when a TS log is unavailable | Identify the logging method and rate and include the tune. Available fields and rates can differ; an SD operating log and an SD tooth log serve different purposes. |
 | Engine sniffer or composite capture | Basic pattern validation, edge selection, and crank/cam relationship | Include enough of the trace to show a complete engine cycle, channel labels, and the regular log/tune. Share the capture file when available; an image helps illustrate the pattern. These traces show the ECU's digital interpretation of the inputs. |
 | TunerStudio tooth log | Basic tooth-interval inspection | Share it alongside the operating log/tune. Its timing has limited precision; use regular logs for gap diagnostics and consult a developer about a suitable capture for precise replay. |
-| Console Messages output | Input activity and synchronization details | Save `triggerinfo` before and during cranking and relevant verbose synchronization messages. Include the log/tune so the messages can be interpreted in context. |
+| rusEFI tuner Messages output | Input activity and synchronization details | Save `triggerinfo` before and during cranking and relevant verbose synchronization messages. Include the log/tune so the messages can be interpreted in context. |
 | SD tooth capture | Detailed edge analysis and developer regression tests | Include the original file, capture mode/format, firmware version, and tune. Supported captures can be replayed in unit tests; confirm the format and any required conversion with the developer. |
 | Oscilloscope capture | Sensor voltage, electrical noise, and signal conditioning | Include voltage/time scales, channel labels, probe locations, and RPM; share exported data when available. An annotated image can help explain an electrical fault. Include the operating log/tune to connect the electrical evidence to ECU behavior. |
 
@@ -38,7 +38,9 @@ A sniffer TDC marker comes from the ECU's configuration. Verify mechanical timin
 
 ![image](Images/MLV_trigger_error.png)
 
-### Troubleshooting Hardware with rusEFI Console
+<a id="troubleshooting-hardware-with-rusefi-console"></a>
+
+### Troubleshooting Hardware with rusEFI tuner
 
 Use the `triggerinfo` command (go to Messages tab; you can either type or use a button from the panel on the right) to confirm input pin(s). Also use the `triggerinfo` command to see how many trigger events were registered by the firmware ("trigger#1 event counters up=x/down=y").
 
@@ -52,13 +54,15 @@ Compare the input counters before and during cranking. Increasing counters confi
 
 Use the board's documented test points and procedures for further electrical checks. Connector numbers and test points vary between boards; grounding or applying a test signal to an input requires a procedure for that specific circuit.
 
-### Troubleshooting Synchronization with rusEFI Console
+<a id="troubleshooting-synchronization-with-rusefi-console"></a>
+
+### Troubleshooting Synchronization with rusEFI tuner
 
 For the meaning of gap ratios, active/default ranges, and custom settings, see [Trigger Gap Override](Trigger-Configuration-Guide#trigger-gap-override), including a [36-2 cranking case study](Trigger-Configuration-Guide#case-study-36-2-cranking-gaps-exceed-the-default-window).
 
-Type `enable trigger_details` in rusEFI Console to enable verbose synchronization logging. Save the Messages output with the log and tune described in the [evidence matrix](#evidence-matrix). Use `disable trigger_details` when finished.
+Type `enable trigger_details` in rusEFI tuner to enable verbose synchronization logging. Save the Messages output with the log and tune described in the [evidence matrix](#evidence-matrix). Use `disable trigger_details` when finished.
 
-The "print sync details to console" option in TunerStudio enables the same output, but the output still goes only to rusEFI Console.
+The "print sync details to console" option in TunerStudio enables the same output, but the output still goes only to rusEFI tuner.
 
 ![x](Images/rusEFI_console/trigger-gather-gaps-step-1.png)
 
@@ -91,7 +95,7 @@ At the moment rusEFI has no means for VVT/camInput simulation.
 ## Q & A
 
 *__Q:__ What is the `globalTriggerAngleOffset` configuration parameter?*  
-__A:__ In the engine sniffer tab in rusEFI console, there is a signal front with "0" next to it. That's the trigger synchronization event on the primary trigger line. The trigger synchronization always happens at one of the rise or fall events of the primary trigger. globalTriggerAngleOffset is the angle distance between synchronization point and cylinder #1 top dead center. TDC#1 is represented by the green line.
+__A:__ In the engine sniffer tab in rusEFI tuner, there is a signal front with "0" next to it. That's the trigger synchronization event on the primary trigger line. The trigger synchronization always happens at one of the rise or fall events of the primary trigger. globalTriggerAngleOffset is the angle distance between synchronization point and cylinder #1 top dead center. TDC#1 is represented by the green line.
 
 ![Sync Point](Images/rusEFI_console/Sync_point_highlighed.png)
 
@@ -108,7 +112,7 @@ __A:__ Follow the [trigger input assignment table](#trigger-input-assignments) f
 __A:__ This is total count of how many times we detected an unexpected number of teeth per trigger cycle since ECU reboot. `isError` means that we had issues with 4 of the last 6 cycles. We also turn `triggerErrorPin` on in case of trigger error - you can wire an LED to see trigger error. Total errors can also be displayed as a TunerStudio gauge.
 
 *__Q:__ Sync is not reliable; how do I see more details?*  
-__A:__ Try the `enable trigger_details` command in rusEFI Console or the "print sync details to console" option in TS. This will produce some helpful messages with synchronization progress details.
+__A:__ Try the `enable trigger_details` command in rusEFI tuner or the "print sync details to console" option in TS. This will produce some helpful messages with synchronization progress details.
 
 *__Q:__ I have a 60/2 crank wheel and I would like to use a cam sensor for fully sequential mode. Should I use "4-stroke with Cam sensor"?*  
 __A:__ You can only use "4-stroke with Cam sensor" if your composite trigger shape is known to rusEFI. If you are adding a cam trigger to 60/2, rusEFI probably does not know this combination with all the angles precisely. The way to add sequential to a skipped-tooth crank wheel is via cam input mode, the same as is used for [VVT](VVT).

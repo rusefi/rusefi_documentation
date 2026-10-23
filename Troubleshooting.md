@@ -2,14 +2,14 @@
 
 This page is a starting point for diagnosing common rusEFI problems. It gathers the troubleshooting information that lives on the individual topic pages so you can find it from one place. Pick the symptom below that matches what you are seeing.
 
-It helps to have rusEFI Console and/or TunerStudio connected first, so you can read live data and logs while you diagnose. See [rusEFI Console](Console) and [TunerStudio Connectivity](Tunerstudio-Connectivity). When asking the community for help, attach a log — see the [Logging Guide](Logging-Guide) and [Support & Community](Support).
+It helps to have rusEFI tuner and/or TunerStudio connected first, so you can read live data and logs while you diagnose. See [rusEFI tuner](Console) and [TunerStudio Connectivity](Tunerstudio-Connectivity). When asking the community for help, attach a log — see the [Logging Guide](Logging-Guide) and [Support & Community](Support).
 
 ## Can't connect to the ECU
 
 - [TunerStudio connectivity - Troubleshooting](Tunerstudio-Connectivity#troubleshooting-tuner-studio-connectivity) - COM port, baud rate, and connection problems.
 - [LED states](LED-states) - what the board LEDs indicate, including [the blue LED not blinking](LED-states#the-blue-led-is-not-blinking) and [the blue LED blinking but nothing in Device Manager](LED-states#the-blue-led-is-blinking-but-nothing-in-device-manager).
 - [How to DFU](HOWTO-DFU) - USB/DFU driver issues that also affect normal communication.
-- [rusEFI Console](Console) - console overview and connecting.
+- [rusEFI tuner](Console) - application overview and connecting.
 
 ## Engine won't start
 
@@ -19,7 +19,7 @@ It helps to have rusEFI Console and/or TunerStudio connected first, so you can r
 
 ## Trigger and synchronization errors
 
-- [Triggers - Troubleshooting Trigger Input](Trigger#troubleshooting-trigger-input) - diagnosing trigger errors with logs, rusEFI Console, and TunerStudio.
+- [Triggers - Troubleshooting Trigger Input](Trigger#troubleshooting-trigger-input) - diagnosing trigger errors with logs, rusEFI tuner, and TunerStudio.
 - [Trigger Configuration Guide](Trigger-Configuration-Guide) - sensor wiring, polarity, and gap settings.
 - [Unknown Trigger](Unknown-Trigger) - when your trigger pattern is not yet supported.
 

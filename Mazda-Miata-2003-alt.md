@@ -1,6 +1,6 @@
 # 2003 Mazda Miata Alt
 
-In rusEFI console, `set engine_type 47` loads base settings.
+In rusEFI tuner, `set engine_type 47` loads base settings.
 
 ## Wiring
 

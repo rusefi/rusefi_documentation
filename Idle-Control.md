@@ -115,7 +115,7 @@ before enabling this option. Engine-state classification need not be enabled.
 
 ## Importing an existing tune
 
-The console updater converts a fixed A/C air offset to a flat pressure curve
+The rusEFI tuner updater converts a fixed A/C air offset to a flat pressure curve
 and preserves cranking air. It converts an absolute A/C RPM target to an
 addition relative to the last (warmest) idle RPM curve point, limited to
 0–1000 RPM. Review the result at other coolant temperatures: an absolute floor

@@ -1,4 +1,6 @@
-# Dev Console Implementation
+# rusEFI tuner Implementation
+
+<a id="dev-console-implementation"></a>
 
 ## MCP capture through the built-in sniffer
 
@@ -53,7 +55,7 @@ As for sending commands to rusEFI, there are two options
 
 Incoming data workflow:
 
-The transport layer pushes data into EngineState.processNewData() which splits the data into keys and values, pushing this data into the primary listener for the specified key. The main listener is SensorCentral which keeps track of 'Sensor' values and listeners. Another interesting key-value consumer is MessagesCentral which takes care of all the human-readable messages which end up in Messages UI console.
+The transport layer pushes data into EngineState.processNewData() which splits the data into keys and values, pushing this data into the primary listener for the specified key. The main listener is SensorCentral which keeps track of 'Sensor' values and listeners. Another interesting key-value consumer is MessagesCentral which takes care of all the human-readable messages which end up in the rusEFI tuner Messages UI.
 
 Outgoing data flow:
 

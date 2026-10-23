@@ -21,7 +21,7 @@ rusEFI can carry the dashboard broadcast, a [wideband controller](CAN), and [Tun
 - `canWriteEnabled` — enable CAN transmit (required for any broadcast). `canReadEnabled` enables receive.
 - `enableVerboseCanTx` — "CAN broadcast using custom rusEFI protocol". Enable this for method 1 below.
 - `canNbcType` — selects a dashboard preset for method 2 below.
-- `verboseCan` / `verboseCan2` — "Print all" incoming and outgoing CAN messages to the rusEFI Console. Leave these off in normal use; turn one on to watch traffic while debugging.
+- `verboseCan` / `verboseCan2` — "Print all" incoming and outgoing CAN messages to rusEFI tuner. Leave these off in normal use; turn one on to watch traffic while debugging.
 
 Set these in TunerStudio (CAN settings).
 
@@ -63,7 +63,7 @@ This path is fast and reliable because the dash reads the native CAN broadcast; 
 
 ### rusEFI's built-in Bluetooth serial module
 
-rusEFI also has built-in support for a **Bluetooth serial module** on a UART — `JDY-33` is the default, and `HC-05`, `HC-06`, and `BK` modules are also supported. The module is set up from the rusEFI Console, for example:
+rusEFI also has built-in support for a **Bluetooth serial module** on a UART — `JDY-33` is the default, and `HC-05`, `HC-06`, and `BK` modules are also supported. The module is set up from rusEFI tuner, for example:
 
 ```
 bluetooth_jdy 115200 rusefi 1234
@@ -77,7 +77,7 @@ This built-in Bluetooth link is a wireless **serial** connection, used mainly fo
 
 - **No data at all:** check termination (120 ohm at each end), that CAN High/Low are not swapped, and that both ends use the same baud rate.
 - **Some values wrong or scaled oddly:** the DBC or dash configuration does not match rusEFI's format — confirm you imported the correct `rusEFI_CAN_verbose.dbc` and that the base address matches.
-- **Watch the traffic:** temporarily enable `verboseCan` to print CAN frames in the rusEFI Console, or use a CAN tool such as SavvyCAN with the DBC to see the decoded signals.
+- **Watch the traffic:** temporarily enable `verboseCan` to print CAN frames in rusEFI tuner, or use a CAN tool such as SavvyCAN with the DBC to see the decoded signals.
 - Keep the dash broadcast, wideband, and TS-over-CAN on IDs that do not overlap (the defaults already do).
 
 ## Related pages
