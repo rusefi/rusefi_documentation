@@ -9,7 +9,7 @@ The short version: **for older solenoid-controlled transmissions rusEFI can driv
 | Your transmission | Approach | Start here |
 |---|---|---|
 | Older, controlled by simple solenoids — GM 4Lxx, Ford 4R70W and similar | rusEFI drives the transmission directly with its built-in TCU logic, or with a Lua script | [TCU Status](TCU-status) |
-| Modern ZF 8HP, or GM 6L / 8L / 10L | The factory TCU stays and keeps control of the solenoids. rusEFI feeds it the engine data it expects, over CAN, through the [Purple Gateway](purple-gateway) | [Purple Gateway](purple-gateway), [8HP](8hp) |
+| Modern ZF 8HP | The factory TCU stays and keeps control of the solenoids. rusEFI feeds it the engine data it expects, over CAN, through the [Purple Gateway](purple-gateway) | [Purple Gateway](purple-gateway), [8HP](8hp) |
 | Something else, or you want to do the CAN work yourself | Write your own CAN integration | [How To Make Your Own ECU Communicate with TCU](HOWTO-Make-Your-Own-ECU-Communicate-with-TCU) |
 
 Modern transmissions use clutch-to-clutch control, where one clutch engages as another releases. rusEFI deliberately does not try to re-implement that: as [TCU Status](TCU-status) puts it, *"CAN bus integration with the OEM TCU is the only way for modern transmissions"*.
@@ -39,11 +39,8 @@ Torque is the one people underestimate. Shift quality depends on the engine redu
 
 | Transmission | Status |
 |---|---|
-| Dodge / Chrysler 8HP | Ready |
-| BMW F-series 8HP | Partly ready |
-| GM 6L | Beta |
-| GM 8L | Beta |
-| GM 10L | In progress |
+| BMW F-series 8HP | Ready |
+| Dodge / Chrysler 8HP | a bit less Ready, but pretty close |
 
 ### Supported engine ECUs
 
@@ -53,7 +50,7 @@ Torque coordination only works with an engine ECU the gateway knows how to talk 
 |---|---|
 | OEM BMW E9x and siblings | Supported |
 | OEM BMW E46 and siblings such as E39 | Supported |
-| rusEFI | Coming |
+| rusEFI | Supported |
 | GM E38 | Coming |
 | Generic legacy | Coming |
 
