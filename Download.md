@@ -2,7 +2,7 @@
 
 ## rusEFI tuner — recommended
 
-**[🆕 Download rusEFI tuner for Windows 🆕](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)**
+**[🆕 Download rusEFI tuner for Windows 🆕](https://rusefi.com/installer/rusEFI_tuner_installer.exe)**
 
 Use rusEFI tuner to connect to your ECU, tune settings, record logs, and review
 them in the built-in Log Viewer. No separate tuning or log-viewer application
