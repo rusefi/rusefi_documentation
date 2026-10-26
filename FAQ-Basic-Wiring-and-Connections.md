@@ -5,6 +5,21 @@ This page contains general information about how to hook up to your rusEFI ECU. 
 **WARNING: The exact implementation of these pins is ECU-specific!**  
 You should always consult the documentation on your particular hardware. The information here is presented for planning purposes only - to help you figure out which of the hardware variants will suit the sensors and solenoids present on your engine.
 
+## Before you use this wiring reference
+
+Find the manual and pinout for your ECU model and revision. Draw your wiring
+plan and check the pins, voltages, current limits, and driver types before
+connecting anything. This page explains the basics; use your ECU manual for
+the actual connections.
+
+**Quick route:**
+
+- For sensors and switches, check the input type below. See [Sensors and Calibration](Sensors-and-Calibration) for setup.
+- Use rusEFI tuner's **Pinout** tab to find general-purpose, injector, and ignition outputs.
+- For connector, ground, and crimping help, use the [related pages](#related-pages) below.
+
+Terms used here: a **low-side** output switches the ground side of a load; a **high-side** output switches its supply side. An **analog** input measures a voltage; a **digital** input reads an on/off state.
+
 ## Outputs
 
 ### General Purpose
@@ -49,7 +64,7 @@ Unipolar stepper valves are not supported by any rusEFI ECUs. Chrysler commonly 
 
 ### Drive-by-Wire
 
-Logic exists in the firmware to control a drive-by-wire throttle body, including using it to idle. A single H-bridge is required to control a single DBW throttle body. Multiple DBW throttle bodies can be simultaneously controlled as long as sufficient H-bridge drivers exist to control them. A drive-by-wire pedal (Accelerator Pedal Position / APP) is generally used to provide input from the driver. Want to know more? For more information, read the [ETB Configuration Guide](Electronic-Throttle-Body-Configuration-Guide).
+Logic exists in the firmware to control a drive-by-wire throttle body, including using it to idle. A single H-bridge is required to control a single DBW throttle body. Multiple DBW throttle bodies can be simultaneously controlled as long as sufficient H-bridge drivers exist to control them. A pedal position sensor (PPS) is generally used to provide input from the driver. Want to know more? For more information, read the [ETB Configuration Guide](Electronic-Throttle-Body-Configuration-Guide).
 
 ### Main Relay
 

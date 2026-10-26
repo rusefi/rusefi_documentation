@@ -2,6 +2,22 @@
 
 rusEFI supports multiple methods to collect logs from your ECU.
 
+## Record, review, and share a log
+
+1. **Record:** connect the ECU and choose **Logging > Start As…** in rusEFI tuner
+   to choose a filename and location. Record the problem, then choose
+   **Logging > Stop**.
+2. **Locate:** keep the original log and save the tune used during recording.
+   The tune has the settings; the log shows what happened.
+3. **Review:** open **Log Viewer**, choose **Open log…**, and select the recording.
+4. **Share:** upload the original log and matching tune to [rusEFI Online](Online)
+   or attach them to your support request. Note when the problem happened.
+
+**Check it worked:** open the file in Log Viewer and check that it has the
+recording you need. If you cannot connect or record, ask for
+[connection help](Troubleshooting#cant-connect-to-the-ecu). You do not need a
+log to ask about connection problems.
+
 Beginners can record a `.mlg` log directly in [rusEFI tuner](Console) using
 **Logging > Start**. Use **Logging > Start As…** if you want to choose the file
 instead of recording into the application's logs folder. TunerStudio logging remains a supported
@@ -21,24 +37,6 @@ The logging methods detailed here produce a `.mlg` file compatible with [MegaLog
 If you're trying to share the log with someone to help you with your engine, please upload it to [rusEFI Online](https://rusefi.com/online).
 
 For trigger or synchronization problems, include the tune used during the logged attempt and identify the time of the failure. Follow the [trigger evidence matrix](Trigger#evidence-matrix) to choose any additional sniffer, tooth, rusEFI tuner, or oscilloscope captures. The operating logs described here sample engine data; a tooth capture records individual input events.
-
-## Engine state
-
-The `Engine` log field (TunerStudio channel `engine`) is a bitmask for engine-state indicators and analyzer filters. Multiple bits can be set at once.
-
-| Bit | Value | Meaning |
-|---|---|---|
-| 0 | 1 | Running, excluding cranking |
-| 1 | 2 | Cranking |
-| 2 | 4 | After-start fuel correction differs from 1 |
-| 3 | 8 | Warmup fuel correction differs from 1 |
-| 4 | 16 | TPS acceleration detection or positive adder, including its decay; in MAP Prediction mode, prediction is active |
-| 5 | 32 | TPS deceleration detection or negative adder, or DFCO is cutting fuel |
-| 6/7 | 64/128 | Unused MAP-rate acceleration/deceleration flags |
-
-MAP Prediction is TPS-triggered, so it uses bit 4. Wall-wetting correction is independent and is not included in these flags. This state field differs from `Engine Mode`, which describes the configured fuel, injection and ignition algorithms.
-
-The field is available in TunerStudio logs and ECU SD-card logs with matching firmware and INI definitions. Its presence alone does not add filters to VE Analyze or repair other WUE Analyze settings.
 
 ## TunerStudio logging
 
@@ -107,3 +105,21 @@ SD card reading mode:
 The assumption is that if you have USB connected, you will be logging using TunerStudio instead of the onboard SD card.
 
 See also [SD Card](User-Support-SD-card)
+
+## Engine state
+
+The `Engine` log field (TunerStudio channel `engine`) is a bitmask for engine-state indicators and analyzer filters. Multiple bits can be set at once.
+
+| Bit | Value | Meaning |
+|---|---|---|
+| 0 | 1 | Running, excluding cranking |
+| 1 | 2 | Cranking |
+| 2 | 4 | After-start fuel correction differs from 1 |
+| 3 | 8 | Warmup fuel correction differs from 1 |
+| 4 | 16 | TPS acceleration detection or positive adder, including its decay; in MAP Prediction mode, prediction is active |
+| 5 | 32 | TPS deceleration detection or negative adder, or DFCO is cutting fuel |
+| 6/7 | 64/128 | Unused MAP-rate acceleration/deceleration flags |
+
+MAP Prediction is TPS-triggered, so it uses bit 4. Wall-wetting correction is independent and is not included in these flags. This state field differs from `Engine Mode`, which describes the configured fuel, injection and ignition algorithms.
+
+The field is available in TunerStudio logs and ECU SD-card logs with matching firmware and INI definitions. Its presence alone does not add filters to VE Analyze or repair other WUE Analyze settings.

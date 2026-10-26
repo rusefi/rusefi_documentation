@@ -4,6 +4,17 @@ Every rusEFI tune depends on the sensors reading correctly — the firmware can 
 
 For sensor wiring specifics, see the [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections). For a list of tested sensors and their known values, see the [Vault of Sensors](Vault-Of-Sensors).
 
+## Setup route
+
+Check each sensor before tuning:
+
+1. Identify the sensor type and check its wiring in your ECU manual.
+2. Set its input and calibration using the matching guide below and data for your sensor.
+3. With the engine stopped, compare the reading with a known or measured value and check its response.
+4. If it looks wrong, check wiring, input limits, signal type, input selection, and calibration. Use the sensor guide and [Troubleshooting](Troubleshooting) before changing fuel or ignition settings.
+
+Choose the guide for the sensor you are setting up:
+
 ## Temperature
 
 - [Coolant and Intake Air Temperature (CLT/IAT)](Temperature-Sensors) — thermistor bias resistor and three-point calibration.
@@ -21,7 +32,7 @@ For sensor wiring specifics, see the [Wiring & Connectivity Overview](FAQ-Basic-
 
 ## Throttle
 
-- [Throttle Position and Pedal (TPS/APP)](Throttle-and-Pedal-Sensors) — closed / wide-open calibration and drive-by-wire pedal redundancy.
+- [Throttle Position and Pedal (TPS/PPS)](Throttle-and-Pedal-Sensors) — closed / wide-open calibration and drive-by-wire pedal redundancy.
 - [SENT throttle and pedal sensors](SENT-ETB-Electronic-Throttle-Body) — digital SENT-protocol sensors rather than analog voltage.
 
 ## Air/fuel ratio (oxygen)

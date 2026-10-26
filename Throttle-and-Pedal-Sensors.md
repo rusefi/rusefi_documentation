@@ -1,6 +1,29 @@
-# Throttle Position and Pedal Sensors (TPS and APP)
+# Throttle Position and Pedal Sensors (TPS and PPS)
 
-The throttle position sensor (TPS) reports how far the throttle is open. On drive-by-wire (electronic throttle) setups there is also an accelerator pedal position (APP) sensor that reports how far the driver is pressing the pedal. Both are potentiometers read on analog inputs and calibrated by their closed and wide-open voltages.
+<a id="throttle-position-and-pedal-sensors-tps-and-app"></a>
+
+The throttle position sensor (TPS) reports how far the throttle is open. On drive-by-wire (electronic throttle) setups there is also a pedal position sensor (PPS) that reports how far the driver is pressing the pedal. Both are potentiometers read on analog inputs and calibrated by their closed and wide-open voltages.
+
+## Setting it up
+
+For a cable throttle, set up the TPS. For electronic throttle, also follow the
+full [Electronic Throttle Body Configuration Guide](Electronic-Throttle-Body-Configuration-Guide).
+
+1. Check sensor type, power, ground, and input wiring against your ECU and sensor
+   manuals. See the [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections).
+2. Select the TPS inputs in your tuning application, plus pedal inputs for
+   electronic throttle. Field names are listed below.
+3. Calibrate closed and fully open throttle. For electronic throttle, also
+   calibrate released and fully pressed pedal, following the full guide.
+   TunerStudio provides a calibration helper.
+4. With the engine stopped, check that TPS moves smoothly from 0 % closed to
+   100 % fully open. Check both sensor channels as the electronic throttle guide
+   directs. Fix unexpected readings before starting.
+
+> Electronic throttle checks both sensor channels and reports a fault if they
+> disagree. Calibrate both correctly and keep clear of the throttle during tests.
+
+The sections below explain the settings in more detail.
 
 ## Throttle position sensor (TPS)
 
@@ -8,7 +31,9 @@ The throttle position sensor (TPS) reports how far the throttle is open. On driv
 - **Calibration:** `tpsMin` — "Closed voltage for primary throttle position sensor"; `tpsMax` — "Fully opened voltage for primary throttle position sensor". Record the sensor voltage at closed throttle and at wide-open throttle so rusEFI can scale the reading to 0–100 %.
 - **Second sensors / second throttle body:** a second sensor on the same throttle body (`tps1_2AdcChannel`) and a second throttle body (`tps2_1AdcChannel`, `tps2_2AdcChannel`) are supported, each with its own closed/open calibration (`tps1SecondaryMin`/`tps1SecondaryMax`, `tps2Min`/`tps2Max`, and so on).
 
-## Accelerator pedal (APP)
+<a id="accelerator-pedal-app"></a>
+
+## Pedal position sensor (PPS)
 
 The pedal sensor is used for electronic throttle (drive-by-wire); a cable throttle does not need it.
 
@@ -30,21 +55,7 @@ agreement checks happen before smoothing. Sensor faults pass through immediately
 and recovery starts a fresh average. Analog TPS, Ford/Toyota split-range TPS and
 SENT TPS use this path. Direct OBD/CAN/Lua TPS providers bypass it.
 
-## Setting it up
-
-1. Wire the sensor(s) to analog inputs, sensor 5 V, and sensor ground — see the [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections).
-2. Select the TPS (and pedal, for drive-by-wire) input channels in TunerStudio.
-3. Calibrate: with the throttle closed, capture the closed voltage; at wide-open throttle, capture the open voltage. Do the same for the pedal (released and floored). TunerStudio provides a calibration helper.
-4. Verify the TPS reads 0 % closed and 100 % at wide-open throttle, and that any second sensor or channel agrees with the first.
-
-> On electronic throttle, TPS and pedal are safety-critical: rusEFI compares the two channels and raises a fault if they disagree. Calibrate both channels correctly, and see the [Electronic Throttle Body Configuration Guide](Electronic-Throttle-Body-Configuration-Guide) for the full drive-by-wire setup.
-
 ## Related pages
 
 - [Electronic Throttle Body Configuration Guide](Electronic-Throttle-Body-Configuration-Guide) — drive-by-wire setup uses TPS and pedal.
 - [Wiring & Connectivity Overview](FAQ-Basic-Wiring-and-Connections) — sensor wiring and grounds.
-
-## Technical sources
-
-- Configuration field definitions: `firmware/integration/rusefi_config.txt` — `tps1_1AdcChannel`, `tps1_2AdcChannel`, `tps2_1AdcChannel`, `tpsMin`, `tpsMax`, `tps1SecondaryMin`/`tps1SecondaryMax`, `throttlePedalPositionAdcChannel`, `throttlePedalPositionSecondAdcChannel`, `throttlePedalUpVoltage`, `throttlePedalWOTVoltage`.
-- TPS smoothing behavior: `firmware/init/sensor/init_tps.cpp`, `firmware/controllers/sensors/tps_smoothing.h`, and `firmware/controllers/algo/defaults/default_base_engine.cpp`; verified against the report 13 port on top of `3dd620b8d5b` in `rusefi.5`.

@@ -7,9 +7,33 @@
 
 </div>
 
-Hello, and welcome to the rusEFI wiki main page. Here you will find information related to rusEFI, a GPL open-source engine control unit for gasoline internal combustion engines. This project involves embedded hardware, software, and engines (vroom vroom). This community has many members from many walks of life who are scattered all around the world.
+Welcome to the rusEFI wiki. rusEFI is an open-source engine control system for
+gasoline engines, supported by a worldwide community. Use this wiki to choose,
+connect, and set up an engine control unit (ECU), or to find help.
 
-In order to use rusEFI you will need to acquire one of the [supported control units](Hardware). You can also design your own custom board if so desired.
+## Get Started
+
+| I want to… | Start here |
+| --- | --- |
+| Understand what I need for my project | [Getting Started roadmap](Getting-Started) |
+| Choose an ECU | [Hardware overview](Hardware) and [ECU Comparison](ECU-Comparison) |
+| Connect my ECU for the first time | [Quick Start](HOWTO-quick-start) |
+| Download the tuning application | [Download rusEFI tuner](Download) |
+| Learn the application controls | [rusEFI tuner guide](Console) |
+| Set up an engine for its first start | [Universal ECU](HOWTO-Get-Running) or [plug-and-play ECU](HOWTO-Get-Running-PnP) |
+| Record or review an engine log | [Logging Guide](Logging-Guide) |
+| Fix a problem or ask for help | [Troubleshooting](Troubleshooting) and [Support & Community](Support) |
+
+Start with **rusEFI tuner** for tuning and built-in log viewing. TunerStudio and
+MegaLogViewer are optional alternatives. See the
+[TunerStudio tuning guide](Get-tuning-with-TunerStudio-and-your-rusEFI).
+
+Unfamiliar terms? See [Acronyms & Terminology](Vault-Of-Terminology).
+
+The [PDF Manual](https://wiki.rusefi.com/book.pdf) covers some wiki basics. To
+contribute or develop hardware, see [Help Out](HOWTO-help-rusEFI) and the
+[hardware pages](Hardware). rusEFI is GPL open-source software; contributions
+are welcome.
 
 ## What is rusEFI for?
 
@@ -66,24 +90,6 @@ The unsupported features listed here are all things that would be amazing to see
 |-------------------------------------------------------------|---------|
 | Hundreds of rusEFI units produced                           | ✓       |
 | We've lost track of how many vehicles are running on rusEFI | ✓       |
-
-## Get Started
-
-Thinking of doing an engine control project? You have stopped by the correct place. The rusEFI project has many options that can likely help you out. We have several forum members with a wide variety of skills that are often willing to help people out. We have several hardware options as well. If a feature doesn't exist, inquire in the forums and it is likely that we can develop the feature. Or if you feel like giving something back, you can develop it yourself and share it with others.
-
-[PDF Manual](https://wiki.rusefi.com/book.pdf) - contains some of the basic content from this wiki
-
-[Quick Start](HOWTO-quick-start)
-
-New to tuning? [Download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
-and follow the [rusEFI tuner guide](Console). For professional/advanced workflows,
-TunerStudio provides tuning tools and MegaLogViewer provides log analysis.
-
-[Get Running](HOWTO-Get-Running)
-
-[Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
-
-[Help Out](HOWTO-help-rusEFI)
 
 ## rusEFI in action
 

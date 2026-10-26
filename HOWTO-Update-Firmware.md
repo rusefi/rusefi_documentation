@@ -1,10 +1,21 @@
 # How to Update Firmware
 
-Disconnect it from the vehicle. Use caution.
+This guide updates the software on your ECU. Updating rusEFI tuner on your
+computer does not update the ECU.
 
 <!-- this URL is hard-coded in rusEFI tuner splash screen MAKE SURE NOT TO RENAME -->
 
-[Download the rusEFI bundle](Download) for your hardware.
+## Before updating
+
+- Save a copy of the current tune on your computer before starting.
+- Confirm your ECU model and chosen [firmware channel](Release-Snapshot-Latest-firmware).
+  The standard Windows installer uses snapshots for updates; use the matching
+  Release/LTS bundle if you want to remain on that channel.
+- Use stable power and a reliable USB connection. Keep both connected until
+  the update and any settings conversion finish.
+
+For board-specific files, [download the bundle](Download) for your ECU. Recovery
+mode is not needed to install the application or make a first connection.
 
 ## Windows
 
@@ -15,10 +26,25 @@ to use its firmware channel. Starting the installed universal application does
 not select firmware from another bundle you downloaded. Existing launcher
 filenames containing `updater` or `console` are unchanged.
 
-Choose __Update ECU Firmware__ after selecting the update mode appropriate for
-your board. Check [Release vs. Snapshot](Release-Snapshot-Latest-firmware) first
-if you need to remain on Release/LTS firmware rather than the installer's default
-snapshot channel.
+1. Connect the ECU and open __Update Firmware__ in the startup window, or the
+   __Device__ tab if rusEFI tuner is already open.
+2. Use the normal update button and follow the prompts. Its label depends on
+   the connection and update mode. Use OpenBLT where supported; the options
+   depend on your ECU and bundle. Use manual recovery only when your board's
+   instructions require it.
+3. Wait for the update and any settings conversion to finish. Keep power and
+   USB connected, then check the result below.
+
+## Check the result
+
+- Read the update report and any settings-conversion warnings. Some settings
+  may need to be entered again.
+- Check that rusEFI tuner reconnects and shows the firmware version you wanted.
+- Check the settings before using the ECU again. If you use
+  TunerStudio, also check its [definition file](#update-tunerstudio-definition).
+
+If the update fails or the ECU does not reconnect, save the error or report and
+use [Troubleshooting](#troubleshooting). Do not try erase or recovery options at random.
 
 ## Compare downloaded firmware
 
@@ -32,9 +58,18 @@ launch the application from your Release/LTS bundle to use that bundle's channel
 
 ## Linux
 
-same steps as Windows!, the preferred path is using OpenBLT updates, not DFU
+Follow the [Windows update steps](#windows). USB-serial OpenBLT also works on
+Linux with a supported ECU and bundle, using 64-bit Java. OpenBLT over CAN is a
+separate option that requires Windows and PCAN.
 
-DFU is a bit dangerous. At some point we've decided not to include .DFU files into the bundles.
+Linux DFU programming uses `dfu-util`. Use it only when your board's instructions
+call for it, not just because a normal update failed.
+
+### Advanced: legacy DFU procedure
+
+Use these commands only if your board's procedure calls for a compatible
+`rusefi.dfu` file. Many bundles do not include `.dfu` files. Do not substitute
+another image without the correct instructions.
 
 You will need dfu-util:
 
@@ -55,19 +90,37 @@ dfu-util -a 0 -D rusefi.dfu
 
 ## DFU mode
 
-These days normal firmware update should be happening via more modern OpenBLT approach. We only use DFU in case of emergency. It shouldn't blink in DFU mode. When in DFU mode, we expect to see "STM32 BOOTLOADER" in device manager.
+DFU is for advanced programming and recovery. Use OpenBLT for normal updates
+where supported, or DFU when your ECU's instructions require it.
+
+In DFU mode, the normal firmware heartbeat is not running. On Windows, the
+expected device name with the current driver is "STM32 BOOTLOADER". LED layouts
+vary by board; see [LED states](LED-states) and your board's documentation.
 
 <img width="228" alt="image" src="https://github.com/user-attachments/assets/1c3fb5cb-5eb7-4a7f-974e-6f82bd912f65" />
 
 ## Troubleshooting
 
-Does blue LED close to main processor blink? If nothing is blinking after power cycle, things are pretty broken. Next step is power cycling while holding "PROG" button to enter STM32 DFU mode.
+1. Save the error and report. Note your ECU model, firmware version if known,
+   bundle/channel, and whether it reconnects.
+2. Check power, USB, and your board's [LED states](LED-states). Note the blue
+   heartbeat and red status LEDs if fitted; LEDs alone do not explain the fault.
+3. If your board requires DFU recovery, follow its instructions. Some boards
+   enter DFU by holding __PROG__ during power-on; check yours first.
+4. If the device still does not appear or you are unsure what to do, stop and
+   ask for [support](Support) with the details above.
 
-What's the status of red LED close to main processor?
+The recovery methods below can erase firmware and settings. Back up what you
+can and confirm the recovery steps for your board before trying them.
 
 ## Corrupted Option Bytes
 
-It looks like firmware versions between October 2025 and January 2026 were fragile in case of less than ideal power supply during calibration updates or firmware updates. If "STM32 BOOTLOADER" does not appear in device manager it should be there, the only next step is ST-LINK restoration via TC-2030 programming cable.
+Firmware versions between October 2025 and January 2026 were reported to be
+fragile with poor power during calibration or firmware updates. If documented
+DFU recovery cannot make "STM32 BOOTLOADER" appear, ST-LINK restoration may be
+needed. This is a specialist recovery procedure; the referenced procedure uses
+a TC-2030 programming cable. Confirm the appropriate connection for your board
+before proceeding.
 
 Some technical details at https://github.com/rusefi/rusefi/issues/8926
 
@@ -75,7 +128,10 @@ Some technical details at https://github.com/rusefi/rusefi/issues/8926
 
 ### Q: Device is under Read Out Protection or Target is held under reset
 
-A: sometimes write operations glitch and lock the unit. You would need to enable DFU mode, and then run ``console\STM32_Programmer_CLI\bin\stm32-remove-read-out-protection.bat`` batch file, and then manually flash firmware in DFU mode.
+A: Removing protection can erase firmware and settings. Check the cause and
+recovery steps with your board's manual or support first. The advanced procedure
+uses DFU mode and ``console\STM32_Programmer_CLI\bin\stm32-remove-read-out-protection.bat``,
+then manual firmware programming in DFU mode.
 
 *__Q:__ I got "DRIVER ERROR"*  
 __A:__ In rusEFI tuner please hit "Device Manager". When ECU gets into DFU mode (blue LED stops blinking) you are expected to see a "STM32 Bootloader" device. If you see "STM device in DFU mode", please uninstall it and remove the old driver.
@@ -96,7 +152,9 @@ ST-LINK is an advanced mode of firmware update which requires ST-LINK device, ei
 
 ## Update TunerStudio Definition
 
-Once you have updated your firmware, you also need to update your TunerStudio definition so it is able to communicate properly. A happy installation of TunerStudio will download the current .ini file automatically!
+This section applies only if you use TunerStudio. After updating firmware,
+TunerStudio needs the matching ECU definition (`.ini` file) to communicate
+properly. It can normally download the matching definition automatically.
 
 If you chose to do it manually, you can find the .ini file in the USB storage device that rusEFI board presents to your computer, or in the [rusEFI bundle](Download). You can also look it up online from the firmware signature - see [.ini Lookup Logic](INI-lookup-logic).
 
