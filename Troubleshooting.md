@@ -1,8 +1,23 @@
 # Troubleshooting
 
-This page is a starting point for diagnosing common rusEFI problems. It gathers the troubleshooting information that lives on the individual topic pages so you can find it from one place. Pick the symptom below that matches what you are seeing.
+Use this page to find help for common rusEFI problems. Pick the symptom below
+that matches yours. You can start even if you cannot connect or collect a log.
 
-It helps to have rusEFI tuner and/or TunerStudio connected first, so you can read live data and logs while you diagnose. See [rusEFI tuner](Console) and [TunerStudio Connectivity](Tunerstudio-Connectivity). When asking the community for help, attach a log — see the [Logging Guide](Logging-Guide) and [Support & Community](Support).
+| Symptom | First check | Next route |
+|---|---|---|
+| Cannot connect | Check your application's connection setup and the board's documented LED state. | [rusEFI tuner connection help](Console#why-wont-rusefi-tuner-connect-to-my-ecu), [TunerStudio connectivity troubleshooting](Tunerstudio-Connectivity#troubleshooting-tuner-studio-connectivity), or [LED states](LED-states) |
+| Engine will not start | Check engine setup, trigger, and timing in order. | [First-start roadmap](HOWTO-Start-An-Engine#first-start-roadmap) |
+| Trigger or synchronization error | Check trigger input diagnosis and configuration. | [Trigger troubleshooting](Trigger#troubleshooting-trigger-input) |
+| Firmware update or recovery problem | Start with the update troubleshooting steps. | [Firmware update troubleshooting](HOWTO-Update-Firmware#troubleshooting) |
+| Sensor reading looks wrong | Identify the sensor and check its wiring, input assignment, and calibration. | [Sensors and Calibration](Sensors-and-Calibration) |
+| Output does not work as expected | Check the output assignment and wiring against your ECU documentation before testing it. | [Bench testing precautions and checks](Bench-Testing) |
+| Error code or warning | Look up the code and check whether engine protection acted. | [Error codes](Error-Codes) and [Engine Protection](Engine-Protection) |
+| CAN or external device problem | Check CAN usage and the connection route in use. | [CAN Bus](CAN) or [TS over CAN](TS-over-CAN) |
+
+If you can connect, use rusEFI tuner or TunerStudio to view live data and logs;
+see [rusEFI tuner](Console) and [TunerStudio Connectivity](Tunerstudio-Connectivity).
+When asking for help, share a log if you have one — see the [Logging Guide](Logging-Guide)
+and [Support & Community](Support). You do not need a log to troubleshoot a connection problem.
 
 ## Can't connect to the ECU
 

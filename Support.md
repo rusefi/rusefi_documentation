@@ -30,7 +30,7 @@ Before getting in touch for some assistance there are a couple of things to know
 
 Before asking for help, please search the wiki and the [forum](https://rusefi.com/forum/search.php) for a solution to your problem. Reading through the [FAQs](Pages-FAQ-and-HOWTO) may also help you.
 
-For trigger or synchronization problems, follow the [trigger evidence matrix](Trigger#evidence-matrix). Share the tune and operating log from the same attempt, identify the failure time, and include the board/firmware details and relevant captures. Screenshots help explain a problem; also attach the original log and capture files when available.
+For trigger or synchronization problems, follow the [trigger evidence matrix](Trigger#evidence-matrix). If available, share the tune and log from the same attempt, note when it failed, and include board/firmware details and relevant captures. Screenshots help explain the problem; attach the original files when available.
 
 If you still need direct help then please have a read of the information below; help us to help you.
 
@@ -57,17 +57,16 @@ Screenshots are an easy way to add helpful information to your request for suppo
 
 Snipping Tool, which is included on your PC if you have Windows 10 or newer, and [ShareX](https://getsharex.com/) can take screen recordings in addition to screenshots.
 
-Please collect the below information before requesting support in the forums. Also please include this each time you post about a problem. This can all be collected in a zip file, or done as individual files and attached to your forum support request. Please keep in mind that you are seeing this and you have a lot of information which those of us in the forum do not have. Things that may seem simple to you may be complicated for those of us who have not physically seen what you have, or have not seen the steps you have taken to get to the problem you are faced with.
+These details can help others understand your setup. Share what you have; do not wait to ask if you are missing something. Attach files individually or in a zip file. Details that seem obvious to you may help someone who has not seen your setup.
 
-- What is the basic problem? This would be something like, engine does not start, cannot connect Tuner Studio, Magic smoke has come out, or something similar. A video on YouTube can be helpful for this as well.
-- Please provide a screenshot of rusEFI tuner. This tells us a lot about what firmware you are using, and the status of your software. Also please include the application's border as that indicates information as well.
-- Please provide a screenshot of Tuner Studio. Just like rusEFI tuner, this indicates a lot about your setup and which pieces of software you are using. Also please include the Tuner Studio border as that indicates information as well.
-- Please provide a picture of your physical setup. Seeing how the wires are connected tells us allot about how the hip bone is connected to the leg bone, etc. It also tells us if you have connected the leg bone to the shoulder bone.
-- Please provide a copy of your logs, or specify NA for this.
-- Please provide a copy of your tune, or specify NA for this.
-- Please tell us if you have updated your discovery firmware with the STLink tool. This is not the rusEFI firmware, but the discovery firmware.
-- Please tell us if you have installed the VCP drivers.
-- Please indicate your software pieces, commonly as noted below. The most common platform and the platform used by the primary software developer is Windows, so you are most likely to get the best support with a native Windows environment.
+- Describe the problem, such as an engine that does not start, inability to connect Tuner Studio, or smoke from the hardware. A YouTube video can help explain it.
+- If available, include a rusEFI tuner screenshot showing firmware and software status. Include the application's border too.
+- If available, include a Tuner Studio screenshot with its application border to show your setup and software.
+- If useful and available, include a picture of your physical setup and wiring.
+- Attach logs and a tune if available; otherwise, you can note that they are not available.
+- If relevant, say whether you updated your discovery firmware with the STLink tool. This is not the rusEFI firmware.
+- If relevant, say whether you installed the VCP drivers.
+- List the software you use, as shown below. Windows is the most common platform and may be easiest for others to support.
 
 Tell us about your engine setup. Something like the below.
 

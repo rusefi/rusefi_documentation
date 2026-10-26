@@ -20,7 +20,7 @@ Air Intake Temperature
 
 <details markdown="1"><summary><u>APP</u></summary>
 
-Accelerator Pedal Position - the sensor on the pedal itself in a drive-by-wire setup. Same as PPS. See also DBW, ETB
+OEM term for accelerator pedal position. rusEFI calls the sensor a Pedal Position Sensor (PPS). See also DBW, ETB
 </details>
 
 <details markdown="1"><summary><u>ATDC</u></summary>
@@ -75,7 +75,7 @@ Compression Ratio
 
 <details markdown="1"><summary><u>DBW</u></summary>
 
-Drive By Wire - the throttle is opened by a motor under ECU control instead of a cable from the pedal. See also ETB, APP
+Drive By Wire - the throttle is opened by a motor under ECU control instead of a cable from the pedal. See also ETB, PPS
 </details>
 
 <details markdown="1"><summary><u>DFU</u></summary>
@@ -299,7 +299,7 @@ Plug-and-Play
 
 <details markdown="1"><summary><u>PPS</u></summary>
 
-Pedal Position Sensor
+Pedal Position Sensor - measures how far the driver presses the accelerator pedal in a drive-by-wire setup. See also DBW, ETB
 </details>
 
 <details markdown="1"><summary><u>Primary Coil</u></summary>

@@ -1,5 +1,9 @@
 # How to DFU
 
+DFU is for advanced programming and recovery. For normal updates, start with
+[How to Update Firmware](HOWTO-Update-Firmware). A connection problem alone does
+not mean you need DFU.
+
 DFU is Device Firmware Update mode - that's a way to update firmware via the same USB cable you use for rusEFI communication. DFU is a feature of the STM32 factory bootloader and we expect that any rusEFI board can be updated or reset via the same USB connector as the one you use to communicate with your rusEFI ECU. Please let us know if that's not the case!
 
 *Auto DFU* is when rusEFI tuner switches your rusEFI device into DFU mode.
@@ -22,13 +26,18 @@ __A:__ This image says that you do not have STM32 Bootloader driver installed.
 __A:__ No. We have a small portion of STM32CubeProgramer embedded into rusEFI tuner, even the drivers! Make sure to download a complete fresh bundle, then use the "Install Drivers" button to automatically extract the silent_st_drivers2.exe archive and attempt to auto-install. If automatic driver install did not happen try pointing the Device Manager driver wizard at drivers\silent_st_drivers\DFU_Driver folder within the uncompressed rusEFI bundle.
 
 *__Q:__ I am using the buttons but it simply does not work?*  
-__A:__ We have a report of this [on the forum](https://www.rusefi.com/forum/viewtopic.php?p=42317#p42317). For now, please keep trying!
+__A:__ See this [forum report](https://www.rusefi.com/forum/viewtopic.php?p=42317#p42317). Save the error, check your board's instructions and USB driver, then ask for [support](Support) if needed. Do not try programming or erase options at random.
 
 *__Q:__ How do I do this in macOS or Linux?*  
-__A:__ rusEFI tuner firmware functionality currently runs on Windows only.
+__A:__ The DFU programming interface supports Windows and Linux; Linux uses
+`dfu-util`. See [the Linux update guidance](HOWTO-Update-Firmware#linux).
+The application's DFU programming interface does not support macOS; use a
+supported host and the recovery procedure documented for your ECU.
 
 *__Q:__ Do you have any ST-Link provisions?*  
-__A:__ Some boards have Tag-Connect-TC2030 upwards three of those! Some boards have an unofficial (?) ST-Link V2 pinout. Both are intended for software developers while debugging issues, those are not intended for firmware update/recovery.
+__A:__ Some boards have Tag-Connect-TC2030 or ST-Link connections for development
+and advanced recovery, not normal updates. Use your board's manual for the
+pinout and procedure.
 
 ### Corrupted option bytes?
 

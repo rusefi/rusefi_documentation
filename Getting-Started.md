@@ -1,10 +1,18 @@
 # Getting Started
 
-This page is an ordered roadmap for going from zero to a running, tunable rusEFI setup. Each step links to the detailed page for that topic. If you already have your ECU and just want the short version, see the [Quick Start](HOWTO-quick-start).
+Use this roadmap to plan your rusEFI installation. Each stage links to a guide.
+If you already have your ECU, start with [Quick Start](HOWTO-quick-start).
+
+| Where you are now | Your next step |
+| --- | --- |
+| Still planning or choosing parts | Start at [Choose your hardware](#1-choose-your-hardware). |
+| ECU has arrived; not connected yet | Follow [Quick Start](HOWTO-quick-start) to connect. |
+| Connected and ready to configure an installation | Follow the [universal ECU](HOWTO-Get-Running) or [plug-and-play ECU](HOWTO-Get-Running-PnP) guide. |
+| Something is not working | Start with [Troubleshooting](Troubleshooting); ask for help before continuing past a failed safety check. |
 
 > New to the project? Skim the [rusEFI overview on the Home page](Home) first to see what rusEFI is and whether it fits your project.
 
-> Hitting unfamiliar abbreviations? EFI documentation is dense with them — CLT, MAP, TPS, ETB, baro, VVT and so on. They are all spelled out in [Acronyms & Terminology](Vault-Of-Terminology).
+> Need a term explained? See [Acronyms & Terminology](Vault-Of-Terminology).
 
 ## 1. Choose your hardware
 
@@ -19,24 +27,32 @@ See the [Hardware overview](Hardware) for the supported boards, the [ECU Compari
 
 ## 2. Get the software
 
-- [Download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
-  for a beginner-friendly way to connect and tune. Start at the [rusEFI tuner
-  guide](Console).
-- [Download the rusEFI bundle](Download) for your specific ECU when you need its
-  firmware, definition file, drivers, or other board-specific utilities.
+**Recommended:** [download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe),
+then follow [Quick Start](HOWTO-quick-start). It includes tuning and log viewing,
+so you do not need another application to connect.
+
+Other options:
+
+- Use a [board-specific bundle](Download) for Release/LTS firmware or other
+  board-specific files. You do not need both downloads for a first connection.
 - TunerStudio is a supported professional/advanced alternative. See the
   [TunerStudio project guide](HOWTO-create-tunerstudio-project) for its setup.
 
 ## 3. Update the firmware
 
-Official boards ship with firmware already installed, but it should be updated before you start.
+Firmware is the software running on the ECU. Official boards ship with it
+installed, so you can connect without flashing the ECU.
+
+Before setting up the engine, check your board's update guidance and save a copy
+of any existing tune. If needed, follow [How to Update Firmware](HOWTO-Update-Firmware).
 
 Check [Release vs. Snapshot](Release-Snapshot-Latest-firmware) before updating:
 the standard universal installer uses snapshots by default. Use the appropriate
 Release/LTS bundle if you want to remain on that firmware channel.
 
 - [How to Update Firmware](HOWTO-Update-Firmware)
-- [How to DFU](HOWTO-DFU) — used for updates and for recovery if a normal update does not work.
+- [How to DFU](HOWTO-DFU) — for advanced programming or recovery, not for a first
+  connection. If a normal update fails, check the troubleshooting steps first.
 
 ## 4. Wire it up (universal ECUs)
 
@@ -52,10 +68,13 @@ If you are using a universal ECU, plan and build the engine wiring, including po
 
 ## 6. Configure the essentials
 
-Set up the parts that must be correct before the engine can run — most importantly the trigger.
+Before starting, follow your installation guide to check sensor readings,
+output assignments, and engine position sensing. The **trigger** is the crank/cam
+sensor pattern the ECU uses to determine engine position and speed.
 
 - [Trigger Configuration Guide](Trigger-Configuration-Guide)
 - [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset)
+- [Sensors and Calibration](Sensors-and-Calibration)
 
 The Get Running guides below walk through sensor and output configuration in context.
 
@@ -74,7 +93,7 @@ Follow the guide that matches your hardware:
 
 ## 9. Log and share
 
-- [Logging Guide](Logging-Guide) — how to record proper log files (essential for any troubleshooting or tuning help).
+- [Logging Guide](Logging-Guide) — record engine data to help with tuning and diagnosis.
 - [rusEFI tuner Log Viewer](Console#log-viewer) — open and inspect saved logs without another application or an ECU connection.
 - [rusEFI Online](Online) — share and compare your tune and logs with the community.
 
@@ -82,3 +101,6 @@ Follow the guide that matches your hardware:
 
 - [Troubleshooting](Troubleshooting) — a symptom-based starting point for diagnosing common problems.
 - [Support & Community](Support) — where to ask for help.
+
+If you cannot connect, share the error message and what you tried. You can ask
+for help without a recording.

@@ -2,6 +2,19 @@
 
 One of the toughest aspects of any new ECU install is the first start of a new engine. It is an issue that a lot of users find, so hopefully this comprehensive first-start guide will help by clarifying the purpose of the settings and providing some best-practice procedures.
 
+## First-start roadmap
+
+Connecting to the ECU does not mean the engine is ready to start. Check these
+items first:
+
+1. **Before cranking:** check sensor calibration, fuel supply, injector and coil settings, output wiring, and the starter.
+2. **With fuel and ignition disabled:** crank and check the trigger pattern and RPM. If no trace appears, use the checks below and [trigger troubleshooting](Trigger#troubleshooting-trigger-input).
+3. **Before enabling fuel:** confirm the engine's TDC position and check fixed ignition timing with a timing light. Follow [Setting Trigger Offset](How-Do-I-Set-My-Trigger-Offset).
+4. **Try starting only after the checks pass.** If it does not start, save the tune, log, and trigger capture for diagnosis. Do not change unrelated settings at random.
+
+**Keep fuel disabled during trigger and timing checks.** Follow the output-test
+precautions and your ECU's wiring and output limits. If unsure, stop and ask for help.
+
 Before you can even try to start the engine, you have to get some of the basics right:
 
 ## Sensor Requirements
@@ -26,7 +39,8 @@ Again, you need to be sure you have the correct information on your injectors an
 
 Injectors and ignition coils need to be bench tested to check that each one is wired and set to the correct ECU channel. This is critical: incorrect wiring or channel setting is like having the HT leads in the wrong order. You will fuel and spark the wrong cylinders.
 
-See [Bench Testing Outputs](Bench-Testing) for how to do this, from TunerStudio or from rusEFI tuner.
+See [Bench Testing Outputs](Bench-Testing) for how to do this from rusEFI tuner,
+or from TunerStudio if you use that alternative.
 
 ## Cranking Requirements
 
@@ -42,15 +56,19 @@ Information on your crank trigger wheel is really really important, knowing the 
 
 Check the [trigger input assignments](Trigger#trigger-input-assignments) and configure the inputs and expected pattern using the [Trigger Configuration Guide](Trigger-Configuration-Guide) and your ECU's wiring guide before cranking.
 
-To do this go into TunerStudio and disable the fuel injection and the ignition under each of the settings tabs.
+Disable fuel injection and ignition before this test, whichever application
+you use. In TunerStudio, use the fuel-injection and ignition tabs. If unsure
+how to disable them, ask for help before cranking.
 
-Next go into the high-speed logger and simply crank the engine. rusEFI tuner is the best tool for this job as it has a really good logger in the "engine sniffer" tab.
+Next open the [Engine Sniffer](Console#engine-sniffer-chart) tab in rusEFI tuner
+and capture the crank-trigger pattern during a signal-only cranking test.
 
 Look for a trace matching your expected trigger pattern. If the trace is empty, compare `triggerinfo` counters before and during cranking. If counters increase, check that capture is enabled, the display is not paused, and cranking RPM is below the configured Engine Sniffer Threshold. If counters do not increase, check sensor power, wiring, and the configured input. See [Troubleshooting Trigger Input](Trigger#troubleshooting-trigger-input).
 
 Hopefully you have grey bars showing your crank pattern. If you're unsure of the pattern it makes a lot of sense at this point to take a screenshot and compare it to the list of rusEFI-compatible crank trigger patterns found in [All Supported Triggers](All-Supported-Triggers).
 
-TunerStudio and rusEFI tuner should show correct cranking RPM, usually between 150 and 300 with a fully charged battery.
+rusEFI tuner, or TunerStudio if you use it, should show correct cranking RPM,
+usually between 150 and 300 with a fully charged battery.
 
 If you need help, collect the log, tune, and relevant captures listed in the [trigger evidence matrix](Trigger#evidence-matrix).
 

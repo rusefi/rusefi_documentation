@@ -13,27 +13,12 @@ Bench testing also confirms the opposite: that an output which does nothing is g
 - **Ignition coils produce high voltage.** If you are checking for a spark, ground a spare plug properly and keep clear of it.
 - **Relays and pumps will actually run.** Make sure nothing is going to be damaged by a fuel pump, fan or starter energising unexpectedly.
 
-## Testing from TunerStudio
-
-The buttons live under **Controller → Bench Test & Commands**. [Get Running with a Plug-and-Play ECU](HOWTO-Get-Running-PnP) contains a step-by-step walkthrough of this screen, including which spark outputs to expect on a wasted-spark four cylinder — that walkthrough applies equally to a wire-in installation.
-
-There is also a **stop engine** button on the same screen, which is the correct way to stop a running engine without cutting power to the ECU.
-
-### Speedometer output
-
-Under **Outputs → Speedometer output**, configure the **Output** pin and set
-**Test frequency** in Hz (100 Hz by default). Press **Test Speedo** to drive that
-output at the requested frequency for three seconds, even while the vehicle is
-stationary. It then resumes normal output based on vehicle speed and **Pulse per
-km**. A test frequency of 0 pauses pulses for those three seconds. Pressing the
-button again restarts the three-second test. The test requires
-a configured, initialized output pin.
-
 <a id="testing-from-the-console"></a>
 
 ## Testing from rusEFI tuner
 
-The same tests are available as console commands, which is useful when you want a specific repeat count or a longer pulse than the buttons give you. Times are in milliseconds.
+Open rusEFI tuner's [Messages tab](Console#messages) and enter the commands below.
+Check each channel against your wiring and settings first. Times are in milliseconds.
 
 ### Injectors and ignition
 
@@ -71,6 +56,22 @@ The cylinder and coil numbers are the human-facing numbers, so `1` is cylinder o
 | `update_wideband` | hw index | Update module firmware |
 
 These require CAN support in the build.
+
+## Testing from TunerStudio
+
+In TunerStudio, open **Controller → Bench Test & Commands**. See [Get Running with a Plug-and-Play ECU](HOWTO-Get-Running-PnP) for the basic checks; the precautions also apply to wire-in ECUs. Use your wiring and settings to identify injector and spark channels, not just cylinder count.
+
+There is also a **stop engine** button on the same screen, which is the correct way to stop a running engine without cutting power to the ECU.
+
+### Speedometer output
+
+Under **Outputs → Speedometer output**, configure the **Output** pin and set
+**Test frequency** in Hz (100 Hz by default). Press **Test Speedo** to drive that
+output at the requested frequency for three seconds, even while the vehicle is
+stationary. It then resumes normal output based on vehicle speed and **Pulse per
+km**. A test frequency of 0 pauses pulses for those three seconds. Pressing the
+button again restarts the three-second test. The test requires
+a configured, initialized output pin.
 
 ## What to confirm
 

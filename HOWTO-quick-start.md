@@ -1,28 +1,54 @@
 # Quick Start
 
+This guide helps you connect to your ECU. It does not check whether the engine
+is safe to start; wiring, sensors, and ignition timing need separate checks.
+
+## Before you begin
+
+* Check your ECU model and its instructions for power and wiring.
+* For the recommended setup, use a Windows computer and USB data cable.
+* Keep the engine stopped. You do not need to test outputs or change the tune to connect.
+
 ## Minimal Setup
 
-All official units are shipped with firmware installed. Modern Windows comes with the necessary drivers.
+Official units ship with firmware installed. Connect first; installing the
+Windows application does not update ECU firmware.
 
 1. [Download rusEFI tuner for Windows](https://rusefi.com/installer/rusEFI_Universal_Updater.exe)
    and start __rusEFI tuner__ from the desktop shortcut or Windows Start menu.
 2. Connect your ECU over USB. The application discovers the ECU; install the
    offered drivers if needed.
-3. Open __Tuning__ to view and edit settings. When connected, edits are sent to
-   live ECU RAM. __Burn to ECU__ requests saving them to persistent ECU memory;
-   stop the engine and confirm the save before switching power off.
-   __File > Save Tune__ saves a tune file on your computer instead. For logging,
-   use __Logging > Start__ to record a `.mlg` file, or __Start As…__ to choose its location.
+3. Check that the application connects and shows ECU information. If not, see
+   [Troubleshooting](Troubleshooting) before changing settings.
 
-TunerStudio is also supported as a professional/advanced alternative. Its
-separate [project setup guide](HOWTO-create-tunerstudio-project) covers project
-creation and automatic definition detection.
+__You are connected when:__ rusEFI tuner shows the ECU identity and live data.
+See the [rusEFI tuner guide](Console) for help with the application.
 
-Continue reading for more detailed setup steps.
+### When you are ready to change settings
+
+Save a copy of the existing tune first. Change only settings you understand;
+connecting does not mean the engine is safe to start.
+
+Open __Tuning__ to view and edit settings. When connected, edits are sent to
+live ECU RAM. __Burn to ECU__ requests saving them to persistent ECU memory;
+stop the engine and confirm the save before switching power off.
+__File > Save Tune__ saves a tune file on your computer instead. For logging,
+use __Logging > Start__ to record a `.mlg` file, or __Start As…__ to choose its location.
 
 ## Waiting for your ECU to arrive?
 
-1. [Download the rusEFI bundle](Download) for your ECU.
+Before it arrives, read your ECU's manual and installation guide. You can also
+introduce yourself, describe your project, and ask questions on the
+[rusEFI forums](https://rusefi.com/forum).
+
+The Windows installer is recommended. Use the alternative workflow below only
+if you need a board-specific Release/LTS bundle or its tools.
+
+## Alternative setup: downloaded bundle or TunerStudio
+
+Skip this section if you connected successfully with the Windows installer.
+
+1. [Download the rusEFI bundle](Download) for your ECU and chosen firmware channel.
 
 2. Extract the bundle and launch rusEFI tuner (the application may still be
    labeled __Console__ in some bundle contents). Use __Install Drivers__ to
@@ -31,16 +57,17 @@ Continue reading for more detailed setup steps.
 
     ![console](Images/rusEFI_console/rusEFI_console_start_screen.png)
 
-3. Get friendly on the [rusEFI forums](https://rusefi.com/forum). Introduce yourself, start a build thread, and ask questions.
-
-4. If you prefer the professional/advanced alternative, [install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install)
-   and [create a project](HOWTO-create-tunerstudio-project#creating-a-project).
+TunerStudio is an optional alternative. To use it, [install TunerStudio](HOWTO-create-tunerstudio-project#download-and-install)
+and [create a project](HOWTO-create-tunerstudio-project#creating-a-project).
 
 ## Once your ECU has arrived
 
-Your board comes with rusEFI firmware installed on it, but it should be updated.
+Connect first, then follow your board's setup instructions before preparing the
+engine. If you need a firmware update, save your tune and follow
+[How to Update Firmware](HOWTO-Update-Firmware). The Windows installer uses
+snapshot firmware; use a Release/LTS bundle to stay on that channel.
 
-[How to update your firmware](HOWTO-Update-Firmware)
+Installing the application does not update the ECU firmware.
 
 ## Getting Your Car Running
 
@@ -54,15 +81,17 @@ Follow the [Get Running With a Plug-and-Play ECU guide](HOWTO-Get-Running-PnP).
 
 ## Tuning
 
-[Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI)
+See the [rusEFI tuner guide](Console#editing-settings) to edit and save settings.
+Complete the installation and first-start checks first; application controls
+do not replace a safe engine calibration.
+
+If you use TunerStudio, see [Get Tuning](Get-tuning-with-TunerStudio-and-your-rusEFI).
 
 ## Logging
 
-🚨 It's impossible to overstate the importance OF USING CORRECT TYPE OF LOG FILE 💥
-
-Any troubleshooting begins with logs. One of rusEFI's powers is the amount of data points available for logging!
-
-Shaky videos will not do. Even high-resolution screenshots wil not do—*it has to be a proper log file*.
+An engine log records readings over time. For running or cranking problems,
+share the original log and tune used during recording. Screenshots or videos
+alone do not show all the data.
 
 Use the __Logging__ menu in rusEFI tuner to record a `.mlg` log, or use
 TunerStudio's built-in logger if you tune with TunerStudio. For instructions
@@ -79,7 +108,9 @@ an optional professional/advanced analysis tool, not a prerequisite for beginner
 
 ## Share Your Tunes and Logs
 
-You will definitely need your tune and log online for any community discussion.
+For engine problems, share your tune and a relevant log if you have one. If you
+cannot connect or record, describe the problem and include the exact error. You
+can still ask for help.
 
 [rusEFI Online](Online) is the platform to share and compare your tune with other tunes!
 

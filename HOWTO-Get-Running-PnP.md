@@ -1,5 +1,20 @@
 # Get Running With a Plug-and-Play ECU
 
+Check that your ECU matches your vehicle, then follow its installation guide.
+Keep the engine stopped while checking sensors and testing outputs. Complete
+the checks in [the first-start guide](HOWTO-Start-An-Engine) before trying to start.
+
+[rusEFI tuner](Console) is recommended. TunerStudio menu steps below are an
+alternative; the safety checks apply to both applications.
+
+**Before starting:**
+
+1. With ignition on, check that sensor and throttle readings look right.
+2. Calibrate the sensors, save the changes, and safely test each output.
+3. Follow the first-start guide to check trigger signals and ignition timing.
+
+If a check fails, fix it or ask for help before moving on.
+
 ## Warm it Up
 
 If possible, run your car using your stock ECU to warm it up. This may make it easier to start, especially when it's cold outside.
@@ -14,9 +29,13 @@ Turn on the ignition, but **do *NOT* start the engine!**
 
 ## Connect
 
-Connect TunerStudio to your ECU. See [the TunerStudio guide](HOWTO-create-tunerstudio-project#creating-a-project) if you haven't yet created a project in TunerStudio.
+For a first connection in rusEFI tuner, follow [Quick Start](HOWTO-quick-start).
+If you use TunerStudio, connect your project to the ECU; see
+[the TunerStudio guide](HOWTO-create-tunerstudio-project#creating-a-project)
+if you have not created one yet.
 
-Assuming [the prerequisites for sensors](HOWTO-Start-An-Engine#sensor-requirements) are met, your TunerStudio screen should come to life!
+Once connected, check the [sensor prerequisites](HOWTO-Start-An-Engine#sensor-requirements)
+and inspect the live readings in your application.
 
 You should see sensor inputs and some output values like ignition timing and dwell.
 
@@ -25,14 +44,18 @@ If things are set up properly, you should see reasonable values for:
 * Coolant Temperature (CLT)
 * Intake Air Temperature (IAT)
 * Battery Voltage (VBATT)
-* Manifold Air Pressure (MAP/MAF) (should be near 100 kPa if you're using a MAP sensor)
+* Manifold Absolute Pressure (MAP), if fitted: with the engine stopped, should be near 100 kPa
 * Throttle Position Sensor (TPS)
 
- The values may show some jitters. RPMs should be 0. Push your throttle pedal and see if you get a response. Congratulations—your rusEFI ECU can "see" your car.
+RPM should be 0 with the engine stopped. Check that throttle or pedal readings
+change when moved. For electronic throttle, follow the setup guide below.
+Connecting successfully does not mean the sensors are calibrated.
 
 ## Calibrate the Throttle
 
-Calibrate your throttle pedal.
+The TunerStudio steps below calibrate the throttle position sensor (TPS), not
+the pedal. For electronic throttle, also follow [Throttle and Pedal Sensors](Throttle-and-Pedal-Sensors)
+and the full [Electronic Throttle Body Configuration Guide](Electronic-Throttle-Body-Configuration-Guide).
 
 1. In TunerStudio, go to "Tools" -> "Calibrate TPS".
 2. Without touching the throttle, click on "Get Current" next to "Closed Throttle ADC count".
@@ -40,28 +63,53 @@ Calibrate your throttle pedal.
 
 ## Save your Changes
 
-Save (Burn) calibration to ECU.
+Use **Burn to ECU** in rusEFI tuner or **Burn** in TunerStudio. Stop the engine
+and confirm the save before switching power off. Saving a tune file on your
+computer does not save it on the ECU.
 
 ## Test Outputs
 
-Test your outputs. Under "Controller" -> "Bench Test & Commands" you can see a lot of options for outputs you can test. Let's focus on the basic ones for now.
+Read [Bench Testing Outputs](Bench-Testing) and your ECU's wiring guide first.
+With the engine stopped, test one output at a time and check that the right
+device responds. Use your wiring and settings to identify each channel, not
+just the cylinder count. If unsure, stop and ask for help.
+
+In TunerStudio, the tests are under "Controller" -> "Bench Test & Commands".
 
 ### Spark and Fuel
 
-First, if your car's fuel pump is controlled by the ECU, test "Fuel Pump". You should hear the fuel pump running.
+**Keep a suitable fire extinguisher nearby.** Injectors can spray fuel; pressure
+can remain after the pump is off. Use a fuel-safe setup for injector tests.
+Ignition coils can give a dangerous shock:
+use a properly grounded test plug and keep clear. Test fuel and spark separately,
+following the [bench-testing precautions](Bench-Testing#before-you-start).
 
-Then move on to spark. Here it depends on how your car is set up. If you have a 4-cylinder with wasted spark (which is likely the majority of users), you will likely be using "Spark #1" and "Spark #3". When you click the test button, you should hear the corresponding ignition coil firing. If you can't hear the spark, you may want to pull a spark plug (or use a spare) and hook it up to the spark plug connector and ground it. Test again and you should see a spark arcing. Don't shock yourself.
+* If the ECU controls the fuel pump, the "Fuel Pump" test should operate that
+  pump.
+* Check that each spark test fires the right coil or cylinder pair for your setup.
+* Check that each injector test operates the right injector or bank.
 
-Now it's time to test your injectors. Again, this depends on your vehicle. Most cars will at least have two banks of injectors. So you should definitely hear injectors firing when you're testing "Injector #1" and "Injector #2". If you have full-sequential fuel, you should try as many injectors as your engine has cylinders. **Fuel is flammable. Have a fire extinguisher nearby just in case.**
-
-That's the basic outputs tested. With this, you should be able to get the engine to run. You can go ahead and test the other outputs as well. For example: Check Engine Light, Engine Fan, AC, Cooling Fan, etc.
+You can also test outputs such as the check-engine light, fan, or A/C relay.
+Keep clear of devices that may start moving. Output tests alone do not mean
+the engine is ready to start.
 
 Close the test window. We're getting close to starting the car.
 
 ## Start it Up
 
-*If you have trouble, see [Performing A First Start On A New rusEFI Install](HOWTO-Start-An-Engine) for a more complete guide.*
+Follow [Performing A First Start On A New rusEFI Install](HOWTO-Start-An-Engine):
+check the trigger pattern with fuel and ignition disabled, then check ignition
+timing with fuel disabled as directed.
 
-Turn the ignition off and unplug the USB cable to remove all power sources from the unit, just to make sure we're in a defined state. Then reconnect the USB cable, turn on the ignition, wait for TunerStudio to come to life, and then crank the engine. You should see the RPMs jump to a positive value (typically anywhere between 200 and 600 RPM) and your engine should start. It may take a few cranks for RPMs to register. If you see RPMs in Tunerstudio, but the engine isn't starting, keep at it. It may take quite a bit longer than the stock ECU. rusEFI takes about two seconds of cranking before it can identify the position of the crankshaft, then it will fire the injectors and ignition coils. It may take more than ten seconds for the engine to catch, which seems like an eternity when cranking, but don't give up. There may be coughs and sputters. Play with the throttle a little, and it will start eventually. Post your findings to the [forum](https://rusefi.com/forum/) and we can help!
+After saving, restart the ECU as your installation guide directs and check that
+the application reconnects. USB may keep the ECU powered even with ignition off.
+
+Follow the vehicle's starting procedure and starter limits. If it does not
+start, stop and check the tune, log, and trigger capture before trying again.
+An RPM reading alone does not prove timing, fuel, or spark is correct. Do not
+keep cranking or move the throttle at random hoping it will start.
+
+If you need help, share the results on the [forum](https://rusefi.com/forum/)
+using the [support checklist](Support).
 
 We're done with the initial startup. Congratulations—you have your car running on your standalone aftermarket ECU! Now the fun really begins! 😃

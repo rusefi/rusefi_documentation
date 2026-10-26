@@ -4,6 +4,18 @@
 
 So you either have hardware underway, or are considering getting rusEFI hardware. This manual is intended for those that are using purchased hardware. If you are not, don't worry, we also encourage DIY and like hearing back from those that have. We also encourage people to use their purchased board as a starting point for a DIY effort; feel free to modify your board and we'll likely make suggestions on how to make your effort better.
 
+## Roadmap and readiness check
+
+Work through these steps before trying to start the engine:
+
+1. **Plan:** identify your ECU, sensors, outputs, and trigger pattern. Draw a wiring diagram and check it against your ECU manual.
+2. **Connect:** check wiring, power, and grounds. With ignition on and the engine stopped, open [rusEFI tuner](Console) or TunerStudio. Check sensor readings and throttle movement.
+3. **Check:** safely test the outputs, check the trigger signal, and confirm ignition timing with a timing light before enabling fuel. Follow the first-start guide below.
+4. **Start and tune:** follow [Performing A First Start On A New rusEFI Install](HOWTO-Start-An-Engine), then use [rusEFI tuner](Console#editing-settings) or [Get tuning with TunerStudio](Get-tuning-with-TunerStudio-and-your-rusEFI).
+
+**If a check fails, stop and fix it or ask for help.** Use your ECU's pinout
+and limits, not a wiring example from another board.
+
 ## Plan the Engine Wiring
 
 The engine will need wires that connect to various sensors and devices. You will need crimp tools, soldering tools, and certain electrical and mechanical skills.

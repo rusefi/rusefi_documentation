@@ -12,11 +12,22 @@ See [Unknown Trigger](Unknown-Trigger) for what to do when your trigger pattern 
 
 ## Troubleshooting Trigger Input
 
-Start with a regular TunerStudio operating log and the tune used for that attempt. Use the evidence matrix below to choose additional captures for the problem you are investigating.
+Record an engine log with [rusEFI tuner](Logging-Guide#record-review-and-share-a-log)
+and save the tune used for that attempt. TunerStudio and SD logging are
+alternatives, but fields and recording rates differ. Use the table below to
+choose any extra captures you need.
 
 ### Troubleshooting with logs
 
-For trigger synchronization problems, set TunerStudio's data rate to **Max reads per second**, then use **Data Logging** -> **Start Logging**. Capture the failing attempt and stop the log afterward. See the [Logging Guide](Logging-Guide#tunerstudio-logging) for the steps.
+In rusEFI tuner, use **Logging > Start As…** to choose a file, capture the failing
+attempt, then choose **Logging > Stop**. See the [Logging Guide](Logging-Guide)
+for recording, reviewing, and sharing the result. An operating log samples engine
+data; it does not replace a sniffer or tooth capture for individual trigger events.
+
+If you use TunerStudio for trigger synchronization diagnosis, set its data rate
+to **Max reads per second**, then use **Data Logging** -> **Start Logging**.
+Capture the failing attempt and stop the log afterward. See
+[TunerStudio logging](Logging-Guide#tunerstudio-logging) for the steps.
 
 Share the current tune with the log, identify the time of the failure, and include the ECU model/revision, firmware version, engine, trigger pattern, sensor types, and input wiring. Keep each log paired with the settings used to produce it, especially when changing trigger gap settings.
 
@@ -24,8 +35,9 @@ Share the current tune with the log, identify the time of the failure, and inclu
 
 | Evidence | What it helps diagnose | What to share and its limits |
 | --- | --- | --- |
+| rusEFI tuner operating log | Sampled engine behavior during the fault | Share the original log and matching tune. Identify the logging method and rate; available fields and rates differ between methods. This does not record every tooth edge. |
 | Regular TunerStudio operating log | RPM, battery voltage, trigger diagnostics, and engine behavior during the fault | Share the original log and matching tune. Use the maximum data rate for synchronization diagnosis. This log samples operating data; it does not record every tooth edge. |
-| rusEFI tuner or SD operating log | Engine behavior when a TS log is unavailable | Identify the logging method and rate and include the tune. Available fields and rates can differ; an SD operating log and an SD tooth log serve different purposes. |
+| SD operating log | Engine behavior recorded without a connected computer | Identify the logging method and rate and include the tune. Available fields and rates can differ; an SD operating log and an SD tooth log serve different purposes. |
 | Engine sniffer or composite capture | Basic pattern validation, edge selection, and crank/cam relationship | Include enough of the trace to show a complete engine cycle, channel labels, and the regular log/tune. Share the capture file when available; an image helps illustrate the pattern. These traces show the ECU's digital interpretation of the inputs. |
 | TunerStudio tooth log | Basic tooth-interval inspection | Share it alongside the operating log/tune. Its timing has limited precision; use regular logs for gap diagnostics and consult a developer about a suitable capture for precise replay. |
 | rusEFI tuner Messages output | Input activity and synchronization details | Save `triggerinfo` before and during cranking and relevant verbose synchronization messages. Include the log/tune so the messages can be interpreted in context. |
@@ -48,7 +60,11 @@ Use `reset_trigger` to reset the counters if needed.
 
 ![triggerinfo Example](Images/rusEFI_console/triggerinfo.png)
 
-For a signal-only cranking test, disable fuel injection and ignition in TunerStudio. Confirm the sensor's supply, ground, output type, and signal voltage using its documentation and the wiring guide for your ECU model and revision. See [Hall sensor wiring](Trigger-Configuration-Guide#hall-effect-sensors) and [VR sensor wiring](Trigger-Configuration-Guide#vr-variable-reluctance-sensors).
+Disable fuel injection and ignition before a signal-only cranking test. In
+TunerStudio, use the fuel and ignition settings. Check sensor power, ground,
+signal type, and voltage against the sensor manual and your ECU's wiring guide. See
+[Hall sensor wiring](Trigger-Configuration-Guide#hall-effect-sensors) and
+[VR sensor wiring](Trigger-Configuration-Guide#vr-variable-reluctance-sensors).
 
 Compare the input counters before and during cranking. Increasing counters confirm that events are reaching the firmware; also check that RPM and synchronization are stable. If counters do not increase, check power, sensor wiring, and the configured input against the board's pinout.
 
