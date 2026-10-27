@@ -42,6 +42,12 @@ The installed universal application uses snapshot firmware by default, even if
 your ECU currently runs Release/LTS firmware. To stay on Release/LTS, use the
 application from the matching downloaded bundle instead.
 
+For a normal update, save a tune backup, connect the ECU, and choose **Update ECU
+firmware**. Follow the prompts; when offered, **Try to keep my current tune**
+attempts to preserve it but is not a guarantee. **Update application** updates
+rusEFI tuner on your computer, not the ECU. Review the result and
+check the firmware version and settings before using the ECU.
+
 See [Release vs. Snapshot](Release-Snapshot-Latest-firmware) for help choosing a
 version or changing automatic app updates.
 

@@ -7,15 +7,17 @@ computer does not update the ECU.
 
 ## Before updating
 
-- Save a copy of the current tune on your computer before starting.
+- Stop the engine. Save a copy of the current tune on your computer before
+  starting; if you cannot connect, preserve any backup you already have.
+- Disconnect other ECUs; connect only the ECU you intend to update.
 - Confirm your ECU model and chosen [firmware channel](Release-Snapshot-Latest-firmware).
   The standard Windows installer uses snapshots for updates; use the matching
   Release/LTS bundle if you want to remain on that channel.
 - Use stable power and a reliable USB connection. Keep both connected until
   the update and any settings conversion finish.
 
-For board-specific files, [download the bundle](Download) for your ECU. Recovery
-mode is not needed to install the application or make a first connection.
+For board-specific files, [download the bundle](Download) for your ECU. Installing
+rusEFI tuner on your computer does not update the ECU.
 
 ## Windows
 
@@ -26,25 +28,45 @@ to use its firmware channel. Starting the installed universal application does
 not select firmware from another bundle you downloaded. Existing launcher
 filenames containing `updater` or `console` are unchanged.
 
-1. Connect the ECU and open __Update Firmware__ in the startup window, or the
-   __Device__ tab if rusEFI tuner is already open.
-2. Use the normal update button and follow the prompts. Its label depends on
-   the connection and update mode. Use OpenBLT where supported; the options
-   depend on your ECU and bundle. Use manual recovery only when your board's
-   instructions require it.
-3. Wait for the update and any settings conversion to finish. Keep power and
-   USB connected, then check the result below.
+1. Connect the ECU and choose __Update ECU firmware__ in the startup window or
+   the __Device__ tab.
+2. Check the ECU board and firmware channel, then follow the prompts. Leave
+   __Try to keep my current tune__ selected when offered. This attempts to
+   preserve the tune; it is not a guarantee.
+3. Keep power and USB connected while the update and any settings conversion
+   finish. Review the result and any warnings before using the ECU.
+
+__Update application__ updates rusEFI tuner on your computer, not the ECU firmware.
+
+If the ECU is detected in recovery mode, the same button changes to __Recover ECU__.
+Recovery can erase firmware and settings. Use it only when your board's
+instructions call for it; see [Recovery / emergency programming (DFU)](HOWTO-DFU).
+Manual programming options remain under __Advanced programming tools__; see
+[Advanced Programming Options](Advanced-Programming-Options) for their purpose,
+availability, and risks.
 
 ## Check the result
 
 - Read the update report and any settings-conversion warnings. Some settings
   may need to be entered again.
-- Check that rusEFI tuner reconnects and shows the firmware version you wanted.
+- When rusEFI tuner reconnects, check that it shows the firmware version you
+  wanted. If it does not reconnect automatically, reconnect manually and check
+  the version; this may be needed after programming.
 - Check the settings before using the ECU again. If you use
   TunerStudio, also check its [definition file](#update-tunerstudio-definition).
 
 If the update fails or the ECU does not reconnect, save the error or report and
-use [Troubleshooting](#troubleshooting). Do not try erase or recovery options at random.
+use [Troubleshooting](#troubleshooting). Do not try erase or recovery options at
+random.
+
+## Advanced programming options
+
+The normal __Update ECU firmware__ flow chooses a supported programming method
+for you. Use [Advanced Programming Options](Advanced-Programming-Options) only
+when your exact ECU's instructions call for a manual action. That page describes
+the actions under __Advanced programming tools__ and distinguishes manual
+programming from destructive erase and bootloader operations. For DFU recovery,
+see [Recovery / emergency programming (DFU)](HOWTO-DFU).
 
 ## Compare downloaded firmware
 
@@ -59,8 +81,9 @@ launch the application from your Release/LTS bundle to use that bundle's channel
 ## Linux
 
 Follow the [Windows update steps](#windows). USB-serial OpenBLT also works on
-Linux with a supported ECU and bundle, using 64-bit Java. OpenBLT over CAN is a
-separate option that requires Windows and PCAN.
+Linux with a supported ECU and bundle, using 64-bit Java. Programming over CAN
+has separate adapter and configuration requirements; see
+[Advanced Programming Options](Advanced-Programming-Options).
 
 Linux DFU programming uses `dfu-util`. Use it only when your board's instructions
 call for it, not just because a normal update failed.
@@ -70,6 +93,9 @@ call for it, not just because a normal update failed.
 Use these commands only if your board's procedure calls for a compatible
 `rusefi.dfu` file. Many bundles do not include `.dfu` files. Do not substitute
 another image without the correct instructions.
+
+Manual programming can erase firmware and settings, including the tune. Back up
+what you can and confirm these steps for your exact ECU before proceeding.
 
 You will need dfu-util:
 
@@ -88,10 +114,15 @@ java -jar console/rusefi_console.jar reboot_dfu
 dfu-util -a 0 -D rusefi.dfu
 ```
 
+After manual programming, rusEFI tuner may not reconnect automatically. Reconnect
+manually if needed, then check the installed firmware version and settings.
+
 ## DFU mode
 
-DFU is for advanced programming and recovery. Use OpenBLT for normal updates
-where supported, or DFU when your ECU's instructions require it.
+The application handles the programming method for a normal update where
+supported; you do not need to choose between OpenBLT and DFU. __Recovery / emergency
+programming (DFU)__ is a separate, advanced procedure. Use it only when the
+instructions for your exact ECU call for it, not just because an update failed.
 
 In DFU mode, the normal firmware heartbeat is not running. On Windows, the
 expected device name with the current driver is "STM32 BOOTLOADER". LED layouts
@@ -110,8 +141,10 @@ vary by board; see [LED states](LED-states) and your board's documentation.
 4. If the device still does not appear or you are unsure what to do, stop and
    ask for [support](Support) with the details above.
 
-The recovery methods below can erase firmware and settings. Back up what you
-can and confirm the recovery steps for your board before trying them.
+The recovery methods below can erase firmware and settings, including the tune.
+Back up what you can and confirm the recovery steps for your exact ECU before
+trying them. After recovery, restore a tune backup only after checking it is
+appropriate for the installed firmware and ECU.
 
 ## Corrupted Option Bytes
 

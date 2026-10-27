@@ -59,8 +59,10 @@ __A:__ Yes, microRusEFI can drive 4 wire idle air valves; see settings in [this 
 
 ### How to update microRusEFI Firmware
 
-The best way to update microRusEFI firmware is using rusEFI tuner's "Auto DFU" mode.
-In Auto DFU a few things happen once you click the "Update Firmware" button.
+For a normal microRusEFI firmware update, use [How to Update Firmware](HOWTO-Update-Firmware).
+The application may switch the ECU into DFU automatically as part of that
+update; you do not need to choose DFU as a separate update method. The details
+below describe the automatic DFU behavior and USB enumeration for this board.
 
 1. The Auto DFU procedure works if your Windows device manager shows "STMicroelectronics Virtual COM Port" in the "Ports" category.
 

@@ -63,9 +63,11 @@ and [create a project](HOWTO-create-tunerstudio-project#creating-a-project).
 ## Once your ECU has arrived
 
 Connect first, then follow your board's setup instructions before preparing the
-engine. If you need a firmware update, save your tune and follow
-[How to Update Firmware](HOWTO-Update-Firmware). The Windows installer uses
-snapshot firmware; use a Release/LTS bundle to stay on that channel.
+engine. If you need a firmware update, stop the engine, save your tune, connect
+the ECU, and follow [How to Update Firmware](HOWTO-Update-Firmware). The normal
+update flow does not require choosing a programming protocol. The Windows
+installer uses snapshot firmware; use a Release/LTS bundle to stay on that
+channel.
 
 Installing the application does not update the ECU firmware.
 
