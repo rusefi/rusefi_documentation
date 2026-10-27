@@ -1,15 +1,40 @@
 # How to DFU
 
-DFU is for advanced programming and recovery. For normal updates, start with
-[How to Update Firmware](HOWTO-Update-Firmware). A connection problem alone does
-not mean you need DFU.
+## Recovery / emergency programming (DFU)
 
-DFU is Device Firmware Update mode - that's a way to update firmware via the same USB cable you use for rusEFI communication. DFU is a feature of the STM32 factory bootloader and we expect that any rusEFI board can be updated or reset via the same USB connector as the one you use to communicate with your rusEFI ECU. Please let us know if that's not the case!
+For a normal firmware update, start with [How to Update Firmware](HOWTO-Update-Firmware).
+The application handles the programming method where supported; a connection
+problem alone does not mean you need recovery. Use this guide only when the
+instructions for your exact ECU call for DFU.
+
+DFU (Device Firmware Update) is a mode of the STM32 factory bootloader for
+programming firmware. Whether and how an ECU supports it depends on the board;
+follow that ECU's instructions rather than assuming the USB connection or
+procedure is the same for every board.
+
+Recovery programming can erase firmware and settings, including the tune. Back
+up what you can before starting. If programming erases the tune, restore a
+backup only after checking that it is appropriate for the ECU and installed
+firmware.
+
+Keep the engine stopped and maintain stable power throughout recovery. Connect
+only the ECU you intend to recover; the programming tool cannot select between
+multiple connected ECUs.
+
+If rusEFI tuner detects a supported ECU in recovery mode, the firmware button
+shows __Recover ECU__. Read the warning before continuing. If asked to choose a
+board, select the exact model you connected, then choose __Download firmware and
+recover ECU__. A suggested board is not automatic identification of the connected
+ECU. Manual programming options remain under __Advanced programming tools__.
 
 *Auto DFU* is when rusEFI tuner switches your rusEFI device into DFU mode.
+This can happen as part of a normal update; users do not need to select a
+programming protocol for the usual supported update flow.
 
-*Manual DFU* mode is when you hold the "Program" button while powering your rusEFI in order to switch it into DFU mode. This mode is
-used to program brand new STM32 chips which do not have a running version of rusEFI firmware.
+*Manual DFU* means entering DFU mode using the procedure for your board. Some
+boards use a "Program" button held during power-on; check your board's instructions
+first. This mode is also used to program new STM32 chips without running rusEFI
+firmware.
 
 [HOWTO DFU video](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
@@ -34,6 +59,9 @@ __A:__ The DFU programming interface supports Windows and Linux; Linux uses
 The application's DFU programming interface does not support macOS; use a
 supported host and the recovery procedure documented for your ECU.
 
+After manual programming, rusEFI tuner may not reconnect automatically. Reconnect
+manually if needed, then check the installed firmware version and settings.
+
 *__Q:__ Do you have any ST-Link provisions?*  
 __A:__ Some boards have Tag-Connect-TC2030 or ST-Link connections for development
 and advanced recovery, not normal updates. Use your board's manual for the
@@ -45,7 +73,7 @@ A: See https://github.com/rusefi/rusefi/blob/master/firmware/hw_layer/ports/stm3
 
 ## Related pages
 
-- [How to Update Firmware](HOWTO-Update-Firmware) - main firmware update procedure (Windows and Linux, OpenBLT and DFU).
+- [How to Update Firmware](HOWTO-Update-Firmware) - normal firmware update procedure (Windows and Linux).
 - [HOWTO Flash using STM32CubeProgrammer](HOWTO-flash-using-Stm32CubeProgrammer) - advanced / last-resort flashing via STM32CubeProgrammer (DFU or ST-Link).
 - [F7 Requires Full Erase](F7-requires-full-erase) - some F7 Proteus units require a full erase before a firmware update.
 - [Hardware Validation Failed](HARDWARE-VALIDATION-FAILED) - diagnosing the "HARDWARE VALIDATION FAILED" startup error.

@@ -11,7 +11,7 @@ If you already have your ECU, start with [Quick Start](HOWTO-quick-start).
 | Something is not working | Start with [Troubleshooting](Troubleshooting); ask for help before continuing past a failed safety check. |
 
 > New to the project? Skim the [rusEFI overview on the Home page](Home) first to see what rusEFI is and whether it fits your project.
-
+>
 > Need a term explained? See [Acronyms & Terminology](Vault-Of-Terminology).
 
 ## 1. Choose your hardware
@@ -44,15 +44,18 @@ Firmware is the software running on the ECU. Official boards ship with it
 installed, so you can connect without flashing the ECU.
 
 Before setting up the engine, check your board's update guidance and save a copy
-of any existing tune. If needed, follow [How to Update Firmware](HOWTO-Update-Firmware).
+of any existing tune. If an update is needed, connect the ECU and follow
+[How to Update Firmware](HOWTO-Update-Firmware); you do not need to choose a
+programming protocol for a normal supported update.
 
 Check [Release vs. Snapshot](Release-Snapshot-Latest-firmware) before updating:
 the standard universal installer uses snapshots by default. Use the appropriate
 Release/LTS bundle if you want to remain on that firmware channel.
 
 - [How to Update Firmware](HOWTO-Update-Firmware)
-- [How to DFU](HOWTO-DFU) — for advanced programming or recovery, not for a first
-  connection. If a normal update fails, check the troubleshooting steps first.
+- [Recovery / emergency programming (DFU)](HOWTO-DFU) — only when your ECU's
+  instructions call for it. If a normal update fails, check troubleshooting
+  before considering recovery.
 
 ## 4. Wire it up (universal ECUs)
 
