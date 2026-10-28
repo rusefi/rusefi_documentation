@@ -38,6 +38,12 @@ https://github.com/rusefi/e38-e67-customer-support
 * Depinning tool GM-38125-213 0.64mm DIA Pick Tool SIM to Molex 63813-1400
 * larger USB cap is CAP-WADMLPC2
 
+## Analog clutch input
+
+In the GM dialog, configure **Clutch Travel Analog Input** to enable manual-transmission mode. The Camaro Manual preset selects the clutch sensor on black connector J1 pin 26; the automatic presets leave this input unassigned. For automatic transmission, set this field to **NONE**, including when loading an existing tune. GPIO clutch switches are not used by the E38 configuration.
+
+The custom GM gauges **Raw Clutch Travel** and **Clutch Position** show sensor voltage and calibrated pedal travel. The Camaro calibration maps 3.9 V to released (0%) and 1.0 V to fully depressed (100%). A CAN start request requires more than 60% travel in manual mode; a missing sensor reading blocks that start request.
+
 ## FAQ
 
 *__Q:__ The 3 connector ECU is E67, right?*  
