@@ -215,8 +215,18 @@ changes, and use proper logs when asking others for help.
 sent to OpenAI. This can include readings, settings, messages, and Lua script
 excerpts. Do not include passwords or other sensitive information.
 
-Use **Stop** to cancel a reply or **New conversation** to start over. To save a
-summary for later, ask it to **export a diagnostic case**. Review the saved
+Completed troubleshooting turns are saved automatically on your computer,
+including the conversation and evidence collected by the tab. After reopening
+the Console, select the same ChatGPT account, choose a conversation under
+**Recent sessions**, and click **Resume**. Reconnect the ECU before asking for
+new readings; readings collected before an ECU restart may be stale.
+
+Use **New conversation** to start fresh without removing earlier sessions.
+Select a saved session and click **Delete session** to remove it. **Stop** cancels
+the current reply; an incomplete reply is not added to saved conversation
+history. Session files are kept in `.rusefi/llm-access/sessions` under your
+home folder for the selected account. To save a separate summary for later
+sharing, ask the assistant to **export a diagnostic case**. Review saved
 information before sharing it.
 
 <a id='digital-chart'></a>
