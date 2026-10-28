@@ -2,6 +2,8 @@
 
 rusEFI can drive several different ignition output arrangements, selected by the `ignitionMode` setting. This controls how the ECU's ignition outputs map to the engine's coils. Choose the mode that matches the coils and igniters physically fitted to your engine.
 
+On uaEFI, uaEFI Pro, uaEFI121 and super-uaEFI boards, **Controller > Advanced hardware** provides an **Ignition Mode** selector. The dialog appears immediately after **Experimental 3**, and the selector is enabled when ignition is enabled.
+
 ## Available modes
 
 The `ignitionMode` setting offers these options (labels as shown in TunerStudio):
