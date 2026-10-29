@@ -25,7 +25,7 @@ Controllers that have been used with rusEFI so far include:
 * AEM X-type WBO2
 * AEM older generation WBO2
 
-*rusEFI advises against Innovate wideband controllers.*
+*rusEFI advises against Innovate wideband controllers.* (personal traumatic experience - things just stop working randomly. AEM seems to be way more reliable)
 
 ## Wiring a wideband to rusEFI
 
