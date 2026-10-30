@@ -1,5 +1,7 @@
 # .ini Lookup Logic
 
+Target audience: software developers implementing independent tuning front-end applications. This page is NOT useful for retail customers.
+
 All official rusEFI .ini files are available at https://rusefi.com/online/ini/
 
 Dots should be replaced with slash and the `.ini` suffix should be added.
