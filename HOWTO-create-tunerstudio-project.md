@@ -37,11 +37,9 @@ All official rusEFI boards support automatic ECU definition file download if con
 
 ### Manual Definition Selection
 
-If the definition for your unit wasn't detected automatically, select the file from your [rusEFI bundle](Download).
+Most of frontend tools would download official .ini from our online archieve. If the definition for your unit wasn't detected automatically, select the file from your [rusEFI bundle](Download).
 
 Your rusEFI board should also present itself as a USB storage device to your computer, containing the .ini file you need. This is the most foolproof method of making sure you have the correct .ini file.
-
-If you know your firmware signature but do not have the matching file to hand, every official .ini is published online and the URL can be derived from the signature - see [.ini Lookup Logic](INI-lookup-logic).
 
 ![Browse for Definition](Images/TS/TunerStudio_other_browse.png)
 
