@@ -18,6 +18,8 @@ SOLID GREEN CAN High
 
 GREEN/BLACK CAN Low
 
+No green? That happens. There are two pairs of twisted wires. Looks like we use the one closer to YELLOW +12v. The one with black stripe is LOW.
+
 ## Update via USB
 
 * Download [latest](https://github.com/rusefi/combo10-releases/releases/latest/download/wide-10.25.zip)
