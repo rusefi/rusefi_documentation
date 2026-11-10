@@ -16,6 +16,8 @@ First and second generation Miatas have used four major pinouts; this page goes 
 
 https://github.com/rusefi/rusefi/wiki/SUPERSEAL-adapters#mazda-miata-na--48-pins
 
+https://rusefi.github.io/rusefi_documentation/pages/patchcords/patchcord-NA6_94-superseal-adapter.html
+
 ## Late NA8
 
 While the 1996 and 1997 connector looks the same, the pinout is drastically different from the early NA8.
