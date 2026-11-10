@@ -14,7 +14,7 @@ First and second generation Miatas have used four major pinouts; this page goes 
 
 ## Miata NA6 and early NA8
 
-[Hellen-One-Platform](Hellen-One-Platform)
+https://github.com/rusefi/rusefi/wiki/SUPERSEAL-adapters#mazda-miata-na--48-pins
 
 ## Late NA8
 
