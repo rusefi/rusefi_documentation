@@ -29,3 +29,5 @@ While the NB1 1999-2000 connector still looks similar, it's another different pi
 ## NC
 
 https://github.com/rusefi/rusefi/wiki/SUPERSEAL-adapters#mazda-miata-nc
+
+https://rusefi.github.io/rusefi_documentation/pages/patchcords/patchcord-mazda-nc-adapter.html
