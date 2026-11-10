@@ -25,3 +25,7 @@ While the 1996 and 1997 connector looks the same, the pinout is drastically diff
 ## Early NB
 
 While the NB1 1999-2000 connector still looks similar, it's another different pinout.
+
+## NC
+
+https://github.com/rusefi/rusefi/wiki/SUPERSEAL-adapters#mazda-miata-nc
