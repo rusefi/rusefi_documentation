@@ -8,7 +8,8 @@ New to this? [Transmission Control](Transmission-Control) explains where the Pur
 * Available at the [rusEFI store](https://www.shop.rusefi.com/shop/p/purple-gateway)
 * It's not a standalone TCU: The OEM TCU controls the transmission solenoids.
 * build-in ZF flasher for backup or for when you want to replace firmware in your TCU from one brand to another
-* [8HP](8hp) [BMW](Bmw-8hp) [Dodge](Dodge-8hp) coming soon!
+* [8HP](8hp) [BMW](Bmw-8hp)
+* [8HP](8hp) [Dodge](Dodge-8hp) coming soon!
 * Looks similar to [nano ECU](nano), but that's a totally different thing 😀
 
 [💾Download Software💾](https://rusefi.com/installer/Purple_Updater_windows-x64.exe)
@@ -23,7 +24,7 @@ At the moment we focus on BMW F-series support while working with the following 
 
 * ✅ OEM BMW E9x and siblings
 * ✅ OEM BMW E46 and siblings like E39
-* obviously rusEFI coming soon!
+* rusEFI early testing
 * generic legacy coming soon!
 * GM E38 coming soon!
 
