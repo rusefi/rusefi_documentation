@@ -258,6 +258,8 @@ Bosch Quick Start
 
 If the trigger seems to spin backwards, change from Rising edge to Falling edge and vice versa in the trigger setup in TunerStudio. For more Info see [this forum thread](https://rusefi.com/forum/viewtopic.php?f=17&t=2977).
 
+Also known as GM 4X in GM world.
+
 ### VVT_BOSCH_QUICK_START
 
 Bosch loves this shape, tons of German and GM vehicles use it.
@@ -378,6 +380,10 @@ Mazda L VVT
 ![x](Images/triggers/trigger_TT_VVT_MAZDA_L.png)
 
 ## GM
+
+### GM_4X
+
+GM 4X is same as Bosch Quick Start, which we have!
 
 ### GM_7X
 
