@@ -2,7 +2,7 @@
 
 rusEFI can drive several different ignition output arrangements, selected by the `ignitionMode` setting. This controls how the ECU's ignition outputs map to the engine's coils. Choose the mode that matches the coils and igniters physically fitted to your engine.
 
-On uaEFI, uaEFI Pro, uaEFI121 and super-uaEFI boards, **Controller > Advanced hardware** provides an **Ignition Mode** selector. The dialog appears immediately after **Experimental 3**, and the selector is enabled when ignition is enabled.
+On uaEFI, uaEFI Pro, uaEFI121 and super-uaEFI boards, **Controller > Advanced hardware** provides an **Ignition Output Mode** selector (`ignitionPinMode`) for the electrical output mode: default, default inverted, open collector, or open collector inverted. The dialog appears immediately after **Experimental 3**, and the selector is enabled when ignition is enabled. This is separate from the coil arrangement selected by `ignitionMode`.
 
 ## Available modes
 
