@@ -20,7 +20,7 @@ By default Tuner Studio connectivity is using pin PC10 for TX and PC11 RX. Do no
 
 Please be sure to use current firmware version with current rusefi.ini project from the [build server](http://rusefi.com/build_server/rusefi_firmware.zip).
 
-First of all, make sure that you have serial port drivers installed. You need STMicroelectronics Virtual COM port for microUSB, or USB serial for PC10/PC11.
+First, make sure that Windows has installed the appropriate drivers. USB-to-serial adapters for PC10/PC11 need their adapter's driver. For affected F7 boards with composite USB, check the parent driver as described below.
 
 ![Device Manager Ports](Images/device_manager_ports.png)
 
@@ -48,6 +48,14 @@ __A:__ Like this:
 ![TunerStudio Mini Terminal](Images/TS/ts_mini_terminal.png)
 
 Note there are no new lines between 't' symbols. Note that at first some random stuff was received once and that's OK.
+
+### Windows F7: only one STMicroelectronics COM port appears
+
+If Console/TunerStudio cannot connect and only **STMicroelectronics Virtual COM Port** appears, the legacy ST driver may be attached to the physical USB parent. This can prevent Windows from exposing the separate Console/TunerStudio, SLCAN, and mass-storage functions. See the [reported diagnosis](https://github.com/rusefi/rusefi/issues/10286#issuecomment-6304806849).
+
+In Device Manager, identify the board's parent through **Properties > Details**: hardware ID `USB\VID_0483&PID_5740`, device instance path without `&MI_`, and compatible ID `USB\COMPOSITE`. For that parent, use **Update Driver > Browse my computer for drivers > Let me pick** to select Microsoft's **USB Composite Device**. If needed, use **Have Disk** and the Windows installation's `INF\usb.inf`. Cancel if the intended model is unavailable. Reconnect, then confirm the parent uses `usbccgp.sys` and the serial functions appear. Identify the ECU port by a successful connection, rather than COM-number order.
+
+Follow the [full Windows UI workaround](https://github.com/rusefi/rusefi/blob/master/workaround.md) for identification, verification, and rollback steps. The UI procedure is not verified on hardware. The installed ST driver package stays in place; simply removing and reconnecting the device can select it again.
 
 ### USB TTL cable
 
