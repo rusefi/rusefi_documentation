@@ -2,7 +2,7 @@
 
 Source documents (in this folder):
 
-- `2015 Jeep Truck Grand Cherokee 2WD 3.6 v6 ECU.pdf` — 2015 Jeep Grand Cherokee 2WD, V6-3.6L Pentastar, Engine Controls wiring diagram (ALLDATA)
+- `2015-Jeep-Truck-Grand-Cherokee-2WD-3.6-v6-ECU.pdf` — 2015 Jeep Grand Cherokee 2WD, V6-3.6L Pentastar, Engine Controls wiring diagram (ALLDATA)
 - `2018-Dodge-Durango-2WD-5.7-Hemi-PCM-pinout.pdf` — 2018 Dodge/Ram Durango 2WD, V8-5.7L Hemi, Engine Controls wiring diagram (ALLDATA)
 
 Both PCMs use the same physical architecture: **two 96-way connectors**, with **C1 as the body/chassis-side connector** and **C2 as the engine-side connector**. Chrysler circuit codes (K11, F342, D27, …) are consistent between the two vehicles, which makes circuit-by-circuit matching reliable.

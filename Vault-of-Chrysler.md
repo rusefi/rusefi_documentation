@@ -6,7 +6,7 @@
 
 [2018 5.7 adapter](https://rusefi.com/docs/pinouts/hemi-pnp/)
 
-[3.6 vehicle ECU diagram](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Chrysler/2015%20Jeep%20Truck%20Grand%20Cherokee%202WD%203.6%20v6%20ECU.pdf)
+[3.6 vehicle ECU diagram](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Chrysler/2015-Jeep-Truck-Grand-Cherokee-2WD-3.6-v6-ECU.pdf)
 
 [5.7 vehicle ECU diagram](https://github.com/rusefi/rusefi_documentation/blob/master/OEM-Docs/Chrysler/2018-Dodge-Durango-2WD-5.7-Hemi-PCM-pinout.pdf)
 
