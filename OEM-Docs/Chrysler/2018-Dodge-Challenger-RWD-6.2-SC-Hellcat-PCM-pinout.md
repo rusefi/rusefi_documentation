@@ -1,6 +1,6 @@
 # 2018 Dodge Challenger RWD V8-6.2L SC (Hellcat) — PCM pinout
 
-Transcribed from [2018 Dodge Challenger RWD 6.2SC ECU hellcat.pdf](2018%20Dodge%20Challenger%20RWD%206.2SC%20ECU%20hellcat.pdf) (ALLDATA "Engine Controls" wiring diagram, Electrical - Interactive Color (Non OE), diagram pages 1-6 = PDF pages 2-7, sheets 585219-585224).
+Transcribed from [2018-Dodge-Challenger-RWD-6.2-SC-Hellcat-PCM-pinout.pdf](2018-Dodge-Challenger-RWD-6.2-SC-Hellcat-PCM-pinout.pdf) (ALLDATA "Engine Controls" wiring diagram, Electrical - Interactive Color (Non OE), diagram pages 1-6 = PDF pages 2-7, sheets 585219-585224).
 
 Powertrain Control Module (PCM), located right rear of engine compartment. Two 96-way connectors: C1 (chassis/body side) and C2 (engine side). The diagram is shared with the Demon; circuits that differ are marked (Demon)/(except Demon) below, and (M/T) marks manual-transmission circuits.
 

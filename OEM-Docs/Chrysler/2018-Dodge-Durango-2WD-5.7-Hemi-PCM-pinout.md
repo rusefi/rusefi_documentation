@@ -1,6 +1,6 @@
 # 2018 Dodge Durango 2WD V8-5.7L Hemi — PCM pinout
 
-Transcribed from [2018 Dodge or Ram Truck Durango 2WD ECU 5.7.pdf](2018%20Dodge%20or%20Ram%20Truck%20Durango%202WD%20ECU%205.7.pdf) (ALLDATA "Engine Controls" wiring diagram, Electrical - Interactive Color (Non OE), diagram pages 1-6 = PDF pages 2-7, sheets 585131-585136).
+Transcribed from [2018-Dodge-Durango-2WD-5.7-Hemi-PCM-pinout.pdf](2018-Dodge-Durango-2WD-5.7-Hemi-PCM-pinout.pdf) (ALLDATA "Engine Controls" wiring diagram, Electrical - Interactive Color (Non OE), diagram pages 1-6 = PDF pages 2-7, sheets 585131-585136).
 
 Powertrain Control Module (PCM), located right front of engine compartment. Two 96-way connectors: C1 (chassis/body side) and C2 (engine side). The diagram is shared with the 6.4L Durango; where a component location or circuit differs by engine it is marked (5.7L)/(6.4L) below.
 
