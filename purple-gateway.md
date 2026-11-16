@@ -93,6 +93,10 @@ A: we are unable to help if ECU was not mentioned
 
 A: yes, documentation is bad. TCU gateway is maybe 3rd or 4th priority for us right now. Feel free to invest dollars for this to move forward faster!
 
+### Q: Bundle?
+
+If you are offline, you can work with [software bundle](https://rusefi.com/fw-private/rusefi_bundle_purple-gateway_obfuscated_public.zip)
+
 ## Changelog
 
 rev D: CANbus wake-up
