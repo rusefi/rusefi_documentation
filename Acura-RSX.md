@@ -4,7 +4,7 @@
 
 ## 2003
 
-[2003-acura-rsx-type-R.pdf](https://github.com/rusefi/rusefi_documentation/raw/master/OEM-Docs/Honda/2003-acura-rsx-type-R.pdf)
+[Transcribed 2003 ECM/PCM circuit pinout](OEM-Docs/Honda/2003-Acura-RSX-Type-S-2.0L-ECM-pinout.md) and [source PDF](https://github.com/rusefi/rusefi_documentation/raw/master/OEM-Docs/Honda/2003-acura-rsx-type-R.pdf).
 
 The PDF's printed vehicle title is **2003 Acura RSX Type S**, despite the filename saying Type R; its diagrams include alternative base/Type S branches.
 
