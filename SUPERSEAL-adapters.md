@@ -19,6 +19,7 @@ Adapters are sorted by the OEM vehicle pin count. Where the board uses a larger 
 - [VAG Bosch ME7 — 121 pins](#vag-121--bosch-me7)
 - [Toyota Aristo JZS161 — 122 pins](#toyota-122-aristo-jzs161)
 - [Honda K-series / Acura RSX — 125 pins](#honda-k--125-pins)
+- [BMW E46 316ti N42B18 — 134 pins](#bmw-134--n42)
 - [Subaru Impreza WRX / WRX STI — 135 pins](#subaru-135-impreza-wrx-wrx-sti)
 - [Kawasaki Ninja ZX-4R reference — 136 pins](#kawasaki)
 - [BMW N52 — 146 pins](#bmw-146---n52--msv80)
@@ -42,6 +43,24 @@ The BMW Motronic 88 Superseal adapter connects the 88-terminal vehicle harness t
 <img src="Hardware-files/adapters/BMW-88-adapter/BMW-88-superseal-adapter-front.png" alt="BMW Motronic 88 Superseal adapter - component and connector side, KiCad render" width="600" />
 
 <img src="Hardware-files/adapters/BMW-88-adapter/BMW-88-superseal-adapter-back.png" alt="BMW Motronic 88 Superseal adapter - reverse side, KiCad render" width="600" />
+
+### BMW 134 — N42
+
+The BMW E46 316ti adapter connects the 134-terminal Bosch ME9.2 vehicle connector (TE 7-967288-1) to Superseal 60+26 (1A–34A, 1B–26B and 1C–26C). Nine further documented circuits have individual solder access pads.
+
+- **Engine: 1.8L N42B18.** The pinouts identify the separate sensor returns and additional N42 circuits.
+- **Ignition:** Four onboard power drivers for stock coils. For compatible smart coils, remove the corresponding Q1–Q4 and populate its R9–R12 bypass. Never populate both paths together.
+- **Valvetronic and BSD:** Valvetronic CAN, its emergency-control line and BSD are routed to Superseal; their operation requires support in the connected ECU.
+
+[📄 Adapter schematics (PDF)](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware-files/adapters/BMW-E46-N42-adapter/BMW-E46-N42-superseal-adapter.pdf)
+
+[🚗 Vehicle pinout 🚗](https://rusefi.com/docs/pinouts/BMW-E46-N42/) | [🔌 Adapter board pinout 🔌](https://rusefi.com/docs/pinouts/BMW-E46-N42-adapter/)
+
+[Reference pinout — BMW N42 Service Training, chapter 4](https://pdfcoffee.com/mfp-pi-n42-en-pdf-free.html)
+
+<img src="Hardware-files/adapters/BMW-E46-N42-adapter/BMW-E46-N42-superseal-adapter-front.png" alt="BMW E46 N42 Superseal adapter - component and connector side, KiCad render" width="600" />
+
+<img src="Hardware-files/adapters/BMW-E46-N42-adapter/BMW-E46-N42-superseal-adapter-back.png" alt="BMW E46 N42 Superseal adapter - reverse side, KiCad render" width="600" />
 
 ### BMW 146 - N52 / MSV80
 
