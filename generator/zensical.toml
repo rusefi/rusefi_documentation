@@ -96,15 +96,27 @@ nav = [
     {"rusEFI Hardware Overview" = "Hardware.md"},
     {"ECU Comparison" = "ECU-Comparison.md"},
     {"Universal ECUs" = [
+      {"nano" = "nano.md"},
       {"uaEFI" = "uaEFI.md"},
-      {"microRusEFI" = "microRusEFI-Manual.md"},
-      {"Proteus" = "Proteus-Manual.md"}
+      {"uaEFI 121" = "uaefi121.md"},
+      {"super uaEFI" = "super-uaEFI.md"},
+      {"rusEFI Huge" = "rusEFI-Huge.md"},
+      {"Power4GDI" = "Power4GDI.md"}
     ]},
     {"Plug-and-Play ECUs" = [
       {"Honda OBD1" = "uaEFI-Honda-OBD1.md"},
       {"GM E38" = "GM-E38.md"},
       {"GM E92" = "PnP-E92.md"},
       {"Hellen" = "Hellen-One-Platform.md"}
+    ]},
+    {"Legacy ECUs" = [
+      {"Proteus" = "Proteus-Manual.md"},
+      {"microRusEFI" = "microRusEFI-Manual.md"}
+    ]},
+    {"Purple Gateway" = "purple-gateway.md"},
+    {"Dashes" = [
+      {"wide10" = "wide10.25.md"},
+      {"combo10" = "combo10.md"}
     ]},
 		{"Other Hardware" = "Other-Hardware.md"}
   ]},
@@ -119,7 +131,8 @@ nav = [
   {"Contributors" = [
     {"Contribute to Firmware" = "HOWTO-contribute-to-firmware.md"},
     {"Contribute to Documentation" = "HOWTO-contribute-to-documentation.md"}
-  ]}
+  ]},
+  {"Shop" = "https://www.shop.rusefi.com/"}
 ]
 
 [project.extra.analytics]

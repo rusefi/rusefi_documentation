@@ -81,9 +81,12 @@
 
 ### Universal ECUs
 
+- [nano](nano)
 - [uaEFI](uaEFI)
-- [microRusEFI](microRusEFI-Manual)
-- [Proteus](Proteus-Manual)
+- [uaEFI 121](uaefi121)
+- [super uaEFI](super-uaEFI)
+- [rusEFI Huge](rusEFI-Huge)
+- [Power4GDI](Power4GDI)
 
 ### Plug-and-Play ECUs
 
@@ -92,7 +95,19 @@
 - [GM E92](PnP-E92)
 - [Hellen](Hellen-One-Platform)
 
-- [Other Hardware](Other-Hardware)
+### Legacy ECUs
+
+- [Proteus](Proteus-Manual)
+- [microRusEFI](microRusEFI-Manual)
+
+### [Purple Gateway](purple-gateway)
+
+### Dashes
+
+- [wide10](wide10.25)
+- [combo10](combo10)
+
+### [Other Hardware](Other-Hardware)
 
 ## Index
 
@@ -107,3 +122,5 @@
 
 - [Contribute To Firmware](HOWTO-contribute-to-firmware)
 - [Contribute to Documentation](HOWTO-contribute-to-documentation)
+
+## [Shop](https://www.shop.rusefi.com/)
