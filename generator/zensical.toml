@@ -35,7 +35,8 @@ edit = "material/pencil"
 view = "material/eye"
 
 [project]
-site_name = "Wiki"
+site_name = "rusEFI Wiki"
+site_description = "Documentation for rusEFI engine control units (ECUs) and open-source firmware: choosing a board, wiring, setup, tuning and troubleshooting."
 site_url = "https://wiki.rusefi.com/"
 repo_url = "https://github.com/rusefi/rusefi"
 repo_name = "rusefi/rusefi"
