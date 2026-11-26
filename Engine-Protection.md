@@ -28,6 +28,8 @@ Cut code `OilPressure`. Controlled by `minOilPressureAfterStart`:
 
 This is the protection most worth wiring up on any engine you care about, and it needs an [oil pressure sensor](Oil-Pressure-Sensor) to work.
 
+The check is made once, five seconds after start, and only a working sensor that never showed enough pressure cuts fuel; the cut then stays until the engine stops. A failed sensor (for example a broken wire) does not trip this check - it is reported by its own fault code - so a failed sensor also means this protection is not active.
+
 ### Lean protection
 
 Cut code `LambdaProtection`. Watches measured lambda and acts if the engine goes lean when it is loaded up — the condition that melts pistons. It needs a working [wideband sensor](Wide-Band-Sensors).
