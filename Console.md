@@ -132,6 +132,12 @@ setting's **Help** button when available for its instructions. Use the shared
 tuning controls to undo, discard, save a tune file, or burn changes to the ECU.
 In **Pinout**, double-click an assigned pin to open its settings page.
 
+To change a tuning table's layout, right-click the top-left header cell and
+select **Flip X/Y axes**, **Invert X axis**, or **Invert Y axis**. Flip exchanges
+the horizontal and vertical axes; each Invert option reverses that axis's
+displayed order. These choices are saved for each table on this computer and
+do not change the stored tune values.
+
 ## Keyboard shortcuts
 
 Open **Shortcuts** in the menu bar or press **F1** to see the keyboard reference.
