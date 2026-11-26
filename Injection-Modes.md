@@ -18,6 +18,8 @@ Injectors fire in groups (banks) rather than individually, typically delivering 
 
 Each injector is fired individually, timed to its own cylinder's cycle. Sequential injection needs **camshaft synchronization** so the firmware knows each cylinder's position in the four-stroke cycle. This is the mode to use for fully sequential fuelling.
 
+Until the camshaft signal has synchronized - at the start of cranking, and again after a trigger error - the firmware injects in batch and switches to sequential as soon as the engine phase is known. This applies when a cam input is configured and the crank pattern alone cannot tell the two revolutions of the cycle apart. With no cam input configured, sequential is used as selected, on a phase that is correct only half the time.
+
 ### Single Point
 
 A single injector (or a small number of injectors) mounted at a central location, such as a throttle body, feeds all cylinders — the arrangement used by throttle-body injection (TBI) systems.
