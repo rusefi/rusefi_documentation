@@ -16,6 +16,14 @@ The overall feature is turned on with `antiLagEnabled`. When and how it runs is 
 - **Always Active** — runs whenever its configured conditions are met.
 - **Lua** — activated from a [Lua script](Lua-Scripting), for custom activation logic.
 
+## Activation conditions and timeout
+
+Anti-lag runs only while all of these are true: RPM is between "Min RPM" and "Max RPM", coolant temperature is between "Min CLT" and "Max CLT", the throttle request (pedal, or TPS without a pedal) is below "Max TPS" and valid, and the selected activation mode requests it.
+
+"ALS timeout" limits how long one activation lasts. It counts from the moment all of the conditions above become true. After it expires, anti-lag stays off until at least one condition drops out, for example the switch is released or the throttle is opened, and then becomes true again. Set it to 0 for no time limit; a continuously running strategy such as rotational idle needs 0.
+
+The `ALSTimerCondition` log channel turns off only while the timeout is what holds anti-lag off.
+
 ## Tuning
 
 The timing, fuelling, and the RPM and throttle conditions that anti-lag uses are configured in TunerStudio. Set them conservatively, watch EGT closely, and confirm the behaviour on a [log](Logging-Guide) before relying on it.
