@@ -1,6 +1,6 @@
 # rusEFI Huge
 
-Our older, fully-featured, larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/rusefi-huge)
+Our most powerful ECU with dual WBO, available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/rusefi-huge)
 
 🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](Discord) 🔴
 
@@ -25,6 +25,7 @@ Our older, fully-featured, larger ECU available at [💲rusEFI store💲](https:
 * Dual channel knock input
 * Dual CANbus
 * Dual on-board WBO controller supporting LSU 4.9
+* Ships with an enclosure
 * optional to mount on-board MAP sensor: vertical mpxh6400a, legacy horizontal mpx4250ap
 * optional [JDY-33 bluetooth](Bluetooth)
 

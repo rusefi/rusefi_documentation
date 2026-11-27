@@ -1,5 +1,7 @@
 # Proteus Manual
 
+> **Legacy board.** For a new build see [super uaEFI](super-uaEFI) or [rusEFI Huge](rusEFI-Huge). All boards: [ECU Comparison](ECU-Comparison).
+
 Our older fully-featured larger ECU available at [💲rusEFI Store💲](https://www.shop.rusefi.com/shop/p/spring-blade-cyy7n)
 
 🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](Discord) 🔴
