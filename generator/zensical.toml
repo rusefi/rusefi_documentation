@@ -121,6 +121,7 @@ nav = [
     ]},
 		{"Other Hardware" = "Other-Hardware.md"}
   ]},
+  {"Vehicles and Engines" = "Vehicles-and-Engines.md"},
   {"Index" = [
     {"Fuel" = "Pages-Fuel.md"},
     {"Sensors and Actuators" = "Pages-Sensors-and-Actuators.md"},
