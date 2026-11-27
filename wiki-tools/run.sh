@@ -45,6 +45,7 @@ fi
 cd generator
 
 cp style.css docs
+cp meta-pixel.js docs
 
 if [ -n "$1" ]; then
 	if [ "$1" != "update" ]; then

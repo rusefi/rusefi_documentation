@@ -43,6 +43,7 @@ repo_name = "rusefi/rusefi"
 edit_uri = "https://github.com/rusefi/rusefi_documentation/edit/master/"
 site_dir = "wiki"
 extra_css = ["style.css"]
+extra_javascript = ["meta-pixel.js"]
 
 nav = [
   {"Downloads" = "Download.md"},
