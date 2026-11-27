@@ -109,6 +109,8 @@
 
 ### [Other Hardware](Other-Hardware)
 
+## [Vehicles and Engines](Vehicles-and-Engines)
+
 ## Index
 
 - [Fuel](Pages-Fuel)
