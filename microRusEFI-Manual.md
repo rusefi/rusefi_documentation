@@ -1,6 +1,8 @@
 # microRusEFI
 
-Our older, fully-featured, larger ECU available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/microrusefi-assembled-ecu-development-module)
+> __Legacy board.__ For a new build see [nano](nano), [uaEFI](uaEFI) or [uaEFI 121](uaefi121). All boards: [ECU Comparison](ECU-Comparison).
+
+Our 4 cylinder ECU with electronic throttle, available at [💲rusEFI store💲](https://www.shop.rusefi.com/shop/p/microrusefi-assembled-ecu-development-module)
 
 🔴 Community support ONLY 🔴 [Support Statement](Support) 🔴 [Facebook group](https://www.facebook.com/groups/rusEfi) 🔴 [Discord](https://github.com/rusefi/rusefi/wiki/Discord) 🔴
 

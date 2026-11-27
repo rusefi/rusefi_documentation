@@ -9,7 +9,7 @@ For prices, store links and a short description of each board, see the [Hardware
 - **1 or 2 cylinders, or a small batch-fire 4** — [nano](nano). Inductive ignition only, not CDI compatible.
 - **Up to 6 cylinders, sequential** — [uaEFI](uaEFI). Wideband, knock and barometric sensing already on the board.
 - **6 to 8 cylinders in a sealed or automotive-connector package** — [uaEFI 121](uaefi121) or [super-uaEFI](super-uaEFI). Same core as uaEFI.
-- **10 to 12 cylinders, dual electronic throttle** — [Huge](rusEFI-Huge) or [Proteus](Proteus-Manual). Proteus adds an IP68 case.
+- **10 to 12 cylinders, dual electronic throttle** — [Huge](rusEFI-Huge) or [Proteus](Proteus-Manual).
 - **4 cylinder gasoline direct injection** — [Power4GDI](Power4GDI).
 
 ## Engine capability
@@ -60,7 +60,7 @@ No board sets a default tachometer pin in firmware, so on every unit except nano
 | | nano | uaEFI | uaEFI 121 | super-uaEFI | Huge | Power4GDI | Proteus | microRusEFI |
 |---|---|---|---|---|---|---|---|---|
 | Connector | Superseal 26 pin | Molex Mini-Fit Jr, 68 circuits | TE 121 pin | Superseal 120 pin | Superseal 120 pin | Superseal 68 pin | TE Ampseal 93 pin | 48 pin |
-| Enclosure | — | — | metal | — | — | — | IP68 waterproof | — |
+| Enclosure | — | — | metal | — | yes | — | yes | — |
 | Schematics published | — | repo and gerbers | no ƒ | PDF | PDF and iBOM | PDF | repo | repo |
 | Released | 2025 | 2023 | 2023 | 2023 | 2023 | 2024 | 2020 | 2019 |
 
