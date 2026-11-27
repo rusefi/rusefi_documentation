@@ -60,14 +60,14 @@ No board sets a default tachometer pin in firmware, so on every unit except nano
 | | nano | uaEFI | uaEFI 121 | super-uaEFI | Huge | Power4GDI | Proteus | microRusEFI |
 |---|---|---|---|---|---|---|---|---|
 | Connector | Superseal 26 pin | Molex Mini-Fit Jr, 68 circuits | TE 121 pin | Superseal 120 pin | Superseal 120 pin | Superseal 68 pin | TE Ampseal 93 pin | 48 pin |
-| Enclosure | — | — | metal | — | yes | — | yes | — |
+| Enclosure | yes | optional metal | metal | optional | yes | yes | yes | — |
 | Schematics published | — | repo and gerbers | no ƒ | PDF | PDF and iBOM | PDF | repo | repo |
 | Released | 2025 | 2023 | 2023 | 2023 | 2023 | 2024 | 2020 | 2019 |
 
 ## How to read this
 
 - **yes** or a number means the feature is on the board as sold.
-- **optional** means the part is not fitted by default and has to be soldered on.
+- **optional** means the part is not fitted by default and has to be soldered on. In the Enclosure row it means an enclosure is available but does not come as standard.
 - **—** means the board does not have it.
 - **ƒ** marks a value established from the firmware rather than from a board page, because the board page does not state it. Each one is listed below.
 
